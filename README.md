@@ -1,4 +1,4 @@
-# CookChem
+# CookRisk
 
 Cooking-Induced Compound Retention Prediction & Risk Scoring.
 
