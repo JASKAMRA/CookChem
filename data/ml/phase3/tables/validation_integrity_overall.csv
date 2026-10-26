@@ -1,0 +1,12 @@
+check,status,value
+dataset_rows,PASS,1124
+unique_groups,PASS,197
+target_column_present,PASS,Retention_Final
+group_column_present,PASS,Canonical_Molecular_ID
+oof_rows_phase2_candidate,PASS,1124
+oof_unique_record_ids_phase2,PASS,1124
+oof_unique_record_ids_phase1,PASS,1124
+no_target_derived_predictor_in_final_recipe,PASS,Retention-derived fields excluded; Apparent_Increase excluded.
+leakage_columns_not_in_candidate_recipe,PASS,
+group_used_only_for_grouping,PASS,Canonical_Molecular_ID
+all_records_have_phase2_oof_fold,PASS,0

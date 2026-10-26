@@ -1,0 +1,474 @@
+{
+  "repo_root": "C:\\Users\\kamra\\Desktop\\BTP\\CookChem",
+  "dataset_path": "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\data\\preprocessing\\final\\cookchem_molecular_retention_preprocessed.csv",
+  "baseline_root": "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\data\\ml\\baseline",
+  "output_root": "C:\\Users\\kamra\\Desktop\\CookChem\\data\\ml\\phase2",
+  "random_seed": 42,
+  "target_column": "Retention_Final",
+  "group_column": "Canonical_Molecular_ID",
+  "cv_method": "GroupKFold",
+  "cv_splits": 5,
+  "experiments": [
+    {
+      "experiment_id": "A01_full_sparse_reference",
+      "stage": "A_sparse_ablation",
+      "feature_set_name": "full_phase1_feature_recipe",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Phase 2 sparse-feature reference using the frozen Phase 1 best model recipe."
+    },
+    {
+      "experiment_id": "A02_no_pressure",
+      "stage": "A_sparse_ablation",
+      "feature_set_name": "no_pressure",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Ablation of Pressure_kPa only."
+    },
+    {
+      "experiment_id": "A03_no_microwave",
+      "stage": "A_sparse_ablation",
+      "feature_set_name": "no_microwave",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Ablation of Microwave_Power_W only."
+    },
+    {
+      "experiment_id": "A04_no_oil",
+      "stage": "A_sparse_ablation",
+      "feature_set_name": "no_oil",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Ablation of Oil_Type_Standardized only."
+    },
+    {
+      "experiment_id": "A05_no_sparse_features",
+      "stage": "A_sparse_ablation",
+      "feature_set_name": "no_sparse_features",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Ablation of Pressure_kPa, Microwave_Power_W, and Oil_Type_Standardized together."
+    },
+    {
+      "experiment_id": "B01_food_current",
+      "stage": "B_food_cardinality",
+      "feature_set_name": "food_current",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Keep Food_Name_Standardized as-is after sparse-feature decision."
+    },
+    {
+      "experiment_id": "B02_food_excluded",
+      "stage": "B_food_cardinality",
+      "feature_set_name": "food_excluded",
+      "food_strategy": "exclude",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Exclude Food_Name_Standardized after sparse-feature decision."
+    },
+    {
+      "experiment_id": "B03_food_top20_other",
+      "stage": "B_food_cardinality",
+      "feature_set_name": "food_top20_other",
+      "food_strategy": "top_k_other",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Collapse food categories to top-20 plus Other, fitted within each training fold."
+    },
+    {
+      "experiment_id": "C01_keep_all_descriptors",
+      "stage": "C_descriptor_redundancy",
+      "feature_set_name": "descriptor_full",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Retain all descriptors after sparse/food decisions."
+    },
+    {
+      "experiment_id": "C02_drop_heavy_atom_count",
+      "stage": "C_descriptor_redundancy",
+      "feature_set_name": "descriptor_no_heavy_atom_count",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Drop RDKit_Heavy_Atom_Count because it is almost perfectly correlated with RDKit_Molecular_Weight."
+    },
+    {
+      "experiment_id": "C03_drop_hydroxyl_groups",
+      "stage": "C_descriptor_redundancy",
+      "feature_set_name": "descriptor_no_hydroxyl_groups",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Drop RDKit_Hydroxyl_Groups because it is highly redundant and carries the only descriptor missingness."
+    },
+    {
+      "experiment_id": "C04_drop_heavy_atom_and_hydroxyl",
+      "stage": "C_descriptor_redundancy",
+      "feature_set_name": "descriptor_compact_pair",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Drop both RDKit_Heavy_Atom_Count and RDKit_Hydroxyl_Groups after redundancy review."
+    },
+    {
+      "experiment_id": "D01_no_engineering",
+      "stage": "D_feature_engineering",
+      "feature_set_name": "no_engineering",
+      "food_strategy": "current",
+      "engineered_features": [],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Carry forward the selected sparse/food/redundancy recipe without new engineered features."
+    },
+    {
+      "experiment_id": "D02_temp_time_interaction",
+      "stage": "D_feature_engineering",
+      "feature_set_name": "temp_time_interaction",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time"
+      ],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Add temperature-time interaction and log cooking time to capture joint thermal exposure."
+    },
+    {
+      "experiment_id": "D03_targeted_interactions",
+      "stage": "D_feature_engineering",
+      "feature_set_name": "targeted_interactions",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Add temperature-time, log cooking time, log initial concentration, logP-temperature, and TPSA-time interactions."
+    },
+    {
+      "experiment_id": "E01_full_engineered_features",
+      "stage": "E_feature_selection",
+      "feature_set_name": "full_engineered_features",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Use the best engineered recipe without supervised feature selection."
+    },
+    {
+      "experiment_id": "E02_selected_engineered_features",
+      "stage": "E_feature_selection",
+      "feature_set_name": "selected_engineered_features",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "tree_importance_median",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Apply tree-based SelectFromModel inside the fold-safe pipeline."
+    },
+    {
+      "experiment_id": "F01_ridge_log1p",
+      "stage": "F_model_comparison",
+      "feature_set_name": "selected_phase2_recipe",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "ridge",
+      "target_representation": "log1p",
+      "hyperparameters": {
+        "alpha": 1.0
+      },
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Linear reference on the selected Phase 2 feature recipe."
+    },
+    {
+      "experiment_id": "F02_gradient_boosting_log1p",
+      "stage": "F_model_comparison",
+      "feature_set_name": "selected_phase2_recipe",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "GradientBoosting on the selected Phase 2 feature recipe."
+    },
+    {
+      "experiment_id": "F03_hist_gradient_boosting_log1p",
+      "stage": "F_model_comparison",
+      "feature_set_name": "selected_phase2_recipe",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "HistGradientBoosting on the selected Phase 2 feature recipe."
+    },
+    {
+      "experiment_id": "F04_random_forest_log1p",
+      "stage": "F_model_comparison",
+      "feature_set_name": "selected_phase2_recipe",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "random_forest",
+      "target_representation": "log1p",
+      "hyperparameters": {
+        "min_samples_leaf": 2,
+        "n_estimators": 300
+      },
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "RandomForest on the selected Phase 2 feature recipe."
+    },
+    {
+      "experiment_id": "F05_extra_trees_log1p",
+      "stage": "F_model_comparison",
+      "feature_set_name": "selected_phase2_recipe",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "extra_trees",
+      "target_representation": "log1p",
+      "hyperparameters": {
+        "min_samples_leaf": 2,
+        "n_estimators": 300
+      },
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "ExtraTrees on the selected Phase 2 feature recipe."
+    },
+    {
+      "experiment_id": "F06_hist_gradient_boosting_raw",
+      "stage": "F_model_comparison",
+      "feature_set_name": "selected_phase2_recipe",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "raw",
+      "hyperparameters": {},
+      "tuned": false,
+      "tune_grid": {},
+      "notes": "Raw-target HistGradientBoosting comparison on the selected Phase 2 feature recipe."
+    },
+    {
+      "experiment_id": "G01_hist_gradient_boosting_tuned",
+      "stage": "G_hyperparameter_tuning",
+      "feature_set_name": "selected_phase2_recipe_tuned",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "hist_gradient_boosting",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": true,
+      "tune_grid": {
+        "learning_rate": [
+          0.03,
+          0.05
+        ],
+        "max_leaf_nodes": [
+          15,
+          31
+        ],
+        "min_samples_leaf": [
+          20
+        ]
+      },
+      "notes": "Nested grouped-CV tuning for HistGradientBoosting."
+    },
+    {
+      "experiment_id": "G02_extra_trees_tuned",
+      "stage": "G_hyperparameter_tuning",
+      "feature_set_name": "selected_phase2_recipe_tuned",
+      "food_strategy": "current",
+      "engineered_features": [
+        "temperature_time_interaction",
+        "log_cooking_time",
+        "log_initial_concentration",
+        "logp_temperature_interaction",
+        "tpsa_time_interaction"
+      ],
+      "selection_strategy": "none",
+      "model_name": "extra_trees",
+      "target_representation": "log1p",
+      "hyperparameters": {},
+      "tuned": true,
+      "tune_grid": {
+        "max_depth": [
+          null,
+          18
+        ],
+        "max_features": [
+          "sqrt"
+        ],
+        "min_samples_leaf": [
+          1,
+          2
+        ],
+        "n_estimators": [
+          200
+        ]
+      },
+      "notes": "Nested grouped-CV tuning for ExtraTrees."
+    }
+  ],
+  "software": {
+    "python": "3.12.13",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.1",
+    "shap": "0.52.0"
+  }
+}

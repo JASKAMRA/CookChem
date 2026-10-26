@@ -1,0 +1,42 @@
+{
+  "dataset_path": "data/preprocessing/final/cookchem_molecular_retention_preprocessed.csv",
+  "row_count": 1124,
+  "column_count": 47,
+  "unique_canonical_molecular_id": 197,
+  "target_missing_count": 0,
+  "target_min": 1.46434635,
+  "target_max": 3650.0,
+  "target_median": 78.0,
+  "target_mean": 96.40236734690035,
+  "target_std": 163.89625531291318,
+  "target_skewness": 13.86892347930299,
+  "apparent_increase_count_gt_100": 189,
+  "group_size_summary": {
+    "min": 1,
+    "median": 4.0,
+    "mean": 5.7055837563451774,
+    "max": 102
+  },
+  "predictors_with_extremely_high_missingness": [
+    "Pressure_kPa",
+    "Microwave_Power_W",
+    "Oil_Type_Standardized"
+  ],
+  "incomplete_molecular_descriptors": [
+    {
+      "descriptor": "RDKit_Hydroxyl_Groups",
+      "missing_rows": 14
+    }
+  ],
+  "rdkit_hydroxyl_groups_missing_rows": 14,
+  "rdkit_hydroxyl_groups_incomplete_compounds": [
+    {
+      "Canonical_Molecular_ID": "PUBCHEM_441674",
+      "Canonical_Compound_Name": "Cyanidin-3-O-rutinoside"
+    },
+    {
+      "Canonical_Molecular_ID": "PUBCHEM_443654",
+      "Canonical_Compound_Name": "Peonidin-3-O-glucoside"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "observations": 1124,
+  "unique_compounds": 197,
+  "columns": 47,
+  "target_statistics": {
+    "count": 1124,
+    "mean": 96.40236734690035,
+    "median": 78.0,
+    "std": 163.89625531291318,
+    "min": 1.46434635,
+    "max": 3650.0,
+    "skewness": 13.86892347930299,
+    "kurtosis": 250.51309502430692,
+    "P1": 6.35289752316,
+    "P5": 15.1323359785,
+    "P10": 31.423348068000003,
+    "P25": 56.8,
+    "P75": 94.404910715,
+    "P90": 141.11800000000002,
+    "P95": 192.81143633499997,
+    "P99": 525.2816789579997
+  },
+  "retention_gt_100_count": 189,
+  "retention_gt_100_percentage": 16.814946619217082,
+  "most_frequent_compound": {
+    "canonical_molecular_id": "MOL-CF1446AA0DE93D24",
+    "canonical_compound_name": "Vitamin C",
+    "observation_count": 102
+  },
+  "most_frequent_cooking_method": {
+    "cooking_method_standardized": "Boiling",
+    "observation_count": 319
+  },
+  "most_missing_predictor": "Pressure_kPa",
+  "strongest_descriptor_pearson": {
+    "descriptor": "RDKit_LogP",
+    "pearson_r": 0.12823064438498707,
+    "p_value_approx": 1.5809227186133154e-05
+  },
+  "strongest_descriptor_spearman": {
+    "descriptor": "RDKit_HBond_Acceptors",
+    "spearman_r": -0.34456433519897023,
+    "p_value_approx": 2.5141128015838947e-33
+  },
+  "potential_major_issues": [
+    "Repeated-compound imbalance: top 10 compounds contribute 33.3% of observations",
+    "Sparse predictors: Pressure_kPa, Microwave_Power_W, Oil_Type_Standardized",
+    "Apparent increases preserved: retention >100% observations remain in the dataset",
+    "Descriptor-retention correlations are exploratory only because repeated compounds violate independence assumptions"
+  ]
+}

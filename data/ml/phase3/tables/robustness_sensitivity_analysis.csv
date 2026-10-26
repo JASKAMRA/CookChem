@@ -1,0 +1,8 @@
+analysis,dataset,random_seed,mae,rmse,r2,notes
+primary_phase2_candidate,full,42,31.959809,123.073056,0.380461,Frozen Phase 2 OOF predictions for the locked final candidate.
+sensitivity_without_top_1pct_retention,full_minus_extreme_retention,42,21.720460086668254,41.56945089152035,0.4812113954138333,Sensitivity only; excluded observations with Retention_Final >= 525.281679.
+sensitivity_alternative_model_seed,full,123,31.954354079605096,141.18536873071707,0.25727528147165235,"Sensitivity only; same model, same grouped folds, different ExtraTrees random seed."
+group_size_bin_11_plus,full,42,38.92934966808676,183.02748546963008,0.211283925645399,Performance aggregated over groups with observation count bin 11_plus.
+group_size_bin_2_to_3,full,42,27.303116639126046,38.13183960876773,0.39711594056440447,Performance aggregated over groups with observation count bin 2_to_3.
+group_size_bin_4_to_10,full,42,27.369318643453106,97.6087694504045,0.3756479683869679,Performance aggregated over groups with observation count bin 4_to_10.
+group_size_bin_single,full,42,17.187180433086432,55.38623485810092,0.01425064641179763,Performance aggregated over groups with observation count bin single.

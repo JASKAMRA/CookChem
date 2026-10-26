@@ -1,0 +1,21 @@
+{
+  "new_features": [
+    "FE_Missing_Temperature_C",
+    "FE_Missing_Cooking_Time_min",
+    "FE_Missing_Pressure_kPa",
+    "FE_Missing_Microwave_Power_W",
+    "FE_Missing_Initial_Concentration",
+    "FE_Missing_Sample_Weight_g",
+    "FE_Missing_Replicates_n",
+    "FE_Thermal_Exposure",
+    "FE_Temperature_Squared",
+    "FE_Log_Time_Squared",
+    "FE_Temp_Time_Observed"
+  ],
+  "validation": "5-fold GroupKFold by Canonical_Molecular_ID",
+  "target": "log1p(Retention_Final); original-scale metrics",
+  "dataset_lock": {
+    "rows": 1124,
+    "groups": 197
+  }
+}

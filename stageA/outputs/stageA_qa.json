@@ -1,0 +1,30 @@
+{
+  "input": "C:\\Users\\kamra\\Desktop\\CookChem\\stageA\\input\\cookchem_molecular_retention_preprocessed.csv",
+  "rows": 1124,
+  "unique_molecular_groups": 197,
+  "target": "Retention_Final",
+  "group_column": "Canonical_Molecular_ID",
+  "cv": "GroupKFold(n_splits=5)",
+  "all_group_intersections_zero": true,
+  "no_duplicate_oof": true,
+  "historical_phase2_benchmark": {
+    "MAE": 31.959809,
+    "RMSE": 123.073056,
+    "R2": 0.380461
+  },
+  "selected_tuned_xgboost_parameters": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 3,
+    "n_estimators": 450,
+    "reg_lambda": 5.0,
+    "subsample": 0.8
+  },
+  "best_stageA_model_by_RMSE": "XGBoost_tuned",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  }
+}

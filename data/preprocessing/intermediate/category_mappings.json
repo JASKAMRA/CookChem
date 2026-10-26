@@ -1,0 +1,89 @@
+{
+  "Compound_Class_Standardized": {
+    "source_column": "Canonical_Compound_Class",
+    "mapped_values": [
+      {
+        "from": "Phenolic acid",
+        "to": "Phenolic Acid"
+      }
+    ]
+  },
+  "Food_Name_Standardized": {
+    "source_column": "Canonical_Food_Name",
+    "mapped_values": [
+      {
+        "from": "Red Cabbage",
+        "to": "Red cabbage"
+      }
+    ]
+  },
+  "Cooking_Method_Standardized": {
+    "source_column": "Canonical_Cooking_Method",
+    "mapped_values": [
+      {
+        "from": "Air-frying",
+        "to": "Air frying"
+      },
+      {
+        "from": "Pressure cooking",
+        "to": "Pressure Cooking"
+      },
+      {
+        "from": "Stir-Frying",
+        "to": "Stir-frying"
+      }
+    ]
+  },
+  "Molecular_Entity_Type_Standardized": {
+    "source_column": "Molecular_Entity_Type",
+    "mapped_values": [
+      {
+        "from": "single_molecule",
+        "to": "SINGLE_MOLECULE"
+      }
+    ]
+  },
+  "Cooking_Medium_Standardized": {
+    "source_column": "Cooking_Medium",
+    "mapped_values": []
+  },
+  "Oil_Type_Standardized": {
+    "source_column": "Oil_Type",
+    "mapped_values": [
+      {
+        "from": "Sunflower oil",
+        "to": "Sunflower Oil"
+      }
+    ]
+  },
+  "Assay_Method_Standardized": {
+    "source_column": "Assay_Method",
+    "mapped_values": []
+  },
+  "Initial_Unit_Standardized": {
+    "source_column": "Initial_Unit",
+    "mapped_values": [
+      {
+        "from": "mg/100 g DW",
+        "to": "mg/100g DW"
+      },
+      {
+        "from": "microg/g",
+        "to": "ug/g"
+      }
+    ]
+  },
+  "Final_Unit_Standardized": {
+    "source_column": "Final_Unit",
+    "mapped_values": [
+      {
+        "from": "mg/100 g DW",
+        "to": "mg/100g DW"
+      },
+      {
+        "from": "microg/g",
+        "to": "ug/g"
+      }
+    ]
+  }
+}

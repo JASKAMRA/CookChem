@@ -1,13 +1,172 @@
 {
-  "generated_at_utc": "2026-08-23T09:50:39.741176+00:00",
-  "input_file": "data\\raw\\CookChem_Dataset_Molecular_Data_Filled.xlsx",
-  "input_rows": 823,
-  "input_columns": 41,
-  "output_rows": 823,
-  "output_columns": 65,
-  "retention_tolerance_percentage_points": 2.0,
-  "raw_data_modified": false,
-  "rows_deleted": 0,
-  "molecular_descriptors_regenerated": false,
-  "external_lookups_performed": false
+  "generated_at_utc": "2026-08-25T10:55:16.581025+00:00",
+  "input": {
+    "source_file": "data\\reviewed\\cookchem_molecular_retention_master.csv",
+    "input_rows": 1128,
+    "input_columns": 111,
+    "unique_molecular_identities": 198
+  },
+  "output": {
+    "output_rows": 1124,
+    "output_columns": 47,
+    "excluded_rows": 4
+  },
+  "target": {
+    "target_column": "Retention_Final",
+    "target_missing_count_input": 4,
+    "target_missing_count_output": 0,
+    "target_range_output": {
+      "min": 1.46434635,
+      "max": 3650.0
+    }
+  },
+  "transformations": {
+    "categorical_mappings_file": "data\\preprocessing\\intermediate\\category_mappings.json",
+    "categorical_transformations_count": 11,
+    "unit_conversions_logged": 36,
+    "numeric_parsing_logged": 1128,
+    "missing_value_handling": "No imputation performed. Missing optional predictors were preserved as missing; rows with missing reviewed target were excluded only from the supervised retention output.",
+    "derived_variables": [
+      "Apparent_Increase"
+    ]
+  },
+  "feature_audit": {
+    "molecular_descriptors": [
+      "RDKit_Molecular_Weight",
+      "RDKit_LogP",
+      "RDKit_TPSA",
+      "RDKit_HBond_Donors",
+      "RDKit_HBond_Acceptors",
+      "RDKit_Rotatable_Bonds",
+      "RDKit_Aromatic_Rings",
+      "RDKit_Hydroxyl_Groups",
+      "RDKit_Heavy_Atom_Count"
+    ],
+    "categorical_predictors": [
+      "Compound_Class_Standardized",
+      "Food_Name_Standardized",
+      "Cooking_Method_Standardized",
+      "Cooking_Medium_Standardized",
+      "Oil_Type_Standardized",
+      "Assay_Method_Standardized",
+      "Initial_Unit_Standardized"
+    ],
+    "numerical_predictors": [
+      "Temperature_C",
+      "Cooking_Time_min",
+      "Pressure_kPa",
+      "Microwave_Power_W",
+      "Sample_Weight_g",
+      "Initial_Concentration",
+      "Replicates_n",
+      "RDKit_Molecular_Weight",
+      "RDKit_LogP",
+      "RDKit_TPSA",
+      "RDKit_HBond_Donors",
+      "RDKit_HBond_Acceptors",
+      "RDKit_Rotatable_Bonds",
+      "RDKit_Aromatic_Rings",
+      "RDKit_Hydroxyl_Groups",
+      "RDKit_Heavy_Atom_Count"
+    ],
+    "excluded_identifiers": [
+      "Record_ID",
+      "Paper_ID",
+      "DOI",
+      "DOI_Normalized",
+      "Source_Paper_Key",
+      "Canonical_Molecular_ID",
+      "Compound_Name",
+      "Canonical_Compound_Name",
+      "Compound_Class",
+      "Food_Name",
+      "Cooking_Method",
+      "Authors",
+      "Year",
+      "Journal",
+      "Country",
+      "Scientific_Name",
+      "Plant_Part",
+      "PubChem_CID",
+      "PubChem_CID_Resolved",
+      "Canonical_SMILES",
+      "Initial_Unit"
+    ],
+    "excluded_leakage_columns": [
+      "Calculated_Retention_Percent",
+      "Data_Readiness_Status",
+      "Degradation_Percent",
+      "Descriptor_Status",
+      "Duplicate_Review_Status",
+      "Duplicate_Status",
+      "Final_Concentration",
+      "Final_ML_Eligible_Reviewed",
+      "Final_ML_Status_Reviewed",
+      "Final_Preprocessing_Eligible",
+      "Final_Preprocessing_Status",
+      "Final_Unit",
+      "Molecular_Descriptor_Consistency",
+      "Molecular_Descriptor_Status",
+      "Molecular_Feature_Eligible",
+      "Molecular_Identity_Status",
+      "Molecular_Model_Eligible",
+      "Paper_ID_DOI_Status",
+      "Reported_Retention_Percent",
+      "Retention_Calculated_Percent",
+      "Retention_Calculation_Delta",
+      "Retention_Eligibility_Promotion_Reason",
+      "Retention_Final_Status",
+      "Retention_Model_Eligible",
+      "Retention_Model_Eligible_Previous",
+      "Retention_Model_Eligible_Reviewed",
+      "Retention_Percent",
+      "Retention_Review_Reason",
+      "Retention_Review_Required",
+      "Retention_Source_Evidence",
+      "Retention_Validation_Status",
+      "Review_Automatic_Acceptance",
+      "SMILES_Validation_Status",
+      "Source_Identity_Status",
+      "Source_Status",
+      "Source_Verification_Required",
+      "Unit_Compatibility_Status"
+    ],
+    "constant_features_removed_from_x": [
+      "Molecular_Entity_Type_Standardized"
+    ],
+    "duplicate_features_removed_from_x": [],
+    "near_zero_variance_features": []
+  },
+  "data_loss": {
+    "rows_removed_from_ml_output": 4,
+    "reasons": [
+      {
+        "Record_ID": "R214",
+        "Exclusion_Reason": "No valid retention target because the compound is neoformed during cooking."
+      },
+      {
+        "Record_ID": "R215",
+        "Exclusion_Reason": "No valid retention target because the compound is neoformed during cooking."
+      },
+      {
+        "Record_ID": "R395",
+        "Exclusion_Reason": "No valid retention target because the compound is neoformed during cooking."
+      },
+      {
+        "Record_ID": "R704",
+        "Exclusion_Reason": "No valid retention target because the compound is neoformed during cooking."
+      }
+    ]
+  },
+  "qa": {
+    "duplicate_record_id": "PASS",
+    "duplicate_rows": "PASS",
+    "missing_target": "PASS",
+    "invalid_numeric_values": "PASS",
+    "descriptor_conflicts": "PASS",
+    "descriptor_consistency": "PASS",
+    "leakage_check": "PASS",
+    "scientific_value_integrity": "PASS",
+    "final_status": "PASS"
+  }
 }

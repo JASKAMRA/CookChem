@@ -1,0 +1,120 @@
+Column,Role,Included in X?,Included in Final Dataset?,Reason
+Data_Readiness_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Descriptor_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Duplicate_Review_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Duplicate_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Final_ML_Eligible_Reviewed,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Final_ML_Status_Reviewed,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Final_Preprocessing_Eligible,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Final_Preprocessing_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Molecular_Descriptor_Consistency,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Molecular_Descriptor_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Molecular_Feature_Eligible,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Molecular_Identity_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Molecular_Model_Eligible,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Paper_ID_DOI_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Review_Automatic_Acceptance,audit,No,No,"Audit, eligibility, or review field excluded from X."
+SMILES_Validation_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Source_Identity_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Source_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Source_Verification_Required,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Unit_Compatibility_Status,audit,No,No,"Audit, eligibility, or review field excluded from X."
+Assay_Method_Standardized,categorical_predictor,Yes,Yes,Categorical predictor retained in X after standardization.
+Compound_Class_Standardized,categorical_predictor,Yes,Yes,Categorical predictor retained in X after standardization.
+Cooking_Medium_Standardized,categorical_predictor,Yes,Yes,Categorical predictor retained in X after standardization.
+Cooking_Method_Standardized,categorical_predictor,Yes,Yes,Categorical predictor retained in X after standardization.
+Food_Name_Standardized,categorical_predictor,Yes,Yes,Categorical predictor retained in X after standardization.
+Initial_Unit_Standardized,categorical_predictor,Yes,Yes,Categorical predictor retained in X after standardization.
+Molecular_Entity_Type_Standardized,categorical_predictor,No,No,Categorical predictor retained in X after standardization.
+Oil_Type_Standardized,categorical_predictor,Yes,Yes,Categorical predictor retained in X after standardization.
+Cooking_Time_min,cooking_predictor,Yes,Yes,Numeric cooking-condition predictor retained in X.
+Initial_Concentration,cooking_predictor,Yes,Yes,Numeric cooking-condition predictor retained in X.
+Microwave_Power_W,cooking_predictor,Yes,Yes,Numeric cooking-condition predictor retained in X.
+Pressure_kPa,cooking_predictor,Yes,Yes,Numeric cooking-condition predictor retained in X.
+Replicates_n,cooking_predictor,Yes,Yes,Numeric cooking-condition predictor retained in X.
+Sample_Weight_g,cooking_predictor,Yes,Yes,Numeric cooking-condition predictor retained in X.
+Temperature_C,cooking_predictor,Yes,Yes,Numeric cooking-condition predictor retained in X.
+Apparent_Increase,derived_feature,No,Yes,Derived from reviewed retention target; kept for EDA and excluded from X.
+Aromatic_Rings,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+Assay_Method,excluded,No,No,Not retained in final dataset.
+Canonical_Compound_Class,excluded,No,No,Not retained in final dataset.
+Canonical_Cooking_Method,excluded,No,No,Not retained in final dataset.
+Canonical_Food_Name,excluded,No,No,Not retained in final dataset.
+Canonical_ML_Descriptor_Source,excluded,No,No,Not retained in final dataset.
+Canonical_Source_ID,excluded,No,No,Not retained in final dataset.
+Clean_Compound,excluded,No,No,Not retained in final dataset.
+Cooking_Medium,excluded,No,No,Not retained in final dataset.
+Final_Concentration_Comparable,excluded,No,No,Not retained in final dataset.
+Food_Water_Ratio,excluded,No,Yes,Not retained in final dataset.
+HBond_Acceptors,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+HBond_Donors,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+Heavy_Atom_Count,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+Hydroxyl_Groups,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+Initial_Concentration_Comparable,excluded,No,No,Not retained in final dataset.
+LogP,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+Molecular_Entity_Type,excluded,No,No,Not retained in final dataset.
+Molecular_Exclusion_Reason,excluded,No,No,Not retained in final dataset.
+Molecular_Formula_RDKit,excluded,No,No,Not retained in final dataset.
+Molecular_Weight,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+Notes,excluded,No,No,Not retained in final dataset.
+Oil_Type,excluded,No,No,Not retained in final dataset.
+Original_Clean_Compound,excluded,No,No,Not retained in final dataset.
+Original_Compound_Class,excluded,No,No,Not retained in final dataset.
+Original_Compound_Name,excluded,No,No,Not retained in final dataset.
+Original_Cooking_Method,excluded,No,No,Not retained in final dataset.
+Original_Food_Name,excluded,No,No,Not retained in final dataset.
+Original_Paper_ID,excluded,No,No,Not retained in final dataset.
+Resolved_PubChem_CID,excluded,No,No,Not retained in final dataset.
+Rotatable_Bonds,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+SMILES,excluded,No,No,Not retained in final dataset.
+Source_vs_RDKit_Descriptor_Difference,excluded,No,No,Not retained in final dataset.
+TPSA,excluded,No,No,Source descriptor reference excluded in favor of the RDKit descriptor set.
+Canonical_Compound_Name,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Canonical_Molecular_ID,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Compound_Class,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Compound_Name,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Cooking_Method,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+DOI,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+DOI_Normalized,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Food_Name,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Paper_ID,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Record_ID,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Source_Paper_Key,identifier,No,Yes,Identifier or required provenance retained in final dataset but excluded from X.
+Calculated_Retention_Percent,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Degradation_Percent,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Final_Concentration,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Final_Unit,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Final_Unit_Standardized,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Reported_Retention_Percent,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Calculated_Percent,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Calculation_Delta,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Eligibility_Promotion_Reason,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Final_Status,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Model_Eligible,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Model_Eligible_Previous,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Model_Eligible_Reviewed,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Percent,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Review_Reason,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Review_Required,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Source_Evidence,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+Retention_Validation_Status,leakage,No,No,Direct target leakage or retention helper excluded from X and final dataset.
+RDKit_Aromatic_Rings,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_HBond_Acceptors,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_HBond_Donors,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_Heavy_Atom_Count,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_Hydroxyl_Groups,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_LogP,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_Molecular_Weight,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_Rotatable_Bonds,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+RDKit_TPSA,molecular_predictor,Yes,Yes,RDKit descriptor retained as molecular predictor.
+Authors,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Canonical_SMILES,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Country,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Initial_Unit,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Journal,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Plant_Part,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+PubChem_CID,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+PubChem_CID_Resolved,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Scientific_Name,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Year,provenance,No,Yes,Study provenance retained in final dataset but excluded from X.
+Retention_Final,target,No,Yes,Authoritative reviewed retention target used as y.

@@ -1,0 +1,84 @@
+{
+  "status": "FROZEN_SELECTED_CANDIDATE",
+  "selection_basis": "Stage B Step 7, 5-fold GroupKFold by Canonical_Molecular_ID; mean fold metrics.",
+  "model": "ExtraTreesRegressor",
+  "model_parameters": {
+    "n_estimators": 300,
+    "min_samples_leaf": 2,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "target": "Retention_Final",
+  "target_transform": "PowerTransformer(method=yeo-johnson, standardize=True), fitted inside every validation training fold during selection; fitted on full data only for the frozen artifact.",
+  "group_column": "Canonical_Molecular_ID",
+  "selection_validation": {
+    "method": "GroupKFold",
+    "n_splits": 5,
+    "rows": 1124,
+    "unique_groups": 197
+  },
+  "features": {
+    "base_phase2_recipe": [
+      "Temperature_C",
+      "Cooking_Time_min",
+      "Pressure_kPa",
+      "Microwave_Power_W",
+      "Sample_Weight_g",
+      "Initial_Concentration",
+      "Replicates_n",
+      "Assay_Method_Standardized",
+      "Compound_Class_Standardized",
+      "Cooking_Medium_Standardized",
+      "Cooking_Method_Standardized",
+      "Food_Name_Standardized",
+      "Initial_Unit_Standardized",
+      "Oil_Type_Standardized",
+      "RDKit_Molecular_Weight",
+      "RDKit_LogP",
+      "RDKit_TPSA",
+      "RDKit_HBond_Donors",
+      "RDKit_HBond_Acceptors",
+      "RDKit_Rotatable_Bonds",
+      "RDKit_Aromatic_Rings",
+      "RDKit_Hydroxyl_Groups"
+    ],
+    "stageB_additions": [
+      "FE_Missing_Temperature_C",
+      "FE_Missing_Cooking_Time_min",
+      "FE_Missing_Pressure_kPa",
+      "FE_Missing_Microwave_Power_W",
+      "FE_Missing_Initial_Concentration",
+      "FE_Missing_Sample_Weight_g",
+      "FE_Missing_Replicates_n",
+      "FE_Thermal_Exposure",
+      "FE_Temperature_Squared",
+      "FE_Log_Time_Squared",
+      "FE_Temp_Time_Observed"
+    ]
+  },
+  "like_for_like_metrics": {
+    "phase2_original": {
+      "MAE": 31.959809,
+      "RMSE": 123.073056,
+      "R2": 0.380461
+    },
+    "stageB_selected": {
+      "MAE": 31.630524,
+      "RMSE": 122.357915,
+      "R2": 0.390691
+    }
+  },
+  "input": {
+    "path": "C:\\Users\\kamra\\Desktop\\CookChem\\stageA\\input\\cookchem_molecular_retention_preprocessed.csv",
+    "sha256": "cd51de3286d9fea7c4d87ce45f4c9c4301214b1944f72bff19c3b41ce0358c27"
+  },
+  "artifact": {
+    "path": "C:\\Users\\kamra\\Desktop\\CookChem\\stageB\\final_model\\cookrisk_retention_stageB_selected.joblib",
+    "sha256": "0f03701099a66792c8ebf9b81d650114968a415996e17ae5dd34048f5e15cb62"
+  },
+  "inference_note": "Apply augmented_features from stageB/scripts/evaluate_missingness_features.py before model.predict. Predictions are on the original retention scale.",
+  "software": {
+    "python": "3.12.14",
+    "pandas": "3.0.6"
+  }
+}

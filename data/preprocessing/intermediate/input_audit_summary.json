@@ -1,0 +1,32 @@
+{
+  "rows": 1128,
+  "columns": 111,
+  "duplicate_rows": 0,
+  "duplicate_record_ids": 0,
+  "unique_canonical_molecular_id": 198,
+  "molecular_feature_eligible_distribution": {
+    "True": 1128
+  },
+  "molecular_model_eligible_distribution": {
+    "True": 1128
+  },
+  "retention_model_eligible_reviewed_distribution": {
+    "True": 1124,
+    "False": 4
+  },
+  "retention_validation_status_distribution": {
+    "RETENTION_VALID": 916,
+    "RETENTION_VALID_APPARENT_INCREASE": 93,
+    "RETENTION_SOURCE_VERIFICATION_REQUIRED": 70,
+    "RETENTION_REPORTED_NOT_CALCULABLE": 45,
+    "RETENTION_SOURCE_VERIFICATION_REQUIRED_ZERO_INITIAL": 4
+  },
+  "retention_final_status_distribution": {
+    "VALID": 804,
+    "RETENTION_VALID": 112,
+    "VALID_APPARENT_INCREASE": 93,
+    "FORCE_PROMOTED_UNVERIFIED_DISCREPANCY": 70,
+    "NOT_CALCULABLE": 45,
+    "NOT_APPLICABLE_NEOFORMED_COMPOUND": 4
+  }
+}

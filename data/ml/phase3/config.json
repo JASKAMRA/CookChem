@@ -1,0 +1,57 @@
+{
+  "repo_root": "C:\\Users\\kamra\\Desktop\\BTP\\CookChem",
+  "dataset_path": "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\data\\preprocessing\\final\\cookchem_molecular_retention_preprocessed.csv",
+  "baseline_root": "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\data\\ml\\baseline",
+  "phase2_root": "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\data\\ml\\phase2",
+  "output_root": "C:\\Users\\kamra\\Desktop\\CookChem\\data\\ml\\phase3",
+  "final_candidate": {
+    "model": "extra_trees",
+    "feature_columns": [
+      "Temperature_C",
+      "Cooking_Time_min",
+      "Pressure_kPa",
+      "Microwave_Power_W",
+      "Sample_Weight_g",
+      "Initial_Concentration",
+      "Replicates_n",
+      "Assay_Method_Standardized",
+      "Compound_Class_Standardized",
+      "Cooking_Medium_Standardized",
+      "Cooking_Method_Standardized",
+      "Food_Name_Standardized",
+      "Initial_Unit_Standardized",
+      "Oil_Type_Standardized",
+      "RDKit_Molecular_Weight",
+      "RDKit_LogP",
+      "RDKit_TPSA",
+      "RDKit_HBond_Donors",
+      "RDKit_HBond_Acceptors",
+      "RDKit_Rotatable_Bonds",
+      "RDKit_Aromatic_Rings",
+      "RDKit_Hydroxyl_Groups"
+    ],
+    "engineered_features": [
+      "temperature_time_interaction",
+      "log_cooking_time",
+      "log_initial_concentration",
+      "logp_temperature_interaction",
+      "tpsa_time_interaction"
+    ],
+    "target_representation": "log1p",
+    "hyperparameters": {
+      "n_estimators": 300,
+      "min_samples_leaf": 2
+    }
+  },
+  "analysis_thresholds": {
+    "cooking_method_min_n": 20,
+    "compound_class_min_n": 20,
+    "extreme_retention_threshold": 525.2816789579997
+  },
+  "software": {
+    "python": "3.12.13",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.1"
+  }
+}
