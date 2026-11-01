@@ -1,0 +1,20 @@
+{
+  "audit_date": "2026-10-29",
+  "workspace": "C:\\Users\\dakshant\\Desktop\\CookChem",
+  "scope": "Stage B food-drug interaction evidence",
+  "status": "blocked_missing_existing_food_drug_evidence_dataset",
+  "repository_branches": ["main", "origin/main"],
+  "existing_food_drug_evidence_folder_or_report_found": 0,
+  "food_drug_evidence_registry_files_found": 0,
+  "warning_ledger_or_selection_provenance_files_found": 0,
+  "applicable_validation_suites_found": 0,
+  "reported_working_baseline_approximate_anchor_count": 60,
+  "scientific_anchor_count": null,
+  "interaction_record_count": null,
+  "null_count_interpretation": "Unknown because the underlying Stage B food-drug data files are absent; null is not zero.",
+  "anchors_added": 0,
+  "interaction_records_added": 0,
+  "existing_retention_model_modified": false,
+  "existing_retention_model_and_data_preserved": true,
+  "notes": "Repository Stage B artifacts concern cooking-retention prediction. The brief's approximate 60-anchor baseline is unverified. This directory is an intake audit, not an expanded scientific dataset."
+}
