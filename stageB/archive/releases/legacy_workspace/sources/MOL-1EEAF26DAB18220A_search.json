@@ -1,0 +1,1439 @@
+{
+  "version": "6.9",
+  "hitCount": 4,
+  "request": {
+    "queryString": "TITLE_ABS:\"Glucoiberin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40537845",
+        "source": "MED",
+        "pmid": "40537845",
+        "pmcid": "PMC12180191",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12180191"
+          ]
+        },
+        "doi": "10.1186/s13065-025-01544-9",
+        "title": "Watercress-derived glucosinolates as potential allosteric PTP1B inhibitors: a dual in silico and in vitro study on insulin signaling modulation.",
+        "authorString": "Ahmed NA, Allam AA, Rudayni HA, Alshabrmi FM, Alkhayl FFA, Abdelrheem DA, Lamsabhi AM, Othman SI, Kamel EM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ahmed NA",
+              "lastName": "Ahmed",
+              "firstName": "Noha A",
+              "initials": "NA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Physiology Division, Zoology Department, Faculty of Science, Beni-Suef University, P.O. Box 62521, Beni-Suef, Egypt. drnohascience@science.bsu.edu.eg."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Allam AA",
+              "lastName": "Allam",
+              "firstName": "Ahmed A",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 11623, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rudayni HA",
+              "lastName": "Rudayni",
+              "firstName": "Hassan A",
+              "initials": "HA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), 11623, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alshabrmi FM",
+              "lastName": "Alshabrmi",
+              "firstName": "Fahad M",
+              "initials": "FM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, 51452, Buraydah, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alkhayl FFA",
+              "lastName": "Alkhayl",
+              "firstName": "Faris F Aba",
+              "initials": "FFA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, 51452, Buraydah, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdelrheem DA",
+              "lastName": "Abdelrheem",
+              "firstName": "Doaa A",
+              "initials": "DA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. BOX 84428, 11671, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lamsabhi AM",
+              "lastName": "Lamsabhi",
+              "firstName": "Al Mokhtar",
+              "initials": "AM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1509-2513"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Química and Institute for Advanced Research in Chemical Science (IAdChem), Facultad de Ciencias, Módulo 13, Universidad Autónoma de Madrid, 28049, Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Othman SI",
+              "lastName": "Othman",
+              "firstName": "Sarah I",
+              "initials": "SI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. BOX 84428, 11671, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kamel EM",
+              "lastName": "Kamel",
+              "firstName": "Emadeldin M",
+              "initials": "EM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Faculty of Science, Beni-Suef University, Beni-Suef, 62514, Egypt."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1509-2513"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "19",
+          "journalIssueId": 3950315,
+          "dateOfPublication": "2025 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "BMC Chem",
+            "title": "BMC chemistry",
+            "essn": "2661-801X",
+            "issn": "2661-801X",
+            "nlmid": "101741142",
+            "isoabbreviation": "BMC Chem"
+          },
+          "printPublicationDate": "2025-06-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "169",
+        "abstractText": "This study investigates the inhibitory potential of four glucosinolates-glucoerucin, glucoiberin, gluconasturtiin, and glucotropaeolin-isolated from watercress (Nasturtium officinale) against Protein Tyrosine Phosphatase 1B (PTP1B), a key regulator of insulin signaling. Molecular docking, molecular dynamics (MD) simulations, and MM/PBSA free energy calculations identified glucoerucin (-17.18 ± 3.51 kcal/mol) and gluconasturtiin (-13.54 ± 1.79 kcal/mol) as the strongest binders, with stable interactions involving Phe280 and Phe196 through π-π stacking. Potential Energy Landscape (PEL) analysis further confirmed that these two compounds occupied the most stable low-energy conformational states, reinforcing their favorable binding to PTP1B. In vitro enzyme inhibition assays provided experimental validation that glucoerucin (IC₅₀ = 6.07 ± 0.69 µM) and gluconasturtiin (IC₅₀ = 7.65 ± 0.45 µM) demonstrated the strongest inhibitory effects, comparable to ursolic acid (IC₅₀ = 7.11 ± 0.95 µM). Enzyme kinetics revealed a non-competitive inhibition mechanism, with K<sub>i</sub> values of 6.29 µM and 7.02 µM, suggesting allosteric regulation. ADMET analysis indicated good solubility and metabolic stability but limited oral bioavailability due to low gastrointestinal (GI) absorption. These findings highlight glucoerucin and gluconasturtiin as promising natural PTP1B inhibitors, warranting further optimization for therapeutic applications in type 2 diabetes management.",
+        "affiliation": "Physiology Division, Zoology Department, Faculty of Science, Beni-Suef University, P.O. Box 62521, Beni-Suef, Egypt. drnohascience@science.bsu.edu.eg.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministerio de Ciencia e Innovación",
+              "grantId": "PID2019-110091GB-I00 (MICINN)",
+              "orderIn": 0
+            },
+            {
+              "agency": "Princess Nourah Bint Abdulrahman University",
+              "grantId": "PNURSP2025R5",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "In vitro",
+            "Watercress",
+            "In silico",
+            "glucosinolates",
+            "Ptp1b"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s13065-025-01544-9"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12180191"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12180191?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCreation": "2025-06-19",
+        "dateOfRevision": "2025-06-24",
+        "electronicPublicationDate": "2025-06-19",
+        "firstPublicationDate": "2025-06-19",
+        "firstIndexDate": "2025-06-20",
+        "fullTextReceivedDate": "2025-12-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34418959",
+        "source": "MED",
+        "pmid": "34418959",
+        "pmcid": "PMC8380351",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8380351"
+          ]
+        },
+        "doi": "10.1186/s12870-021-03168-2",
+        "title": "Comparative transcriptomic analyses of glucosinolate metabolic genes during the formation of Chinese kale seeds.",
+        "authorString": "Zhao Y, Chen Z, Chen J, Chen B, Tang W, Chen X, Lai Z, Guo R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yijiao",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Institute of Horticultural Biotechnology, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Z",
+              "lastName": "Chen",
+              "firstName": "Zeyuan",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Institute of Horticultural Biotechnology, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  },
+                  {
+                    "affiliation": "Joint FAFU-Dalhousie Lab, College of Horticulture, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen J",
+              "lastName": "Chen",
+              "firstName": "Jiaxuan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Joint FAFU-Dalhousie Lab, College of Horticulture, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen B",
+              "lastName": "Chen",
+              "firstName": "Bingxing",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Joint FAFU-Dalhousie Lab, College of Horticulture, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang W",
+              "lastName": "Tang",
+              "firstName": "Weiling",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Institute of Horticultural Biotechnology, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen X",
+              "lastName": "Chen",
+              "firstName": "Xiaodong",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Institute of Horticultural Biotechnology, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lai Z",
+              "lastName": "Lai",
+              "firstName": "Zhongxiong",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Institute of Horticultural Biotechnology, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo R",
+              "lastName": "Guo",
+              "firstName": "Rongfang",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0408-8700"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Institute of Horticultural Biotechnology, Fujian Agriculture and Forestry University, Fuzhou, 350002, China. guorofa@163.com."
+                  },
+                  {
+                    "affiliation": "Joint FAFU-Dalhousie Lab, College of Horticulture, Fujian Agriculture and Forestry University, Fuzhou, 350002, China. guorofa@163.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0408-8700"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "21",
+          "journalIssueId": 3213434,
+          "dateOfPublication": "2021 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "BMC Plant Biol",
+            "title": "BMC plant biology",
+            "essn": "1471-2229",
+            "issn": "1471-2229",
+            "nlmid": "100967807",
+            "isoabbreviation": "BMC Plant Biol"
+          },
+          "printPublicationDate": "2021-08-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "394",
+        "abstractText": "<h4>Background</h4>To understand the mechanism of glucosinolates (GSs) accumulation in the specific organs, combined analysis of physiological change and transcriptome sequencing were applied in the current study. Taking Chinese kale as material, seeds and silique walls were divided into different stages based on the development of the embryo in seeds and then subjected to GS analysis and transcriptome sequencing.<h4>Results</h4>The main GS in seeds of Chinese kale were glucoiberin and gluconapin and their content changed with the development of the seed. During the transition of the embryo from torpedo- to the early cotyledonary-embryo stage, the accumulation of GS in the seed was accompanied by the salient decline of GS in the corresponding silique wall. Thus, the seed and corresponding silique wall at these two stages were subjected to transcriptomic sequencing analysis. 135 genes related to GS metabolism were identified, of which 24 genes were transcription factors, 81 genes were related to biosynthetic pathway, 25 genes encoded catabolic enzymes, and 5 genes matched with transporters. The expression of GS biosynthetic genes was detected both in seeds and silique walls. The high expression of FMOGS-OX and AOP2, which is related to the production of gluconapin by side modification, was noted in seeds at both stages. Interestingly, the expression of GS biosynthetic genes was higher in the silique wall compared with that in the seed albeit lower content of GS existed in the silique wall than in the seed. Combined with the higher expression of transporter genes GTRs in silique walls than in seeds, it was proposed that the transportation of GS from the silique wall to the seed is an important source for seed GS accumulation. In addition, genes related to GS degradation expressed abundantly in the seed at the early cotyledonary-embryo stage indicating its potential role in balancing seed GS content.<h4>Conclusions</h4>Two stages including the torpedo-embryo and the early cotyledonary-embryo stage were identified as crucial in GS accumulation during seed development. Moreover, we confirmed the transportation of GS from the silique wall to the seed and proposed possible sidechain modification of GS biosynthesis may exist during seed formation.",
+        "affiliation": "College of Horticulture, Institute of Horticultural Biotechnology, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Horticulture Postdoctoral Funding",
+              "grantId": "132300155",
+              "orderIn": 0
+            },
+            {
+              "agency": "Sci-Tech innovation foundation of Fujian Agriculture and Forestry University",
+              "grantId": "CXZX2018076",
+              "orderIn": 0
+            },
+            {
+              "agency": "Special Financial Grant",
+              "grantId": "2017T100464",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31772310, 31401859",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Wall",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seeds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Crops, Agricultural",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Profiling"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genotype"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genes, Plant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Variation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Seed",
+            "glucosinolates",
+            "Gtr",
+            "Aop2",
+            "Chinese Kale",
+            "Beta-glucosidases"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "3-butenyl glucosinolate",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bmcplantbiol.biomedcentral.com/track/pdf/10.1186/s12870-021-03168-2"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s12870-021-03168-2"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8380351"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8380351?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-09-01",
+        "dateOfCreation": "2021-08-22",
+        "dateOfRevision": "2021-09-01",
+        "electronicPublicationDate": "2021-08-21",
+        "firstPublicationDate": "2021-08-21",
+        "firstIndexDate": "2021-08-24",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29149798",
+        "source": "MED",
+        "pmid": "29149798",
+        "doi": "10.1021/acssynbio.7b00256",
+        "title": "Reconstructing Biosynthetic Pathway of the Plant-Derived Cancer Chemopreventive-Precursor Glucoraphanin in Escherichia coli.",
+        "authorString": "Yang H, Liu F, Li Y, Yu B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yang H",
+              "lastName": "Yang",
+              "firstName": "Han",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CAS Key Laboratory of Microbial Physiological and Metabolic Engineering, Institute of Microbiology, Chinese Academy of Sciences , Beijing 100101, China."
+                  },
+                  {
+                    "affiliation": "University of Chinese Academy of Sciences , Beijing 100049, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu F",
+              "lastName": "Liu",
+              "firstName": "Feixia",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CAS Key Laboratory of Microbial Physiological and Metabolic Engineering, Institute of Microbiology, Chinese Academy of Sciences , Beijing 100101, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CAS Key Laboratory of Microbial Physiological and Metabolic Engineering, Institute of Microbiology, Chinese Academy of Sciences , Beijing 100101, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu B",
+              "lastName": "Yu",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3148-0986"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CAS Key Laboratory of Microbial Physiological and Metabolic Engineering, Institute of Microbiology, Chinese Academy of Sciences , Beijing 100101, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0995-3070"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3148-0986"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "7",
+          "journalIssueId": 2642147,
+          "dateOfPublication": "2018 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "ACS Synth Biol",
+            "title": "ACS synthetic biology",
+            "essn": "2161-5063",
+            "issn": "2161-5063",
+            "nlmid": "101575075",
+            "isoabbreviation": "ACS Synth Biol"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "121-131",
+        "abstractText": "Epidemiological data confirmed a strong correlation between regular consumption of cruciferous vegetables and lower cancer risk. This cancer preventive property is mainly attributed to the glucosinolate products, such as glucoraphanin found in broccoli that is derived from methionine. Here we report the first successful reconstruction of the complete biosynthetic pathway of glucoraphanin from methionine in Escherichia coli via gene selection, pathway design, and protein engineering. We used branched-chain amino transferase 3 to catalyze two transamination steps to ensure the purity of precursor molecules and used cysteine as a sulfur donor to simplify the synthesis pathway. Two chimeric cytochrome P450 enzymes were engineered and expressed in E. coli functionally. The original plant C-S lyase was replaced by the Neurospora crassa hercynylcysteine sulfoxide lyase. Other pathway enzymes were successfully mined from Arabidopsis thaliana, Brassica rapa, and Brassica oleracea. Biosynthesis of glucoraphanin upon coexpression of the optimized enzymes in vivo was confirmed by liquid chromatography-tandem mass spectrometry analysis. No other glucosinolate analogues (except for glucoiberin) were identified that could facilitate the downstream purification processes. Production of glucoraphanin in this study laid the foundation for microbial production of such health-beneficial glucosinolates in a large-scale.",
+        "affiliation": "CAS Key Laboratory of Microbial Physiological and Metabolic Engineering, Institute of Microbiology, Chinese Academy of Sciences , Beijing 100101, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Chinese Academy of Sciences",
+              "grantId": "155112KYSB20150024",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Escherichia coli",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oximes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Imidoesters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfoxides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon-Sulfur Lyases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methionine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents, Phytogenic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Engineering"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Protein engineering",
+            "Pathway engineering",
+            "Glucoraphanin",
+            "Microbial Synthesis"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfoxides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oximes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents, Phytogenic",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Imidoesters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carbon-Sulfur Lyases",
+              "registryNumber": "EC 4.4.-"
+            },
+            {
+              "name": "Methionine",
+              "registryNumber": "AE28F7PNPL"
+            },
+            {
+              "name": "glucoraphanin",
+              "registryNumber": "Q86A197713"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acssynbio.7b00256"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-08-27",
+        "dateOfCreation": "2017-11-19",
+        "dateOfRevision": "2021-12-04",
+        "electronicPublicationDate": "2017-11-29",
+        "firstPublicationDate": "2017-11-29",
+        "firstIndexDate": "2017-11-19",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11586481",
+        "source": "MED",
+        "pmid": "11586481",
+        "doi": "10.1053/meta.2001.26743",
+        "title": "Biochemical effects of dietary intakes of different broccoli samples. I. Differential modulation of cytochrome P-450 activities in rat liver, kidney, and colon.",
+        "authorString": "Vang O, Frandsen H, Hansen KT, Sørensen JN, Sørensen H, Andersen O.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vang O",
+              "lastName": "Vang",
+              "firstName": "O",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3901-8545"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Roskilde, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Frandsen H",
+              "lastName": "Frandsen",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Hansen KT",
+              "lastName": "Hansen",
+              "firstName": "K T",
+              "initials": "KT"
+            },
+            {
+              "fullName": "Sørensen JN",
+              "lastName": "Sørensen",
+              "firstName": "J N",
+              "initials": "JN"
+            },
+            {
+              "fullName": "Sørensen H",
+              "lastName": "Sørensen",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Andersen O",
+              "lastName": "Andersen",
+              "firstName": "O",
+              "initials": "O"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3901-8545"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "50",
+          "journalIssueId": 1014799,
+          "dateOfPublication": "2001 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "Metabolism",
+            "title": "Metabolism: clinical and experimental",
+            "essn": "1532-8600",
+            "issn": "0026-0495",
+            "nlmid": "0375267",
+            "isoabbreviation": "Metabolism"
+          },
+          "printPublicationDate": "2001-10-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "1123-1129",
+        "abstractText": "Modulation of xenobiotic metabolism, including cytochrome P-450 (CYP) enzyme activities, due to dietary intakes of cruciferous vegetables, has been described in animals and humans, and the induction of CYP1A enzymes is suggested mainly to be related to the content of indolyl glucosinolates in these vegetables. The aim of the present study was to evaluate the effects on specific CYP activities of various broccoli samples containing different levels of glucosinolates. Groups of rats were fed 1 of 8 broccoli samples from 2 cultivars grown at different conditions. Thirteen different glucosinolates were quantified. The content of the 4 major glucosinolates, glucoraphanin (GRAP), glucoiberin, glucobrassicin (GB), and neoglucobrassicin (NeoGB) varied 5.6-, 2.7-, 3.2-, and 6.6-fold, respectively, among the broccoli samples. Dietary broccoli induced the CYP1A enzyme activities, 7-ethoxyresorufin-O-deethylase (EROD) and 7-methoxyresorufin-O-demethylase (MROD), in rat liver, weakly in colon, but not in kidney. In concordance, the hepatic metabolism of 2-amino-1-methyl-6-phenylimidazo(4,5-b)pyridine (PhIP) to the proximate carcinogen N-OH-PhIP, a CYP1A-related activity, was enhanced by broccoli. The 7-pentoxyresorufin-O-depenthylase (PROD) activity, an assay for CYP2B1/2, was weakly induced in colon and kidney but not in liver by broccoli. The 2 beta-OH- and 6 beta-OH-testosterone hydroxylase activities were induced in liver microsomes, showing that broccoli increased CYP3A activity. The observed modulations of CYP activities depended clearly on the broccoli sample used, and significantly different responses were observed for different cultivars and growth conditions. These results indicate that modulation of CYP metabolism by broccoli may vary significantly in humans as well, as the content of glucosinolates and other active substances also varies between commercially available broccoli samples. The different effects depending on the vegetable sample eaten have to be considered in future experiments and dietary recommendations.",
+        "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Roskilde, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colon",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Imidazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoenzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organ Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Activation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Isoenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Imidazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "2-amino-1-methyl-6-phenylimidazo(4,5-b)pyridine",
+              "registryNumber": "909C6UN66T"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1053/meta.2001.26743"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2001-11-01",
+        "dateOfCreation": "2001-10-05",
+        "dateOfRevision": "2019-07-25",
+        "firstPublicationDate": "2001-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

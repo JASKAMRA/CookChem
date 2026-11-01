@@ -1,0 +1,963 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2026-09-02T16:53:25Z",
+      "timestamp": 1788368005568,
+      "version": "build-2803163510"
+    },
+    "reference-count": 40,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2022-07-01T00:00:00Z",
+          "timestamp": 1656633600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2022-07-01T00:00:00Z",
+          "timestamp": 1656633600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2022-07-01T00:00:00Z",
+          "timestamp": 1656633600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2022-07-01T00:00:00Z",
+          "timestamp": 1656633600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2022-07-01T00:00:00Z",
+          "timestamp": 1656633600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2022-07-01T00:00:00Z",
+          "timestamp": 1656633600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2022-07-01T00:00:00Z",
+          "timestamp": 1656633600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100004028",
+        "name": "Jiangnan University",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JNU20211217IRB04"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JNU20211217IRB04"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004028",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "BK20200597"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BK20200597"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "32172330"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "32172330"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "32001821"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "32001821"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004608",
+        "name": "Natural Science Foundation of Jiangsu Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "BK20200597"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BK20200597"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004608",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003410",
+        "name": "Department of Education of Fujian Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JAT200505"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JAT200505"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003410",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Food Chemistry"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.foodchem.2022.132500",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2022-02-19T10:21:46Z",
+      "timestamp": 1645266106000
+    },
+    "page": "132500",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 44,
+    "special_numbering": "C",
+    "title": [
+      "Comparison of pyrazines formation in methionine/glucose and corresponding Amadori rearrangement product model"
+    ],
+    "prefix": "10.1016",
+    "volume": "382",
+    "author": [
+      {
+        "given": "Shibin",
+        "family": "Deng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Heping",
+        "family": "Cui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Khizar",
+        "family": "Hayat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yun",
+        "family": "Zhai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoming",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chi-Tang",
+        "family": "Ho",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "4",
+        "key": "10.1016/j.foodchem.2022.132500_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "1417",
+        "DOI": "10.1016/j.foodchem.2009.01.071",
+        "article-title": "Formation of pyrazines from ascorbic acid and amino acids under dry-roasting conditions",
+        "volume": "115",
+        "author": "Adams",
+        "year": "2009",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.foodchem.2022.132500_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "2147",
+        "DOI": "10.1021/jf0726785",
+        "article-title": "Formation of pyrazines and a novel pyrrole in Maillard model systems of 1,3-dihydroxyacetone and 2-oxopropanal",
+        "volume": "56",
+        "author": "Adams",
+        "year": "2008",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.foodchem.2022.132500_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "2818",
+        "DOI": "10.1021/jf00059a009",
+        "article-title": "Mechanisms of formation of alkylpyrazines in the Maillard reaction",
+        "volume": "43",
+        "author": "Amrani-Hemaimi",
+        "year": "1995",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.foodchem.2022.132500_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "2775",
+        "DOI": "10.1016/j.foodres.2011.06.002",
+        "article-title": "Identification and quantification of α-dicarbonyl compounds produced in different sugar-amino acid Maillard reaction model systems",
+        "volume": "44",
+        "author": "Chen",
+        "year": "2011",
+        "journal-title": "Food Research International"
+      },
+      {
+        "issue": "72",
+        "key": "10.1016/j.foodchem.2022.132500_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "45442",
+        "DOI": "10.1039/C7RA09355A",
+        "article-title": "Controlled formation of flavor compounds by preparation and application of Maillard reaction intermediate (MRI) derived from xylose and phenylalanine",
+        "volume": "7",
+        "author": "Cui",
+        "year": "2017",
+        "journal-title": "RSC Advances"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1016/j.foodchem.2018.07.161",
+        "article-title": "Improved controlled flavor formation during heat-treatment with a stable Maillard reaction intermediate derived from xylose-phenylalanine",
+        "volume": "271",
+        "author": "Cui",
+        "year": "2019",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.1016/j.tifs.2021.06.055",
+        "article-title": "Formation and fate of Amadori rearrangement products in Maillard reaction",
+        "volume": "115",
+        "author": "Cui",
+        "year": "2021",
+        "journal-title": "Trends in Food Science & Technology"
+      },
+      {
+        "issue": "17",
+        "key": "10.1016/j.foodchem.2022.132500_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "5167",
+        "DOI": "10.1021/acs.jafc.1c02023",
+        "article-title": "Effect of methionine on the thermal degradation of N-(1-deoxy-d-fructos-1-yl)-methionine affecting browning formation",
+        "volume": "69",
+        "author": "Deng",
+        "year": "2021",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0045",
+        "series-title": "On the role of Amadori rearrangement products as precursors of aroma-active Strecker aldehydes in cocoa",
+        "first-page": "1",
+        "article-title": "Browned flavors: Analysis, formation, and physiology",
+        "author": "Granvogl",
+        "year": "2016"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.foodchem.2022.132500_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "434",
+        "DOI": "10.1021/jf990954c",
+        "article-title": "Quantitative model studies on the formation of aroma-active aldehydes and acids by Strecker-type reactions",
+        "volume": "48",
+        "author": "Hofmann",
+        "year": "2000",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.foodchem.2022.132500_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "2721",
+        "DOI": "10.1021/jf971101s",
+        "article-title": "Flavor contribution and formation of the intense roast-smelling odorants 2-propionyl-1-pyrroline and 2-propionyltetrahydropyridine in Maillard-type reactions",
+        "volume": "46",
+        "author": "Hofmann",
+        "year": "1998",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "234",
+        "DOI": "10.1016/j.foodchem.2016.05.170",
+        "article-title": "Non-enzymatic browning reaction of glucosamine at mild conditions: Relationship between colour formation, radical scavenging activity and alpha-dicarbonyl compounds production",
+        "volume": "212",
+        "author": "Hong",
+        "year": "2016",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1016/j.foodchem.2017.03.133",
+        "article-title": "Roles of different initial Maillard intermediates and pathways in meat flavor formation for cysteine-xylose-glycine model reaction systems",
+        "volume": "232",
+        "author": "Hou",
+        "year": "2017",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.foodchem.2022.132500_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1021/jf00049a033",
+        "article-title": "Relative reactivities of amino acids in pyrazine formation",
+        "volume": "43",
+        "author": "Hwang",
+        "year": "1995",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.foodchem.2022.132500_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "1363",
+        "DOI": "10.1021/jo01051a056",
+        "article-title": "The chemistry of pyrazine and its derivatives. VII. The synthesis of vinylpyrazine and substituted vinylpyrazines",
+        "volume": "27",
+        "author": "Kamal",
+        "year": "1962",
+        "journal-title": "The Journal of Organic Chemistry"
+      },
+      {
+        "issue": "32",
+        "key": "10.1016/j.foodchem.2022.132500_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "6333",
+        "DOI": "10.1021/acs.jafc.6b01862",
+        "article-title": "Effect of sodium chloride on α-dicarbonyl compound and 5-hydroxymethyl-2-furfural formations from glucose under caramelization conditions: A multiresponse kinetic modeling approach",
+        "volume": "64",
+        "author": "Kocadagli",
+        "year": "2016",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0085",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.foodchem.2020.128024",
+        "article-title": "Targeted precursor addition to increase baked flavour in a low-acrylamide potato-based matrix",
+        "volume": "339",
+        "author": "Kocadagli",
+        "year": "2021",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0090",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.foodchem.2020.128826",
+        "article-title": "Key aroma-active compounds in brown sugar and their influence on sweetness",
+        "volume": "345",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.foodchem.2022.132500_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "5976",
+        "DOI": "10.1021/jf060328x",
+        "article-title": "Effect of citric acid and glycine addition on acrylamide and flavor in a potato model system",
+        "volume": "54",
+        "author": "Low",
+        "year": "2006",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.foodchem.2022.132500_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "4087",
+        "DOI": "10.1021/jf070044s",
+        "article-title": "Mechanisms of alkylpyrazine formation in a potato model system containing added glycine",
+        "volume": "55",
+        "author": "Low",
+        "year": "2007",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.foodchem.2022.132500_b0105",
+        "first-page": "1",
+        "article-title": "Pyrazines in foods: An update",
+        "volume": "16",
+        "author": "Maga",
+        "year": "2009",
+        "journal-title": "Critical Reviews in Food Science and Nutrition"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.foodchem.2022.132500_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "3885",
+        "DOI": "10.1021/jf010310g",
+        "article-title": "Formation of Strecker aldehydes and pyrazines in a fried potato model system",
+        "volume": "49",
+        "author": "Martin",
+        "year": "2001",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.foodchem.2022.132500_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "1651",
+        "DOI": "10.1016/S0008-6215(03)00173-3",
+        "article-title": "Kinetic modelling of Amadori N-(1-deoxy-d-fructos-1-yl)-glycine degradation pathways. Part I-Reaction mechanism",
+        "volume": "338",
+        "author": "Martins",
+        "year": "2003",
+        "journal-title": "Carbohydrate Research"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.foodchem.2022.132500_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1016/j.foodchem.2004.08.013",
+        "article-title": "Kinetics of the glucose/glycine Maillard reaction pathways: Influences of pH and reactant initial concentrations",
+        "volume": "92",
+        "author": "Martins",
+        "year": "2005",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "22",
+        "key": "10.1016/j.foodchem.2022.132500_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "5364",
+        "DOI": "10.1021/acs.jafc.5b01129",
+        "article-title": "Influence of free amino acids, oligopeptides, and polypeptides on the formation of pyrazines in Maillard model systems",
+        "volume": "63",
+        "author": "Scalone",
+        "year": "2015",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1016/j.foodchem.2018.11.088",
+        "article-title": "Impact of different enzymatic hydrolysates of whey protein on the formation of pyrazines in Maillard model systems",
+        "volume": "278",
+        "author": "Scalone",
+        "year": "2019",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "43",
+        "key": "10.1016/j.foodchem.2022.132500_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "10198",
+        "DOI": "10.1021/jf305117s",
+        "article-title": "Fragmentation pathways during Maillard-induced carbohydrate degradation",
+        "volume": "61",
+        "author": "Smuda",
+        "year": "2013",
+        "journal-title": "Journal of Agricultural & Food Chemistry"
+      },
+      {
+        "issue": "32",
+        "key": "10.1016/j.foodchem.2022.132500_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "8994",
+        "DOI": "10.1021/acs.jafc.9b04694",
+        "article-title": "N-(1-deoxy-d-xylulos-1-yl)-glutathione: A Maillard reaction intermediate predominating in aqueous glutathione-xylose systems by simultaneous dehydration-reaction",
+        "volume": "67",
+        "author": "Tang",
+        "year": "2019",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1016/j.foodchem.2017.12.019",
+        "article-title": "The quantification of free Amadori compounds and amino acids allows to model the bound Maillard reaction products formation in soybean products",
+        "volume": "247",
+        "author": "Troise",
+        "year": "2018",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.foodchem.2022.132500_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1016/j.biotechadv.2005.11.004",
+        "article-title": "Formation of flavour compounds in the Maillard reaction",
+        "volume": "24",
+        "author": "Van Boekel",
+        "year": "2006",
+        "journal-title": "Biotechnology Advances"
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.foodchem.2022.132500_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "4697",
+        "DOI": "10.1021/jf301315b",
+        "article-title": "Impact of the N-terminal amino acid on the formation of pyrazines from peptides in Maillard model systems",
+        "volume": "60",
+        "author": "Van Lancker",
+        "year": "2012",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0160",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.foodchem.2021.131460",
+        "article-title": "Characterization of odor-active compounds in high-salt liquid-state soy sauce after cooking",
+        "volume": "373",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.foodchem.2022.132500_b0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1016/j.foodchem.2008.12.014",
+        "article-title": "Amino acid-dependent formation pathways of 2-acetylfuran and 2,5-dimethyl-4-hydroxy-3[2H]-furanone in the Maillard reaction",
+        "volume": "115",
+        "author": "Wang",
+        "year": "2009",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.foodchem.2022.132500_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "2171",
+        "DOI": "10.1111/1750-3841.14733",
+        "article-title": "Preparation of N-(1-deoxy-alpha-d-xylulos-1-yl)-glutamic acid via aqueous Maillard reaction coupled with vacuum dehydration and its flavor formation through thermal treatment of baking process",
+        "volume": "84",
+        "author": "Xu",
+        "year": "2019",
+        "journal-title": "Journal of Food Science"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.foodchem.2022.132500_b0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "694",
+        "DOI": "10.1007/s11947-017-2039-4",
+        "article-title": "Preparation of 1-amino-1-deoxyfructose derivatives by stepwise increase of temperature in aqueous medium and their flavor formation compared with Maillard reaction products",
+        "volume": "11",
+        "author": "Yang",
+        "year": "2017",
+        "journal-title": "Food and Bioprocess Technology"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.foodchem.2022.132500_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "3280",
+        "DOI": "10.1021/jf9902292",
+        "article-title": "Origin of 2,3-pentanedione and 2,3-butanedione in D-glucose/L-alanine Maillard model systems",
+        "volume": "47",
+        "author": "Yaylayan",
+        "year": "1999",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.foodchem.2022.132500_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "455",
+        "DOI": "10.1002/apj.594",
+        "article-title": "Influence of the pH on the formation of pyrazine compounds by the Maillard reaction of l-ascorbic acid with acidic, basic and neutral amino acids",
+        "volume": "7",
+        "author": "Yu",
+        "year": "2012",
+        "journal-title": "Asia-Pacific Journal of Chemical Engineering"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.foodchem.2022.132500_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1016/j.lwt.2012.07.001",
+        "article-title": "Mechanistic studies on the formation of pyrazines by Maillard reaction between l-ascorbic acid and l-glutamic acid",
+        "volume": "50",
+        "author": "Yu",
+        "year": "2013",
+        "journal-title": "LWT - Food Science and Technology"
+      },
+      {
+        "key": "10.1016/j.foodchem.2022.132500_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "1678",
+        "DOI": "10.1016/j.foodchem.2016.10.119",
+        "article-title": "Kinetics of browning and correlations between browning degree and pyrazine compounds in l-ascorbic acid/acidic amino acid model systems",
+        "volume": "221",
+        "author": "Yu",
+        "year": "2017",
+        "journal-title": "Food Chemistry"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.foodchem.2022.132500_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "1641",
+        "DOI": "10.1021/jf00054a043",
+        "article-title": "Volatile compounds generated from thermal reaction of methionine and methionine sulfoxide with or without glucose",
+        "volume": "43",
+        "author": "Yu",
+        "year": "1995",
+        "journal-title": "Journal of Agricultural and Food Chemistry"
+      }
+    ],
+    "container-title": [
+      "Food Chemistry"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0308814622004629?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0308814622004629?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ],
+      "date-time": "2026-04-30T14:12:32Z",
+      "timestamp": 1777558352000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0308814622004629"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "references-count": 40,
+    "alternative-id": [
+      "S0308814622004629"
+    ],
+    "URL": "https://doi.org/10.1016/j.foodchem.2022.132500",
+    "relation": {},
+    "ISSN": [
+      "0308-8146"
+    ],
+    "issn-type": [
+      {
+        "value": "0308-8146",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Comparison of pyrazines formation in methionine/glucose and corresponding Amadori rearrangement product model",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Food Chemistry",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.foodchem.2022.132500",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2022 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "132500"
+  }
+}

@@ -1,0 +1,4841 @@
+{
+  "version": "6.9",
+  "hitCount": 14,
+  "request": {
+    "queryString": "TITLE:\"Thymoquinone\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33149871",
+        "source": "MED",
+        "pmid": "33149871",
+        "pmcid": "PMC7585528",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7585528"
+          ]
+        },
+        "doi": "10.22038/ijbms.2020.44216.10381",
+        "title": "Evaluation the interaction of ABC multidrug transporter MDR1 with thymoquinone: substrate or inhibitor?",
+        "authorString": "Keyvani V, Nasserifar Z, Saberi MR, Mohajeri SA, Arabzadeh S, Shahriari Ahmadi F, Hosseinzadeh H, Shariat Razavi SM, Kalalinia F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Keyvani V",
+              "lastName": "Keyvani",
+              "firstName": "Vahideh",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, Faculty of Science, Shahid Chamran University of Ahvaz, Ahvaz, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nasserifar Z",
+              "lastName": "Nasserifar",
+              "firstName": "Zeinab",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology and Plant Breeding, Faculty of Agriculture, Ferdowsi University of Mashhad, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saberi MR",
+              "lastName": "Saberi",
+              "firstName": "Mohammad-Reza",
+              "initials": "MR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmaceutical Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mohajeri SA",
+              "lastName": "Mohajeri",
+              "firstName": "Seyed Ahmad",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmaceutical Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arabzadeh S",
+              "lastName": "Arabzadeh",
+              "firstName": "Sepideh",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biotechnology Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shahriari Ahmadi F",
+              "lastName": "Shahriari Ahmadi",
+              "firstName": "Farajollah",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology and Plant Breeding, Faculty of Agriculture, Ferdowsi University of Mashhad, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hosseinzadeh H",
+              "lastName": "Hosseinzadeh",
+              "firstName": "Hossein",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmaceutical Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shariat Razavi SM",
+              "lastName": "Shariat Razavi",
+              "firstName": "Seyedeh Mahya",
+              "initials": "SM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, Faculty of Sciences, University of Sistan and Baluchestan, Zahedan, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kalalinia F",
+              "lastName": "Kalalinia",
+              "firstName": "Fatemeh",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8939-5074"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biotechnology Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8939-5074"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "23",
+          "journalIssueId": 3048411,
+          "dateOfPublication": "2020 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Iran J Basic Med Sci",
+            "title": "Iranian journal of basic medical sciences",
+            "essn": "2008-3874",
+            "issn": "2008-3866",
+            "isoabbreviation": "Iran J Basic Med Sci",
+            "nlmid": "101517966"
+          },
+          "printPublicationDate": "2020-10-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "1360-1366",
+        "abstractText": "<h4>Objectives</h4>Thymoquinone (TQ) has valuable medical properties like anticancer effects. Development of multidrug resistance (MDR) phenotype is one of the most important factors in failure of cancer chemotherapy. The aim of this study was to evaluate the mode of interaction of TQ and MDR1, a major MDR-related protein in gastric cancer drug resistant EPG85-257RDB cells, and its parental non-resistant EPG85-257 cells.<h4>Materials and methods</h4>MTT assay was used to assess the effects of TQ and doxorubicin (DOX) on cell viability of tested cell lines and TQ effect on pump performance. HPLC analyses were used to measure the input and output of TQ in EPG85-257RDB cells. Molecular docking studies were used to identify interactions between TQ and MDR1.<h4>Results</h4>TQ inhibited cell viability in a time and concentration-dependent manner. Co-treatment of the cells with TQ and DOX did not significantly affect the amount of cell viability in comparison with DOX treatment alone. The HPLC analyses showed that more than 90% of TQ entered to EPG85-257RDB during 1 hr of treatment with TQ, but it was unable to exit from the cells. Moreover, there was no difference between influx and efflux amount of TQ in cells with inhibited and non-inhibited MDR1 transporters. Molecular docking studies revealed that TQ had a higher inhibitory constant to bind to active site of MDR1 protein as compared to specific inhibitor (verapamil) and substrate (vinblastine) of this transporter.<h4>Conclusion</h4>These results proposed that TQ does not work as an inhibitor or a substrate of MDR1 transporter.",
+        "affiliation": "Department of Biology, Faculty of Science, Shahid Chamran University of Ahvaz, Ahvaz, Iran.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "MDR1",
+            "Multi drug resistance",
+            "Nigella Sativa",
+            "Thymoquinone",
+            "Drug Transporters"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.22038/ijbms.2020.44216.10381"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7585528"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7585528?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2020-11-05",
+        "dateOfRevision": "2022-04-18",
+        "firstPublicationDate": "2020-10-01",
+        "firstIndexDate": "2020-11-06",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32003249",
+        "source": "MED",
+        "pmid": "32003249",
+        "doi": "10.1080/17425247.2020.1716728",
+        "title": "Enhanced oral bioavailability and hepatoprotective activity of thymoquinone in the form of phospholipidic nano-constructs.",
+        "authorString": "Rathore C, Upadhyay N, Kaundal R, Dwivedi RP, Rahatekar S, John A, Dua K, Tambuwala MM, Jain S, Chaudari D, Negi P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rathore C",
+              "lastName": "Rathore",
+              "firstName": "C",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5260-6632"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Shoolini University of Biotechnology and Management Sciences, Solan, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Upadhyay N",
+              "lastName": "Upadhyay",
+              "firstName": "N",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3030-2459"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Shoolini University of Biotechnology and Management Sciences, Solan, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaundal R",
+              "lastName": "Kaundal",
+              "firstName": "R",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8519-274X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Icahn School of Medicine, Mount Sinai, Hospital and Healthcare, New York, NY, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dwivedi RP",
+              "lastName": "Dwivedi",
+              "firstName": "R P",
+              "initials": "RP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Electrical and Computer Science Engineering, Shoolini University of Biotechnology and Management Sciences, Solan, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rahatekar S",
+              "lastName": "Rahatekar",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7127-1818"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cranfield University, Cranfield, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "John A",
+              "lastName": "John",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Materials Science, Institute of Chemistry of Natural Resource, University of Talca, Talca, Chile."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dua K",
+              "lastName": "Dua",
+              "firstName": "K",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7507-1159"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Discipline of Pharmacy, Graduate School of Health, University of Technology Sydney, Ultimo, Australia."
+                  },
+                  {
+                    "affiliation": "School of Biomedical Sciences and Pharmacy, The University of Newcastle, Callaghan, Australia."
+                  },
+                  {
+                    "affiliation": "Priority Research Centre for Healthy Lungs, Hunter Medical Research Institute, Newcastle, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tambuwala MM",
+              "lastName": "Tambuwala",
+              "firstName": "Murtaza M",
+              "initials": "MM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8499-9891"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy & Pharmaceutical Sciences, Faculty of Life & Health Sciences, Ulster University, Coleraine, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jain S",
+              "lastName": "Jain",
+              "firstName": "S",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, National Institute of Pharmaceutical Education and Research, Centre for Pharmaceutical Nanotechnology, Punjab, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chaudari D",
+              "lastName": "Chaudari",
+              "firstName": "D",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, National Institute of Pharmaceutical Education and Research, Centre for Pharmaceutical Nanotechnology, Punjab, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Negi P",
+              "lastName": "Negi",
+              "firstName": "P",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3722-991X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Shoolini University of Biotechnology and Management Sciences, Solan, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7127-1818"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8499-9891"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8519-274X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5260-6632"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7507-1159"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1872-5133"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3030-2459"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3722-991X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "17",
+          "journalIssueId": 2914893,
+          "dateOfPublication": "2020 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Expert Opin Drug Deliv",
+            "title": "Expert opinion on drug delivery",
+            "essn": "1744-7593",
+            "issn": "1742-5247",
+            "isoabbreviation": "Expert Opin Drug Deliv",
+            "nlmid": "101228421"
+          },
+          "printPublicationDate": "2020-02-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "237-253",
+        "abstractText": "<b>Background</b>: The poor biopharmaceutical properties of thymoquinone (TQ) obstruct its development as a hepatoprotective agent. To surmount the delivery challenges of TQ, phospholipid nanoconstructs (PNCs) were constructed.<b>Method</b>: PNCs were constructed employing microemulsification technique and systematic optimization by three-factor three level Box-Behnken design.<b>Result</b>: Optimized PNC composition exhibited nano size (<100 nm), spherical morphology, within acceptable range of polydispersity index (0.55), high drug entrapment efficiency (>90%), controlled drug release pattern, and neutral surface charge (zeta potential of -0.65 mV). After oral administration of a single dose of PNC, it showed a relative bioavailability of 386.03% <i>vis-à-vis</i> plain TQ suspension. Further, TQ-loaded PNC demonstrated significant enhanced hepato-protective effect <i>vis-à-vis</i> pure TQ suspension and silymarin, as evidenced by reduction in the ALP, ALT, AST, bilirubin, and albumin level and ratified by histopathological analysis.<b>Conclusion</b>: TQ-loaded PNCs can be efficient nano-platforms for the management of hepatic disorders and promising drug delivery systems to enhance oral bioavailability of this hydrophobic molecule.",
+        "affiliation": "School of Pharmaceutical Sciences, Shoolini University of Biotechnology and Management Sciences, Solan, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phospholipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Suspensions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Delivery Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Hepatotoxicity",
+            "Box-Behnken design",
+            "Thymoquinone",
+            "Lipid Carriers",
+            "Microemulsifcation"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Phospholipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Suspensions",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://dspace.lib.cranfield.ac.uk/bitstream/1826/15416/4/Enhanced_oral_bioavailability-2020.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://pure.ulster.ac.uk/files/78208184/EODD_2019_ST_0156.R1_Proof_hi.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/17425247.2020.1716728"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 20,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-11-30",
+        "dateOfCreation": "2020-02-01",
+        "dateOfRevision": "2020-11-30",
+        "electronicPublicationDate": "2020-01-31",
+        "firstPublicationDate": "2020-01-31",
+        "firstIndexDate": "2020-02-07",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24924310",
+        "source": "MED",
+        "pmid": "24924310",
+        "doi": "10.1007/s13318-014-0207-8",
+        "title": "Pharmacokinetic plasma behaviors of intravenous and oral bioavailability of thymoquinone in a rabbit model.",
+        "authorString": "Alkharfy KM, Ahmad A, Khan RM, Al-Shagha WM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Alkharfy KM",
+              "lastName": "Alkharfy",
+              "firstName": "Khalid M",
+              "initials": "KM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Pharmacy, College of Pharmacy, King Saud University, PO Box 2457, Riyadh, 11451, Saudi Arabia, alkharfy@ksu.edu.sa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahmad A",
+              "lastName": "Ahmad",
+              "firstName": "Ajaz",
+              "initials": "A"
+            },
+            {
+              "fullName": "Khan RM",
+              "lastName": "Khan",
+              "firstName": "Rao M A",
+              "initials": "RM"
+            },
+            {
+              "fullName": "Al-Shagha WM",
+              "lastName": "Al-Shagha",
+              "firstName": "Waleed M",
+              "initials": "WM"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "40",
+          "journalIssueId": 2318184,
+          "dateOfPublication": "2015 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Eur J Drug Metab Pharmacokinet",
+            "title": "European journal of drug metabolism and pharmacokinetics",
+            "essn": "2107-0180",
+            "issn": "0378-7966",
+            "isoabbreviation": "Eur J Drug Metab Pharmacokinet",
+            "nlmid": "7608491"
+          },
+          "printPublicationDate": "2015-09-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "319-323",
+        "abstractText": "Thymoquinone (THQ), the active constituent of Nigella sativa seeds, has demonstrated some potential pharmacological activities. The present study was designed to investigate the pharmacokinetic behavior of THQ following intravenous (IV) and oral (PO) administration using an animal model. THQ was given vascularly (5 mg/kg IV) and extravascularly (20 mg/kg PO) to Vole rabbits, and blood samples were collected at predetermined time points. The concentrations of THQ in plasma were measured by a high-performance liquid chromatography, and the pharmacokinetic parameters were determined using both compartmental and non-compartmental analyses. The calculated clearance (CL) following IV administration was 7.19 ± 0.83 ml/kg/min, and the estimated volume of distribution at steady state (V ss) was 700.90 ± 55.01 ml/kg. Whereas with PO dosing, apparent CL/F value was 12.30 ± 0.30 ml/min/kg and V ss/F was 5,109.46 ± 196.08 ml/kg. These parameters were associated with an elimination half-life (T 1/2) of 63.43 ± 10.69 and 274.61 ± 8.48 min with IV and PO dosing, respectively. The calculated absorption T 1/2 was about 217 min. Compartmental analysis revealed T 1/2α of ~8.9 min and T 1/2β of ~86.6 min. The calculated absolute bioavailability of THQ was ~58 % with a lag time of ~23 min. The estimated THQ protein binding was >99 %. Therefore, THQ represents a compound with rapid elimination and relatively slower absorption following PO administration.",
+        "affiliation": "Department of Clinical Pharmacy, College of Pharmacy, King Saud University, PO Box 2457, Riyadh, 11451, Saudi Arabia, alkharfy@ksu.edu.sa.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plasma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rabbits"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Intravenous",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s13318-014-0207-8"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 71,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-06-24",
+        "dateOfCreation": "2014-06-14",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2014-06-13",
+        "firstPublicationDate": "2014-06-13",
+        "firstIndexDate": "2014-06-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28482534",
+        "source": "MED",
+        "pmid": "28482534",
+        "doi": "10.1016/j.msec.2017.03.088",
+        "title": "Oral bioavailability enhancement and hepatoprotective effects of thymoquinone by self-nanoemulsifying drug delivery system.",
+        "authorString": "Kalam MA, Raish M, Ahmed A, Alkharfy KM, Mohsin K, Alshamsan A, Al-Jenoobi FI, Al-Mohizea AM, Shakeel F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kalam MA",
+              "lastName": "Kalam",
+              "firstName": "Mohd Abul",
+              "initials": "MA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5713-8858"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Raish M",
+              "lastName": "Raish",
+              "firstName": "Mohammad",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6015-6125"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahmed A",
+              "lastName": "Ahmed",
+              "firstName": "Ajaz",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Pharmacy, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alkharfy KM",
+              "lastName": "Alkharfy",
+              "firstName": "Khalid M",
+              "initials": "KM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Pharmacy, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mohsin K",
+              "lastName": "Mohsin",
+              "firstName": "Kazi",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alshamsan A",
+              "lastName": "Alshamsan",
+              "firstName": "Aws",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8950-6571"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al-Jenoobi FI",
+              "lastName": "Al-Jenoobi",
+              "firstName": "Fahad I",
+              "initials": "FI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8203-1940"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al-Mohizea AM",
+              "lastName": "Al-Mohizea",
+              "firstName": "Abdullah M",
+              "initials": "AM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-0494-124X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shakeel F",
+              "lastName": "Shakeel",
+              "firstName": "Faiyaz",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6109-0885"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia. Electronic address: faiyazs@fastmail.fm."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8203-1940"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5713-8858"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6015-6125"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6109-0885"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8950-6571"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-0494-124X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "76",
+          "journalIssueId": 2555706,
+          "dateOfPublication": "2017 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Mater Sci Eng C Mater Biol Appl",
+            "title": "Materials science & engineering. C, Materials for biological applications",
+            "essn": "1873-0191",
+            "issn": "0928-4931",
+            "isoabbreviation": "Mater Sci Eng C Mater Biol Appl",
+            "nlmid": "101484109"
+          },
+          "printPublicationDate": "2017-07-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "319-329",
+        "abstractText": "Thymoquinone (TQ) is a poorly water soluble bioactive compound which shows poor oral bioavailability upon oral administration. Due to poor aqueous solubility and bioavailability of TQ, various self-nanoemulsifying drug delivery systems (SNEDDS) of TQ were developed and evaluated for enhancement of its hepatoprotective effects and oral bioavailability. Hepatoprotective and pharmacokinetic studies of TQ suspension and TQ-SNEDDS were carried out in rat models. Different SNEDDS formulations of TQ were developed and thermodynamically stable TQ-SNEDDS were characterized for physicochemical parameters and evaluated for drug release studies via dialysis membrane. Optimized SNEDDS formulation of TQ was selected for further evaluation of in vivo evaluation. In vivo hepatoprotective investigations showed significant hepatoprotective effects for optimized TQ-SNEDDS in comparison with TQ suspension. The oral administration of optimized SNEDDS showed significant improvement in in vivo absorption of TQ in comparison with TQ suspension. The relatively bioavailability of TQ was enhanced 3.87-fold by optimized SNEDDS in comparison with TQ suspension. The results of this research work indicated the potential of SNEDDS in enhancing relative bioavailability and therapeutic effects of natural bioactive compounds such as TQ.",
+        "affiliation": "Department of Pharmaceutics, College of Pharmacy, King Saud University, P.O. Box 2457, Riyadh 11451, Saudi Arabia.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Deanship of Scientific Research, King Saud University",
+              "grantId": "RG 1435-017",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hepatocytes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Emulsions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Delivery Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Renal Dialysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Nanostructures"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Bioavailability",
+            "Thymoquinone",
+            "Snedds",
+            "Hepatoprotective Effects"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Emulsions",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.msec.2017.03.088"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 60,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-02-20",
+        "dateOfCreation": "2017-05-10",
+        "dateOfRevision": "2018-10-04",
+        "electronicPublicationDate": "2017-03-14",
+        "firstPublicationDate": "2017-03-14",
+        "firstIndexDate": "2017-05-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31061500",
+        "source": "MED",
+        "pmid": "31061500",
+        "pmcid": "PMC6502885",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6502885"
+          ]
+        },
+        "doi": "10.1038/s41598-019-43188-5",
+        "title": "Evaluation of DNA interaction, genotoxicity and oxidative stress induced by iron oxide nanoparticles both in vitro and in vivo: attenuation by thymoquinone.",
+        "authorString": "Ansari MO, Parveen N, Ahmad MF, Wani AL, Afrin S, Rahman Y, Jameel S, Khan YA, Siddique HR, Tabish M, Shadab GGHA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ansari MO",
+              "lastName": "Ansari",
+              "firstName": "Mohd Owais",
+              "initials": "MO",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cytogenetics and Molecular Toxicology Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Parveen N",
+              "lastName": "Parveen",
+              "firstName": "Nuzhat",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cytogenetics and Molecular Toxicology Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahmad MF",
+              "lastName": "Ahmad",
+              "firstName": "Md Fahim",
+              "initials": "MF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4991-8974"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cytogenetics and Molecular Toxicology Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wani AL",
+              "lastName": "Wani",
+              "firstName": "Ab Latif",
+              "initials": "AL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1818-6133"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cytogenetics and Molecular Toxicology Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Afrin S",
+              "lastName": "Afrin",
+              "firstName": "Shumaila",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8671-1617"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rahman Y",
+              "lastName": "Rahman",
+              "firstName": "Yusra",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jameel S",
+              "lastName": "Jameel",
+              "firstName": "Sana",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cytogenetics and Molecular Toxicology Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan YA",
+              "lastName": "Khan",
+              "firstName": "Yasir Akhtar",
+              "initials": "YA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9277-7164"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Siddique HR",
+              "lastName": "Siddique",
+              "firstName": "Hifzur R",
+              "initials": "HR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8736-0487"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Cancer Genetics & Translational Research Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tabish M",
+              "lastName": "Tabish",
+              "firstName": "Mohammad",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shadab GGHA",
+              "lastName": "Shadab",
+              "firstName": "G G H A",
+              "initials": "GGHA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cytogenetics and Molecular Toxicology Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India. ggha.shadab.zo@amu.ac.in."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8736-0487"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9277-7164"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8671-1617"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1818-6133"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4991-8974"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "9",
+          "journalIssueId": 2810580,
+          "dateOfPublication": "2019 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Sci Rep",
+            "title": "Scientific reports",
+            "essn": "2045-2322",
+            "issn": "2045-2322",
+            "isoabbreviation": "Sci Rep",
+            "nlmid": "101563288"
+          },
+          "printPublicationDate": "2019-05-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "6912",
+        "abstractText": "Iron oxide nanoparticles (IONPs) are known to induce cytotoxicity in various cancer cell lines through the generation of reactive oxygen species (ROS). However, the studies on its potential to induce toxicity in normal cell lines and in vivo system are limited and ambiguity still exists. Additionally, small molecules are known to interact with the DNA and cause damage to the DNA. The present study is designed to evaluate the potential interaction of IONPs with DNA along with their other toxicological effects and subsequent attenuation by thymoquinone both in vitro (primary lymphocytes) and in vivo (Wistar rats). IONPs were characterized by TEM, SEM-EDS, and XRD. The results from DNA interaction studies showed that IONPs formed a complex with DNA and also got intercalated between the base pairs of the DNA. The decrease in percent cell viability of rat's lymphocytes was observed along with an increase in ROS generation in a dose-dependent manner (50, 100, 200, 400 and 800 μg/ml of IONPs). The genetic damage in in vivo might be due to the generation of ROS as depletion in anti-enzymatic activity was observed along with an increase in lipid peroxidation in a dose-dependent manner (25, 50, 100 mg/kg of IONPs). Interestingly, supplementation of thymoquinone in combination with IONPs has significantly (P < 0.05) attenuated the genetic and oxidative damage in a dose-dependent manner both in vitro and in vivo. It can be concluded that thymoquinone has the potential to attenuate the oxidative stress and genetic toxicity in vitro and in vivo.",
+        "affiliation": "Cytogenetics and Molecular Toxicology Lab, Section of Genetics, Department of Zoology, Aligarh Muslim University, Aligarh, 202002, Uttar Pradesh, India.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ferric Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Superoxide Dismutase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutagens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Peroxidation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Ferric Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Mutagens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Superoxide Dismutase",
+              "registryNumber": "EC 1.15.1.1"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ferric oxide",
+              "registryNumber": "1K09F3G675"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/s41598-019-43188-5.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41598-019-43188-5"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6502885"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6502885?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 60,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-10-14",
+        "dateOfCreation": "2019-05-08",
+        "dateOfRevision": "2021-01-09",
+        "electronicPublicationDate": "2019-05-06",
+        "firstPublicationDate": "2019-05-06",
+        "firstIndexDate": "2019-05-08",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27451272",
+        "source": "MED",
+        "pmid": "27451272",
+        "doi": "10.1016/j.ijpharm.2016.07.038",
+        "title": "Development of a novel nanoparticle formulation of thymoquinone with a cold wet-milling system and its pharmacokinetic analysis.",
+        "authorString": "Nihei T, Suzuki H, Aoki A, Yuminoki K, Hashimoto N, Sato H, Seto Y, Onoue S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nihei T",
+              "lastName": "Nihei",
+              "firstName": "Takuya",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacokinetics and Pharmacodynamics, School of Pharmaceutical Sciences, University of Shizuoka, 52-1 Yada, Suruga-ku, Shizuoka 422-8526, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Suzuki H",
+              "lastName": "Suzuki",
+              "firstName": "Hiroki",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacokinetics and Pharmacodynamics, School of Pharmaceutical Sciences, University of Shizuoka, 52-1 Yada, Suruga-ku, Shizuoka 422-8526, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aoki A",
+              "lastName": "Aoki",
+              "firstName": "Asako",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacokinetics and Pharmacodynamics, School of Pharmaceutical Sciences, University of Shizuoka, 52-1 Yada, Suruga-ku, Shizuoka 422-8526, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yuminoki K",
+              "lastName": "Yuminoki",
+              "firstName": "Kayo",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Physicochemistry, Faculty of Pharmaceutical Sciences, Setsunan University, 45-1 Nagaotoge-cho, Hirakata, Osaka 573-0101, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hashimoto N",
+              "lastName": "Hashimoto",
+              "firstName": "Naofumi",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Physicochemistry, Faculty of Pharmaceutical Sciences, Setsunan University, 45-1 Nagaotoge-cho, Hirakata, Osaka 573-0101, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sato H",
+              "lastName": "Sato",
+              "firstName": "Hideyuki",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5155-2003"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacokinetics and Pharmacodynamics, School of Pharmaceutical Sciences, University of Shizuoka, 52-1 Yada, Suruga-ku, Shizuoka 422-8526, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Seto Y",
+              "lastName": "Seto",
+              "firstName": "Yoshiki",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacokinetics and Pharmacodynamics, School of Pharmaceutical Sciences, University of Shizuoka, 52-1 Yada, Suruga-ku, Shizuoka 422-8526, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Onoue S",
+              "lastName": "Onoue",
+              "firstName": "Satomi",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacokinetics and Pharmacodynamics, School of Pharmaceutical Sciences, University of Shizuoka, 52-1 Yada, Suruga-ku, Shizuoka 422-8526, Japan. Electronic address: onoue@u-shizuoka-ken.ac.jp."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5155-2003"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "511",
+          "journalIssueId": 2444502,
+          "dateOfPublication": "2016 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Int J Pharm",
+            "title": "International journal of pharmaceutics",
+            "essn": "1873-3476",
+            "issn": "0378-5173",
+            "isoabbreviation": "Int J Pharm",
+            "nlmid": "7804127"
+          },
+          "printPublicationDate": "2016-09-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "455-461",
+        "abstractText": "The present study aimed to develop a nanoparticle (NP) formulation of thymoquinone (TQ), a potent anti-oxidant chemical, with use of a cold wet-milling (CWM) system to improve its dissolution behavior and pharmacokinetic properties. The NP formulation of TQ (TQ/CWM) was prepared by CWM system, and its physicochemical properties were characterized in terms of particle size distribution, morphology, crystallinity, and dissolution. The photochemical properties of TQ were also examined upon UV/VIS absorption, reactive oxygen species (ROS) generation, and photostability. Pharmacokinetic studies were carried out in rats. Application of the CWM system to TQ led to successful development of nano-sized TQ. The mean diameter of TQ in TQ/CWM was calculated to be 143nm, and TQ particles in TQ/CWM were found to be amorphous. There was a marked improvement in dissolution rate compared with TQ. TQ showed significant generation of singlet oxygen and superoxide upon exposure to simulated sunlight, suggesting its high photoreactivity, and solid samples such as TQ and TQ/CWM exhibited higher photostability than TQ solution. In comparison with TQ, enhanced TQ exposure was observed with a ca. 6-fold increase of oral bioavailability, and the Tmax was shown to be a quarter. From these findings, the NP approach employing the CWM system might be a promising dosage option for improving the nutraceutical values of TQ.",
+        "affiliation": "Department of Pharmacokinetics and Pharmacodynamics, School of Pharmaceutical Sciences, University of Shizuoka, 52-1 Yada, Suruga-ku, Shizuoka 422-8526, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Takeda Science Foundation",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education, Culture, Sports, Science and Technology",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "X-Ray Diffraction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Compounding",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry, Pharmaceutical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cold Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical Phenomena",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Dissolution",
+            "Bioavailability",
+            "Nanoparticle",
+            "Thymoquinone",
+            "Cold Wet-milling System"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ijpharm.2016.07.038"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-04-21",
+        "dateOfCreation": "2016-07-25",
+        "dateOfRevision": "2018-09-24",
+        "electronicPublicationDate": "2016-07-19",
+        "firstPublicationDate": "2016-07-19",
+        "firstIndexDate": "2016-07-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26304932",
+        "source": "MED",
+        "pmid": "26304932",
+        "doi": "10.1208/s12249-015-0391-0",
+        "title": "Enhancement of Bioavailability and Pharmacodynamic Effects of Thymoquinone Via Nanostructured Lipid Carrier (NLC) Formulation.",
+        "authorString": "Elmowafy M, Samy A, Raslan MA, Salama A, Said RA, Abdelaziz AE, El-Eraky W, El Awdan S, Viitala T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Elmowafy M",
+              "lastName": "Elmowafy",
+              "firstName": "Mohammed",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2393-8195"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy (Boys), Al-Azhar University, Nasr City, Cairo, Egypt. morere_om@yahoo.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Samy A",
+              "lastName": "Samy",
+              "firstName": "Ahmed",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy (Boys), Al-Azhar University, Nasr City, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Raslan MA",
+              "lastName": "Raslan",
+              "firstName": "Mohamed A",
+              "initials": "MA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy (Boys), Al-Azhar University, Nasr City, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salama A",
+              "lastName": "Salama",
+              "firstName": "Ayman",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0005-7946-4477"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy (Boys), Al-Azhar University, Nasr City, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Said RA",
+              "lastName": "Said",
+              "firstName": "Ragab A",
+              "initials": "RA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Faculty of Pharmacy (Boys), Al-Azhar University, Nasr City, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdelaziz AE",
+              "lastName": "Abdelaziz",
+              "firstName": "Abdelaziz E",
+              "initials": "AE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, Faculty of Pharmacy and Pharmaceutical Manufacturing, Kafr Elsheikh University, Kafr Elsheikh, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "El-Eraky W",
+              "lastName": "El-Eraky",
+              "firstName": "Wafaa",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5598-6960"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmacology Department, National Research Center, Giza, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "El Awdan S",
+              "lastName": "El Awdan",
+              "firstName": "Sally",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2840-1776"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmacology Department, National Research Center, Giza, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Viitala T",
+              "lastName": "Viitala",
+              "firstName": "Tapani",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9074-9450"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pharmaceutical Biosciences, Faculty of Pharmacy, University of Helsinki, Helsinki, Finland."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5598-6960"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9074-9450"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1037-7982"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2393-8195"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2840-1776"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-7946-4477"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "17",
+          "journalIssueId": 2411416,
+          "dateOfPublication": "2016 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "AAPS PharmSciTech",
+            "title": "AAPS PharmSciTech",
+            "essn": "1530-9932",
+            "issn": "1530-9932",
+            "isoabbreviation": "AAPS PharmSciTech",
+            "nlmid": "100960111"
+          },
+          "printPublicationDate": "2016-06-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "663-672",
+        "abstractText": "Thymoquinone (TQ), obtained from black cumin (Nigella sativa), is a natural product with anti-oxidant, anti-inflammatory, and hepatoprotective effects but unfortunately with poor bioavailability. Aiming to improve its poor oral bioavailability, TQ-loaded nanostructured lipid carriers (NLCs) were prepared by high-speed homogenization followed by ultrasonication and evaluated in vitro. Bioavailability and pharmacodynamic studies were also performed. The resultant NLCs showed poor physical homogeneity in Compritol 888 ATO Pluronic F127 system which consequently produced larger particle size and polydispersity index, smaller zeta potential values, and lower short-term (30 days) physical stability than other systems. Encapsulation efficiency percentage (EE%) lied between 84.6 ± 5% and 96.2 ± 1.6%. TQ AUC0-t values were higher in animals treated with NLCs, with a relative bioavailability of 2.03- and 3.97-fold (for F9 and F12, respectively) higher than TQ suspension, indicating bioavailability enhancement by NLC formulation. Hepatoprotective effects of F12 showed significant (P < 0.05) decrease in both serum alanine amino transferase and aspartate amino transferase to reach 305.0 ± 24.88 and 304.7 ± 23.55 U/ml, respectively, when compared with untreated toxic group. Anti-oxidant efficacy of F12 showed significant (P < 0.05) decline of malondialdehyde and elevation of reduced glutatione. This improvement was also confirmed histopathologically.",
+        "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy (Boys), Al-Azhar University, Nasr City, Cairo, Egypt. morere_om@yahoo.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Carriers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry, Pharmaceutical"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Nanostructures",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bioavailability",
+            "Thymoquinone",
+            "Hepatoprotective Activity",
+            "Nlc"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1208/s12249-015-0391-0"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 81,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-01-20",
+        "dateOfCreation": "2015-08-26",
+        "dateOfRevision": "2018-09-24",
+        "electronicPublicationDate": "2015-08-25",
+        "firstPublicationDate": "2015-08-25",
+        "firstIndexDate": "2015-08-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25450185",
+        "source": "MED",
+        "pmid": "25450185",
+        "doi": "10.1016/j.bbagen.2014.10.018",
+        "title": "Interaction of human telomeric G-quadruplex DNA with thymoquinone: a possible mechanism for thymoquinone anticancer effect.",
+        "authorString": "Salem AA, El Haty IA, Abdou IM, Mu Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Salem AA",
+              "lastName": "Salem",
+              "firstName": "Alaa A",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science, United Arab Emirates University, P.O. Box 15551, Al Ain, United Arab Emirates. Electronic address: asalem@uaeu.ac.ae."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "El Haty IA",
+              "lastName": "El Haty",
+              "firstName": "Ismail A",
+              "initials": "IA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4492-2181"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science, United Arab Emirates University, P.O. Box 15551, Al Ain, United Arab Emirates."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdou IM",
+              "lastName": "Abdou",
+              "firstName": "Ibrahim M",
+              "initials": "IM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science, United Arab Emirates University, P.O. Box 15551, Al Ain, United Arab Emirates."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mu Y",
+              "lastName": "Mu",
+              "firstName": "Yuguang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Biological Sciences, College of Science, Nanyang Technological University, Singapore 637551, Singapore."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4492-2181"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "1850",
+          "journalIssueId": 2236999,
+          "dateOfPublication": "2015 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Biochim Biophys Acta",
+            "title": "Biochimica et biophysica acta",
+            "essn": "1878-2434",
+            "issn": "0006-3002",
+            "isoabbreviation": "Biochim Biophys Acta",
+            "nlmid": "0217513"
+          },
+          "printPublicationDate": "2015-02-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "329-342",
+        "abstractText": "<h4>Background</h4>Thymoquinone (TQ) has been documented to possess chemo-preventive and chemotherapeutic antitumor effects. Studies reported that TQ inhibits the growth of cancer cells in animal models, culture and xenografted tumors. Molecular mechanisms underlying these anticancer effects were attributed to inductions of cell cycle arrest, apoptosis, oxidative damage of cellular macromolecules, blockade of tumor angiogenesis and inhibitions in migration, invasion and metastasis of cancer cells. On the other hand, human telomere DNA plays a role in regulating genes' transcriptions. It folds up into G-quadruplex structures that inhibit telomerase enzyme over-expressed in cancerous cells. Molecules that selectively stabilize G-quadruplex are potential anticancer agents. Therefore, this work aimed to explore the interaction of TQ with G-quadruplex DNA as a possible underlying mechanism for the anticancer effect of TQ.<h4>Methods</h4>Interactions of TQ with telomeric G-quadruplex (5'-AGGG(TTAGGG)3-3') and duplex DNAs were studied using UV-vis, fluorescence, circular dichroism, liquid and solid NMR (1H and 13C), melting temperature and docking simulation.<h4>Results</h4>Changes in UV-vis, CD, fluorescence, 1H NMR and 13C NMR, spectra as well as melting temperatures and docking simulations provided evidences for TQ's interactions with G-quadruplex. TQ was found to interact with G-quadruplex on two binding sites adjacent to the TTA loop with binding constants 1.80×10(5) and 1.12×10(7) M(-1). Melting temperatures indicated that TQ stabilized G-quadruplex by 5.6 °C and destabilized ct-DNA by 5.1 °C. Selectivity experiment indicated that TQ is preferentially binding to G-quadruplex over duplex with selectivity coefficients of 2.80-3.33×10(-3). Results suggested an intercalation binding mode based on π-π stacking.<h4>Conclusion</h4>Our results propose that TQ can possibly act as a G-quadruplex DNA stabilizer and subsequently contribute to the inhibition of telomerase enzyme and cancer's proliferation.<h4>General significance</h4>Our results represent a change in the paradigms reported for structural features of G-quadruplex's stabilizers and anticancer mechanisms of TQ.",
+        "affiliation": "Department of Chemistry, College of Science, United Arab Emirates University, P.O. Box 15551, Al Ain, United Arab Emirates. Electronic address: asalem@uaeu.ac.ae.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Emirates Foundation",
+              "grantId": "2010/122",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Telomere",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA, Neoplasm",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Nucleic Acid Conformation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Models, Chemical"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "DNA",
+            "Anticancer",
+            "Calf thymus DNA",
+            "Thymoquinone",
+            "G-quadruplex",
+            "Human Telomere"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA, Neoplasm",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bbagen.2014.10.018"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 16,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-03-11",
+        "dateOfCreation": "2014-12-03",
+        "dateOfRevision": "2018-09-24",
+        "electronicPublicationDate": "2014-10-24",
+        "firstPublicationDate": "2014-10-24",
+        "firstIndexDate": "2014-12-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28944407",
+        "source": "MED",
+        "pmid": "28944407",
+        "doi": "10.1007/s00210-017-1428-6",
+        "title": "Oral thymoquinone administration ameliorates: the effect of cisplatin on brush border membrane enzymes, energy metabolism, and redox status in rat kidney.",
+        "authorString": "Farooqui Z, Shahid F, Abidi S, Parwez I, Khan F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Farooqui Z",
+              "lastName": "Farooqui",
+              "firstName": "Zeba",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0922-4388"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, UP, 202002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shahid F",
+              "lastName": "Shahid",
+              "firstName": "Faaiza",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, UP, 202002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abidi S",
+              "lastName": "Abidi",
+              "firstName": "Subuhi",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, UP, 202002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Parwez I",
+              "lastName": "Parwez",
+              "firstName": "Iqbal",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, UP, 202002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan F",
+              "lastName": "Khan",
+              "firstName": "Farah",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3681-4116"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, UP, 202002, India. dr.farahkhan23@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3681-4116"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0922-4388"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "390",
+          "journalIssueId": 2617976,
+          "dateOfPublication": "2017 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "title": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "essn": "1432-1912",
+            "issn": "0028-1298",
+            "isoabbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "nlmid": "0326264"
+          },
+          "printPublicationDate": "2017-12-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "1271-1284",
+        "abstractText": "Therapeutic use of cisplatin (CP), an effective anticancer drug, is limited by dose dependent nephrotoxicity. Thymoquinone (TQ), the major Nigella sativa seed oil constituent has been shown to prevent progression of various renal disorders. The present study investigates the protective effect of TQ on CP-induced nephrotoxicity. Rats were divided into six groups viz. control, CP, CPTQ<sub>1</sub>, CPTQ<sub>2</sub>, CPTQ<sub>3</sub>, and TQ alone group. Animals in CP and TQ combination groups were administered TQ (0.5, 1.5, and 3 mg/kg bwt, orally) with single intraperitoneal dose of CP (6 mg/kg bwt). The effect of TQ administration was determined on CP-induced alterations in various serum/urine parameters and on the enzymes of brush border membrane enzyme (BBM), carbohydrate metabolism, and antioxidant defense system in renal cortex and medulla. Oral administration of TQ in all the three doses prior to and following a single dose CP treatment caused significant recovery of serum creatinine and blood urea nitrogen levels; however, maximum recovery was seen in CPTQ<sub>2</sub> group. TQ administration averted CP-induced decline in BBM activities, both in the cortical and medullary homogenates and in isolated BBM vesicles. TQ administration also ameliorated CP-induced impairments in renal metabolic and antioxidant status. Histopathological studies supported these biochemical findings. TQ ameliorates CP-induced oxidative damage owing to its intrinsic antioxidant properties.",
+        "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, UP, 202002, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney Cortex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney Medulla",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microvilli",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lysosomes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Weight",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cisplatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbohydrate Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Antioxidant",
+            "Cisplatin",
+            "Nephrotoxicity",
+            "Nigella Sativa",
+            "Thymoquinone"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cisplatin",
+              "registryNumber": "Q20Q21Q62J"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00210-017-1428-6"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-07-23",
+        "dateOfCreation": "2017-09-26",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2017-09-24",
+        "firstPublicationDate": "2017-09-24",
+        "firstIndexDate": "2017-09-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28821162",
+        "source": "MED",
+        "pmid": "28821162",
+        "doi": "10.1016/j.biopha.2017.08.044",
+        "title": "Oral administration of thymoquinone mitigates the effect of cisplatin on brush border membrane enzymes, energy metabolism and antioxidant system in rat intestine.",
+        "authorString": "Shahid F, Farooqui Z, Abidi S, Parwez I, Khan F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shahid F",
+              "lastName": "Shahid",
+              "firstName": "Faaiza",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh 202002, U.P., India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Farooqui Z",
+              "lastName": "Farooqui",
+              "firstName": "Zeba",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0922-4388"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh 202002, U.P., India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abidi S",
+              "lastName": "Abidi",
+              "firstName": "Subuhi",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, Faculty of Life Sciences, Aligarh Muslim University, Aligarh 202002, U.P., India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Parwez I",
+              "lastName": "Parwez",
+              "firstName": "Iqbal",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, Faculty of Life Sciences, Aligarh Muslim University, Aligarh 202002, U.P., India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan F",
+              "lastName": "Khan",
+              "firstName": "Farah",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh 202002, U.P., India. Electronic address: dr.farahkhan23@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0922-4388"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "94",
+          "journalIssueId": 2599479,
+          "dateOfPublication": "2017 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Biomed Pharmacother",
+            "title": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "essn": "1950-6007",
+            "issn": "0753-3322",
+            "isoabbreviation": "Biomed Pharmacother",
+            "nlmid": "8213295"
+          },
+          "printPublicationDate": "2017-10-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "1111-1120",
+        "abstractText": "Cisplatin (CP) is a widely used chemotherapeutic agent that elicits severe gastrointestinal toxicity. Nigella sativa, a member of family Ranunculaceae, is one of the most revered medicinal plant known for its numerous health benefits. Thymoquinone (TQ), a major bioactive component derived from the volatile oil of Nigella sativa seeds, has been shown to improve gastrointestinal functions in animal models of acute gastric/intestinal injury. In view of this, the aim of the present study was to investigate the protective effect of TQ on CP induced toxicity in rat intestine and to elucidate the mechanism underlying these effects. Rats were divided into four groups viz. control, CP, TQ and CP+TQ. Animals in CP+TQ and TQ groups were orally administered TQ (1.5mg/kg bwt) with and without a single intraperitoneal dose of CP (6mg/kg bwt) respectively. The effect of TQ was determined on CP induced alterations in the activities of brush border membrane (BBM), carbohydrate metabolism, and antioxidant defense enzymes in rat intestine. TQ administration significantly mitigated CP induced decline in the specific activities of BBM marker enzymes, both in the mucosal homogenates and in the BBM vesicles (BBMV) prepared from intestinal mucosa. Furthermore, TQ administration restored the redox and metabolic status of intestinal mucosal tissue in CP treated rats. The biochemical results were supported by histopathological findings that showed extensive damage to intestine in CP treated rats and markedly preserved intestinal histoarchitecture in CP and TQ co-treated group. The biochemical and histological data suggest a protective effect of TQ against CP-induced gastrointestinal damage. Thus, TQ may have a potential for clinical application to counteract the accompanying gastrointestinal toxicity in CP chemotherapy.",
+        "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh 202002, U.P., India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "University Grants Commission",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nigella sativa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cisplatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cisplatin",
+            "Antioxidant system",
+            "Carbohydrate metabolism",
+            "Thymoquinone",
+            "Gastrointestinal Damage",
+            "Brush Border Membrane"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cisplatin",
+              "registryNumber": "Q20Q21Q62J"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.biopha.2017.08.044"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-05-14",
+        "dateOfCreation": "2017-08-20",
+        "dateOfRevision": "2018-09-24",
+        "electronicPublicationDate": "2017-08-16",
+        "firstPublicationDate": "2017-08-16",
+        "firstIndexDate": "2017-08-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29302711",
+        "source": "MED",
+        "pmid": "29302711",
+        "doi": "10.1007/s00210-017-1444-6",
+        "title": "Oral Nigella sativa oil and thymoquinone administration ameliorates the effect of long-term cisplatin treatment on the enzymes of carbohydrate metabolism, brush border membrane, and antioxidant defense in rat intestine.",
+        "authorString": "Shahid F, Farooqui Z, Khan AA, Khan F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shahid F",
+              "lastName": "Shahid",
+              "firstName": "Faaiza",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, U.P., 202002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Farooqui Z",
+              "lastName": "Farooqui",
+              "firstName": "Zeba",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0922-4388"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, U.P., 202002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan AA",
+              "lastName": "Khan",
+              "firstName": "Aijaz Ahmed",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Faculty of Medicine, J. N. Medical College, Aligarh Muslim University, Aligarh, U.P., 202002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan F",
+              "lastName": "Khan",
+              "firstName": "Farah",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3681-4116"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, U.P., 202002, India. dr.farahkhan23@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3681-4116"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0922-4388"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "391",
+          "journalIssueId": 2642927,
+          "dateOfPublication": "2018 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "title": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "essn": "1432-1912",
+            "issn": "0028-1298",
+            "isoabbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "nlmid": "0326264"
+          },
+          "printPublicationDate": "2018-02-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "145-157",
+        "abstractText": "We have previously shown that oral administration of Nigella sativa oil (NSO) ameliorates the deleterious gastrointestinal effects of cisplatin (CP), administered as a single dose. Since a typical clinical CP dosing regimen involves multiple cycles of CP administration in lower doses, in the present study we investigate the protective efficacy of NSO and its major bioactive constituent, thymoquinone (TQ), against multiple-dose CP treatment-induced deleterious biochemical and histological changes in rat intestine. Rats were divided into six groups, viz., control, CP, CP+NSO, CP+TQ, NSO, and TQ. Animals in CP+NSO and CP+TQ groups were pre-administered NSO (2 ml/kg bwt, orally) and TQ (1.5 mg/kg bwt, orally), respectively, daily for 14 days and were then treated with five repeated doses of CP (3 mg/kg bwt, i.p.), every fourth day for 20 days while still receiving NSO/TQ. CP treatment alone led to a significant decline in specific activities of brush border membrane (BBM) enzymes while NSO or TQ administration to CP-treated rats significantly prevented the decline in BBM enzyme activities in the isolated brush border membrane vesicles (BBMV) as well as in mucosal homogenates. Furthermore, both NSO and TQ administration markedly ameliorated CP-induced alterations on carbohydrate metabolism enzymes and the enzymatic and non-enzymatic parameters of antioxidant defense system in the intestinal mucosa. However, NSO appeared to be more efficacious than TQ in protecting against CP-induced gastrointestinal dysfunction. Histopathological findings corroborated the biochemical results. Thus, NSO and TQ may prove clinically useful in amelioration of the intestinal toxicity associated with long-term CP chemotherapy.",
+        "affiliation": "Department of Biochemistry, Faculty of Life Sciences, Aligarh Muslim University, Aligarh, U.P., 202002, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestine, Small",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microvilli",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Nigella sativa"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cisplatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbohydrate Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cisplatin",
+            "Thymoquinone",
+            "Nigella Sativa Oil",
+            "Gastrointestinal Dysfunction",
+            "Antioxidant Parameters"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cisplatin",
+              "registryNumber": "Q20Q21Q62J"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00210-017-1444-6"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-08-13",
+        "dateOfCreation": "2018-01-06",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2018-01-04",
+        "firstPublicationDate": "2018-01-04",
+        "firstIndexDate": "2018-01-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23818776",
+        "source": "MED",
+        "pmid": "23818776",
+        "pmcid": "PMC3692342",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3692342"
+          ]
+        },
+        "doi": "10.2147/ijn.s44108",
+        "title": "Thymoquinone-loaded nanostructured lipid carriers: preparation, gastroprotection, in vitro toxicity, and pharmacokinetic properties after extravascular administration.",
+        "authorString": "Abdelwahab SI, Sheikh BY, Taha MM, How CW, Abdullah R, Yagoub U, El-Sunousi R, Eid EE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abdelwahab SI",
+              "lastName": "Abdelwahab",
+              "firstName": "Siddig Ibrahim",
+              "initials": "SI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6145-4466"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Research Centre, Jazan University, Jazan, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sheikh BY",
+              "lastName": "Sheikh",
+              "firstName": "Bassem Yousef",
+              "initials": "BY"
+            },
+            {
+              "fullName": "Taha MM",
+              "lastName": "Taha",
+              "firstName": "Manal Mohamed Elhassan",
+              "initials": "MM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0166-8929"
+              }
+            },
+            {
+              "fullName": "How CW",
+              "lastName": "How",
+              "firstName": "Chee Wun",
+              "initials": "CW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5910-6542"
+              }
+            },
+            {
+              "fullName": "Abdullah R",
+              "lastName": "Abdullah",
+              "firstName": "Rasedee",
+              "initials": "R"
+            },
+            {
+              "fullName": "Yagoub U",
+              "lastName": "Yagoub",
+              "firstName": "Umar",
+              "initials": "U"
+            },
+            {
+              "fullName": "El-Sunousi R",
+              "lastName": "El-Sunousi",
+              "firstName": "Rashad",
+              "initials": "R"
+            },
+            {
+              "fullName": "Eid EE",
+              "lastName": "Eid",
+              "firstName": "Eltayeb E M",
+              "initials": "EE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0201-955X"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5910-6542"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6145-4466"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0166-8929"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0201-955X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "8",
+          "journalIssueId": 1998019,
+          "dateOfPublication": "2013 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Int J Nanomedicine",
+            "title": "International journal of nanomedicine",
+            "essn": "1178-2013",
+            "issn": "1176-9114",
+            "isoabbreviation": "Int J Nanomedicine",
+            "nlmid": "101263847"
+          },
+          "printPublicationDate": "2013-01-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "2163-2172",
+        "abstractText": "<h4>Background</h4>Nanostructured lipid carriers (NLCs), composed of solid and liquid lipids, and surfactants are potentially good colloidal drug carriers. Thymoquinone is the main bioactive compound of Nigella sativa. In this study, the preparation, gastroprotective effects, and pharmacokinetic (PK) properties of thymoquinone (TQ)-loaded NLCs (TQNLCs) were evaluated.<h4>Method</h4>TQNLCs were prepared using hydrogenated palm oil (Softisan® 154), olive oil, and phosphatidylcholine for the lipid phase and sorbitol, polysorbate 80, thimerosal, and double distilled water for the liquid lipid material. A morphological assessment of TQNLCs was performed using various methods. Analysis of the ulcer index, hydrogen concentration, mucus content, and biochemical and histochemical studies confirmed that the loading of TQ into the NLCs significantly improved the gastroprotective activity of this natural compound against the formation of ethanol-induced ulcers. The safety of TQNLC was tested on WRL68 liver normal cells with cisplatin as a positive control.<h4>Results</h4>The average diameter of the TQNLCs was 75 ± 2.4 nm. The particles had negative zeta potential values of -31 ± 0.1 mV and a single melting peak of 55.85°C. Immunohistochemical methods revealed that TQNLCs inhibited the formation of ethanol-induced ulcers through the modulation of heat shock protein-70 (Hsp70). Acute hepatotoxic effects of the TQNLCs were not observed in rats or normal human liver cells (WRL-68). After validation, PK studies in rabbits showed that the PK properties of TQ were improved and indicated that the drug behaves linearly. The Tmax, Cmax, and elimination half-life of TQ were found to be 3.96 ± 0.19 hours, 4811.33 ± 55.52 ng/mL, and 4.4933 ± 0.015 hours, respectively, indicating that TQ is suitable for extravascular administration.<h4>Conclusion</h4>NLCs could be a promising vehicle for the oral delivery of TQ and improve its gastroprotective properties.",
+        "affiliation": "Medical Research Centre, Jazan University, Jazan, Saudi Arabia.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stomach",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rabbits"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nigella sativa"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stomach Ulcer",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Carriers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Histocytochemistry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "gastric ulcer",
+            "Lipid Based Nanoparticles",
+            "Black Seed Oil"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2147/IJN.S44108"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3692342"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3692342?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 71,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-04-02",
+        "dateOfCreation": "2013-07-03",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2013-06-17",
+        "firstPublicationDate": "2013-06-17",
+        "firstIndexDate": "2013-07-04",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19931880",
+        "source": "MED",
+        "pmid": "19931880",
+        "doi": "10.1016/j.rvsc.2009.10.008",
+        "title": "Thymoquinone enhances the activities of enzymes related to energy metabolism in peripheral leukocytes of diabetic rats.",
+        "authorString": "Fararh KM, Ibrahim AK, Elsonosy YA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fararh KM",
+              "lastName": "Fararh",
+              "firstName": "Khalid M",
+              "initials": "KM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7561-2015"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Pathology Department, Faculty of Veterinary Medicine, Benha University, 13736 Moshtohor, Toukh, Qalioubeya, Egypt. fararhk@yahoo.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ibrahim AK",
+              "lastName": "Ibrahim",
+              "firstName": "Adel K",
+              "initials": "AK"
+            },
+            {
+              "fullName": "Elsonosy YA",
+              "lastName": "Elsonosy",
+              "firstName": "Yakot A",
+              "initials": "YA"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9447-8352"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7561-2015"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "88",
+          "journalIssueId": 1726523,
+          "dateOfPublication": "2010 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Res Vet Sci",
+            "title": "Research in veterinary science",
+            "essn": "1532-2661",
+            "issn": "0034-5288",
+            "isoabbreviation": "Res Vet Sci",
+            "nlmid": "0401300"
+          },
+          "printPublicationDate": "2010-06-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "400-404",
+        "abstractText": "The aim of this study was to examine the effect of glycemic control using thymoquinone (TQ) on energy metabolism related enzymes in leukocytes of streptozotocin (STZ)-induced diabetic rats. The treatment of both TQ and insulin commenced 4weeks after induction of diabetes. Plasma glucose, cholesterol and triglycerides levels were significantly reduced after TQ treatment, whereas immunoreactive insulin (IRI) showed significant increase. The activities of malate dehydrogenase (MDH) in cytosolic and mitochondrial fractions of peripheral blood leukocytes were significantly higher in rats treated with TQ and insulin as compared to that in diabetic controls. On the other hand the activities of lactic dehydrogenase (LDH) showed no significant changes between groups. ML ratio (cytosolic MDH/LDH specific activity ratio) was restored to those in the control rats. The results of this study demonstrate that TQ significantly increased insulin level and the activities of cytosolic and mitochondrial MDH in leukocytes of STZ-diabetic rats.",
+        "affiliation": "Clinical Pathology Department, Faculty of Veterinary Medicine, Benha University, 13736 Moshtohor, Toukh, Qalioubeya, Egypt. fararhk@yahoo.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leukocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus, Experimental",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Streptozocin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoquinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "L-Lactate Dehydrogenase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Malate Dehydrogenase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Primers"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reverse Transcriptase Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Malate Dehydrogenase",
+              "registryNumber": "EC 1.1.1.37"
+            },
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "L-Lactate Dehydrogenase",
+              "registryNumber": "EC 1.1.1.27"
+            },
+            {
+              "name": "DNA Primers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Streptozocin",
+              "registryNumber": "5W494URQ81"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.rvsc.2009.10.008"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 22,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-08-19",
+        "dateOfCreation": "2009-11-26",
+        "dateOfRevision": "2018-09-24",
+        "electronicPublicationDate": "2009-11-20",
+        "firstPublicationDate": "2009-11-20",
+        "firstIndexDate": "2010-08-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "13700109",
+        "source": "MED",
+        "pmid": "13700109",
+        "doi": "10.1007/bf00406062",
+        "title": "[Comparison of the effect of thymoquinone and thymohydroquinone with that of 2,4-dinitrophenol on the metabolism of yeasts (Saccharomyces cerevisiae].",
+        "authorString": "FLAIG W, de JONG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "FLAIG W",
+              "lastName": "FLAIG",
+              "firstName": "W",
+              "initials": "W"
+            },
+            {
+              "fullName": "de JONG",
+              "lastName": "de JONG"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "37",
+          "journalIssueId": 260005,
+          "dateOfPublication": "1960 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 1960,
+          "journal": {
+            "medlineAbbreviation": "Arch Mikrobiol",
+            "title": "Archiv fur Mikrobiologie",
+            "issn": "0003-9276",
+            "isoabbreviation": "Arch Mikrobiol",
+            "nlmid": "0411220"
+          },
+          "printPublicationDate": "1960-01-01"
+        },
+        "pubYear": "1960",
+        "pageInfo": "369-378",
+        "publicationStatus": "ppublish",
+        "language": "ger",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Saccharomyces cerevisiae"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Yeasts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitrophenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dinitrophenols"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "2,4-Dinitrophenol"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Benzoquinones"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Quinones/pharmacology",
+            "Nitrophenols/pharmacology",
+            "Yeasts/metabolism"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "thymohydroquinone",
+              "registryNumber": "2217-60-9"
+            },
+            {
+              "name": "Quinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dinitrophenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Nitrophenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoquinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "2,4-Dinitrophenol",
+              "registryNumber": "Q13SKS21MN"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "thymoquinone",
+              "registryNumber": "O60IE26NUF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "OM",
+              "name": "pre-1966 citations"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.1007/bf00406062"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1998-11-01",
+        "dateOfCreation": "1960-01-01",
+        "dateOfRevision": "2026-01-28",
+        "firstPublicationDate": "1960-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5342 @@
+{
+  "version": "6.9",
+  "hitCount": 14,
+  "request": {
+    "queryString": "TITLE_ABS:\"Tomatine\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40072058",
+        "source": "MED",
+        "pmid": "40072058",
+        "pmcid": "PMC11898437",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11898437"
+          ]
+        },
+        "doi": "10.3390/cells14050329",
+        "title": "Tomatine Improves Glucose Metabolism and Mitochondrial Respiration in Insulin-Resistant Hepatocyte Cell Lines AML12 and HepG2 via an AMP-Activated Protein Kinase-Dependent Pathway.",
+        "authorString": "Lee YG, Kim D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lee YG",
+              "lastName": "Lee",
+              "firstName": "Yu Geon",
+              "initials": "YG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-0501-8930"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food Functionality Research Division, Korea Food Research Institute (KFRI), Wanju-gun 55365, Jeonbuk-do, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim D",
+              "lastName": "Kim",
+              "firstName": "Donghwan",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0139-2494"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food Functionality Research Division, Korea Food Research Institute (KFRI), Wanju-gun 55365, Jeonbuk-do, Republic of Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0139-2494"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-0501-8930"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "14",
+          "journalIssueId": 3913540,
+          "dateOfPublication": "2025 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Cells",
+            "title": "Cells",
+            "essn": "2073-4409",
+            "issn": "2073-4409",
+            "isoabbreviation": "Cells",
+            "nlmid": "101600052"
+          },
+          "printPublicationDate": "2025-02-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "329",
+        "abstractText": "Insulin resistance (IR) disrupts hepatic glucose metabolism and mitochondrial function, which contributes to metabolic disorders. The present study examined the effects of tomatine on glucose metabolism in high-glucose-induced IR hepatocytes and explored its underlying mechanisms using AML12 and HepG2 cell models. The results showed that tomatine did not exhibit cytotoxic effects. Under IR conditions, tomatine dose-dependently improved glucose metabolism by enhancing glucose consumption and restoring the mRNA expression of the glucose transporter Glut2 and gluconeogenesis-related genes (<i>Pepck</i> and <i>G6pase</i>). Mechanistically, tomatine activated the phosphorylation of AMP-activated protein kinase (AMPK) and upregulated the expression of peroxisome proliferator-activated receptor gamma coactivator 1-alpha (PGC1α), reversing the IR-induced suppression of the AMPK/PGC1α pathway. In addition, tomatine enhanced mitochondrial oxidative function by restoring the oxygen consumption rate, increasing ATP production, and upregulating mitochondrial oxidative phosphorylation complex proteins. Both genetic and pharmacological inhibition of AMPK abolished these beneficial effects, confirming its central role in mediating tomatine's actions. Overall, our findings suggest that tomatine is a promising therapeutic candidate for enhancing hepatic glucose metabolism and mitochondrial function in IR-associated metabolic disorders through AMPK activation.",
+        "affiliation": "Food Functionality Research Division, Korea Food Research Institute (KFRI), Wanju-gun 55365, Jeonbuk-do, Republic of Korea.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Korea Food Research Institute",
+              "grantId": "E0210203",
+              "orderIn": 0
+            },
+            {
+              "agency": "Korea Food Research Institute",
+              "grantId": "E0210601",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Mitochondria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hepatocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Insulin Resistance"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Respiration",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphorylation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "AMP-Activated Protein Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Tomatine",
+            "Hepatocytes",
+            "Insulin resistance",
+            "Ampk",
+            "Mitochondrial Respiration"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "AMP-activated protein kinases",
+              "registryNumber": "EC 2.7.11.31"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            },
+            {
+              "name": "Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/cells14050329"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11898437"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11898437?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-03-12",
+        "dateOfCreation": "2025-03-12",
+        "dateOfRevision": "2025-05-23",
+        "electronicPublicationDate": "2025-02-23",
+        "firstPublicationDate": "2025-02-23",
+        "firstIndexDate": "2025-03-12",
+        "fullTextReceivedDate": "2025-12-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39970214",
+        "source": "MED",
+        "pmid": "39970214",
+        "pmcid": "PMC11837996",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11837996"
+          ]
+        },
+        "doi": "10.1126/sciadv.ads9601",
+        "title": "Removal of toxic steroidal glycoalkaloids and bitterness in tomato is controlled by a complex epigenetic and genetic network.",
+        "authorString": "Bai F, Wu M, Huang W, Xu W, Wang Y, Zhang Y, Zhong Z, Hong Y, Pirrello J, Bouzayen M, Liu M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bai F",
+              "lastName": "Bai",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-7453-7594"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu M",
+              "lastName": "Wu",
+              "firstName": "Mengbo",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2396-1192"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang W",
+              "lastName": "Huang",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Agricultural Genomics, Key Laboratory of Genomics, Ministry of Agriculture, BGI Research, Shenzhen, Guang Dong 518083, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu W",
+              "lastName": "Xu",
+              "firstName": "Weijie",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yikui",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0697-5696"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangxi Academy of Agricultural Sciences, Nanning 530007, Guangxi, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yang",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7793-1108"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhong Z",
+              "lastName": "Zhong",
+              "firstName": "Zhenhui",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8438-0375"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hong Y",
+              "lastName": "Hong",
+              "firstName": "Yiguo",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3352-9686"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Life Sciences, University of Warwick, Warwick CV4 7AL, UK."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of North China Crop Improvement and Regulation and College of Horticulture, Hebei Agricultural University, Baoding 071000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pirrello J",
+              "lastName": "Pirrello",
+              "firstName": "Julien",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5725-885X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratoire de Recherche en Sciences Végétales-Génomique et Biotechnologie des Fruits-UMR5546, Université de Toulouse, CNRS, UPS, Toulouse-INP, Toulouse, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bouzayen M",
+              "lastName": "Bouzayen",
+              "firstName": "Mondher",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China."
+                  },
+                  {
+                    "affiliation": "Laboratoire de Recherche en Sciences Végétales-Génomique et Biotechnologie des Fruits-UMR5546, Université de Toulouse, CNRS, UPS, Toulouse-INP, Toulouse, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu M",
+              "lastName": "Liu",
+              "firstName": "Mingchun",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8004-1758"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8004-1758"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2396-1192"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3352-9686"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5725-885X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7793-1108"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8438-0375"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0697-5696"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-7453-7594"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "11",
+          "journalIssueId": 3903175,
+          "dateOfPublication": "2025 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Sci Adv",
+            "title": "Science advances",
+            "essn": "2375-2548",
+            "issn": "2375-2548",
+            "isoabbreviation": "Sci Adv",
+            "nlmid": "101653440"
+          },
+          "printPublicationDate": "2025-02-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "eads9601",
+        "abstractText": "The steroidal glycoalkaloids (SGAs) produced in <i>Solanaceae</i> crops, including tomato, are antinutritional because of their cellular toxicity and resultant bitter taste to humans. To make fruits palatable, SGA profiles shift from bitter and toxic α-tomatine to nonbitter and nontoxic esculeoside A during the ripening process. However, the mechanisms regulating this conversion remain unclear. In this study, we showed that removal of toxic and bitter SGAs is under the control of DNA demethylation, ethylene, and key transcription factors by forming a feedback loop that governs the expression of key <i>GLYCOALKALOID METABOLISM</i> (<i>GAME</i>) genes during ripening. Moreover, the ethylene-inducible transcription factors NON-RIPENING, RIPENING INHIBITOR, and FRUITFULL1 coordinately regulate the expression of <i>GAME31</i>, <i>GAME40</i>, <i>GAME5</i>, and the glycoalkaloid transporter gene <i>GORKY</i>, whereas jasmonic acid-induced MYC2 modulates the transcription of <i>GAME36</i>. Furthermore, DNA demethylation mediated by the <i>DEMETER</i>-<i>LIKE</i> 2 drives SGA detoxification during tomato domestication.",
+        "affiliation": "Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, College of Life Sciences, Sichuan University, Chengdu 610065, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fruit",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ethylenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Alkaloids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomatine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription Factors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Taste"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Methylation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Epigenesis, Genetic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Gene Regulatory Networks"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Solanum lycopersicum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Alkaloids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Ethylenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Transcription Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ethylene",
+              "registryNumber": "91GW059KN7"
+            },
+            {
+              "name": "Tomatine",
+              "registryNumber": "31U6547O08"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/sciadv.ads9601"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11837996"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11837996?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "bioproject",
+            "gen"
+          ]
+        },
+        "dateOfCompletion": "2025-05-08",
+        "dateOfCreation": "2025-02-19",
+        "dateOfRevision": "2025-05-08",
+        "electronicPublicationDate": "2025-02-19",
+        "firstPublicationDate": "2025-02-19",
+        "firstIndexDate": "2025-02-20",
+        "fullTextReceivedDate": "2025-02-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33707737",
+        "source": "MED",
+        "pmid": "33707737",
+        "doi": "10.1038/s41477-021-00865-6",
+        "title": "The GORKY glycoalkaloid transporter is indispensable for preventing tomato bitterness.",
+        "authorString": "Kazachkova Y, Zemach I, Panda S, Bocobza S, Vainer A, Rogachev I, Dong Y, Ben-Dor S, Veres D, Kanstrup C, Lambertz SK, Crocoll C, Hu Y, Shani E, Michaeli S, Nour-Eldin HH, Zamir D, Aharoni A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kazachkova Y",
+              "lastName": "Kazachkova",
+              "firstName": "Yana",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3613-4177"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zemach I",
+              "lastName": "Zemach",
+              "firstName": "Itay",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Robert H. Smith Institute of Plant Sciences and Genetics in Agriculture, Hebrew University of Jerusalem, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Panda S",
+              "lastName": "Panda",
+              "firstName": "Sayantan",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5758-4700"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  },
+                  {
+                    "affiliation": "Gilat Research Center, Agricultural Research Organization, Rishon Lezion, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bocobza S",
+              "lastName": "Bocobza",
+              "firstName": "Samuel",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8138-4426"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vainer A",
+              "lastName": "Vainer",
+              "firstName": "Andrii",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9845-7778"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rogachev I",
+              "lastName": "Rogachev",
+              "firstName": "Ilana",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dong Y",
+              "lastName": "Dong",
+              "firstName": "Yonghui",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0534-3868"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ben-Dor S",
+              "lastName": "Ben-Dor",
+              "firstName": "Shifra",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9604-1939"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Veres D",
+              "lastName": "Veres",
+              "firstName": "Dorottya",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, DynaMo Center, University of Copenhagen, Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kanstrup C",
+              "lastName": "Kanstrup",
+              "firstName": "Christa",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4792-2208"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, DynaMo Center, University of Copenhagen, Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lambertz SK",
+              "lastName": "Lambertz",
+              "firstName": "Sophie Konstanze",
+              "initials": "SK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, DynaMo Center, University of Copenhagen, Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Crocoll C",
+              "lastName": "Crocoll",
+              "firstName": "Christoph",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2754-3518"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, DynaMo Center, University of Copenhagen, Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu Y",
+              "lastName": "Hu",
+              "firstName": "Yangjie",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0910-6384"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Biology and Ecology of Plants, Tel Aviv University, Tel Aviv, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shani E",
+              "lastName": "Shani",
+              "firstName": "Eilon",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3111-4647"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Biology and Ecology of Plants, Tel Aviv University, Tel Aviv, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Michaeli S",
+              "lastName": "Michaeli",
+              "firstName": "Simon",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0123-6544"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nour-Eldin HH",
+              "lastName": "Nour-Eldin",
+              "firstName": "Hussam Hassan",
+              "initials": "HH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6660-0509"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, DynaMo Center, University of Copenhagen, Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zamir D",
+              "lastName": "Zamir",
+              "firstName": "Dani",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Robert H. Smith Institute of Plant Sciences and Genetics in Agriculture, Hebrew University of Jerusalem, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aharoni A",
+              "lastName": "Aharoni",
+              "firstName": "Asaph",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6077-1590"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel. asaph.aharoni@weizmann.ac.il."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6660-0509"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9604-1939"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9845-7778"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0534-3868"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0910-6384"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3111-4647"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5758-4700"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6077-1590"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8138-4426"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0123-6544"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2754-3518"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3613-4177"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4792-2208"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "recommended_reviews"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "7",
+          "journalIssueId": 3154074,
+          "dateOfPublication": "2021 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Nat Plants",
+            "title": "Nature plants",
+            "essn": "2055-0278",
+            "issn": "2055-0278",
+            "isoabbreviation": "Nat Plants",
+            "nlmid": "101651677"
+          },
+          "printPublicationDate": "2021-04-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "468-480",
+        "abstractText": "Fruit taste is determined by sugars, acids and in some species, bitter chemicals. Attraction of seed-dispersing organisms in nature and breeding for consumer preferences requires reduced fruit bitterness. A key metabolic shift during ripening prevents tomato fruit bitterness by eliminating α-tomatine, a renowned defence-associated Solanum alkaloid. Here, we combined fine mapping with information from 150 resequenced genomes and genotyping a 650-tomato core collection to identify nine bitter-tasting accessions including the 'high tomatine' Peruvian landraces reported in the literature. These 'bitter' accessions contain a deletion in GORKY, a nitrate/peptide family transporter mediating α-tomatine subcellular localization during fruit ripening. GORKY exports α-tomatine and its derivatives from the vacuole to the cytosol and this facilitates the conversion of the entire α-tomatine pool to non-bitter forms, rendering the fruit palatable. Hence, GORKY activity was a notable innovation in the process of tomato fruit domestication and breeding.",
+        "affiliation": "Department of Plant and Environmental Sciences, Weizmann Institute of Science, Rehovot, Israel.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fruit",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Taste"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Breeding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solanum lycopersicum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41477-021-00865-6"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 78,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-06-15",
+        "dateOfCreation": "2021-03-12",
+        "dateOfRevision": "2023-01-30",
+        "electronicPublicationDate": "2021-03-11",
+        "firstPublicationDate": "2021-03-11",
+        "firstIndexDate": "2021-03-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30723417",
+        "source": "MED",
+        "pmid": "30723417",
+        "pmcid": "PMC6349761",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6349761"
+          ]
+        },
+        "doi": "10.3389/fphys.2019.00008",
+        "title": "RNA-Seq Analyses of Midgut and Fat Body Tissues Reveal the Molecular Mechanism Underlying <i>Spodoptera litura</i> Resistance to Tomatine.",
+        "authorString": "Li Q, Sun Z, Shi Q, Wang R, Xu C, Wang H, Song Y, Zeng R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li Q",
+              "lastName": "Li",
+              "firstName": "Qilin",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun Z",
+              "lastName": "Sun",
+              "firstName": "Zhongxiang",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi Q",
+              "lastName": "Shi",
+              "firstName": "Qi",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang R",
+              "lastName": "Wang",
+              "firstName": "Rumeng",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu C",
+              "lastName": "Xu",
+              "firstName": "Cuicui",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang H",
+              "lastName": "Wang",
+              "firstName": "Huanhuan",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song Y",
+              "lastName": "Song",
+              "firstName": "Yuanyuan",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5295-803X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zeng R",
+              "lastName": "Zeng",
+              "firstName": "Rensen",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6435-3054"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5295-803X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6435-3054"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "10",
+          "journalIssueId": 2777617,
+          "dateOfPublication": "2019 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Front Physiol",
+            "title": "Frontiers in physiology",
+            "essn": "1664-042X",
+            "issn": "1664-042X",
+            "isoabbreviation": "Front Physiol",
+            "nlmid": "101549006"
+          },
+          "printPublicationDate": "2019-01-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "8",
+        "abstractText": "Plants produce secondary metabolites to provide chemical defense against herbivorous insects, whereas insects can induce the expression of detoxification metabolism-related unigenes in counter defense to plant xenobiotics. Tomatine is an important secondary metabolite in tomato (<i>Lycopersicon esculentum</i> L.) that can protect the plant from bacteria and insects. However, the mechanism underlying the adaptation of <i>Spodoptera litura</i>, a major tomato pest, to tomatine in tomato is largely unclear. In this study, we first found that the levels of tomatine in tomatoes subjected to <i>S. litura</i> treatment were significantly increased. Second, we confirmed the inhibitory effect of tomatine on <i>S. litura</i> by adding moderate amounts of commercial tomatine to an artificial diet. Then, we utilized RNA-Seq to compare the differentially expressed genes (DEGs) in the midgut and fat body tissues of <i>S. litura</i> exposed to an artificial diet supplemented with tomatine. In total, upon exposure to tomatine, 134 and 666 genes were upregulated in the <i>S. litura</i> midgut and fat body, respectively. These DEGs comprise a significant number of detoxification-related genes, including 7 P450 family genes, 8 glutathione S-transferases (GSTs) genes, 6 ABC transport enzyme genes, 9 UDP-glucosyltransferases genes and 3 carboxylesterases genes. Moreover, KEGG analysis demonstrated that the upregulated genes were enriched in xenobiotic metabolism by cytochrome P450s, ABC transporters and drug metabolism by other enzymes. Furthermore, as numerous GSTs were induced by tomatine in <i>S. litura</i>, we chose one gene, namely <i>GSTS1</i>, to confirm the detoxification function on tomatine. Expression profiling revealed that <i>GSTS1</i> transcripts were mainly expressed in larvae, and the levels were the highest in the midgut. Finally, when larvae were injected with double-stranded RNA specific to <i>GSTS1</i>, the transcript levels in the midgut and fat body decreased, and the negative effect of the plant xenobiotic tomatine on larval growth was magnified. These results preliminarily clarified the molecular mechanism underlying the resistance of <i>S. litura</i> to tomatine, establishing a foundation for subsequent pest control.",
+        "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Natural Science Foundation of Fujian Province",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31601899",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2017M612111",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31470477",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2018T110635",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31670414",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Spodoptera litura",
+            "Tomatine",
+            "RNAi",
+            "Rna-sequencing",
+            "Gsts1"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.frontiersin.org/articles/10.3389/fphys.2019.00008/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fphys.2019.00008"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6349761"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6349761?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 27,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "gen"
+          ]
+        },
+        "dateOfCreation": "2019-02-07",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2019-01-22",
+        "firstPublicationDate": "2019-01-22",
+        "firstIndexDate": "2019-02-08",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32598881",
+        "source": "MED",
+        "pmid": "32598881",
+        "doi": "10.1016/j.bbabio.2020.148251",
+        "title": "Comparative assessment of purified saponins as permeabilization agents during respirometry.",
+        "authorString": "Dawid C, Weber D, Musiol E, Janas V, Baur S, Lang R, Fromme T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dawid C",
+              "lastName": "Dawid",
+              "firstName": "Corinna",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5342-2600"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Food Chemistry and Molecular Sensory Science, Technical University of Munich, Freising, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Weber D",
+              "lastName": "Weber",
+              "firstName": "Daniela",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9825-6674"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Molecular Nutritional Medicine, TUM School of Life Sciences, Technical University of Munich, Freising, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Musiol E",
+              "lastName": "Musiol",
+              "firstName": "Eva",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Molecular Nutritional Medicine, TUM School of Life Sciences, Technical University of Munich, Freising, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Janas V",
+              "lastName": "Janas",
+              "firstName": "Vanessa",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Molecular Nutritional Medicine, TUM School of Life Sciences, Technical University of Munich, Freising, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baur S",
+              "lastName": "Baur",
+              "firstName": "Sebastian",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Food Chemistry and Molecular Sensory Science, Technical University of Munich, Freising, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lang R",
+              "lastName": "Lang",
+              "firstName": "Roman",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0610-7186"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Food Chemistry and Molecular Sensory Science, Technical University of Munich, Freising, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fromme T",
+              "lastName": "Fromme",
+              "firstName": "Tobias",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Molecular Nutritional Medicine, TUM School of Life Sciences, Technical University of Munich, Freising, Germany; EKFZ - Else Kröner-Fresenius Center for Nutritional Medicine, Technical University of Munich, Freising, Germany. Electronic address: fromme@tum.de."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5342-2600"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9825-6674"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0610-7186"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "1861",
+          "journalIssueId": 2989448,
+          "dateOfPublication": "2020 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Biochim Biophys Acta Bioenerg",
+            "title": "Biochimica et biophysica acta. Bioenergetics",
+            "essn": "1879-2650",
+            "issn": "0005-2728",
+            "isoabbreviation": "Biochim Biophys Acta Bioenerg",
+            "nlmid": "101731706"
+          },
+          "printPublicationDate": "2020-10-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "148251",
+        "abstractText": "Saponins are a diverse group of secondary plant metabolites, some of which display hemolytic toxicity due to plasma membrane permeabilization. This feature is employed in biological applications for transferring hydrophilic molecules through cell membranes. Widely used commercial saponins include digitonin and saponins from soap tree bark, both of which constitute complex mixtures of little definition. We assessed the permeabilization power of pure saponins towards cellular membranes in an effort to detect novel properties and to improve existing applications. In a respirometric assay, we characterized half-maximal permeabilization of the plasma membrane for different metabolites, of the mitochondrial outer membrane for cytochrome C and the full solubilization of mitochondrial inner membrane protein complexes. Beyond the complete list as repository for the field, we highlight several findings with direct applicability. First, we identified and validated α-chaconine as alternative permeabilization agent in respirometric assays of cultured cells and isolated synaptosomes, superior to digitonin in its tolerability for mitochondria. Second, we identified glycyrrhizic acid to form exceptionally small pores impermeable for adenosine diphosphate. Third, in a concentration dependent manner, tomatine proved to be able to selectively permeabilize the mitochondrial outer, but not inner membrane, allowing for novel states in which to determine cytochrome C oxidase activity. In summary, we provide a list of the permeabilization properties of 18 pure saponins. The identification of two saponins, namely tomatine and chaconine, with direct usability in improved or novel cell biological applications within this small subgroup demonstrates the tremendous potential for further functional screening of pure saponins.",
+        "affiliation": "Chair of Food Chemistry and Molecular Sensory Science, Technical University of Munich, Freising, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport Complex IV",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saponins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calorimetry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Membrane Permeability",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HEK293 Cells"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Mitochondria",
+            "Saponin",
+            "Respirometry",
+            "Membrane Permeabilization",
+            "Digitonin",
+            "Chaconine"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Saponins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Electron Transport Complex IV",
+              "registryNumber": "EC 1.9.3.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bbabio.2020.148251"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-10-26",
+        "dateOfCreation": "2020-06-30",
+        "dateOfRevision": "2020-10-26",
+        "electronicPublicationDate": "2020-06-26",
+        "firstPublicationDate": "2020-06-26",
+        "firstIndexDate": "2020-06-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29250143",
+        "source": "MED",
+        "pmid": "29250143",
+        "pmcid": "PMC5729398",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5729398"
+          ]
+        },
+        "doi": "10.3892/etm.2017.5294",
+        "title": "Molecular mechanisms underlying the α-tomatine-directed apoptosis in human malignant glioblastoma cell lines A172 and U-118 MG.",
+        "authorString": "Wang FZ, Dai XL, Liu HY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang FZ",
+              "lastName": "Wang",
+              "firstName": "Fa-Zhao",
+              "initials": "FZ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurosurgery, The People's Hospital of Zoucheng, Zoucheng, Shandong 273500, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dai XL",
+              "lastName": "Dai",
+              "firstName": "Xue-Liang",
+              "initials": "XL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurosurgery, The People's Hospital of Zoucheng, Zoucheng, Shandong 273500, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu HY",
+              "lastName": "Liu",
+              "firstName": "Hong-Yi",
+              "initials": "HY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurosurgery, The People's Hospital of Zoucheng, Zoucheng, Shandong 273500, P.R. China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "14",
+          "journalIssueId": 2621360,
+          "dateOfPublication": "2017 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Exp Ther Med",
+            "title": "Experimental and therapeutic medicine",
+            "essn": "1792-1015",
+            "issn": "1792-0981",
+            "isoabbreviation": "Exp Ther Med",
+            "nlmid": "101531947"
+          },
+          "printPublicationDate": "2017-12-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "6183-6192",
+        "abstractText": "In the present study, the molecular mechanisms involved in the α-tomatine-induced apoptosis in human glioblastoma cell lines A172 and U-118 MG were investigated. Wright staining and ApopTag assays were conducted to confirm the apoptosis induced by α-tomatine treatment. Fura-2 assay determined an enhancement in free Ca<sup>2+</sup> intracellularly, indicating the occurrence of Ca<sup>2+</sup>-dependent apoptosis induction. Western blot experiments were also performed to predict the apoptosis by measuring the changes in the Bax:Bcl-2 ratio. Increase of calpain activity triggered caspase-12 expression, which in turn further activated caspase-9. In addition, an increase in the ratio of Bax:Bcl-2 accounted for the mitochondrial release of cytochrome <i>c</i> into the cytosol for caspase-3 and caspase-9 activation. Elevated activity of calpain and caspase-3 yielded spectrin breakdown products with 145 and 120 kDa, respectively. Caspase-3 activation further cleaved the inhibitor of caspase activated DNase, while the apoptosis-inducing factor detected in the cytosol suggested that apoptosis was independent of caspase. The apoptosis induction was further supported by decreased expression levels of nuclear factor-κB and increased expression of the inhibitor of nuclear factor, IκBα. In conclusion, the presented experimental results revealed the stimulation of different molecular mechanisms for α-tomatine-mediated apoptosis in A172 and U-118 MG human glioblastoma cell lines.",
+        "affiliation": "Department of Neurosurgery, The People's Hospital of Zoucheng, Zoucheng, Shandong 273500, P.R. China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Apoptosis",
+            "Glioblastoma",
+            "Caspase Activation",
+            "Α-tomatine"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3892/etm.2017.5294"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5729398"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5729398?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3892/etm.2017.5294"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2017-12-19",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2017-10-12",
+        "firstPublicationDate": "2017-10-12",
+        "firstIndexDate": "2017-12-19",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "35362964",
+        "source": "MED",
+        "pmid": "35362964",
+        "doi": "10.1021/acsnano.1c10602",
+        "title": "Molecular Mechanisms of Early Flowering in Tomatoes Induced by Manganese Ferrite (MnFe<sub>2</sub>O<sub>4</sub>) Nanomaterials.",
+        "authorString": "Yue L, Feng Y, Ma C, Wang C, Chen F, Cao X, Wang J, White JC, Wang Z, Xing B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yue L",
+              "lastName": "Yue",
+              "firstName": "Le",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5538-7677"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China."
+                  },
+                  {
+                    "affiliation": "Jiangsu Engineering Laboratory for Biomass Energy and Carbon Reduction Technology, Wuxi 214122, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Feng Y",
+              "lastName": "Feng",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China."
+                  },
+                  {
+                    "affiliation": "Jiangsu Engineering Laboratory for Biomass Energy and Carbon Reduction Technology, Wuxi 214122, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma C",
+              "lastName": "Ma",
+              "firstName": "Chuanxin",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5125-7322"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for City Cluster Environmental Safety and Green Development of the Ministry of Education, Institute of Environmental and Ecological Engineering, Guangdong University of Technology, Guangzhou 510006, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang C",
+              "lastName": "Wang",
+              "firstName": "Chuanxi",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China."
+                  },
+                  {
+                    "affiliation": "Jiangsu Engineering Laboratory for Biomass Energy and Carbon Reduction Technology, Wuxi 214122, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen F",
+              "lastName": "Chen",
+              "firstName": "Feiran",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China."
+                  },
+                  {
+                    "affiliation": "Jiangsu Engineering Laboratory for Biomass Energy and Carbon Reduction Technology, Wuxi 214122, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao X",
+              "lastName": "Cao",
+              "firstName": "Xuesong",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China."
+                  },
+                  {
+                    "affiliation": "Jiangsu Engineering Laboratory for Biomass Energy and Carbon Reduction Technology, Wuxi 214122, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China."
+                  },
+                  {
+                    "affiliation": "Jiangsu Engineering Laboratory for Biomass Energy and Carbon Reduction Technology, Wuxi 214122, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "White JC",
+              "lastName": "White",
+              "firstName": "Jason C",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5001-8143"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Connecticut Agricultural Experiment Station, New Haven, Connecticut 06504, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zhenyu",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5114-435X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China."
+                  },
+                  {
+                    "affiliation": "Jiangsu Engineering Laboratory for Biomass Energy and Carbon Reduction Technology, Wuxi 214122, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xing B",
+              "lastName": "Xing",
+              "firstName": "Baoshan",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2028-1295"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Stockbridge School of Agriculture, University of Massachusetts, Amherst, Massachusetts 01003, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5001-8143"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5125-7322"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5538-7677"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5114-435X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2028-1295"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "16",
+          "journalIssueId": 3348074,
+          "dateOfPublication": "2022 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "ACS Nano",
+            "title": "ACS nano",
+            "essn": "1936-086X",
+            "issn": "1936-0851",
+            "isoabbreviation": "ACS Nano",
+            "nlmid": "101313589"
+          },
+          "printPublicationDate": "2022-04-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "5636-5646",
+        "abstractText": "Nanomaterials (NMs) have demonstrated enormous potential to improve agricultural production. Ten mg L<sup>-1</sup> of customized manganese ferrite (MnFe<sub>2</sub>O<sub>4</sub>) NMs was selected as the optimal dose based on its outstanding effects on promoting tomato flowering and production. After the foliar application before flowering, MnFe<sub>2</sub>O<sub>4</sub> NMs increased the leaf chlorophyll content by 20 percent, and significantly upregulated the expressions of <i>ferredoxin</i>, <i>PsaA</i>, and <i>PsbA</i> in leaves, likely by serving as an electron donor, leading to a significant increase in photosynthesis efficiency by 13.3%. Long distance transport of sucrose was then confirmed by the upregulation of sucrose transporter <i>SUT1</i> and <i>SUT2</i> in NM-treated leaves and meristems. The genes associated with gibberellin biosynthesis, including <i>GA20ox2</i>, <i>GA20ox3</i>, and <i>SIGAST</i>, and a flowering induction gene <i>SFT</i>, were also significantly upregulated. Importantly, the flowering time was 13 days earlier by MnFe<sub>2</sub>O<sub>4</sub> NMs over the control. At the reproductive stage, MnFe<sub>2</sub>O<sub>4</sub> NMs increased pollen activity and ovule size, leading to the significant increase in fruit number per plant, single fruit weight, and fruit weight per plant by 50%, 30%, and 75%, respectively. Metabolically, a significant increase of glucose-6-phosphate, phenylalanine, rutin, and ascorbic acid (vitamin C), as well as a significant decrease of tomatine and methionine, demonstrates an increased nutritional value of the tomato fruits. A verified companion field experiment showed an increase of 84.1% in total tomato production with the MnFe<sub>2</sub>O<sub>4</sub> NM amendment. These findings provide support for the early flowering and yield improvement in nano-enabled agricultural systems.",
+        "affiliation": "Institute of Environmental Processes and Pollution Control and School of Environment and Civil Engineering, Jiangnan University, Wuxi 214122, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2021T140278",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "41820104009",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Food and Agriculture",
+              "grantId": "CONH00147",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "42007299",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "41807378",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Food and Agriculture",
+              "grantId": "MAS00549",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ferric Compounds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Manganese Compounds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sucrose"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Nanostructures"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Solanum lycopersicum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Tomato",
+            "Molecular mechanism",
+            "Early Flowering",
+            "Enhanced Quality",
+            "Increased Yield",
+            "Mnfe2o4 Nanomaterials"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Sucrose",
+              "registryNumber": "57-50-1"
+            },
+            {
+              "name": "Ferric Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Manganese Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "manganese ferrite",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acsnano.1c10602"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 29,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-11-11",
+        "dateOfCreation": "2022-04-01",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2022-04-01",
+        "firstPublicationDate": "2022-04-01",
+        "firstIndexDate": "2022-04-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30765057",
+        "source": "MED",
+        "pmid": "30765057",
+        "doi": "10.1016/j.pestbp.2018.12.006",
+        "title": "Identification of a cytochrome P450 CYP6AB60 gene associated with tolerance to multi-plant allelochemicals from a polyphagous caterpillar tobacco cutworm (Spodoptera litura).",
+        "authorString": "Sun Z, Shi Q, Li Q, Wang R, Xu C, Wang H, Ran C, Song Y, Zeng R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sun Z",
+              "lastName": "Sun",
+              "firstName": "Zhongxiang",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China; State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, Fuzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi Q",
+              "lastName": "Shi",
+              "firstName": "Qi",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Q",
+              "lastName": "Li",
+              "firstName": "Qilin",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang R",
+              "lastName": "Wang",
+              "firstName": "Rumeng",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu C",
+              "lastName": "Xu",
+              "firstName": "Cuicui",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang H",
+              "lastName": "Wang",
+              "firstName": "Huanhuan",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ran C",
+              "lastName": "Ran",
+              "firstName": "Chunxia",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song Y",
+              "lastName": "Song",
+              "firstName": "Yuanyuan",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5295-803X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China. Electronic address: yyuansong@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zeng R",
+              "lastName": "Zeng",
+              "firstName": "Rensen",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6435-3054"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China. Electronic address: rszeng@fafu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5295-803X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6435-3054"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "154",
+          "journalIssueId": 2783180,
+          "dateOfPublication": "2019 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Pestic Biochem Physiol",
+            "title": "Pesticide biochemistry and physiology",
+            "essn": "1095-9939",
+            "issn": "0048-3575",
+            "isoabbreviation": "Pestic Biochem Physiol",
+            "nlmid": "1301573"
+          },
+          "printPublicationDate": "2019-02-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "60-66",
+        "abstractText": "Generalist phytophagous insects adapt to adventurous chemical environment in a wide variety of host plants by extraordinary detoxifying metabolic abilities. However, how polyphagous insect cope with the diversity of plant defenses remains largely unknown and only a few counter-defense genes detoxifying a wide range of toxic secondary metabolites have been well characterized. Here, we identify a cytochrome P450 gene (CYP6AB60) from tobacco cutworm (Spodoptera litura) in response to three different plant's defense metabolites. After being exposed to artificial diet supplemented with coumarin (COU), xanthotoxin (XAN) or tomatine (TOM), activities of P450 and CYP6AB60 transcript levels in both midgut and fat body tissues were significantly increased. Developmental expression analysis revealed that CYP6AB60 was expressed highly during the larval stages, and tissue distribution analysis showed that CYP6AB60 was expressed extremely high in the midgut, which correspond to the physiological role of CYP6AB60 from S. litura larvae in response to plant allelochemicals. Furthermore, when larvae are injected with double-stranded RNA (dsRNA) specific to CYP6AB60, levels of this transcript in the midgut and fatbody decrease and the negative effect of plant's defense metabolites on larval growth is magnified. These data demonstrate that the generalist insect S. litura might take advantage of an individual detoxificative gene CYP6AB60 to toxic secondary metabolites from different host plants. The CYP6AB60 can be a potential gene to carry out RNAi-mediated crop protection against the major polyphagous pest S. litura in the future.",
+        "affiliation": "College of Crop Science, Fujian Agriculture and Forestry University, Fuzhou 350002, China; State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops, Fuzhou, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31870361",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2017M612111",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2018T110635",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fujian-Taiwan Joint Innovative Center for Germplasm Resources and cultivation of crop",
+              "grantId": "2015-75",
+              "orderIn": 0
+            },
+            {
+              "agency": "One Hundred Talents Program of Fujian Province of China",
+              "grantId": "2015-08",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31601899",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31770474",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Fujian Province",
+              "grantId": "2016J01104",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31670414",
+              "orderIn": 0
+            },
+            {
+              "agency": "State Key Laboratory of Ecological Pest Control for Fujian and Taiwan Crops",
+              "grantId": "SKL20180011",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spodoptera",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomatine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methoxsalen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insect Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pheromones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Enzymologic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA Interference"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Larva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Tolerance",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P450 Family 6",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Spodoptera litura",
+            "Plant allelochemicals",
+            "RNAi",
+            "P450",
+            "Counter-defense Gene"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Pheromones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Insect Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "coumarin",
+              "registryNumber": "A4VZ22K1WT"
+            },
+            {
+              "name": "Tomatine",
+              "registryNumber": "31U6547O08"
+            },
+            {
+              "name": "Methoxsalen",
+              "registryNumber": "U4VJ29L7BQ"
+            },
+            {
+              "name": "Cytochrome P450 Family 6",
+              "registryNumber": "EC 1.14.14.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.pestbp.2018.12.006"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 37,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-03-05",
+        "dateOfCreation": "2019-02-16",
+        "dateOfRevision": "2019-03-05",
+        "electronicPublicationDate": "2018-12-18",
+        "firstPublicationDate": "2018-12-18",
+        "firstIndexDate": "2019-02-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26951878",
+        "source": "MED",
+        "pmid": "26951878",
+        "doi": "10.1016/j.ibmb.2016.03.001",
+        "title": "Know your ABCs: Characterization and gene expression dynamics of ABC transporters in the polyphagous herbivore Helicoverpa armigera.",
+        "authorString": "Bretschneider A, Heckel DG, Vogel H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bretschneider A",
+              "lastName": "Bretschneider",
+              "firstName": "Anne",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, Max Planck Institute for Chemical Ecology, Jena 07745, Germany. Electronic address: abretschneider@ice.mpg.de."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Heckel DG",
+              "lastName": "Heckel",
+              "firstName": "David G",
+              "initials": "DG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8991-2150"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, Max Planck Institute for Chemical Ecology, Jena 07745, Germany. Electronic address: heckel@ice.mpg.de."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vogel H",
+              "lastName": "Vogel",
+              "firstName": "Heiko",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9821-7731"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, Max Planck Institute for Chemical Ecology, Jena 07745, Germany. Electronic address: hvogel@ice.mpg.de."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8991-2150"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9821-7731"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "72",
+          "journalIssueId": 2398949,
+          "dateOfPublication": "2016 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Insect Biochem Mol Biol",
+            "title": "Insect biochemistry and molecular biology",
+            "essn": "1879-0240",
+            "issn": "0965-1748",
+            "isoabbreviation": "Insect Biochem Mol Biol",
+            "nlmid": "9207282"
+          },
+          "printPublicationDate": "2016-05-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "1-9",
+        "abstractText": "Polyphagous insect herbivores are adapted to many different secondary metabolites of their host plants. However, little is known about the role of ATP-binding cassette (ABC) transporters, a multigene family involved in detoxification processes. To study the larval response of the generalist Helicoverpa armigera (Lepidoptera) and the putative role of ABC transporters, we performed developmental assays on artificial diet supplemented with secondary metabolites from host plants (atropine-scopolamine, nicotine and tomatine) and non-host plants (taxol) in combination with a replicated RNAseq experiment. A maximum likelihood phylogeny identified the subfamily affiliations of the ABC transporter sequences. Larval performance was equal on the atropine-scopolamine diet and the tomatine diet. For the latter we could identify a treatment-specific upregulation of five ABC transporters in the gut. No significant developmental difference was detected between larvae fed on nicotine or taxol. This was also mirrored in the upregulation of five ABC transporters when fed on either of the two diets. The highest number of differentially expressed genes was recorded in the gut samples in response to feeding on secondary metabolites. Our results are consistent with the expectation of a general detoxification response in a polyphagous herbivore. This is the first study to characterize the multigene family of ABC transporters and identify gene expression changes across different developmental stages and tissues, as well as the impact of secondary metabolites in the agricultural pest H. armigera.",
+        "affiliation": "Department of Entomology, Max Planck Institute for Chemical Ecology, Jena 07745, Germany. Electronic address: abretschneider@ice.mpg.de.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Max-Planck-Gesellschaft",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastrointestinal Tract",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Moths",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Paclitaxel",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solanaceous Alkaloids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP-Binding Cassette Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phylogeny"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Developmental"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Larva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Herbivory"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Secondary Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inactivation, Metabolic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Helicoverpa armigera",
+            "Herbivore",
+            "Detoxification",
+            "Transcriptome",
+            "Abc Transporters",
+            "Generalist"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Solanaceous Alkaloids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP-Binding Cassette Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Paclitaxel",
+              "registryNumber": "P88XT4IS4D"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ibmb.2016.03.001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 51,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-03-03",
+        "dateOfCreation": "2016-03-09",
+        "dateOfRevision": "2017-12-13",
+        "electronicPublicationDate": "2016-03-04",
+        "firstPublicationDate": "2016-03-04",
+        "firstIndexDate": "2016-03-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28754839",
+        "source": "MED",
+        "pmid": "28754839",
+        "doi": "10.1104/pp.17.00501",
+        "title": "A Dioxygenase Catalyzes Steroid 16α-Hydroxylation in Steroidal Glycoalkaloid Biosynthesis.",
+        "authorString": "Nakayasu M, Umemoto N, Ohyama K, Fujimoto Y, Lee HJ, Watanabe B, Muranaka T, Saito K, Sugimoto Y, Mizutani M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nakayasu M",
+              "lastName": "Nakayasu",
+              "firstName": "Masaru",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6980-7238"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Agricultural Science, Kobe University, Kobe, Hyogo 657-8501, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Umemoto N",
+              "lastName": "Umemoto",
+              "firstName": "Naoyuki",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5507-0848"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Agricultural Science, Kobe University, Kobe, Hyogo 657-8501, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ohyama K",
+              "lastName": "Ohyama",
+              "firstName": "Kiyoshi",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Materials Science, Tokyo Institute of Technology, Meguro-ku, Tokyo 152-8551, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fujimoto Y",
+              "lastName": "Fujimoto",
+              "firstName": "Yoshinori",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Materials Science, Tokyo Institute of Technology, Meguro-ku, Tokyo 152-8551, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee HJ",
+              "lastName": "Lee",
+              "firstName": "Hyoung Jae",
+              "initials": "HJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Agricultural Science, Kobe University, Kobe, Hyogo 657-8501, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Watanabe B",
+              "lastName": "Watanabe",
+              "firstName": "Bunta",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3645-5712"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Chemical Research, Kyoto University, Uji, Kyoto 611-0011, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Muranaka T",
+              "lastName": "Muranaka",
+              "firstName": "Toshiya",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1058-2473"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, Graduate School of Engineering, Osaka University, Suita, Osaka 565-0871, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saito K",
+              "lastName": "Saito",
+              "firstName": "Kazuki",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6310-5342"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "RIKEN Center for Sustainable Resource Science, Yokohama, Kanagawa 230-0045, Japan."
+                  },
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, Chiba University, Chuo-ku, Chiba 260-8675, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sugimoto Y",
+              "lastName": "Sugimoto",
+              "firstName": "Yukihiro",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Agricultural Science, Kobe University, Kobe, Hyogo 657-8501, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mizutani M",
+              "lastName": "Mizutani",
+              "firstName": "Masaharu",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4321-0644"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Agricultural Science, Kobe University, Kobe, Hyogo 657-8501, Japan mizutani@gold.kobe-u.ac.jp."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5507-0848"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6310-5342"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4321-0644"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6980-7238"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1058-2473"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3645-5712"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "175",
+          "journalIssueId": 2591196,
+          "dateOfPublication": "2017 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Plant Physiol",
+            "title": "Plant physiology",
+            "essn": "1532-2548",
+            "issn": "0032-0889",
+            "isoabbreviation": "Plant Physiol",
+            "nlmid": "0401224"
+          },
+          "printPublicationDate": "2017-09-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "120-133",
+        "abstractText": "Steroidal glycoalkaloids (SGAs) are toxic specialized metabolites that are found in the Solanaceae. Potato (<i>Solanum tuberosum</i>) contains the SGAs α-solanine and α-chaconine, while tomato (<i>Solanum lycopersicum</i>) contains α-tomatine, all of which are biosynthesized from cholesterol. However, although two cytochrome P450 monooxygenases that catalyze the 22- and 26-hydroxylation of cholesterol have been identified, the 16-hydroxylase remains unknown. Feeding with deuterium-labeled cholesterol indicated that the 16α- and 16β-hydrogen atoms of cholesterol were eliminated to form α-solanine and α-chaconine in potato, while only the 16α-hydrogen atom was eliminated in α-tomatine biosynthesis, suggesting that a single oxidation at C-16 takes place during tomato SGA biosynthesis while a two-step oxidation occurs in potato. Here, we show that a 2-oxoglutarate-dependent dioxygenase, designated as 16DOX, is involved in SGA biosynthesis. We found that the transcript of potato <i>16DOX</i> (<i>St16DOX</i>) was expressed at high levels in the tuber sprouts, where large amounts of SGAs are accumulated. Biochemical analysis of the recombinant St16DOX protein revealed that St16DOX catalyzes the 16α-hydroxylation of hydroxycholesterols and that (22<i>S</i>)-22,26-dihydroxycholesterol was the best substrate among the nine compounds tested. <i>St16DOX</i>-silenced potato plants contained significantly lower levels of SGAs, and a detailed metabolite analysis revealed that they accumulated the glycosides of (22<i>S</i>)-22,26-dihydroxycholesterol. Analysis of the tomato <i>16DOX</i> (<i>Sl16DOX</i>) gene gave essentially the same results. These findings clearly indicate that 16DOX is a steroid 16α-hydroxylase that functions in the SGA biosynthetic pathway. Furthermore, <i>St16DOX</i> silencing did not affect potato tuber yield, indicating that <i>16DOX</i> may be a suitable target for controlling toxic SGA levels in potato.",
+        "affiliation": "Graduate School of Agricultural Science, Kobe University, Kobe, Hyogo 657-8501, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "the Scientific Technique Research Promotion Program for Agriculture, Forestry, Fisheries and Food Industry, Japan",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Cross-ministerial Strategic Innovation Promotion Program (SIP), Japan",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Program for promotion of Basic and Applied Researches for Innovations in Bio-oriented Industry (Brain), Japan",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants, Genetically Modified"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deuterium"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solanaceous Alkaloids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ketoglutarate Dehydrogenase Complex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Steroid 16-alpha-Hydroxylase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenotype"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solanum tuberosum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solanum lycopersicum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Ketoglutarate Dehydrogenase Complex",
+              "registryNumber": "EC 1.2.4.2"
+            },
+            {
+              "name": "Steroid 16-alpha-Hydroxylase",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Solanaceous Alkaloids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Deuterium",
+              "registryNumber": "AR09D82C7G"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5580751"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1104/pp.17.00501"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "Y",
+        "citedByCount": 68,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "manuscriptId": "",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-03-23",
+        "dateOfCreation": "2017-07-30",
+        "dateOfRevision": "2022-12-07",
+        "electronicPublicationDate": "2017-07-28",
+        "firstPublicationDate": "2017-07-28",
+        "firstIndexDate": "2017-07-31",
+        "embargoDate": "2018-09-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21541327",
+        "source": "MED",
+        "pmid": "21541327",
+        "pmcid": "PMC3082542",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3082542"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0018915",
+        "title": "Alpha-tomatine induces apoptosis and inhibits nuclear factor-kappa B activation on human prostatic adenocarcinoma PC-3 cells.",
+        "authorString": "Lee ST, Wong PF, Cheah SC, Mustafa MR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lee ST",
+              "lastName": "Lee",
+              "firstName": "Sui-Ting",
+              "initials": "ST",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Faculty of Medicine, University of Malaya, Kuala Lumpur, Malaysia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wong PF",
+              "lastName": "Wong",
+              "firstName": "Pooi-Fong",
+              "initials": "PF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6705-2521"
+              }
+            },
+            {
+              "fullName": "Cheah SC",
+              "lastName": "Cheah",
+              "firstName": "Shiau-Chuen",
+              "initials": "SC"
+            },
+            {
+              "fullName": "Mustafa MR",
+              "lastName": "Mustafa",
+              "firstName": "Mohd Rais",
+              "initials": "MR"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6705-2521"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "6",
+          "journalIssueId": 2460445,
+          "dateOfPublication": "2011 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2011-04-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "e18915",
+        "abstractText": "<h4>Background</h4>Alpha-tomatine (α-tomatine) is the major saponin in tomato (Lycopersicon esculentum). This study investigates the chemopreventive potential of α-tomatine on androgen-independent human prostatic adenocarcinoma PC-3 cells.<h4>Methodology/principal findings</h4>Treatment of highly aggressive human prostate cancer PC-3 cells with α-tomatine resulted in a concentration-dependent inhibition of cell growth with a half-maximal efficient concentration (EC(50)) value of 1.67±0.3 µM. It is also less cytotoxic to normal human liver WRL-68 cells and normal human prostate RWPE-1 cells. Assessment of real-time growth kinetics by cell impedance-based Real-Time Cell Analyzer (RTCA) showed that α-tomatine exhibited its cytotoxic effects against PC-3 cells as early as an hour after treatment. The inhibitory effect of α-tomatine on PC-3 cancer cell growth was mainly due to induction of apoptosis as evidenced by positive Annexin V staining and decreased in mitochondrial membrane potential but increased in nuclear condensation, polarization of F-actin, cell membrane permeability and cytochrome c expressions. Results also showed that α-tomatine induced activation of caspase-3, -8 and -9, suggesting that both intrinsic and extrinsic apoptosis pathways are involved. Furthermore, nuclear factor-kappa B (NF-κB) nuclear translocation was inhibited, which in turn resulted in significant decreased in NF-κB/p50 and NF-κB/p65 in the nuclear fraction of the treated cells compared to the control untreated cells. These results provide further insights into the molecular mechanism of the anti-proliferative actions of α-tomatine.<h4>Conclusion/significance</h4>α-tomatine induces apoptosis and inhibits NF-κB activation on prostate cancer cells. These results suggest that α-tomatine may be beneficial for protection against prostate cancer development and progression.",
+        "affiliation": "Department of Pharmacology, Faculty of Medicine, University of Malaya, Kuala Lumpur, Malaysia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Nucleus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adenocarcinoma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prostatic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomatine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Propidium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caspases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Necrosis Factor-alpha",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Annexin A5",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NF-kappa B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Screening Assays, Antitumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Shape",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Activation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electric Impedance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription Factor RelA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "alpha-tomatine",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Propidium",
+              "registryNumber": "36015-30-2"
+            },
+            {
+              "name": "Tumor Necrosis Factor-alpha",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NF-kappa B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Annexin A5",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caspases",
+              "registryNumber": "EC 3.4.22.-"
+            },
+            {
+              "name": "transcription factor relA",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tomatine",
+              "registryNumber": "31U6547O08"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0018915&type=printable"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0018915"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3082542"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3082542?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 54,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-08-23",
+        "dateOfCreation": "2011-05-05",
+        "dateOfRevision": "2022-03-17",
+        "electronicPublicationDate": "2011-04-26",
+        "firstPublicationDate": "2011-04-26",
+        "firstIndexDate": "2011-05-05",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22808084",
+        "source": "MED",
+        "pmid": "22808084",
+        "pmcid": "PMC3393737",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3393737"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0040005",
+        "title": "A novel flow cytometric HTS assay reveals functional modulators of ATP binding cassette transporter ABCB6.",
+        "authorString": "Polireddy K, Khan MM, Chavan H, Young S, Ma X, Waller A, Garcia M, Perez D, Chavez S, Strouse JJ, Haynes MK, Bologa CG, Oprea TI, Tegos GP, Sklar LA, Krishnamurthy P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Polireddy K",
+              "lastName": "Polireddy",
+              "firstName": "Kishore",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Toxicology, and Therapeutics, The University of Kansas Medical Center, Kansas City, Kansas, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan MM",
+              "lastName": "Khan",
+              "firstName": "Mohiuddin Md Taimur",
+              "initials": "MM"
+            },
+            {
+              "fullName": "Chavan H",
+              "lastName": "Chavan",
+              "firstName": "Hemantkumar",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9963-6230"
+              }
+            },
+            {
+              "fullName": "Young S",
+              "lastName": "Young",
+              "firstName": "Susan",
+              "initials": "S"
+            },
+            {
+              "fullName": "Ma X",
+              "lastName": "Ma",
+              "firstName": "Xiaochao",
+              "initials": "X"
+            },
+            {
+              "fullName": "Waller A",
+              "lastName": "Waller",
+              "firstName": "Anna",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3676-2501"
+              }
+            },
+            {
+              "fullName": "Garcia M",
+              "lastName": "Garcia",
+              "firstName": "Matthew",
+              "initials": "M"
+            },
+            {
+              "fullName": "Perez D",
+              "lastName": "Perez",
+              "firstName": "Dominique",
+              "initials": "D"
+            },
+            {
+              "fullName": "Chavez S",
+              "lastName": "Chavez",
+              "firstName": "Stephanie",
+              "initials": "S"
+            },
+            {
+              "fullName": "Strouse JJ",
+              "lastName": "Strouse",
+              "firstName": "Jacob J",
+              "initials": "JJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0341-1457"
+              }
+            },
+            {
+              "fullName": "Haynes MK",
+              "lastName": "Haynes",
+              "firstName": "Mark K",
+              "initials": "MK"
+            },
+            {
+              "fullName": "Bologa CG",
+              "lastName": "Bologa",
+              "firstName": "Cristian G",
+              "initials": "CG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2232-4244"
+              }
+            },
+            {
+              "fullName": "Oprea TI",
+              "lastName": "Oprea",
+              "firstName": "Tudor I",
+              "initials": "TI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6195-6976"
+              }
+            },
+            {
+              "fullName": "Tegos GP",
+              "lastName": "Tegos",
+              "firstName": "George P",
+              "initials": "GP"
+            },
+            {
+              "fullName": "Sklar LA",
+              "lastName": "Sklar",
+              "firstName": "Larry A",
+              "initials": "LA"
+            },
+            {
+              "fullName": "Krishnamurthy P",
+              "lastName": "Krishnamurthy",
+              "firstName": "Partha",
+              "initials": "P"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6195-6976"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9963-6230"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0341-1457"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2232-4244"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3676-2501"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "7",
+          "journalIssueId": 1946613,
+          "dateOfPublication": "2012 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2012-01-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "e40005",
+        "abstractText": "ABCB6 is a member of the adenosine triphosphate (ATP)-binding cassette family of transporter proteins that is increasingly recognized as a relevant physiological and therapeutic target. Evaluation of modulators of ABCB6 activity would pave the way toward a more complete understanding of the significance of this transport process in tumor cell growth, proliferation and therapy-related drug resistance. In addition, this effort would improve our understanding of the function of ABCB6 in normal physiology with respect to heme biosynthesis, and cellular adaptation to metabolic demand and stress responses. To search for modulators of ABCB6, we developed a novel cell-based approach that, in combination with flow cytometric high-throughput screening (HTS), can be used to identify functional modulators of ABCB6. Accumulation of protoporphyrin, a fluorescent molecule, in wild-type ABCB6 expressing K562 cells, forms the basis of the HTS assay. Screening the Prestwick Chemical Library employing the HTS assay identified four compounds, benzethonium chloride, verteporfin, tomatine hydrochloride and piperlongumine, that reduced ABCB6 mediated cellular porphyrin levels. Validation of the identified compounds employing the hemin-agarose affinity chromatography and mitochondrial transport assays demonstrated that three out of the four compounds were capable of inhibiting ABCB6 mediated hemin transport into isolated mitochondria. However, only verteporfin and tomatine hydrochloride inhibited ABCB6's ability to compete with hemin as an ABCB6 substrate. This assay is therefore sensitive, robust, and suitable for automation in a high-throughput environment as demonstrated by our identification of selective functional modulators of ABCB6. Application of this assay to other libraries of synthetic compounds and natural products is expected to identify novel modulators of ABCB6 activity.",
+        "affiliation": "Department of Pharmacology, Toxicology, and Therapeutics, The University of Kansas Medical Center, Kansas City, Kansas, United States of America.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCATS NIH HHS",
+              "acronym": "TR",
+              "grantId": "UL1 TR001449",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIMH NIH HHS",
+              "acronym": "MH",
+              "grantId": "R03 MH093193",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIMH NIH HHS",
+              "acronym": "MH",
+              "grantId": "R03MH093193",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIMH NIH HHS",
+              "acronym": "MH",
+              "grantId": "U54 MH084690",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCATS NIH HHS",
+              "acronym": "TR",
+              "grantId": "UL1 TR000041",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIMH NIH HHS",
+              "acronym": "MH",
+              "grantId": "5U54MH084690-02",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "K562 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzethonium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomatine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioxolanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Piperidones"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Porphyrins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protoporphyrins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sepharose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP-Binding Cassette Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Affinity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flow Cytometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Small Molecule Libraries"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "High-Throughput Screening Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Verteporfin"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "hemin-sepharose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ABCB6 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Porphyrins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dioxolanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protoporphyrins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sepharose",
+              "registryNumber": "9012-36-6"
+            },
+            {
+              "name": "Piperidones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP-Binding Cassette Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Small Molecule Libraries",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hemin",
+              "registryNumber": "743LRP9S7N"
+            },
+            {
+              "name": "Tomatine",
+              "registryNumber": "31U6547O08"
+            },
+            {
+              "name": "Benzethonium",
+              "registryNumber": "1VU15B70BP"
+            },
+            {
+              "name": "verteporfin",
+              "registryNumber": "0X9PA28K43"
+            },
+            {
+              "name": "piperlongumine",
+              "registryNumber": "SGD66V4SVJ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0040005"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3393737"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3393737?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "uniprot",
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2013-03-26",
+        "dateOfCreation": "2012-07-19",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2012-07-10",
+        "firstPublicationDate": "2012-07-10",
+        "firstIndexDate": "2012-07-19",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "10903116",
+        "source": "MED",
+        "pmid": "10903116",
+        "doi": "10.1016/s0045-6535(98)00229-x",
+        "title": "Induction of steroidal hydroxylase activity by plant defence compounds in the filamentous fungus Cochliobolus lunatus",
+        "authorString": "Vitas M, Smith KE, Plavec J, Kesselmeier J, Pajic T, Ferlan A, Zigon RD, Kelly SL, Komel R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vitas M",
+              "lastName": "Vitas",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Centre for Molecular Biology, Institute of Biochemistry, Medical Faculty, Ljubljana, Slovenia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smith KE",
+              "lastName": "Smith",
+              "initials": "KE"
+            },
+            {
+              "fullName": "Plavec J",
+              "lastName": "Plavec",
+              "initials": "J"
+            },
+            {
+              "fullName": "Kesselmeier J",
+              "lastName": "Kesselmeier",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4446-534X"
+              }
+            },
+            {
+              "fullName": "Pajic T",
+              "lastName": "Pajic",
+              "initials": "T"
+            },
+            {
+              "fullName": "Ferlan A",
+              "lastName": "Ferlan",
+              "initials": "A"
+            },
+            {
+              "fullName": "Zigon RD",
+              "lastName": "Zigon",
+              "initials": "RD"
+            },
+            {
+              "fullName": "Kelly SL",
+              "lastName": "Kelly",
+              "initials": "SL"
+            },
+            {
+              "fullName": "Komel R",
+              "lastName": "Komel",
+              "initials": "R"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4446-534X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "38",
+          "journalIssueId": 1044557,
+          "dateOfPublication": "1999 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 1999,
+          "journal": {
+            "medlineAbbreviation": "Chemosphere",
+            "title": "Chemosphere",
+            "essn": "1879-1298",
+            "issn": "0045-6535",
+            "isoabbreviation": "Chemosphere",
+            "nlmid": "0320657"
+          },
+          "printPublicationDate": "1999-02-01"
+        },
+        "pubYear": "1999",
+        "pageInfo": "853-863",
+        "abstractText": "We investigated the hypothesis that the endogenous role of the commercially important inducible steroid hydroxylase cytochrome P450s of fungi was in defense against plant toxophores/secondary metabolites. Two plant defense compounds, the aglycones tomatidine and solanidine, the steroidal glycoalkaloid alpha-tomatine and the triterpene saponin beta-escin were tested as inducers of 11beta/14alpha-steroid hydroxylase in the filamentous fungus Cochliobolus lunatus. The extracts of saponins from the roots of Primula veris and green oat leaves were also tested as inducers of 11beta/14alpha-hydroxylation activity in progesterone biotransformation with the same fungus. Induction of steroid hydroxylase and inhibition of activity in some cases support our hypothesis that their endogenous function is in biochemical defence against secondary metabolites. 4-Pregnene-3,11,20-trione was added as a substrate for biotransformation with C. lunatus. We isolated from culture broth 14alpha-hydroxy-4-pregnene-3,11,20-trione, and the hitherto unreported compounds, 7alpha,14alpha-dihydroxy-4-pregnene-3,11,20-trione and 7alpha-hydroxy-pregna-4,8(14)-diene-3,11,20-trione.",
+        "affiliation": "Medical Centre for Molecular Biology, Institute of Biochemistry, Medical Faculty, Ljubljana, Slovenia.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s0045-6535(98)00229-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2000-07-21",
+        "dateOfRevision": "2019-11-20",
+        "firstPublicationDate": "1999-02-01",
+        "firstIndexDate": "2009-12-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "2813396",
+        "source": "MED",
+        "pmid": "2813396",
+        "pmcid": "PMC522328",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC522328"
+          ]
+        },
+        "doi": "10.1073/pnas.86.21.8397",
+        "title": "Evidence that the glucose transporter serves as a water channel in J774 macrophages.",
+        "authorString": "Fischbarg J, Kuang KY, Hirsch J, Lecuona S, Rogozinski L, Silverstein SC, Loike J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fischbarg J",
+              "lastName": "Fischbarg",
+              "firstName": "J",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Cellular Biophysics, College of Physicians and Surgeons, Columbia University, New York, NY 10032."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kuang KY",
+              "lastName": "Kuang",
+              "firstName": "K Y",
+              "initials": "KY"
+            },
+            {
+              "fullName": "Hirsch J",
+              "lastName": "Hirsch",
+              "firstName": "J",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7544-8668"
+              }
+            },
+            {
+              "fullName": "Lecuona S",
+              "lastName": "Lecuona",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Rogozinski L",
+              "lastName": "Rogozinski",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Silverstein SC",
+              "lastName": "Silverstein",
+              "firstName": "S C",
+              "initials": "SC"
+            },
+            {
+              "fullName": "Loike J",
+              "lastName": "Loike",
+              "firstName": "J",
+              "initials": "J"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7544-8668"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "21",
+          "volume": "86",
+          "journalIssueId": 701147,
+          "dateOfPublication": "1989 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 1989,
+          "journal": {
+            "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+            "title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "essn": "1091-6490",
+            "issn": "0027-8424",
+            "isoabbreviation": "Proc Natl Acad Sci U S A",
+            "nlmid": "7505876"
+          },
+          "printPublicationDate": "1989-11-01"
+        },
+        "pubYear": "1989",
+        "pageInfo": "8397-8401",
+        "abstractText": "Water transport across plasma membranes is a universal property of cells, but the route of such transport is unclear. In this study, volume changes of cells of the J774 murine macrophage-like cell line were monitored by recording the intensity of light scattered by the cells. We investigated the effects of several inhibitors of glucose transport on cell membrane osmotic water permeability as calculated from the rates of cell volume change. Cytochalasin B (2.5 micrograms/ml), phloretin (20 microM), and tomatine (3 microM) reversibly blocked glucose uptake into these cells. All three inhibitors reversibly decreased the osmotic water permeability of J774 cells from 89.6 +/- 3.2 to 27.2 +/- 1.4 microns/sec. We conclude that a major component of the osmotic water flow across the plasma membranes of these cells is accounted for by water traversing their glucose transporters.",
+        "affiliation": "Department of Physiology and Cellular Biophysics, College of Physicians and Surgeons, Columbia University, New York, NY 10032.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIAID NIH HHS",
+              "acronym": "AI",
+              "grantId": "AI20516",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK39110",
+              "orderIn": 0
+            },
+            {
+              "agency": "NEI NIH HHS",
+              "acronym": "EY",
+              "grantId": "EY06178",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Membrane",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Macrophages",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Water",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tritium"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon Isotopes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Creatine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "gamma-Aminobutyric Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phloretin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tomatine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochalasin B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deoxyglucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methylglucosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "3-O-Methylglucose"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monosaccharide Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport, Active"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osmolar Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Permeability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Light"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Scattering, Radiation"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carbon Isotopes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tritium",
+              "registryNumber": "10028-17-8"
+            },
+            {
+              "name": "gamma-Aminobutyric Acid",
+              "registryNumber": "56-12-2"
+            },
+            {
+              "name": "Methylglucosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "3-O-Methylglucose",
+              "registryNumber": "146-72-5"
+            },
+            {
+              "name": "Monosaccharide Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Deoxyglucose",
+              "registryNumber": "9G2MP84A8W"
+            },
+            {
+              "name": "Cytochalasin B",
+              "registryNumber": "3CHI920QS7"
+            },
+            {
+              "name": "Creatine",
+              "registryNumber": "MU72812GK0"
+            },
+            {
+              "name": "Phloretin",
+              "registryNumber": "S5J5OE47MK"
+            },
+            {
+              "name": "Tomatine",
+              "registryNumber": "31U6547O08"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.86.21.8397"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC522328"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC522328?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.86.21.8397"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 50,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1989-12-08",
+        "dateOfCreation": "1989-11-01",
+        "dateOfRevision": "2019-05-01",
+        "firstPublicationDate": "1989-11-01",
+        "firstIndexDate": "2009-12-23",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1778 @@
+{
+  "version": "6.9",
+  "hitCount": 5,
+  "request": {
+    "queryString": "TITLE_ABS:\"Beta-Cryptoxanthin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "17521617",
+        "source": "MED",
+        "pmid": "17521617",
+        "doi": "10.1016/j.bcp.2007.04.014",
+        "title": "beta-Cryptoxanthin, a novel natural RAR ligand, induces ATP-binding cassette transporters in macrophages.",
+        "authorString": "Matsumoto A, Mizukami H, Mizuno S, Umegaki K, Nishikawa J, Shudo K, Kagechika H, Inoue M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Matsumoto A",
+              "lastName": "Matsumoto",
+              "firstName": "Akira",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Medicinal Resources, School of Pharmacy, Aichi Gakuin University, 1-100 Kusumoto-cho, Chikusa-ku, Nagoya 464-8650, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mizukami H",
+              "lastName": "Mizukami",
+              "firstName": "Hajime",
+              "initials": "H"
+            },
+            {
+              "fullName": "Mizuno S",
+              "lastName": "Mizuno",
+              "firstName": "Satoshi",
+              "initials": "S"
+            },
+            {
+              "fullName": "Umegaki K",
+              "lastName": "Umegaki",
+              "firstName": "Keizo",
+              "initials": "K"
+            },
+            {
+              "fullName": "Nishikawa J",
+              "lastName": "Nishikawa",
+              "firstName": "Jun-ichi",
+              "initials": "J"
+            },
+            {
+              "fullName": "Shudo K",
+              "lastName": "Shudo",
+              "firstName": "Koichi",
+              "initials": "K"
+            },
+            {
+              "fullName": "Kagechika H",
+              "lastName": "Kagechika",
+              "firstName": "Hiroyuki",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6747-1013"
+              }
+            },
+            {
+              "fullName": "Inoue M",
+              "lastName": "Inoue",
+              "firstName": "Makoto",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6747-1013"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "74",
+          "journalIssueId": 1401680,
+          "dateOfPublication": "2007 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Biochem Pharmacol",
+            "title": "Biochemical pharmacology",
+            "essn": "1873-2968",
+            "issn": "0006-2952",
+            "isoabbreviation": "Biochem Pharmacol",
+            "nlmid": "0101032"
+          },
+          "printPublicationDate": "2007-07-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "256-264",
+        "abstractText": "Despite its serious adverse effects, recent accumulating evidence suggests that a physiological retinoic acid receptor (RAR) agonist, all-trans retinoic acid (atRA), exhibits preventive effects on atherogenesis. Therefore, the present study was designed to explore novel natural RAR ligands with anti-atherogenic effects in order to identify and develop a drug without severe side effects. Among xanthophylls and carotenoids studied, beta-cryptoxanthin and lutein exhibited RAR ligand activity in yeast two-hybrid system that was found to be completely abolished by the RAR pan-antagonist LE540. Furthermore, these molecules can bind the RAR ligand-binding domain in the CoA-BAP system but not RXR ligand-binding domain. These results indicate that both beta-cryptoxanthin and lutein serve as ligands for RAR, but not RXR, although their binding affinity was three orders of magnitude lower than that of atRA. Additionally, when applied to macrophages, beta-cryptoxanthin indeed was found to induce the ATP-binding cassette transporter A1 (ABCA1) and ABCG1 mRNAs, which exert anti-atherosclerotic effects by preventing cholesteryl ester accumulation in macrophages. The induction of ABCA1 proteins by beta-cryptoxanthin as well as atRA was abrogated by LE540. In summary, beta-cryptoxanthin appears to be more an efficient provitamin A source than other carotenoids and xanthophylls including beta-carotene, since beta-cryptoxanthin can act not only as a RAR agonist but also a source of vitamin A. Taking into account that the pharmacodynamics difference between beta-cryptoxanthin and atRA, beta-cryptoxanthin appears to exert beneficial effects on atherogenesis through RAR activation in the manner different from atRA.",
+        "affiliation": "Laboratory of Medicinal Resources, School of Pharmacy, Aichi Gakuin University, 1-100 Kusumoto-cho, Chikusa-ku, Nagoya 464-8650, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Macrophages",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xanthophylls",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lutein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dibenzazepines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipoproteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP-Binding Cassette Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Retinoic Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AG",
+                    "qualifierName": "agonists"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Two-Hybrid System Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter 1"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cryptoxanthins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily G, Member 1"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "LE 540",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP binding cassette transporter 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ABCG1 protein, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lipoproteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dibenzazepines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Retinoic Acid",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP-Binding Cassette Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Xanthophylls",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lutein",
+              "registryNumber": "X72A60C9MT"
+            },
+            {
+              "name": "Cryptoxanthins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily G, Member 1",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bcp.2007.04.014"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 56,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-08-16",
+        "dateOfCreation": "2007-05-25",
+        "dateOfRevision": "2018-12-01",
+        "electronicPublicationDate": "2007-04-22",
+        "firstPublicationDate": "2007-04-22",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19348026",
+        "source": "MED",
+        "pmid": "19348026",
+        "doi": "10.1111/j.1742-4658.2009.06974.x",
+        "title": "A novel electron transport system for thermostable  CYP175A1 from Thermus thermophilus HB27.",
+        "authorString": "Mandai T, Fujiwara S, Imaoka S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mandai T",
+              "lastName": "Mandai",
+              "firstName": "Takao",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nanobiotechnology Research Center, Department of Bioscience, School of Science and Technology, Kwansei Gakuin University, Gakuen, Sanda, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fujiwara S",
+              "lastName": "Fujiwara",
+              "firstName": "Shinsuke",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4863-3301"
+              }
+            },
+            {
+              "fullName": "Imaoka S",
+              "lastName": "Imaoka",
+              "firstName": "Susumu",
+              "initials": "S"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4863-3301"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "276",
+          "journalIssueId": 1612522,
+          "dateOfPublication": "2009 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "FEBS J",
+            "title": "The FEBS journal",
+            "essn": "1742-4658",
+            "issn": "1742-464X",
+            "isoabbreviation": "FEBS J",
+            "nlmid": "101229646"
+          },
+          "printPublicationDate": "2009-04-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "2416-2429",
+        "abstractText": "CYP175A1 from Thermus thermophilus is a thermophilic cytochrome P450 and has great potential for industrial applications. However, a native electron transport system for CYP175A1 has not been identified. Here, an electron transport system for CYP175A1 was isolated from T. thermophilus HB27 by multistep chromatography, and identified as comprising ferredoxin (Fdx; locus in the genome, TTC1809) and ferredoxin-NAD(P)+reductase (FNR; locus in the genome, TTC0096) by N-terminal amino acid sequence analysis and MALDI-TOF-MS, respectively. Although TTC0096, which encodes the FNR, is annotated as a thioredoxin reductase in the T. thermophilus HB27 genome database, TTC0096 lacks an active-site dithiol/disulfide group, which is required to exchange reducing equivalents with thioredoxin. The FNR reduced ferricyanide, an artificial electron donor, in the presence of NADH and NADPH, but preferred NADPH as a cofactor (Km for NADH = 2440 +/- 546 microM; Km for NADPH = 4.1 +/- 0.2 microM). Furthermore, the FNR reduced cytochrome c in the presence of NADPH and Fdx. The Tm value of the FNR was 99 degrees C at pH 7.4. With an electron transport system consisting of Fdx and FNR, CYP175A1 efficiently catalyzed the hydroxylation of beta-carotene at the 3-position and 3'-position at 65 degrees C, and the Km and Vmax values for beta-carotene hydroxylation were 14.3 +/- 1.6 microM and 18.3 +/- 0.6 nmol beta-cryptoxanthin min(-1) nmol(-1) CYP175A1, respectively. This is the first report of a native electron transport system for CYP175A1.",
+        "affiliation": "Nanobiotechnology Research Center, Department of Bioscience, School of Science and Technology, Kwansei Gakuin University, Gakuen, Sanda, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermus thermophilus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacterial Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ferredoxins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutagenesis, Site-Directed"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sequence Alignment"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phylogeny"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amino Acid Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrolysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Sequence Data"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Ferredoxins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Bacterial Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1742-4658.2009.06974.x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://febs.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1742-4658.2009.06974.x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1742-4658.2009.06974.x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1742-4658.2009.06974.x"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1742-4658.2009.06974.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 21,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2009-05-19",
+        "dateOfCreation": "2009-04-07",
+        "dateOfRevision": "2019-11-11",
+        "firstPublicationDate": "2009-04-01",
+        "firstIndexDate": "2009-05-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9639691",
+        "source": "MED",
+        "pmid": "9639691",
+        "doi": "10.1016/s1383-5718(98)00017-5",
+        "title": "In vitro antimutagenic and in vivo anticlastogenic effects of carotenoids and solvent extracts from fruits and vegetables rich in carotenoids.",
+        "authorString": "Rauscher R, Edenharder R, Platt KL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rauscher R",
+              "lastName": "Rauscher",
+              "firstName": "R",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Hygiene and Environmental Medicine, University of Mainz, Obere Zahlbacher Strasse 67, D-55131 Mainz, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Edenharder R",
+              "lastName": "Edenharder",
+              "firstName": "R",
+              "initials": "R"
+            },
+            {
+              "fullName": "Platt KL",
+              "lastName": "Platt",
+              "firstName": "K L",
+              "initials": "KL"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "413",
+          "journalIssueId": 913564,
+          "dateOfPublication": "1998 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 1998,
+          "journal": {
+            "medlineAbbreviation": "Mutat Res",
+            "title": "Mutation research",
+            "essn": "1873-135X",
+            "issn": "0027-5107",
+            "isoabbreviation": "Mutat Res",
+            "nlmid": "0400763"
+          },
+          "printPublicationDate": "1998-03-01"
+        },
+        "pubYear": "1998",
+        "pageInfo": "129-142",
+        "abstractText": "The water insoluble residues of some carotenoid-rich fruits and vegetables, such as apricots, oranges, brussels sprouts, carrots, yellow-red peppers, and tomatoes, were sequentially extracted with n-hexane, dichloromethane, acetone, and 2-propanol, and solvent extracted materials were tested for inhibition of mutagenicities induced by aflatoxin B1 (AFB1), benzo[a]pyrene (BaP), 2-amino-3-methylimidazo[4,5-f]quinoline (IQ), and cyclophosphamide (CP) in histidine-deficient strains of Salmonella typhimurium. Antimutagenic activities were found in many extracts, but especially in the n-hexane extracts. For example, in the case of oranges, 100 microg of this extract reduced the bacterial mutagenicity of AFB1, BaP, CP and IQ by 72, 67, 53, and 27%, respectively. Separation by semi-preparative HPLC of the n-hexane extracts of carrots, tomatoes, and oranges indicated that the antimutagenicity was mainly associated with the fractions of the hydrocarbon carotenoids (alpha-, beta-carotene, lycopene), the xanthophylls (beta-cryptoxanthin, lutein), and also the carotenolesters (oranges). When 16 reference carotenoids were investigated as described above, the following results were obtained: In the case of BaP, antimutagenic activity, quantified by dose-response curves, was exhibited by 8'-apo-beta-carotenal, alpha- and beta-carotene, beta-cryptoxanthin, lutein, retinal, and retinol (ID50-values: 20-100 nmol ml-1 top agar, 50-70% maximum inhibition at 1 micromol ml-1 top agar), while the maximum inhibition by torularhodin did not exceed 40%. Astaxanthin, 10'- and 12'-apo-beta-carotenal, bixin, canthaxanthin, ethyl-8'-apo-beta-caro-ten-8'-oate, lycopene, and zeaxanthin were inactive or at best marginally active (<20% inhibition). Closely similar results were obtained with AFB1. The bacterial mutagenicity of CP was strongly reduced by alpha- and beta-carotene, canthaxanthin, and retinol (ID50-values: 67-112 nmol ml-1 top agar, 50-63% maximum inhibition at 1 micromol ml-1 top agar), moderately by beta-cryptoxanthin, and lutein (45% and 28%, respectively), and only marginally or, not at all, by all remaining carotenoids. In the case of IQ, the carotenoids exhibited the weakest antimutagenic potency (7-43%, ID50-values of retinal and retinol: 160 and 189 nmol ml-1 top agar, 60% and 55% inhibition, respectively). The mutagenic activity of the proximal mutagen of IQ, N-OH-IQ, in S. typhimurium TA 98NR was not significantly reduced by any carotenoid tested. These observations as well as the inhibition of various cytochrome P-450 linked 7-alkoxyresorufin-O-dealkylase activities (EROD, MROD, PROD) by four selected carotenoids (retinol>beta-cryptoxanthin>beta-carotene>lutein, IC50-values: 19-109 microM), indicate that the inhibition of the metabolic activation of the different promutagens could cause antimutagenicity. Finally, it could be demonstrated that the number of BaP or CP induced micronuclei in polychromatic erythrocytes in bone-marrow of mice was reduced significantly by the carotenoids lycopene, canthaxanthin, lutein and beta-cryptoxanthin (25-46%). These results clearly show that carotenoids possess biological activities in vitro and in vivo distinct from their function as precursors of vitamin A or antioxidants suggesting effects on activation of promutagens.",
+        "affiliation": "Department of Hygiene and Environmental Medicine, University of Mainz, Obere Zahlbacher Strasse 67, D-55131 Mainz, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Fruit"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Vegetables"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antimutagenic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antimutagenic Agents",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s1383-5718(98)00017-5"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 60,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1998-07-16",
+        "dateOfCreation": "1998-06-26",
+        "dateOfRevision": "2019-07-02",
+        "firstPublicationDate": "1998-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16455271",
+        "source": "MED",
+        "pmid": "16455271",
+        "doi": "10.1016/j.fgb.2005.12.004",
+        "title": "The crtS gene of Xanthophyllomyces dendrorhous encodes a novel cytochrome-P450 hydroxylase involved in the conversion of beta-carotene into astaxanthin and other xanthophylls.",
+        "authorString": "Alvarez V, Rodríguez-Sáiz M, de la Fuente JL, Gudiña EJ, Godio RP, Martín JF, Barredo JL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Alvarez V",
+              "lastName": "Alvarez",
+              "firstName": "Vanessa",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "R&D Biology, Antibióticos S.A., Avenida de Antibióticos 59-61, 24009 León, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rodríguez-Sáiz M",
+              "lastName": "Rodríguez-Sáiz",
+              "firstName": "Marta",
+              "initials": "M"
+            },
+            {
+              "fullName": "de la Fuente JL",
+              "lastName": "de la Fuente",
+              "firstName": "Juan Luis",
+              "initials": "JL"
+            },
+            {
+              "fullName": "Gudiña EJ",
+              "lastName": "Gudiña",
+              "firstName": "Eduardo J",
+              "initials": "EJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3156-7363"
+              }
+            },
+            {
+              "fullName": "Godio RP",
+              "lastName": "Godio",
+              "firstName": "Ramiro P",
+              "initials": "RP"
+            },
+            {
+              "fullName": "Martín JF",
+              "lastName": "Martín",
+              "firstName": "Juan F",
+              "initials": "JF"
+            },
+            {
+              "fullName": "Barredo JL",
+              "lastName": "Barredo",
+              "firstName": "José Luis",
+              "initials": "JL"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3156-7363"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "43",
+          "journalIssueId": 1312789,
+          "dateOfPublication": "2006 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Fungal Genet Biol",
+            "title": "Fungal genetics and biology : FG & B",
+            "essn": "1096-0937",
+            "issn": "1087-1845",
+            "isoabbreviation": "Fungal Genet Biol",
+            "nlmid": "9607601"
+          },
+          "printPublicationDate": "2006-04-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "261-272",
+        "abstractText": "The conversion of beta-carotene into xanthophylls is a subject of great scientific and industrial interest. We cloned the crtS gene involved in astaxanthin biosynthesis from two astaxanthin producing strains of Xanthophyllomyces dendrorhous: VKPM Y2410, an astaxanthin overproducing strain, and the wild type ATCC 24203. In both cases, the ORF has a length of 3166 bp, including 17 introns, and codes for a protein of 62.6 kDa with similarity to cytochrome-P450 hydroxylases. crtS gene sequences from strains VKPM Y2410, ATCC 24203, ATCC 96594, and ATCC 96815 show several nucleotide changes, but none of them causes any amino acid substitution, except a G2268 insertion in the 13th exon of ATCC 96815 which causes a change in the reading frame. A G1470 --> A change in the 5' splicing region of intron 8 was also found in ATCC 96815. Both point mutations explain astaxanthin idiotrophy and beta-carotene accumulation in ATCC 96815. Mutants accumulating precursors of the astaxanthin biosynthetic pathway were selected from the parental strain VKPM Y2410 (red) showing different colors depending on the compound accumulated. Two of them were blocked in the biosynthesis of astaxanthin, M6 (orange; 1% astaxanthin, 71 times more beta-carotene) and M7 (orange; 1% astaxanthin, 58 times more beta-carotene, 135% canthaxanthin), whereas the rest produced lower levels of astaxanthin (5-66%) than the parental strain. When the crtS gene was expressed in M7, canthaxanthin accumulation disappeared and astaxanthin production was partially restored. Moreover, astaxanthin biosynthesis was restored when X. dendrorhous ATCC 96815 was transformed with the crtS gene. The crtS gene was heterologously expressed in Mucor circinelloides conferring to this fungus an improved capacity to synthesize beta-cryptoxanthin and zeaxanthin, two hydroxylated compounds from beta-carotene. These results show that the crtS gene is involved in the conversion of beta-carotene into xanthophylls, being potentially useful to engineer carotenoid pathways.",
+        "affiliation": "R&D Biology, Antibióticos S.A., Avenida de Antibióticos 59-61, 24009 León, Spain.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Basidiomycota",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mucor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xanthophylls",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA, Fungal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cloning, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Complementation Test"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amino Acid Substitution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sequence Alignment"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sequence Analysis, DNA"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phylogeny"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Base Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Point Mutation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genes, Fungal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Open Reading Frames"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Introns"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Weight"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Sequence Data"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pigments, Biological",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Zeaxanthins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cryptoxanthins"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "DNA, Fungal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Xanthophylls",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pigments, Biological",
+              "registryNumber": "0"
+            },
+            {
+              "name": "astaxanthine",
+              "registryNumber": "8XPW32PR7I"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            },
+            {
+              "name": "Zeaxanthins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cryptoxanthins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fgb.2005.12.004"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 68,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-06-08",
+        "dateOfCreation": "2006-02-04",
+        "dateOfRevision": "2023-07-28",
+        "electronicPublicationDate": "2006-02-07",
+        "firstPublicationDate": "2006-02-07",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16177187",
+        "source": "MED",
+        "pmid": "16177187",
+        "doi": "10.1093/jn/135.10.2305",
+        "title": "Carotenoid transport is decreased and expression of the lipid transporters SR-BI, NPC1L1, and ABCA1 is downregulated in Caco-2 cells treated with ezetimibe.",
+        "authorString": "During A, Dawson HD, Harrison EH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "During A",
+              "lastName": "During",
+              "firstName": "Alexandrine",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of International Health, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD 21205, USA. duringa@ba.ars.usda.gov"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dawson HD",
+              "lastName": "Dawson",
+              "firstName": "Harry D",
+              "initials": "HD"
+            },
+            {
+              "fullName": "Harrison EH",
+              "lastName": "Harrison",
+              "firstName": "Earl H",
+              "initials": "EH"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "135",
+          "journalIssueId": 1260571,
+          "dateOfPublication": "2005 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "J Nutr",
+            "title": "The Journal of nutrition",
+            "essn": "1541-6100",
+            "issn": "0022-3166",
+            "isoabbreviation": "J Nutr",
+            "nlmid": "0404243"
+          },
+          "printPublicationDate": "2005-10-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "2305-2312",
+        "abstractText": "Data suggest that intestinal carotenoid absorption is a facilitated process. The present study was conducted to determine whether carotenoids and cholesterol share common pathways (transporters) for their intestinal absorption. Differentiated Caco-2 cells on membranes were incubated (16 h) with a carotenoid (1 micromol/L) with or without ezetimibe (EZ; Zetia, an inhibitor of cholesterol transport), and with or without antibodies against the receptors, cluster determinant 36 (CD36) and scavenger receptor class B, type I (SR-BI). Carotenoid transport in Caco-2 cells (cellular uptake + secretion) was decreased by EZ (10 mg/L) as follows: beta-carotene approximately alpha-carotene (50% inhibition) >> beta-cryptoxanthin approximately lycopene (20%) >> lutein:zeaxanthin (1:1) (7%). EZ reduced cholesterol transport by 31%, but not retinol transport. beta-Carotene transport was also inhibited by anti-SR-BI, but not by anti-CD36. The inhibitory effects of EZ and anti-SR-BI on beta-carotene transport were additive, indicating that they may have different targets. Finally, differentiated Caco-2 cells treated with EZ showed a significant decrease in mRNA expression for the surface receptors SR-BI, Niemann-Pick type C1 Like 1 protein (NPC1L1), and ATP-binding cassette transporter, subfamily A (ABCA1) and for the nuclear receptors retinoid acid receptor (RAR)gamma, sterol-regulatory element binding proteins (SREBP)-1 and -2, and liver X receptor (LXR)beta as assessed by real-time PCR analysis. The data indicate that 1) EZ is an inhibitor of carotenoid transport, an effect that decreases with increasing polarity of the carotenoid molecule, 2) SR-BI is involved in carotenoid transport, and 3) EZ may act, not only by interacting physically with cholesterol transporters as previously suggested, but also by downregulating expression of these proteins. The cellular uptake and efflux of carotenoids, like that of cholesterol, likely involve more than one transporter.",
+        "affiliation": "Department of International Health, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD 21205, USA. duringa@ba.ars.usda.gov",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "R01 HL049879",
+              "orderIn": 0
+            },
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "HL49879",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestine, Small",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon Radioisotopes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Azetidines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Transport Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP-Binding Cassette Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticholesteremic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Down-Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport, Active",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Scavenger Receptors, Class B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcriptional Activation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter 1"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ezetimibe"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CD36 Antigens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "NPC1L1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP binding cassette transporter 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Vitamin A",
+              "registryNumber": "11103-57-4"
+            },
+            {
+              "name": "Anticholesteremic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Carbon Radioisotopes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Azetidines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP-Binding Cassette Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Scavenger Receptors, Class B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "SCARB1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha-carotene",
+              "registryNumber": "45XWE1Z69V"
+            },
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            },
+            {
+              "name": "ABCA1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ezetimibe",
+              "registryNumber": "EOR26LQQ24"
+            },
+            {
+              "name": "CD36 Antigens",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/full/135/10/2305"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/abstract/135/10/2305"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jn/135.10.2305"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 225,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-01-11",
+        "dateOfCreation": "2005-09-24",
+        "dateOfRevision": "2023-02-16",
+        "firstPublicationDate": "2005-10-01",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

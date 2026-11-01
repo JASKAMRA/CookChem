@@ -1,0 +1,4212 @@
+{
+  "version": "6.9",
+  "hitCount": 13,
+  "request": {
+    "queryString": "TITLE_ABS:\"Fenchone\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39504094",
+        "source": "MED",
+        "pmid": "39504094",
+        "doi": "10.1590/0001-3765202420240273",
+        "title": "Evaluation of (-)-Fenchone antimicrobial activity against oral Candida albicans and toxicological parameters: an in silico, in vitro and ex vivo study.",
+        "authorString": "Santos AAD, Oliveira-Filho AA, Teixeira BA, Galvão JLFM, Medeiros MAA, Alves MS, Barbosa DHX, Mafra RP, Vasconcelos U, Lima EO.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Santos AAD",
+              "lastName": "Santos",
+              "firstName": "André A Dos",
+              "initials": "AAD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8456-8394"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal da Paraíba (UFPB), Centro de Ciências da Saúde (CCS), Departamento de Ciências Farmacêuticas (IPeFarM), Programa de Pós-Graduação em Produtos Naturais e Sintéticos Bioativos (PgPNSB), Campus I, Cidade Universitária, Castelo Branco, 58051-900 João Pessoa, PB, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Oliveira-Filho AA",
+              "lastName": "Oliveira-Filho",
+              "firstName": "Abrahão A DE",
+              "initials": "AA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7466-9933"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal de Campina Grande (UFCG), Centro de Saúde e Tecnologia Rural (CSTR), Campus Patos, Av. Universitária, s/n, Santa Cecília, 58708-110 Patos, PB, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Teixeira BA",
+              "lastName": "Teixeira",
+              "firstName": "Bráulio A",
+              "initials": "BA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0002-1559-1280"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal da Paraíba (UFPB), Centro de Ciências da Saúde (CCS), Departamento de Ciências Farmacêuticas (IPeFarM), Programa de Pós-Graduação em Produtos Naturais e Sintéticos Bioativos (PgPNSB), Campus I, Cidade Universitária, Castelo Branco, 58051-900 João Pessoa, PB, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Galvão JLFM",
+              "lastName": "Galvão",
+              "firstName": "José Lucas F M",
+              "initials": "JLFM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-1640-688X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal da Paraíba (UFPB), Centro de Ciências da Saúde (CCS), Departamento de Ciências Farmacêuticas (IPeFarM), Programa de Pós-Graduação em Produtos Naturais e Sintéticos Bioativos (PgPNSB), Campus I, Cidade Universitária, Castelo Branco, 58051-900 João Pessoa, PB, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Medeiros MAA",
+              "lastName": "Medeiros",
+              "firstName": "Maria Alice A DE",
+              "initials": "MAA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5563-7955"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal de Campina Grande (UFCG), Centro de Saúde e Tecnologia Rural (CSTR), Campus Patos, Av. Universitária, s/n, Santa Cecília, 58708-110 Patos, PB, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alves MS",
+              "lastName": "Alves",
+              "firstName": "Millena S",
+              "initials": "MS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7981-7608"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal de Campina Grande (UFCG), Centro de Saúde e Tecnologia Rural (CSTR), Campus Patos, Av. Universitária, s/n, Santa Cecília, 58708-110 Patos, PB, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barbosa DHX",
+              "lastName": "Barbosa",
+              "firstName": "David Henrique X",
+              "initials": "DHX",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9267-9556"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Rio Grande do Norte (UFRN), Centro de Ciências da Saúde (CCS), Departamento de Odontologia (DOD), Programa de Pós-Graduação em Ciências Odontológicas (PPgCO), Av. Salgado Filho, 1787, Lagoa Nova, 59056-000 Natal, RN, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mafra RP",
+              "lastName": "Mafra",
+              "firstName": "Rodrigo P",
+              "initials": "RP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1392-4259"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Rio Grande do Norte (UFRN), Centro de Ciências da Saúde (CCS), Departamento de Odontologia (DOD), Programa de Pós-Graduação em Ciências Odontológicas (PPgCO), Av. Salgado Filho, 1787, Lagoa Nova, 59056-000 Natal, RN, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vasconcelos U",
+              "lastName": "Vasconcelos",
+              "firstName": "Ulrich",
+              "initials": "U",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8289-2230"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal da Paraíba (UFPB), Centro de Ciências da Saúde (CCS), Departamento de Ciências Farmacêuticas (IPeFarM), Programa de Pós-Graduação em Produtos Naturais e Sintéticos Bioativos (PgPNSB), Campus I, Cidade Universitária, Castelo Branco, 58051-900 João Pessoa, PB, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lima EO",
+              "lastName": "Lima",
+              "firstName": "Edeltrudes O",
+              "initials": "EO",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9547-0886"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal da Paraíba (UFPB), Centro de Ciências da Saúde (CCS), Departamento de Ciências Farmacêuticas (IPeFarM), Programa de Pós-Graduação em Produtos Naturais e Sintéticos Bioativos (PgPNSB), Campus I, Cidade Universitária, Castelo Branco, 58051-900 João Pessoa, PB, Brazil."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5563-7955"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8289-2230"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9267-9556"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1392-4259"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7466-9933"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7981-7608"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8456-8394"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9547-0886"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-1640-688X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0002-1559-1280"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "96",
+          "journalIssueId": 3819572,
+          "dateOfPublication": "2024 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "An Acad Bras Cienc",
+            "title": "Anais da Academia Brasileira de Ciencias",
+            "essn": "1678-2690",
+            "issn": "0001-3765",
+            "isoabbreviation": "An Acad Bras Cienc",
+            "nlmid": "7503280"
+          },
+          "printPublicationDate": "2024-01-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "e20240273",
+        "abstractText": "Candida albicans is the primary species causing oral candidiasis. Its increasing drug resistance drives the search for more effective antifungal agents. Therefore, we assessed toxicological parameters and the antimicrobial activity and mechanisms of action of the monoterpene (-)-fenchone against oral C. albicans. We conducted an in silico study using PASS online and AdmetSAR, followed by evaluation of antifungal activity through Minimum Inhibitory Concentration (MIC), Minimum Fungicidal Concentration (MFC), association study with miconazole, and assays with sorbitol and ergosterol. Inhibition of biofilm formation and disruption of preformed biofilm were considered. Toxicity was also assessed through hemolysis assay. The in silico study revealed a higher likelihood of the compound being active for antifungal activity, as well as promising pharmacokinetic and toxicity characteristics. Subsequently, (-)-fenchone exhibited predominantly fungicidal activity (MIC90 = 8 μg/mL; MFC = 16 μg/mL), including against miconazole-resistant C. albicans isolates. The substance does not appear to act by damaging the fungal cell wall or plasma membrane, and exhibited synergy with miconazole. There was activity in inhibiting biofilm formation but not in disrupting preformed biofilm. Finally, the product exerted low hemolytic activity at more than MIC×10. Based on these results, (-)-fenchone may represent a promising therapeutic alternative for oral candidiasis.",
+        "affiliation": "Universidade Federal da Paraíba (UFPB), Centro de Ciências da Saúde (CCS), Departamento de Ciências Farmacêuticas (IPeFarM), Programa de Pós-Graduação em Produtos Naturais e Sintéticos Bioativos (PgPNSB), Campus I, Cidade Universitária, Castelo Branco, 58051-900 João Pessoa, PB, Brazil.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Biofilms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Candida albicans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Candidiasis, Oral",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemolysis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Norbornanes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Miconazole",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antifungal Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphanes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "fenchone",
+              "registryNumber": "1195-79-5"
+            },
+            {
+              "name": "Antifungal Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Norbornanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Miconazole",
+              "registryNumber": "7NNO0D7S5M"
+            },
+            {
+              "name": "Camphanes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1590/0001-3765202420240273"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-11-06",
+        "dateOfCreation": "2024-11-06",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2024-11-01",
+        "firstPublicationDate": "2024-11-01",
+        "firstIndexDate": "2024-11-07",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41539082",
+        "source": "MED",
+        "pmid": "41539082",
+        "doi": "10.1016/j.bmc.2026.118555",
+        "title": "Discovery of monoterpenoid-based benzamides bearing bicyclo[2.2.1]heptane motif as influenza H1N1 virus inhibitors.",
+        "authorString": "Sokolova AS, Samsonova VV, Kuranov SO, Yarovaya ОI, Rogachev AD, Esaulkova IL, Volobueva AS, Zarubaev VV, Salakhutdinov NF.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sokolova AS",
+              "lastName": "Sokolova",
+              "firstName": "Anastasiya S",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "N.N. Vorozhtsov Novosibirsk Institute of Organic Chemistry, Siberian Branch, Russian Academy of Sciences, Lavrentjev Avenue 9, 630090, Novosibirsk, Russia. Electronic address: asokolova@nioch.nsc.ru."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Samsonova VV",
+              "lastName": "Samsonova",
+              "firstName": "Valeria V",
+              "initials": "VV",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "N.N. Vorozhtsov Novosibirsk Institute of Organic Chemistry, Siberian Branch, Russian Academy of Sciences, Lavrentjev Avenue 9, 630090, Novosibirsk, Russia; Novosibirsk State Technical University, Karl Marx Avenue 20, 630073 Novosibirsk, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kuranov SO",
+              "lastName": "Kuranov",
+              "firstName": "Sergey O",
+              "initials": "SO",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "N.N. Vorozhtsov Novosibirsk Institute of Organic Chemistry, Siberian Branch, Russian Academy of Sciences, Lavrentjev Avenue 9, 630090, Novosibirsk, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yarovaya ОI",
+              "lastName": "Yarovaya",
+              "firstName": "Оlga I",
+              "initials": "ОI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "N.N. Vorozhtsov Novosibirsk Institute of Organic Chemistry, Siberian Branch, Russian Academy of Sciences, Lavrentjev Avenue 9, 630090, Novosibirsk, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rogachev AD",
+              "lastName": "Rogachev",
+              "firstName": "Artem D",
+              "initials": "AD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "N.N. Vorozhtsov Novosibirsk Institute of Organic Chemistry, Siberian Branch, Russian Academy of Sciences, Lavrentjev Avenue 9, 630090, Novosibirsk, Russia; Novosibirsk State University, Pirogova Str. 1, Novosibirsk 630090, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Esaulkova IL",
+              "lastName": "Esaulkova",
+              "firstName": "Iana L",
+              "initials": "IL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pasteur Institute of Epidemiology and Microbiology, 14 Mira str., 197101 St. Petersburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Volobueva AS",
+              "lastName": "Volobueva",
+              "firstName": "Alexandrina S",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pasteur Institute of Epidemiology and Microbiology, 14 Mira str., 197101 St. Petersburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zarubaev VV",
+              "lastName": "Zarubaev",
+              "firstName": "Vladimir V",
+              "initials": "VV",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pasteur Institute of Epidemiology and Microbiology, 14 Mira str., 197101 St. Petersburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salakhutdinov NF",
+              "lastName": "Salakhutdinov",
+              "firstName": "Nariman F",
+              "initials": "NF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "N.N. Vorozhtsov Novosibirsk Institute of Organic Chemistry, Siberian Branch, Russian Academy of Sciences, Lavrentjev Avenue 9, 630090, Novosibirsk, Russia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "135",
+          "journalIssueId": 4122823,
+          "dateOfPublication": "2026 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Bioorg Med Chem",
+            "title": "Bioorganic & medicinal chemistry",
+            "essn": "1464-3391",
+            "issn": "0968-0896",
+            "isoabbreviation": "Bioorg Med Chem",
+            "nlmid": "9413298"
+          },
+          "printPublicationDate": "2026-04-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "118555",
+        "abstractText": "The persistent threat of influenza pandemics and the limitations of existing therapies necessitate the discovery of novel antiviral agents. This study investigates a series of monoterpenoid-based benzamides, derived from natural products (+)-camphor and (-)-fenchone, as a new class of inhibitors against influenza A virus (IAV). Building upon previous findings of their activity against orthopoxviruses, we identified several derivatives with potent activity against the A/H1N1 strain. Structure-activity relationship (SAR) analysis revealed that antiviral efficacy is critically dependent on the substituent's nature and position on the aromatic ring, the stereochemistry of the bicyclo[2.2.1]heptane core, and the amide configuration. Key lead compounds demonstrated significant inhibitory activity against the A/Puerto Rico/8/34 (H1N1) strain with high selectivity, and one derivative also showed promising activity against the highly pathogenic A(H7N9) strain. A representative compound demonstrated high metabolic stability in murine blood in vitro and exhibited promising pharmacokinetic properties in vivo following intragastric administration in mice. Mechanistic studies revealed two distinct profiles: one subset of inhibitors likely targets viral entry, while another appears to interfere with a later stage, such as assembly; their action is not mediated by neuraminidase inhibition. These findings establish monoterpenoid benzamides bearing the bicyclo[2.2.1]heptane motif as a promising scaffold for the development of anti-influenza agents, warranting further investigation into their precise molecular target and in vivo efficacy.",
+        "affiliation": "N.N. Vorozhtsov Novosibirsk Institute of Organic Chemistry, Siberian Branch, Russian Academy of Sciences, Lavrentjev Avenue 9, 630090, Novosibirsk, Russia. Electronic address: asokolova@nioch.nsc.ru.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "FSBSI Directorate of State Scientific and Technical Programs",
+              "grantId": "FWUE-2025-0006",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dogs"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Benzamides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Heptanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Influenza A Virus, H1N1 Subtype",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Discovery"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Madin Darby Canine Kidney Cells"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Bridged Bicyclo Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Structure-activity relationship",
+            "Monoterpenoids",
+            "Influenza A Virus",
+            "Antiviral Agents"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzamides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Heptanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Bridged Bicyclo Compounds",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bmc.2026.118555"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-06-26",
+        "dateOfCreation": "2026-01-15",
+        "dateOfRevision": "2026-06-26",
+        "electronicPublicationDate": "2026-01-12",
+        "firstPublicationDate": "2026-01-12",
+        "firstIndexDate": "2026-01-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "42356583",
+        "source": "MED",
+        "pmid": "42356583",
+        "doi": "10.3390/ph19060966",
+        "title": "Metabolite Profiling of Lavender (&lt;i&gt;Lavandula pedunculata&lt;/i&gt; subsp. &lt;i&gt;cariensis&lt;/i&gt;) Essential Oil and Investigation of Its Potential Antioxidant and Enzyme-Inhibitory Effects.",
+        "authorString": "Karageçili H, Özden EM, Mutlu M, Bingöl Z, Akıncıoğlu H, Köksal E, Gören AC, Gülçin İ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Karageçili H",
+              "lastName": "Karageçili",
+              "firstName": "Hasan",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6912-3998"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nursing, Faculty of Health Sciences, Siirt University, Siirt 56100, Türkiye."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Özden EM",
+              "lastName": "Özden",
+              "firstName": "Eda Mehtap",
+              "initials": "EM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9259-5704"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Faculty of Science, Ataturk University, Erzurum 25240, Türkiye."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mutlu M",
+              "lastName": "Mutlu",
+              "firstName": "Muzaffer",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Vocational School of Applied Sciences, Gelişim University, Istanbul 34315, Türkiye."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bingöl Z",
+              "lastName": "Bingöl",
+              "firstName": "Zeynebe",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Services and Techniques, Tokat Vocational School of Health Services, Gaziosmanpasa University, Tokat 60250, Türkiye."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Akıncıoğlu H",
+              "lastName": "Akıncıoğlu",
+              "firstName": "Hülya",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Pharmacy, Ağrı İbrahim Çeçen University, Agri 04100, Türkiye."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Köksal E",
+              "lastName": "Köksal",
+              "firstName": "Ekrem",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Faculty of Science and Arts, Erzincan Binali Yildirim University, Erzincan 24100, Türkiye."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gören AC",
+              "lastName": "Gören",
+              "firstName": "Ahmet Ceyhan",
+              "initials": "AC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5470-130X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department Chemistry, Faculty of Sciences, Gebze Technical University, Kocaeli 41400, Türkiye."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gülçin İ",
+              "lastName": "Gülçin",
+              "firstName": "İlhami",
+              "initials": "İ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5993-1668"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Faculty of Science, Ataturk University, Erzurum 25240, Türkiye."
+                  },
+                  {
+                    "affiliation": "Rectorate of Agri Ibrahim Çeçen University, Agri 04100, Türkiye."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5993-1668"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6912-3998"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5470-130X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9259-5704"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "19",
+          "journalIssueId": 4222013,
+          "dateOfPublication": "2026 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Pharmaceuticals (Basel)",
+            "title": "Pharmaceuticals (Basel, Switzerland)",
+            "essn": "1424-8247",
+            "issn": "1424-8247",
+            "isoabbreviation": "Pharmaceuticals (Basel)",
+            "nlmid": "101238453"
+          },
+          "printPublicationDate": "2026-06-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "966",
+        "abstractText": "<b>Background/Objectives:</b><i>Lavandula cariensis</i> species is cultivated uncommonly in the western region of Turkey. The colloquial appellations avayianos, karabasi, and myra are used to refer to the <i>L. cariensis</i> plant. The essential oil of <i>L. cariensis</i> was studied for its potential antiglaucoma, antioxidant, antidiabetic, and acetylcholinesterase inhibitory effects. <b>Methods:</b> The inhibitory effect of the essential oil of <i>L. cariensis</i> on the acetylcholinesterase (AChE), carbonic anhydrase II (CA II), and α-amylase enzymes was determined. Therefore, chemical profiles of <i>L. cariensis'</i> essential oil were identified using Gas Chromatography Mass Spectrometry (GC-MS) and as Chromatography with Flame Ionization Detection (GC-FID) analyses. <b>Results:</b> Camphor (39.73%), fenchone (19.49%), exobornyl acetate (6.81%), camphene (5.49%), and eucalyptol (5.49%) were the most abundant compounds in <i>L. cariensis</i> essential oil. Radical scavenging effect of the essential oil of <i>L. cariensis</i> was examined using 1,1-diphenyl-2-picrylhydrazyl (DPPH) (IC<sub>50</sub>: 231.0 ± 0.094 μg/mL) and 2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) (ABTS) (IC<sub>50</sub>: 7.45 ± 0.013 μg/mL) radicals. Also, the ferric ions (Fe<sup>3+</sup>), cupric ions (Cu<sup>2+</sup>), and Fe<sup>3+</sup>-2,4,6-tri(2-pyridyl)-S-triazine (TPTZ) complex reducing capabilities were studied. Additionally, essential oil of <i>L. cariensis</i> indicated a comparable level of inhibition towards hCA II (IC<sub>50</sub>: 276.42 μg/mL), AChE (IC<sub>50</sub>: 14.22 μg/mL), and α-amylase (IC<sub>50</sub>: 475.63 μg/mL) enzymes. <b>Conclusions:</b> The evaluation of the antioxidant capabilities and enzyme inhibition profiling of the essential oil of <i>L. cariensis</i> will be made possible by this comprehensive study, which serves as a springboard for further research. The essential oil of <i>L. cariensis</i> demonstrated enzyme-inhibitory activities against target enzymes associated with Alzheimer's disease, diabetes, and glaucoma. Also, this study's in vitro inhibition suggests promising prospects.",
+        "affiliation": "Department of Nursing, Faculty of Health Sciences, Siirt University, Siirt 56100, Türkiye.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Essential oil",
+            "GC/MS",
+            "Antioxidant activity",
+            "Enzyme inhibition",
+            "Lavandula Pedunculata",
+            "Lavandula Cariensis"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ph19060966"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-06-26",
+        "dateOfCreation": "2026-06-26",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-06-22",
+        "firstPublicationDate": "2026-06-22",
+        "firstIndexDate": "2026-06-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR937840",
+        "source": "PPR",
+        "doi": "10.20944/preprints202411.0589.v1",
+        "title": "Prediction of the Binding to Nuclear Factor NF-Kappa-B of Constituents from <em>Teucrium polium</em> L. Essential Oil",
+        "authorString": "de Barros RC, da Costa RA, Guenane N, Bakchiche B, Benaceur F, Elkiran Ö, Farias SDP, Mota VRS, Dolabela MF.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "de Barros RC",
+              "lastName": "de Barros",
+              "firstName": "Renilson Castro",
+              "initials": "RC"
+            },
+            {
+              "fullName": "da Costa RA",
+              "lastName": "da Costa",
+              "firstName": "Renato Araújo",
+              "initials": "RA"
+            },
+            {
+              "fullName": "Guenane N",
+              "lastName": "Guenane",
+              "firstName": "Nesrine",
+              "initials": "N"
+            },
+            {
+              "fullName": "Bakchiche B",
+              "lastName": "Bakchiche",
+              "firstName": "Boulanouar",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3124-5153"
+              }
+            },
+            {
+              "fullName": "Benaceur F",
+              "lastName": "Benaceur",
+              "firstName": "Farouk",
+              "initials": "F"
+            },
+            {
+              "fullName": "Elkiran Ö",
+              "lastName": "Elkiran",
+              "firstName": "Ömer",
+              "initials": "Ö",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1933-4003"
+              }
+            },
+            {
+              "fullName": "Farias SDP",
+              "lastName": "Farias",
+              "firstName": "Suelem Daniella Pinho",
+              "initials": "SDP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9329-4826"
+              }
+            },
+            {
+              "fullName": "Mota VRS",
+              "lastName": "Mota",
+              "firstName": "Vanessa Regina Silva",
+              "initials": "VRS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1980-6905"
+              }
+            },
+            {
+              "fullName": "Dolabela MF",
+              "lastName": "Dolabela",
+              "firstName": "Maria Fâni",
+              "initials": "MF"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9329-4826"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3124-5153"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1933-4003"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1980-6905"
+            }
+          ]
+        },
+        "pubYear": "2024",
+        "abstractText": "Teucrium polium L. is a plant with various claims of ethnobotanical use, primarily for in-flammatory diseases. Chemical studies have already isolated different types of terpenes from the species, and studies have established the pharmacological potential. The present study evaluated the components of T. polium essential oil cultivated in Algerian Saharan Atlas. GC-MS identified the major components as Fenchone (31.25%), 3-Carene (15.77%), cis-Limonene oxide (9.77%), and Myrcene (9.15%). In the in silico prediction, molecules with more than 1% abundance were selected. Regarding Lipinski’s rule, all molecules fol-lowed the rule. All molecules were found to be toxic in at least one model, with some mol-ecules being non-genotoxic (6, 8, 10, 11, 12, 13), others being non-mutagenic (5, 7, 9, 14). Three molecules were selected that showed the best results in pharmacokinetic and toxici-ty studies: the molecules that did not present carcinogenic potential (7 - Myrtenal; 9 - Myr-tenol; 14 – Verbenol). The molecular target was established and it seems that all three bind to the Nuclear Factor NF-kappa-B. Based on the docking and molecular dynamics results. These molecules have potential as anti-inflammatory agents, with further in vitro and in vivo studies needed to evaluate their activities and toxicity.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "Preprints.org",
+          "yearOfPublication": 2024
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.20944/preprints202411.0589.v1"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.20944/preprints202411.0589.v1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-11-12",
+        "firstPublicationDate": "2024-11-08",
+        "firstIndexDate": "2024-11-12",
+        "versionList": {
+          "version": [
+            {
+              "id": "PPR937840",
+              "source": "PPR",
+              "versionNumber": 1,
+              "firstPublishDate": "2024-11-08",
+              "pubTypeList": {
+                "pubType": [
+                  "preprint"
+                ]
+              },
+              "hasEvaluations": "N"
+            }
+          ]
+        },
+        "versionNumber": 1,
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39852163",
+        "source": "MED",
+        "pmid": "39852163",
+        "pmcid": "PMC11763555",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11763555"
+          ]
+        },
+        "doi": "10.3390/cimb47010048",
+        "title": "Prediction of the Binding to the Nuclear Factor NF-Kappa-B by Constituents from <i>Teucrium polium</i> L. Essential Oil.",
+        "authorString": "de Barros RC, da Costa RA, Guenane N, Bakchiche B, Benaceur F, Elkiran O, Farias SDP, Mota VRS, Dolabela MF.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "de Barros RC",
+              "lastName": "de Barros",
+              "firstName": "Renilson Castro",
+              "initials": "RC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6361-577X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmaceutical Sciences Postgraduate Program, Federal University of Pará, Belém 66075-110, PA, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "da Costa RA",
+              "lastName": "da Costa",
+              "firstName": "Renato Araújo",
+              "initials": "RA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4720-6116"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Federal Institute of Education Sciences of the State of Pará, Campus Abaetetuba, Abaetetuba 68440-000, PA, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guenane N",
+              "lastName": "Guenane",
+              "firstName": "Nesrine",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Biological and Agricultural Sciences (LBAS), Amar Telidji University, Laghouat 03000, Algeria."
+                  },
+                  {
+                    "affiliation": "Research Unit of Medicinal Plant (RUMP), Biotechnology Research Center (CRBt), Laghouat 03000, Algeria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bakchiche B",
+              "lastName": "Bakchiche",
+              "firstName": "Boulanouar",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3124-5153"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Biological and Agricultural Sciences (LBAS), Amar Telidji University, Laghouat 03000, Algeria."
+                  },
+                  {
+                    "affiliation": "Research Unit of Medicinal Plant (RUMP), Biotechnology Research Center (CRBt), Laghouat 03000, Algeria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Benaceur F",
+              "lastName": "Benaceur",
+              "firstName": "Farouk",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8148-6038"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Biological and Agricultural Sciences (LBAS), Amar Telidji University, Laghouat 03000, Algeria."
+                  },
+                  {
+                    "affiliation": "Research Unit of Medicinal Plant (RUMP), Biotechnology Research Center (CRBt), Laghouat 03000, Algeria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Elkiran O",
+              "lastName": "Elkiran",
+              "firstName": "Omer",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1933-4003"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Environmental Health, Vocational School of Health Services, Sinop University, 57000 Sinop, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Farias SDP",
+              "lastName": "Farias",
+              "firstName": "Suelem Daniella Pinho",
+              "initials": "SDP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9329-4826"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Federal of Pharmacy, Federal University of Pará, Belém 66075-110, PA, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mota VRS",
+              "lastName": "Mota",
+              "firstName": "Vanessa Regina Silva",
+              "initials": "VRS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1980-6905"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Federal of Pharmacy, Federal University of Pará, Belém 66075-110, PA, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dolabela MF",
+              "lastName": "Dolabela",
+              "firstName": "Maria Fani",
+              "initials": "MF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmaceutical Sciences Postgraduate Program, Federal University of Pará, Belém 66075-110, PA, Brazil."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8148-6038"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9329-4826"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3124-5153"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4720-6116"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6361-577X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1933-4003"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1980-6905"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "47",
+          "journalIssueId": 3891365,
+          "dateOfPublication": "2025 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Curr Issues Mol Biol",
+            "title": "Current issues in molecular biology",
+            "essn": "1467-3045",
+            "issn": "1467-3037",
+            "isoabbreviation": "Curr Issues Mol Biol",
+            "nlmid": "100931761"
+          },
+          "printPublicationDate": "2025-01-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "48",
+        "abstractText": "<i>Teucrium polium</i> L. is a plant with various claims of ethnobotanical use, primarily for inflammatory diseases. Chemical studies have already isolated different types of terpenes from the species, and studies have established its pharmacological potential. The present study evaluates the components of <i>T. polium</i> essential oil cultivated in the Algerian Saharan Atlas. GC-MS identified the major components as fenchone (31.25%), 3-carene (15.77%), cis-limonene oxide (9.77%), and myrcene (9.15%). In the in silico prediction, molecules with more than 1% abundance were selected. Regarding Lipinski's rule, all molecules followed the rule. All molecules were found to be toxic in at least one model, with some molecules being non-genotoxic (6, 8, 10, 11, 12, 13) and others being non-mutagenic (5, 7, 9, 14). Three molecules were selected that showed the best results in pharmacokinetic and toxicity studies: the molecules that did not present carcinogenic potential (7-myrtenal; 9-myrtenol; 14-verbenol). The molecular target was established, and it seems that all three bound to the nuclear factor NF-kappa-B. Based on the docking and molecular dynamics results, these molecules have potential as anti-inflammatory and antitumor therapies, with further in vitro and in vivo studies needed to evaluate their activity and toxicity.",
+        "affiliation": "Pharmaceutical Sciences Postgraduate Program, Federal University of Pará, Belém 66075-110, PA, Brazil.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Sesquiterpenes",
+            "Monoterpenes",
+            "Myrtenol",
+            "Verbenol",
+            "Myrtenal",
+            "Teucrium Polium L.",
+            "Fuclear Factor Nf-kappa-b"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/cimb47010048"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11763555"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11763555?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2025-01-24",
+        "dateOfRevision": "2025-01-30",
+        "electronicPublicationDate": "2025-01-14",
+        "firstPublicationDate": "2025-01-14",
+        "firstIndexDate": "2025-01-25",
+        "fullTextReceivedDate": "2025-11-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38838824",
+        "source": "MED",
+        "pmid": "38838824",
+        "doi": "10.1016/j.fitote.2024.106047",
+        "title": "Antibacterial, antibiofilm, and chemical profiles of Ammi visnaga L. and Foeniculum vulgare mill. Essential oils, and ADMET, molecular docking investigation of essential oils major components.",
+        "authorString": "Khammassi M, Polito F, Caputo L, Abidi A, Mabrouk Y, Nazzaro F, Fratianni F, Anouar EH, Snoussi M, Noumi E, Amri I, De Feo V.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Khammassi M",
+              "lastName": "Khammassi",
+              "firstName": "Marwa",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Management and Valorization of Forest Resources, National Institute of Researches on Rural Engineering, Water and Forests, P.B. 10, Ariana 2080, Tunisia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Polito F",
+              "lastName": "Polito",
+              "firstName": "Flavio",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, University of Salerno, Via San Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: fpolito@unisa.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Caputo L",
+              "lastName": "Caputo",
+              "firstName": "Lucia",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, University of Salerno, Via San Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: lcaputo@unisa.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abidi A",
+              "lastName": "Abidi",
+              "firstName": "Anouar",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4619-6892"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Functional Physiology and Valorization of Bio-Resources of the Higher Institute of Biotechnology of Béja, University of Jendouba, Tunisia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mabrouk Y",
+              "lastName": "Mabrouk",
+              "firstName": "Yassine",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Biotechnology and Nuclear Technology, National Center of Nuclear Science and Technology, Sidi Thabet, B.P. 72, Ariana 2020, Tunisia. Electronic address: mabrouk.yassine@cnstn.rnrt.tn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nazzaro F",
+              "lastName": "Nazzaro",
+              "firstName": "Filomena",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Food Science, CNR-ISA, Via Roma, 64, 83100 Avellino, Italy. Electronic address: mena@isa.cnr.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fratianni F",
+              "lastName": "Fratianni",
+              "firstName": "Florinda",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Food Science, CNR-ISA, Via Roma, 64, 83100 Avellino, Italy. Electronic address: florinda.fratianni@isa.cnr.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anouar EH",
+              "lastName": "Anouar",
+              "firstName": "El Hassane",
+              "initials": "EH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science and Humanities in Al-Kharj, Prince Sattam bin Abdulaziz University, Al-Kharj, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Snoussi M",
+              "lastName": "Snoussi",
+              "firstName": "Mejdi",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2309-2601"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, University of Ha'il, P.O. Box 2440, Hail 2440, Saudi Arabia; Laboratory of Genetics, Biodiversity and Valorization of Bio-Resources (LR11ES41), Higher Institute of Biotechnology of Monastir, University of Monastir, Avenue Tahar Haddad, BP74, Monastir 5000, Tunisia. Electronic address: m.snoussi@uoh.edu.sa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Noumi E",
+              "lastName": "Noumi",
+              "firstName": "Emira",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5919-1273"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, University of Ha'il, P.O. Box 2440, Hail 2440, Saudi Arabia; Laboratory of Genetics, Biodiversity and Valorization of Bio-Resources (LR11ES41), Higher Institute of Biotechnology of Monastir, University of Monastir, Avenue Tahar Haddad, BP74, Monastir 5000, Tunisia. Electronic address: eb.noumi@uoh.edu.sa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Amri I",
+              "lastName": "Amri",
+              "firstName": "Ismail",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Management and Valorization of Forest Resources, National Institute of Researches on Rural Engineering, Water and Forests, P.B. 10, Ariana 2080, Tunisia; Laboratory of Biotechnology and Nuclear Technology, National Center of Nuclear Science and Technology, Sidi Thabet, B.P. 72, Ariana 2020, Tunisia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Feo V",
+              "lastName": "De Feo",
+              "firstName": "Vincenzo",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, University of Salerno, Via San Giovanni Paolo II, 132, 84084 Fisciano, Italy; Institute of Food Science, CNR-ISA, Via Roma, 64, 83100 Avellino, Italy. Electronic address: defeo@unisa.it."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2309-2601"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4619-6892"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5919-1273"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0226-2306"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "177",
+          "journalIssueId": 3812199,
+          "dateOfPublication": "2024 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Fitoterapia",
+            "title": "Fitoterapia",
+            "essn": "1873-6971",
+            "issn": "0367-326X",
+            "isoabbreviation": "Fitoterapia",
+            "nlmid": "16930290R"
+          },
+          "printPublicationDate": "2024-09-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "106047",
+        "abstractText": "This study determined chemical profiles, antibacterial and antibiofilm activities of the essential oils (EOs) obtained by A. visnaga aerial parts and F. vulgare fruits. Butanoic acid, 2-methyl-, 3-methylbutyl ester (38.8%), linalyl propionate (34.7%) and limonene (8.5%) resulted as main constituents of A. visnaga EO. In F. vulgare EO trans-anethole (76.9%) and fenchone (14.1%) resulted as main components. The two EOs were active against five bacterial strains (Acinetobacter baumannii, Escherichia coli, Listeria monocytogenes, Pseudomonas aeruginosa, and Staphylococcus aureus) at different degrees. The MIC values ranged from 5 ± 2 to 10 ± 2 μL/mL except for S. aureus (MIC >20 μL/mL). EOs exhibited inhibitory effect on the formation of biofilm up to 53.56 and 48.04% against E. coli and A. baumannii, respectively and activity against bacterial metabolism against A. baumannii and E. coli, with biofilm-inhibition ranging from 61.73 to 73.55%. The binding affinity of the identified components was estimated by docking them into the binding site of S. aureus gyrase (PDB code 2XCT) and S. aureus tyrosyl-tRNA synthetase (PDB code 1JIJ). trans-Anethole and butanoic acid, 2-methyl-, 3-methylbutyl ester showed relatively moderate binding interactions with the amino acid residues of S. aureus tyrosyl-tRNA synthetase. In addition, almost all predicted compounds possess good pharmacokinetic properties with no toxicity, being inactive for cytotoxicity, carcinogenicity, hepatotoxicity, mutagenicity and immunotoxicity parameters. The results encourage the use of these EOs as natural antibacterial agents in food and pharmaceutical industries.",
+        "affiliation": "Laboratory of Management and Valorization of Forest Resources, National Institute of Researches on Rural Engineering, Water and Forests, P.B. 10, Ariana 2080, Tunisia.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Biofilms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Foeniculum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myrtaceae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Components, Aerial",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fruit",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anisoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Norbornanes"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oils, Volatile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Allylbenzene Derivatives"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphanes"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Essential oil",
+            "Foeniculum Vulgare",
+            "Antibiofilm Activity",
+            "Molecular Docking Study",
+            "Ammi Visnaga",
+            "Admet Profiling"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "fenchone",
+              "registryNumber": "1195-79-5"
+            },
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anisoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oils, Volatile",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Norbornanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "anethole",
+              "registryNumber": "Q3JEK5DO4K"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Camphanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Allylbenzene Derivatives",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fitote.2024.106047"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2024-08-09",
+        "dateOfCreation": "2024-06-05",
+        "dateOfRevision": "2024-08-09",
+        "electronicPublicationDate": "2024-06-03",
+        "firstPublicationDate": "2024-06-03",
+        "firstIndexDate": "2024-06-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30907324",
+        "source": "MED",
+        "pmid": "30907324",
+        "doi": "10.2174/1570163816666190321142826",
+        "title": "Virtual Structural Similarity Elucidates Bioactivity of Fenchone: A Phytochemical Enriched in Fennel Essential Oil.",
+        "authorString": "Singh S, Gupta P, Gupta J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Singh S",
+              "lastName": "Singh",
+              "firstName": "Sukhchain",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, School of Bioengineering and Biosciences, Lovely Professional University (LPU), Jalandhar- Delhi G.T. Road, Phagwara, Punjab 144411, India"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gupta P",
+              "lastName": "Gupta",
+              "firstName": "Pawan",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, Lovely Professional University, Phagwara, India"
+                  },
+                  {
+                    "affiliation": "Department of Research and Development, Lovely Professional University (LPU), Phagwara, 144411, Punjab, India"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gupta J",
+              "lastName": "Gupta",
+              "firstName": "Jeena",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, School of Bioengineering and Biosciences, Lovely Professional University (LPU), Jalandhar- Delhi G.T. Road, Phagwara, Punjab 144411, India"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7201-1356"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0320-0887"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "17",
+          "journalIssueId": 3082478,
+          "dateOfPublication": "2020 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Curr Drug Discov Technol",
+            "title": "Current drug discovery technologies",
+            "essn": "1875-6220",
+            "issn": "1570-1638",
+            "isoabbreviation": "Curr Drug Discov Technol",
+            "nlmid": "101157212"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "619-630",
+        "abstractText": "<h4>Background</h4>Fenchone is a natural monoterpene abundantly present in fennel essential oil. It is known for its wound healing properties but its other biological activities are less explored.<h4>Methods</h4>We used an in silico structural similarity searching approache to identify various biological activities of fenchone. The identified biological activities of fenchone (purchased from Sigma Aldrich) were validated by conducting DPPH free radical scavenging assay, MTT assay, well diffusion assay for antimicrobial activity and enzymatic assays to analyze the activity of different antioxidant enzymes.<h4>Results</h4>Camphor was found to possess maximum structural similarity with fenchone (similarityindex 100). Molecular docking demonstrated that the binding modes of fenchone were also similar to camphor against protein Cytochrome CYP101D1 (PDB ID: 4C9K). Fenchone also demonstrated to possess an antioxidant activity (IC50: 3.32±0.008mM), an antimicrobial activity (MIC: 0.49mM) and a very strong antifungal activity. Fenchone protects yeast cells from H2O2 induced cytotoxicity and is cytotoxic to cancerous Hela cells (IC50: 12.63±0.12 μM). Fenchone treatment also showed the reduced activity of antioxidant enzymes i.e glutathione-S-transferase, catalase and lipid peroxidase.<h4>Conclusion</h4>To the best of our knowledge, this is the first report that used structural similarity searching to explore the biological activities of fenchone.",
+        "affiliation": "Department of Biochemistry, School of Bioengineering and Biosciences, Lovely Professional University (LPU), Jalandhar- Delhi G.T. Road, Phagwara, Punjab 144411, India",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hela Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Escherichia coli",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Foeniculum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Norbornanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oils, Volatile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Escherichia coli Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Peroxidation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Camphor",
+            "Molecular docking",
+            "Similarity Searching",
+            "Cytoprotective",
+            "Fennel",
+            "Fenchone"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "fenchone",
+              "registryNumber": "1195-79-5"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oils, Volatile",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Camphor",
+              "registryNumber": "76-22-2"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Escherichia coli Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Norbornanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Camphanes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2174/1570163816666190321142826"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2021-09-17",
+        "dateOfCreation": "2019-03-26",
+        "dateOfRevision": "2021-09-17",
+        "firstPublicationDate": "2020-01-01",
+        "firstIndexDate": "2019-03-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33209023",
+        "source": "MED",
+        "pmid": "33209023",
+        "pmcid": "PMC7669507",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7669507"
+          ]
+        },
+        "doi": "10.2147/ijn.s283911",
+        "title": "Low-Frequency versus High-Frequency Ultrasound-Mediated Transdermal Delivery of Agomelatine-Loaded Invasomes: Development, Optimization and in-vivo Pharmacokinetic Assessment.",
+        "authorString": "Tawfik MA, Tadros MI, Mohamed MI, Nageeb El-Helaly S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tawfik MA",
+              "lastName": "Tawfik",
+              "firstName": "Mai Ahmed",
+              "initials": "MA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8830-6781"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Cairo University, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tadros MI",
+              "lastName": "Tadros",
+              "firstName": "Mina Ibrahim",
+              "initials": "MI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7092-8603"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Cairo University, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mohamed MI",
+              "lastName": "Mohamed",
+              "firstName": "Magdy Ibrahim",
+              "initials": "MI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Cairo University, Cairo, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nageeb El-Helaly S",
+              "lastName": "Nageeb El-Helaly",
+              "firstName": "Sara",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6382-0995"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Cairo University, Cairo, Egypt."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6382-0995"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7092-8603"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8830-6781"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "15",
+          "journalIssueId": 2917119,
+          "dateOfPublication": "2020",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Int J Nanomedicine",
+            "title": "International journal of nanomedicine",
+            "essn": "1178-2013",
+            "issn": "1176-9114",
+            "isoabbreviation": "Int J Nanomedicine",
+            "nlmid": "101263847"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "8893-8910",
+        "abstractText": "<h4>Aim</h4>Agomelatine (AGM) is the first melatonergic antidepressant. It suffers from low oral bioavailability (<5%) due to extensive hepatic metabolism. The current work aimed to develop an alternative AGM-loaded invasomes to enhance transdermal drug bioavailability.<h4>Methodology</h4>AGM-loaded invasomes were developed using two drug: lipid ratios (1:10 or 1:7.5), four terpene types (limonene, cineole, fenchone or citral) and two terpene concentrations (0.75% or 1.5%, w/v). They were characterized for drug entrapment efficiency (EE%), particle size (PS), zeta potential (ZP) and drug released percentages after 0.5h (Q<sub>0.5h</sub>) and 8h (Q<sub>8h</sub>). The optimum invasomes (I1, I2 and I4) were evaluated for morphology, drug-crystallinity, and ex-vivo drug flux. The variables influencing sonophoresis of the best achieved invasomal gel system (I2) were optimized including, ultrasound frequency (low, LFU or high, HFU), mode (pulsed or continuous), application period (10 min or 15 min) and duty cycle (50% or 100%). AGM pharmacokinetics were evaluated in rabbits following transdermal application of I2-LFU-C4 system, relative to AGM oral dispersion.<h4>Results</h4>The superiority of I2 invasomes [comprising AGM and phosphatidylcholine (1:10) and limonene (1.5% w/v)] was statistically revealed with respect to EE% (78.6%), PS (313 nm), ZP (-64 mV), Q<sub>0.5h</sub> (30.1%), Q<sub>8h</sub> (92%), flux (10.79 µg/cm2/h) and enhancement ratio (4.83). The optimum sonophoresis conditions involved application of LFU in the continuous mode for 15 min at a 100% duty cycle (I2-LFU-C4 system). The latter system showed significantly higher C<sub>max</sub>, and relative bioavailability (≈ 7.25 folds) and a similar T<sub>max</sub> (0.5 h).<h4>Conclusion</h4>I2-LFU-C4 is a promising transdermal system for AGM.",
+        "affiliation": "Department of Pharmaceutics and Industrial Pharmacy, Faculty of Pharmacy, Cairo University, Cairo, Egypt.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Skin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rabbits"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acetamides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Naphthalenes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liposomes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Cutaneous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Liberation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Ultrasonic Waves"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Low frequency ultrasound",
+            "Transdermal",
+            "Sonophoresis",
+            "Agomelatine",
+            "Invasomes"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Naphthalenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Liposomes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Acetamides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "agomelatine",
+              "registryNumber": "137R1N49AD"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.dovepress.com/getfile.php?fileID=63697"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2147/IJN.S283911"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7669507"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7669507?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 36,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2020-12-09",
+        "dateOfCreation": "2020-11-19",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2020-11-12",
+        "firstPublicationDate": "2020-11-12",
+        "firstIndexDate": "2020-11-20",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17992728",
+        "source": "MED",
+        "pmid": "17992728",
+        "doi": "10.1080/00498250601167083",
+        "title": "Roles of human CYP2A6 and rat CYP2B1 in the oxidation of (+)-fenchol by liver microsomes.",
+        "authorString": "Miyazawa M, Gyoubu K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Miyazawa M",
+              "lastName": "Miyazawa",
+              "firstName": "M",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Science and Engineering, Department of Applied Chemistry, Kinki University, Osaka, Japan. miyazawa@apch.kindai.ac.jp"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gyoubu K",
+              "lastName": "Gyoubu",
+              "firstName": "K",
+              "initials": "K"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "37",
+          "journalIssueId": 1470580,
+          "dateOfPublication": "2007 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Xenobiotica",
+            "title": "Xenobiotica; the fate of foreign compounds in biological systems",
+            "essn": "1366-5928",
+            "issn": "0049-8254",
+            "isoabbreviation": "Xenobiotica",
+            "nlmid": "1306665"
+          },
+          "printPublicationDate": "2007-09-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "943-953",
+        "abstractText": "The metabolism of (+)-fenchol was investigated in vitro using liver microsomes of rats and humans and recombinant cytochrome P450 (P450 or CYP) enzymes in insect cells in which human/rat P450 and NADPH-P450 reductase cDNAs had been introduced. The biotransformation of (+)-fenchol was investigated by gas chromatography-mass spectrometry (GC-MS). (+)-Fenchol was oxidized to fenchone by human liver microsomal P450 enzymes. The formation of metabolites was determined by the relative abundance of mass fragments and retention times on GC. Several lines of evidence suggested that CYP2A6 is a major enzyme involved in the oxidation of (+)-fenchol by human liver microsomes. (+)-Fenchol oxidation activities by liver microsomes were very significantly inhibited by (+)-menthofuran, a CYP2A6 inhibitor, and anti-CYP2A6. There was a good correlation between CYP2A6 contents and (+)-fenchol oxidation activities in liver microsomes of ten human samples. Kinetic analysis showed that the Vmax/Km values for (+)-fenchol catalysed by liver microsomes of human sample HG03 were 7.25 nM-1 min-1. Human recombinant CYP2A6-catalyzed (+)-fenchol oxidation with a Vmax value of 6.96 nmol min-1 nmol-1 P450 and apparent Km value of 0.09 mM. In contrast, rat CYP2A1 did not catalyse (+)-fenchol oxidation. In the rat (+)-fenchol was oxidized to fenchone, 6-exo-hydroxyfenchol and 10-hydroxyfenchol by liver microsomes of phenobarbital-treated rats. Recombinant rat CYP2B1 catalysed (+)-fenchol oxidation. Kinetic analysis showed that the Km values for the formation of fenchone, 6-exo- hydroxyfenchol and 10-hydroxyfenchol in rats treated with phenobarbital were 0.06, 0.03 and 0.03 mM, and Vmax values were 2.94, 6.1 and 13.8 nmol min-1 nmol-1 P450, respectively. Taken collectively, the results suggest that human CYP2A6 and rat CYP2B1 are the major enzymes involved in the metabolism of (+)-fenchol by liver microsomes and that there are species-related differences in the human and rat CYP2A enzymes.",
+        "affiliation": "Faculty of Science and Engineering, Department of Applied Chemistry, Kinki University, Osaka, Japan. miyazawa@apch.kindai.ac.jp",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Norbornanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aryl Hydrocarbon Hydroxylases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2B1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mixed Function Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Recombinant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenobiotics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stereoisomerism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2A6"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphanes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Mixed Function Oxygenases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "Aryl Hydrocarbon Hydroxylases",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Recombinant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Norbornanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Xenobiotics",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2B1",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2A6",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "CYP2A6 protein, human",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "fenchol",
+              "registryNumber": "410Q2GK1HF"
+            },
+            {
+              "name": "Camphanes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/00498250601167083"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-12-06",
+        "dateOfCreation": "2007-11-10",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "2007-09-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "7612848",
+        "source": "MED",
+        "pmid": "7612848",
+        "pmcid": "PMC1282109",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC1282109"
+          ]
+        },
+        "doi": "10.1016/s0006-3495(95)80384-x",
+        "title": "Antagonistic effects of hydrostatic pressure and osmotic pressure on cytochrome P-450cam spin transition.",
+        "authorString": "Di Primo C, Deprez E, Hoa GH, Douzou P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Di Primo C",
+              "lastName": "Di Primo",
+              "firstName": "C",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "INSERM-INRA U310, Institut de Biologie Physico-Chimique, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Deprez E",
+              "lastName": "Deprez",
+              "firstName": "E",
+              "initials": "E"
+            },
+            {
+              "fullName": "Hoa GH",
+              "lastName": "Hoa",
+              "firstName": "G H",
+              "initials": "GH"
+            },
+            {
+              "fullName": "Douzou P",
+              "lastName": "Douzou",
+              "firstName": "P",
+              "initials": "P"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "68",
+          "journalIssueId": 883744,
+          "dateOfPublication": "1995 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 1995,
+          "journal": {
+            "medlineAbbreviation": "Biophys J",
+            "title": "Biophysical journal",
+            "essn": "1542-0086",
+            "issn": "0006-3495",
+            "isoabbreviation": "Biophys J",
+            "nlmid": "0370626"
+          },
+          "printPublicationDate": "1995-05-01"
+        },
+        "pubYear": "1995",
+        "pageInfo": "2056-2061",
+        "abstractText": "The combined effects of hydrostatic pressure and osmotic pressure, generated by polyols, on the spin equilibrium of fenchone-bound cytochrome P-450cam were investigated. Hydrostatic pressure indices a high spin to low spin transition, whereas polyols induce the reversed reaction. Of the four solutes used, glycerol, glucose, stachyose, and sucrose, only the last two would act on the spin transition by osmotic stress. The spin volume changes measured by both techniques are different, 29 and -350 ml/mol for hydrostatic pressure and osmotic pressure, respectively. It suggests that even if the two are perturbing water molecules, different properties are probed. From the volume change induced by osmotic stress, 19 water molecules are deduced that would be implicated in the spin transition of the fenchone-bound protein. This result suggests that water molecules other than the well defined ones located in the active site play a key role in modulating the spin equilibrium of cytochrome P-450cam.",
+        "affiliation": "INSERM-INRA U310, Institut de Biologie Physico-Chimique, Paris, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pseudomonas putida",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycerol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphor 5-Monooxygenase"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mixed Function Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oligosaccharides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sucrose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osmotic Pressure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrostatic Pressure"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Sucrose",
+              "registryNumber": "57-50-1"
+            },
+            {
+              "name": "Mixed Function Oxygenases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "Oligosaccharides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Camphor 5-Monooxygenase",
+              "registryNumber": "EC 1.14.15.1"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            },
+            {
+              "name": "Glycerol",
+              "registryNumber": "PDC6A3C0OX"
+            },
+            {
+              "name": "stachyose",
+              "registryNumber": "25VX64653N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/S0006-3495(95)80384-X"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1282109"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1282109?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s0006-3495(95)80384-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 36,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1995-08-22",
+        "dateOfCreation": "1995-05-01",
+        "dateOfRevision": "2018-11-13",
+        "firstPublicationDate": "1995-05-01",
+        "firstIndexDate": "2009-12-24",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9884200",
+        "source": "MED",
+        "pmid": "9884200",
+        "doi": "10.1016/s0731-7085(98)00076-4",
+        "title": "Drug metabolism biosensors: electrochemical reactivities of cytochrome P450cam immobilised in synthetic vesicular systems.",
+        "authorString": "Iwuoha EI, Joseph S, Zhang Z, Smyth MR, Fuhr U, Ortiz de Montellano PR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Iwuoha EI",
+              "lastName": "Iwuoha",
+              "firstName": "E I",
+              "initials": "EI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical and Environmental Sensor Technology Centre, School of Chemical Sciences, Dublin City University, Ireland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Joseph S",
+              "lastName": "Joseph",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Zhang Z",
+              "lastName": "Zhang",
+              "firstName": "Z",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Smyth MR",
+              "lastName": "Smyth",
+              "firstName": "M R",
+              "initials": "MR"
+            },
+            {
+              "fullName": "Fuhr U",
+              "lastName": "Fuhr",
+              "firstName": "U",
+              "initials": "U",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7087-5871"
+              }
+            },
+            {
+              "fullName": "Ortiz de Montellano PR",
+              "lastName": "Ortiz de Montellano",
+              "firstName": "P R",
+              "initials": "PR"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7087-5871"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6-7",
+          "volume": "17",
+          "journalIssueId": 960889,
+          "dateOfPublication": "1998 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 1998,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Biomed Anal",
+            "title": "Journal of pharmaceutical and biomedical analysis",
+            "essn": "1873-264X",
+            "issn": "0731-7085",
+            "isoabbreviation": "J Pharm Biomed Anal",
+            "nlmid": "8309336"
+          },
+          "printPublicationDate": "1998-09-01"
+        },
+        "pubYear": "1998",
+        "pageInfo": "1101-1110",
+        "abstractText": "Biosensors containing cytochrome P450cam in a didodecyldimethylammonium bromide vesicular system were prepared by cross-linking onto a glassy carbon electrode (GCE) with glutaraldehyde in the presence of bovine serum albumin. Cyclic voltammetric responses of the sensor in air-free buffer solution showed that the sensor exhibited reversible electrochemistry due to direct electron exchange between the haem Fe(3+/2+) redox system and the GCE surface. In air-saturated solution containing camphor, the biosensor gave an irreversible electrocatalytic current which is compatible with the monooxygenation of the substrate. Steady state amperometric experiments with camphor, adamantanone and fenchone were performed with a biosensor prepared by cross-linking P450cam with glutaraldehyde onto a Pt disc electrode. The sensor was characterised by fast amperometric responses, attaining steady-state in about 20 s in a cobalt sepulchrate mediated electrochemical system. The kinetic parameters of the biosensor were analysed using the electrochemical Michaelis Menten equation. The estimated apparent Michaelis-Menten constant, Km, values for the biosensors were in the range of 1.41-3.9 mM.",
+        "affiliation": "Biomedical and Environmental Sensor Technology Centre, School of Chemical Sciences, Dublin City University, Ireland.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutaral",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "p-Dimethylaminoazobenzene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serum Albumin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pharmaceutical Preparations",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biosensing Techniques",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electrochemistry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Pharmaceutical Preparations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Serum Albumin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Glutaral",
+              "registryNumber": "T3C89M417N"
+            },
+            {
+              "name": "p-Dimethylaminoazobenzene",
+              "registryNumber": "A49L8E13FD"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s0731-7085(98)00076-4"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 24,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1999-05-07",
+        "dateOfCreation": "1999-01-12",
+        "dateOfRevision": "2019-08-15",
+        "firstPublicationDate": "1998-09-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "8068655",
+        "source": "MED",
+        "pmid": "8068655",
+        "doi": "10.1021/bi00198a047",
+        "title": "High-pressure flash photolysis study of hemoprotein: effects of substrate analogues on the recombination of carbon monoxide to cytochrome P450CAM.",
+        "authorString": "Unno M, Ishimori K, Ishimura Y, Morishima I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Unno M",
+              "lastName": "Unno",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5016-6274"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Molecular Engineering, Graduate School of Engineering, Kyoto University, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ishimori K",
+              "lastName": "Ishimori",
+              "firstName": "K",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5868-0462"
+              }
+            },
+            {
+              "fullName": "Ishimura Y",
+              "lastName": "Ishimura",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Morishima I",
+              "lastName": "Morishima",
+              "firstName": "I",
+              "initials": "I"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5016-6274"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5868-0462"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "32",
+          "volume": "33",
+          "journalIssueId": 799681,
+          "dateOfPublication": "1994 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 1994,
+          "journal": {
+            "medlineAbbreviation": "Biochemistry",
+            "title": "Biochemistry",
+            "essn": "1520-4995",
+            "issn": "0006-2960",
+            "isoabbreviation": "Biochemistry",
+            "nlmid": "0370623"
+          },
+          "printPublicationDate": "1994-08-01"
+        },
+        "pubYear": "1994",
+        "pageInfo": "9762-9768",
+        "abstractText": "The effects of camphor and camphor analogues on the CO recombination kinetics of ferrous cytochrome P450CAM (P450CAM) at 293 K have been studied as a function of hydrostatic pressure (0.1-200 MPa) by means of flash photolysis. At 0.1 MPa, the association rate constant (kon) for substrate-free P450CAM is 8.5 x 10(6) M-1 s-1. Measurements as a function of pressure lead to a determination of the activation volume (delta V not equal to) of +4 cm3 mol-1 for substrate-free protein. This positive delta V not equal to is interesting because the CO association reaction of various hemoproteins, such as myoglobin and hemoglobin, exhibit negative delta V not equal to values [Adachi, S., & Morishima, I. (1989) J. Biol. Chem. 264, 18896-18901; Unno, M., Ishimori, K., & Morishima, I. (1990) Biochemistry 29, 10199-10205]. The binding of d-camphor and some camphor analogues (d-fenchone, 3-endo-bromocamphor, and 3,3,5,5-tetramethylcyclohexanone) into the heme pocket strongly influences the kinetics, i.e., kon is reduced ((1-10) x 10(5) M-1 s-1) and delta V not equal to is altered to a negative value (-14 to -32 cm3 mol-1). The negative delta V not equal to suggests that the effects of camphor and these camphor analogues are due to an increase in the iron-ligand bond formation barrier. On the other hand, the binding of adamantane and norcamphor does not affect the kinetics. This result is particularly surprising because both substrate analogues are located in the immediate vicinity of the CO binding site.(ABSTRACT TRUNCATED AT 250 WORDS)",
+        "affiliation": "Division of Molecular Engineering, Graduate School of Engineering, Kyoto University, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pseudomonas putida",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon Monoxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ferrous Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphor 5-Monooxygenase"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mixed Function Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemoglobins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myoglobin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lasers"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photolysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Light"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrostatic Pressure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermodynamics"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Hemoglobins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Mixed Function Oxygenases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "Myoglobin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Camphor",
+              "registryNumber": "76-22-2"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Ferrous Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Camphor 5-Monooxygenase",
+              "registryNumber": "EC 1.14.15.1"
+            },
+            {
+              "name": "Carbon Monoxide",
+              "registryNumber": "7U1EE4V452"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/bi00198a047"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 17,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1994-09-29",
+        "dateOfCreation": "1994-08-16",
+        "dateOfRevision": "2019-06-13",
+        "firstPublicationDate": "1994-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "3663627",
+        "source": "MED",
+        "pmid": "3663627",
+        "doi": "10.1021/bi00389a029",
+        "title": "Temperature jump relaxation kinetics of the P-450cam spin equilibrium.",
+        "authorString": "Fisher MT, Sligar SG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fisher MT",
+              "lastName": "Fisher",
+              "firstName": "M T",
+              "initials": "MT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, University of Illinois, Urbana 61801."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sligar SG",
+              "lastName": "Sligar",
+              "firstName": "S G",
+              "initials": "SG"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "15",
+          "volume": "26",
+          "journalIssueId": 861842,
+          "dateOfPublication": "1987 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 1987,
+          "journal": {
+            "medlineAbbreviation": "Biochemistry",
+            "title": "Biochemistry",
+            "essn": "1520-4995",
+            "issn": "0006-2960",
+            "isoabbreviation": "Biochemistry",
+            "nlmid": "0370623"
+          },
+          "printPublicationDate": "1987-07-01"
+        },
+        "pubYear": "1987",
+        "pageInfo": "4797-4803",
+        "abstractText": "The ferric spin-state equilibrium and relaxation rate of cytochrome P-450 has been examined with temperature jump spectroscopy using a number of camphor analogues known to induce different mixed spin states in the substrate-bound complexes [Gould, P., Gelb, M., & Sligar, S. G. (1981) J. Biol. Chem. 256, 6686]. All temperature-induced spectral changes were monophasic, and the spin-state relaxation rate reached a limiting value at high substrate concentrations. The ferric spin equilibrium constant, Kspin, is defined in terms of the rate constants k1 and k-1 via Kspin = k1/k-1 = [P-450(HS)]/[P-450(LS)] where HS and LS represent high-spin (S = 5/2) and low-spin (S = 1/2) ferric iron, respectively, and the spectrally observed spin-state relaxation rate by kobsd = k1 + k-1. A strong correlation between the fraction of high-spin species and the rate constant, k-1, is observed. For a 3 degrees C temperature jump (from 10 to 13 degrees C), the 23% high-spin tetramethylcyclohexanone complex (Kd = 45 +/- 20 microM) is characterized by a ferric spin relaxation rate of kobsd = 1990 s-1, while the rates for the d-fenchone (41% high spin, Kd = 42 +/- 10 microM) and kobsd = 1990 s-1, while the rates for the d-fenchone (41% high spin, Kd = 42 +/- 10 microM) and camphoroquinone (75% high spin, Kd = 15 +/- 5 microM) complexes are 1430 and 346 s-1, respectively.(ABSTRACT TRUNCATED AT 250 WORDS)",
+        "affiliation": "Department of Biochemistry, University of Illinois, Urbana 61801.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "GM31756",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camphor 5-Monooxygenase"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mixed Function Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Substrate Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mathematics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermodynamics"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Mixed Function Oxygenases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Camphor 5-Monooxygenase",
+              "registryNumber": "EC 1.14.15.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/bi00389a029"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 39,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1987-12-07",
+        "dateOfCreation": "1987-07-28",
+        "dateOfRevision": "2019-06-13",
+        "firstPublicationDate": "1987-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

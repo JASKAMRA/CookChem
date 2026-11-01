@@ -1,0 +1,554 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:15885265 AND SRC:MED",
+    "internalQuery": "EXT_ID:15885265 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "15885265",
+        "source": "MED",
+        "pmid": "15885265",
+        "doi": "10.1016/j.taap.2004.09.006",
+        "title": "Pharmacokinetic and pharmacodynamic interactions of morin and cyclosporin.",
+        "authorString": "Fang SH, Hou YC, Chao PD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fang SH",
+              "lastName": "Fang",
+              "firstName": "Shih-Hua",
+              "initials": "SH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Microbiology, School of Medicine, China Medical University, Taichung, Taiwan. shfang@mail.cmu.edu.tw"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hou YC",
+              "lastName": "Hou",
+              "firstName": "Yu-Chi",
+              "initials": "YC"
+            },
+            {
+              "fullName": "Chao PD",
+              "lastName": "Chao",
+              "firstName": "Pei-Dawn Lee",
+              "initials": "PD"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "205",
+          "journalIssueId": 1230698,
+          "dateOfPublication": "2005 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Toxicol Appl Pharmacol",
+            "title": "Toxicology and applied pharmacology",
+            "essn": "1096-0333",
+            "issn": "0041-008X",
+            "isoabbreviation": "Toxicol Appl Pharmacol",
+            "nlmid": "0416575"
+          },
+          "printPublicationDate": "2005-05-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "65-70",
+        "abstractText": "Morin is a flavonoid present in mulberry and herbs. We have reported that morin exerted anti-inflammatory activity on the activated macrophages. Cyclosporin (CsA) is a potent immunosuppressive agent with narrow therapeutic range, which is widely used for the treatments of autoimmune diseases and transplantation rejection. This study aimed to measure the effects of morin on the disposition of CsA in lymphoid and non-lymphoid tissues, and on the functions of immune cells in mice. CsA (Neoral, 10 mg/kg) was orally administered with and without a concomitant dose of morin (0, 50, 100, 200 mg/kg) to mice once daily for 2 weeks. CsA concentrations in blood, liver, kidney, and spleen were determined by a specific monoclonal fluorescence polarization immunoassay. The decreased levels of CsA in tissues were found well correlated to increased doses of morin. The coadministration of 200 mg/kg morin significantly decreased CsA in blood, liver, kidney, and spleen by 33%, 17%, 38%, and 45%, respectively. On the other hand, coadministration of morin decreased dramatically the nitric oxide production by the activated macrophages when compared to CsA treatment alone. Moreover, morin maintained the level of CsA-suppressed T helper 1 (Th1) type cytokine, although the CsA concentration in spleen was markedly reduced. In conclusion, morin coadministration profoundly reduced CsA concentration but did not significantly alter the CsA-suppressed Th1 immune response in mice.",
+        "affiliation": "Department of Microbiology, School of Medicine, China Medical University, Taichung, Taiwan. shfang@mail.cmu.edu.tw",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "China Medical University",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Science Council",
+              "grantId": "CMU-93-M-06",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Science Council",
+              "grantId": "92-2320-B-039-015",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spleen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "B-Lymphocyte Subsets",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "T-Lymphocyte Subsets",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Th1 Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Th2 Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CD8-Positive T-Lymphocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Macrophages, Peritoneal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred BALB C"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitric Oxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavones"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclosporine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipopolysaccharides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interleukin-2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Combinations"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intubation, Gastrointestinal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interferon-gamma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Combinations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lipopolysaccharides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interleukin-2",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interferon-gamma",
+              "registryNumber": "82115-62-6"
+            },
+            {
+              "name": "morin",
+              "registryNumber": "8NFQ3F76WR"
+            },
+            {
+              "name": "Nitric Oxide",
+              "registryNumber": "31C4KY9ESH"
+            },
+            {
+              "name": "Cyclosporine",
+              "registryNumber": "83HN0GTJ6D"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.taap.2004.09.006"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-07-12",
+        "dateOfCreation": "2005-05-12",
+        "dateOfRevision": "2026-01-28",
+        "firstPublicationDate": "2005-05-01",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

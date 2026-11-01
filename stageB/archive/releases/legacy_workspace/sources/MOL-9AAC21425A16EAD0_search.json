@@ -1,0 +1,486 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "TITLE_ABS:\"Antheraxanthin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37861656",
+        "source": "MED",
+        "pmid": "37861656",
+        "doi": "10.1093/treephys/tpad131",
+        "title": "Differences in photoprotective strategy during winter in Eastern white pine and white spruce.",
+        "authorString": "Verhoeven A, Kornkven J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Verhoeven A",
+              "lastName": "Verhoeven",
+              "firstName": "Amy",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0779-2007"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biology Department (OWS352), University of St Thomas, 2115 Summit Ave, St Paul, MN 55105 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kornkven J",
+              "lastName": "Kornkven",
+              "firstName": "Joan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biology Department (OWS352), University of St Thomas, 2115 Summit Ave, St Paul, MN 55105 USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0779-2007"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "44",
+          "journalIssueId": 3713672,
+          "dateOfPublication": "2024 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Tree Physiol",
+            "title": "Tree physiology",
+            "essn": "1758-4469",
+            "issn": "0829-318X",
+            "nlmid": "100955338",
+            "isoabbreviation": "Tree Physiol"
+          },
+          "printPublicationDate": "2024-02-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "tpad131",
+        "abstractText": "Conifers growing in temperate forests utilize sustained forms of thermal dissipation during winter to protect the photosynthetic apparatus from damage, which can be monitored via pronounced reductions in photochemical efficiency (Fv/Fm) during winter. Eastern white pine (Pinus strobus L.) and white spruce (Picea  glauca (Moench) Voss) are known to recover from winter stress at different rates, with pine recovering more slowly than spruce, suggesting different mechanisms for sustained dissipation in these species. Our objectives were to monitor pine and spruce throughout spring recovery in order to provide insights into key mechanisms for sustained dissipation in both species. We measured chlorophyll fluorescence, pigments, and abundance and phosphorylation status of key photosynthetic proteins. We found that both species rely on two forms of sustained dissipation involving retention of high amounts of antheraxanthin (A) + zeaxanthin (Z), one that is very slowly reversible and temperature independent and one that is more dynamic and occurs only on subzero days. Differences in protein abundance suggest that spruce, but not pine, likely upregulates cyclic or alternative pathways of electron transport involving the cytochrome b6f complex and photosystem I (PSI). Both species show an increased sustained phosphorylation of the D1 protein on subzero days, and spruce additionally shows dramatic increases in the sustained phosphorylation of light-harvesting complex II (LHCII) and other PSII core proteins on subzero days only, suggesting that a mechanism of sustained dissipation that is temperature dependent requires sustained phosphorylation of photosynthetic proteins in spruce, possibly allowing for direct energy transfer from PSII to PSI as a mechanism of photoprotection. The data suggest differences in strategy among conifers in mechanisms of sustained thermal dissipation in response to winter stress. Additionally, the flexible induction of sustained A + Z and phosphorylation of photosynthetic proteins in response to subzero temperatures during spring recovery seem to be important in providing photoprotection during transitional periods with high temperature fluctuation.",
+        "affiliation": "Biology Department (OWS352), University of St Thomas, 2115 Summit Ave, St Paul, MN 55105 USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "University of St Thomas",
+              "orderIn": 0
+            },
+            {
+              "agency": "University of St Thomas Young Scholar’s",
+              "orderIn": 0
+            },
+            {
+              "agency": "University of St Thomas Young Scholar's",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Picea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pinus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyll",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photosystem II Protein Complex"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photosynthesis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphorylation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Xanthophyll cycle",
+            "Cyclic electron transport",
+            "Low temperature stress",
+            "Conifer",
+            "Winter Stress",
+            "Thylakoid Protein Phosphorylation",
+            "Sustained Thermal Dissipation"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Chlorophyll",
+              "registryNumber": "1406-65-1"
+            },
+            {
+              "name": "Photosystem II Protein Complex",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/treephys/tpad131"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-02-09",
+        "dateOfCreation": "2023-10-20",
+        "dateOfRevision": "2024-03-11",
+        "firstPublicationDate": "2024-02-01",
+        "firstIndexDate": "2023-10-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15602815",
+        "source": "MED",
+        "pmid": "15602815",
+        "doi": "10.1016/j.jplph.2004.02.003",
+        "title": "Manganese accumulation in rice: implications for photosynthetic functioning.",
+        "authorString": "Lidon FC, Barreiro MG, Ramalho JC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lidon FC",
+              "lastName": "Lidon",
+              "firstName": "Fernando Cebola",
+              "initials": "FC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9694-9602"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Grupo de Disciplinas de Ecologia do Hidrosfera-Faculdade de Ciencias e Tecnologia, Universidade Nova de Lisboa, 2825-114 Monte da Caparica, Portugal. fjl@fct.unl.pt"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barreiro MG",
+              "lastName": "Barreiro",
+              "firstName": "Maria Graça",
+              "initials": "MG"
+            },
+            {
+              "fullName": "Ramalho JC",
+              "lastName": "Ramalho",
+              "firstName": "José Cochicho",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7639-7214"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7639-7214"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9694-9602"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "161",
+          "journalIssueId": 1212065,
+          "dateOfPublication": "2004 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "J Plant Physiol",
+            "title": "Journal of plant physiology",
+            "essn": "1618-1328",
+            "issn": "0176-1617",
+            "nlmid": "9882059",
+            "isoabbreviation": "J Plant Physiol"
+          },
+          "printPublicationDate": "2004-11-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "1235-1244",
+        "abstractText": "In order to gain fundamental insights into the nature of the adaptation to Mn excess, the characterisation of the photosynthetic apparatus in Mn-treated rice was carried out in 21-day-old plants. We found 17- and 11-fold increases in Mn in the leaf tissues and in thylakoid, respectively, when the plants were grown hydroponically in nutrient solutions with Mn concentrations between 0.125 and 32 mg l(-1) (2.3 and 582.5 microM). Net photosynthesis and the photosynthetic capacity decreased after the 0.5 and 2 mg l(-1) (9.1 and 36.4 microM) Mn treatment, respectively. The stomatal conductance displayed a similar trend to that of photosynthetic capacity. The levels of basal chlorophyll fluorescence and the ratio between variable and maximum chlorophyll fluorescence did not vary significantly among treatments, but the photochemical quenching and the quantum yield of non-cyclic electron transport increased until the 2 mg l(-1) (36.4 microM) Mn treatment. The lipid matrix of thylakoids revealed a global increase in the proportions of phospholipids, relative to galactolipids. This pattern was coupled with diminishing levels of monogalactosyldiacylglycerol. The relative ratio between total carotenoids and total chlorophylls decreased until the last Mn treatment, yet the levels of carotenes, zeaxanthin, and violaxanthin plus antheraxanthin displayed different patterns. It was further found that the de-epoxidation state involving the components of the xanthophylls cycle increased until the 8 mg l(-1) (145.6 microM) Mn treatment. The levels of the photosynthetic electron carriers displayed different patterns, with plastocyanin and the high and low forms of cytochrome b559 remaining steady, whereas cytochromes b563 and f increased until the 8 mg l(-1) (145.6 microM) Mn treatment and the quinone pool increased until the highest Mn treatment. It was concluded that Mn-mediated inhibition of rice photosynthesis barely implicates stomatal conductance, as well as the distribution of energy within the photosystems. In this context, alterations to the relative proportions of the different acyl lipids and isoprenoids, as well as to the accumulations of the photosynthetic electron carriers, seem to play a major role.",
+        "affiliation": "Grupo de Disciplinas de Ecologia do Hidrosfera-Faculdade de Ciencias e Tecnologia, Universidade Nova de Lisboa, 2825-114 Monte da Caparica, Portugal. fjl@fct.unl.pt",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thylakoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Shoots",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Manganese",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adaptation, Physiological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photosynthesis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Light"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oryza",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Manganese",
+              "registryNumber": "42Z2K6ZL8P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jplph.2004.02.003"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 70,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-01-07",
+        "dateOfCreation": "2004-12-18",
+        "dateOfRevision": "2020-09-30",
+        "firstPublicationDate": "2004-11-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

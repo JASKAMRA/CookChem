@@ -1,0 +1,1109 @@
+{
+  "version": "6.9",
+  "hitCount": 4,
+  "request": {
+    "queryString": "TITLE_ABS:\"Malonylgenistin\" AND (TITLE_ABS:drug OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:pharmacodynamic OR TITLE_ABS:absorption OR TITLE_ABS:metabolism OR TITLE_ABS:transporter) AND FIRST_PDATE:[* TO 2026-10-06]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42797399",
+        "source": "MED",
+        "pmid": "42797399",
+        "pmcid": "PMC13610150",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13610150"
+          ]
+        },
+        "doi": "10.3390/ph19091353",
+        "title": "Consensus In Silico Pharmacodynamic Screening of Twelve Fabaceae Isoflavones Targeting Glycation, Oxidative Stress, Antidiabetic Activity, and NF-κB-Related Inflammation.",
+        "authorString": "Aboushanab SA, Oberiukhtin DA, Danilova IG, Vassiliev PM, Sokolova KV, Chen K, Kovaleva EG, Mondragon AC, Demicheva EI, Miranda JM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Aboushanab SA",
+              "lastName": "Aboushanab",
+              "firstName": "Saied A",
+              "initials": "SA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9716-9229"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Chemical Engineering, Ural Federal University Named After the First President of Russia B. N. Yeltsin, Mira 19, 620002 Yekaterinburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Oberiukhtin DA",
+              "lastName": "Oberiukhtin",
+              "firstName": "Denis A",
+              "initials": "DA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-1497-5740"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Immunology and Physiology, Ural Branch of the Russian Academy of Science, 106 Pervomaiskaya Street, 620049 Yekaterinburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Danilova IG",
+              "lastName": "Danilova",
+              "firstName": "Irina G",
+              "initials": "IG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Immunology and Physiology, Ural Branch of the Russian Academy of Science, 106 Pervomaiskaya Street, 620049 Yekaterinburg, Russia."
+                  },
+                  {
+                    "affiliation": "Institute of Natural Science and Mathematics, Ural Federal University Named After the First President of Russia B. N. Yeltsin, Mira 19, 620002 Yekaterinburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vassiliev PM",
+              "lastName": "Vassiliev",
+              "firstName": "Pavel M",
+              "initials": "PM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8188-5052"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Bioinformatics, Volgograd State Medical University, 1 Pavshikh Bortsov Sq., 400131 Volgograd, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sokolova KV",
+              "lastName": "Sokolova",
+              "firstName": "Ksenia V",
+              "initials": "KV",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Immunology and Physiology, Ural Branch of the Russian Academy of Science, 106 Pervomaiskaya Street, 620049 Yekaterinburg, Russia."
+                  },
+                  {
+                    "affiliation": "Institute of Natural Science and Mathematics, Ural Federal University Named After the First President of Russia B. N. Yeltsin, Mira 19, 620002 Yekaterinburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen K",
+              "lastName": "Chen",
+              "firstName": "Kewei",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9128-7438"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science, Southwest University, No. 2, Tiansheng Road, Beibei, Chongqing 400715, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kovaleva EG",
+              "lastName": "Kovaleva",
+              "firstName": "Elena G",
+              "initials": "EG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3111-345X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Chemical Engineering, Ural Federal University Named After the First President of Russia B. N. Yeltsin, Mira 19, 620002 Yekaterinburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mondragon AC",
+              "lastName": "Mondragon",
+              "firstName": "Alicia C",
+              "initials": "AC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1274-5539"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Nutrition and Food Science, Institute for Research in Global Health and Sustainable Development, iTERRA, School of Veterinary Sciences, University of Santiago de Compostela, 27002 Lugo, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Demicheva EI",
+              "lastName": "Demicheva",
+              "firstName": "Ekaterina I",
+              "initials": "EI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0744-5494"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Chemical Engineering, Ural Federal University Named After the First President of Russia B. N. Yeltsin, Mira 19, 620002 Yekaterinburg, Russia."
+                  },
+                  {
+                    "affiliation": "Institute of Immunology and Physiology, Ural Branch of the Russian Academy of Science, 106 Pervomaiskaya Street, 620049 Yekaterinburg, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miranda JM",
+              "lastName": "Miranda",
+              "firstName": "Jose M",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7992-1491"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Nutrition and Food Science, Institute for Research in Global Health and Sustainable Development, iTERRA, School of Veterinary Sciences, University of Santiago de Compostela, 27002 Lugo, Spain."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7992-1491"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9128-7438"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3111-345X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8188-5052"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9716-9229"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0744-5494"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1274-5539"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-1497-5740"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "19",
+          "journalIssueId": 4270467,
+          "dateOfPublication": "2026 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Pharmaceuticals (Basel)",
+            "title": "Pharmaceuticals (Basel, Switzerland)",
+            "essn": "1424-8247",
+            "issn": "1424-8247",
+            "nlmid": "101238453",
+            "isoabbreviation": "Pharmaceuticals (Basel)"
+          },
+          "printPublicationDate": "2026-08-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "1353",
+        "abstractText": "<b>Background/Objectives:</b> Type 2 diabetes mellitus (T2DM) is a multifactorial metabolic disorder characterized by chronic hyperglycemia, oxidative stress, protein glycation, low-grade inflammation, and dysregulation of signaling pathways, including those involving nuclear factor kappa B (NF-κB). Isoflavones from Fabaceae species exhibit diverse biological activities and may represent multifunctional candidates for addressing the interconnected mechanisms underlying T2DM. This study performed a consensus in silico pharmacodynamic screening of twelve representative Fabaceae isoflavones to prioritize compounds with predicted antiglycating, deglycating, antidiabetic, antioxidant, and NF-κB-related anti-inflammatory activities. <b>Methods:</b> Twelve representative Fabaceae isoflavones were evaluated using a multimethod computational workflow. Antiglycating and deglycating activities were predicted using IT Microcosm, antidiabetic and hypoglycemic activities were assessed using Prediction of Activity Spectra for Substances (PASS), antioxidant potential was evaluated using similarity-based prediction and quantum-chemical calculations, and NF-κB-related anti-inflammatory activity was investigated using similarity-based prediction combined with molecular docking. Molecular docking was applied specifically to the NF-κB-related anti-inflammatory analysis and did not contribute to the hypoglycemic/antidiabetic prediction. The individual predictions were integrated using a consensus scoring strategy to prioritize compounds across multiple pharmacodynamic domains. <b>Results:</b> The investigated isoflavones demonstrated moderate but broad predicted multifunctional activities. Malonylgenistin, biochanin A, and formononetin showed the most favorable predicted antiglycating profiles. Genistin, acetyldaidzin, acetylglycitin, and puerarin ranked highest in terms of predicted antidiabetic activity, whereas genistein exhibited the strongest predicted antioxidant profile. Daidzin and genistin received the highest integrated NF-κB-related computational rankings, although these predictions apply to intact glycosides rather than their expected in vivo hydrolysis products. <b>Conclusions:</b> This study presents a consensus computational framework for the comparative prioritization of Fabaceae isoflavones based on their predicted multifunctional pharmacodynamic profiles. The results provide a rational basis for selecting candidate compounds for future biochemical, cell-based, pharmacokinetic, and in vivo investigations, although it is emphasized that the present findings are based exclusively on computational predictions and require experimental validation.",
+        "affiliation": "Institute of Chemical Engineering, Ural Federal University Named After the First President of Russia B. N. Yeltsin, Mira 19, 620002 Yekaterinburg, Russia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Russian Science Foundation",
+              "grantId": "16-15-00039-П",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Glycation",
+            "Molecular docking",
+            "Isoflavones",
+            "Antioxidant activity",
+            "Type 2 diabetes mellitus",
+            "NF-κB",
+            "Fabaceae",
+            "Pass",
+            "In Silico Screening"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ph19091353"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13610150"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13610150?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-09-26",
+        "dateOfCreation": "2026-09-26",
+        "dateOfRevision": "2026-09-29",
+        "electronicPublicationDate": "2026-08-26",
+        "firstPublicationDate": "2026-08-26",
+        "firstIndexDate": "2026-09-28",
+        "fullTextReceivedDate": "2026-09-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30518039",
+        "source": "MED",
+        "pmid": "30518039",
+        "pmcid": "PMC6321324",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6321324"
+          ]
+        },
+        "doi": "10.3390/ijms19123864",
+        "title": "Effect of Long-Term Strontium Exposure on the Content of Phytoestrogens and Allantoin in Soybean.",
+        "authorString": "Dresler S, Wójciak-Kosior M, Sowa I, Strzemski M, Sawicki J, Kováčik J, Blicharski T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dresler S",
+              "lastName": "Dresler",
+              "firstName": "Sławomir",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4413-3748"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant Physiology, Institute of Biology and Biochemistry, Maria Curie-Skłodowska University, Akademicka 19, 20-033 Lublin, Poland. slawomir.dresler@poczta.umcs.lublin.pl."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wójciak-Kosior M",
+              "lastName": "Wójciak-Kosior",
+              "firstName": "Magdalena",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Medical University of Lublin, Chodźki 4a, 20-093 Lublin, Poland. kosiorma@wp.pl."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sowa I",
+              "lastName": "Sowa",
+              "firstName": "Ireneusz",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9346-6325"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Medical University of Lublin, Chodźki 4a, 20-093 Lublin, Poland. irek.sowa@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Strzemski M",
+              "lastName": "Strzemski",
+              "firstName": "Maciej",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0039-4455"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Medical University of Lublin, Chodźki 4a, 20-093 Lublin, Poland. maciej.strzemski@poczta.onet.pl."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sawicki J",
+              "lastName": "Sawicki",
+              "firstName": "Jan",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5945-1047"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Analytical Chemistry, Medical University of Lublin, Chodźki 4a, 20-093 Lublin, Poland. 91chem91@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kováčik J",
+              "lastName": "Kováčik",
+              "firstName": "Jozef",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5701-0598"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, University of Trnava, Priemyselná 4, 918 43 Trnava, Slovak Republic. jozkovacik@yahoo.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blicharski T",
+              "lastName": "Blicharski",
+              "firstName": "Tomasz",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9747-8817"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Orthopaedics and Rehabilitation Clinic, Medical University Lublin, Chodźki 4a, Lublin 20-093, Poland. tomasz.blicharski@umlub.pl."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9346-6325"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9747-8817"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0039-4455"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5701-0598"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5945-1047"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0466-1343"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4413-3748"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "19",
+          "journalIssueId": 2756869,
+          "dateOfPublication": "2018 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Int J Mol Sci",
+            "title": "International journal of molecular sciences",
+            "essn": "1422-0067",
+            "issn": "1422-0067",
+            "nlmid": "101092791",
+            "isoabbreviation": "Int J Mol Sci"
+          },
+          "printPublicationDate": "2018-12-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "E3864",
+        "abstractText": "Abiotic stress, including metal excess, can modify plant metabolism. Here we investigated the influence of long-term strontium exposure (12 weeks, 0.5⁻4.0 mM Sr) on the content of phytoestrogens and allantoin as well as the mineral composition in soybean. Seven phytoestrogens were identified in the soybean: daidzin, glycitin, genistin, malonyldaidzin, malonylgenistin, daidzein, and coumestrol. The results showed that both malonyldaidzin and malonylgenistin were dominant phytoestrogens; however, the roots contained a relatively high amount of daidzein. It was found that strontium reduced the phytoestrogen content and decreased the antioxidant capacity. Strontium evoked depletion of the sum of all phytoestrogens by 40⁻70% in the leaves, 25⁻50% in the stems and in the seeds, depending on the strontium concentration. In the roots, 0.5 and 4.0 mM of strontium decreased the total phytoestrogen content by 25 and 55%, respectively, while 2.0 mM of strontium did not exert an effect on their accumulation. On the other hand, strontium ions induced allantoin accumulation mainly in the roots. Strontium was preferentially accumulated in the leaves, with a slight impact on macro- and micro-nutrients. Our research showed strontium-secondary metabolites interaction in the soybean, which can be useful for obtaining a natural pharmaceutical product containing both strontium and phytoestrogens for remediation of postmenopausal osteoporosis.",
+        "affiliation": "Department of Plant Physiology, Institute of Biology and Biochemistry, Maria Curie-Skłodowska University, Akademicka 19, 20-033 Lublin, Poland. slawomir.dresler@poczta.umcs.lublin.pl.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Narodowym Centrum Nauki",
+              "grantId": "2017/01/X/NZ4/01920",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Strontium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allantoin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytoestrogens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomass"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Principal Component Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Secondary Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycine max",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Strontium",
+            "Isoflavones",
+            "Allantoin",
+            "Coumestrol",
+            "Glycine Max (L.) Merr."
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Ions",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phytoestrogens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Strontium",
+              "registryNumber": "YZS2RPE8LE"
+            },
+            {
+              "name": "Allantoin",
+              "registryNumber": "344S277G0Z"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/1422-0067/19/12/3864/pdf?version=1543901302"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ijms19123864"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6321324"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6321324?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-03-29",
+        "dateOfCreation": "2018-12-07",
+        "dateOfRevision": "2023-12-13",
+        "electronicPublicationDate": "2018-12-04",
+        "firstPublicationDate": "2018-12-04",
+        "firstIndexDate": "2018-12-07",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24647389",
+        "source": "MED",
+        "pmid": "24647389",
+        "doi": "10.3945/jn.114.190801",
+        "title": "Malonylglucoside conjugates of isoflavones are much less bioavailable compared with unconjugated β-glucosidic forms in rats.",
+        "authorString": "Yerramsetty V, Gallaher DD, Ismail B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yerramsetty V",
+              "lastName": "Yerramsetty",
+              "firstName": "Vamsidhar",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Nutrition, University of Minnesota, Saint Paul, MN."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gallaher DD",
+              "lastName": "Gallaher",
+              "firstName": "Daniel D",
+              "initials": "DD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5969-4938"
+              }
+            },
+            {
+              "fullName": "Ismail B",
+              "lastName": "Ismail",
+              "firstName": "Baraem",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3551-8446"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3551-8446"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5969-4938"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "144",
+          "journalIssueId": 2151364,
+          "dateOfPublication": "2014 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "J Nutr",
+            "title": "The Journal of nutrition",
+            "essn": "1541-6100",
+            "issn": "0022-3166",
+            "nlmid": "0404243",
+            "isoabbreviation": "J Nutr"
+          },
+          "printPublicationDate": "2014-05-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "631-637",
+        "abstractText": "Despite considerable interest in the physiologic effects of isoflavones, the in vivo bioavailability of the most common isoflavone forms, malonylglucoside conjugates, has not been determined. Differences in the bioavailability of malonylglucosides compared with the nonconjugated β-glucoside forms may explain the inconsistent findings regarding the physiologic effects of isoflavones. Therefore, our objective was to determine the effect of malonyl- conjugation on isoflavone bioavailability in an animal model. Malonylgenistin and malonyldaidzin, and their corresponding nonconjugated glucosides, were extracted from soy grits and purified using liquid chromatography. Purity of the isolated forms was confirmed by nuclear magnetic resonance analysis. Male rats were gavaged with malonylgenistin, genistin, malonyldaidzin, or daidzin at a dose of 100 μmol/kg body weight. Blood and urine samples were collected at time intervals ranging from 0 to 48 h. Isoflavone metabolites in plasma and urine were determined using stable isotope dilution-liquid chromatography/mass spectrometry. Comparisons of pharmacokinetic variables were made between nonconjugated and conjugated glucosides and over time of plasma collection. The areas under the time-concentration curve of the metabolites in the plasma obtained after the administration of nonconjugated β-glucosides were 1 to 6 times higher than those of their respective malonylglucosides (P ≤ 0.05). Additionally, maximum plasma concentration and urinary excretion of isoflavone metabolites were significantly higher (1-9 times; P ≤ 0.05) after the administration of nonconjugated β-glucosides. To our knowledge, these results demonstrated, for the first time, that nonconjugated β-glucosides are relatively more bioavailable than their respective malonylglucosides. These differences in the bioavailability of conjugated and nonconjugated β-glucosides should be considered in future studies focused on the bioactivity of isoflavones.",
+        "affiliation": "Department of Food Science and Nutrition, University of Minnesota, Saint Paul, MN.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deuterium"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoflavones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nuclear Magnetic Resonance, Biomolecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Feed"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycine max",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glucosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isoflavones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "genistin",
+              "registryNumber": "1POG3SCN5T"
+            },
+            {
+              "name": "daidzin",
+              "registryNumber": "4R2X91A5M5"
+            },
+            {
+              "name": "Deuterium",
+              "registryNumber": "AR09D82C7G"
+            },
+            {
+              "name": "6''-O-malonyldaidzin",
+              "registryNumber": "54CE6OWE7A"
+            },
+            {
+              "name": "malonylgenistin",
+              "registryNumber": "2AUB85VT2K"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://academic.oup.com/jn/article-pdf/144/5/631/23974296/631.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3945/jn.114.190801"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-06-10",
+        "dateOfCreation": "2014-03-21",
+        "dateOfRevision": "2023-12-13",
+        "electronicPublicationDate": "2014-03-19",
+        "firstPublicationDate": "2014-03-19",
+        "firstIndexDate": "2014-03-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND500736993",
+        "source": "AGR",
+        "title": "Isolation and purification of isoflavones from soy flour by high-speed countercurrent chromatography",
+        "authorString": "Degenhardt A, Winterhalter P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Degenhardt A",
+              "lastName": "Degenhardt",
+              "firstName": "Andreas",
+              "initials": "A"
+            },
+            {
+              "fullName": "Winterhalter P",
+              "lastName": "Winterhalter",
+              "firstName": "Peter",
+              "initials": "P"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4-5",
+          "volume": "213",
+          "journalIssueId": 2179334,
+          "dateOfPublication": "2001 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "Eur Food Res Technol",
+            "title": "European food research & technology.",
+            "issn": "1438-2377",
+            "nlmid": "100957634",
+            "isoabbreviation": "Eur Food Res Technol"
+          },
+          "printPublicationDate": "2001-10-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "277-280",
+        "abstractText": "High-speed countercurrent chromatography (HSCCC) was applied to the isolation of isoflavones from soy on a preparative scale. Two different protocols were developed for the isolation of monoglucosylated/acetylated isoflavones as well as malonylated derivatives. Analysis of malonylated derivatives requires a quick and gentle extraction/separation procedure and the use of acid-free solvents for HSCCC. An appropriate solvent system for the isolation of 6′′-O-malonylgenistin is the biphasic mixture of tert.-butyl-methyl ether/n-butanol/acetonitrile/water (1/3/1/5). In the case of monoglucosylated/acetylated isoflavones an enrichment and clean-up step (i.e. adsorption on XAD-7 resin) is preferably carried out prior to the HSCCC separation. The separation is then achieved by the application of tert.-butyl-methyl ether/acetonitrile/water (2/2/3) and tert.-butyl-methyl ether/acetonitrile/water (6/3/8) as solvent systems. Peak purity of the isolated compounds was checked by HPLC-MS and ¹H-NMR spectroscopy. The isolated compounds can be used for studies on metabolism and bioavailability of isoflavone derivatives.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-03-07",
+        "dateOfCreation": "2014-03-07",
+        "dateOfRevision": "2022-11-21",
+        "firstPublicationDate": "2001-10-01",
+        "firstIndexDate": "2014-07-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

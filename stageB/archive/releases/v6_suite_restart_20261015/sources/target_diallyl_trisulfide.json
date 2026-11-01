@@ -1,0 +1,1132 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "TITLE:\"Diallyl trisulfide\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32365606",
+        "source": "MED",
+        "pmid": "32365606",
+        "pmcid": "PMC7291231",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7291231"
+          ]
+        },
+        "doi": "10.3390/insects11050270",
+        "title": "Effects of Diallyl Trisulfide, an Active Substance from Garlic Essential Oil, on Energy Metabolism in Male Moth <i>Sitotroga cerealella</i> (Olivier).",
+        "authorString": "Wu MY, Ying YY, Zhang SS, Li XG, Yan WH, Yao YC, Shah S, Wu G, Yang FL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu MY",
+              "lastName": "Wu",
+              "firstName": "Meng-Ya",
+              "initials": "MY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ying YY",
+              "lastName": "Ying",
+              "firstName": "Yi-Yi",
+              "initials": "YY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang SS",
+              "lastName": "Zhang",
+              "firstName": "Su-Su",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li XG",
+              "lastName": "Li",
+              "firstName": "Xue-Gang",
+              "initials": "XG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yan WH",
+              "lastName": "Yan",
+              "firstName": "Wen-Han",
+              "initials": "WH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao YC",
+              "lastName": "Yao",
+              "firstName": "Yu-Chen",
+              "initials": "YC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shah S",
+              "lastName": "Shah",
+              "firstName": "Sakhawat",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0275-5450"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu G",
+              "lastName": "Wu",
+              "firstName": "Gang",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang FL",
+              "lastName": "Yang",
+              "firstName": "Feng-Lian",
+              "initials": "FL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8980-9495"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8980-9495"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0275-5450"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "11",
+          "journalIssueId": 2947797,
+          "dateOfPublication": "2020 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Insects",
+            "title": "Insects",
+            "essn": "2075-4450",
+            "issn": "2075-4450",
+            "nlmid": "101574235",
+            "isoabbreviation": "Insects"
+          },
+          "printPublicationDate": "2020-04-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "E270",
+        "abstractText": "This study investigated the effects of diallyl trisulfide (DAT), an active substance from garlic essential oil, on the metabolism of the main energy substances of pre- and postmating males of <i>Sitotroga cerealella</i>. Males at 12 h postemergence were fumigated with DAT at a concentration (LC<sub>10</sub> = 0.010 µL/L) in a glass jar for 7 h. The main energy metabolites from pre- and postmating males were determined, including protein, triglyceride, glycogen, total soluble sugar, trehalose, and trehalase. The contents of total protein and total soluble sugar and the trehalase activity of premating males were significantly increased following DAT treatment, whereas the contents of protein from the accessory gland, triglyceride, glycogen, and trehalose were significantly decreased after treatment. Additionally, after mating, the total protein and soluble sugar contents were significantly increased and the glycogen content was significantly decreased in the treatment group relative to the levels in controls, but there was no significant difference observed in triglyceride, accessory gland proteins, trehalose content, or trehalase activity between the treatment and control groups. Furthermore, the changes in the main energy substances between pre- and postmating in males after the DAT treatment (∆DAT) were smaller than those in the control group (∆CK). This result indicated that DAT can accelerate the rate of metabolism in males at LC<sub>10</sub>, leading to the accumulation of greater levels of total soluble sugar to support life activities and to the increased synthesis of proteins to resist an adverse environment.",
+        "affiliation": "Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31871955",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Metabolism",
+            "Diallyl Trisulfide",
+            "Sitotroga Cerealella",
+            "Energy Substances"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/insects11050270"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7291231"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7291231?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2020-05-06",
+        "dateOfRevision": "2020-09-28",
+        "electronicPublicationDate": "2020-04-29",
+        "firstPublicationDate": "2020-04-29",
+        "firstIndexDate": "2020-05-05",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29305270",
+        "source": "MED",
+        "pmid": "29305270",
+        "doi": "10.1016/j.fct.2017.12.060",
+        "title": "The protective effect of diallyl trisulfide on cytopenia induced by benzene through modulating benzene metabolism.",
+        "authorString": "Han W, Wang S, Li M, Jiang L, Wang X, Xie K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Han W",
+              "lastName": "Han",
+              "firstName": "Wenting",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Toxicology, School of Public Health, Shandong University, Jinan, Shandong 250012, China; School of Food Engineering, Ludong University, Yantai, Shandong 264025, China. Electronic address: babyhan1983@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Shuo",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Toxicology, School of Public Health, Shandong University, Jinan, Shandong 250012, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li M",
+              "lastName": "Li",
+              "firstName": "Ming",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Toxicology, School of Public Health, Shandong University, Jinan, Shandong 250012, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang L",
+              "lastName": "Jiang",
+              "firstName": "Lulu",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6918-6777"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Toxicology, School of Public Health, Shandong University, Jinan, Shandong 250012, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xujing",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Toxicology, School of Public Health, Shandong University, Jinan, Shandong 250012, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie K",
+              "lastName": "Xie",
+              "firstName": "Keqin",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Toxicology, School of Public Health, Shandong University, Jinan, Shandong 250012, China. Electronic address: keqinx@sdu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3673-9929"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6918-6777"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "112",
+          "journalIssueId": 2650493,
+          "dateOfPublication": "2018 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Food Chem Toxicol",
+            "title": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+            "essn": "1873-6351",
+            "issn": "0278-6915",
+            "nlmid": "8207483",
+            "isoabbreviation": "Food Chem Toxicol"
+          },
+          "printPublicationDate": "2018-02-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "393-399",
+        "abstractText": "It has been known that metabolism of benzene is necessary for its toxicity. The purpose of our study is to investigate the effect of diallyl trisulfide (DATS) on attenuating cytopenia in peripheral blood introduced by benzene through regulating benzene metabolism in rats. We established benzene poisoning model with benzene (1.3 g/kg), while the DATS treatment groups were treated with DATS plus benzene (15 or 30 mg/kg) for 28 days, respectively. The results of blood parameters and concentration of metabolites of benzene (t, t-MA and SPMA) determination in urine showed that DATS could effectively attenuate the cytopenia induced by benzene through regulating benzene metabolism. Western blot and chemical method were used to detect the activities and protein expression levels of enzymes CYP2E1 and GSTT1 in liver and enzymes MPO and NQO1 in bone marrow were tested. The results suggested that the inhibition of bioactivation in liver and bone marrow catalyzed by CYP2E1 and MPO and the activation of detoxification catalyzed by GSTT1 and NQO1 might be the critical mechanism, through which DATS modulated benzene metabolism to prevent benzene-induced cytopenia.",
+        "affiliation": "Institute of Toxicology, School of Public Health, Shandong University, Jinan, Shandong 250012, China; School of Food Engineering, Ludong University, Yantai, Shandong 264025, China. Electronic address: babyhan1983@163.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81373044",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erythrocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leukocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PO",
+                    "qualifierName": "poisoning"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2E1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NAD(P)H Dehydrogenase (Quinone)",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peroxidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Transferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Urinalysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erythrocyte Count"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leukocyte Count"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blotting, Western"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catalysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2E1 Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Activation, Metabolic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Benzene Metabolism",
+            "Cytopenia",
+            "Diallyl Trisulfide",
+            "Spma",
+            "T,t-ma"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "glutathione S-transferase T1",
+              "registryNumber": "EC 2.5.1.-"
+            },
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glutathione Transferase",
+              "registryNumber": "EC 2.5.1.18"
+            },
+            {
+              "name": "Peroxidase",
+              "registryNumber": "EC 1.11.1.7"
+            },
+            {
+              "name": "NAD(P)H Dehydrogenase (Quinone)",
+              "registryNumber": "EC 1.6.5.2"
+            },
+            {
+              "name": "NQO1 protein, rat",
+              "registryNumber": "EC 1.6.5.2"
+            },
+            {
+              "name": "diallyl trisulfide",
+              "registryNumber": "0ZO1U5A3XX"
+            },
+            {
+              "name": "Benzene",
+              "registryNumber": "J64922108F"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2E1",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2E1 Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fct.2017.12.060"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-08-31",
+        "dateOfCreation": "2018-01-07",
+        "dateOfRevision": "2018-08-31",
+        "electronicPublicationDate": "2018-01-02",
+        "firstPublicationDate": "2018-01-02",
+        "firstIndexDate": "2018-01-07",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22467307",
+        "source": "MED",
+        "pmid": "22467307",
+        "pmcid": "PMC3378306",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3378306"
+          ]
+        },
+        "doi": "10.1152/ajpheart.00044.2012",
+        "title": "The polysulfide diallyl trisulfide protects the ischemic myocardium by preservation of endogenous hydrogen sulfide and increasing nitric oxide bioavailability.",
+        "authorString": "Predmore BL, Kondo K, Bhushan S, Zlatopolsky MA, King AL, Aragon JP, Grinsfelder DB, Condit ME, Lefer DJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Predmore BL",
+              "lastName": "Predmore",
+              "firstName": "Benjamin L",
+              "initials": "BL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cardiothoracic Surgery, Department of Surgery, Emory University School of Medicine, Atlanta, Georgia 30308, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kondo K",
+              "lastName": "Kondo",
+              "firstName": "Kazuhisa",
+              "initials": "K"
+            },
+            {
+              "fullName": "Bhushan S",
+              "lastName": "Bhushan",
+              "firstName": "Shashi",
+              "initials": "S"
+            },
+            {
+              "fullName": "Zlatopolsky MA",
+              "lastName": "Zlatopolsky",
+              "firstName": "Maxim A",
+              "initials": "MA"
+            },
+            {
+              "fullName": "King AL",
+              "lastName": "King",
+              "firstName": "Adrienne L",
+              "initials": "AL"
+            },
+            {
+              "fullName": "Aragon JP",
+              "lastName": "Aragon",
+              "firstName": "Juan Pablo",
+              "initials": "JP"
+            },
+            {
+              "fullName": "Grinsfelder DB",
+              "lastName": "Grinsfelder",
+              "firstName": "D Bennett",
+              "initials": "DB"
+            },
+            {
+              "fullName": "Condit ME",
+              "lastName": "Condit",
+              "firstName": "Marah E",
+              "initials": "ME"
+            },
+            {
+              "fullName": "Lefer DJ",
+              "lastName": "Lefer",
+              "firstName": "David J",
+              "initials": "DJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2293-7278"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2293-7278"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "302",
+          "journalIssueId": 1936573,
+          "dateOfPublication": "2012 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Am J Physiol Heart Circ Physiol",
+            "title": "American journal of physiology. Heart and circulatory physiology",
+            "essn": "1522-1539",
+            "issn": "0363-6135",
+            "nlmid": "100901228",
+            "isoabbreviation": "Am J Physiol Heart Circ Physiol"
+          },
+          "printPublicationDate": "2012-06-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "H2410-8",
+        "abstractText": "Diallyl trisulfide (DATS), a polysulfide constituent found in garlic oil, is capable of the release of hydrogen sulfide (H(2)S). H(2)S is a known cardioprotective agent that protects the heart via antioxidant, antiapoptotic, anti-inflammatory, and mitochondrial actions. Here, we investigated DATS as a stable donor of H(2)S during myocardial ischemia-reperfusion (MI/R) injury in vivo. We investigated endogenous H(2)S levels, infarct size, postischemic left ventricular function, mitochondrial respiration and coupling, endothelial nitric oxide (NO) synthase (eNOS) activation, and nuclear E2-related factor (Nrf2) translocation after DATS treatment. Mice were anesthetized and subjected to a surgical model of MI/R injury with and without DATS treatment (200 μg/kg). Both circulating and myocardial H(2)S levels were determined using chemiluminescent gas chromatography. Infarct size was measured after 45 min of ischemia and 24 h of reperfusion. Troponin I release was measured at 2, 4, and 24 h after reperfusion. Cardiac function was measured at baseline and 72 h after reperfusion by echocardiography. Cardiac mitochondria were isolated after MI/R, and mitochondrial respiration was investigated. NO metabolites, eNOS phosphorylation, and Nrf2 translocation were determined 30 min and 2 h after DATS administration. Myocardial H(2)S levels markedly decreased after I/R injury but were rescued by DATS treatment (P < 0.05). DATS administration significantly reduced infarct size per area at risk and per left ventricular area compared with control (P < 0.001) as well as circulating troponin I levels at 4 and 24 h (P < 0.05). Myocardial contractile function was significantly better in DATS-treated hearts compared with vehicle treatment (P < 0.05) 72 h after reperfusion. DATS reduced mitochondrial respiration in a concentration-dependent manner and significantly improved mitochondrial coupling after reperfusion (P < 0.01). DATS activated eNOS (P < 0.05) and increased NO metabolites (P < 0.05). DATS did not appear to significantly induce the Nrf2 pathway. Taken together, these data suggest that DATS is a donor of H(2)S that can be used as a cardioprotective agent to treat MI/R injury.",
+        "affiliation": "Division of Cardiothoracic Surgery, Department of Surgery, Emory University School of Medicine, Atlanta, Georgia 30308, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "5-R01-HL-093579-03",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "K12 GM000680",
+              "orderIn": 0
+            },
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "5-R01-HL-092141-03",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myocardium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria, Heart",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myocardial Reperfusion Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen Sulfide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitric Oxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ventricular Function, Left",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diallyl trisulfide",
+              "registryNumber": "0ZO1U5A3XX"
+            },
+            {
+              "name": "Nitric Oxide",
+              "registryNumber": "31C4KY9ESH"
+            },
+            {
+              "name": "Hydrogen Sulfide",
+              "registryNumber": "YY9FVM7NSN"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1152/ajpheart.00044.2012"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3378306"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1152/ajpheart.00044.2012"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 145,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-09-12",
+        "dateOfCreation": "2012-04-03",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2012-03-30",
+        "firstPublicationDate": "2012-03-30",
+        "firstIndexDate": "2012-04-03",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

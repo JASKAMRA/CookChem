@@ -1,0 +1,284 @@
+{
+  "compounds": 14,
+  "records": 73,
+  "drugs": 36,
+  "primary_reports": 53,
+  "types": {
+    "Human pharmacokinetic": 55,
+    "In vitro": 6,
+    "Animal": 10,
+    "Controlled clinical": 2
+  },
+  "numerical": 48,
+  "technical_validation": {
+    "version": "v4",
+    "status": "PASS_WITH_WARNINGS",
+    "checks_passed": 24,
+    "checks_total": 24,
+    "errors": [],
+    "remaining_warning_entries": 9,
+    "remaining_distinct_warning_codes": 8,
+    "warnings": [
+      {
+        "Warning_ID": "V3-W01",
+        "Code": "historical_selection_provenance",
+        "Description": "documented_v2_rationale_specific_primary_selection_trigger_unresolved",
+        "Affected": "Capsaicin | Genistein | Naringin | Resveratrol",
+        "Classification": "provenance gap",
+        "Before": "open in v3",
+        "Action": "Retained with explicit scope",
+        "After": "unresolved",
+        "Remaining_Limitations": "Historical facts cannot be recovered from unrelated interaction literature"
+      },
+      {
+        "Warning_ID": "V3-W02",
+        "Code": "historical_selection_provenance",
+        "Description": "original_selection_source_unresolved",
+        "Affected": "Berberine | Caffeine | Curcumin | EGCG | Piperine",
+        "Classification": "provenance gap",
+        "Before": "open in v3",
+        "Action": "Retained with explicit scope",
+        "After": "unresolved",
+        "Remaining_Limitations": "Historical facts cannot be recovered from unrelated interaction literature"
+      },
+      {
+        "Warning_ID": "V3-W03",
+        "Code": "DOI_not_supplied",
+        "Description": "Verified PMID remains primary reference",
+        "Affected": "18928093 | 22512082",
+        "Classification": "missing bibliographic identifier",
+        "Before": "open in v3",
+        "Action": "Exact MED lookups repeated; DOI still absent for both PMIDs",
+        "After": "unresolved",
+        "Remaining_Limitations": "See record-level and provenance audits"
+      },
+      {
+        "Warning_ID": "V3-W05",
+        "Code": "inherited_outcome_scope",
+        "Description": "64 baseline rows retained exactly; all metadata rechecked but full-text numerical outcomes not independently re-extracted in this release",
+        "Affected": "",
+        "Classification": "review scope limitation",
+        "Before": "open in v3",
+        "Action": "Two inherited endoxifen outcomes verified against full-text Table 2; other 62 baseline rows not independently re-extracted",
+        "After": "partially addressed",
+        "Remaining_Limitations": "See record-level and provenance audits"
+      },
+      {
+        "Warning_ID": "V3-W06",
+        "Code": "unresolved_preparation",
+        "Description": "Apigenin/rutin abstract cannot establish separate versus combined groups; no isolated-apigenin magnitude assigned",
+        "Affected": "SB-0066",
+        "Classification": "inaccessible full text and preparation ambiguity",
+        "Before": "open in v3",
+        "Action": "Primary publisher abstract/preview checked; full text subscription-only; provisional attribution retained",
+        "After": "unresolved",
+        "Remaining_Limitations": "See record-level and provenance audits"
+      },
+      {
+        "Warning_ID": "V3-W07",
+        "Code": "retention_link_unavailable",
+        "Description": "Standalone chemical evidence is eligible, but reliable compound-specific master linkage is not established",
+        "Affected": "Daidzein | Quercetin",
+        "Classification": "identity and analyte ambiguity",
+        "Before": "open in v3",
+        "Action": "Two primary processing methods reviewed; glycoside/hydrolysis restrictions documented, no retention coefficients imported",
+        "After": "partially addressed; master links unresolved",
+        "Remaining_Limitations": "See record-level and provenance audits"
+      },
+      {
+        "Warning_ID": "V3-W08",
+        "Code": "source_reporting_ambiguity",
+        "Description": "Daidzein abstract baseline day and CI wording inconsistent; disputed CIs omitted",
+        "Affected": "SB-0069",
+        "Classification": "source reporting issue",
+        "Before": "open in v3",
+        "Action": "Daidzein abstract reviewed; disputed CI wording and baseline day retained as limitation",
+        "After": "unresolved",
+        "Remaining_Limitations": "See record-level and provenance audits"
+      },
+      {
+        "Warning_ID": "V3-W09",
+        "Code": "bounded_review",
+        "Description": "First 100 results per broad query; unreviewed candidates explicitly retained; no exhaustive review or independent second-reviewer adjudication",
+        "Affected": "",
+        "Classification": "expected research scope uncertainty",
+        "Before": "open in v3",
+        "Action": "Targeted source resolution only; no repeated compound-discovery search or exhaustive-review claim",
+        "After": "unresolved",
+        "Remaining_Limitations": "See record-level and provenance audits"
+      },
+      {
+        "Warning_ID": "V4-W10",
+        "Code": "source_table_prose_discrepancy",
+        "Description": "Apigenin imatinib acute Cmax prose conflicts with Table 1",
+        "Affected": "SB-0067",
+        "Classification": "source reporting issue",
+        "Before": "not identified in v3 abstract review",
+        "Action": "Extracted AUC from Table 1; conflicting Cmax interpretation withheld",
+        "After": "unresolved source discrepancy",
+        "Remaining_Limitations": "No correction notice or author clarification obtained"
+      }
+    ],
+    "checks": [
+      {
+        "Check": "Evidence IDs unique",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Compound IDs unique",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Names and structure keys unique",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Exact schema preserved",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "All compound references valid",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Original 64 unchanged",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Every changed field documented",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "No records added or removed",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Duplicate contexts absent",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "ID and DOI syntax",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Classification and endpoint context",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Outcome units or ratio present",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "All cached primary metadata concordant",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Claim ledger matches actual outcomes",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Reviewed numerical values present in actual sources",
+        "Passed": true,
+        "Detail": "Numeric diagnostics plus manual endpoint review; not an automatic scientific proof"
+      },
+      {
+        "Check": "Quercetin nonsignificant interval interpretation preserved",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "New selection sources present",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Unknown original dates not invented",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Glycoside and mixed group links prohibited",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Registry and primary counts match",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Previously unavailable Crossref titles resolved",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "Recovered Crossref DOI identifiers concordant",
+        "Passed": true,
+        "Detail": ""
+      },
+      {
+        "Check": "All supplied and v3 file hashes preserved",
+        "Passed": true,
+        "Detail": "1325 files; changes=[]"
+      },
+      {
+        "Check": "Original v3 input manifest still valid",
+        "Passed": true,
+        "Detail": ""
+      }
+    ]
+  },
+  "mutation_tests": {
+    "tests": [
+      {
+        "Test": "v3 duplicate ID",
+        "Passed": true
+      },
+      {
+        "Test": "v3 broken reference",
+        "Passed": true
+      },
+      {
+        "Test": "v3 numerical mutation",
+        "Passed": true
+      },
+      {
+        "Test": "v3 bibliographic corruption",
+        "Passed": true
+      },
+      {
+        "Test": "v3 baseline alteration",
+        "Passed": true
+      },
+      {
+        "Test": "v3 missing selection",
+        "Passed": true
+      },
+      {
+        "Test": "v4 corrected claim tamper",
+        "Passed": true
+      },
+      {
+        "Test": "v4 significance overclaim",
+        "Passed": true
+      }
+    ],
+    "passed": 8,
+    "total": 8
+  },
+  "original_v2_preserved": true
+}

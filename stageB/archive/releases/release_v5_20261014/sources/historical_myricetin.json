@@ -1,0 +1,5240 @@
+{
+  "version": "6.9",
+  "hitCount": 16,
+  "request": {
+    "queryString": "TITLE:\"Myricetin\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:disposition) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32338633",
+        "source": "MED",
+        "pmid": "32338633",
+        "pmcid": "PMC8676504",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8676504"
+          ]
+        },
+        "doi": "10.1049/iet-nbt.2018.5431",
+        "title": "Method for enhancing bioavailability of myricetin based on self-assembly of casein-myricetin nanomicelles.",
+        "authorString": "Guo H, Chen YF, Tang Y, Qian JQ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo H",
+              "lastName": "Guo",
+              "firstName": "Hui",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8295-6345"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, Hangzhou 310014, People's Republic of China. tggh635@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen YF",
+              "lastName": "Chen",
+              "firstName": "Yun Fei",
+              "initials": "YF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, Hangzhou 310014, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang Y",
+              "lastName": "Tang",
+              "firstName": "Yi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, Hangzhou 310014, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qian JQ",
+              "lastName": "Qian",
+              "firstName": "Jun Qing",
+              "initials": "JQ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, Hangzhou 310014, People's Republic of China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8295-6345"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "14",
+          "journalIssueId": 2947241,
+          "dateOfPublication": "2020 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "IET Nanobiotechnol",
+            "title": "IET nanobiotechnology",
+            "essn": "1751-875X",
+            "issn": "1751-8741",
+            "isoabbreviation": "IET Nanobiotechnol",
+            "nlmid": "101303205"
+          },
+          "printPublicationDate": "2020-05-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "239-244",
+        "abstractText": "In order to expand the application in the medical field and enhance pharmacological effects, casein-myricetin nanomicelles were prepared by the self-assembly method and characterised by ultraviolet-visible spectroscopy and Fourier transform infrared spectroscopy. The parameters in self-assembly were optimised according to the factors of particle size, encapsulation yield, and drug loading. The result showed a pH of 5.5, a casein concentration of 2 mg/ml, a mass ratio of casein to myricetin of 8:1, ultrasonic power of 300 W, ultrasonic time of 5 min and ethanol volume of 7 ml were the optimal conditions. The situ cycle intestinal perfusion methods indicated that casein-myricetin nanomicelles can be more easily absorbed by small intestine than myricetin standard sample. Therefore, casein micelles are effective for improving the water solubility of myricetin.",
+        "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, Hangzhou 310014, People's Republic of China. tggh635@163.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caseins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Carriers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Micelles"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caseins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Micelles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1049/iet-nbt.2018.5431"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8676504"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8676504?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1049/iet-nbt.2018.5431"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-01-08",
+        "dateOfCreation": "2020-04-28",
+        "dateOfRevision": "2022-02-04",
+        "firstPublicationDate": "2020-05-01",
+        "firstIndexDate": "2020-04-28",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32545373",
+        "source": "MED",
+        "pmid": "32545373",
+        "pmcid": "PMC7353558",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7353558"
+          ]
+        },
+        "doi": "10.3390/foods9060777",
+        "title": "Interaction between Myricetin Aggregates and Lipase under Simplified Intestinal Conditions.",
+        "authorString": "Bustos AS, Håkansson A, Linares-Pastén JA, Nilsson L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bustos AS",
+              "lastName": "Bustos",
+              "firstName": "Atma-Sol",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food Technology, Faculty of Engineering LTH, Lund University, PO Box 124, S-221 00 Lund, Sweden."
+                  },
+                  {
+                    "affiliation": "School of Chemistry, Faculty of Pure and Natural Sciences, Universidad Mayor de San Andrés, PO Box 303 La Paz, Bolivia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Håkansson A",
+              "lastName": "Håkansson",
+              "firstName": "Andreas",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0002-661X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food Technology, Faculty of Engineering LTH, Lund University, PO Box 124, S-221 00 Lund, Sweden."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Linares-Pastén JA",
+              "lastName": "Linares-Pastén",
+              "firstName": "Javier A",
+              "initials": "JA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biotechnology, Faculty of Engineering LTH, Lund University, PO Box 117, S-221 00 Lund, Sweden."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nilsson L",
+              "lastName": "Nilsson",
+              "firstName": "Lars",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6769-2641"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food Technology, Faculty of Engineering LTH, Lund University, PO Box 124, S-221 00 Lund, Sweden."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0002-661X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6769-2641"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7691-8622"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "9",
+          "journalIssueId": 2963075,
+          "dateOfPublication": "2020 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Foods",
+            "title": "Foods (Basel, Switzerland)",
+            "essn": "2304-8158",
+            "issn": "2304-8158",
+            "isoabbreviation": "Foods",
+            "nlmid": "101670569"
+          },
+          "printPublicationDate": "2020-06-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "E777",
+        "abstractText": "Myricetin, a flavonoid found in the plant kingdom, has previously been identified as a food molecule with beneficial effects against obesity. This property has been related with its potential to inhibit lipase, the enzyme responsible for fat digestion. In this study, we investigate the interaction between myricetin and lipase under simplified intestinal conditions from a colloidal point of view. The results show that myricetin form aggregates in aqueous medium and under simplified intestinal condition, where it was found that lipase is in its monomeric form. Although lipase inhibition by myricetin at a molecular level has been reported previously, the results of this study suggest that myricetin aggregates inhibit lipase by a sequestering mechanism as well. The size of these aggregates was determined to be in the range of a few nm to >200 nm.",
+        "affiliation": "Food Technology, Faculty of Engineering LTH, Lund University, PO Box 124, S-221 00 Lund, Sweden.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Styrelsen för Internationellt Utvecklingssamarbete",
+              "grantId": "75000553-02",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Lipase Inhibition",
+            "Intestinal Conditions",
+            "Myricetin Aggregates",
+            "Sequestering Mechanism"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/2304-8158/9/6/777/pdf?version=1592551659"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/foods9060777"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7353558"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7353558?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "PPR",
+              "id": "PPR99579",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2020-06-18",
+        "dateOfRevision": "2020-09-28",
+        "electronicPublicationDate": "2020-06-11",
+        "firstPublicationDate": "2020-06-11",
+        "firstIndexDate": "2020-06-17",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32827907",
+        "source": "MED",
+        "pmid": "32827907",
+        "doi": "10.1016/j.saa.2020.118731",
+        "title": "Assessment of binding interaction dihydromyricetin and myricetin with bovine lactoferrin and effects on antioxidant activity.",
+        "authorString": "Huang J, He Z, Cheng R, Cheng Z, Wang S, Wu X, Niu B, Shen GX, Liao X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Huang J",
+              "lastName": "Huang",
+              "firstName": "Junyi",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He Z",
+              "lastName": "He",
+              "firstName": "Ziyu",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng R",
+              "lastName": "Cheng",
+              "firstName": "Runqing",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng Z",
+              "lastName": "Cheng",
+              "firstName": "Zhuo",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Shanshan",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu X",
+              "lastName": "Wu",
+              "firstName": "Xianyong",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Niu B",
+              "lastName": "Niu",
+              "firstName": "Bing",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shen GX",
+              "lastName": "Shen",
+              "firstName": "Garry X",
+              "initials": "GX",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departments of Internal Medicine and Food and Human Nutritional Sciences, University of Manitoba, Canada. Electronic address: garry.shen@umanitoba.ca."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liao X",
+              "lastName": "Liao",
+              "firstName": "Xianyan",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China. Electronic address: xyliao@shu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "243",
+          "journalIssueId": 3033396,
+          "dateOfPublication": "2020 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Spectrochim Acta A Mol Biomol Spectrosc",
+            "title": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+            "essn": "1873-3557",
+            "issn": "1386-1425",
+            "isoabbreviation": "Spectrochim Acta A Mol Biomol Spectrosc",
+            "nlmid": "9602533"
+          },
+          "printPublicationDate": "2020-12-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "118731",
+        "abstractText": "The binding interactions of bovine lactoferrin (BLF) with two flavonoids dihydromyricetin (DMY) and myricetin (MY) were investigated by the multi-spectroscopic, microscale thermophoresis (MST) techniques, molecular docking, and then their antioxidant activities were studied by detection of free radical scavenging activity against DPPH. Results of UV-vis and fluorescence spectroscopies showed that DMY/MY and BLF formed the ground state complex through the static quenching mechanism. Moreover, MY with more planar stereochemical structure had higher affinity for BLF than DMY with twisted stereochemical structure, according to the binding constant (K<sub>b</sub>), free energy change (ΔG°), dissociation constant (K<sub>d</sub>) and donor-acceptor distance (r). Thermodynamic parameters revealed that hydrogen bond and van der Waals force were major forces in the formation of BLF-DMY complex, while hydrophobic interactions played major roles in the formation of BLF-DMY complex. The circular dichroism (CD) study indicated that MY induced more conformational change in BLF than DMY. Furthermore, molecular modeling provided insights into the difference of binding interactions between BLF and two flavonoids. Finally, the radical scavenging activity assays indicated the presence of BLF delayed the decrease in antioxidant capacities of two flavonoids. These results were helpful to understand the binding mechanism and biological effects of non-covalent BLF-flavonoid interaction.",
+        "affiliation": "Laboratory of Food Nutrition and Chronic Disease Intervention, School of Life Sciences, Shanghai University, Shanghai 200444, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31870275",
+              "orderIn": 0
+            },
+            {
+              "agency": "Open Project Program of State Key Laboratory of Dairy Biotechnology",
+              "grantId": "SKLDB2016-004",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shanghai University",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serum Albumin, Bovine"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Lactoferrin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antioxidants"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Circular Dichroism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Binding Sites"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Binding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermodynamics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Antioxidant activity",
+            "Dihydromyricetin",
+            "Myricetin",
+            "Bovine lactoferrin",
+            "Binding Interaction"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lactoferrin",
+              "registryNumber": "EC 3.4.21.-"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "Serum Albumin, Bovine",
+              "registryNumber": "27432CM55Q"
+            },
+            {
+              "name": "dihydromyricetin",
+              "registryNumber": "KD8QND6427"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.saa.2020.118731"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 35,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-05-14",
+        "dateOfCreation": "2020-08-23",
+        "dateOfRevision": "2021-05-14",
+        "electronicPublicationDate": "2020-07-28",
+        "firstPublicationDate": "2020-07-28",
+        "firstIndexDate": "2020-08-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR99579",
+        "source": "PPR",
+        "doi": "10.1101/816454",
+        "title": "Interaction between myricetin aggregates and lipase under simplified intestinal conditions",
+        "authorString": "Bustos A, Håkansson A, Linares-Pastén JA, Nilsson L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bustos A",
+              "lastName": "Bustos",
+              "firstName": "Atma-Sol",
+              "initials": "A"
+            },
+            {
+              "fullName": "Håkansson A",
+              "lastName": "Håkansson",
+              "firstName": "Andreas",
+              "initials": "A"
+            },
+            {
+              "fullName": "Linares-Pastén JA",
+              "lastName": "Linares-Pastén",
+              "firstName": "Javier",
+              "initials": "JA"
+            },
+            {
+              "fullName": "Nilsson L",
+              "lastName": "Nilsson",
+              "firstName": "Lars",
+              "initials": "L"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6999-6334"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0002-661X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7691-8622"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "pubYear": "2019",
+        "abstractText": "Myricetin, a flavonoid found in the plant kingdom, has previously been identified as a food molecule with beneficial effects against obesity. This property has been related with its potential to inhibit lipase, the enzyme responsible of fat digestion. In this study we investigate the interaction between myricetin and lipase under simplified intestinal conditions from a colloidal point of view. The results show that myricetin form aggregates in aqueous medium and under simplified intestinal condition, where it was found that lipase is in its monomeric form. Although lipase inhibition by myricetin at a molecular level has been reported previously, the results of this study suggest that myricetin aggregates inhibit lipase by a sequestering mechanism as well. The size of these aggregates was determined to be in the range of a few nm to >200 nm.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2019
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.biorxiv.org/content/biorxiv/early/2019/10/23/816454.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/816454"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "32545373",
+              "reference": "Foods (Basel, Switzerland). 2020 Jun;9(6):E777",
+              "type": "Preprint of",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10001
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2019-10-25",
+        "firstPublicationDate": "2019-10-23",
+        "firstIndexDate": "2019-10-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30590119",
+        "source": "MED",
+        "pmid": "30590119",
+        "doi": "10.1016/j.ejps.2018.12.016",
+        "title": "Further enhanced dissolution and oral bioavailability of docetaxel by coamorphization with a natural P-gp inhibitor myricetin.",
+        "authorString": "Wei Y, Zhou S, Hao T, Zhang J, Gao Y, Qian S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wei Y",
+              "lastName": "Wei",
+              "firstName": "Yuanfeng",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou S",
+              "lastName": "Zhou",
+              "firstName": "Shengyan",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hao T",
+              "lastName": "Hao",
+              "firstName": "Tianyun",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Jianjun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao Y",
+              "lastName": "Gao",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China. Electronic address: newgaoyuan@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qian S",
+              "lastName": "Qian",
+              "firstName": "Shuai",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1961-4128"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China. Electronic address: silence_qs@163.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1961-4128"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "129",
+          "journalIssueId": 2774641,
+          "dateOfPublication": "2019 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Eur J Pharm Sci",
+            "title": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "essn": "1879-0720",
+            "issn": "0928-0987",
+            "isoabbreviation": "Eur J Pharm Sci",
+            "nlmid": "9317982"
+          },
+          "printPublicationDate": "2019-03-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "21-30",
+        "abstractText": "The current study aims to improve the dissolution and oral bioavailability of a BCS IV drug docetaxel (DOC) by coamorphization with a natural P-gp inhibitor myricetin (MYR). A single-phase coamorphous form of DOC with MYR in a 1:1 molar ratio was prepared by solvent-evaporation method and characterized by differential scanning calorimetry, thermogravimetric analysis and powder X-ray diffraction. In comparison to crystalline DOC, amorphous DOC showed similar equilibrium aqueous solubility, temporary improvement in the intrinsic dissolution rate (IDR) and supersaturated dissolution; while coamorphous DOC-MYR exhibited a persistent enhanced IDR and prolonged highly supersaturated dissolution. In addition, coamorphous DOC-MYR demonstrated significantly superior physical stability compared to amorphous DOC under the long-term storage condition and accelerated condition. Compared with oral administration of crystalline DOC to rats, amorphous DOC showed a significant increase in C<sub>max</sub> (2.6-fold) and a marginal increase in AUC (1.3-fold) of DOC; but coamorphous DOC-MYR performed a 3.9-fold higher C<sub>max</sub> and 3.1-fold higher AUC. In conclusion, coamorphization of DOC with MYR was a promising approach to enhance both dissolution and oral absorption of poorly soluble and permeable DOC.",
+        "affiliation": "School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Jiangsu Province",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province",
+              "grantId": "BK20151438",
+              "orderIn": 0
+            },
+            {
+              "agency": "Jiangsu Higher Education Institutions",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province",
+              "grantId": "BK20150703",
+              "orderIn": 0
+            },
+            {
+              "agency": "“Double First-Class” University Project",
+              "grantId": "CPU2018GY27",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81873012",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81703712",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81773675",
+              "orderIn": 0
+            },
+            {
+              "agency": "“Double First-Class” University Project",
+              "grantId": "CPU2018GY11",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solvents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calorimetry, Differential Scanning",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "X-Ray Diffraction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry, Pharmaceutical",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Docetaxel",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Dissolution",
+            "Myricetin",
+            "Docetaxel",
+            "Oral Bioavailability",
+            "Coamorphous"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Solvents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "docetaxel",
+              "registryNumber": "15H5577CQD"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily B",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ejps.2018.12.016"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 31,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-05-09",
+        "dateOfCreation": "2018-12-28",
+        "dateOfRevision": "2019-05-09",
+        "electronicPublicationDate": "2018-12-24",
+        "firstPublicationDate": "2018-12-24",
+        "firstIndexDate": "2019-01-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28185989",
+        "source": "MED",
+        "pmid": "28185989",
+        "doi": "10.1016/j.ejps.2017.02.009",
+        "title": "Enhanced oral bioavailability of docetaxel in rats combined with myricetin: In situ and in vivo evidences.",
+        "authorString": "Hao T, Ling Y, Wu M, Shen Y, Gao Y, Liang S, Gao Y, Qian S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hao T",
+              "lastName": "Hao",
+              "firstName": "Tianyun",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ling Y",
+              "lastName": "Ling",
+              "firstName": "Yunni",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu M",
+              "lastName": "Wu",
+              "firstName": "Meijuan",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shen Y",
+              "lastName": "Shen",
+              "firstName": "Yajing",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao Y",
+              "lastName": "Gao",
+              "firstName": "Yu",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liang S",
+              "lastName": "Liang",
+              "firstName": "Shujun",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, China Pharmaceutical University, Nanjing 210009, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao Y",
+              "lastName": "Gao",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China. Electronic address: newgaoyuan@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qian S",
+              "lastName": "Qian",
+              "firstName": "Shuai",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1961-4128"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China. Electronic address: silence_qs@163.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1961-4128"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "101",
+          "journalIssueId": 2535551,
+          "dateOfPublication": "2017 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Eur J Pharm Sci",
+            "title": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "essn": "1879-0720",
+            "issn": "0928-0987",
+            "isoabbreviation": "Eur J Pharm Sci",
+            "nlmid": "9317982"
+          },
+          "printPublicationDate": "2017-04-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "71-79",
+        "abstractText": "The purpose of this study was to investigate the effect of myricetin on the pharmacokinetics of docetaxel in rats. In comparison to oral docetaxel alone (40mg/kg), the bioavailability of docetaxel could be significantly enhanced by 1.6-2.4-fold via oral co-administration with various flavonoids (apigenin, naringenin, baicalein, quercetin and myricetin) at a dosage of 10mg/kg, and myricetin showed the highest bioavailability improvement. Further pharmacokinetic studies demonstrated that the presence of myricetin (5-20mg/kg) enhanced both C<sub>max</sub> and AUC of docetaxel with the highest C<sub>max</sub> (162ng/mL, 2.3-fold) and relative bioavailability (244%) achieved at 10mg/kg of myricetin, while t<sub>1/2</sub> was not influenced. In order to explore the reasons for such bioavailability enhancement of docetaxel, rat in situ single-pass intestinal perfusion model and intravenous docetaxel co-administrated with oral myricetin were carried out. After combining with myricetin, the permeability coefficient (P<sub>blood</sub>) of docetaxel based on its appearance in mesenteric blood was significantly increased up to 3.5-fold in comparison to that of docetaxel alone. Different from oral docetaxel, the intravenous pharmacokinetics of docetaxel was not affected by co-administration of myricetin, indicating the limited effect of myricetin on the elimination of docetaxel. The above findings suggested that the oral bioavailability enhancement of docetaxel via co-administration with myricetin might be mainly attributed to the enhanced absorption in gastrointestinal tract rather than modulating the elimination of docetaxel.",
+        "affiliation": "School of Traditional Chinese Medicine, China Pharmaceutical University, Nanjing 210009, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Fund of China",
+              "grantId": "81202988",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province",
+              "grantId": "BK20130659",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province",
+              "grantId": "BK20141351",
+              "orderIn": 0
+            },
+            {
+              "agency": "Jiangsu Province Double Innovation Talent Program",
+              "grantId": "2015",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province",
+              "grantId": "BK20151438",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province",
+              "grantId": "BK20150703",
+              "orderIn": 0
+            },
+            {
+              "agency": "Qing Lan Project of Jiangsu Province",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundamental Research Funds for the Central Universities",
+              "grantId": "ZJ16088",
+              "orderIn": 0
+            },
+            {
+              "agency": "Priority Academic Program Development of Jiangsu Higher Education Institutions",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Taxoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Injections, Intravenous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Permeability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Docetaxel"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Permeability",
+            "Bioavailability",
+            "Myricetin",
+            "Docetaxel"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Taxoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "docetaxel",
+              "registryNumber": "15H5577CQD"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ejps.2017.02.009"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-06-21",
+        "dateOfCreation": "2017-02-11",
+        "dateOfRevision": "2018-12-02",
+        "electronicPublicationDate": "2017-02-07",
+        "firstPublicationDate": "2017-02-07",
+        "firstIndexDate": "2017-02-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27455843",
+        "source": "MED",
+        "pmid": "27455843",
+        "doi": "10.1021/acs.jafc.6b02184",
+        "title": "Preparation and Characterization of Microemulsions of Myricetin for Improving Its Antiproliferative and Antioxidative Activities and Oral Bioavailability.",
+        "authorString": "Guo RX, Fu X, Chen J, Zhou L, Chen G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo RX",
+              "lastName": "Guo",
+              "firstName": "Rui Xue",
+              "initials": "RX",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Food Science and Engineering, South China University of Technology , Guangzhou 510640, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fu X",
+              "lastName": "Fu",
+              "firstName": "Xiong",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Food Science and Engineering, South China University of Technology , Guangzhou 510640, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen J",
+              "lastName": "Chen",
+              "firstName": "Jian",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Food Science and Engineering, South China University of Technology , Guangzhou 510640, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou L",
+              "lastName": "Zhou",
+              "firstName": "Lin",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4318-5132"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Food Science and Engineering, South China University of Technology , Guangzhou 510640, China."
+                  },
+                  {
+                    "affiliation": "School of Biosciences and Biopharmaceutics, Guangdong Pharmaceutical University , Guangzhou 510006, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen G",
+              "lastName": "Chen",
+              "firstName": "Gu",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Food Science and Engineering, South China University of Technology , Guangzhou 510640, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2221-8006"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4318-5132"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "32",
+          "volume": "64",
+          "journalIssueId": 2442045,
+          "dateOfPublication": "2016 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2016-08-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "6286-6294",
+        "abstractText": "To improve the bioactivity and oral bioavailability of myricetin, a microemulsion formulation was successfully developed, which consisted of Cremophor RH40 (12%), Tween 80 (6%), Transcutol HP (9%), WL 1349 (18%), and distilled water (55%). With lower content of surfactants and higher stability after dilution and storage for 6 months, the optimized myricetin microemulsion (MYR-ME) could dramatically enhance the solubility of myricetin 1225 times that in water. MYR-ME significantly increased antiproliferative activity against human cancer cell HepG2 without influence on normal cell LO2. It also notably improved the cellular antioxidative activity of myricetin. Furthermore, the oral bioavailability of myricetin was remarkably enhanced by MYR-ME in Sprague-Dawley rats after oral administration, which was 14.43-fold that with myricetin suspension. Therefore, the MYR-ME developed here could be used as a potential carrier for myricetin with substantially enhanced bioactivities and bioavailability and might promote myricetin's future utilization in functional foods and cosmetics.",
+        "affiliation": "School of Food Science and Engineering, South China University of Technology , Guangzhou 510640, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Evaluation Study",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Guangdong Science and Technology Program",
+              "grantId": "2015A020209029",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polysorbates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Growth Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Emulsions",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Carriers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry, Pharmaceutical",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Microemulsion",
+            "Antiproliferation",
+            "Myricetin",
+            "Oral Bioavailability",
+            "Cellular Antioxidative Activity"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Growth Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Emulsions",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Polysorbates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.jafc.6b02184"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-04-06",
+        "dateOfCreation": "2016-07-27",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2016-08-04",
+        "firstPublicationDate": "2016-08-04",
+        "firstIndexDate": "2016-07-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30298725",
+        "source": "MED",
+        "pmid": "30298725",
+        "doi": "10.1021/acs.biochem.8b00892",
+        "title": "Identification of Myricetin as an Ebola Virus VP35-Double-Stranded RNA Interaction Inhibitor through a Novel Fluorescence-Based Assay.",
+        "authorString": "Daino GL, Frau A, Sanna C, Rigano D, Distinto S, Madau V, Esposito F, Fanunza E, Bianco G, Taglialatela-Scafati O, Zinzula L, Maccioni E, Corona A, Tramontano E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Daino GL",
+              "lastName": "Daino",
+              "firstName": "Gian Luca",
+              "initials": "GL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Frau A",
+              "lastName": "Frau",
+              "firstName": "Aldo",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sanna C",
+              "lastName": "Sanna",
+              "firstName": "Cinzia",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rigano D",
+              "lastName": "Rigano",
+              "firstName": "Daniela",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, School of Medicine and Surgery , University of Naples Federico II , Naples 80131 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Distinto S",
+              "lastName": "Distinto",
+              "firstName": "Simona",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1620-6225"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Madau V",
+              "lastName": "Madau",
+              "firstName": "Veronica",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Esposito F",
+              "lastName": "Esposito",
+              "firstName": "Francesca",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fanunza E",
+              "lastName": "Fanunza",
+              "firstName": "Elisa",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2044-8473"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bianco G",
+              "lastName": "Bianco",
+              "firstName": "Giulia",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Taglialatela-Scafati O",
+              "lastName": "Taglialatela-Scafati",
+              "firstName": "Orazio",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8010-0180"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, School of Medicine and Surgery , University of Naples Federico II , Naples 80131 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zinzula L",
+              "lastName": "Zinzula",
+              "firstName": "Luca",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6489-7070"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Max-Planck Institute of Biochemistry , Department of Molecular Structural Biology , Martinsried 82152 , Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maccioni E",
+              "lastName": "Maccioni",
+              "firstName": "Elias",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2175-2802"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Corona A",
+              "lastName": "Corona",
+              "firstName": "Angela",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6630-8636"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tramontano E",
+              "lastName": "Tramontano",
+              "firstName": "Enzo",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4849-0980"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy."
+                  },
+                  {
+                    "affiliation": "Istituto di Ricerca Genetica e Biomedica , Consiglio Nazionale delle Ricerche (CNR) , Monserrato 09042 , Italy."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6489-7070"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8010-0180"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2044-8473"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4849-0980"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6630-8636"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1620-6225"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2175-2802"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "44",
+          "volume": "57",
+          "journalIssueId": 2746101,
+          "dateOfPublication": "2018 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Biochemistry",
+            "title": "Biochemistry",
+            "essn": "1520-4995",
+            "issn": "0006-2960",
+            "isoabbreviation": "Biochemistry",
+            "nlmid": "0370623"
+          },
+          "printPublicationDate": "2018-11-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "6367-6378",
+        "abstractText": "Ebola virus (EBOV) is a filovirus that causes a severe and rapidly progressing hemorrhagic syndrome; a recent epidemic illustrated the urgent need for novel therapeutic agents because no drugs have been approved for treatment of Ebola virus. A key contribution to the high lethality observed during EBOV outbreaks comes from viral evasion of the host antiviral innate immune response in which viral protein VP35 plays a crucial role, blocking interferon type I production, first by masking the viral double-stranded RNA (dsRNA) and preventing its detection by the pattern recognition receptor RIG-I. Aiming to identify inhibitors of the interaction of VP35 with the viral dsRNA, counteracting the VP35 viral innate immune evasion, we established a new methodology for high-yield recombinant VP35 (rVP35) expression and purification and a novel and robust fluorescence-based rVP35-RNA interaction assay ( Z' factor of 0.69). Taking advantage of such newly established methods, we screened a small library of Sardinian natural extracts, identifying Limonium morisianum as the most potent inhibitor extract. A bioguided fractionation led to the identification of myricetin as the component that can inhibit rVP35-dsRNA interaction with an IC<sub>50</sub> value of 2.7 μM. Molecular docking studies showed that myricetin interacts with the highly conserved region of the VP35 RNA binding domain, laying the basis for further structural optimization of potent inhibitors of VP35-dsRNA interaction.",
+        "affiliation": "Department of Life and Environmental Sciences , University of Cagliari , Cagliari 09042 , Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Regione Autonoma della Sardegna",
+              "grantId": "CRP-78711/F72I15000900002",
+              "orderIn": 0
+            },
+            {
+              "agency": "Regione Autonoma della Sardegna",
+              "grantId": "CRP2_682",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plumbaginaceae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemorrhagic Fever, Ebola",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "VI",
+                    "qualifierName": "virology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Double-Stranded",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Viral",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Conformation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ebolavirus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Viral Regulatory and Accessory Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "RNA, Viral",
+              "registryNumber": "0"
+            },
+            {
+              "name": "RNA, Double-Stranded",
+              "registryNumber": "0"
+            },
+            {
+              "name": "VP35 protein, filovirus",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Viral Regulatory and Accessory Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.biochem.8b00892"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 32,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-07-16",
+        "dateOfCreation": "2018-10-10",
+        "dateOfRevision": "2019-07-16",
+        "electronicPublicationDate": "2018-10-22",
+        "firstPublicationDate": "2018-10-22",
+        "firstIndexDate": "2018-10-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30045021",
+        "source": "MED",
+        "pmid": "30045021",
+        "doi": "10.1159/000492009",
+        "title": "The Natural Compound Myricetin Effectively Represses the Malignant Progression of Prostate Cancer by Inhibiting PIM1 and Disrupting the PIM1/CXCR4 Interaction.",
+        "authorString": "Ye C, Zhang C, Huang H, Yang B, Xiao G, Kong D, Tian Q, Song Q, Song Y, Tan H, Wang Y, Zhou T, Zi X, Sun Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ye C",
+              "lastName": "Ye",
+              "firstName": "Chen",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang C",
+              "lastName": "Zhang",
+              "firstName": "Chao",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang H",
+              "lastName": "Huang",
+              "firstName": "Hai",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changzheng Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang B",
+              "lastName": "Yang",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xiao G",
+              "lastName": "Xiao",
+              "firstName": "Guangan",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kong D",
+              "lastName": "Kong",
+              "firstName": "Depei",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tian Q",
+              "lastName": "Tian",
+              "firstName": "Qinqin",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song Q",
+              "lastName": "Song",
+              "firstName": "Qixiang",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song Y",
+              "lastName": "Song",
+              "firstName": "Yunjie",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tan H",
+              "lastName": "Tan",
+              "firstName": "Haisong",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changzheng Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Shanghai Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou T",
+              "lastName": "Zhou",
+              "firstName": "Tie",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zi X",
+              "lastName": "Zi",
+              "firstName": "Xiaoyuan",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun Y",
+              "lastName": "Sun",
+              "firstName": "Yinghao",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "48",
+          "journalIssueId": 2719164,
+          "dateOfPublication": "2018 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Cell Physiol Biochem",
+            "title": "Cellular physiology and biochemistry : international journal of experimental cellular physiology, biochemistry, and pharmacology",
+            "essn": "1421-9778",
+            "issn": "1015-8987",
+            "isoabbreviation": "Cell Physiol Biochem",
+            "nlmid": "9113221"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "1230-1244",
+        "abstractText": "<h4>Background/aims</h4>Natural compounds are a promising resource for anti-tumor drugs. Myricetin, an abundant flavonoid found in the bark and leaves of bayberry, shows multiple promising anti-tumor functions in various cancers.<h4>Methods</h4>The cytotoxic, pro-apoptotic, and anti-metastatic effects of myricetin on prostate cancer cells were investigated in both in vitro and in vivo studies. Short-hairpin RNA knockdown of the proviral integration site for Moloney murine leukemia virus-1 (PIM1), pull-down and co-immunoprecipitation assays, and an intracellular Ca2+ flux assay were used to investigate the potential underlying mechanism of myricetin. ONCOMINE database data mining and immunohistochemical analysis of prostate cancer tissues were used to evaluate the expression of PIM1 and CXCR4, as well as the correlation between PIM1 and CXCR4 expression and the clinicopathologic characteristics and prognoses of prostate cancer patients.<h4>Results</h4>Myricetin exerted selective cytotoxic, pro-apoptotic, and anti-metastatic effects on prostate cancer cells by inhibiting PIM1 and disrupting the PIM1/CXCR4 interaction. Moreover, PIM1 and CXCR4 were coexpressed and associated with aggressive clinicopathologic traits and poor prognosis in prostate cancer patients.<h4>Conclusion</h4>These results offer preclinical evidence for myricetin as a potential chemopreventive and therapeutic agent for precision medicine tailored to prostate cancer patients characterized by concomitant elevated expression of PIM1 and CXCR4.",
+        "affiliation": "Department of Urology, Changhai Hospital, Second Military Medical University, Shanghai, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Nude"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prostatic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasm Invasiveness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, CXCR4",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Kinase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-pim-1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Interaction Maps",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Myricetin",
+            "prostate cancer",
+            "Small Molecular Inhibitor",
+            "Cxcl12-cxcr4 Axis",
+            "Pim1"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protein Kinase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, CXCR4",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-pim-1",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.karger.com/Article/Pdf/492009"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.karger.com/Article/Pdf/492009"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.karger.com/Article/Pdf/492009"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.karger.com/Article/Pdf/492009"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1159/000492009"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 73,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-09-14",
+        "dateOfCreation": "2018-07-26",
+        "dateOfRevision": "2019-02-12",
+        "electronicPublicationDate": "2018-07-25",
+        "firstPublicationDate": "2018-07-25",
+        "firstIndexDate": "2018-07-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22132944",
+        "source": "MED",
+        "pmid": "22132944",
+        "doi": "10.3109/13880209.2011.611141",
+        "title": "Effects of myricetin on the bioavailability of carvedilol in rats.",
+        "authorString": "Lee W, Woo ER, Choi JS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lee W",
+              "lastName": "Lee",
+              "firstName": "W",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Chosun University, Gwangju, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Woo ER",
+              "lastName": "Woo",
+              "firstName": "E R",
+              "initials": "ER"
+            },
+            {
+              "fullName": "Choi JS",
+              "lastName": "Choi",
+              "firstName": "J S",
+              "initials": "JS"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "50",
+          "journalIssueId": 1913900,
+          "dateOfPublication": "2012 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Pharm Biol",
+            "title": "Pharmaceutical biology",
+            "essn": "1744-5116",
+            "issn": "1388-0209",
+            "isoabbreviation": "Pharm Biol",
+            "nlmid": "9812552"
+          },
+          "printPublicationDate": "2012-04-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "516-522",
+        "abstractText": "<h4>Context</h4>As an inhibitor of CYP2C9, CYP2D6 and P-gp, myricetin might affect the bioavailability of carvedilol when myricetin and carvedilol are used concomitantly for the prevention or therapy of cardiovascular diseases as a combination therapy. However, the effect of myricetin on the pharmacokinetics of carvedilol has not been reported in vivo.<h4>Objective</h4>This study investigated the effects of myricetin on the pharmacokinetics of carvedilol after oral or intravenous administration of carvedilol in rats.<h4>Materials and methods</h4>Carvedilol was administered orally or intravenously with or without oral administration of myricetin to rats.<h4>Results</h4>The effects of myricetin on P-gp, CYP2C9 and 2D6 activity were evaluated. Myricetin inhibited CYP2C9 and CYP2D6 enzyme activity with IC50 of 13 and 57 μM, respectively. In addition, myricetin significantly enhanced the cellular accumulation of rhodamine-123 in MCF-7/ADR cells overexpressing P-gp. Compared with the control group, the AUC was significantly increased by 52.0-85.1%, and the C(max) was significantly increased by 93.1-133.4% in the presence of myricetin after oral administration of carvedilol. Consequently, the relative bioavailability of carvedilol was increased by 1.17- to 1.85-fold and the absolute bioavailability of carvedilol in the presence of myricetin was increased by 18.1-86.4%. T(max) was significantly decreased.<h4>Discussion and conclusion</h4>The enhanced oral bioavailability of carvedilol may result from both inhibition of CYP2C9 or CYP2D6-mediated metabolism and P-gp-mediated efflux of carvedilol in small intestine and/or in liver by myricetin rather than reducing renal elimination. Concomitant use of myricetin or myricetin-containing dietary supplements with carvedilol will require close monitoring for potential drug interactions.",
+        "affiliation": "College of Pharmacy, Chosun University, Gwangju, Republic of Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestine, Small",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Propanolamines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhodamine 123",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aryl Hydrocarbon Hydroxylases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2D6",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antihypertensive Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fluorescent Dyes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Injections, Intravenous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2C9"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2D6 Inhibitors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carvedilol"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antihypertensive Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Propanolamines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fluorescent Dyes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Aryl Hydrocarbon Hydroxylases",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Carbazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2D6",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "carvedilol",
+              "registryNumber": "0K47UL67F2"
+            },
+            {
+              "name": "Rhodamine 123",
+              "registryNumber": "1N3CZ14C5O"
+            },
+            {
+              "name": "CYP2C9 protein, human",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2C9",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2D6 Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3109/13880209.2011.611141"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-07-10",
+        "dateOfCreation": "2011-12-03",
+        "dateOfRevision": "2018-12-01",
+        "electronicPublicationDate": "2011-12-01",
+        "firstPublicationDate": "2011-12-01",
+        "firstIndexDate": "2011-12-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21380815",
+        "source": "MED",
+        "pmid": "21380815",
+        "doi": "10.1007/s12272-011-0217-x",
+        "title": "Effects of myricetin on the bioavailability of doxorubicin for oral drug delivery in rats: possible role of CYP3A4 and P-glycoprotein inhibition by myricetin.",
+        "authorString": "Choi SJ, Shin SC, Choi JS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Choi SJ",
+              "lastName": "Choi",
+              "firstName": "Sang-Joon",
+              "initials": "SJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Medicine, Chosun University, Gwangju, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shin SC",
+              "lastName": "Shin",
+              "firstName": "Sang-Chul",
+              "initials": "SC"
+            },
+            {
+              "fullName": "Choi JS",
+              "lastName": "Choi",
+              "firstName": "Jun-Shik",
+              "initials": "JS"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "34",
+          "journalIssueId": 1813663,
+          "dateOfPublication": "2011 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Arch Pharm Res",
+            "title": "Archives of pharmacal research",
+            "essn": "1976-3786",
+            "issn": "0253-6269",
+            "isoabbreviation": "Arch Pharm Res",
+            "nlmid": "8000036"
+          },
+          "printPublicationDate": "2011-02-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "309-315",
+        "abstractText": "The purpose of this study was to investigate the effect of oral myricetin on the bioavailability and pharmacokinetics of orally and intravenously administered doxorubicin (DOX) in rats for oral delivery. The effect of myricetin on the P-glycoprotein (P-gp) and CYP3A4 activity was also evaluated. Myricetin inhibited CYP3A4 enzyme activity with 50% inhibition concentration of 7.8 μM. In addition, myricetin significantly enhanced the cellular accumulation of rhodamine 123 in MCF-7/ADR cells overexpressing P-gp. The pharmacokinetic parameters of DOX were determined in rats after oral (40 mg/kg) or intravenous (10 mg/kg) administration of DOX to rats in the presence and absence of myricetin (0.4, 2 or 10 mg/kg). Compared to the control group, myricetin significantly (p < 0.05, 2 mg/kg; p < 0.01, 10 mg/kg) increased the area under the plasma concentration-time curve (AUC, 51-117% greater) of oral DOX. Myricetin also significantly (p < 0.05, 2 mg/kg; p < 0.01, 10 mg/kg) increased the peak plasma concentration of DOX. Consequently, the absolute bioavailability of DOX was increased by myricetin compared to that in the control group, and the relative bioavailability of oral DOX was increased by 1.51- to 2.17-fold. The intravenous pharmacokinetics of DOX were not affected by the concurrent use of myricetin in contrast to the oral administration of DOX. Accordingly, the enhanced oral bioavailability in the presence of myricetin, while there was no significant change in the intravenous pharmacokinetics of DOX, could be mainly due to the increased intestinal absorption via P-gp inhibition by myricetin rather than to the reduced elimination of DOX. These results suggest that the increase in the oral bioavailability of DOX might be mainly attributed to enhanced absorption in the gastrointestinal tract via the inhibition of P-gp and to reduced first-pass metabolism of DOX due to inhibition of CYP3A in the small intestine and/or in the liver by myricetin.",
+        "affiliation": "College of Medicine, Chosun University, Gwangju, Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Doxorubicin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibiotics, Antineoplastic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Injections, Intravenous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cytochrome P-450 CYP3A Inhibitors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibiotics, Antineoplastic",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "Doxorubicin",
+              "registryNumber": "80168379AG"
+            },
+            {
+              "name": "Cytochrome P-450 CYP3A Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "CYP3A4 protein, human",
+              "registryNumber": "EC 1.14.14.55"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s12272-011-0217-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 29,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-09-23",
+        "dateOfCreation": "2011-03-08",
+        "dateOfRevision": "2018-12-11",
+        "electronicPublicationDate": "2011-03-06",
+        "firstPublicationDate": "2011-02-01",
+        "firstIndexDate": "2011-03-08",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24357136",
+        "source": "MED",
+        "pmid": "24357136",
+        "doi": "10.1055/s-0033-1363220",
+        "title": "Quantitative determination of myricetin in rat plasma by ultra performance liquid chromatography tandem mass spectrometry and its absolute bioavailability.",
+        "authorString": "Dang Y, Lin G, Xie Y, Duan J, Ma P, Li G, Ji G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dang Y",
+              "lastName": "Dang",
+              "firstName": "Y",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Center for Health and Nutrition, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin G",
+              "lastName": "Lin",
+              "firstName": "G",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Center for Health and Nutrition, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie Y",
+              "lastName": "Xie",
+              "firstName": "Y",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Center for Health and Nutrition, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duan J",
+              "lastName": "Duan",
+              "firstName": "J",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma P",
+              "lastName": "Ma",
+              "firstName": "P",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Global Pharmaceutical Research and Development, Hospira Inc., McPherson, KS, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li G",
+              "lastName": "Li",
+              "firstName": "G",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmacy Department, Shanghai TCM-integrated Hospital, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ji G",
+              "lastName": "Ji",
+              "firstName": "G",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "64",
+          "journalIssueId": 2209953,
+          "dateOfPublication": "2014 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Drug Res (Stuttg)",
+            "title": "Drug research",
+            "essn": "2194-9387",
+            "issn": "2194-9379",
+            "isoabbreviation": "Drug Res (Stuttg)",
+            "nlmid": "101602406"
+          },
+          "printPublicationDate": "2014-10-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "516-522",
+        "abstractText": "Myricetin is a widely distributed bioactive flavonoid with scientific interest attributed to its anti-oxidant, antitumor, and anti-inflammatory properties. A specific and sensitive ultra performance liquid chromatography-tandem mass spectrometry (UPLC-MS/MS) method has been developed and validated for identification and quantification of myricetin in rat plasma after oral and intravenous administrations. Kaempferol was used as an internal standard. Followed by β-glucuronidase and sulfatase hydrolysis and liquid-liquid extraction with ethyl acetate, the analytes were separated on an Acquity UPLC BEH C18 column (2.1×50 mm, 1.7 μm) and analyzed in the selected ion recording with a negative electrospray ionization mode. The developed method was validated for selectivity, accuracy, precision, linearity, recovery, stability and matrix effect. The assay was validated over a wide concentration range of 2-4,000 ng/mL. Intra- and inter-day precisions were all less than 13.49% and accuracy ranged from 95.75 to 109.80%. The present method was successfully applied to investigate a pharmacokinetic study of myricetin following intravenous and oral administrations to rats. The absolute bioavailability was found to be 9.62% and 9.74% at 2 oral doses (50 mg/kg and 100 mg/kg, respectively), which indicated myricetin was poorly absorbed after oral administration. To our knowledge, this is the first pharmacokinetic evaluation of myricetin as a single active pharmaceutical ingredient in preclinical studies.",
+        "affiliation": "Research Center for Health and Nutrition, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Validation Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calibration"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Chromatography, Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Spectrometry, Mass, Electrospray Ionization",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Linear Models"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reference Standards"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Intravenous"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1055/s-0033-1363220"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 56,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-06-11",
+        "dateOfCreation": "2013-12-21",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2013-12-19",
+        "firstPublicationDate": "2013-12-19",
+        "firstIndexDate": "2013-12-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND605908549",
+        "source": "AGR",
+        "doi": "10.1111/ijfs.13680",
+        "title": "Phenolic composition, antioxidant and pancreatic lipase inhibitory activities of Chinese sumac (Rhus chinensis Mill.) fruits extracted by different solvents and interaction between myricetin‐3‐O‐rhamnoside and quercetin‐3‐O‐rhamnoside",
+        "authorString": "Zhang C, Ma Y, Zhao Y, Hong Y, Cai S, Pang M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang C",
+              "lastName": "Zhang",
+              "firstName": "Chengting",
+              "initials": "C"
+            },
+            {
+              "fullName": "Ma Y",
+              "lastName": "Ma",
+              "firstName": "Yanli",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yingxin",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3552-9249"
+              }
+            },
+            {
+              "fullName": "Hong Y",
+              "lastName": "Hong",
+              "firstName": "Yaoqin",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4408-2648"
+              }
+            },
+            {
+              "fullName": "Cai S",
+              "lastName": "Cai",
+              "firstName": "Shengbao",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2492-5062"
+              }
+            },
+            {
+              "fullName": "Pang M",
+              "lastName": "Pang",
+              "firstName": "Mingjie",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2492-5062"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4408-2648"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3552-9249"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "53",
+          "journalIssueId": 2691726,
+          "dateOfPublication": "2018 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "International journal of food science and technology.",
+            "title": "International journal of food science & technology",
+            "issn": "0950-5423"
+          },
+          "printPublicationDate": "2018-04-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "1045-1053",
+        "abstractText": "This work was designed to investigate the phenolic composition, antioxidant and pancreatic lipase inhibitory activities of Rhus chinensis Mill. fruits extracted by different solvents, and to illustrate which major phenolic compounds were responsible for lipase inhibition and to evaluate their interactions. Results showed that R. chinensis Mill. fruits were rich in phenolics, which included 13 types identified and quantified by UHPLC‐ESI‐HRMS/MS. Among the identified phenolics, myricetin‐3‐O‐rhamnoside and quercetin‐3‐O‐rhamnoside were the most dominant detected in all extracts. Extracts with 80% methanol, 80% ethanol and 80% acetone exhibited strong antioxidant and pancreatic lipase inhibitory activities in vitro, and these activities were positively correlated with phenolic contents. Myricetin‐3‐O‐rhamnoside and quercetin‐3‐O‐ rhamnoside demonstrated good lipase inhibitory activities in a dose‐dependent manner and synergistically inhibited lipase. This work may provide insights into the potential uses of R. chinensis Mill. fruits in food and nutraceutical industries.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Applied Basic Research Key Project of Yunnan",
+              "grantId": "2014FB120",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31401503",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31660461",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/ijfs.13680"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-03-14",
+        "dateOfCreation": "2018-03-14",
+        "dateOfRevision": "2025-02-18",
+        "firstPublicationDate": "2018-04-01",
+        "firstIndexDate": "2018-06-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21442417",
+        "source": "MED",
+        "pmid": "21442417",
+        "doi": "10.1007/s13318-011-0036-y",
+        "title": "Effects of myricetin, an anticancer compound, on the bioavailability and pharmacokinetics of tamoxifen and its main metabolite, 4-hydroxytamoxifen, in rats.",
+        "authorString": "Li C, Lim SC, Kim J, Choi JS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li C",
+              "lastName": "Li",
+              "firstName": "Cheng",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Chosun University, 375 SuSuk-dong, Dong-gu, Gwangju 501-759, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lim SC",
+              "lastName": "Lim",
+              "firstName": "Sung-Cil",
+              "initials": "SC"
+            },
+            {
+              "fullName": "Kim J",
+              "lastName": "Kim",
+              "firstName": "Jin",
+              "initials": "J"
+            },
+            {
+              "fullName": "Choi JS",
+              "lastName": "Choi",
+              "firstName": "Jun-Shik",
+              "initials": "JS"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "36",
+          "journalIssueId": 1862245,
+          "dateOfPublication": "2011 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Eur J Drug Metab Pharmacokinet",
+            "title": "European journal of drug metabolism and pharmacokinetics",
+            "essn": "2107-0180",
+            "issn": "0378-7966",
+            "isoabbreviation": "Eur J Drug Metab Pharmacokinet",
+            "nlmid": "7608491"
+          },
+          "printPublicationDate": "2011-09-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "175-182",
+        "abstractText": "This study examined the effect of myricetin, an anticancer compound, on the bioavailability and pharmacokinetics of tamoxifen and its metabolite, 4-hydroxytamoxifen, in rats. The effect of myricetin on P-glycoprotein (P-gp), cytochrome P450 (CYP)3A4 and 2C9 activity was evaluated. Myricetin inhibited CYP3A4 and 2C9 activity with IC(50) values of 7.81 and 13.5 μM, respectively, and significantly inhibited P-gp activity in a concentration-dependent manner. Pharmacokinetic parameters of tamoxifen and 4-hydroxytamoxifen were determined in rats after oral (10 mg/kg) and intravenous (2 mg/kg) administration of tamoxifen in the presence and absence of myricetin (0.4, 2, and 8 mg/kg). Compared with the oral control group (given tamoxifen alone), the area under the plasma concentration-time curve (AUC(0-∞)) and the peak plasma concentration (C (max)) of tamoxifen were significantly (P < 0.05, 2 mg/kg; P < 0.01, 8 mg/kg) increased by 41.8-74.4 and 48.4-81.7%, respectively. Consequently, the absolute bioavailability (AB) of tamoxifen with myricetin (2 and 8 mg/kg) was 29.0-35.7%, which was significantly enhanced (P < 0.05 for 2 mg/kg, P < 0.01 for 8 mg/kg) compared with the oral control group (20.4%). Moreover, the relative bioavailability (RB) of tamoxifen was 1.14- to 1.74-fold greater than that of the control group. The metabolite-parent AUC ratio (MR) was significantly reduced (P < 0.05, 8 mg/kg), implying that the formation of 4-hydroxytamoxifen was considerably affected by myricetin. The enhanced bioavailability of tamoxifen might be mainly due to inhibition of the CYP3A4- and CYP2C9-mediated metabolism of tamoxifen in the small intestine and/or in the liver, and inhibition of P-gp efflux pump in the small intestine by myricetin.",
+        "affiliation": "College of Pharmacy, Chosun University, 375 SuSuk-dong, Dong-gu, Gwangju 501-759, Republic of Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tamoxifen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhodamines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Estrogen Antagonists",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cyp3a2 protein, rat",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Estrogen Antagonists",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Rhodamines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "CYP2C9 protein, rat",
+              "registryNumber": "EC 1.14.14.-"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "afimoxifene",
+              "registryNumber": "17197F0KYM"
+            },
+            {
+              "name": "Tamoxifen",
+              "registryNumber": "094ZI81Y45"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s13318-011-0036-y"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-12-13",
+        "dateOfCreation": "2011-03-29",
+        "dateOfRevision": "2022-04-09",
+        "electronicPublicationDate": "2011-03-27",
+        "firstPublicationDate": "2011-03-27",
+        "firstIndexDate": "2011-03-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25093402",
+        "source": "MED",
+        "pmid": "25093402",
+        "doi": "10.1080/07391102.2014.951689",
+        "title": "Atomistic mechanism of polyphenol amyloid aggregation inhibitors: molecular dynamics study of Curcumin, Exifone, and Myricetin interaction with the segment of tau peptide oligomer.",
+        "authorString": "Berhanu WM, Masunov AE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Berhanu WM",
+              "lastName": "Berhanu",
+              "firstName": "Workalemahu M",
+              "initials": "WM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a NanoScience Technology Center and Department of Chemistry , University of Central Florida , Orlando , FL 32826 , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Masunov AE",
+              "lastName": "Masunov",
+              "firstName": "Artëm E",
+              "initials": "AE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4924-3380"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4924-3380"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "33",
+          "journalIssueId": 2297229,
+          "dateOfPublication": "2015 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "J Biomol Struct Dyn",
+            "title": "Journal of biomolecular structure & dynamics",
+            "essn": "1538-0254",
+            "issn": "0739-1102",
+            "isoabbreviation": "J Biomol Struct Dyn",
+            "nlmid": "8404176"
+          },
+          "printPublicationDate": "2015-01-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "1399-1411",
+        "abstractText": "Amyloid fibrils are highly ordered protein aggregates associated with many diseases affecting millions of people worldwide. Polyphenols such as Curcumin, Exifone, and Myricetin exhibit modest inhibition toward fibril formation of tau peptide which is associated with Alzheimer's disease. However, the molecular mechanisms of this inhibition remain elusive. We investigated the binding of three polyphenol molecules to the protofibrils of an amyloidogenic fragment VQIVYK of tau peptide by molecular dynamics simulations in explicit solvent. We find that polyphenols induce conformational changes in the oligomer aggregate. These changes disrupt the amyloid H bonding, perturbing the aggregate. While the structural evolution of the control oligomer with no ligand is limited to the twisting of the β-sheets without their disassembly, the presence of polyphenol molecule pushes the β-sheets apart, and leads to a loosely packed structure where two of four β-sheets dissociate in each of the three cases considered here. The H-bonding capacity of polyphenols is responsible for the observed behavior. The calculated binding free energies and its individual components enabled better understanding of the binding. Results indicated that the contribution from Van der Waals interactions is more significant than electrostatic contribution to the binding. The findings from this study are expected to assist in the development of aggregation inhibitors. Significant binding between polyphenols and aggregate oligomer identified in our simulations confirms the previous experimental observations in which polyphenols refold the tau peptide without forming covalent bonds.",
+        "affiliation": "a NanoScience Technology Center and Department of Chemistry , University of Central Florida , Orlando , FL 32826 , USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Curcumin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzophenones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amyloid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peptide Fragments",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "tau Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amino Acid Sequence"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Conformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Binding",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quantitative Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen Bonding"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Multimerization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyphenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Aggregation, Pathological"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular dynamic simulation",
+            "Polyphenols",
+            "Curcumin",
+            "Myricetin",
+            "Binding free energy",
+            "Hydrogen bond",
+            "Amyloid Fibril",
+            "Mm-pbsa",
+            "Aggregation Inhibitors",
+            "Exifone"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "polyphenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Peptide Fragments",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Amyloid",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzophenones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "tau Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "exifone",
+              "registryNumber": "38K9TOD4EG"
+            },
+            {
+              "name": "Curcumin",
+              "registryNumber": "IT942ZTH98"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/07391102.2014.951689"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 47,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-01-18",
+        "dateOfCreation": "2014-08-06",
+        "dateOfRevision": "2015-04-28",
+        "electronicPublicationDate": "2014-09-09",
+        "firstPublicationDate": "2014-09-09",
+        "firstIndexDate": "2014-08-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17996500",
+        "source": "MED",
+        "pmid": "17996500",
+        "doi": "10.1016/j.jchromb.2007.07.049",
+        "title": "Simultaneous determination and pharmacokinetic studies of dihydromyricetin and myricetin in rat plasma by HPLC-DAD after oral administration of Ampelopsis grossedentata decoction.",
+        "authorString": "Zhang YS, Zhang QY, Li LY, Wang B, Zhao YY, Guo DA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang YS",
+              "lastName": "Zhang",
+              "firstName": "Yan-Song",
+              "initials": "YS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Natural Medicines and State Key Laboratory of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Peking University Health Science Center, No. 38 Xueyuan Road, Beijing 100083, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang QY",
+              "lastName": "Zhang",
+              "firstName": "Qing-ying",
+              "initials": "QY"
+            },
+            {
+              "fullName": "Li LY",
+              "lastName": "Li",
+              "firstName": "Li-ying",
+              "initials": "LY"
+            },
+            {
+              "fullName": "Wang B",
+              "lastName": "Wang",
+              "firstName": "Bin",
+              "initials": "B"
+            },
+            {
+              "fullName": "Zhao YY",
+              "lastName": "Zhao",
+              "firstName": "Yu-ying",
+              "initials": "YY"
+            },
+            {
+              "fullName": "Guo DA",
+              "lastName": "Guo",
+              "firstName": "De-an",
+              "initials": "DA"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "860",
+          "journalIssueId": 1484719,
+          "dateOfPublication": "2007 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "J Chromatogr B Analyt Technol Biomed Life Sci",
+            "title": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+            "essn": "1873-376X",
+            "issn": "1570-0232",
+            "isoabbreviation": "J Chromatogr B Analyt Technol Biomed Life Sci",
+            "nlmid": "101139554"
+          },
+          "printPublicationDate": "2007-12-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "4-9",
+        "abstractText": "A simple and sensitive high-performance liquid chromatographic method was developed for the simultaneous determination of dihydromyricetin (1) and myricetin (2) in rat plasma after orally administrating the decoction of Ampelopsis grossedentata. Plasma samples were acidified with 0.375% phosphoric acid and extracted with ethyl acetate. Analysis of the extract was performed on reversed-phase C(18) column with a gradient eluent composed of acetonitrile and 0.04% phosphoric acid. The flow rate was kept at 1 ml/min and the detection wavelength was set at 290 and 370 nm for 1 and 2, respectively. The calibration curves were linear in the range of 0.247-4.114 microg/ml and 0.150-2.501 microg/ml for 1 and 2, respectively. The intra-day and inter-day precisions were better than 4.9 and 6.2%, respectively. The limits of detection (LOD) for 1 and 2 in plasma were 21.600 and 52.530 ng/ml, and the limits of quantification (LOQ) were 0.247 and 0.150 microg/ml, respectively. The mean recoveries for 1 and 2 were 92.0 and 93.3%, respectively. The accuracy and precision were well within the acceptable range and R.S.D. of measured rat samples was less than 7.5%. This validated method has been successfully applied in the pharmacokinetics study of dihydromyricetin and myricetin in vivo after orally administrating the decoction of A. grossedentata to rats.",
+        "affiliation": "Department of Natural Medicines and State Key Laboratory of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Peking University Health Science Center, No. 38 Xueyuan Road, Beijing 100083, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Validation Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ampelopsis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sensitivity and Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Stability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "dihydromyricetin",
+              "registryNumber": "KD8QND6427"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jchromb.2007.07.049"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 27,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-03-04",
+        "dateOfCreation": "2007-11-13",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2007-09-22",
+        "firstPublicationDate": "2007-09-22",
+        "firstIndexDate": "2008-03-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

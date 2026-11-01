@@ -1,0 +1,2612 @@
+{
+  "version": "6.9",
+  "hitCount": 10,
+  "request": {
+    "queryString": "TITLE:\"Diosmin\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30158431",
+        "source": "MED",
+        "pmid": "30158431",
+        "pmcid": "PMC6225479",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6225479"
+          ]
+        },
+        "doi": "10.3390/molecules23092174",
+        "title": "Comparative Bioavailability of Two Diosmin Formulations after Oral Administration to Healthy Volunteers.",
+        "authorString": "Russo R, Chandradhara D, De Tommasi N.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Russo R",
+              "lastName": "Russo",
+              "firstName": "Rosario",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5451-2691"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Giellepi S.p.A. Health Science, via B. Cellini 37, 20851 Lissone (MB), Italy. rosario.russo@giellepi.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chandradhara D",
+              "lastName": "Chandradhara",
+              "firstName": "Divya",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bioagile Therapeutics Pvt. Ltd., Bangalore 560094, India. divya@bioagiletherapeutics.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Tommasi N",
+              "lastName": "De Tommasi",
+              "firstName": "Nunziatina",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1707-4156"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dipartimento di Farmacia, Università di Salerno, via Giovanni Paolo II 132, 84084 Fisciano (SA), Italy. detommasi@unisa.it."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5451-2691"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1707-4156"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "23",
+          "journalIssueId": 2718475,
+          "dateOfPublication": "2018 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "isoabbreviation": "Molecules",
+            "nlmid": "100964009"
+          },
+          "printPublicationDate": "2018-08-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "E2174",
+        "abstractText": "Diosmin is a flavonoid commonly found in citrus fruits, largely used as adjuvant treatment for circulatory disorders, including chronic venous insufficiency (CVI) and hemorrhoids. Following oral administration, diosmin is not directly absorbed but must first be hydrolyzed into its aglycone, diosmetin, which is then absorbed into the systemic circulation. The aim of the current cross-over clinical study was to assess the pharmacokinetic profile of µSmin<sup>®</sup> Plus, a micronized diosmin flavonoid complex standardized in diosmin and formulated with a buffering agent (tested formulation). The study compared this to unformulated micronized diosmin (reference), in 16 healthy volunteers. Plasma samples were analyzed by HPLC-MS and plasma diosmetin concentration was measured after deconjugation with β-glucuronidase. For the tested formulation area under the curve (AUC<sub>0-t</sub>), and maximum plasma and time concentration (C<sub>max</sub>; t<sub>max</sub>) were found to be 298.4 ± 163.7, 50.3 ± 22.6 and 2.2 ± 2.9, respectively. AUC<sub>0-t</sub> and C<sub>max</sub> of the reference were 31.9 ± 100.4 and 2.4 ± 1.9, respectively. The tested formulation showed higher plasmatic concentrations of diosmetin in comparison to those obtained after the administration of unformulated micronized diosmin. The relative bioavailability was 9.4 greater for the tested formulation than in micronized diosmin. In conclusion, our data indicate that µSmin<sup>®</sup> Plus was rapidly and well absorbed into systemic circulation and may therefore be ideally suitable to deliver diosmin in human interventional trials.",
+        "affiliation": "Giellepi S.p.A. Health Science, via B. Cellini 37, 20851 Lissone (MB), Italy. rosario.russo@giellepi.it.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Clinical Trial",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Giellepi S.p.A.",
+              "grantId": "Not applicable",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Compounding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double Bind Interaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Healthy Volunteers"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Chronic Venous Insufficiency (Cvi)",
+            "Diosmin",
+            "Diosmetin",
+            "Μsmin® Plus"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/1420-3049/23/9/2174/pdf?version=1535531274"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules23092174"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6225479"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6225479?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 46,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-11-12",
+        "dateOfCreation": "2018-08-31",
+        "dateOfRevision": "2018-12-07",
+        "electronicPublicationDate": "2018-08-29",
+        "firstPublicationDate": "2018-08-29",
+        "firstIndexDate": "2018-08-30",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27690733",
+        "source": "MED",
+        "pmid": "27690733",
+        "doi": "10.1080/00498254.2016.1244368",
+        "title": "Influence of diosmin on the metabolism and disposition of carbamazepine in healthy subjects.",
+        "authorString": "Bedada SK, Boga PK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bedada SK",
+              "lastName": "Bedada",
+              "firstName": "Satish Kumar",
+              "initials": "SK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Drug Metabolism and Pharmacokinetics Division, University College of Pharmaceutical Sciences, Kakatiya University , Warangal , Telangana State , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boga PK",
+              "lastName": "Boga",
+              "firstName": "Praveen Kumar",
+              "initials": "PK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Drug Metabolism and Pharmacokinetics Division, University College of Pharmaceutical Sciences, Kakatiya University , Warangal , Telangana State , India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "47",
+          "journalIssueId": 2582900,
+          "dateOfPublication": "2017 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Xenobiotica",
+            "title": "Xenobiotica; the fate of foreign compounds in biological systems",
+            "essn": "1366-5928",
+            "issn": "0049-8254",
+            "isoabbreviation": "Xenobiotica",
+            "nlmid": "1306665"
+          },
+          "printPublicationDate": "2017-10-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "879-884",
+        "abstractText": "1. Carbamazepine (CBZ) is an antiepileptic drug with narrow therapeutic window and administration in humans receiving long-term therapy with diosmin (DSN) may occur, which leads to CYP3A4-mediated drug interactions. The purpose of the present study was to assess the influence of DSN on the metabolism and pharmacokinetics of CBZ in healthy volunteers. 2. An open-label, sequential, two-period study was conducted in 12 healthy male volunteers. A single dose of DSN 500 mg was administered once daily for 10 days during treatment phase. A single dose of CBZ 200 mg was administered during control and after treatment phases under fasting conditions. The blood samples were collected after CBZ dosing at predetermined time intervals and analyzed by LC-MS/MS. 3. Treatment with DSN significantly enhanced the maximum plasma concentration (C<sub>max</sub>)<sub>,</sub> area under the curve (AUC), half-life (t<sub>1/2</sub>) and significantly decreased the apparent oral clearance (CL/F) and elimination rate constant (K<sub>el</sub>) of CBZ. On the other hand, treatment with DSN significantly decreased the C<sub>max</sub> and AUC of carbamazepine 10, 11-epoxide (CBZE). Furthermore, treatment with DSN significantly decreased the metabolite to parent ratios of C<sub>max</sub> and AUC, indicating the reduced metabolism of CBZ to CBZE. 4. The results suggest that the altered CYP3A4 enzyme activity and pharmacokinetics of CBZ might be attributed to DSN-mediated inhibition of CYP3A4 enzyme, which indicates pharmacokinetic interaction present between DSN and CBZ. Therefore, we conclude that DSN has an inhibiting effect on the metabolism and disposition of CBZ.",
+        "affiliation": "a Drug Metabolism and Pharmacokinetics Division, University College of Pharmaceutical Sciences, Kakatiya University , Warangal , Telangana State , India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbamazepine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticonvulsants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Healthy Volunteers"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Metabolism",
+            "Pharmacokinetics",
+            "carbamazepine",
+            "Diosmin",
+            "Cyp3a4 Enzyme"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anticonvulsants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carbamazepine",
+              "registryNumber": "33CM23913M"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/00498254.2016.1244368"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-10-18",
+        "dateOfCreation": "2016-10-04",
+        "dateOfRevision": "2017-10-18",
+        "electronicPublicationDate": "2016-10-28",
+        "firstPublicationDate": "2016-10-28",
+        "firstIndexDate": "2016-10-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26594761",
+        "source": "MED",
+        "pmid": "26594761",
+        "doi": "10.1177/1934578x1501000921",
+        "title": "Pharmacokinetic Profile of µSMIN Plus™, a new Micronized Diosmin Formulation, after Oral Administration in Rats.",
+        "authorString": "Russo R, Mancinelli A, Ciccone M, Terruzzi F, Pisano C, Severino L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Russo R",
+              "lastName": "Russo",
+              "firstName": "Rosario",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5451-2691"
+              }
+            },
+            {
+              "fullName": "Mancinelli A",
+              "lastName": "Mancinelli",
+              "firstName": "Angelo",
+              "initials": "A"
+            },
+            {
+              "fullName": "Ciccone M",
+              "lastName": "Ciccone",
+              "firstName": "Michele",
+              "initials": "M"
+            },
+            {
+              "fullName": "Terruzzi F",
+              "lastName": "Terruzzi",
+              "firstName": "Fabio",
+              "initials": "F"
+            },
+            {
+              "fullName": "Pisano C",
+              "lastName": "Pisano",
+              "firstName": "Claudio",
+              "initials": "C"
+            },
+            {
+              "fullName": "Severino L",
+              "lastName": "Severino",
+              "firstName": "Lorella",
+              "initials": "L"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5451-2691"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "10",
+          "journalIssueId": 2345070,
+          "dateOfPublication": "2015 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Nat Prod Commun",
+            "title": "Natural product communications",
+            "essn": "1555-9475",
+            "issn": "1934-578X",
+            "isoabbreviation": "Nat Prod Commun",
+            "nlmid": "101477873"
+          },
+          "printPublicationDate": "2015-09-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "1569-1572",
+        "abstractText": "Diosmin is a naturally occurring flavonoid present in citrus fruits and other plants belonging to the Rutaceae family. It is used for the treatment of chronic venous insufficiency (CVI) for its pheblotonic and vaso-active properties, safety and tolerability as well. The aim of the current in vivo study was to investigate the pharmacokinetic profile of a branded micronized diosmin (µSMIN Plus™) compared with plain micronized diosmin in male Sprague-Dawley rats. After oral administration by gastric gavage, blood samples were collected via jugular vein catheters at regular time intervals from baseline up to 24 hours. Plasma concentrations were assessed by LC/MS. For each animal, the following pharmacokinetic parameters were calculated using a non-compartmental analysis: maximum plasma drug concentration (Cmax), time to reach Cmax (Tmax), area under the plasma concentration-time curve (AUC0-last), elimination half-life (t½), and relative oral bioavailability (%F). The results of the current study clearly showed an improvement in the pharmacokinetic parameters in animals treated with µSMIN Plus™ compared with animals treated with micronized diosmin. In particular, µSMIN Plus™ showed a 4-fold increased bioavailability compared with micronized diosmin. In conclusion, the results from the current study provided a preliminary pharmacokinetic profile for µSMIN Plus™, which may represent a new tool for CVI management.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dosage Forms"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dosage Forms",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diosmetin",
+              "registryNumber": "TWZ37241OT"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.1177/1934578x1501000921"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-01-14",
+        "dateOfCreation": "2015-11-24",
+        "dateOfRevision": "2015-11-23",
+        "firstPublicationDate": "2015-09-01",
+        "firstIndexDate": "2015-11-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17708066",
+        "source": "MED",
+        "pmid": "17708066",
+        "doi": "10.1515/dmdi.2007.22.2-3.165",
+        "title": "Bioavailability of diclofenac sodium after pretreatment with diosmin in healthy volunteers.",
+        "authorString": "Rajnarayana K, Venkatesham A, Krishna DR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rajnarayana K",
+              "lastName": "Rajnarayana",
+              "firstName": "K",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Clinical Pharmacy, University College of Pharmaceutical Sciences, Kakatiya University, Warangal - 506 009, AP, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Venkatesham A",
+              "lastName": "Venkatesham",
+              "firstName": "A",
+              "initials": "A"
+            },
+            {
+              "fullName": "Krishna DR",
+              "lastName": "Krishna",
+              "firstName": "Devarakonda R",
+              "initials": "DR"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2-3",
+          "volume": "22",
+          "journalIssueId": 1457621,
+          "dateOfPublication": "2007 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Drug Metabol Drug Interact",
+            "title": "Drug metabolism and drug interactions",
+            "essn": "2191-0162",
+            "issn": "0792-5077",
+            "isoabbreviation": "Drug Metabol Drug Interact",
+            "nlmid": "8904736"
+          },
+          "printPublicationDate": "2007-01-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "165-174",
+        "abstractText": "Diclofenac sodium is a non-steroidal anti-inflammatory drug (NSAID). It undergoes extensive Phase I and Phase II metabolism and in vitro it is a specific CYP2C9 substrate. The first part of the study consisted of oral administration of 100 mg of diclofenac sodium (Voveran100) to 12 healthy male volunteers. Blood samples were collected from the antecubital vein at intervals of 0, 0.5, 1, 2, 3, 4, 5, 6, 7, and 8 hours. The second part of the study was conducted after a washout period of 7 days. Treatment with 500 mg p.o. of diosmin (Venex 500) was given daily for 9 days. On day 10, 100 mg of diclofenac sodium (Voveran 100) was administered. Blood samples were obtained as mentioned earlier and pharmacokinetic parameters of diclofenac before and after pretreatment with diosmin analyzed by HPLC. Diosmin pretreatment significantly enhanced AUC, C(max) and t1/2 with a concomitant reduction in CL/f. Diosmin might have inhibited the microsomal CYP2C9 mediated oxidation of diclofenac sodium.",
+        "affiliation": "Department of Pharmacology and Clinical Pharmacy, University College of Pharmaceutical Sciences, Kakatiya University, Warangal - 506 009, AP, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diclofenac",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aryl Hydrocarbon Hydroxylases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Inflammatory Agents, Non-Steroidal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Analysis of Variance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2C9"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Inflammatory Agents, Non-Steroidal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Aryl Hydrocarbon Hydroxylases",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Diclofenac",
+              "registryNumber": "144O8QL0L1"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            },
+            {
+              "name": "CYP2C9 protein, human",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2C9",
+              "registryNumber": "EC 1.14.13.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1515/dmdi.2007.22.2-3.165"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-12-31",
+        "dateOfCreation": "2007-08-22",
+        "dateOfRevision": "2019-11-10",
+        "firstPublicationDate": "2007-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "12698306",
+        "source": "MED",
+        "pmid": "12698306",
+        "doi": "10.1007/s00228-002-0543-5",
+        "title": "Diosmin pretreatment affects bioavailability of metronidazole.",
+        "authorString": "Rajnarayana K, Reddy MS, Krishna DR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rajnarayana K",
+              "lastName": "Rajnarayana",
+              "firstName": "K",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Clinical Pharmacokinetics Division, University College of Pharmaceutical Sciences, Kakatiya University, AP-506009, Warangal, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reddy MS",
+              "lastName": "Reddy",
+              "firstName": "Mada S",
+              "initials": "MS"
+            },
+            {
+              "fullName": "Krishna DR",
+              "lastName": "Krishna",
+              "firstName": "Devarakonda R",
+              "initials": "DR"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "58",
+          "journalIssueId": 1184351,
+          "dateOfPublication": "2003 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2003,
+          "journal": {
+            "medlineAbbreviation": "Eur J Clin Pharmacol",
+            "title": "European journal of clinical pharmacology",
+            "essn": "1432-1041",
+            "issn": "0031-6970",
+            "isoabbreviation": "Eur J Clin Pharmacol",
+            "nlmid": "1256165"
+          },
+          "printPublicationDate": "2003-04-01"
+        },
+        "pubYear": "2003",
+        "pageInfo": "803-807",
+        "abstractText": "<h4>Objective</h4>To screen for inhibitory effects of diosmin on cytochrome P(450)-mediated metabolism of metronidazole in healthy volunteers.<h4>Design</h4>Before/after non-blinded investigation conducted in healthy male volunteers.<h4>Methods</h4>After an overnight fast, metronidazole (two 400-mg tablets) was administered to 12 volunteers, either alone or after a 9-day pretreatment period with a once-daily dose of diosmin 500-mg tablets under direct observation. Serum concentrations of metronidazole up to 48 h postdose and urinary concentrations of metronidazole and its two major metabolites up to 24 h postdose were measured using reversed-phase high-performance liquid chromatography.<h4>Results</h4>Metronicazole plasma AUC((0- infinity )) and C(max) were significantly higher after diosmin pretreatment by (mean) 27% and 24%, respectively. However, time to reach peak concentration (t(max)) was not affected significantly. Urinary excretion of acid and hydroxy metabolites in urine was decreased significantly, while excretion of unchanged metronidazole was increased.<h4>Conclusion</h4>Diosmin pretreatment significantly altered the metabolism of metronidazole, as demonstrated by changes in plasma pharmacokinetics as well as by urinary recovery of both parent drug and its major metabolites. This may be caused by the inhibition of cytochrome P(450) enzymes.",
+        "affiliation": "Drug Metabolism and Clinical Pharmacokinetics Division, University College of Pharmaceutical Sciences, Kakatiya University, AP-506009, Warangal, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Controlled Clinical Trial",
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metronidazole",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Infective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Infective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Metronidazole",
+              "registryNumber": "140QMO216E"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00228-002-0543-5"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 22,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2003-10-30",
+        "dateOfCreation": "2003-04-17",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2003-03-01",
+        "firstPublicationDate": "2003-03-01",
+        "firstIndexDate": "2010-03-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "20362409",
+        "source": "MED",
+        "pmid": "20362409",
+        "doi": "10.1016/j.biopha.2010.02.001",
+        "title": "Antihyperglycemic effect of diosmin on hepatic key enzymes of carbohydrate metabolism in streptozotocin-nicotinamide-induced diabetic rats.",
+        "authorString": "Pari L, Srinivasan S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Pari L",
+              "lastName": "Pari",
+              "firstName": "Leelavinothan",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry and Biotechnology, Faculty of Science, Annamalai University, Annamalai Nagar, Chidambaram, 608002 Tamilnadu, India. paribalaji@gmail.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Srinivasan S",
+              "lastName": "Srinivasan",
+              "firstName": "Subramani",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5043-1146"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5043-1146"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6278-327X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "64",
+          "journalIssueId": 1761368,
+          "dateOfPublication": "2010 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Biomed Pharmacother",
+            "title": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "essn": "1950-6007",
+            "issn": "0753-3322",
+            "isoabbreviation": "Biomed Pharmacother",
+            "nlmid": "8213295"
+          },
+          "printPublicationDate": "2010-09-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "477-481",
+        "abstractText": "The purpose of this study was to investigate the effect of diosmin on hepatic key enzymes of carbohydrate metabolism in streptozotocin-nicotinamide-induced diabetic rats. Diosmin was administered to streptozotocin-induced (45 mg/kg b.w) diabetic rats at different doses (25, 50, 100 mg/kg b.w) for 45 days to assess its effect on fasting plasma glucose, insulin, glycosylated hemoglobin, hemoglobin and carbohydrate metabolic enzymes, it was found that plasma glucose was significantly reduced in a dose-dependent manner when compared to the diabetic control. In addition, oral administration of diosmin (100mg/kg b.w) significantly decreased glycosylated hemoglobin and increased hemoglobin and plasma insulin. The activities of the hepatic key enzymes such as hexokinase and glucose-6-phosphate dehydrogenase were significantly increased whereas, glucose-6-phosphatase and fructose-1,6-bisphosphatase were significantly decreased. Furthermore, protection against body weight loss of diabetic animals was also observed. These results showed that diosmin has potential antihyperglycemic activity in streptozotocin-nicotinamide-induced diabetic rats.",
+        "affiliation": "Department of Biochemistry and Biotechnology, Faculty of Science, Annamalai University, Annamalai Nagar, Chidambaram, 608002 Tamilnadu, India. paribalaji@gmail.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus, Experimental",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Streptozocin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Niacinamide"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fructose-Bisphosphatase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose-6-Phosphatase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosephosphate Dehydrogenase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemoglobins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypoglycemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbohydrate Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycated Hemoglobin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Enzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hemoglobins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosephosphate Dehydrogenase",
+              "registryNumber": "EC 1.1.1.49"
+            },
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fructose-Bisphosphatase",
+              "registryNumber": "EC 3.1.3.11"
+            },
+            {
+              "name": "Glucose-6-Phosphatase",
+              "registryNumber": "EC 3.1.3.9"
+            },
+            {
+              "name": "Insulin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Streptozocin",
+              "registryNumber": "5W494URQ81"
+            },
+            {
+              "name": "Niacinamide",
+              "registryNumber": "25X51I8RD4"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            },
+            {
+              "name": "Glycated Hemoglobin",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.biopha.2010.02.001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 83,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-02-14",
+        "dateOfCreation": "2010-04-06",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2010-02-23",
+        "firstPublicationDate": "2010-02-23",
+        "firstIndexDate": "2010-09-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19800189",
+        "source": "MED",
+        "pmid": "19800189",
+        "doi": "10.1016/j.jpba.2009.09.012",
+        "title": "Simultaneous determination of diosmin and diosmetin in human plasma by ion trap liquid chromatography-atmospheric pressure chemical ionization tandem mass spectrometry: Application to a clinical pharmacokinetic study.",
+        "authorString": "Campanero MA, Escolar M, Perez G, Garcia-Quetglas E, Sadaba B, Azanza JR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Campanero MA",
+              "lastName": "Campanero",
+              "firstName": "Miguel Angel",
+              "initials": "MA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Pharmacology, University of Navarra Clinic, 31080 Pamplona, Spain. macampaner@unav.es"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Escolar M",
+              "lastName": "Escolar",
+              "firstName": "Manuel",
+              "initials": "M"
+            },
+            {
+              "fullName": "Perez G",
+              "lastName": "Perez",
+              "firstName": "Guiomar",
+              "initials": "G"
+            },
+            {
+              "fullName": "Garcia-Quetglas E",
+              "lastName": "Garcia-Quetglas",
+              "firstName": "Emilio",
+              "initials": "E"
+            },
+            {
+              "fullName": "Sadaba B",
+              "lastName": "Sadaba",
+              "firstName": "Belen",
+              "initials": "B"
+            },
+            {
+              "fullName": "Azanza JR",
+              "lastName": "Azanza",
+              "firstName": "Jose Ramon",
+              "initials": "JR"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3190-622X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "51",
+          "journalIssueId": 1693722,
+          "dateOfPublication": "2010 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Biomed Anal",
+            "title": "Journal of pharmaceutical and biomedical analysis",
+            "essn": "1873-264X",
+            "issn": "0731-7085",
+            "isoabbreviation": "J Pharm Biomed Anal",
+            "nlmid": "8309336"
+          },
+          "printPublicationDate": "2010-03-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "875-881",
+        "abstractText": "Diosmetin (3',5,7-trihydroxy-4'-methoxyflavone) is the aglycone of the flavonoid glycoside diosmin (3',5,7-trihydroxy-4'-methoxyflavone-7-ramnoglucoside). Diosmin is hydrolyzed by enzymes of intestinal micro flora before absorption of its aglycone diosmetin. A specific, sensitive, precise, accurate and robust HPLC assay for the simultaneous determination of diosmin and diosmetin in human plasma was developed and validated. Plasma samples were incubated with beta-glucuronidase/sulphatase. The analytes were isolated by liquid-liquid extraction with tert-butyl methyl ether at pH 2, and separated on a C(18) reversed-phase column using a mixture of methanol/1% formic acid (58:42, v/v) at a flow rate of 0.5ml/min. APCI in the positive ion mode and multiple reaction monitoring (MRM) method was employed. The selected transitions for diosmin, diosmetin and the internal standard (7-ethoxycoumarin) at m/z were: 609.0-->463.0, 301.2-->286.1 and 191, respectively. A good linearity was found in the range of 0.25-500ng/ml (R(2)>0.992) for both compounds. The intra-batch assay precision (CV) for diosmin and diosmetin ranged from 1.5% to 11.2% and from 2.8% to 12.5%, respectively, and the inter-batch precision were from 5.2% to 11.5% and 8.5% to 9.8%, respectively. The accuracy was well within the acceptable range the accuracies (from -2.7% to 4.2% and -1.6% to 3.5% for diosmin and diosmetin, respectively). The mean recoveries of diosmin, diosmetin and the internal standard were 87.5%, 89.2% and 67.2%. Stability studies showed that diosmin and diosmetin were stable in different conditions. Finally, the method was successfully applied to the pharmacokinetic study of diosmin in healthy volunteers following a single oral administration (Daflon).",
+        "affiliation": "Clinical Pharmacology, University of Navarra Clinic, 31080 Pamplona, Spain. macampaner@unav.es",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Validation Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfatases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucuronidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cardiovascular Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Stability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Atmospheric Pressure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrolysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reference Standards"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Chromatography, Reverse-Phase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glucuronidase",
+              "registryNumber": "EC 3.2.1.31"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cardiovascular Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfatases",
+              "registryNumber": "EC 3.1.6.-"
+            },
+            {
+              "name": "diosmetin",
+              "registryNumber": "TWZ37241OT"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jpba.2009.09.012"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "20656432",
+              "reference": "J Pharm Biomed Anal. 2010 Dec 1;53(4):1070-1; author reply 1071-3. doi: 10.1016/j.jpba.2010.06.014",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 67,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-04-08",
+        "dateOfCreation": "2009-10-06",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2009-09-12",
+        "firstPublicationDate": "2009-09-12",
+        "firstIndexDate": "2010-08-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "8135038",
+        "source": "MED",
+        "pmid": "8135038",
+        "doi": "10.3109/00498259309059444",
+        "title": "Pharmacokinetic studies of diosmin and diosmetin in perfused rat liver.",
+        "authorString": "Perego R, Beccaglia P, Angelini M, Villa P, Cova D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Perego R",
+              "lastName": "Perego",
+              "firstName": "R",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CNR (National Research Council), Center of Cytopharmacology, Department of Pharmacology, Milan, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Beccaglia P",
+              "lastName": "Beccaglia",
+              "firstName": "P",
+              "initials": "P"
+            },
+            {
+              "fullName": "Angelini M",
+              "lastName": "Angelini",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Villa P",
+              "lastName": "Villa",
+              "firstName": "P",
+              "initials": "P"
+            },
+            {
+              "fullName": "Cova D",
+              "lastName": "Cova",
+              "firstName": "D",
+              "initials": "D"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "23",
+          "journalIssueId": 741260,
+          "dateOfPublication": "1993 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 1993,
+          "journal": {
+            "medlineAbbreviation": "Xenobiotica",
+            "title": "Xenobiotica; the fate of foreign compounds in biological systems",
+            "essn": "1366-5928",
+            "issn": "0049-8254",
+            "isoabbreviation": "Xenobiotica",
+            "nlmid": "1306665"
+          },
+          "printPublicationDate": "1993-12-01"
+        },
+        "pubYear": "1993",
+        "pageInfo": "1345-1352",
+        "abstractText": "1. The kinetics and metabolism of diosmin and diosmetin were investigated in the isolated perfused rat liver in order to assess the role of the liver. 2. Diosmetin and especially diosmin disappeared quickly from the perfusion medium. 3. Both flavonoids were rapidly metabolized and diosmetin was partly excreted in bile as the glucuronide and sulphate and diosmin was partly excreted in bile as such and as the glucuronide conjugate. 4. Diosmin and diosmetin did not appear to affect various parameters of liver function.",
+        "affiliation": "CNR (National Research Council), Center of Cytopharmacology, Department of Pharmacology, Milan, Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucuronates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Perfusion"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Sulfates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucuronates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diosmetin",
+              "registryNumber": "TWZ37241OT"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3109/00498259309059444"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1994-04-19",
+        "dateOfCreation": "1993-12-01",
+        "dateOfRevision": "2019-09-09",
+        "firstPublicationDate": "1993-12-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "1551741",
+        "source": "MED",
+        "pmid": "1551741",
+        "title": "Pharmacokinetics and metabolism of oral diosmin in healthy volunteers.",
+        "authorString": "Cova D, De Angelis L, Giavarini F, Palladini G, Perego R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cova D",
+              "lastName": "Cova",
+              "firstName": "D",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, CNR Center of Cytopharmacology, University of Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Angelis L",
+              "lastName": "De Angelis",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Giavarini F",
+              "lastName": "Giavarini",
+              "firstName": "F",
+              "initials": "F"
+            },
+            {
+              "fullName": "Palladini G",
+              "lastName": "Palladini",
+              "firstName": "G",
+              "initials": "G"
+            },
+            {
+              "fullName": "Perego R",
+              "lastName": "Perego",
+              "firstName": "R",
+              "initials": "R"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "30",
+          "journalIssueId": 573279,
+          "dateOfPublication": "1992 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 1992,
+          "journal": {
+            "medlineAbbreviation": "Int J Clin Pharmacol Ther Toxicol",
+            "title": "International journal of clinical pharmacology, therapy, and toxicology",
+            "issn": "0174-4879",
+            "isoabbreviation": "Int J Clin Pharmacol Ther Toxicol",
+            "nlmid": "8003415"
+          },
+          "printPublicationDate": "1992-01-01"
+        },
+        "pubYear": "1992",
+        "pageInfo": "29-33",
+        "abstractText": "Pharmacokinetic studies of diosmin were performed after an oral administration to healthy volunteers. Diosmin and its aglycone, diosmetin, were determined by HPLC and LC-MS techniques. At least, at the level of sensitivity of our method, no parent compound was present in the plasma but only its aglycone, diosmetin. Analysis of the pharmacokinetic parameters showed that the drug was rapidly absorbed. Diosmetin presents a long plasma elimination half-life ranging from 26 to 43 hours. Our data show the total absence of urinary elimination for both diosmin and its aglycone diosmetin, while its minor metabolites are eliminated in the urine, mainly as glucuronic acid conjugates. The presence of degradation products such as alkyl-phenolic acids confirms a metabolic pattern similar to other flavonoids.",
+        "affiliation": "Department of Pharmacology, CNR Center of Cytopharmacology, University of Milano, Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Absorption"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diosmetin",
+              "registryNumber": "TWZ37241OT"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 56,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1992-04-28",
+        "dateOfCreation": "1992-01-01",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "1992-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "1956869",
+        "source": "MED",
+        "pmid": "1956869",
+        "doi": "10.1016/1043-6618(91)90088-f",
+        "title": "Diosmin therapy alters the in vitro metabolism of noradrenaline by the varicose human saphenous vein.",
+        "authorString": "Araujo D, Viana F, Osswald W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Araujo D",
+              "lastName": "Araujo",
+              "firstName": "D",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Therapeutics, Faculty of Medicine, Porto, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Viana F",
+              "lastName": "Viana",
+              "firstName": "F",
+              "initials": "F"
+            },
+            {
+              "fullName": "Osswald W",
+              "lastName": "Osswald",
+              "firstName": "W",
+              "initials": "W"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "24",
+          "journalIssueId": 881785,
+          "dateOfPublication": "1991 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 1991,
+          "journal": {
+            "medlineAbbreviation": "Pharmacol Res",
+            "title": "Pharmacological research",
+            "essn": "1096-1186",
+            "issn": "1043-6618",
+            "isoabbreviation": "Pharmacol Res",
+            "nlmid": "8907422"
+          },
+          "printPublicationDate": "1991-10-01"
+        },
+        "pubYear": "1991",
+        "pageInfo": "253-256",
+        "abstractText": "We have previously shown that diosmin 30-100 mumol/l reduces the metabolism of noradrenaline (NA) in fragments of varicose saphenous veins obtained at surgery. Since diosmin is widely used in patients with chronic venous insufficiency we decided to test if the drug, administered in therapeutic doses to patients, would affect NA metabolism in the veins of the individuals so treated. Sex- and age-matched patients in which surgery was indicated were allocated in the order of admission to control (n = 5) or treated groups (n = 6; 600 mg twice a day, orally, during 10 days). Fragments of saphenous vein were incubated with [3H]NA 0.2 mumol/l during 60 min; the interval between operation and incubation was less than 30 min. Column chromatography and liquid scintillation counting were used to measure [3H]NA and its metabolites. In the treated group, accumulation of [3H]NA was significantly reduced and the formation of metabolites approximately halved. The present results show that oral administration of diosmin has evident effects on the in vitro metabolism of noradrenaline by the varicose tissue.",
+        "affiliation": "Department of Pharmacology and Therapeutics, Faculty of Medicine, Porto, Portugal.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saphenous Vein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Varicose Veins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SU",
+                    "qualifierName": "surgery"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Norepinephrine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosmin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Norepinephrine",
+              "registryNumber": "X4W3ENH1CV"
+            },
+            {
+              "name": "Diosmin",
+              "registryNumber": "7QM776WJ5N"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/1043-6618(91)90088-f"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1992-01-02",
+        "dateOfCreation": "1991-10-01",
+        "dateOfRevision": "2019-09-18",
+        "firstPublicationDate": "1991-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

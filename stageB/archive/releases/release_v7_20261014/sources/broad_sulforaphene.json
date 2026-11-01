@@ -1,0 +1,4462 @@
+{
+  "version": "6.9",
+  "hitCount": 13,
+  "request": {
+    "queryString": "TITLE:\"Sulforaphene\" AND (pharmacokinetic OR interaction OR coadministration OR metabolism OR synergistic) AND SRC:MED NOT PUB_TYPE:Review AND FIRST_PDATE:[1900-01-01 TO 2026-10-14]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41368333",
+        "source": "MED",
+        "pmid": "41368333",
+        "pmcid": "PMC12682706",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12682706"
+          ]
+        },
+        "doi": "10.1002/fsn3.71319",
+        "title": "Sulforaphene Mitigates Periodontitis by NRF2-Dependent Regulation of &lt;i&gt;P. gingivalis&lt;/i&gt;-Induced Inflammatory Response and Bone Homeostasis.",
+        "authorString": "Yao H, Yu K, Jiang B, Liao Y, Zhao Y, Chen J, Li T, Yin M, Sheng Y, Ye W, Zhao B, Du M, Ji Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yao H",
+              "lastName": "Yao",
+              "firstName": "Hantao",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  },
+                  {
+                    "affiliation": "Stomatology Hospital, School of Stomatology Zhejiang University School of Medicine, Zhejiang Provincial Clinical Research Center for Oral Diseases, Zhejiang Key Laboratory of Oral Biomedical, Cancer Center of Zhejiang University, Engineering Research Center of Oral Biomaterials and Devices of Zhejiang Province Hangzhou China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu K",
+              "lastName": "Yu",
+              "firstName": "Kai",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-6443-405X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang B",
+              "lastName": "Jiang",
+              "firstName": "Bulin",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  },
+                  {
+                    "affiliation": "Stomatology Hospital, School of Stomatology Zhejiang University School of Medicine, Zhejiang Provincial Clinical Research Center for Oral Diseases, Zhejiang Key Laboratory of Oral Biomedical, Cancer Center of Zhejiang University, Engineering Research Center of Oral Biomaterials and Devices of Zhejiang Province Hangzhou China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liao Y",
+              "lastName": "Liao",
+              "firstName": "Yilin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yaoyu",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen J",
+              "lastName": "Chen",
+              "firstName": "Jingqiu",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li T",
+              "lastName": "Li",
+              "firstName": "Ting",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yin M",
+              "lastName": "Yin",
+              "firstName": "Mengjie",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sheng Y",
+              "lastName": "Sheng",
+              "firstName": "Yue",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ye W",
+              "lastName": "Ye",
+              "firstName": "Wengwanyue",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao B",
+              "lastName": "Zhao",
+              "firstName": "Boxuan",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Du M",
+              "lastName": "Du",
+              "firstName": "Minquan",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ji Y",
+              "lastName": "Ji",
+              "firstName": "Yaoting",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0000-6443-405X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "13",
+          "journalIssueId": 4055338,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Food Sci Nutr",
+            "title": "Food science & nutrition",
+            "essn": "2048-7177",
+            "issn": "2048-7177",
+            "isoabbreviation": "Food Sci Nutr",
+            "nlmid": "101605473"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e71319",
+        "abstractText": "Periodontitis is a prevalent chronic inflammatory disease closely associated with various systemic disorders. Conventional therapies, including mechanical debridement and antibiotics, are often insufficient to fully resolve inflammation or restore bone homeostasis. Sulforaphene (LFS) is abundant in radish seed oil and Lai Fu-zi, a traditional Chinese herbal medicine and has been recognized for its anti-inflammatory potential. Here, we show that LFS markedly attenuates the secretion of pro-inflammatory cytokines (IL-1β, IL-6, and IL-8) from human gingival fibroblasts and inhibits osteoclast differentiation even under IL-1β-induced inflammatory conditions, without compromising the osteogenic capacity of periodontal ligament cells (PDLC). Mechanistically, LFS activates the NRF2 pathway and its protective effect against alveolar bone loss was evident in <i>Nrf2</i> <sup>+/+</sup> mice but not <i>Nrf2</i> <sup>-/-</sup> mice. Notably, LFS was also found to inhibit the growth, virulence, and biofilm formation of <i>P. gingivalis</i> in vitro, and reduced its abundance within the subgingival microbiota in vivo. Together, these findings identify LFS as a potent NRF2-dependent modulator, offering a promising therapeutic strategy for the prevention and treatment of periodontitis.",
+        "affiliation": "State Key Laboratory of Oral & Maxillofacial Reconstruction and Regeneration, Key Laboratory of Oral Biomedicine Ministry of Education, Hubei Key Laboratory of Stomatology, School & Hospital of Stomatology Wuhan University Wuhan China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82372463",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82172493",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81771084",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2024M762879",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Inflammation",
+            "Periodontitis",
+            "NRF2",
+            "P. Gingivalis",
+            "Osteoclast Differentiation",
+            "Sulforaphene"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/fsn3.71319"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12682706"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12682706?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2025-12-10",
+        "dateOfCreation": "2025-12-10",
+        "dateOfRevision": "2026-09-25",
+        "electronicPublicationDate": "2025-12-07",
+        "firstPublicationDate": "2025-12-07",
+        "firstIndexDate": "2025-12-11",
+        "fullTextReceivedDate": "2025-12-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39682970",
+        "source": "MED",
+        "pmid": "39682970",
+        "pmcid": "PMC11640330",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11640330"
+          ]
+        },
+        "doi": "10.3390/foods13233898",
+        "title": "Preparation, Characterization and In Vitro Anticancer Activity of Sulforaphene-Loaded Solid Lipid Nanoparticles.",
+        "authorString": "Han L, Ma X, Chen M, He J, Zhang W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Han L",
+              "lastName": "Han",
+              "firstName": "Lijuan",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0007-5398-0611"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for Deep Processing of Major Grain and Oil, Ministry of Education, Wuhan Polytechnic University, Wuhan 430023, China."
+                  },
+                  {
+                    "affiliation": "Hubei Key Laboratory for Processing and Transformation of Agricultural Products, Wuhan Polytechnic University, Wuhan 430023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma X",
+              "lastName": "Ma",
+              "firstName": "Xiaobo",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for Deep Processing of Major Grain and Oil, Ministry of Education, Wuhan Polytechnic University, Wuhan 430023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen M",
+              "lastName": "Chen",
+              "firstName": "Mingwen",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-6390-2363"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for Deep Processing of Major Grain and Oil, Ministry of Education, Wuhan Polytechnic University, Wuhan 430023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He J",
+              "lastName": "He",
+              "firstName": "Junbo",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2859-5408"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for Deep Processing of Major Grain and Oil, Ministry of Education, Wuhan Polytechnic University, Wuhan 430023, China."
+                  },
+                  {
+                    "affiliation": "Hubei Key Laboratory for Processing and Transformation of Agricultural Products, Wuhan Polytechnic University, Wuhan 430023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang W",
+              "lastName": "Zhang",
+              "firstName": "Weinong",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for Deep Processing of Major Grain and Oil, Ministry of Education, Wuhan Polytechnic University, Wuhan 430023, China."
+                  },
+                  {
+                    "affiliation": "Hubei Key Laboratory for Processing and Transformation of Agricultural Products, Wuhan Polytechnic University, Wuhan 430023, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2859-5408"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0007-5398-0611"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-6390-2363"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "23",
+          "volume": "13",
+          "journalIssueId": 3871647,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Foods",
+            "title": "Foods (Basel, Switzerland)",
+            "essn": "2304-8158",
+            "issn": "2304-8158",
+            "isoabbreviation": "Foods",
+            "nlmid": "101670569"
+          },
+          "printPublicationDate": "2024-12-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "3898",
+        "abstractText": "Sulforaphane (SFE) extracted from radish seeds has garnered significant research attention in recent years due to its notable biological activities, particularly its anticancer properties. However, SFE is highly sensitive to the environment; therefore, solid lipid nanoparticles (SLNs) were used to embed SFE to enhance its stability. SFE-SLNs were characterized and compared with free SFE to assess the impact of SLNs on SFE. The SFE-SLNs exhibited a spherical shape with a uniform and stable distribution. FTIR analysis suggested that SLNs might distribute SFE both within and on their surface. The SLNs effectively protected free SFE from breaking down at high temperatures, in water with pH levels between 2.0 and 9.0, and while being stored for over 8 weeks at 25 °C. In addition, the SFE in SFE-SLNs exhibited a sustained release compared to a sudden release of free SFE, leading to enhanced absorption in the intestine and improved bioavailability. Embedding SFE in SLNs did not make it less effective at killing cancer cells. This study provides an effective approach to improving the efficiency and stability of SFE, which could aid in incorporating its beneficial characteristics into products such as beverages, dairy products, solid formulations, and dietary supplements.",
+        "affiliation": "Key Laboratory for Deep Processing of Major Grain and Oil, Ministry of Education, Wuhan Polytechnic University, Wuhan 430023, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Special Project of Central Guide to Local Science and Technology Development (Innovation platform construction for food green processing technology and intelligent equipment)",
+              "grantId": "2022BGE247",
+              "orderIn": 0
+            },
+            {
+              "agency": "Special Project of Central Guide to Local Science and Technology Development (Innovation platform construction for food green processing technology and intelligent equipment)",
+              "grantId": "2019GYBQGDKFB04",
+              "orderIn": 0
+            },
+            {
+              "agency": "Key Laboratory for Deep Processing of Major Grain and Oil (Wuhan Polytechnic University), Ministry of Education",
+              "grantId": "2019GYBQGDKFB04",
+              "orderIn": 0
+            },
+            {
+              "agency": "Special Project of Central Guide to Local Science and Technology Development (Innovation plat-form construction for food green processing technology and intelligent equipment)",
+              "grantId": "2022BGE247",
+              "orderIn": 0
+            },
+            {
+              "agency": "Key Laboratory for Deep Processing of Major Grain and Oil (Wuhan Polytechnic University), the Ministry of Education",
+              "grantId": "2019GYBQGDKFB04",
+              "orderIn": 0
+            },
+            {
+              "agency": "Key Laboratory for Deep Processing of Major Grain and Oil (Wuhan Polytechnic University), the Ministry of Education",
+              "grantId": "2022BGE247",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Stability",
+            "Characterization",
+            "Solid lipid nanoparticles",
+            "In Vitro Anticancer Activity",
+            "Sulforaphene"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.3390/foods13233898"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/foods13233898"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11640330"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11640330?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-12-17",
+        "dateOfRevision": "2025-01-04",
+        "electronicPublicationDate": "2024-12-03",
+        "firstPublicationDate": "2024-12-03",
+        "firstIndexDate": "2024-12-17",
+        "fullTextReceivedDate": "2024-12-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39045717",
+        "source": "MED",
+        "pmid": "39045717",
+        "doi": "10.1002/jsfa.13765",
+        "title": "Novel pH-sensitive gellan gum-ε-polylysine hydrogel microspheres for sulforaphene delivery.",
+        "authorString": "Qu Y, Li X, Chen X, Li J, Yu Z, Shen R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Qu Y",
+              "lastName": "Qu",
+              "firstName": "Yang",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-8666-7687"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Bohai University, Jinzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li X",
+              "lastName": "Li",
+              "firstName": "Xiuxia",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Bohai University, Jinzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen X",
+              "lastName": "Chen",
+              "firstName": "Xiaoqiao",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4213-423X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Bohai University, Jinzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jianrong",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Bohai University, Jinzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu Z",
+              "lastName": "Yu",
+              "firstName": "Zhangfu",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hangzhou Xiaoshan Agriculture Development Co., Ltd, Hangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shen R",
+              "lastName": "Shen",
+              "firstName": "Ronghu",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hangzhou Xiaoshan Agriculture Development Co., Ltd, Hangzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4213-423X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-8666-7687"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "15",
+          "volume": "104",
+          "journalIssueId": 3846996,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "J Sci Food Agric",
+            "title": "Journal of the science of food and agriculture",
+            "essn": "1097-0010",
+            "issn": "1097-0010",
+            "isoabbreviation": "J Sci Food Agric",
+            "nlmid": "0376334"
+          },
+          "printPublicationDate": "2024-12-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "9423-9433",
+        "abstractText": "<h4>Background</h4>This study aimed to improve the stability and utilization of sulforaphene (SFE) and to enhance the intestinal stability and pH-sensitive release of SFE in the gastrointestinal tract. To achieve this objective, calcium chloride (CaCl<sub>2</sub>) was used as a crosslinking agent to fabricate novel SFE-loaded gellan gum (GG)-ε-polylysine (ε-PL) pH-sensitive hydrogel microspheres by using the ionic crosslinking technique.<h4>Results</h4>The molecular docking results of GG, ε-PL, and SFE were good and occurred in the natural state. The loading efficiency (LE) of all samples was above 70%. According to the structural characterization results, GG and ε-PL successfully embedded SFE in a three-dimensional network structure through electrostatic interaction. The swelling characteristics and in vitro release results revealed that the microspheres were pH-sensitive, and SFE was mainly retained inside the hydrogel microsphere in the stomach, and subsequently released in the intestine. The result of cytotoxicity assay showed that the hydrogel microspheres were non-toxic and had an inhibitory effect on human colon cancer Caco-2 cells.<h4>Conclusion</h4>Thus, the hydrogel microspheres could improve SFE stability and utilization and achieve the intestinal targeted delivery of SFE. © 2024 Society of Chemical Industry.",
+        "affiliation": "College of Food Science and Technology, Bohai University, Jinzhou, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Evaluation Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Polysaccharides, Bacterial",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Polylysine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hydrogels",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Carriers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Delivery Systems"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Microspheres"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "In vitro release",
+            "Hydrogel Microspheres",
+            "Sulforaphene",
+            "Ph‐sensitive"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Polysaccharides, Bacterial",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Polylysine",
+              "registryNumber": "25104-18-1"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hydrogels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gellan gum",
+              "registryNumber": "7593U09I4D"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/jsfa.13765"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-11-05",
+        "dateOfCreation": "2024-07-24",
+        "dateOfRevision": "2024-11-05",
+        "electronicPublicationDate": "2024-07-24",
+        "firstPublicationDate": "2024-07-24",
+        "firstIndexDate": "2024-07-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37362810",
+        "source": "MED",
+        "pmid": "37362810",
+        "pmcid": "PMC10290006",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10290006"
+          ]
+        },
+        "doi": "10.1007/s10068-023-01304-2",
+        "title": "Enhancing stability and bioavailability of sulforaphene in radish seed extracts using nanoemulsion made with high oleic sunflower oil.",
+        "authorString": "Lee TK, Hur G, Choi J, Ban C, Kim JY, Yang H, Park JHY, Lee KW, Kim JH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lee TK",
+              "lastName": "Lee",
+              "firstName": "Tae Kyung",
+              "initials": "TK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomodulation Major, Department of Agricultural Biotechnology, Seoul National University, Seoul, 08826 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hur G",
+              "lastName": "Hur",
+              "firstName": "Gihyun",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomodulation Major, Department of Agricultural Biotechnology, Seoul National University, Seoul, 08826 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Choi J",
+              "lastName": "Choi",
+              "firstName": "Jeongyoon",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Next Generation Applied Sciences, Graduate School, Sungshin Women's University, Seoul, 01133 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ban C",
+              "lastName": "Ban",
+              "firstName": "Choongjin",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Environmental Horticulture, University of Seoul, Seoul, 02504 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim JY",
+              "lastName": "Kim",
+              "firstName": "Jong-Yea",
+              "initials": "JY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Biotechnology, Institute of Fermentation and Brewing, Kangwon National University, Chuncheon, 24341 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang H",
+              "lastName": "Yang",
+              "firstName": "Hee",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food and Nutrition, Kookmin University, Seoul, 02707 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Park JHY",
+              "lastName": "Park",
+              "firstName": "Jung Han Yoon",
+              "initials": "JHY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bio-MAX Institute, Seoul National University, Seoul, 08826 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee KW",
+              "lastName": "Lee",
+              "firstName": "Ki Won",
+              "initials": "KW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomodulation Major, Department of Agricultural Biotechnology, Seoul National University, Seoul, 08826 Republic of Korea."
+                  },
+                  {
+                    "affiliation": "Bio-MAX Institute, Seoul National University, Seoul, 08826 Republic of Korea."
+                  },
+                  {
+                    "affiliation": "Advanced Institute of Convergence Technology, Seoul National University, Suwon, 16229 Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim JH",
+              "lastName": "Kim",
+              "firstName": "Jong Hun",
+              "initials": "JH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9431-9906"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Biotechnology, Institute for Basic Sciences, Sungshin Women's University, Seoul, 01133 Republic of Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8638-2833"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9431-9906"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-3108-7653"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "32",
+          "journalIssueId": 3594336,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Food Sci Biotechnol",
+            "title": "Food science and biotechnology",
+            "essn": "2092-6456",
+            "issn": "1226-7708",
+            "isoabbreviation": "Food Sci Biotechnol",
+            "nlmid": "9816587"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "1269-1279",
+        "abstractText": "The effect of nanoemulsions on the stability and bioavailability of sulforaphene (SFEN) in radish seed extract (RSE) was investigated. Four types of oil were used as lipid ingredients of the nanoemulsions: soybean, high oleic acid sunflower, coconut, and hydrogenated palm oils. SFEN in RSE nanoemulsions showed greater stability to temperature, acid, and alkaline conditions than SFEN in RSE suspended in water (RSE-S). Particularly under alkaline conditions, the half-life of SFEN in the nanoemulsion with high oleic sunflower oil (RSE-HOSO) was 8 times longer than that of RSE-S. Furthermore, in the pharmacokinetics study, it was observed that AUC<sub>0-8</sub> increased and oral clearance (CL/F) decreased significantly in rats orally administered RSE-HOSO compared with RSE-S (<i>p <</i> 0.05). This study indicates that the type of oil used in nanoemulsions affects the stability and bioavailability of SFEN in RSE. These results may provide a guideline for the development of functional foods containing RSE.<h4>Supplementary information</h4>The online version contains supplementary material available at 10.1007/s10068-023-01304-2.",
+        "affiliation": "Biomodulation Major, Department of Agricultural Biotechnology, Seoul National University, Seoul, 08826 Republic of Korea.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministry of Science and ICT, South Korea",
+              "grantId": "2021R1F1A1062871",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Science and ICT, South Korea",
+              "grantId": "2018R1C1B6008236",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Storage stability",
+            "Radish seeds",
+            "Nanoemulsion",
+            "Vegetable Oils"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s10068-023-01304-2"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10290006"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10290006?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s10068-023-01304-2"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2023-06-26",
+        "dateOfRevision": "2024-04-05",
+        "electronicPublicationDate": "2023-04-04",
+        "firstPublicationDate": "2023-04-04",
+        "firstIndexDate": "2023-06-27",
+        "fullTextReceivedDate": "2025-02-04",
+        "embargoDate": "2024-04-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36437519",
+        "source": "MED",
+        "pmid": "36437519",
+        "pmcid": "PMC9720075",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9720075"
+          ]
+        },
+        "doi": "10.4014/jmb.2209.09051",
+        "title": "Sulforaphene Attenuates <i>Cutibacterium acnes</i>-Induced Inflammation.",
+        "authorString": "Hwang HJ, Kim JE, Lee KW.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hwang HJ",
+              "lastName": "Hwang",
+              "firstName": "Hwan Ju",
+              "initials": "HJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WCU Biomodulation Major and Research Institute of Agriculture and Life Sciences, Department of Agricultural Biotechnology, Seoul National University, Seoul 08826, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim JE",
+              "lastName": "Kim",
+              "firstName": "Jong-Eun",
+              "initials": "JE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Technology, Korea National University of Transportation, Jeungpyeong 27909, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee KW",
+              "lastName": "Lee",
+              "firstName": "Ki Won",
+              "initials": "KW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WCU Biomodulation Major and Research Institute of Agriculture and Life Sciences, Department of Agricultural Biotechnology, Seoul National University, Seoul 08826, Republic of Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "32",
+          "journalIssueId": 3458680,
+          "dateOfPublication": "2022 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "J Microbiol Biotechnol",
+            "title": "Journal of microbiology and biotechnology",
+            "essn": "1738-8872",
+            "issn": "1017-7825",
+            "isoabbreviation": "J Microbiol Biotechnol",
+            "nlmid": "9431852"
+          },
+          "printPublicationDate": "2022-11-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "1390-1395",
+        "abstractText": "Acne is a chronic inflammatory disease of the sebaceous gland attached to the hair follicles. <i>Cutibacterium acnes</i> is a major cause of inflammation caused by acne. It is well known that <i>C. acnes</i> secretes a lipolytic enzyme to break down lipids in sebum, and free fatty acids produced at this time accelerate the inflammatory reaction. There are several drugs used to treat acne; however, each one has various side effects. According to previous studies, sulforaphene (SFEN) has several functions associated with lipid metabolism, brain function, and antibacterial and anti-inflammatory activities. In this study, we examined the effects of SFEN on bacterial growth and inflammatory cytokine production induced by <i>C. acnes</i>. The results revealed that SFEN reduced the growth of <i>C. acnes</i> and inhibited proinflammatory cytokines in <i>C. acnes</i>-treated HaCaT keratinocytes through inhibiting NF-κB-related pathways. In addition, SFEN regulated the expression level of IL-1α, a representative pro-inflammatory cytokine expressed in co-cultured HaCaT keratinocytes and THP-1 monocytes induced by <i>C. acnes</i>. In conclusion, SFEN showed antibacterial activity against <i>C. acnes</i> and controlled the inflammatory response on keratinocytes and monocytes. This finding means that SFEN has potential as both a cosmetic material for acne prevention and a pharmaceutical material for acne treatment.",
+        "affiliation": "WCU Biomodulation Major and Research Institute of Agriculture and Life Sciences, Department of Agricultural Biotechnology, Seoul National University, Seoul 08826, Republic of Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Research Foundation of Korea",
+              "grantId": "2019R1C1C1004387",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Agriculture, Food and Rural Affairs",
+              "grantId": "821027",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education",
+              "grantId": "2021RIS-001",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Science and ICT, South Korea",
+              "orderIn": 0
+            },
+            {
+              "agency": "Korea National University of Transportation",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of SMEs and Startups",
+              "orderIn": 0
+            },
+            {
+              "agency": "Korea Technology and Information Promotion Agency for SMEs",
+              "grantId": "S3174595",
+              "orderIn": 0
+            },
+            {
+              "agency": "Korea Institute of Planning and Evaluation for Technology in Food, Agriculture and Forestry",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Propionibacterium acnes"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acne Vulgaris",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Inflammation",
+            "ACNE",
+            "Cutibacterium Acnes"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sulphoraphene",
+              "registryNumber": "NCO9MC39IO"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.jmb.or.kr/journal/download_pdf.php?doi=10.4014/jmb.2209.09051"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.4014/jmb.2209.09051"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9720075"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9720075?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-11-29",
+        "dateOfCreation": "2022-11-28",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2022-10-30",
+        "firstPublicationDate": "2022-10-30",
+        "firstIndexDate": "2022-11-29",
+        "fullTextReceivedDate": "2022-12-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37760656",
+        "source": "MED",
+        "pmid": "37760656",
+        "pmcid": "PMC10525627",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10525627"
+          ]
+        },
+        "doi": "10.3390/antibiotics12091359",
+        "title": "Effects of Sulforaphene on the Cariogenic Properties of Streptococcus Mutans In Vitro and Dental Caries Development In Vivo.",
+        "authorString": "Zhou Y, Zhang B, Wang Y, Hu R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhou Y",
+              "lastName": "Zhou",
+              "firstName": "Yuehong",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The College of Renji, Wenzhou Medical University, Wenzhou 325000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang B",
+              "lastName": "Zhang",
+              "firstName": "Binhan",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral Diseases, National Clinical Research Center for Oral Diseases, Department of Cariology and Endodontics, West China Hospital of Stomatology, Sichuan University, Chengdu 610041, China."
+                  },
+                  {
+                    "affiliation": "The College of Life Science, Sichuan University, Chengdu 610041, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yufei",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Oral Diseases, National Clinical Research Center for Oral Diseases, Department of Cariology and Endodontics, West China Hospital of Stomatology, Sichuan University, Chengdu 610041, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu R",
+              "lastName": "Hu",
+              "firstName": "Rongdang",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The College of Renji, Wenzhou Medical University, Wenzhou 325000, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "12",
+          "journalIssueId": 3639682,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Antibiotics (Basel)",
+            "title": "Antibiotics (Basel, Switzerland)",
+            "essn": "2079-6382",
+            "issn": "2079-6382",
+            "isoabbreviation": "Antibiotics (Basel)",
+            "nlmid": "101637404"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "1359",
+        "abstractText": "Sulforaphene (SFE) is a common nutritional supplement with antibacterial, anti-cancer, and anti-inflammatory effects. However, the effects of SFE on the cariogenicity of <i>Streptococcus mutans</i> and dental caries have not been reported. The objectives of this study were to investigate the caries-controlling potential of SFE. The effects of SFE on <i>S. mutans</i> were investigated using the broth microdilution method, crystal violet staining, SEM observation, acid tolerance assays, lactic acid quantification, and polysaccharide measurements. A rat caries model was established to evaluate the caries-controlling effects and biocompatibility of SFE in vivo. SFE inhibited <i>S. mutans</i> growth and biofilm formation. Furthermore, SFE restrained the cariogenic properties of <i>S. mutans</i>, including its acid production, acid tolerance, and extracellular polysaccharide production, without affecting the bacterial viability at sub-inhibitory levels. In the rat caries model, SFE significantly arrested the onset and development of dental caries. Moreover, no visible hemolytic phenomenon or cytotoxicity was detected in the SFE groups. After four weeks of SFE treatment, all rats remained in apparent good health with no significant differences in weight gain; their hemogram and biochemical parameters were normal; no pathological changes were observed in the oral mucosa, liver, or kidneys. In conclusion, SFE was safe and inhibited the development of caries effectively.",
+        "affiliation": "The College of Renji, Wenzhou Medical University, Wenzhou 325000, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Sichuan Science and Technology Program",
+              "grantId": "wyx2022101132",
+              "orderIn": 0
+            },
+            {
+              "agency": "Wenzhou Medical University Student Research Project Funding Subjects",
+              "grantId": "2023YFS0343",
+              "orderIn": 0
+            },
+            {
+              "agency": "Wenzhou Medical University Student Research Project Funding Subjects",
+              "grantId": "wyx2022101132",
+              "orderIn": 0
+            },
+            {
+              "agency": "Sichuan Science and Technology Program",
+              "grantId": "2023YFS0343",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Streptococcus mutans",
+            "Rat",
+            "Isothiocyanates",
+            "biofilms",
+            "Sulforaphene"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/antibiotics12091359"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10525627"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10525627?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2023-09-28",
+        "dateOfRevision": "2023-10-03",
+        "electronicPublicationDate": "2023-08-24",
+        "firstPublicationDate": "2023-08-24",
+        "firstIndexDate": "2023-09-29",
+        "fullTextReceivedDate": "2023-09-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37685936",
+        "source": "MED",
+        "pmid": "37685936",
+        "pmcid": "PMC10487408",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10487408"
+          ]
+        },
+        "doi": "10.3390/ijms241713129",
+        "title": "New Insight into the Potential Protective Function of Sulforaphene against ROS-Mediated Oxidative Stress Damage In Vitro and In Vivo.",
+        "authorString": "Zhang B, Liu P, Sheng H, Guo Y, Han Y, Suo L, Yuan Q.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang B",
+              "lastName": "Zhang",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu P",
+              "lastName": "Liu",
+              "firstName": "Pengtao",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sheng H",
+              "lastName": "Sheng",
+              "firstName": "Huakang",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo Y",
+              "lastName": "Guo",
+              "firstName": "Yang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han Y",
+              "lastName": "Han",
+              "firstName": "Yongzhi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Suo L",
+              "lastName": "Suo",
+              "firstName": "Lin",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yuan Q",
+              "lastName": "Yuan",
+              "firstName": "Qipeng",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "17",
+          "volume": "24",
+          "journalIssueId": 3630661,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Int J Mol Sci",
+            "title": "International journal of molecular sciences",
+            "essn": "1422-0067",
+            "issn": "1422-0067",
+            "isoabbreviation": "Int J Mol Sci",
+            "nlmid": "101092791"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "13129",
+        "abstractText": "Sulforaphene (SFE) is a kind of isothiocyanate isolated from radish seeds that can prevent free-radical-induced diseases. In this study, we investigated the protective effect of SFE on oxidative-stress-induced damage and its molecular mechanism in vitro and in vivo. The results of cell experiments show that SFE can alleviate D-gal-induced cytotoxicity, promote cell cycle transformation by inhibiting the production of reactive oxygen species (ROS) and cell apoptosis, and show a protective effect on cells with H2O2-induced oxidative damage. Furthermore, the results of mice experiments show that SFE can alleviate D-galactose-induced kidney damage by inhibiting ROS, malondialdehyde (MDA), and 4-hydroxyalkenals (4-HNE) production; protect the kidney against oxidative stress-induced damage by increasing antioxidant enzyme activity and upregulating the Nrf2 signaling pathway; and inhibit the activity of pro-inflammatory factors by downregulating the expression of Toll-like receptor 4 (TLR4)-mediated inflammatory response. In conclusion, this research shows that SFE has antioxidant effects, providing a new perspective for studying the anti-aging properties of natural compounds.",
+        "affiliation": "State Key Laboratory of Chemical Resource Engineering, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing 100029, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Tianjin Synthetic Biotechnology Innovation Capacity Improvement Project",
+              "grantId": "22078011",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "22078011",
+              "orderIn": 0
+            },
+            {
+              "agency": "Key Research and Development Program of Guangdong Province",
+              "grantId": "TSBICIP−KJGG−009",
+              "orderIn": 0
+            },
+            {
+              "agency": "Key Research and Development Program of Guangdong Province",
+              "grantId": "2022B1111080003",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "2022B1111080003",
+              "orderIn": 0
+            },
+            {
+              "agency": "Key Research and Development Program of Guangdong Province",
+              "grantId": "22078011",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "TSBICIP−KJGG−009",
+              "orderIn": 0
+            },
+            {
+              "agency": "Tianjin Synthetic Biotechnology Innovation Capacity Improvement Project",
+              "grantId": "TSBICIP−KJGG−009",
+              "orderIn": 0
+            },
+            {
+              "agency": "Key Research and Development Program of Guangdong Province",
+              "grantId": "22238001",
+              "orderIn": 0
+            },
+            {
+              "agency": "Tianjin Synthetic Biotechnology Innovation Capacity Improvement Project",
+              "grantId": "22238001",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "22238001",
+              "orderIn": 0
+            },
+            {
+              "agency": "Tianjin Synthetic Biotechnology Innovation Capacity Improvement Project",
+              "grantId": "2022B1111080003",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hydrogen Peroxide"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oxidative Stress"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Oxidative damage",
+            "Inflammation",
+            "NRF2",
+            "Sulforaphene",
+            "Anti−aging"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "registryNumber": "BBX060AN9V"
+            },
+            {
+              "name": "sulphoraphene",
+              "registryNumber": "NCO9MC39IO"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/1422-0067/24/17/13129/pdf?version=1692870028"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ijms241713129"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10487408"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10487408?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2023-09-11",
+        "dateOfCreation": "2023-09-09",
+        "dateOfRevision": "2023-09-11",
+        "electronicPublicationDate": "2023-08-23",
+        "firstPublicationDate": "2023-08-23",
+        "firstIndexDate": "2023-09-10",
+        "fullTextReceivedDate": "2023-09-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37970356",
+        "source": "MED",
+        "pmid": "37970356",
+        "pmcid": "PMC10636680",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10636680"
+          ]
+        },
+        "title": "Sulforaphene suppresses oesophageal cancer growth through mitogen- and stress-activated kinase 2 in a PDX mouse model.",
+        "authorString": "Zhang C, Wu Q, Yao K, Jin G, Zhao S, Zhang J, Zheng W, Xu B, Zu Y, Yuan J, Liu K, Guo Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang C",
+              "lastName": "Zhang",
+              "firstName": "Chengjuan",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center of Bio-Repository, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China."
+                  },
+                  {
+                    "affiliation": "Henan Key Laboratory of Molecular Pathology Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu Q",
+              "lastName": "Wu",
+              "firstName": "Qiong",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University Zhengzhou, Henan, P. R. China."
+                  },
+                  {
+                    "affiliation": "China-US (Henan) Hormel Cancer Institute Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao K",
+              "lastName": "Yao",
+              "firstName": "Ke",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cellular and Molecular Biology, University of Minnesota Austin, MN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jin G",
+              "lastName": "Jin",
+              "firstName": "Guoguo",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Henan Key Laboratory of Chronic Disease Management, Fuwai Central China Cardiovascular Hospital Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao S",
+              "lastName": "Zhao",
+              "firstName": "Simin",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Junxia",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Academy of Chinese Medical Sciences, Henan University of Chinese Medicine Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zheng W",
+              "lastName": "Zheng",
+              "firstName": "Wenjin",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center of Bio-Repository, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu B",
+              "lastName": "Xu",
+              "firstName": "Benling",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Immunotherapy, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zu Y",
+              "lastName": "Zu",
+              "firstName": "Yingling",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Hematology, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yuan J",
+              "lastName": "Yuan",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center of Bio-Repository, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu K",
+              "lastName": "Liu",
+              "firstName": "Kangdong",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University Zhengzhou, Henan, P. R. China."
+                  },
+                  {
+                    "affiliation": "China-US (Henan) Hormel Cancer Institute Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo Y",
+              "lastName": "Guo",
+              "firstName": "Yongjun",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular Pathology, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "13",
+          "journalIssueId": 3664810,
+          "dateOfPublication": "2023 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Am J Cancer Res",
+            "title": "American journal of cancer research",
+            "essn": "2156-6976",
+            "issn": "2156-6976",
+            "isoabbreviation": "Am J Cancer Res",
+            "nlmid": "101549944"
+          },
+          "printPublicationDate": "2023-01-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "4708-4720",
+        "abstractText": "<h4>Background</h4>Although sulforaphene has potential anticancer effects, little is known about its effect on oesophageal squamous cell carcinoma (ESCC) invasiveness.<h4>Methods</h4>To investigate whether sulforaphene inhibits the growth of oesophageal cancer cells, MTT and anchorage-independent cell growth assays were performed. Global changes in the proteome and phosphoproteome of oesophageal cancer cells after sulforaphene treatment were analysed by mass spectrometry (MS), and the underlying molecular mechanism was further verified by in vivo and in vitro experiments.<h4>Results</h4>Sulforaphene treatment markedly affected proteins that regulate several cellular processes in oesophageal cancer cells, and mitogen- and stress-activated kinase 2 (MSK2) was the main genetic target of sulforaphene in reducing the growth of oesophageal cancer cells. Sulforaphene significantly suppressed ESCC cell proliferation in vitro and reduced the tumour size in an oesophageal patient-derived xenograft (PDX) SCID mouse model. Furthermore, the binding of sulforaphane to MSK2 in vitro was verified using a cellular thermal dhift assay, and the effect of MSK2 knockdown on the ESCC phenotype was observed using a shMSK2 model.<h4>Conclusion</h4>The results showed that sulforaphene suppresses ESCC growth in both human oesophageal squamous cells and PDX mouse model by inhibiting MSK2 expression, implicating sulforaphene as a promising candidate for ESCC treatment.",
+        "affiliation": "Center of Bio-Repository, The Affiliated Cancer Hospital of Zhengzhou University, Henan Cancer Hospital Zhengzhou, Henan, P. R. China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Proliferation",
+            "Oesophageal Cancer",
+            "Sulforaphene",
+            "Mitogen-activated And Stress-activated Kinase 2 (Msk2)",
+            "Patient-derived Xenograft Mouse Model (Pdx)"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10636680"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10636680?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2023-11-16",
+        "dateOfRevision": "2023-11-17",
+        "electronicPublicationDate": "2023-10-15",
+        "firstPublicationDate": "2023-10-15",
+        "firstIndexDate": "2023-11-16",
+        "fullTextReceivedDate": "2023-11-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34457045",
+        "source": "MED",
+        "pmid": "34457045",
+        "pmcid": "PMC8358736",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8358736"
+          ]
+        },
+        "doi": "10.3892/ol.2021.12951",
+        "title": "Examination of the differences between sulforaphane and sulforaphene in colon cancer: A study based on next-generation sequencing.",
+        "authorString": "Gao L, Du F, Wang J, Zhao Y, Liu J, Cai D, Zhang X, Wang Y, Zhang S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gao L",
+              "lastName": "Gao",
+              "firstName": "Lei",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China."
+                  },
+                  {
+                    "affiliation": "Shandong Provincial Key Laboratory of Test Technology on Food Quality and Safety, Jinan, Shandong 250100, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Du F",
+              "lastName": "Du",
+              "firstName": "Fengying",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2767-1301"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Gastrointestinal Surgery, Shandong Provincial Hospital, Cheeloo College of Medicine, Shandong University, Jinan, Shandong 250021, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jinshen",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Gastrointestinal Surgery, Shandong Provincial Hospital, Cheeloo College of Medicine, Shandong University, Jinan, Shandong 250021, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yuhua",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China."
+                  },
+                  {
+                    "affiliation": "Shandong Provincial Key Laboratory of Test Technology on Food Quality and Safety, Jinan, Shandong 250100, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu J",
+              "lastName": "Liu",
+              "firstName": "Junhua",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China."
+                  },
+                  {
+                    "affiliation": "Shandong Provincial Key Laboratory of Test Technology on Food Quality and Safety, Jinan, Shandong 250100, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cai D",
+              "lastName": "Cai",
+              "firstName": "Da",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China."
+                  },
+                  {
+                    "affiliation": "Shandong Provincial Key Laboratory of Test Technology on Food Quality and Safety, Jinan, Shandong 250100, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "Xiao",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China."
+                  },
+                  {
+                    "affiliation": "Shandong Provincial Key Laboratory of Test Technology on Food Quality and Safety, Jinan, Shandong 250100, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yutao",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China."
+                  },
+                  {
+                    "affiliation": "Shandong Provincial Key Laboratory of Test Technology on Food Quality and Safety, Jinan, Shandong 250100, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang S",
+              "lastName": "Zhang",
+              "firstName": "Shuqiu",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China."
+                  },
+                  {
+                    "affiliation": "Shandong Provincial Key Laboratory of Test Technology on Food Quality and Safety, Jinan, Shandong 250100, P.R. China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2767-1301"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "22",
+          "journalIssueId": 3222968,
+          "dateOfPublication": "2021 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Oncol Lett",
+            "title": "Oncology letters",
+            "essn": "1792-1082",
+            "issn": "1792-1074",
+            "isoabbreviation": "Oncol Lett",
+            "nlmid": "101531236"
+          },
+          "printPublicationDate": "2021-10-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "690",
+        "abstractText": "Sulforaphane and sulforaphene are isothiocyanate compounds derived from cruciferous vegetables that have demonstrated antiproliferative properties against colon cancer. However, the underlying mechanism of action of these two compounds has yet to be elucidated. The aim of the present study was to examine the effects of sulforaphane and sulforaphene on colon cancer using next-generation sequencing (NGS). The SW480 colon cancer cell line was cultured with 25 µmol/l sulforaphane or sulforaphene. Total RNA was extracted from the cells following 48 h of incubation with these compounds, and NGS was performed. Pearson's correlation and principal component analyses were performed on the NGS data in order to determine sample homogeneity followed by hierarchical clustering, chromosomal location, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses. A total of 873 probes in the sulforaphene group were differentially expressed compared with the control group. Similarly, 959 probes in the sulforaphane group were differentially expressed compared with the control group. The differentially expressed genes were dispersed on the chromosomes, across 22 pairs of autosomes, as well as the X and Y chromosomes. GO and KEGG analyses demonstrated that both drugs affected the 'p53 signaling pathway', 'MAPK signaling pathway', 'FOXO signaling pathway' and 'estrogen signaling pathway', while 'Wnt signaling pathway' was enriched in the sulforaphane group, and 'ubiquitin mediated proteolysis' and 'estrogen signaling pathway' in the sulforaphene group. Thus, sulforaphane and sulforaphene exhibited similar biological activities on colon cancer cells. Sulforaphane and sulforaphene may be associated with Wnt and estrogen signaling, respectively.",
+        "affiliation": "Institute of Quality Standard and Testing Technology for Agro-Products, Shandong Academy of Agricultural Sciences, Jinan, Shandong 250100, P.R. China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Colon cancer",
+            "sulforaphane",
+            "Wnt pathway",
+            "Next-generation Sequencing",
+            "Sulforaphene",
+            "Estrogen Pathway"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.spandidos-publications.com/10.3892/ol.2021.12951/download"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3892/ol.2021.12951"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8358736"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8358736?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "go",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2021-08-30",
+        "dateOfRevision": "2021-08-31",
+        "electronicPublicationDate": "2021-08-01",
+        "firstPublicationDate": "2021-08-01",
+        "firstIndexDate": "2021-08-31",
+        "fullTextReceivedDate": "2021-08-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32873775",
+        "source": "MED",
+        "pmid": "32873775",
+        "pmcid": "PMC7463232",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7463232"
+          ]
+        },
+        "doi": "10.1038/s41419-020-02859-2",
+        "title": "Sulforaphene inhibits esophageal cancer progression via suppressing SCD and CDH3 expression, and activating the GADD45B-MAP2K3-p38-p53 feedback loop.",
+        "authorString": "Han S, Wang Y, Ma J, Wang Z, Wang HD, Yuan Q.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Han S",
+              "lastName": "Han",
+              "firstName": "Sichong",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing University of Chemical Technology, Beijing, 100029, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yandong",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing University of Chemical Technology, Beijing, 100029, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma J",
+              "lastName": "Ma",
+              "firstName": "Jie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotherapy, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, 100730, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zhe",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing University of Chemical Technology, Beijing, 100029, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang HD",
+              "lastName": "Wang",
+              "firstName": "Hui-Min David",
+              "initials": "HD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Institute of Biomedical Engineering, National Chung Hsing University, Taichung City, 402, Taiwan. davidw@dragon.nchu.edu.tw."
+                  },
+                  {
+                    "affiliation": "Department of Medical Laboratory Science and Biotechnology, China Medical University, Taichung City, 404, Taiwan. davidw@dragon.nchu.edu.tw."
+                  },
+                  {
+                    "affiliation": "Graduate Institute of Medicine, College of Medicine, Kaohsiung Medical University, Kaohsiung City, 807, Taiwan. davidw@dragon.nchu.edu.tw."
+                  },
+                  {
+                    "affiliation": "College of Food and Biological Engineering, Jimei University, Xiamen City, 361021, Fujian Province, P.R. China. davidw@dragon.nchu.edu.tw."
+                  },
+                  {
+                    "affiliation": "Undergraduate Program Study of Biomedical Engineering, Physics Department, Airlangga University, Surabaya City, 60115, Indonesia. davidw@dragon.nchu.edu.tw."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yuan Q",
+              "lastName": "Yuan",
+              "firstName": "Qipeng",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing University of Chemical Technology, Beijing, 100029, P.R. China. yuanqp@mail.buct.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4692-4917"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "11",
+          "journalIssueId": 3004597,
+          "dateOfPublication": "2020 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Cell Death Dis",
+            "title": "Cell death & disease",
+            "essn": "2041-4889",
+            "issn": "2041-4889",
+            "isoabbreviation": "Cell Death Dis",
+            "nlmid": "101524092"
+          },
+          "printPublicationDate": "2020-09-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "713",
+        "abstractText": "Esophageal cancer is one of the most common cancer with limited therapeutic strategies, thus it is important to develop more effective strategies to against it. Sulforaphene (SFE), an isothiocyanate isolated from radish seeds, was proved to inhibit esophageal cancer progression in the current study. Flow cytometric analysis showed SFE induced cell apoptosis and cycle arrest in G2/M phase. Also, scrape motility and transwell assays presented SFE reduced esophageal cancer cell metastasis. Microarray results showed the influence of SFE on esophageal cancer cells was related with stearoyl-CoA desaturase (SCD), cadherin 3 (CDH3), mitogen-activated protein kinase kinase 3 (MAP2K3) and growth arrest and DNA damage inducible beta (GADD45B). SCD and CDH3 could promote esophageal cancer metastasis via activating the Wnt pathway, while the latter one was involved in a positive feedback loop, GADD45B-MAP2K3-p38-p53, to suppress esophageal cancer growth. GADD45B was known to be the target gene of p53, and we proved in this study, it could increase the phosphorylation level of MAP2K3 in esophageal cancer cells, activating p38 and p53 in turn. SFE treatment elevated MAP2K3 and GADD45B expression and further stimulated this feedback loop to better exert antitumor effect. In summary, these results demonstrated that SFE had the potential for developing as a chemotherapeutic agent because of its inhibitory effects on esophageal cancer metastasis and proliferation.",
+        "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing University of Chemical Technology, Beijing, 100029, P.R. China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "51772018",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Nude"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Esophageal Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Progression"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stearoyl-CoA Desaturase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MAP Kinase Kinase 3",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "p38 Mitogen-Activated Protein Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cadherins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antigens, Differentiation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Movement",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MAP Kinase Signaling System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Neoplastic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Suppressor Protein p53",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "GADD45 Proteins"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "GADD45B protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antigens, Differentiation",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cadherins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tumor Suppressor Protein p53",
+              "registryNumber": "0"
+            },
+            {
+              "name": "MAP Kinase Kinase 3",
+              "registryNumber": "EC 2.7.12.2"
+            },
+            {
+              "name": "p38 Mitogen-Activated Protein Kinases",
+              "registryNumber": "EC 2.7.11.24"
+            },
+            {
+              "name": "Stearoyl-CoA Desaturase",
+              "registryNumber": "EC 1.14.19.1"
+            },
+            {
+              "name": "MAP2K3 protein, human",
+              "registryNumber": "EC 2.7.12.2"
+            },
+            {
+              "name": "sulphoraphene",
+              "registryNumber": "NCO9MC39IO"
+            },
+            {
+              "name": "GADD45 Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/s41419-020-02859-2.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41419-020-02859-2"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7463232"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7463232?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 40,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-04-20",
+        "dateOfCreation": "2020-09-03",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2020-09-01",
+        "firstPublicationDate": "2020-09-01",
+        "firstIndexDate": "2020-09-03",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27485253",
+        "source": "MED",
+        "pmid": "27485253",
+        "doi": "10.1007/s10103-016-2037-1",
+        "title": "Evaluation of synergistic effects of sulforaphene with photodynamic therapy in human cervical cancer cell line.",
+        "authorString": "Biswas R, Mondal A, Chatterjee S, Ahn JC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Biswas R",
+              "lastName": "Biswas",
+              "firstName": "R",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Beckman Laser Institute Korea, Dankook University, Cheonan, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mondal A",
+              "lastName": "Mondal",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pre-medical Science, Dankook University, Cheonan, 330-714, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chatterjee S",
+              "lastName": "Chatterjee",
+              "firstName": "S",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Translational Research Institute, Dankook University, Cheonan, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahn JC",
+              "lastName": "Ahn",
+              "firstName": "J C",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Beckman Laser Institute Korea, Dankook University, Cheonan, Republic of Korea. jcahn@dankook.ac.kr."
+                  },
+                  {
+                    "affiliation": "Department of Pre-medical Science, Dankook University, Cheonan, 330-714, Republic of Korea. jcahn@dankook.ac.kr."
+                  },
+                  {
+                    "affiliation": "Biomedical Translational Research Institute, Dankook University, Cheonan, Republic of Korea. jcahn@dankook.ac.kr."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "31",
+          "journalIssueId": 2462965,
+          "dateOfPublication": "2016 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Lasers Med Sci",
+            "title": "Lasers in medical science",
+            "essn": "1435-604X",
+            "issn": "0268-8921",
+            "isoabbreviation": "Lasers Med Sci",
+            "nlmid": "8611515"
+          },
+          "printPublicationDate": "2016-11-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "1675-1682",
+        "abstractText": "Sulforaphene from cruciferous vegetable has shown to modulate various signaling pathways of apoptosis. But it has not yet been studied extensively for the cervical cancer treatment. Previous studies show the promising role of photodynamic therapy for cervical cancer. Here, we confirm that sulforaphene can synergistically enhance the efficacy of photodynamic therapy. Human cervical cancer cells HeLa were treated with a very low dose of sulforaphene (2.0 μg/ml) and photodynamic therapy with radachlorin (0.5 μg/ml) at a fluence of 27 J/cm<sup>2</sup> (30 milliwatts/cm<sup>2</sup>, λmax ∼ 670 ± 3 nm). The combination treatment showed a synergistic effect to induce apoptosis. The mitochondrial apoptotic pathway was activated via caspase 3 and caspase 9. On the other hand, caspase 12 and C/EBP homologous protein (CHOP) were expressed that indicated endoplasmic reticulum stress. This combination treatment also activated death receptor pathway via activation of caspase 8 and inhibited cell proliferation via down-regulation of EGFR. Thus, several apoptotic pathways were simultaneously activated in this combination treatment which results in a synergistic efficacy of sulforaphene with photodynamic therapy. Therefore, this study could be useful in the improvement of therapies for human cervical and other types of cancers.",
+        "affiliation": "Beckman Laser Institute Korea, Dankook University, Cheonan, Republic of Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "The present research was conducted by the research fund of Dankook University in 2015.",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hela Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blotting, Western"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Photochemotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flow Cytometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "G1 Phase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Uterine Cervical Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Potential, Mitochondrial",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Apoptosis",
+            "synergy",
+            "Pdt",
+            "Sulforaphene"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sulphoraphene",
+              "registryNumber": "NCO9MC39IO"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s10103-016-2037-1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-01-02",
+        "dateOfCreation": "2016-08-04",
+        "dateOfRevision": "2019-01-03",
+        "electronicPublicationDate": "2016-08-03",
+        "firstPublicationDate": "2016-08-03",
+        "firstIndexDate": "2016-08-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32963694",
+        "source": "MED",
+        "pmid": "32963694",
+        "pmcid": "PMC7502131",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7502131"
+          ]
+        },
+        "doi": "10.1155/2020/4754195",
+        "title": "Sulforaphene Ameliorates Neuroinflammation and Hyperphosphorylated Tau Protein via Regulating the PI3K/Akt/GSK-3<i>β</i> Pathway in Experimental Models of Alzheimer's Disease.",
+        "authorString": "Yang W, Liu Y, Xu QQ, Xian YF, Lin ZX.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yang W",
+              "lastName": "Yang",
+              "firstName": "Wen",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chinese Medicine, Faculty of Medicine, The Chinese University of Hong Kong, Shatin, N.T., Hong Kong SAR, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yue",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0084-863X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiovascular Disease Centre, Xiyuan Hospital of China Academy of Chinese Medical Sciences, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu QQ",
+              "lastName": "Xu",
+              "firstName": "Qing-Qing",
+              "initials": "QQ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2868-4155"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chinese Medicine, Faculty of Medicine, The Chinese University of Hong Kong, Shatin, N.T., Hong Kong SAR, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xian YF",
+              "lastName": "Xian",
+              "firstName": "Yan-Fang",
+              "initials": "YF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5032-0366"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chinese Medicine, Faculty of Medicine, The Chinese University of Hong Kong, Shatin, N.T., Hong Kong SAR, China."
+                  },
+                  {
+                    "affiliation": "Brain Research Centre, School of Chinese Medicine, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin ZX",
+              "lastName": "Lin",
+              "firstName": "Zhi-Xiu",
+              "initials": "ZX",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2840-6179"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chinese Medicine, Faculty of Medicine, The Chinese University of Hong Kong, Shatin, N.T., Hong Kong SAR, China."
+                  },
+                  {
+                    "affiliation": "Brain Research Centre, School of Chinese Medicine, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China."
+                  },
+                  {
+                    "affiliation": "Hong Kong Institute of Integrative Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0084-863X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2868-4155"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5032-0366"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2840-6179"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "2020",
+          "journalIssueId": 2920519,
+          "dateOfPublication": "2020",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Oxid Med Cell Longev",
+            "title": "Oxidative medicine and cellular longevity",
+            "essn": "1942-0994",
+            "issn": "1942-0900",
+            "isoabbreviation": "Oxid Med Cell Longev",
+            "nlmid": "101479826"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "4754195",
+        "abstractText": "Alzheimer's disease (AD) is the most common form of dementia characterized by progressive loss of cognitive functions due to neuronal death mainly in the hippocampal and cortical brain. Sulforaphene (SF) is one of the main isothiocyanates isolated from a Chinese herb Raphani Semen. In this study, we aimed to investigate the neuroprotective effects of SF using <i>in vitro</i> and <i>in vivo</i> models of AD. Streptozotocin (STZ) was intracranially injected into the rats; then, SF (25 and 50 mg/kg) was given orally once a day for 6 consecutive weeks. After drug treatment, the cognitive functions were assessed using the Morris Water Maze Test (MWMT). After the MWMT, the rats were euthanized and brain tissues were collected. In the <i>in vitro</i> test, BV-2 microglia were pretreated with SF (1 and 2 <i>μ</i>M) for 1 h and then stimulated with lipopolysaccharide (LPS) for another 23 h. Both molecular and histological methods were used to unravel the action mechanisms and elucidate the signaling pathway. The MWMT results showed that SF treatment significantly improved the STZ-induced cognitive deficits in rats. SF treatment markedly suppressed the production of tumor necrosis factor-<i>α</i> (TNF-<i>α</i>) and interleukin-6 (IL-6) but increased the release of IL-10 in the STZ-treated rats. In addition, SF significantly inhibited the phosphorylation of tau protein at Thr205, Ser396, and Ser404 sites, while enhancing the ratios of p-Akt (Ser473)/Akt and p-GSK-3<i>β</i> (Ser9)/GSK-3<i>β</i> in the hippocampus of the STZ-treated rats. On the other hand, SF (1 and 2 <i>μ</i>M) treatment also markedly attenuated the cytotoxicity induced by LPS in BV-2 cells. In addition, SF treatment obviously suppressed the releases of nitric oxide (NO), TNF-<i>α</i>, and IL-6 in the LPS-stimulated BV-2 cells. Moreover, SF treatment significantly mitigated the nuclear translocation of p-NF-<i>κ</i>B p65 and the ratio of p-GSK-3<i>β</i> (Ser9)/GSK-3<i>β</i> in LPS-stimulated BV-2 cells. Taken together, SF possessed neuroprotective effects against the STZ-induced cognitive deficits in rats and LPS-induced neuroinflammation in BV-2 cells via modulation of the PI3K/Akt/GSK-3<i>β</i> pathway and inhibition of the NF-<i>κ</i>B activation, suggesting that SF is a promising neuroprotective agent worthy of further development into AD treatment.",
+        "affiliation": "School of Chinese Medicine, Faculty of Medicine, The Chinese University of Hong Kong, Shatin, N.T., Hong Kong SAR, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "University Grants Committee",
+              "grantId": "14110814",
+              "orderIn": 0
+            },
+            {
+              "agency": "Chinese University of Hong Kong",
+              "grantId": "2017.076",
+              "orderIn": 0
+            },
+            {
+              "agency": "University Grants Committee",
+              "grantId": "2017.076",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Guangdong Province",
+              "grantId": "2019A1515011257",
+              "orderIn": 0
+            },
+            {
+              "agency": "Chinese University of Hong Kong",
+              "grantId": "2019A1515011257",
+              "orderIn": 0
+            },
+            {
+              "agency": "Chinese University of Hong Kong",
+              "grantId": "14110814",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Guangdong Province",
+              "grantId": "14110814",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Guangdong Province",
+              "grantId": "2017.076",
+              "orderIn": 0
+            },
+            {
+              "agency": "University Grants Committee",
+              "grantId": "2019A1515011257",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hippocampus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Astrocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microglia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alzheimer Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitric Oxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Streptozocin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipopolysaccharides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "tau Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NF-kappa B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation Mediators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytokines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Death",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphorylation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-akt",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphatidylinositol 3-Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycogen Synthase Kinase 3 beta",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cognitive Dysfunction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipopolysaccharides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytokines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "tau Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NF-kappa B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Inflammation Mediators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-akt",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Phosphatidylinositol 3-Kinases",
+              "registryNumber": "EC 2.7.1.-"
+            },
+            {
+              "name": "glycogen synthase kinase 3 beta",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Nitric Oxide",
+              "registryNumber": "31C4KY9ESH"
+            },
+            {
+              "name": "Streptozocin",
+              "registryNumber": "5W494URQ81"
+            },
+            {
+              "name": "sulphoraphene",
+              "registryNumber": "NCO9MC39IO"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1155/2020/4754195"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7502131"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7502131?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 145,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "hpa",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-05-14",
+        "dateOfCreation": "2020-09-23",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2020-09-10",
+        "firstPublicationDate": "2020-09-10",
+        "firstIndexDate": "2020-09-24",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27765931",
+        "source": "MED",
+        "pmid": "27765931",
+        "pmcid": "PMC5363538",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5363538"
+          ]
+        },
+        "doi": "10.18632/oncotarget.12307",
+        "title": "The natural compound sulforaphene, as a novel anticancer reagent, targeting PI3K-AKT signaling pathway in lung cancer.",
+        "authorString": "Yang M, Wang H, Zhou M, Liu W, Kuang P, Liang H, Yuan Q.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yang M",
+              "lastName": "Yang",
+              "firstName": "Ming",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang H",
+              "lastName": "Wang",
+              "firstName": "Haiyong",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou M",
+              "lastName": "Zhou",
+              "firstName": "Mo",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu W",
+              "lastName": "Liu",
+              "firstName": "Weilin",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kuang P",
+              "lastName": "Kuang",
+              "firstName": "Pengqun",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liang H",
+              "lastName": "Liang",
+              "firstName": "Hao",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4799-882X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yuan Q",
+              "lastName": "Yuan",
+              "firstName": "Qipeng",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4799-882X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "47",
+          "volume": "7",
+          "journalIssueId": 2514029,
+          "dateOfPublication": "2016 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Oncotarget",
+            "title": "Oncotarget",
+            "essn": "1949-2553",
+            "issn": "1949-2553",
+            "isoabbreviation": "Oncotarget",
+            "nlmid": "101532965"
+          },
+          "printPublicationDate": "2016-11-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "76656-76666",
+        "abstractText": "Lung cancer is one of the leading causes of cancer death worldwide. Isothiocyanates from cruciferous vegetables been shown to possess anticarcinogenic activities in lung malignances. We previously found sulforaphene (4-methylsufinyl-3-butenyl isothiocyanate, SFE), one new kind of isothiocyanates, existing in a relative high abundance in radish seeds. An efficient methodology based on macroporous resin and preparative high-performance liquid chromatography was developed to isolate SFE in reasonably large quantities, high purity and low cost. However, it is still largely unclear whether SFE could function as an antineoplastic compound, especially in lung cancer. In this study, we systematically investigated the anti-cancer effects of SFE in vitro as well as its possible underling molecular mechanisms in lung cancer. The acute toxicity tests and pharmacokinetics tests for SFE were performed to evaluate its drugability in mice. Also, we evaluated the in vivo anti-cancer effects of SFE using nude Balb/C mice with lung cancer xenograft. SFE can induce apoptosis of multiple lung cancer celllines and, thus, inhibited cancer cell proliferation. Lung cancer cells treated with SFE exhibit significant inhibition of the PI3K-AKT signaling pathway, including depressed PTEN expression and inhibition of AKT phosphoralation. At well-tolerated doses, administration of SFE to mice bearing lung cancer xenografts leads to significant inhibitions of tumor growth. In summary, our work identifies SFE as a novel natural broad-spectrum small molecule inhibitor for lung cancer.",
+        "affiliation": "State Key Laboratory of Chemical Resource Engineering, Beijing Laboratory of Biomedical Materials, College of Life Science and Technology, Beijing University of Chemical Technology, Beijing, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lung Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents, Phytogenic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-akt",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphatidylinositol 3-Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Lung cancer",
+            "Isothiocyanate",
+            "Pi3k-akt",
+            "Sulforaphene"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents, Phytogenic",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-akt",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Phosphatidylinositol 3-Kinases",
+              "registryNumber": "EC 2.7.1.-"
+            },
+            {
+              "name": "sulphoraphene",
+              "registryNumber": "NCO9MC39IO"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.18632/oncotarget.12307"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5363538"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5363538?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 31,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2018-02-26",
+        "dateOfCreation": "2016-10-22",
+        "dateOfRevision": "2019-01-03",
+        "firstPublicationDate": "2016-11-01",
+        "firstIndexDate": "2016-10-27",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

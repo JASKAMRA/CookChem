@@ -1,0 +1,150 @@
+{
+  "scripts_checked": 14,
+  "local_imports_resolved": true,
+  "external_imports": [
+    "argparse",
+    "catboost",
+    "csv",
+    "hashlib",
+    "importlib",
+    "joblib",
+    "json",
+    "math",
+    "numpy",
+    "pandas",
+    "pathlib",
+    "platform",
+    "runpy",
+    "shutil",
+    "sklearn",
+    "subprocess",
+    "sys",
+    "tempfile"
+  ],
+  "unavailable_external_imports": [
+    "catboost",
+    "joblib",
+    "numpy",
+    "pandas",
+    "sklearn"
+  ],
+  "scripts": [
+    {
+      "script": "stageB/scripts/audit.py",
+      "internal_imports": []
+    },
+    {
+      "script": "stageB/scripts/audit_extreme_retention.py",
+      "internal_imports": []
+    },
+    {
+      "script": "stageB/scripts/build.py",
+      "internal_imports": []
+    },
+    {
+      "script": "stageB/scripts/consolidate.py",
+      "internal_imports": []
+    },
+    {
+      "script": "stageB/scripts/evaluate_catboost.py",
+      "internal_imports": [
+        {
+          "module": "evaluate_missingness_features",
+          "path": "stageB/scripts/evaluate_missingness_features.py",
+          "resolved": true
+        },
+        {
+          "module": "run_stage_a",
+          "path": "stageA/scripts/run_stage_a.py",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "script": "stageB/scripts/evaluate_extreme_detectability.py",
+      "internal_imports": [
+        {
+          "module": "evaluate_missingness_features",
+          "path": "stageB/scripts/evaluate_missingness_features.py",
+          "resolved": true
+        },
+        {
+          "module": "run_stage_a",
+          "path": "stageA/scripts/run_stage_a.py",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "script": "stageB/scripts/evaluate_missingness_features.py",
+      "internal_imports": [
+        {
+          "module": "run_stage_a",
+          "path": "stageA/scripts/run_stage_a.py",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "script": "stageB/scripts/evaluate_tail_aware_models.py",
+      "internal_imports": [
+        {
+          "module": "evaluate_missingness_features",
+          "path": "stageB/scripts/evaluate_missingness_features.py",
+          "resolved": true
+        },
+        {
+          "module": "run_stage_a",
+          "path": "stageA/scripts/run_stage_a.py",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "script": "stageB/scripts/finalize.py",
+      "internal_imports": []
+    },
+    {
+      "script": "stageB/scripts/final_like_for_like_comparison.py",
+      "internal_imports": []
+    },
+    {
+      "script": "stageB/scripts/freeze_stageb_candidate.py",
+      "internal_imports": [
+        {
+          "module": "evaluate_missingness_features",
+          "path": "stageB/scripts/evaluate_missingness_features.py",
+          "resolved": true
+        },
+        {
+          "module": "run_stage_a",
+          "path": "stageA/scripts/run_stage_a.py",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "script": "stageB/scripts/mutation_tests.py",
+      "internal_imports": []
+    },
+    {
+      "script": "stageB/scripts/tune_best_extra_trees.py",
+      "internal_imports": [
+        {
+          "module": "evaluate_missingness_features",
+          "path": "stageB/scripts/evaluate_missingness_features.py",
+          "resolved": true
+        },
+        {
+          "module": "run_stage_a",
+          "path": "stageA/scripts/run_stage_a.py",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "script": "stageB/scripts/validate.py",
+      "internal_imports": []
+    }
+  ]
+}

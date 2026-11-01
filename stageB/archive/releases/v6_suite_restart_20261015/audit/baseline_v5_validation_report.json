@@ -1,0 +1,445 @@
+{
+  "version": "v5",
+  "status": "PASS_WITH_WARNINGS",
+  "checks_passed": 53,
+  "checks_total": 53,
+  "inherited_checks": 24,
+  "v5_checks": 29,
+  "errors": [],
+  "warning_entries": 15,
+  "distinct_warning_codes": 14,
+  "warnings": [
+    {
+      "Warning_ID": "V3-W01",
+      "Code": "historical_selection_provenance",
+      "Description": "documented_v2_rationale_specific_primary_selection_trigger_unresolved",
+      "Affected": "Capsaicin | Genistein | Naringin | Resveratrol",
+      "Classification": "provenance gap",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Retained with explicit scope",
+      "After": "unresolved",
+      "Remaining_Limitations": "Historical facts cannot be recovered from unrelated interaction literature"
+    },
+    {
+      "Warning_ID": "V3-W02",
+      "Code": "historical_selection_provenance",
+      "Description": "original_selection_source_unresolved",
+      "Affected": "Berberine | Caffeine | Curcumin | EGCG | Piperine",
+      "Classification": "provenance gap",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Retained with explicit scope",
+      "After": "unresolved",
+      "Remaining_Limitations": "Historical facts cannot be recovered from unrelated interaction literature"
+    },
+    {
+      "Warning_ID": "V3-W03",
+      "Code": "DOI_not_supplied",
+      "Description": "Verified PMID remains primary reference",
+      "Affected": "18928093 | 22512082",
+      "Classification": "missing bibliographic identifier",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Exact MED lookups repeated; DOI still absent for both PMIDs",
+      "After": "unresolved",
+      "Remaining_Limitations": "See record-level and provenance audits"
+    },
+    {
+      "Warning_ID": "V3-W05",
+      "Code": "inherited_outcome_scope",
+      "Description": "64 baseline rows retained exactly; all metadata rechecked but full-text numerical outcomes not independently re-extracted in this release",
+      "Affected": "",
+      "Classification": "review scope limitation",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Two inherited endoxifen outcomes verified against full-text Table 2; other 62 baseline rows not independently re-extracted",
+      "After": "partially addressed",
+      "Remaining_Limitations": "See record-level and provenance audits"
+    },
+    {
+      "Warning_ID": "V3-W06",
+      "Code": "unresolved_preparation",
+      "Description": "Apigenin/rutin abstract cannot establish separate versus combined groups; no isolated-apigenin magnitude assigned",
+      "Affected": "SB-0066",
+      "Classification": "inaccessible full text and preparation ambiguity",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Primary publisher abstract/preview checked; full text subscription-only; provisional attribution retained",
+      "After": "unresolved",
+      "Remaining_Limitations": "See record-level and provenance audits"
+    },
+    {
+      "Warning_ID": "V3-W07",
+      "Code": "retention_link_unavailable",
+      "Description": "Standalone chemical evidence is eligible, but reliable compound-specific master linkage is not established",
+      "Affected": "Daidzein | Quercetin",
+      "Classification": "identity and analyte ambiguity",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Two primary processing methods reviewed; glycoside/hydrolysis restrictions documented, no retention coefficients imported",
+      "After": "partially addressed; master links unresolved",
+      "Remaining_Limitations": "See record-level and provenance audits"
+    },
+    {
+      "Warning_ID": "V3-W08",
+      "Code": "source_reporting_ambiguity",
+      "Description": "Daidzein abstract baseline day and CI wording inconsistent; disputed CIs omitted",
+      "Affected": "SB-0069",
+      "Classification": "source reporting issue",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Daidzein abstract reviewed; disputed CI wording and baseline day retained as limitation",
+      "After": "unresolved",
+      "Remaining_Limitations": "See record-level and provenance audits"
+    },
+    {
+      "Warning_ID": "V3-W09",
+      "Code": "bounded_review",
+      "Description": "First 100 results per broad query; unreviewed candidates explicitly retained; no exhaustive review or independent second-reviewer adjudication",
+      "Affected": "",
+      "Classification": "expected research scope uncertainty",
+      "Before": "open in v3",
+      "Action": "Carried into v5; prior source review retained. Targeted source resolution only; no repeated compound-discovery search or exhaustive-review claim",
+      "After": "unresolved",
+      "Remaining_Limitations": "See record-level and provenance audits"
+    },
+    {
+      "Warning_ID": "V4-W10",
+      "Code": "source_table_prose_discrepancy",
+      "Description": "Apigenin imatinib acute Cmax prose conflicts with Table 1",
+      "Affected": "SB-0067",
+      "Classification": "source reporting issue",
+      "Before": "not identified in v3 abstract review",
+      "Action": "Carried into v5; prior source review retained. Extracted AUC from Table 1; conflicting Cmax interpretation withheld",
+      "After": "unresolved source discrepancy",
+      "Remaining_Limitations": "No correction notice or author clarification obtained"
+    },
+    {
+      "Warning_ID": "V5-parent_identity_scope",
+      "Code": "parent_identity_scope",
+      "Description": "Standalone external identity is not a repaired master measurement link; study stereochemistry may be unspecified",
+      "Affected": "Myricetin; Naringenin; Chrysin; Fisetin; Bergamottin",
+      "Classification": "research or provenance limitation",
+      "Before": "new scope in v5",
+      "Action": "Documented; no imputation or retrospective repair",
+      "After": "unresolved or accepted with stated scope",
+      "Remaining_Limitations": "Standalone external identity is not a repaired master measurement link; study stereochemistry may be unspecified"
+    },
+    {
+      "Warning_ID": "V5-new_abstract_detail_gaps",
+      "Code": "new_abstract_detail_gaps",
+      "Description": "Missing sample sizes/doses remain explicit; no independent second reviewer",
+      "Affected": "New abstract-level records",
+      "Classification": "research or provenance limitation",
+      "Before": "new scope in v5",
+      "Action": "Documented; no imputation or retrospective repair",
+      "After": "unresolved or accepted with stated scope",
+      "Remaining_Limitations": "Missing sample sizes/doses remain explicit; no independent second reviewer"
+    },
+    {
+      "Warning_ID": "V5-source_reporting_units",
+      "Code": "source_reporting_units",
+      "Description": "Ambiguous AUC units, concentration units or human percentage/CI wording withheld",
+      "Affected": "Naringenin-Felodipine; Ferulic acid-Clopidogrel; Quercetin-Pravastatin",
+      "Classification": "research or provenance limitation",
+      "Before": "new scope in v5",
+      "Action": "Documented; no imputation or retrospective repair",
+      "After": "unresolved or accepted with stated scope",
+      "Remaining_Limitations": "Ambiguous AUC units, concentration units or human percentage/CI wording withheld"
+    },
+    {
+      "Warning_ID": "V5-target_not_fully_reached",
+      "Code": "target_not_fully_reached",
+      "Description": "Only supported curated primary outcomes added; capped discovery not comprehensive",
+      "Affected": "Evidence-record target",
+      "Classification": "research or provenance limitation",
+      "Before": "new scope in v5",
+      "Action": "Documented; no imputation or retrospective repair",
+      "After": "unresolved or accepted with stated scope",
+      "Remaining_Limitations": "Only supported curated primary outcomes added; capped discovery not comprehensive"
+    },
+    {
+      "Warning_ID": "V5-possible_participant_overlap",
+      "Code": "possible_participant_overlap",
+      "Description": "Shared 165-person genotype pool mentioned; unique PMIDs are not independent-trial counts",
+      "Affected": "Quercetin genotype studies",
+      "Classification": "research or provenance limitation",
+      "Before": "new scope in v5",
+      "Action": "Documented; no imputation or retrospective repair",
+      "After": "unresolved or accepted with stated scope",
+      "Remaining_Limitations": "Shared 165-person genotype pool mentioned; unique PMIDs are not independent-trial counts"
+    },
+    {
+      "Warning_ID": "V5-bibliographic-gaps",
+      "Code": "new_bibliographic_gaps",
+      "Description": "22132944: Crossref unavailable; MED verified | 26692948: DOI not supplied; MED verified | 28185989: Crossref unavailable; MED verified",
+      "Affected": "New primary reports with unavailable DOI lookup or DOI not supplied",
+      "Classification": "bibliographic limitation",
+      "Before": "new primary sources",
+      "Action": "Verified primary MED metadata; did not invent missing DOI",
+      "After": "unresolved",
+      "Remaining_Limitations": "Independent DOI verification incomplete for these reports"
+    }
+  ],
+  "checks": [
+    {
+      "Check": "Inherited v4: Evidence IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Compound IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Names and structure keys unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Exact schema preserved",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: All compound references valid",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Original 64 unchanged",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Every changed field documented",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: No records added or removed",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Duplicate contexts absent",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: ID and DOI syntax",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Classification and endpoint context",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Outcome units or ratio present",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: All cached primary metadata concordant",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Claim ledger matches actual outcomes",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Reviewed numerical values present in actual sources",
+      "Passed": true,
+      "Detail": "Numeric diagnostics plus manual endpoint review; not an automatic scientific proof"
+    },
+    {
+      "Check": "Inherited v4: Quercetin nonsignificant interval interpretation preserved",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: New selection sources present",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Unknown original dates not invented",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Glycoside and mixed group links prohibited",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Registry and primary counts match",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Previously unavailable Crossref titles resolved",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: Recovered Crossref DOI identifiers concordant",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited v4: All supplied and v3 file hashes preserved",
+      "Passed": true,
+      "Detail": "1325 files; changes=[]"
+    },
+    {
+      "Check": "Inherited v4: Original v3 input manifest still valid",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "All 73 v4 rows preserved",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Evidence IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Compound IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Schema and ordering unchanged",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Evidence ID syntax",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Compound foreign keys and canonical names",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Identity keys and canonical names unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Existing compound identities unchanged",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "New selection sources and date present",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No invented original-nine selection dates",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Ambiguous parent measurement groups not linked",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Naringenin distinct from naringin and stereospecific CID",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No duplicate experimental contexts",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Classifications and source identifiers valid",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "New primary metadata concordant with MED",
+      "Passed": true,
+      "Detail": "[]"
+    },
+    {
+      "Check": "New claims have exact ledger matches",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "New numerical tokens supported by actual sources",
+      "Passed": true,
+      "Detail": "[]; token check is a diagnostic, not endpoint-semantic proof"
+    },
+    {
+      "Check": "Numerical units or dimensionless context",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Null and no-synergy meanings preserved",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Nonsignificant human talinolol result not overclaimed",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Uncontrolled chrysin pilot not Controlled clinical",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Reverse interactions preserve affected entity",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Unique primary PMIDs counted correctly",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Registry evidence counts correct",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Added IDs all documented without inherited edits",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Selection and processing publications not counted as interaction studies",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "All candidate decisions explicit",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No unresolved Crossref title mismatches",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "All supplied files and v4 hashes unchanged",
+      "Passed": true,
+      "Detail": "1383 files checked; changed=[]"
+    }
+  ]
+}

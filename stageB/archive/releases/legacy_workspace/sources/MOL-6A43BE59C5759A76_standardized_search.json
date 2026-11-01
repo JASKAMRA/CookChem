@@ -1,0 +1,4723 @@
+{
+  "version": "6.9",
+  "hitCount": 16,
+  "request": {
+    "queryString": "TITLE_ABS:\"Neoglucobrassicin\" AND (TITLE_ABS:drug OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:pharmacodynamic OR TITLE_ABS:absorption OR TITLE_ABS:metabolism OR TITLE_ABS:transporter) AND FIRST_PDATE:[* TO 2026-10-06]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40114577",
+        "source": "MED",
+        "pmid": "40114577",
+        "doi": "10.2174/0113816128344776250222043907",
+        "title": "Computational Screening of IL-1 and IL-6 Inhibitors for Rheumatoid Arthritis: Insights from Molecular Docking and Dynamics Analysis.",
+        "authorString": "Li Y, Singh SP.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yunwei",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-6440-3202"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Science and Technology, Beijing Open University, A4 Zaojunmiao, Haidian District, Beijing, 100081, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh SP",
+              "lastName": "Singh",
+              "firstName": "Salam Pradeep",
+              "initials": "SP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioinformatics, Suchee Bioinformatics Institute, Imphal West, Manipur, 795001, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6669-1754"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-6440-3202"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "27",
+          "volume": "31",
+          "journalIssueId": 4002038,
+          "dateOfPublication": "2025 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Curr Pharm Des",
+            "title": "Current pharmaceutical design",
+            "essn": "1873-4286",
+            "issn": "1381-6128",
+            "isoabbreviation": "Curr Pharm Des",
+            "nlmid": "9602487"
+          },
+          "printPublicationDate": "2025-01-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "2200-2224",
+        "abstractText": "<h4>Background</h4>Rheumatoid arthritis (RA) remains a significant therapeutic challenge due to its chronic inflammatory nature. Consequently, many patients turn to alternative therapies, such as herbal compounds and supplements, when conventional treatments prove relatively ineffective or cause adverse side effects. Some compounds are being investigated for their potential to alleviate RA symptoms or manage disease. This study aimed to evaluate the anti-inflammatory effects of selected herbal compounds targeting the Interleukin-1 (IL-1) and Interleukin-6 (IL-6) pathways, key inflammatory regulators in RA. Specifically, the study assessed the binding affinity, stability, and dynamics of IL-1 and IL-6 inhibitory compounds as potential therapeutic agents for RA.<h4>Methods</h4>In silico experiments were conducted with herbal compounds to modulate IL-1 and IL-6 signaling. Computational techniques, including molecular docking, molecular dynamics (MD) simulations, Molecular Mechanics-Generalized Born Surface Area (MM-GBSA) calculations, Absorption, Distribution, Metabolism, and Excretion (ADME) analysis, toxicity predictions, and Density Functional Theory (DFT) analysis, were employed to investigate these interactions comprehensively.<h4>Results</h4>Neoglucobrassicin demonstrated the strongest binding affinity for IL-6 (Total score: -349.00 kJ/mol), followed by Galbelgin (-338.00 kJ/mol). For IL-1β, CID21722980 exhibited the highest binding affinity (-273.14 kJ/mol), with Eupaformosanin ranking second (-264.29 kJ/mol). Neoglucobrassicin formed interactions with multiple IL-6 residues, indicating a stable binding complex, while CID21722980 similarly interacted with key IL-1β residues, forming stable complexes. Both the Neoglucobrassicin-IL-6 and CID21722980- IL1β complexes demonstrated structural stability, as evidenced by Root Mean Square Deviation (RMSD) and Root Mean Square Fluctuation (RMSF) stabilizing towards the end of the 100 ns molecular dynamics (MD) simulation. MM-GBSA analysis revealed the highest binding energy for the IL-6-Neoglucobrassicin complex (-43.70 kcal/mol), while CID21722980 showed strong affinity for IL-1β (-43.29 kcal/mol), suggesting enhanced binding potential. Additionally, Density Functional Theory (DFT) analysis of the Highest Occupied Molecular Orbital (HOMO) and Lowest Unoccupied Molecular Orbital (LUMO) energies revealed electron distribution patterns in Neoglucobrassicin and CID21722980 that support their potential therapeutic applications.<h4>Discussion</h4>The strong binding affinities, stable molecular dynamics (MD) simulations, and favorable ADMET and DFT properties of Neoglucobrassicin and CID21722980 underscore their potential as antiinflammatory agents targeting IL-6 and IL-1β. The mechanistic insights into their inhibitory effects on these targets suggest multifaceted anti-inflammatory properties, warranting further in vivo and clinical investigations.<h4>Conclusion</h4>Neoglucobrassicin and CID21722980 demonstrated promising binding affinities, favorable pharmacokinetic profiles, and advantageous electronic properties, positioning them as strong candidates for further exploration in anti-inflammatory therapies. These findings highlight the potential of these herbal compounds as modulators of IL-6 and IL-1β, paving the way for future drug development.",
+        "affiliation": "Institute of Science and Technology, Beijing Open University, A4 Zaojunmiao, Haidian District, Beijing, 100081, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Arthritis, Rheumatoid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antirheumatic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Interleukin-1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Interleukin-6",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Evaluation, Preclinical"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Interleukin-6 Inhibitors"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Rheumatoid arthritis",
+            "Interleukin-1",
+            "Interleukin-6",
+            "Inflammation",
+            "Density functional theory",
+            "Molecular Dynamics.",
+            "Herbal Compounds"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antirheumatic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interleukin-1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interleukin-6",
+              "registryNumber": "0"
+            },
+            {
+              "name": "IL6 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interleukin-6 Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2174/0113816128344776250222043907"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-08-26",
+        "dateOfCreation": "2025-03-21",
+        "dateOfRevision": "2026-01-27",
+        "firstPublicationDate": "2025-01-01",
+        "firstIndexDate": "2025-03-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41342183",
+        "source": "MED",
+        "pmid": "41342183",
+        "doi": "10.1021/acs.jafc.5c10483",
+        "title": "Methyl Jasmonate Enhances HXK2-Mediated Indolic Glucosinolate Biosynthesis in Broccoli.",
+        "authorString": "Wang S, Shi D, Liu L, Wang Y, Lin Z, Huang F, Hu Z, Yan X, Lin S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Shuo",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi D",
+              "lastName": "Shi",
+              "firstName": "Dexi",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu L",
+              "lastName": "Liu",
+              "firstName": "Lu",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yike",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin Z",
+              "lastName": "Lin",
+              "firstName": "Ziyi",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang F",
+              "lastName": "Huang",
+              "firstName": "Fengming",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu Z",
+              "lastName": "Hu",
+              "firstName": "Zhiwei",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  },
+                  {
+                    "affiliation": "Zhejiang Provincial Key Laboratory of Water Ecological Environment Treatment and Resource Protection, Wenzhou University, Wenzhou 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yan X",
+              "lastName": "Yan",
+              "firstName": "Xiufeng",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5127-494X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  },
+                  {
+                    "affiliation": "Zhejiang Provincial Key Laboratory of Water Ecological Environment Treatment and Resource Protection, Wenzhou University, Wenzhou 325035, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin S",
+              "lastName": "Lin",
+              "firstName": "Sue",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2539-3157"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China."
+                  },
+                  {
+                    "affiliation": "Zhejiang Provincial Key Laboratory of Water Ecological Environment Treatment and Resource Protection, Wenzhou University, Wenzhou 325035, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5127-494X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2539-3157"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "50",
+          "volume": "73",
+          "journalIssueId": 4074092,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "32379-32394",
+        "abstractText": "Epidemiological studies show that consuming cruciferous vegetables, such as broccoli, lowers the risk of malignant tumors, an effect largely attributed to glucosinolates and their hydrolysis products. In plants, glucosinolates also act as a \"sulfur-bomb\" defense against biotic and abiotic stresses, underscoring their dual importance for human health and crop resilience. While the biosynthetic framework of glucosinolates has been well resolved in <i>Arabidopsis thaliana</i>, its regulation in economically relevant Brassica crops remains less understood. Here, we investigated the effect of exogenous methyl jasmonate (MeJA) on the glucosinolate accumulation in broccoli sprouts. MeJA treatment enhanced the antioxidant capacity and triggered a significant increase in the glucosinolate content. Transcriptomic analysis revealed MeJA-dependent reprogramming of genes involved in glucosinolate biosynthesis and degradation alongside modules regulating redox balance, carbohydrate and sulfur metabolism, and flavonoid production. Notably, the carbohydrate-related genes, especially hexokinase gene <i>BoHXK2</i><sup><i>LF</i></sup>, were significantly upregulated. Functional validation via hairy-root overexpression of <i>BoHXK2</i><sup><i>LF</i></sup> demonstrated a marked increase in neoglucobrassicin, indolic glucosinolates, and total glucosinolates, an effect that was further amplified by coapplication of MeJA. Collectively, these results highlight the potential of MeJA and <i>BoHXK2</i><sup><i>LF</i></sup> to enhance broccoli's nutritional value and stress resilience of broccoli.",
+        "affiliation": "College of Life and Environmental Science, Wenzhou University, Wenzhou, Zhejiang 325035, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Basic Agricultural Research Project of Wenzhou",
+              "grantId": "20220013",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Key Research and Development Program of China",
+              "grantId": "2022YFE0108300",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acetates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cyclopentanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Indoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hexokinase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Growth Regulators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oxylipins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Methyl jasmonate",
+            "Hexokinase",
+            "Broccoli",
+            "Carbohydrate metabolism",
+            "Indolic Glucosinolates"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Hexokinase",
+              "registryNumber": "EC 2.7.1.1"
+            },
+            {
+              "name": "Plant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Growth Regulators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Acetates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cyclopentanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxylipins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "methyl jasmonate",
+              "registryNumber": "900N171A0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.jafc.5c10483"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-12-17",
+        "dateOfCreation": "2025-12-04",
+        "dateOfRevision": "2025-12-17",
+        "electronicPublicationDate": "2025-12-04",
+        "firstPublicationDate": "2025-12-04",
+        "firstIndexDate": "2025-12-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND609292276",
+        "source": "AGR",
+        "title": "Thermal stability, and in vitro and in vivo metabolism of four main glucosinolates in Isatis indigotica roots",
+        "authorString": "Sun Y, Guo Q, Cheng Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sun Y",
+              "lastName": "Sun",
+              "firstName": "Yanzhi",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Guo Q",
+              "lastName": "Guo",
+              "firstName": "Qihui",
+              "initials": "Q"
+            },
+            {
+              "fullName": "Cheng Z",
+              "lastName": "Cheng",
+              "firstName": "Zhihong",
+              "initials": "Z"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "221",
+          "journalIssueId": 4092811,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "title": "Food Research International.",
+            "issn": "0963-9969"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "Not Available",
+        "abstractText": "The glucosinolates (GLSs) and their degradation products (such as goitrin) in Isatis indigotica roots have been the subject of considerable research interest due to their antiviral activities. The degradation mechanism and products of GLSs under the endogenous myrosinase are well-established. Nevertheless, it remains uncertain whether GLSs in I. indigotica roots can undergo thermal decomposition, or whether the two principal GLSs (progoitrin and epiprogoitrin) can biotransform into the bioactive goitrin in the absence of myrosinase. In this study, the thermal stability and metabolic behavior of four main GLSs (including progoitrin, epiprogoitrin, gluconapin, and neoglucobrassicin) were estimated for the first time. Gluconapin demonstrated the most robust thermal stability among the four GLSs, retaining its structural integrity even at 100 °C. The remaining three GLSs were found to be stable only at lower temperatures (0–20 °C), exhibiting degradation at 40 °C and complete degradation at 60 °C. The degraded products of the three GLSs were subjected to analysis by static headspace GC–MS, which were identified as isothiocyanates, thiocyanates, nitriles, and enols. The four GLSs were not biotransformed into their respective products by simulated gastric fluid, simulated intestinal fluid, rat liver microsomes, or human intestinal flora. The in vivo metabolism study of the aliphatic glucosinolates (progoitrin, epiprogoitrin, gluconapin, and sinigrin) in mice revealed that the intact GLS and their metabolites of these four GLSs were undetected in the mice plasma by UPLC-ESI-MS/MS, indicating that the GLS were poorly absorbed into the blood. However, only a common minor metabolite of the four GLSs were identified in the urine of the mice, along with abundant intact GLSs. The metabolite was identified as N-acetylcysteine conjugates by LC-MS, with the aid of the reported mercapturic acid metabolic pathway of GLSs. The findings of this study indicated that the GLSs are predominantly excreted in urine in their original forms and are not absorbed into the bloodstream. In conclusion, the two principal GLSs (progoitrin and epiprogoitrin) in I. indigotica roots are unable to undergo conversion to active goitrin under conditions of heat stress or physiological stress in the absence of myrosinase.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-08-30",
+        "dateOfCreation": "2025-08-30",
+        "firstPublicationDate": "2025-12-01",
+        "firstIndexDate": "2026-01-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41606876",
+        "source": "MED",
+        "pmid": "41606876",
+        "doi": "10.1016/j.foodres.2025.117299",
+        "title": "Thermal stability, and in vitro and in vivo metabolism of four main glucosinolates in Isatis indigotica roots.",
+        "authorString": "Sun Y, Guo Q, Cheng Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sun Y",
+              "lastName": "Sun",
+              "firstName": "Yanzhi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Natural Medicine, School of Pharmaceutical Sciences, Fudan University, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo Q",
+              "lastName": "Guo",
+              "firstName": "Qihui",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Natural Medicine, School of Pharmaceutical Sciences, Fudan University, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng Z",
+              "lastName": "Cheng",
+              "firstName": "Zhihong",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Natural Medicine, School of Pharmaceutical Sciences, Fudan University, Shanghai 201203, China. Electronic address: chengzhh@fudan.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "Pt 1",
+          "volume": "221",
+          "journalIssueId": 4069330,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Food Res Int",
+            "title": "Food research international (Ottawa, Ont.)",
+            "essn": "1873-7145",
+            "issn": "1873-7145",
+            "isoabbreviation": "Food Res Int",
+            "nlmid": "9210143"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "117299",
+        "abstractText": "The glucosinolates (GLSs) and their degradation products (such as goitrin) in Isatis indigotica roots have been the subject of considerable research interest due to their antiviral activities. The degradation mechanism and products of GLSs under the endogenous myrosinase are well-established. Nevertheless, it remains uncertain whether GLSs in I. indigotica roots can undergo thermal decomposition, or whether the two principal GLSs (progoitrin and epiprogoitrin) can biotransform into the bioactive goitrin in the absence of myrosinase. In this study, the thermal stability and metabolic behavior of four main GLSs (including progoitrin, epiprogoitrin, gluconapin, and neoglucobrassicin) were estimated for the first time. Gluconapin demonstrated the most robust thermal stability among the four GLSs, retaining its structural integrity even at 100 °C. The remaining three GLSs were found to be stable only at lower temperatures (0-20 °C), exhibiting degradation at 40 °C and complete degradation at 60 °C. The degraded products of the three GLSs were subjected to analysis by static headspace GC-MS, which were identified as isothiocyanates, thiocyanates, nitriles, and enols. The four GLSs were not biotransformed into their respective products by simulated gastric fluid, simulated intestinal fluid, rat liver microsomes, or human intestinal flora. The in vivo metabolism study of the aliphatic glucosinolates (progoitrin, epiprogoitrin, gluconapin, and sinigrin) in mice revealed that the intact GLS and their metabolites of these four GLSs were undetected in the mice plasma by UPLC-ESI-MS/MS, indicating that the GLS were poorly absorbed into the blood. However, only a common minor metabolite of the four GLSs were identified in the urine of the mice, along with abundant intact GLSs. The metabolite was identified as N-acetylcysteine conjugates by LC-MS, with the aid of the reported mercapturic acid metabolic pathway of GLSs. The findings of this study indicated that the GLSs are predominantly excreted in urine in their original forms and are not absorbed into the bloodstream. In conclusion, the two principal GLSs (progoitrin and epiprogoitrin) in I. indigotica roots are unable to undergo conversion to active goitrin under conditions of heat stress or physiological stress in the absence of myrosinase.",
+        "affiliation": "Department of Natural Medicine, School of Pharmaceutical Sciences, Fudan University, Shanghai 201203, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Isatis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Roots",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxazolidinones"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hot Temperature"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Metabolism",
+            "Thermal stability",
+            "Glucosinolate",
+            "Isatis indigotica",
+            "Goitrin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Oxazolidinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "goitrin",
+              "registryNumber": "7Q618OJ6K9"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.foodres.2025.117299"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-07-01",
+        "dateOfCreation": "2026-01-29",
+        "dateOfRevision": "2026-07-01",
+        "electronicPublicationDate": "2025-08-08",
+        "firstPublicationDate": "2025-08-08",
+        "firstIndexDate": "2026-02-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "40077501",
+        "source": "MED",
+        "pmid": "40077501",
+        "pmcid": "PMC11899475",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11899475"
+          ]
+        },
+        "doi": "10.3390/foods14050799",
+        "title": "Sustainable Fortification of Corn Tortillas with Broccoli By-Products.",
+        "authorString": "García-Lorca N, Libero C, Livigni C, Frouzaki NE, Aguayo E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "García-Lorca N",
+              "lastName": "García-Lorca",
+              "firstName": "Nieves",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0002-4868-9006"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Postharvest and Refrigeration Group, Universidad Politécnica de Cartagena (UPCT), Paseo Alfonso XIII, 48, 30203 Cartagena, Spain."
+                  },
+                  {
+                    "affiliation": "Food Quality and Health Group, Institute of Plant Biotechnology (IBV-UPCT), Campus Muralla Del Mar, 30202 Cartagena, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Libero C",
+              "lastName": "Libero",
+              "firstName": "Concetta",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Agriculture, University of Naples \"Federico II\" via Università, 100-80055 Portici, 80055 Naples, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Livigni C",
+              "lastName": "Livigni",
+              "firstName": "Carmela",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Agriculture, University of Naples \"Federico II\" via Università, 100-80055 Portici, 80055 Naples, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Frouzaki NE",
+              "lastName": "Frouzaki",
+              "firstName": "Natalia Eleftheria",
+              "initials": "NE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-9775-4307"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Nutrition, School of Environment, University of the Aegean, Metropolite Ioakeim 2, 81400 Myrina, Lemnos, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aguayo E",
+              "lastName": "Aguayo",
+              "firstName": "Encarna",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0052-4168"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Postharvest and Refrigeration Group, Universidad Politécnica de Cartagena (UPCT), Paseo Alfonso XIII, 48, 30203 Cartagena, Spain."
+                  },
+                  {
+                    "affiliation": "Food Quality and Health Group, Institute of Plant Biotechnology (IBV-UPCT), Campus Muralla Del Mar, 30202 Cartagena, Spain."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0052-4168"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0002-4868-9006"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-9775-4307"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "14",
+          "journalIssueId": 3914048,
+          "dateOfPublication": "2025 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Foods",
+            "title": "Foods (Basel, Switzerland)",
+            "essn": "2304-8158",
+            "issn": "2304-8158",
+            "isoabbreviation": "Foods",
+            "nlmid": "101670569"
+          },
+          "printPublicationDate": "2025-02-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "799",
+        "abstractText": "Fortification is the deliberate addition of essential micronutrients, such as vitamins and minerals, to enhance a food's nutritional profile and contribute to public health. A promising approach to fortification involves the use of plant by-products which are rich in bioactive compounds. This study evaluates the effects of incorporating broccoli by-product powder into corn-flour tortillas. Five formulations were developed: a control (100% corn flour) and variations replacing 2.5%, 5%, 7.5%, and 10% of the corn flour with broccoli by-product powder. Adding broccoli powder resulted in darker tortillas with slightly reduced firmness. Water and oil absorption capacities increased in fortified tortillas compared to the control. The broccoli powder in the tortillas significantly enhanced their nutritional profile. Calcium content increased nearly six-fold, while potassium and iron concentrations were tripled in tortillas fortified with 10% broccoli powder. Additionally, dietary fiber content rose by 23%. Antioxidant capacity improved significantly, particularly in total polyphenol content. Fortification also led to a significantly higher glucosinolate concentrations, notably neoglucobrassicin and glucoraphanin. Sensory evaluation showed that consumers found tortillas containing 2.5% to 7.5% broccoli powder to be the most acceptable. However, fortification at 10% negatively impacted overall acceptability, primarily due to the intensified brassica flavor. In conclusion, incorporating broccoli by-product powder into corn tortillas enhanced their nutritional and functional properties, whilst retaining acceptable sensory characteristics. This approach promotes the sustainable valorization of by-products, offering a viable, eco-friendly alternative for the development of functional, nutrient-rich foods that support sustainability in the food industry.",
+        "affiliation": "Postharvest and Refrigeration Group, Universidad Politécnica de Cartagena (UPCT), Paseo Alfonso XIII, 48, 30203 Cartagena, Spain.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Spanish MICIU–National Research Agency",
+              "grantId": "PID2021-123857OB-I00",
+              "orderIn": 0
+            },
+            {
+              "agency": "Investigo Program",
+              "grantId": "2022-C23.I01.P03.S0020-0000217",
+              "orderIn": 0
+            },
+            {
+              "agency": "Spanish MICIU–National Research Agency",
+              "grantId": "2022-C23.I01.P03.S0020-0000217",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundación Séneca",
+              "grantId": "PID2021-123857OB-I00",
+              "orderIn": 0
+            },
+            {
+              "agency": "Investigo Program",
+              "grantId": "PID2021-123857OB-I00",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Science, Innovation, and Universities (MICIU)",
+              "grantId": "PID2021-123857OB-I00",
+              "orderIn": 0
+            },
+            {
+              "agency": "AGROALNEXT programme, Ministry of Science, Innovation, and Universities (MICIU) with funding from NextGenerationEU, and by Fundación Séneca with funding from the Comunidad Autónoma de la Región de Murcia (Spain)",
+              "grantId": "PRTR-C17.I1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundación Séneca",
+              "grantId": "PRTR-C17.I1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Science, Innovation, and Universities (MICIU)",
+              "grantId": "PRTR-C17.I1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agrosingularity",
+              "grantId": "PID2021-123857OB-I00",
+              "orderIn": 0
+            },
+            {
+              "agency": "Investigo Program, within the Recovery, Transformation, and Resilience Plan, funded by the European Union through NextGenerationEU.",
+              "grantId": "ID 2022-C23.I01.P03.S0020-0000217",
+              "orderIn": 0
+            },
+            {
+              "agency": "Spanish MICIU–National Research Agency",
+              "grantId": "PRTR-C17.I1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundación Séneca",
+              "grantId": "2022-C23.I01.P03.S0020-0000217",
+              "orderIn": 0
+            },
+            {
+              "agency": "Spanish MICIU-National Research Agency and the European Regional Development Fund (ERDF) - A way of making Europe and EU.",
+              "grantId": "PID2021-123857OB-I00",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agrosingularity",
+              "grantId": "PRTR-C17.I1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agrosingularity",
+              "grantId": "2022-C23.I01.P03.S0020-0000217",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Science, Innovation, and Universities (MICIU)",
+              "grantId": "2022-C23.I01.P03.S0020-0000217",
+              "orderIn": 0
+            },
+            {
+              "agency": "Investigo Program",
+              "grantId": "PRTR-C17.I1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "minerals",
+            "glucosinolates",
+            "Bioactive compounds",
+            "Bakery",
+            "Functional Ingredients",
+            "Neoglucobrassicin",
+            "Zero Hunger"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.3390/foods14050799"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/foods14050799"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11899475"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11899475?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2025-03-13",
+        "dateOfRevision": "2025-03-15",
+        "electronicPublicationDate": "2025-02-26",
+        "firstPublicationDate": "2025-02-26",
+        "firstIndexDate": "2025-03-13",
+        "fullTextReceivedDate": "2025-12-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36622367",
+        "source": "MED",
+        "pmid": "36622367",
+        "doi": "10.1080/07391102.2022.2163425",
+        "title": "A knowledge-based protein-protein interaction inhibition (KPI) pipeline: an insight from drug repositioning for COVID-19 inhibition.",
+        "authorString": "Lanjanian H, Hosseini S, Narimani Z, Meknatkhah S, Riazi GH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lanjanian H",
+              "lastName": "Lanjanian",
+              "firstName": "Hossein",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4284-6592"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cellular and Molecular Endocrine Research Center, Research Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hosseini S",
+              "lastName": "Hosseini",
+              "firstName": "Shadi",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8008-4838"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicinal Chemistry, Faculty of Pharmacy, Tehran University of Medical Science, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Narimani Z",
+              "lastName": "Narimani",
+              "firstName": "Zahra",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2534-9201"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Computer Science and Information Technology, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meknatkhah S",
+              "lastName": "Meknatkhah",
+              "firstName": "Sogol",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0402-7596"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Riazi GH",
+              "lastName": "Riazi",
+              "firstName": "Gholam Hossein",
+              "initials": "GH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5434-4042"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5434-4042"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8008-4838"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0402-7596"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2534-9201"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4284-6592"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "21",
+          "volume": "41",
+          "journalIssueId": 3673597,
+          "dateOfPublication": "2023 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "J Biomol Struct Dyn",
+            "title": "Journal of biomolecular structure & dynamics",
+            "essn": "1538-0254",
+            "issn": "0739-1102",
+            "isoabbreviation": "J Biomol Struct Dyn",
+            "nlmid": "8404176"
+          },
+          "printPublicationDate": "2023-01-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "11700-11713",
+        "abstractText": "The inhibition of protein-protein interactions (PPIs) by small molecules is an exciting drug discovery strategy. Here, we aimed to develop a pipeline to identify candidate small molecules to inhibit PPIs. Therefore, KPI, a Knowledge-based Protein-Protein Interaction Inhibition pipeline, was introduced to improve the discovery of PPI inhibitors. Then, phytochemicals from a collection of known Middle Eastern antiviral herbs were screened to identify potential inhibitors of key PPIs involved in COVID-19. Here, the following investigations were sequenced: 1) Finding the binding partner and the interface of the proteins in PPIs, 2) Performing the blind ligand-protein inhibition (LPI) simulations, 3) Performing the local LPI simulations, 4) Simulating the interactions of the proteins and their binding partner in the presence and absence of the ligands, and 5) Performing the molecular dynamics simulations. The pharmacophore groups involved in the LPI were also characterized. Aloin, Genistein, Neoglucobrassicin, and Rutin are our new pipeline candidates for inhibiting PPIs involved in COVID-19. We also propose KPI for drug repositioning studies.Communicated by Ramaswamy H. Sarma.",
+        "affiliation": "Cellular and Molecular Endocrine Research Center, Research Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Iranian National Science Foundation (INSF",
+              "grantId": "99007231",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Binding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Repositioning"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "COVID-19"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Protein-protein interaction",
+            "Phytochemicals",
+            "Drug Repositioning",
+            "Ligand-protein Interaction",
+            "Covid-19"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/07391102.2022.2163425"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-12-05",
+        "dateOfCreation": "2023-01-09",
+        "dateOfRevision": "2025-04-09",
+        "electronicPublicationDate": "2023-01-09",
+        "firstPublicationDate": "2023-01-09",
+        "firstIndexDate": "2023-01-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36211778",
+        "source": "MED",
+        "pmid": "36211778",
+        "pmcid": "PMC9532756",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9532756"
+          ]
+        },
+        "doi": "10.1016/j.fochx.2022.100429",
+        "title": "Effects of nanocarbon solution treatment on the nutrients and glucosinolate metabolism in broccoli.",
+        "authorString": "Li Z, Liu G, He H, Liu Y, Han F, Liu W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li Z",
+              "lastName": "Li",
+              "firstName": "Zhansheng",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu G",
+              "lastName": "Liu",
+              "firstName": "Guangmin",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Agri-food Processing and Nutrition, Beijing Academy of Agricultural and Forestry Sciences, Beijing 100097, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He H",
+              "lastName": "He",
+              "firstName": "Hongju",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Agri-food Processing and Nutrition, Beijing Academy of Agricultural and Forestry Sciences, Beijing 100097, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yumei",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han F",
+              "lastName": "Han",
+              "firstName": "Fengqing",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu W",
+              "lastName": "Liu",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "China Vegetable Biotechnology (Shouguang) Co., Ltd, Shouguang 262700, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5359-1874"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0132-2741"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "15",
+          "journalIssueId": 3380717,
+          "dateOfPublication": "2022 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Food Chem X",
+            "title": "Food chemistry: X",
+            "essn": "2590-1575",
+            "issn": "2590-1575",
+            "isoabbreviation": "Food Chem X",
+            "nlmid": "101751436"
+          },
+          "printPublicationDate": "2022-10-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "100429",
+        "abstractText": "The effects of a nanocarbon solution on the nutrients, glucosinolate metabolism and glucoraphanin pathway in broccoli were investigated. Significant positive linear relationships were observed between the nanocarbon solution and total protein yield, although effects on the soluble sugars, vitamin C and dry matter production were not observed. All nanocarbon solutions significantly increased the glucoraphanin content (<i>p</i> < 0.05), and the 18.75 L·ha<sup>-1</sup> nanocarbon solution maximally increased the glucoraphanin content by 22.9 %. However, these treatments also significantly reduced the contents of glucobrassicin, 4-methoxyglucobrassicin, 4-hydroxyglucobrassicin and neoglucobrassicin. Further research demonstrated that the 18.75 L·ha<sup>-1</sup> nanocarbon solution significantly upregulated the <i>MAM1</i>, <i>IPMI2</i>, <i>CYP79F1</i>, <i>FMOgs-ox2</i>, <i>AOP2</i>, and <i>TGG1</i> expression levels, which directly resulted in the accumulation of glucoraphanin and glucoerucin. This study provides insights into the prospective nanotechnological approaches for developing efficient and environmentally friendly nanocarbon solution for use on crops.",
+        "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "32172580",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agriculture Research System of China",
+              "grantId": "CARS-23-A05",
+              "orderIn": 0
+            },
+            {
+              "agency": "Central Public-interest Scientific Institution Basal Research Fund, Chinese Academy of Fishery Sciences",
+              "grantId": "IVF-BRF2021003",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agricultural Science and Technology Innovation Program",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "HPLC",
+            "Glucosinolate",
+            "Nutrient",
+            "Broccoli",
+            "Glucoraphanin",
+            "Nanocarbon Solution"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.fochx.2022.100429"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fochx.2022.100429"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9532756"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9532756?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2022-10-10",
+        "dateOfRevision": "2022-10-11",
+        "electronicPublicationDate": "2022-08-12",
+        "firstPublicationDate": "2022-08-12",
+        "firstIndexDate": "2022-10-11",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND607313206",
+        "source": "AGR",
+        "doi": "10.1016/j.lwt.2021.111302",
+        "title": "Effect of continuous white light illumination on glucosinolate metabolism during postharvest storage of broccoli",
+        "authorString": "Casajús V, Civello P, Martínez G, Howe K, Fish T, Yang Y, Thannhauser T, Li L, Gómez Lobato M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Casajús V",
+              "lastName": "Casajús",
+              "firstName": "Victoria",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-6868-9192"
+              }
+            },
+            {
+              "fullName": "Civello P",
+              "lastName": "Civello",
+              "firstName": "Pedro",
+              "initials": "P"
+            },
+            {
+              "fullName": "Martínez G",
+              "lastName": "Martínez",
+              "firstName": "Gustavo",
+              "initials": "G"
+            },
+            {
+              "fullName": "Howe K",
+              "lastName": "Howe",
+              "firstName": "Kevin",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6625-9080"
+              }
+            },
+            {
+              "fullName": "Fish T",
+              "lastName": "Fish",
+              "firstName": "Tara",
+              "initials": "T"
+            },
+            {
+              "fullName": "Yang Y",
+              "lastName": "Yang",
+              "firstName": "Yong",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Thannhauser T",
+              "lastName": "Thannhauser",
+              "firstName": "Theodore",
+              "initials": "T"
+            },
+            {
+              "fullName": "Li L",
+              "lastName": "Li",
+              "firstName": "Li",
+              "initials": "L"
+            },
+            {
+              "fullName": "Gómez Lobato M",
+              "lastName": "Gómez Lobato",
+              "firstName": "María",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0428-5686"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6625-9080"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0428-5686"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-6868-9192"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "145",
+          "journalIssueId": 3165772,
+          "dateOfPublication": "2021 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Lebensm Wiss Technol",
+            "title": "Lebensmittel-Wissenschaft + [i.e. und] Technologie. Food science + technology. Science + technologie alimentaire",
+            "issn": "0023-6438",
+            "isoabbreviation": "Lebensm Wiss Technol",
+            "nlmid": "9876251"
+          },
+          "printPublicationDate": "2021-06-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "Not Available",
+        "abstractText": "Broccoli is a vegetable consumed globally due to its important nutritional properties, including high concentrations of glucosinolates. Light treatment can be an important tool to delay postharvest senescence. In this work it was evaluated the effect of postharvest continuous white light illumination on glucosinolate metabolism of broccoli heads. Five glucosinolates were identified, one aliphatic (glucoraphanin) and four indolics (glucobrassicin, neoglucobrassicin, 4-methoxyglucobrassicin and 4-hydroxyglucobrassicin). Level of total glucosinolates decreased from 10.1 μmol/g dry tissue to 1.4 μmol/g dry tissue in control samples after five days of storage, while the decrement was only until 3.0 μmol/g dry tissue in treated samples. The expression of genes associated with glucosinolate metabolism decreased during the first three days but this decrease was greater in illuminated samples. After five days, treated samples showed a higher expression (more than twice) in most of these genes with respect to the controls, coinciding with the higher glucosinolate content. Storage of broccoli heads under continuous white light allows to keep higher values of glucosinolate contents while maintaining at the same time the visual quality.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Agencia Nacional de Promoción Científica y Tecnológica",
+              "grantId": "PICT 2015-3081",
+              "orderIn": 0
+            },
+            {
+              "agency": "Universidad Nacional de La Plata",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agencia Nacional de Promoción Científica y Tecnológica",
+              "grantId": "PICT 2015-1753",
+              "orderIn": 0
+            },
+            {
+              "agency": "CONICET",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.lwt.2021.111302"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-10-30",
+        "dateOfCreation": "2021-10-30",
+        "dateOfRevision": "2022-11-20",
+        "firstPublicationDate": "2021-06-01",
+        "firstIndexDate": "2021-05-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38023917",
+        "source": "MED",
+        "pmid": "38023917",
+        "pmcid": "PMC10652768",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10652768"
+          ]
+        },
+        "doi": "10.3389/fpls.2023.1218984",
+        "title": "Genotypes of <i>Eruca vesicaria</i> subsp. <i>sativa</i> grown in contrasting field environments differ on transcriptomic and metabolomic levels, significantly impacting nutritional quality.",
+        "authorString": "Bell L, Chadwick M, Puranik M, Jasper J, Tudor R, Methven L, Wagstaff C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bell L",
+              "lastName": "Bell",
+              "firstName": "Luke",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Agriculture, Policy & Development, Crop Sciences, University of Reading, Reading, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chadwick M",
+              "lastName": "Chadwick",
+              "firstName": "Martin",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry, Food & Pharmacy, Food & Nutritional Sciences, University of Reading, Reading, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Puranik M",
+              "lastName": "Puranik",
+              "firstName": "Manik",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0007-6427-8414"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry, Food & Pharmacy, Food & Nutritional Sciences, University of Reading, Reading, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jasper J",
+              "lastName": "Jasper",
+              "firstName": "Jake",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6656-9724"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry, Food & Pharmacy, Food & Nutritional Sciences, University of Reading, Reading, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tudor R",
+              "lastName": "Tudor",
+              "firstName": "Richard",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Vegetable Plant Breeding, Elsoms Seeds Ltd., Spalding, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Methven L",
+              "lastName": "Methven",
+              "firstName": "Lisa",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry, Food & Pharmacy, Food & Nutritional Sciences, University of Reading, Reading, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wagstaff C",
+              "lastName": "Wagstaff",
+              "firstName": "Carol",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9400-8641"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry, Food & Pharmacy, Food & Nutritional Sciences, University of Reading, Reading, United Kingdom."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6656-9724"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9400-8641"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0007-6427-8414"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "14",
+          "journalIssueId": 3497063,
+          "dateOfPublication": "2023 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Front Plant Sci",
+            "title": "Frontiers in plant science",
+            "essn": "1664-462X",
+            "issn": "1664-462X",
+            "isoabbreviation": "Front Plant Sci",
+            "nlmid": "101568200"
+          },
+          "printPublicationDate": "2023-01-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "1218984",
+        "abstractText": "Rocket (<i>Eruca vesicaria</i> subsp. <i>sativa</i>) is a source of sulfur-containing glucosinolates (GSLs). GSLs and their breakdown hydrolysis products (GHPs) are responsible for health-related benefits, such as anti-cancer and anti-neurodegenerative properties. Understanding how phytochemical composition changes between cultivation environments is key to developing cultivars with improved nutritional quality. Two consecutive harvests (first and second regrowth) of crops, grown in both Italy and the UK, were used to determine the phytochemical and transcriptomic differences between six lines of <i>Eruca</i>. Samples were taken upon delivery from field sites (D0) and after five days of cold storage (D5) for each location. Leaves were analysed for sulfur content, volatile organic compounds (VOCs), GSLs, GHPs, and sugars. Transcriptome data were associated with metabolite profiles to identify differentially expressed genes between plants grown in the two environments. VOC compounds (carbon disulfide, methyl thiocyanate) were associated with growth environment and with differences in sulfur metabolism gene expression (<i>APR2, LSU2, LSU3, SDI1, SiR</i>), GSL biosynthesis (<i>MYB28, FMOGS-OX2</i>) and GHP formation (<i>ESM1, TGG1, TGG2</i>). The concentrations of sugars were an order of magnitude greater in UK grown samples (up to 29.9 mg g<sup>-1</sup> dry weight; dw). Sulfur content was significantly higher in the Italy plant samples (11.4 - 20.1 mg g<sup>-1</sup> dw), which was in turn associated with higher concentrations of GSLs (pentyl GSL, up to 15.8 μmol g<sup>-1</sup> dw; sinigrin, up to 0.005 μmol g<sup>-1</sup> dw; glucoraphanin, up to 5.1 μmol g<sup>-1</sup> dw; glucorucolamine, up to 23.6 μmol g<sup>-1</sup> dw; neoglucobrassicin, up to 5.3 μmol g<sup>-1</sup> dw) and hydrolysis products (sativin, up to 13.5 μmol g<sup>-1</sup> dw; erucin, up to 1 μmol g<sup>-1</sup> dw; sulforaphane, up to 34.7 μmol g<sup>-1</sup> dw). VOC profiles of plants cultivated in the UK were distinct from Italy grown plants, with higher relative abundances of alkanes and esters in second cut and shelf-life (D5) samples. The data indicate a significant interaction of cultivar response with environment, highlighting the difficulty of producing <i>Eruca</i> crops with consistent phytochemical and postharvest traits. Genes with differential expression between plants grown in Italy and the UK could be used as markers of phytochemical quality and composition.",
+        "affiliation": "School of Agriculture, Policy & Development, Crop Sciences, University of Reading, Reading, United Kingdom.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Biotechnology and Biological Sciences Research Council",
+              "acronym": "BB_",
+              "grantId": "BB/N01894X/1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Isothiocyanates",
+            "volatile organic compounds",
+            "Brassicaceae",
+            "glucosinolates",
+            "Transcriptome Sequencing",
+            "Arugula"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fpls.2023.1218984"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10652768"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10652768?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2023-11-29",
+        "dateOfRevision": "2023-12-01",
+        "electronicPublicationDate": "2023-11-02",
+        "firstPublicationDate": "2023-11-02",
+        "firstIndexDate": "2023-11-29",
+        "fullTextReceivedDate": "2023-11-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32784853",
+        "source": "MED",
+        "pmid": "32784853",
+        "pmcid": "PMC7466272",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7466272"
+          ]
+        },
+        "doi": "10.3390/plants9081006",
+        "title": "Tumorous Stem Development of <i>Brassica Juncea</i>: A Complex Regulatory Network of Stem Formation and Identification of Key Genes in Glucosinolate Biosynthesis.",
+        "authorString": "Li M, Xie F, Li J, Sun B, Luo Y, Zhang Y, Chen Q, Wang Y, Zhang F, Zhang Y, Lin Y, Wang X, Tang H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li M",
+              "lastName": "Li",
+              "firstName": "Mengyao",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3199-9465"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie F",
+              "lastName": "Xie",
+              "firstName": "Fangjie",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun B",
+              "lastName": "Sun",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3306-656X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo Y",
+              "lastName": "Luo",
+              "firstName": "Ya",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yong",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2281-4481"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Q",
+              "lastName": "Chen",
+              "firstName": "Qing",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang F",
+              "lastName": "Zhang",
+              "firstName": "Fen",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yunting",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin Y",
+              "lastName": "Lin",
+              "firstName": "Yuanxiu",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6542-7836"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xiaorong",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9332-9571"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang H",
+              "lastName": "Tang",
+              "firstName": "Haoru",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6008-2747"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6008-2747"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2281-4481"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3199-9465"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6542-7836"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9332-9571"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0769-2874"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3306-656X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "9",
+          "journalIssueId": 2991483,
+          "dateOfPublication": "2020 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Plants (Basel)",
+            "title": "Plants (Basel, Switzerland)",
+            "essn": "2223-7747",
+            "issn": "2223-7747",
+            "isoabbreviation": "Plants (Basel)",
+            "nlmid": "101596181"
+          },
+          "printPublicationDate": "2020-08-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "E1006",
+        "abstractText": "Stem mustard is a stem variety of mustard, an important <i>Brassica</i> vegetable. The formation and development of the tumorous stem, which is the key organ for the direct yield and quality, is a complex biological process involving morphogenesis, material accumulation and gene regulation. In this study, we demonstrated through anatomical studies that stem swelling is mainly dependent on the increase in the number of cells and the volume of parenchyma cells in the cortex and pith. To further understand transcript and metabolic changes during stem swelling, we obtained 27,901 differentially expressed genes, of which 671 were specifically detected using transcriptome sequencing technology in all four stages of stem swelling. Functional annotation identified enrichment for genes involved in photosynthesis, energy metabolism, cell growth, sulfur metabolism and glucosinolate biosynthesis. Glucosinolates are a group of nitrogen- and sulfur-containing secondary metabolites, which largely exist in the Cruciferous vegetables. HPLC analysis of the contents and components of glucosinolates in four different stem development stages revealed eight glucosinolates, namely, three aliphatic glucosinolates (sinigrin, glucoalyssin and gluconapin), four indole glucosinolates (4-hydroxyglucobrassicin, glucobrassicin, 4-methoxyglucobrassicin and neoglucobrassicin) and one aromatic glucosinolate (gluconasturtiin). All these types of glucosinolates showed a significant downward trend during the stem swelling period. The content of aliphatic glucosinolates was the highest, with sinigrin being the main component. In addition, qPCR was used to validate the expression of nine genes involved in glucosinolate biosynthesis. Most of these genes were down-regulated during stem swelling in qPCR, which is consistent with transcriptome data. These data provide a basic resource for further molecular and genetic research on <i>Brassica juncea</i>.",
+        "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Shuangzhi project of Sichuan Agricultural University",
+              "grantId": "No. 03573134",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shuangzhi project of Sichuan Agricultural University",
+              "grantId": "No. 035-1921993014",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Brassica juncea",
+            "Differentially expressed genes",
+            "glucosinolates",
+            "Transcriptome Sequencing"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/2223-7747/9/8/1006/pdf?version=1596968030"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/plants9081006"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7466272"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7466272?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2020-08-14",
+        "dateOfRevision": "2024-03-29",
+        "electronicPublicationDate": "2020-08-09",
+        "firstPublicationDate": "2020-08-09",
+        "firstIndexDate": "2020-08-14",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29652847",
+        "source": "MED",
+        "pmid": "29652847",
+        "pmcid": "PMC6017511",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6017511"
+          ]
+        },
+        "doi": "10.3390/molecules23040900",
+        "title": "Comparative Phytonutrient Analysis of Broccoli By-Products: The Potentials for Broccoli By-Product Utilization.",
+        "authorString": "Liu M, Zhang L, Ser SL, Cumming JR, Ku KM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Liu M",
+              "lastName": "Liu",
+              "firstName": "Mengpei",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Food and Bioengineering, Zhengzhou University of Light Industry, Zhengzhou 450002, China. mengpei0402@gmail.com."
+                  },
+                  {
+                    "affiliation": "Collaborative Innovation Center for Food Production and Safety, Zhengzhou University of Light Industry, Zhengzhou 450002, China. mengpei0402@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang L",
+              "lastName": "Zhang",
+              "firstName": "Lihua",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Food and Bioengineering, Zhengzhou University of Light Industry, Zhengzhou 450002, China. zhanglihua82828@163.com."
+                  },
+                  {
+                    "affiliation": "Collaborative Innovation Center for Food Production and Safety, Zhengzhou University of Light Industry, Zhengzhou 450002, China. zhanglihua82828@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ser SL",
+              "lastName": "Ser",
+              "firstName": "Suk Lan",
+              "initials": "SL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, West Virginia University, Morgantown, WV 26506, USA. suser@mix.wvu.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cumming JR",
+              "lastName": "Cumming",
+              "firstName": "Jonathan R",
+              "initials": "JR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9368-7926"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, West Virginia University, Morgantown, WV 26506, USA. jcumming@wvu.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ku KM",
+              "lastName": "Ku",
+              "firstName": "Kang-Mo",
+              "initials": "KM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8588-1163"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Plant and Soil Sciences, West Virginia University, Morgantown, WV 26506, USA. kangmo.ku@wvu.mail.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8588-1163"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9368-7926"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "23",
+          "journalIssueId": 2668124,
+          "dateOfPublication": "2018 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "isoabbreviation": "Molecules",
+            "nlmid": "100964009"
+          },
+          "printPublicationDate": "2018-04-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "E900",
+        "abstractText": "The phytonutrient concentrations of broccoli (<i>Brassica oleracea</i> var. italica) florets, stems, and leaves were compared to evaluate the value of stem and leaf by-products as a source of valuable nutrients. Primary metabolites, including amino acids, organic acids, and sugars, as well as glucosinolates, carotenoids, chlorophylls, vitamins E and K, essential mineral elements, total phenolic content, antioxidant activity, and expression of glucosinolate biosynthesis and hydrolysis genes were quantified from the different broccoli tissues. Broccoli florets had higher concentrations of amino acids, glucoraphanin, and neoglucobrassicin compared to other tissues, whereas leaves were higher in carotenoids, chlorophylls, vitamins E and K, total phenolic content, and antioxidant activity. Leaves were also good sources of calcium and manganese compared to other tissues. Stems had the lowest nitrile formation from glucosinolate. Each tissue exhibited specific core gene expression profiles supporting glucosinolate metabolism, with different gene homologs expressed in florets, stems, and leaves, which suggests that tissue-specific pathways function to support primary and secondary metabolic pathways in broccoli. This comprehensive nutrient and bioactive compound profile represents a useful resource for the evaluation of broccoli by-product utilization in the human diet, and as feedstocks for bioactive compounds for industry.",
+        "affiliation": "School of Food and Bioengineering, Zhengzhou University of Light Industry, Zhengzhou 450002, China. mengpei0402@gmail.com.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "West Virginia Agricultural and Forestry Experiment Station",
+              "grantId": "WVA00698",
+              "orderIn": 0
+            },
+            {
+              "agency": "USDA National Institute of Food and Agriculture",
+              "grantId": "2018-67014-27469",
+              "orderIn": 0
+            },
+            {
+              "agency": "Foundation of Henan Collaborative Innovation Center of Food Production and Safety",
+              "grantId": "Grant No. FCIC201601",
+              "orderIn": 0
+            },
+            {
+              "agency": "USDA National Institute of Food and Agriculture, Hatch",
+              "grantId": "1012506",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Stems",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyll",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organ Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Chlorophyll",
+            "Phenolic compounds",
+            "Carotenoid",
+            "Antioxidant activity",
+            "Broccoli",
+            "glucosinolates",
+            "mineral",
+            "By-products",
+            "Vitamins E And K"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Phenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Chlorophyll",
+              "registryNumber": "1406-65-1"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules23040900"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6017511"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6017511?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 79,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2018-09-13",
+        "dateOfCreation": "2018-04-14",
+        "dateOfRevision": "2023-09-26",
+        "electronicPublicationDate": "2018-04-13",
+        "firstPublicationDate": "2018-04-13",
+        "firstIndexDate": "2018-04-15",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27428958",
+        "source": "MED",
+        "pmid": "27428958",
+        "pmcid": "PMC4964508",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4964508"
+          ]
+        },
+        "doi": "10.3390/ijms17071135",
+        "title": "Transcriptome and Metabolome Analyses of Glucosinolates in Two Broccoli Cultivars Following Jasmonate Treatment for the Induction of Glucosinolate Defense to Trichoplusia ni (Hübner).",
+        "authorString": "Ku KM, Becker TM, Juvik JA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ku KM",
+              "lastName": "Ku",
+              "firstName": "Kang-Mo",
+              "initials": "KM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8588-1163"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Plant and Soil Sciences, West Virginia University, Morgantown, WV 26505, USA. kangmo.ku@mail.wvu.edu."
+                  },
+                  {
+                    "affiliation": "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA. kangmo.ku@mail.wvu.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Becker TM",
+              "lastName": "Becker",
+              "firstName": "Talon M",
+              "initials": "TM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3125-9851"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA. tbecker2@illinois.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Juvik JA",
+              "lastName": "Juvik",
+              "firstName": "John A",
+              "initials": "JA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA. juvik@illinois.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8588-1163"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3125-9851"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "17",
+          "journalIssueId": 2477878,
+          "dateOfPublication": "2016 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Int J Mol Sci",
+            "title": "International journal of molecular sciences",
+            "essn": "1422-0067",
+            "issn": "1422-0067",
+            "isoabbreviation": "Int J Mol Sci",
+            "nlmid": "101092791"
+          },
+          "printPublicationDate": "2016-07-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "E1135",
+        "abstractText": "Lepidopteran larvae growth is influenced by host plant glucosinolate (GS) concentrations, which are, in turn, influenced by the phytohormone jasmonate (JA). In order to elucidate insect resistance biomarkers to lepidopteran pests, transcriptome and metabolome analyses following JA treatments were conducted with two broccoli cultivars, Green Magic and VI-158, which have differentially induced indole GSs, neoglucobrassicin and glucobrassicin, respectively. To test these two inducible GSs on growth of cabbage looper (Trichoplusia ni), eight neonate cabbage looper larvae were placed onto each of three plants per JA treatments (0, 100, 200, 400 µM) three days after treatment. After five days of feeding, weight of larvae and their survival rate was found to decrease with increasing JA concentrations in both broccoli cultivars. JA-inducible GSs were measured by high performance liquid chromatography. Neoglucobrassicin in Green Magic and glucobrassicin in VI-158 leaves were increased in a dose-dependent manner. One or both of these glucosinolates and/or their hydrolysis products showed significant inverse correlations with larval weight and survival (five days after treatment) while being positively correlated with the number of days to pupation. This implies that these two JA-inducible glucosinolates can influence the growth and survival of cabbage looper larvae. Transcriptome profiling supported the observed changes in glucosinolate and their hydrolysis product concentrations following JA treatments. Several genes related to GS metabolism differentiate the two broccoli cultivars in their pattern of transcriptional response to JA treatments. Indicative of the corresponding change in indole GS concentrations, transcripts of the transcription factor MYB122, core structure biosynthesis genes (CYP79B2, UGT74B1, SUR1, SOT16, SOT17, and SOT18), an indole glucosinolate side chain modification gene (IGMT1), and several glucosinolate hydrolysis genes (TGG1, TGG2, and ESM1) were significantly increased in Green Magic (statistically significant in most cases at 400 µM) while UGT74B1 and MYB122 were significantly increased in VI-158. Therefore, these metabolite and transcript biomarker results indicate that transcriptome profiling can identify genes associated with the formation of two different indole GS and their hydrolysis products. Therefore, these metabolite and transcript biomarkers could be useful in an effective marker-assisted breeding strategy for resistance to generalist lepidopteran pests in broccoli and potentially other Brassica vegetables.",
+        "affiliation": "Division of Plant and Soil Sciences, West Virginia University, Morgantown, WV 26505, USA. kangmo.ku@mail.wvu.edu.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Hatch Multistate Project NC-7",
+              "grantId": "ILLU-802-931",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lepidoptera",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PS",
+                    "qualifierName": "parasitology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclopentanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation Mediators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxylipins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metabolome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Real-Time Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcriptome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Insect resistance",
+            "Glucosinolate",
+            "jasmonic acid"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cyclopentanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Inflammation Mediators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxylipins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "jasmonic acid",
+              "registryNumber": "6RI5N05OWW"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://researchrepository.wvu.edu/faculty_publications/922"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ijms17071135"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4964508"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4964508?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 22,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-03-28",
+        "dateOfCreation": "2016-07-19",
+        "dateOfRevision": "2019-01-12",
+        "electronicPublicationDate": "2016-07-15",
+        "firstPublicationDate": "2016-07-15",
+        "firstIndexDate": "2016-07-19",
+        "fullTextReceivedDate": "2020-07-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23638404",
+        "source": "MED",
+        "pmid": "23638404",
+        "pmcid": "PMC3636431",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3636431"
+          ]
+        },
+        "doi": "10.1186/2193-1801-2-115",
+        "title": "Virtual screening for oseltamivir-resistant a (H5N1) influenza neuraminidase from traditional Chinese medicine database: a combined molecular docking with molecular dynamics approach.",
+        "authorString": "Karthick V, Ramanathan K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Karthick V",
+              "lastName": "Karthick",
+              "firstName": "Vasudevan",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bioinformatics Division, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu 632014 India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ramanathan K",
+              "lastName": "Ramanathan",
+              "firstName": "Karuppasamy",
+              "initials": "K"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7471-2527"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1613-0729"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "2",
+          "journalIssueId": 2009497,
+          "dateOfPublication": "2013 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Springerplus",
+            "title": "SpringerPlus",
+            "essn": "2193-1801",
+            "issn": "2193-1801",
+            "isoabbreviation": "Springerplus",
+            "nlmid": "101597967"
+          },
+          "printPublicationDate": "2013-12-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "115",
+        "abstractText": "The neuraminidase (NA) of the influenza virus is the target of antiviral drug, oseltamivir. Recently, cases are reported that Influenza virus becoming resistant to oseltamivir, necessitating the development of new long-acting antiviral compounds. Most importantly, H274Y mutation in neuraminidase exhibits high levels of resistance to oseltamivir. In this report, a novel class of lead molecule with potential NA inhibitory activity was found from the traditional Chinese medicine database (TCMD) using virtual screening approach. Initially ADME properties of the lead compounds were analyzed with respect to the Lipinski rule of five. Subsequently, the data reduction was carried out by employing molecular docking study. Final validation was done by means of molecular dynamic simulations. The toxicity profiles for the screened compound were also analyzed. The result indicates that neoglucobrassicin (a compound derived from TCMD) become a promising lead compound and be effective in treating oseltamivir-resistant influenza virus strains.",
+        "affiliation": "Bioinformatics Division, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu 632014 India.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular dynamic simulation",
+            "Molecular docking",
+            "Virtual Screening",
+            "Oseltamivir-resistance",
+            "Traditional Chinese Medicine Database (Tcmd)"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://springerplus.springeropen.com/counter/pdf/10.1186/2193-1801-2-115"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/2193-1801-2-115"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3636431"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3636431?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2014-11-18",
+        "dateOfCreation": "2013-05-03",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2013-03-18",
+        "firstPublicationDate": "2013-03-18",
+        "firstIndexDate": "2013-05-03",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22978675",
+        "source": "MED",
+        "pmid": "22978675",
+        "doi": "10.1111/tpj.12027",
+        "title": "Arabidopsis wat1 (walls are thin1)-mediated resistance to the bacterial vascular pathogen, Ralstonia solanacearum, is accompanied by cross-regulation of salicylic acid and tryptophan metabolism.",
+        "authorString": "Denancé N, Ranocha P, Oria N, Barlet X, Rivière MP, Yadeta KA, Hoffmann L, Perreau F, Clément G, Maia-Grondard A, van den Berg GC, Savelli B, Fournier S, Aubert Y, Pelletier S, Thomma BP, Molina A, Jouanin L, Marco Y, Goffner D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Denancé N",
+              "lastName": "Denancé",
+              "firstName": "Nicolas",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0173-3970"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ranocha P",
+              "lastName": "Ranocha",
+              "firstName": "Philippe",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Oria N",
+              "lastName": "Oria",
+              "firstName": "Nicolas",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut National de la Recherche Agronomique, INRA, AgroParisTech, Unité Mixte de Recherche 1318, Institut Jean-Pierre Bourgin, Centre de Versailles-Grignon, Route de Saint-Cyr, F-78026, Versailles, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barlet X",
+              "lastName": "Barlet",
+              "firstName": "Xavier",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut National de la Recherche Agronomique, INRA, Unité Mixte de Recherche 441, Laboratoire des Interactions Plantes Microorganismes, 24 Chemin de Borde Rouge, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 2594, Laboratoire des Interactions Plantes Microorganismes, 24 Chemin de Borde Rouge, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rivière MP",
+              "lastName": "Rivière",
+              "firstName": "Marie-Pierre",
+              "initials": "MP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centro de Biotecnología y Genómica de Plantas, Universidad Politécnica de Madrid, Campus Montegancedo, E-28223, Pozuelo de Alarcón, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yadeta KA",
+              "lastName": "Yadeta",
+              "firstName": "Koste A",
+              "initials": "KA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Phytopathology, Wageningen University, Droevendaalsesteeg 1, 6708, PB Wageningen, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hoffmann L",
+              "lastName": "Hoffmann",
+              "firstName": "Laurent",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Perreau F",
+              "lastName": "Perreau",
+              "firstName": "François",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7873-9866"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut National de la Recherche Agronomique, INRA, AgroParisTech, Unité Mixte de Recherche 1318, Institut Jean-Pierre Bourgin, Centre de Versailles-Grignon, Route de Saint-Cyr, F-78026, Versailles, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Clément G",
+              "lastName": "Clément",
+              "firstName": "Gilles",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut National de la Recherche Agronomique, INRA, AgroParisTech, Unité Mixte de Recherche 1318, Institut Jean-Pierre Bourgin, Centre de Versailles-Grignon, Route de Saint-Cyr, F-78026, Versailles, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maia-Grondard A",
+              "lastName": "Maia-Grondard",
+              "firstName": "Alessandra",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut National de la Recherche Agronomique, INRA, AgroParisTech, Unité Mixte de Recherche 1318, Institut Jean-Pierre Bourgin, Centre de Versailles-Grignon, Route de Saint-Cyr, F-78026, Versailles, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "van den Berg GC",
+              "lastName": "van den Berg",
+              "firstName": "Grardy C M",
+              "initials": "GC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Phytopathology, Wageningen University, Droevendaalsesteeg 1, 6708, PB Wageningen, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Savelli B",
+              "lastName": "Savelli",
+              "firstName": "Bruno",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fournier S",
+              "lastName": "Fournier",
+              "firstName": "Sylvie",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0005-0283-7052"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aubert Y",
+              "lastName": "Aubert",
+              "firstName": "Yann",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pelletier S",
+              "lastName": "Pelletier",
+              "firstName": "Sandra",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7582-2939"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unité de Recherche en Génomique Végétale, Institut National de la Recherche Agronomique (INRA)/ Centre National de la Recherche Scientifique (CNRS), 91057, Evry, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thomma BP",
+              "lastName": "Thomma",
+              "firstName": "Bart P H J",
+              "initials": "BP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Phytopathology, Wageningen University, Droevendaalsesteeg 1, 6708, PB Wageningen, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Molina A",
+              "lastName": "Molina",
+              "firstName": "Antonio",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centro de Biotecnología y Genómica de Plantas, Universidad Politécnica de Madrid, Campus Montegancedo, E-28223, Pozuelo de Alarcón, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jouanin L",
+              "lastName": "Jouanin",
+              "firstName": "Lise",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut National de la Recherche Agronomique, INRA, AgroParisTech, Unité Mixte de Recherche 1318, Institut Jean-Pierre Bourgin, Centre de Versailles-Grignon, Route de Saint-Cyr, F-78026, Versailles, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marco Y",
+              "lastName": "Marco",
+              "firstName": "Yves",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut National de la Recherche Agronomique, INRA, Unité Mixte de Recherche 441, Laboratoire des Interactions Plantes Microorganismes, 24 Chemin de Borde Rouge, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 2594, Laboratoire des Interactions Plantes Microorganismes, 24 Chemin de Borde Rouge, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goffner D",
+              "lastName": "Goffner",
+              "firstName": "Deborah",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1232-7911"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, CNRS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7582-2939"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7873-9866"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1232-7911"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0173-3970"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3137-7938"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-0283-7052"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0007-1949-7992"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "73",
+          "journalIssueId": 2287715,
+          "dateOfPublication": "2013 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Plant J",
+            "title": "The Plant journal : for cell and molecular biology",
+            "essn": "1365-313X",
+            "issn": "0960-7412",
+            "isoabbreviation": "Plant J",
+            "nlmid": "9207397"
+          },
+          "printPublicationDate": "2013-01-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "225-239",
+        "abstractText": "Inactivation of Arabidopsis WAT1 (Walls Are Thin1), a gene required for secondary cell-wall deposition, conferred broad-spectrum resistance to vascular pathogens, including the bacteria Ralstonia solanacearum and Xanthomonas campestris pv. campestris, and the fungi Verticillium dahliae and Verticillium albo-atrum. Introduction of NahG, the bacterial salicylic acid (SA)-degrading salicylate hydroxylase gene, into the wat1 mutant restored full susceptibility to both R. solanacearum and X. campestris pv. campestris. Moreover, SA content was constitutively higher in wat1 roots, further supporting a role for SA in wat1-mediated resistance to vascular pathogens. By combining transcriptomic and metabolomic data, we demonstrated a general repression of indole metabolism in wat1-1 roots as shown by constitutive down-regulation of several genes encoding proteins of the indole glucosinolate biosynthetic pathway and reduced amounts of tryptophan (Trp), indole-3-acetic acid and neoglucobrassicin, the major form of indole glucosinolate in roots. Furthermore, the susceptibility of the wat1 mutant to R. solanacearum was partially restored when crossed with either the trp5 mutant, an over-accumulator of Trp, or Pro35S:AFB1-myc, in which indole-3-acetic acid signaling is constitutively activated. Our original hypothesis placed cell-wall modifications at the heart of the wat1 resistance phenotype. However, the results presented here suggest a mechanism involving root-localized metabolic channeling away from indole metabolites to SA as a central feature of wat1 resistance to R. solanacearum.",
+        "affiliation": "Université de Toulouse, UPS, Unité Mixte de Recherche 5546, Laboratoire de Recherche en Sciences Végétales, BP 42617, F-31326, Castanet-Tolosan, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pseudomonas syringae"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Ralstonia solanacearum"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xanthomonas campestris"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fungi",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Roots"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Salicylic Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tryptophan",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Salicylic acid",
+            "Arabidopsis",
+            "Ralstonia solanacearum",
+            "auxin",
+            "Indole Glucosinolates",
+            "Vascular Pathogen"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Membrane Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Arabidopsis Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Wat1 protein, Arabidopsis",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tryptophan",
+              "registryNumber": "8DUH1N11BX"
+            },
+            {
+              "name": "Salicylic Acid",
+              "registryNumber": "O414PZ4LPZ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/tpj.12027"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 114,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-02-22",
+        "dateOfCreation": "2012-09-18",
+        "dateOfRevision": "2022-04-08",
+        "electronicPublicationDate": "2012-11-26",
+        "firstPublicationDate": "2012-11-26",
+        "firstIndexDate": "2012-09-19",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11586481",
+        "source": "MED",
+        "pmid": "11586481",
+        "doi": "10.1053/meta.2001.26743",
+        "title": "Biochemical effects of dietary intakes of different broccoli samples. I. Differential modulation of cytochrome P-450 activities in rat liver, kidney, and colon.",
+        "authorString": "Vang O, Frandsen H, Hansen KT, Sørensen JN, Sørensen H, Andersen O.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vang O",
+              "lastName": "Vang",
+              "firstName": "O",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3901-8545"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Roskilde, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Frandsen H",
+              "lastName": "Frandsen",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Hansen KT",
+              "lastName": "Hansen",
+              "firstName": "K T",
+              "initials": "KT"
+            },
+            {
+              "fullName": "Sørensen JN",
+              "lastName": "Sørensen",
+              "firstName": "J N",
+              "initials": "JN"
+            },
+            {
+              "fullName": "Sørensen H",
+              "lastName": "Sørensen",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Andersen O",
+              "lastName": "Andersen",
+              "firstName": "O",
+              "initials": "O"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3901-8545"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "50",
+          "journalIssueId": 1014799,
+          "dateOfPublication": "2001 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "Metabolism",
+            "title": "Metabolism: clinical and experimental",
+            "essn": "1532-8600",
+            "issn": "0026-0495",
+            "isoabbreviation": "Metabolism",
+            "nlmid": "0375267"
+          },
+          "printPublicationDate": "2001-10-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "1123-1129",
+        "abstractText": "Modulation of xenobiotic metabolism, including cytochrome P-450 (CYP) enzyme activities, due to dietary intakes of cruciferous vegetables, has been described in animals and humans, and the induction of CYP1A enzymes is suggested mainly to be related to the content of indolyl glucosinolates in these vegetables. The aim of the present study was to evaluate the effects on specific CYP activities of various broccoli samples containing different levels of glucosinolates. Groups of rats were fed 1 of 8 broccoli samples from 2 cultivars grown at different conditions. Thirteen different glucosinolates were quantified. The content of the 4 major glucosinolates, glucoraphanin (GRAP), glucoiberin, glucobrassicin (GB), and neoglucobrassicin (NeoGB) varied 5.6-, 2.7-, 3.2-, and 6.6-fold, respectively, among the broccoli samples. Dietary broccoli induced the CYP1A enzyme activities, 7-ethoxyresorufin-O-deethylase (EROD) and 7-methoxyresorufin-O-demethylase (MROD), in rat liver, weakly in colon, but not in kidney. In concordance, the hepatic metabolism of 2-amino-1-methyl-6-phenylimidazo(4,5-b)pyridine (PhIP) to the proximate carcinogen N-OH-PhIP, a CYP1A-related activity, was enhanced by broccoli. The 7-pentoxyresorufin-O-depenthylase (PROD) activity, an assay for CYP2B1/2, was weakly induced in colon and kidney but not in liver by broccoli. The 2 beta-OH- and 6 beta-OH-testosterone hydroxylase activities were induced in liver microsomes, showing that broccoli increased CYP3A activity. The observed modulations of CYP activities depended clearly on the broccoli sample used, and significantly different responses were observed for different cultivars and growth conditions. These results indicate that modulation of CYP metabolism by broccoli may vary significantly in humans as well, as the content of glucosinolates and other active substances also varies between commercially available broccoli samples. The different effects depending on the vegetable sample eaten have to be considered in future experiments and dietary recommendations.",
+        "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Roskilde, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colon",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AH",
+                    "qualifierName": "anatomy & histology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Imidazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoenzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organ Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Activation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Isoenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Imidazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "2-amino-1-methyl-6-phenylimidazo(4,5-b)pyridine",
+              "registryNumber": "909C6UN66T"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1053/meta.2001.26743"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2001-11-01",
+        "dateOfCreation": "2001-10-05",
+        "dateOfRevision": "2019-07-25",
+        "firstPublicationDate": "2001-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "10368814",
+        "source": "MED",
+        "pmid": "10368814",
+        "doi": "10.1207/s15327914nc330210",
+        "title": "Modulation of cytochrome P-450 and glutathione S-transferase isoform expression in vivo by intact and degraded indolyl glucosinolates.",
+        "authorString": "Bonnesen C, Stephensen PU, Andersen O, Sørensen H, Vang O.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bonnesen C",
+              "lastName": "Bonnesen",
+              "firstName": "C",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stephensen PU",
+              "lastName": "Stephensen",
+              "firstName": "P U",
+              "initials": "PU"
+            },
+            {
+              "fullName": "Andersen O",
+              "lastName": "Andersen",
+              "firstName": "O",
+              "initials": "O"
+            },
+            {
+              "fullName": "Sørensen H",
+              "lastName": "Sørensen",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Vang O",
+              "lastName": "Vang",
+              "firstName": "O",
+              "initials": "O"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "33",
+          "journalIssueId": 911345,
+          "dateOfPublication": "1999 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 1999,
+          "journal": {
+            "medlineAbbreviation": "Nutr Cancer",
+            "title": "Nutrition and cancer",
+            "essn": "1532-7914",
+            "issn": "0163-5581",
+            "isoabbreviation": "Nutr Cancer",
+            "nlmid": "7905040"
+          },
+          "printPublicationDate": "1999-01-01"
+        },
+        "pubYear": "1999",
+        "pageInfo": "178-187",
+        "abstractText": "Various dietary substances modulate the xenobiotic metabolism and may thereby protect against toxicity and carcinogenicity of food toxins. The effects of pure indolyl glucosinolates, which are present in cruciferous vegetables, on induction of specific cytochrome P-450 (CYP) and glutathione S-transferase (GST) isoforms have not been studied previously. In the present study, glucobrassicin (GB) and neoglucobrassicin (NeoGB) were purified from broccoli by use of a single-column method. Furthermore, a mixture containing 48% GB, 36% NeoGB, and 16% 4-methoxyglucobrassicin was obtained. The modulatory effects of the pure GB, NeoGB, and the mixture on activities and levels of hepatic CYP 1A, 2B1/2, and 2E1 and alpha- and mu-GST isoforms were investigated in male Wistar rats. The indolyl mixture was the most powerful and NeoGB the weakest inducer of microsomal hepatic CYP 1A1 protein and 7-ethoxyresorufin O-deethylase activity. Furthermore, intact indolyl glucosinolates were more powerful inducers than the in vitro myrosinase-degraded indolyl glucosinolates. The hepatic 7-methoxyresorufin O-deethylase activities, but not CYP 1A2 protein, were induced by pure GB, whereas the mixture and NeoGB showed only minor effects. Neither CYP 2B1/2 nor 2E1 was induced by the indolyl glucosinolates. None of the hepatic GST subunits analyzed, rGST A1/2, A3, or M3, was induced significantly by the purified indolyl glucosinolates.",
+        "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Indoles"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Transferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticarcinogenic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Glutathione Transferase",
+              "registryNumber": "EC 2.5.1.18"
+            },
+            {
+              "name": "Anticarcinogenic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "glucobrassicin",
+              "registryNumber": "EA6EH0IU89"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1207/S15327914NC330210"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 33,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1999-08-11",
+        "dateOfCreation": "1999-06-16",
+        "dateOfRevision": "2016-11-24",
+        "firstPublicationDate": "1999-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

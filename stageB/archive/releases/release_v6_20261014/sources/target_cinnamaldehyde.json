@@ -1,0 +1,4692 @@
+{
+  "version": "6.9",
+  "hitCount": 15,
+  "request": {
+    "queryString": "TITLE:\"Cinnamaldehyde\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32726661",
+        "source": "MED",
+        "pmid": "32726661",
+        "doi": "10.1016/j.lfs.2020.118151",
+        "title": "Cinnamaldehyde changes the dynamic balance of glucose metabolism by targeting ENO1.",
+        "authorString": "Zhang W, Gao J, Shen F, Ma X, Wang Z, Hou X, Hao E, Hou Y, Bai G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang W",
+              "lastName": "Zhang",
+              "firstName": "Weiyi",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao J",
+              "lastName": "Gao",
+              "firstName": "Jie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China. Electronic address: gaojie@nankai.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shen F",
+              "lastName": "Shen",
+              "firstName": "Fukui",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma X",
+              "lastName": "Ma",
+              "firstName": "Xiaoyao",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zhihua",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0967-287X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hou X",
+              "lastName": "Hou",
+              "firstName": "Xiaotao",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Collaborative Innovation Center for Research on Functional Ingredients of Agricultural Residues, Guangxi Key Laboratory of Efficacy Study on Chinese Materia Medica, Guangxi University of Chinese Medicine, Nanning 530200, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hao E",
+              "lastName": "Hao",
+              "firstName": "Erwei",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Collaborative Innovation Center for Research on Functional Ingredients of Agricultural Residues, Guangxi Key Laboratory of Efficacy Study on Chinese Materia Medica, Guangxi University of Chinese Medicine, Nanning 530200, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hou Y",
+              "lastName": "Hou",
+              "firstName": "Yuanyuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China. Electronic address: houyy@nankai.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bai G",
+              "lastName": "Bai",
+              "firstName": "Gang",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China. Electronic address: gangbai@nankai.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0967-287X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "258",
+          "journalIssueId": 3016633,
+          "dateOfPublication": "2020 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Life Sci",
+            "title": "Life sciences",
+            "essn": "1879-0631",
+            "issn": "0024-3205",
+            "isoabbreviation": "Life Sci",
+            "nlmid": "0375521"
+          },
+          "printPublicationDate": "2020-10-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "118151",
+        "abstractText": "<h4>Aims</h4>Hepatic glucose metabolism involves a variety of catabolic and anabolic pathways, and the dynamic balance of glucose metabolism is regulated in response to environmental and nutritional changes. The molecular mechanism of glucose metabolism in liver is complex and has not been fully elucidated so far. In this study, we hope to elucidate the target and mechanism of cinnamaldehyde (CA) in regulating glucose metabolism.<h4>Materials and methods</h4>Molecular image tracing and magnetic capture in combination with an alkynyl-CA probe (Al-CA) was used to show CA covalently binds to α-enolase (ENO1) in both mouse liver and HepG2 cells. Accurate metabolic flow assays subsequently demonstrated that the utilization of glycogenic amino acids and the biosynthesis of tricarboxylic acid (TCA) cycle intermediates were strengthened, which was detected using nontargeted and targeted metabolomics analyses.<h4>Key findings</h4>Our study shows that CA covalently bonds with ENO1, which affects the stability and activity of ENO1 and changes the dynamic balance of glucose metabolism. The interruption of gluconeogenic reflux by ENO1 enhanced TCA cycle, and eventually led to a decrease in blood glucose and the improvement of mitochondrial efficiency.<h4>Significance</h4>These results provide a detailed description of how CA maintains the dynamic balance of glucose utilization and improves energy metabolism.",
+        "affiliation": "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300353, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Guangxi Innovation-Driven Development Project",
+              "grantId": "AA18118049",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphopyruvate Hydratase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA-Binding Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Suppressor Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavoring Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Activation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citric Acid Cycle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gluconeogenesis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycolysis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers, Tumor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Glycogen synthesis",
+            "gluconeogenesis",
+            "glycolysis",
+            "Α-enolase (Eno1)",
+            "Cinnamaldehyde (Ca)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "ENO1 protein, human",
+              "registryNumber": "EC 4.2.1.11"
+            },
+            {
+              "name": "Phosphopyruvate Hydratase",
+              "registryNumber": "EC 4.2.1.11"
+            },
+            {
+              "name": "Flavoring Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA-Binding Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tumor Suppressor Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Eno1 protein, mouse",
+              "registryNumber": "EC 4.2.1.11"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "Biomarkers, Tumor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.lfs.2020.118151"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 15,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-10-07",
+        "dateOfCreation": "2020-07-30",
+        "dateOfRevision": "2021-07-02",
+        "electronicPublicationDate": "2020-07-26",
+        "firstPublicationDate": "2020-07-26",
+        "firstIndexDate": "2020-07-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33077881",
+        "source": "MED",
+        "pmid": "33077881",
+        "pmcid": "PMC7572373",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7572373"
+          ]
+        },
+        "doi": "10.1038/s41598-020-74574-z",
+        "title": "Sisters in structure but different in character, some benzaldehyde and cinnamaldehyde derivatives differentially tune Aspergillus flavus secondary metabolism.",
+        "authorString": "Bisceglie F, Degola F, Rogolino D, Giannelli G, Orsoni N, Spadola G, Pioli M, Restivo FM, Carcelli M, Pelosi G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bisceglie F",
+              "lastName": "Bisceglie",
+              "firstName": "Franco",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9165-0356"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Degola F",
+              "lastName": "Degola",
+              "firstName": "Francesca",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3937-251X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy. francesca.degola@unipr.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rogolino D",
+              "lastName": "Rogolino",
+              "firstName": "Dominga",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2295-5783"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giannelli G",
+              "lastName": "Giannelli",
+              "firstName": "Gianluigi",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5625-2499"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Orsoni N",
+              "lastName": "Orsoni",
+              "firstName": "Nicolò",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Spadola G",
+              "lastName": "Spadola",
+              "firstName": "Giorgio",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pioli M",
+              "lastName": "Pioli",
+              "firstName": "Marianna",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Restivo FM",
+              "lastName": "Restivo",
+              "firstName": "Francesco M",
+              "initials": "FM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Carcelli M",
+              "lastName": "Carcelli",
+              "firstName": "Mauro",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5888-4556"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pelosi G",
+              "lastName": "Pelosi",
+              "firstName": "Giorgio",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5888-4556"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9165-0356"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3937-251X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5625-2499"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2295-5783"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "10",
+          "journalIssueId": 3032300,
+          "dateOfPublication": "2020 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Sci Rep",
+            "title": "Scientific reports",
+            "essn": "2045-2322",
+            "issn": "2045-2322",
+            "isoabbreviation": "Sci Rep",
+            "nlmid": "101563288"
+          },
+          "printPublicationDate": "2020-10-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "17686",
+        "abstractText": "Great are the expectations for a new generation of antimicrobials, and strenuous are the research efforts towards the exploration of diverse molecular scaffolds-possibly of natural origin - aimed at the synthesis of new compounds against the spread of hazardous fungi. Also high but winding are the paths leading to the definition of biological targets specifically fitting the drug's structural characteristics. The present study is addressed to inspect differential biological behaviours of cinnamaldehyde and benzaldehyde thiosemicarbazone scaffolds, exploiting the secondary metabolism of the mycotoxigenic phytopathogen Aspergillus flavus. Interestingly, owing to modifications on the parent chemical scaffold, some thiosemicarbazones displayed an increased specificity against one or more developmental processes (conidia germination, aflatoxin biosynthesis, sclerotia production) of A. flavus biology. Through the comparative analysis of results, the ligand-based screening strategy here described has allowed us to delineate which modifications are more promising for distinct purposes: from the control of mycotoxins contamination in food and feed commodities, to the environmental management of microbial pathogens, to the investigation of specific structure-activity features for new generation drug discovery.",
+        "affiliation": "Department of Chemistry, Life Sciences and Environmental Sustainability, University of Parma, Parco Area delle Scienze 11/A, 43124, Parma, Italy.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Università degli Studi di Parma",
+              "grantId": "PELOSI_2019_FILPROGETTI_A_CARIPR_COFIN",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saccharomyces cerevisiae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aspergillus flavus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzaldehydes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Fungal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aflatoxins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrum Analysis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Databases, Protein"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Aflatoxins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzaldehydes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "RNA, Fungal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "benzaldehyde",
+              "registryNumber": "TA269SD04T"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/s41598-020-74574-z.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41598-020-74574-z"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7572373"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7572373?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-03-08",
+        "dateOfCreation": "2020-10-20",
+        "dateOfRevision": "2023-01-06",
+        "electronicPublicationDate": "2020-10-19",
+        "firstPublicationDate": "2020-10-19",
+        "firstIndexDate": "2020-10-21",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29966139",
+        "source": "MED",
+        "pmid": "29966139",
+        "pmcid": "PMC6058736",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6058736"
+          ]
+        },
+        "doi": "10.12659/msm.911741",
+        "title": "Retracted: Effect of Cinnamaldehyde on Glucose Metabolism and Vessel Function.",
+        "authorString": "Guo X, Sun W, Huang L, Wu L, Hou Y, Qin L, Liu T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo X",
+              "lastName": "Guo",
+              "firstName": "Xuan",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", ,."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun W",
+              "lastName": "Sun",
+              "firstName": "Wen",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", ,."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang L",
+              "lastName": "Huang",
+              "firstName": "Liansha",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", ,."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu L",
+              "lastName": "Wu",
+              "firstName": "Lili",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", ,."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hou Y",
+              "lastName": "Hou",
+              "firstName": "Yi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", ,."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qin L",
+              "lastName": "Qin",
+              "firstName": "Lingling",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", ,."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu T",
+              "lastName": "Liu",
+              "firstName": "Tonghua",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", ,."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "24",
+          "journalIssueId": 2700995,
+          "dateOfPublication": "2018 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Med Sci Monit",
+            "title": "Medical science monitor : international medical journal of experimental and clinical research",
+            "essn": "1643-3750",
+            "issn": "1234-1010",
+            "isoabbreviation": "Med Sci Monit",
+            "nlmid": "9609063"
+          },
+          "printPublicationDate": "2018-07-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "4572",
+        "abstractText": "This paper was retracted on the authors' request due to duplicate publication. This experiment was entrusted to a third party called Nanjing Changcong Biology Company, and we found that some of the data reported in the Results figures were duplicated in another published paper. The pdf file of the above-mentioned paper is available from the Editorial Office on request.",
+        "affiliation": ", ,.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Retraction of Publication",
+            "Journal Article",
+            "Retraction Notice"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.12659/MSM.911741"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6058736"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6058736?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "28790298",
+              "reference": "Med Sci Monit. 2017 Aug 9;23:3844-3853. doi: 10.12659/MSM.906027.",
+              "type": "Retraction of",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-10-24",
+        "dateOfCreation": "2018-07-03",
+        "dateOfRevision": "2024-12-06",
+        "electronicPublicationDate": "2018-07-02",
+        "firstPublicationDate": "2018-07-02",
+        "firstIndexDate": "2018-07-03",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28790298",
+        "source": "MED",
+        "pmid": "28790298",
+        "pmcid": "PMC5562185",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5562185"
+          ]
+        },
+        "doi": "10.12659/msm.906027",
+        "title": "Effect of Cinnamaldehyde on Glucose Metabolism and Vessel Function.",
+        "authorString": "Guo X, Sun W, Huang L, Wu L, Hou Y, Qin L, Liu T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo X",
+              "lastName": "Guo",
+              "firstName": "Xuan",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, Beijing University of Chinese Medicine, Beijing, China (mainland)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun W",
+              "lastName": "Sun",
+              "firstName": "Wen",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Health Cultivation of the Ministry of Education, Beijing University of Chinese Medicine, Beijing, China (mainland)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang L",
+              "lastName": "Huang",
+              "firstName": "Liansha",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Preventive Treatment of Disease Centre, Chinese Medicine Hospital of Baoan, Shenzhen, Guangdong, China (mainland)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu L",
+              "lastName": "Wu",
+              "firstName": "Lili",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Beijing key Laboratory of Health Cultivation, Beijing University of Chinese Medicine, Beijing, China (mainland)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hou Y",
+              "lastName": "Hou",
+              "firstName": "Yi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Endocrinology, Beijing University of Chinese Medicine, Beijing, China (mainland)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qin L",
+              "lastName": "Qin",
+              "firstName": "Lingling",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Science and Technology, Beijing University of Chinese Medicine, Beijing, China (mainland)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu T",
+              "lastName": "Liu",
+              "firstName": "Tonghua",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Health Cultivation of the Ministry of Education, Beijing University of Chinese Medicine, Beijing, China (mainland)."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "23",
+          "journalIssueId": 2581733,
+          "dateOfPublication": "2017 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Med Sci Monit",
+            "title": "Medical science monitor : international medical journal of experimental and clinical research",
+            "essn": "1643-3750",
+            "issn": "1234-1010",
+            "isoabbreviation": "Med Sci Monit",
+            "nlmid": "9609063"
+          },
+          "printPublicationDate": "2017-08-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "3844-3853",
+        "affiliation": "Department of Endocrinology, Beijing University of Chinese Medicine, Beijing, China (mainland).",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Retracted Publication",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Oxidative stress",
+            "Insulin resistance",
+            "superoxides"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.12659/MSM.906027"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5562185"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "29966139",
+              "reference": "Med Sci Monit. 2018 Jul 02;24:4572. doi: 10.12659/MSM.911741",
+              "type": "Retraction in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 15,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2018-12-12",
+        "dateOfCreation": "2017-08-10",
+        "dateOfRevision": "2018-12-12",
+        "electronicPublicationDate": "2017-08-09",
+        "firstPublicationDate": "2017-08-09",
+        "firstIndexDate": "2017-08-10",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31869758",
+        "source": "MED",
+        "pmid": "31869758",
+        "doi": "10.1016/j.jnutbio.2019.108321",
+        "title": "Treatment with cinnamaldehyde reduces the visceral adiposity and regulates lipid metabolism, autophagy and endoplasmic reticulum stress in the liver of a rat model of early obesity.",
+        "authorString": "Neto JGO, Boechat SK, Romão JS, Pazos-Moura CC, Oliveira KJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Neto JGO",
+              "lastName": "Neto",
+              "firstName": "Jessika Geisebel Oliveira",
+              "initials": "JGO",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Fisiologia e Farmacologia, Universidade Federal Fluminense, Rua Hernani Pires de Melo, 101, São domingos, Niterói, 24210-130, RJ, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boechat SK",
+              "lastName": "Boechat",
+              "firstName": "Silvia Karl",
+              "initials": "SK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Fisiologia e Farmacologia, Universidade Federal Fluminense, Rua Hernani Pires de Melo, 101, São domingos, Niterói, 24210-130, RJ, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Romão JS",
+              "lastName": "Romão",
+              "firstName": "Juliana Santos",
+              "initials": "JS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1184-9072"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Fisiologia e Farmacologia, Universidade Federal Fluminense, Rua Hernani Pires de Melo, 101, São domingos, Niterói, 24210-130, RJ, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pazos-Moura CC",
+              "lastName": "Pazos-Moura",
+              "firstName": "Carmen Cabanelas",
+              "initials": "CC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto de Biofísica Carlos Chagas Filho, Universidade Federal do Rio de Janeiro, Centro de Ciências da Saúde, Ilha do Fundão, Rio de Janeiro,21949-900, RJ, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Oliveira KJ",
+              "lastName": "Oliveira",
+              "firstName": "Karen Jesus",
+              "initials": "KJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2320-8683"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Fisiologia e Farmacologia, Universidade Federal Fluminense, Rua Hernani Pires de Melo, 101, São domingos, Niterói, 24210-130, RJ, Brazil; Instituto de Biofísica Carlos Chagas Filho, Universidade Federal do Rio de Janeiro, Centro de Ciências da Saúde, Ilha do Fundão, Rio de Janeiro,21949-900, RJ, Brazil. Electronic address: karenoliveira@id.uff.br."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1184-9072"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2320-8683"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "77",
+          "journalIssueId": 2915186,
+          "dateOfPublication": "2020 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "J Nutr Biochem",
+            "title": "The Journal of nutritional biochemistry",
+            "essn": "1873-4847",
+            "issn": "0955-2863",
+            "isoabbreviation": "J Nutr Biochem",
+            "nlmid": "9010081"
+          },
+          "printPublicationDate": "2020-03-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "108321",
+        "abstractText": "Nutrition at early stages of life contributes to the alarming incidence of childhood obesity, insulin resistance and hepatoesteatosis. Cinnamaldehyde, major component of cinnamon, increases insulin sensitivity and modulates adiposity and lipid metabolism. The aim of this study was to analyze the impact of cinnamaldehyde treatment during adolescence in a rat model of early obesity. Litter size reduction was used to induce overfeeding and early obesity. At postnatal day 30 (adolescence), the male Wistar rats received cinnamaldehyde by gavage (40 mg/kg of body weight/day) for 29 days and were studied at the end of treatment at 60 days old or 4 months thereafter (180 days old). At 60 days of age, the treatment with cinnamaldehyde promoted reduced visceral adiposity, serum triacylglycerol, and attenuation of energy efficiency and insulin resistance. In the liver, it reduced lipid synthesis, stimulated autophagy and reduced ER stress. At 180 days of age, animals treated with cinnamaldehyde during the adolescence exhibited normalization of visceral adiposity and energy efficiency, and attenuation of hyperphagia, serum hypertriglyceridemia and hepatic triacylglycerol content, with molecular markers indicative of reduced hepatic synthesis. However, the beneficial effect observed at 60 days of age on glucose homeostasis, autophagy and ER stress was lost. Therefore, the cinnamaldehyde supplementation during the adolescence has short- and long-term metabolic beneficial effects, highlighting its potential as an adjuvant in the treatment of early obesity.",
+        "affiliation": "Departamento de Fisiologia e Farmacologia, Universidade Federal Fluminense, Rua Hernani Pires de Melo, 101, São domingos, Niterói, 24210-130, RJ, Brazil.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro",
+              "grantId": "E26/203.190/2015",
+              "orderIn": 0
+            },
+            {
+              "agency": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+              "grantId": "001",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro",
+              "grantId": "E26/102.982",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin Resistance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Obesity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Weight"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hyperphagia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triglycerides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Autophagy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intra-Abdominal Fat",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adiposity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Lipid Metabolism"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Endoplasmic Reticulum Stress"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Obesity",
+            "cinnamaldehyde",
+            "Autophagy",
+            "lipid metabolism",
+            "endoplasmic reticulum stress",
+            "Metabolic Programming"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Triglycerides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jnutbio.2019.108321"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 41,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-02-24",
+        "dateOfCreation": "2019-12-24",
+        "dateOfRevision": "2021-07-02",
+        "electronicPublicationDate": "2019-12-11",
+        "firstPublicationDate": "2019-12-11",
+        "firstIndexDate": "2019-12-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30460386",
+        "source": "MED",
+        "pmid": "30460386",
+        "doi": "10.1007/s00210-018-1583-4",
+        "title": "Cinnamaldehyde ameliorates STZ-induced rat diabetes through modulation of IRS1/PI3K/AKT2 pathway and AGEs/RAGE interaction.",
+        "authorString": "Abdelmageed ME, Shehatou GS, Abdelsalam RA, Suddek GM, Salem HA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abdelmageed ME",
+              "lastName": "Abdelmageed",
+              "firstName": "Marwa E",
+              "initials": "ME",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2283-5327"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Mansoura University, Mansoura, 35516, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shehatou GS",
+              "lastName": "Shehatou",
+              "firstName": "George S",
+              "initials": "GS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5501-1004"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Mansoura University, Mansoura, 35516, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdelsalam RA",
+              "lastName": "Abdelsalam",
+              "firstName": "Rami A",
+              "initials": "RA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Faculty of Medicine, Mansoura University, Mansoura, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Suddek GM",
+              "lastName": "Suddek",
+              "firstName": "Ghada M",
+              "initials": "GM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3283-9471"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Mansoura University, Mansoura, 35516, Egypt. ghmsuddek@yahoo.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salem HA",
+              "lastName": "Salem",
+              "firstName": "Hatem A",
+              "initials": "HA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Mansoura University, Mansoura, 35516, Egypt."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5501-1004"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3283-9471"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2283-5327"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "392",
+          "journalIssueId": 2776648,
+          "dateOfPublication": "2019 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "title": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "essn": "1432-1912",
+            "issn": "0028-1298",
+            "isoabbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "nlmid": "0326264"
+          },
+          "printPublicationDate": "2019-02-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "243-258",
+        "abstractText": "Type 2 diabetes mellitus (T2D) is a chronic metabolic disorder considered to be the most predominant form of diabetes throughout the world. This study aimed to investigate the possible effects of cinnamaldehyde (CIN) on insulin signaling pathways in STZ-induced T2D rat model. T2D was originated by feeding rats with a high-fat diet (HFD) plus 25% fructose solution plus streptozotocin (STZ) (35 mg/kg, i.p.). CIN effects were investigated on fasting blood glucose, insulin, oral glucose tolerance test (OGTT), insulin tolerance test (ITT), liver biomarkers, lipid profile, oxidative stress biomarkers, serum advanced glycation end products (AGEs) and its receptors (RAGE) in the aorta, and histopathology of the liver and aorta. Additionally, the mRNA expression of hepatic insulin signaling pathway genes, phosphorylated AKT (serine 473) (P-AKT ser<sup>473</sup>) level, and aortic nitric oxide synthase3 (eNOS) and NADPH oxidase4 (NOX4) were determined. CIN treatment for 30 days significantly decreased OGTT, ITT, fasting blood glucose, insulin, and HOMA-IR and increased HOMA-β index when compared to diabetic rats. CIN also improved lipid profile and decreased serum alanine aminotransferase (ALT) and aspartate aminotransferase (AST) activity, serum AGEs, and aortic RAGE. Additionally, CIN treatment significantly decreased hepatic malondialdehyde (MDA), increased hepatic and aortic glutathione (GSH) and superoxide dismutase (SOD), and decreased steatosis and inflammation observed in liver tissue of rats. Additionally, significant elevation in mRNA expression of insulin receptor substrate1 (IRS1), phosphatidylinositol 3-kinase regulatory subunit1 (PI3K-P85 subunit), and AKT serine/threonine kinase2 (AKT2); increased levels of P-AKT ser<sup>473</sup> and aortic eNOS; and decrease in mRNA expression of NOX4 were detected in CIN-treated group when compared to diabetic group. This study suggests antidiabetic and antioxidant effects of CIN probably through upregulation of eNOS and IRS1/PI3K/AKT2 signaling pathway and alleviating AGEs, RAGE, and NOX4 elevation.",
+        "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Mansoura University, Mansoura, 35516, Egypt.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aorta, Thoracic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus, Experimental",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fructose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypoglycemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-akt",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitric Oxide Synthase Type III",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin Receptor Substrate Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphatidylinositol 3-Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet, High-Fat"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptor for Advanced Glycation End Products",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycation End Products, Advanced",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Rats",
+            "Oxidative stress",
+            "Fructose",
+            "Type 2 diabetes",
+            "cinnamaldehyde",
+            "Streptozotocin",
+            "advanced glycation end products",
+            "High-fat diet",
+            "Insulin signaling pathway"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fructose",
+              "registryNumber": "30237-26-4"
+            },
+            {
+              "name": "Nitric Oxide Synthase Type III",
+              "registryNumber": "EC 1.14.13.39"
+            },
+            {
+              "name": "Nos3 protein, rat",
+              "registryNumber": "EC 1.14.13.39"
+            },
+            {
+              "name": "Insulin Receptor Substrate Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Irs1 protein, rat",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-akt",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Phosphatidylinositol 3-Kinases",
+              "registryNumber": "EC 2.7.1.-"
+            },
+            {
+              "name": "Akt2 protein, rat",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "Glycation End Products, Advanced",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptor for Advanced Glycation End Products",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00210-018-1583-4"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 42,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-12-24",
+        "dateOfCreation": "2018-11-22",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2018-11-20",
+        "firstPublicationDate": "2018-11-20",
+        "firstIndexDate": "2018-11-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27282133",
+        "source": "MED",
+        "pmid": "27282133",
+        "doi": "10.1111/eos.12279",
+        "title": "Interaction between intra-oral cinnamaldehyde and nicotine assessed by psychophysical and physiological responses.",
+        "authorString": "Jensen TK, Andersen MV, Nielsen KA, Arendt-Nielsen L, Boudreau SA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jensen TK",
+              "lastName": "Jensen",
+              "firstName": "Tanja K",
+              "initials": "TK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Sensory-Motor Interaction (SMI), Department of Health Science and Technology, Faculty of Medicine, Aalborg University, Aalborg, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Andersen MV",
+              "lastName": "Andersen",
+              "firstName": "Michelle V",
+              "initials": "MV",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Sensory-Motor Interaction (SMI), Department of Health Science and Technology, Faculty of Medicine, Aalborg University, Aalborg, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nielsen KA",
+              "lastName": "Nielsen",
+              "firstName": "Kent A",
+              "initials": "KA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5800-5774"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nicotine Science Center, Fertin Pharma, Vejle, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arendt-Nielsen L",
+              "lastName": "Arendt-Nielsen",
+              "firstName": "Lars",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0892-1579"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Sensory-Motor Interaction (SMI), Department of Health Science and Technology, Faculty of Medicine, Aalborg University, Aalborg, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boudreau SA",
+              "lastName": "Boudreau",
+              "firstName": "Shellie A",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Sensory-Motor Interaction (SMI), Department of Health Science and Technology, Faculty of Medicine, Aalborg University, Aalborg, Denmark."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5800-5774"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0892-1579"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "124",
+          "journalIssueId": 2427054,
+          "dateOfPublication": "2016 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Eur J Oral Sci",
+            "title": "European journal of oral sciences",
+            "essn": "1600-0722",
+            "issn": "0909-8836",
+            "isoabbreviation": "Eur J Oral Sci",
+            "nlmid": "9504563"
+          },
+          "printPublicationDate": "2016-08-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "349-357",
+        "abstractText": "Cinnamaldehyde and nicotine activate the transient receptor potential subtype A1 (TRPA1) channel, which may cause burning sensations. This study investigated whether cinnamaldehyde modulates nicotine-induced psychophysical and physiological responses in oral tissues. Healthy non-smokers (n = 22) received, in a randomized, double-blind, crossover design, three different gums containing 4 mg of nicotine, 20 mg of cinnamaldehyde, or a combination thereof. Assessments of orofacial temperature and blood flow, blood pressure, heart rate, taste experience, and intra-oral pain/irritation area and intensity were performed before, during, and after a 10-min chewing regime. Cinnamaldehyde increased the temperature of the tongue and blood flow of the lip, and was associated with pain/irritation, especially in the mouth. Nicotine increased the temperature of the tongue and blood flow of the cheek, and produced pain/irritation in the mouth and throat. The combination of cinnamaldehyde and nicotine did not overtly change the psychophysical or physiological responses. Interestingly, half of the subjects responded to cinnamaldehyde as an irritant, and these cinnamaldehyde responders reported greater nicotine-induced pain/irritation areas in the throat. Whether sensitivity to cinnamaldehyde can predict the response to nicotine-induced oral irritation remains to be determined. A better understanding of the sensory properties of nicotine in the oral mucosa has important therapeutic implications because pain and irritation represent compliance issues for nicotine replacement products.",
+        "affiliation": "Center for Sensory-Motor Interaction (SMI), Department of Health Science and Technology, Faculty of Medicine, Aalborg University, Aalborg, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "EIR Research and Business Park, Aalborg, Denmark",
+              "orderIn": 0
+            },
+            {
+              "agency": "The Nicotine Science Center, Fertin Pharma, Vejle, Denmark",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tongue",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nicotine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ganglionic Stimulants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Taste",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Nicotine",
+            "cinnamaldehyde",
+            "Oral Pain",
+            "Transient Receptor Potential Subtype A1 (Trpa1)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Ganglionic Stimulants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "Nicotine",
+              "registryNumber": "6M3C89ZY6R"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/eos.12279"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-04-09",
+        "dateOfCreation": "2016-06-11",
+        "dateOfRevision": "2021-07-02",
+        "electronicPublicationDate": "2016-06-10",
+        "firstPublicationDate": "2016-06-10",
+        "firstIndexDate": "2016-06-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30251837",
+        "source": "MED",
+        "pmid": "30251837",
+        "doi": "10.1021/acs.inorgchem.8b01922",
+        "title": "Hybrid Catalyst of a Metal-Organic Framework, Metal Nanoparticles, and Oxide That Enables Strong Steric Constraint and Metal-Support Interaction for the Highly Effective and Selective Hydrogenation of Cinnamaldehyde.",
+        "authorString": "Yang LX, Wu HQ, Gao HY, Li JQ, Tao Y, Yin WH, Luo F, Luo F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yang LX",
+              "lastName": "Yang",
+              "firstName": "Li-Xiao",
+              "initials": "LX",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu HQ",
+              "lastName": "Wu",
+              "firstName": "Hui-Qiong",
+              "initials": "HQ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao HY",
+              "lastName": "Gao",
+              "firstName": "Heng-Ya",
+              "initials": "HY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li JQ",
+              "lastName": "Li",
+              "firstName": "Jian-Qiang",
+              "initials": "JQ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tao Y",
+              "lastName": "Tao",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yin WH",
+              "lastName": "Yin",
+              "firstName": "Wen-Hui",
+              "initials": "WH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo F",
+              "lastName": "Luo",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0003-8474-9325"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo F",
+              "lastName": "Luo",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6380-2754"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6380-2754"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0003-8474-9325"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "20",
+          "volume": "57",
+          "journalIssueId": 2741084,
+          "dateOfPublication": "2018 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Inorg Chem",
+            "title": "Inorganic chemistry",
+            "essn": "1520-510X",
+            "issn": "0020-1669",
+            "isoabbreviation": "Inorg Chem",
+            "nlmid": "0366543"
+          },
+          "printPublicationDate": "2018-10-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "12461-12465",
+        "abstractText": "In this work, we designed a hybrid catalyst composed of a metal-organic framework (MOF), Pt nanoparticles (NPs), and ferric oxide, namely, Co-MOF-74@(Pt@Fe<sub>2</sub>O<sub>3</sub>), which enables not only high turnover frequencies of up to 245.7 h<sup>-1</sup> but also ultrahigh 100% selectivity toward cinnamyl alcohol in the hydrogenation of cinnamaldehyde under mild conditions. This excellent performance is attributed to the fact that such a hybrid catalyst enables not only strong steric constraint to provide the favored C═O adsorption of cinnamaldehyde but also strong metal-support interaction to lower the electron density of Pt NPs.",
+        "affiliation": "State Key Laboratory for Nuclear Resources and Environment, School of Biology, Chemistry and Material Science , East China University of Technology , Nanchang , Jiangxi 344000 , China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21661001",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21661002",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.inorgchem.8b01922"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-10-30",
+        "dateOfCreation": "2018-09-26",
+        "dateOfRevision": "2018-10-30",
+        "electronicPublicationDate": "2018-09-25",
+        "firstPublicationDate": "2018-09-25",
+        "firstIndexDate": "2018-09-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24291110",
+        "source": "MED",
+        "pmid": "24291110",
+        "doi": "10.1016/j.jpba.2013.10.044",
+        "title": "Pharmacokinetic study of cinnamaldehyde in rats by GC-MS after oral and intravenous administration.",
+        "authorString": "Zhao H, Xie Y, Yang Q, Cao Y, Tu H, Cao W, Wang S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhao H",
+              "lastName": "Zhao",
+              "firstName": "Hang",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6416-451X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, School of Pharmacy, Fourth Military Medical University, Xi'an 710032, China; The Cultivation Project of Collaborative Innovation Center for Chinese Medicine in QinBa Mountains, Xi'an 710032, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie Y",
+              "lastName": "Xie",
+              "firstName": "Yanhua",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, School of Pharmacy, Fourth Military Medical University, Xi'an 710032, China; The Cultivation Project of Collaborative Innovation Center for Chinese Medicine in QinBa Mountains, Xi'an 710032, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang Q",
+              "lastName": "Yang",
+              "firstName": "Qian",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, School of Pharmacy, Fourth Military Medical University, Xi'an 710032, China; The Cultivation Project of Collaborative Innovation Center for Chinese Medicine in QinBa Mountains, Xi'an 710032, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao Y",
+              "lastName": "Cao",
+              "firstName": "Yu",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Team NO. 1, Cadet Brigade, School of Pharmacy, Fourth Military Medical University, Xi'an 710032, China; The Cultivation Project of Collaborative Innovation Center for Chinese Medicine in QinBa Mountains, Xi'an 710032, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tu H",
+              "lastName": "Tu",
+              "firstName": "Honghai",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Drug and Instrument Control of Xinjiang Military Region, Urumqi 830063, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao W",
+              "lastName": "Cao",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, School of Pharmacy, Fourth Military Medical University, Xi'an 710032, China; The Cultivation Project of Collaborative Innovation Center for Chinese Medicine in QinBa Mountains, Xi'an 710032, China. Electronic address: caowei@fmmu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Siwang",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1888-4716"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, School of Pharmacy, Fourth Military Medical University, Xi'an 710032, China; The Cultivation Project of Collaborative Innovation Center for Chinese Medicine in QinBa Mountains, Xi'an 710032, China. Electronic address: wangsiw@fmmu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6416-451X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1888-4716"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "89",
+          "journalIssueId": 2105713,
+          "dateOfPublication": "2014 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Biomed Anal",
+            "title": "Journal of pharmaceutical and biomedical analysis",
+            "essn": "1873-264X",
+            "issn": "0731-7085",
+            "isoabbreviation": "J Pharm Biomed Anal",
+            "nlmid": "8309336"
+          },
+          "printPublicationDate": "2014-02-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "150-157",
+        "abstractText": "A selective and sensitive method utilizing gas chromatography-mass spectrometry was developed for simultaneous determination of cinnamaldehyde, cinnamyl alcohol, and methyl cinnamate in rat plasma. Cinnamaldehyde and cinnamyl alcohol can inter-convert to one another in rats, thus simultaneous quantifying both analytes provided a reliable and accurate method of assessment. Three qualifying ions (131 m/z, 105 m/z and 92 m/z) were chosen for simultaneous quantification of cinnamaldehyde and its metabolites. In this study, the calibration curves demonstrated a good linearity and reproducibility over the range of 20-2000ng/ml (r(2)≥0.999) for all analytes. Furthermore, the sensitivity of gas chromatography-mass spectrometry revealed sufficient lower limit of quantitation and detection of 20ng/ml and 5ng/ml, respectively, in the pharmacokinetic analysis. The intra- and inter-day precision variations were less than 10.4% and 12.2%, respectively, whilst accuracy values ranged from -8.6% to 14.8%. All analytes were stable in plasma and in processed samples at room temperature for 24h with no significant degradation after three freeze/thaw cycles. A small amount of the administered cinnamaldehyde had long half-life of 6.7±1.5h. In this study, gas chromatography-mass spectrometry was demonstrated to be a powerful tool for the pharmacokinetic studies of rats after intravenous and oral administration of cinnamaldehyde.",
+        "affiliation": "Institute of Materia Medica, School of Pharmacy, Fourth Military Medical University, Xi'an 710032, China; The Cultivation Project of Collaborative Innovation Center for Chinese Medicine in QinBa Mountains, Xi'an 710032, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Science Foundation of China",
+              "grantId": "20872180",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Propanols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calibration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Intravenous"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bioavailability",
+            "Pharmacokinetic",
+            "cinnamaldehyde",
+            "Gc–ms",
+            "Methyl Cinnamate"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Propanols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cinnamyl alcohol",
+              "registryNumber": "SS8YOP444F"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jpba.2013.10.044"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 53,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-08-05",
+        "dateOfCreation": "2013-12-03",
+        "dateOfRevision": "2021-07-02",
+        "electronicPublicationDate": "2013-11-09",
+        "firstPublicationDate": "2013-11-09",
+        "firstIndexDate": "2013-12-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24276478",
+        "source": "MED",
+        "pmid": "24276478",
+        "doi": "10.3892/mmr.2013.1830",
+        "title": "Cinnamaldehyde/chemotherapeutic agents interaction and drug-metabolizing genes in colorectal cancer.",
+        "authorString": "Yu C, Liu SL, Qi MH, Zou X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yu C",
+              "lastName": "Yu",
+              "firstName": "Chen",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210046, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu SL",
+              "lastName": "Liu",
+              "firstName": "Shen-Lin",
+              "initials": "SL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Senior Expert Consultation Center, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210029, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qi MH",
+              "lastName": "Qi",
+              "firstName": "Ming-Hao",
+              "initials": "MH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Clinical Research Base of Traditional Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210029, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zou X",
+              "lastName": "Zou",
+              "firstName": "Xi",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210029, P.R. China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "9",
+          "journalIssueId": 2108532,
+          "dateOfPublication": "2014 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Mol Med Rep",
+            "title": "Molecular medicine reports",
+            "essn": "1791-3004",
+            "issn": "1791-2997",
+            "isoabbreviation": "Mol Med Rep",
+            "nlmid": "101475259"
+          },
+          "printPublicationDate": "2014-02-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "669-676",
+        "abstractText": "Cinnamaldehyde is an active monomer isolated from the stem bark of Cinnamomum cassia, a traditional oriental medicinal herb, which is known to possess marked antitumor effects in vitro and in vivo. The aim of the present study was to examine the potential advantages of using cinnamaldehyde in combination with chemotherapeutic agents commonly used in colorectal carcinoma (CRC) therapy, as well as to investigate the effect of cinnamaldehyde on chemotherapeutic-associated gene expression. The synergistic interaction of cinnamaldehyde and chemotherapeutic agents on human CRC HT-29 and LoVo cells was evaluated using the combination index (CI) method. The double staining with Annexin V conjugated to fluorescein-isothiocyanate and phosphatidylserine was employed for apoptosis detection. The expression of drug-metabolizing genes, including excision repair cross‑complementing 1 (ERCC1), orotate phosphoribosyltransferase (OPRT), thymidylate synthase (TS), breast cancer susceptibility gene 1 (BRCA1) and topoisomerase 1 (TOPO1), all in HT-29 and LoVo cells, with or without the addition of cinnamaldehyde, was examined by quantitative polymerase chain reaction (PCR). Cinnamaldehyde had a synergistic effect on the chemotherapeutic agents cytotoxicity in HT-29 and LoVo cells. In addition, cinnamaldehyde suppressed BRCA1, TOPO1, ERCC1 and TS mRNA expression, except for OPRT expression, which was markedly upregulated. Our findings indicate that cinnamaldehyde appears to be a promising candidate as an adjuvant in combination therapy with 5-fluorouracil (5-FU) and oxaliplatin (OXA), two chemotherapeutic agents used in CRC treatment. The possible mechanisms of its action may involve the regulation of drug‑metabolizing genes.",
+        "affiliation": "First Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210046, P.R. China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HT29 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cinnamomum aromaticum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colorectal Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organoplatinum Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fluorouracil",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Endonucleases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Topoisomerases, Type I",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Orotate Phosphoribosyltransferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymidylate Synthase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA-Binding Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "BRCA1 Protein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Combined Chemotherapy Protocols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Neoplastic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Synergism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inactivation, Metabolic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxaliplatin"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Endonucleases",
+              "registryNumber": "EC 3.1.-"
+            },
+            {
+              "name": "Orotate Phosphoribosyltransferase",
+              "registryNumber": "EC 2.4.2.10"
+            },
+            {
+              "name": "DNA-Binding Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Thymidylate Synthase",
+              "registryNumber": "EC 2.1.1.45"
+            },
+            {
+              "name": "DNA Topoisomerases, Type I",
+              "registryNumber": "EC 5.99.1.2"
+            },
+            {
+              "name": "Organoplatinum Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "BRCA1 Protein",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ERCC1 protein, human",
+              "registryNumber": "EC 3.1.-"
+            },
+            {
+              "name": "BRCA1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fluorouracil",
+              "registryNumber": "U3P01618RT"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "oxaliplatin",
+              "registryNumber": "04ZR38536J"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.spandidos-publications.com/mmr/9/2/669/download"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3892/mmr.2013.1830"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-08-26",
+        "dateOfCreation": "2013-11-27",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2013-11-26",
+        "firstPublicationDate": "2013-11-26",
+        "firstIndexDate": "2013-11-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23531502",
+        "source": "MED",
+        "pmid": "23531502",
+        "doi": "10.3233/jad-122113",
+        "title": "Interaction of cinnamaldehyde and epicatechin with tau: implications of beneficial effects in modulating Alzheimer's disease pathogenesis.",
+        "authorString": "George RC, Lew J, Graves DJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "George RC",
+              "lastName": "George",
+              "firstName": "Roshni C",
+              "initials": "RC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cellular and Developmental Biology, University of California, Santa Barbara, CA 93106, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lew J",
+              "lastName": "Lew",
+              "firstName": "John",
+              "initials": "J"
+            },
+            {
+              "fullName": "Graves DJ",
+              "lastName": "Graves",
+              "firstName": "Donald J",
+              "initials": "DJ"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "36",
+          "journalIssueId": 2174493,
+          "dateOfPublication": "2013 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "J Alzheimers Dis",
+            "title": "Journal of Alzheimer's disease : JAD",
+            "essn": "1875-8908",
+            "issn": "1387-2877",
+            "isoabbreviation": "J Alzheimers Dis",
+            "nlmid": "9814863"
+          },
+          "printPublicationDate": "2013-01-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "21-40",
+        "abstractText": "Abnormal modifications in tau such as hyperphosphorylation, oxidation, and glycation interfere with its interaction with microtubules leading to its dissociation and self-aggregation into neurofibrillary tangles, a hallmark of Alzheimer's disease (AD). Previously we reported that an aqueous extract of cinnamon has the ability to inhibit tau aggregation in vitro and can even induce dissociation of tangles isolated from AD brain. In the present study, we carried out investigations with cinnamaldehyde (CA) and epicatechin (EC), two components of active cinnamon extract. We found that CA and the oxidized form of EC (ECox) inhibited tau aggregation in vitro and the activity was due to their interaction with the two cysteine residues in tau. Mass spectrometry of a synthetic peptide, SKCGS, representing the actual tau sequence, identified the thiol as reacting with CA and ECox. Use of a cysteine double mutant of tau showed the necessity of cysteine for aggregation inhibition by CA. The interaction of CA with tau cysteines was reversible and the presence of CA did not impair the biological function of tau in tubulin assembly in vitro. Further, these compounds protected tau from oxidation caused by the reactive oxygen species, H2O2, and prevented subsequent formation of high molecular weight species that are considered to stimulate tangle formation. Finally, we observed that EC can sequester highly reactive and toxic byproducts of oxidation such as acrolein. Our results suggest that small molecules that form a reversible interaction with cysteines have the potential to protect tau from abnormal modifications.",
+        "affiliation": "Department of Molecular, Cellular and Developmental Biology, University of California, Santa Barbara, CA 93106, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "GM058445",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microtubules",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alzheimer Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cysteine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tubulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "tau Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microscopy, Electron, Transmission"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Mass, Electrospray Ionization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Tubulin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "tau Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cysteine",
+              "registryNumber": "K848JZ4886"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3233/JAD-122113"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 82,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-12-09",
+        "dateOfCreation": "2013-03-28",
+        "dateOfRevision": "2021-07-02",
+        "firstPublicationDate": "2013-01-01",
+        "firstIndexDate": "2013-04-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26262602",
+        "source": "MED",
+        "pmid": "26262602",
+        "doi": "10.1016/j.jchromb.2015.07.049",
+        "title": "Simultaneous determination of cinnamaldehyde, cinnamic acid, and 2-methoxy cinnamic acid in rat whole blood after oral administration of volatile oil of Cinnamoni Ramulus by UHPLC-MS/MS: An application for a pharmacokinetic study.",
+        "authorString": "Ji B, Zhao Y, Zhang Q, Wang P, Guan J, Rong R, Yu Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ji B",
+              "lastName": "Ji",
+              "firstName": "Bin",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yunli",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Q",
+              "lastName": "Zhang",
+              "firstName": "Qili",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang P",
+              "lastName": "Wang",
+              "firstName": "Pei",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guan J",
+              "lastName": "Guan",
+              "firstName": "Jiao",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China; School of Pharmacy, Jilin Medical College, Jilin 132013, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rong R",
+              "lastName": "Rong",
+              "firstName": "Rong",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu Z",
+              "lastName": "Yu",
+              "firstName": "Zhiguo",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China. Electronic address: zhiguo-yu@163.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "1001",
+          "journalIssueId": 2317663,
+          "dateOfPublication": "2015 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "J Chromatogr B Analyt Technol Biomed Life Sci",
+            "title": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+            "essn": "1873-376X",
+            "issn": "1570-0232",
+            "isoabbreviation": "J Chromatogr B Analyt Technol Biomed Life Sci",
+            "nlmid": "101139554"
+          },
+          "printPublicationDate": "2015-09-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "107-113",
+        "abstractText": "A simple and rapid ultra-high performance liquid chromatography-tandem mass spectrometry (UHPLC-MS/MS) method was developed for the simultaneous determination of cinnamaldehyde, cinnamic acid, and 2-methoxy cinnamic acid in rat whole blood. It was the first time to study the pharmacokinetics of 2-methoxy cinnamic acid in rat whole blood. Samples were processed by a one-step protein precipitation with acetonitrile-37% formaldehyde (90:10, v:v). Chromatographic separation was performed on a Thermo Scientific C18 column (2.1mm×50mm, 1.9μm) at room temperature. The total run time was 4min. The detection was accomplished by using positive and negative ion electrospray ionization in multiple reaction monitoring mode. The method was linear for all of the analytes over 1000 times concentration range with correlation coefficients greater than 0.99. The lower limits of quantification (LLOQ) were 0.1ng/mL for cinnamaldehyde, 5.8ng/mL for cinnamic acid, and 10ng/mL for 2-methoxy cinnamic acid, respectively. To our knowledge, this was the first time that the LLOQ for cinnamaldehyde in validated methods for biological samples was as low as 0.1ng/mL. Intra- and inter-day precision and accuracy were within ±9% for all of the analytes during the assay validation. Assay recoveries were higher than 80% and the matrix effects were minimal. The half-life were 8.7±0.7h for cinnamaldehyde, 1.0±0.5h for cinnamic acid, and 1.4±0.4h for 2-methoxy cinnamic acid, respectively. The validated assay was firstly applied to the simultaneous quantification of cinnamaldehyde, cinnamic acid, and 2-methoxy cinnamic acid, especially for 2-methoxy cinnamic acid in rat whole blood after oral administration of 15mg/kg essential oil of Cinnamoni Ramulus. It was observed that the Cmax and AUC of 2-methoxy cinnamic acid (0.01% in essential oil of Cinnamoni Ramulus) were greater than those of cinnamaldehyde (83.49% in essential oil of Cinnamoni Ramulus), which implied that 2-methoxy cinnamic acid might be the major bioactive constitutes in essential oil of Cinnamoni Ramulus.",
+        "affiliation": "School of Pharmacy, Shenyang Pharmaceutical University, Shenyang 110016, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Validation Study",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Natural Science Foundation of China",
+              "grantId": "81373926",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cinnamomum zeylanicum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cinnamates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Volatilization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Cinnamic acid",
+            "cinnamaldehyde",
+            "Uhplc-ms/ms",
+            "Cinnamomi Ramulus",
+            "2-Methoxy Cinnamic Acid"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cinnamates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "cinnamic acid",
+              "registryNumber": "140-10-3"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jchromb.2015.07.049"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 30,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-05-24",
+        "dateOfCreation": "2015-08-12",
+        "dateOfRevision": "2021-07-02",
+        "electronicPublicationDate": "2015-08-01",
+        "firstPublicationDate": "2015-08-01",
+        "firstIndexDate": "2015-08-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17432851",
+        "source": "MED",
+        "pmid": "17432851",
+        "doi": "10.1021/ic0701559",
+        "title": "Chemistry and stereochemistry of the interaction of the water-soluble phosphine [HO(CH2)3]3P with cinnamaldehyde in aqueous media.",
+        "authorString": "Moiseev DV, James BR, Hu TQ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Moiseev DV",
+              "lastName": "Moiseev",
+              "firstName": "Dmitry V",
+              "initials": "DV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0152-5880"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of British Columbia, Vancouver, British Columbia, Canada V6T 1Z1."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "James BR",
+              "lastName": "James",
+              "firstName": "Brian R",
+              "initials": "BR"
+            },
+            {
+              "fullName": "Hu TQ",
+              "lastName": "Hu",
+              "firstName": "Thomas Q",
+              "initials": "TQ"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0152-5880"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "46",
+          "journalIssueId": 1396082,
+          "dateOfPublication": "2007 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Inorg Chem",
+            "title": "Inorganic chemistry",
+            "essn": "1520-510X",
+            "issn": "0020-1669",
+            "isoabbreviation": "Inorg Chem",
+            "nlmid": "0366543"
+          },
+          "printPublicationDate": "2007-05-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "4704-4712",
+        "abstractText": "To learn more about the bleaching action of pulps by (hydroxymethyl)phosphines, cinnamaldehyde was reacted with tris(3-hydroxypropyl)phosphine, [HO(CH2)3]3P (THPP), in aqueous solution at room temperature under argon. Self-condensation of the aldehyde into two isomeric products, 2-benzyl-5-phenyl-pent-2,4-dienal and 5-phenyl-2-(phenylmethylene)-4-pentenal, is observed; this implies initial nucleophilic attack of the phosphine at the beta-carbon of the alpha,beta-unsaturated aldehyde. Reaction in D2O gives the same products in which all but the phenyl and CHO protons are replaced by deuterons. NMR studies are consistent with carbanion formation and subsequent condensation of two phosphonium-containing aldehyde moieties to generate the products with concomitant elimination of phosphine oxide. In D2O in the presence of HCl, THPP reversibly attacks the aldehyde-C atom to form the (alpha-hydroxy)phosphonium derivative [PhCH=C(H)CH(OD)PR3]Cl (where R=(CH2)3OD), which slowly converts into the deuterated bisphosphonium salt [R3PCH(Ph)CD(H)CH(OD)PR3]Cl2 via the deuterated monophosphonium salt [R3PCH(Ph)CD(H)CHO]Cl. The phosphonium intermediates and phosphonium products in this chemistry, although having up to three chiral carbon centers, are formed with high stereoselectivity just in enantiomeric forms. In acetone-H2O (1:1 v/v), a cross-condensation of cinnamaldehyde with acetone to give 6-phenyl-3,5-hexadien-2-one is promoted by THPP via generation of OH-.",
+        "affiliation": "Department of Chemistry, University of British Columbia, Vancouver, British Columbia, Canada V6T 1Z1.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/ic0701559"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-10-11",
+        "dateOfCreation": "2007-04-17",
+        "dateOfRevision": "2007-05-21",
+        "electronicPublicationDate": "2007-04-14",
+        "firstPublicationDate": "2007-04-14",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "8432430",
+        "source": "MED",
+        "pmid": "8432430",
+        "doi": "10.1006/faat.1993.1010",
+        "title": "Application of microencapsulation for toxicology studies. III. Bioavailability of microencapsulated cinnamaldehyde.",
+        "authorString": "Yuan J, Dieter MP, Bucher JR, Jameson CW.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yuan J",
+              "lastName": "Yuan",
+              "firstName": "J",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute of Environmental Health Sciences, Research Triangle Park, North Carolina 27709."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dieter MP",
+              "lastName": "Dieter",
+              "firstName": "M P",
+              "initials": "MP"
+            },
+            {
+              "fullName": "Bucher JR",
+              "lastName": "Bucher",
+              "firstName": "J R",
+              "initials": "JR"
+            },
+            {
+              "fullName": "Jameson CW",
+              "lastName": "Jameson",
+              "firstName": "C W",
+              "initials": "CW"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "20",
+          "journalIssueId": 657912,
+          "dateOfPublication": "1993 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 1993,
+          "journal": {
+            "medlineAbbreviation": "Fundam Appl Toxicol",
+            "title": "Fundamental and applied toxicology : official journal of the Society of Toxicology",
+            "issn": "0272-0590",
+            "isoabbreviation": "Fundam Appl Toxicol",
+            "nlmid": "8200838"
+          },
+          "printPublicationDate": "1993-01-01"
+        },
+        "pubYear": "1993",
+        "pageInfo": "83-87",
+        "abstractText": "The bioavailability of microencapsulated cinnamaldehyde (CNMA) was investigated in male F344 rats. Rats were gavaged with CNMA in corn oil using either microencapsulated or the neat chemical at doses of 50, 250, and 500 mg/kg. No differences between the two formulations at any of the doses were found in either CNMA blood concentration profiles or in the rate of urinary hippuric acid excretion. Both formulations showed a low bioavailability (< 20%) at 250 and 500 mg/kg. Regardless of the formulation used, oral gavage of CNMA significantly increased the urinary excretion of hippuric acid. About 75% of the dose of CNMA was metabolized to hippuric acid and recovered in the urine. The total amount of hippuric acid recovered in a 50-hr urinary collection correlated well with the CNMA dose. The data suggest that there was complete release of CNMA from the microcapsules and that microencapsulation of CNMA does not affect its bioavailability or its metabolism. Since CNMA microcapsules are stable in rodent diet, the microencapsulation of CNMA, and perhaps other labile chemicals, will prevent degradation and facilitate the testing of such compounds in toxicology studies.",
+        "affiliation": "National Institute of Environmental Health Sciences, Research Triangle Park, North Carolina 27709.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred F344"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hippurates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Capsules"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intubation, Gastrointestinal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Capsules",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hippurates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1006/faat.1993.1010"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1993-03-15",
+        "dateOfCreation": "1993-01-01",
+        "dateOfRevision": "2021-07-02",
+        "firstPublicationDate": "1993-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "2721181",
+        "source": "MED",
+        "pmid": "2721181",
+        "doi": "10.1111/j.1600-0536.1989.tb04650.x",
+        "title": "Interaction of cinnamaldehyde (a sensitizer in fragrance) with protein.",
+        "authorString": "Weibel H, Hansen J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Weibel H",
+              "lastName": "Weibel",
+              "firstName": "H",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharmaceutical Research and Development Department, Pharmacia AS, Hillerød, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hansen J",
+              "lastName": "Hansen",
+              "firstName": "J",
+              "initials": "J"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "20",
+          "journalIssueId": 662062,
+          "dateOfPublication": "1989 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 1989,
+          "journal": {
+            "medlineAbbreviation": "Contact Dermatitis",
+            "title": "Contact dermatitis",
+            "essn": "1600-0536",
+            "issn": "0105-1873",
+            "isoabbreviation": "Contact Dermatitis",
+            "nlmid": "7604950"
+          },
+          "printPublicationDate": "1989-03-01"
+        },
+        "pubYear": "1989",
+        "pageInfo": "161-166",
+        "abstractText": "Formation of a cinnamaldehyde-protein conjugate in the skin by reaction of cinnamaldehyde with nucleophilic groups in proteins is considered to be responsible for the observed immunogenicity. The kinetics of the reaction of bovine serum albumin with cinnamaldehyde in aqueous solution at 30 degrees C have been investigated, and the rate of formation of conjugate over the pH range 6.4-10.5 showed a first-order dependence on cinnamaldehyde concentration. The cinnamaldehyde binding sites on the protein appeared mostly or exclusively to be the thiol groups of cysteine residues.",
+        "affiliation": "Pharmaceutical Research and Development Department, Pharmacia AS, Hillerød, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aldehydes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfhydryl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serum Albumin, Bovine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Perfume"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Binding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Aldehydes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfhydryl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Amines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Perfume",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxygen",
+              "registryNumber": "S88TT14065"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "Serum Albumin, Bovine",
+              "registryNumber": "27432CM55Q"
+            },
+            {
+              "name": "cinnamaldehyde",
+              "registryNumber": "SR60A3XG0F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1600-0536.1989.tb04650.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 36,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1989-06-29",
+        "dateOfCreation": "1989-03-01",
+        "dateOfRevision": "2021-07-02",
+        "firstPublicationDate": "1989-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

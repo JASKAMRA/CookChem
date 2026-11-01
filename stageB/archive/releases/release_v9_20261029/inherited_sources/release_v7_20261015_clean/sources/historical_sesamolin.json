@@ -1,0 +1,2163 @@
+{
+  "version": "6.9",
+  "hitCount": 7,
+  "request": {
+    "queryString": "TITLE:\"Sesamolin\" AND (pharmacokinetic OR interaction OR coadministration OR metabolism OR synergistic) AND SRC:MED NOT PUB_TYPE:Review AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32279231",
+        "source": "MED",
+        "pmid": "32279231",
+        "doi": "10.1007/s12272-020-01229-y",
+        "title": "Sesamolin promotes cytolysis and migration activity of natural killer cells via dendritic cells.",
+        "authorString": "Lee JK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lee JK",
+              "lastName": "Lee",
+              "firstName": "Jae Kwon",
+              "initials": "JK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology Education, College of Education, Chungbuk National University, Cheongju, Chungbuk, 361-763, Republic of Korea. chemokine@cbnu.ac.kr."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "43",
+          "journalIssueId": 2945473,
+          "dateOfPublication": "2020 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Arch Pharm Res",
+            "title": "Archives of pharmacal research",
+            "essn": "1976-3786",
+            "issn": "0253-6269",
+            "isoabbreviation": "Arch Pharm Res",
+            "nlmid": "8000036"
+          },
+          "printPublicationDate": "2020-04-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "462-474",
+        "abstractText": "The defense mechanism of the immune system is based on the interaction of many kinds of leukocytes. Among them, dendritic cells (DCs) control most immune responses. In our previous study, sesamolin was shown to create an optimal environment for natural killer (NK) cells to kill cancer cells. Here we attempted to demonstrate how sesamolin influences DCs to promote the killing and migration activity of NK cells. We co-cultured DCs and NK cells and analyzed the communication between them. NK cells co-cultured with 5 µg/ml sesamolin-treated mature dendritic cells (mDCs) had better cytolytic activity than did NK cells or mDCs co-cultured NK cells. Moreover, the migration of NK cells toward mDCs was enhanced compared to immature dendritic cells (iDCs). The migration of NK cells stimulated by mDCs was stronger after sesamolin activation of the mDCs. Altogether, this study demonstrated that sesamolin activated NK cells by modulating the differentiation and activation of DCs.",
+        "affiliation": "Department of Biology Education, College of Education, Chungbuk National University, Cheongju, Chungbuk, 361-763, Republic of Korea. chemokine@cbnu.ac.kr.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Research Foundation of Korea",
+              "grantId": "2016R1D1A1B03934511",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dendritic Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Killer Cells, Natural",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioxoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytokines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coculture Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Movement",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Interleukin-2",
+            "Interleukin-15",
+            "Dendritic cells",
+            "Natural killer cells",
+            "Mip-1α",
+            "Sesamolin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Dioxoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytokines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sesamolin",
+              "registryNumber": "7A90TJ149G"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s12272-020-01229-y"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-12-22",
+        "dateOfCreation": "2020-04-13",
+        "dateOfRevision": "2020-12-22",
+        "electronicPublicationDate": "2020-04-11",
+        "firstPublicationDate": "2020-04-11",
+        "firstIndexDate": "2020-04-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31472054",
+        "source": "MED",
+        "pmid": "31472054",
+        "doi": "10.14715/cmb/2019.65.6.16",
+        "title": "Sesamolin exerts anti-proliferative and apoptotic effect on human colorectal cancer cells via inhibition of JAK2/STAT3 signaling pathway.",
+        "authorString": "Wu D, Wang XP, Zhang W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu D",
+              "lastName": "Wu",
+              "firstName": "Di",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Hematology, The First Affiliated Hospital of Xi'an Jiaotong University, 710061, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang XP",
+              "lastName": "Wang",
+              "firstName": "Xin-Ping",
+              "initials": "XP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, GuangRen Hospital of Xi'an Jiaotong University, Xi'an No. 4 Hospital, Xi'an, Shaanxi 710004, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang W",
+              "lastName": "Zhang",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, GuangRen Hospital of Xi'an Jiaotong University, Xi'an No. 4 Hospital, Xi'an, Shaanxi 710004, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "65",
+          "journalIssueId": 2852980,
+          "dateOfPublication": "2019 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Cell Mol Biol (Noisy-le-grand)",
+            "title": "Cellular and molecular biology (Noisy-le-Grand, France)",
+            "essn": "1165-158X",
+            "issn": "0145-5680",
+            "isoabbreviation": "Cell Mol Biol (Noisy-le-grand)",
+            "nlmid": "9216789"
+          },
+          "printPublicationDate": "2019-07-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "96-100",
+        "abstractText": "Colorectal cancer (CRC) is a common malignant tumor that seriously threatens human health and quality of life. At present, the search for safe and more effective treatment for CRC has become necessary. The present study investigated the anti-proliferative and apoptotic effects of sesamolin on human colorectal cancer (HCT116) cells, and the underlying mechanism. Cell proliferation was determined using MTT assay, while the expressions of JAK2, STAT3 and p-STA3 were determined using Western blotting. The levels of expression of matrix metalloproteinases-1, 2 and 9 (MMP1, MMP2 and MMP9) were determined using real-time quantitative polymerase chain reaction (qRT-PCR). The degree of migration and invasion of the cells was assessed using wound healing assay. The results of MTT assay showed that sesamolin significantly and time- and dose-dependently inhibited the proliferation of HCT116 cells (p &lt; 0.05). Treatment of HCT116 cells with sesamolin significantly inhibited their migratory ability (p &lt; 0.05). The expressions of p-JAK2 and p-STAT3 were significantly down-regulated 48 h after 20 µM of JAK2 specific inhibitor (AG490) was added to HCT116 cells (p &lt; 0.05). The expression of p-STAT3 was also significantly and dose-dependently down-regulated 6 h after treatment of HCT116 cells with sesamolin (p &lt; 0.05). Sesamolin and AG490 had synergistic effect and their combination significantly down-regulated the expression of p-STAT3, when compared with sesamolin alone (p &lt; 0.05). Treatment of HCT116 cells with sesamolin significantly and dose-dependently reduced the levels of IL-6-induced expressions of MMP-1, MMP-2 and MMP-9 (p &lt; 0.05). These results suggest that sesamolin induces apoptosis in HCT116 cells and prevents cell invasion via inhibition of the JAK2/STAT3 signaling pathway.",
+        "affiliation": "Department of Hematology, The First Affiliated Hospital of Xi'an Jiaotong University, 710061, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HCT116 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colorectal Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioxoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Matrix Metalloproteinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interleukin-6",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Movement",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Neoplastic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "STAT3 Transcription Factor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Janus Kinase 2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Metastasis",
+            "Colorectal Cancer",
+            "Sesamolin",
+            "Jak2/stat3 Pathway",
+            "Expression."
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Dioxoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interleukin-6",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Matrix Metalloproteinases",
+              "registryNumber": "EC 3.4.24.-"
+            },
+            {
+              "name": "STAT3 Transcription Factor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "STAT3 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "JAK2 protein, human",
+              "registryNumber": "EC 2.7.10.2"
+            },
+            {
+              "name": "Janus Kinase 2",
+              "registryNumber": "EC 2.7.10.2"
+            },
+            {
+              "name": "sesamolin",
+              "registryNumber": "7A90TJ149G"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.14715/cmb/2019.65.6.16"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-01-08",
+        "dateOfCreation": "2019-09-01",
+        "dateOfRevision": "2020-01-08",
+        "electronicPublicationDate": "2019-07-31",
+        "firstPublicationDate": "2019-07-31",
+        "firstIndexDate": "2019-09-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31316384",
+        "source": "MED",
+        "pmid": "31316384",
+        "pmcid": "PMC6610769",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6610769"
+          ]
+        },
+        "doi": "10.3389/fphar.2019.00723",
+        "title": "Recovery of Sesamin, Sesamolin, and Minor Lignans From Sesame Oil Using Solid Support-Free Liquid-Liquid Extraction and Chromatography Techniques and Evaluation of Their Enzymatic Inhibition Properties.",
+        "authorString": "Michailidis D, Angelis A, Aligiannis N, Mitakou S, Skaltsounis L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Michailidis D",
+              "lastName": "Michailidis",
+              "firstName": "Dimitris",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy, Department of Pharmacognosy and Natural Products Chemistry, University of Athens, Athens, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Angelis A",
+              "lastName": "Angelis",
+              "firstName": "Apostolis",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5100-0321"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy, Department of Pharmacognosy and Natural Products Chemistry, University of Athens, Athens, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aligiannis N",
+              "lastName": "Aligiannis",
+              "firstName": "Nektarios",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3335-8135"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy, Department of Pharmacognosy and Natural Products Chemistry, University of Athens, Athens, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mitakou S",
+              "lastName": "Mitakou",
+              "firstName": "Sofia",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy, Department of Pharmacognosy and Natural Products Chemistry, University of Athens, Athens, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Skaltsounis L",
+              "lastName": "Skaltsounis",
+              "firstName": "Léandros",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy, Department of Pharmacognosy and Natural Products Chemistry, University of Athens, Athens, Greece."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3335-8135"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5100-0321"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "10",
+          "journalIssueId": 2779305,
+          "dateOfPublication": "2019 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Front Pharmacol",
+            "title": "Frontiers in pharmacology",
+            "essn": "1663-9812",
+            "issn": "1663-9812",
+            "isoabbreviation": "Front Pharmacol",
+            "nlmid": "101548923"
+          },
+          "printPublicationDate": "2019-01-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "723",
+        "abstractText": "In this study, an integrated process for the recovery of sesamin and sesamolin, two high added-value lignans of sesame oil (SO) was developed, using synchronous extraction and chromatography techniques. The extraction of SO phenolic content was studied using two different extraction techniques: Annular centrifugal extraction (ACE) and centrifugal partition extraction (CPE). The derived data of each experiment were compared in terms of revealing the yields, time, and solvents consumption showing that CPE is the most effective technique, concerning the solvent consumption. The isolation of lignans was achieved using centrifugal partition chromatography (CPC) both on semi-preparative and preparative scale. The biphasic system used for this purpose consisted of the following solvents: n-Hex/EtOAc/EtOH/H<sub>2</sub>O in proportion 2:3:3:2 (v/v/v/v) and direct recovery of the two major lignans sesamin and sesamolin was achieved. In parallel the CPC analysis resulted in the isolation of four minor lignans of sesame oil, i.e., samin, sesamol, sesaminol, and episesaminol. Structure elucidation of isolated lignans was based on HRMS/MS and NMR experiments. High-performance liquid chromatography (HPLC) was employed for quantitative analysis of the obtained extracts to determine the purity of the isolated compounds as well. The results of this study demonstrated that sesamin and sesamolin were recovered in purity higher than 95%, verifying the effectiveness of the purposed separation methodology. Finally, due to the general application of sesame oil in cosmetic industry, all the pure compounds were evaluated for their tyrosinase, elastase, collagenase, and hyaluronidase inhibition activity.",
+        "affiliation": "Faculty of Pharmacy, Department of Pharmacognosy and Natural Products Chemistry, University of Athens, Athens, Greece.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Sesame oil",
+            "Sesamin",
+            "Liquid–liquid Extraction",
+            "Sesamolin",
+            "Centrifugal Partition Chromatography",
+            "Centrifugal Partition Extraction",
+            "Annular Centrifugal Extraction",
+            "Collagenase Inhibition Activity"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://fjfsdata01prod.blob.core.windows.net/articles/files/454151/pubmed-zip/.versions/1/.package-entries/fphar-10-00723.pdf?sv=2018-03-28&sr=b&sig=j1bdVwirx5Zq8wH%2BJRmndnK4y8O5BxesO9G%2F5hV%2BdIQ%3D&se=2021-02-22T20%3A47%3A28Z&sp=r&rscd=attachment%3B%20filename%2A%3DUTF-8%27%27fphar-10-00723.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fphar.2019.00723"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6610769"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6610769?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 26,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2019-07-19",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2019-06-28",
+        "firstPublicationDate": "2019-06-28",
+        "firstIndexDate": "2019-07-19",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19352061",
+        "source": "MED",
+        "pmid": "19352061",
+        "doi": "10.3177/jnsv.55.31",
+        "title": "Comparative study of sesame lignans (sesamin, episesamin and sesamolin) affecting gene expression profile and fatty acid oxidation in rat liver.",
+        "authorString": "Ide T, Lim JS, Odbayar TO, Nakashima Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ide T",
+              "lastName": "Ide",
+              "firstName": "Takashi",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Nutritional Function, National Food Research Institute, 2-1-12 Kannondai, Tsukuba 305-8642, Japan. idetaka@affrc.go.jp"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lim JS",
+              "lastName": "Lim",
+              "firstName": "Jin Seon",
+              "initials": "JS"
+            },
+            {
+              "fullName": "Odbayar TO",
+              "lastName": "Odbayar",
+              "firstName": "Tseye-Oidov",
+              "initials": "TO"
+            },
+            {
+              "fullName": "Nakashima Y",
+              "lastName": "Nakashima",
+              "firstName": "Yasutaka",
+              "initials": "Y"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "55",
+          "journalIssueId": 1614720,
+          "dateOfPublication": "2009 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "J Nutr Sci Vitaminol (Tokyo)",
+            "title": "Journal of nutritional science and vitaminology",
+            "essn": "1881-7742",
+            "issn": "0301-4800",
+            "isoabbreviation": "J Nutr Sci Vitaminol (Tokyo)",
+            "nlmid": "0402640"
+          },
+          "printPublicationDate": "2009-02-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "31-43",
+        "abstractText": "The impact of sesamin, episesamin and sesamolin (sesame lignans) on hepatic gene expression profiles was compared with a DNA microarray. Male Sprague-Dawley rats were fed experimental diets containing 0.2% sesamin, episesamin or sesamolin, and a control diet free of lignans for 15 d. Compared to a lignan-free diet, a diet containing sesamin, episesamin and sesamolin caused 1.5- and 2-fold changes in the expression of 128 and 40, 526 and 152, and 516 and 140 genes, respectively. The lignans modified not only the mRNA levels of many enzymes involved in hepatic fatty acid oxidation, but also those of proteins involved in the transportation of fatty acids into hepatocytes and their organelles, and regulating hepatic concentrations of carnitine, CoA and malonyl-CoA. It is apparent that sesame lignans stimulate hepatic fatty acid oxidation by affecting the gene expression of various proteins regulating hepatic fatty acid metabolism. We also observed that lignans modified the gene expression of various proteins involved in hepatic lipogenesis, cholesterogenesis and glucose metabolism. The changes were generally greater with episesamin and sesamolin than with sesamin. In terms of the amounts accumulated in serum and the liver, the lignans ranked in the order sesamolin, episesamin and sesamin. The differences in bio-availability among these lignans appear to be important to their divergent physiological activities.",
+        "affiliation": "Laboratory of Nutritional Function, National Food Research Institute, 2-1-12 Kannondai, Tsukuba 305-8642, Japan. idetaka@affrc.go.jp",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Epididymis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adipose Tissue",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peroxisomes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Sesamum"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seeds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lignans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coenzyme A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Malonyl Coenzyme A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Glucose"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carnitine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organ Size",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbohydrate Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Malonyl Coenzyme A",
+              "registryNumber": "524-14-1"
+            },
+            {
+              "name": "Lignans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coenzyme A",
+              "registryNumber": "SAA04E81UX"
+            },
+            {
+              "name": "Carnitine",
+              "registryNumber": "S7UI8SM58A"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3177/jnsv.55.31"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2009-06-11",
+        "dateOfCreation": "2009-04-09",
+        "dateOfRevision": "2022-03-09",
+        "firstPublicationDate": "2009-02-01",
+        "firstIndexDate": "2009-06-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17217563",
+        "source": "MED",
+        "pmid": "17217563",
+        "doi": "10.1017/s0007114507252699",
+        "title": "Comparative analysis of sesame lignans (sesamin and sesamolin) in affecting hepatic fatty acid metabolism in rats.",
+        "authorString": "Lim JS, Adachi Y, Takahashi Y, Ide T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lim JS",
+              "lastName": "Lim",
+              "firstName": "Jin Seon",
+              "initials": "JS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Food Research Institute, Tsukuba, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adachi Y",
+              "lastName": "Adachi",
+              "firstName": "Yoshikazu",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Takahashi Y",
+              "lastName": "Takahashi",
+              "firstName": "Yoko",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Ide T",
+              "lastName": "Ide",
+              "firstName": "Takashi",
+              "initials": "T"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "97",
+          "journalIssueId": 1371917,
+          "dateOfPublication": "2007 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Br J Nutr",
+            "title": "The British journal of nutrition",
+            "essn": "1475-2662",
+            "issn": "0007-1145",
+            "isoabbreviation": "Br J Nutr",
+            "nlmid": "0372547"
+          },
+          "printPublicationDate": "2007-01-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "85-95",
+        "abstractText": "Effects of sesamin and sesamolin (sesame lignans) on hepatic fatty acid metabolism were compared in rats. Rats were fed either a lignan-free diet, a diet containing 0.6 or 2 g/kg lignan (sesamin or sesamolin), or a diet containing both sesamin (1.4 g/kg) and sesamolin (0.6 g/kg) for 10 d. Sesamin and sesamolin dose-dependently increased the activity and mRNA abundance of various enzymes involved in hepatic fatty acid oxidation. The increase was much greater with sesamolin than with sesamin. These lignans increased parameters of hepatic fatty acid oxidation in an additive manner when added simultaneously to an experimental diet. In contrast, they decreased the activity and mRNA abundance of hepatic lipogenic enzymes despite dose-dependent effects not being necessarily obvious. Sesamin and sesamolin were equally effective in lowering parameters of lipogenesis. Sesamolin accumulated in serum at 33- and 46-fold the level of sesamin at dietary concentrations of 0.6 and 2 g/kg, respectively. The amount of sesamolin accumulated in liver was 10- and 7-fold that of sesamin at the respective dietary levels. Sesamolin rather than sesamin can account for the potent physiological effect of sesame seeds in increasing hepatic fatty acid oxidation observed previously. Differences in bioavailability may contribute to the divergent effects of sesamin and sesamolin on hepatic fatty acid oxidation. Sesamin compared to sesamolin was more effective in reducing serum and liver lipid levels despite sesamolin more strongly increasing hepatic fatty acid oxidation.",
+        "affiliation": "National Food Research Institute, Tsukuba, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lignans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioxoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycerol-3-Phosphate O-Acyltransferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Fats, Unsaturated",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Primers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Base Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Sequence Data"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Metabolism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diacylglycerol O-Acyltransferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Acid Synthases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "diacylglycerol O-acyltransferase",
+              "registryNumber": "EC 2.3.1.20"
+            },
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dioxoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glycerol-3-Phosphate O-Acyltransferase",
+              "registryNumber": "EC 2.3.1.15"
+            },
+            {
+              "name": "Dietary Fats, Unsaturated",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA Primers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lignans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dgat1 protein, rat",
+              "registryNumber": "EC 2.3.1.20"
+            },
+            {
+              "name": "sesamin",
+              "registryNumber": "S7946O4P76"
+            },
+            {
+              "name": "sesamolin",
+              "registryNumber": "7A90TJ149G"
+            },
+            {
+              "name": "Fatty Acid Synthases",
+              "registryNumber": "EC 2.3.1.85"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FCF40ED9490BE5CC21EFD9FFBBF9CDA2/S0007114507252699a.pdf/div-class-title-comparative-analysis-of-sesame-lignans-sesamin-and-sesamolin-in-affecting-hepatic-fatty-acid-metabolism-in-rats-div.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1017/S0007114507252699"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-02-22",
+        "dateOfCreation": "2007-01-16",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "2007-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9614163",
+        "source": "MED",
+        "pmid": "9614163",
+        "doi": "10.1093/jn/128.6.1018",
+        "title": "Sesamolin inhibits lipid peroxidation in rat liver and kidney.",
+        "authorString": "Kang MH, Naito M, Tsujihara N, Osawa T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kang MH",
+              "lastName": "Kang",
+              "firstName": "M H",
+              "initials": "MH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Applied Biological Science, School of Medicine, Nagoya University, Nagoya, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Naito M",
+              "lastName": "Naito",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Tsujihara N",
+              "lastName": "Tsujihara",
+              "firstName": "N",
+              "initials": "N"
+            },
+            {
+              "fullName": "Osawa T",
+              "lastName": "Osawa",
+              "firstName": "T",
+              "initials": "T"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "128",
+          "journalIssueId": 908449,
+          "dateOfPublication": "1998 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 1998,
+          "journal": {
+            "medlineAbbreviation": "J Nutr",
+            "title": "The Journal of nutrition",
+            "essn": "1541-6100",
+            "issn": "0022-3166",
+            "isoabbreviation": "J Nutr",
+            "nlmid": "0404243"
+          },
+          "printPublicationDate": "1998-06-01"
+        },
+        "pubYear": "1998",
+        "pageInfo": "1018-1022",
+        "abstractText": "Although the sesame lignans, sesaminol and sesamolinol, have been shown to possess antioxidative activity, less is known about the metabolism and antioxidative properties of sesamolin, a major constituent of sesame oil. To determine the ability of sesamolin to act as an antioxidant in vivo, we fed rats a diet containing 1% sesamolin for 2 wk and studied its metabolism and its effects on oxidative stress. About 75% of the ingested sesamolin was excreted unmetabolized in feces, but it was not detected in urine. Sesamolin and its metabolites, sesamol and sesamolinol, were excreted primarily as sulfates and glucuronides. The amount of sesamolin and its metabolites was lower in the plasma than in the liver or kidneys. When we compared rats fed a diet containing 1% sesamolin for 14 d with those fed a control diet, we found that liver weight was significantly greater in the former group. Lipid peroxidation activity, measured as 2-thiobarbituric acid reactive substances, was significantly lower in the kidneys and liver of the sesamolin-fed rats than in the controls. In addition, the amount of 8-hydroxy-2'-deoxyguanosine excreted in the urine was significantly lower in the sesamolin-fed rats. These results suggest that sesamolin and its metabolites may contribute to the antioxidative properties of sesame seeds and oil and support our hypothesis that sesame lignans reduce susceptibility to oxidative stress.",
+        "affiliation": "Department of Applied Biological Science, School of Medicine, Nagoya University, Nagoya, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Feces",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Peroxides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioxoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deoxyguanosine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osmolar Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "8-Hydroxy-2'-Deoxyguanosine"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Dioxoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lipid Peroxides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sesamolin",
+              "registryNumber": "7A90TJ149G"
+            },
+            {
+              "name": "Deoxyguanosine",
+              "registryNumber": "G9481N71RO"
+            },
+            {
+              "name": "8-Hydroxy-2'-Deoxyguanosine",
+              "registryNumber": "88847-89-6"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/full/128/6/1018"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/abstract/128/6/1018"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jn/128.6.1018"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 86,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1998-07-09",
+        "dateOfCreation": "1998-06-18",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "1998-06-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11368649",
+        "source": "MED",
+        "pmid": "11368649",
+        "doi": "10.1021/jf001362t",
+        "title": "Effect of sesame seeds rich in sesamin and sesamolin on fatty acid oxidation in rat liver.",
+        "authorString": "Sirato-Yasumoto S, Katsuta M, Okuyama Y, Takahashi Y, Ide T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sirato-Yasumoto S",
+              "lastName": "Sirato-Yasumoto",
+              "firstName": "S",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Food Research Institute, Ministry of Agriculture Forestry and Fisheries, 2-1-2 Kannondai, Tsukuba 305-8642, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Katsuta M",
+              "lastName": "Katsuta",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Okuyama Y",
+              "lastName": "Okuyama",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Takahashi Y",
+              "lastName": "Takahashi",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Ide T",
+              "lastName": "Ide",
+              "firstName": "T",
+              "initials": "T"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "49",
+          "journalIssueId": 975873,
+          "dateOfPublication": "2001 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2001-05-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "2647-2651",
+        "abstractText": "Activities of enzymes involved in hepatic fatty acid oxidation and synthesis among rats fed sesame (Sesamum indicum L.) differing in lignan content (sesamin and sesamolin) were compared. Sesame seeds rich in lignans from two lines, 0730 and 0732, lines established in this laborary, and those from a conventional cultivar (Masekin) were employed. Seeds from the 0730 and 0732 lines contained sesamin and sesamolin at amounts twice those from Masekin. Sesame seeds were added at levels of 200 g/kg to the experimental diets. Sesame increased both the hepatic mitochondrial and the peroxisomal fatty acid oxidation rate. Increases were greater with sesame rich in lignans than with Maskin. Noticeably, peroxisomal activity levels were >3 times higher in rats fed diets containing sesame seeds from the 0730 and 0732 lines than in those fed a control diet without sesame. The diet containing Masekin seed caused only a 50% increase in the value, however. Diets containing seeds from the 0730 and 0732 lines, compared to the control and Masekin diets, also significantly increased the activity of hepatic fatty acid oxidation enzymes including acyl-CoA oxidase, carnitine palmitoyltranferase, 3-hydroxyacyl-CoA dehydrogenase, and 3-ketoacyl-CoA thiolase. In contrast, diets containing sesame lowered the activity of enzymes involved in fatty acid synthesis including fatty acid synthase, glucose-6-phosphate dehydrogenase, ATP-citrate lyase, and pyruvate kinase. No significant differences in enzyme activities were, however, seen among diets containing sesame from Masekin cultivar and lines 0730 and 0732. Serum triacylglycerol concentrations were lower in rats fed diets containing sesame from lines 0730 and 0732 than in those fed the control or Masekin diet. It is apparent that sesame rich in lignans more profoundly affects hepatic fatty acid oxidation and serum triacylglycerol levels. Therefore, consumption of sesame rich in lignans results in physiological activity to alter lipid metabolism in a potentially beneficial manner.",
+        "affiliation": "National Food Research Institute, Ministry of Agriculture Forestry and Fisheries, 2-1-2 Kannondai, Tsukuba 305-8642, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peroxisomes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seeds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lignans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioxoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Fatty Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dioxoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lignans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sesamin",
+              "registryNumber": "S7946O4P76"
+            },
+            {
+              "name": "sesamolin",
+              "registryNumber": "7A90TJ149G"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/jf001362t"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 53,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2001-12-05",
+        "dateOfCreation": "2001-05-23",
+        "dateOfRevision": "2019-07-23",
+        "firstPublicationDate": "2001-05-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

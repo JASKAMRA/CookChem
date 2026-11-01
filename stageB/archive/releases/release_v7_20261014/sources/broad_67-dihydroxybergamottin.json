@@ -1,0 +1,269 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"6,7-Dihydroxybergamottin\" AND (pharmacokinetic OR interaction OR coadministration OR metabolism OR synergistic) AND SRC:MED NOT PUB_TYPE:Review AND FIRST_PDATE:[1900-01-01 TO 2026-10-14]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37307228",
+        "source": "MED",
+        "pmid": "37307228",
+        "doi": "10.1002/cpt.2968",
+        "title": "Physiologically Based Pharmacokinetic Modeling of Bergamottin and 6,7-Dihydroxybergamottin to Describe CYP3A4 Mediated Grapefruit-Drug Interactions.",
+        "authorString": "Fuhr LM, Marok FZ, Fuhr U, Selzer D, Lehr T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fuhr LM",
+              "lastName": "Fuhr",
+              "firstName": "Laura Maria",
+              "initials": "LM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Pharmacy, Saarland University, Saarbrücken, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marok FZ",
+              "lastName": "Marok",
+              "firstName": "Fatima Zahra",
+              "initials": "FZ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Pharmacy, Saarland University, Saarbrücken, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fuhr U",
+              "lastName": "Fuhr",
+              "firstName": "Uwe",
+              "initials": "U",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7087-5871"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Center for Pharmacology, Faculty of Medicine and University Hospital Cologne, University of Cologne, Cologne, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Selzer D",
+              "lastName": "Selzer",
+              "firstName": "Dominik",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4126-0816"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Pharmacy, Saarland University, Saarbrücken, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lehr T",
+              "lastName": "Lehr",
+              "firstName": "Thorsten",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8372-1465"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Pharmacy, Saarland University, Saarbrücken, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7087-5871"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4126-0816"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8372-1465"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "114",
+          "journalIssueId": 3605419,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Clin Pharmacol Ther",
+            "title": "Clinical pharmacology and therapeutics",
+            "essn": "1532-6535",
+            "issn": "0009-9236",
+            "nlmid": "0372741",
+            "isoabbreviation": "Clin Pharmacol Ther"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "470-482",
+        "abstractText": "Grapefruit is a moderate to strong inactivator of CYP3A4, which metabolizes up to 50% of marketed drugs. The inhibitory effect is mainly attributed to furanocoumarins present in the fruit, irreversibly inhibiting preferably intestinal CYP3A4 as suicide inhibitors. Effects on CYP3A4 victim drugs can still be measured up to 24 hours after grapefruit juice (GFJ) consumption. The current study aimed to establish a physiologically-based pharmacokinetic (PBPK) grapefruit-drug interaction model by modeling the relevant CYP3A4 inhibiting ingredients of the fruit to simulate and predict the effect of GFJ consumption on plasma concentration-time profiles of various CYP3A4 victim drugs. The grapefruit model was developed in PK-Sim and coupled with previously developed PBPK models of CYP3A4 substrates that were publicly available and already evaluated for CYP3A4-mediated drug-drug interactions. Overall, 43 clinical studies were used for model development. Models of bergamottin (BGT) and 6,7-dihydroxybergamottin (DHB) as relevant active ingredients in GFJ were established. Both models include: (i) CYP3A4 inactivation informed by in vitro parameters, (ii) a CYP3A4 mediated clearance estimated during model development, as well as (iii) passive glomerular filtration. The final model successfully describes interactions of GFJ ingredients with 10 different CYP3A4 victim drugs, simulating the effect of the CYP3A4 inactivation on the victims' pharmacokinetics as well as their main metabolites. Furthermore, the model sufficiently captures the time-dependent effect of CYP3A4 inactivation as well as the effect of grapefruit ingestion on intestinal and hepatic CYP3A4 concentrations.",
+        "affiliation": "Clinical Pharmacy, Saarland University, Saarbrücken, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Citrus paradisi"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "bergamottin",
+              "registryNumber": "JMU611YFRB"
+            },
+            {
+              "name": "CYP3A4 protein, human",
+              "registryNumber": "EC 1.14.14.55"
+            },
+            {
+              "name": "6',7'-dihydroxybergamottin",
+              "registryNumber": "S2O194AWTV"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/cpt.2968"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-11-08",
+        "dateOfCreation": "2023-06-12",
+        "dateOfRevision": "2023-11-08",
+        "electronicPublicationDate": "2023-06-25",
+        "firstPublicationDate": "2023-06-25",
+        "firstIndexDate": "2023-06-13",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

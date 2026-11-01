@@ -1,0 +1,215 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "checks_passed": 25,
+  "checks_total": 25,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "historical_selection_provenance",
+      "detail": "documented_v2_rationale_specific_primary_selection_trigger_unresolved",
+      "ids": [
+        "Capsaicin",
+        "Genistein",
+        "Naringin",
+        "Resveratrol"
+      ]
+    },
+    {
+      "code": "historical_selection_provenance",
+      "detail": "original_selection_source_unresolved",
+      "ids": [
+        "Berberine",
+        "Caffeine",
+        "Curcumin",
+        "EGCG",
+        "Piperine"
+      ]
+    },
+    {
+      "code": "DOI_not_supplied",
+      "detail": "Verified PMID remains primary reference",
+      "ids": [
+        "18928093",
+        "22512082"
+      ]
+    },
+    {
+      "code": "Crossref_lookup_unavailable",
+      "detail": "MED identifiers and metadata verified; independent Crossref lookup unavailable for these reports",
+      "ids": [
+        "10096258",
+        "11808866",
+        "16236038",
+        "18338336",
+        "19190249",
+        "19221726",
+        "19283724",
+        "21222115",
+        "21870106",
+        "24369535",
+        "24398010",
+        "27377006"
+      ]
+    },
+    {
+      "code": "inherited_outcome_scope",
+      "detail": "64 baseline rows retained exactly; all metadata rechecked but full-text numerical outcomes not independently re-extracted in this release",
+      "ids": []
+    },
+    {
+      "code": "unresolved_preparation",
+      "detail": "Apigenin/rutin abstract cannot establish separate versus combined groups; no isolated-apigenin magnitude assigned",
+      "ids": [
+        "SB-0066"
+      ]
+    },
+    {
+      "code": "retention_link_unavailable",
+      "detail": "Standalone chemical evidence is eligible, but reliable compound-specific master linkage is not established",
+      "ids": [
+        "Daidzein",
+        "Quercetin"
+      ]
+    },
+    {
+      "code": "source_reporting_ambiguity",
+      "detail": "Daidzein abstract baseline day and CI wording inconsistent; disputed CIs omitted",
+      "ids": [
+        "SB-0069"
+      ]
+    },
+    {
+      "code": "bounded_review",
+      "detail": "First 100 results per broad query; unreviewed candidates explicitly retained; no exhaustive review or independent second-reviewer adjudication",
+      "ids": []
+    }
+  ],
+  "checks": [
+    {
+      "check": "schema_36_columns_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evidence_id_format",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "compound_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "canonical_names_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "standardized_identity_keys_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "compound_evidence_foreign_keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_exact_context_duplicates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "baseline_64_rows_unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "primary_identifiers_format",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "classifications_present_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "primary_reference_fields_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "source_caches_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_primary_report_metadata_concordant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quantitative_units_or_ratio_context_present",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "new_claims_have_support_ledger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ledger_matches_actual_claim_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "new_claim_quotes_and_numeric_tokens_supported",
+      "passed": true,
+      "detail": "Manual comparison plus literal numeric/quote diagnostics; not automatic semantic proof"
+    },
+    {
+      "check": "all_new_compounds_have_selection_sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "new_selection_primary_snapshots_exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "selection_identifiers_match_cached_primary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "live_table_fields_match_cached_primary_metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "quercetin_mixed_group_not_used_as_evidence_key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "registry_coverage_counts_match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_supplied_file_hashes_unchanged",
+      "passed": true,
+      "detail": "1259 preserved files checked"
+    }
+  ],
+  "scope": "Stage B only; validation does not clinically validate interaction risk or resolve original selection history"
+}

@@ -1,0 +1,1570 @@
+{
+  "version": "6.9",
+  "hitCount": 5,
+  "request": {
+    "queryString": "TITLE:\"Bergaptol\" AND (pharmacokinetic OR interaction OR coadministration OR metabolism OR synergistic) AND SRC:MED NOT PUB_TYPE:Review AND FIRST_PDATE:[1900-01-01 TO 2026-10-15]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42764637",
+        "source": "MED",
+        "pmid": "42764637",
+        "pmcid": "PMC13591067",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13591067"
+          ]
+        },
+        "doi": "10.1002/cbdv.71707",
+        "title": "Evaluating the Anticancer and Anti-Angiogenic Efficacy of Bergaptol in 2D and 3D Tumor Microtissue Models.",
+        "authorString": "Bekar B, Sevim Akan H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bekar B",
+              "lastName": "Bekar",
+              "firstName": "Buse",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-1308-4915"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Science, Department of Biology, Hacettepe University, Beytepe, Ankara, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sevim Akan H",
+              "lastName": "Sevim Akan",
+              "firstName": "Handan",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8511-5258"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Science, Department of Biology, Hacettepe University, Beytepe, Ankara, Turkey."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8511-5258"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-1308-4915"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "23",
+          "journalIssueId": 4251252,
+          "dateOfPublication": "2026 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Chem Biodivers",
+            "title": "Chemistry & biodiversity",
+            "essn": "1612-1880",
+            "issn": "1612-1872",
+            "nlmid": "101197449",
+            "isoabbreviation": "Chem Biodivers"
+          },
+          "printPublicationDate": "2026-09-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "e71707",
+        "abstractText": "Furanocoumarins are plant-derived compounds with diverse biological activities and emerging therapeutic potential. This study evaluated the anticancer and anti-angiogenic properties of bergaptol by using MDA-MB-231, HepG2, and HeLa cancer cell lines, as well as HUVEC endothelial cells, with HDFs serving as the healthy control group. Cell viability, apoptosis, cell-cycle progression, and angiogenesis were evaluated using complementary two-dimensional (2D) and three-dimensional (3D) experimental models. Bergaptol exhibited selective cytotoxicity toward cancer and endothelial cells, with no apparent cytotoxicity toward HDFs. Treatment induced apoptosis, disrupted cell-cycle progression, and suppressed angiogenic activity. In 3D models, bergaptol reduced spheroid viability, diminished spheroid size, and decreased endothelial cell content. An ex vivo assay, the chorioallantoic membrane (CAM) assay, corroborated these observations, demonstrated a substantial inhibition of neovascularization, and further supports its anti-angiogenic potential. These findings demonstrate that bergaptol exhibits both anticancer and anti-angiogenic activity in 2D and 3D experimental models supporting further evaluation of bergaptol as a potential anticancer agent.",
+        "affiliation": "Faculty of Science, Department of Biology, Hacettepe University, Beytepe, Ankara, Turkey.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Angiogenesis Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Screening Assays, Antitumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Human Umbilical Vein Endothelial Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Angiogenesis",
+            "Furanocoumarins",
+            "Microtissues",
+            "Bergaptol",
+            "Anti‐cancer Molecules"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Angiogenesis Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/cbdv.71707"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13591067"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13591067?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "cellosaurus"
+          ]
+        },
+        "dateOfCompletion": "2026-09-21",
+        "dateOfCreation": "2026-09-21",
+        "dateOfRevision": "2026-09-23",
+        "firstPublicationDate": "2026-09-01",
+        "firstIndexDate": "2026-09-21",
+        "fullTextReceivedDate": "2026-09-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "40126146",
+        "source": "MED",
+        "pmid": "40126146",
+        "pmcid": "PMC11995933",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11995933"
+          ]
+        },
+        "title": "Bergaptol Ameliorates Insulin Sensitivity in Gestational Diabetes Mellitus by Inhibiting the Inflammatory Pathway in Streptozotocin-Induced Diabetic Rats.",
+        "authorString": "Li Q, Chen J, Wang Z, Zhuang L, Yu Z, Yang D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li Q",
+              "lastName": "Li",
+              "firstName": "Q",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Obstetrics, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. yangdan424@outlook.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen J",
+              "lastName": "Chen",
+              "firstName": "J",
+              "initials": "J"
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Z",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Zhuang L",
+              "lastName": "Zhuang",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Yu Z",
+              "lastName": "Yu",
+              "firstName": "Z",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Yang D",
+              "lastName": "Yang",
+              "firstName": "D",
+              "initials": "D"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "74",
+          "journalIssueId": 3917314,
+          "dateOfPublication": "2025 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Physiol Res",
+            "title": "Physiological research",
+            "essn": "1802-9973",
+            "issn": "0862-8408",
+            "nlmid": "9112413",
+            "isoabbreviation": "Physiol Res"
+          },
+          "printPublicationDate": "2025-03-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "93-104",
+        "abstractText": "Investigation determines the beneficial effect of bergaptol against gestational diabetes (GD). Gestational diabetes was induced in female rats and treated them with bergaptol 20 and 40 mg/kg for eighteen days. Effect of bergaptol was assessed on blood glucose and insulin level in GD rat. Inflammatory mediators and oxidative stress parameters were also assessed in GD rats. Moreover, mRNA expression of INSR, NF-kappaB, Akt and GSK-3beta were assessed in the GD rats by qRT-PCR method. In silico network pharmacology study was performed, along with gene ontology and egg pathway to assessed the targets of bergaptol, molecular docking study was also performed for the confirmation of possible pathway involved in the management of GD. Blood glucose and insulin level was significantly reduces in the blood bergaptol treated group than GD group of rats. Treatment with bergaptol ameliorates the altered level of mediators of inflammation and oxidative stress parameters in GD rats. There was significant reduction in the mRNA expression of NF-kappaB and GSK-3beta and increase in expression of INSR and Akt in the tissue homogenate of bergaptol treated GD rats. Docking study shows effective binding strength of bergaptol individually with INSR, NF-kappaB, Akt and GSK-3beta-protein targets. In conclusion, data of investigation suggest that bergaptol improves the sensitivity of insulin receptor in GD, as it reduces parameters of oxidative stress and inflammatory mediators by regulating INSR/NF-kappaB/Akt/GSK-3beta pathway. Key words Gestational diabetes, Bergaptol, Insulin resistance, Inflammation, Oxidative stress.",
+        "affiliation": "Department of Obstetrics, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China. yangdan424@outlook.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Diabetes, Gestational",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Diabetes Mellitus, Experimental",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Insulin Resistance",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Streptozocin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Inflammation Mediators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pregnancy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Inflammation Mediators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Streptozocin",
+              "registryNumber": "5W494URQ81"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11995933"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11995933?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-05-14",
+        "dateOfCreation": "2025-03-24",
+        "dateOfRevision": "2025-05-14",
+        "firstPublicationDate": "2025-03-01",
+        "firstIndexDate": "2025-03-26",
+        "fullTextReceivedDate": "2025-11-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31666994",
+        "source": "MED",
+        "pmid": "31666994",
+        "pmcid": "PMC6812039",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6812039"
+          ]
+        },
+        "doi": "10.1016/j.jare.2019.10.003",
+        "title": "Structure-based tailoring of the first coumarins-specific bergaptol O-methyltransferase to synthesize bergapten for depigmentation disorder treatment.",
+        "authorString": "Zhao Y, Wang N, Wu H, Zhou Y, Huang C, Luo J, Zeng Z, Kong L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yucheng",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Jiangsu Key Laboratory of Bioactive Natural Product Research and State Key Laboratory of Natural Medicines, School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang N",
+              "lastName": "Wang",
+              "firstName": "Nana",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu H",
+              "lastName": "Wu",
+              "firstName": "Huali",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou Y",
+              "lastName": "Zhou",
+              "firstName": "Yuanze",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8542-6048"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang C",
+              "lastName": "Huang",
+              "firstName": "Chuanlong",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Jiangsu Key Laboratory of Bioactive Natural Product Research and State Key Laboratory of Natural Medicines, School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo J",
+              "lastName": "Luo",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Jiangsu Key Laboratory of Bioactive Natural Product Research and State Key Laboratory of Natural Medicines, School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zeng Z",
+              "lastName": "Zeng",
+              "firstName": "Zhixiong",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3143-9756"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Key Laboratory of Crop Genetic Improvement, Huazhong Agricultural University, Wuhan 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kong L",
+              "lastName": "Kong",
+              "firstName": "Lingyi",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Jiangsu Key Laboratory of Bioactive Natural Product Research and State Key Laboratory of Natural Medicines, School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8542-6048"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3143-9756"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "21",
+          "journalIssueId": 2873448,
+          "dateOfPublication": "2020 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "J Adv Res",
+            "title": "Journal of advanced research",
+            "essn": "2090-1224",
+            "issn": "2090-1232",
+            "nlmid": "101546952",
+            "isoabbreviation": "J Adv Res"
+          },
+          "printPublicationDate": "2020-03-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "57-64",
+        "abstractText": "Bergapten has long been used in combination with ultraviolet A irradiation to treat depigmentation disorder. However, extremely low bergapten contents in plants and difficulties in synthesizing bergapten have limited its application. Here, we developed an alternative bergapten-production method. We first determined the crystal structures of bergaptol O-methyltransferase from <i>Peucedanum praeruptorum</i> (PpBMT) and the ternary PpBMT-S-adenosyl-L-homocysteine (SAH)-bergaptol complex to identify key residues involved in bergaptol binding. Then, structure-based protein engineering was performed to obtain PpBMT mutants with improved catalytic activity towards bergaptol. Subsequently, a high-activity mutant was used to produce bergapten for pharmacological-activity analysis. Key PpBMT amino acids involved in bergaptol binding and substrate specificity were identified, such as Asp226, Asp246, Ser265, and Val320. Site-directed mutagenesis and biochemical analysis revealed that the V320I mutant efficiently transformed bergaptol to produce bergapten. Pharmacological-activity analysis indicated that bergapten positively affected hair pigmentation in mice and improved pigmentation levels in zebrafish embryos. This report provides the first description of the catalytic mechanism of coumarins-specific O-methyltransferase. The high-activity V320I mutant protein could be used in metabolic engineering to produce bergapten in order to treat depigmentation disorder. This structure-function study provides an alternative synthesis method and important advances for treating depigmentation disorders.",
+        "affiliation": "Jiangsu Key Laboratory of Bioactive Natural Product Research and State Key Laboratory of Natural Medicines, School of Traditional Chinese Pharmacy, China Pharmaceutical University, Nanjing 210009, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "State Administration of Foreign Experts Affairs",
+              "grantId": "B18056",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31970596",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2018T110577",
+              "orderIn": 0
+            },
+            {
+              "agency": "State Key Laboratory of Natural Medicines",
+              "grantId": "SKLNMKF201708",
+              "orderIn": 0
+            },
+            {
+              "agency": "Program for Changjiang Scholars and Innovative Research Team in University",
+              "grantId": "IRT_15R63",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education of the People&amp;apos;s Republic of China",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2016M601922",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81430092",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81703637",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province",
+              "grantId": "BK20170736",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Coumarin",
+            "rational design",
+            "Depigmentation Disorder",
+            "Bergaptol O-methyltransferase"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jare.2019.10.003"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6812039"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6812039?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "uniprot",
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2019-11-01",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2019-10-10",
+        "firstPublicationDate": "2019-10-10",
+        "firstIndexDate": "2019-11-01",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27252733",
+        "source": "MED",
+        "pmid": "27252733",
+        "pmcid": "PMC4879325",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4879325"
+          ]
+        },
+        "doi": "10.3389/fpls.2016.00722",
+        "title": "Cloning, Functional Characterization, and Catalytic Mechanism of a Bergaptol O-Methyltransferase from Peucedanum praeruptorum Dunn.",
+        "authorString": "Zhao Y, Wang N, Zeng Z, Xu S, Huang C, Wang W, Liu T, Luo J, Kong L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yucheng",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Natural Medicines, Department of Natural Medicinal Chemistry, China Pharmaceutical University, Nanjing China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang N",
+              "lastName": "Wang",
+              "firstName": "Nana",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science and Technology, Huazhong Agricultural University, Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zeng Z",
+              "lastName": "Zeng",
+              "firstName": "Zhixiong",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science and Technology, Huazhong Agricultural University, Wuhan China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu S",
+              "lastName": "Xu",
+              "firstName": "Sheng",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Botany, Jiangsu Province and Chinese Academy of Sciences, Nanjing China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang C",
+              "lastName": "Huang",
+              "firstName": "Chuanlong",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Natural Medicines, Department of Natural Medicinal Chemistry, China Pharmaceutical University, Nanjing China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang W",
+              "lastName": "Wang",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Natural Medicines, Department of Natural Medicinal Chemistry, China Pharmaceutical University, Nanjing China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu T",
+              "lastName": "Liu",
+              "firstName": "Tingting",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Natural Medicines, Department of Natural Medicinal Chemistry, China Pharmaceutical University, Nanjing China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo J",
+              "lastName": "Luo",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7892-011X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Natural Medicines, Department of Natural Medicinal Chemistry, China Pharmaceutical University, Nanjing China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kong L",
+              "lastName": "Kong",
+              "firstName": "Lingyi",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Natural Medicines, Department of Natural Medicinal Chemistry, China Pharmaceutical University, Nanjing China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7892-011X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "7",
+          "journalIssueId": 2378185,
+          "dateOfPublication": "2016 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Front Plant Sci",
+            "title": "Frontiers in plant science",
+            "essn": "1664-462X",
+            "issn": "1664-462X",
+            "nlmid": "101568200",
+            "isoabbreviation": "Front Plant Sci"
+          },
+          "printPublicationDate": "2016-01-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "722",
+        "abstractText": "Coumarins are main active components of Peucedanum praeruptorum Dunn. Among them, methoxylated coumarin compound, such as bergapten, xanthotoxin, and isopimpinellin, has high officinal value and plays an important role in medicinal field. However, major issues associated with the biosynthesis mechanism of coumarins remain unsolved and no corresponding enzyme has been cloned from P. praeruptorum. In this study, a local BLASTN program was conducted to find the candidate genes from P. praeruptorum transcriptome database using the nucleotide sequence of Ammi majus bergaptol O-methyltransferase (AmBMT, GenBank accession No: AY443006) as a template. As a result, a 1335 bp full-length of cDNA sequence which contains an open reading frame of 1080 bp encoding a BMT polypeptide of 359 amino acids was obtained. The recombinant protein was functionally expressed in Escherichia coli and displayed an observed activity to bergaptol. In vitro experiments show that the protein has narrow substrate specificity for bergaptol. Expression profile indicated that the cloned gene had a higher expression level in roots and can be induced by methyl jasmonate (MeJA). Subcellular localization analysis showed that the BMT protein was located in cytoplasm in planta. Homology modeling and docking based site-directed mutagenesis have been employed to investigate the amino acid residues in BMT required for substrate binding and catalysis. Conservative amino acid substitutions at residue H264 affected BMT catalysis, whereas substitutions at residues F171, M175, D226, and L312 affected substrate binding. The systemic study summarized here will enlarge our knowledge on OMTs and provide useful information in investigating the coumarins biosynthesis mechanism in P. praeruptorum.",
+        "affiliation": "State Key Laboratory of Natural Medicines, Department of Natural Medicinal Chemistry, China Pharmaceutical University, Nanjing China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Coumarins",
+            "Peucedanum praeruptorum",
+            "Docking",
+            "O-methyltransferase (Omt)",
+            "Biosynthesis Mechanisms"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.frontiersin.org/articles/10.3389/fpls.2016.00722/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fpls.2016.00722"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4879325"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4879325?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 25,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "uniprot",
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2016-06-02",
+        "dateOfCreation": "2016-06-03",
+        "dateOfRevision": "2022-04-10",
+        "electronicPublicationDate": "2016-05-25",
+        "firstPublicationDate": "2016-05-25",
+        "firstIndexDate": "2016-06-03",
+        "fullTextReceivedDate": "2020-07-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17400460",
+        "source": "MED",
+        "pmid": "17400460",
+        "doi": "10.1016/j.bmc.2007.03.047",
+        "title": "Radical scavenging and cytochrome P450 3A4 inhibitory activity of bergaptol and geranylcoumarin from grapefruit.",
+        "authorString": "Girennavar B, Jayaprakasha GK, Jadegoud Y, Nagana Gowda GA, Patil BS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Girennavar B",
+              "lastName": "Girennavar",
+              "firstName": "Basavaraj",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Vegetable and Fruit Improvement Center, Department of Horticultural Sciences, 2119, Texas A&M University, College Station, TX 77843-2119, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jayaprakasha GK",
+              "lastName": "Jayaprakasha",
+              "firstName": "G K",
+              "initials": "GK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1749-9699"
+              }
+            },
+            {
+              "fullName": "Jadegoud Y",
+              "lastName": "Jadegoud",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Nagana Gowda GA",
+              "lastName": "Nagana Gowda",
+              "firstName": "G A",
+              "initials": "GA"
+            },
+            {
+              "fullName": "Patil BS",
+              "lastName": "Patil",
+              "firstName": "Bhimanagouda S",
+              "initials": "BS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7189-0432"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7189-0432"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1749-9699"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "15",
+          "journalIssueId": 1391917,
+          "dateOfPublication": "2007 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Bioorg Med Chem",
+            "title": "Bioorganic & medicinal chemistry",
+            "essn": "1464-3391",
+            "issn": "0968-0896",
+            "nlmid": "9413298",
+            "isoabbreviation": "Bioorg Med Chem"
+          },
+          "printPublicationDate": "2007-06-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "3684-3691",
+        "abstractText": "Grapefruit juice has been shown to increase the oral bioavailability of several clinically important drugs by inhibiting first pass metabolism. Several compounds in grapefruit juice have shown different biological activities. Unique among them are furocoumarins with potent inhibitory activity against cytochrome P450 enzymes. In the present study, two bioactive compounds were isolated from grapefruit juice and grapefruit peel oil. The purity of the isolated compounds has been analyzed by HPLC. Structures of the compounds were elucidated by extensive NMR and mass spectral studies and identified as bergaptol and geranylcoumarin. The isolated compounds were tested for their radical scavenging activity using 2,2'-azobis (3-ethylbenz-thiazoline-6-sulfonic acid) (ABTS) and 2,2-diphenyl-1-picrylhydrazil (DPPH) methods at different concentrations. Bergaptol showed very good radical scavenging activity at all the tested concentrations. Furthermore, these compounds were evaluated for their inhibitory activity against CYP3A4 enzyme. Bergaptol and geranylcoumarin were found to be potent inhibitors of debenzylation activity of CYP3A4 enzyme with an IC(50) value of 24.92 and 42.93 microM, respectively.",
+        "affiliation": "Vegetable and Fruit Improvement Center, Department of Horticultural Sciences, 2119, Texas A&M University, College Station, TX 77843-2119, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citrus paradisi",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Free Radical Scavengers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Beverages"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Diterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Free Radical Scavengers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "geranylcoumarin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "bergaptol",
+              "registryNumber": "KTC8ANI30F"
+            },
+            {
+              "name": "CYP3A4 protein, human",
+              "registryNumber": "EC 1.14.14.55"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bmc.2007.03.047"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 29,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-07-30",
+        "dateOfCreation": "2007-04-03",
+        "dateOfRevision": "2018-12-11",
+        "electronicPublicationDate": "2007-03-18",
+        "firstPublicationDate": "2007-03-18",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:34836412 AND SRC:MED",
+    "internalQuery": "EXT_ID:34836412 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34836412",
+        "source": "MED",
+        "pmid": "34836412",
+        "pmcid": "PMC8624971",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8624971"
+          ]
+        },
+        "doi": "10.3390/nu13114157",
+        "title": "Urinary Concentrations of (+)-Catechin and (-)-Epicatechin as Biomarkers of Dietary Intake of Flavan-3-ols in the European Prospective Investigation into Cancer and Nutrition (EPIC) Study.",
+        "authorString": "Almanza-Aguilera E, Ceballos-Sánchez D, Achaintre D, Rothwell JA, Laouali N, Severi G, Katzke V, Johnson T, Schulze MB, Palli D, Gargano G, de Magistris MS, Tumino R, Sacerdote C, Scalbert A, Zamora-Ros R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Almanza-Aguilera E",
+              "lastName": "Almanza-Aguilera",
+              "firstName": "Enrique",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4805-0774"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unit of Nutrition and Cancer, Cancer Epidemiology Research Program, Catalan Institute of Oncology (ICO), Bellvitge Biomedical Research Institute (IDIBELL), 08908 Barcelona, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ceballos-Sánchez D",
+              "lastName": "Ceballos-Sánchez",
+              "firstName": "Daniela",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-3879-8017"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unit of Nutrition and Cancer, Cancer Epidemiology Research Program, Catalan Institute of Oncology (ICO), Bellvitge Biomedical Research Institute (IDIBELL), 08908 Barcelona, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Achaintre D",
+              "lastName": "Achaintre",
+              "firstName": "David",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5566-3130"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nutrition and Metabolism Branch, International Agency for Research on Cancer (IARC-WHO), 69372 Lyon, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rothwell JA",
+              "lastName": "Rothwell",
+              "firstName": "Joseph A",
+              "initials": "JA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "UVSQ, Inserm, CESP U1018, \"Exposome and Heredity\" Team, Université Paris-Saclay, Gustave Roussy, 94800 Villejuif, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Laouali N",
+              "lastName": "Laouali",
+              "firstName": "Nasser",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8532-456X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "UVSQ, Inserm, CESP U1018, \"Exposome and Heredity\" Team, Université Paris-Saclay, Gustave Roussy, 94800 Villejuif, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Severi G",
+              "lastName": "Severi",
+              "firstName": "Gianluca",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "UVSQ, Inserm, CESP U1018, \"Exposome and Heredity\" Team, Université Paris-Saclay, Gustave Roussy, 94800 Villejuif, France."
+                  },
+                  {
+                    "affiliation": "Department of Statistics, Computer Science, Applications \"G. Parenti\" (DISIA), University of Florence, 50121 Florence, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Katzke V",
+              "lastName": "Katzke",
+              "firstName": "Verena",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cancer Epidemiology, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Johnson T",
+              "lastName": "Johnson",
+              "firstName": "Theron",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cancer Epidemiology, German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schulze MB",
+              "lastName": "Schulze",
+              "firstName": "Matthias B",
+              "initials": "MB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0830-5277"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular Epidemiology, German Institute of Human Nutrition Potsdam-Rehbruecke, 14558 Nuthetal, Germany."
+                  },
+                  {
+                    "affiliation": "Institute of Nutritional Science, University of Potsdam, 14469 Potsdam, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Palli D",
+              "lastName": "Palli",
+              "firstName": "Domenico",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5558-2437"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cancer Risk Factors and Life-Style Epidemiology Unit, Institute for Cancer Research, Prevention and Clinical Network (ISPRO), 50139 Florence, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gargano G",
+              "lastName": "Gargano",
+              "firstName": "Giuliana",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0813-3022"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epidemiology and Prevention Unit, Fondazione IRCCS Istituto Nazionale dei Tumori, 20133 Milan, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Magistris MS",
+              "lastName": "de Magistris",
+              "firstName": "Maria Santucci",
+              "initials": "MS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dipartimento di Medicina Clinica e Chirurgia, Federico II University, 80131 Naples, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tumino R",
+              "lastName": "Tumino",
+              "firstName": "Rosario",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cancer Registry and Histopathology Department, Provincial Health Authority (ASP 7), 97100 Ragusa, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sacerdote C",
+              "lastName": "Sacerdote",
+              "firstName": "Carlotta",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8008-5096"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unit of Cancer Epidemiology, Città della Salute e della Scienza University-Hospital, 10126 Turin, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Scalbert A",
+              "lastName": "Scalbert",
+              "firstName": "Augustin",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6651-6710"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nutrition and Metabolism Branch, International Agency for Research on Cancer (IARC-WHO), 69372 Lyon, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zamora-Ros R",
+              "lastName": "Zamora-Ros",
+              "firstName": "Raul",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6236-6804"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unit of Nutrition and Cancer, Cancer Epidemiology Research Program, Catalan Institute of Oncology (ICO), Bellvitge Biomedical Research Institute (IDIBELL), 08908 Barcelona, Spain."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6651-6710"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0813-3022"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0830-5277"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4805-0774"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5558-2437"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5566-3130"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6236-6804"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8008-5096"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8532-456X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-3879-8017"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "13",
+          "journalIssueId": 3271807,
+          "dateOfPublication": "2021 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Nutrients",
+            "title": "Nutrients",
+            "essn": "2072-6643",
+            "issn": "2072-6643",
+            "nlmid": "101521595",
+            "isoabbreviation": "Nutrients"
+          },
+          "printPublicationDate": "2021-11-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "4157",
+        "abstractText": "This study examines the correlation of acute and habitual dietary intake of flavan-3-ol monomers, proanthocyanidins, theaflavins, and their main food sources with the urinary concentrations of (+)-catechin and (-)-epicatechin in the European Prospective Investigation into Cancer and Nutrition study (EPIC). Participants (N = 419, men and women) provided 24-h urine samples and completed a 24-h dietary recall (24-HDR) on the same day. Acute and habitual dietary data were collected using a standardized 24-HDR software and a validated dietary questionnaire, respectively. Intake of flavan-3-ols was estimated using the Phenol-Explorer database. Concentrations of (+)-catechin and (-)-epicatechin in 24-h urine were analyzed using tandem mass spectrometry after enzymatic deconjugation. Simple and partial Spearman's correlations showed that urinary concentrations of (+)-catechin, (-)-epicatechin and their sum were more strongly correlated with acute than with habitual intake of individual and total monomers (acute <i>r</i><sub>partial</sub> = 0.13-0.54, <i>p</i> < 0.05; and habitual <i>r</i><sub>partial</sub> = 0.14-0.28, <i>p</i> < 0.01), proanthocyanidins (acute <i>r</i><sub>partial</sub> = 0.24-0.49, <i>p</i> < 0.001; and habitual <i>r</i><sub>partial</sub> = 0.10-0.15, <i>p</i> < 0.05), theaflavins (acute <i>r</i><sub>partial</sub> = 0.22-0.31, <i>p</i> < 0.001; and habitual <i>r</i><sub>partial</sub> = 0.20-0.26, <i>p</i> < 0.01), and total flavan-3-ols (acute <i>r</i><sub>partial</sub> = 0.40-0.48, <i>p</i> < 0.001; and habitual <i>r</i><sub>partial</sub> = 0.23-0.33, <i>p</i> < 0.001). Similarly, urinary concentrations of flavan-3-ols were weakly correlated with both acute (<i>r</i><sub>partial</sub> = 0.12-0.30, <i>p</i> < 0.05) and habitual intake (<i>r</i><sub>partial</sub> = 0.10-0.27, <i>p</i> < 0.05) of apple and pear, stone fruits, berries, chocolate and chocolate products, cakes and pastries, tea, herbal tea, wine, red wine, and beer and cider. Moreover, all comparable correlations were stronger for urinary (-)-epicatechin than for (+)-catechin. In conclusion, our data support the use of urinary concentrations of (+)-catechin and (-)-epicatechin, especially as short-term nutritional biomarkers of dietary catechin, epicatechin and total flavan-3-ol monomers.",
+        "affiliation": "Unit of Nutrition and Cancer, Cancer Epidemiology Research Program, Catalan Institute of Oncology (ICO), Bellvitge Biomedical Research Institute (IDIBELL), 08908 Barcelona, Spain.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Multicenter Study",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Instituto de Salud Carlos III",
+              "grantId": "PI18/00191",
+              "orderIn": 0
+            },
+            {
+              "agency": "La Marató de TV-3",
+              "grantId": "553/C/2019",
+              "orderIn": 0
+            },
+            {
+              "agency": "World Health Organization",
+              "acronym": "WHO_",
+              "grantId": "001",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biflavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proanthocyanidins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet Surveys"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nutrition Assessment"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Statistics, Nonparametric"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Eating"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Europe"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Urine",
+            "Catechin",
+            "Epicatechin",
+            "Intake",
+            "Biomarkers",
+            "Flavan-3-ols",
+            "Epic"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proanthocyanidins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Biflavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "theaflavin",
+              "registryNumber": "1IA46M0D13"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "Biomarkers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "flavan-3-ol",
+              "registryNumber": "35HDD3NRIE"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/nu13114157"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8624971"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8624971?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-12-23",
+        "dateOfCreation": "2021-11-27",
+        "dateOfRevision": "2025-05-30",
+        "electronicPublicationDate": "2021-11-20",
+        "firstPublicationDate": "2021-11-20",
+        "firstIndexDate": "2021-12-01",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

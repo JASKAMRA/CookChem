@@ -1,0 +1,1764 @@
+{
+  "version": "6.9",
+  "hitCount": 5,
+  "request": {
+    "queryString": "TITLE_ABS:\"Cichoric Acid\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "38243990",
+        "source": "MED",
+        "pmid": "38243990",
+        "doi": "10.1002/bdd.2380",
+        "title": "Computational exploration of microsomal cytochrome P450 3A1 enzyme modulation by phytochemicals of Cichorium intybus L.: Insights into drug metabolism.",
+        "authorString": "Pathak A, Singh SP, Singh DB, Anjaria P, Tiwari A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Pathak A",
+              "lastName": "Pathak",
+              "firstName": "Abhishek",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-5309-9458"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Veterinary Pharmacology & Toxicology, College of Veterinary and Animal Science, G. B. Pant University of Agriculture & Technology, Pantnagar, Uttarakhand, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh SP",
+              "lastName": "Singh",
+              "firstName": "Satya Pal",
+              "initials": "SP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Veterinary Pharmacology & Toxicology, College of Veterinary and Animal Science, G. B. Pant University of Agriculture & Technology, Pantnagar, Uttarakhand, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh DB",
+              "lastName": "Singh",
+              "firstName": "Dev Bukhsh",
+              "initials": "DB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, Siddharth University, Kapilvastu, Siddharth Nagar, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anjaria P",
+              "lastName": "Anjaria",
+              "firstName": "Pranav",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8040-7139"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Veterinary Science & Animal Husbandry, Kamdhenu University, Anand, Gujarat, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tiwari A",
+              "lastName": "Tiwari",
+              "firstName": "Apoorv",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2294-0688"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular Biology and Genetic Engineering, College of Basic Sciences and Humanities, G. B. Pant University of Agriculture & Technology, Pantnagar, Uttarakhand, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8040-7139"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8528-2195"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2294-0688"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-5309-9458"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "45",
+          "journalIssueId": 3717333,
+          "dateOfPublication": "2024 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Biopharm Drug Dispos",
+            "title": "Biopharmaceutics & drug disposition",
+            "essn": "1099-081X",
+            "issn": "0142-2782",
+            "nlmid": "7911226",
+            "isoabbreviation": "Biopharm Drug Dispos"
+          },
+          "printPublicationDate": "2024-02-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "15-29",
+        "abstractText": "Drug metabolism plays a crucial role in drug fate, including therapeutic inactivation or activation, as well as the formation of toxic compounds. This underscores the importance of understanding drug metabolism in drug discovery and development. Considering the substantial costs associated with traditional drug development methods, computational approaches have emerged as valuable tools for predicting the metabolic fate of drug candidates. With this in mind, the present study aimed to investigate the potential mechanisms underlying the modulation of microsomal cytochrome P450 3A1 (CYP3A1) enzyme activity by various phytochemicals found in Cichorium intybus L., commonly known as chicory. To achieve this goal, several in silico methods, including molecular docking and molecular dynamics (MD) simulation, were employed to explore computationally the microsomal CYP3A1 enzyme. Schrodinger software was utilized for the molecular docking study, which involved the interaction analysis between CYP3A1 and 28 phytoconstituents of Cichorium intybus. Virtual screening of 28 compounds from chicory led to the identification of the top five ranked compounds. These compounds were evaluated for drug-likeness properties, pharmacokinetic profiles, and predicted binding affinities to CYP3A1. Caffeoylshikimic acid and cichoric acid emerged as promising candidates due to their favorable characteristics, including good oral bioavailability and high binding affinities to CYP3A1. Molecular dynamics simulations were conducted to assess the stability of caffeoylshikimic acid within the CYP3A1 binding pocket. The results demonstrated that caffeoylshikimic acid maintained stable interactions with the enzyme throughout the simulation, suggesting its potential as an effective modulator of CYP3A1 activity. The findings of this study have the potential to provide valuable insights into the complex molecular mechanisms by which Cichorium intybus L. acts on hepatocytes and modulates CYP3A1 enzyme expression or activity. By elucidating the impact of these phytochemicals on drug metabolism, this research contributes to our understanding of how chicory may interact with drugs and influence their efficacy and safety profiles.",
+        "affiliation": "Department of Veterinary Pharmacology & Toxicology, College of Veterinary and Animal Science, G. B. Pant University of Agriculture & Technology, Pantnagar, Uttarakhand, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochemicals"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cichorium intybus"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular docking",
+            "Cyp3a1",
+            "Caffeoylskhimic",
+            "Simulation And Drug Metabolizing Enzyme"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/bdd.2380"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-02-14",
+        "dateOfCreation": "2024-01-20",
+        "dateOfRevision": "2024-02-14",
+        "electronicPublicationDate": "2024-01-20",
+        "firstPublicationDate": "2024-01-20",
+        "firstIndexDate": "2024-01-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31443519",
+        "source": "MED",
+        "pmid": "31443519",
+        "pmcid": "PMC6749594",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6749594"
+          ]
+        },
+        "doi": "10.3390/molecules24173057",
+        "title": "Simultaneous Quantification and Pharmacokinetic Study of Nine Bioactive Components of <i>Orthosiphon stamineus</i> Benth. Extract in Rat Plasma by UHPLC-MS/MS.",
+        "authorString": "Guo Z, Li B, Gu J, Zhu P, Su F, Bai R, Liang X, Xie Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo Z",
+              "lastName": "Guo",
+              "firstName": "Zili",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for Green Pharmaceutical Technologies and Related Equipment of Ministry of Education, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li B",
+              "lastName": "Li",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gu J",
+              "lastName": "Gu",
+              "firstName": "Jinping",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu P",
+              "lastName": "Zhu",
+              "firstName": "Peixi",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8380-4239"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Su F",
+              "lastName": "Su",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bai R",
+              "lastName": "Bai",
+              "firstName": "Renren",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liang X",
+              "lastName": "Liang",
+              "firstName": "Xianrui",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8953-3449"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China. liangxrvicky@zjut.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie Y",
+              "lastName": "Xie",
+              "firstName": "Yuanyuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory for Green Pharmaceutical Technologies and Related Equipment of Ministry of Education, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China. xyycz@zjut.edu.cn."
+                  },
+                  {
+                    "affiliation": "College of Pharmaceutical Science, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China. xyycz@zjut.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8380-4239"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8953-3449"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "17",
+          "volume": "24",
+          "journalIssueId": 2850774,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "nlmid": "100964009",
+            "isoabbreviation": "Molecules"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "E3057",
+        "abstractText": "<i>Orthosiphon stamineus</i> Benth. (OS) is a traditional folk medicine for the treatment of kidney stones and other urinary tract diseases. In this study, a rapid and sensitive Ultra high-performance liquid chromatography (UHPLC)-MS/MS approach was established and validated for the simultaneous quantification of nine bioactive components in rat plasma. The nine components from OS extract detected in rat plasma were danshensu, protocatechuic acid, caffeic acid, rosmarinic acid, salvianolic acid A, salvianolic acid B, cichoric acid, sinensetin and eupatorin. After liquid-liquid extraction with ethyl acetate, the plasma samples were subjected to a triple quadrupole mass spectrometer employing electrospray ionization (ESI) technique and operating in multiple reaction monitoring (MRM) with both positive and negative ion modes. The standard curves showed good linear regression (<i>r ></i> 0.9915) over the concentration range for the nine analytes. The inter-day and intra-day precision and accuracy were found to be within 15% of the nominal concentration. The recovery and stability of nine compounds were all demonstrated to be within acceptable limits. The approach was successfully applied to investigate the pharmacokinetic analysis of the nine bioactive components after oral administration of OS extract in rats.",
+        "affiliation": "Key Laboratory for Green Pharmaceutical Technologies and Related Equipment of Ministry of Education, Zhejiang University of Technology, 18 Chaowang Road, Hangzhou 310000, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China, NSFC",
+              "grantId": "81803340 and 21576239",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Application of Public Welfare Technology in Zhejiang Province, China (Analysis Test)",
+              "grantId": "2017C37005",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Orthosiphon",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Monitoring"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Tandem Mass Spectrometry"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetic Study",
+            "Uhplc-ms/ms",
+            "Bioactive Constituents",
+            "Rat Plasma",
+            "Orthosiphon Stamineus Benth."
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/1420-3049/24/17/3057/pdf?version=1566894469"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules24173057"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6749594"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6749594?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-01-21",
+        "dateOfCreation": "2019-08-25",
+        "dateOfRevision": "2020-02-25",
+        "electronicPublicationDate": "2019-08-22",
+        "firstPublicationDate": "2019-08-22",
+        "firstIndexDate": "2019-08-24",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26592089",
+        "source": "MED",
+        "pmid": "26592089",
+        "doi": "10.1021/acs.jafc.5b04533",
+        "title": "Cichoric Acid Reverses Insulin Resistance and Suppresses Inflammatory Responses in the Glucosamine-Induced HepG2 Cells.",
+        "authorString": "Zhu D, Wang Y, Du Q, Liu Z, Liu X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhu D",
+              "lastName": "Zhu",
+              "firstName": "Di",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-2092-5015"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University , Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yutang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University , Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Du Q",
+              "lastName": "Du",
+              "firstName": "Qingwei",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Functional Food Engineering and Technology Research Center of Shaanxi Province , Xi'an 710054, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Z",
+              "lastName": "Liu",
+              "firstName": "Zhigang",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University , Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu X",
+              "lastName": "Liu",
+              "firstName": "Xuebo",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University , Yangling 712100, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6863-6561"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-2092-5015"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "51",
+          "volume": "63",
+          "journalIssueId": 2357572,
+          "dateOfPublication": "2015 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "nlmid": "0374755",
+            "isoabbreviation": "J Agric Food Chem"
+          },
+          "printPublicationDate": "2015-12-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "10903-10913",
+        "abstractText": "Cichoric acid, a caffeic acid derivative found in Echinacea purpurea, basil, and chicory, has been reported to have bioactive effects, such as anti-inflammatory, antioxidant, and preventing insulin resistance. In this study, to explore the effects of CA on regulating insulin resistance and chronic inflammatory responses, the insulin resistance model was constructed by glucosamine in HepG2 cells. CA stimulated glucosamine-mediated glucose uptake by stimulating translocation of the glucose transporter 2. Moreover, the production of reactive oxygen, the expression of COX-2 and iNOS, and the mRNA levels of TNF-α and IL-6 were attenuated. Furthermore, CA was verified to promote glucosamine-mediated glucose uptake and inhibited inflammation through PI3K/Akt, NF-κB, and MAPK signaling pathways in HepG2 cells. These results implied that CA could increase glucose uptake, improve insulin resistance, and attenuate glucosamine-induced inflammation, suggesting that CA is a potential natural nutraceutical with antidiabetic properties and anti-inflammatory effects.",
+        "affiliation": "College of Food Science and Engineering, Northwest A&F University , Yangling 712100, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministry of Education of the People&apos;s Republic of China",
+              "grantId": "YQ2013007",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shaanxi Province",
+              "grantId": "2014KTCL02-07",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Insulin Resistance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Succinates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosamine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Anti-Inflammatory Agents"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypoglycemic Agents"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose Transporter Type 2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Insulin resistance",
+            "Inflammatory Response",
+            "GLUT2",
+            "Pi3k/akt",
+            "Cichoric Acid"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Succinates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anti-Inflammatory Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caffeic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucose transporter type 2",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            },
+            {
+              "name": "Glucosamine",
+              "registryNumber": "N08U5BOQ1K"
+            },
+            {
+              "name": "chicoric acid",
+              "registryNumber": "S4YY3V8YHD"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.jafc.5b04533"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 48,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-08-03",
+        "dateOfCreation": "2015-11-24",
+        "dateOfRevision": "2017-11-16",
+        "electronicPublicationDate": "2015-12-17",
+        "firstPublicationDate": "2015-12-17",
+        "firstIndexDate": "2015-11-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26924074",
+        "source": "MED",
+        "pmid": "26924074",
+        "doi": "10.1002/jssc.201600051",
+        "title": "Simultaneous determination and pharmacokinetic study of four phenol compounds in rat plasma by ultra-high performance liquid chromatography with tandem mass spectrometry after oral administration of Echinacea purpurea extract.",
+        "authorString": "Gan C, Liu L, Du Y, Wang L, Gao M, Wu L, Yang C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gan C",
+              "lastName": "Gan",
+              "firstName": "Chunli",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu L",
+              "lastName": "Liu",
+              "firstName": "Lu",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Du Y",
+              "lastName": "Du",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang L",
+              "lastName": "Wang",
+              "firstName": "Liqian",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao M",
+              "lastName": "Gao",
+              "firstName": "Mingjie",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu L",
+              "lastName": "Wu",
+              "firstName": "Lijun",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang C",
+              "lastName": "Yang",
+              "firstName": "Chunjuan",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "39",
+          "journalIssueId": 2408213,
+          "dateOfPublication": "2016 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "J Sep Sci",
+            "title": "Journal of separation science",
+            "essn": "1615-9314",
+            "issn": "1615-9306",
+            "nlmid": "101088554",
+            "isoabbreviation": "J Sep Sci"
+          },
+          "printPublicationDate": "2016-05-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "1628-1637",
+        "abstractText": "A rapid and sensitive assay based on ultra-high performance liquid chromatography with electrospray ionization tandem mass spectrometry was established and validated for the simultaneous determination of cichoric acid, chlorogenic acid, quinic acid, and caffeic acid in rat plasma after oral administration of Echinacea purpurea extract using butylparaben as the internal standard. Samples were pretreated by liquid-liquid extraction with ethyl acetate. The separations for analytes were performed on an ACQUITY UPLC HSS C18 column (1.8 μm 2.1 × 100 mm) using a gradient elution program with acetonitrile/10 mM ammonium acetate (pH 5.6) at a flow rate of 0.3 mL/min. The analytes were detected in multiple reaction monitoring mode with negative electrospray ionization. The lower limit of quantification of each analyte was not higher than 10.85 ng/mL. The relative standard deviation of the intraday and interday precisions was less than 14.69%. The relative errors of accuracies were in the range of -13.80 to 14.91%. The mean recoveries for extraction recovery and matrix effect were higher than 80.79 and 89.98%, respectively. The method validation results demonstrated that the proposed method was sensitive, specific, and reliable, which was successfully applied to the pharmacokinetic study of four components after oral administration of Echinacea purpurea extract.",
+        "affiliation": "College of Pharmacy, Harbin Medical University, Nangang District, Harbin, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Echinacea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Succinates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorogenic Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quinic Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Conformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Herbal Medicines",
+            "Echinacea purpurea",
+            "Rat Plasma",
+            "Ultra-high Performance Liquid Chromatography"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Succinates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caffeic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "caffeic acid",
+              "registryNumber": "U2S3A33KVM"
+            },
+            {
+              "name": "Quinic Acid",
+              "registryNumber": "058C04BGYI"
+            },
+            {
+              "name": "Chlorogenic Acid",
+              "registryNumber": "318ADP12RI"
+            },
+            {
+              "name": "chicoric acid",
+              "registryNumber": "S4YY3V8YHD"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/jssc.201600051"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-01-29",
+        "dateOfCreation": "2016-03-01",
+        "dateOfRevision": "2018-01-29",
+        "electronicPublicationDate": "2016-04-19",
+        "firstPublicationDate": "2016-04-19",
+        "firstIndexDate": "2016-03-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15536458",
+        "source": "MED",
+        "pmid": "15536458",
+        "doi": "10.1016/j.clpt.2004.07.007",
+        "title": "In vivo assessment of botanical supplementation on human cytochrome P450 phenotypes: Citrus aurantium, Echinacea purpurea, milk thistle, and saw palmetto.",
+        "authorString": "Gurley BJ, Gardner SF, Hubbard MA, Williams DK, Gentry WB, Carrier J, Khan IA, Edwards DJ, Shah A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gurley BJ",
+              "lastName": "Gurley",
+              "firstName": "Bill J",
+              "initials": "BJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, University of Arkansas for Medical Sciences, College of Pharmacy, Little Rock, 72205, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gardner SF",
+              "lastName": "Gardner",
+              "firstName": "Stephanie F",
+              "initials": "SF"
+            },
+            {
+              "fullName": "Hubbard MA",
+              "lastName": "Hubbard",
+              "firstName": "Martha A",
+              "initials": "MA"
+            },
+            {
+              "fullName": "Williams DK",
+              "lastName": "Williams",
+              "firstName": "D Keith",
+              "initials": "DK"
+            },
+            {
+              "fullName": "Gentry WB",
+              "lastName": "Gentry",
+              "firstName": "W Brooks",
+              "initials": "WB"
+            },
+            {
+              "fullName": "Carrier J",
+              "lastName": "Carrier",
+              "firstName": "Julie",
+              "initials": "J"
+            },
+            {
+              "fullName": "Khan IA",
+              "lastName": "Khan",
+              "firstName": "Ikhlas A",
+              "initials": "IA"
+            },
+            {
+              "fullName": "Edwards DJ",
+              "lastName": "Edwards",
+              "firstName": "David J",
+              "initials": "DJ"
+            },
+            {
+              "fullName": "Shah A",
+              "lastName": "Shah",
+              "firstName": "Amit",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7617-4248"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7617-4248"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "76",
+          "journalIssueId": 1207775,
+          "dateOfPublication": "2004 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Clin Pharmacol Ther",
+            "title": "Clinical pharmacology and therapeutics",
+            "essn": "1532-6535",
+            "issn": "0009-9236",
+            "nlmid": "0372741",
+            "isoabbreviation": "Clin Pharmacol Ther"
+          },
+          "printPublicationDate": "2004-11-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "428-440",
+        "abstractText": "<h4>Objectives</h4>Phytochemical-mediated modulation of cytochrome P450 (CYP) activity may underlie many herb-drug interactions. Single-time point phenotypic metabolic ratios were used to determine whether long-term supplementation of Citrus aurantium , Echinacea purpurea , milk thistle (Silybum marianum), or saw palmetto (Serenoa repens) extracts affected CYP1A2, CYP2D6, CYP2E1, or CYP3A4 activity.<h4>Methods</h4>Twelve healthy volunteers (6 women, 6 men) were randomly assigned to receive C aurantium , E purpurea , milk thistle, or saw palmetto for 28 days. For each subject, a 30-day washout period was interposed between each supplementation phase. Probe drug cocktails of midazolam and caffeine, followed 24 hours later by chlorzoxazone and debrisoquin (INN, debrisoquine), were administered before (baseline) and at the end of supplementation. Presupplementation and postsupplementation phenotypic trait measurements were determined for CYP3A4, CYP1A2, CYP2E1, and CYP2D6 by use of 1-hydroxymidazolam/midazolam serum ratios (1-hour sample), paraxanthine/caffeine serum ratios (6-hour sample), 6-hydroxychlorzoxazone/chlorzoxazone serum ratios (2-hour sample), and debrisoquin urinary recovery ratios (8-hour collection), respectively. The content of purported \"active\" phytochemicals was determined for each supplement.<h4>Results</h4>Comparisons of presupplementation and postsupplementation phenotypic ratios suggested that these particular supplements had no significant effect on CYP1A2, CYP2D6, CYP2E1, or CYP3A4 activity. Phytochemical profiles indicated that C aurantium was devoid of the CYP3A4 inhibitor 6',7'-dihydroxybergamottin. Quantities of fatty acids, flavonolignans, and cichoric acid were consistent with label claims for saw palmetto, milk thistle, and E purpurea , respectively.<h4>Conclusions</h4>Botanical supplements containing C aurantium , milk thistle, or saw palmetto extracts appear to pose a minimal risk for CYP-mediated herb-drug interactions in humans. Although the effects of E purpurea on CYP activity were minor, further study into the interaction potential of this botanical is merited.",
+        "affiliation": "Department of Pharmaceutical Sciences, University of Arkansas for Medical Sciences, College of Pharmacy, Little Rock, 72205, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serenoa"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Echinacea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citrus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Midazolam",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Debrisoquin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoenzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adrenergic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "GABA Modulators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Central Nervous System Stimulants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenotype"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Silybum marianum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Isoenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Central Nervous System Stimulants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Adrenergic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "GABA Modulators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caffeine",
+              "registryNumber": "3G6A5W338E"
+            },
+            {
+              "name": "Midazolam",
+              "registryNumber": "R60L0SM5BC"
+            },
+            {
+              "name": "Debrisoquin",
+              "registryNumber": "X31CDK040E"
+            },
+            {
+              "name": "saw palmetto extract",
+              "registryNumber": "J7WWH9M8QS"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.clpt.2004.07.007"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "reference": "Clin Pharmacol Ther. 2005 May;77(5):456",
+              "type": "Erratum in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 114,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-12-02",
+        "dateOfCreation": "2004-11-13",
+        "dateOfRevision": "2023-12-13",
+        "firstPublicationDate": "2004-11-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

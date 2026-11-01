@@ -1,0 +1,383 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE_ABS:\"Luteoxanthin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41137368",
+        "source": "MED",
+        "pmid": "41137368",
+        "doi": "10.1515/jcim-2025-0132",
+        "title": "Molecular docking, molecular dynamic simulation, and ADME analysis of &lt;i&gt;Moringa oleifera&lt;/i&gt; phytochemicals targeting NS5 protein: towards the development of novel anti-dengue therapeutics.",
+        "authorString": "Yadav AK, Masarkar N, Pal M, Mukherjee S, Kumar A, Verma S, Chowdhary R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yadav AK",
+              "lastName": "Yadav",
+              "firstName": "Ashish Kumar",
+              "initials": "AK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Madhya Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Masarkar N",
+              "lastName": "Masarkar",
+              "firstName": "Neha",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5316-5499"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Madhya Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pal M",
+              "lastName": "Pal",
+              "firstName": "Maynak",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Indian Institute of Science Education and Research (IISER), Bhopal, Madhya Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mukherjee S",
+              "lastName": "Mukherjee",
+              "firstName": "Sukhes",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Madhya Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kumar A",
+              "lastName": "Kumar",
+              "firstName": "Ashok",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Madhya Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Verma S",
+              "lastName": "Verma",
+              "firstName": "Sarika",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Advanced Materials and Processes Research Institute (AMPRI), Bhopal, Madhya Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chowdhary R",
+              "lastName": "Chowdhary",
+              "firstName": "Rashmi",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Madhya Pradesh, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5316-5499"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "22",
+          "journalIssueId": 4064820,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "J Complement Integr Med",
+            "title": "Journal of complementary & integrative medicine",
+            "essn": "1553-3840",
+            "issn": "2194-6329",
+            "isoabbreviation": "J Complement Integr Med",
+            "nlmid": "101313855"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "644-660",
+        "abstractText": "<h4>Objectives</h4>Dengue virus (DENV), a single-stranded RNA virus from the Flaviviridae family, causes viral hemorrhagic fever and poses a global health threat due to limited diagnostics, treatments, and vaccines. The conserved NS5 protein, crucial for DENV replication, is a promising antiviral target. Antibody-dependent enhancement (ADE) complicates immunity, as serotype-specific antibodies may worsen infection. <i>Moringa oleifera</i>, rich in antiviral phytochemicals, shows potential as a DENV inhibitor by targeting proteomic, transcriptomic, and metabolomic pathways.<h4>Methods</h4>This study employed molecular docking with 3D PubChem structures of bioactive compounds of <i>M</i>. <i>oleifera</i> to evaluate the binding affinity with DENV-2 NS5 proteins (PDB ID: 6KR2) using AutoDock Vina, and binding modes were analyzed using Discovery Studio. Further drug-likeness, oral bioavailability, ADME, and toxicity profiles were analyzed using SwissADME, ADMETSaR, and ADMETlab 3.0 web server. Complexes were subjected to molecular dynamics simulation (MDS) analysis using Desmond Schrodinger v2019.<h4>Results</h4>Among the screened compounds, rhamnopyranosyl vincosamide (-9.0 kcal/mol), luteoxanthin (-8.6 kcal/mol), and luteolin (-8.3 kcal/mol) exhibited the most stable interactions and were further analyzed through molecular dynamics (MD) simulations. The results revealed that these phytochemicals interact with NS5 active-site residues, demonstrating significant inhibitory potential.<h4>Conclusions</h4>The study suggests that <i>M</i>. <i>oleifera</i> phytochemicals hold promise as DENV-2 NS5 inhibitors with minimal toxicity and favorable pharmacokinetic properties. These findings provide a strong foundation for further clinical investigations, potentially contributing to developing novel anti-dengue therapeutics.",
+        "affiliation": "Department of Biochemistry, All India Institute of Medical Sciences (AIIMS), Bhopal, Madhya Pradesh, India.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dengue Virus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Moringa oleifera",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dengue",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Viral Nonstructural Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Inhibitors",
+            "Dengue virus",
+            "MD simulation",
+            "Dengue fever",
+            "Docking",
+            "Cheminformatics"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Viral Nonstructural Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NS5 protein, dengue virus",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1515/jcim-2025-0132"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2025-12-05",
+        "dateOfCreation": "2025-10-25",
+        "dateOfRevision": "2025-12-22",
+        "electronicPublicationDate": "2025-10-27",
+        "firstPublicationDate": "2025-10-27",
+        "firstIndexDate": "2025-10-26",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

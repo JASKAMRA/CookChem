@@ -1,0 +1,3068 @@
+{
+  "version": "6.9",
+  "hitCount": 10,
+  "request": {
+    "queryString": "TITLE_ABS:\"Caftaric Acid\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39405778",
+        "source": "MED",
+        "pmid": "39405778",
+        "doi": "10.1016/j.compbiolchem.2024.108239",
+        "title": "Computational analysis of natural compounds as potential phosphodiesterase type 5A inhibitors.",
+        "authorString": "Uba AI, Paradis NJ, Wu C, Zengin G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Uba AI",
+              "lastName": "Uba",
+              "firstName": "Abdullahi Ibrahim",
+              "initials": "AI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0853-108X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular Biology and Genetics, Istanbul AREL University, Istanbul 34537, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Paradis NJ",
+              "lastName": "Paradis",
+              "firstName": "Nicholas Joseph",
+              "initials": "NJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4402-7315"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Science and Mathematics, Rowan University, Glassboro, NJ 08028, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu C",
+              "lastName": "Wu",
+              "firstName": "Chun",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0176-3873"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Science and Mathematics, Rowan University, Glassboro, NJ 08028, United States. Electronic address: wuc@rowan.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zengin G",
+              "lastName": "Zengin",
+              "firstName": "Gokhan",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, Science Faculty, Selcuk University, Konya 42130, Turkey. Electronic address: gokhanzengin@selcuk.edu.tr."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0176-3873"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0853-108X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4402-7315"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "113",
+          "journalIssueId": 3871134,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Comput Biol Chem",
+            "title": "Computational biology and chemistry",
+            "essn": "1476-928X",
+            "issn": "1476-9271",
+            "nlmid": "101157394",
+            "isoabbreviation": "Comput Biol Chem"
+          },
+          "printPublicationDate": "2024-12-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "108239",
+        "abstractText": "Phosphodiesterase type 5 (PDE5) is a cyclic nucleotide-hydrolyzing enzyme that plays essential roles in the regulation of second messenger cyclic adenosine monophosphate (cAMP) and cyclic guanosine monophosphate (cGMP) produced in response to various stimuli. Pharmacological inhibition of PDE5 has been shown to have several therapeutic uses, including treating cardiovascular diseases and erectile dysfunction. In search of PDE5A inhibitors with safer pharmacokinetic properties, computational analyses of the binding propensity of fifty natural compounds comprising flavonoids, polyphenols, and glycosides were conducted. Molecular dynamics simulation coupled with Molecular mechanics with generalized Born and surface area solvation (MM/GBSA) showed that verbascoside may inhibit the activity of PDE5 with a comparative binding energy (ΔG) of -87.8 ± 9.2 kcal/mol to that of the cocrystal ligand (PDB ID: 3BJC), having ΔG = -77.7±4.5 kcal/mol. However, the other top compounds studied were found to have lower binding propensities than the cocrystal ligand WAN: hesperidin (ΔG = -33.8 ± 3.4 kcal/mol), rutin (ΔG = -23.6 ± 26.3 kcal/mol), caftaric acid (ΔG = -21.2 ±3.6 kcal/mol), and chlorogenic acid (ΔG = 6.0 ± 16.5 kcal/mol). Therefore, verbascoside may serve as a potential PDE5A inhibitor while hesperidin, rutin, and caftaric acid may provide templates for further structural optimization for the designs of safer PDE5 inhibitors.",
+        "affiliation": "Department of Molecular Biology and Genetics, Istanbul AREL University, Istanbul 34537, Turkey.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Biological Products",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermodynamics"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cyclic Nucleotide Phosphodiesterases, Type 5",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phosphodiesterase 5 Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular docking",
+            "MD simulation",
+            "Verbascoside",
+            "Natural Compounds",
+            "Pde5 Inhibitors",
+            "Mm/gbsa"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Biological Products",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cyclic nucleotide phosphodiesterases, type 5",
+              "registryNumber": "EC 3.1.4.35"
+            },
+            {
+              "name": "PDE5A protein, human",
+              "registryNumber": "EC 3.1.4.35"
+            },
+            {
+              "name": "Phosphodiesterase 5 Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.compbiolchem.2024.108239"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2024-12-13",
+        "dateOfCreation": "2024-10-15",
+        "dateOfRevision": "2026-06-01",
+        "electronicPublicationDate": "2024-10-10",
+        "firstPublicationDate": "2024-10-10",
+        "firstIndexDate": "2024-10-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34692755",
+        "source": "MED",
+        "pmid": "34692755",
+        "pmcid": "PMC8529059",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8529059"
+          ]
+        },
+        "doi": "10.3389/fnut.2021.766756",
+        "title": "Both Acidic pH Value and Binding Interactions of Tartaric Acid With α-Glucosidase Cause the Enzyme Inhibition: The Mechanism in α-Glucosidase Inhibition of Four Caffeic and Tartaric Acid Derivates.",
+        "authorString": "Li W, Song Y, Sun W, Yang X, Liu X, Sun L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li W",
+              "lastName": "Li",
+              "firstName": "Wenyue",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University, Xianyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song Y",
+              "lastName": "Song",
+              "firstName": "Yi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University, Xianyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun W",
+              "lastName": "Sun",
+              "firstName": "Wanshu",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University, Xianyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang X",
+              "lastName": "Yang",
+              "firstName": "Xi",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4133-4192"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University, Xianyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu X",
+              "lastName": "Liu",
+              "firstName": "Xuebo",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University, Xianyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun L",
+              "lastName": "Sun",
+              "firstName": "Lijun",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University, Xianyang, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4133-4192"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "8",
+          "journalIssueId": 3112374,
+          "dateOfPublication": "2021 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Front Nutr",
+            "title": "Frontiers in nutrition",
+            "essn": "2296-861X",
+            "issn": "2296-861X",
+            "nlmid": "101642264",
+            "isoabbreviation": "Front Nutr"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "766756",
+        "abstractText": "The inhibition mechanism of four caffeic and tartaric acid derivates, including caffeic acid (CA), tartaric acid (TA), caftaric acid (CFA) and chicoric acid (CHA) against α-glucosidase was characterized by substrate depletion, fluorescence quenching, isothermal titration calorimetry (ITC) and molecular docking. TA and CA were found with the highest and no inhibition effect respectively, and caffeoyl substitution at 2 and/or 3-OH of TA significantly decreased its inhibition. The enzyme inhibition effects of organic acids were not in an inhibitor concentration-dependent mode, and there was a rush increase in inhibition at a respective acidic pH value, especially for CFA and CHA, suggesting the important role of acidic pH in the enzyme inhibition for both compounds. Besides, CA, CFA and CHA were shown with strong quenching effects on α-glucosidase fluorescence because of π-conjugations between aromatic ring of caffeoyl moiety and that of enzyme fluorescent residues. However, no fluorescence quenching effect was observed for TA due to lack of aromatic ring. Additionally, a direct binding interaction behavior was observed for TA with α-glucosidase according to the fitted independent binding model in ITC, but not for CFA and CHA. Therefore, both acidic pH and binding interactions of TA with α-glucosidase resulted in the enzyme inhibition.",
+        "affiliation": "College of Food Science and Engineering, Northwest A&F University, Xianyang, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Mechanism",
+            "tartaric acid",
+            "Binding Interactions",
+            "Α-glucosidase Inhibition",
+            "Acidic Ph Value"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fnut.2021.766756"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8529059"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8529059?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCreation": "2021-10-25",
+        "dateOfRevision": "2021-10-26",
+        "electronicPublicationDate": "2021-10-07",
+        "firstPublicationDate": "2021-10-07",
+        "firstIndexDate": "2021-11-24",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND607054648",
+        "source": "AGR",
+        "doi": "10.1016/j.lwt.2020.109942",
+        "title": "Caffeoyl substitution changes the inhibition mode of tartaric acid against α-amylase: Analysis of the enzyme inhibition by four caffeic and tartaric acid derivates",
+        "authorString": "Bai F, Wang Y, Zhang S, Wang Y, Zhang J, Cao J, Sun L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bai F",
+              "lastName": "Bai",
+              "firstName": "Fangting",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7647-995X"
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yueyi",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Zhang S",
+              "lastName": "Zhang",
+              "firstName": "Shanbo",
+              "initials": "S"
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yutang",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Jifan",
+              "initials": "J"
+            },
+            {
+              "fullName": "Cao J",
+              "lastName": "Cao",
+              "firstName": "Junwei",
+              "initials": "J"
+            },
+            {
+              "fullName": "Sun L",
+              "lastName": "Sun",
+              "firstName": "Lijun",
+              "initials": "L"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7647-995X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8506-6081"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7389-0636"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "133",
+          "journalIssueId": 3546099,
+          "dateOfPublication": "2021 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Lebensm Wiss Technol",
+            "title": "Lebensmittel-Wissenschaft + [i.e. und] Technologie. Food science + technology. Science + technologie alimentaire",
+            "issn": "0023-6438",
+            "nlmid": "9876251",
+            "isoabbreviation": "Lebensm Wiss Technol"
+          },
+          "printPublicationDate": "2021-11-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "Not Available",
+        "abstractText": "α-Amylase inhibition by four dietary organic acids was characterized by inhibition assay, kinetics, fluorescence quenching and molecular docking. Tartaric acid was found as an uncompetitive inhibitor, with 2,3-OH playing an important role in binding with the enzymic non-active site. Although caffeic acid had a low inhibitory activity, caffeoyl substitution at 2,3-OH of tartaric acid gradually increased its competitive inhibition character. As a result, caftaric acid (one caffeoyl-substituted) and chicoric acid (two caffeoyl-substituted) were suggested as mixed-type and competitive inhibitors, respectively, despite that the substitution decreased the inhibitory activity of tartaric acid. Fluorescence quenching was only observed for compounds with caffeoyl(s), and the effect increased with the moiety number increasing, consistent with the changing trend in number of active fluorescent residues involved in ligand-enzyme interactions. These results suggest that caffeoyl moiety entered into α-amylase active pocket. Therefore, caffeoyl has potentials as a functional-factor in α-amylase inhibition for alleviating type-II diabetes symptoms.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Undergraduate Training Program for Innovation and Entrepreneurship",
+              "grantId": "S201910712203",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2019TQ0267",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31671859",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31901685",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2019M660267",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.lwt.2020.109942"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 7,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-10-30",
+        "dateOfCreation": "2021-10-30",
+        "dateOfRevision": "2022-11-22",
+        "firstPublicationDate": "2021-11-01",
+        "firstIndexDate": "2021-05-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36575511",
+        "source": "MED",
+        "pmid": "36575511",
+        "pmcid": "PMC9795602",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9795602"
+          ]
+        },
+        "doi": "10.1186/s12916-022-02700-x",
+        "title": "Distinct metabolic biomarkers to distinguish IgG4-related disease from Sjogren's syndrome and pancreatic cancer and predict disease prognosis.",
+        "authorString": "Yan S, Peng Y, Wu Z, Cheng L, Li H, Xu H, Huang Y, Zhang W, Li Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yan S",
+              "lastName": "Yan",
+              "firstName": "Songxin",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Laboratory, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Peng Y",
+              "lastName": "Peng",
+              "firstName": "Yu",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology, National Clinical Research Center for Dermatologic and Immunologic Diseases, Key Laboratory of Rheumatology and Clinical Immunology, Ministry of Education, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu Z",
+              "lastName": "Wu",
+              "firstName": "Ziyan",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Laboratory, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng L",
+              "lastName": "Cheng",
+              "firstName": "Linlin",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Laboratory, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li H",
+              "lastName": "Li",
+              "firstName": "Haolong",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Laboratory, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu H",
+              "lastName": "Xu",
+              "firstName": "Honglin",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology, National Clinical Research Center for Dermatologic and Immunologic Diseases, Key Laboratory of Rheumatology and Clinical Immunology, Ministry of Education, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang Y",
+              "lastName": "Huang",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Laboratory, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang W",
+              "lastName": "Zhang",
+              "firstName": "Wen",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Rheumatology, National Clinical Research Center for Dermatologic and Immunologic Diseases, Key Laboratory of Rheumatology and Clinical Immunology, Ministry of Education, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China. zhangwen91@sina.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yongzhe",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Laboratory, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China. liyz@pumch.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "20",
+          "journalIssueId": 3468471,
+          "dateOfPublication": "2022 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "BMC Med",
+            "title": "BMC medicine",
+            "essn": "1741-7015",
+            "issn": "1741-7015",
+            "nlmid": "101190723",
+            "isoabbreviation": "BMC Med"
+          },
+          "printPublicationDate": "2022-12-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "497",
+        "abstractText": "<h4>Background</h4>The pathogenesis of immunoglobulin G4-related disease (IgG4-RD) remains unclear. IgG4-RD often mimics other diseases, including pancreatic cancer (PC) and Sjogren's syndrome (SS), which may easily lead to misdiagnosis. This study was performed to explore the metabolite changes and potential biomarkers of IgG4-RD and other misdiagnosed diseases.<h4>Methods</h4>Untargeted liquid chromatography-tandem mass spectrometry metabolomics profiling of plasma samples from a cohort comprising healthy controls (HCs) and patients with IgG4-RD (n = 87), PC (n = 33), and SS (n = 31) was performed. A random forest machine learning model was used to verify the relevance of the identified metabolites in the diagnosis of different diseases and the prediction of disease prognosis.<h4>Results</h4>The ATP-binding cassette transporter pathway was found to be most closely related to IgG4-RD, which was significantly up-regulated in the IgG4-RD group than in all the matched groups. Five metabolites were proved to be valuable biomarkers for IgG4-RD. Caftaric acid, maltotetraose, D-glutamic acid, 1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphoserine, and hydroxyproline were useful in distinguishing between IgG4-RD, PC, SS, and HC [area under the curve (AUC) = 1]. A combination of phenylalanine betaine, 1-(1z-hexadecenyl)-sn-glycero-3-phosphocholine, Pi 40:8, uracil, and N1-methyl-2-pyridone-5-carboxamide showed a moderate value in predicting relapse in patients with IgG4-RD (AUC = 0.8).<h4>Conclusions</h4>Our findings revealed the metabolite changes of IgG4-RD and provide new insights for deepening our understanding of IgG4-RD despite the lack of validation in external cohorts. Metabolomic biomarkers have significance in the clinical diagnosis and disease prognosis of IgG4-RD.",
+        "affiliation": "Department of Clinical Laboratory, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Beijing Municipal Science &amp; Technology Commission",
+              "grantId": " Z201100005520023",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82071839, 81771757, 82271848",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82271848",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Key Research and Development Program of China",
+              "grantId": "2018YFE0207300",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Non-profit Central Research Institute Fund of Chinese Academy of Medical Sciences",
+              "grantId": "2019XK320038",
+              "orderIn": 0
+            },
+            {
+              "agency": "Beijing Municipal Science &amp; Technology Commission",
+              "grantId": "No. Z201100005520023",
+              "orderIn": 0
+            },
+            {
+              "agency": "National High Level Hospital Clinical Research Funding",
+              "grantId": "2022-PUMCH-C-006",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81771757",
+              "orderIn": 0
+            },
+            {
+              "agency": "CAMS Innovation Fund for Medical Sciences",
+              "grantId": "CIFMS 2021-1-I2M-003",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81871302",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82071839",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pancreatic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Sjogren's Syndrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prognosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoglobulin G4-Related Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Diagnosis",
+            "Prognosis",
+            "metabolome",
+            "Immunoglobulin G4-related Disease"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Biomarkers",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bmcmedicine.biomedcentral.com/counter/pdf/10.1186/s12916-022-02700-x"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s12916-022-02700-x"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9795602"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9795602?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2022-12-29",
+        "dateOfCreation": "2022-12-27",
+        "dateOfRevision": "2024-09-10",
+        "electronicPublicationDate": "2022-12-27",
+        "firstPublicationDate": "2022-12-27",
+        "firstIndexDate": "2022-12-28",
+        "fullTextReceivedDate": "2022-12-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30585201",
+        "source": "MED",
+        "pmid": "30585201",
+        "pmcid": "PMC6337671",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6337671"
+          ]
+        },
+        "doi": "10.3390/molecules24010064",
+        "title": "Simultaneous Determination of Five Phenolic Acids and Four Flavonoid Glycosides in Rat Plasma Using HPLC-MS/MS and Its Application to a Pharmacokinetic Study after a Single Intravenous Administration of Kudiezi Injection.",
+        "authorString": "Shi P, Yang C, Su Y, Huang L, Lin X, Yao H, Yao H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shi P",
+              "lastName": "Shi",
+              "firstName": "Peiying",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1444-3980"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Chinese Medicine Resource and Bee Products, Bee Science College, Fujian Agriculture and Forestry University, Fuzhou 350002, China. peiyshi@126.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang C",
+              "lastName": "Yang",
+              "firstName": "Chunlei",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Analysis, School of Pharmacy, Fujian Medical University, Fuzhou 350122, China. yclylf@sina.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Su Y",
+              "lastName": "Su",
+              "firstName": "Ya",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Analysis, School of Pharmacy, Fujian Medical University, Fuzhou 350122, China. 15980221531@sina.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang L",
+              "lastName": "Huang",
+              "firstName": "Liying",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Analysis, School of Pharmacy, Fujian Medical University, Fuzhou 350122, China. hlyhly64@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin X",
+              "lastName": "Lin",
+              "firstName": "Xinhua",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Analysis, School of Pharmacy, Fujian Medical University, Fuzhou 350122, China. xhlin1963@sina.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao H",
+              "lastName": "Yao",
+              "firstName": "Hong",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3826-934X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Analysis, School of Pharmacy, Fujian Medical University, Fuzhou 350122, China. hongyao@mail.fjmu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao H",
+              "lastName": "Yao",
+              "firstName": "Hong",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7485-1858"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Analysis, School of Pharmacy, Fujian Medical University, Fuzhou 350122, China. hongyao@mail.fjmu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7485-1858"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1444-3980"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3826-934X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "24",
+          "journalIssueId": 2763449,
+          "dateOfPublication": "2018 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "nlmid": "100964009",
+            "isoabbreviation": "Molecules"
+          },
+          "printPublicationDate": "2018-12-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "E64",
+        "abstractText": "This study has developed a reliable and precise high performance liquid chromatography-tandem mass spectrometry method for the simultaneous determination of five phenolic acids and four flavonoid glycosides in rat plasma after a single intravenous administration of Kudiezi injection (KI). Chromatographic separation was carried out on an Ultimate<sup>®</sup>XB-C<sub>18</sub> column (4.6 × 100 mm, 3.5 μm) using a gradient elution program with a mobile phase consisting of water containing 0.5% acetic acid and acetonitrile at a flow rate of 0.6 mL/min. Detection was performed on a triple-quadrupole tandem mass spectrometry using multiple reaction monitoring in negative electrospray ionization mode. The calibration curves of all analytes showed good linearity (R² > 0.990). The results of selectivity, intra-day and inter-day precisions, extraction recoveries, matrix effects and stability were satisfactory. Pharmacokinetic parameters showed that luteolin-7-<i>O</i>-β-d-gentiobioside, luteolin-7-<i>O</i>-β-d-glucuronide, luteolin-7-<i>O</i>-β-d-glucoside and apigenin-7-<i>O</i>-β-d-glucuronide were eliminated quickly (0.07 h < <i>t</i><sub>1/2</sub> < 0.66 h), whereas 5-caffeoylquinic acid, caftaric acid, chlorogenic acid, 4-caffeoylquinic acid and caffeic acid were eliminated relatively slowly (2.22 h < <i>t</i><sub>1/2</sub> < 6.09 h) in rat blood. The pharmacokinetic results would be valuable to identify bioactive constituents, elucidate mechanisms of pharmacological actions or adverse drug reactions and guide the rational clinical use of KI.",
+        "affiliation": "Department of Traditional Chinese Medicine Resource and Bee Products, Bee Science College, Fujian Agriculture and Forestry University, Fuzhou 350002, China. peiyshi@126.com.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "the National Nature Science Foundation of China",
+              "grantId": "81303298 and 81202987",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Natural Science Foundation of Fujian Province",
+              "grantId": "2018J01596 and 2016J01371",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Training Program for Excellent Scientific Research Talents of Young Teachers in Fujian Province University (2017)",
+              "grantId": "None",
+              "orderIn": 0
+            },
+            {
+              "agency": "the Fujian Agriculture and Forestry University Technological Innovation Special Fund",
+              "grantId": "CXZX2017299",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drugs, Chinese Herbal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxybenzoates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Intravenous"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Phenolic acids",
+            "Flavonoid glycosides",
+            "High Performance Liquid Chromatography-tandem Mass Spectrometry",
+            "Kudiezi Injection"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glycosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hydroxybenzoates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "phenolic acid",
+              "registryNumber": "I3P9R8317T"
+            },
+            {
+              "name": "kudiezi",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/1420-3049/24/1/64/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules24010064"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6337671"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6337671?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2019-08-01",
+        "dateOfCreation": "2018-12-27",
+        "dateOfRevision": "2020-02-25",
+        "electronicPublicationDate": "2018-12-25",
+        "firstPublicationDate": "2018-12-25",
+        "firstIndexDate": "2019-01-01",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21601008",
+        "source": "MED",
+        "pmid": "21601008",
+        "doi": "10.1016/j.mrgentox.2011.05.001",
+        "title": "Anti-genotoxic activity of Vitis coignetiae Pulliat towards heterocyclic amines and isolation and identification of caftaric acid as an antimutagenic component from the juice.",
+        "authorString": "Zhang X, Ishida R, Yuhara Y, Kamiya T, Hatano T, Okamoto G, Arimoto-Kobayashi S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "Xiaomeng",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama University, Tsushima, Okayama 700-8530, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ishida R",
+              "lastName": "Ishida",
+              "firstName": "Rie",
+              "initials": "R"
+            },
+            {
+              "fullName": "Yuhara Y",
+              "lastName": "Yuhara",
+              "firstName": "Yuta",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Kamiya T",
+              "lastName": "Kamiya",
+              "firstName": "Tomonori",
+              "initials": "T"
+            },
+            {
+              "fullName": "Hatano T",
+              "lastName": "Hatano",
+              "firstName": "Tsutomu",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5593-8827"
+              }
+            },
+            {
+              "fullName": "Okamoto G",
+              "lastName": "Okamoto",
+              "firstName": "Goro",
+              "initials": "G"
+            },
+            {
+              "fullName": "Arimoto-Kobayashi S",
+              "lastName": "Arimoto-Kobayashi",
+              "firstName": "Sakae",
+              "initials": "S"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5593-8827"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "723",
+          "journalIssueId": 1844152,
+          "dateOfPublication": "2011 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Mutat Res",
+            "title": "Mutation research",
+            "essn": "1873-135X",
+            "issn": "0027-5107",
+            "nlmid": "0400763",
+            "isoabbreviation": "Mutat Res"
+          },
+          "printPublicationDate": "2011-08-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "182-189",
+        "abstractText": "Our study demonstrated that the formation of DNA adducts in liver, lungs, colon and kidneys of mice given a carcinogenic heterocyclic amine, 2-amino-3,8-dimethylimidazo[4,5-f]quinoxaline (MeIQx) or 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP), in the diet significantly decreased following the administration of the juice of Vitis coignetiae, purple berries from a vine tree. The juice of V. coignetiae significantly inhibited the clastogenicity and mutagenicity of heterocyclic amines in the micronucleus assay and the Ames test, and was an effective inhibitor of the activities of phase I enzymes (cytochrome P450 1A1 and cytochrome P450 1A2) and enhancer of the activities of phase II enzymes (uridine 5'-diphospho-glucuronosyltransferase and glutathione S-transferase). We investigated the purification and isolation of an active compound in the juice of V. coignetiae using antimutagenicity as a separation marker. Caftaric acid, a polyphenolic compound, was identified as a component responsible for antimutagenicity in the juice of V. coignetiae towards the carcinogenic heterocyclic amine 3-amino-1-methyl-5H-pyrido[4,3-b]indole (Trp-P-2). This is the first report of antimutagenicity of caftaric acid. Caftaric acid was reported as an inhibitor of the protein-protein interactions mediated by the Src-family kinases. The impact of the juice of V. coignetiae and its constituents on tumor initiation and promotion thus warrants further study.",
+        "affiliation": "Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama University, Tsushima, Okayama 700-8530, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Fruit"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Imidazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quinoxalines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Adducts"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antimutagenic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutagens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "2-amino-3,8-dimethylimidazo(4,5-f)quinoxaline",
+              "registryNumber": "77500-04-0"
+            },
+            {
+              "name": "Imidazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Quinoxalines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Mutagens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA Adducts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antimutagenic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "2-amino-1-methyl-6-phenylimidazo(4,5-b)pyridine",
+              "registryNumber": "909C6UN66T"
+            },
+            {
+              "name": "caftaric acid",
+              "registryNumber": "WCV7W3174L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.mrgentox.2011.05.001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 17,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-09-15",
+        "dateOfCreation": "2011-05-24",
+        "dateOfRevision": "2017-11-16",
+        "electronicPublicationDate": "2011-05-08",
+        "firstPublicationDate": "2011-05-08",
+        "firstIndexDate": "2011-05-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29192771",
+        "source": "MED",
+        "pmid": "29192771",
+        "doi": "10.1021/acs.jnatprod.7b00699",
+        "title": "Phenolic Substances from Ocimum Species Enhance Glucose-Stimulated Insulin Secretion and Modulate the Expression of Key Insulin Regulatory Genes in Mice Pancreatic Islets.",
+        "authorString": "Casanova LM, Gu W, Costa SS, Jeppesen PB.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Casanova LM",
+              "lastName": "Casanova",
+              "firstName": "Livia Marques",
+              "initials": "LM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0697-1575"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto de Pesquisas de Produtos Naturais, Centro de Ciências da Saúde, Bloco H, Cidade Universitária, Universidade Federal do Rio de Janeiro , 21 941-902 Rio de Janeiro, RJ, Brazil."
+                  },
+                  {
+                    "affiliation": "Department of Clinical Medicine, Aarhus University Hospital, Aarhus University , Tage-Hansens Gade 2, 8000 Aarhus C, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gu W",
+              "lastName": "Gu",
+              "firstName": "Wenqian",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Medicine, Aarhus University Hospital, Aarhus University , Tage-Hansens Gade 2, 8000 Aarhus C, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Costa SS",
+              "lastName": "Costa",
+              "firstName": "Sônia Soares",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto de Pesquisas de Produtos Naturais, Centro de Ciências da Saúde, Bloco H, Cidade Universitária, Universidade Federal do Rio de Janeiro , 21 941-902 Rio de Janeiro, RJ, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jeppesen PB",
+              "lastName": "Jeppesen",
+              "firstName": "Per Bendix",
+              "initials": "PB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8042-7554"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Medicine, Aarhus University Hospital, Aarhus University , Tage-Hansens Gade 2, 8000 Aarhus C, Denmark."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8042-7554"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0697-1575"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "80",
+          "journalIssueId": 2631923,
+          "dateOfPublication": "2017 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "J Nat Prod",
+            "title": "Journal of natural products",
+            "essn": "1520-6025",
+            "issn": "0163-3864",
+            "nlmid": "7906882",
+            "isoabbreviation": "J Nat Prod"
+          },
+          "printPublicationDate": "2017-12-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "3267-3275",
+        "abstractText": "Ocimum gratissimum and Ocimum basilicum are plants ethnopharmacologically used to treat diabetes mellitus, a life-threatening disease that affects millions of people worldwide. In order to further understand their antidiabetic potential, which has been previously demonstrated in animal models, we aimed to investigate the acute and chronic effects of major phenolic substances from both plants on insulin secretion and gene expression in pancreatic islets isolated from NMRI mice. Insulin secretion was measured after acute (1 h) and long-term (72 h) incubation of islets with one of four cinnamic acid derivatives (caftaric, caffeic, chicoric, and rosmarinic acids) or a C-glucosylated flavonoid (vicenin-2). All substances acutely enhanced glucose-stimulated insulin secretion (GSIS) from islets at concentrations from 10<sup>-10</sup> to 10<sup>-6</sup> M. They also increased GSIS after chronic incubation (10<sup>-8</sup> M). None of them increased insulin secretion in the presence of low glucose concentration. Furthermore, these substances markedly changed the gene expression profile of key insulin regulatory genes INS1, INS2, PDX1, INSR, IRS1, and proliferative genes as well as glucose transporter 2 (GLUT2), in treated islets. Thus, they may play an important role in diabetes treatment. This is the first report on the insulin-secretory activity of caftaric acid, rosmarinic acid, and vicenin-2.",
+        "affiliation": "Instituto de Pesquisas de Produtos Naturais, Centro de Ciências da Saúde, Bloco H, Cidade Universitária, Universidade Federal do Rio de Janeiro , 21 941-902 Rio de Janeiro, RJ, Brazil.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Aarhus Universitet",
+              "orderIn": 0
+            },
+            {
+              "agency": "Conselho Nacional de Desenvolvimento Cient?fico e Tecnol?gico",
+              "grantId": "PhD fellowship (CNPq Nr 140277/2013-7)",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Islets of Langerhans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ocimum basilicum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cinnamates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin Secretion",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cinnamates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Insulin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            },
+            {
+              "name": "cinnamic acid",
+              "registryNumber": "140-10-3"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.jnatprod.7b00699"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-07-01",
+        "dateOfCreation": "2017-12-02",
+        "dateOfRevision": "2021-02-24",
+        "electronicPublicationDate": "2017-12-01",
+        "firstPublicationDate": "2017-12-01",
+        "firstIndexDate": "2017-12-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25968347",
+        "source": "MED",
+        "pmid": "25968347",
+        "doi": "10.1039/c5fo00073d",
+        "title": "Metabolism of chicoric acid by rat liver microsomes and bioactivity comparisons of chicoric acid and its metabolites.",
+        "authorString": "Liu Q, Wang Y, Xiao C, Wu W, Liu X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Liu Q",
+              "lastName": "Liu",
+              "firstName": "Qian",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Engineering, Northwest A&F University, Yangling 712100, China. xueboliu@aliyun.com xueboliu@nwsuaf.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yutang",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Xiao C",
+              "lastName": "Xiao",
+              "firstName": "ChunXia",
+              "initials": "C"
+            },
+            {
+              "fullName": "Wu W",
+              "lastName": "Wu",
+              "firstName": "Wanqiang",
+              "initials": "W"
+            },
+            {
+              "fullName": "Liu X",
+              "lastName": "Liu",
+              "firstName": "Xuebo",
+              "initials": "X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "6",
+          "journalIssueId": 2294438,
+          "dateOfPublication": "2015 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Food Funct",
+            "title": "Food & function",
+            "essn": "2042-650X",
+            "issn": "2042-6496",
+            "nlmid": "101549033",
+            "isoabbreviation": "Food Funct"
+          },
+          "printPublicationDate": "2015-06-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "1928-1935",
+        "abstractText": "Chicoric acid has recently become a hot research topic due to its potent bioactivities. However, there are few studies relevant to this acid's pharmacokinetic characteristics and the pharmacological activities of its metabolites. To compare the abilities of chicoric acid and its metabolites in scavenging free radicals and their effects on the viability of 3T3-L1 preadipocytes, an in vitro study of the metabolism of chicoric acid in rat liver microsomes was performed using liquid tandem mass spectrometry (HPLC-MS/MS). The results indicated that caffeic acid and caftaric acid were the hepatic phase I metabolites of chicoric acid. These three compounds had strong capacities for scavenging free radicals and had been demonstrated to increase intracellular ROS levels in 3T3-L1 preadipocytes, thereby reducing cell vitality. Finally, the pharmacological activities of chicoric acid were significantly stronger than those of its metabolites within a certain concentration range.",
+        "affiliation": "College of Food Science and Engineering, Northwest A&F University, Yangling 712100, China. xueboliu@aliyun.com xueboliu@nwsuaf.edu.cn.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "3T3-L1 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adipocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AG",
+                    "qualifierName": "agonists"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Succinates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Obesity Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Free Radical Scavengers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Mass, Electrospray Ionization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metabolic Detoxication, Phase I"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Succinates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caffeic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Free Radical Scavengers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anti-Obesity Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "caffeic acid",
+              "registryNumber": "U2S3A33KVM"
+            },
+            {
+              "name": "chicoric acid",
+              "registryNumber": "S4YY3V8YHD"
+            },
+            {
+              "name": "caftaric acid",
+              "registryNumber": "WCV7W3174L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/c5fo00073d"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-03-17",
+        "dateOfCreation": "2015-05-14",
+        "dateOfRevision": "2017-11-16",
+        "firstPublicationDate": "2015-06-01",
+        "firstIndexDate": "2015-05-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32425779",
+        "source": "MED",
+        "pmid": "32425779",
+        "pmcid": "PMC7204527",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7204527"
+          ]
+        },
+        "doi": "10.3389/fphar.2020.00517",
+        "title": "<i>In Vitro</i> Assessment of the Interaction Potential of <i>Ocimum basilicum</i> (L.) Extracts on CYP2B6, 3A4, and Rifampicin Metabolism.",
+        "authorString": "Kumar S, Bouic PJ, Rosenkranz B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kumar S",
+              "lastName": "Kumar",
+              "firstName": "Saneesh",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Clinical Pharmacology, Faculty of Medicine and Health Sciences, University of Stellenbosch, Cape Town, South Africa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bouic PJ",
+              "lastName": "Bouic",
+              "firstName": "Patrick J",
+              "initials": "PJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Medical Microbiology, Faculty of Medicine and Health Sciences, University of Stellenbosch, Cape Town, South Africa."
+                  },
+                  {
+                    "affiliation": "Synexa Life Sciences, Cape Town, South Africa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rosenkranz B",
+              "lastName": "Rosenkranz",
+              "firstName": "Bernd",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9867-8826"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Clinical Pharmacology, Faculty of Medicine and Health Sciences, University of Stellenbosch, Cape Town, South Africa."
+                  },
+                  {
+                    "affiliation": "Fundisa African Academy of Medicines Development, Cape Town, South Africa."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9867-8826"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "11",
+          "journalIssueId": 2906091,
+          "dateOfPublication": "2020 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Front Pharmacol",
+            "title": "Frontiers in pharmacology",
+            "essn": "1663-9812",
+            "issn": "1663-9812",
+            "nlmid": "101548923",
+            "isoabbreviation": "Front Pharmacol"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "517",
+        "abstractText": "<i>Ocimum basilicum</i> L. or basilicum is a common culinary herb, used as a traditional medicine for various medical conditions including HIV/AIDS and tuberculosis, in Africa. The objective of this study was to evaluate the effect of methanol, ethanol, aqueous and ethyl acetate extracts of the dried leaves and inflorescence of <i>O. basilicum</i>, on the activity of cytochrome P450 enzymes (CYPs) CYP2B6 and 3A4, as well as esterase-mediated metabolism of rifampicin to 25-<i>O</i>-desacetyl rifampicin (25ODESRIF). Human liver microsomes (HLM) were used to evaluate inhibition and CYP2B6/3A4 mRNA expression HepG2 assays were used to measure induction. Furthermore, the phytoconstituents likely involved in causing the observed effect were analyzed using biochemical tests and LC-MS. The aqueous and methanolic extracts showed reversible and time-dependent inhibition (TDI) of CYP2B6 with TDI-IC<sub>50</sub>s 33.35 μg/ml (IC<sub>50</sub> shift-fold >1.5) and 4.93 μg/ml (IC<sub>50</sub> shift-fold >7) respectively, while the methanolic and ethanolic extracts inhibited 25ODESRIF formation (IC<sub>50</sub>s 31 μg/ml, 8.94 μg/ml). In HepG2 assays, the methanolic and ethanolic extracts moderately induced CYP2B6, 3A4 mRNA with 38%-, 28%-fold shift, and 22%-, 44%-fold shift respectively. LC-MS full scans identified phenols rosmarinic acid [<i>m/z</i> 359 (M-H)<sup>-</sup>, approximately 2298 mg/L in aqueous extract] and caftaric acid along with flavones salvigenin [<i>m/z</i> 329 (M+H)<sup>+</sup>, approximately 1855 mg/L in ethanolic extract], eupatorin [<i>m/z</i> 345 (M+H)<sup>+</sup>, 668.772 mg/L in ethanolic extract], rutin [<i>m/z</i> 609 (M-H)<sup>-</sup>] and isoquercetin [<i>m/z</i> 463 (M-H)<sup>-</sup>] and other compounds-linalool [<i>m/z</i> 153 (M-H)<sup>-</sup>], hydroxyjasmonic acid [<i>m/z</i> 225 (M-H)<sup>-</sup>], eucommiol [<i>m/z</i> 187 (M-H)<sup>-</sup>] and trihydroxy octadecenoic acid [<i>m/z</i> 329 (M-H)<sup>-</sup>, 530 mg/L in ethanolic extract]. The putative gastrointestinal tract (GIT) concentration for all extracts was calculated as 2,400 μg/ml and hepatic circulation concentrations were estimated at 805.68 μg/ml for the aqueous extract, and 226.56 μg/ml for methanolic extract. Based on the putative GIT concentration, estimated hepatic circulation concentration [I] and inhibition constant K<sub>i</sub>, the predicted percentile of inhibition <i>in vivo</i> was highest for the aqueous extract on CYP2B6 (96.7%). The observations indicated that <i>O. basilicum</i> extracts may have the potential to cause clinically relevant herb-drug interactions (HDI) with CYP2B6 and rifampicin metabolism <i>in vivo</i>, if sufficient hepatic concentrations are reached in humans.",
+        "affiliation": "Division of Clinical Pharmacology, Faculty of Medicine and Health Sciences, University of Stellenbosch, Cape Town, South Africa.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Research Foundation",
+              "grantId": "Indigenous Knowledge Systems NRF-IKS Grant No: 82641",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Induction",
+            "LC-MS",
+            "CYP450",
+            "HepG2",
+            "Phytoconstituents",
+            "Herb-drug Interactions",
+            "Basil",
+            "Time-dependent Inhibition"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.frontiersin.org/articles/10.3389/fphar.2020.00517/pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.frontiersin.org/articles/10.3389/fphar.2020.00517/pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.frontiersin.org/articles/10.3389/fphar.2020.00517/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fphar.2020.00517"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7204527"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7204527?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2020-05-20",
+        "dateOfRevision": "2020-09-28",
+        "electronicPublicationDate": "2020-04-30",
+        "firstPublicationDate": "2020-04-30",
+        "firstIndexDate": "2020-05-22",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21749392",
+        "source": "MED",
+        "pmid": "21749392",
+        "doi": "10.1111/j.2042-7158.2010.01235.x",
+        "title": "The interaction potential of herbal medicinal products: a luminescence-based screening platform assessing effects on cytochrome P450 and its use with devil's claw (Harpagophyti radix) preparations.",
+        "authorString": "Modarai M, Suter A, Kortenkamp A, Heinrich M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Modarai M",
+              "lastName": "Modarai",
+              "firstName": "Maryam",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Pharmacognosy and Phytotherapy, The School of Pharmacy, University of London, London, UK. maryam.modarai@pharmacy.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Suter A",
+              "lastName": "Suter",
+              "firstName": "Andy",
+              "initials": "A"
+            },
+            {
+              "fullName": "Kortenkamp A",
+              "lastName": "Kortenkamp",
+              "firstName": "Andreas",
+              "initials": "A"
+            },
+            {
+              "fullName": "Heinrich M",
+              "lastName": "Heinrich",
+              "firstName": "Michael",
+              "initials": "M"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "63",
+          "journalIssueId": 1848175,
+          "dateOfPublication": "2011 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Pharmacol",
+            "title": "The Journal of pharmacy and pharmacology",
+            "essn": "2042-7158",
+            "issn": "0022-3573",
+            "nlmid": "0376363",
+            "isoabbreviation": "J Pharm Pharmacol"
+          },
+          "printPublicationDate": "2011-03-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "429-438",
+        "abstractText": "<h4>Objectives</h4>Potential interactions between herbal medicinal products and the cytochrome (CYP) P450 system are an important safety concern. We set out to develop a screening panel for assessing such interactions and use it to evaluate the interaction potential of devil's claw.<h4>Methods</h4>The panel consisted of luminescence-based inhibition assays for CYP1A2, 2C9, 2C19, 2D6 and 3A4, and a reporter gene (luciferase) assay for pregnane X receptor (PXR) activation and CYP3A4 induction. Caftaric acid and chlorogenic acid, two compounds with strong fluorescence quenching properties, were used to demonstrate the assay's resistance to interference. We tested 10 commercial devil's claw preparations as well as harpagoside and harpagide, two important constituents of devil's claw.<h4>Key findings</h4>Five preparations were found to weakly inhibit CYP3A4 (IC50 124.2-327.6 µg/ml) and five were found to weakly activate PXR (EC50 10.21-169.3 µg/ml). Harpagoside and harpagide did not inhibit CYP3A4. In agreement with published data, bergamottin, a natural product known to interact with CYP3A4, was shown to inhibit CYP3A4 with an IC50 of 13.63 µm and activate PXR with an EC50 of 6.7 µm.<h4>Conclusions</h4>Devil's claw preparations are unlikely to have a clinically relevant effect on CYP function. The assay panel proved effective in screening devil's claw preparations, demonstrating its suitability for use with plant extracts. It showed superior sensitivity and resistance to interference.",
+        "affiliation": "Centre for Pharmacognosy and Phytotherapy, The School of Pharmacy, University of London, London, UK. maryam.modarai@pharmacy.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Harpagophytum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants, Medicinal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Retinoid X Receptors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Steroid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Preparations",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Luminescent Measurements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Herb-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Iridoid Glycosides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug-Related Side Effects and Adverse Reactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pregnane X Receptor"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "pregnane X receptor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glycosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pyrans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Steroid",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Plant Preparations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Retinoid X Receptors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Iridoid Glycosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "harpagoside",
+              "registryNumber": "8KGS1DC5ZU"
+            },
+            {
+              "name": "harpagide",
+              "registryNumber": "OF59XHX7SR"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.2042-7158.2010.01235.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-10-27",
+        "dateOfCreation": "2011-07-14",
+        "dateOfRevision": "2018-12-01",
+        "electronicPublicationDate": "2011-02-08",
+        "firstPublicationDate": "2011-02-08",
+        "firstIndexDate": "2011-07-14",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

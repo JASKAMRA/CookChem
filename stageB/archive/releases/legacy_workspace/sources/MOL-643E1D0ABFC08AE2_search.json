@@ -1,0 +1,2851 @@
+{
+  "version": "6.9",
+  "hitCount": 10,
+  "request": {
+    "queryString": "TITLE_ABS:\"Syringaldehyde\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42707620",
+        "source": "MED",
+        "pmid": "42707620",
+        "pmcid": "PMC13547748",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13547748"
+          ]
+        },
+        "doi": "10.1002/fsn3.72327",
+        "title": "Coix Seed Attenuates Acute Lung Injury via NLRP3 Signaling Pathway: Efficacy, Active Components, and Mechanisms.",
+        "authorString": "Yan Q, Li Y, Chen T, Liu W, Dong Y, Ao Z, Wu H, Xu F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yan Q",
+              "lastName": "Yan",
+              "firstName": "Qi",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yuyan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen T",
+              "lastName": "Chen",
+              "firstName": "Tingyan",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu W",
+              "lastName": "Liu",
+              "firstName": "Wenjing",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dong Y",
+              "lastName": "Dong",
+              "firstName": "Youshuo",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ao Z",
+              "lastName": "Ao",
+              "firstName": "Zhangbo",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu H",
+              "lastName": "Wu",
+              "firstName": "Hongmei",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4974-0785"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  },
+                  {
+                    "affiliation": "Research Center for Coix Seed Resources and Development Guizhou University of Traditional Chinese Medicine Guiyang Guizhou China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu F",
+              "lastName": "Xu",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9168-561X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China."
+                  },
+                  {
+                    "affiliation": "Research Center for Coix Seed Resources and Development Guizhou University of Traditional Chinese Medicine Guiyang Guizhou China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4974-0785"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9168-561X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "14",
+          "journalIssueId": 4250649,
+          "dateOfPublication": "2026 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Food Sci Nutr",
+            "title": "Food science & nutrition",
+            "essn": "2048-7177",
+            "issn": "2048-7177",
+            "nlmid": "101605473",
+            "isoabbreviation": "Food Sci Nutr"
+          },
+          "printPublicationDate": "2026-09-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "e72327",
+        "abstractText": "Coix seed is a medicinal and nutritional resource, but its protective effects against acute lung injury (ALI) remain unclear. This study investigated the efficacy, active components, and mechanisms of Coix seed extract (CSE) against ALI, focusing on the NLRP3 signaling pathway. The therapeutic efficacy of CSE was evaluated in a murine model of ALI. Liquid chromatography-mass spectrometry identified 32 components in CSE, which were then analyzed via network pharmacology, molecular docking, and molecular dynamics simulations for target prediction and drug-likeness evaluation. In vivo effects on NLRP3 pathway proteins were also examined. CSE decreased serum levels of TNF-α and IL-1β, pulmonary levels of IL-1β and IL-18, indicating systemic and local inflammatory suppression. Furthermore, CSE downregulated the expression of NLRP3, Caspase-1, and GSDMD-N in lung tissues, suggesting inhibition of NLRP3 inflammasome-driven pyroptosis. Network analysis screened 35 core targets and 4 NLRP3-related key targets involved in pathways regulating inflammation, proliferation, and oxidative stress. Molecular docking and dynamics simulations further corroborated the \"component-target-disease\" interactions within this network. Drug-likeness evaluation identified 12 promising compounds, including syringaldehyde, tangeretin, and eriodictyol. Collectively, these findings demonstrate that CSE alleviates ALI by suppressing both inflammation and pyroptosis through multiple pathways, with NLRP3 as a central mechanistic hub. The identification of bioactive compounds with favorable pharmacokinetic properties provides a chemical basis for quality control and supports potential application of CSE as a functional food ingredient in the management of pulmonary inflammatory conditions.",
+        "affiliation": "Department of Pharmacy Guizhou University of Traditional Chinese Medicine Guiyang China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bioactive compounds",
+            "Acute Lung Injury",
+            "Network Pharmacology",
+            "Coix Seed",
+            "Nlrp3 Signaling Pathway"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/fsn3.72327"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13547748"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13547748?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-09-08",
+        "dateOfCreation": "2026-09-08",
+        "dateOfRevision": "2026-09-09",
+        "electronicPublicationDate": "2026-09-06",
+        "firstPublicationDate": "2026-09-06",
+        "firstIndexDate": "2026-09-09",
+        "fullTextReceivedDate": "2026-09-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41302461",
+        "source": "MED",
+        "pmid": "41302461",
+        "pmcid": "PMC12655633",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12655633"
+          ]
+        },
+        "doi": "10.3390/molecules30224404",
+        "title": "Simultaneous Quantification of Multiple Analytes in Rat Plasma by UHPLC-MS/MS Following Oral Administration of &lt;i&gt;Gastrodiae Rhizoma&lt;/i&gt; Extract for Pharmacokinetic Evaluation.",
+        "authorString": "Chen L, Zhu Y, Ouyang H, Wu X, Lin W, Zhang K, He J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chen L",
+              "lastName": "Chen",
+              "firstName": "Lu",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-7877-8274"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu Y",
+              "lastName": "Zhu",
+              "firstName": "Yameng",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8735-165X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ouyang H",
+              "lastName": "Ouyang",
+              "firstName": "Huizi",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7742-124X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu X",
+              "lastName": "Wu",
+              "firstName": "Xiwei",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin W",
+              "lastName": "Lin",
+              "firstName": "Wenhan",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang K",
+              "lastName": "Zhang",
+              "firstName": "Kaili",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-5377-3738"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He J",
+              "lastName": "He",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3781-9234"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7742-124X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3781-9234"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8735-165X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-7877-8274"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-5377-3738"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "22",
+          "volume": "30",
+          "journalIssueId": 4047029,
+          "dateOfPublication": "2025 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "nlmid": "100964009",
+            "isoabbreviation": "Molecules"
+          },
+          "printPublicationDate": "2025-11-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "4404",
+        "abstractText": "<i>Gastrodiae Rhizoma</i> (GR) is known to have a medicinal and food-based homology. It is used to treat infantile convulsion, epilepsy, spasm, tetanus, and vertigo. In this study, an ultra-high performance liquid chromatography/tandem mass spectrometry (UHPLC-MS/MS) method was developed and validated to quantify fourteen components (<i>p</i>-hydroxybenzyl alcohol, gastrodin, parishin E, <i>p</i>-hydroxybenzoic acid, parishin C, parishin A, parishin B, nicotinamide, <i>p</i>-hydroxybenzaldehyde, adenosine, 3,4-dihydroxybenzaldehyde, syringaldehyde, dauricine, and nobiletin) of GR in rat plasma. Methanol precipitation was used to prepare the samples with astragalin, serving as the internal standard. In multiple reaction monitoring (MRM) mode, the fourteen components were separated by gradient elution on a Waters ACQUITY UPLC<sup>®</sup> HSS T3 column. Under these conditions, all fourteen analytes' calibration curves demonstrated strong linearity within wide concentration ranges (r > 0.9941). Accuracy for the intra-day and inter-day assessments ranged from -13.74% to 12.76%, and the precision for all analytes remained below 8.88%. The analytes' extraction recoveries ranged from 66.78% to 114.2%, accompanied by matrix effects ranging from 63.65% to 117.61%. Under the evaluated conditions, stability tests confirmed that the compounds remained stable, with relative standard deviations below 13.83%. Consequently, the UHPLC-MS/MS method was effectively used to determine the pharmacokinetics of fourteen components in rat plasma after oral administration of GR extract. This study provides supportive data for rational application of GR.",
+        "affiliation": "State Key Laboratory of Chinese Medicine Modernization, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82274091",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Gastrodia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Rhizome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drugs, Chinese Herbal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Uhplc-ms/ms",
+            "Rat Plasma",
+            "Medicine Food Homology",
+            "Gastrodiae Rhizoma Extract"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules30224404"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12655633"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12655633?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-11-27",
+        "dateOfCreation": "2025-11-27",
+        "dateOfRevision": "2025-11-30",
+        "electronicPublicationDate": "2025-11-14",
+        "firstPublicationDate": "2025-11-14",
+        "firstIndexDate": "2025-11-27",
+        "fullTextReceivedDate": "2025-12-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR881090",
+        "source": "PPR",
+        "doi": "10.1101/2024.07.14.603228",
+        "title": "The S-lignin  <i>O</i>  -demethylase SyoA: Structural insights into a new class of heme peroxygenase enzymes",
+        "authorString": "Harlington AC, Das T, Shearwin KE, Bell SG, Whelan F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Harlington AC",
+              "lastName": "Harlington",
+              "firstName": "Alix",
+              "initials": "AC"
+            },
+            {
+              "fullName": "Das T",
+              "lastName": "Das",
+              "firstName": "Tuhin",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4360-5619"
+              }
+            },
+            {
+              "fullName": "Shearwin KE",
+              "lastName": "Shearwin",
+              "firstName": "Keith",
+              "initials": "KE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7736-2742"
+              }
+            },
+            {
+              "fullName": "Bell SG",
+              "lastName": "Bell",
+              "firstName": "Stephen",
+              "initials": "SG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7457-9727"
+              }
+            },
+            {
+              "fullName": "Whelan F",
+              "lastName": "Whelan",
+              "firstName": "Fiona",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0791-6850"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0791-6850"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7457-9727"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7736-2742"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4350-9352"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4360-5619"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "pubYear": "2024",
+        "abstractText": "The  O -demethylation of lignin aromatics is a rate-limiting step in their bioconversion to high-value compounds. A recently discovered cytochrome P450 enzyme SyoA was found to demethylate the sinapyl alcohol-derived (S-lignin) aromatic syringol. In this work, we solved high-resolution X-ray crystal structures of SyoA in the substrate-free and substrate-bound states and evaluate the demethylation of  para -substituted S-lignin aromatics via the monooxygenase pathway and peroxide shunt pathway. We found that SyoA demethylates S-lignin aromatics with the following activity: 4-methylsyringol > syringaldehyde > syringol exclusively using the peroxide shunt pathway. The atomic-resolution structure of SyoA reveals the position of the non-canonical residues in the I-helix (Gln252 and Glu253). Site-directed mutagenesis of this amide-acid pair of a homologous CYP255 enzyme GcoA, which can catalyze the O-demethylation of guaiacol using both monooxygenase and peroxygenase activity, showed the amide-acid pair is critical for both pathways. This work expands the enzymatic toolkit for improving the capacity to funnel lignin towards high-value compounds, and defines the new chemistry within the active site of the enzyme that enables efficient peroxygenase activity. These insights provide a framework for engineered peroxygenase activity in other cytochrome P450 enzymes, with the potential for more facile catalysis, relative to traditional P450 monooxygenases which require difficult to handle redox partners and expensive nicotinamide cofactors.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2024
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1101/2024.07.14.603228"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2024.07.14.603228"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "39979323",
+              "reference": "Nature communications. 2025 Feb;16(1):1815",
+              "type": "Preprint of",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10001
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-07-17",
+        "firstPublicationDate": "2024-07-14",
+        "firstIndexDate": "2024-07-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND608593115",
+        "source": "AGR",
+        "title": "Phytochemical analysis, in vitro antioxidant and anticholinesterase activities of Solanum paniculatum L. and an in-silico test with the AChE enzyme",
+        "authorString": "da Silva JPR, Aragão AdCR, dos Santos Sousa Junior R, Crisóstomo Bezerra Costa CA, da Silva Moura OF, Araújo TDS, da Silva DA, da Silva Neto AR, Silva KdC, Lopes TdO, Mourão PS, Nascimento e Sousa LT, Lima FdCA, Rai M, de Freitas JD, Feitosa CM, e Silva Filho FA, Uchôa VT.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "da Silva JPR",
+              "lastName": "da Silva",
+              "firstName": "João Paulo Rodrigues",
+              "initials": "JPR"
+            },
+            {
+              "fullName": "Aragão AdCR",
+              "lastName": "Aragão",
+              "firstName": "Adriane da Cunha Rios",
+              "initials": "AdCR"
+            },
+            {
+              "fullName": "dos Santos Sousa Junior R",
+              "lastName": "dos Santos Sousa Junior",
+              "firstName": "Ronaldo",
+              "initials": "R"
+            },
+            {
+              "fullName": "Crisóstomo Bezerra Costa CA",
+              "lastName": "Crisóstomo Bezerra Costa",
+              "firstName": "Clara Andrezza",
+              "initials": "CA"
+            },
+            {
+              "fullName": "da Silva Moura OF",
+              "lastName": "da Silva Moura",
+              "firstName": "Orlando Francisco",
+              "initials": "OF"
+            },
+            {
+              "fullName": "Araújo TDS",
+              "lastName": "Araújo",
+              "firstName": "Thaís Danyelle Santos",
+              "initials": "TDS"
+            },
+            {
+              "fullName": "da Silva DA",
+              "lastName": "da Silva",
+              "firstName": "Durcilene Alves",
+              "initials": "DA"
+            },
+            {
+              "fullName": "da Silva Neto AR",
+              "lastName": "da Silva Neto",
+              "firstName": "Antonio Rodrigues",
+              "initials": "AR"
+            },
+            {
+              "fullName": "Silva KdC",
+              "lastName": "Silva",
+              "firstName": "Kessia da Costa",
+              "initials": "KdC"
+            },
+            {
+              "fullName": "Lopes TdO",
+              "lastName": "Lopes",
+              "firstName": "Tatiana de Oliveira",
+              "initials": "TdO"
+            },
+            {
+              "fullName": "Mourão PS",
+              "lastName": "Mourão",
+              "firstName": "Penina Sousa",
+              "initials": "PS"
+            },
+            {
+              "fullName": "Nascimento e Sousa LT",
+              "lastName": "Nascimento e Sousa",
+              "firstName": "Lorena Thayla",
+              "initials": "LT"
+            },
+            {
+              "fullName": "Lima FdCA",
+              "lastName": "Lima",
+              "firstName": "Francisco das Chagas Alves",
+              "initials": "FdCA"
+            },
+            {
+              "fullName": "Rai M",
+              "lastName": "Rai",
+              "firstName": "Mahendra",
+              "initials": "M"
+            },
+            {
+              "fullName": "de Freitas JD",
+              "lastName": "de Freitas",
+              "firstName": "Johnnatan Duarte",
+              "initials": "JD"
+            },
+            {
+              "fullName": "Feitosa CM",
+              "lastName": "Feitosa",
+              "firstName": "Chistiane Mendes",
+              "initials": "CM"
+            },
+            {
+              "fullName": "e Silva Filho FA",
+              "lastName": "e Silva Filho",
+              "firstName": "Francisco Arthur",
+              "initials": "FA"
+            },
+            {
+              "fullName": "Uchôa VT",
+              "lastName": "Uchôa",
+              "firstName": "Valdiléia Teixeira",
+              "initials": "VT"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "156",
+          "journalIssueId": 3857230,
+          "dateOfPublication": "2024 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "S Afr J Bot",
+            "title": "South African journal of botany : official journal of the South African Association of Botanists = Suid-Afrikaanse tydskrif vir plantkunde : amptelike tydskrif van die Suid-Afrikaanse Genootskap van Plantkundiges",
+            "issn": "0254-6299",
+            "nlmid": "100955699",
+            "isoabbreviation": "S Afr J Bot"
+          },
+          "printPublicationDate": "2024-05-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "342-351",
+        "abstractText": "Solanum paniculatum L, popularly known in Brazil as Jurubeba, is used in traditional medicine to treat diseases such as common cold, kidney and liver ailments, and even diabetes. The objective of this work was to produce ethanolic and hexane extracts from the stem bark and leaves of S. paniculatum; perform phytochemical analysis; assess their antioxidant, anticholinesterase activities, and structure-activity relationship of the identified compounds with AChE enzyme by molecular docking. The phytochemicals present in the extracts were analyzed by phytochemical prospection techniques. The analysis demonstrated the presence of alkaloids, saponins, flavonoids, triterpenes, tannins, coumarins, steroids, and anthraquinones in the extract. Through TLC, the hexane extract of S. paniculatum leaves (EHFS) was found to be more promising than the filter chromatography in reach the FSP-1 fraction, analyzed by ¹H NMR, ¹³C, and infrared techniques, resulting in the isolation of spinasterol, an important plant steroid. HPLC analysis determined the presence of catechin, epicatechin, chlorogenic acid, salicylic acid, and syringaldehyde. The antioxidant activity (DPPH and ABTS) presented excellent results for the ethanolic extracts of leaves (EEFS) for both radicals corresponding to 18.36 ± 0.71 (ABTS) and 33.46 ± 2.64 (DPPH), and moderate activity for ethanolic extracts of bark (EECS) 26.07 ± 1.24 (ABTS) and 51.88 ± 3.12 (DPPH). These results may be related to the presence of many phenolic compounds in the extracts. The acetylcholinesterase enzyme inhibition test showed strong activity for EECS and EHFS with inhibition of 71.49% and 70.05%, respectively, and moderate activity for EEFS and hexane extract of bark (EHCS) with 34.84% and 32.50%, respectively. Among the complexes obtained in the insilico study of structural activity, the complex with the compound 1H23/spinasterol presented better energy and constant interaction. Therefore, this study revealed the broad potential of S. paniculatum as a possible herbal medicine and helped to scientifically understand its composition and activity.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-10-07",
+        "dateOfCreation": "2024-10-07",
+        "dateOfRevision": "2024-10-10",
+        "firstPublicationDate": "2024-05-01",
+        "firstIndexDate": "2024-11-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31458938",
+        "source": "MED",
+        "pmid": "31458938",
+        "pmcid": "PMC6644536",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6644536"
+          ]
+        },
+        "doi": "10.1021/acsomega.8b01155",
+        "title": "Rationally Designed Circularly Arranged Sextuple Molecule with Dimethoxyphenolic Tentacles for Ample Hunting of Cyanide.",
+        "authorString": "Singh P, Kaur H, Singh H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Singh P",
+              "lastName": "Singh",
+              "firstName": "Palwinder",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "UGC Sponsored Centre for Advanced Studies, Department of Chemistry, Guru Nanak Dev University, Amritsar 143005, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaur H",
+              "lastName": "Kaur",
+              "firstName": "Harpreet",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0005-9771-9306"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "UGC Sponsored Centre for Advanced Studies, Department of Chemistry, Guru Nanak Dev University, Amritsar 143005, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh H",
+              "lastName": "Singh",
+              "firstName": "Harpreet",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "UGC Sponsored Centre for Advanced Studies, Department of Chemistry, Guru Nanak Dev University, Amritsar 143005, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2332-5257"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-9090-5368"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-9771-9306"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "3",
+          "journalIssueId": 2714917,
+          "dateOfPublication": "2018 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "ACS Omega",
+            "title": "ACS omega",
+            "essn": "2470-1343",
+            "issn": "2470-1343",
+            "nlmid": "101691658",
+            "isoabbreviation": "ACS Omega"
+          },
+          "printPublicationDate": "2018-07-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "8003-8008",
+        "abstractText": "Herein, we report the design, synthesis, and cyanide-scavenging behavior of circularly arranged sextuple molecule 4. The six syringaldehyde units carrying equal number of dimethoxyphenolic moieties projecting at the periphery make the molecule highly efficient for cleaning up cyanide from the aqueous solution. The stoichiometric data 1:6 showed that six units of cyanide interact with one unit of compound 4. The association constant of the compound for cyanide was 2.5 × 10<sup>4</sup> M<sup>-1</sup>, and its detection limit for cyanide was 10 nM. The compound was also found to remove cyanide bound to cytochrome <i>c</i> oxidase.",
+        "affiliation": "UGC Sponsored Centre for Advanced Studies, Department of Chemistry, Guru Nanak Dev University, Amritsar 143005, India.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Council of Scientific and Industrial Research",
+              "orderIn": 0
+            },
+            {
+              "agency": "University Grants Commission",
+              "orderIn": 0
+            },
+            {
+              "agency": "Science and Engineering Research Board",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acsomega.8b01155"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6644536"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6644536?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2019-08-29",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2018-07-18",
+        "firstPublicationDate": "2018-07-18",
+        "firstIndexDate": "2019-08-29",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23918689",
+        "source": "MED",
+        "pmid": "23918689",
+        "doi": "10.1055/s-0033-1351274",
+        "title": "Decrease of hyperglycemia by syringaldehyde in diabetic rats.",
+        "authorString": "Kuo SC, Chung HH, Huang CH, Cheng JT.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kuo SC",
+              "lastName": "Kuo",
+              "firstName": "S C",
+              "initials": "SC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, Chi-Mei Medical Center, Yong Kang, Tainan City, Taiwan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chung HH",
+              "lastName": "Chung",
+              "firstName": "H H",
+              "initials": "HH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9284-1365"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Basic Medical Sciences, College of Medicine, National Cheng Kung University, Tainan City, Taiwan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang CH",
+              "lastName": "Huang",
+              "firstName": "C H",
+              "initials": "CH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Science and Technology, Chung Hwa University of Medical Technology, Tainan, Taiwan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng JT",
+              "lastName": "Cheng",
+              "firstName": "J T",
+              "initials": "JT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Research, Chi-Mei Medical Center, Yung Kang, Tainan City, Taiwan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9284-1365"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "46",
+          "journalIssueId": 2115640,
+          "dateOfPublication": "2014 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Horm Metab Res",
+            "title": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et metabolisme",
+            "essn": "1439-4286",
+            "issn": "0018-5043",
+            "nlmid": "0177722",
+            "isoabbreviation": "Horm Metab Res"
+          },
+          "printPublicationDate": "2014-01-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "8-13",
+        "abstractText": "Syringaldehyde is one of the active principles from the stems of Hibiscus taiwanensis (Malvaceae) that has been mentioned to lower hyperglycemia. However, the potential mechanisms for this action of syringaldehyde remain obscure. In the present study, we used streptozotocin to induce diabetic rats (STZ-diabetic rats) as type 1-like diabetic rats and fed fructose-rich chow to rats as type 2-like diabetic rats. Then, we performed the postprandial glucose test and applied the hyperinsulinemic euglycemic clamp to investigate the actions of syringaldehyde. Also, the changes of gene expressions of enzyme relating to glucose homeostasis in muscle and liver were characterized. Syringaldehyde significantly decreased the postprandial plasma glucose in rats, while the plasma insulin was not modified by syringaldehyde. The glucose infusion rate (GIR) in fructose chow-fed rats using hyperinsulinemic euglycemic clamp was markedly improved by syringaldehyde. Additionally, repeated administration of syringaldehyde for 3 days in STZ-diabetic rats resulted in a marked reduction of phosphoenolpyruvate carboxykinase (PEPCK) expression in liver and an increased expression of glucose transporter subtype 4 (GLUT 4) in skeletal muscle. Our results suggest that syringaldehyde may increase glucose utilization to lower hyperglycemia in diabetic rats.",
+        "affiliation": "Department of Ophthalmology, Chi-Mei Medical Center, Yong Kang, Tainan City, Taiwan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscle, Skeletal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus, Experimental",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hyperglycemia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hyperinsulinism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin Resistance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzaldehydes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphoenolpyruvate Carboxykinase (GTP)",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fructose"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose Clamp Technique"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Postprandial Period",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose Transporter Type 4",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phosphoenolpyruvate Carboxykinase (GTP)",
+              "registryNumber": "EC 4.1.1.32"
+            },
+            {
+              "name": "Fructose",
+              "registryNumber": "30237-26-4"
+            },
+            {
+              "name": "Benzaldehydes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucose Transporter Type 4",
+              "registryNumber": "0"
+            },
+            {
+              "name": "syringaldehyde",
+              "registryNumber": "2ZR01KTT21"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1055/s-0033-1351274"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-09-01",
+        "dateOfCreation": "2013-08-07",
+        "dateOfRevision": "2022-03-30",
+        "electronicPublicationDate": "2013-08-05",
+        "firstPublicationDate": "2013-08-05",
+        "firstIndexDate": "2013-08-07",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30391853",
+        "source": "MED",
+        "pmid": "30391853",
+        "doi": "10.1016/j.bioorg.2018.10.045",
+        "title": "Rationally designed molecules for resurgence of cyanide mitigated cytochrome c oxidase activity.",
+        "authorString": "Kaur H, Singh P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kaur H",
+              "lastName": "Kaur",
+              "firstName": "Harpreet",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0005-9771-9306"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, UGC Sponsored Centre for Advanced Studies, Guru Nanak Dev University, Amritsar 143005, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh P",
+              "lastName": "Singh",
+              "firstName": "Palwinder",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, UGC Sponsored Centre for Advanced Studies, Guru Nanak Dev University, Amritsar 143005, India. Electronic address: palwinder.chem@gndu.ac.in."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0005-9771-9306"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "82",
+          "journalIssueId": 2771351,
+          "dateOfPublication": "2019 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Bioorg Chem",
+            "title": "Bioorganic chemistry",
+            "essn": "1090-2120",
+            "issn": "0045-2068",
+            "nlmid": "1303703",
+            "isoabbreviation": "Bioorg Chem"
+          },
+          "printPublicationDate": "2019-02-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "229-240",
+        "abstractText": "Cytochrome c oxidase (CcOX) containing binuclear heme a<sub>3</sub>-Cu B centre (BNC) mechanises the process of electron transfer in the last phase of cellular respiration. The molecular modelling based structural analysis of CcOX - heme a<sub>3</sub>-Cu B complex was performed and the disturbance to this complex under cyanide poisoning conditions was investigated. Taking into consideration the results of molecular docking studies, new chemical entities were developed for clipping cyanide from the enzyme and restoring its normal function. It was found that the molecules obtained by combining syringaldehyde, oxindole and chrysin moieties bearing propyl/butyl spacing groups occupy the BNC region and effectively remove cyanide bound to the enzyme. The binding constant of compound 2 with CN<sup>-</sup> was 2.3 × 10<sup>5</sup> M<sup>-1</sup> and its ED<sub>50</sub> for restoring the cyanide bound CcOX activity in 10 min was 16 µM. The compound interacted with CN<sup>-</sup> over the pH range 5-10. The comparison of the loss of enzymatic activity in the presence of CN<sup>-</sup> and resumption of enzymatic activity by compound 2 mediated removal of CN<sup>-</sup> indicated the efficacy of the compound as antidote of cyanide.",
+        "affiliation": "Department of Chemistry, UGC Sponsored Centre for Advanced Studies, Guru Nanak Dev University, Amritsar 143005, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Guru Nanak Dev University",
+              "orderIn": 0
+            },
+            {
+              "agency": "University Grants Committee",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyanides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Indoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport Complex IV",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Reactivators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antidotes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Design"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cytochrome C oxidase",
+            "Molecular modelling",
+            "Cyanide",
+            "Design Of Molecules"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cyanides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Electron Transport Complex IV",
+              "registryNumber": "EC 1.9.3.1"
+            },
+            {
+              "name": "Antidotes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Reactivators",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bioorg.2018.10.045"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-08-30",
+        "dateOfCreation": "2018-11-05",
+        "dateOfRevision": "2019-08-30",
+        "electronicPublicationDate": "2018-10-25",
+        "firstPublicationDate": "2018-10-25",
+        "firstIndexDate": "2018-11-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "35815836",
+        "source": "MED",
+        "pmid": "35815836",
+        "doi": "10.1080/15287394.2022.2095546",
+        "title": "<i>Cecropia pachystachya</i> Trécul: identification, isolation of secondary metabolites, <i>in silico</i> study of toxicological evaluation and interaction with the enzymes 5-LOX and <i>α</i>-1-antitrypsin.",
+        "authorString": "Sousa Mourão P, de Oliveira Gomes R, Crisóstomo Bezerra Costa CA, da Silva Moura OF, Sousa HG, Lemos Martins Júnior GR, Cabral Leão Ferreira D, Martins Maia Filho AL, Duarte de Freitas J, Rai M, Das Chagas Alves Lima F, Gourlart Santana AE, Chaves MH, Dos Santos Alves W, Uchôa VT.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sousa Mourão P",
+              "lastName": "Sousa Mourão",
+              "firstName": "Penina",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7504-7258"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Natural Science Center, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Oliveira Gomes R",
+              "lastName": "de Oliveira Gomes",
+              "firstName": "Rafael",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4774-9839"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Natural Science Center, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Crisóstomo Bezerra Costa CA",
+              "lastName": "Crisóstomo Bezerra Costa",
+              "firstName": "Clara Andrezza",
+              "initials": "CA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6474-221X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Federal Institute of Alagoas, Maceió, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "da Silva Moura OF",
+              "lastName": "da Silva Moura",
+              "firstName": "Orlando Francisco",
+              "initials": "OF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1055-8564"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Federal Institute of Alagoas, Maceió, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sousa HG",
+              "lastName": "Sousa",
+              "firstName": "Herbert Gonzaga",
+              "initials": "HG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8633-9918"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Natural Science Center, Federal University of Piauí, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lemos Martins Júnior GR",
+              "lastName": "Lemos Martins Júnior",
+              "firstName": "George Roberto",
+              "initials": "GR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6784-1977"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Health Sciences Department, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cabral Leão Ferreira D",
+              "lastName": "Cabral Leão Ferreira",
+              "firstName": "Danniel",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0717-2900"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Health Sciences Department, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Martins Maia Filho AL",
+              "lastName": "Martins Maia Filho",
+              "firstName": "Antônio Luiz",
+              "initials": "AL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6184-8003"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Natural Science Center, Piauí State University, Teresina, Brazil."
+                  },
+                  {
+                    "affiliation": "Health Sciences Department, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duarte de Freitas J",
+              "lastName": "Duarte de Freitas",
+              "firstName": "Johnnatan",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6977-3322"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Federal Institute of Alagoas, Maceió, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rai M",
+              "lastName": "Rai",
+              "firstName": "Mahendra",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0291-0422"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Microbiology, Nicolaus Copernicus University, Torun, Poland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Das Chagas Alves Lima F",
+              "lastName": "Das Chagas Alves Lima",
+              "firstName": "Francisco",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0447-4911"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Natural Science Center, Piauí State University, Teresina, Brazil."
+                  },
+                  {
+                    "affiliation": "Biotechnology Department, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gourlart Santana AE",
+              "lastName": "Gourlart Santana",
+              "firstName": "Antonio Euzébio",
+              "initials": "AE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3750-438X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center of Engineering and Agrarian Science, Federal University of Alagoas, Rio Largo, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chaves MH",
+              "lastName": "Chaves",
+              "firstName": "Mariana Helena",
+              "initials": "MH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1541-6757"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Natural Science Center, Federal University of Piauí, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dos Santos Alves W",
+              "lastName": "Dos Santos Alves",
+              "firstName": "Wellington",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1114-773X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Health Sciences Department, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Uchôa VT",
+              "lastName": "Uchôa",
+              "firstName": "Valdiléia Teixeira",
+              "initials": "VT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8080-6335"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Natural Science Center, Piauí State University, Teresina, Brazil."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6184-8003"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7504-7258"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8080-6335"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8633-9918"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0447-4911"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0717-2900"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1055-8564"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3750-438X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6474-221X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6784-1977"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6977-3322"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0291-0422"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1114-773X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1541-6757"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4774-9839"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "20",
+          "volume": "85",
+          "journalIssueId": 3404193,
+          "dateOfPublication": "2022 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "J Toxicol Environ Health A",
+            "title": "Journal of toxicology and environmental health. Part A",
+            "essn": "2381-3504",
+            "issn": "1528-7394",
+            "nlmid": "100960995",
+            "isoabbreviation": "J Toxicol Environ Health A"
+          },
+          "printPublicationDate": "2022-10-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "827-849",
+        "abstractText": "<i>Cecropia pachystachya</i> Tréc., popularly known as embaúba, belongs to the Cecropiaceae family and is used by the native population in the treatment of bronchitis, asthma, high blood pressure, fever, and as a diuretic. The pharmacological actions including anti-inflammatory, antioxidant, cardiotonic and sedative were previously reported. The objective of this study was to (1) isolate and identify bioactive compounds extracted from the ethanolic extract of <i>C. pachystachya</i> roots (ERCP), as well as (2) verify the affinity of these metabolites with the enzymes 5-lipoxygenase (5-LOX) and <i>α</i>-1-antitrypsin through <i>in silico</i> tests. Isolation and/or identification were performed using GC-MS, HPLC, Infrared (IR), and nuclear magnetic resonance (NMR) techniques. After isolation and identification of the active compounds, these substances were subjected to the <i>in silico</i> investigation that proceeded by performing PreADMET simulations and molecular docking calculations. The bioactive compounds identified were 1-(+)-ascorbic acid 2,6-dihexadecanoate, ethyl hexadecanoate, ethyl (9<i>E</i>,12<i>E</i>)-octadec-9,12-dienoate, ethyl (<i>Z</i>)-octadec-9-enoate and ethyl octadecanoate by GC-MS; chlorogenic acid, catechin, epicatechin, syringaldehyde by HPLC; β-sitosterol, sitostenone, beccaridiol, tormentic acid, lupeol, α- and β-amyrin by classical chromatography, IR, <sup>1</sup>H and <sup>13</sup>C NMR techniques. The ADMET (absorption, distribution, metabolism, excretion, and toxicity) properties were determined for each bioactive compound. Tormentic acid demonstrated a greater affinity for 5-LOX enzyme while sitostenone demonstrated a higher affinity for the α-1-antitrypsin enzyme. Our findings demonstrated a diverse range of secondary metabolites isolated from <i>C. pachystachya</i> that showed relevant interactions with the enzymes 5-LOX and <i>α</i>-1-antitrypsin. Thus, \"embaúba\" may be employed in <i>in vivo</i> experimental studies as a form of alternative treatment for chronic lung diseases.<b>Abbreviations:</b> ADT: Autodock Tools; BBB: Blood-brain barrier; CaCo2: Human colonic adenocarcinoma cells; CC: Classic/open Column; TLC: Thin Layer Chromatography; CD40: Differentiation Cluster 40; CENAUREMN: Centro Nordestino de Aplicação e Uso da Ressonância Magnética Nuclear; GC-MS: Gas Chromatography coupled to mass spectrometry; HPLC: High-Perfomance Liquid Chromatography; CYP2C9, CYP2C19, CYP2D6 and CYP3A4: Cytochrome P450 isoenzymes; COPD: Chronic Obstructive Pulmonary Disease; DRX-500: X-Ray Diffraction - 500; ERCP: Ethanolic extract of the roots of <i>C. pachystachya</i>; FAPEPI: Fundação de Amparo à Pesquisa do Piauí; HIA: Human Intestinal Absorption; IR: Infrared; Ki: Inhibition constant; 5-LOX: 5-Lipoxygenase; mM: miliMolar; nM: nanoMolar; OECD423: acute toxic class method; PDB: Protein Data Bank; P-gP: P-glycoprotein; PM2,5: Small inhalable particles 2,5; PPB: Plasm Protein Binding; PreADMET: Prediction Absorption, Distribution, Metabolization, Excretion and Toxicity; NMR: Nuclear Magnetic Resonance; +S9: with metabolic activation; -S9: no metabolic activation; SisGen: Sistema Nacional de Gestão de Patrimônio Genético e do Conhecimento Tradicional Associado; R<sub>T</sub>: Retention time; TA100: Ames test with TA100 cells line; TA1535: Ames test with cells of the TA1535 cell line; UESPI: State University of Piauí; V79: lung fibroblast cells; ΔG: Gibbs free energy (Kcal/mol); μM: microMolar.",
+        "affiliation": "Department of Chemistry, Natural Science Center, Piauí State University, Teresina, Brazil.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Fundação de Amparo à Pesquisa do Piauí – Brazil",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cecropia Plant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Arachidonate 5-Lipoxygenase"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "alpha 1-Antitrypsin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular docking",
+            "5-lipoxygenase",
+            "Chronic Pulmonary Disease",
+            "Α-1-antitrypsin",
+            "Cecropia Pachystachya"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "SERPINA1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha 1-Antitrypsin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Arachidonate 5-Lipoxygenase",
+              "registryNumber": "EC 1.13.11.34"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/15287394.2022.2095546"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-08-09",
+        "dateOfCreation": "2022-07-11",
+        "dateOfRevision": "2022-12-22",
+        "electronicPublicationDate": "2022-07-11",
+        "firstPublicationDate": "2022-07-11",
+        "firstIndexDate": "2022-07-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26396591",
+        "source": "MED",
+        "pmid": "26396591",
+        "pmcid": "PMC4578398",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4578398"
+          ]
+        },
+        "doi": "10.1186/s13068-015-0333-9",
+        "title": "Transcriptome analysis of Zymomonas mobilis ZM4 reveals mechanisms of tolerance and detoxification of phenolic aldehyde inhibitors from lignocellulose pretreatment.",
+        "authorString": "Yi X, Gu H, Gao Q, Liu ZL, Bao J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yi X",
+              "lastName": "Yi",
+              "firstName": "Xia",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gu H",
+              "lastName": "Gu",
+              "firstName": "Hanqi",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7959-8436"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao Q",
+              "lastName": "Gao",
+              "firstName": "Qiuqiang",
+              "initials": "Q",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0356-4322"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu ZL",
+              "lastName": "Liu",
+              "firstName": "Z Lewis",
+              "initials": "ZL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "US Department of Agriculture, Agricultural Research Service, National Center for Agricultural Utilization Research, 1815 North University Street, Peoria, IL 61604 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bao J",
+              "lastName": "Bao",
+              "firstName": "Jie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237 China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7959-8436"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0356-4322"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "8",
+          "journalIssueId": 2273094,
+          "dateOfPublication": "2015",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Biotechnol Biofuels",
+            "title": "Biotechnology for biofuels",
+            "essn": "1754-6834",
+            "issn": "1754-6834",
+            "nlmid": "101316935",
+            "isoabbreviation": "Biotechnol Biofuels"
+          },
+          "printPublicationDate": "2015-01-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "153",
+        "abstractText": "<h4>Background</h4>Phenolic aldehydes generated from lignocellulose pretreatment exhibited severe toxic inhibitions on microbial growth and fermentation. Numerous tolerance studies against furfural, 5-hydroxymethyl-2-furaldehyde (HMF), acetate, and ethanol were reported, but studies on inhibition of phenolic aldehyde inhibitors are rare. For ethanologenic strains, Zymomonas mobilis ZM4 is high in ethanol productivity and genetic manipulation feasibility, but sensitive to phenolic aldehyde inhibitors. Molecular mechanisms of tolerance for Z. mobilis toward phenolic aldehydes are not known.<h4>Results</h4>We took the first insight into genomic response of Z. mobilis ZM4 to the phenolic aldehyde inhibitors derived from lignocellulose pretreatment. The results suggest that the toxicity to cells is caused by the functional group of phenolic aldehyde, similar to furfural and HMF, rather than aromatic groups or phenolic hydroxyl groups. Transcriptome response against 4-hydroxybenzaldehyde, syringaldehyde, and vanillin, representing phenolic groups H, S, and G, respectively, was investigated. The atlas of the important genes responsible for significantly enhanced and repressed genes at the genomic level was illustrated. 272 genes with twofold greater expressions than non-treated controls and 36 gene clusters in response to challenges of these phenolic aldehydes were identified. Several reductases encoded by ZMO1116, ZMO1696, and ZMO1885 were found to play the key roles in reducing phenolic aldehydes into the corresponding phenolic alcohols. Reduction of phenolic aldehydes by overexpression of ZMO1116, ZMO1696, and ZMO1885 in Z. mobilis ZM4 resulted in the increased inhibitor conversion and ethanol productivity, especially for 4-hydroxybenzaldehyde and vanillin. Several transporter genes such as ZMO0282, ZMO0283, ZMO0798, ZMO0799, and ZMO0800 was also displayed significantly increased expressions against the phenolic aldehydes.<h4>Conclusions</h4>The genes encoding reductases are with potentials on phenolic aldehydes-tolerant genes contributing to the reduction of phenolic aldehydes into the corresponding phenolic alcohols forms for Z. mobilis ZM4. Overexpression of the key genes improved the conversion ratio and ethanol productivity of 4-hydroxybenzaldehyde and vanillin with high toxicity. New knowledge obtained from this research aids understanding the mechanisms of bacterial tolerance and the development of the next-generation biocatalysts for advanced biofuels production.",
+        "affiliation": "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237 China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Natural Science Foundation of China",
+              "grantId": "31300070",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "R01 AA022301",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Basic Research Program of China",
+              "grantId": "2011CB707406",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "U01 AA021901",
+              "orderIn": 0
+            },
+            {
+              "agency": "National High-Tech Program of China",
+              "grantId": "2012AA022301/2014AA021901",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Stress tolerance",
+            "Recombinants",
+            "DNA microarray",
+            "Lignocellulose Pretreatment",
+            "Zymomonas Mobilis Zm4",
+            "Phenolic Aldehyde Inhibitors"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s13068-015-0333-9"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4578398"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4578398?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 76,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-09-23",
+        "dateOfCreation": "2015-09-24",
+        "dateOfRevision": "2022-04-08",
+        "electronicPublicationDate": "2015-09-22",
+        "firstPublicationDate": "2015-09-22",
+        "firstIndexDate": "2015-09-24",
+        "fullTextReceivedDate": "2020-07-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "18585030",
+        "source": "MED",
+        "pmid": "18585030",
+        "doi": "10.1016/j.biortech.2008.05.015",
+        "title": "Soluble and insoluble solids contributions to high-solids enzymatic hydrolysis of lignocellulose.",
+        "authorString": "Hodge DB, Karim MN, Schell DJ, McMillan JD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hodge DB",
+              "lastName": "Hodge",
+              "firstName": "David B",
+              "initials": "DB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9313-941X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemical and Chemical Process Technology, Luleå University of Technology, Luleå 971 87, Sweden. david.hodge@ltu.se"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Karim MN",
+              "lastName": "Karim",
+              "firstName": "M Nazmul",
+              "initials": "MN",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0332-4217"
+              }
+            },
+            {
+              "fullName": "Schell DJ",
+              "lastName": "Schell",
+              "firstName": "Daniel J",
+              "initials": "DJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9498-6218"
+              }
+            },
+            {
+              "fullName": "McMillan JD",
+              "lastName": "McMillan",
+              "firstName": "James D",
+              "initials": "JD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5143-9978"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5143-9978"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9498-6218"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0332-4217"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9313-941X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "18",
+          "volume": "99",
+          "journalIssueId": 1553533,
+          "dateOfPublication": "2008 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Bioresour Technol",
+            "title": "Bioresource technology",
+            "essn": "1873-2976",
+            "issn": "0960-8524",
+            "nlmid": "9889523",
+            "isoabbreviation": "Bioresour Technol"
+          },
+          "printPublicationDate": "2008-12-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "8940-8948",
+        "abstractText": "The rates and extents of enzymatic cellulose hydrolysis of dilute acid pretreated corn stover (PCS) decline with increasing slurry concentration. However, mass transfer limitations are not apparent until insoluble solids concentrations approach 20% w/w, indicating that inhibition of enzyme hydrolysis at lower solids concentrations is primarily due to soluble components. Consequently, the inhibitory effects of pH-adjusted pretreatment liquor on the enzymatic hydrolysis of PCS were investigated. A response surface methodology (RSM) was applied to empirically model how hydrolysis performance varied as a function of enzyme loading (12-40 mg protein/g cellulose) and insoluble solids concentration (5-13%) in full-slurry hydrolyzates. Factorial design and analysis of variance (ANOVA) were also used to assess the contribution of the major classes of soluble components (acetic acid, phenolics, furans, sugars) to total inhibition. High sugar concentrations (130 g/L total initial background sugars) were shown to be the primary cause of performance inhibition, with acetic acid (15 g/L) only slightly inhibiting enzymatic hydrolysis and phenolic compounds (9 g/L total including vanillin, syringaldehyde, and 4-hydroxycinnamic acid) and furans (8 g/L total of furfural and hydroxymethylfurfural, HMF) with only a minor effect on reaction kinetics. It was also demonstrated that this enzyme inhibition in high-solids PCS slurries can be approximated using a synthetic hydrolyzate composed of pure sugars supplemented with a mixture of acetic acid, furans, and phenolic compounds, which indicates that generally all of the reaction rate-determining soluble compounds for this system can be approximated synthetically.",
+        "affiliation": "Department of Biochemical and Chemical Process Technology, Luleå University of Technology, Luleå 971 87, Sweden. david.hodge@ltu.se",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lignin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cellulase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polysaccharides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrolysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Biological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "hemicellulose",
+              "registryNumber": "8024-50-8"
+            },
+            {
+              "name": "lignocellulose",
+              "registryNumber": "11132-73-3"
+            },
+            {
+              "name": "Polysaccharides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cellulase",
+              "registryNumber": "EC 3.2.1.4"
+            },
+            {
+              "name": "Glucans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lignin",
+              "registryNumber": "9005-53-2"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.biortech.2008.05.015"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 119,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-12-12",
+        "dateOfCreation": "2008-07-01",
+        "dateOfRevision": "2022-04-10",
+        "electronicPublicationDate": "2008-06-26",
+        "firstPublicationDate": "2008-06-26",
+        "firstIndexDate": "2008-12-24",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

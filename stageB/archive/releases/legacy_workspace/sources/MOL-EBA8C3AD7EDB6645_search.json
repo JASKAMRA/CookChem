@@ -1,0 +1,1083 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "TITLE_ABS:\"Ethyl Cinnamate\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40435714",
+        "source": "MED",
+        "pmid": "40435714",
+        "doi": "10.1016/j.bmc.2025.118258",
+        "title": "Synthesis and multitarget inhibitory effect of indole-based ethyl cinnamate derivatives against SARS-CoV-2 M&lt;sup&gt;pro&lt;/sup&gt; and cathepsins for broad-spectrum anti-coronavirus activity.",
+        "authorString": "Citarella A, Sibille G, Moi D, Dimasi A, Braga T, Col LD, Ruberto L, Pieraccini S, Sironi M, Micale N, Schirmeister T, Fasano V, Silvani A, Giannini C, Gribaudo G, Passarella D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Citarella A",
+              "lastName": "Citarella",
+              "firstName": "Andrea",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy. Electronic address: andrea.citarella@unimi.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sibille G",
+              "lastName": "Sibille",
+              "firstName": "Giulia",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2869-357X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Systems Biology, University of Turin, Via Accademia Albertina 13, 10123 Torino, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moi D",
+              "lastName": "Moi",
+              "firstName": "Davide",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dipartimento di Scienze Chimiche e Geologiche, Università di Cagliari, Cittadella Universitaria- S.S. 554 bivio per Sestu, 09042 Monserrato, CA, Italy. Electronic address: davide.moi@unica.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dimasi A",
+              "lastName": "Dimasi",
+              "firstName": "Alessandro",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Braga T",
+              "lastName": "Braga",
+              "firstName": "Tommaso",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Col LD",
+              "lastName": "Col",
+              "firstName": "Lorenzo Dal",
+              "initials": "LD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ruberto L",
+              "lastName": "Ruberto",
+              "firstName": "Lorenzo",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pieraccini S",
+              "lastName": "Pieraccini",
+              "firstName": "Stefano",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sironi M",
+              "lastName": "Sironi",
+              "firstName": "Maurizio",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Micale N",
+              "lastName": "Micale",
+              "firstName": "Nicola",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemical, Biological, Pharmaceutical and Environmental Sciences, University of Messina, Viale Ferdinando Stagno D'Alcontres 31, I-98166 Messina, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schirmeister T",
+              "lastName": "Schirmeister",
+              "firstName": "Tanja",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicinal Chemistry, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128 Mainz, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fasano V",
+              "lastName": "Fasano",
+              "firstName": "Valerio",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1819-4483"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Silvani A",
+              "lastName": "Silvani",
+              "firstName": "Alessandra",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giannini C",
+              "lastName": "Giannini",
+              "firstName": "Clelia",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3376-8350"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gribaudo G",
+              "lastName": "Gribaudo",
+              "firstName": "Giorgio",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Systems Biology, University of Turin, Via Accademia Albertina 13, 10123 Torino, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Passarella D",
+              "lastName": "Passarella",
+              "firstName": "Daniele",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2869-357X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1819-4483"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3376-8350"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "128",
+          "journalIssueId": 3979439,
+          "dateOfPublication": "2025 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Bioorg Med Chem",
+            "title": "Bioorganic & medicinal chemistry",
+            "essn": "1464-3391",
+            "issn": "0968-0896",
+            "nlmid": "9413298",
+            "isoabbreviation": "Bioorg Med Chem"
+          },
+          "printPublicationDate": "2025-10-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "118258",
+        "abstractText": "The experience of the SARS-CoV-2 pandemic has highlighted the urgent need to develop broad-spectrum antivirals (BSA) agents capable of targeting viral and/or host factors essential for infection as undeniable weapons against future coronavirus threats with potential pandemic perspectives. In this study, we report the synthesis and biological evaluation of a novel series of indole-based ethyl cinnamate derivatives designed as multitarget inhibitors of both SARS-CoV-2 Main Protease (M<sup>pro</sup>) and human cathepsin, namely CatL and CatS, key enzymes involved in viral replication and entry. Enzymatic assays showed that several compounds exert significant inhibition on multiple targets. Structure-activity relationship (SAR) studies highlighted the critical role of the tert-leucine (Tle) residue at P2 position of these (pseudo)dipeptides, which proved to be essential for multitarged enzyme inhibition and antiviral activity. In antiviral assays against representative α- (hCoV-229E) and β-coronavirus (hCoV-OC43), 12 (EC<sub>50</sub> = 4.09 µM for hCoV-OC43, 0.77 µM for hCoV-229E), 20 (EC<sub>50</sub> = 6.68 µM for hCoV-OC43, 0.62 µM for hCoV-229E), and 3 (EC<sub>50</sub> = 2.96 µM for hCoV-OC43, 0.64 µM for hCoV-229E) restricted viral replication with high selectivity values (SI = 98, 56, and 101, respectively). Time-of-drug-addition experiments then revealed that 12 primarily inhibited viral entry by targeting CatL, whereas 20 affected both entry and post-entry stages of hCoV replication cycle likely thanks to its dual-inhibitory activity against both CatL and M<sup>pro</sup>. These findings support the development of multitarget inhibitors as promising antivirals able to inhibit both α- and β-coronavirus, so as to reduce the risk of resistance associated with single-target agents. Furthermore, the demonstrated effectiveness of Tle-containing indole-based cinnamates as BSA highlights their potential in the context of the strategic framework for pandemic preparedness.",
+        "affiliation": "Department of Chemistry, University of Milan, Via Golgi 19, 20133 Milano, Italy. Electronic address: andrea.citarella@unimi.it.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "European Commission",
+              "grantId": "PE00000007",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cinnamates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Indoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Protease Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Virus Replication",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cathepsin L",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "SARS-CoV-2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Coronavirus 3C Proteases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "COVID-19 Drug Treatment"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Enzyme inhibitors",
+            "Medicinal chemistry",
+            "Ethyl cinnamate",
+            "Cathepsins",
+            "Coronaviruses",
+            "Organic Chemistry",
+            "Multitarget",
+            "Broad-spectrum Antivirals",
+            "M(pro)",
+            "Sars-cov-2"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "cathepsin L",
+              "registryNumber": "EC 3.4.22.15"
+            },
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cinnamates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protease Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coronavirus 3C Proteases",
+              "registryNumber": "EC 3.4.22.28"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bmc.2025.118258"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-07-17",
+        "dateOfCreation": "2025-05-28",
+        "dateOfRevision": "2025-07-17",
+        "electronicPublicationDate": "2025-05-23",
+        "firstPublicationDate": "2025-05-23",
+        "firstIndexDate": "2025-05-31",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28117698",
+        "source": "MED",
+        "pmid": "28117698",
+        "pmcid": "PMC6155707",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6155707"
+          ]
+        },
+        "doi": "10.3390/molecules22010169",
+        "title": "Toxicity of Plant Secondary Metabolites Modulating Detoxification Genes Expression for Natural Red Palm Weevil Pesticide Development.",
+        "authorString": "AlJabr AM, Hussain A, Rizwan-Ul-Haq M, Al-Ayedh H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "AlJabr AM",
+              "lastName": "AlJabr",
+              "firstName": "Ahmed Mohammed",
+              "initials": "AM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3166-7062"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Bio-Control and Molecular Biology, Department of Arid Land Agriculture, College of Agricultural and Food Sciences, King Faisal University, Hofuf 31982, Al-Ahsa, Saudi Arabia. aljabr@kfu.edu.sa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hussain A",
+              "lastName": "Hussain",
+              "firstName": "Abid",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8210-6973"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Bio-Control and Molecular Biology, Department of Arid Land Agriculture, College of Agricultural and Food Sciences, King Faisal University, Hofuf 31982, Al-Ahsa, Saudi Arabia. solvia_aah@yahoo.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rizwan-Ul-Haq M",
+              "lastName": "Rizwan-Ul-Haq",
+              "firstName": "Muhammad",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Bio-Control and Molecular Biology, Department of Arid Land Agriculture, College of Agricultural and Food Sciences, King Faisal University, Hofuf 31982, Al-Ahsa, Saudi Arabia. mianrizwan15@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al-Ayedh H",
+              "lastName": "Al-Ayedh",
+              "firstName": "Hassan",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Life Science and Environment Research Institute, King Abdulaziz City for Science and Technology, P.O. Box 6086, Riyadh 11442, Saudi Arabia. alayedh@kacst.edu.sa."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8210-6973"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3166-7062"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "22",
+          "journalIssueId": 2510441,
+          "dateOfPublication": "2017 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "nlmid": "100964009",
+            "isoabbreviation": "Molecules"
+          },
+          "printPublicationDate": "2017-01-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "E169",
+        "abstractText": "This study aimed to explore the larvicidal and growth-inhibiting activities, and underlying detoxification mechanism of red palm weevil against phenylpropanoids, an important class of plant secondary metabolites. Toxicity of α-asarone, eugenol, isoeugenol, methyl eugenol, methyl isoeugenol, coumarin, coumarin 6, coniferyl aldehyde, diniconazole, ethyl cinnamate, and rosmarinic acid was evaluated by incorporation into the artificial diet. All of the phenylpropanoids exhibited dose- and time-dependent insecticidal activity. Among all the tested phenylpropanoids, coumarin exhibited the highest toxicity by revealing the least LD<sub>50</sub> value (0.672 g/L). In addition, the most toxic compound (coumarin) observed in the current study, deteriorated the growth resulting tremendous reduction (78.39%) in efficacy of conversion of digested food (ECD), and (ECI) efficacy of conversion of ingested food (70.04%) of tenth-instar red palm weevil larvae. The energy-deficient red palm weevil larvae through their intrinsic abilities showed enhanced response to their digestibility resulting 27.78% increase in approximate digestibility (AD) compared to control larvae. The detoxification response of <i>Rhynchophorus ferrugineus</i> larvae determined by the quantitative expression of <i>cytochrome P450</i>, <i>esterases</i>, and <i>glutathione S-transferase</i> revealed enhanced expression among moderately toxic and ineffective compounds. These genes especially <i>cytochrome P450</i> and <i>GST</i> detoxify the target compounds by enhancing their solubility that leads rapid excretion and degradation resulting low toxicity towards red palm weevil larvae. On the other hand, the most toxic (coumarin) silenced the genes involved in the red palm weevil detoxification mechanism. Based on the toxicity, growth retarding, and masking detoxification activities, coumarin could be a useful future natural red palm weevil-controlling agent.",
+        "affiliation": "Laboratory of Bio-Control and Molecular Biology, Department of Arid Land Agriculture, College of Agricultural and Food Sciences, King Faisal University, Hofuf 31982, Al-Ahsa, Saudi Arabia. aljabr@kfu.edu.sa.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Deanship of Scientific Research, King Faisal University",
+              "grantId": "160078",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Weevils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acrolein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cinnamates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Eugenol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anisoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Esterases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Transferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insecticides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insect Control",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pest Control, Biological",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Larva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Depsides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inactivation, Metabolic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allylbenzene Derivatives"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rosmarinic Acid"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Esterases",
+            "Toxicity",
+            "Cytochrome p450",
+            "glutathione S-transferase",
+            "Rhynchophorus Ferrugineus",
+            "Feeding Indices"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "depsides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Insecticides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anisoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Triazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cinnamates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Glutathione Transferase",
+              "registryNumber": "EC 2.5.1.18"
+            },
+            {
+              "name": "Esterases",
+              "registryNumber": "EC 3.1.-"
+            },
+            {
+              "name": "rosmarinic acid",
+              "registryNumber": "MQE6XG29YI"
+            },
+            {
+              "name": "coniferaldehyde",
+              "registryNumber": "06TPT01AD5"
+            },
+            {
+              "name": "ethyl cinnamate",
+              "registryNumber": "C023P3M5JJ"
+            },
+            {
+              "name": "diniconazole",
+              "registryNumber": "X82HVO1N83"
+            },
+            {
+              "name": "Eugenol",
+              "registryNumber": "3T8H1794QW"
+            },
+            {
+              "name": "Acrolein",
+              "registryNumber": "7864XYD3JJ"
+            },
+            {
+              "name": "asarone",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Allylbenzene Derivatives",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules22010169"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6155707"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6155707?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 38,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2017-05-23",
+        "dateOfCreation": "2017-01-25",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2017-01-20",
+        "firstPublicationDate": "2017-01-20",
+        "firstIndexDate": "2017-01-25",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

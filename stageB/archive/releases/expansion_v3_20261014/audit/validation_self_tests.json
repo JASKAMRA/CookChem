@@ -1,0 +1,36 @@
+{
+  "tests": [
+    {
+      "test": "duplicate evidence ID",
+      "passed": true,
+      "expected_detection": "evidence_ids_unique"
+    },
+    {
+      "test": "broken compound reference",
+      "passed": true,
+      "expected_detection": "compound_evidence_foreign_keys"
+    },
+    {
+      "test": "unsupported numerical change",
+      "passed": true,
+      "expected_detection": "ledger_matches_actual_claim_fields"
+    },
+    {
+      "test": "bibliographic title corruption",
+      "passed": true,
+      "expected_detection": "live_table_fields_match_cached_primary_metadata"
+    },
+    {
+      "test": "baseline outcome changed",
+      "passed": true,
+      "expected_detection": "baseline_64_rows_unchanged"
+    },
+    {
+      "test": "missing new selection citation",
+      "passed": true,
+      "expected_detection": "all_new_compounds_have_selection_sources"
+    }
+  ],
+  "passed": 6,
+  "total": 6
+}

@@ -1,0 +1,600 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "TITLE_ABS:\"6''-O-Acetyldaidzin\" AND (TITLE_ABS:drug OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:pharmacodynamic OR TITLE_ABS:absorption OR TITLE_ABS:metabolism OR TITLE_ABS:transporter) AND FIRST_PDATE:[* TO 2026-10-06]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41871083",
+        "source": "MED",
+        "pmid": "41871083",
+        "pmcid": "PMC13008052",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13008052"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0345051",
+        "title": "Identification of polyphenols as novel neuropilin-1 cendR pocket inhibitors to block SARS-CoV-2 entry and enhance variant resistance.",
+        "authorString": "Ataya F, Alamro A, Alghamdi A, Fouad D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ataya F",
+              "lastName": "Ataya",
+              "firstName": "Farid",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-7036-3888"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, College of Science, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alamro A",
+              "lastName": "Alamro",
+              "firstName": "Abir",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, College of Science, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alghamdi A",
+              "lastName": "Alghamdi",
+              "firstName": "Amani",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7251-1972"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, College of Science, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fouad D",
+              "lastName": "Fouad",
+              "firstName": "Dalia",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, College of Science, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7251-1972"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-7036-3888"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "21",
+          "journalIssueId": 4137044,
+          "dateOfPublication": "2026 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2026-01-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "e0345051",
+        "abstractText": "Neuropilin-1 (NRP-1) functions as an essential co-receptor for SARS-CoV-2, facilitating viral entry by binding the spike protein's C-end rule (CendR) motif in its b1 domain, yet it has received less attention than ACE2 in therapeutic development. This in silico study evaluates plant-derived polyphenols as potential selective inhibitors of the NRP-1 CendR pocket to disrupt SARS-CoV-2 engagement, addressing limitations of synthetic inhibitors like EG01377, which exhibit modest affinity (-5.83 kcal/mol) and potential off-target risks. High-throughput molecular docking of 10,000 phytochemicals using AutoDock Vina identified 10 polyphenols with binding affinities ranging from -9.87 to -6.63 kcal/mol, led by 6\"-O-acetyldaidzin (-9.87 kcal/mol) and phloretin (-8.64 kcal/mol), forming stable hydrogen bonds and π-cation interactions with critical residues (e.g., THR-401, GLU-367 for 6\"-O-acetyldaidzin; PRO-311, ILE-400 for phloretin), as visualized in Discovery Studio. Notably, four of the top inhibitors are isoflavonoid derivatives, highlighting a chemical class enrichment. Molecular dynamics simulations over 100 ns using Desmond indicated moderate complex stability (RMSD: 0.6-3.8 Å; RMSF <0.5 Å at binding site). ADMET-Tox profiling via SwissADME and ProTox-II revealed drug-like properties, including high gastrointestinal absorption (>70% for leads) and low toxicity (classes 4-5), though 6\"-O-acetyldaidzin shows limited bioavailability due to its high H-bond acceptor count (10) and large size, suggesting need for formulation optimization. The NRP-1 b1 homology model, built with SWISS-MODEL, exhibited high fidelity (GMQE: 0.79; Ramachandran favored regions: 90.3%). This focused computational screening of polyphenols against NRP-1 complements prior studies and identifies candidates for experimental validation as potential SARS-CoV-2 inhibitors. Limitations include the in silico nature, and lack of membrane/sialic acid models, necessitating in vitro and in vivo testing against SARS-CoV-2 variants.",
+        "affiliation": "Department of Biochemistry, College of Science, King Saud University, Riyadh, Saudi Arabia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "King Abdulaziz City for Science and Technology",
+              "grantId": "5-21-01-001-0003",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neuropilin-1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Resistance, Viral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Binding Sites"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Virus Internalization",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "High-Throughput Screening Assays"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Polyphenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Spike Glycoprotein, Coronavirus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Domains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "COVID-19 Drug Treatment",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "polyphenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Neuropilin-1",
+              "registryNumber": "144713-63-3"
+            },
+            {
+              "name": "Spike Glycoprotein, Coronavirus",
+              "registryNumber": "0"
+            },
+            {
+              "name": "spike protein, SARS-CoV-2",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NRP1 protein, human",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0345051"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13008052"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13008052?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "uniprot",
+            "pdb",
+            "chembl",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-09-23",
+        "dateOfCreation": "2026-03-23",
+        "dateOfRevision": "2026-09-23",
+        "electronicPublicationDate": "2026-03-23",
+        "firstPublicationDate": "2026-03-23",
+        "firstIndexDate": "2026-03-23",
+        "fullTextReceivedDate": "2026-03-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24490564",
+        "source": "MED",
+        "pmid": "24490564",
+        "doi": "10.4268/cjcmm20132021",
+        "title": "[Studies on biotransformation of chemical constituents of tongmai formula by human intestinal flora].",
+        "authorString": "Wu S, Xu W, Yang XW.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu S",
+              "lastName": "Wu",
+              "firstName": "Shuai",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratories of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Peking University, Beijing 100191. 94066751@qq.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu W",
+              "lastName": "Xu",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratories of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Peking University, Beijing 100191."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang XW",
+              "lastName": "Yang",
+              "firstName": "Xiu-Wei",
+              "initials": "XW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratories of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Peking University, Beijing 100191."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "20",
+          "volume": "38",
+          "journalIssueId": 2122110,
+          "dateOfPublication": "2013 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Zhongguo Zhong Yao Za Zhi",
+            "title": "Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica",
+            "issn": "1001-5302",
+            "isoabbreviation": "Zhongguo Zhong Yao Za Zhi",
+            "nlmid": "8913656"
+          },
+          "printPublicationDate": "2013-10-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "3510-3519",
+        "abstractText": "To study the chemical constituents in Tongmai formula (TMF) after biotransformation by human intestinal flora (HIF), water extract of TMF was anaerobically incubated with HIF at 37 degrees C. Column chromatographic methods over silica gel, Sephadex LH-20 and semi-preparative high-performance liquid chromatography as well as recrystallization were used to isolate and purify the chemical constituents in TMF after biotransformation by HIF. The chemical structures of isolated compounds were identified on the basis of MS and NMR data. Twenty-six compounds were obtained and identified as phenylpropionic acid (1), 6\"-O-acetylpuerarin (2), formononetin(3), daidzein(4), p-hydroxyphenylpropionic acid (5), 3-indolepropionic acid (6), genistein (7), isoformononetin (8), isoononin (9), a mixture of (-)-puerol B-2\"-O-glucopyranoside (10a) and (+) -puerol B-2\"-O-glucopyranoside (10b), 8-hydroxydaidzein (11), puerol A (12), 3'-methoxy-6\"-O-acetylpuerarin (13), 6\"-O-acetyldaidzin (14), 3'-methoxydaidzin (15), puerol B (16), 3-methyluracil (17), genistin (18), daidzin (19), 3'-methoxypuerarin (20), mirificin (21), swertiamarin (22) , daidzein-7, 4'-O-glucoside (23), adenine (24), 3'-hydroxypuerarin (25), and puerarin (26). After biotransformation by HIF, the glycosides in TMF were transformed into aglycone and/or less glycosyl compounds along with some hydroxylation and demethylation reactions. Therefore, the glycosides in the TMF are the pro-drug.",
+        "affiliation": "State Key Laboratories of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Peking University, Beijing 100191. 94066751@qq.com",
+        "publicationStatus": "ppublish",
+        "language": "chi",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacteria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drugs, Chinese Herbal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbiota"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.4268/cjcmm20132021"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-02-25",
+        "dateOfCreation": "2014-02-05",
+        "dateOfRevision": "2018-12-02",
+        "firstPublicationDate": "2013-10-01",
+        "firstIndexDate": "2014-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

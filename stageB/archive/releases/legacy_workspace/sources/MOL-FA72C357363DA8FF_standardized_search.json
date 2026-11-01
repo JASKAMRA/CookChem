@@ -1,0 +1,2078 @@
+{
+  "version": "6.9",
+  "hitCount": 8,
+  "request": {
+    "queryString": "TITLE_ABS:\"4-Methoxyglucobrassicin\" AND (TITLE_ABS:drug OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:pharmacodynamic OR TITLE_ABS:absorption OR TITLE_ABS:metabolism OR TITLE_ABS:transporter) AND FIRST_PDATE:[* TO 2026-10-06]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40544485",
+        "source": "MED",
+        "pmid": "40544485",
+        "doi": "10.1002/ardp.70019",
+        "title": "A Multifaceted Mechanistic Approach to Assess the Inhibitory Potential of Broccoli-Derived Glucosinolates Against Tumor-Associated Carbonic Anhydrase IX.",
+        "authorString": "Kamel EM, Abdelrheem DA, Othman SI, Maodaa S, Lamsabhi AM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kamel EM",
+              "lastName": "Kamel",
+              "firstName": "Emadeldin M",
+              "initials": "EM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1279-9564"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Faculty of Science, Beni-Suef University, Beni-Suef, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdelrheem DA",
+              "lastName": "Abdelrheem",
+              "firstName": "Doaa A",
+              "initials": "DA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Faculty of Science, Beni-Suef University, Beni-Suef, Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Othman SI",
+              "lastName": "Othman",
+              "firstName": "Sarah I",
+              "initials": "SI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, college of Science, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maodaa S",
+              "lastName": "Maodaa",
+              "firstName": "Saleh",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Zoology, College of Science, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lamsabhi AM",
+              "lastName": "Lamsabhi",
+              "firstName": "Al Mokhtar",
+              "initials": "AM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1509-2513"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Química, Módulo 13, Universidad Autónoma de Madrid, Campus de Excelencia UAM-CSIC Cantoblanco, Madrid, Spain."
+                  },
+                  {
+                    "affiliation": "Institute for Advanced Research in Chemical Sciences (IAdChem), Universidad Autónoma de Madrid, Madrid, Spain."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1279-9564"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1509-2513"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "358",
+          "journalIssueId": 3959036,
+          "dateOfPublication": "2025 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Arch Pharm (Weinheim)",
+            "title": "Archiv der Pharmazie",
+            "essn": "1521-4184",
+            "issn": "0365-6233",
+            "isoabbreviation": "Arch Pharm (Weinheim)",
+            "nlmid": "0330167"
+          },
+          "printPublicationDate": "2025-06-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e70019",
+        "abstractText": "Hypoxia-induced carbonic anhydrase IX (CA IX) is a clinically validated anticancer target; yet, few natural, isoform-selective inhibitors have been described. We isolated three glucosinolates-glucoraphanin, 1,4-dimethoxyglucobrassicin, and 4-methoxyglucobrassicin-from Brassica oleracea and interrogated their CA IX inhibitory potential through an integrated experimental-computational workflow. Enzyme assays revealed mixed-type inhibition with nanomolar potency (IC₅₀ = 65-221 nM), while counterscreens against housekeeping CA I/II demonstrated > 40-fold selectivity. Molecular docking, 500-ns molecular-dynamics simulations, free-energy-landscape mapping, and MM/PBSA calculations consistently ranked the ligands as 4-methoxyglucobrassicin > glucoraphanin > 1,4-dimethoxyglucobrassicin, attributing superior binding to deep hydrophobic insertion, persistent hydrogen bonding, and favorable van der Waals and electrostatic contributions (ΔG<sub>MM/PBSA</sub> = -25 kJ mol<sup>-1</sup>). In silico ADMET profiling indicated low hERG and CYP liabilities but flagged limited oral absorption and moderate hepatotoxicity, suggesting the need for targeted delivery or scaffold optimization. Collectively, these findings position 4-methoxyglucobrassicin as a promising natural-product lead for selective CA IX inhibition and provide a mechanistic framework for structure-guided analog design.",
+        "affiliation": "Chemistry Department, Faculty of Science, Beni-Suef University, Beni-Suef, Egypt.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "This work was carried out with the support from the project PID2023-150717NB-I00 from Ministerio de Ciencia, Innovacion y Universidades in Spain. Also, the authors express their gratitude to the Centro de Computación Científica of the UAM (CCC-UAM) for providing the computing time. The authors acknowledge Princess Nourah bint Abdulrahman University Researchers Supporting Project number (PNURSP2025R5), Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia. The authors extend their appreciation to King Saud University for funding this work through the Ongoing Research Funding program, (ORF-2025-1078), King Saud University, Riyadh, Saudi Arabia.",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antigens, Neoplasm",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Carbonic Anhydrase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Carbonic Anhydrase IX",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Brassica oleracea",
+            "Glucosinolate",
+            "Enzyme kinetics",
+            "In vitro study",
+            "Enzyme inhibitory activity"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "CA9 protein, human",
+              "registryNumber": "EC 4.2.1.1"
+            },
+            {
+              "name": "Antigens, Neoplasm",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carbonic Anhydrase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carbonic Anhydrase IX",
+              "registryNumber": "EC 4.2.1.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ardp.70019"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-06-24",
+        "dateOfCreation": "2025-06-22",
+        "dateOfRevision": "2025-06-24",
+        "firstPublicationDate": "2025-06-01",
+        "firstIndexDate": "2025-06-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "40648072",
+        "source": "MED",
+        "pmid": "40648072",
+        "pmcid": "PMC12252257",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12252257"
+          ]
+        },
+        "doi": "10.3390/plants14132063",
+        "title": "Glucosinolate and Sugar Profiles in Space-Grown Radish.",
+        "authorString": "Hasenstein KH, Moinuddin SGA, Berim A, Davin LB, Lewis NG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hasenstein KH",
+              "lastName": "Hasenstein",
+              "firstName": "Karl H",
+              "initials": "KH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4653-1678"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biology Department, University of Louisiana Lafayette, Lafayette, LA 70504-3602, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moinuddin SGA",
+              "lastName": "Moinuddin",
+              "firstName": "Syed G A",
+              "initials": "SGA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biological Chemistry, Washington State University, Pullman, WA 99164-7411, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Berim A",
+              "lastName": "Berim",
+              "firstName": "Anna",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biological Chemistry, Washington State University, Pullman, WA 99164-7411, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Davin LB",
+              "lastName": "Davin",
+              "firstName": "Laurence B",
+              "initials": "LB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3248-6485"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biological Chemistry, Washington State University, Pullman, WA 99164-7411, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lewis NG",
+              "lastName": "Lewis",
+              "firstName": "Norman G",
+              "initials": "NG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5742-032X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biological Chemistry, Washington State University, Pullman, WA 99164-7411, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5742-032X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3248-6485"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4653-1678"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "13",
+          "volume": "14",
+          "journalIssueId": 3977030,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Plants (Basel)",
+            "title": "Plants (Basel, Switzerland)",
+            "essn": "2223-7747",
+            "issn": "2223-7747",
+            "isoabbreviation": "Plants (Basel)",
+            "nlmid": "101596181"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "2063",
+        "abstractText": "The quest to establish permanent outposts in space, the Moon, and Mars requires growing plants for nutrition, water purification, and carbon/nutrient recycling, as well as the psychological well-being of crews and personnel on extra-terrestrial platforms/outposts. To achieve these essential goals, the safety, quality, and sustainability of plant material grown in space should be comparable to Earth-grown crops. In this study, radish plants were grown at 2500 ppm CO<sub>2</sub> in two successive grow-outs on the International Space Station and at similar CO<sub>2</sub> partial pressure at the Kennedy Space Center. An additional control experiment was performed at the University of Louisiana Lafayette laboratory, at ambient CO<sub>2</sub>. Subsequent analyses of glucosinolate and sugar species and content showed that regardless of growth condition, glucoraphasatin, glucoraphenin, glucoerucin, glucobrassicin, 4-hydroxyglucobrassicin, 4-methoxyglucobrassicin, and three aliphatic GSLs tentatively assigned to 3-methylpentyl GSL, 4-methylpentyl GSL, and <i>n</i>-hexyl GSL were present in all examined plants. The most common sugars were fructose, glucose, and sucrose, but some plants also contained galactose, maltose, rhamnose, and trehalose. The variability of individual secondary metabolite abundances was not related to gravity conditions but appeared more sensitive to CO<sub>2</sub> concentration. No indication was found that radish cultivation in space resulted in stress(es) that increased glucosinolate secondary metabolism. Flavor and nutrient components in space-grown plants were comparable to cultivation on Earth.",
+        "affiliation": "Biology Department, University of Louisiana Lafayette, Lafayette, LA 70504-3602, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "USDA National Institute of Food and Agriculture",
+              "grantId": "80NSSC17K0344",
+              "orderIn": 0
+            },
+            {
+              "agency": "Arthur and Katie Eisig-Tode Endowment Fund",
+              "grantId": "NNH18ZHA004C",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Aeronautics and Space Administration",
+              "grantId": "NNH18ZHA004C",
+              "orderIn": 0
+            },
+            {
+              "agency": "NASA",
+              "grantId": "NNX15AG56G",
+              "orderIn": 0
+            },
+            {
+              "agency": "Arthur and Katie Eisig-Tode Endowment Fund",
+              "grantId": "#1015621",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Aeronautics and Space Administration",
+              "grantId": "#1015621",
+              "orderIn": 0
+            },
+            {
+              "agency": "USDA National Institute of Food and Agriculture",
+              "grantId": "#1015621",
+              "orderIn": 0
+            },
+            {
+              "agency": "Arthur and Katie Eisig-Tode Endowment Fund",
+              "grantId": "NNX10AP91G",
+              "orderIn": 0
+            },
+            {
+              "agency": "USDA National Institute of Food and Agriculture",
+              "grantId": "NNX10AP91G",
+              "orderIn": 0
+            },
+            {
+              "agency": "Arthur and Katie Eisig-Tode Endowment Fund",
+              "grantId": "80NSSC17K0344",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Aeronautics and Space Administration",
+              "grantId": "80NSSC17K0344",
+              "orderIn": 0
+            },
+            {
+              "agency": "NASA",
+              "grantId": "NNH18ZHA004C",
+              "orderIn": 0
+            },
+            {
+              "agency": "NASA",
+              "grantId": "NNX10AP91G",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Aeronautics and Space Administration",
+              "grantId": "NNX10AP91G",
+              "orderIn": 0
+            },
+            {
+              "agency": "USDA National Institute of Food and Agriculture",
+              "grantId": "NNH18ZHA004C",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Aeronautics and Space Administration",
+              "grantId": "NNX15AG56G",
+              "orderIn": 0
+            },
+            {
+              "agency": "NASA",
+              "grantId": "80NSSC17K0344",
+              "orderIn": 0
+            },
+            {
+              "agency": "Arthur and Katie Eisig-Tode Endowment Fund",
+              "grantId": "NNX15AG56G",
+              "orderIn": 0
+            },
+            {
+              "agency": "NASA",
+              "grantId": "#1015621",
+              "orderIn": 0
+            },
+            {
+              "agency": "NASA",
+              "acronym": "NASA",
+              "grantId": "NNX10AP91G, NNH18ZHA004C, 80NSSC17K0344, NNX15AG56G",
+              "orderIn": 0
+            },
+            {
+              "agency": "USDA National Institute of Food and Agriculture",
+              "grantId": "NNX15AG56G",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Carbon dioxide",
+            "Raphanus sativus",
+            "HPLC",
+            "Microgravity",
+            "Sugars",
+            "Brassicaceae",
+            "glucosinolates",
+            "Uplc-qtof-ms",
+            "International Space Station",
+            "Advanced Plant Habitat",
+            "Space Cultivation"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/plants14132063"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12252257"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12252257?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2025-07-12",
+        "dateOfRevision": "2025-07-14",
+        "electronicPublicationDate": "2025-07-06",
+        "firstPublicationDate": "2025-07-06",
+        "firstIndexDate": "2025-07-14",
+        "fullTextReceivedDate": "2025-12-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36211778",
+        "source": "MED",
+        "pmid": "36211778",
+        "pmcid": "PMC9532756",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9532756"
+          ]
+        },
+        "doi": "10.1016/j.fochx.2022.100429",
+        "title": "Effects of nanocarbon solution treatment on the nutrients and glucosinolate metabolism in broccoli.",
+        "authorString": "Li Z, Liu G, He H, Liu Y, Han F, Liu W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li Z",
+              "lastName": "Li",
+              "firstName": "Zhansheng",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu G",
+              "lastName": "Liu",
+              "firstName": "Guangmin",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Agri-food Processing and Nutrition, Beijing Academy of Agricultural and Forestry Sciences, Beijing 100097, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He H",
+              "lastName": "He",
+              "firstName": "Hongju",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Agri-food Processing and Nutrition, Beijing Academy of Agricultural and Forestry Sciences, Beijing 100097, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yumei",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han F",
+              "lastName": "Han",
+              "firstName": "Fengqing",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu W",
+              "lastName": "Liu",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "China Vegetable Biotechnology (Shouguang) Co., Ltd, Shouguang 262700, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5359-1874"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0132-2741"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "15",
+          "journalIssueId": 3380717,
+          "dateOfPublication": "2022 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Food Chem X",
+            "title": "Food chemistry: X",
+            "essn": "2590-1575",
+            "issn": "2590-1575",
+            "isoabbreviation": "Food Chem X",
+            "nlmid": "101751436"
+          },
+          "printPublicationDate": "2022-10-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "100429",
+        "abstractText": "The effects of a nanocarbon solution on the nutrients, glucosinolate metabolism and glucoraphanin pathway in broccoli were investigated. Significant positive linear relationships were observed between the nanocarbon solution and total protein yield, although effects on the soluble sugars, vitamin C and dry matter production were not observed. All nanocarbon solutions significantly increased the glucoraphanin content (<i>p</i> < 0.05), and the 18.75 L·ha<sup>-1</sup> nanocarbon solution maximally increased the glucoraphanin content by 22.9 %. However, these treatments also significantly reduced the contents of glucobrassicin, 4-methoxyglucobrassicin, 4-hydroxyglucobrassicin and neoglucobrassicin. Further research demonstrated that the 18.75 L·ha<sup>-1</sup> nanocarbon solution significantly upregulated the <i>MAM1</i>, <i>IPMI2</i>, <i>CYP79F1</i>, <i>FMOgs-ox2</i>, <i>AOP2</i>, and <i>TGG1</i> expression levels, which directly resulted in the accumulation of glucoraphanin and glucoerucin. This study provides insights into the prospective nanotechnological approaches for developing efficient and environmentally friendly nanocarbon solution for use on crops.",
+        "affiliation": "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops, Ministry of Agriculture, and Institute of Vegetables and Flowers - Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "32172580",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agriculture Research System of China",
+              "grantId": "CARS-23-A05",
+              "orderIn": 0
+            },
+            {
+              "agency": "Central Public-interest Scientific Institution Basal Research Fund, Chinese Academy of Fishery Sciences",
+              "grantId": "IVF-BRF2021003",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agricultural Science and Technology Innovation Program",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "HPLC",
+            "Glucosinolate",
+            "Nutrient",
+            "Broccoli",
+            "Glucoraphanin",
+            "Nanocarbon Solution"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.fochx.2022.100429"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fochx.2022.100429"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9532756"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9532756?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2022-10-10",
+        "dateOfRevision": "2022-10-11",
+        "electronicPublicationDate": "2022-08-12",
+        "firstPublicationDate": "2022-08-12",
+        "firstIndexDate": "2022-10-11",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND607313206",
+        "source": "AGR",
+        "doi": "10.1016/j.lwt.2021.111302",
+        "title": "Effect of continuous white light illumination on glucosinolate metabolism during postharvest storage of broccoli",
+        "authorString": "Casajús V, Civello P, Martínez G, Howe K, Fish T, Yang Y, Thannhauser T, Li L, Gómez Lobato M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Casajús V",
+              "lastName": "Casajús",
+              "firstName": "Victoria",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-6868-9192"
+              }
+            },
+            {
+              "fullName": "Civello P",
+              "lastName": "Civello",
+              "firstName": "Pedro",
+              "initials": "P"
+            },
+            {
+              "fullName": "Martínez G",
+              "lastName": "Martínez",
+              "firstName": "Gustavo",
+              "initials": "G"
+            },
+            {
+              "fullName": "Howe K",
+              "lastName": "Howe",
+              "firstName": "Kevin",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6625-9080"
+              }
+            },
+            {
+              "fullName": "Fish T",
+              "lastName": "Fish",
+              "firstName": "Tara",
+              "initials": "T"
+            },
+            {
+              "fullName": "Yang Y",
+              "lastName": "Yang",
+              "firstName": "Yong",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Thannhauser T",
+              "lastName": "Thannhauser",
+              "firstName": "Theodore",
+              "initials": "T"
+            },
+            {
+              "fullName": "Li L",
+              "lastName": "Li",
+              "firstName": "Li",
+              "initials": "L"
+            },
+            {
+              "fullName": "Gómez Lobato M",
+              "lastName": "Gómez Lobato",
+              "firstName": "María",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0428-5686"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6625-9080"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0428-5686"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-6868-9192"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "145",
+          "journalIssueId": 3165772,
+          "dateOfPublication": "2021 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Lebensm Wiss Technol",
+            "title": "Lebensmittel-Wissenschaft + [i.e. und] Technologie. Food science + technology. Science + technologie alimentaire",
+            "issn": "0023-6438",
+            "isoabbreviation": "Lebensm Wiss Technol",
+            "nlmid": "9876251"
+          },
+          "printPublicationDate": "2021-06-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "Not Available",
+        "abstractText": "Broccoli is a vegetable consumed globally due to its important nutritional properties, including high concentrations of glucosinolates. Light treatment can be an important tool to delay postharvest senescence. In this work it was evaluated the effect of postharvest continuous white light illumination on glucosinolate metabolism of broccoli heads. Five glucosinolates were identified, one aliphatic (glucoraphanin) and four indolics (glucobrassicin, neoglucobrassicin, 4-methoxyglucobrassicin and 4-hydroxyglucobrassicin). Level of total glucosinolates decreased from 10.1 μmol/g dry tissue to 1.4 μmol/g dry tissue in control samples after five days of storage, while the decrement was only until 3.0 μmol/g dry tissue in treated samples. The expression of genes associated with glucosinolate metabolism decreased during the first three days but this decrease was greater in illuminated samples. After five days, treated samples showed a higher expression (more than twice) in most of these genes with respect to the controls, coinciding with the higher glucosinolate content. Storage of broccoli heads under continuous white light allows to keep higher values of glucosinolate contents while maintaining at the same time the visual quality.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Agencia Nacional de Promoción Científica y Tecnológica",
+              "grantId": "PICT 2015-3081",
+              "orderIn": 0
+            },
+            {
+              "agency": "Universidad Nacional de La Plata",
+              "orderIn": 0
+            },
+            {
+              "agency": "Agencia Nacional de Promoción Científica y Tecnológica",
+              "grantId": "PICT 2015-1753",
+              "orderIn": 0
+            },
+            {
+              "agency": "CONICET",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.lwt.2021.111302"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-10-30",
+        "dateOfCreation": "2021-10-30",
+        "dateOfRevision": "2022-11-20",
+        "firstPublicationDate": "2021-06-01",
+        "firstIndexDate": "2021-05-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND607623730",
+        "source": "AGR",
+        "title": "Melatonin regulated glucosinolate profile via modulation of genes related with sulfur and nitrogen metabolism in Brassica rapa ssp. pekinensis",
+        "authorString": "Teng Z, Zheng W, Yu Y, Hong SB, Zhu Z, Zang Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Teng Z",
+              "lastName": "Teng",
+              "firstName": "Zhiyan",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Zheng W",
+              "lastName": "Zheng",
+              "firstName": "Weiwei",
+              "initials": "W"
+            },
+            {
+              "fullName": "Yu Y",
+              "lastName": "Yu",
+              "firstName": "Youjian",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Hong SB",
+              "lastName": "Hong",
+              "firstName": "Seung-Beom",
+              "initials": "SB"
+            },
+            {
+              "fullName": "Zhu Z",
+              "lastName": "Zhu",
+              "firstName": "Zhujun",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Zang Y",
+              "lastName": "Zang",
+              "firstName": "Yunxiang",
+              "initials": "Y"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "177",
+          "journalIssueId": 3546586,
+          "dateOfPublication": "2022 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Industrial crops and products.",
+            "title": "Industrial Crops & Products.",
+            "issn": "0926-6690"
+          },
+          "printPublicationDate": "2022-03-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "Not Available",
+        "abstractText": "Melatonin (MT) is a multi–regulatory molecule eliciting pleiotropic effects on plant growth and development. Glucosinolates (GS) are a group of sulfur (S)-rich and nitrogen (N)-containing secondary metabolites that play an important role in plant defense. Although MT treatment is known to strongly induce expression of GS metabolism related genes, it still remains unclear how MT modulates GS profile. In order to better understand the molecular mechanisms of MT-regulated GS profile in Brassica rapa, comparative transcriptomics and HPLC analyses were conducted. Upon MT treatment, overall GS accumulation increased 3.2-fold, along with emergence of three new GS of glucocochlearin (GCR), glucoerucin (GEC) and 4-hydroxyglucobrassicin (4-OHGBC), and aliphatic GS was the most abundant form constituting 63% of the total GS content. Besides, MT treatment generated eleven differentially expressed genes involved in GS biosynthesis, among which eight encode GS pathway enzymes, and three encode MYB transcription factors modulating expression of GS biosynthesis genes. This was accompanied by significantly elevated expression of three S assimilation-related genes and glutamine synthetase gene involved in N assimilation. In vitro disk-diffusion bioassay demonstrated that lyophilized powder of MT-treated rosette leaf, as well as hydrolyzed products of GCR and GEC significantly inhibited the growth of Sclerotinia sclerotiorum. There was a statistically significant negative correlation between 4-OHGBC and colony growth rate, and between 4-methoxyglucobrassicin (4MeGBC) and sclerotia number. Taken together, the results suggested that exogenous MT treatment altered GS profiles and contents by activating the expression of the primary metabolism genes for S and N assimilation, as well as the secondary metabolism genes for GS biosynthesis, thereby playing a prominent role in S. sclerotiorum resistance in B. rapa. MT as an amphiphilic bio-substance, which can easily pass though the cell membrane, may offer a new integrated strategy for ecofriendly and sustainable management to control plant diseases.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-02-07",
+        "dateOfCreation": "2022-02-07",
+        "dateOfRevision": "2022-11-19",
+        "firstPublicationDate": "2022-03-01",
+        "firstIndexDate": "2023-05-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32784853",
+        "source": "MED",
+        "pmid": "32784853",
+        "pmcid": "PMC7466272",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7466272"
+          ]
+        },
+        "doi": "10.3390/plants9081006",
+        "title": "Tumorous Stem Development of <i>Brassica Juncea</i>: A Complex Regulatory Network of Stem Formation and Identification of Key Genes in Glucosinolate Biosynthesis.",
+        "authorString": "Li M, Xie F, Li J, Sun B, Luo Y, Zhang Y, Chen Q, Wang Y, Zhang F, Zhang Y, Lin Y, Wang X, Tang H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li M",
+              "lastName": "Li",
+              "firstName": "Mengyao",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3199-9465"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie F",
+              "lastName": "Xie",
+              "firstName": "Fangjie",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun B",
+              "lastName": "Sun",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3306-656X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo Y",
+              "lastName": "Luo",
+              "firstName": "Ya",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yong",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2281-4481"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Q",
+              "lastName": "Chen",
+              "firstName": "Qing",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang F",
+              "lastName": "Zhang",
+              "firstName": "Fen",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yunting",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin Y",
+              "lastName": "Lin",
+              "firstName": "Yuanxiu",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6542-7836"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xiaorong",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9332-9571"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang H",
+              "lastName": "Tang",
+              "firstName": "Haoru",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6008-2747"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6008-2747"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2281-4481"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3199-9465"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6542-7836"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9332-9571"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0769-2874"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3306-656X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "9",
+          "journalIssueId": 2991483,
+          "dateOfPublication": "2020 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Plants (Basel)",
+            "title": "Plants (Basel, Switzerland)",
+            "essn": "2223-7747",
+            "issn": "2223-7747",
+            "isoabbreviation": "Plants (Basel)",
+            "nlmid": "101596181"
+          },
+          "printPublicationDate": "2020-08-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "E1006",
+        "abstractText": "Stem mustard is a stem variety of mustard, an important <i>Brassica</i> vegetable. The formation and development of the tumorous stem, which is the key organ for the direct yield and quality, is a complex biological process involving morphogenesis, material accumulation and gene regulation. In this study, we demonstrated through anatomical studies that stem swelling is mainly dependent on the increase in the number of cells and the volume of parenchyma cells in the cortex and pith. To further understand transcript and metabolic changes during stem swelling, we obtained 27,901 differentially expressed genes, of which 671 were specifically detected using transcriptome sequencing technology in all four stages of stem swelling. Functional annotation identified enrichment for genes involved in photosynthesis, energy metabolism, cell growth, sulfur metabolism and glucosinolate biosynthesis. Glucosinolates are a group of nitrogen- and sulfur-containing secondary metabolites, which largely exist in the Cruciferous vegetables. HPLC analysis of the contents and components of glucosinolates in four different stem development stages revealed eight glucosinolates, namely, three aliphatic glucosinolates (sinigrin, glucoalyssin and gluconapin), four indole glucosinolates (4-hydroxyglucobrassicin, glucobrassicin, 4-methoxyglucobrassicin and neoglucobrassicin) and one aromatic glucosinolate (gluconasturtiin). All these types of glucosinolates showed a significant downward trend during the stem swelling period. The content of aliphatic glucosinolates was the highest, with sinigrin being the main component. In addition, qPCR was used to validate the expression of nine genes involved in glucosinolate biosynthesis. Most of these genes were down-regulated during stem swelling in qPCR, which is consistent with transcriptome data. These data provide a basic resource for further molecular and genetic research on <i>Brassica juncea</i>.",
+        "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Shuangzhi project of Sichuan Agricultural University",
+              "grantId": "No. 03573134",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shuangzhi project of Sichuan Agricultural University",
+              "grantId": "No. 035-1921993014",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Brassica juncea",
+            "Differentially expressed genes",
+            "glucosinolates",
+            "Transcriptome Sequencing"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/2223-7747/9/8/1006/pdf?version=1596968030"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/plants9081006"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7466272"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7466272?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2020-08-14",
+        "dateOfRevision": "2024-03-29",
+        "electronicPublicationDate": "2020-08-09",
+        "firstPublicationDate": "2020-08-09",
+        "firstIndexDate": "2020-08-14",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21920565",
+        "source": "MED",
+        "pmid": "21920565",
+        "doi": "10.1016/j.phytochem.2011.08.018",
+        "title": "Interaction of cruciferous phytoanticipins with plant fungal pathogens: indole glucosinolates are not metabolized but the corresponding desulfo-derivatives and nitriles are.",
+        "authorString": "Pedras MS, Hossain S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Pedras MS",
+              "lastName": "Pedras",
+              "firstName": "M Soledade C",
+              "initials": "MS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9510-2215"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Saskatchewan, Saskatoon, SK, Canada. s.pedras@usask.ca"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hossain S",
+              "lastName": "Hossain",
+              "firstName": "Sajjad",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1622-2041"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1622-2041"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9510-2215"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "18",
+          "volume": "72",
+          "journalIssueId": 1874612,
+          "dateOfPublication": "2011 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Phytochemistry",
+            "title": "Phytochemistry",
+            "essn": "1873-3700",
+            "issn": "0031-9422",
+            "isoabbreviation": "Phytochemistry",
+            "nlmid": "0151434"
+          },
+          "printPublicationDate": "2011-12-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "2308-2316",
+        "abstractText": "Glucosinolates represent a large group of plant natural products long known for diverse and fascinating physiological functions and activities. Despite the relevance and huge interest on the roles of indole glucosinolates in plant defense, little is known about their direct interaction with microbial plant pathogens. Toward this end, the metabolism of indolyl glucosinolates, their corresponding desulfo-derivatives, and derived metabolites, by three fungal species pathogenic on crucifers was investigated. While glucobrassicin, 1-methoxyglucobrassicin, 4-methoxyglucobrassicin were not metabolized by the pathogenic fungi Alternaria brassicicola, Rhizoctonia solani and Sclerotinia sclerotiorum, the corresponding desulfo-derivatives were metabolized to indolyl-3-acetonitrile, caulilexin C (1-methoxyindolyl-3-acetonitrile) and arvelexin (4-methoxyindolyl-3-acetonitrile) by R. solani and S. sclerotiorum, but not by A. brassicicola. That is, desulfo-glucosinolates were metabolized by two non-host-selective pathogens, but not by a host-selective. Indolyl-3-acetonitrile, caulilexin C and arvelexin were metabolized to the corresponding indole-3-carboxylic acids. Indolyl-3-acetonitriles displayed higher inhibitory activity than indole desulfo-glucosinolates. Indolyl-3-methanol displayed antifungal activity and was metabolized by A. brassicicola and R. solani to the less antifungal compounds indole-3-carboxaldehyde and indole-3-carboxylic acid. Diindolyl-3-methane was strongly antifungal and stable in fungal cultures, but ascorbigen was not stable in solution and displayed low antifungal activity; neither compound appeared to be metabolized by any of the three fungal species. The cell-free extracts of mycelia of A. brassicicola displayed low myrosinase activity using glucobrassicin as substrate, but myrosinase activity was not detectable in mycelia of either R. solani or S. sclerotiorum.",
+        "affiliation": "Department of Chemistry, University of Saskatchewan, Saskatoon, SK, Canada. s.pedras@usask.ca",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ascomycota",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alternaria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhizoctonia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassicaceae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitriles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Indoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Resistance"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Nitriles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.phytochem.2011.08.018"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 25,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-08-10",
+        "dateOfCreation": "2011-09-17",
+        "dateOfRevision": "2011-10-24",
+        "electronicPublicationDate": "2011-09-13",
+        "firstPublicationDate": "2011-09-13",
+        "firstIndexDate": "2011-09-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "10368814",
+        "source": "MED",
+        "pmid": "10368814",
+        "doi": "10.1207/s15327914nc330210",
+        "title": "Modulation of cytochrome P-450 and glutathione S-transferase isoform expression in vivo by intact and degraded indolyl glucosinolates.",
+        "authorString": "Bonnesen C, Stephensen PU, Andersen O, Sørensen H, Vang O.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bonnesen C",
+              "lastName": "Bonnesen",
+              "firstName": "C",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stephensen PU",
+              "lastName": "Stephensen",
+              "firstName": "P U",
+              "initials": "PU"
+            },
+            {
+              "fullName": "Andersen O",
+              "lastName": "Andersen",
+              "firstName": "O",
+              "initials": "O"
+            },
+            {
+              "fullName": "Sørensen H",
+              "lastName": "Sørensen",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Vang O",
+              "lastName": "Vang",
+              "firstName": "O",
+              "initials": "O"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "33",
+          "journalIssueId": 911345,
+          "dateOfPublication": "1999 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 1999,
+          "journal": {
+            "medlineAbbreviation": "Nutr Cancer",
+            "title": "Nutrition and cancer",
+            "essn": "1532-7914",
+            "issn": "0163-5581",
+            "isoabbreviation": "Nutr Cancer",
+            "nlmid": "7905040"
+          },
+          "printPublicationDate": "1999-01-01"
+        },
+        "pubYear": "1999",
+        "pageInfo": "178-187",
+        "abstractText": "Various dietary substances modulate the xenobiotic metabolism and may thereby protect against toxicity and carcinogenicity of food toxins. The effects of pure indolyl glucosinolates, which are present in cruciferous vegetables, on induction of specific cytochrome P-450 (CYP) and glutathione S-transferase (GST) isoforms have not been studied previously. In the present study, glucobrassicin (GB) and neoglucobrassicin (NeoGB) were purified from broccoli by use of a single-column method. Furthermore, a mixture containing 48% GB, 36% NeoGB, and 16% 4-methoxyglucobrassicin was obtained. The modulatory effects of the pure GB, NeoGB, and the mixture on activities and levels of hepatic CYP 1A, 2B1/2, and 2E1 and alpha- and mu-GST isoforms were investigated in male Wistar rats. The indolyl mixture was the most powerful and NeoGB the weakest inducer of microsomal hepatic CYP 1A1 protein and 7-ethoxyresorufin O-deethylase activity. Furthermore, intact indolyl glucosinolates were more powerful inducers than the in vitro myrosinase-degraded indolyl glucosinolates. The hepatic 7-methoxyresorufin O-deethylase activities, but not CYP 1A2 protein, were induced by pure GB, whereas the mixture and NeoGB showed only minor effects. Neither CYP 2B1/2 nor 2E1 was induced by the indolyl glucosinolates. None of the hepatic GST subunits analyzed, rGST A1/2, A3, or M3, was induced significantly by the purified indolyl glucosinolates.",
+        "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Indoles"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Transferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticarcinogenic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Glutathione Transferase",
+              "registryNumber": "EC 2.5.1.18"
+            },
+            {
+              "name": "Anticarcinogenic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "glucobrassicin",
+              "registryNumber": "EA6EH0IU89"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1207/S15327914NC330210"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 33,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1999-08-11",
+        "dateOfCreation": "1999-06-16",
+        "dateOfRevision": "2016-11-24",
+        "firstPublicationDate": "1999-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+CookRisk BTP – Literature Review Assignment 2
+Molecular Retention, Cooking Effects and Reliable Prediction Methodologies
+Research synthesis for the CookRisk molecular-retention prediction framework
+
+
+Scope note: The model performance figures and dataset size above are project-provided values from the assignment brief. They are not claims reported by the literature reviewed below.
+
+Executive Summary
+CookRisk aims to predict molecular retention after food processing and ultimately use the predicted retention to estimate food–drug interaction risk. The literature shows that retention is not determined by cooking temperature or cooking method alone. Experimental studies consistently demonstrate that the observed post-processing amount of a bioactive compound reflects a combination of thermal degradation, leaching into the cooking medium, matrix disruption and increased extractability, compound-specific chemistry, and food-specific structure.
+Eight core papers are used in the comparison and detailed review: six original food-chemistry studies (Stryjecka, Wu, Miglio, Yuan, Kamiloglu and Volden), Hanschen et al. (2012) as the mechanistic chemistry paper, and Tropsha (2010) as the core QSAR/cheminformatics methodology paper. Roberts et al. (2017), Yap (2011), Ertl et al. (2000), Moriwaki et al. (2018), Cawley & Talbot (2010), Branco et al. (2016, 2017), Palermo et al. (2014) and Oerlemans et al. (2006) are supplementary references. 
+The most important conclusion for CookRisk is that the next modelling improvement should not simply be the addition of a large number of molecular descriptors. The literature instead supports a feature architecture that combines (i) molecular descriptors, (ii) cooking conditions, (iii) food-matrix/context variables, and (iv) scientifically motivated interactions between molecular and process variables. In particular, temperature, cooking duration, cooking method and cooking medium should be treated as high-priority variables.
+Core conclusions at a glance
+Retention is a coupled molecular–process–matrix phenomenon; no single cooking method is universally optimal.
+Boiling can cause substantial losses through water-mediated leaching, while steaming often limits contact with water and can preserve some compounds better.
+Frying and stir-frying introduce high-temperature oil exposure and can produce compound-specific losses, but the response is not universally negative.
+Microwave processing can preserve some compounds relatively well, but microwave power and time should be treated explicitly rather than encoded only as a categorical method.
+Measured retention above 100% is not automatically experimental error: matrix softening, concentration effects, altered extractability and chemical conversion can increase measured amounts.
+The literature does not directly establish that LogP, TPSA, HBD or HBA alone causally determine cooking retention; these should be treated as candidate explanatory descriptors and tested empirically.
+For repeated observations of the same molecule, random row-wise cross-validation risks leakage. Grouping by molecular identity is scientifically defensible for evaluating generalization to unseen molecules.
+Extreme retention values should first undergo provenance/unit/mass-basis checks and sensitivity analysis; they should not be deleted solely because they increase RMSE.
+1. Literature Search and Paper Selection Strategy
+The final core set was selected to cover all three assignment themes: experimental retention and cooking effects; molecular structure and thermal-degradation evidence; and rigorous QSAR/validation methodology. Experimental papers are not treated as ML benchmarks, and their retention percentages are never conflated with MAE/RMSE/R².
+A critical distinction is maintained throughout: an experimental retention measurement is an observed scientific outcome, whereas a model prediction is an estimated value. The reported R²/MAE/RMSE of CookRisk must therefore never be compared directly with an experimental paper's percentage retention values. Likewise, an experimental paper showing that a compound increased after cooking does not mean that a machine-learning model should predict an increase without considering the experimental context.
+2. Comparison Table of the Selected Literature
+
+Supplementary literature is not counted among the eight core comparison papers. It includes Roberts et al. (2017) for structure-aware cross-validation; Yap (2011), Ertl et al. (2000) and Moriwaki et al. (2018) for molecular descriptors; Cawley & Talbot (2010) for model-selection bias; Branco et al. (2016, 2017) for imbalanced/rare-region regression; Palermo et al. (2014) for broad cooking/phytochemical synthesis; and Oerlemans et al. (2006) for thermal-degradation kinetics.
+3. Detailed Literature Review
+1. Effects of Household Cooking Methods on the Nutritional, Phytochemical and Functional Properties of Cucurbita maxima Leaves
+Stryjecka, Cebulak, Kiełtyka-Dadasiewicz, Stamirowska-Krzaczek, Tomaszewska, Krochmal-Marczak & Betlej (2026)  |  DOI: 10.3390/molecules31162740  |  Verified paper link Read paper
+Research objective: To determine how common household cooking methods alter nutrient composition, amino acids, phenolics, carotenoids, antioxidant potential, antinutritional factors and α-amylase inhibitory activity in young Cucurbita maxima leaves.
+Dataset / compound coverage: Three independent biological replicates were used. Each replicate was divided into raw, boiling, steaming, microwaving and stir-frying treatments; analytical determinations were performed in triplicate. The study covers multiple chemical classes rather than a single target compound.
+Processing conditions: The full text reports approximately 95°C for boiling (10 min; 100 g leaves in 150 mL water), 98°C for steaming (10 min), microwave processing at 2450 MHz and 700 W for 3 min with 12 mL water per 100 g leaves, and stir-frying with 10 mL extra-virgin olive oil per 100 g leaves.
+Molecular descriptors / inputs: No RDKit descriptors or ML feature vector was used. Inputs were experimental chemical measurements and treatment identity. Therefore this paper supports the importance of compound class and process conditions but does not directly validate LogP/TPSA/HBD/HBA as retention predictors.
+Prediction methodology: None. The study is experimental. Statistical analysis used one-way ANOVA followed by Tukey HSD; hierarchical clustering/heatmaps were used as exploratory multivariate analyses.
+Validation: No train/test validation because this is not a predictive ML study. Replicated biological experiments provide experimental reproducibility instead.
+Reported performance/results: N/A – not a predictive study. The paper reports experimental treatment differences in phenolics, flavonoids, carotenoids and other endpoints. Steaming generally preserved several phytochemical measures well, while boiling produced larger losses for several bioactive endpoints; microwaving also maintained several phytochemical measures. These are experimental observations, not model predictions.
+CookRisk relevance: This is strong evidence that “cooking method” should not be treated as a universal monotonic ranking. The same process can improve one objective while worsening another. For CookRisk, method × compound-class and method × molecular-descriptor interactions are more defensible than a single global method effect.
+Limitation: Single food matrix and a specific cultivar limit direct generalization. The study is valuable for mechanistic patterns but is not itself a universal retention model.
+2. Analysis of Processing Effects on Glucosinolate Profiles in Red Cabbage by LC-MS/MS in Multiple Reaction Monitoring Mode
+Wu, Chen, Yu, Chen, Ye & Zhang (2021)  |  DOI: 10.3390/molecules26175171  |  Verified paper link Read paper
+Research objective: To quantify how boiling, steaming, microwave heating, frying and stir-frying affect glucosinolate profiles in red cabbage, including the role of boiling time.
+Dataset / compound coverage: Ten glucosinolates were detected, including indole and aliphatic glucosinolates such as glucobrassicin, glucoraphanin, glucoiberin, progoitrin, gluconapin and sinigrin. Fresh cabbage was used as the reference.
+Processing conditions: Boiling was examined at 1, 3, 5, 10, 20 and 30 minutes. Microwave heating used 1000 W for 3 minutes; steaming used 100 °C for 3 minutes; frying used 160 °C for 3 minutes; stir-frying used 190 °C for 3 seconds. Water/oil amounts were explicitly reported.
+Molecular descriptors / inputs: The paper does not use calculated molecular descriptors. Instead, it compares individual glucosinolate identities and structural classes. This is useful evidence that molecular identity/class can interact with cooking conditions.
+Prediction methodology: None. LC-MS/MS in multiple-reaction-monitoring mode was used for experimental quantification.
+Validation: No predictive cross-validation. Statistical comparisons are experimental.
+Reported performance/results: N/A – not a predictive study. Total-glucosinolate reductions were 32.36% after boiling, 24.83% after microwaving, 25.27% after steaming, 81.11% after frying and 84.29% after stir-frying. In the boiling-time series, total glucosinolate concentration decreased from 13.1032 μmol/g DW at 1 min to 3.7604 μmol/g DW at 30 min, approximately a 71% decrease across the reported endpoints. Indole glucosinolates were generally lost more strongly than aliphatic glucosinolates.
+CookRisk relevance: This is one of the strongest papers for prioritizing cooking time, temperature/power, cooking medium and compound class. It directly supports interaction features such as Cooking_Time × Molecular_Class and Cooking_Method × Molecular_Descriptor.
+Source-condition caveat: Wu et al. contain differing descriptions of frying temperature and food/water quantities between sections/tables. Table-based values should be checked against the original paper before those fields are used as exact row-level training metadata.
+Limitation: The work focuses on one food matrix and glucosinolates; therefore descriptor relationships cannot automatically be generalized to unrelated chemical families.
+3. Effects of Different Cooking Methods on Nutritional and Physicochemical Characteristics of Selected Vegetables
+Miglio, Chiavaro, Visconti, Fogliano & Pellegrini (2008)  |  DOI: 10.1021/jf072304b  |  Verified paper link Read paper
+Research objective: To compare boiling, steaming and frying effects on phytochemicals, antioxidant capacity and physicochemical characteristics of carrots, courgettes and broccoli.
+Dataset / compound coverage: Three vegetables were studied. Measurements included polyphenols, carotenoids, glucosinolates, ascorbic acid and antioxidant capacity using TEAC, TRAP and FRAP assays.
+Processing conditions: Standardized vegetable specimens were used. Boiling was performed in a covered stainless-steel pot at a 1:5 food/water ratio; steaming was performed at atmospheric pressure; and frying used 2.2 L of peanut oil at 170°C. Cooking time was optimized separately for each vegetable to reach similar tenderness; the exact times are not stated in the accessible methods text.
+Molecular descriptors / inputs: No computed molecular descriptors were used. The experimental factors were food type, cooking method and measured chemical/physicochemical outcomes.
+Prediction methodology: None; this is an experimental comparative study.
+Validation: Statistical comparison of experimental treatments; no ML train/test split.
+Importantly, antioxidant-capacity measurements increased after cooking in some cases. For the specific mechanism of matrix softening and increased extractability, this review cites Ferracane et al. (2008), a related artichoke cooking study that explicitly reports that mechanism, rather than attributing the mechanistic claim solely to Miglio.
+CookRisk relevance: The paper is central to interpreting apparently anomalous retention values. A measured increase after cooking does not automatically imply a data error; it can reflect altered extractability or chemical conversion. It also supports Food_Matrix × Cooking_Method interactions.
+Limitation: The study focuses on three vegetables and broad compound classes, so it does not isolate the independent contribution of individual molecular descriptors.
+4. Effects of Different Cooking Methods on Health-Promoting Compounds of Broccoli
+Yuan, Sun, Yuan & Wang (2009)  |  DOI: 10.1631/jzus.B0920051  |  Verified paper link Read paper
+Research objective: To determine the effects of five domestic cooking methods on broccoli nutrients and health-promoting compounds.
+Dataset / compound coverage: Broccoli was evaluated for glucosinolates and several nutritional/health-related measures including vitamin C, chlorophyll, soluble protein and soluble sugars.
+Processing conditions: Five treatments were tested. Boiling used 200 g broccoli with 400 mL boiling water for 5 min; steaming used 200 g broccoli above 200 mL boiling water for 5 min; microwaving used 1000 W for 5 min with 200 g broccoli and 10 mL water; stir-frying and stir-frying followed by boiling were also tested.
+Molecular descriptors / inputs: No calculated molecular descriptors. The study provides compound-class-specific experimental responses to different cooking methods.
+Prediction methodology: None; experimental comparison.
+Validation: No predictive ML validation; statistical significance testing was used to compare treatments.
+Reported findings: Steaming produced the lowest loss of total glucosinolates in general. Stir-frying and stir-frying/boiling caused larger losses. Most cooking treatments except steaming caused significant losses in chlorophyll and vitamin C.
+CookRisk relevance: The study supports representing complex cooking methods explicitly rather than collapsing them into broad labels. “Stir-fry then boil” is chemically different from either stir-fry or boil alone, suggesting that sequential-process features may be valuable if CookRisk later expands its dataset.
+Limitation: One food matrix and a limited set of measured compounds constrain broad generalization.
+5. Home processing of tomatoes (Solanum lycopersicum): effects on in vitro bioaccessibility of total lycopene, phenolics, flavonoids, and antioxidant capacity
+Kamiloglu, Demirci, Selen, Toydemir, Boyacioglu & Capanoglu (2014)  |  DOI: 10.1002/jsfa.6546  |  Verified paper link Read paper
+Research objective: To examine how home processing changes tomato antioxidant compounds and their in-vitro bioaccessibility, while also characterizing changes in major phenolics by HPLC.
+Dataset / compound coverage: Seven tomato products were evaluated. Major outcomes included total lycopene, total phenolics, total flavonoids, antioxidant capacity and individual phenolic compounds.
+Processing conditions: The paper compares fresh tomatoes with several home-processed tomato products, including paste processing and drying; the endpoint includes in-vitro gastrointestinal digestion/bioaccessibility.
+Molecular descriptors / inputs: No RDKit-style molecular descriptors were used. Individual compound identities and chemical composition were measured by HPLC.
+Prediction methodology: None. Experimental HPLC measurements and an in-vitro gastrointestinal digestion model were used.
+Validation: No ML validation. Statistical comparisons were used to determine significant differences among products.
+Reported findings: Paste processing and drying increased bioaccessible total lycopene, phenolics and flavonoids substantially relative to fresh tomatoes. The study also observed loss of naringenin chalcone and conversion to naringenin in heat-treated products.
+CookRisk relevance: This paper demonstrates why “retention” and “bioaccessibility” must not be treated as identical targets. It also shows that chemical conversion and matrix changes can increase the measured or bioaccessible amount of a compound after processing.
+Limitation: The endpoint is bioaccessibility, not a pure retention factor. CookRisk should therefore avoid mixing these endpoints without explicit target definitions.
+6. Effect of thermal treatment on glucosinolates and antioxidant-related parameters in red cabbage
+Volden, Borge, Bengtsson, Hansen, Thygesen & Wicklund (2008)  |  DOI: 10.1016/j.foodchem.2008.01.010  |  Verified paper link Read paper
+Research objective: To evaluate how blanching, boiling and steaming affect glucosinolates, phenols, anthocyanins, vitamin C, soluble sugars and antioxidant potential in red cabbage.
+Dataset / compound coverage: Red cabbage was analysed for total and individual glucosinolates, total phenols, total monomeric anthocyanins, L-ascorbic acid, soluble sugars and FRAP/ORAC antioxidant measures.
+Processing conditions: Blanching, boiling and steaming were compared. Critically, processing water was also examined, allowing the authors to investigate whether losses were caused by leaching versus degradation.
+Molecular descriptors / inputs: No calculated descriptors. Individual glucosinolate classes and measured chemical endpoints were used.
+Prediction methodology: None; experimental chemical analysis.
+Validation: Experimental treatment comparisons; no predictive ML validation.
+Reported findings: Blanching caused large reductions in several measures; boiling produced smaller losses; steaming caused no significant loss in some endpoints. Total glucosinolates were reduced substantially, and lost glucosinolates were partly recovered in processing water. Some anthocyanin loss was not fully recovered in water, suggesting degradation rather than leaching alone.
+CookRisk relevance: This is direct evidence for including cooking medium and water-contact information. A model that knows only “boiling” but not water exposure or food/water ratio may confound leaching with thermal degradation.
+Limitation: One red-cabbage matrix means the exact retention percentages are not universal. The mechanistic distinction between leaching and degradation is more transferable than the numerical losses.
+7. Thermally induced degradation of sulfur-containing aliphatic glucosinolates in broccoli sprouts and model systems
+Hanschen, Platz, Mewis, Schreiner, Rohn & Kroh (2012) | DOI: 10.1021/jf204830p | Verified paper link Read paper
+Research objective: To characterize thermally induced degradation of sulfur-containing aliphatic glucosinolates in broccoli sprouts and controlled model systems, including intermediary degradation products and pathways.
+Dataset / compound coverage: Experimental broccoli-sprout material plus model systems; the study focuses on sulfur-containing aliphatic glucosinolates and their thermal breakdown products.
+Processing conditions: Dry and aqueous thermal treatments were conducted across different temperatures and pH conditions. At 130°C for 80 min, indole glucosinolates decreased from 54.77 to 4.38 μmol/g (92% loss), while aliphatic glucosinolates decreased from 6.7 to 1.9 μmol/g (72% loss). The study also characterized thermal breakdown products.
+Molecular descriptors / inputs: No RDKit-style descriptors were calculated. Molecular structure and side-chain chemistry were examined directly.
+Prediction methodology: None. This is a mechanistic experimental food-chemistry study.
+Validation: No predictive cross-validation. Chemical identities and degradation products were experimentally characterized.
+Reported performance/results: N/A – not a predictive study. Heating produced compound-dependent thermal degradation and identifiable intermediary/final breakdown products, demonstrating that molecular structure can modify thermal response.
+CookRisk relevance: This is direct mechanistic evidence for a structure × thermal-condition relationship. It supports testing molecular descriptors as candidate proxies for chemical structure, while not proving that generic descriptors such as LogP or TPSA alone predict retention.
+Limitation: The study is focused on glucosinolates and controlled thermal chemistry; its structure–temperature relationship should not be generalized automatically to unrelated food compounds.
+8. Best Practices for QSAR Model Development, Validation, and Exploitation
+Tropsha (2010) | DOI: 10.1002/minf.201000061 | Verified paper link Read paper
+Research objective: To define rigorous QSAR development and validation practices for predictive molecular modelling.
+Dataset / compound coverage: Methodological review rather than a cooking dataset; the framework targets collections of biologically active chemical compounds.
+Molecular descriptors / inputs: Chemical structures and molecular descriptors are treated as model inputs within a curated predictive workflow.
+Prediction methodology: QSAR workflow covering data curation, descriptor/model development, outlier detection, dataset balancing and validation.
+Validation: Strong emphasis on internal and external validation and on defining an applicability domain for predictions on external compounds.
+Reported performance/results: N/A – methodological review, not a single predictive benchmark.
+CookRisk relevance: Directly strengthens the cheminformatics/ML component of CookRisk. It supports careful molecular curation, explicit applicability-domain analysis, cautious outlier treatment, and external validation for unseen molecules.
+Limitation: QSAR methodology is not direct evidence about cooking chemistry; its use here is a methodological transfer.
+4. Supplementary Methodological and Review Literature
+4.1 Peer-Reviewed Molecular ML / QSPR Evidence
+Delaney (2004) — ESOL: Estimating Aqueous Solubility Directly from Molecular Structure. This is a direct QSPR-style chemical-property example: 2,874 measured solubility observations were modelled from molecular properties, with calculated logP, molecular weight, aromatic proportion and rotatable bonds among the important variables. The model is reported with an average absolute error of about 0.75 logS. This demonstrates quantitative descriptor-to-property prediction, but aqueous solubility is not cooking retention and is therefore indirect CookRisk evidence.
+MoleculeNet (Wu et al., 2018) benchmarks molecular ML on ESOL (1,128 compounds), FreeSolv and lipophilicity. For ESOL it reports RMSE, with best conventional XGBoost ≈ 0.99 and graph-based MPNN ≈ 0.58. The benchmark also highlights data scarcity and evaluation design as important considerations. This provides peer-reviewed ML evidence for molecular-property modelling while remaining indirect evidence for cooking retention.
+CookRisk implication: these studies fill the missing molecular-ML/QSPR layer. They show that molecular descriptors and learned molecular representations can support quantitative chemical-property prediction, but they do not establish that LogP, TPSA or other descriptors predict cooking retention.
+Roberts et al. (2017) — Cross-validation strategies for structured data
+Roberts et al. (2017) | DOI: 10.1111/ecog.02881 | Verified paper link Read paper
+Use: methodological support for structure-aware validation. The paper shows that ordinary random cross-validation can underestimate predictive error when observations have dependence structures. The transfer to repeated molecular observations is a CookRisk methodological interpretation, not a molecular-specific finding.
+Yap (2011) — PaDEL-Descriptor
+Yap (2011) | DOI: 10.1002/jcc.21707 | Verified paper link Read paper
+Use: descriptor-generation methodology. PaDEL provides a broad descriptor/fingerprint space and is useful for auditing alternative molecular representations. It does not establish that any descriptor predicts cooking retention.
+Ertl et al. (2000) — TPSA
+Ertl, Rohde & Selzer (2000) | DOI: 10.1021/jm000942e | Verified paper link Read paper
+Use: methodological basis for topological polar surface area (TPSA). This supports TPSA as a standard molecular descriptor, but is not evidence that TPSA predicts cooking retention.
+Moriwaki et al. (2018) — Mordred
+Moriwaki et al. (2018) | DOI: 10.1186/s13321-018-0258-y | Verified paper link Read paper
+Use: alternative descriptor-generation framework. Mordred provides a broad molecular-descriptor space for controlled representation comparison; it should not be used to justify descriptor explosion.
+Cawley & Talbot (2010) — Model-selection bias JMLR paper
+Cawley & Talbot (2010) | JMLR 11:2079–2107 | Verified paper link JMLR paper
+Use: supports nested model selection. Repeated hyperparameter/model selection against the same finite-sample CV estimate can overfit the selection criterion and bias reported performance.
+Branco, Torgo & Ribeiro (2017) — SMOGN PMLR paper
+Branco, Torgo & Ribeiro (2017) | PMLR 74:36–50 | Verified paper link PMLR paper
+Use: supplementary evidence for rare-region regression. SMOGN addresses imbalanced continuous targets. If tested in CookRisk, any resampling must occur inside training folds and preserve molecular grouping.
+Palermo et al. (2014) — Broad review of cooking effects on phytochemicals
+Palermo, Pellegrini & Fogliano (2014) | DOI: 10.1002/jsfa.6478 | Verified paper link Read paper
+Use: broad review of more than 100 indexed studies. It frames cooking effects as a balance of thermal degradation and matrix-softening/increased extractability, dependent on processing parameters, matrix structure and compound chemistry.
+Oerlemans et al. (2006) — Thermal degradation kinetics
+Oerlemans et al. (2006) | DOI: 10.1016/j.foodchem.2004.12.013 | Verified paper link Read paper
+Use: supplementary mechanistic/kinetic evidence. Controlled heating experiments estimated first-order degradation kinetics for individual glucosinolates and showed compound-class differences in degradation rates.
+Branco, Torgo & Ribeiro (2016) — Imbalanced predictive modelling survey
+Branco, Torgo & Ribeiro (2016) | DOI: 10.1145/2907070 | Verified link Read paper
+Use: supplementary context for regression imbalance and rare target regions. It motivates tail-aware evaluation but does not solve CookRisk's compound/method imbalance.
+5. Synthesis of Molecular and Cooking-Process Findings
+5.0 Consolidated Cooking-Method Synthesis
+Boiling: generally creates the strongest water-contact/leaching pathway among the reviewed household methods. Wu et al. quantified a 32.36% total-glucosinolate reduction in red cabbage, with loss increasing strongly with boiling time. Volden et al. further showed that part of the loss could be recovered in processing water.
+Steaming: often preserves compounds better than boiling because direct contact with liquid water is reduced. Yuan et al. found steaming generally produced lower glucosinolate losses in broccoli, while Miglio et al. found water cooking preserved antioxidant compounds better than frying.
+Frying / stir-frying: high-temperature oil exposure can produce large compound-specific losses. Wu et al. reported 81.11% and 84.29% total-glucosinolate losses for frying and stir-frying, respectively. Miglio et al. likewise found poorer antioxidant retention with frying.
+Microwaving: should not be encoded only as a categorical method because power, time and water addition determine thermal history. Wu et al. observed a 24.83% total-glucosinolate reduction at 1000 W for 3 min; Yuan et al. used 1000 W for 5 min with 10 mL water for 200 g broccoli.
+Overall: no cooking method is universally best across compounds or endpoints. CookRisk should represent method together with quantitative process conditions, cooking medium, food matrix and molecular structure.
+5.1 Molecular properties that are plausibly relevant
+The selected food-chemistry papers do not directly calculate LogP, TPSA, hydrogen-bond donor count or hydrogen-bond acceptor count and then regress retention on those descriptors. Therefore the literature does not justify a causal statement such as “high LogP causes higher retention.” What it does show is that different chemical classes and individual compounds respond differently to the same process. That provides a scientific basis for testing molecular descriptors as candidate explanatory variables.
+Molecular size / molecular weight: potentially relevant to diffusion, matrix interactions and degradation pathways; test empirically rather than assume directionality.
+Polarity / TPSA: plausibly related to water affinity and therefore leaching/extractability, especially for water-based cooking.
+LogP: plausibly related to partitioning between aqueous, lipid and food-matrix environments; particularly relevant when oil is involved.
+Hydrogen-bond donors/acceptors: candidate descriptors of intermolecular interactions and aqueous compatibility.
+Hydroxyl-group count and aromatic structure: especially relevant for phenolics/flavonoids, where substitution patterns can influence stability and extractability.
+Rotatable bonds, ring counts and other topology descriptors: potentially useful as broader structural encodings, but their value should be demonstrated by grouped validation.
+5.2 Cooking variables that should be prioritized
+5.3 Why retention can exceed 100%
+Mechanistic clarification: Ferracane et al. (2008) explicitly reported that cooking-related increases in antioxidant capacity in artichoke were associated with matrix softening and increased extractability. This is the preferred source for that mechanism in this review. DOI: 10.1021/jf800408w. Read paper
+A retention value above 100% should be treated as a scientific observation requiring explanation, not as an automatic data-entry error. Several mechanisms can produce an apparent increase: water loss can concentrate a compound; cooking can disrupt plant-cell structure and increase extractability; precursor compounds can convert into the measured analyte; and different analytical recoveries can change the measured concentration. Miglio et al. explicitly observed increased antioxidant-capacity measures after cooking and linked this to matrix softening, increased extractability and possible chemical conversion. Kamiloglu et al. likewise observed large increases in bioaccessible lycopene, phenolics and flavonoids after certain tomato processing treatments.
+For CookRisk, the correct response is a provenance and measurement-basis audit: check the original paper, units, initial and final concentration definitions, sample mass, water-content changes, fresh-versus-dry basis, and whether the measured compound can be generated from a precursor. Only after these checks should an observation be classified as an error.
+6. Recommendations for CookRisk Feature Engineering
+6.1 Keep the current core molecular descriptors
+The current molecular descriptors are scientifically sensible starting features. The literature does not justify replacing them; instead, it suggests combining them with process and matrix information.
+Molecular weight (MW)
+LogP
+TPSA
+Hydrogen-bond donors (HBD)
+Hydrogen-bond acceptors (HBA)
+Rotatable bonds
+Aromatic-ring count
+Hydroxyl-group count
+Heavy-atom count
+6.2 Add scientifically motivated interaction features
+LogP × Cooking_Method
+TPSA × Cooking_Method
+LogP × Cooking_Medium
+TPSA × Food_Water_Ratio
+Molecular_Weight × Temperature
+Hydroxyl_Groups × Temperature
+Molecular_Descriptor × Cooking_Time
+Compound_Class × Cooking_Method
+Food_Matrix × Cooking_Method
+Cooking_Method × Temperature × Time where data density supports it
+These interactions should be introduced cautiously. Tree ensembles such as Extra Trees can learn nonlinear interactions without explicit multiplication terms, so the experiment should compare raw features and explicit engineered interactions under identical grouped folds. Feature importance alone should not be interpreted as causal evidence.
+6.2.1 What the literature actually supports about interaction features
+The experimental literature supports the broader idea that molecular identity or chemical class modifies the response to cooking conditions: Wu et al. show compound-class differences across methods and Hanschen et al. show structure-dependent thermal degradation. However, no reviewed paper directly demonstrates that a computed term such as LogP × Temperature or TPSA × Cooking_Method improves a predictive model. These engineered interactions are therefore hypotheses to test, not literature-established predictors.
+6.3 Alternative descriptor representations
+Ertl et al. (2000) provides the methodological basis for topological polar surface area (TPSA), while Moriwaki et al. (2018) provides the Mordred descriptor framework. Together with PaDEL (Yap, 2011), they support controlled comparison of descriptor representations without implying that more descriptors are automatically better.
+Compare the current compact descriptor set against a compact, pre-specified Mordred subset and selected molecular fingerprints.
+Remove near-constant and highly redundant descriptors within training folds.
+Do not interpret descriptor importance as causal evidence for cooking retention.
+6.4 Missing chemistry and process variables
+Several variables that could distinguish leaching, ionisation, enzymatic breakdown, volatility and thermal degradation are absent or sparsely reported. These should be future data-collection priorities rather than blindly imputed defaults.
+pH and pKa/ionisation state.
+Aqueous solubility and lipid affinity/partitioning.
+Volatility for compounds susceptible to high-temperature loss.
+Enzyme activity, especially myrosinase for glucosinolates; Wu et al. identifies enzyme breakdown, thermal breakdown and leaching as distinct mechanisms.
+Cut size, tissue disruption and surface-area-to-mass ratio.
+Thermal-degradation kinetics/rate constants where available; Oerlemans et al. provide an example of compound-specific kinetic modelling.
+Food-matrix variables such as moisture, fat content, tissue type and water/oil ratio.
+6.5 Avoid descriptor explosion
+PaDEL-Descriptor demonstrates that hundreds of descriptors and fingerprints can be generated, but more descriptors do not automatically produce a better generalization model. CookRisk has only 197 molecular groups in the project brief, so adding hundreds of highly correlated descriptors can increase variance and make interpretation difficult. A better strategy is to start with a chemically motivated descriptor set, remove near-constant/redundant features, and use grouped validation for any feature-selection step.
+7. Validation Strategy
+7.1 Why the current GroupKFold design is appropriate
+If several observations correspond to the same canonical molecule, random row-wise splitting can place different observations of that molecule into training and validation sets. The model may then exploit molecule-specific information already present in training, producing an optimistic estimate of performance on genuinely unseen compounds. Roberts et al. show more generally that ignoring dependence structures can seriously underestimate predictive error.
+Therefore, 5-fold GroupKFold grouped by Canonical_Molecular_ID is a strong primary evaluation design for the question: “How well does CookRisk generalize to molecules whose observations were not seen during training?”
+7.2 Recommended evaluation hierarchy
+Primary internal evaluation: 5-fold GroupKFold by Canonical_Molecular_ID, with all preprocessing and feature selection fitted inside each training fold.
+Secondary evaluation: a final untouched molecular holdout set if enough unique molecular groups are available. No molecule in this test set should occur in training.
+Stress evaluation: report performance separately for normal retention values, >100% values, and the most extreme tail. This reveals whether a good overall MAE hides poor tail performance.
+Sensitivity evaluation: compare raw-target modelling with a scientifically justified transformation such as log1p(retention). Keep the same molecular groups in every split.
+External validation: where possible, use an independent literature source or publication family not used to tune the model.
+7.3 Prevent leakage beyond the train/test split
+Fit imputation/scaling/feature selection only on the training fold.
+If duplicate measurements or near-duplicate records exist, group them before splitting.
+Do not calculate target-derived aggregate features using the full dataset before cross-validation.
+If oversampling or any imbalance treatment is used, apply it only within the training portion of each fold.
+If paper-level effects are strong, consider a second stress test where entire source papers are held out. This tests cross-study generalization.
+7.4 Compound and cooking-method imbalance
+CookRisk has two distinct imbalance problems: target-value imbalance and design imbalance. Some compounds or cooking methods may contribute many more observations than others, so pooled metrics can be dominated by repeated compounds or common methods.
+Report observation counts, unique molecules and unique source studies for each cooking method and compound class.
+Report per-method and per-compound-class MAE/RMSE in addition to pooled metrics.
+Where feasible, construct stratified-group splits that preserve molecular grouping while approximately balancing major cooking methods or compound classes.
+If some molecules have many more repeated measurements, test molecule-balanced sample weights against the unweighted baseline. Fix the weighting rule before final evaluation.
+7.5 Repeated measurements and measurement uncertainty
+Repeated measurements should not automatically be treated as independent evidence. If replicate-level data are available, distinguish technical from biological replicates and define whether the modelling target is a treatment mean or an individual observation.
+Aggregate replicates when the scientific target is a compound × process mean, while retaining replicate variability as an uncertainty field where available.
+Use a mixed-effects model as a statistical baseline when molecular identity and/or study can reasonably be represented as random effects.
+If measurement standard errors are reported, test uncertainty-weighted regression as a sensitivity analysis; do not invent uncertainty values.
+7.6 Structural leakage beyond exact molecular identity
+Grouping by Canonical_Molecular_ID prevents exact duplicate molecules from crossing folds, but near-identical analogues can still land in different folds. This is a CookRisk interpretation, not a finding directly demonstrated by the reviewed papers.
+Use fingerprint-similarity clusters or scaffold-based grouping as a stress-test split.
+Compare exact-identity GroupKFold with scaffold/cluster-grouped validation; a large performance drop would indicate limited generalization beyond close structural neighbours.
+7.7 Small and heterogeneous dataset strategy
+With 197 unique molecular groups and heterogeneous source conditions, model-selection variance can be substantial. Stability and simple baselines should therefore be prioritized over aggressive tuning.
+Use nested cross-validation when hyperparameters, feature selection, descriptor filtering or interaction selection are tuned.
+Repeat grouped splits across several fixed partitions/seeds and report performance variability.
+Compare against global-mean, method-only, molecular-only and regularized-linear baselines before concluding that a complex learner adds value.
+Keep preprocessing, feature selection, resampling and weighting inside the training portion of each split.
+8. Handling Skewed Retention Values and Extreme Observations
+The assignment reports a highly skewed retention target and rare extreme observations. The correct scientific position is not to remove high values simply because they increase RMSE. Extreme observations may represent genuine chemistry, concentration effects, matrix disruption, unit/basis inconsistencies or transcription errors.
+Metric distinction: None of the six experimental cooking papers reports MAE, RMSE or R² for retention prediction. Their percentages are experimental changes/retention outcomes. Predictive metrics belong to CookRisk's own modelling experiments.
+8.1 Recommended three-stage procedure
+Provenance audit: trace every extreme observation back to its original publication and verify compound identity, initial/final units, sample mass, water content, and calculation of retention.
+Scientific classification: classify the observation as plausible, uncertain, or demonstrably erroneous. Preserve plausible observations in the main analysis.
+Sensitivity analysis: compare model performance with the original target and a pre-specified sensitivity treatment. Do not silently delete observations.
+8.2 Metrics
+MAE: primary easy-to-interpret average absolute error.
+RMSE: retain because it highlights large errors and therefore exposes tail problems, but do not use it alone.
+R²: report as a complementary measure, not as the sole criterion.
+Median absolute error: useful for showing typical performance when a few extreme observations dominate RMSE.
+Tail-specific MAE/RMSE: report separately for high-retention observations.
+If log1p-target modelling is tested, report performance after transforming predictions back to the original retention scale as well.
+Prioritized Data Collection: What Would Improve CookRisk Most?
+1. Process metadata — highest priority. Standardize cooking method, temperature, duration, microwave power/energy, water/oil ratio, medium composition, sequential steps, sample-to-medium ratio, and where possible cut size/surface area.
+2. Drug-interacting food compounds — add experimentally measured retention for compounds relevant to the final food–drug interaction application, especially furanocoumarins and other pharmacologically active food constituents.
+3. Replicate and uncertainty data — capture biological/technical replicate counts, means, standard deviations or standard errors, and measurement basis to support uncertainty-aware modelling.
+4. Missing chemistry variables — prioritize pH/pKa, ionisation state, aqueous solubility, lipid affinity, volatility, relevant enzyme activity, food-matrix moisture/fat, and thermal-degradation kinetic parameters.
+9. Interpretation of the Current Extra Trees Result
+The project currently reports Extra Trees as the best candidate with MAE = 31.96, RMSE = 123.07 and R² = 0.38. These numbers should be interpreted as a baseline for improvement, not as a failure. A grouped molecular validation design asks a harder and more scientifically meaningful question than a random row split.
+The gap between MAE and RMSE is itself informative: RMSE is much larger than MAE, indicating that a relatively small number of large errors are contributing strongly to the squared-error metric. This is consistent with a target distribution containing rare extreme observations, although the exact source of those errors must be investigated rather than assumed.
+The next experiment should therefore be an ablation study rather than immediate hyperparameter tuning.
+9.1 Recommended ablation experiment
+Run all five models on exactly the same GroupKFold splits. Report mean and standard deviation across folds. This prevents differences in fold composition from being mistaken for differences between feature sets.
+Coverage and generalization limitation: The experimental evidence base is concentrated in vegetables, with four of the six primary cooking studies involving Brassica-related matrices or compounds. None directly studies drug-interacting food constituents such as furanocoumarins. Therefore, transfer from vegetable phytochemicals to pharmacologically relevant food compounds is a hypothesis to test, not an established fact. CookRisk should explicitly assess applicability domain and, where possible, add experimentally measured retention data for drug-interacting food compounds.
+10. Research Gaps That CookRisk Can Address
+Cross-food molecular retention prediction: much food-chemistry work is food-specific; CookRisk can test whether molecular descriptors transfer across matrices.
+Joint modelling of chemistry and process: experimental literature usually compares a limited number of compounds and methods, while CookRisk can integrate molecular descriptors with cooking conditions.
+Generalization to unseen molecules: grouped molecular validation can provide a stricter test than row-wise random splits.
+Quantitative interaction modelling: CookRisk can test whether molecular properties modify the effect of temperature, time, medium and cooking method.
+Explicit treatment of extreme retention: rather than discarding values above 100%, CookRisk can investigate when apparent increases are chemically plausible.
+Literature-derived heterogeneity: CookRisk can explicitly model or audit source-paper effects, measurement basis and missing process metadata.
+Food–drug interaction application: the final retention model can be linked to baseline interaction severity to produce a cooking-adjusted risk score.
+Additional literature gap: Direct peer-reviewed ML studies that predict heterogeneous, molecule-level cooking retention from chemical descriptors remain scarce. This is a research gap, not proof of novelty by itself. CookRisk's stronger contribution would be rigorous generalization to unseen molecular groups, explicit applicability-domain analysis, and integration of molecular structure with cooking-process variables.
+Compound/method imbalance gap: the dataset should be audited for repeated compounds, rare cooking methods and rare compound classes separately from target-value skew.
+Model-selection gap: Cawley & Talbot motivate nested evaluation because repeated hyperparameter selection against the same CV estimate can produce selection bias.
+Chemical-dataset methodology gap: QSAR literature provides principles for curation, validation and applicability domains, but direct peer-reviewed ML work on heterogeneous molecule-level cooking-retention prediction remains scarce.
+Descriptor-to-retention evidence gap: the reviewed food-chemistry papers generally identify compound-specific responses but do not fit retention as a function of computed molecular descriptors. Descriptor relationships proposed for CookRisk are therefore testable hypotheses.
+11. Shortlist of Methods to Implement
+Questions Answered
+1. Relevant molecular properties? — Molecular size/molecular weight, polarity/TPSA, LogP, HBD/HBA, topology and functional groups are plausible candidate variables. The reviewed literature does not establish a universal descriptor-to-retention relationship, so these should be tested empirically under grouped validation.
+2. How do cooking methods affect molecular stability? — Boiling can promote water-mediated leaching; steaming often reduces direct water contact; frying/stir-frying add high-temperature oil exposure; microwaving depends strongly on power, time and water addition. Effects are compound- and matrix-dependent rather than universally beneficial or harmful.
+3. Which cooking variables should be prioritized? — Cooking method, temperature, duration, cooking medium/water-or-oil exposure, food-to-medium ratio, microwave power/energy, food matrix and sequential processing should receive the highest priority.
+4. How should repeated observations of the same compound be handled? — Repeated observations should not be treated as independent evidence by default. Group observations by molecular identity during validation; distinguish technical from biological replicates; aggregate to a compound × process mean when that is the scientific target while retaining replicate variability where available; and consider mixed-effects or uncertainty-aware analyses when justified.
+5. What validation strategies are appropriate? — Use 5-fold GroupKFold by Canonical_Molecular_ID as the primary evaluation, keep preprocessing/feature selection inside training folds, use an untouched molecular holdout where feasible, test scaffold/fingerprint clusters for structural leakage, and use source-paper or independent-literature holdouts for external/cross-study validation.
+6. How should skewed targets and extreme observations be handled? — Audit provenance, units, sample mass, water-content changes and measurement basis before changing any extreme value. Preserve scientifically plausible observations, use sensitivity analysis and tail-specific metrics, and do not delete observations merely because they increase RMSE.
+7. What additional data would most improve CookRisk? — First prioritize standardized process metadata; then experimentally measured retention for drug-interacting food compounds such as furanocoumarins; then replicate/uncertainty information; followed by missing chemistry variables such as pH/pKa, ionisation, solubility, lipid affinity, volatility, enzyme activity and thermal-degradation kinetics.
+8. What research gaps can CookRisk address? — Direct peer-reviewed ML prediction of heterogeneous, molecule-level cooking retention remains scarce. Key gaps include cross-food molecular generalization, joint chemistry × process modelling, rigorous unseen-molecule validation, quantitative interaction modelling, explicit treatment of extreme retention, literature-derived heterogeneity/source effects, and descriptor-to-retention evidence.
+12. Conclusion
+The literature indicates that molecular retention during cooking is a multi-factor phenomenon rather than a simple temperature-dependent degradation process. Boiling, steaming, frying and microwaving can produce very different outcomes, and those outcomes depend on the compound, food matrix, cooking duration, temperature and cooking medium. Experimental studies also demonstrate that processing can increase measured or bioaccessible amounts through matrix disruption, concentration and chemical conversion. Therefore, retention values above 100% should be investigated rather than automatically discarded.
+For CookRisk, the strongest modelling strategy is to combine molecular descriptors with explicit cooking and food-context variables, while testing scientifically motivated interactions. RDKit-style descriptors such as molecular weight, LogP, TPSA, HBD and HBA are reasonable candidate features, but the literature does not establish them as universal causal determinants of retention. Their value must be demonstrated using grouped validation.
+The current 5-fold GroupKFold design grouped by Canonical_Molecular_ID is therefore an important methodological strength. It protects against a major form of leakage that can occur when multiple observations of the same molecule are distributed between training and validation. The next major improvements should focus on process metadata, interaction features, provenance auditing and tail-aware evaluation rather than simply increasing model complexity.
+The central research opportunity for CookRisk is to bridge detailed experimental food-chemistry evidence on cooking-induced retention with cheminformatics/QSAR methods for generalizing chemical behavior across compounds. The literature does not yet establish a universal descriptor-to-cooking-retention relationship, and the experimental evidence does not directly cover the drug-interacting food compounds motivating CookRisk. A rigorously validated molecular-level retention model could therefore provide a useful foundation for a cooking-adjusted food–drug interaction risk score, provided its applicability domain and generalization limits are explicit.
+Delaney, J. S. (2004). ESOL: Estimating Aqueous Solubility Directly from Molecular Structure. Journal of Chemical Information and Computer Sciences, 44(3), 1000–1005. DOI: 10.1021/ci034243x. ACS paper
+Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2018). MoleculeNet: a benchmark for molecular machine learning. Chemical Science, 9(2), 513–530. DOI: 10.1039/C7SC02664A. RSC paper
+13. References and Study Links
+Hanschen et al. (2012). Thermally induced degradation of sulfur-containing aliphatic glucosinolates in broccoli sprouts and model systems. J. Agric. Food Chem. 60(9), 2231–2241. DOI: 10.1021/jf204830p. Read paper
+Tropsha, A. (2010). Best Practices for QSAR Model Development, Validation, and Exploitation. Molecular Informatics, 29(6–7), 476–488. DOI: 10.1002/minf.201000061. Read paper
+Ferracane et al. (2008). Effects of different cooking methods on antioxidant profile, antioxidant capacity, and physical characteristics of artichoke. J. Agric. Food Chem. 56(18), 8601–8608. DOI: 10.1021/jf800408w. Read paper
+Stryjecka et al. (2026). Effects of Household Cooking Methods on the Nutritional, Phytochemical and Functional Properties of Cucurbita maxima Leaves. Molecules, 31(16), 2740. DOI: 10.3390/molecules31162740. Read paper
+Wu et al. (2021). Analysis of Processing Effects on Glucosinolate Profiles in Red Cabbage by LC-MS/MS in Multiple Reaction Monitoring Mode. Molecules, 26(17), 5171. DOI: 10.3390/molecules26175171. Read paper
+Miglio et al. (2008). Effects of Different Cooking Methods on Nutritional and Physicochemical Characteristics of Selected Vegetables. J. Agric. Food Chem. 56(1), 139–147. DOI: 10.1021/jf072304b. Read paper
+Yuan et al. (2009). Effects of Different Cooking Methods on Health-Promoting Compounds of Broccoli. J. Zhejiang University-SCIENCE B, 10(8), 580–588. DOI: 10.1631/jzus.B0920051. Read paper
+Kamiloglu et al. (2014). Home processing of tomatoes: effects on in vitro bioaccessibility of total lycopene, phenolics, flavonoids, and antioxidant capacity. J. Sci. Food Agric. 94(11), 2225–2233. DOI: 10.1002/jsfa.6546. Read paper
+Volden et al. (2008). Effect of thermal treatment on glucosinolates and antioxidant-related parameters in red cabbage. Food Chemistry, 109(3), 595–605. DOI: 10.1016/j.foodchem.2008.01.010. Read paper
+Yap, C.-W. (2011). PaDEL-descriptor: An open source software to calculate molecular descriptors and fingerprints. J. Comput. Chem. 32(7), 1466–1474. DOI: 10.1002/jcc.21707. Read paper
+Roberts et al. (2017). Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913–929. DOI: 10.1111/ecog.02881. Read paper
+Branco, Torgo & Ribeiro (2016). A Survey of Predictive Modeling on Imbalanced Domains. ACM Computing Surveys, 49(2), Article 31. DOI: 10.1145/2907070. Read paper
+Ertl, Rohde & Selzer (2000). Fast Calculation of Molecular Polar Surface Area as a Sum of Fragment-Based Contributions and Its Application to the Prediction of Drug Transport Properties. J. Med. Chem. 43(20), 3714–3717. DOI: 10.1021/jm000942e. Read paper
+Moriwaki et al. (2018). Mordred: a molecular descriptor calculator. Journal of Cheminformatics, 10, 4. DOI: 10.1186/s13321-018-0258-y. Read paper
+Cawley & Talbot (2010). On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation. JMLR, 11, 2079–2107. JMLR paper
+Branco, Torgo & Ribeiro (2017). SMOGN: a Pre-processing Approach for Imbalanced Regression. PMLR 74, 36–50. PMLR paper
+Palermo, Pellegrini & Fogliano (2014). The effect of cooking on the phytochemical content of vegetables. J. Sci. Food Agric. 94(6), 1057–1070. DOI: 10.1002/jsfa.6478. Read paper
+Oerlemans et al. (2006). Thermal degradation of glucosinolates in red cabbage. Food Chemistry, 95(1), 19–29. DOI: 10.1016/j.foodchem.2004.12.013. Read paper
+14. Citation and Evidence Note
+DOI and bibliographic identifiers were checked against publisher, PubMed or authoritative bibliographic records. Experimental retention values remain distinct from predictive metrics. Ferracane et al. (2008) is used for the specific matrix-softening/increased-extractability mechanism; Wu et al. (2021) retains a source-condition caveat because its tables and prose require careful metadata reconciliation. The Brassica/vegetable concentration of the evidence base and absence of direct furanocoumarin/drug-interacting compound studies remain explicit limitations. Methodological recommendations are labelled as CookRisk interpretations rather than findings of the experimental papers.
+Current best model | Extra Trees Regressor
+Current reported performance | MAE = 31.96; RMSE = 123.07; R² = 0.38
+Project dataset stated in brief | 1,124 observations; 197 unique molecular groups
+Primary validation design | 5-fold GroupKFold grouped by Canonical_Molecular_ID
+# | Paper | Year / DOI | Objective / dataset / compounds | Processing conditions | Methods / validation | Main findings / CookRisk relevance
+1 | Stryjecka et al. (2026) | 2026
+10.3390/molecules31162740 | Pumpkin leaves; 3 biological replicates; amino acids, phenolics, carotenoids, nutritional/functional measures. | Boiling ~95°C/10 min, 100 g + 150 mL water; steaming ~98°C/10 min; microwave 2450 MHz, 700 W/3 min, 100 g + 12 mL water; stir-frying 100 g + 10 mL olive oil. | ANOVA + Tukey; HCA/heatmaps; no predictive ML. | Steaming generally preserved several phytochemicals better; supports explicit method × compound/process variables.
+2 | Wu et al. (2021) | 2021
+10.3390/molecules26175171 | Red cabbage; 10 glucosinolates measured by LC-MS/MS-MRM. | Boiling 1–30 min; steaming 100°C/3 min; microwave 1000 W/3 min; frying 160°C/3 min; stir-frying 190°C/3 s; water/oil ratios reported. | Experimental comparison; ANOVA/statistical analysis; no predictive ML. | Total glucosinolate losses: 32.36% boiling, 24.83% microwave, 25.27% steaming, 81.11% frying, 84.29% stir-frying.
+3 | Miglio et al. (2008) | 2008
+10.1021/jf072304b | Carrot, courgette, broccoli; polyphenols, carotenoids, glucosinolates, ascorbic acid and antioxidant capacity. | Standardized specimens; boiling in covered pot at 1:5 food/water; steaming at atmospheric pressure; frying in 2.2 L peanut oil at 170°C. Cooking time was optimized per vegetable for similar tenderness; exact times are not stated in the accessible methods text. | Triplicate cooking trials; one-way ANOVA + LSD at 95% confidence; no predictive ML. | Water cooking generally better preserved antioxidant compounds; frying retained less. Antioxidant-capacity measures increased after cooking.
+4 | Yuan et al. (2009) | 2009
+10.1631/jzus.B0920051 | Broccoli; glucosinolates, vitamin C, chlorophyll, soluble protein/sugars and other health-promoting compounds. | Boiling: 200 g + 400 mL boiling water, 5 min; steaming: 200 g above 200 mL boiling water, 5 min; microwave: 1000 W/5 min, 200 g + 10 mL water; stir-frying and stir-frying/boiling also tested. | Experimental comparison; statistical significance testing; no predictive ML. | Steaming generally produced lower glucosinolate losses; sequential cooking illustrates why process history matters.
+5 | Kamiloglu et al. (2014) | 2014
+10.1002/jsfa.6546 | Seven tomato products; lycopene, phenolics, flavonoids, antioxidant capacity; HPLC + in-vitro digestion/bioaccessibility. | Seven home-processed tomato products, including paste processing and drying. Exact treatment temperatures/times are not exposed in the accessible publisher record, so no unverified values are inserted. | Experimental comparison; HPLC + in-vitro gastrointestinal digestion; no predictive ML. | Paste processing and drying significantly increased bioaccessible lycopene, phenolics and flavonoids; retention and bioaccessibility are distinct endpoints.
+6 | Volden et al. (2008) | 2008
+10.1016/j.foodchem.2008.01.010 | Red cabbage; glucosinolates, phenols, anthocyanins, ascorbic acid, sugars and antioxidant assays. | Blanching, boiling and steaming; processing water also analysed. Exact thermal parameters are not added here without a directly accessible full-text methods record. | Experimental comparison; HPLC-MS/DAD plus antioxidant assays/statistics. | Processing-water measurements provide direct evidence for leaching; unrecovered losses suggest degradation for some compounds.
+7 | Hanschen et al. (2012) | 2012
+10.1021/jf204830p | Broccoli sprouts and isolated glucosinolates/model systems; sulfur-containing aliphatic glucosinolates and thermal breakdown products. | Dry and aqueous thermal treatments across temperatures and pH conditions. At 130°C for 80 min, indole GSLs fell 54.77→4.38 μmol/g (92% loss) and aliphatic GSLs 6.7→1.9 μmol/g (72% loss). | Mechanistic chemistry; HPLC-DAD for desulfo-GSLs and GC-FID for breakdown products; no predictive ML. | Quantitative evidence for compound-class-dependent thermal degradation and breakdown products; supports structure × temperature × pH effects.
+8 | Tropsha (2010) | 2010
+10.1002/minf.201000061 | QSAR methodology review; chemical curation, descriptors, outliers, applicability domains and validation. | Not a cooking experiment. | QSAR best-practice review; internal/external validation and applicability-domain principles. | Supports rigorous curation, applicability-domain analysis, outlier investigation and external validation; methodological transfer, not cooking evidence.
+Priority | Variable | Why it matters
+1 | Cooking method | Boiling, steaming, frying, stir-frying, microwaving and sequential methods show materially different effects.
+2 | Temperature | Thermal exposure is a direct driver of chemical degradation and also changes matrix properties.
+3 | Cooking duration | Wu et al. explicitly demonstrates time dependence for boiling.
+4 | Cooking medium / water or oil exposure | Volden et al. provides direct evidence that compounds can move into processing water.
+5 | Food matrix | Miglio and Kamiloglu show that matrix changes can alter extractability and bioaccessibility.
+6 | Microwave power / energy exposure | Power is not equivalent to temperature and should not be collapsed into a simple method label.
+7 | Food-to-water or food-to-oil ratio | Important for interpreting leaching and concentration effects.
+8 | Sequential processing steps | A stir-fry followed by boiling is not necessarily equivalent to either method alone.
+Model | Feature set | Question answered | Expected value
+A | Molecular descriptors only | How much information comes from molecular structure? | Structural baseline
+B | Cooking variables only | How much information comes from process conditions? | Process baseline
+C | Molecular + cooking | Does combining chemistry and process improve generalization? | Core CookRisk model
+D | Molecular + cooking + food context | Does matrix/context add predictive information? | Full-context model
+E | D + selected interactions | Do chemically motivated interactions improve performance? | Mechanistic feature test
+Method | Implementation recommendation
+1. GroupKFold by molecular identity | Keep as the primary validation design.
+2. Nested preprocessing within folds | Imputation, feature selection, scaling and any resampling must be fit only on training folds.
+3. Raw-target Extra Trees baseline | Preserve the current best model as the reference.
+4. log1p target experiment | Compare with the raw-target model using identical grouped folds.
+5. Robust/error-tail analysis | Report MAE, RMSE, R², median AE and tail-specific errors.
+6. Feature ablation | Molecular-only vs cooking-only vs combined vs food-context vs interaction features.
+7. Interaction features | Prioritize descriptor × method, descriptor × temperature/time and medium-related interactions.
+8. Provenance audit | Trace extreme and suspicious observations to original papers before changing the target.
+9. Source-paper holdout | Where feasible, hold out complete papers to assess cross-study generalization.
+10. External validation | Use an independent literature source not used during model development.

@@ -1,0 +1,1715 @@
+{
+  "version": "6.9",
+  "hitCount": 6,
+  "request": {
+    "queryString": "TITLE_ABS:\"Gamma-Terpinene\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41480107",
+        "source": "MED",
+        "pmid": "41480107",
+        "pmcid": "PMC12753994",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12753994"
+          ]
+        },
+        "doi": "10.3389/fmicb.2025.1680686",
+        "title": "Integrated &lt;i&gt;in silico&lt;/i&gt;-&lt;i&gt;in vitro&lt;/i&gt; and pharmacokinetic profiling of &lt;i&gt;Thymus vulgaris&lt;/i&gt;-derived metabolites targeting multidrug resistance pathways in extensively drug-resistant &lt;i&gt;Acinetobacter baumannii&lt;/i&gt; (muks92).",
+        "authorString": "Abdulkareem AH, Mukhles Ahmed M, Abed Latef Al-Meani S, Abdulkareem EH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abdulkareem AH",
+              "lastName": "Abdulkareem",
+              "firstName": "Ali Hazim",
+              "initials": "AH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, College of Science, University of Anbar, Ramadi, Iraq."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mukhles Ahmed M",
+              "lastName": "Mukhles Ahmed",
+              "firstName": "Mohammed",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, College of Science, University of Anbar, Ramadi, Iraq."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abed Latef Al-Meani S",
+              "lastName": "Abed Latef Al-Meani",
+              "firstName": "Safaa",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, College of Science, University of Anbar, Ramadi, Iraq."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abdulkareem EH",
+              "lastName": "Abdulkareem",
+              "firstName": "Elham Hazeim",
+              "initials": "EH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Oral and Maxillofacial Surgery, College of Dentistry, University of Anbar, Ramadi, Iraq."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2831-9246"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5705-8866"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0392-1457"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "16",
+          "journalIssueId": 3895030,
+          "dateOfPublication": "2025 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Front Microbiol",
+            "title": "Frontiers in microbiology",
+            "essn": "1664-302X",
+            "issn": "1664-302X",
+            "nlmid": "101548977",
+            "isoabbreviation": "Front Microbiol"
+          },
+          "printPublicationDate": "2025-01-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "1680686",
+        "abstractText": "<h4>Background</h4><i>Acinetobacter baumannii</i> is a major nosocomial pathogen with extensive drug resistance (XDR) driven by β-lactamases, efflux systems, and biofilm formation. Plant-derived metabolites are promising multi-target modulators of these pathways.<h4>Methods</h4>Ten XDR <i>A. baumannii</i> isolates with strong biofilm and β-lactamase activity were screened; the most resistant (strain muks92) underwent whole-genome sequencing and <i>in-silico</i> analyses. Essential oil from <i>Thymus vulgaris</i> was profiled by GC-MS, identifying o-cymene (32.95%) and gamma-terpinene (16.85%) as dominant constituents. Molecular docking (AutoDock Vina) targeted class D β-lactamase (6T1H), a biofilm-associated regulator (5HM6), and PBP1a/efflux-associated protein (8YR0), with post-docking visualization and AMBER-relaxed stability checks. Antibiofilm activity was quantified by crystal-violet microtiter assay, and ESBL activity by nitrocefin hydrolysis. Multilocus sequence typing (MLST), resistance/virulence gene mining, and mobile genetic element mapping were performed on the genome. Pharmacokinetic/toxicity properties for key metabolites were predicted using ADMET-AI.<h4>Results</h4>GC-MS established a cymene/terpinene-rich chemotype. Docking showed favorable hydrophobic/<i>π</i>-alkyl encapsulation of o-cymene and gamma-terpinene within catalytic or transport pockets of 6T1H, 5HM6, and 8YR0, consistent with steric gating of substrate access. <i>T. vulgaris</i> significantly reduced biofilm biomass versus control (<i>p</i> = 0.0002), and lowered ESBL activity (<i>p</i> = 0.0017). The muks92 genome (3.98 Mb; ST1104) carried a complex resistome including blaOXA-90, blaOXA-72, blaADC-25, blaCARB-14, armA, aac(6')-Ian, aadA5, sul1/sul2, mph(E)/msr(E), alongside virulence loci (bap, bfmRS, ompA, pgaABCD, csuA/B-E) and siderophore systems (bas/bau/bar), with multiple insertion sequences and an IncA/C2 replicon. ADMET predictions supported good oral absorption and low acute toxicity; gamma-terpinene showed broader tissue distribution (predicted VDss ≈ 7.24 L/kg) and a longer half-life (~4.6 h) than o-cymene.<h4>Conclusion</h4><i>T. vulgaris</i> metabolites, particularly gamma-terpinene, exhibit multi-target inhibitory potential against resistance and virulence pathways in XDR <i>A. baumannii</i> (muks92), aligning <i>in-silico</i> interactions with measurable antibiofilm and ESBL attenuation <i>in vitro</i>. Given the predictive nature of docking/ADMET outputs, targeted enzyme kinetics, standardized MIC/MBC testing, cytotoxicity assays, and in-vivo validation are warranted before therapeutic translation.",
+        "affiliation": "Department of Biotechnology, College of Science, University of Anbar, Ramadi, Iraq.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Acinetobacter baumannii",
+            "Molecular docking",
+            "Gc–ms",
+            "Thymus Vulgaris",
+            "Β-lactamase",
+            "Extensively Drug-resistant (Xdr)",
+            "Biofilm Inhibition"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fmicb.2025.1680686"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12753994"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12753994?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gca",
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-01-02",
+        "dateOfCreation": "2026-01-02",
+        "dateOfRevision": "2026-01-04",
+        "electronicPublicationDate": "2025-12-17",
+        "firstPublicationDate": "2025-12-17",
+        "firstIndexDate": "2026-01-02",
+        "fullTextReceivedDate": "2026-01-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "40594152",
+        "source": "MED",
+        "pmid": "40594152",
+        "pmcid": "PMC12219580",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12219580"
+          ]
+        },
+        "doi": "10.1038/s41598-025-05415-0",
+        "title": "Deciphering the biosynthesis pathway of gamma terpinene cuminaldehyde and para cymene in the fruit of Bunium persicum.",
+        "authorString": "Samandari-Bahraseman MR, Hajibarati M, Khorsand B, Soltani N, Esmaeilzadeh-Salestani K, Loit E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Samandari-Bahraseman MR",
+              "lastName": "Samandari-Bahraseman",
+              "firstName": "Mohammad Rasoul",
+              "initials": "MR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Varjavand Kesht Kariman, Limited Liability Company, Kerman, Iran. m.r.samandari@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hajibarati M",
+              "lastName": "Hajibarati",
+              "firstName": "Mjid",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Varjavand Kesht Kariman, Limited Liability Company, Kerman, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khorsand B",
+              "lastName": "Khorsand",
+              "firstName": "Babak",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1585-3909"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurology, University of California, Irvine, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Soltani N",
+              "lastName": "Soltani",
+              "firstName": "Narges",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Production Engineering and Plant Genetics Department, Faculty of Agriculture, Lorestan University, P.O. Box 465, Khorramabad, Iran. Soltani.na@fa.lu.ac.ir."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Esmaeilzadeh-Salestani K",
+              "lastName": "Esmaeilzadeh-Salestani",
+              "firstName": "Keyvan",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6882-7616"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Technology, University of Tartu, Tartu, 50411, Estonia."
+                  },
+                  {
+                    "affiliation": "Chair of Crop Science and Plant Biology, Institute of Agricultural and Environmental Sciences, Estonian University of Life Sciences, Kreutzwaldi 1, Tartu, EE51014, Estonia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Loit E",
+              "lastName": "Loit",
+              "firstName": "Evelin",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chair of Crop Science and Plant Biology, Institute of Agricultural and Environmental Sciences, Estonian University of Life Sciences, Kreutzwaldi 1, Tartu, EE51014, Estonia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6635-8740"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1585-3909"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6882-7616"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "15",
+          "journalIssueId": 3968958,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Sci Rep",
+            "title": "Scientific reports",
+            "essn": "2045-2322",
+            "issn": "2045-2322",
+            "nlmid": "101563288",
+            "isoabbreviation": "Sci Rep"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "22438",
+        "abstractText": "Persian cumin (Bunium persicum) is a widely used plant in Iranian cuisine, valued for its aromatic and therapeutic compounds, primarily monoterpenoids such as γ-terpinene, cuminaldehyde, and p-cymene. Many ambiguities surround the exact process by which monoterpenoids are synthesized in plants. This study investigates the key genes and biosynthetic pathways involved in monoterpenoid production during fruit development. To achieve this, RNA sequencing and GC-MS analysis were performed on two tissues (inflorescence and stem) to identify differentially expressed genes associated with volatile compound biosynthesis. Our findings revealed four highly expressed genes, terpinene synthetase (TPS1, and TPS2), and two geraniol hydroxylases-correlated with γ-terpinene and cuminaldehyde production. We also propose that cuminaldehyde biosynthesis from p-cymene likely involves two hydroxylation steps mediated by cytochrome P450 enzymes (CYP76B) family genes. Additionally, we identified other candidate genes, including those from the P450 family, alcohol dehydrogenases, and hydroxylases, that may contribute to the pathway of cuminaldehyde biosynthesis. Ultimately, this study presents a comprehensive analysis of Bunium persicum's transcriptome and proposes potential key genes involved in the biosynthesis of cuminaldehyde and γ-terpinene.",
+        "affiliation": "Varjavand Kesht Kariman, Limited Liability Company, Kerman, Iran. m.r.samandari@gmail.com.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Fruit",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzaldehydes"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Biosynthetic Pathways"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cyclohexane Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cymenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Monoterpenoids",
+            "De Novo Assembly",
+            "Tps1",
+            "Tps2",
+            "Geraniol Hydroxylases"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzaldehydes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "4-cymene",
+              "registryNumber": "1G1C8T1N7Q"
+            },
+            {
+              "name": "gamma-terpinene",
+              "registryNumber": "4YGF4PQP49"
+            },
+            {
+              "name": "cuminaldehyde",
+              "registryNumber": "O0893NC35F"
+            },
+            {
+              "name": "Cyclohexane Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41598-025-05415-0"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12219580"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12219580?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-07-02",
+        "dateOfCreation": "2025-07-02",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2025-07-01",
+        "firstPublicationDate": "2025-07-01",
+        "firstIndexDate": "2025-07-02",
+        "fullTextReceivedDate": "2025-11-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39598730",
+        "source": "MED",
+        "pmid": "39598730",
+        "pmcid": "PMC11596380",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11596380"
+          ]
+        },
+        "doi": "10.3390/molecules29225340",
+        "title": "Enhancing Cannabinoid Bioavailability in Pain Management: The Role of Cyclodextrins.",
+        "authorString": "Ribeiro A, Loureiro R, Cabral-Marques H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ribeiro A",
+              "lastName": "Ribeiro",
+              "firstName": "Adriana",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3498-1073"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Loureiro R",
+              "lastName": "Loureiro",
+              "firstName": "Rui",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9335-3811"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cabral-Marques H",
+              "lastName": "Cabral-Marques",
+              "firstName": "Helena",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9255-4697"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9255-4697"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9335-3811"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3498-1073"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "22",
+          "volume": "29",
+          "journalIssueId": 3860261,
+          "dateOfPublication": "2024 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "nlmid": "100964009",
+            "isoabbreviation": "Molecules"
+          },
+          "printPublicationDate": "2024-11-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "5340",
+        "abstractText": "Chronic pain (CP), including pain related to cancer, affects approximately 2 billion people worldwide, significantly diminishing quality of life and imposing socio-economic burdens. Current treatments often provide limited relief and may cause adverse effects, demanding more effective alternatives. Natural compounds from <i>Cannabis sativa</i> L., particularly cannabinoids like THC and CBD, exhibit analgesic and anti-inflammatory properties, but their therapeutic use is restricted by poor solubility and low bioavailability. Cyclodextrins (CDs) and cyclic oligosaccharides may encapsulate hydrophobic drugs in order to enhance their solubility and stability, offering a promising solution to these challenges. This study explores the formation of CD inclusion complexes with cannabinoids and specific terpenes, such as D-limonene (LIM), beta-caryophyllene (BCP), and gamma-terpinene (γ-TPN), aiming to improve pharmacokinetic profiles and therapeutic efficacy. We discuss analytical techniques for characterizing these complexes and their mechanisms of action, highlighting the potential of CDs to optimize drug formulations. The integration of CDs in cannabinoid therapies may enhance patient compliance and treatment outcomes in CP management. Future research should focus on innovative formulations and delivery systems to maximize the clinical applications of those compounds.",
+        "affiliation": "Research Institute for Medicines (iMed.ULisboa), Faculty of Pharmacy, Universidade de Lisboa, 1649-003 Lisbon, Portugal.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "FCT—Foundation for Science and Technology, I.P.",
+              "grantId": "UID/DTP/04138/2021",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cannabis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cannabinoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cyclodextrins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pain Management",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chronic Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bioavailability",
+            "Cyclodextrin",
+            "Analgesic",
+            "Anti-inflammatory",
+            "Chronic pain",
+            "Cannabis",
+            "Inclusion complexes",
+            "Terpene",
+            "Drug Delivery",
+            "Cannabinoid"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cannabinoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cyclodextrins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.3390/molecules29225340"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules29225340"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11596380"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11596380?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2024-11-27",
+        "dateOfCreation": "2024-11-27",
+        "dateOfRevision": "2024-12-04",
+        "electronicPublicationDate": "2024-11-13",
+        "firstPublicationDate": "2024-11-13",
+        "firstIndexDate": "2024-11-28",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37870072",
+        "source": "MED",
+        "pmid": "37870072",
+        "doi": "10.1080/07391102.2023.2270601",
+        "title": "&lt;i&gt;In-silico&lt;/i&gt; studies of &lt;i&gt;Brassica oleracea&lt;/i&gt; active compounds and their role in thyroid peroxidase activity.",
+        "authorString": "Kalath H, Koshy AJ, Banjan B, Soman S, Hosadevasthana G, Raju R, Rehman N, Revikumar A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kalath H",
+              "lastName": "Kalath",
+              "firstName": "Haritha",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-5214-9087"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Koshy AJ",
+              "lastName": "Koshy",
+              "firstName": "Abel John",
+              "initials": "AJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Banjan B",
+              "lastName": "Banjan",
+              "firstName": "Bhavya",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0159-3034"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Soman S",
+              "lastName": "Soman",
+              "firstName": "Sowmya",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hosadevasthana G",
+              "lastName": "Hosadevasthana",
+              "firstName": "Gururaja",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Yenepoya Ayurveda Medical College & Hospital, Yenepoya (Deemed to be University), Naringana, Mangalore, Karnataka, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Raju R",
+              "lastName": "Raju",
+              "firstName": "Rajesh",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2319-121X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rehman N",
+              "lastName": "Rehman",
+              "firstName": "Niyas",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Revikumar A",
+              "lastName": "Revikumar",
+              "firstName": "Amjesh",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India."
+                  },
+                  {
+                    "affiliation": "Kerala Genome Data Centre, Kerala Development and Innovation Strategic Council, Vazhuthacaud, Thiruvananthapuram, Kerala, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0159-3034"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2319-121X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-5214-9087"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "22",
+          "volume": "42",
+          "journalIssueId": 3857795,
+          "dateOfPublication": "2024 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "J Biomol Struct Dyn",
+            "title": "Journal of biomolecular structure & dynamics",
+            "essn": "1538-0254",
+            "issn": "0739-1102",
+            "nlmid": "8404176",
+            "isoabbreviation": "J Biomol Struct Dyn"
+          },
+          "printPublicationDate": "2024-01-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "12417-12433",
+        "abstractText": "Cabbage, a leafy vegetable that is widely consumed across the globe, holds a significant place within the Brassica family. For almost a century, its potential anti-thyroid effects have captured attention. The presence of compounds such as thiocyanate and goitrin in cabbage has been extensively investigated for their ability to impede sodium-iodide symporter and thyroid peroxidase (TPO) activities. The present study is focused on uncovering the active constituents in cabbage that could interact with TPO, while also examining their stability under cooking temperatures. Employing molecular docking and molecular dynamic simulation techniques, we quantified the binding strength of phytochemicals present in cabbage with the target. Out of the 60 compounds identified in cabbage leaves, only 18 exhibited docking scores surpassing those of the commercially available anti-thyroid drug, methimazole. These chosen compounds were studied for binding free energy and pharmacokinetic properties. A specific compound, gamma-Terpinene, classified as a monoterpene, emerged as noteworthy due to its alignment with all criteria and the highest observed binding free energy compared to others. Furthermore, we explored the stability of gamma-Terpinene at 373.15K (cooking temperature) and observed its susceptibility to degradation. This might contribute to the relatively diminished anti-thyroid effects of cabbage when consumed in cooked form. Consequently, our findings suggest that the consumption of cooked cabbage could be more conducive to maintaining normal thyroid function, as opposed to its raw counterpart.Communicated by Ramaswamy H. Sarma.",
+        "affiliation": "Centre for Integrative Omics Data Science (CIODS), Yenepoya (Deemed to be University), Mangalore, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Iodide Peroxidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Binding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Thermal stability",
+            "Cabbage",
+            "Molecular dynamics simulation",
+            "Molecular docking",
+            "Thyroid peroxidase",
+            "Phytochemicals",
+            "Anti-thyroid"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Iodide Peroxidase",
+              "registryNumber": "EC 1.11.1.8"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/07391102.2023.2270601"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-11-21",
+        "dateOfCreation": "2023-10-23",
+        "dateOfRevision": "2026-07-09",
+        "electronicPublicationDate": "2023-10-23",
+        "firstPublicationDate": "2023-10-23",
+        "firstIndexDate": "2023-10-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR789741",
+        "source": "PPR",
+        "doi": "10.20944/preprints202401.1398.v1",
+        "title": "Susceptibility Patterns in <em>Staphylococcus </em>and <em>Klebsiella </em>Causing Nosocomial Infections upon Treatment with E-Anethole-Rich Essential oil from <em>Clausena anisate</em>",
+        "authorString": "Nguimatsia F, Momo EJ, Keilah Lunga P, Lum Tamanji V, Pone Kamdem B, Jazet Dongmo PM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nguimatsia F",
+              "lastName": "Nguimatsia",
+              "firstName": "François",
+              "initials": "F"
+            },
+            {
+              "fullName": "Momo EJ",
+              "lastName": "Momo",
+              "firstName": "Evariste Josué",
+              "initials": "EJ"
+            },
+            {
+              "fullName": "Keilah Lunga P",
+              "lastName": "Keilah Lunga",
+              "firstName": "Paul",
+              "initials": "P"
+            },
+            {
+              "fullName": "Lum Tamanji V",
+              "lastName": "Lum Tamanji",
+              "firstName": "Virginia",
+              "initials": "V"
+            },
+            {
+              "fullName": "Pone Kamdem B",
+              "lastName": "Pone Kamdem",
+              "firstName": "Boniface",
+              "initials": "B"
+            },
+            {
+              "fullName": "Jazet Dongmo PM",
+              "lastName": "Jazet Dongmo",
+              "firstName": "Pierre Michel",
+              "initials": "PM"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3642-377X"
+            }
+          ]
+        },
+        "pubYear": "2024",
+        "abstractText": "High rates of resistance to antibiotics are associated with healthcare-related infections, thus appealing for the urgent need for effective antimicrobials against these maladies. The present study aims to determine the chemical composition of essential oil (EO) from Clausena anisata leaves, and evaluate their antibacterial activity against selected nosocomial bacteria. Fresh leaves of Clausena anisata were subjected to a steam distillation using a Clevenger apparatus to afford the essential oil. The phytochemical composition of this oil was analyzed using gas chromatography-mass spectrometry (GC-MS). The essential oil was further tested against selected nosocomial bacteria, including Staphylococcus and Klebsiella species, among others, using a microdilution method. As a result, 0.77% of essential oil was extracted from fresh leaves of Clausena anisata. The GC-MS analysis revealed that the as-prepared essential oil contain E-anethole (70.77%), methyl isoeugenol (13.85%), estragole (4.10%), &gamma;-terpinene (3.33%), myrcene (2.82%) and sabinene (0.77%), with E-anethole being the major constituent. Meanwhile, twenty two compounds were identified in the EO of Clausena anisata leaves through gas chromatography. Upon antibacterial test against selected nosocomial pathogens, the E-anethole-rich essential oil exhibited minimum inhibitory concentration (MIC) and minimum bactericidal concentration (MBC) values ranging from 3.91 to 125 &micro;g/mL and 7.81 to 125 &micro;g/mL, respectively, indicative of a bactericidal orientation of the plant&rsquo;s essential oil (MIC/MBC ratio: 4). This novel contribution highlights the scientific validation of the use of Clausena anisata leaves in the traditional treatment of various infectious diseases. However, toxicity and pharmacokinetic studies, mechanistic basis of the antibacterial action, and in vivo antibacterial experiments of the E-anethole-rich essential oil of Clausena anisata should be investigated to successfully use this plant in the treatment of infectious diseases.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "Preprints.org",
+          "yearOfPublication": 2024
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.preprints.org/manuscript/202401.1398/v1/download"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.20944/preprints202401.1398.v1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-01-20",
+        "firstPublicationDate": "2024-01-18",
+        "firstIndexDate": "2024-01-20",
+        "versionList": {
+          "version": [
+            {
+              "id": "PPR789741",
+              "source": "PPR",
+              "versionNumber": 1,
+              "firstPublishDate": "2024-01-18",
+              "pubTypeList": {
+                "pubType": [
+                  "preprint"
+                ]
+              },
+              "hasEvaluations": "N"
+            }
+          ]
+        },
+        "versionNumber": 1,
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36031103",
+        "source": "MED",
+        "pmid": "36031103",
+        "doi": "10.1016/j.jep.2022.115646",
+        "title": "Essential oil of Ligusticum chuanxiong Hort. Regulated P-gp protein and tight junction protein to change pharmacokinetic parameters of temozolomide in blood, brain and tumor.",
+        "authorString": "Shuai SY, Liu SS, Liu XJ, Zhang GS, Zheng Q, Yue PF, Yang M, Hu PY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shuai SY",
+              "lastName": "Shuai",
+              "firstName": "Shu-Yuan",
+              "initials": "SY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: 1352341905@qq.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu SS",
+              "lastName": "Liu",
+              "firstName": "Shan-Shan",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: 648703600@qq.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu XJ",
+              "lastName": "Liu",
+              "firstName": "Xiao-Jin",
+              "initials": "XJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: 3098405279@qq.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang GS",
+              "lastName": "Zhang",
+              "firstName": "Guo-Song",
+              "initials": "GS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: 22491486@qq.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zheng Q",
+              "lastName": "Zheng",
+              "firstName": "Qin",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: zhengqin912006@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yue PF",
+              "lastName": "Yue",
+              "firstName": "Peng-Fei",
+              "initials": "PF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: ypfpharm@126.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang M",
+              "lastName": "Yang",
+              "firstName": "Ming",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: yangming16@126.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu PY",
+              "lastName": "Hu",
+              "firstName": "Peng-Yi",
+              "initials": "PY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: hpy820515@126.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "298",
+          "journalIssueId": 3422756,
+          "dateOfPublication": "2022 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "J Ethnopharmacol",
+            "title": "Journal of ethnopharmacology",
+            "essn": "1872-7573",
+            "issn": "0378-8741",
+            "nlmid": "7903310",
+            "isoabbreviation": "J Ethnopharmacol"
+          },
+          "printPublicationDate": "2022-11-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "115646",
+        "abstractText": "<h4>Ethnopharmacological relevance</h4>The existence of the blood-brain barrier/blood tumor barrier (BBB/BTB) severely restricts the effectiveness of anti-tumor drugs, thus glioma is still an incurable disease with a high fatality rate. Chuanxiong (Ligusticum chuanxiong Hort., Umbelliferae) was used as a messenger drug to increase the distribution of drugs in brain tissue, and its application in Chinese herbal formula for treating glioma was also the highest.<h4>Aim of the study</h4>Our previous researches showed that essential oil (EO) of chuanxiong could promote temozolomide (TMZ) entry into glioma cells in vitro and enhance TMZ-induced anticancer efficiency in vivo, and therefore, the aim of this study was to investigate whether EO could increase the concentration accumulation of TMZ in brain or tumor of C6 glioma rats and the related mechanisms.<h4>Materials and methods</h4>The pharmacokinetics were conducted in C6 glioma rats by administering either TMZ alone or combined with EO through oral routes. TMZ concentration in blood, brain and tumor was detected using liquid chromatography-mass spectrometry/mass spectrometry (LC-MS/MS) and then pharmacokinetic parameters were calculated. The changed expressions of P-gp protein, tight junction occludin, claudin-5 and zonula occludens-1 (ZO-1) in brain of glioma rats were studied by Western blot to clarify the mechanism. Finally, the chemical composition of EO was analyzed by gas chromatography-massspectrometry (GC-MS).<h4>Results</h4>The results showed that EO significantly affected the pharmacokinetic parameters such as T<sub>max</sub>, C<sub>max</sub> and CL (p < 0.01), but did not significantly change the AUC<sub>(0→∞)</sub> of TMZ in blood (p > 0.05). However, EO markedly improved the AUC<sub>(0→∞)</sub>of TMZ in brain and tumor (p < 0.01). The calculate drug targeting index was greater than 1, indicating that EO could promote the distribution of TMZ to the brain and tumor. Western blot analysis showed that EO significantly inhibited the expression of P-gp, tight junction protein claudin-5, occludin and ZO-1. And meanwhile, the expressions of P-gp, claudin-5 and occludin also markedly down-regulated in EO-TMZ co-administration treatment. GC-MS analysis of the TIC component of EO was (E)-Ligustilide (36.93%), Terpinolene (7.245%), gamma-terpinene (7.225%) etc. CONCLUSION: EO could promote the distribution of TMZ in the brain and tumor of C6 glioma rats, which may attribute to down-regulate the expression of P-gp, claudin-5 and occludin.",
+        "affiliation": "Key Lab of Modern Preparation of Traditional Chinese Medicine, Ministry of Education, Jiangxi University of Chinese Medicine, Nanchang, 330004, China. Electronic address: 1352341905@qq.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Guangxi University of Chinese Medicine",
+              "grantId": "CXTD22006",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81760714",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood-Brain Barrier",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Ligusticum"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glioma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brain Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oils, Volatile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Occludin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Claudin-5",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tight Junction Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temozolomide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Glioma",
+            "Tight junction",
+            "P-gp",
+            "Temozolomide",
+            "Essential Oil Of Ligusticum Chuanxiong Hort."
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "occludin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oils, Volatile",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Claudin-5",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tight Junction Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "temozolomide",
+              "registryNumber": "YF1K15M17Y"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jep.2022.115646"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-09-13",
+        "dateOfCreation": "2022-08-28",
+        "dateOfRevision": "2025-07-28",
+        "electronicPublicationDate": "2022-08-27",
+        "firstPublicationDate": "2022-08-27",
+        "firstIndexDate": "2022-08-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+CookRisk BTP | Stage A: literature-guided model benchmarking
+Page 1
+ CookRisk Stage A
+ Literature-Guided Model Benchmarking and Improvement Assessment
+Executive Summary
+Stage A tested whether literature-guided alternatives could improve the CookRisk molecular retention model without
+changing the reviewed dataset, target definition, Phase 2 feature recipe, molecular GroupKFold validation, or treatment of
+rare high-retention observations. The result is scientifically useful but negative: no challenger improved MAE, RMSE, and
+R2 together. The recommended decision is RETAIN EXTRA TREES as the current selected benchmark among evaluated
+configurations.
+Data and Validation Lock
+The experiment used 1,124 observations from 197 Canonical_Molecular_ID groups. All models used 5-fold GroupKFold
+by molecular identity, log1p(Retention_Final), inverse-transformed predictions on the original retention scale, and
+preprocessing fit only on each training fold. Automated QA found zero train-validation group overlaps and no duplicate OOF
+record-model predictions.
+Literature Evidence
+The repository's Week 1 PDF documents six reviewed cooking-retention papers, rather than the requested eight; this
+discrepancy is recorded, not filled with invented citations. Collectively, those papers support a multi-factor retention process
+involving food, compound identity, cooking method and conditions, and caution that apparent increases may reflect
+extractability, transformation or concentration changes. XGBoost was additionally justified from Chen and Guestrin (2016);
+CatBoost and LightGBM were considered but not tested because compatible packages were not available in the isolated
+Stage A environment.
+Candidates and Fair Comparison
+Approach
+Reason for inclusion
+Stage A status
+Extra Trees
+Locked Phase 2 reference: nonlinear mixed-feature benchmark.
+Reference
+Random Forest
+Bagged-tree comparator; tests split randomisation effect.
+Tested
+RBF-SVR
+Nonlinear kernel comparator for scaled descriptors/process features.
+Tested
+XGBoost
+Regularised boosted-tree alternative for sparse, nonlinear data.
+Tested + nested tuning
+Frozen Feature Recipe
+The source recipe comprised 22 Phase 2 predictors: process/context variables, RDKit descriptors after Heavy Atom Count
+removal, and five existing scientifically motivated features: Temperature x Time, log Cooking Time, log Initial Concentration,
+LogP x Temperature, and TPSA x Cooking Time. No new arbitrary interactions, target-derived variables, data removals, or
+ensembles were introduced.
+
+CookRisk BTP | Stage A: literature-guided model benchmarking
+Page 2
+Benchmark Results
+Primary Stage A results below are aggregate out-of-fold (OOF) values. Deltas use the independently reproduced Extra
+Trees aggregate OOF reference, ensuring like-for-like comparison. Historical Phase 2 figures are fold means and are
+reported separately on Page 3.
+Model
+MAE
+RMSE
+R2
+Fold R2 mean +/- SD
+Delta MAE
+Delta RMSE
+Delta R2
+Extra Trees reference
+31.964
+141.309
+0.256
+0.380 +/- 0.235
+0.000
+0.000
+0.000
+Random Forest
+33.027
+143.093
+0.237
+0.342 +/- 0.198
++1.063
++1.784
+-0.019
+RBF-SVR
+34.782
+141.440
+0.255
+0.379 +/- 0.222
++2.818
++0.131
+-0.001
+XGBoost
+35.419
+139.489
+0.275
+0.383 +/- 0.189
++3.455
+-1.819
++0.019
+XGBoost tuned
+34.612
+138.695
+0.283
+0.400 +/- 0.189
++2.648
+-2.614
++0.027
+How to Read the Results
+Tuned XGBoost achieved the lowest OOF RMSE and highest OOF R2, but its MAE was 2.648 higher than Extra Trees (an
+8.28% worsening). Random Forest and RBF-SVR did not improve the reference on the three core metrics. Selecting
+XGBoost only from R2 or RMSE would obscure the worse typical absolute prediction error; therefore, it is not a
+replacement.
+Targeted Tuning
+Only XGBoost was tuned. A compact nested 3-fold GroupKFold search was performed inside each outer training partition,
+over 250/450 estimators, depth 2/3, and minimum child weight 3/8. The modal selected configuration used 450 estimators,
+depth 3, min_child_weight 3, learning_rate 0.03, subsample 0.8, colsample_bytree 0.8, reg_lambda 5. This procedure did
+not tune against final OOF predictions.
+Robustness Findings
+For tuned XGBoost, seed 42 versus 123 yielded MAE 34.612 versus 34.901, RMSE 138.695 versus 139.133, and R2 0.283
+versus 0.279. The ranking is not driven by a random seed, but the model remains MAE-inferior. In a secondary top-1%
+target-exclusion sensitivity check, its MAE/RMSE/R2 became 25.161/46.020/0.364, confirming rare high-retention records
+strongly shape tail-sensitive metrics. These observations remained in all primary analyses.
+Subgroups and Limitations
+Subgroup error varied substantially: tuned XGBoost recorded MAE 73.349 for frying (n=76) and 31.255 for boiling (n=319);
+compound-class MAE ranged from 7.744 for amino acids (n=68) to 55.975 for flavonoids (n=111). Limitations include only
+197 molecular groups, heterogeneous literature-derived measurements, sparse process variables, and a supplied six-paper
+rather than eight-paper literature review.
+
+CookRisk BTP | Stage A: literature-guided model benchmarking
+Page 3
+Final Decision
+RETAIN EXTRA TREES. The XGBoost trade-off is potentially interesting for tail-focused future work, but it does not provide
+a meaningful overall replacement because it increases MAE while improving only RMSE/R2. Extra Trees remains the
+appropriate current selected benchmark among the tested configurations.
+Required Comparison
+Comparison
+Model
+MAE
+RMSE
+R2
+Current Phase 2 benchmark (historical fold mean)
+Extra Trees
+31.959809
+123.073056
+0.380461
+Stage A tail-oriented alternative (aggregate OOF)
+XGBoost tuned
+34.611876
+138.694923
+0.283247
+Change vs Stage A Extra Trees aggregate OOF
+XGBoost tuned
++2.647798
+-2.613703
++0.027269
+Important Reporting Note
+The historical Phase 2 selected benchmark uses mean fold metrics, whereas Stage A's primary table uses aggregate OOF
+metrics. They are both valid summaries but must not be numerically compared as though they share the same aggregation.
+The Stage A report keeps this distinction explicit.
+Handoff for the Food-Drug Interaction Database
+The retention-prediction component is stable enough to serve as an upstream research-stage input, with uncertainty notes:
+retain molecular GroupKFold validation, preserve high-retention records, use Extra Trees as the selected model, and carry
+forward method/class/tail limitations. The next component should begin by defining a traceable drug, food-compound,
+interaction-evidence and risk-context schema; it should not treat retention predictions as clinical interaction proof.
+Deliverables
+The Stage A directory contains the full report, literature synthesis, model-selection rationale, reproducibility instructions,
+executed benchmark/fold/OOF/robustness CSVs, tuning log, validation audit, and runner scripts. Historical Phase 1-3
+artifacts were not modified.
+Evidence basis: Stage A outputs generated from the frozen CookRisk Phase 2 feature recipe and authoritative preprocessed dataset. See
+stageA_report.md and stageA_reproducibility.md for full traceability.

@@ -1,0 +1,3305 @@
+{
+  "version": "6.9",
+  "hitCount": 10,
+  "request": {
+    "queryString": "TITLE:\"Carvacrol\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32393384",
+        "source": "MED",
+        "pmid": "32393384",
+        "pmcid": "PMC7216511",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7216511"
+          ]
+        },
+        "doi": "10.1186/s12906-020-02937-0",
+        "title": "Effect of long-term treatment of Carvacrol on glucose metabolism in Streptozotocin-induced diabetic mice.",
+        "authorString": "Li Y, Mai Y, Qiu X, Chen X, Li C, Yuan W, Hou N.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yilang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Molecular Target & Clinical Pharmacology, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, 511436, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mai Y",
+              "lastName": "Mai",
+              "firstName": "Yunpei",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Molecular Target & Clinical Pharmacology, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, 511436, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qiu X",
+              "lastName": "Qiu",
+              "firstName": "Xiaoxia",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Molecular Target & Clinical Pharmacology, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, 511436, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen X",
+              "lastName": "Chen",
+              "firstName": "Xiaoqing",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8960-7209"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Molecular Target & Clinical Pharmacology, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, 511436, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li C",
+              "lastName": "Li",
+              "firstName": "Conglin",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Molecular Target & Clinical Pharmacology, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, 511436, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yuan W",
+              "lastName": "Yuan",
+              "firstName": "Wenchang",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KingMed School of Laboratory Medicine, Guangzhou Medical University, Guangzhou, 511436, China. yuanwenchang95@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hou N",
+              "lastName": "Hou",
+              "firstName": "Ning",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7745-4946"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Molecular Target & Clinical Pharmacology, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, 511436, China. houning@gzhmu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7745-4946"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8960-7209"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-3978-097X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "20",
+          "journalIssueId": 2951807,
+          "dateOfPublication": "2020 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "BMC Complement Med Ther",
+            "title": "BMC complementary medicine and therapies",
+            "essn": "2662-7671",
+            "issn": "2662-7671",
+            "isoabbreviation": "BMC Complement Med Ther",
+            "nlmid": "101761232"
+          },
+          "printPublicationDate": "2020-05-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "142",
+        "abstractText": "<h4>Background</h4>Carvacrol is a food additive with various bioactivities, including reducing the blood glucose level as well as improvement of heart function, in diabetic mice. We explored the antihyperglycemic effect of carvacrol and its effect on the key hepatic enzymes accounting for glucose metabolism.<h4>Methods</h4>A streptozotocin (STZ)-induced diabetes-mellitus model in mice was used. Mice were divided randomly into a control group, diabetic group, low dose carvacrol-treated diabetic group (10 mg/kg body weight [BW]), and high dose carvacrol-treated diabetic group (20 mg/kg BW). Carvacrol was injected intraperitoneally (i.p.) in each carvacrol-treated group daily for 4 weeks and 6 weeks, respectively. The level of random plasma glucose, fasting plasma glucose, and plasma insulin was determined at 4 weeks and 6 weeks after carvacrol administration. The plasma level of total cholesterol (TC), triglycerides (TG), aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase (ALP), lactate dehydrogenase (LDH), and the activity of hepatic key enzymes related to glucose metabolism were determined.<h4>Results</h4>Carvacrol treatment decreased the levels of random plasma glucose and fasting plasma glucose, significantly in a dose-dependent manner. A significant improvement in glucose tolerance and a significant decrease in the plasma level of TG were observed in carvacrol-treated diabetic mice at a dose of 20 mg/kg BW compared with that in vehicle-treated diabetic mice. There was no significant difference in the plasma level of TC and insulin between vehicle-treated diabetic mice and carvacrol-treated diabetic mice. Carvacrol treatment at a dose of 20 mg/kg BW significantly reduced the plasma level of LDH but not AST, ALT, or ALP, compared with that in the vehicle-treated diabetic group. The activity of hexokinase (HK), 6-phosphofructokinase (PFK), and citrate synthetase (CS) was increased by carvacrol treatment in diabetic mice.<h4>Conclusions</h4>Carvacrol exerted an anti-hyperglycemic effect in STZ-induced diabetic mice. This was achieved through regulating glucose metabolism by increasing the activity of the hepatic enzymes HK, PFK, and CS.",
+        "affiliation": "Key Laboratory of Molecular Target & Clinical Pharmacology, School of Pharmaceutical Sciences and the Fifth Affiliated Hospital, Guangzhou Medical University, Guangzhou, 511436, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Guangzhou Municipal Science and Technology Project",
+              "grantId": "201804010490",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81773720",
+              "orderIn": 0
+            },
+            {
+              "agency": "Guangzhou Education Bureau Project",
+              "grantId": "1201610064",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81402928",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus, Experimental",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Streptozocin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypoglycemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Random Allocation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Diabetes",
+            "hyperglycemia",
+            "Carvacrol",
+            "Hepatic Enzymes"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Insulin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Streptozocin",
+              "registryNumber": "5W494URQ81"
+            },
+            {
+              "name": "Biomarkers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bmccomplementmedtherapies.biomedcentral.com/track/pdf/10.1186/s12906-020-02937-0"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bmccomplementmedtherapies.biomedcentral.com/track/pdf/10.1186/s12906-020-02937-0"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s12906-020-02937-0"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7216511"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7216511?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 22,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2020-10-30",
+        "dateOfCreation": "2020-05-13",
+        "dateOfRevision": "2023-11-11",
+        "electronicPublicationDate": "2020-05-11",
+        "firstPublicationDate": "2020-05-11",
+        "firstIndexDate": "2020-05-14",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29770558",
+        "source": "MED",
+        "pmid": "29770558",
+        "doi": "10.1111/jam.13915",
+        "title": "Pharmacokinetic and antimicrobial activity of a new carvacrol-based product against a human pathogen, Campylobacter jejuni.",
+        "authorString": "Allaoua M, Etienne P, Noirot V, Carayon JL, Téné N, Bonnafé E, Treilhou M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Allaoua M",
+              "lastName": "Allaoua",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6366-2480"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Phodé Sciences, Terssac, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Etienne P",
+              "lastName": "Etienne",
+              "firstName": "P",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Phodé Sciences, Terssac, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Noirot V",
+              "lastName": "Noirot",
+              "firstName": "V",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7489-3783"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Phodé Sciences, Terssac, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Carayon JL",
+              "lastName": "Carayon",
+              "firstName": "J-L",
+              "initials": "JL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biochimie et Toxicologie des Substances Biologiques, BTSB, Université de Toulouse, INU Champollion, Albi, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Téné N",
+              "lastName": "Téné",
+              "firstName": "N",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biochimie et Toxicologie des Substances Biologiques, BTSB, Université de Toulouse, INU Champollion, Albi, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bonnafé E",
+              "lastName": "Bonnafé",
+              "firstName": "E",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2630-4876"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biochimie et Toxicologie des Substances Biologiques, BTSB, Université de Toulouse, INU Champollion, Albi, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Treilhou M",
+              "lastName": "Treilhou",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3364-1950"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biochimie et Toxicologie des Substances Biologiques, BTSB, Université de Toulouse, INU Champollion, Albi, France."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6366-2480"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2630-4876"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3364-1950"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7489-3783"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "125",
+          "journalIssueId": 2728979,
+          "dateOfPublication": "2018 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "J Appl Microbiol",
+            "title": "Journal of applied microbiology",
+            "essn": "1365-2672",
+            "issn": "1364-5072",
+            "isoabbreviation": "J Appl Microbiol",
+            "nlmid": "9706280"
+          },
+          "printPublicationDate": "2018-10-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "1162-1174",
+        "abstractText": "<h4>Aim</h4>In vitro and in vivo studies were conducted to test a new carvacrol-based product designed to delay the carvacrol release so that it could reach the caeca of broiler chickens in order to control Campylobacter jejuni.<h4>Methods and results</h4>Antimicrobial activity of carvacrol, a constituent of oregano and thyme essential oil, has been demonstrated against C. jejuni in vitro, and this compound was found beneficial for broiler growth. Here, we tested a new liquid formulation that did not change the antibacterial efficacy of carvacrol against C. jejuni in vitro, as assessed by broth microdilution. The mode of action of carvacrol also remained unchanged as illustrated by electronic microscopy. A pharmacokinetic assay monitored carvacrol of the solid galenic formulation in the avian digestive tract and this showed that this compound was mainly found in the last part (caeca, large intestine) and in the droppings. Extremely low concentrations of free carvacrol were present in blood plasma, with larger amounts of carvacrol metabolites: carvacrol glucuronide and sulphate. A qPCR analysis showed that the solid galenic form of carvacrol added at 5 kg per tonne of food (i.e. 9·5 mg of carvacrol per kg of bodyweight per day) significantly decreased the C. jejuni caecal load by 1·5 log.<h4>Conclusions</h4>The new liquid formulation was as effective as unformulated carvacrol in vitro. In vivo the solid galenic form seems to delay the carvacrol release into the caeca and presented interesting results on C. jejuni load after 35 days.<h4>Significance and impact of the study</h4>Results suggested that this product could be promising to control Campylobacter contamination of broilers.",
+        "affiliation": "Phodé Sciences, Terssac, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Association Nationale de la Recherche et de la Technologie",
+              "orderIn": 0
+            },
+            {
+              "agency": "French National Association of Research and Technology (ANRT)",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cecum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chickens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Campylobacter jejuni",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Origanum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymus Plant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Campylobacter Infections",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "VE",
+                    "qualifierName": "veterinary"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Poultry Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Resistance",
+            "Campylobacter",
+            "Food safety",
+            "Antimicrobials",
+            "Microbial Contamination"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/jam.13915"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-11-26",
+        "dateOfCreation": "2018-05-18",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2018-07-17",
+        "firstPublicationDate": "2018-07-17",
+        "firstIndexDate": "2018-05-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28277182",
+        "source": "MED",
+        "pmid": "28277182",
+        "doi": "10.1080/19440049.2017.1285056",
+        "title": "Pharmacokinetic analysis of thymol, carvacrol and diallyl disulfide after intramammary and topical applications in healthy organic dairy cattle.",
+        "authorString": "Mason SE, Mullen KAE, Anderson KL, Washburn SP, Yeatts JL, Baynes RE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mason SE",
+              "lastName": "Mason",
+              "firstName": "Sharon E",
+              "initials": "SE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Biological Sciences , Campbell University , Buies Creek , NC , USA."
+                  },
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mullen KAE",
+              "lastName": "Mullen",
+              "firstName": "Keena A E",
+              "initials": "KAE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Department of Animal Science , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anderson KL",
+              "lastName": "Anderson",
+              "firstName": "Kevin L",
+              "initials": "KL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Washburn SP",
+              "lastName": "Washburn",
+              "firstName": "Steven P",
+              "initials": "SP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Department of Animal Science , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yeatts JL",
+              "lastName": "Yeatts",
+              "firstName": "James L",
+              "initials": "JL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baynes RE",
+              "lastName": "Baynes",
+              "firstName": "Ronald E",
+              "initials": "RE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7920-9338"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7920-9338"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "34",
+          "journalIssueId": 2570693,
+          "dateOfPublication": "2017 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Food Addit Contam Part A Chem Anal Control Expo Risk Assess",
+            "title": "Food additives & contaminants. Part A, Chemistry, analysis, control, exposure & risk assessment",
+            "essn": "1944-0057",
+            "issn": "1944-0049",
+            "isoabbreviation": "Food Addit Contam Part A Chem Anal Control Expo Risk Assess",
+            "nlmid": "101485040"
+          },
+          "printPublicationDate": "2017-05-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "740-749",
+        "abstractText": "Mastitis is among the most costly concerns for dairy producers whether cattle are managed conventionally or organically. Unfortunately, there are no USFDA-approved mastitis treatments that allow dairy cows in the United States to maintain organic dairy status. We investigated the plasma pharmacokinetics of three organic mastitis products currently used by organic producers and organic dairy veterinarians. Those products include intramammary, topical and intravaginal preparations, each dosed at two levels. Additionally, tissue data were collected for kidney, liver and fat in order to estimate a withholding time for each of the products. The lower limit of quantification (LOQ) and lower limit of detection (LOD) were 0.001 and 0.0005 µg ml<sup>-1</sup>, respectively, in plasma and all tissues except fat for both thymol and carvacrol. Fat had an LOQ of 0.01 µg ml<sup>-1</sup> and an LOD of 0.005 µg ml<sup>-1</sup> for thymol and carvacrol. Diallyl disulfide had an LOQ of 0.005 µg ml<sup>-1</sup> and LOD of 0.001 µg ml<sup>-1</sup> in all tissues. For diallyl disulfide (garlic), no levels above 0.001 µg ml<sup>-1</sup> were measurable in plasma or tissues. For topical and intramammary products, levels were measurable in the plasma, liver, kidney and fat up to 72 h after the last dose. The plasma half-lives were short for thymol (approximately 1.6 h) and carvacrol (approximately 1.5 h), whereas the estimated half-lives for these substances in tissues ranged from 13.9 to 31.5 h for thymol and from 16.9 to 25 h for carvacrol. The predicted amount of time that the molecules would be found in the body based on the slowest depletion time of liver tissue was 13 days for thymol and 10 days for carvacrol. The apparent half-life of topically applied carvacrol was approximately 4.5 h in plasma, with an estimated withhold time of 10 days. These times were calculated using the USFDA's tolerance limit method for meat withdrawal times.",
+        "affiliation": "a Department of Biological Sciences , Campbell University , Buies Creek , NC , USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institute of Food and Agriculture",
+              "grantId": "2014-51300-22234",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mammary Glands, Animal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Topical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dairying"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bovine",
+            "Mastitis",
+            "Residue",
+            "Organic",
+            "Generally Recognised As Safe (Gras)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/19440049.2017.1285056"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-09-21",
+        "dateOfCreation": "2017-03-10",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2017-02-14",
+        "firstPublicationDate": "2017-02-14",
+        "firstIndexDate": "2017-03-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29672979",
+        "source": "MED",
+        "pmid": "29672979",
+        "pmcid": "PMC6208284",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6208284"
+          ]
+        },
+        "doi": "10.1002/ptr.6097",
+        "title": "Interaction of ascaridole, carvacrol, and caryophyllene oxide from essential oil of Chenopodium ambrosioides L. with mitochondria in Leishmania and other eukaryotes.",
+        "authorString": "Monzote L, Geroldinger G, Tonner M, Scull R, De Sarkar S, Bergmann S, Bacher M, Staniek K, Chatterjee M, Rosenau T, Gille L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Monzote L",
+              "lastName": "Monzote",
+              "firstName": "Lianet",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Pharmacology and Toxicology, Department of Biomedical Sciences, University of Veterinary Medicine Vienna, Vienna, Austria."
+                  },
+                  {
+                    "affiliation": "Department of Parasitology, Institute of Tropical Medicine \"Pedro Kourí\", Havana, Cuba."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Geroldinger G",
+              "lastName": "Geroldinger",
+              "firstName": "Gerald",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Pharmacology and Toxicology, Department of Biomedical Sciences, University of Veterinary Medicine Vienna, Vienna, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tonner M",
+              "lastName": "Tonner",
+              "firstName": "Matthias",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Pharmacology and Toxicology, Department of Biomedical Sciences, University of Veterinary Medicine Vienna, Vienna, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Scull R",
+              "lastName": "Scull",
+              "firstName": "Ramón",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Institute of Pharmacy and Food, Havana University, Havana, Cuba."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Sarkar S",
+              "lastName": "De Sarkar",
+              "firstName": "Sritama",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Institute of Postgraduate Medical Education & Research, Kolkata, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bergmann S",
+              "lastName": "Bergmann",
+              "firstName": "Sophie",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Pharmacology and Toxicology, Department of Biomedical Sciences, University of Veterinary Medicine Vienna, Vienna, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bacher M",
+              "lastName": "Bacher",
+              "firstName": "Markus",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4307-4849"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Division of Chemistry of Renewables, University of Natural Resources and Life Sciences, Tulln, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Staniek K",
+              "lastName": "Staniek",
+              "firstName": "Katrin",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Pharmacology and Toxicology, Department of Biomedical Sciences, University of Veterinary Medicine Vienna, Vienna, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chatterjee M",
+              "lastName": "Chatterjee",
+              "firstName": "Mitali",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Institute of Postgraduate Medical Education & Research, Kolkata, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rosenau T",
+              "lastName": "Rosenau",
+              "firstName": "Thomas",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Division of Chemistry of Renewables, University of Natural Resources and Life Sciences, Tulln, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gille L",
+              "lastName": "Gille",
+              "firstName": "Lars",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1223-0201"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Pharmacology and Toxicology, Department of Biomedical Sciences, University of Veterinary Medicine Vienna, Vienna, Austria."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4307-4849"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1223-0201"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "32",
+          "journalIssueId": 2723957,
+          "dateOfPublication": "2018 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "isoabbreviation": "Phytother Res",
+            "nlmid": "8904486"
+          },
+          "printPublicationDate": "2018-09-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "1729-1740",
+        "abstractText": "The antileishmanial activity of the essential oil (EO) from Chenopodium ambrosioides L. has been demonstrated in vitro and in animal models, attributed to the major components of the EO. This study focused on the effects of the three major EO compounds carvacrol, caryophyllene oxide (Caryo), and the antileishmanial endoperoxide ascaridole (Asc) on mitochondrial functions in Leishmania tarentolae promastigotes (LtP). EO and Caryo were able to partially inhibit the leishmanial electron transport chain, whereas other components failed to demonstrate a direct immediate effect. Caryo demonstrated inhibition of complex III activity in LtP and in isolated complex III from other species. The formation of superoxide radicals was studied in Leishmania by electron spin resonance spectroscopy in the presence of iron chelators wherein selected compounds failed to trigger a significant immediate additional superoxide production in LtP. However, upon prolonged incubation of Leishmania with Asc and especially in the absence of iron chelators (allowing the activation of Asc), an increased superoxide radical production and significant impairment of mitochondrial coupling in Leishmania was observed. Prolonged incubation with all EO components resulted in thiol depletion. Taken together, the major components of EO mediate their leishmanicidal activity via different mitochondrial targets and time profiles. Further studies are required to elucidate possible synergistic effects of carvacrol and Asc and the influence of minor compounds.",
+        "affiliation": "Institute of Pharmacology and Toxicology, Department of Biomedical Sciences, University of Veterinary Medicine Vienna, Vienna, Austria.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Austrian Science Fund FWF",
+              "grantId": "P 27814-B22",
+              "orderIn": 0
+            },
+            {
+              "agency": "Austrian Science Fund FWF",
+              "acronym": "FWF_",
+              "grantId": "P 27814",
+              "orderIn": 0
+            },
+            {
+              "agency": "Austrian Exchange Service (OEAD)",
+              "grantId": "IN 04/2017",
+              "orderIn": 0
+            },
+            {
+              "agency": "Austrian Science Fund FWF",
+              "grantId": "P 27814‐B22",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leishmania",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saccharomyces cerevisiae"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chenopodium ambrosioides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peroxides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Superoxides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sesquiterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oils, Volatile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antiprotozoal Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclohexane Monoterpenes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polycyclic Sesquiterpenes"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Mitochondria",
+            "Leishmania",
+            "Ascaridole",
+            "Carvacrol",
+            "Caryophyllene Oxide",
+            "Chenopodium Ambrosioides L"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiprotozoal Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sesquiterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oils, Volatile",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Peroxides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Superoxides",
+              "registryNumber": "11062-77-4"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "caryophyllene oxide",
+              "registryNumber": "S2XU9K448U"
+            },
+            {
+              "name": "ascaridole",
+              "registryNumber": "1718D0GEVJ"
+            },
+            {
+              "name": "Cyclohexane Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Polycyclic Sesquiterpenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.6097"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6208284"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6208284?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 27,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-10-25",
+        "dateOfCreation": "2018-04-20",
+        "dateOfRevision": "2025-05-30",
+        "electronicPublicationDate": "2018-04-19",
+        "firstPublicationDate": "2018-04-19",
+        "firstIndexDate": "2018-04-20",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29379491",
+        "source": "MED",
+        "pmid": "29379491",
+        "pmcid": "PMC5775232",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5775232"
+          ]
+        },
+        "doi": "10.3389/fmicb.2017.02701",
+        "title": "Lipids, pH, and Their Interaction Affect the Inhibitory Effects of Carvacrol against <i>Salmonella</i> Typhimurium PT4 and <i>Escherichia coli</i> O157:H7.",
+        "authorString": "Carvalho RI, de Jesus Medeiros AS, Chaves M, de Souza EL, Magnani M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Carvalho RI",
+              "lastName": "Carvalho",
+              "firstName": "Rhayane I",
+              "initials": "RI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratório de Processos Microbianos em Alimentos, Departamento de Engenharia de Alimentos, Universidade Federal da Paraíba, Paraíba, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Jesus Medeiros AS",
+              "lastName": "de Jesus Medeiros",
+              "firstName": "Andrea S",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratório de Microbiologia de Alimentos, Departamento de Nutrição, Centro de Ciências da Saúde, Universidade Federal da Paraíba, Paraíba, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chaves M",
+              "lastName": "Chaves",
+              "firstName": "Maísa",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratório de Processos Microbianos em Alimentos, Departamento de Engenharia de Alimentos, Universidade Federal da Paraíba, Paraíba, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Souza EL",
+              "lastName": "de Souza",
+              "firstName": "Evandro L",
+              "initials": "EL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4927-9383"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratório de Microbiologia de Alimentos, Departamento de Nutrição, Centro de Ciências da Saúde, Universidade Federal da Paraíba, Paraíba, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Magnani M",
+              "lastName": "Magnani",
+              "firstName": "Marciane",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7771-0479"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratório de Processos Microbianos em Alimentos, Departamento de Engenharia de Alimentos, Universidade Federal da Paraíba, Paraíba, Brazil."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7771-0479"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4927-9383"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "8",
+          "journalIssueId": 2550583,
+          "dateOfPublication": "2017 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Front Microbiol",
+            "title": "Frontiers in microbiology",
+            "essn": "1664-302X",
+            "issn": "1664-302X",
+            "isoabbreviation": "Front Microbiol",
+            "nlmid": "101548977"
+          },
+          "printPublicationDate": "2017-01-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "2701",
+        "abstractText": "Although carvacrol (CAR) is considered an alternative antimicrobial for use in food, few is known about the influence of food-related parameters on its inhibitory effects against pathogens. This study assessed the influence of different amounts of proteins, using beef extract (BE) as a protein-rich source, lipids (LIP), using sunflower oil as a LIP-rich source, and pH values or their interaction on the inhibitory effects of CAR against <i>Salmonella</i> Typhimurium PT4 (ST) and <i>Escherichia coli</i> O157:H7 (EC). The specific maximum growth rate (<i>μmax</i>) and lag phase duration (λ) of the test pathogens when exposed to CAR in media with different amounts of BE (4, 6, and 8 g/100 mL), LIP (3.75, 5, and 6.25 mL/100 mL), and pH values (5, 5.5, and 6) were determined. The viable counts of the tested pathogens in media that promoted the highest and lowest <i>μmax</i> in the presence of CAR were monitored during 24 h. The lowest <i>μmax</i> of ST and EC exposed to 2.4 μL/mL (-1.29 and -0.82 log CFU/mL/h, respectively) or 4.8 μL/mL CAR (-1.44 and -2.17 log CFU/mL/h, respectively) were observed in media with the highest LIP amount (6.25 mL/100 mL) and pH value (pH 6). For both SE and EC, the longest λ (> 2 h) was verified in media where these pathogens showed the lowest <i>μmax</i>. These data indicate that the concomitant increase in LIP amounts and pH values affected positively the CAR inhibitory effects against the target pathogens. CAR (2.4 or 4.8 μL/mL) failed to inhibit the increase in ST and EC counts in media where the highest <i>μmax</i> values were previously observed. On the contrary, CAR inhibited the increase of ST counts (final counts 5 log CFU/mL) and decreased the EC counts (final counts 3.5 log CFU/mL) in media where the lowest <i>μmax</i> values were observed. These results show that the inhibitory effects of CAR on ST and EC in food matrices could be affected as a function of the interaction of LIP amounts and pH values.",
+        "affiliation": "Laboratório de Processos Microbianos em Alimentos, Departamento de Engenharia de Alimentos, Universidade Federal da Paraíba, Paraíba, Brazil.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Salmonella",
+            "Antibacterial effect",
+            "terpenes",
+            "Carvacrol",
+            "Pathogenic Escherichia Coli"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fmicb.2017.02701"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5775232"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5775232?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2018-01-31",
+        "dateOfRevision": "2024-03-27",
+        "electronicPublicationDate": "2018-01-15",
+        "firstPublicationDate": "2018-01-15",
+        "firstIndexDate": "2018-01-31",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28012625",
+        "source": "MED",
+        "pmid": "28012625",
+        "doi": "10.3168/jds.2016-11536",
+        "title": "Short communication: Interaction of the isomers carvacrol and thymol with the antibiotics doxycycline and tilmicosin: In vitro effects against pathogenic bacteria commonly found in the respiratory tract of calves.",
+        "authorString": "Kissels W, Wu X, Santos RR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kissels W",
+              "lastName": "Kissels",
+              "firstName": "W",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ECOstyle B.V., 8431 SM Oosterwolde, the Netherlands. Electronic address: w.kissels@ecostyle.nl."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu X",
+              "lastName": "Wu",
+              "firstName": "X",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8013-5770"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubert Department of Global Health, Rollins School of Public Health, Emory University, Atlanta, GA 30322."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Santos RR",
+              "lastName": "Santos",
+              "firstName": "R R",
+              "initials": "RR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7030-6097"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Risk Assessment Sciences, Division Veterinary Pharmacology, Pharmacotherapy and Toxicology, Faculty of Veterinary Medicine, Utrecht University, 3584 CM Utrecht, the Netherlands."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7030-6097"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8013-5770"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "100",
+          "journalIssueId": 2518948,
+          "dateOfPublication": "2017 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "J Dairy Sci",
+            "title": "Journal of dairy science",
+            "essn": "1525-3198",
+            "issn": "0022-0302",
+            "isoabbreviation": "J Dairy Sci",
+            "nlmid": "2985126R"
+          },
+          "printPublicationDate": "2017-02-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "970-974",
+        "abstractText": "Bovine respiratory disease is the major problem faced by cattle, specially calves, leading to reduced animal performance and increased mortality, consequently causing important economic losses. Hence, calves must be submitted to antibiotic therapy to counteract this infection usually initiated by the combination of environmental stress factors and viral infection, altering the animal's defense mechanism, and thus allowing lung colonization by the opportunistic bacteria Mannheimia haemolytica and Pasteurella multocida. Essential oils appear to be candidates to replace antibiotics or to act as antibiotic adjuvants due to their antimicrobial properties. In the present study, we aimed to evaluate the 4 essential oil components carvacrol, thymol, trans-anethole, and 1,8 cineole as antibacterial agents or as adjuvants for the antibiotics doxycycline and tilmicosin against M. haemolytica and P. multocida. Bacteria were cultured according to standard protocols, followed by the determination of minimum inhibitory concentration (MIC) and minimum bactericidal concentration. A checkerboard assay was applied to detect possible interactions between components, between antibiotics, and between components and antibiotics. Doxycycline at 0.25 and 0.125 μg/mL inhibited the growth of P. multocida and M. haemolytica, respectively, whereas tilmicosin MIC values were 1.0 and 4.0 μg/mL for P. multocida and M. haemolytica, respectively. Carvacrol MIC values were 2.5 and 1.25 mM for P. multocida and M. haemolytica, respectively, whereas thymol MIC values were 1.25 and 0.625 mM for P. multocida and M. haemolytica, respectively. Trans-anethole and 1,8 cineole did not present any antibacterial effect even at 40 mM against the investigated pathogens. All minimum bactericidal concentration values were the same as MIC, except when thymol was tested against M. haemolytica, being twice the MIC data (i.e., 1.25 mM thymol). Based on fractional inhibitory concentration checkerboard assay, no interaction was observed between doxycycline and tilmicosin. Carvacrol and thymol presented an additive effect when one of them was combined with tilmicosin. Additive effect was also observed when doxycycline was combined with thymol. Synergism was observed when carvacrol was combined with doxycycline or with thymol. Although the antibacterial effects of the tested essential oil components were observed at high concentrations for in vitro conditions, the additive and synergic effects of carvacrol and thymol with antibiotics suggest the option to apply them as antibiotic adjuvants.",
+        "affiliation": "ECOstyle B.V., 8431 SM Oosterwolde, the Netherlands. Electronic address: w.kissels@ecostyle.nl.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Respiratory System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacteria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Doxycycline"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbial Sensitivity Tests",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "VE",
+                    "qualifierName": "veterinary"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Essential oils",
+            "Tetracycline",
+            "Macrolide",
+            "Bovine Respiratory Disease"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Doxycycline",
+              "registryNumber": "N12000U13O"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.journalofdairyscience.org/article/S0022030216308979/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3168/jds.2016-11536"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 30,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-05-22",
+        "dateOfCreation": "2016-12-26",
+        "dateOfRevision": "2018-01-06",
+        "electronicPublicationDate": "2016-12-21",
+        "firstPublicationDate": "2016-12-21",
+        "firstIndexDate": "2016-12-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25944741",
+        "source": "MED",
+        "pmid": "25944741",
+        "pmcid": "PMC4607277",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4607277"
+          ]
+        },
+        "doi": "10.1007/s00436-015-4508-x",
+        "title": "Interaction of carvacrol with the Ascaris suum nicotinic acetylcholine receptors and gamma-aminobutyric acid receptors, potential mechanism of antinematodal action.",
+        "authorString": "Trailović SM, Marjanović DS, Nedeljković Trailović J, Robertson AP, Martin RJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Trailović SM",
+              "lastName": "Trailović",
+              "firstName": "Saša M",
+              "initials": "SM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2190-7985"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Veterinary Medicine, University of Belgrade, Belgrade, Serbia, sasa@vet.bg.ac.rs."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marjanović DS",
+              "lastName": "Marjanović",
+              "firstName": "Djordje S",
+              "initials": "DS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1618-1649"
+              }
+            },
+            {
+              "fullName": "Nedeljković Trailović J",
+              "lastName": "Nedeljković Trailović",
+              "firstName": "Jelena",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9813-8176"
+              }
+            },
+            {
+              "fullName": "Robertson AP",
+              "lastName": "Robertson",
+              "firstName": "Alan P",
+              "initials": "AP"
+            },
+            {
+              "fullName": "Martin RJ",
+              "lastName": "Martin",
+              "firstName": "Richard J",
+              "initials": "RJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2422-1847"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1618-1649"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2190-7985"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9813-8176"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2422-1847"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "114",
+          "journalIssueId": 2308841,
+          "dateOfPublication": "2015 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Parasitol Res",
+            "title": "Parasitology research",
+            "essn": "1432-1955",
+            "issn": "0932-0113",
+            "isoabbreviation": "Parasitol Res",
+            "nlmid": "8703571"
+          },
+          "printPublicationDate": "2015-08-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "3059-3068",
+        "abstractText": "Essential plant oils (or their active principles) are safe to use and a potentially attractive alternative to current antiparasitic drugs. In the present study, we tested the effects of carvacrol on the isolated tissues of Ascaris suum and investigated potential interactions with other antiparasitic drugs. We used somatic muscle flaps for contraction assays, as well as for electrophysiological investigations. Carvacrol 300 μM highly significantly inhibited contractions caused by 1, 3, 10, 30, and 100 μM of ACh (p = 0.0023, p = 0.0002, p = 0.0002, p < 0.0001, and p < 0.0001). The control EC50 for acetylcholine was 8.87 μM (log EC50 = 0.95 ± 0.26), while R max was 2.53 ± 0.24 g. The EC50 of acetylcholine in the presence of 300 μM of carvacrol was 27.71 μM (log EC50 = 1.44 ± 0.28) and the R max decreased to 1.63 ± 0.32 g. Furthermore, carvacrol highly significant potentiates inhibitory effect of GABA and piperazine on the contractions induced by ACh. However, carvacrol (100 and 300 μM), did not produce any changes in the membrane potential or conductance of the A. suum muscle cell. While, 300 μM of carvacrol showed a significant inhibitory effect on ACh-induced depolarization response. The mean control depolarization was 13.58 ± 0.66 mV and decreased in presence of carvacrol to 4.50 ± 1.02 mV (p < 0.0001). Mean control Δg was 0.168 ± 0.017 μS, while in the presence of 300 μM of carvacrol, Δg significantly decreased to 0.060 ± 0.018 ΔS (p = 0.0017). The inhibitory effect on contractions may be the explanation of the antinematodal potential of carvacrol. Moreover, inhibition of depolarizations caused by ACh and reduction of conductance changes directly points to an interaction with the nAChR in A. suum.",
+        "affiliation": "Department of Pharmacology and Toxicology, Faculty of Veterinary Medicine, University of Belgrade, Belgrade, Serbia, sasa@vet.bg.ac.rs.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIAID NIH HHS",
+              "acronym": "AI",
+              "grantId": "R01 AI047194",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ascaris suum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acetylcholine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, GABA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Nicotinic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antinematodal Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Potentials",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Receptors, Nicotinic",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antinematodal Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, GABA",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Acetylcholine",
+              "registryNumber": "N9YNS0M02X"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00436-015-4508-x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4607277"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4607277?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00436-015-4508-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 32,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS727660",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-03-14",
+        "dateOfCreation": "2015-05-07",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2015-05-07",
+        "firstPublicationDate": "2015-05-07",
+        "firstIndexDate": "2015-05-07",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23346763",
+        "source": "MED",
+        "pmid": "23346763",
+        "title": "Identification of CYP isoforms involved in the metabolism of thymol and carvacrol in human liver microsomes (HLMs).",
+        "authorString": "Dong RH, Fang ZZ, Zhu LL, Ge GB, Cao YF, Li XB, Hu CM, Yang L, Liu ZY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dong RH",
+              "lastName": "Dong",
+              "firstName": "Rui-Hua",
+              "initials": "RH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Pharmacology, Affiliated Hospital, Academy of Military Medical Sciences, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fang ZZ",
+              "lastName": "Fang",
+              "firstName": "Zhong-Ze",
+              "initials": "ZZ"
+            },
+            {
+              "fullName": "Zhu LL",
+              "lastName": "Zhu",
+              "firstName": "Liang-Liang",
+              "initials": "LL"
+            },
+            {
+              "fullName": "Ge GB",
+              "lastName": "Ge",
+              "firstName": "Guang-Bo",
+              "initials": "GB"
+            },
+            {
+              "fullName": "Cao YF",
+              "lastName": "Cao",
+              "firstName": "Yun-Feng",
+              "initials": "YF"
+            },
+            {
+              "fullName": "Li XB",
+              "lastName": "Li",
+              "firstName": "Xiao-Bao",
+              "initials": "XB"
+            },
+            {
+              "fullName": "Hu CM",
+              "lastName": "Hu",
+              "firstName": "Cui-Min",
+              "initials": "CM"
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Ling",
+              "initials": "L"
+            },
+            {
+              "fullName": "Liu ZY",
+              "lastName": "Liu",
+              "firstName": "Ze-Yuan",
+              "initials": "ZY"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "67",
+          "journalIssueId": 2003692,
+          "dateOfPublication": "2012 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Pharmazie",
+            "title": "Die Pharmazie",
+            "essn": "0031-7144",
+            "issn": "0031-7144",
+            "isoabbreviation": "Pharmazie",
+            "nlmid": "9800766"
+          },
+          "printPublicationDate": "2012-12-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "1002-1006",
+        "abstractText": "Carvacrol and thymol are phenolic compounds with similar structures isolated from many aromatic plants, and have been demonstrated to exert multiple pharmacological effects. The metabolic and pharmacokinetic behaviour of thymol and carvacrol has received much attention. Carvacrol and thymol have been demonstrated to undergo phase I metabolism such as hydroxylation reaction. However, drug-metabolizing enzymes involved in this process remain unclear. Given that cytochrome P450s (CYPs) are involved in most phase I metabolism, the aim of the present study was to investigate the role of CYPs in the metabolism of thymol and carvacrol. After incubation with human liver microsomes (HLMs) in the presence of NADPH, a new metabolite and two metabolites were detected for thymol and carvacrol, respectively. A combination of chemical inhibition studies and assays with recombinant CYP isoforms demonstrated that CYP2A6 was the predominant drug-metabolizing enzyme involved in the metabolism of thymol and carvacrol. All these results remind the researchers that special attention should be paid on pharmacokinetic and clinical outcomes when thymol or carvacrol was co-administrated with other compounds mainly undergoing CYP2A6-mediated metabolism.",
+        "affiliation": "Department of Clinical Pharmacology, Affiliated Hospital, Academy of Military Medical Sciences, Beijing, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochromes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoenzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Recombinant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Indicators and Reagents"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Ultraviolet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cytochromes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isoenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Indicators and Reagents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Recombinant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 15,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-03-08",
+        "dateOfCreation": "2013-01-26",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "2012-12-01",
+        "firstIndexDate": "2013-01-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15222014",
+        "source": "MED",
+        "pmid": "15222014",
+        "doi": "10.1002/bip.20080",
+        "title": "Thymol and carvacrol binding to DNA: model for drug-DNA interaction.",
+        "authorString": "Nafisi Sh, Hajiakhoondi A, Yektadoost A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nafisi Sh",
+              "lastName": "Nafisi",
+              "firstName": "Sh",
+              "initials": "Sh",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Azad University, Tehran Central Branch, South Felestine Street, Below the Felestine Square, Tehran 14169 63316, Iran. drshohreh@yahoo.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hajiakhoondi A",
+              "lastName": "Hajiakhoondi",
+              "firstName": "A",
+              "initials": "A"
+            },
+            {
+              "fullName": "Yektadoost A",
+              "lastName": "Yektadoost",
+              "firstName": "A",
+              "initials": "A"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "74",
+          "journalIssueId": 1162123,
+          "dateOfPublication": "2004 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Biopolymers",
+            "title": "Biopolymers",
+            "essn": "1097-0282",
+            "issn": "0006-3525",
+            "isoabbreviation": "Biopolymers",
+            "nlmid": "0372525"
+          },
+          "printPublicationDate": "2004-08-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "345-351",
+        "abstractText": "Thymol and carvacrol can bind to major and minor grooves of B-DNA. The aim of this study was to examine the interaction of calf thymus DNA with thymol and carvacrol in aqueous solution and physiological pH with thymol/DNA and carvacrol/DNA (phosphate) molar ratios of 1/20, 1/10, 1/5, and 1/1. Fourier transform infrared and UV-visible difference spectroscopy were used to determine the thymol and carvacrol binding mode, binding constant, sequence selectivity, DNA secondary structure, and structural variations of thymol/DNA and carvacrol/DNA complexes in aqueous solution. Spectroscopic evidence showed that the thymol and carvacrol interaction occurred mainly through H-bonding of the thymol and carvacrol OH group to the guanine N7, cytosine N3, and backbone phosphate group with overall binding constant of K(thymol-DNA) = 2.43 x 10(3) M(-1), K(carvacrol-DNA) = 1.55 x 10(3) M(-1). In thymol and carvacrol-DNA complexes, DNA remains in the B-family structure.",
+        "affiliation": "Department of Chemistry, Azad University, Tehran Central Branch, South Felestine Street, Below the Felestine Square, Tehran 14169 63316, Iran. drshohreh@yahoo.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymus Gland",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectroscopy, Fourier Transform Infrared"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Ultraviolet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nucleic Acid Conformation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen Bonding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/bip.20080"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-09-08",
+        "dateOfCreation": "2004-06-29",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "2004-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "2959918",
+        "source": "MED",
+        "pmid": "2959918",
+        "doi": "10.1111/j.1600-0773.1987.tb01783.x",
+        "title": "Metabolism in rats of p-cymene derivatives: carvacrol and thymol.",
+        "authorString": "Austgulen LT, Solheim E, Scheline RR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Austgulen LT",
+              "lastName": "Austgulen",
+              "firstName": "L T",
+              "initials": "LT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, School of Medicine, University of Bergen, Norway."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Solheim E",
+              "lastName": "Solheim",
+              "firstName": "E",
+              "initials": "E"
+            },
+            {
+              "fullName": "Scheline RR",
+              "lastName": "Scheline",
+              "firstName": "R R",
+              "initials": "RR"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "61",
+          "journalIssueId": 865016,
+          "dateOfPublication": "1987 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 1987,
+          "journal": {
+            "medlineAbbreviation": "Pharmacol Toxicol",
+            "title": "Pharmacology & toxicology",
+            "essn": "1600-0773",
+            "issn": "0901-9928",
+            "isoabbreviation": "Pharmacol Toxicol",
+            "nlmid": "8702180"
+          },
+          "printPublicationDate": "1987-08-01"
+        },
+        "pubYear": "1987",
+        "pageInfo": "98-102",
+        "abstractText": "The metabolism of carvacrol and thymol in rats was studied using gas chromatographic-mass spectrometric methods. The urinary excretion of metabolites was rapid. Only very small amounts were excreted after 24 hrs. Although large quantities of carvacrol and, especially, thymol were excreted unchanged (or as their glucuronide and sulphate conjugates), extensive oxidation of the methyl and isopropyl groups also occurred. This resulted in the formation of derivatives of benzyl alcohol and 2-phenylpropanol and their corresponding carboxylic acids. In contrast, ring hydroxylation of the two phenols was a minor reaction.",
+        "affiliation": "Department of Pharmacology and Toxicology, School of Medicine, University of Bergen, Norway.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Terpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Monoterpenes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxylation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Terpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "4-cymene",
+              "registryNumber": "1G1C8T1N7Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1600-0773.1987.tb01783.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 56,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1987-12-15",
+        "dateOfCreation": "1987-08-01",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "1987-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

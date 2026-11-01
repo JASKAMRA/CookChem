@@ -1,0 +1,1351 @@
+{
+  "version": "6.9",
+  "hitCount": 6,
+  "request": {
+    "queryString": "TITLE:\"Bergamottin\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:disposition) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32664320",
+        "source": "MED",
+        "pmid": "32664320",
+        "pmcid": "PMC7397038",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7397038"
+          ]
+        },
+        "doi": "10.3390/molecules25143158",
+        "title": "The Grapefruit Effect: Interaction between Cytochrome P450 and Coumarin Food Components, Bergamottin, Fraxidin and Osthole. X-ray Crystal Structure and DFT Studies.",
+        "authorString": "Rossi M, Aktar S, Davis M, Hefter Feuss E, Roman-Holba S, Wen K, Gahn C, Caruso F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rossi M",
+              "lastName": "Rossi",
+              "firstName": "Miriam",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9609-474X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aktar S",
+              "lastName": "Aktar",
+              "firstName": "Sandjida",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Davis M",
+              "lastName": "Davis",
+              "firstName": "Marissa",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hefter Feuss E",
+              "lastName": "Hefter Feuss",
+              "firstName": "Emily",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Roman-Holba S",
+              "lastName": "Roman-Holba",
+              "firstName": "Samara",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wen K",
+              "lastName": "Wen",
+              "firstName": "Kelly",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gahn C",
+              "lastName": "Gahn",
+              "firstName": "Christopher",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Computing and Information Services, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Caruso F",
+              "lastName": "Caruso",
+              "firstName": "Francesco",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9609-474X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "14",
+          "volume": "25",
+          "journalIssueId": 2978123,
+          "dateOfPublication": "2020 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "isoabbreviation": "Molecules",
+            "nlmid": "100964009"
+          },
+          "printPublicationDate": "2020-07-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "E3158",
+        "abstractText": "Coumarins are plant-derived secondary metabolites. The crystal structure of three coumarins-bergamottin, osthole and fraxidin-are described and we analyze intermolecular interactions and their role in crystal formation. Bergamottin is a furanocoumarin found in citrus plants, which is a strong inhibitor of the principal human metabolizing enzyme, cytochrome P450 3A4 (CYP3A4). The crystal structure determinations of three coumarins give us the geometrical parameters and reveal the parallel-displaced π-π stacking and hydrogen bonding intermolecular interactions used for molecular assembly in the crystal structure. A quite strong (less than 3.4 Å) stacking interaction of bergamottin appears to be a determining feature that distinguishes it from other coumarins studied in this work. Our DFT computational studies on the three natural products of the same coumarin family docked into the active site of CYP3A4 (PDB 4D78) show different behavior for these coumarins at the active site. When the substrate is bergamottin, the importance of π-π stacking and hydrogen bonding, which can anchor the substrate in place, appears fundamental. In contrast, fraxidin and osthole show carbonyl coordination to iron. Our docking calculations show that the bergamottin tendency towards π-π stacking is important and likely influences its interactions with the heme group of CYP3A4.",
+        "affiliation": "Chemistry Department, Vassar College, Poughkeepsie, NY 12604, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citrus paradisi",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Heme",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Crystallography, X-Ray",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catalytic Domain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen Bonding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Coumarin",
+            "Crystal structure",
+            "CYP3A4",
+            "Osthole",
+            "Bergamottin",
+            "Dft Studies",
+            "Fraxidin",
+            "Grapefruit Effect"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "fraxiden",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "osthol",
+              "registryNumber": "XH1TI1759C"
+            },
+            {
+              "name": "coumarin",
+              "registryNumber": "A4VZ22K1WT"
+            },
+            {
+              "name": "Heme",
+              "registryNumber": "42VZT0U6YR"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "bergamottin",
+              "registryNumber": "JMU611YFRB"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules25143158"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7397038"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7397038?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2021-02-25",
+        "dateOfCreation": "2020-07-16",
+        "dateOfRevision": "2021-02-25",
+        "electronicPublicationDate": "2020-07-10",
+        "firstPublicationDate": "2020-07-10",
+        "firstIndexDate": "2020-07-16",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15592332",
+        "source": "MED",
+        "pmid": "15592332",
+        "doi": "10.1016/j.clpt.2004.08.019",
+        "title": "Bergamottin contribution to the grapefruit juice-felodipine interaction and disposition in humans.",
+        "authorString": "Goosen TC, Cillié D, Bailey DG, Yu C, He K, Hollenberg PF, Woster PM, Cohen L, Williams JA, Rheeders M, Dijkstra HP.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Goosen TC",
+              "lastName": "Goosen",
+              "firstName": "Theunis C",
+              "initials": "TC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9398-0105"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, North-West University, Potchefstroom. theunis.goosen@pfizer.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cillié D",
+              "lastName": "Cillié",
+              "firstName": "Doré",
+              "initials": "D"
+            },
+            {
+              "fullName": "Bailey DG",
+              "lastName": "Bailey",
+              "firstName": "David G",
+              "initials": "DG"
+            },
+            {
+              "fullName": "Yu C",
+              "lastName": "Yu",
+              "firstName": "Chongwoo",
+              "initials": "C"
+            },
+            {
+              "fullName": "He K",
+              "lastName": "He",
+              "firstName": "Kan",
+              "initials": "K"
+            },
+            {
+              "fullName": "Hollenberg PF",
+              "lastName": "Hollenberg",
+              "firstName": "Paul F",
+              "initials": "PF"
+            },
+            {
+              "fullName": "Woster PM",
+              "lastName": "Woster",
+              "firstName": "Patrick M",
+              "initials": "PM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9471-1916"
+              }
+            },
+            {
+              "fullName": "Cohen L",
+              "lastName": "Cohen",
+              "firstName": "Lucinda",
+              "initials": "L"
+            },
+            {
+              "fullName": "Williams JA",
+              "lastName": "Williams",
+              "firstName": "J Andrew",
+              "initials": "JA"
+            },
+            {
+              "fullName": "Rheeders M",
+              "lastName": "Rheeders",
+              "firstName": "Malie",
+              "initials": "M"
+            },
+            {
+              "fullName": "Dijkstra HP",
+              "lastName": "Dijkstra",
+              "firstName": "H Paul",
+              "initials": "HP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3166-1357"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9398-0105"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9471-1916"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3166-1357"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0002-3370-9529"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "76",
+          "journalIssueId": 1211214,
+          "dateOfPublication": "2004 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Clin Pharmacol Ther",
+            "title": "Clinical pharmacology and therapeutics",
+            "essn": "1532-6535",
+            "issn": "0009-9236",
+            "isoabbreviation": "Clin Pharmacol Ther",
+            "nlmid": "0372741"
+          },
+          "printPublicationDate": "2004-12-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "607-617",
+        "abstractText": "<h4>Objectives</h4>Our objectives were to evaluate the contribution of bergamottin to the grapefruit juice-felodipine interaction and to characterize bergamottin disposition.<h4>Methods</h4>In this study 250 mL grapefruit juice; 2-, 6-, or 12-mg capsules of bergamottin plus water; or water was administered with 5 mg extended-release felodipine to 11 volunteers in a partially randomized, 5-way crossover study. Plasma concentrations of felodipine, its primary metabolite (dehydrofelodipine), bergamottin, and 6',7'-dihydroxybergamottin were determined.<h4>Results</h4>Grapefruit juice (containing 1.7 mg bergamottin) increased peak plasma concentration (C max ) and area under the plasma concentration-time curve (AUC) of felodipine by 89% (P < .025) and 54% (P < .025), respectively, compared with water. With 2 mg bergamottin, felodipine C max increased by 33% (P < .05). The increase by bergamottin was markedly variable among individuals (range, -33% to 125%). With 6 mg bergamottin, felodipine C max was enhanced by 35% (P < .025), and with 12 mg bergamottin, felodipine C max increased by 40% (P < .05) and AUC increased by 37% (P < .05) compared with water. Bergamottin measured in plasma after administration of 6 and 12 mg produced C max values of 2.1 and 5.9 ng/mL, respectively, and times to reach C max of 0.8 and 1.1 hours, respectively. The bergamottin metabolite 6',7'-dihydroxybergamottin was detected in plasma of some subjects after bergamottin administration.<h4>Conclusions</h4>Bergamottin enhanced the oral bioavailability of felodipine and may cause a clinically relevant drug interaction in susceptible individuals. Grapefruit juice-drug interactions likely also involve other furanocoumarins, possibly acting in combination by additive or synergistic mechanisms. Bergamottin has systemic availability and is metabolized in vivo to 6',7'-dihydroxybergamottin.",
+        "affiliation": "Department of Pharmacology, North-West University, Potchefstroom. theunis.goosen@pfizer.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citrus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Felodipine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcium Channel Blockers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Capsules"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Delayed-Action Preparations"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Ultraviolet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Food-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Delayed-Action Preparations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Capsules",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Calcium Channel Blockers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Felodipine",
+              "registryNumber": "OL961R6O2C"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "bergamottin",
+              "registryNumber": "JMU611YFRB"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/109856/1/cptclpt2004537.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/109856/1/cptclpt2004537.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/109856/1/cptclpt2004537.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/109856/1/cptclpt2004537.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.clpt.2004.08.019"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 57,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-01-14",
+        "dateOfCreation": "2004-12-14",
+        "dateOfRevision": "2017-11-16",
+        "firstPublicationDate": "2004-12-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15785394",
+        "source": "MED",
+        "pmid": "15785394",
+        "doi": "10.1097/01.tp.0000148913.75002.33",
+        "title": "Probable interaction of bergamottin and cyclosporine in a lung transplant recipient.",
+        "authorString": "Johnston PE, Milstone A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Johnston PE",
+              "lastName": "Johnston",
+              "firstName": "Philip E",
+              "initials": "PE"
+            },
+            {
+              "fullName": "Milstone A",
+              "lastName": "Milstone",
+              "firstName": "Aaron",
+              "initials": "A"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "79",
+          "journalIssueId": 1224085,
+          "dateOfPublication": "2005 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Transplantation",
+            "title": "Transplantation",
+            "essn": "1534-6080",
+            "issn": "0041-1337",
+            "isoabbreviation": "Transplantation",
+            "nlmid": "0132144"
+          },
+          "printPublicationDate": "2005-03-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "746",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Letter",
+            "Case Reports"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citrus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclosporine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Lung Transplantation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transplantation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Food-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Beverages"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Contraindications"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cyclosporine",
+              "registryNumber": "83HN0GTJ6D"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "bergamottin",
+              "registryNumber": "JMU611YFRB"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://journals.lww.com/transplantjournal/Fulltext/2005/03270/Probable_Interaction_of_Bergamottin_and.33.aspx"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/01.tp.0000148913.75002.33"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "15785395",
+              "reference": "Transplantation. 2005 Mar 27;79(6):747. doi: 10.1097/01.tp.0000148914.13844.d9",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-04-25",
+        "dateOfCreation": "2005-03-24",
+        "dateOfRevision": "2019-07-13",
+        "firstPublicationDate": "2005-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "US6509371",
+        "source": "PAT",
+        "title": "Compositions containing Bergamottin for increasing the oral bioavailability of pharmaceutical agents",
+        "authorString": "HE KAN, HOLLENBERG PAUL F, WOOLF THOMAS F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "HE KAN",
+              "lastName": "HE KAN"
+            },
+            {
+              "fullName": "HOLLENBERG PAUL F",
+              "lastName": "HOLLENBERG PAUL F"
+            },
+            {
+              "fullName": "WOOLF THOMAS F",
+              "lastName": "WOOLF THOMAS F"
+            }
+          ]
+        },
+        "pubYear": "2003",
+        "abstractText": "Bergamottin, principle compound in grapefruit juice responsible for inhibition of p450 3a4, the predominant p450 enzyme in the intestine, is coadministered with a compound having low bioavailability to a patient to increase oral bioavailability of the compound and pharmaceutical compositions of the same, as well as a method of isolating bg from grapefruit juice.",
+        "affiliation": "WARNER-LAMBERT COMPANY",
+        "language": "eng",
+        "pubTypeList": {
+          "pubType": [
+            "Patent"
+          ]
+        },
+        "patentDetails": {
+          "typeCode": "B1",
+          "typeDescription": "Reexamination Certificate First Reexamination",
+          "countryCode": "US",
+          "country": "United States",
+          "classifierList": {
+            "classifier": [
+              {
+                "classification": "A61K31/35",
+                "classificationType": "EPO",
+                "hyperlink": "http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=A61K31/35"
+              },
+              {
+                "classification": "A61K45/06",
+                "classificationType": "EPO",
+                "hyperlink": "http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=A61K45/06"
+              },
+              {
+                "classification": "A61K31/35",
+                "classificationType": "IPC",
+                "hyperlink": "http://www.cooperativepatentclassification.org/cpc/scheme/A/scheme-A61K.pdf"
+              },
+              {
+                "classification": "A61K45/00",
+                "classificationType": "IPC",
+                "hyperlink": "http://www.cooperativepatentclassification.org/cpc/scheme/A/scheme-A61K.pdf"
+              },
+              {
+                "classification": "A61K45/06",
+                "classificationType": "IPC",
+                "hyperlink": "http://www.cooperativepatentclassification.org/cpc/scheme/A/scheme-A61K.pdf"
+              }
+            ]
+          },
+          "application": {
+            "applicationNumber": "US20000486117",
+            "applicationDate": "2000-04-21",
+            "orderIn": 0
+          },
+          "priorityList": {
+            "priority": [
+              {
+                "priorityNumber": "US20000486117",
+                "orderIn": 1,
+                "priorityDate": "2000-04-21"
+              },
+              {
+                "priorityNumber": "US19970056129P",
+                "orderIn": 2,
+                "priorityDate": "2000-04-21"
+              },
+              {
+                "priorityNumber": "WO1998US16579",
+                "orderIn": 3,
+                "priorityDate": "2000-04-21"
+              }
+            ]
+          }
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "SureChembl",
+              "url": "https://www.surechembl.org/document/US-6509371-B1"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "EPO",
+              "url": "http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=US6509371"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2003-01-21",
+        "dateOfCreation": "2000-04-21",
+        "firstPublicationDate": "2000-04-21",
+        "firstIndexDate": "2009-09-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "EP1007034",
+        "source": "PAT",
+        "title": "COMPOSITIONS CONTAINING BERGAMOTTIN FOR INCREASING THE ORAL BIOAVAILABILITY OF PHARMACEUTICAL AGENTS",
+        "authorString": "HE Kan, HOLLENBERG Paul, WOOLF Thomas F..",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "HE Kan",
+              "lastName": "HE Kan"
+            },
+            {
+              "fullName": "HOLLENBERG Paul",
+              "lastName": "HOLLENBERG Paul"
+            },
+            {
+              "fullName": "WOOLF Thomas F.",
+              "lastName": "WOOLF Thomas F."
+            }
+          ]
+        },
+        "pubYear": "2000",
+        "abstractText": "Bergamottin, a principle compound in grapefruit juice responsible for inhibition of P450 3A4, the predominant P450 enzyme in the intestine, is coadministered with a compound having low bioavailability to a patient to increase oral bioavailability of the compound and pharmaceutical compositions of the same, as well as a method of isolating BG from grapefruit juice.",
+        "affiliation": "WARNER-LAMBERT COMPANY",
+        "language": "eng",
+        "pubTypeList": {
+          "pubType": [
+            "Patent"
+          ]
+        },
+        "patentDetails": {
+          "typeCode": "A1",
+          "typeDescription": "Publ. of Application with search report",
+          "countryCode": "EP",
+          "country": "European Patent Office",
+          "classifierList": {
+            "classifier": [
+              {
+                "classification": "A61K45/06",
+                "classificationType": "IPC",
+                "hyperlink": "http://www.cooperativepatentclassification.org/cpc/scheme/A/scheme-A61K.pdf"
+              },
+              {
+                "classification": "A61K31/37",
+                "classificationType": "MC",
+                "hyperlink": "http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=A61K31/37"
+              }
+            ]
+          },
+          "application": {
+            "applicationNumber": "EP19980939311",
+            "applicationDate": "1998-08-11",
+            "orderIn": 0
+          },
+          "priorityList": {
+            "priority": [
+              {
+                "priorityNumber": "US19970056129",
+                "orderIn": 1,
+                "priorityDate": "1998-08-11"
+              }
+            ]
+          }
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "EPO",
+              "url": "http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=EP1007034"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "SureChembl",
+              "url": "https://www.surechembl.org/document/EP-1007034-B1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2000-06-14",
+        "dateOfCreation": "1998-08-11",
+        "firstPublicationDate": "1998-08-11",
+        "firstIndexDate": "2006-02-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "WO9908676",
+        "source": "PAT",
+        "title": "COMPOSITIONS CONTAINING BERGAMOTTIN FOR INCREASING THE ORAL BIOAVAILABILITY OF PHARMACEUTICAL AGENTS",
+        "authorString": "HE Kan, HOLLENBERG Paul, WOOLF Thomas F..",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "HE Kan",
+              "lastName": "HE Kan"
+            },
+            {
+              "fullName": "HOLLENBERG Paul",
+              "lastName": "HOLLENBERG Paul"
+            },
+            {
+              "fullName": "WOOLF Thomas F.",
+              "lastName": "WOOLF Thomas F."
+            }
+          ]
+        },
+        "pubYear": "1999",
+        "abstractText": "Bergamottin, a principle compound in grapefruit juice responsible for inhibition of P450 3A4, the predominant P450 enzyme in the intestine, is coadministered with a compound having low bioavailability to a patient to increase oral bioavailability of the compound and pharmaceutical compositions of the same, as well as a method of isolating BG from grapefruit juice.",
+        "affiliation": "WARNER-LAMBERT COMPANY",
+        "language": "eng",
+        "pubTypeList": {
+          "pubType": [
+            "Patent"
+          ]
+        },
+        "patentDetails": {
+          "typeCode": "A1",
+          "typeDescription": "Publ.of the Int.Appl. with Int.search report",
+          "countryCode": "WO",
+          "country": "World Intellectual Property Organization",
+          "classifierList": {
+            "classifier": [
+              {
+                "classification": "A61K45/06",
+                "classificationType": "IPC",
+                "hyperlink": "http://www.cooperativepatentclassification.org/cpc/scheme/A/scheme-A61K.pdf"
+              },
+              {
+                "classification": "A61K31/37",
+                "classificationType": "MC",
+                "hyperlink": "http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=A61K31/37"
+              }
+            ]
+          },
+          "application": {
+            "applicationNumber": "WO1998US16579",
+            "applicationDate": "1998-08-11",
+            "orderIn": 0
+          },
+          "priorityList": {
+            "priority": [
+              {
+                "priorityNumber": "US19970056129",
+                "orderIn": 1,
+                "priorityDate": "1998-08-11"
+              }
+            ]
+          }
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "EPO",
+              "url": "http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=WO9908676"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "SureChembl",
+              "url": "https://www.surechembl.org/document/WO-1999008676-A1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1999-02-25",
+        "dateOfCreation": "1998-08-11",
+        "firstPublicationDate": "1998-08-11",
+        "firstIndexDate": "2006-02-21",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

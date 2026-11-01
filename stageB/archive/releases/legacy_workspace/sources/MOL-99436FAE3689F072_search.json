@@ -1,0 +1,329 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE_ABS:\"Tocotrienol-Gamma\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "20207946",
+        "source": "MED",
+        "pmid": "20207946",
+        "doi": "10.1124/dmd.109.031567",
+        "title": "Intestinal absorption of gamma-tocotrienol is mediated by Niemann-Pick C1-like 1: in situ rat intestinal perfusion studies.",
+        "authorString": "Abuasal B, Sylvester PW, Kaddoumi A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abuasal B",
+              "lastName": "Abuasal",
+              "firstName": "Bilal",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Basic Pharmaceutical Sciences, University of Louisiana at Monroe, 1800 Bienville Drive, Monroe, LA 71201, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sylvester PW",
+              "lastName": "Sylvester",
+              "firstName": "Paul W",
+              "initials": "PW"
+            },
+            {
+              "fullName": "Kaddoumi A",
+              "lastName": "Kaddoumi",
+              "firstName": "Amal",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9792-7766"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9792-7766"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "38",
+          "journalIssueId": 1731128,
+          "dateOfPublication": "2010 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Drug Metab Dispos",
+            "title": "Drug metabolism and disposition: the biological fate of chemicals",
+            "essn": "1521-009X",
+            "issn": "0090-9556",
+            "nlmid": "9421550",
+            "isoabbreviation": "Drug Metab Dispos"
+          },
+          "printPublicationDate": "2010-06-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "939-945",
+        "abstractText": "gamma-Tocotrienol (gamma-T3) is a member of the vitamin E family that displays potent anticancer activity and other therapeutic benefits. The objective of this study was to evaluate gamma-T3 intestinal uptake and metabolism using the in situ rat intestinal perfusion model. Isolated segments of rat jejunum and ileum were perfused with gamma-T3 solution, and measurements were made as a function of concentration (5-150 microM). Intestinal permeability (P(eff)) and metabolism were studied by measuring total compound disappearance and major metabolite, 2,7,8-trimethyl-2-(beta-carboxy-ethyl)-6-hydroxychroman, appearance in the intestinal lumen. gamma-T3 and metabolite levels were also determined in mesenteric blood. The P(eff) of gamma-T3 was similar in both intestinal segments and significantly decreased at concentrations > or =25 microM in jejunum and ileum (p < 0.05), whereas metabolite formation was minimal and mesenteric blood concentrations of gamma-T3 and metabolite remained very low. These results indicate that gamma-T3 intestinal uptake is a saturable carrier-mediated process and metabolism is minimal. Results from subsequent in situ inhibition studies with ezetimibe, a potent and selective inhibitor of Niemann-Pick C1-like 1 (NPC1L1) transporter, suggested gamma-T3 intestinal uptake is mediated by NPC1L1. Comparable findings were obtained when Madin-Darby canine kidney II cells that express endogenous NPC1L1 were incubated with increasing concentrations of gamma-T3 or gamma-T3 with increasing concentrations of ezetimibe. The present data show for the first time that gamma-T3 intestinal absorption is partly mediated by NPC1L1.",
+        "affiliation": "Department of Basic Pharmaceutical Sciences, University of Louisiana at Monroe, 1800 Bienville Drive, Monroe, LA 71201, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ileum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Jejunum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Niemann-Pick Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Azetidines"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin E",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticholesteremic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Perfusion"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ezetimibe"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "plastochromanol 8",
+              "registryNumber": "4382-43-8"
+            },
+            {
+              "name": "Vitamin E",
+              "registryNumber": "1406-18-4"
+            },
+            {
+              "name": "Anticholesteremic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Chromans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Azetidines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ezetimibe",
+              "registryNumber": "EOR26LQQ24"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "intl-dmd.aspetjournals.org",
+              "url": "http://intl-dmd.aspetjournals.org/cgi/content/full/38/6/939"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "intl-dmd.aspetjournals.org",
+              "url": "http://intl-dmd.aspetjournals.org/cgi/content/abstract/38/6/939"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1124/dmd.109.031567"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 43,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-08-20",
+        "dateOfCreation": "2010-03-09",
+        "dateOfRevision": "2025-02-12",
+        "electronicPublicationDate": "2010-03-05",
+        "firstPublicationDate": "2010-03-05",
+        "firstIndexDate": "2010-08-21",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

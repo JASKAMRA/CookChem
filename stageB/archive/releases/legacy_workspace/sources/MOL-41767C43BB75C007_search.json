@@ -1,0 +1,4995 @@
+{
+  "version": "6.9",
+  "hitCount": 18,
+  "request": {
+    "queryString": "TITLE_ABS:\"Betanin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42356564",
+        "source": "MED",
+        "pmid": "42356564",
+        "pmcid": "PMC13306102",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13306102"
+          ]
+        },
+        "doi": "10.3390/ph19060947",
+        "title": "Evaluation of Betanin on Key Enzymes Related to Obesity, Diabetes, Insulin Signaling Pathway, and Metabolic Disorders: In Vitro, Cellular, and In Silico Study.",
+        "authorString": "Abdella FIA, Alardan D, Alshammari NS, Alrashdi AA, Jridi M, Boudriga S, Hamden K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abdella FIA",
+              "lastName": "Abdella",
+              "firstName": "Faiza I A",
+              "initials": "FIA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science, University of Ha'il, Ha'il 81451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alardan D",
+              "lastName": "Alardan",
+              "firstName": "Dalal",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, University of Ha'il, Ha'il 81451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alshammari NS",
+              "lastName": "Alshammari",
+              "firstName": "Nawal S",
+              "initials": "NS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science, University of Ha'il, Ha'il 81451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alrashdi AA",
+              "lastName": "Alrashdi",
+              "firstName": "Ahlam Abdulrahman",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, College of Science, University of Ha'il, Ha'il 81451, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jridi M",
+              "lastName": "Jridi",
+              "firstName": "Mourad",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Functional Physiology and Valorization of Bio-Resources (LR23ES08), Higher Institute of Biotechnology of Beja (ISBB), University of Jendouba, Beja 9000, Tunisia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boudriga S",
+              "lastName": "Boudriga",
+              "firstName": "Sarra",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4706-5181"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Heterocyclic Chemistry Natural Product and Reactivity (LR11ES39), Department of Chemistry, Faculty of Science of Monastir, University of Monastir, Monastir 5019, Tunisia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hamden K",
+              "lastName": "Hamden",
+              "firstName": "Khaled",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0005-4295-1378"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Bioresources: Integrative Biology and Exploiting, Higher Institute of Biotechnology of Monastir, University of Monastir, Monastir 5000, Tunisia."
+                  },
+                  {
+                    "affiliation": "Higher School of Health Sciences and Technology of Sfax, Sfax University, Sfax 3000, Tunisia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4706-5181"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-4295-1378"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "19",
+          "journalIssueId": 4222013,
+          "dateOfPublication": "2026 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Pharmaceuticals (Basel)",
+            "title": "Pharmaceuticals (Basel, Switzerland)",
+            "essn": "1424-8247",
+            "issn": "1424-8247",
+            "isoabbreviation": "Pharmaceuticals (Basel)",
+            "nlmid": "101238453"
+          },
+          "printPublicationDate": "2026-06-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "947",
+        "abstractText": "<b>Background/Objectives</b>: Betanin (Bet), a natural compound, exhibits potent antioxidant and metabolic regulatory properties, yet its effect on cellular glucose utilization remains unclear. This study investigated, for the first time, the impact of Bet on glucose consumption and the activation of key carbohydrate-catabolic pathways in human erythrocytes. <b>Methods</b>: In vitro assays were performed to evaluate enzyme inhibition and activation. Human erythrocytes were incubated with Bet to assess glucose consumption. Enzyme activities were measured spectrophotometrically, and molecular docking was used to analyze binding interactions. <b>Results</b>: Our results demonstrate that Bet inhibits digestive enzymes in a dose-dependent manner, with maximal inhibition at 90 µg/mL for pancreatic lipase and 70 µg/mL for α-amylase, showing IC<sub>50</sub> values of 48.8 and 31.9 µg/mL, respectively, supported by strong binding affinities of -9.3 and -8.9 Kcal/mol. These interactions are stronger than those of orlistat (-6.9 Kcal/mol) and acarbose (-7.7 Kcal/mol). Bet also induced the activity of AMPK with an IC<sub>50</sub> of 1.83 µg/mL and a BE of -7.90 Kcal/mol, compared to the specific AMPK activator A-769662, which had an IC<sub>50</sub> of 1.29 µg/mL and a binding energy of -10.0 Kcal/mol. Consequently, Bet stimulated key glycolytic enzymes, reaching maximal activation (~62%) at 1.4 µg/mL for hexokinase (HK) and glucose-6-phosphate dehydrogenase (G6PD), and at 1.6 µg/mL for pyruvate kinase (PK), supported by binding energies of -7.2, -7.5, and -9.0 Kcal/mol and AC<sub>50</sub> values of 0.87, 0.98, and 0.91 µg/mL, respectively. Moreover, Bet enhanced key Krebs cycle enzymes (IDH, SDH, MDH, LDH) in a dose-dependent manner, with AC<sub>50</sub> values of 0.76, 0.80, 0.72, and 0.52 µg/mL and strong binding energies (-7.8, -7.8, and -8.4 Kcal/mol), reaching maximal activation near 1.4 µg/mL. Bet also increased glucose consumption by human erythrocytes. <b>Conclusions</b>: Bet enhances glucose utilization by inhibiting digestive enzymes and activating intracellular metabolic pathways, suggest potential metabolic regulatory effects.",
+        "affiliation": "Department of Chemistry, College of Science, University of Ha'il, Ha'il 81451, Saudi Arabia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "In vitro",
+            "Digestive enzymes",
+            "Diabetes",
+            "Metabolic regulation",
+            "In silico",
+            "Betanin"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ph19060947"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13306102"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13306102?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-06-26",
+        "dateOfCreation": "2026-06-26",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-06-16",
+        "firstPublicationDate": "2026-06-16",
+        "firstIndexDate": "2026-06-27",
+        "fullTextReceivedDate": "2026-07-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39283367",
+        "source": "MED",
+        "pmid": "39283367",
+        "doi": "10.1007/s11033-024-09923-6",
+        "title": "Protective effects of betanin, a novel acetylcholinesterase inhibitor, against H<sub>2</sub>O<sub>2</sub>-induced apoptosis in PC12 cells.",
+        "authorString": "Tayarani-Najaran Z, Dehghanpour Farashah M, Emami SA, Ramazani E, Shahraki N, Hadipour E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tayarani-Najaran Z",
+              "lastName": "Tayarani-Najaran",
+              "firstName": "Zahra",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Targeted Drug Delivery Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dehghanpour Farashah M",
+              "lastName": "Dehghanpour Farashah",
+              "firstName": "Mahla",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Toxicology Research Centre, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Emami SA",
+              "lastName": "Emami",
+              "firstName": "Seyed Ahmad",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Traditional Pharmacy, School of Pharmacy, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ramazani E",
+              "lastName": "Ramazani",
+              "firstName": "Elham",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, Yazd University, Yazd, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shahraki N",
+              "lastName": "Shahraki",
+              "firstName": "Naghmeh",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Toxicology Research Centre, Mashhad University of Medical Sciences, Mashhad, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hadipour E",
+              "lastName": "Hadipour",
+              "firstName": "Elham",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, Faculty of Science, University of Guilan, Rasht, Iran. hadipour_e@guilan.ac.ir."
+                  },
+                  {
+                    "affiliation": "Halal Research Center of IRI, Food and Drug Administration, Ministry of Health and Medical Education, Tehran, Iran. hadipour_e@guilan.ac.ir."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "51",
+          "journalIssueId": 3821699,
+          "dateOfPublication": "2024 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Mol Biol Rep",
+            "title": "Molecular biology reports",
+            "essn": "1573-4978",
+            "issn": "0301-4851",
+            "isoabbreviation": "Mol Biol Rep",
+            "nlmid": "0403234"
+          },
+          "printPublicationDate": "2024-09-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "986",
+        "abstractText": "<h4>Background</h4>Dysfunction of the cholinergic system and increased oxidative stress have a crucial role in cognitive disorders including Alzheimer's disease (AD). Here, we have investigated the protective effects of betanin, a novel acetylcholinesterase (AChE) inhibitor, on hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>)-induced cell death in PC12 cells.<h4>Methods and results</h4>The protective effects were assessed by measuring cell viability, the amount of reactive oxygen species (ROS) production, AChE activity, cell damage, and apoptosis using resazurin, 2',7'-dichlorodihydrofluorescein diacetate (DCFH-DA), Ellman method, lactate dehydrogenase (LDH) release, propidium iodide (PI) staining and flow cytometry, and Western blot analysis. H<sub>2</sub>O<sub>2</sub> (150 µM) resulted in cell viability reduction and apoptosis induction while, pretreatment with the betanin (10, 20, and 50 μM) and N-Acetyl-L-cysteine (NAC) (2.5 and 5 mM) significantly increased the viability (P < 0.05, P < 0.01 and P < 0.001) and at 5-50 μM betanin decreased ROS amount (P < 0.05, P < 0.01 and P < 0.001). Whereas, pretreatment with the betanin (10, 20, and 50 μM) decreased AChE activity (P < 0.001), also at 20 and 50 μM betanin reduced the release of LDH (P < 0.001), and at 10-50 μM decreased the percentage of apoptotic cells (P < 0.001). Apoptosis biomarkers such as cleaved poly (ADP-ribose) polymerase (PARP) (P < 0.01 and P < 0.001) and cytochrome c (P < 0.05 and P < 0.001) were attenuated after pretreatment of PC12 cells with betanin at 10-20 μM and 10-50 μM respectively. Indeed, survivin (P < 0.001) increased after pretreatment of cells with betanin at 10-20 μM.<h4>Conclusions</h4>Overall, betanin may use the potential to delay or prevent cell death caused by AD through decreasing the activity of AChE as well as attenuating the expression of proteins involved in the apoptosis pathway.",
+        "affiliation": "Targeted Drug Delivery Research Center, Pharmaceutical Technology Institute, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Halal Research Center IRI, Iran",
+              "grantId": "1-98",
+              "orderIn": 0
+            },
+            {
+              "agency": "Mashhad University of Medical Sciences",
+              "grantId": "4001013",
+              "orderIn": 0
+            },
+            {
+              "agency": "University of Guilan",
+              "grantId": "57156",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "PC12 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hydrogen Peroxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acetylcholinesterase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cholinesterase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neuroprotective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Betacyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Apoptosis",
+            "Cell culture",
+            "Oxidative stress",
+            "Pc12",
+            "Betanin",
+            "Ache Inhibitor"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Acetylcholinesterase",
+              "registryNumber": "EC 3.1.1.7"
+            },
+            {
+              "name": "Cholinesterase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Neuroprotective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Betacyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hydrogen Peroxide",
+              "registryNumber": "BBX060AN9V"
+            },
+            {
+              "name": "betanin",
+              "registryNumber": "5YJC992ZP6"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s11033-024-09923-6"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-09-16",
+        "dateOfCreation": "2024-09-16",
+        "dateOfRevision": "2025-02-04",
+        "electronicPublicationDate": "2024-09-16",
+        "firstPublicationDate": "2024-09-16",
+        "firstIndexDate": "2024-09-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND608683813",
+        "source": "AGR",
+        "title": "Protective impact of Betanin against noise and scrotal hyperthermia on testicular toxicity in Wistar rat: Role of apoptosis, oxidative stress and inflammation",
+        "authorString": "Bijani S, Naserzadeh P, Hosseini MJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bijani S",
+              "lastName": "Bijani",
+              "firstName": "Soroush",
+              "initials": "S"
+            },
+            {
+              "fullName": "Naserzadeh P",
+              "lastName": "Naserzadeh",
+              "firstName": "Parvaneh",
+              "initials": "P"
+            },
+            {
+              "fullName": "Hosseini MJ",
+              "lastName": "Hosseini",
+              "firstName": "Mir-Jamal",
+              "initials": "MJ"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "19",
+          "volume": "10",
+          "journalIssueId": 4092772,
+          "dateOfPublication": "2024 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2024,
+          "journal": {
+            "title": "Heliyon"
+          },
+          "printPublicationDate": "2024-10-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "Not Available",
+        "abstractText": "The heat exposure and white noise can induce damage on reproductive organs. The main objective of this study is to observe, if betanin administration could ameliorate oxidative stress, apoptosis and inflammation in testis of rodents following noise and scrotal hyperthermia exposure. Wistar rats were divided into 6 groups; control, betanin, noise, hyperthermia and two treatment groups. Scrotal hyperthermia model was performed by heat exposure of rat testicular (43 °C) for 15 min and 3 times per weeks for 14 days. Noise induction model was done following exposure of rats with 100-dB noise level for 14 days and 8 h daily similar to real exposure condition in human. Betanin was administrated at the sub-effective dose (15 mg/kg) by gavage route for 4 weeks (5 times a week) to male rats. The animals were euthanized and testis were dissected and stored at −80 °C. Then, the oxidative stress biomarkers (MDA and GSH), apoptosis (cytochrome c & Annexin V), and inflammatory cytokines (TNF-α & IL-6) were measured by the real time polymerase chain reaction (RT-PCR) of testis collected samples. The data output demonstrates the impact of noise and hyperthermia in testicular toxicity induction by mitigating oxidative damage, apoptosis and inflammatory mediators. Following treatment with 15 mg/kg per day of betanin, lipid peroxidation and GSH content have been modulated, and TNF-α and IL-6 gene expression has been declined. Our results revealed that in Wistar rats, betanin displays protective effects against noise and scrotal hyperthermia-induced acute testicular toxicity through the inhibition of oxidative stress, apoptosis, and inflammation.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-09-12",
+        "dateOfCreation": "2025-09-12",
+        "firstPublicationDate": "2024-10-01",
+        "firstIndexDate": "2026-01-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39386871",
+        "source": "MED",
+        "pmid": "39386871",
+        "pmcid": "PMC11461989",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11461989"
+          ]
+        },
+        "doi": "10.1016/j.heliyon.2024.e38289",
+        "title": "Protective impact of Betanin against noise and scrotal hyperthermia on testicular toxicity in Wistar rat: Role of apoptosis, oxidative stress and inflammation.",
+        "authorString": "Bijani S, Naserzadeh P, Hosseini MJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bijani S",
+              "lastName": "Bijani",
+              "firstName": "Soroush",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zanjan Applied Pharmacology Research Center, Health and Metabolic Diseases Research Institute, Zanjan University of Medical Sciences, Zanjan, Iran."
+                  },
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, School of Pharmacy, Zanjan University of Medical Sciences, Zanjan, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Naserzadeh P",
+              "lastName": "Naserzadeh",
+              "firstName": "Parvaneh",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Endocrine Research Center, Institute of Endocrinology and Metabolism, Iran University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hosseini MJ",
+              "lastName": "Hosseini",
+              "firstName": "Mir-Jamal",
+              "initials": "MJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zanjan Applied Pharmacology Research Center, Health and Metabolic Diseases Research Institute, Zanjan University of Medical Sciences, Zanjan, Iran."
+                  },
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, School of Pharmacy, Zanjan University of Medical Sciences, Zanjan, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "19",
+          "volume": "10",
+          "journalIssueId": 3838256,
+          "dateOfPublication": "2024 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Heliyon",
+            "title": "Heliyon",
+            "essn": "2405-8440",
+            "issn": "2405-8440",
+            "isoabbreviation": "Heliyon",
+            "nlmid": "101672560"
+          },
+          "printPublicationDate": "2024-10-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "e38289",
+        "abstractText": "The heat exposure and white noise can induce damage on reproductive organs. The main objective of this study is to observe, if betanin administration could ameliorate oxidative stress, apoptosis and inflammation in testis of rodents following noise and scrotal hyperthermia exposure. Wistar rats were divided into 6 groups; control, betanin, noise, hyperthermia and two treatment groups. Scrotal hyperthermia model was performed by heat exposure of rat testicular (43 °C) for 15 min and 3 times per weeks for 14 days. Noise induction model was done following exposure of rats with 100-dB noise level for 14 days and 8 h daily similar to real exposure condition in human. Betanin was administrated at the sub-effective dose (15 mg/kg) by gavage route for 4 weeks (5 times a week) to male rats. The animals were euthanized and testis were dissected and stored at -80 °C. Then, the oxidative stress biomarkers (MDA and GSH), apoptosis (cytochrome <i>c</i> & Annexin V), and inflammatory cytokines (TNF-α & IL-6) were measured by the real time polymerase chain reaction (RT-PCR) of testis collected samples. The data output demonstrates the impact of noise and hyperthermia in testicular toxicity induction by mitigating oxidative damage, apoptosis and inflammatory mediators. Following treatment with 15 mg/kg per day of betanin, lipid peroxidation and GSH content have been modulated, and TNF-α and IL-6 gene expression has been declined. Our results revealed that in Wistar rats, betanin displays protective effects against noise and scrotal hyperthermia-induced acute testicular toxicity through the inhibition of oxidative stress, apoptosis, and inflammation.",
+        "affiliation": "Zanjan Applied Pharmacology Research Center, Health and Metabolic Diseases Research Institute, Zanjan University of Medical Sciences, Zanjan, Iran.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Zanjan University of Medical Sciences",
+              "grantId": "A-12-769-45",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Apoptosis",
+            "Noise",
+            "Oxidative stress",
+            "Inflammation",
+            "Gene Expression",
+            "Betanin",
+            "Scrotal Hyperthermia"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.heliyon.2024.e38289"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11461989"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11461989?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refseq",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2024-10-10",
+        "dateOfRevision": "2024-10-11",
+        "electronicPublicationDate": "2024-09-24",
+        "firstPublicationDate": "2024-09-24",
+        "firstIndexDate": "2024-10-11",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37765032",
+        "source": "MED",
+        "pmid": "37765032",
+        "pmcid": "PMC10537618",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10537618"
+          ]
+        },
+        "doi": "10.3390/ph16091224",
+        "title": "Effect of Betanin, the Major Pigment of Red Beetroot (&lt;i&gt;Beta vulgaris&lt;/i&gt; L.), on the Activity of Recombinant Human Cytochrome P450 Enzymes.",
+        "authorString": "Lim SH, Bae S, Lee HS, Han HK, Choi CI.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lim SH",
+              "lastName": "Lim",
+              "firstName": "Sung Ho",
+              "initials": "SH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-5297-0832"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Integrated Research Institute for Drug Development, College of Pharmacy, Dongguk University-Seoul, Goyang 10326, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bae S",
+              "lastName": "Bae",
+              "firstName": "Seoungpyo",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Integrated Research Institute for Drug Development, College of Pharmacy, Dongguk University-Seoul, Goyang 10326, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee HS",
+              "lastName": "Lee",
+              "firstName": "Ho Seon",
+              "initials": "HS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3246-1920"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Integrated Research Institute for Drug Development, College of Pharmacy, Dongguk University-Seoul, Goyang 10326, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han HK",
+              "lastName": "Han",
+              "firstName": "Hyo-Kyung",
+              "initials": "HK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "BK21 FOUR Team and Integrated Research Institute for Drug Development, College of Pharmacy, Dongguk University-Seoul, Goyang 10326, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Choi CI",
+              "lastName": "Choi",
+              "firstName": "Chang-Ik",
+              "initials": "CI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Integrated Research Institute for Drug Development, College of Pharmacy, Dongguk University-Seoul, Goyang 10326, Republic of Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3246-1920"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-5297-0832"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "16",
+          "journalIssueId": 3639707,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Pharmaceuticals (Basel)",
+            "title": "Pharmaceuticals (Basel, Switzerland)",
+            "essn": "1424-8247",
+            "issn": "1424-8247",
+            "isoabbreviation": "Pharmaceuticals (Basel)",
+            "nlmid": "101238453"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "1224",
+        "abstractText": "Most of the currently available drugs are derived from natural sources, but they are used only after extensive chemical modifications to improve their safety and efficacy. Natural products are used in health supplements and cosmetic preparations and have been used as auxiliary drugs or alternative medicines. When used in combination with conventional drugs, these herbal products are known to alter their pharmacokinetics and pharmacodynamics, reducing their therapeutic effects. Moreover, herb-drug interactions (HDIs) may have serious side effects, which is one of the major concerns in health practice. It is postulated that HDIs affect the pathways regulating cytochrome P450 enzymes (CYPs). Betanin, the chief pigment of red beetroot (<i>Beta vulgaris</i> L.), has various types of pharmacological activity, such as anti-inflammatory, antioxidant, and anticancer effects. However, the potential risk of HDIs for betanin has not yet been studied. Thus, we aimed to predict more specific HDIs by evaluating the effects of betanin on CYPs (CYP1A2, CYP2B6, CYP2C9, CYP2C19, CYP2D6, and CYP3A4), the major phase I metabolic enzymes, using fluorescence-/luminescence-based assays. Our results showed that betanin inhibited CYP3A4 activity in a dose-dependent manner (IC<sub>50</sub> = 20.97 µΜ). Moreover, betanin acted as a competitive inhibitor of CYP3A4, as confirmed by evaluating Lineweaver-Burk plots (<i>Ki</i> value = 19.48 µΜ). However, no significant inhibitory effects were observed on other CYPs. Furthermore, betanin had no significant effect on CYP1A2, CYP2B6, or CYP2C9 induction in HepG2 cells. In conclusion, betanin acted as a competitive inhibitor of CYP3A4, and thus it should be used cautiously with other drugs that require metabolic enzymes as substrates. Additional in vivo studies and clinical trials are needed to further elucidate the HDIs of betanin.",
+        "affiliation": "Integrated Research Institute for Drug Development, College of Pharmacy, Dongguk University-Seoul, Goyang 10326, Republic of Korea.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministry of Education (MOE, Republic of Korea)",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Research Foundation of Korea",
+              "grantId": "2019R1C1C1006213",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Research Foundation of Korea (NRF)",
+              "grantId": "2019R1C1C1006213",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "HepG2 cells",
+            "Beta vulgaris L.",
+            "Cytochrome P450 Enzymes",
+            "Fluorescence-based Assay",
+            "Herb–drug Interactions",
+            "Betanin",
+            "Luminescence-based Assay"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ph16091224"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10537618"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10537618?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-03-10",
+        "dateOfCreation": "2023-09-28",
+        "dateOfRevision": "2026-03-10",
+        "electronicPublicationDate": "2023-08-30",
+        "firstPublicationDate": "2023-08-30",
+        "firstIndexDate": "2023-09-29",
+        "fullTextReceivedDate": "2023-09-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39214424",
+        "source": "MED",
+        "pmid": "39214424",
+        "doi": "10.1016/j.micpath.2024.106894",
+        "title": "Exploring antiviral activity of Betanin and Glycine Betaine against dengue virus type-2 in transfected Hela cells.",
+        "authorString": "Mufti IU, Ain QU, Malik A, Shahid I, Alzahrani AR, Ijaz B, Rehman S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mufti IU",
+              "lastName": "Mufti",
+              "firstName": "Isra Umbreen",
+              "initials": "IU",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6097-8700"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biosciences, COMSATS University Islamabad (CUI), Park Road, Islamabad, 45550, Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ain QU",
+              "lastName": "Ain",
+              "firstName": "Qurrat Ul",
+              "initials": "QU",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biosciences, COMSATS University Islamabad (CUI), Park Road, Islamabad, 45550, Pakistan; Department of Medical Laboratory Technology, The Islamia University of Bahawalpur, Bahawalpur, 63100, Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Malik A",
+              "lastName": "Malik",
+              "firstName": "Ayesha",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center of Excellence in Molecular Biology, University of the Punjab, 87 West Canal Rd, Thoker Niaz Baig, Lahore, Punjab, 53700, Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shahid I",
+              "lastName": "Shahid",
+              "firstName": "Imran",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9832-3224"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Medicine, Umm Al-Qura University, AlAbidiyah, P.O. Box 13578, Makkah, 21955, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alzahrani AR",
+              "lastName": "Alzahrani",
+              "firstName": "Abdullah R",
+              "initials": "AR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Medicine, Umm Al-Qura University, AlAbidiyah, P.O. Box 13578, Makkah, 21955, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ijaz B",
+              "lastName": "Ijaz",
+              "firstName": "Bushra",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center of Excellence in Molecular Biology, University of the Punjab, 87 West Canal Rd, Thoker Niaz Baig, Lahore, Punjab, 53700, Pakistan. Electronic address: bijaz@cemb.edu.pk."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rehman S",
+              "lastName": "Rehman",
+              "firstName": "Sidra",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biosciences, COMSATS University Islamabad (CUI), Park Road, Islamabad, 45550, Pakistan. Electronic address: sidrarehman@comsats.edu.pk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6097-8700"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9832-3224"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "195",
+          "journalIssueId": 3829236,
+          "dateOfPublication": "2024 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Microb Pathog",
+            "title": "Microbial pathogenesis",
+            "essn": "1096-1208",
+            "issn": "0882-4010",
+            "isoabbreviation": "Microb Pathog",
+            "nlmid": "8606191"
+          },
+          "printPublicationDate": "2024-10-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "106894",
+        "abstractText": "Dengue virus (DENV) infection is a worldwide public health concern infecting approximately 400 million individuals and about 40,000 mortalities yearly. Despite this, no licensed or readily available antiviral medication is currently available specifically for DENV infection, and therapy is typically symptomatic. Therefore, the objective of the study was to investigate the antiviral activity of Beta vulgaris L. phytoconstituents against DENV-2 targeting NS3 protein. The antiviral activity of phytochemicals was examined through virtual ligand-based screening, antiviral inhibition and dosage response assays, western blotting analysis and MD simulations. We conducted toxicological, and pharmacokinetic analysis to assess plant-based natural compound's efficacy, safety, and non-toxic doses. Molecular docking and MD simulation results revealed that the nonstructural protein-3 (NS3) might prove as a funamental target for Betanin and Glycine Betaine against Dengue virus. Betanin and Glycine betaine were initially studied for their non-toxic doses in HeLa, CHO, and Vero cells via MTT assay. HeLa cells were transiently transfected with cloned vector pcDNA3.1/Zeo(+)/DENV-2 NS3 along with non-toxic doses (80 μM-10 μM) of selected phytochemicals. The dose-response assay illustrated downregulated expression of DENV-2 NS3 gene after administration of Betanin (IC50 = 4.35 μM) and Glycine Betaine (IC50 = 4.49 μM). Dose response analysis of Betanin (80 μM-10 μM) depicted the significant inhibition of NS3 protein expression as well. These results suggested downregulated expression of DENV-2 NS3 at mRNA and protein level portraying the DENV replication inhibition. Based on our study findings, NS3 protease is depicted as distinctive DENV-2 inhibitor target. We will channel our study further into in vitro characterization employing the mechanistic study to understand the role of host factors in anti-flavi therapeutic.",
+        "affiliation": "Department of Biosciences, COMSATS University Islamabad (CUI), Park Road, Islamabad, 45550, Pakistan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hela Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CHO Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vero Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cricetulus"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dengue Virus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dengue",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "VI",
+                    "qualifierName": "virology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Betaine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serine Endopeptidases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Viral Nonstructural Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Virus Replication",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Betacyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorocebus aethiops"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Viral Proteases"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cytotoxicity",
+            "Molecular docking",
+            "Phytochemicals",
+            "Molecular Dynamic Simulations",
+            "Denv-2 Ns3 Protease"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Viral Nonstructural Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NS3 protease, dengue virus",
+              "registryNumber": "EC 3.4.21.-"
+            },
+            {
+              "name": "Betacyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Serine Endopeptidases",
+              "registryNumber": "EC 3.4.21.-"
+            },
+            {
+              "name": "Betaine",
+              "registryNumber": "3SCV180C9W"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Viral Proteases",
+              "registryNumber": "EC 3.4.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.micpath.2024.106894"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-09-15",
+        "dateOfCreation": "2024-08-30",
+        "dateOfRevision": "2024-09-15",
+        "electronicPublicationDate": "2024-08-29",
+        "firstPublicationDate": "2024-08-29",
+        "firstIndexDate": "2024-09-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37592353",
+        "source": "MED",
+        "pmid": "37592353",
+        "pmcid": "PMC10436450",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10436450"
+          ]
+        },
+        "doi": "10.1186/s13068-023-02374-4",
+        "title": "Combinatorial engineering of betalain biosynthesis pathway in yeast Saccharomyces cerevisiae.",
+        "authorString": "Babaei M, Thomsen PT, Dyekjær JD, Glitz CU, Pastor MC, Gockel P, Körner JD, Rago D, Borodina I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Babaei M",
+              "lastName": "Babaei",
+              "firstName": "Mahsa",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thomsen PT",
+              "lastName": "Thomsen",
+              "firstName": "Philip Tinggaard",
+              "initials": "PT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dyekjær JD",
+              "lastName": "Dyekjær",
+              "firstName": "Jane Dannow",
+              "initials": "JD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Glitz CU",
+              "lastName": "Glitz",
+              "firstName": "Christiane Ursula",
+              "initials": "CU",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1745-9849"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pastor MC",
+              "lastName": "Pastor",
+              "firstName": "Marc Cernuda",
+              "initials": "MC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gockel P",
+              "lastName": "Gockel",
+              "firstName": "Peter",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2128-2567"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Körner JD",
+              "lastName": "Körner",
+              "firstName": "Johann Dietmar",
+              "initials": "JD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rago D",
+              "lastName": "Rago",
+              "firstName": "Daniela",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4442-5671"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Borodina I",
+              "lastName": "Borodina",
+              "firstName": "Irina",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8452-1393"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark. irbo@biosustain.dtu.dk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2128-2567"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4442-5671"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8452-1393"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1745-9849"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "16",
+          "journalIssueId": 3609122,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Biotechnol Biofuels Bioprod",
+            "title": "Biotechnology for biofuels and bioproducts",
+            "essn": "2731-3654",
+            "issn": "2731-3654",
+            "isoabbreviation": "Biotechnol Biofuels Bioprod",
+            "nlmid": "9918300888906676"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "128",
+        "abstractText": "<h4>Background</h4>Betalains, comprising red-violet betacyanins and yellow-orange betaxanthins, are the hydrophilic vacuolar pigments that provide bright coloration to roots, fruits, and flowers of plants of the Caryophyllales order. Betanin extracted from red beets is permitted quantum satis as a natural red food colorant (E162). Due to antioxidant activity, betanin has potential health benefits.<h4>Results</h4>We applied combinatorial engineering to find the optimal combination of a dozen tyrosine hydroxylase (TyH) and 4,5-dopa-estradiol-dioxygenase (DOD) variants. The best-engineered Saccharomyces cerevisiae strains produced over six-fold higher betaxanthins than previously reported. By genome-resequencing of these strains, we found out that two copies of DOD enzyme from Bougainvillea glabra together with TyH enzymes from Abronia nealleyi, Acleisanthes obtusa, and Cleretum bellidiforme were present in the three high-betaxanthin-producing isolates. Next, we expressed four variants of glucosyltransferases from Beta vulgaris for betanin biosynthesis. The highest titer of betanin (30.8 ± 0.14 mg/L after 48 h from 20 g/L glucose) was obtained when completing the biosynthesis pathway with UGT73A36 glucosyltransferase from Beta vulgaris. Finally, we investigated betalain transport in CEN.PK and S288C strains of Saccharomyces cerevisiae and identified a possible role of transporter genes QDR2 and APL1 in betanin transport.<h4>Conclusions</h4>This study shows the potential of combinatorial engineering of yeast cell factories for the biotechnological production of betanin.",
+        "affiliation": "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kemitorvet Building 220, 2800 Kgs., Lyngby, Denmark.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "European Union&apos;s Horizon 2020",
+              "grantId": "YEAST-TRANS project, Grant Agreement No. 757384",
+              "orderIn": 0
+            },
+            {
+              "agency": "Novo Nordisk Fonden",
+              "grantId": "NNF20OC0060809",
+              "orderIn": 0
+            },
+            {
+              "agency": "Novo Nordisk Fonden",
+              "grantId": "NNF21OC0072559",
+              "orderIn": 0
+            },
+            {
+              "agency": "NNF Center for Biosustainability",
+              "grantId": "Natural Products",
+              "orderIn": 0
+            },
+            {
+              "agency": "European Union's Horizon 2020",
+              "grantId": "YEAST-TRANS project, Grant Agreement No. 757384",
+              "orderIn": 0
+            },
+            {
+              "agency": "Novo Nordisk Fonden",
+              "grantId": "NNF20CC0035580",
+              "orderIn": 0
+            },
+            {
+              "agency": "Novo Nordisk Fonden",
+              "grantId": "NNF10CC1016517",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Saccharomyces cerevisiae",
+            "metabolic engineering",
+            "Betalains",
+            "Betanin",
+            "Betaxanthins"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s13068-023-02374-4"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10436450"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10436450?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "gen",
+            "uniprot"
+          ]
+        },
+        "dateOfCreation": "2023-08-17",
+        "dateOfRevision": "2023-11-20",
+        "electronicPublicationDate": "2023-08-17",
+        "firstPublicationDate": "2023-08-17",
+        "firstIndexDate": "2023-08-19",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "42449605",
+        "source": "MED",
+        "pmid": "42449605",
+        "pmcid": "PMC13359649",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13359649"
+          ]
+        },
+        "doi": "10.3390/cancers18132060",
+        "title": "Pharmacological Strategies for Mitigating Cytarabine-Induced Multi-Organ Toxicity: A Scoping Review on Mechanisms, Efficacy and Clinical Implications.",
+        "authorString": "Konstantinidis I, Tsokkou S, Makedou K, Gavriilaki E, Delis G, Papamitsou T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Konstantinidis I",
+              "lastName": "Konstantinidis",
+              "firstName": "Ioannis",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-1632-821X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Histology-Embryology, Department of Medicine, Faculty of Health Sciences, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tsokkou S",
+              "lastName": "Tsokkou",
+              "firstName": "Sophia",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-1703-6980"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Histology-Embryology, Department of Medicine, Faculty of Health Sciences, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Makedou K",
+              "lastName": "Makedou",
+              "firstName": "Kali",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2718-7480"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Biochemistry, School of Medicine, AHEPA University Hospital, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gavriilaki E",
+              "lastName": "Gavriilaki",
+              "firstName": "Eleni",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8883-8208"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Haematology Unit, Haemophilia Centre of Northern Greece, 2nd Propedeutic Department of Internal Medicine, Hippokration General Hospital of Thessaloniki, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Delis G",
+              "lastName": "Delis",
+              "firstName": "Georgios",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4900-8911"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Pharmacology, Faculty of Health Sciences, School of Veterinary Medicine, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Papamitsou T",
+              "lastName": "Papamitsou",
+              "firstName": "Theodora",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0709-5407"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Histology-Embryology, Department of Medicine, Faculty of Health Sciences, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0709-5407"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2718-7480"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8883-8208"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4900-8911"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-1632-821X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-1703-6980"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "13",
+          "volume": "18",
+          "journalIssueId": 4225292,
+          "dateOfPublication": "2026 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Cancers (Basel)",
+            "title": "Cancers",
+            "essn": "2072-6694",
+            "issn": "2072-6694",
+            "isoabbreviation": "Cancers (Basel)",
+            "nlmid": "101526829"
+          },
+          "printPublicationDate": "2026-06-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "2060",
+        "abstractText": "<h4>Background</h4>Cytarabine (Ara-C) remains the cornerstone of remission-induction and consolidation chemotherapy for acute myeloid leukemia (AML) and related hematological malignancies. Despite more than six decades of clinical use, its multi-organ toxicity continues to be managed almost exclusively through dose attenuation and supportive care, with no approved upstream pharmacological prevention strategy available.<h4>Objectives</h4>This scoping review aimed to systematically map the breadth and nature of pharmacological agents tested in vivo for their capacity to mitigate cytarabine-induced multi-organ toxicity, to characterize their mechanisms of action and organ targets, and to identify evidence gaps and agents with translational potential.<h4>Methods</h4>The review was designed and reported in accordance with the PRISMA-ScR checklist. A structured electronic search was conducted across PubMed/MEDLINE, Scopus, Cochrane Library and Embase, and Web of Science from database inception to 15 July 2025. Eligible studies were restricted to full-text, peer-reviewed, English-language research involving in vivo mammalian models administered cytarabine as the principal toxin, with at least one pharmacological co-intervention and at least one quantitative or histopathological organ-injury outcome.<h4>Results</h4>From 5701 retrieved records, 36 eligible in vivo mammalian studies (spanning 1964-2024) were identified. Included studies addressed neurotoxicity (<i>n</i> = 6), gastrointestinal mucositis (<i>n</i> = 9), ocular toxicity (<i>n</i> = 3), hepatotoxicity (<i>n</i> = 3), bone marrow suppression (<i>n</i> = 4), chemotherapy-induced alopecia (<i>n</i> = 5), and reproductive and developmental toxicity (<i>n</i> = 4). Five recurring mechanistic strategies were identified across the heterogeneous agents tested: redox buffering (N-acetylcysteine, α-lipoic acid, rutin, swertiamarin, α-tocopherol), mitochondrial preservation (betanin, thymoquinone, vitamin D, sodium zinc dihydrolipoylhistidinate [DHLHZn]), tissue-microenvironment reprogramming (apraglutide, BADGE, plerixafor, short-chain fatty acids, β-glucan), molecular antagonism (deoxycytidine, dCMP), and immunomodulation (lienal peptide, IL-1β, AHCC).<h4>Conclusions</h4>This scoping review provides the first systematic cartography of pharmacological mitigation strategies for cytarabine-induced multi-organ toxicity. Five mechanistic pathways converge across eight organ systems, with apraglutide and N-acetylcysteine representing the most clinically translatable candidates. Plerixafor and PPARγ blockade by BADGE constitute high-priority candidates for bone marrow niche protection, while the deoxycytidine antagonism principle warrants formal pharmacokinetic evaluation. The complete absence of cardiotoxicity mitigation data defines the most critical gap for future research.",
+        "affiliation": "Laboratory of Histology-Embryology, Department of Medicine, Faculty of Health Sciences, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Neurotoxicity",
+            "Hepatotoxicity",
+            "Nephrotoxicity",
+            "developmental toxicity",
+            "Mitigation",
+            "Systemic toxicity",
+            "Ocular Toxicity",
+            "Cytarabine (Ara-c)",
+            "Intestinal Mucositis",
+            "Pharmacological Strategies"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/cancers18132060"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13359649"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13359649?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-07-15",
+        "dateOfCreation": "2026-07-15",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-06-25",
+        "firstPublicationDate": "2026-06-25",
+        "firstIndexDate": "2026-07-15",
+        "fullTextReceivedDate": "2026-09-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34177999",
+        "source": "MED",
+        "pmid": "34177999",
+        "pmcid": "PMC8220147",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8220147"
+          ]
+        },
+        "doi": "10.3389/fpls.2021.682443",
+        "title": "Engineering Betalain Biosynthesis in Tomato for High Level Betanin Production in Fruits.",
+        "authorString": "Grützner R, Schubert R, Horn C, Yang C, Vogt T, Marillonnet S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Grützner R",
+              "lastName": "Grützner",
+              "firstName": "Ramona",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cell and Metabolic Biology, Leibniz Institute of Plant Biochemistry, Halle, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schubert R",
+              "lastName": "Schubert",
+              "firstName": "Ramona",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cell and Metabolic Biology, Leibniz Institute of Plant Biochemistry, Halle, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Horn C",
+              "lastName": "Horn",
+              "firstName": "Claudia",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cell and Metabolic Biology, Leibniz Institute of Plant Biochemistry, Halle, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang C",
+              "lastName": "Yang",
+              "firstName": "Changqing",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cell and Metabolic Biology, Leibniz Institute of Plant Biochemistry, Halle, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vogt T",
+              "lastName": "Vogt",
+              "firstName": "Thomas",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cell and Metabolic Biology, Leibniz Institute of Plant Biochemistry, Halle, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marillonnet S",
+              "lastName": "Marillonnet",
+              "firstName": "Sylvestre",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cell and Metabolic Biology, Leibniz Institute of Plant Biochemistry, Halle, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "12",
+          "journalIssueId": 3109446,
+          "dateOfPublication": "2021 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Front Plant Sci",
+            "title": "Frontiers in plant science",
+            "essn": "1664-462X",
+            "issn": "1664-462X",
+            "isoabbreviation": "Front Plant Sci",
+            "nlmid": "101568200"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "682443",
+        "abstractText": "Betalains are pigments found in plants of the Caryophyllales order, and include the red-purple betacyanins and the yellow-orange betaxanthins. The red pigment from red beets, betanin, is made from tyrosine by a biosynthetic pathway that consists of a cytochrome P450, a L-DOPA dioxygenase, and a glucosyltransferase. The entire pathway was recently reconstituted in plants that do not make betalains naturally including potato and tomato plants. The amount of betanin produced in these plants was however not as high as in red beets. It was recently shown that a plastidic arogenate dehydrogenase gene involved in biosynthesis of tyrosine in plants is duplicated in <i>Beta vulgaris</i> and other betalain-producing plants, and that one of the two encoded enzymes, BvADHα, has relaxed feedback inhibition by tyrosine, contributing to the high amount of betanin found in red beets. We have reconstituted the complete betanin biosynthetic pathway in tomato plants with or without a <i>BvADHα</i> gene, and with all genes expressed under control of a fruit-specific promoter. The plants obtained with a construct containing <i>BvADHα</i> produced betanin at a higher level than plants obtained with a construct lacking this gene. These results show that use of BvADHα can be useful for high level production of betalains in heterologous hosts. Unlike red beets that produce both betacyanins and betaxanthins, the transformed tomatoes produced betacyanins only, conferring a bright purple-fuschia color to the tomato juice.",
+        "affiliation": "Department of Cell and Metabolic Biology, Leibniz Institute of Plant Biochemistry, Halle, Germany.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Plant secondary metabolites",
+            "Betalains",
+            "Betanin",
+            "Metabolic Pathway Engineering",
+            "Food Colorant",
+            "Heterologous Host",
+            "Cyclo-Dopa"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.frontiersin.org/articles/10.3389/fpls.2021.682443/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fpls.2021.682443"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8220147"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8220147?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 45,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2021-06-28",
+        "dateOfRevision": "2021-06-29",
+        "electronicPublicationDate": "2021-06-09",
+        "firstPublicationDate": "2021-06-09",
+        "firstIndexDate": "2021-06-29",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32420763",
+        "source": "MED",
+        "pmid": "32420763",
+        "doi": "10.1080/01635581.2020.1764068",
+        "title": "Evaluation of Cytotoxic Activity of Betanin Against U87MG Human Glioma Cells and Normal Human Lymphocytes and Its Anticancer Potential Through Mitochondrial Pathway.",
+        "authorString": "Salimi A, Bahiraei T, Ahdeno S, Vatanpour S, Pourahmad J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Salimi A",
+              "lastName": "Salimi",
+              "firstName": "Ahmad",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3026-6398"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, School of Pharmacy, Ardabil University of Medical Sciences, Ardabil, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bahiraei T",
+              "lastName": "Bahiraei",
+              "firstName": "Tannaz",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahdeno S",
+              "lastName": "Ahdeno",
+              "firstName": "Sana",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, School of Pharmacy, Ardabil University of Medical Sciences, Ardabil, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vatanpour S",
+              "lastName": "Vatanpour",
+              "firstName": "Saba",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, University of British Columbia, Vancouver, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pourahmad J",
+              "lastName": "Pourahmad",
+              "firstName": "Jalal",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3026-6398"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "73",
+          "journalIssueId": 3113768,
+          "dateOfPublication": "2021 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Nutr Cancer",
+            "title": "Nutrition and cancer",
+            "essn": "1532-7914",
+            "issn": "0163-5581",
+            "isoabbreviation": "Nutr Cancer",
+            "nlmid": "7905040"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "450-459",
+        "abstractText": "Recent studies revealed an antioxidant activity and anticancer efficiency of betanin. In this study, we investigated the cytotoxic effects and the possible mechanisms of betanin-induced apoptosis against U87MG human glioma cells and compared the results to those of human normal lymphocytes. MTT assay, caspase-3 activation assays in cells and succinate dehydrogenases (SDH), mitochondrial swelling, reactive oxygen species (ROS) production, mitochondrial membrane potential (MMP), and cytochrome C release assays in isolated mitochondria were obtained from U87MG human glioma cells and noncancerous human lymphocytes The results illustrated the significant cytotoxic effect of betanin on U87MG human glioma cells, with a concentration value that inhibits 50% of the cell growth of 7 µg/ml after 12 h of treatment. MTT assay demonstrated that the betanin is selectively toxic to U87MG human glioma cells, and betanin induced cell apoptosis via activation of caspase-3 along with modulation of apoptosis-related mitochondria. Meanwhile, betanin selectively increased ROS formation, mitochondria swelling, MMP decrease, and cytochrome c release in cancerous mitochondria but in normal mitochondria. Based on the evidence obtained from this study, it is concluded that the betanin is a promising natural compound to fight U87MG human glioma cells via induction of apoptosis through activation of intrinsic pathways.",
+        "affiliation": "Department of Pharmacology and Toxicology, School of Pharmacy, Ardabil University of Medical Sciences, Ardabil, Iran.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lymphocytes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glioma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochromes c",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Betacyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Potential, Mitochondrial"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cytochromes c",
+              "registryNumber": "9007-43-6"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Betacyanins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/01635581.2020.1764068"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-08-18",
+        "dateOfCreation": "2020-05-19",
+        "dateOfRevision": "2021-08-18",
+        "electronicPublicationDate": "2020-05-18",
+        "firstPublicationDate": "2020-05-18",
+        "firstIndexDate": "2020-05-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "35239683",
+        "source": "MED",
+        "pmid": "35239683",
+        "pmcid": "PMC8893657",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8893657"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0264074",
+        "title": "The Insight of In Silico and In Vitro evaluation of Beta vulgaris phytochemicals against Alzheimer's disease targeting acetylcholinesterase.",
+        "authorString": "Rehman S, Ali Ashfaq U, Sufyan M, Shahid I, Ijaz B, Hussain M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rehman S",
+              "lastName": "Rehman",
+              "firstName": "Sidra",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1218-4348"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biosciences, COMSATS University Islamabad (CUI), Islamabad, Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ali Ashfaq U",
+              "lastName": "Ali Ashfaq",
+              "firstName": "Usman",
+              "initials": "U",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioinformatics and Biotechnology, Government College University Faisalabad, Faisalabad, Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sufyan M",
+              "lastName": "Sufyan",
+              "firstName": "Muhammad",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioinformatics and Biotechnology, Government College University Faisalabad, Faisalabad, Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shahid I",
+              "lastName": "Shahid",
+              "firstName": "Imran",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9832-3224"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Pharmacology and Toxicology, Umm Al-Qura University, Makkah, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ijaz B",
+              "lastName": "Ijaz",
+              "firstName": "Bushra",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2979-9501"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre of Excellence in Molecular Biology, University of the Punjab, Lahore, Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hussain M",
+              "lastName": "Hussain",
+              "firstName": "Mureed",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences, University of Management and Technology, Lahore, Pakistan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2979-9501"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5495-805X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9832-3224"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1218-4348"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "17",
+          "journalIssueId": 3321308,
+          "dateOfPublication": "2022 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "e0264074",
+        "abstractText": "B. vulgaris extracts possess antioxidant, anti-inflammatory along with its role in improving memory disorders. Subsequently, in vitro and in silico studies of its purified phytochemicals may expand complementary and alternative Alzheimer's therapeutic option. Super activation of acetylcholinesterase enzyme is associated explicitly with Alzheimer's disease (AD) ultimately resulting in senile dementia. Hence, acetylcholinesterase enzyme inhibition is employed as a promising approach for AD treatment. Many FDA approved drugs are unable to cure the disease progression completely. The Present study was devised to explore the potential bioactive phytochemicals of B. vulgaris as alternative therapeutic agents against AD by conducting in vitro and in silico studies. To achieve this, chemical structures of phytochemicals were recruited from PubChem. Further, these compounds were analyzed for their binding affinities towards acetylcholinesterase (AChE) enzyme. Pharmacophoric ligand-based models showed major characteristics like, HBA, HBD, hydrophobicity, aromaticity and positively ionizable surface morphology for receptor binding. Virtual screening identified three hit compounds including betanin, myricetin and folic acid with least binding score compared to the reference drug, donepezil (-17 kcal/mol). Further, in vitro studies for anti-acetylcholinesterase activity of betanin and glycine betaine were performed. Dose response analysis showed 1.271 μM and 1.203 μM 50% inhibitory concentration (IC50) values for betanin and glycine betaine compounds respectively. Our findings indicate that phytoconstituents of B. vulgaris can be implicated as an alternative therapeutic drug candidate for cognitive disorders like Alzheimer's disease.",
+        "affiliation": "Department of Biosciences, COMSATS University Islamabad (CUI), Islamabad, Pakistan.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Alzheimer Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acetylcholinesterase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cholinesterase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Acetylcholinesterase",
+              "registryNumber": "EC 3.1.1.7"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cholinesterase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0264074&type=printable"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0264074&type=printable"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0264074"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8893657"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8893657?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 21,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2024-07-25",
+        "dateOfCreation": "2022-03-03",
+        "dateOfRevision": "2024-08-29",
+        "electronicPublicationDate": "2022-03-03",
+        "firstPublicationDate": "2022-03-03",
+        "firstIndexDate": "2022-03-04",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33371844",
+        "source": "MED",
+        "pmid": "33371844",
+        "doi": "10.2174/1386207323666201228160224",
+        "title": "Molecular Docking and Pharmacoinformatics Studies Reveal Potential Phytochemicals Against HCV NS5B Polymerase.",
+        "authorString": "Khalid H, Ashfaq UA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Khalid H",
+              "lastName": "Khalid",
+              "firstName": "Hina",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3736-4022"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan,Pakistan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ashfaq UA",
+              "lastName": "Ashfaq",
+              "firstName": "Usman Ali",
+              "initials": "UA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5495-805X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan,Pakistan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3736-4022"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5495-805X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "25",
+          "journalIssueId": 3295923,
+          "dateOfPublication": "2022 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Comb Chem High Throughput Screen",
+            "title": "Combinatorial chemistry & high throughput screening",
+            "essn": "1875-5402",
+            "issn": "1386-2073",
+            "isoabbreviation": "Comb Chem High Throughput Screen",
+            "nlmid": "9810948"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "335-346",
+        "abstractText": "<h4>Background</h4>Hepatitis C Virus (HCV) is one of the serious health issues affecting onethird of the world's population. The high variations of the HCV genome are ascribed to quick replication by NS5B polymerase and are thus the most attractive target for developing anti-HCV agents.<h4>Objective</h4>The current study aimed to discover novel phytochemicals that harbor the potential of NS5B polymerase inhibition.<h4>Methods</h4>In this computational study, a molecular docking approach was used to screen phytochemicals with the best binding and spatial affinity with NS5B at the Palm I region. The topranked compounds were then subjected to an in-silico pharmacokinetic and toxicological study.<h4>Results</h4>The virtual screening provided seven 'hit compounds' including Betanin, 3,5'- dihydroxythalifaboramine, Diarctigenin, 6'-desmethylthalifaboramine, Cephalotaxine, 5alpha-O- (3'-dimethylamino-3'-phenylpropionyl) taxinine M and IsoTetrandrine with minimum binding score compared to the reference drug, sofosbuvir (-14.7 kcal/mol). The absorption, distribution, metabolism, excretion, and toxicity (ADMET) and thorough toxicological analysis revealed a favorable safety profile of these compounds.<h4>Conclusion</h4>The study demonstrates the identified phytochemicals. These may serve as potential antiviral compounds that can provide an alternative approach for amelioration of HCV.",
+        "affiliation": "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan,Pakistan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hepacivirus"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hepatitis C",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Viral Nonstructural Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular docking",
+            "Antiviral",
+            "hepatitis C",
+            "Phytochemicals",
+            "Ns5b Inhibitors",
+            "Mammalian Host Cells."
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Viral Nonstructural Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2174/1386207323666201228160224"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-03-22",
+        "dateOfCreation": "2020-12-29",
+        "dateOfRevision": "2022-03-22",
+        "firstPublicationDate": "2022-01-01",
+        "firstIndexDate": "2020-12-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24799198",
+        "source": "MED",
+        "pmid": "24799198",
+        "doi": "10.1016/j.fct.2014.04.038",
+        "title": "Betanin attenuates paraquat-induced liver toxicity through a mitochondrial pathway.",
+        "authorString": "Han J, Zhang Z, Yang S, Wang J, Yang X, Tan D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Han J",
+              "lastName": "Han",
+              "firstName": "Junyan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science and Engineering, Shenyang University, Shenyang city 110044, China. Electronic address: hanjunyan@aliyun.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Z",
+              "lastName": "Zhang",
+              "firstName": "Zongju",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science and Engineering, Shenyang University, Shenyang city 110044, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang S",
+              "lastName": "Yang",
+              "firstName": "Shaobin",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science and Engineering, Shenyang University, Shenyang city 110044, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science and Engineering, Shenyang University, Shenyang city 110044, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang X",
+              "lastName": "Yang",
+              "firstName": "Xuelian",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Life Science and Engineering, Shenyang University, Shenyang city 110044, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tan D",
+              "lastName": "Tan",
+              "firstName": "Dehong",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food, Shenyang Agricultural University, Shenyang city 110866, China. Electronic address: tandehongsy@126.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "70",
+          "journalIssueId": 2178736,
+          "dateOfPublication": "2014 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Food Chem Toxicol",
+            "title": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+            "essn": "1873-6351",
+            "issn": "0278-6915",
+            "isoabbreviation": "Food Chem Toxicol",
+            "nlmid": "8207483"
+          },
+          "printPublicationDate": "2014-08-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "100-106",
+        "abstractText": "We attempted to determine whether betanin (from natural pigments) that has anti-oxidant properties would be protective against paraquat-induced liver injury in Sprague-Dawley rats. Paraquat was injected intraperitoneally into rats to induce liver toxicity. The rats were randomly divided into four groups: a control group, a paraquat group, and two groups that received betanin at doses of 25 and 100mg/kg/day three days before and two days after they were administered paraquat. We evaluated liver histopathology, serum liver enzymatic activities, oxidative stress, cytochrome P450 (CYP) 3A2 mRNA expression, and mitochondrial damage. The rats that were injected with paraquat incurred liver injury, evidenced by histological changes and elevated serum aspartate aminotransferase and alanine aminotransferase levels; paraquat also led to oxidative stress, an increase of cytochrome P450 3A2 mRNA expression, and mitochondrial damage, indicated by mitochondrial membrane swelling, reduced mitochondrial cytochrome C, and apoptosis-inducing factor protein levels. Pathological damage and all of the above mentioned markers were lesser in the animals treated with betanin than in those who received paraquat alone. Betanin had a protective effect against paraquat-induced liver damage in rats. The mechanism of the protection appears to be the inhibition of CYP 3A2 expression and protection of mitochondria.",
+        "affiliation": "College of Life Science and Engineering, Shenyang University, Shenyang city 110044, China. Electronic address: hanjunyan@aliyun.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Major Science and Technology Platform Project of Liaoning Province Education Department",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Paraquat",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochromes c",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Betacyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis Inducing Factor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical and Drug Induced Liver Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Liver",
+            "Oxidative stress",
+            "Paraquat",
+            "Cyp 3A2",
+            "Natural Pigments"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "apoptosis inducing factor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cyp3a2 protein, rat",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochromes c",
+              "registryNumber": "9007-43-6"
+            },
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Betacyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Paraquat",
+              "registryNumber": "PLG39H7695"
+            },
+            {
+              "name": "Biomarkers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "betanin",
+              "registryNumber": "5YJC992ZP6"
+            },
+            {
+              "name": "Aifm1 protein, rat",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fct.2014.04.038"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 79,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-03-03",
+        "dateOfCreation": "2014-05-07",
+        "dateOfRevision": "2020-05-28",
+        "electronicPublicationDate": "2014-05-04",
+        "firstPublicationDate": "2014-05-04",
+        "firstIndexDate": "2014-05-07",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30518622",
+        "source": "MED",
+        "pmid": "30518622",
+        "doi": "10.1242/jcs.220871",
+        "title": "EGCG protects cardiomyocytes against hypoxia-reperfusion injury through inhibition of OMA1 activation.",
+        "authorString": "Nan J, Nan C, Ye J, Qian L, Geng Y, Xing D, Rahman MSU, Huang M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nan J",
+              "lastName": "Nan",
+              "firstName": "Jinliang",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiovascular Key Laboratory of Zhejiang Province, Department of Cardiology The Second Affiliated Hospital Zhejiang University School of Medicine, Hangzhou, 310009, Zhejiang Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nan C",
+              "lastName": "Nan",
+              "firstName": "Cunjin",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6771-1761"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Urology, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ye J",
+              "lastName": "Ye",
+              "firstName": "Jian",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiovascular Key Laboratory of Zhejiang Province, Department of Cardiology The Second Affiliated Hospital Zhejiang University School of Medicine, Hangzhou, 310009, Zhejiang Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qian L",
+              "lastName": "Qian",
+              "firstName": "Lu",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6025-3665"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Geng Y",
+              "lastName": "Geng",
+              "firstName": "Ya",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1340-5715"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xing D",
+              "lastName": "Xing",
+              "firstName": "Dawei",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1176-4191"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rahman MSU",
+              "lastName": "Rahman",
+              "firstName": "Muhammad Saif Ur",
+              "initials": "MSU",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7010-724X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Center, The Second Affiliated Hospital Zhejiang University School of Medicine, Hangzhou, 310009, Zhejiang Province, China huangmingyuan88@163.com fiasanar@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang M",
+              "lastName": "Huang",
+              "firstName": "Mingyuan",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2149-652X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang Province, China huangmingyuan88@163.com fiasanar@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6025-3665"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6771-1761"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7010-724X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1176-4191"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1340-5715"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0986-7877"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2149-652X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "132",
+          "journalIssueId": 2772072,
+          "dateOfPublication": "2019 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "J Cell Sci",
+            "title": "Journal of cell science",
+            "essn": "1477-9137",
+            "issn": "0021-9533",
+            "isoabbreviation": "J Cell Sci",
+            "nlmid": "0052457"
+          },
+          "printPublicationDate": "2019-01-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "jcs220871",
+        "abstractText": "Mitochondria are important for energy production and cardiomyocyte homeostasis. OMA1, a metalloendopeptidase, initiates the proteolytic process of the fusion-allowing protein OPA1, to deteriorate mitochondrial structure and function. In this study, mouse embryonic fibroblasts (MEFs) and neonatal mouse cardiomyocytes (NMCMs) subjected to hypoxia-reperfusion injury (HRI) and/or H<sub>2</sub>O<sub>2</sub> were used to mimic oxidative stress in the heart following ischemia-reperfusion injury (IRI). <i>In vitro</i> experiments demonstrated that HRI or stimulation with H<sub>2</sub>O<sub>2</sub> induced self-cleavage of OMA1 and the subsequent conversion of OPA1 from its long form to its short form, leading to mitochondrial fragmentation, cytochrome c release and apoptosis. By using Molecular Operating Environment (MOE) software to simulate the binding interaction of 2295 phytochemicals against OMA1, epigallocatechin gallate (EGCG) and betanin were selected as candidates of OMA1 inhibitor. We found that EGCG directly interacted with OMA1 and potently inhibited self-cleavage of OMA1, leading to attenuated OPA1 cleavage. This study, therefore, suggests to use OMA1 inhibition induced by EGCG to treat cardiac IRI.",
+        "affiliation": "Cardiovascular Key Laboratory of Zhejiang Province, Department of Cardiology The Second Affiliated Hospital Zhejiang University School of Medicine, Hangzhou, 310009, Zhejiang Province, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medical Scientific Research Foundation of Zhejiang Province",
+              "grantId": "2018KY526",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81800314",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Zhejiang Province",
+              "grantId": "LY18H020010",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fibroblasts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myocytes, Cardiac",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myocardial Reperfusion Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Metalloproteases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Mitochondrial Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Ischemia-reperfusion injury",
+            "EGCG",
+            "Mitochondrial Dynamics",
+            "Opa1",
+            "Oma1"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Mitochondrial Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Metalloproteases",
+              "registryNumber": "EC 3.4.-"
+            },
+            {
+              "name": "OMA1 protein, mouse",
+              "registryNumber": "EC 3.4.-"
+            },
+            {
+              "name": "epigallocatechin gallate",
+              "registryNumber": "BQM438CTEL"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://jcs.biologists.org/content/joces/132/2/jcs220871.full.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1242/jcs.220871"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 48,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-02-13",
+        "dateOfCreation": "2018-12-07",
+        "dateOfRevision": "2020-02-13",
+        "electronicPublicationDate": "2019-01-25",
+        "firstPublicationDate": "2019-01-25",
+        "firstIndexDate": "2018-12-08",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17482444",
+        "source": "MED",
+        "pmid": "17482444",
+        "doi": "10.1016/j.phymed.2007.03.017",
+        "title": "Betanin a betacyanin pigment purified from fruits of Opuntia ficus-indica induces apoptosis in human chronic myeloid leukemia Cell line-K562.",
+        "authorString": "Sreekanth D, Arunasree MK, Roy KR, Chandramohan Reddy T, Reddy GV, Reddanna P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sreekanth D",
+              "lastName": "Sreekanth",
+              "firstName": "Devalraju",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Life Sciences, University of Hyderabad, Hyderabad 500 046, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arunasree MK",
+              "lastName": "Arunasree",
+              "firstName": "M K",
+              "initials": "MK"
+            },
+            {
+              "fullName": "Roy KR",
+              "lastName": "Roy",
+              "firstName": "Karnati R",
+              "initials": "KR"
+            },
+            {
+              "fullName": "Chandramohan Reddy T",
+              "lastName": "Chandramohan Reddy",
+              "firstName": "T",
+              "initials": "T"
+            },
+            {
+              "fullName": "Reddy GV",
+              "lastName": "Reddy",
+              "firstName": "Gorla V",
+              "initials": "GV"
+            },
+            {
+              "fullName": "Reddanna P",
+              "lastName": "Reddanna",
+              "firstName": "Pallu",
+              "initials": "P"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5948-2337"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "14",
+          "journalIssueId": 1474698,
+          "dateOfPublication": "2007 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Phytomedicine",
+            "title": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+            "essn": "1618-095X",
+            "issn": "0944-7113",
+            "isoabbreviation": "Phytomedicine",
+            "nlmid": "9438794"
+          },
+          "printPublicationDate": "2007-11-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "739-746",
+        "abstractText": "Betalains are water-soluble nitrogenous vacuolar pigments present in flowers and fruits of many caryophyllales with potent antioxidant properties. In the present study the antiproliferative effects of betanin, a principle betacyanin pigment, isolated from the fruits of Opuntia ficus-indica, was evaluated on human chronic myeloid leukemia cell line (K562). The results show dose and time dependent decrease in the proliferation of K562 cells treated with betanin with an IC(50) of 40 microM. Further studies involving scanning and transmission electron microscopy revealed the apoptotic characteristics such as chromatin condensation, cell shrinkage and membrane blebbing. Agarose electrophoresis of genomic DNA of cells treated with betanin showed fragmentation pattern typical for apoptotic cells. Flow cytometric analysis of cells treated with 40 microM betanin showed 28.4% of cells in sub G0/G1 phase. Betanin treatment to the cells also induced the release of cytochrome c into the cytosol, poly (ADP) ribose polymerase (PARP) cleavage, down regulation Bcl-2, and reduction in the membrane potentials. Confocal microscopic studies on the cells treated with betanin suggest the entry of betanin into the cells. These studies thus demonstrate that betanin induces apoptosis in K562 cells through the intrinsic pathway and is mediated by the release of cytochrome c from mitochondria into the cytosol, and PARP cleavage. The antiproliferative effects of betanin add further value to the nutritional characteristics of the fruits of O. ficus-indica.",
+        "affiliation": "School of Life Sciences, University of Hyderabad, Hyderabad 500 046, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "K562 Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Opuntia"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fruit"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents, Phytogenic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inhibitory Concentration 50"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coloring Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Betacyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents, Phytogenic",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coloring Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Betacyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "betanin",
+              "registryNumber": "5YJC992ZP6"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.phymed.2007.03.017"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 121,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-01-07",
+        "dateOfCreation": "2007-05-08",
+        "dateOfRevision": "2015-11-19",
+        "electronicPublicationDate": "2007-05-07",
+        "firstPublicationDate": "2007-05-07",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11714300",
+        "source": "MED",
+        "pmid": "11714300",
+        "doi": "10.1021/jf010456f",
+        "title": "Betalains--a new class of dietary cationized antioxidants.",
+        "authorString": "Kanner J, Harel S, Granit R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kanner J",
+              "lastName": "Kanner",
+              "firstName": "J",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science, Institute of Technology and Storage of Agricultural Products, Agricultural Research Organization, P.O. Box 6, Bet Dagan 50250, Israel. vtkanner@netvision.net.il"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harel S",
+              "lastName": "Harel",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Granit R",
+              "lastName": "Granit",
+              "firstName": "R",
+              "initials": "R"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "49",
+          "journalIssueId": 1029913,
+          "dateOfPublication": "2001 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2001-11-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "5178-5185",
+        "abstractText": "Antioxidant nutrients from fruits and vegetables are believed to be a class of compounds that exert their effects in humans by preventing oxidative processes which contribute to the onset of several degenerative diseases. This study found a new class of dietary cationized antioxidants in red beets (Beta vulgaris L.). These antioxidants are betalains, and the major one, betanin, is a betanidin 5-O-beta-glucoside. Linoleate peroxidation by cytochrome c was inhibited by betanin, betanidin, catechin, and alpha-tocopherol with IC(50) values of 0.4, 0.8, 1.2, and 5 microM, respectively. In addition, a relatively low concentration of betanin was found to inhibit lipid peroxidation of membranes or linoleate emulsion catalyzed by the \"free iron\" redox cycle, H(2)O(2)-activated metmyoglobin, or lipoxygenase. The IC(50) inhibition of H(2)O(2)-activated metmyoglobin catalysis of low-density lipoprotein oxidation by betanin was <2.5 microM and better than that of catechin. Betanin and betanidin at very small concentrations were found to inhibit lipid peroxidation and heme decomposition. During this reaction, betanidin was bleached completely, but betanin remained unchanged in its absorption. This difference seems to derive from differing mechanisms of protection by these two compounds. The high affinity of betanin and betanidin for membranes was demonstrated by determining the rate of migration of the compounds through a dialysis tube. Betanin bioavailability in humans was demonstrated with four volunteers who consumed 300 mL of red beet juice, containing 120 mg of the antioxidant. The betacyanins were absorbed from the gut and identified in urine after 2-4 h. The calculated amount of betacyanins found in the urine was 0.5-0.9% of that ingested. Red beet products used regularly in the diet may provide protection against certain oxidative stress-related disorders in humans.",
+        "affiliation": "Department of Food Science, Institute of Technology and Storage of Agricultural Products, Agricultural Research Organization, P.O. Box 6, Bet Dagan 50250, Israel. vtkanner@netvision.net.il",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Turkeys"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Beta vulgaris",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cations"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipoproteins, LDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipoxygenase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Ultraviolet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quaternary Ammonium Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Betalains"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "betalains",
+              "registryNumber": "37279-84-8"
+            },
+            {
+              "name": "Lipoproteins, LDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lipoxygenase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Quaternary Ammonium Compounds",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/jf010456f"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 319,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2002-01-14",
+        "dateOfCreation": "2001-11-21",
+        "dateOfRevision": "2022-04-08",
+        "firstPublicationDate": "2001-11-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND43741157",
+        "source": "AGR",
+        "doi": "10.1016/j.foodres.2005.03.016",
+        "title": "Renal excretion of antioxidative constituents from red beet in humans",
+        "authorString": "Netzel M, Netzel M, Netzel M, Stintzing FC, Quaas D, Strass G, Carle R, Bitsch R, Bitsch I, Frank T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5699-2622"
+              }
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1581-4851"
+              }
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3136-3926"
+              }
+            },
+            {
+              "fullName": "Stintzing FC",
+              "lastName": "Stintzing",
+              "firstName": "F C",
+              "initials": "FC"
+            },
+            {
+              "fullName": "Quaas D",
+              "lastName": "Quaas",
+              "firstName": "D",
+              "initials": "D"
+            },
+            {
+              "fullName": "Strass G",
+              "lastName": "Strass",
+              "firstName": "G",
+              "initials": "G"
+            },
+            {
+              "fullName": "Carle R",
+              "lastName": "Carle",
+              "firstName": "René",
+              "initials": "R"
+            },
+            {
+              "fullName": "Bitsch R",
+              "lastName": "Bitsch",
+              "firstName": "R",
+              "initials": "R"
+            },
+            {
+              "fullName": "Bitsch I",
+              "lastName": "Bitsch",
+              "firstName": "I",
+              "initials": "I"
+            },
+            {
+              "fullName": "Frank T",
+              "lastName": "Frank",
+              "firstName": "T",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3136-3926"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5699-2622"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1581-4851"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8-9",
+          "volume": "38",
+          "journalIssueId": 4156202,
+          "dateOfPublication": "2005 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2005,
+          "journal": {
+            "title": "Food Research International.",
+            "issn": "0963-9969"
+          },
+          "printPublicationDate": "2005-01-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "1051-1058",
+        "abstractText": "The aim of the present study was to assess the renal excretion of red beet juice (RBJ) antioxidants in six healthy humans. After a single oral dose of RBJ. The pharmacokinetic parameters obtained from urine were compared to those obtained after ingestion of water on an intra-individual basis. Urine was collected in intervals up to 24 h post-intake. After RBJ ingestion, the betacyanins betanin and isobetanin were excreted in the volunteers' urine (0.28% of the administered dose) and unambiguously identified by HPLC-ESI-MS/MS. Compared to the ingestion of water, RBJ consumption resulted in a significantly increased urinary excretion of total phenolics (51.1% of the administered phenolics) and other antioxidant compounds (43.9% of the administered compounds) within 24 h.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "ScienceDirect",
+              "url": "https://doi.org/10.1016/j.foodres.2005.03.016"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-09-09",
+        "dateOfCreation": "2005-09-09",
+        "dateOfRevision": "2026-05-26",
+        "firstPublicationDate": "2005-01-01",
+        "firstIndexDate": "2007-07-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17435",
+        "source": "MED",
+        "pmid": "17435",
+        "title": "[Study of betacyanin-discolorating enzyme].",
+        "authorString": "Soboleva GA, Ul'ianova MS, Zakharova NS, Bokuchava MA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Soboleva GA",
+              "lastName": "Soboleva",
+              "firstName": "G A",
+              "initials": "GA"
+            },
+            {
+              "fullName": "Ul'ianova MS",
+              "lastName": "Ul'ianova",
+              "firstName": "M S",
+              "initials": "MS"
+            },
+            {
+              "fullName": "Zakharova NS",
+              "lastName": "Zakharova",
+              "firstName": "N S",
+              "initials": "NS"
+            },
+            {
+              "fullName": "Bokuchava MA",
+              "lastName": "Bokuchava",
+              "firstName": "M A",
+              "initials": "MA"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "41",
+          "journalIssueId": 511495,
+          "dateOfPublication": "1976 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 1976,
+          "journal": {
+            "medlineAbbreviation": "Biokhimiia",
+            "title": "Biokhimiia (Moscow, Russia)",
+            "issn": "0320-9725",
+            "isoabbreviation": "Biokhimiia",
+            "nlmid": "0372667"
+          },
+          "printPublicationDate": "1976-07-01"
+        },
+        "pubYear": "1976",
+        "pageInfo": "968-974",
+        "abstractText": "An enzyme catalyzing the discoloration and breakdown of betacyanins was isolated from beet roots Beta vulgaris by centrifugation in sucrose density gradient (2.5 M, 2.0 M, 1.5 M, 1.0 M, tris-HCl buffer, 0.05 M, pH 7.2), and purified 100-fold. The enzyme activity induced the discoloration of betanin, betanidin. It was found that the beet root enzyme exists in an insoluble state and is firmly bound with subcellular structures, which were isolated by centrifugation in sucrose gradient. The optimal activity of the enzyme was observed at pH 3.4, +40 degrees C. The dependence of the enzymatic reaction on the enzyme concentration showed a linearity. Studies of the enzyme inhibition by sodium azide, sodium diethyldithiocarbamate, thiourea, demonstrated that the active site of the enzyme contains a metal. The enzymatic discoloration of betanin is followed by the oxygen uptake.",
+        "publicationStatus": "ppublish",
+        "language": "rus",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "English Abstract"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Subcellular Fractions",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vegetables"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peroxides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thiourea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochrome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Centrifugation, Density Gradient"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygen Consumption"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Peroxides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phytochrome",
+              "registryNumber": "11121-56-5"
+            },
+            {
+              "name": "Oxygen",
+              "registryNumber": "S88TT14065"
+            },
+            {
+              "name": "Thiourea",
+              "registryNumber": "GYV9AM2QAG"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1977-09-02",
+        "dateOfCreation": "1976-07-01",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "1976-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

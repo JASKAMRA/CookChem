@@ -1,0 +1,4903 @@
+{
+  "version": "6.9",
+  "hitCount": 14,
+  "request": {
+    "queryString": "TITLE:\"Fisetin\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:disposition) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32710995",
+        "source": "MED",
+        "pmid": "32710995",
+        "doi": "10.1016/j.fct.2020.111590",
+        "title": "Enhanced oral bioavailability and neuroprotective effect of fisetin through its SNEDDS against rotenone-induced Parkinson's disease rat model.",
+        "authorString": "Kumar R, Kumar R, Khurana N, Singh SK, Khurana S, Verma S, Sharma N, Kapoor B, Vyas M, Khursheed R, Awasthi A, Kaur J, Corrie L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kumar R",
+              "lastName": "Kumar",
+              "firstName": "Rajan",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kumar R",
+              "lastName": "Kumar",
+              "firstName": "Rakesh",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khurana N",
+              "lastName": "Khurana",
+              "firstName": "Navneet",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India. Electronic address: navi.pharmacist@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh SK",
+              "lastName": "Singh",
+              "firstName": "Sachin Kumar",
+              "initials": "SK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3823-6572"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khurana S",
+              "lastName": "Khurana",
+              "firstName": "Shelly",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Govt. Polytechnic College, Amritsar, Punjab, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Verma S",
+              "lastName": "Verma",
+              "firstName": "Surajpal",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sharma N",
+              "lastName": "Sharma",
+              "firstName": "Neha",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2786-1874"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kapoor B",
+              "lastName": "Kapoor",
+              "firstName": "Bhupinder",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8057-0385"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vyas M",
+              "lastName": "Vyas",
+              "firstName": "Manish",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1426-2277"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khursheed R",
+              "lastName": "Khursheed",
+              "firstName": "Rubiya",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Awasthi A",
+              "lastName": "Awasthi",
+              "firstName": "Ankit",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaur J",
+              "lastName": "Kaur",
+              "firstName": "Jaskiran",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Corrie L",
+              "lastName": "Corrie",
+              "firstName": "Leander",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1626-3513"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8057-0385"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1426-2277"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1626-3513"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3339-1816"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2478-4762"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2786-1874"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3823-6572"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "144",
+          "journalIssueId": 3010007,
+          "dateOfPublication": "2020 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Food Chem Toxicol",
+            "title": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+            "essn": "1873-6351",
+            "issn": "0278-6915",
+            "nlmid": "8207483",
+            "isoabbreviation": "Food Chem Toxicol"
+          },
+          "printPublicationDate": "2020-10-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "111590",
+        "abstractText": "Fisetin (FS) was reported to have various pharmacological activities. But due to its lower aqueous solubility and oral bioavailability, it is not in much use. As solubility and bioavailability plays and important role in the pharmacological activity, in this research work we tried to improve the oral bioavailability of fisetin. In this research work, we developed self-nanoemulsifying drug delivery system (SNEDDS) of fisetin. Developed SNEDDS were subjected for pharmacokinetic and pharmacodynamics studies against rotenone-induced Parkinson's disease (PD) model in rats. Higher Cmax and area under the curve during pharmacokinetic study indicated that SNEDDS improved the oral bioavailability of FS and also increased the mean residence time of drug in plasma. Results of behavior parameters (locomotor, muscle co-ordination and catalepsy), biochemical estimation (TBARS, nitrite, GSH, SOD and CAT) and ELISA (soluble alfa synuclein, BDNF, TNF-α and IL-6) confirmed the significantly improved (p < 0.05) neuroprotection in rats treated with FS loaded SNEDDS as compared to rats treated with naïve FS. This study suggests that SNEDDS improved the oral bioavailability of FS which further helped in improving its neuroprotective activity in rat model of PD. It further suggests the potential use of FS-SNEDDS in effective management of PD condition.",
+        "affiliation": "School of Pharmaceutical Sciences, Lovely Professional University, Phagwara, Punjab, 144411, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Parkinson Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rotenone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neuroprotective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bioavailability",
+            "Rotenone",
+            "fisetin",
+            "Parkinson's Disease",
+            "Snedds",
+            "Alfa Synuclein"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Neuroprotective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "Rotenone",
+              "registryNumber": "03L9OT429T"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fct.2020.111590"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 50,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-05-21",
+        "dateOfCreation": "2020-07-26",
+        "dateOfRevision": "2021-05-21",
+        "electronicPublicationDate": "2020-07-23",
+        "firstPublicationDate": "2020-07-23",
+        "firstIndexDate": "2020-07-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28156161",
+        "source": "MED",
+        "pmid": "28156161",
+        "pmcid": "PMC8241160",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8241160"
+          ]
+        },
+        "doi": "10.1080/10717544.2016.1245366",
+        "title": "Enhanced oral bioavailability and anticancer efficacy of fisetin by encapsulating as inclusion complex with HPβCD in polymeric nanoparticles.",
+        "authorString": "Kadari A, Gudem S, Kulhari H, Bhandi MM, Borkar RM, Kolapalli VR, Sistla R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kadari A",
+              "lastName": "Kadari",
+              "firstName": "Amrita",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Medicinal Chemistry & Pharmacology Division, CSIR-Indian Institute of Chemical Technology , Hyderabad , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gudem S",
+              "lastName": "Gudem",
+              "firstName": "Sagarika",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Medicinal Chemistry & Pharmacology Division, CSIR-Indian Institute of Chemical Technology , Hyderabad , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kulhari H",
+              "lastName": "Kulhari",
+              "firstName": "Hitesh",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Medicinal Chemistry & Pharmacology Division, CSIR-Indian Institute of Chemical Technology , Hyderabad , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bhandi MM",
+              "lastName": "Bhandi",
+              "firstName": "Murali Mohan",
+              "initials": "MM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b National Centre for Mass Spectrometry, Indian Institute of Chemical Technology , Hyderabad , India , and."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Borkar RM",
+              "lastName": "Borkar",
+              "firstName": "Roshan M",
+              "initials": "RM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1963-7688"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b National Centre for Mass Spectrometry, Indian Institute of Chemical Technology , Hyderabad , India , and."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kolapalli VR",
+              "lastName": "Kolapalli",
+              "firstName": "Venkata Ramana Murthy",
+              "initials": "VR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Pharmaceutical Sciences , A.U. College of Pharmaceutical Sciences, Andhra University , Visakhapatnam , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sistla R",
+              "lastName": "Sistla",
+              "firstName": "Ramakrishna",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Medicinal Chemistry & Pharmacology Division, CSIR-Indian Institute of Chemical Technology , Hyderabad , India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1963-7688"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "24",
+          "journalIssueId": 2521146,
+          "dateOfPublication": "2017 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Drug Deliv",
+            "title": "Drug delivery",
+            "essn": "1521-0464",
+            "issn": "1071-7544",
+            "nlmid": "9417471",
+            "isoabbreviation": "Drug Deliv"
+          },
+          "printPublicationDate": "2017-11-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "224-232",
+        "abstractText": "Fisetin (FST), a potent anticancer phytoconstituent, exhibits poor aqueous solubility and hence poor bioavailability. The aim of the present study is to improve the oral bioavailability of FST by encapsulating into PLGA NPs (poly-lactide-co-glycolic acid nanoparticles) as a complex of HPβCD (hydroxyl propyl beta cyclodextrin) and to assess its anti-cancer activity against breast cancer cells. FST-HPβCD inclusion complex (FHIC) was prepared and the supramolecular complex formation was characterized by FTIR, DSC, PXRD and <sup>1</sup>H NMR. FHIC encapsulated PLGA nanoparticles (FHIC-PNP) were prepared and were studied for in vitro anticancer activity, cellular uptake, apoptosis and reactive oxygen species generation in MCF-7 human breast cancer cells. Comparative bioavailability of FST was determined after oral administration in C57BL6 mice as pure FST and FHIC-PNP. The results revealed that FHIC-PNP not only enhanced the anti-cancer activity and apoptosis of FST against MCF-7 cells but also improved its oral bioavailability, as demonstrated by increased peak plasma concentration and total drug absorbed.",
+        "affiliation": "a Medicinal Chemistry & Pharmacology Division, CSIR-Indian Institute of Chemical Technology , Hyderabad , India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Breast Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lactic Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta-Cyclodextrins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polymers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyglycolic Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MCF-7 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "2-Hydroxypropyl-beta-cyclodextrin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polylactic Acid-Polyglycolic Acid Copolymer"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Inclusion complex",
+            "Anticancer activity",
+            "fisetin",
+            "Plga Nanoparticles",
+            "Oral Bioavailability",
+            "Hyroxypropyl Β-cyclodextrin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Polymers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Polyglycolic Acid",
+              "registryNumber": "26009-03-0"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "beta-Cyclodextrins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "Lactic Acid",
+              "registryNumber": "33X04XA5AT"
+            },
+            {
+              "name": "2-Hydroxypropyl-beta-cyclodextrin",
+              "registryNumber": "1I96OHX6EK"
+            },
+            {
+              "name": "Polylactic Acid-Polyglycolic Acid Copolymer",
+              "registryNumber": "1SIA8062RS"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/10717544.2016.1245366"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8241160"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8241160?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 79,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-03-02",
+        "dateOfCreation": "2017-02-04",
+        "dateOfRevision": "2021-12-04",
+        "firstPublicationDate": "2017-11-01",
+        "firstIndexDate": "2017-02-04",
+        "fullTextReceivedDate": "2026-10-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31912514",
+        "source": "MED",
+        "pmid": "31912514",
+        "doi": "10.1111/php.13213",
+        "title": "Experimental and Theoretical Study of the Stability of the Complex Fisetin-Cu(II) and A Comparative Study of Free Ligand and Complex Interaction with Molecular Singlet Oxygen.",
+        "authorString": "Muñoz VA, Dimarco Palencia FCD, Sancho MI, Miskoski S, García NA, Ferrari GV, Montaña MP.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Muñoz VA",
+              "lastName": "Muñoz",
+              "firstName": "Vanesa A",
+              "initials": "VA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-3363-6458"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Facultad de Química, Bioquímica y Farmacia, Área de Química Física, Instituto de Química de San Luis INQUISAL (CONICET-UNSL), San Luis, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dimarco Palencia FCD",
+              "lastName": "Dimarco Palencia",
+              "firstName": "Frida C D",
+              "initials": "FCD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Facultad de Química, Bioquímica y Farmacia, Área de Química Física, Instituto de Química de San Luis INQUISAL (CONICET-UNSL), San Luis, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sancho MI",
+              "lastName": "Sancho",
+              "firstName": "Matias I",
+              "initials": "MI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Facultad de Química, Bioquímica y Farmacia, Área de Química Física, Instituto Multidisciplinario de Investigaciones Biológicas San Luis IMIBIO-SL (CONICET-UNSL), San Luis, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miskoski S",
+              "lastName": "Miskoski",
+              "firstName": "Sandra",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0002-3331-1959"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Química, Facultad de Ciencias Exactas Físico-Químicas y Naturales, Universidad Nacional de Río Cuarto, Río Cuarto, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "García NA",
+              "lastName": "García",
+              "firstName": "Norman A",
+              "initials": "NA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Química, Facultad de Ciencias Exactas Físico-Químicas y Naturales, Universidad Nacional de Río Cuarto, Río Cuarto, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ferrari GV",
+              "lastName": "Ferrari",
+              "firstName": "Gabriela V",
+              "initials": "GV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8339-5022"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Facultad de Química, Bioquímica y Farmacia, Área de Química Física, Instituto de Química de San Luis INQUISAL (CONICET-UNSL), San Luis, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Montaña MP",
+              "lastName": "Montaña",
+              "firstName": "María Paulina",
+              "initials": "MP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7843-9548"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Facultad de Química, Bioquímica y Farmacia, Área de Química Física, Instituto de Química de San Luis INQUISAL (CONICET-UNSL), San Luis, Argentina."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7843-9548"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8339-5022"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0002-3331-1959"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-3363-6458"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "96",
+          "journalIssueId": 2984767,
+          "dateOfPublication": "2020 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Photochem Photobiol",
+            "title": "Photochemistry and photobiology",
+            "essn": "1751-1097",
+            "issn": "0031-8655",
+            "nlmid": "0376425",
+            "isoabbreviation": "Photochem Photobiol"
+          },
+          "printPublicationDate": "2020-07-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "815-825",
+        "abstractText": "In this work, the flavonol fisetin was selected in order to study its reactivity against Cu(II), a metal ion of interest in biological media and industry. The stoichiometry and apparent formation constant of the complex in ethanolic medium at 25°C were evaluated using spectrophotometric techniques. The resulting stoichiometry was a 1:1 ligand:metal complex, and a log K = 5.17 ± 0.12 was determined. Since two possible chelation sites can be proposed for the complex formation, quantum chemistry calculations were performed on these structures. Calculations suggest that the hydroxyl-keto site is more stable for the complex formation than the catechol site. Flavonoids could exert protection against oxidative damage caused by reactive oxygen species, and this biological activity could be affected by chelation with metal ions. This led us to perform a study on the interaction of both, free flavonoid and complex, with reactive oxygen species. Our results showed both compounds quench molecular singlet oxygen photogenerated with visible light, mainly in a physical fashion. In order to analyze a possible protective effect of flavonoid and its complex against oxidative damage in biological environments, the amino acid tryptophan was selected as a model oxidation system. Free flavonoid does not have a marked protective effect, whereas its complex showed a relevant protective effect.",
+        "affiliation": "Facultad de Química, Bioquímica y Farmacia, Área de Química Física, Instituto de Química de San Luis INQUISAL (CONICET-UNSL), San Luis, Argentina.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Universidad Nacional de Río Cuarto",
+              "orderIn": 0
+            },
+            {
+              "agency": "Universidad Nacional de San Luis",
+              "grantId": "PROICO 2‐3218‐ 22Q/809",
+              "orderIn": 0
+            },
+            {
+              "agency": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+              "grantId": "PIP 11220170100208CO",
+              "orderIn": 0
+            },
+            {
+              "agency": "Universidad Nacional de San Luis",
+              "grantId": "PROICO 2-3218- 22Q/809",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/php.13213"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-08-11",
+        "dateOfCreation": "2020-01-09",
+        "dateOfRevision": "2020-08-11",
+        "electronicPublicationDate": "2020-04-11",
+        "firstPublicationDate": "2020-04-11",
+        "firstIndexDate": "2020-01-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26531135",
+        "source": "MED",
+        "pmid": "26531135",
+        "doi": "10.1016/j.carres.2015.09.013",
+        "title": "Novel water-soluble fisetin/cyclodextrins inclusion complexes: Preparation, characterization, molecular docking and bioavailability.",
+        "authorString": "Zhang JQ, Jiang KM, An K, Ren SH, Xie XG, Jin Y, Lin J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang JQ",
+              "lastName": "Zhang",
+              "firstName": "Jian-Qiang",
+              "initials": "JQ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang KM",
+              "lastName": "Jiang",
+              "firstName": "Kun-Ming",
+              "initials": "KM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "An K",
+              "lastName": "An",
+              "firstName": "Kun",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ren SH",
+              "lastName": "Ren",
+              "firstName": "Si-Hao",
+              "initials": "SH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie XG",
+              "lastName": "Xie",
+              "firstName": "Xiao-Guang",
+              "initials": "XG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China. Electronic address: xgxie@ynu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jin Y",
+              "lastName": "Jin",
+              "firstName": "Yi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China. Electronic address: jinyi@ynu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin J",
+              "lastName": "Lin",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China; Advanced Analysis and Measurement Center, Yunnan University, Kunming 650091, China. Electronic address: linjun@ynu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "418",
+          "journalIssueId": 2354741,
+          "dateOfPublication": "2015 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Carbohydr Res",
+            "title": "Carbohydrate research",
+            "essn": "1873-426X",
+            "issn": "0008-6215",
+            "nlmid": "0043535",
+            "isoabbreviation": "Carbohydr Res"
+          },
+          "printPublicationDate": "2015-12-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "20-28",
+        "abstractText": "Novel water-soluble inclusion complexes for fisetin (FIT) were developed by introducing β-cyclodextrin (β-CD) and γ-CD. Properties of the obtained complexes, as well as the interactions between each component, were systematically investigated in both solution and solid states by means of ESI-MS, NMR, FT-IR, XRD, DSC, SEM etc. All characterization information demonstrated that FIT/CDs inclusion complexes were formed, and exhibited different spectroscopic features and properties from FIT. A complex with 1:1 stoichiometry of FIT and CDs was confirmed with Job's method. Meanwhile, as supported by molecular modeling calculations, we suggested that phenyl group (C ring) of FIT molecule was included in the CDs cavity from the wide side. Moreover, the water solubility of FIT/CDs was successfully improved from 2.8 mg/mL (in ethanol aqueous solution) to 4.5 mg/mL (FIT/β-CD complex) and 7.8 mg/mL (FIT/γ-CD complex), and higher thermal stability results were shown by thermal analysis for those complexes. Notably, the inclusion complexes displayed almost two times higher cytotoxicity compared to free FIT against Hela and MCF-7 cells. These results suggested that FIT/CDs complexes could be potentially useful in food industry and healthcare area.",
+        "affiliation": "Key Laboratory of Medicinal Chemistry for Natural Resource, Ministry Education, School of Chemical Science and Technology, Yunnan University, Kunming 650091, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21262043",
+              "orderIn": 0
+            },
+            {
+              "agency": "Program for Changjiang Scholars and Innovative Research Team in University",
+              "grantId": "IRT13095",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "20902079",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21442006",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hela Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Water",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclodextrins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Screening Assays, Antitumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Surface Properties"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MCF-7 Cells"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cyclodextrins",
+            "Molecular modeling",
+            "Antitumor activity",
+            "Inclusion complex",
+            "fisetin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cyclodextrins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "Water",
+              "registryNumber": "059QF0KO0R"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.carres.2015.09.013"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 40,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-09-27",
+        "dateOfCreation": "2015-11-05",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2015-10-22",
+        "firstPublicationDate": "2015-10-22",
+        "firstIndexDate": "2015-11-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23769537",
+        "source": "MED",
+        "pmid": "23769537",
+        "doi": "10.1016/j.carbpol.2013.04.066",
+        "title": "Complexation of fisetin with novel cyclosophoroase dimer to improve solubility and bioavailability.",
+        "authorString": "Jeong D, Choi JM, Choi Y, Jeong K, Cho E, Jung S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jeong D",
+              "lastName": "Jeong",
+              "firstName": "Daham",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioscience and Biotechnology, Bio/Molecular Informatics Center & Institute for Ubiquitous Information Technology and Applications (CBRU), Konkuk University, Seoul 143-701, South Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Choi JM",
+              "lastName": "Choi",
+              "firstName": "Jae Min",
+              "initials": "JM"
+            },
+            {
+              "fullName": "Choi Y",
+              "lastName": "Choi",
+              "firstName": "Youngjin",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Jeong K",
+              "lastName": "Jeong",
+              "firstName": "Karpjoo",
+              "initials": "K"
+            },
+            {
+              "fullName": "Cho E",
+              "lastName": "Cho",
+              "firstName": "Eunae",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5422-9463"
+              }
+            },
+            {
+              "fullName": "Jung S",
+              "lastName": "Jung",
+              "firstName": "Seunho",
+              "initials": "S"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5422-9463"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6120-730X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7237-5624"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "97",
+          "journalIssueId": 2048896,
+          "dateOfPublication": "2013 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Carbohydr Polym",
+            "title": "Carbohydrate polymers",
+            "essn": "1879-1344",
+            "issn": "0144-8617",
+            "nlmid": "8307156",
+            "isoabbreviation": "Carbohydr Polym"
+          },
+          "printPublicationDate": "2013-08-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "196-202",
+        "abstractText": "Rhizobium species produce cyclosophoraose (Cys), which is an unbranched cyclic β-(1,2)-glucan. We synthesized novel cationic cyclosophoraose dimer (Cys dimer) and its structure was confirmed via NMR spectroscopy and MALDI-TOF mass spectrometry analysis. In this study, we investigated the complexation of hardly soluble drug fisetin (3,3',4',7-tetrahydroxyflavone) with Cys dimer to improve the solubility of fisetin, and its solubility was increased up to 6.5-fold. The solubility of fisetin with Cys dimer showed 2.4-fold better than with β-cyclodextrin. The fisetin-Cys dimer complex was characterized by using, phase solubility diagram, 2D NMR, FT-IR spectroscopy, SEM, DSC analysis and molecular modeling. Through the molecular docking simulations, complexation ability of fisetin with host molecules were in the following order: Cys dimer>Cys monomer>β-CD. The fisetin-Cys dimer complex showed also higher cytotoxicity to HeLa cells than free fisetin, indicating that the Cys dimer to improve bioavailability of fisetin.",
+        "affiliation": "Department of Bioscience and Biotechnology, Bio/Molecular Informatics Center & Institute for Ubiquitous Information Technology and Applications (CBRU), Konkuk University, Seoul 143-701, South Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministry of Education, Science and Technology",
+              "grantId": "NRF-2011-0026022",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Research Foundation of Korea",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education, Science and Technology",
+              "grantId": "NRF-2011-619-E0002",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education, Science and Technology",
+              "grantId": "2012-0006686",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hela Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhizobium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta-Cyclodextrins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dimerization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "beta-Cyclodextrins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "betadex",
+              "registryNumber": "JV039JZZ3A"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.carbpol.2013.04.066"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-01-14",
+        "dateOfCreation": "2013-06-18",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2013-05-02",
+        "firstPublicationDate": "2013-05-02",
+        "firstIndexDate": "2013-06-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29730964",
+        "source": "MED",
+        "pmid": "29730964",
+        "doi": "10.1080/21691401.2018.1469025",
+        "title": "Development of transethosomes formulation for dermal fisetin delivery: Box-Behnken design, optimization, in vitro skin penetration, vesicles-skin interaction and dermatokinetic studies.",
+        "authorString": "Moolakkadath T, Aqil M, Ahad A, Imam SS, Iqbal B, Sultana Y, Mujeeb M, Iqbal Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Moolakkadath T",
+              "lastName": "Moolakkadath",
+              "firstName": "Thasleem",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmaceutics, School of Pharmaceutical Education and Research , Jamia Hamdard (Deemed University) , New Delhi , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aqil M",
+              "lastName": "Aqil",
+              "firstName": "Mohd",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6797-3104"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmaceutics, School of Pharmaceutical Education and Research , Jamia Hamdard (Deemed University) , New Delhi , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahad A",
+              "lastName": "Ahad",
+              "firstName": "Abdul",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8769-4564"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Department of Pharmaceutics, College of Pharmacy , King Saud University , Riyadh , Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Imam SS",
+              "lastName": "Imam",
+              "firstName": "Syed Sarim",
+              "initials": "SS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8913-0826"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c School of Pharmacy , Glocal University , Saharanpur , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Iqbal B",
+              "lastName": "Iqbal",
+              "firstName": "Babar",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmaceutics, School of Pharmaceutical Education and Research , Jamia Hamdard (Deemed University) , New Delhi , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sultana Y",
+              "lastName": "Sultana",
+              "firstName": "Yasmin",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3979-6574"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmaceutics, School of Pharmaceutical Education and Research , Jamia Hamdard (Deemed University) , New Delhi , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mujeeb M",
+              "lastName": "Mujeeb",
+              "firstName": "Mohd",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "d Department of Pharmacognosy & Phytochemistry, School of Pharmaceutical Education and Research , Jamia Hamdard (Deemed University) , New Delhi , India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Iqbal Z",
+              "lastName": "Iqbal",
+              "firstName": "Zeenat",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmaceutics, School of Pharmaceutical Education and Research , Jamia Hamdard (Deemed University) , New Delhi , India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6797-3104"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3979-6574"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4842-6436"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8769-4564"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8913-0826"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "sup2",
+          "volume": "46",
+          "journalIssueId": 2784406,
+          "dateOfPublication": "2018 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Artif Cells Nanomed Biotechnol",
+            "title": "Artificial cells, nanomedicine, and biotechnology",
+            "essn": "2169-141X",
+            "issn": "2169-1401",
+            "nlmid": "101594777",
+            "isoabbreviation": "Artif Cells Nanomed Biotechnol"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "755-765",
+        "abstractText": "The present study was conducted for the optimization of transethosomes formulation for dermal fisetin delivery. The optimization of the formulation was carried out using \"Box-Behnken design\". The independent variables were Lipoid S 100, ethanol and sodium cholate. The prepared formulations were characterized for vesicle size, entrapment efficiency and in vitro skin penetration study. The vesicles-skin interaction, confocal laser scanning microscopy and dermatokinetic studies were performed with optimized formulation. Results of the present study demonstrated that the optimized formulation presented vesicle size of 74.21 ± 2.65 nm, zeta potential of -11.0 mV, entrapment efficiency of 68.31 ± 1.48% and flux of 4.13 ± 0.17 µg/cm<sup>2</sup>/h. The TEM image of optimized formulation exhibited sealed and spherical shape vesicles. Results of thermoanalytical techniques demonstrated that the prepared transethosomes vesicles formulation had fluidized the rigid membrane of rat's skin for smoother penetration of fisetin transethosomes. The confocal study results presented well distribution and penetration of Rhodamine B loaded transethosomes vesicles formulation up to deeper layers of the rat's skin as compared to the Rhodamine B-hydro alcoholic solution. Present study data revealed that the developed transethosomes vesicles formulation was found to be a potentially useful drug carrier for fisetin dermal delivery.",
+        "affiliation": "a Department of Pharmaceutics, School of Pharmaceutical Education and Research , Jamia Hamdard (Deemed University) , New Delhi , India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Skin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Delivery Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Compounding",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Skin Absorption"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Confocal laser scanning microscopy",
+            "fisetin",
+            "SKin",
+            "Dermal",
+            "Dermatokinetic",
+            "Transethosomes"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/21691401.2018.1469025"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 85,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-06-05",
+        "dateOfCreation": "2018-05-08",
+        "dateOfRevision": "2022-04-08",
+        "electronicPublicationDate": "2018-05-07",
+        "firstPublicationDate": "2018-05-07",
+        "firstIndexDate": "2018-05-08",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23380621",
+        "source": "MED",
+        "pmid": "23380621",
+        "doi": "10.1016/j.ijpharm.2013.01.050",
+        "title": "Liposomal encapsulation of the natural flavonoid fisetin improves bioavailability and antitumor efficacy.",
+        "authorString": "Seguin J, Brullé L, Boyer R, Lu YM, Ramos Romano M, Touil YS, Scherman D, Bessodes M, Mignet N, Chabot GG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Seguin J",
+              "lastName": "Seguin",
+              "firstName": "Johanne",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5689-7046"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Paris Descartes University, Faculty of Pharmacy, INSERM U1022, CNRS UMR8151, Sorbonne Paris Cité, Chimie ParisTech, Chemical, Genetic & Imaging Pharmacology Laboratory, F-75006 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brullé L",
+              "lastName": "Brullé",
+              "firstName": "Laura",
+              "initials": "L"
+            },
+            {
+              "fullName": "Boyer R",
+              "lastName": "Boyer",
+              "firstName": "Renaud",
+              "initials": "R"
+            },
+            {
+              "fullName": "Lu YM",
+              "lastName": "Lu",
+              "firstName": "Yen Mei",
+              "initials": "YM"
+            },
+            {
+              "fullName": "Ramos Romano M",
+              "lastName": "Ramos Romano",
+              "firstName": "Miriam",
+              "initials": "M"
+            },
+            {
+              "fullName": "Touil YS",
+              "lastName": "Touil",
+              "firstName": "Yasmine S",
+              "initials": "YS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2286-960X"
+              }
+            },
+            {
+              "fullName": "Scherman D",
+              "lastName": "Scherman",
+              "firstName": "Daniel",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1207-1298"
+              }
+            },
+            {
+              "fullName": "Bessodes M",
+              "lastName": "Bessodes",
+              "firstName": "Michel",
+              "initials": "M"
+            },
+            {
+              "fullName": "Mignet N",
+              "lastName": "Mignet",
+              "firstName": "Nathalie",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3323-2997"
+              }
+            },
+            {
+              "fullName": "Chabot GG",
+              "lastName": "Chabot",
+              "firstName": "Guy G",
+              "initials": "GG"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5689-7046"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2286-960X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3323-2997"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1207-1298"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1-2",
+          "volume": "444",
+          "journalIssueId": 2014221,
+          "dateOfPublication": "2013 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Int J Pharm",
+            "title": "International journal of pharmaceutics",
+            "essn": "1873-3476",
+            "issn": "0378-5173",
+            "nlmid": "7804127",
+            "isoabbreviation": "Int J Pharm"
+          },
+          "printPublicationDate": "2013-02-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "146-154",
+        "abstractText": "The natural flavonoid fisetin (3,3',4',7-tetrahydroxyflavone) has shown antiangiogenic and anticancer properties. Because of fisetin limited water solubility, we designed a liposomal formulation and evaluated its biological properties in vitro and in Lewis lung carcinoma (LLC) bearing mice. A liposomal formulation was developed with DOPC and DODA-PEG2000, possessing a diameter in the nanometer range (173.5±2.4nm), a high homogeneity (polydispersity index 0.181±0.016) and high fisetin encapsulation (58%). Liposomal fisetin incubated with LLC cells were internalized, induced a typical fisetin morphological effect and increased the sub-G1 cell distribution. In vivo, liposomal fisetin allowed a 47-fold increase in relative bioavailability compared to free fisetin. The effect of liposomal fisetin on LLC tumor growth in mice at low dose (21mg/kg) allowed a higher tumor growth delay (3.3 days) compared to free fisetin at the same dose (1.6 day). Optimization of liposomal fisetin therapy was attempted by co-treatment with cyclophosphamide which led to a significant improvement in tumor growth delay (7.2 days) compared to cyclophosphamide with control liposomes (4.2 days). In conclusion, fisetin liposomes markedly improved fisetin bioavailability and anticancer efficacy in mice and this formulation could facilitate the administration of this flavonoid in the clinical setting.",
+        "affiliation": "Paris Descartes University, Faculty of Pharmacy, INSERM U1022, CNRS UMR8151, Sorbonne Paris Cité, Chimie ParisTech, Chemical, Genetic & Imaging Pharmacology Laboratory, F-75006 Paris, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carcinoma, Lewis Lung",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclophosphamide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liposomes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Burden",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Liposomes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "Cyclophosphamide",
+              "registryNumber": "8N3DW7272P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ijpharm.2013.01.050"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 101,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-08-15",
+        "dateOfCreation": "2013-02-06",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2013-02-01",
+        "firstPublicationDate": "2013-02-01",
+        "firstIndexDate": "2013-02-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24294925",
+        "source": "MED",
+        "pmid": "24294925",
+        "doi": "10.1517/17425247.2013.860131",
+        "title": "Fisetin-loaded nanocochleates: formulation, characterisation, in vitro anticancer testing, bioavailability and biodistribution study.",
+        "authorString": "Bothiraja C, Yojana BD, Pawar AP, Shaikh KS, Thorat UH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bothiraja C",
+              "lastName": "Bothiraja",
+              "firstName": "Chellampillai",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9064-7726"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bharati Vidyapeeth University, Poona College of Pharmacy , Paud Road, Erandwane, Pune-411038, Maharashtra , India pounbothi@yahoo.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yojana BD",
+              "lastName": "Yojana",
+              "firstName": "Bhagwat D",
+              "initials": "BD"
+            },
+            {
+              "fullName": "Pawar AP",
+              "lastName": "Pawar",
+              "firstName": "Atmaram P",
+              "initials": "AP"
+            },
+            {
+              "fullName": "Shaikh KS",
+              "lastName": "Shaikh",
+              "firstName": "Karimunnisa S",
+              "initials": "KS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8315-6200"
+              }
+            },
+            {
+              "fullName": "Thorat UH",
+              "lastName": "Thorat",
+              "firstName": "Uday H",
+              "initials": "UH"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8315-6200"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9064-7726"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "11",
+          "journalIssueId": 2104561,
+          "dateOfPublication": "2014 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Expert Opin Drug Deliv",
+            "title": "Expert opinion on drug delivery",
+            "essn": "1744-7593",
+            "issn": "1742-5247",
+            "nlmid": "101228421",
+            "isoabbreviation": "Expert Opin Drug Deliv"
+          },
+          "printPublicationDate": "2014-01-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "17-29",
+        "abstractText": "<h4>Background</h4>The natural flavonoid fisetin has shown anticancer properties but its in vivo administration remains challenging due its poor aqueous solubility and extensive in vivo metabolism. This juncture demands an effective, controlled release and safe formulation of fisetin would be a significant advance for the treatment of cancer.<h4>Objectives</h4>Nanocochleates are unique lipid-based supramolecular assemblies composed of a negatively charged phospholipid and a divalent cation. The aim was to develop and evaluate fisetin-loaded nanocochleates to improve its therapeutic efficacy. Using the trapping method, fisetin-loaded dimyristoylphosphatidylcholine liposomal vesicles were converted into nanocochleates by the action of Ca(2+) ions. These nanocochleates were further evaluated for physicochemical, in vitro anticancer and haemolysis, pharmacokinetics and tissue distribution study in mice.<h4>Results</h4>Stable rolled-up layers as well as elongated structure of nanocochleates possessing particle size and encapsulation efficiency (EE) of 275 + 4 nm and 84.31 ± 2.52%, respectively were obtained. Nanocochleates demonstrated safety and a sustained release of fisetin at physiological pH. A 1.3-fold improvement in vitro anticancer towards human breast cancer MCF-7 cells was observed. Pharmacokinetics studies in mice revealed that nanocochleates injected intraperitonially showed a 141-fold higher relative bioavailability. Moreover, a low tissue distribution was observed.<h4>Conclusion</h4>Developed nanocochleates markedly improved anticancer efficacy, bioavailability and safety of fisetin. The nanocochleates technology would facilitate the administration of this flavonoid in the clinical setting.<h4>Areas covered</h4>In this research article, we focused on lipid-based supramolecular assembly 'nanocochleates' composed of negatively charged phospholipids and divalent cation as drug carrier for systemic delivery system and discussed their formulations, optimisation, characterization, in vitro and in vivo performance.",
+        "affiliation": "Bharati Vidyapeeth University, Poona College of Pharmacy , Paud Road, Erandwane, Pune-411038, Maharashtra , India pounbothi@yahoo.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erythrocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemolysis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dimyristoylphosphatidylcholine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Carriers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Distribution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MCF-7 Cells"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "Calcium",
+              "registryNumber": "SY7Q814VUP"
+            },
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            },
+            {
+              "name": "Dimyristoylphosphatidylcholine",
+              "registryNumber": "U86ZGC74V5"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1517/17425247.2013.860131"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 59,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-05-21",
+        "dateOfCreation": "2013-12-04",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2013-12-03",
+        "firstPublicationDate": "2013-12-03",
+        "firstIndexDate": "2013-12-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22387278",
+        "source": "MED",
+        "pmid": "22387278",
+        "doi": "10.1016/j.ijpharm.2012.02.025",
+        "title": "Nanoemulsion formulation of fisetin improves bioavailability and antitumour activity in mice.",
+        "authorString": "Ragelle H, Crauste-Manciet S, Seguin J, Brossard D, Scherman D, Arnaud P, Chabot GG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ragelle H",
+              "lastName": "Ragelle",
+              "firstName": "Héloïse",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Paris Descartes University, Faculty of Pharmacy, INSERM U1022, CNRS UMR8151, Chimie ParisTech, Sorbonne Paris Cité, Chemical, Genetic and Imaging Pharmacology Laboratory, F-75006 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Crauste-Manciet S",
+              "lastName": "Crauste-Manciet",
+              "firstName": "Sylvie",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9817-2825"
+              }
+            },
+            {
+              "fullName": "Seguin J",
+              "lastName": "Seguin",
+              "firstName": "Johanne",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5689-7046"
+              }
+            },
+            {
+              "fullName": "Brossard D",
+              "lastName": "Brossard",
+              "firstName": "Denis",
+              "initials": "D"
+            },
+            {
+              "fullName": "Scherman D",
+              "lastName": "Scherman",
+              "firstName": "Daniel",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1207-1298"
+              }
+            },
+            {
+              "fullName": "Arnaud P",
+              "lastName": "Arnaud",
+              "firstName": "Philippe",
+              "initials": "P"
+            },
+            {
+              "fullName": "Chabot GG",
+              "lastName": "Chabot",
+              "firstName": "Guy G",
+              "initials": "GG"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5689-7046"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9817-2825"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1207-1298"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "full_text"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "427",
+          "journalIssueId": 1917821,
+          "dateOfPublication": "2012 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Int J Pharm",
+            "title": "International journal of pharmaceutics",
+            "essn": "1873-3476",
+            "issn": "0378-5173",
+            "nlmid": "7804127",
+            "isoabbreviation": "Int J Pharm"
+          },
+          "printPublicationDate": "2012-05-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "452-459",
+        "abstractText": "The natural flavonoid fisetin (3,3',4',7-tetrahydroxyflavone) has shown antitumour activity but its administration is complicated by its low water solubility. Our aim was to incorporate fisetin into a nanoemulsion to improve its pharmacokinetics and therapeutic efficacy. Solubility and emulsification tests allowed to develop an optimal nanoemulsion composed of Miglyol 812N/Labrasol/Tween 80/Lipoid E80/water (10%/10%/2.5%/1.2%/76.3%). The nanoemulsion had an oil droplet diameter of 153 ± 2 nm, a negative zeta potential (-28.4 ± 0.6 mV) and a polydispersity index of 0.129. The nanoemulsion was stable at 4 °C for 30 days, but phase separation occurred at 20 °C. Pharmacokinetic studies in mice revealed that the fisetin nanoemulsion injected intravenously (13 mg/kg) showed no significant difference in systemic exposure compared to free fisetin. However, when the fisetin nanoemulsion was administered intraperitoneally, a 24-fold increase in fisetin relative bioavailability was noted, compared to free fisetin. Additionally, the antitumour activity of the fisetin nanoemulsion in Lewis lung carcinoma bearing mice occurred at lower doses (36.6 mg/kg) compared to free fisetin (223 mg/kg). In conclusion, we have developed a stable nanoemulsion of fisetin and have shown that it could improve its relative bioavailability and antitumour activity.",
+        "affiliation": "Paris Descartes University, Faculty of Pharmacy, INSERM U1022, CNRS UMR8151, Chimie ParisTech, Sorbonne Paris Cité, Chemical, Genetic and Imaging Pharmacology Laboratory, F-75006 Paris, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Institut National de la Santé et de la Recherche Médicale (INSERM)",
+              "orderIn": 0
+            },
+            {
+              "agency": "Centre National de la Recherche Scientifique (CNRS)",
+              "orderIn": 0
+            },
+            {
+              "agency": "Institut National du Cancer (INCa, Boulogne-Billancourt, France)",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Endothelial Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carcinoma, Lewis Lung",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents, Phytogenic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Emulsions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Excipients"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solvents"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Surface-Active Agents"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Injections, Intraperitoneal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Injections, Intravenous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Stability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry, Pharmaceutical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Particle Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanoparticles"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Solvents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents, Phytogenic",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Emulsions",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Surface-Active Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Excipients",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://inserm.hal.science/inserm-00709735"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ijpharm.2012.02.025"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 131,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-06-28",
+        "dateOfCreation": "2012-03-06",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2012-02-24",
+        "firstPublicationDate": "2012-02-24",
+        "firstIndexDate": "2012-03-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21840301",
+        "source": "MED",
+        "pmid": "21840301",
+        "doi": "10.1016/j.bcp.2011.07.097",
+        "title": "Fisetin disposition and metabolism in mice: Identification of geraldol as an active metabolite.",
+        "authorString": "Touil YS, Auzeil N, Boulinguez F, Saighi H, Regazzetti A, Scherman D, Chabot GG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Touil YS",
+              "lastName": "Touil",
+              "firstName": "Yasmine S",
+              "initials": "YS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2286-960X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Université Paris Descartes, Sorbonne Paris Cité, Faculté des Sciences Pharmaceutiques et Biologiques, Institut National de Santé et de Recherche Médicale (Inserm U1022), Centre National de Recherche Scientifique (CNRS UMR8151), Chimie ParisTech, Laboratoire de pharmacologie chimique, génétique & imagerie, Paris F-75006, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Auzeil N",
+              "lastName": "Auzeil",
+              "firstName": "Nicolas",
+              "initials": "N"
+            },
+            {
+              "fullName": "Boulinguez F",
+              "lastName": "Boulinguez",
+              "firstName": "François",
+              "initials": "F"
+            },
+            {
+              "fullName": "Saighi H",
+              "lastName": "Saighi",
+              "firstName": "Hanane",
+              "initials": "H"
+            },
+            {
+              "fullName": "Regazzetti A",
+              "lastName": "Regazzetti",
+              "firstName": "Anne",
+              "initials": "A"
+            },
+            {
+              "fullName": "Scherman D",
+              "lastName": "Scherman",
+              "firstName": "Daniel",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1207-1298"
+              }
+            },
+            {
+              "fullName": "Chabot GG",
+              "lastName": "Chabot",
+              "firstName": "Guy G",
+              "initials": "GG"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2286-960X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1207-1298"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "full_text"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "82",
+          "journalIssueId": 1875811,
+          "dateOfPublication": "2011 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Biochem Pharmacol",
+            "title": "Biochemical pharmacology",
+            "essn": "1873-2968",
+            "issn": "0006-2952",
+            "nlmid": "0101032",
+            "isoabbreviation": "Biochem Pharmacol"
+          },
+          "printPublicationDate": "2011-12-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "1731-1739",
+        "abstractText": "Although the natural flavonoid fisetin (3,3',4',7-tetrahydroxyflavone) has been recently identified as an anticancer agent with antiangiogenic properties in mice, its in vivo pharmacokinetics and metabolism are presently not characterized. Our purpose was to determine the pharmacokinetics and metabolism of fisetin in mice and determine the biological activity of a detected fisetin metabolite. After fisetin administration of an efficacious dose of 223 mg/kg i.p. in mice, the maximum fisetin concentration reached 2.5 μg/ml at 15 min and the plasma concentration declined biphasically with a rapid half-life of 0.09 h and a terminal half-life of 3.1h. Three metabolites were detected, one of which was a glucuronide of fisetin (M1), whereas another glucuronide (M2) was a glucuronide of a previously unknown fisetin metabolite (M3). HPLC-MS/MS analysis indicated that M3 was a methoxylated metabolite of fisetin (MW=300 Da). The UV spectrum of M3 was identical to that of fisetin and standard 3,4',7-trihydroxy-3'-methoxyflavone (geraldol). In addition, because M3 co-eluted with standard geraldol in 4 different chromatographic ternary gradient conditions, M3 was therefore assigned to geraldol. Of interest, this metabolite was shown to achieve higher concentrations than fisetin in Lewis lung tumors. We also compared the cytotoxic and antiangiogenic activities of fisetin and geraldol in vitro and it was found that the latter was more cytotoxic than the parent compound toward tumor cells, and that it could also inhibit endothelial cells migration and proliferation. In conclusion, these results suggest that fisetin metabolism plays an important role in its in vivo anticancer activities.",
+        "affiliation": "Université Paris Descartes, Sorbonne Paris Cité, Faculté des Sciences Pharmaceutiques et Biologiques, Institut National de Santé et de Recherche Médicale (Inserm U1022), Centre National de Recherche Scientifique (CNRS UMR8151), Chimie ParisTech, Laboratoire de pharmacologie chimique, génétique & imagerie, Paris F-75006, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Institut National Du Cancer",
+              "orderIn": 0
+            },
+            {
+              "agency": "Institut National de la Santé et de la Recherche Médicale",
+              "orderIn": 0
+            },
+            {
+              "agency": "Centre National de la Recherche Scientifique",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Endothelial Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carcinoma, Lewis Lung"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucuronides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Collagen"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteoglycans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Angiogenesis Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Laminin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Combinations"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasm Transplantation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Movement",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "matrigel",
+              "registryNumber": "119978-18-6"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Collagen",
+              "registryNumber": "9007-34-5"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Combinations",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proteoglycans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Laminin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Angiogenesis Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucuronides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "3,4',7-trihydroxy-3'-methoxyflavone",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://inserm.hal.science/inserm-00709911"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bcp.2011.07.097"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 80,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-01-16",
+        "dateOfCreation": "2011-08-16",
+        "dateOfRevision": "2022-02-24",
+        "electronicPublicationDate": "2011-08-04",
+        "firstPublicationDate": "2011-08-04",
+        "firstIndexDate": "2011-08-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22519532",
+        "source": "MED",
+        "pmid": "22519532",
+        "doi": "10.2174/092986612800493995",
+        "title": "Study of the interaction between fisetin and human serum albumin: a biophysical approach.",
+        "authorString": "Roy AS, Dinda AK, Dasgupta S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Roy AS",
+              "lastName": "Roy",
+              "firstName": "Atanu Singha",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Indian Institute of Technology, Kharagpur-721302, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dinda AK",
+              "lastName": "Dinda",
+              "firstName": "Amit Kumar",
+              "initials": "AK"
+            },
+            {
+              "fullName": "Dasgupta S",
+              "lastName": "Dasgupta",
+              "firstName": "Swagata",
+              "initials": "S"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1902-403X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "19",
+          "journalIssueId": 1933081,
+          "dateOfPublication": "2012 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Protein Pept Lett",
+            "title": "Protein and peptide letters",
+            "essn": "1875-5305",
+            "issn": "0929-8665",
+            "nlmid": "9441434",
+            "isoabbreviation": "Protein Pept Lett"
+          },
+          "printPublicationDate": "2012-06-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "604-615",
+        "abstractText": "The binding of fisetin with human serum albumin (HSA) has been studied at different pH using UV-Vis, FTIR, CD and fluorescence spectroscopic techniques. The binding constants were found to increase with the rise in pH of the media. The negative ΔH°  (kJ mol-1) and positive ΔS°  (J mol-1 K-1) indicate that fisetin binds to HSA via electrostatic interactions with an initial hydrophobic association that result in a positive ΔS° . In presence of potassium chloride (KCl) the binding constants were found to be decrease. The α-helical content of HSA increased after binding with fisetin as analyzed from both CD and FTIR methods. The site marker displacement studies using fluorescence anisotropy suggest that fisetin binds to the hydrophobic pocket (Site 1, subdomain IIA) of HSA which is in good accordance with the molecular docking study. The change in accessible surface area (ASA) of residues of HSA was calculated to get a better insight into the binding.",
+        "affiliation": "Department of Chemistry, Indian Institute of Technology, Kharagpur-721302, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serum Albumin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrum Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Binding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermodynamics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biophysical Phenomena"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Serum Albumin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2174/092986612800493995"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 21,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-10-26",
+        "dateOfCreation": "2012-04-24",
+        "dateOfRevision": "2021-12-03",
+        "firstPublicationDate": "2012-06-01",
+        "firstIndexDate": "2012-04-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "24727463",
+        "source": "MED",
+        "pmid": "24727463",
+        "doi": "10.1016/j.ejmech.2014.04.002",
+        "title": "In-vitro anti-proliferative and anti-oxidant activity of galangin, fisetin and quercetin: role of localization and intermolecular interaction in model membrane.",
+        "authorString": "Sinha R, Srivastava S, Joshi A, Joshi UJ, Govil G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sinha R",
+              "lastName": "Sinha",
+              "firstName": "Ragini",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Facility for High Field NMR, Tata Institute of Fundamental Research, Homi Bhabha Road, Mumbai 400005, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Srivastava S",
+              "lastName": "Srivastava",
+              "firstName": "Sudha",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Facility for High Field NMR, Tata Institute of Fundamental Research, Homi Bhabha Road, Mumbai 400005, India. Electronic address: sudha@tifr.res.in."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Joshi A",
+              "lastName": "Joshi",
+              "firstName": "Akshada",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Principal K M Kundnani College of Pharmacy, Cuffe Parade, Mumbai 400005, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Joshi UJ",
+              "lastName": "Joshi",
+              "firstName": "Urmila J",
+              "initials": "UJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Principal K M Kundnani College of Pharmacy, Cuffe Parade, Mumbai 400005, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Govil G",
+              "lastName": "Govil",
+              "firstName": "Girjesh",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Facility for High Field NMR, Tata Institute of Fundamental Research, Homi Bhabha Road, Mumbai 400005, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6166-1801"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "79",
+          "journalIssueId": 2155683,
+          "dateOfPublication": "2014 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Eur J Med Chem",
+            "title": "European journal of medicinal chemistry",
+            "essn": "1768-3254",
+            "issn": "0223-5234",
+            "nlmid": "0420510",
+            "isoabbreviation": "Eur J Med Chem"
+          },
+          "printPublicationDate": "2014-05-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "102-109",
+        "abstractText": "Flavonols are an important class of naturally occurring molecules and are known for their pharmacological activity. The activity is associated with the ability of flavonols to influence membrane-dependent processes. We have investigated the in-vitro anti-proliferative and anti-oxidant activity of galangin (GLN), fisetin (FTN) and quercetin (QTN), which possess variable number of phenolic hydroxyl groups. An attempt has been made to correlate the biological activity of these molecules with their interaction and localization in dipalmitoyl phosphatidyl choline (DPPC) bilayers, using differential dcanning calorimetry (DSC) and nuclear magnetic resonance (NMR) methods. Results indicate that GLN interacts to the alkyl chains of the lipid bilayer involving hydrophobic interactions. FTN and QTN interact with head region and sn-1-glycero region involving hydrogen bonding. Ring current induced chemical shifts of lipid protons, due to intermolecular interaction indicate that GLN acquires a parallel orientation with respect to the bilayer normal whereas FTN and QTN resume a mixed orientation. The membrane binding constants of these molecules are in the order GLN > QTN > FTN. It has been shown that the number and position of hydroxyl groups in these molecules play an important role in membrane binding and thereby in biological activity.",
+        "affiliation": "National Facility for High Field NMR, Tata Institute of Fundamental Research, Homi Bhabha Road, Mumbai 400005, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "K562 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quercetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Membranes, Artificial"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Crystallography, X-Ray"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MCF-7 Cells"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Nuclear magnetic resonance",
+            "Differential scanning calorimetry",
+            "Flavonols",
+            "Chemical Shift Anisotropy",
+            "Dipalmitoyl Phosphatidyl Choline",
+            "Ring Current Shifts"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membranes, Artificial",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "galangin",
+              "registryNumber": "142FWE6ECS"
+            },
+            {
+              "name": "Quercetin",
+              "registryNumber": "9IKM0I5T1E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ejmech.2014.04.002"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 33,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-01-12",
+        "dateOfCreation": "2014-04-15",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2014-04-02",
+        "firstPublicationDate": "2014-04-02",
+        "firstIndexDate": "2014-04-15",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19217163",
+        "source": "MED",
+        "pmid": "19217163",
+        "doi": "10.1016/j.jinorgbio.2009.01.005",
+        "title": "Study on fisetin-aluminium(III) interaction in aqueous buffered solutions by spectroscopy and molecular modeling.",
+        "authorString": "Dimitrić Marković JM, Marković ZS, Veselinović DS, Krstić JB, Predojević Simović JD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dimitrić Marković JM",
+              "lastName": "Dimitrić Marković",
+              "firstName": "Jasmina M",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Belgrade, Serbia. markovich@ffh.bg.ac.rs"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marković ZS",
+              "lastName": "Marković",
+              "firstName": "Zoran S",
+              "initials": "ZS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5964-049X"
+              }
+            },
+            {
+              "fullName": "Veselinović DS",
+              "lastName": "Veselinović",
+              "firstName": "Dragan S",
+              "initials": "DS"
+            },
+            {
+              "fullName": "Krstić JB",
+              "lastName": "Krstić",
+              "firstName": "Jugoslav B",
+              "initials": "JB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0321-0698"
+              }
+            },
+            {
+              "fullName": "Predojević Simović JD",
+              "lastName": "Predojević Simović",
+              "firstName": "Jasmina D",
+              "initials": "JD"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5964-049X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0321-0698"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "103",
+          "journalIssueId": 1616844,
+          "dateOfPublication": "2009 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "J Inorg Biochem",
+            "title": "Journal of inorganic biochemistry",
+            "essn": "1873-3344",
+            "issn": "0162-0134",
+            "nlmid": "7905788",
+            "isoabbreviation": "J Inorg Biochem"
+          },
+          "printPublicationDate": "2009-05-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "723-730",
+        "abstractText": "Spectroscopic (UV/visible and IR) and theoretical studies were used to assess relevant interaction of fisetin, a tetrahydroxylated flavone molecule, and trivalent aluminium in a wide range of buffered aqueous solutions. The chelation sites, stoichiometry, stability and the dependence of the complexes structures on pH and aluminium/fisetin mole ratios were defined. Obtained results implicated successive formation of two complexes with aluminium(III)-fisetin stoichiometries of 1:1 and 2:1. Considering the fisetin molecular structure, results of vibrational analysis and theoretical calculations, it is possible to implicate 3-hydroxyl-4-carbonyl and 3'4'-dihydroxyl groups as those with the possible chelating power. The equilibrium geometries were optimized in vacuum at the B3LYP/6-31G(d) level of theory, which predict structural modifications between the ligand molecule in free state and in the complex structure. The theoretical model has been validated by both vibrational and electronic spectroscopies.",
+        "affiliation": "University of Belgrade, Serbia. markovich@ffh.bg.ac.rs",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aluminum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Infrared"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Chemical"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "Aluminum",
+              "registryNumber": "CPD4NFA903"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jinorgbio.2009.01.005"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2009-06-22",
+        "dateOfCreation": "2009-02-17",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2009-01-21",
+        "firstPublicationDate": "2009-01-21",
+        "firstIndexDate": "2009-06-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19702784",
+        "source": "MED",
+        "pmid": "19702784",
+        "pmcid": "PMC2765609",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2765609"
+          ]
+        },
+        "doi": "10.1111/j.1476-5381.2009.00365.x",
+        "title": "The hydroxyflavone, fisetin, suppresses mast cell activation induced by interaction with activated T cell membranes.",
+        "authorString": "Nagai K, Takahashi Y, Mikami I, Fukusima T, Oike H, Kobori M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nagai K",
+              "lastName": "Nagai",
+              "firstName": "K",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Food Research Institute, National Agriculture and Food Research Organization, Tsukuba, Ibaraki, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Takahashi Y",
+              "lastName": "Takahashi",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Mikami I",
+              "lastName": "Mikami",
+              "firstName": "I",
+              "initials": "I"
+            },
+            {
+              "fullName": "Fukusima T",
+              "lastName": "Fukusima",
+              "firstName": "T",
+              "initials": "T"
+            },
+            {
+              "fullName": "Oike H",
+              "lastName": "Oike",
+              "firstName": "H",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6139-5726"
+              }
+            },
+            {
+              "fullName": "Kobori M",
+              "lastName": "Kobori",
+              "firstName": "M",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6139-5726"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "158",
+          "journalIssueId": 1658893,
+          "dateOfPublication": "2009 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "Br J Pharmacol",
+            "title": "British journal of pharmacology",
+            "essn": "1476-5381",
+            "issn": "0007-1188",
+            "nlmid": "7502536",
+            "isoabbreviation": "Br J Pharmacol"
+          },
+          "printPublicationDate": "2009-10-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "907-919",
+        "abstractText": "<h4>Background and purpose</h4>Cell-to-cell interactions between mast cells and activated T cells are increasingly recognized as a possible mechanism in the aetiology of allergic or non-allergic inflammatory disorders. To determine the anti-allergic effect of fisetin, we examined the ability of fisetin to suppress activation of the human mast cell line, HMC-1, induced by activated Jurkat T cell membranes.<h4>Experimental approach</h4>HMC-1 cells were incubated with or without fisetin for 15 min and then co-cultured with Jurkat T cell membranes activated by phorbol-12-myristate 13-acetate for 16 h. We determined gene expression in activated HMC-1 cells by DNA microarray and quantitative reverse transcription (RT)-PCR analysis. We also examined activation of the transcription factor NF-kappaB and MAP kinases (MAPKs) in activated HMC-1 cells.<h4>Key results</h4>Fisetin suppresses cell spreading and gene expression in HMC-1 cells stimulated by activated T cell membranes. Additionally, we show that these stimulated HMC-1 cells expressed granzyme B. The stimulatory interaction also induced activation of NF-kappaB and MAPKs; these activations were suppressed by fisetin. Fisetin also reduced the amount of cell surface antigen CD40 and intercellular adhesion molecule-1 (ICAM-1) on activated HMC-1 cells.<h4>Conclusions and implications</h4>Fisetin suppressed activation of HMC-1 cells by activated T cell membranes by interfering with cell-to-cell interaction and inhibiting the activity of NF-kappaB and MAPKs and thereby suppressing gene expression. Fisetin may protect against the progression of inflammatory diseases by limiting interactions between mast cells and activated T cells.",
+        "affiliation": "National Food Research Institute, National Agriculture and Food Research Organization, Tsukuba, Ibaraki, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "T-Lymphocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Membrane",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mast Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonols"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitogen-Activated Protein Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NF-kappa B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intercellular Adhesion Molecule-1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oligonucleotide Array Sequence Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Degranulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphorylation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "I-kappa B Kinase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Granzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Perforin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CD40 Antigens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "perforin",
+              "registryNumber": "126465-35-8"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Intercellular Adhesion Molecule-1",
+              "registryNumber": "126547-89-5"
+            },
+            {
+              "name": "NF-kappa B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Granzymes",
+              "registryNumber": "EC 3.4.21.-"
+            },
+            {
+              "name": "Mitogen-Activated Protein Kinases",
+              "registryNumber": "EC 2.7.11.24"
+            },
+            {
+              "name": "I-kappa B Kinase",
+              "registryNumber": "EC 2.7.11.10"
+            },
+            {
+              "name": "fisetin",
+              "registryNumber": "OO2ABO9578"
+            },
+            {
+              "name": "CD40 Antigens",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1476-5381.2009.00365.x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2765609"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2765609?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1476-5381.2009.00365.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-01-19",
+        "dateOfCreation": "2009-08-26",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2009-08-20",
+        "firstPublicationDate": "2009-08-20",
+        "firstIndexDate": "2010-10-07",
+        "fullTextReceivedDate": "2026-10-13",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

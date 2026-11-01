@@ -20,3 +20,7 @@ data/raw/
 ```
 
 Raw data is never modified. Failed or ambiguous molecular identity resolution is flagged, not guessed.
+
+## Stage B
+
+See [`stageB/README.md`](stageB/README.md) for the organized Stage B workflow, authoritative evidence release, model experiments, and historical archive.

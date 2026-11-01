@@ -1,0 +1,673 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "TITLE_ABS:\"4-Methoxyglucobrassicin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "IND609211799",
+        "source": "AGR",
+        "title": "Glucosinolate-Mediated Inhibition of Carbonic Anhydrase IX: A Study on Turnip (Brassica rapa) and its Potential in Cancer Prevention",
+        "authorString": "Kamel EM, Allam AA, Rudayni HA, Alkhedhairi S, Alkhayl FFA, Bin-Jumah M, Abdelrheem DA, Lamsabhi AM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kamel EM",
+              "lastName": "Kamel",
+              "firstName": "Emadeldin M",
+              "initials": "EM"
+            },
+            {
+              "fullName": "Allam AA",
+              "lastName": "Allam",
+              "firstName": "Ahmed A",
+              "initials": "AA"
+            },
+            {
+              "fullName": "Rudayni HA",
+              "lastName": "Rudayni",
+              "firstName": "Hassan A",
+              "initials": "HA"
+            },
+            {
+              "fullName": "Alkhedhairi S",
+              "lastName": "Alkhedhairi",
+              "firstName": "Saleh",
+              "initials": "S"
+            },
+            {
+              "fullName": "Alkhayl FFA",
+              "lastName": "Alkhayl",
+              "firstName": "Faris F Aba",
+              "initials": "FFA"
+            },
+            {
+              "fullName": "Bin-Jumah M",
+              "lastName": "Bin-Jumah",
+              "firstName": "May",
+              "initials": "M"
+            },
+            {
+              "fullName": "Abdelrheem DA",
+              "lastName": "Abdelrheem",
+              "firstName": "Doaa A",
+              "initials": "DA"
+            },
+            {
+              "fullName": "Lamsabhi AM",
+              "lastName": "Lamsabhi",
+              "firstName": "Al Mokhtar",
+              "initials": "AM"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "20",
+          "journalIssueId": 4092589,
+          "dateOfPublication": "2025 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2025,
+          "journal": {
+            "title": "Food Biophysics"
+          },
+          "printPublicationDate": "2025-09-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "100",
+        "abstractText": "Cruciferous vegetables such as turnip (Brassica rapa) are rich in bioactive glucosinolates with potential health-promoting and anticancer properties. Here, 4-methoxyglucobrassicin, glucobrassicin and neoglucobrassicin were purified from hot-methanol extracts of B. rapa roots by acidic-alumina and Sephadex LH-20 chromatography. Recombinant human carbonic anhydrase IX (CA IX) esterase activity was measured with a 4-nitrophenyl-acetate microplate assay, and inhibition constants were extracted from Lineweaver–Burk plots. Protein–ligand interactions were investigated by AutoDock Vina docking (PDB 5FL4), followed by 200 ns CHARMM36m molecular-dynamics simulations in GROMACS; binding free energies were obtained with the MM/PBSA method, and conformational stability was evaluated through free-energy-landscape analysis. In vitro enzyme-inhibition assays revealed that neoglucobrassicin and glucobrassicin exhibited potent CA IX inhibition, with IC₅₀ values of 48.5 ± 2.1 nM and 65.06 ± 2.8 nM, respectively. Kinetic studies indicated a mixed-type inhibition mechanism, suggesting multiple interaction modes with the enzyme. Molecular docking confirmed strong polar interactions within the CA IX active site, and MD/MM-PBSA ranked neoglucobrassicin as the most favorable binder (ΔGₜₒₜₐₗ = − 34.74 ± 2.47 kcal mol⁻¹). Free-energy-landscape analysis further showed that neoglucobrassicin maintains a highly stable conformational state during the simulation. Overall, this integrated isolation, enzyme-assay, and computational workflow identifies turnip-derived indole glucosinolates as promising natural CA IX inhibitors and supports their potential role in functional foods and nutraceuticals aimed at cancer prevention and tumor-micro-environment modulation.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2025-09-17",
+        "dateOfCreation": "2025-09-17",
+        "firstPublicationDate": "2025-09-01",
+        "firstIndexDate": "2026-01-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11586482",
+        "source": "MED",
+        "pmid": "11586482",
+        "doi": "10.1053/meta.2001.26744",
+        "title": "Biochemical effects of dietary intake of different broccoli samples. II. Multivariate analysis of contributions of specific glucosinolates in modulating cytochrome P-450 and antioxidant defense enzyme activities.",
+        "authorString": "Vang O, Mortensen J, Andersen O.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vang O",
+              "lastName": "Vang",
+              "firstName": "O",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3901-8545"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Roskilde, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mortensen J",
+              "lastName": "Mortensen",
+              "firstName": "J",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9736-1934"
+              }
+            },
+            {
+              "fullName": "Andersen O",
+              "lastName": "Andersen",
+              "firstName": "O",
+              "initials": "O"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9736-1934"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3901-8545"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "50",
+          "journalIssueId": 1014799,
+          "dateOfPublication": "2001 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "Metabolism",
+            "title": "Metabolism: clinical and experimental",
+            "essn": "1532-8600",
+            "issn": "0026-0495",
+            "isoabbreviation": "Metabolism",
+            "nlmid": "0375267"
+          },
+          "printPublicationDate": "2001-10-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "1130-1135",
+        "abstractText": "Dietary broccoli exposure modulates various cytochrome P-450 (CYP)-associated activities and antioxidant defense enzyme activities in liver, colon, and kidney of rats. We present an analysis by the partial least-square method (PLS) of the contribution of single glucosinolates in modulating xenobiotic metabolizing and antioxidant defense enzyme activities. Generally, modulation of colonic enzyme activities was well described (58% to 75%) by models consisting of 3 principal components (PCs). The indolyl glucosinolates were not the only major contributors to the regulation of colonic 7-ethoxyresorufin O-deethylase (EROD) and 7-methoxyresorufin O-demethylase (MROD) activities, as would be expected from results of previous experiments testing the pure compounds, glucobrassicin (GB), neoglucobrassicin (NeoGB), and 4-methoxyglucobrassicin (4-MeOGB). In hepatic and renal microsomes, the modulation of enzyme activities could be partly described for hepatic and renal 7-pentoxyresorufin O-deethylase (PROD) activities (42% to 44%, 3 to 4 PCs), hepatic superoxide dismutase activity (45%, 2 PCs), and renal glutathione peroxidase (GSH Px) and glutathione reductase (GSSG Red) activities (43%, 3 PCs). These results indicate that substances other than glucosinolates in the complex mixtures modulate hepatic EROD, MROD, GSH Px, and GSSG Red activities or that the active glucosinolate metabolites vary in their systemic disposition.",
+        "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Roskilde, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidoreductases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Reductase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Peroxidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Superoxide Dismutase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Multivariate Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Activation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glutathione Peroxidase",
+              "registryNumber": "EC 1.11.1.9"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Superoxide Dismutase",
+              "registryNumber": "EC 1.15.1.1"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glutathione Reductase",
+              "registryNumber": "EC 1.8.1.7"
+            },
+            {
+              "name": "Oxidoreductases",
+              "registryNumber": "EC 1.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1053/meta.2001.26744"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2001-11-01",
+        "dateOfCreation": "2001-10-05",
+        "dateOfRevision": "2006-11-15",
+        "firstPublicationDate": "2001-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "10368814",
+        "source": "MED",
+        "pmid": "10368814",
+        "doi": "10.1207/s15327914nc330210",
+        "title": "Modulation of cytochrome P-450 and glutathione S-transferase isoform expression in vivo by intact and degraded indolyl glucosinolates.",
+        "authorString": "Bonnesen C, Stephensen PU, Andersen O, Sørensen H, Vang O.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bonnesen C",
+              "lastName": "Bonnesen",
+              "firstName": "C",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stephensen PU",
+              "lastName": "Stephensen",
+              "firstName": "P U",
+              "initials": "PU"
+            },
+            {
+              "fullName": "Andersen O",
+              "lastName": "Andersen",
+              "firstName": "O",
+              "initials": "O"
+            },
+            {
+              "fullName": "Sørensen H",
+              "lastName": "Sørensen",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Vang O",
+              "lastName": "Vang",
+              "firstName": "O",
+              "initials": "O"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "33",
+          "journalIssueId": 911345,
+          "dateOfPublication": "1999 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 1999,
+          "journal": {
+            "medlineAbbreviation": "Nutr Cancer",
+            "title": "Nutrition and cancer",
+            "essn": "1532-7914",
+            "issn": "0163-5581",
+            "isoabbreviation": "Nutr Cancer",
+            "nlmid": "7905040"
+          },
+          "printPublicationDate": "1999-01-01"
+        },
+        "pubYear": "1999",
+        "pageInfo": "178-187",
+        "abstractText": "Various dietary substances modulate the xenobiotic metabolism and may thereby protect against toxicity and carcinogenicity of food toxins. The effects of pure indolyl glucosinolates, which are present in cruciferous vegetables, on induction of specific cytochrome P-450 (CYP) and glutathione S-transferase (GST) isoforms have not been studied previously. In the present study, glucobrassicin (GB) and neoglucobrassicin (NeoGB) were purified from broccoli by use of a single-column method. Furthermore, a mixture containing 48% GB, 36% NeoGB, and 16% 4-methoxyglucobrassicin was obtained. The modulatory effects of the pure GB, NeoGB, and the mixture on activities and levels of hepatic CYP 1A, 2B1/2, and 2E1 and alpha- and mu-GST isoforms were investigated in male Wistar rats. The indolyl mixture was the most powerful and NeoGB the weakest inducer of microsomal hepatic CYP 1A1 protein and 7-ethoxyresorufin O-deethylase activity. Furthermore, intact indolyl glucosinolates were more powerful inducers than the in vitro myrosinase-degraded indolyl glucosinolates. The hepatic 7-methoxyresorufin O-deethylase activities, but not CYP 1A2 protein, were induced by pure GB, whereas the mixture and NeoGB showed only minor effects. Neither CYP 2B1/2 nor 2E1 was induced by the indolyl glucosinolates. None of the hepatic GST subunits analyzed, rGST A1/2, A3, or M3, was induced significantly by the purified indolyl glucosinolates.",
+        "affiliation": "Department of Life Sciences and Chemistry, Roskilde University, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Indoles"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Transferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticarcinogenic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Glutathione Transferase",
+              "registryNumber": "EC 2.5.1.18"
+            },
+            {
+              "name": "Anticarcinogenic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "glucobrassicin",
+              "registryNumber": "EA6EH0IU89"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1207/S15327914NC330210"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 33,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1999-08-11",
+        "dateOfCreation": "1999-06-16",
+        "dateOfRevision": "2016-11-24",
+        "firstPublicationDate": "1999-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

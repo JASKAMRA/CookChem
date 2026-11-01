@@ -1,0 +1,3833 @@
+{
+  "version": "6.9",
+  "hitCount": 15,
+  "request": {
+    "queryString": "TITLE_ABS:\"Petunidin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40273195",
+        "source": "MED",
+        "pmid": "40273195",
+        "doi": "10.1002/cbdv.202403368",
+        "title": "Computational Evaluation of Phytocompounds From Selective Medicinal Plants as Potential Antidiabetic Agents.",
+        "authorString": "Kumar V, Sharma N, Mishra VK, Mall S, Kumar A, Dev K, Patel CN.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kumar V",
+              "lastName": "Kumar",
+              "firstName": "Vikas",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7516-7807"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Institute of Biotechnology, Chandigarh University, Mohali, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sharma N",
+              "lastName": "Sharma",
+              "firstName": "Nitin",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, Chandigarh Group of Colleges, Mohali, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mishra VK",
+              "lastName": "Mishra",
+              "firstName": "Vipin Kumar",
+              "initials": "VK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemistry Division, School of Advanced Sciences and Language, VIT Bhopal University, Bhopal, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mall S",
+              "lastName": "Mall",
+              "firstName": "Smita",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Applied Sciences and Biotechnology, Shoolini University of Biotechnology and Management Sciences, Solan, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kumar A",
+              "lastName": "Kumar",
+              "firstName": "Ashwani",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Institute of Biotechnology, Chandigarh University, Mohali, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dev K",
+              "lastName": "Dev",
+              "firstName": "Kamal",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2076-9023"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Applied Sciences and Biotechnology, Shoolini University of Biotechnology and Management Sciences, Solan, India."
+                  },
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Wright State University, Dayton, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Patel CN",
+              "lastName": "Patel",
+              "firstName": "Chirag N",
+              "initials": "CN",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0777-7720"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biotechnology Research Centre, Technology Innovation Institute, Abu Dhabi, UAE."
+                  },
+                  {
+                    "affiliation": "Drug Design & Development Section, Translational Gerontology Branch, Intramural Research Program, National Institute on Aging, NIH, Baltimore, Maryland, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7516-7807"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2076-9023"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0777-7720"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2209-4442"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "22",
+          "journalIssueId": 4016990,
+          "dateOfPublication": "2025 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Chem Biodivers",
+            "title": "Chemistry & biodiversity",
+            "essn": "1612-1880",
+            "issn": "1612-1872",
+            "isoabbreviation": "Chem Biodivers",
+            "nlmid": "101197449"
+          },
+          "printPublicationDate": "2025-09-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e202403368",
+        "abstractText": "The distinguishing characteristic of diabetes mellitus (DM), chronic hyperglycemia emphasizes the need for safer, more efficient antidiabetic treatments. This study employs computational approaches to explore the therapeutic potential of phytochemicals from medicinal plants as antidiabetic drugs. Molecular docking against phosphorylated insulin receptor (IR) tyrosine kinase and human dipeptidyl peptidase IV (DPP-IV) identified eriodictyol (-7.13 kcal/mol) and petunidin (-6.61 kcal/mol) as potent inhibitors. Molecular dynamics simulations confirmed the structural stability of these complexes, with root mean square deviation values stabilizing within 2.8-4.5 Å. Binding free energy calculations using Molecular Mechanics Generalized Born Surface Area evealed strong binding affinities of eriodictyol-IR (ΔG<sub>binding</sub> = -44.63 ± 4.05 kcal/mol), and petunidin-DPP-IV complex (ΔG<sub>binding</sub> = -49.86 ± 6.13 kcal/mol). Additionally, pharmacokinetic assessments showed that these compounds adhered to Lipinski's rule, with no significant hepatotoxicity or cytotoxicity. These findings underscore the potential of these phytocompounds as antidiabetic candidates, warranting further in vitro and in vivo investigations.",
+        "affiliation": "University Institute of Biotechnology, Chandigarh University, Mohali, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plants, Medicinal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptor, Insulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypoglycemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dipeptidyl Peptidase 4",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Medicinal plants",
+            "In silico",
+            "Adme/tox",
+            "Molecular Dynamics (Md) Simulations"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptor, Insulin",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "Dipeptidyl Peptidase 4",
+              "registryNumber": "EC 3.4.14.5"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/cbdv.202403368"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-09-16",
+        "dateOfCreation": "2025-04-24",
+        "dateOfRevision": "2025-09-30",
+        "electronicPublicationDate": "2025-05-10",
+        "firstPublicationDate": "2025-05-10",
+        "firstIndexDate": "2025-04-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR1177216",
+        "source": "PPR",
+        "doi": "10.21203/rs.3.rs-9085596/v1",
+        "title": "In Silico Analysis of Phytochemicals from Catharanthus roseus Targeting TGF-β1 Receptor for Anticancer Therapy",
+        "authorString": "Eze SP, Akinsulure S, Mbanuzue CE, Enem EC, Sakariyau AW, Erhabor AP, Nwabekee PC, Kaura S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Eze SP",
+              "lastName": "Eze",
+              "firstName": "Samuel Philip",
+              "initials": "SP"
+            },
+            {
+              "fullName": "Akinsulure S",
+              "lastName": "Akinsulure",
+              "firstName": "Simbo",
+              "initials": "S"
+            },
+            {
+              "fullName": "Mbanuzue CE",
+              "lastName": "Mbanuzue",
+              "firstName": "Charles Ekene",
+              "initials": "CE"
+            },
+            {
+              "fullName": "Enem EC",
+              "lastName": "Enem",
+              "firstName": "Eric Chukwudike",
+              "initials": "EC"
+            },
+            {
+              "fullName": "Sakariyau AW",
+              "lastName": "Sakariyau",
+              "firstName": "Adio Waheed",
+              "initials": "AW"
+            },
+            {
+              "fullName": "Erhabor AP",
+              "lastName": "Erhabor",
+              "firstName": "Aisosa Prince",
+              "initials": "AP"
+            },
+            {
+              "fullName": "Nwabekee PC",
+              "lastName": "Nwabekee",
+              "firstName": "Precious Chisom",
+              "initials": "PC"
+            },
+            {
+              "fullName": "Kaura S",
+              "lastName": "Kaura",
+              "firstName": "Sunday",
+              "initials": "S"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "pubYear": "2026",
+        "abstractText": "<title>Abstract</title>  <p>  <bold>Objective</bold>  The research goal focuses on discovering potential blocking substances for the Transforming Growth Factor-beta 1 (TGF-β1) signalling pathway that functions as a critical regulator during cancer progression. A research analysis uses natural compounds from  <italic>Catharanthus roseus</italic>  (Madagascar Periwinkle) and Tranilast as reference compounds to determine their effects on TGF-β1 signalling pathways for developing new cancer treatments.  <bold>Methods</bold>  The research conducted a computational analysis using 59 active Catharanthus roseus compounds, including Tranilast. The ligand preparation sequence began with three-step processing that started with generating 3D conformers, followed by protonation state optimization, before finishing with energy minimization. Scientists minimized the energy of the TGF-β1 receptor (PDB ID: 1PY5) through heteroatom removal followed by residue addition. The docking method began with high-throughput virtual screening, followed by standard and extra precision docking procedures. The MM/GBSA protocol calculated binding free energy values during the analysis. The ADMET properties and drug-likeness evaluation occurred through SwissADME and ProTox-III platform analysis.  <bold>Results</bold>  The TGF-β1 receptor established strong chemical binding capabilities with multiple compounds. The five primary compounds evaluated for research included Petunidin 3-O-glucoside, Isorhamnetin, Quercetin, Kaempferol, and Hirsutidin 3-glucoside. These compounds exhibited favourable binding free energies and pharmacokinetic profiles. ADMET analysis confirmed their drug-like properties with minimal predicted toxicity. Tranilast served as a benchmark for comparison, validating the efficacy of the natural compounds.  <bold>Conclusion</bold>  This study highlights the therapeutic potential of Catharanthus roseus-derived compounds as inhibitors of the TGF-β1 signalling pathway. Their strong binding affinities and favourable pharmacokinetic profiles suggest their viability as candidates for further preclinical evaluation in cancer therapy. The findings underscore the importance of exploring natural products as sources for targeted cancer treatments.  <bold>Level of Evidence: Computational study; Level V.</bold>  </p>",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "Research Square",
+          "yearOfPublication": 2026
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.21203/rs.3.rs-9085596/v1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCreation": "2026-04-15",
+        "firstPublicationDate": "2026-04-14",
+        "firstIndexDate": "2026-04-15",
+        "versionList": {
+          "version": [
+            {
+              "id": "PPR1177216",
+              "source": "PPR",
+              "versionNumber": 1,
+              "firstPublishDate": "2026-04-14",
+              "pubTypeList": {
+                "pubType": [
+                  "preprint"
+                ]
+              },
+              "hasEvaluations": "N"
+            }
+          ]
+        },
+        "versionNumber": 1,
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND608399674",
+        "source": "AGR",
+        "title": "Structure-function relationships in (poly)phenol-enzyme binding: Direct inhibition of human salivary and pancreatic α-amylases",
+        "authorString": "Visvanathan R, Houghton MJ, Barber E, Williamson G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Visvanathan R",
+              "lastName": "Visvanathan",
+              "firstName": "Rizliya",
+              "initials": "R"
+            },
+            {
+              "fullName": "Houghton MJ",
+              "lastName": "Houghton",
+              "firstName": "Michael J",
+              "initials": "MJ"
+            },
+            {
+              "fullName": "Barber E",
+              "lastName": "Barber",
+              "firstName": "Elizabeth",
+              "initials": "E"
+            },
+            {
+              "fullName": "Williamson G",
+              "lastName": "Williamson",
+              "firstName": "Gary",
+              "initials": "G"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "188",
+          "journalIssueId": 3797970,
+          "dateOfPublication": "2024 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2024,
+          "journal": {
+            "title": "Food Research International.",
+            "issn": "0963-9969"
+          },
+          "printPublicationDate": "2024-07-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "Not Available",
+        "abstractText": "(Poly)phenols inhibit α-amylase by directly binding to the enzyme and/or by forming starch-polyphenol complexes. Conventional methods using starch as the substrate measure inhibition from both mechanisms, whereas the use of shorter oligosaccharides as substrates exclusively measures the direct interaction of (poly)phenols with the enzyme. In this study, using a chromatography-based method and a short oligosaccharide as the substrate, we investigated the detailed structural prerequisites for the direct inhibition of human salivary and pancreatic α-amylases by over 50 (poly)phenols from the (poly)phenol groups: flavonols, flavones, flavanones, flavan-3-ols, polymethoxyflavones, isoflavones, anthocyanidins and phenolic acids. Despite being structurally very similar (97% sequence homology), human salivary and pancreatic α-amylases were inhibited to different extents by the tested (poly)phenols. The most potent human salivary α-amylase inhibitors were luteolin and pelargonidin, while the methoxylated anthocyanidins, peonidin and petunidin, significantly blocked pancreatic enzyme activity. B-ring methoxylation of anthocyanidins increased inhibition against both human α-amylases while hydroxyl groups at C3 and B3′ acted antagonistically in human salivary inhibition. C4 carbonyl reduction, or the positive charge on the flavonoid structure, was the key structural feature for human pancreatic inhibition. B-ring glycosylation did not affect salivary enzyme inhibition, but increased pancreatic enzyme inhibition when compared to its corresponding aglycone. Overall, our findings indicate that the efficacy of interaction with human α-amylase is mainly influenced by the type and placement of functional groups rather than the number of hydroxyl groups and molecular weight.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-04-23",
+        "dateOfCreation": "2025-04-23",
+        "dateOfRevision": "2024-10-06",
+        "firstPublicationDate": "2024-07-01",
+        "firstIndexDate": "2024-07-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38823880",
+        "source": "MED",
+        "pmid": "38823880",
+        "doi": "10.1016/j.foodres.2024.114504",
+        "title": "Structure-function relationships in (poly)phenol-enzyme binding: Direct inhibition of human salivary and pancreatic α-amylases.",
+        "authorString": "Visvanathan R, Houghton MJ, Barber E, Williamson G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Visvanathan R",
+              "lastName": "Visvanathan",
+              "firstName": "Rizliya",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition, Dietetics and Food, Monash University, BASE Facility, 264 Ferntree Gully Road, Notting Hill, VIC 3168, Australia; Victorian Heart Institute, Monash University, Victorian Heart Hospital, 631 Blackburn Road, Clayton, VIC 3168, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Houghton MJ",
+              "lastName": "Houghton",
+              "firstName": "Michael J",
+              "initials": "MJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6579-7995"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition, Dietetics and Food, Monash University, BASE Facility, 264 Ferntree Gully Road, Notting Hill, VIC 3168, Australia; Victorian Heart Institute, Monash University, Victorian Heart Hospital, 631 Blackburn Road, Clayton, VIC 3168, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barber E",
+              "lastName": "Barber",
+              "firstName": "Elizabeth",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8972-6163"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition, Dietetics and Food, Monash University, BASE Facility, 264 Ferntree Gully Road, Notting Hill, VIC 3168, Australia; Victorian Heart Institute, Monash University, Victorian Heart Hospital, 631 Blackburn Road, Clayton, VIC 3168, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Williamson G",
+              "lastName": "Williamson",
+              "firstName": "Gary",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5624-6267"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition, Dietetics and Food, Monash University, BASE Facility, 264 Ferntree Gully Road, Notting Hill, VIC 3168, Australia; Victorian Heart Institute, Monash University, Victorian Heart Hospital, 631 Blackburn Road, Clayton, VIC 3168, Australia. Electronic address: gary.williamson1@monash.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6579-7995"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8972-6163"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5624-6267"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "188",
+          "journalIssueId": 3778399,
+          "dateOfPublication": "2024 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Food Res Int",
+            "title": "Food research international (Ottawa, Ont.)",
+            "essn": "1873-7145",
+            "issn": "1873-7145",
+            "isoabbreviation": "Food Res Int",
+            "nlmid": "9210143"
+          },
+          "printPublicationDate": "2024-07-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "114504",
+        "abstractText": "(Poly)phenols inhibit α-amylase by directly binding to the enzyme and/or by forming starch-polyphenol complexes. Conventional methods using starch as the substrate measure inhibition from both mechanisms, whereas the use of shorter oligosaccharides as substrates exclusively measures the direct interaction of (poly)phenols with the enzyme. In this study, using a chromatography-based method and a short oligosaccharide as the substrate, we investigated the detailed structural prerequisites for the direct inhibition of human salivary and pancreatic α-amylases by over 50 (poly)phenols from the (poly)phenol groups: flavonols, flavones, flavanones, flavan-3-ols, polymethoxyflavones, isoflavones, anthocyanidins and phenolic acids. Despite being structurally very similar (97% sequence homology), human salivary and pancreatic α-amylases were inhibited to different extents by the tested (poly)phenols. The most potent human salivary α-amylase inhibitors were luteolin and pelargonidin, while the methoxylated anthocyanidins, peonidin and petunidin, significantly blocked pancreatic enzyme activity. B-ring methoxylation of anthocyanidins increased inhibition against both human α-amylases while hydroxyl groups at C3 and B3' acted antagonistically in human salivary inhibition. C4 carbonyl reduction, or the positive charge on the flavonoid structure, was the key structural feature for human pancreatic inhibition. B-ring glycosylation did not affect salivary enzyme inhibition, but increased pancreatic enzyme inhibition when compared to its corresponding aglycone. Overall, our findings indicate that the efficacy of interaction with human α-amylase is mainly influenced by the type and placement of functional groups rather than the number of hydroxyl groups and molecular weight.",
+        "affiliation": "Department of Nutrition, Dietetics and Food, Monash University, BASE Facility, 264 Ferntree Gully Road, Notting Hill, VIC 3168, Australia; Victorian Heart Institute, Monash University, Victorian Heart Hospital, 631 Blackburn Road, Clayton, VIC 3168, Australia.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Monash University",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saliva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "alpha-Amylases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Salivary alpha-Amylases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pancreatic alpha-Amylases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Polyphenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Flavonoid",
+            "Starch",
+            "Quercetin",
+            "Polyphenol",
+            "Enzyme inhibition",
+            "Carbohydrate Digestion"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "polyphenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha-Amylases",
+              "registryNumber": "EC 3.2.1.1"
+            },
+            {
+              "name": "Pancreatic alpha-Amylases",
+              "registryNumber": "EC 3.2.1.1"
+            },
+            {
+              "name": "Salivary alpha-Amylases",
+              "registryNumber": "EC 3.2.1.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.foodres.2024.114504"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 24,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-06-01",
+        "dateOfCreation": "2024-06-01",
+        "dateOfRevision": "2026-06-11",
+        "electronicPublicationDate": "2024-05-11",
+        "firstPublicationDate": "2024-05-11",
+        "firstIndexDate": "2024-06-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32828742",
+        "source": "MED",
+        "pmid": "32828742",
+        "doi": "10.1016/j.ejphar.2020.173414",
+        "title": "Targeting NOX 4 by petunidin improves anoxia/reoxygenation-induced myocardium injury.",
+        "authorString": "Cai X, Yang C, Shao L, Zhu H, Wang Y, Huang X, Wang S, Hong L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cai X",
+              "lastName": "Cai",
+              "firstName": "XinYong",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7773-0824"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang C",
+              "lastName": "Yang",
+              "firstName": "Chunli",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Intensive Care, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shao L",
+              "lastName": "Shao",
+              "firstName": "Liang",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu H",
+              "lastName": "Zhu",
+              "firstName": "HongMin",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "YunXia",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang X",
+              "lastName": "Huang",
+              "firstName": "Xiao",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang S",
+              "lastName": "Wang",
+              "firstName": "Shu",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Gerontology, The First Affiliated Hospital of NanChang University, Nanchang, 330006, PR China. Electronic address: shunvking@163.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hong L",
+              "lastName": "Hong",
+              "firstName": "Lang",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China. Electronic address: Honglang1330@163.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7773-0824"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "888",
+          "journalIssueId": 3053166,
+          "dateOfPublication": "2020 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Eur J Pharmacol",
+            "title": "European journal of pharmacology",
+            "essn": "1879-0712",
+            "issn": "0014-2999",
+            "isoabbreviation": "Eur J Pharmacol",
+            "nlmid": "1254354"
+          },
+          "printPublicationDate": "2020-12-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "173414",
+        "abstractText": "Oxidative stress is the key factor of myocardial ischemia-reperfusion injury (MIRI). Anthocyanins are considered to be effective anti-oxidants. In this study, we observed the anti-MIRI effect of petunidin, one member of anthocyanins, and further explored its mechanism. In present study, anoxia/reoxygenation (A/R) models were replicated on Langendorff-perfused heart and neonatal rat primary cardiomyocytes by A/R treatment. The hemodynamic parameters of isolated hearts were monitored. The levels of oxidative stress and apoptosis in isolated heart and neonatal rat primary cardiomyocytes were evaluated. The expression levels of NADPH oxidase 2 (NOX 2), NOX 4, B-cell lymphoma 2 (Bcl-2), Bcl-2-associated X (Bax) and cytochrome c were detected by Western Blot. The results showed that petunidin could significantly improve isolated heart function, reduce oxidative stress, inhibit cardiomyocyte apoptosis, up-regulate Bcl-2 protein expression, down-regulate NOX4 and Bax expression, and reduce the level of cytoplasmic cytochrome c after A/R. However, it has no significant effect on NOX 2 protein expression, suggesting that NOX 4 may be the molecular target of petunidin. In vitro, petunidin had shown a consistent effect with that in isolated hearts. It also showed a significant inhibitory effect on reactive oxygen species (ROS) generation. However, the protective effects of petunidin on A/R injury were attenuated by over-expression of NOX 4 in neonatal rat primary cardiomyocytes. These data suggested that the protective effects of petunidin on MIRI may be achieved through targeting NOX 4, thus inhibiting the production of ROS, reducing oxidative stress, and regulating the Bcl-2 pathway to prevent cardiomyocytes apoptosis.",
+        "affiliation": "Department of Cardiology, Jiangxi Provincial People's Hospital Affiliated to Nanchang University, Nanchang, 330006, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Youth Science Foundation of Jiangxi Province",
+              "grantId": "20171BAB215005",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myocardial Reperfusion Injury",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Delivery Systems",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Random Allocation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isolated Heart Preparation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypoxia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NADPH Oxidase 4",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Apoptosis",
+            "Oxidative stress",
+            "cardioprotection",
+            "Nox 4",
+            "Petunidin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "petunidin",
+              "registryNumber": "WRK4Q8K2D8"
+            },
+            {
+              "name": "NADPH Oxidase 4",
+              "registryNumber": "EC 1.6.3.-"
+            },
+            {
+              "name": "Nox4 protein, rat",
+              "registryNumber": "EC 1.6.3.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ejphar.2020.173414"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 33,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-05-17",
+        "dateOfCreation": "2020-08-24",
+        "dateOfRevision": "2021-05-17",
+        "electronicPublicationDate": "2020-08-20",
+        "firstPublicationDate": "2020-08-20",
+        "firstIndexDate": "2020-08-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39770457",
+        "source": "MED",
+        "pmid": "39770457",
+        "pmcid": "PMC11728747",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11728747"
+          ]
+        },
+        "doi": "10.3390/ph17121615",
+        "title": "Suppression of NNK Metabolism by Anthocyanin-Rich Haskap Berry Supplementation Through Modulation of P450 Enzymes.",
+        "authorString": "Amararathna M, Hoskin DW, Goralski KB, Rupasinghe HPV.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Amararathna M",
+              "lastName": "Amararathna",
+              "firstName": "Madumani",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant, Food, and Environmental Sciences, Faculty of Agriculture, Dalhousie University, Truro, NS B2N 5E3, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hoskin DW",
+              "lastName": "Hoskin",
+              "firstName": "David W",
+              "initials": "DW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Faculty of Medicine, Dalhousie University, Halifax, NS B3H 4H7, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goralski KB",
+              "lastName": "Goralski",
+              "firstName": "Kerry B",
+              "initials": "KB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Faculty of Medicine, Dalhousie University, Halifax, NS B3H 4H7, Canada."
+                  },
+                  {
+                    "affiliation": "Department of Pediatrics, Faculty of Medicine, Dalhousie University, Halifax, NS B3H 4H7, Canada."
+                  },
+                  {
+                    "affiliation": "College of Pharmacy, Dalhousie University, Halifax, NS B3H 4R2, Canada."
+                  },
+                  {
+                    "affiliation": "Division of Hematology/Oncology, IWK Health Centre, Halifax, NS B3K 6R8, Canada."
+                  },
+                  {
+                    "affiliation": "Beatrice Hunter Cancer Research Institute, Halifax, NS B3H 4R2, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rupasinghe HPV",
+              "lastName": "Rupasinghe",
+              "firstName": "H P Vasantha",
+              "initials": "HPV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3435-0052"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Plant, Food, and Environmental Sciences, Faculty of Agriculture, Dalhousie University, Truro, NS B2N 5E3, Canada."
+                  },
+                  {
+                    "affiliation": "Department of Pathology, Faculty of Medicine, Dalhousie University, Halifax, NS B3H 4H7, Canada."
+                  },
+                  {
+                    "affiliation": "Beatrice Hunter Cancer Research Institute, Halifax, NS B3H 4R2, Canada."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3435-0052"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "17",
+          "journalIssueId": 3876503,
+          "dateOfPublication": "2024 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Pharmaceuticals (Basel)",
+            "title": "Pharmaceuticals (Basel, Switzerland)",
+            "essn": "1424-8247",
+            "issn": "1424-8247",
+            "isoabbreviation": "Pharmaceuticals (Basel)",
+            "nlmid": "101238453"
+          },
+          "printPublicationDate": "2024-11-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "1615",
+        "abstractText": "Oral supplementation of anthocyanins-rich haskap (<i>Lonicera caerulea</i>) berry (HB) reduces 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone (NNK)-induced lung tumorigenesis, cytotoxicity, DNA damage, and modulated inflammation in vitro and in vivo. The procarcinogen NNK is metabolically activated by cytochrome P450 (P450) enzymes, producing reactive metabolites that induce lung carcinogenesis. <b>Hypothesis</b>: Therefore, we hypothesized that the HB-modulated protective effect against NNK could be due to its ability to suppress P450 enzymes. <b>Methods</b>: HB (6 mg of cyanidin-3-<i>O</i>-glucoside [C3G] in 0.2 g of HB/mouse/day) was given to A/J mice as a dietary supplement following subsequent administration of NNK (100 mg/kg body weight). The liver tissues of mice were analyzed to determine the expression of P450s and metabolites. <b>Results</b>: HB upregulated the expression of <i>cyp2a4</i> and <i>cyp2a5</i> mRNA and nuclear receptor/transcription factor (PPARα) in NNK-deprived hepatic tissues. With NNK, HB downregulated the expression of <i>cyp2a4</i> and <i>cyp2a5</i> and facilitated the formation of non-carcinogenic NNK metabolites. Molecular docking indicated a high binding affinity and strong hydrophobic interactions between C3G and its major metabolites, peonidin-3-<i>O</i>-glucoside, petunidin-3-<i>O</i>-glucoside, peonidin and cyanidin with Cyp2a5 and with human P450 homologue CYP2A13. <b>Conclusions</b>: HB could be a potential dietary supplement to inhibit the P450 activated NNK carcinogenic metabolites formation. Hence, inhibiting the activation of NNK by lung CYP2A13 through dietary HB supplementation could be a strategy to reduce lung carcinogenesis among smokers. Understanding the effect of HB on the activity of CYP2A13 in human studies is necessary before recommending these natural compounds as therapeutics.",
+        "affiliation": "Department of Plant, Food, and Environmental Sciences, Faculty of Agriculture, Dalhousie University, Truro, NS B2N 5E3, Canada.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Natural Sciences and Engineering Research Council of Canada",
+              "grantId": "RGPIN2016 05369",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Lung cancer",
+            "Carcinogen",
+            "Smoking",
+            "Cytochrome p450",
+            "Hepatic Metabolism",
+            "Blue Honeysuckle"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/ph17121615"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11728747"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11728747?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "uniprot",
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2025-01-08",
+        "dateOfRevision": "2025-01-15",
+        "electronicPublicationDate": "2024-11-30",
+        "firstPublicationDate": "2024-11-30",
+        "firstIndexDate": "2025-01-15",
+        "fullTextReceivedDate": "2025-11-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36035180",
+        "source": "MED",
+        "pmid": "36035180",
+        "pmcid": "PMC9413228",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9413228"
+          ]
+        },
+        "doi": "10.3389/fgene.2022.923082",
+        "title": "Insight into the molecular mechanisms of leaf coloration in <i>Cymbidium ensifolium</i>.",
+        "authorString": "Cao H, Li H, Chen X, Zhang Y, Lu L, Li S, Tao X, Zhu W, Wang J, Ma L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cao H",
+              "lastName": "Cao",
+              "firstName": "Hua",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Flower Research Institute Yunnan Agriculture Academy Science, Kunming, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li H",
+              "lastName": "Li",
+              "firstName": "Han",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Flower Research Institute Yunnan Agriculture Academy Science, Kunming, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen X",
+              "lastName": "Chen",
+              "firstName": "Xiang",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Fujian Forestry Science and Technology Experimental Center, Zhangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yuying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Yunnan Agricultural University College of Horticulture and Landscape, Kunming, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lu L",
+              "lastName": "Lu",
+              "firstName": "Lin",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Flower Research Institute Yunnan Agriculture Academy Science, Kunming, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li S",
+              "lastName": "Li",
+              "firstName": "Shenchong",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Flower Research Institute Yunnan Agriculture Academy Science, Kunming, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tao X",
+              "lastName": "Tao",
+              "firstName": "Xiang",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Yunnan Agriculture Academy Science, Kunming, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu W",
+              "lastName": "Zhu",
+              "firstName": "WeiYin",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Fujian Forestry Science and Technology Experimental Center, Zhangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jihua",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Yunnan Agriculture Academy Science, Kunming, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma L",
+              "lastName": "Ma",
+              "firstName": "Lulin",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Flower Research Institute Yunnan Agriculture Academy Science, Kunming, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "13",
+          "journalIssueId": 3306976,
+          "dateOfPublication": "2022 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Front Genet",
+            "title": "Frontiers in genetics",
+            "essn": "1664-8021",
+            "issn": "1664-8021",
+            "isoabbreviation": "Front Genet",
+            "nlmid": "101560621"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "923082",
+        "abstractText": "<i>Cymbidium</i> <i>ensifolium</i> L. is a significant ornamental plant in Orchidaceae. Aside from its attractive flowers, its leaf coloration is also an important ornamental trait. However, there is an apparent lack of studies concerning the intricate mechanism of leaf coloration in <i>C. ensifolium</i>. In this study, we report a systematic evaluation of leaf coloration utilizing transcriptome and metabolome profiles of purple, yellow, and green leaves. In total, 40 anthocyanins and 67 flavonoids were quantified along with chlorophyll content. The tissue-transcriptome profile identified 26,499 differentially expressed genes (DEGs). The highest chlorophyll contents were identified in green leaves, followed by yellow and purple leaves. We identified key anthocyanins and flavonoids associated with leaf coloration, including cyanidin-3-O-sophoroside, naringenin-7-O-glucoside, delphinidin, cyanidin, petunidin, and quercetin, diosmetin, sinensetin, and naringenin chalcone. Moreover, genes encoding UDP-glucoronosyl, UDP-glucosyl transferase, chalcone synthesis, flavodoxin, cytochrome P450, and AMP-binding enzyme were identified as key structural genes affecting leaf coloration in <i>C. ensifolium.</i> In summary, copigmentation resulting from several key metabolites modulated by structural genes was identified as governing leaf coloration in <i>C. ensifolium</i>. Further functional verification of the identified DEGs and co-accumulation of metabolites can provide a tool to modify leaf color and improve the aesthetic value of <i>C. ensifolium</i>.",
+        "affiliation": "Flower Research Institute Yunnan Agriculture Academy Science, Kunming, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pigment",
+            "Flavonoid biosynthesis",
+            "Rna-seq",
+            "Chlorophyll Accumulation",
+            "Leaf Coloration"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.3389/fgene.2022.923082"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fgene.2022.923082"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9413228"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9413228?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2022-08-29",
+        "dateOfRevision": "2022-08-30",
+        "electronicPublicationDate": "2022-08-12",
+        "firstPublicationDate": "2022-08-12",
+        "firstIndexDate": "2022-08-30",
+        "fullTextReceivedDate": "2022-08-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND607831013",
+        "source": "AGR",
+        "doi": "10.1007/s00217-022-04034-7",
+        "title": "A rapid quantitative method by liquid chromatography–tandem mass spectrometry for the measurement of anthocyanins and their metabolic characteristics in Sprague–Dawley rats",
+        "authorString": "Lian Y, Niu L, Meng Z, Zhu X, Gu R, Wu Z, Li J, Han P, Liu T, Gan H, Dou G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lian Y",
+              "lastName": "Lian",
+              "firstName": "Yueru",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Niu L",
+              "lastName": "Niu",
+              "firstName": "Liyun",
+              "initials": "L"
+            },
+            {
+              "fullName": "Meng Z",
+              "lastName": "Meng",
+              "firstName": "Zhiyun",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Zhu X",
+              "lastName": "Zhu",
+              "firstName": "Xiaoxia",
+              "initials": "X"
+            },
+            {
+              "fullName": "Gu R",
+              "lastName": "Gu",
+              "firstName": "Ruolan",
+              "initials": "R"
+            },
+            {
+              "fullName": "Wu Z",
+              "lastName": "Wu",
+              "firstName": "Zhuona",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jian",
+              "initials": "J"
+            },
+            {
+              "fullName": "Han P",
+              "lastName": "Han",
+              "firstName": "Peng",
+              "initials": "P"
+            },
+            {
+              "fullName": "Liu T",
+              "lastName": "Liu",
+              "firstName": "Taoyun",
+              "initials": "T"
+            },
+            {
+              "fullName": "Gan H",
+              "lastName": "Gan",
+              "firstName": "Hui",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7319-8546"
+              }
+            },
+            {
+              "fullName": "Dou G",
+              "lastName": "Dou",
+              "firstName": "Guifang",
+              "initials": "G"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7319-8546"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "248",
+          "journalIssueId": 3405331,
+          "dateOfPublication": "2022 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Eur Food Res Technol",
+            "title": "European food research & technology",
+            "issn": "1438-2377",
+            "isoabbreviation": "Eur Food Res Technol",
+            "nlmid": "100957634"
+          },
+          "printPublicationDate": "2022-08-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "2109-2124",
+        "abstractText": "As a major class of phenolic compounds, anthocyanins are the functional components of blueberry. Vaccinium corymbosum ‘Lanmei 1’ is a novel blueberry variety and detailed study of their anthocyanins remains scarce. Therefore, a simultaneously quantitative method for five anthocyanins using ultra-performance liquid chromatography–tandem mass spectrometry (UPLC–MS/MS) was established here. Good linear relationships were obtained ranging from 1 to 100 ng/mL (R² > 0.99). In addition, the specificity, recovery, stability, and matrix effect met requirements of analytical methodology. The method successfully monitored the concentrations of five anthocyanins in plasma and studied their pharmacokinetics after oral administration of 270 mg of anthocyanin extract in Sprague–Dawley rats. Pharmacokinetic parameters for delphinidin-3-O-glucoside (D3G), malvidin-3-O-glucoside (M3G), malvidin-3-O-arabinoside (M3A), delphinidin-3-O-arabinoside (D3A), and petunidin-3-O-arabinoside (P3A) showed the similar short Tₘₐₓ 0.25–0.28 h and medium speed T₁/₂ 3.24–3.52 h. It indicated anthocyanins were quickly absorbed and taken effectively, but eliminated in blood at an appropriate rate. Contents of D3G and M3G in anthocyanin extract are approximately equivalent, while the total amount and maximum concentration of M3G were twice those of D3G in plasma. This demonstrated that there were many differences between the substance contents of anthocyanin monomers in vitro and their absorption and distribution behaviors in vivo. Multiple peaks in both concentration–time profiles and bile excretions for five anthocyanins suggested the possibility of enterohepatic circulation in rats. The present study developed and validated a rapid and sensitive bioanalytical method based on UPLC–MS/MS for quantifying major anthocyanins from a novel blueberry extract in rat plasma to further understand their absorption, distribution, and metabolism.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Beijing Natural Science Foundation",
+              "grantId": "7202148",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00217-022-04034-7"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-09-16",
+        "dateOfCreation": "2022-09-16",
+        "dateOfRevision": "2022-11-19",
+        "firstPublicationDate": "2022-08-01",
+        "firstIndexDate": "2022-08-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31794802",
+        "source": "MED",
+        "pmid": "31794802",
+        "doi": "10.1016/j.fct.2019.111012",
+        "title": "Anti-proliferation activities of Oryza sativa L. anthocyanins-Hohenbuehelia serotina polysaccharides complex after in vitro gastrointestinal digestion.",
+        "authorString": "Wang L, Zhou P, Feng R, Luo Z, Li X, Gao L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang L",
+              "lastName": "Wang",
+              "firstName": "Lu",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hebei Key Laboratory of Applied Chemistry, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China; Hebei Key Laboratory of Heavy Metal Deep-Remediation in Water and Resource Reuse, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou P",
+              "lastName": "Zhou",
+              "firstName": "Peng",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hebei Key Laboratory of Applied Chemistry, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China; Hebei Key Laboratory of Heavy Metal Deep-Remediation in Water and Resource Reuse, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Feng R",
+              "lastName": "Feng",
+              "firstName": "Ru",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hebei Key Laboratory of Applied Chemistry, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China; Hebei Key Laboratory of Heavy Metal Deep-Remediation in Water and Resource Reuse, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo Z",
+              "lastName": "Luo",
+              "firstName": "Zhen",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hebei Key Laboratory of Applied Chemistry, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China; Hebei Key Laboratory of Heavy Metal Deep-Remediation in Water and Resource Reuse, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li X",
+              "lastName": "Li",
+              "firstName": "Xiaoyu",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hebei Key Laboratory of Applied Chemistry, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China; Hebei Key Laboratory of Heavy Metal Deep-Remediation in Water and Resource Reuse, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China. Electronic address: lixiaoyu@ysu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao L",
+              "lastName": "Gao",
+              "firstName": "Lili",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hebei Key Laboratory of Applied Chemistry, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China; Hebei Key Laboratory of Heavy Metal Deep-Remediation in Water and Resource Reuse, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "135",
+          "journalIssueId": 2895333,
+          "dateOfPublication": "2020 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Food Chem Toxicol",
+            "title": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+            "essn": "1873-6351",
+            "issn": "0278-6915",
+            "isoabbreviation": "Food Chem Toxicol",
+            "nlmid": "8207483"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "111012",
+        "abstractText": "In order to improve the bioavailability of Oryza sativa L. anthocyanins, we fabricated Oryza sativa L. anthocyanins-Hohenbuehelia serotina polysaccharides (OSA-HSP) complex and investigated its anti-proliferation activities taking into account its changes along simulated gastrointestinal digestion in vitro. Results showed that OSA mainly composed by delphinidin, cyanidin, petunidin, malvidin and their derivatives was combined with HSP through electrostatic interaction. OSA-HSP complex belonged to non-crystalline substance, and had compact and laminar structural characteristics. Under simulated gastrointestinal digestion, OSA-HSP complex significantly prevented the degradation of anthocyanins, and presented sustain release effect. However, the anti-proliferation activities of OSA-HSP complex digested by different gastrointestinal process were remarkably changed, especially after small intestinal digestion. HeLa cells treated with OSA-HSP complex exhibited pro-apoptosis characteristics by triggering endogenous mitochondrial apoptosis pathway through activating the expressions of Bax, cytochrome c and Caspase-3 as well as inhibiting the expression of Bcl-2. These findings provided new insight to improve the bioavailability of anthocyanins in functional foods and tumor therapy.",
+        "affiliation": "Hebei Key Laboratory of Applied Chemistry, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China; Hebei Key Laboratory of Heavy Metal Deep-Remediation in Water and Resource Reuse, School of Environmental and Chemical Engineering, Yanshan University, Qinhuangdao, 066004, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Natural Science Foundation of Hebei Province",
+              "grantId": "C2019203484",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31972080",
+              "orderIn": 0
+            },
+            {
+              "agency": "Hebei Provincial Department of Education",
+              "grantId": "QN2019060",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastrointestinal Tract",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hela Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Agaricales",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polysaccharides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Crystallography, X-Ray"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectroscopy, Fourier Transform Infrared"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Digestion"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oryza",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Polysaccharides",
+            "Anthocyanins",
+            "Anti-proliferation Activity",
+            "Gastrointestinal Digestion"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Polysaccharides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fct.2019.111012"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-02-17",
+        "dateOfCreation": "2019-12-04",
+        "dateOfRevision": "2020-02-17",
+        "electronicPublicationDate": "2019-11-30",
+        "firstPublicationDate": "2019-11-30",
+        "firstIndexDate": "2019-12-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR104236",
+        "source": "PPR",
+        "doi": "10.1101/861120",
+        "title": "Differences in berry primary and secondary metabolisms identified by transcriptomic and metabolic profiling of two table grape color somatic variants",
+        "authorString": "Santibáñez C, Meyer C, Martínez L, Moyano T, Lunn J, Feil R, Dai Z, Carrasco D, Arroyo-García R, Hilbert G, Renaud C, Delrot S, Manke-Nachtigall F, Gutiérrez R, Matus JT, Gomès E, Arce-Johnson P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Santibáñez C",
+              "lastName": "Santibáñez",
+              "firstName": "Claudia",
+              "initials": "C"
+            },
+            {
+              "fullName": "Meyer C",
+              "lastName": "Meyer",
+              "firstName": "Carlos",
+              "initials": "C"
+            },
+            {
+              "fullName": "Martínez L",
+              "lastName": "Martínez",
+              "firstName": "Litsy",
+              "initials": "L"
+            },
+            {
+              "fullName": "Moyano T",
+              "lastName": "Moyano",
+              "firstName": "Tomás",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6495-4995"
+              }
+            },
+            {
+              "fullName": "Lunn J",
+              "lastName": "Lunn",
+              "firstName": "John",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8533-3004"
+              }
+            },
+            {
+              "fullName": "Feil R",
+              "lastName": "Feil",
+              "firstName": "Regina",
+              "initials": "R"
+            },
+            {
+              "fullName": "Dai Z",
+              "lastName": "Dai",
+              "firstName": "Zhanwu",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7625-8337"
+              }
+            },
+            {
+              "fullName": "Carrasco D",
+              "lastName": "Carrasco",
+              "firstName": "David",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0551-820X"
+              }
+            },
+            {
+              "fullName": "Arroyo-García R",
+              "lastName": "Arroyo-García",
+              "firstName": "Rosa",
+              "initials": "R"
+            },
+            {
+              "fullName": "Hilbert G",
+              "lastName": "Hilbert",
+              "firstName": "Ghislaine",
+              "initials": "G"
+            },
+            {
+              "fullName": "Renaud C",
+              "lastName": "Renaud",
+              "firstName": "Christel",
+              "initials": "C"
+            },
+            {
+              "fullName": "Delrot S",
+              "lastName": "Delrot",
+              "firstName": "Serge",
+              "initials": "S"
+            },
+            {
+              "fullName": "Manke-Nachtigall F",
+              "lastName": "Manke-Nachtigall",
+              "firstName": "Fabiane",
+              "initials": "F"
+            },
+            {
+              "fullName": "Gutiérrez R",
+              "lastName": "Gutiérrez",
+              "firstName": "Rodrigo",
+              "initials": "R"
+            },
+            {
+              "fullName": "Matus JT",
+              "lastName": "Matus",
+              "firstName": "José Tomás",
+              "initials": "JT"
+            },
+            {
+              "fullName": "Gomès E",
+              "lastName": "Gomès",
+              "firstName": "Eric",
+              "initials": "E"
+            },
+            {
+              "fullName": "Arce-Johnson P",
+              "lastName": "Arce-Johnson",
+              "firstName": "Patricio",
+              "initials": "P"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6495-4995"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8533-3004"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0551-820X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0597-1282"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7625-8337"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1724-6499"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2582-1203"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "pubYear": "2019",
+        "abstractText": "<h4>ABSTRACT</h4>  Anthocyanins are flavonoids responsible for the color of berries in skin-pigmented grapevine (  Vitis vinifera L.). Due to the widely adopted vegetative propagation of this species, somatic mutations occurring in meristematic cell layers can be fixed and passed into the rest of the plant when cloned. In this study we focused on the transcriptomic and metabolic differences between two color somatic variants. Using microscopic, metabolic and mRNA profiling analyses we compared the table grape cultivar (cv.) ‘Red Globe’ (RG, with purplish berry skin) and cv. ‘Chimenti Globe’ (CG, with a contrasting reddish berry skin color). As expected, significant differences were found in the composition of flavonoids and other phenylpropanoids, but also in their upstream precursors’ shikimate and phenylalanine. Among primary metabolites, sugar phosphates related with sucrose biosynthesis were less accumulated in cv. ‘CG’. The red-skinned cv. ‘CG’ only contained di-hydroxylated anthocyanins (i.e. peonidin and cyanidin) while the tri-hydroxylated derivatives malvidin, delphinidin and petunidin were absent, in correlation to the reddish cv. ‘CG’ skin coloration. Transcriptomic analysis showed alteration in flavonoid metabolism and terpenoid pathways and in primary metabolism such as sugar content. Eleven  flavonoid 3’5’-hydroxylase gene copies were down-regulated in cv. ‘CG’. This family of cytochrome P450 oxidoreductases are key in the biosynthesis of tri-hydroxylated anthocyanins. Many transcription factors appeared down-regulated in cv. ‘CG’ in correlation to the metabolic and transcriptomic changes observed. The use of molecular markers and its confirmation with our RNA-seq data showed the exclusive presence of the null  MYBA2 white allele (i.e. homozygous in both L1 and L2 layers) in the two somatic variants. Therefore, the differences in  MYBA1 expression seem sufficient for the skin pigmentation differences and the changes in MYBA target gene expression in cv. ‘Chimenti Globe’.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2019
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1101/861120"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/861120"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2019-12-04",
+        "firstPublicationDate": "2019-12-02",
+        "firstIndexDate": "2019-12-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19922539",
+        "source": "MED",
+        "pmid": "19922539",
+        "pmcid": "PMC2807656",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2807656"
+          ]
+        },
+        "doi": "10.1111/j.1476-5381.2009.00495.x",
+        "title": "Berry anthocyanins and anthocyanidins exhibit distinct affinities for the efflux transporters BCRP and MDR1.",
+        "authorString": "Dreiseitel A, Oosterhuis B, Vukman KV, Schreier P, Oehme A, Locher S, Hajak G, Sand PG.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dreiseitel A",
+              "lastName": "Dreiseitel",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychiatry, University of Regensburg, Regensburg, Germany. andrea.dreiseitel@klinik.uni-regensburg.de"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Oosterhuis B",
+              "lastName": "Oosterhuis",
+              "firstName": "B",
+              "initials": "B"
+            },
+            {
+              "fullName": "Vukman KV",
+              "lastName": "Vukman",
+              "firstName": "K V",
+              "initials": "KV"
+            },
+            {
+              "fullName": "Schreier P",
+              "lastName": "Schreier",
+              "firstName": "P",
+              "initials": "P"
+            },
+            {
+              "fullName": "Oehme A",
+              "lastName": "Oehme",
+              "firstName": "A",
+              "initials": "A"
+            },
+            {
+              "fullName": "Locher S",
+              "lastName": "Locher",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Hajak G",
+              "lastName": "Hajak",
+              "firstName": "G",
+              "initials": "G"
+            },
+            {
+              "fullName": "Sand PG",
+              "lastName": "Sand",
+              "firstName": "P G",
+              "initials": "PG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5806-5841"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5806-5841"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "158",
+          "journalIssueId": 1683727,
+          "dateOfPublication": "2009 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "Br J Pharmacol",
+            "title": "British journal of pharmacology",
+            "essn": "1476-5381",
+            "issn": "0007-1188",
+            "isoabbreviation": "Br J Pharmacol",
+            "nlmid": "7502536"
+          },
+          "printPublicationDate": "2009-12-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "1942-1950",
+        "abstractText": "<h4>Background and purpose</h4>Dietary anthocyanins hold great promise in the prevention of chronic disease but factors affecting their bioavailability remain poorly defined. Specifically, the role played by transport mechanisms at the intestinal and blood-brain barriers (BBB) is currently unknown.<h4>Experimental approach</h4>In the present study, 16 anthocyanins and anthocyanidins were exposed to the human efflux transporters multidrug resistance protein 1 (MDR1) and breast cancer resistance protein (BCRP), using dye efflux, ATPase and, for BCRP, vesicular transport assays.<h4>Key results</h4>All test compounds interacted with the BCRP transporter in vitro. Of these, seven emerged as potential BCRP substrates (malvidin, petunidin, malvidin-3-galactoside, malvidin-3,5-diglucoside, cyanidin-3-galactoside, peonidin-3-glucoside, cyanidin-3-glucoside) and 12 as potential inhibitors of BCRP (cyanidin, peonidin, cyanidin-3,5-diglucoside, malvidin, pelargonidin, delphinidin, petunidin, delphinidin-3-glucoside, cyanidin-3-rutinoside, malvidin-3-glucoside, pelargonidin-3,5-diglucoside, malvidin-3-galactoside). Malvidin, malvidin-3-galactoside and petunidin exhibited bimodal activities serving as BCRP substrates at low concentrations and, at higher concentrations, as BCRP inhibitors. Effects on MDR1, in contrast, were weak. Only aglycones exerted mild inhibitory activity.<h4>Conclusions and implications</h4>Although the anthocyanidins under study may alter pharmacokinetics of drugs that are BCRP substrates, they are less likely to interfere with activities of MDR1 substrates. The present data suggest that several anthocyanins and anthocyanidins may be actively transported out of intestinal tissues and endothelia, limiting their bioavailability in plasma and brain.",
+        "affiliation": "Department of Psychiatry, University of Regensburg, Regensburg, Germany. andrea.dreiseitel@klinik.uni-regensburg.de",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood-Brain Barrier",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fruit"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP-Binding Cassette Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasm Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily G, Member 2"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "ABCG2 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Neoplasm Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP-Binding Cassette Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily G, Member 2",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc2807656?pdf=render"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1476-5381.2009.00495.x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2807656"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2807656?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1476-5381.2009.00495.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 56,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-03-12",
+        "dateOfCreation": "2009-11-20",
+        "dateOfRevision": "2021-10-20",
+        "firstPublicationDate": "2009-12-01",
+        "firstIndexDate": "2010-03-13",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26417697",
+        "source": "MED",
+        "pmid": "26417697",
+        "doi": "10.1002/mnfr.201500224",
+        "title": "Plasma bioavailability and regional brain distribution of polyphenols from apple/grape seed and bilberry extracts in a young swine model.",
+        "authorString": "Chen TY, Kritchevsky J, Hargett K, Feller K, Klobusnik R, Song BJ, Cooper B, Jouni Z, Ferruzzi MG, Janle EM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chen TY",
+              "lastName": "Chen",
+              "firstName": "Tzu-Ying",
+              "initials": "TY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Science, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kritchevsky J",
+              "lastName": "Kritchevsky",
+              "firstName": "Janice",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Veterinary Clinical Sciences, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hargett K",
+              "lastName": "Hargett",
+              "firstName": "Katherine",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Science, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Feller K",
+              "lastName": "Feller",
+              "firstName": "Kathryn",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Science, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Klobusnik R",
+              "lastName": "Klobusnik",
+              "firstName": "Ryan",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Science, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song BJ",
+              "lastName": "Song",
+              "firstName": "Brian J",
+              "initials": "BJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cooper B",
+              "lastName": "Cooper",
+              "firstName": "Bruce",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bindley Bioscience Center, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jouni Z",
+              "lastName": "Jouni",
+              "firstName": "Zeina",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mead Johnson Pediatric Nutrition Institute, Evansville, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ferruzzi MG",
+              "lastName": "Ferruzzi",
+              "firstName": "Mario G",
+              "initials": "MG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1384-2672"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Science, Purdue University, West Lafayette, IN, USA."
+                  },
+                  {
+                    "affiliation": "Department of Food Science, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Janle EM",
+              "lastName": "Janle",
+              "firstName": "Elsa M",
+              "initials": "EM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition Science, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1384-2672"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "59",
+          "journalIssueId": 2364108,
+          "dateOfPublication": "2015 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Mol Nutr Food Res",
+            "title": "Molecular nutrition & food research",
+            "essn": "1613-4133",
+            "issn": "1613-4125",
+            "isoabbreviation": "Mol Nutr Food Res",
+            "nlmid": "101231818"
+          },
+          "printPublicationDate": "2015-12-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "2432-2447",
+        "abstractText": "<h4>Scope</h4>The pharmacokinetics, bioavailability, and regional brain distribution of polyphenols from apple-grape seed extract (AGSE) mixture and bilberry extract were studied after 3 weeks of dosing in weanling pigs.<h4>Materials and methods</h4>Weanling piglets were treated for 3 weeks with extracts of (AGSE) or bilberry extracts, using a physiological (27.5 mg/kg) or supplement (82.5 mg/kg) dose. A 24-h pharmacokinetic study was conducted and brain tissue was harvested. Major flavan-3-ol and flavonol metabolites including catechin-O-β-glucuronide, epicatechin-O-β-glucuronide, 3'O-methyl-catechin-O-β-glucuronide, 3'O-methyl-epicatechin-O-β-glucuronide, quercetin-O-β-glucuronide, and O-methyl-quercetin-O-β-glucuronide were analyzed in plasma, urine, and regional brain extracts from AGSE groups. Anthocyanidin-O-galactosides and O-glucosides of delphinidin (Del), cyanidin (Cyn), petunidin (Pet), peonidin (Peo), and malvidin (Mal) were analyzed in plasma, urine, and brain extracts from bilberry groups.<h4>Conclusion</h4>Significant plasma dose-dependence was observed in flavan-3-ol metabolites of the AGSE group and in Mal, Del and Cyn galactosides and Pet, Peo, and Cyn glucosides of the bilberry groups. In the brain, a significant dose dependence was found in the cerebellum and frontal cortex in all major flavan-3-ol metabolites. All anthocyanidin glycosides, except for delphinidin, showed a dose-dependent increase in the cerebellum.",
+        "affiliation": "Department of Nutrition Science, Purdue University, West Lafayette, IN, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sus scrofa"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vaccinium myrtillus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Malus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Weight",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Distribution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Weaning"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Eating",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Grape Seed Extract",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyphenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Anthocyanins",
+            "Polyphenols",
+            "Catechins",
+            "Brain Distribution"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "polyphenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Grape Seed Extract",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/mnfr.201500224"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 46,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-12-13",
+        "dateOfCreation": "2015-09-30",
+        "dateOfRevision": "2016-12-30",
+        "electronicPublicationDate": "2015-10-28",
+        "firstPublicationDate": "2015-10-28",
+        "firstIndexDate": "2015-09-30",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "630116",
+        "source": "ETH",
+        "title": "Biological activity of anthocyanins and their phenolic degradation products and metabolites in human vascular endothelial cells",
+        "authorString": "Edwards M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Edwards M",
+              "lastName": "Edwards",
+              "firstName": "Michael",
+              "initials": "M"
+            }
+          ]
+        },
+        "pubYear": "2013",
+        "abstractText": "Human, animal, and in vitro data indicate significant vasoprotective activity of anthocyanins. However, few studies have investigated the activity of anthocyanin degradation products and metabolites which are likely to mediate bioactivity in vivo. The present thesis therefore examined the vascular bioactivity in vitro of anthocyanins, their phenolic degradants, and the potential for interactions between dietary bioactive compounds. Seven treatment compounds (cyanidin-, peonidin-, petunidin- & malvidin-3-glucoside, and protocatechuic, vanillic, and syringic acid) and two treatment combinations (cyanidin-3-glucoside or protocatechuic acid with epicatechin, quercetin, and ascorbic acid) were screened in a human endothelial cell model for effects on endothelial nitric oxide synthase (eNOS) activity (via ELISA & colourimetric assay), and NADPH oxidase (NOX)-mediated superoxide production (by cytochrome c reduction assay, optimised in-house). A bioactive treatment was then chosen to explore possible mechanisms of NOX inhibition, namely gene expression of NOX2, NOX4, p47phox, p67phox, p22phox, & haem oxygenase-1 (HO-1), and activation/expression of p47phox and HO-1 protein; using RT-qPCR and immunoblotting (optimised ... (continues)",
+        "language": "eng",
+        "pubTypeList": {
+          "pubType": [
+            "Dissertation"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "University of East Anglia",
+          "yearOfPublication": 2013
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "ethos.bl.uk",
+              "url": "https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.630116"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "ueaeprints.uea.ac.uk",
+              "url": "https://ueaeprints.uea.ac.uk/id/eprint/50546/"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2013-01-01",
+        "firstPublicationDate": "2013-01-01",
+        "firstIndexDate": "2024-08-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22399120",
+        "source": "MED",
+        "pmid": "22399120",
+        "doi": "10.1007/s00216-012-5876-z",
+        "title": "Visualization of anthocyanin species in rabbiteye blueberry Vaccinium ashei by matrix-assisted laser desorption/ionization imaging mass spectrometry.",
+        "authorString": "Yoshimura Y, Enomoto H, Moriyama T, Kawamura Y, Setou M, Zaima N.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yoshimura Y",
+              "lastName": "Yoshimura",
+              "firstName": "Yukihiro",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Applied Biological Chemistry, Graduate School of Agriculture, Kinki University, 3327-204 Naka-machi, Nara 631-8505, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Enomoto H",
+              "lastName": "Enomoto",
+              "firstName": "Hirofumi",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5515-6019"
+              }
+            },
+            {
+              "fullName": "Moriyama T",
+              "lastName": "Moriyama",
+              "firstName": "Tatsuya",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6861-926X"
+              }
+            },
+            {
+              "fullName": "Kawamura Y",
+              "lastName": "Kawamura",
+              "firstName": "Yukio",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Setou M",
+              "lastName": "Setou",
+              "firstName": "Mitsutoshi",
+              "initials": "M"
+            },
+            {
+              "fullName": "Zaima N",
+              "lastName": "Zaima",
+              "firstName": "Nobuhiro",
+              "initials": "N"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5515-6019"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6861-926X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "403",
+          "journalIssueId": 1934244,
+          "dateOfPublication": "2012 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Anal Bioanal Chem",
+            "title": "Analytical and bioanalytical chemistry",
+            "essn": "1618-2650",
+            "issn": "1618-2642",
+            "isoabbreviation": "Anal Bioanal Chem",
+            "nlmid": "101134327"
+          },
+          "printPublicationDate": "2012-06-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "1885-1895",
+        "abstractText": "Anthocyanins are naturally occurring compounds that impart color to fruits, vegetables, and plants, and are believed to have a number of beneficial health effects in both humans and animals. Because of these properties, pharmacokinetic analysis of anthocyanins in tissue has been performed to quantify and identify anthocyanin species although, currently, no methods exist for investigating tissue localization of anthocyanin species or for elucidating the mechanisms of anthocyanin activity. Imaging mass spectrometry (IMS) is powerful tool for determining and visualizing the distribution of a wide range of biomolecules. To investigate whether anthocyanin species could be identified and visualized by IMS, we performed matrix-assisted laser desorption/ionization (MALDI)-IMS analysis, by tandem mass spectrometry (MALDI-IMS-MS), of ten anthocyanin molecular species in rabbiteye blueberry (Vaccinium ashei). The distribution patterns of each anthocyanin species were different in the exocarp and endocarp of blueberry sections. Anthocyanin species composed of delphinidin and petunidin were localized mainly in the exocarp. In contrast, those species composed of cyanidin, peonidin, and malvidin were localized in both the exocarp and the endocarp. Moreover, MALDI-IMS analysis of anthocyanidins in a blueberry section indicated that the distribution patterns of each anthocyanidin species were nearly identical with those of the corresponding anthocyanins. These results suggested that the different distribution patterns of anthocyanin species in the exocarp and endocarp depended on the aglycone rather than on the sugar moieties. This study is the first to visualize anthocyanin molecular species in fruits.",
+        "affiliation": "Department of Applied Biological Chemistry, Graduate School of Agriculture, Kinki University, 3327-204 Naka-machi, Nara 631-8505, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vaccinium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00216-012-5876-z"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 56,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-09-17",
+        "dateOfCreation": "2012-03-09",
+        "dateOfRevision": "2016-05-12",
+        "electronicPublicationDate": "2012-03-08",
+        "firstPublicationDate": "2012-03-08",
+        "firstIndexDate": "2012-03-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "12774848",
+        "source": "MED",
+        "pmid": "12774848",
+        "doi": "10.1139/y03-038",
+        "title": "Bioavailability of anthocyanidin-3-glucosides following consumption of red wine and red grape juice.",
+        "authorString": "Frank T, Netzel M, Netzel M, Netzel M, Strass G, Bitsch R, Bitsch I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Frank T",
+              "lastName": "Frank",
+              "firstName": "Thomas",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "IMFORM GmbH International Clinical Research, Birkenweg 14, D-64295 Darmstadt, Germany. frank@imform.de"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1581-4851"
+              }
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5699-2622"
+              }
+            },
+            {
+              "fullName": "Netzel M",
+              "lastName": "Netzel",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3136-3926"
+              }
+            },
+            {
+              "fullName": "Strass G",
+              "lastName": "Strass",
+              "firstName": "Gabriele",
+              "initials": "G"
+            },
+            {
+              "fullName": "Bitsch R",
+              "lastName": "Bitsch",
+              "firstName": "Roland",
+              "initials": "R"
+            },
+            {
+              "fullName": "Bitsch I",
+              "lastName": "Bitsch",
+              "firstName": "Irmgard",
+              "initials": "I"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3136-3926"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5699-2622"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1581-4851"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "81",
+          "journalIssueId": 1120453,
+          "dateOfPublication": "2003 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2003,
+          "journal": {
+            "medlineAbbreviation": "Can J Physiol Pharmacol",
+            "title": "Canadian journal of physiology and pharmacology",
+            "essn": "1205-7541",
+            "issn": "0008-4212",
+            "isoabbreviation": "Can J Physiol Pharmacol",
+            "nlmid": "0372712"
+          },
+          "printPublicationDate": "2003-05-01"
+        },
+        "pubYear": "2003",
+        "pageInfo": "423-435",
+        "abstractText": "Pharmacokinetic parameters and the bioavailability of several dietary anthocyanins following consumption of red wine and red grape juice were compared in nine healthy volunteers. They were given a single oral dose of either 400 mL of red wine (279.6 mg total anthocyanins) or 400 mL of red grape juice (283.5 mg total anthocyanins). Within 7 h, the urinary excretion of total anthocyanins was 0.23 and 0.18% of the administered dose following red grape juice and red wine ingestion, respectively. Pharmacokinetic parameters derived from plasma and urine concentrations exhibited higher variability after ingestion of red grape juice. Compared to red grape juice anthocyanins, the relative bioavailability of red wine anthocyanins was calculated to be 65.7, 61.3, 61.9, 291.5, 57.1, and 76.3% for the glucosides of cyanidin, delphinidin, malvidin, peonidin, petunidin, and its sum (referred to as total anthocyanins), respectively. Bioequivalence was established for none of the anthocyanins. On a low level, urinary excretion of anthocyanins was fast, and the excretion rates seem to exhibit monoexponential characteristics over time after ingestion of both red grape juice and red wine. Due to low bioavailability, any significant contribution of anthocyanins to health protecting properties of red wine or red grape juice seems questionable, but the clinical relevance of these findings awaits further investigation.",
+        "affiliation": "IMFORM GmbH International Clinical Research, Birkenweg 14, D-64295 Darmstadt, Germany. frank@imform.de",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Controlled Clinical Trial",
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Vitis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Beverages"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Wine"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glucosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1139/y03-038"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 85,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-01-23",
+        "dateOfCreation": "2003-05-31",
+        "dateOfRevision": "2006-11-15",
+        "firstPublicationDate": "2003-05-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

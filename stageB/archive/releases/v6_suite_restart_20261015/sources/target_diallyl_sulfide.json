@@ -1,0 +1,1410 @@
+{
+  "version": "6.9",
+  "hitCount": 5,
+  "request": {
+    "queryString": "TITLE:\"Diallyl sulfide\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "12136947",
+        "source": "MED",
+        "pmid": "12136947",
+        "doi": "10.18388/abp.2002_3842",
+        "title": "In vivo effect of diallyl sulfide and cimetidine on phenacetin metabolism and bioavailability in rat.",
+        "authorString": "Szutowski MM, Zalewska K, Jadczak M, Marek M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Szutowski MM",
+              "lastName": "Szutowski",
+              "firstName": "Mirosław M",
+              "initials": "MM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Toxicology, The Medical University of Warsaw, Warszawa, Poland. mszutow@farm.amwaw.edu.pl"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zalewska K",
+              "lastName": "Zalewska",
+              "firstName": "Katarzyna",
+              "initials": "K"
+            },
+            {
+              "fullName": "Jadczak M",
+              "lastName": "Jadczak",
+              "firstName": "Marta",
+              "initials": "M"
+            },
+            {
+              "fullName": "Marek M",
+              "lastName": "Marek",
+              "firstName": "Monika",
+              "initials": "M"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "49",
+          "journalIssueId": 1105606,
+          "dateOfPublication": "2002 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2002,
+          "journal": {
+            "medlineAbbreviation": "Acta Biochim Pol",
+            "title": "Acta biochimica Polonica",
+            "essn": "1734-154X",
+            "issn": "0001-527X",
+            "isoabbreviation": "Acta Biochim Pol",
+            "nlmid": "14520300R"
+          },
+          "printPublicationDate": "2002-01-01"
+        },
+        "pubYear": "2002",
+        "pageInfo": "249-256",
+        "abstractText": "Numerous cytochrome P450 inhibitors have been described as effective modulators of cytochrome P450 isoforms activity in vitro. Their inhibitory efficiency may be considerably modified after in vivo application. The aim of this study was to examine the effect of oral administration of diallyl sulfide--a cytochrome P450 2E1 inhibitor and cimetidine--a cytochrome P450 2C6 and 2C11 inhibitor on rat serum concentration of phenacetin and its metabolite acetaminophen. Both inhibitors increased area under the curve (AUC(0-4 h)) for phenacetin by 50%. Only cimetidine reduced AUC(0-4 h) for acetaminophen indicating inhibition of O-deethylation activity. Quinidine--a cytochrome P450 2D subfamily and P-glycoprotein inhibitor did not change significantly phenacetin bioavailability. These results suggest that diallyl sulfide inhibits the deacetylation pathway catalysed by arylamine N-acetyl transferase. Beside cytochrome P450 1A2 other cytochrome P450 isoforms (2A6 and/or 2C11) are involved in phenacetin O-deethylation in rat.",
+        "affiliation": "Department of Toxicology, The Medical University of Warsaw, Warszawa, Poland. mszutow@farm.amwaw.edu.pl",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenacetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cimetidine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "allyl sulfide",
+              "registryNumber": "60G7CF7CWZ"
+            },
+            {
+              "name": "Cimetidine",
+              "registryNumber": "80061L1WGD"
+            },
+            {
+              "name": "Phenacetin",
+              "registryNumber": "ER0CTH01H9"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.18388/abp.2002_3842"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2003-01-22",
+        "dateOfCreation": "2002-07-26",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "2002-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9084912",
+        "source": "MED",
+        "pmid": "9084912",
+        "doi": "10.1021/tx9601768",
+        "title": "Metabolism of the chemoprotective agent diallyl sulfide to glutathione conjugates in rats.",
+        "authorString": "Jin L, Baillie TA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jin L",
+              "lastName": "Jin",
+              "firstName": "L",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicinal Chemistry, School of Pharmacy, University of Washington, Seattle 98195, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baillie TA",
+              "lastName": "Baillie",
+              "firstName": "T A",
+              "initials": "TA"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "10",
+          "journalIssueId": 1036918,
+          "dateOfPublication": "1997 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 1997,
+          "journal": {
+            "medlineAbbreviation": "Chem Res Toxicol",
+            "title": "Chemical research in toxicology",
+            "essn": "1520-5010",
+            "issn": "0893-228X",
+            "isoabbreviation": "Chem Res Toxicol",
+            "nlmid": "8807448"
+          },
+          "printPublicationDate": "1997-03-01"
+        },
+        "pubYear": "1997",
+        "pageInfo": "318-327",
+        "abstractText": "The chemoprotective effects of diallyl sulfide (DAS), a flavor component of garlic, have been attributed to its inhibitory effects on CYP2E1-mediated bioactivation of certain carcinogenic chemicals. In addition to being a competitive inhibitor of CYP2E1 in vitro, DAS is known to cause irreversible inhibition of CYP2E1 in rats in vivo. The latter property is believed to be mediated by the DAS metabolite diallyl sulfone (DASO2), which is thought to be a mechanism-based inhibitor of CYP2E1, although the underlying mechanism remains unknown. In order to investigate the nature of the reactive intermediate(s) responsible for the inactivation of CYP2E1 by DAS and its immediate metabolites, the present studies were carried out to detect and identify potential glutathione (GSH) conjugates of DAS and its metabolites diallyl sulfoxide (DASO) and DASO2. By means of ionspray LC-MS/MS, ten GSH conjugates were identified in bile collected from rats dosed with DAS, namely: S-[3-(S'-allyl-S'-dioxomercapto)-2-hydroxypropyl]glutathione (M1, M2; diastereomers), S-[3-(S'-allyl-S'-dioxomercapto)-2-hydroxypropyl]-glutathione (M5), S-[2-(S'-allyl-S'-dioxomercapto)-1-(hydroxymethyl)ethyl]glutathion e (M3, M4; diastereomers), S-[3-(S'-allylmercapto)-2-hydroxypropyl]glutathione (M6), S-(3-hydroxypropyl)-glutathione (M7), S-(2-carboxyethyl)glutathione (M8), allyl glutathionyl disulfide (M9), and S-allylglutathione (M10). With the exception of M6, all of the above GSH conjugates were detected in the bile of rats treated with DASO, while only M3, M4, M5, M7, M8, and M10 were found in the bile of rats treated with DASO2. Experiments conducted in vitro showed that GSH reacted spontaneously with DASO to form conjugates M9 and M10, and with DASO2 to form M10. In the presence of NADPH and GSH, incubation of DAS with cDNA-expressed rat CYP2E1 resulted in the formation of metabolites M6, M9, and M10, while incubation with DASO led to the formation of M3, M4, M5, M9, and M10. When DASO2 acted as substrate, CYP2E1 generated only conjugates M3, M4, M5, and M10. These results indicate that while DAS and DASO undergo extensive oxidation in vivo at the sulfur atom, the allylic carbon, and the terminal double bonds, CYP2E1 preferentially catalyzes oxidation of the sulfur atom to form the sulfoxide and the sulfone (DASO and DASO2). However, it appears that the end product of this sequence, namely, DASO2, undergoes further CYP2E1-mediated activation of the olefinic pi-bond, a reaction which transforms many terminal olefins to potent mechanism-based P450 inhibitors. We hypothesize, therefore, that it is this final metabolic event with DASO2 which leads to autocatalytic destruction of CYP2E1 and which is mainly responsible for the chemoprotective effects of DAS in vivo.",
+        "affiliation": "Department of Medicinal Chemistry, School of Pharmacy, University of Washington, Seattle 98195, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "ES05500",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Allyl Compounds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2E1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Spectroscopy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2E1 Inhibitors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allyl sulfide",
+              "registryNumber": "60G7CF7CWZ"
+            },
+            {
+              "name": "Glutathione",
+              "registryNumber": "GAN16C9B8O"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2E1",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2E1 Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/tx9601768"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 83,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1997-06-04",
+        "dateOfCreation": "1997-03-01",
+        "dateOfRevision": "2014-11-20",
+        "firstPublicationDate": "1997-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "1997191",
+        "source": "MED",
+        "pmid": "1997191",
+        "title": "Metabolism of carcinogenic nitrosamines by rat nasal mucosa and the effect of diallyl sulfide.",
+        "authorString": "Hong JY, Smith T, Lee MJ, Li WS, Ma BL, Ning SM, Brady JF, Thomas PE, Yang CS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hong JY",
+              "lastName": "Hong",
+              "firstName": "J Y",
+              "initials": "JY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemical Biology and Pharmacognosy, College of Pharmacy, Rutgers University, Piscataway, New Jersey 08855-0789."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smith T",
+              "lastName": "Smith",
+              "firstName": "T",
+              "initials": "T"
+            },
+            {
+              "fullName": "Lee MJ",
+              "lastName": "Lee",
+              "firstName": "M J",
+              "initials": "MJ"
+            },
+            {
+              "fullName": "Li WS",
+              "lastName": "Li",
+              "firstName": "W S",
+              "initials": "WS"
+            },
+            {
+              "fullName": "Ma BL",
+              "lastName": "Ma",
+              "firstName": "B L",
+              "initials": "BL"
+            },
+            {
+              "fullName": "Ning SM",
+              "lastName": "Ning",
+              "firstName": "S M",
+              "initials": "SM"
+            },
+            {
+              "fullName": "Brady JF",
+              "lastName": "Brady",
+              "firstName": "J F",
+              "initials": "JF"
+            },
+            {
+              "fullName": "Thomas PE",
+              "lastName": "Thomas",
+              "firstName": "P E",
+              "initials": "PE"
+            },
+            {
+              "fullName": "Yang CS",
+              "lastName": "Yang",
+              "firstName": "C S",
+              "initials": "CS"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "51",
+          "journalIssueId": 830768,
+          "dateOfPublication": "1991 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 1991,
+          "journal": {
+            "medlineAbbreviation": "Cancer Res",
+            "title": "Cancer research",
+            "essn": "1538-7445",
+            "issn": "0008-5472",
+            "isoabbreviation": "Cancer Res",
+            "nlmid": "2984705R"
+          },
+          "printPublicationDate": "1991-03-01"
+        },
+        "pubYear": "1991",
+        "pageInfo": "1509-1514",
+        "abstractText": "Rat nasal cavity is one of the target organs for carcinogenesis induced by N-nitrosodimethylamine (NDMA), N-nitrosodiethylamine (NDEA), and 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone (NNK). The present work investigated the metabolism of these nitrosamines by rat nasal microsomes, as well as the possible modulating factors. Microsomes prepared from rat nasal mucosa were efficient in metabolizing these nitrosamines. In general, the metabolism of the nitrosamines was slightly higher in 9-week-old rats than in 4-week-old animals, and there was no sex-related difference. Fasting of rats for 48 h, which is known to induce hepatic cytochrome P450IIE1 and NDMA metabolism, did not increase the nasal metabolism of NDMA, NDEA, or NNK. Pretreatment of rats with acetone, another inducer of hepatic P450IIE1, did not increase the metabolism of NDMA. Furthermore, it decreased the nasal metabolism of NDEA and NNK. Immunoinhibition studies suggest that, in the nasal mucosa, P450IIE1 is only partially responsible for the oxidation of NDMA and other P450 isozymes are responsible for the metabolism of NDEA. A single p.o. pretreatment of male rats with diallyl sulfide (DAS), a component of garlic oil, caused a significant decrease in the oxidative metabolism of NDEA and NNK in rat nasal mucosa. Whereas the nasal metabolism of NDMA was reduced by DAS pretreatment, there was no change in the amount of the nasal microsomal proteins immunoreactive with the antibodies against P450IIE1. The inhibitory effect of DAS on the nasal oxidative metabolism of NDMA, NDEA, and NNK was also observed in experiments in vitro. The results demonstrate the ability of nasal mucosa to metabolically activate these nitrosamines and the inhibition of this process by DAS, suggesting that DAS may be effective in inhibiting the related nasal tumorigenesis.",
+        "affiliation": "Department of Chemical Biology and Pharmacognosy, College of Pharmacy, Rutgers University, Piscataway, New Jersey 08855-0789.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "ES-39038",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA-37037",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA-46535",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nasal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred Strains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Allyl Compounds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acetone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitrosamines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diethylnitrosamine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dimethylnitrosamine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carcinogens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Age Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sex Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carcinogens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Nitrosamines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allyl sulfide",
+              "registryNumber": "60G7CF7CWZ"
+            },
+            {
+              "name": "Diethylnitrosamine",
+              "registryNumber": "3IQ78TTX1A"
+            },
+            {
+              "name": "Dimethylnitrosamine",
+              "registryNumber": "M43H21IO8R"
+            },
+            {
+              "name": "Acetone",
+              "registryNumber": "1364PS73AF"
+            },
+            {
+              "name": "4-(N-methyl-N-nitrosamino)-1-(3-pyridyl)-1-butanone",
+              "registryNumber": "7S395EDO61"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "cancerres.aacrjournals.org",
+              "url": "http://cancerres.aacrjournals.org/cgi/content/abstract/51/5/1509"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 37,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1991-03-29",
+        "dateOfCreation": "1991-03-01",
+        "dateOfRevision": "2016-11-23",
+        "firstPublicationDate": "1991-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "3167846",
+        "source": "MED",
+        "pmid": "3167846",
+        "title": "Effect of diallyl sulfide on rat liver microsomal nitrosamine metabolism and other monooxygenase activities.",
+        "authorString": "Brady JF, Li DC, Ishizaki H, Yang CS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Brady JF",
+              "lastName": "Brady",
+              "firstName": "J F",
+              "initials": "JF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, University of Medicine and Dentistry of New Jersey, Newark 07103."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li DC",
+              "lastName": "Li",
+              "firstName": "D C",
+              "initials": "DC"
+            },
+            {
+              "fullName": "Ishizaki H",
+              "lastName": "Ishizaki",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Yang CS",
+              "lastName": "Yang",
+              "firstName": "C S",
+              "initials": "CS"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "21",
+          "volume": "48",
+          "journalIssueId": 595035,
+          "dateOfPublication": "1988 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 1988,
+          "journal": {
+            "medlineAbbreviation": "Cancer Res",
+            "title": "Cancer research",
+            "essn": "1538-7445",
+            "issn": "0008-5472",
+            "isoabbreviation": "Cancer Res",
+            "nlmid": "2984705R"
+          },
+          "printPublicationDate": "1988-11-01"
+        },
+        "pubYear": "1988",
+        "pageInfo": "5937-5940",
+        "abstractText": "It has been reported that p.o. administration of diallyl sulfide (DAS), a naturally occurring component of garlic (Allium sativum), inhibits 1,2-dimethylhydrazine-induced colon and liver cancer in rodents. A possible mechanism for this protective effect is inhibition of hepatic activation of the procarcinogen. The effect of DAS on P450IIE1, an isozyme of cytochrome P-450 which is active in the oxidative metabolism of dimethylhydrazine, was conveniently assayed in the present study by determination of N-dimethylnitrosamine demethylase (NDMAd) activity at 1 mM N-dimethylnitrosamine in Sprague-Dawley rat liver microsomal incubations. DAS was found to be a competitive inhibitor of NDMAd, in contrast to the irreversible inactivation of NDMAd produced by carbon tetrachloride incubated under similar conditions. The inhibition by DAS of the demethylation of several substrates was selective. The thioether was most potent against N-dimethylnitrosamine, less effective against N-nitrosomethylbenzylamine, and essentially ineffective against benzphetamine and ethylmorphine. Microsomes prepared at 3 h after DAS administration (200 mg/kg in corn oil intragastrically) showed moderate inhibition (less than 30% inhibition compared to control microsomes) of several demethylase activities; however, microsomes prepared 18 h posttreatment showed a marked decrease (about 80% inhibition compared to controls) in NDMAd activity, minor effects on other demethylase activities, and a 6-fold increase in pentoxyresorufin dealkylation. These trends at 18 h agreed with immunoblot analyses which showed suppression in the level of P450IIE1 and an elevation in P450IIB1. The selective inhibition of P450IIE1 activity and suppression of its level in microsomes may contribute to the reported chemoprotective effects of DAS.",
+        "affiliation": "Department of Biochemistry, University of Medicine and Dentistry of New Jersey, Newark 07103.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA-37137",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "ES-03938",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred Strains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Allyl Compounds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon Tetrachloride",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2E1"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidoreductases, N-Demethylating",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Oxidoreductases, N-Demethylating",
+              "registryNumber": "EC 1.5.-"
+            },
+            {
+              "name": "Carbon Tetrachloride",
+              "registryNumber": "CL2T97X0V0"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2E1",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "cancerres.aacrjournals.org",
+              "url": "http://cancerres.aacrjournals.org/cgi/content/abstract/48/21/5937"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 104,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1988-11-15",
+        "dateOfCreation": "1988-11-01",
+        "dateOfRevision": "2016-11-23",
+        "firstPublicationDate": "1988-11-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "1587006",
+        "source": "MED",
+        "pmid": "1587006",
+        "doi": "10.1093/carcin/13.5.901",
+        "title": "Inhibitory effects of diallyl sulfide on the metabolism and tumorigenicity of the tobacco-specific carcinogen 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone (NNK) in A/J mouse lung.",
+        "authorString": "Hong JY, Wang ZY, Smith TJ, Zhou S, Shi S, Pan J, Yang CS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hong JY",
+              "lastName": "Hong",
+              "firstName": "J Y",
+              "initials": "JY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory for Cancer Research, College of Pharmacy, Rutgers University, Piscataway, NJ 08855-0789."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang ZY",
+              "lastName": "Wang",
+              "firstName": "Z Y",
+              "initials": "ZY"
+            },
+            {
+              "fullName": "Smith TJ",
+              "lastName": "Smith",
+              "firstName": "T J",
+              "initials": "TJ"
+            },
+            {
+              "fullName": "Zhou S",
+              "lastName": "Zhou",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Shi S",
+              "lastName": "Shi",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Pan J",
+              "lastName": "Pan",
+              "firstName": "J",
+              "initials": "J"
+            },
+            {
+              "fullName": "Yang CS",
+              "lastName": "Yang",
+              "firstName": "C S",
+              "initials": "CS"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "13",
+          "journalIssueId": 587583,
+          "dateOfPublication": "1992 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 1992,
+          "journal": {
+            "medlineAbbreviation": "Carcinogenesis",
+            "title": "Carcinogenesis",
+            "essn": "1460-2180",
+            "issn": "0143-3334",
+            "isoabbreviation": "Carcinogenesis",
+            "nlmid": "8008055"
+          },
+          "printPublicationDate": "1992-05-01"
+        },
+        "pubYear": "1992",
+        "pageInfo": "901-904",
+        "abstractText": "Diallyl sulfide (DAS), a component of garlic oil, has been shown to inhibit tumorigenesis by several chemical carcinogens. Our previous work demonstrated that DAS inhibited the metabolic activation of carcinogenic nitrosamines, including the tobacco-specific 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone (NNK), in rat lung and nasal mucosa microsomes. In the present study, the effects of DAS on the tumorigenicity and the metabolism of NNK in A/J mouse lung were examined. Female A/J mice at 7 weeks of age were pretreated with DAS (200 mg/kg body wt in corn oil, p.o) daily for 3 days. Two hours after the final DAS treatment, the mice were either given a single dose of NNK (2 mg/mouse, i.p.) and kept for an additional 16 weeks for determining the production of pulmonary tumors, or were killed immediately so as to measure the microsomal activity in metabolizing NNK. In comparison to the vehicle control group, DAS pretreatment significantly decreased the incidence of NNK-induced lung tumors (37.9 versus 100%) and the tumor multiplicity (0.6 versus 7.2 tumors/mouse). In pulmonary metabolism of NNK, DAS pretreatment reduced the rates of formation of keto aldehyde, keto alcohol, NNAL-N-oxide, and NNK-N-oxide by 70-90%. In addition, the formation of NNK oxidative metabolites from NNK in the liver microsomes from DAS-pretreated mice was remarkably reduced. DAS also inhibited the metabolism of NNK in mouse lung microsomes in vitro. These results demonstrate that DAS is an effective chemopreventive agent against NNK-induced lung tumorigenesis, probably by inhibiting the metabolic activation of NNK.",
+        "affiliation": "Laboratory for Cancer Research, College of Pharmacy, Rutgers University, Piscataway, NJ 08855-0789.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA-46535",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA-37037",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lung",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Garlic"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plants, Medicinal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lung Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Allyl Compounds"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitrosamines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carcinogens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carcinogens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Nitrosamines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allyl sulfide",
+              "registryNumber": "60G7CF7CWZ"
+            },
+            {
+              "name": "4-(N-methyl-N-nitrosamino)-1-(3-pyridyl)-1-butanone",
+              "registryNumber": "7S395EDO61"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/carcin/13.5.901"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 81,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1992-06-19",
+        "dateOfCreation": "1992-05-01",
+        "dateOfRevision": "2019-05-09",
+        "firstPublicationDate": "1992-05-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

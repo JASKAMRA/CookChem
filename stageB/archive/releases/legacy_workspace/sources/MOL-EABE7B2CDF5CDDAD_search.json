@@ -1,0 +1,4182 @@
+{
+  "version": "6.9",
+  "hitCount": 14,
+  "request": {
+    "queryString": "TITLE_ABS:\"Alpha-Carotene\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41901049",
+        "source": "MED",
+        "pmid": "41901049",
+        "pmcid": "PMC13027657",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13027657"
+          ]
+        },
+        "doi": "10.3390/life16030530",
+        "title": "Integrative Pharmacological and Computational Analysis of &lt;i&gt;Abelmoschus esculentus&lt;/i&gt; Phytochemicals: Enzyme Inhibition, Molecular Docking, and Dynamics Simulation Against Key Antidiabetic Targets.",
+        "authorString": "Banu H, Al-Shammari E, Bardakci F, Patel M, Adnan M, Khan MI, AlFahhad N, Ashraf SA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Banu H",
+              "lastName": "Banu",
+              "firstName": "Humera",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2452-3493"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Nutrition, College of Applied Medical Sciences, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  },
+                  {
+                    "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al-Shammari E",
+              "lastName": "Al-Shammari",
+              "firstName": "Eyad",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2670-4607"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Nutrition, College of Applied Medical Sciences, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  },
+                  {
+                    "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bardakci F",
+              "lastName": "Bardakci",
+              "firstName": "Fevzi",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3377-2763"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  },
+                  {
+                    "affiliation": "Department of Biology, College of Science, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Patel M",
+              "lastName": "Patel",
+              "firstName": "Mitesh",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9283-2124"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioinformatics, Faculty of Engineering and Technology, Marwadi University, Rajkot 360003, Gujarat, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adnan M",
+              "lastName": "Adnan",
+              "firstName": "Mohd",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7080-6822"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  },
+                  {
+                    "affiliation": "Department of Biology, College of Science, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan MI",
+              "lastName": "Khan",
+              "firstName": "Mohammad Idreesh",
+              "initials": "MI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9325-6491"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Basic Health Sciences, College of Applied Medical Sciences, Qassim University, P.O. Box 6666, Buraydah 51452, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "AlFahhad N",
+              "lastName": "AlFahhad",
+              "firstName": "Noor",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Family Medicine, College of Medicine, Qassim University, P.O. Box 6666, Buraydah 51452, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ashraf SA",
+              "lastName": "Ashraf",
+              "firstName": "Syed Amir",
+              "initials": "SA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5333-9505"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Nutrition, College of Applied Medical Sciences, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  },
+                  {
+                    "affiliation": "Medical and Diagnostic Research Center, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9325-6491"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2452-3493"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5333-9505"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7080-6822"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9283-2124"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2670-4607"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3377-2763"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "16",
+          "journalIssueId": 4161773,
+          "dateOfPublication": "2026 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Life (Basel)",
+            "title": "Life (Basel, Switzerland)",
+            "essn": "2075-1729",
+            "issn": "2075-1729",
+            "isoabbreviation": "Life (Basel)",
+            "nlmid": "101580444"
+          },
+          "printPublicationDate": "2026-03-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "530",
+        "abstractText": "The present work set out to examine the antidiabetic capacity of <i>Abelmoschus esculentus</i> (okra) fruit extract through a combined experimental and computational framework. Enzyme inhibition assays were carried out against four metabolic targets, and IC<sub>50</sub> values stood at 7.66 ± 0.31 mg/mL for alpha-glucosidase, 5.21 ± 0.18 mg/mL for alpha-amylase, 2.11 ± 0.15 microg/mL for DPP-4, and 9.17 ± 0.54 mg/mL for pancreatic lipase. The extract showed moderate-to-weak activity relative to standard inhibitors acarbose, sitagliptin, and orlistat. Sixteen drug-like phytochemicals obtained from the IMPPAT 2.0 database were docked against the crystal structures of all four tested enzymes (PDB: 8CB1, 5E0F, 2ONC, 1LPB). Alpha-Carotene, Vitamin E, and Spiraeoside emerged as the top-ranked compounds across all targets, with alpha-Carotene recording the strongest binding affinity of -11.1 kcal/mol against pancreatic lipase, which was 4.2 kcal/mol more negative than the positive control orlistat (-6.9 kcal/mol). PLIP-based interaction profiling mapped out hydrogen bonds, hydrophobic contacts, pi-stacking, and salt bridges at the atomic level. Absorption, distribution, metabolism, and excretion (ADME) and toxicity screening of alpha-Carotene returned a favourable pharmacokinetic profile with predicted LD<sub>50</sub> of 1510 mg/kg (Class 4) and inactivity across most toxicity endpoints. A 100 ns molecular dynamics simulation of the pancreatic lipase-alpha-Carotene complex, alongside the orlistat control, showed stable root mean square deviation (RMSD) (0.15-0.22 nm), a consistent Rg (~1.97 nm), and sustained hydrogen bonding throughout the trajectory. Free-energy landscape analysis revealed a well-defined single energy basin for alpha-Carotene, suggesting a thermodynamically stable binding conformation. These findings lay the molecular basis for using okra phytochemicals as adjunctive agents in diabetes management, though in vivo validation remains necessary.",
+        "affiliation": "Department of Clinical Nutrition, College of Applied Medical Sciences, University of Ha'il, P.O. Box 2440, Ha'il 55473, Saudi Arabia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Scientific Research Deanship at University of Ha'il",
+              "grantId": "RCP -24 193",
+              "orderIn": 0
+            },
+            {
+              "agency": "Scientific Research Deanship at University of Ha’il—Saudi Arabia",
+              "grantId": "RCP-24 193",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Diabetes mellitus",
+            "Molecular dynamics simulation",
+            "Molecular docking",
+            "Enzyme inhibition",
+            "Abelmoschus Esculentus",
+            "Alpha-carotene"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/life16030530"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13027657"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13027657?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-03-28",
+        "dateOfCreation": "2026-03-28",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-03-23",
+        "firstPublicationDate": "2026-03-23",
+        "firstIndexDate": "2026-03-29",
+        "fullTextReceivedDate": "2026-03-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38800619",
+        "source": "MED",
+        "pmid": "38800619",
+        "pmcid": "PMC11116335",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11116335"
+          ]
+        },
+        "doi": "10.1007/s40203-024-00216-1",
+        "title": "In silico pharmacokinetic and therapeutic evaluation of &lt;i&gt;Musa acuminata&lt;/i&gt; peels against aluminium chloride-induced hepatotoxicity in adult BALB/c mice.",
+        "authorString": "Onohuean H, Onohuean EF, Igbinoba S, Odoma S, Usman I, Ifie JE, Alagbonsi AI, Moyosore AA, Udom GJ, Agu PC, Aja PM, Ezeonwumelu JOC, Al-Kuraishy HM, Batiha GE, Osuntoki AA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Onohuean H",
+              "lastName": "Onohuean",
+              "firstName": "Hope",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomolecules, Metagenomics, Endocrine, and Tropical Disease Research Group (BMETDREG), Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  },
+                  {
+                    "affiliation": "Biopharmaceutics Unit, Department of Pharmacology and Toxicology, School of Pharmacy, Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Onohuean EF",
+              "lastName": "Onohuean",
+              "firstName": "Eseohe Fanny",
+              "initials": "EF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomolecules, Metagenomics, Endocrine, and Tropical Disease Research Group (BMETDREG), Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Igbinoba S",
+              "lastName": "Igbinoba",
+              "firstName": "Sharon",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomolecules, Metagenomics, Endocrine, and Tropical Disease Research Group (BMETDREG), Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  },
+                  {
+                    "affiliation": "Biopharmaceutics Unit, Department of Pharmacology and Toxicology, School of Pharmacy, Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  },
+                  {
+                    "affiliation": "Department of Clinical Pharmacy and Pharmacy Administration, Faculty of Pharmacy, Obafemi Awolowo University, Ile-Ife, Osun State Nigeria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Odoma S",
+              "lastName": "Odoma",
+              "firstName": "Saidi",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7460-4075"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biopharmaceutics Unit, Department of Pharmacology and Toxicology, School of Pharmacy, Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Usman I",
+              "lastName": "Usman",
+              "firstName": "Ibe",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Faculty of Biomedical Sciences, Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ifie JE",
+              "lastName": "Ifie",
+              "firstName": "Josiah Eseoghene",
+              "initials": "JE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Biochemistry, Faculty of Biomedical Sciences, Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alagbonsi AI",
+              "lastName": "Alagbonsi",
+              "firstName": "Abdullateef Isiaka",
+              "initials": "AI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5462-9950"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Biology (Physiology Unit), School of Medicine and Pharmacy, College of Medicine and Health Sciences, University of Rwanda, Huye, Rwanda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moyosore AA",
+              "lastName": "Moyosore",
+              "firstName": "Afodun Adam",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy and Cell Biology, Faculty of Health Sciences, Busitema University, Mable, Uganda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Udom GJ",
+              "lastName": "Udom",
+              "firstName": "Godswill J",
+              "initials": "GJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomolecules, Metagenomics, Endocrine, and Tropical Disease Research Group (BMETDREG), Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  },
+                  {
+                    "affiliation": "Biopharmaceutics Unit, Department of Pharmacology and Toxicology, School of Pharmacy, Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  },
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, Faculty of Pharmacy, Federal University Oye-Ekiti, PMB 323, Oye-Ekiti, Nigeria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Agu PC",
+              "lastName": "Agu",
+              "firstName": "Peter Chinedu",
+              "initials": "PC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Biological Sciences, Ebonyi State University, Abakaliki, Nigeria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aja PM",
+              "lastName": "Aja",
+              "firstName": "Patrick Maduabuchi",
+              "initials": "PM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Faculty of Biomedical Sciences, Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  },
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Biological Sciences, Ebonyi State University, Abakaliki, Nigeria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ezeonwumelu JOC",
+              "lastName": "Ezeonwumelu",
+              "firstName": "Joseph Obiezu Chukwujekwu",
+              "initials": "JOC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomolecules, Metagenomics, Endocrine, and Tropical Disease Research Group (BMETDREG), Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  },
+                  {
+                    "affiliation": "Department of Clinical Pharmacy and Pharmacy Practice, School of Pharmacy, International University, Western Campus, Ishaka-Bushenyi, Uganda."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al-Kuraishy HM",
+              "lastName": "Al-Kuraishy",
+              "firstName": "Hayder M",
+              "initials": "HM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Pharmacology and Medicine, College of Medicine, Al-Mustansiriyah University, Baghdad, Iraq."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Batiha GE",
+              "lastName": "Batiha",
+              "firstName": "Gaber El-Saber",
+              "initials": "GE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Therapeutics, Faculty of Veterinary Medicine, Damanhour University, Damanhour, 22511 AlBeheira Egypt."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Osuntoki AA",
+              "lastName": "Osuntoki",
+              "firstName": "Akinniyi A",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry, Faculty of Basic Medical Sciences, University of Lagos, Lagos, Nigeria."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7460-4075"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5462-9950"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "12",
+          "journalIssueId": 3674909,
+          "dateOfPublication": "2024 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "In Silico Pharmacol",
+            "title": "In silico pharmacology",
+            "essn": "2193-9616",
+            "issn": "2193-9616",
+            "isoabbreviation": "In Silico Pharmacol",
+            "nlmid": "101623954"
+          },
+          "printPublicationDate": "2024-01-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "46",
+        "abstractText": "East Africa (<i>Musa</i> spp.), notably <i>Musa acuminata</i>, \"Matooke\" a staple and economically important food in the region. Here, 12 selected <i>M</i>. <i>acuminata</i> peels extract (MAPE) bioactive compounds were studied for hepatoprotective potentials in aluminium chloride-induced hepatoxicity in adult BALB/c mice. GC-MS analysis was used to identify active components of MAPE. In silico estimation of the pharmacokinetic, the GCMS-identified compounds' toxicity profile and molecular docking were compared with the standard (Simvastatin) drug. Hepatotoxicity was induced using aluminium-chloride treated with MAPE, followed by biochemical and histopathological examination. Twelve bioactive compounds 2,2-Dichloroacetophenone (72870), Cyclooctasiloxane 18993663), 7-Hydroxy-6,9a-dimethyl-3-methylene-decahydro-azuleno[4,5-b]furan-2,9-dione (534579), all-trans-alpha-Carotene (4369188), Cyclononasiloxane (53438479), 3-Chloro-5-(4-methoxyphenyl)-6,7a-dimethyl-5,6,7,7a-tetrahydro-4H-furo[2,3-c]pyridin-2-one (536708), Pivalic acid (6417), 10,13-Octadecadienoic acid (54284936), Ethyl Linoleate (5282184), Oleic acid (5363269), Tirucallol (101257), Obtusifoliol (65252) were identified by GC-MS. Of these, seven were successfully docked with the target proteins. The compounds possess drug likeness potentials that do not inhibits CYP450 isoforms biotransformation. All the docked compounds were chemoprotective to AMES toxicity, hERGI, hERGII and hepatotoxicity. The animal model reveals MAPE protective effect on liver marker's function while the histological studies show regeneration of the disoriented layers of bile ducts and ameliorate the cellular/histoarchitecture of the hepatic cells induced by AlCl<sub>3</sub>. The findings indicate that MAPE improved liver functions and ameliorated the hepatic cells' cellular or histoarchitecture induced by AlCl<sub>3</sub>. Further studies are necessary to elucidate the mechanism action and toxicological evaluation of MAPE's chronic or intermittent use to ascertain its safety in whole organism systems.",
+        "affiliation": "Biomolecules, Metagenomics, Endocrine, and Tropical Disease Research Group (BMETDREG), Kampala International University, Western Campus, Ishaka-Bushenyi, Uganda.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetic",
+            "BALB/C Mice",
+            "In-silico",
+            "Aluminium-chloride-induced-hepatotoxicity",
+            "M. Acuminata Peels",
+            "Therapeutic-potential"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s40203-024-00216-1"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11116335"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11116335?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s40203-024-00216-1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2024-05-27",
+        "dateOfRevision": "2025-05-24",
+        "electronicPublicationDate": "2024-05-23",
+        "firstPublicationDate": "2024-05-23",
+        "firstIndexDate": "2024-05-28",
+        "fullTextReceivedDate": "2025-11-28",
+        "embargoDate": "2025-05-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39450315",
+        "source": "MED",
+        "pmid": "39450315",
+        "pmcid": "PMC11500077",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11500077"
+          ]
+        },
+        "doi": "10.3389/fmolb.2024.1476482",
+        "title": "Exploration of phytoconstituents of Medhya Rasayana herbs to identify potential inhibitors for <i>cerebroside sulfotransferase</i> through high-throughput screening.",
+        "authorString": "Singh N, Singh AK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Singh N",
+              "lastName": "Singh",
+              "firstName": "Nivedita",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dravyaguna, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh AK",
+              "lastName": "Singh",
+              "firstName": "Anil Kumar",
+              "initials": "AK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dravyaguna, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4049-2313"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "11",
+          "journalIssueId": 3704201,
+          "dateOfPublication": "2024 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Front Mol Biosci",
+            "title": "Frontiers in molecular biosciences",
+            "essn": "2296-889X",
+            "issn": "2296-889X",
+            "isoabbreviation": "Front Mol Biosci",
+            "nlmid": "101653173"
+          },
+          "printPublicationDate": "2024-01-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "1476482",
+        "abstractText": "<i>Cerebroside sulfotransferase</i> (CST) is a key enzyme in sulfatide biosynthesis and regulation of the myelin sheath in the nervous system. To counter sulfatide accumulation with the deficiency of aryl sulfatase A, CST is considered a target protein in substrate reduction therapy in metachromatic leukodystrophy. In this study, 461 phytoconstituents from four herbs of Medhya Rasayana were screened using multi-pronged virtual screening methods including molecular docking, molecular dynamics (MD) simulation, and reverse pharmacophore analysis. The initial screening of the top 15 hits was based on the binding affinity of the compounds toward the CST substrate-binding site using the lowest free energy of a binding score cutoff of ≤ -7.5 kcal/mol, with the number of conformations in the largest cluster more than 75. The absorption, distribution, metabolism, and excretion (ADME) and toxicity-based pharmacokinetic analysis delivered the top four hits: 18alpha-glycyrrhetinic acid, lupeol, alpha carotene, and beta-carotene, with high blood-brain barrier permeability and negligible toxicity. Furthermore, a 100-ns simulation of protein-ligand complexes with a trajectory analysis of structural deviation, compactness, intramolecular interactions, principal component analysis, free energy landscape, and dynamic cross-correlation analysis showed the binding potential and positioning of the four hits in the binding pocket. Thus, an in-depth analysis of protein-ligand interactions from pre- and post-molecular dynamics simulation, along with reverse pharmacophore mapping, suggests that 18alpha-glycyrrhetinic acid is the most potent and specific CST inhibitor, while beta-carotene could be considered the second most potent compound for CST inhibition as it also exhibited overall stability throughout the simulation. Therefore, the computational drug screening approach applied in this study may contribute to the development of oral drugs as a therapeutic option for metachromatic leukodystrophy.",
+        "affiliation": "Department of Dravyaguna, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, India.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Inhibition",
+            "Drug",
+            "active site",
+            "Substrate Reduction Therapy",
+            "Metachromatic Leukodystrophy",
+            "Cerebroside Sulfotransferase"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fmolb.2024.1476482"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11500077"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11500077?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2024-10-25",
+        "dateOfRevision": "2024-10-26",
+        "electronicPublicationDate": "2024-10-09",
+        "firstPublicationDate": "2024-10-09",
+        "firstIndexDate": "2024-10-26",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16688490",
+        "source": "MED",
+        "pmid": "16688490",
+        "doi": "10.1007/s11120-005-9020-1",
+        "title": "Study on energy transfer between carotenoid and chlorophyll a in cytochrome b6f complex from Bryopsis corticulans.",
+        "authorString": "Li BX, Zuo P, Chen XB, Li LB, Zhang JP, Zhang JP, Kuang TY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li BX",
+              "lastName": "Li",
+              "firstName": "Bin-Xing",
+              "initials": "BX",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Photosynthesis and Environmental Molecular Physiology, Institute of Botany, Chinese Academy of Sciences, Nan Xincun 20, Xiangshan, 100093, Beijing, P.R. China. lbli@ibcas.ac.cn"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zuo P",
+              "lastName": "Zuo",
+              "firstName": "Ping",
+              "initials": "P"
+            },
+            {
+              "fullName": "Chen XB",
+              "lastName": "Chen",
+              "firstName": "Xiao-Bo",
+              "initials": "XB"
+            },
+            {
+              "fullName": "Li LB",
+              "lastName": "Li",
+              "firstName": "Liang-Bi",
+              "initials": "LB"
+            },
+            {
+              "fullName": "Zhang JP",
+              "lastName": "Zhang",
+              "firstName": "Jian-Ping",
+              "initials": "JP"
+            },
+            {
+              "fullName": "Zhang JP",
+              "lastName": "Zhang",
+              "firstName": "Jian-Ping",
+              "initials": "JP"
+            },
+            {
+              "fullName": "Kuang TY",
+              "lastName": "Kuang",
+              "firstName": "Ting-Yun",
+              "initials": "TY"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "88",
+          "journalIssueId": 1335606,
+          "dateOfPublication": "2006 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Photosynth Res",
+            "title": "Photosynthesis research",
+            "essn": "1573-5079",
+            "issn": "0166-8595",
+            "isoabbreviation": "Photosynth Res",
+            "nlmid": "100954728"
+          },
+          "printPublicationDate": "2006-04-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "43-50",
+        "abstractText": "The excitation energy transfer between carotenoid and chlorophyll (Chl) in the cytochrome b ( 6 ) f complex from Bryopsis corticulans (B. corticulans), in which the carotenoid is 9-cis-alpha-carotene, was investigated by means of fluorescence excitation and sub-microsecond time-resolved absorption spectroscopies. The presence of efficient singlet excitation transfer from alpha-carotene to Chl a was found with an overall efficiency as high as approximately approximately 24%, meanwhile the Chl a-to-alpha-carotene triplet excitation transfer was also evidenced. Circular dichroism spectroscopy showed that alpha-carotene molecule existed in an asymmetric environment and Chl a molecule had a certain orientation in this complex.",
+        "affiliation": "Key Laboratory of Photosynthesis and Environmental Molecular Physiology, Institute of Botany, Chinese Academy of Sciences, Nan Xincun 20, Xiangshan, 100093, Beijing, P.R. China. lbli@ibcas.ac.cn",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyll",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome b6f Complex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Fluorescence"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Energy Transfer"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyta",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyll A"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Chlorophyll",
+              "registryNumber": "1406-65-1"
+            },
+            {
+              "name": "Cytochrome b6f Complex",
+              "registryNumber": "9035-40-9"
+            },
+            {
+              "name": "chlorophyll a",
+              "registryNumber": "YF5Q9EJC8Y"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s11120-005-9020-1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-02-23",
+        "dateOfCreation": "2006-05-12",
+        "dateOfRevision": "2021-10-20",
+        "electronicPublicationDate": "2006-05-11",
+        "firstPublicationDate": "2006-04-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16143919",
+        "source": "MED",
+        "pmid": "16143919",
+        "doi": "10.1007/s11120-004-6555-5",
+        "title": "Characterization of the cytochrome b(6)f complex from marine green alga, Bryopsis corticulans.",
+        "authorString": "Li B, Mao D, Liu Y, Li L, Kuang T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li B",
+              "lastName": "Li",
+              "firstName": "Binxing",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Photosynthesis and Environmental Molecular Physiology, Institute of Botany, Chinese Academy of Sciences, Beijing. lbli@ibcas.ac.cn"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mao D",
+              "lastName": "Mao",
+              "firstName": "Dazhang",
+              "initials": "D"
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yulong",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Li L",
+              "lastName": "Li",
+              "firstName": "Liangbi",
+              "initials": "L"
+            },
+            {
+              "fullName": "Kuang T",
+              "lastName": "Kuang",
+              "firstName": "Tingyun",
+              "initials": "T"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "83",
+          "journalIssueId": 1258186,
+          "dateOfPublication": "2005 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Photosynth Res",
+            "title": "Photosynthesis research",
+            "essn": "1573-5079",
+            "issn": "0166-8595",
+            "isoabbreviation": "Photosynth Res",
+            "nlmid": "100954728"
+          },
+          "printPublicationDate": "2005-01-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "297-305",
+        "abstractText": "A pure, active cytochrome b(6)f was isolated from the chloroplasts of the marine green alga, Bryopsis corticulans. To investigate and characterize this cytochrome b(6)f complex, sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE), absorption spectra measurement and HPLC were employed. It was shown that this purified complex contained four large subunits with apparent molecular masses of 34.8, 24, 18.7 and 16.7 kD. The ratio of Cyt (6) to Cyt f was 2.01 : 1. The cytochrome b(6) f was shown to catalyze the transfer of 73 electrons from decylplastoquinol to plastocyanin-ferricyanide per Cyt f per second. alpha-Carotene, one kind of carotenoid that has not been found to present in cytochrome b(6)f complex, was discovered in this preparation by reversed phase HPLC. It was different from beta-carotene usually found in cytochrome b(6)f complex. The configuration of the major alpha-carotene component was assigned to be 9-cis by resonance Raman spectroscopy. Different from the previous reports, the configuration of this alpha-carotene in dissociated state was determined to be all-trans. Besides this carotene, chlorophyll a was also found in this complex. It was shown that the molecular ratios of chlorophyll a, cis and all-trans-alpha-carotene to Cyt f in this complex were 1.2, 0.7 and 0.2, respectively.",
+        "affiliation": "Key Laboratory of Photosynthesis and Environmental Molecular Physiology, Institute of Botany, Chinese Academy of Sciences, Beijing. lbli@ibcas.ac.cn",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyll",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome b6f Complex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Subunits"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyta",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Chlorophyll",
+              "registryNumber": "1406-65-1"
+            },
+            {
+              "name": "Protein Subunits",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome b6f Complex",
+              "registryNumber": "9035-40-9"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s11120-004-6555-5"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-09-27",
+        "dateOfCreation": "2005-09-07",
+        "dateOfRevision": "2020-09-30",
+        "firstPublicationDate": "2005-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16565047",
+        "source": "MED",
+        "pmid": "16565047",
+        "pmcid": "PMC1459505",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC1459505"
+          ]
+        },
+        "doi": "10.1529/biophysj.105.076612",
+        "title": "Ultrafast carotenoid-to-chlorophyll singlet energy transfer in the cytochrome b6f complex from Bryopsis corticulans.",
+        "authorString": "Zuo P, Li BX, Zhao XH, Wu YS, Ai XC, Zhang JP, Li LB, Kuang TY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zuo P",
+              "lastName": "Zuo",
+              "firstName": "Ping",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory for Structural Chemistry of Unstable and Stable Species, Institute of Chemistry, Chinese Academy of Sciences, Beijing 100080, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li BX",
+              "lastName": "Li",
+              "firstName": "Bin-Xing",
+              "initials": "BX"
+            },
+            {
+              "fullName": "Zhao XH",
+              "lastName": "Zhao",
+              "firstName": "Xiao-Hui",
+              "initials": "XH"
+            },
+            {
+              "fullName": "Wu YS",
+              "lastName": "Wu",
+              "firstName": "Yi-Shi",
+              "initials": "YS"
+            },
+            {
+              "fullName": "Ai XC",
+              "lastName": "Ai",
+              "firstName": "Xi-Cheng",
+              "initials": "XC"
+            },
+            {
+              "fullName": "Zhang JP",
+              "lastName": "Zhang",
+              "firstName": "Jian-Ping",
+              "initials": "JP"
+            },
+            {
+              "fullName": "Li LB",
+              "lastName": "Li",
+              "firstName": "Liang-Bi",
+              "initials": "LB"
+            },
+            {
+              "fullName": "Kuang TY",
+              "lastName": "Kuang",
+              "firstName": "Ting-Yun",
+              "initials": "TY"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "90",
+          "journalIssueId": 1323209,
+          "dateOfPublication": "2006 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Biophys J",
+            "title": "Biophysical journal",
+            "essn": "1542-0086",
+            "issn": "0006-3495",
+            "isoabbreviation": "Biophys J",
+            "nlmid": "0370626"
+          },
+          "printPublicationDate": "2006-06-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "4145-4154",
+        "abstractText": "Ultrafast carotenoid-to-chlorophyll (Car-to-Chl) singlet excitation energy transfer in the cytochrome b(6)f (Cyt b(6)f) complex from Bryopsis corticulans is investigated by the use of femtosecond time-resolved absorption spectroscopy. For all-trans-alpha-carotene free in n-hexane, the lifetimes of the two low-lying singlet excited states, S(1)(2A(g)(-)) and S(2)(1B(u)(+)), are determined to be 14.3 +/- 0.4 ps and 230 +/- 10 fs, respectively. For the Cyt b(6)f complex, to which 9-cis-alpha-carotene is bound, the lifetime of the S(1)(2A(g)(-)) state remains unchanged, whereas that of the S(2)(1B(u)(+)) state is significantly reduced. In addition, a decay-to-rise correlation between the excited-state dynamics of alpha-carotene and Chl a is clearly observed. This spectroscopic evidence proves that the S(2)(1B(u)(+)) state is able to transfer electronic excitations to the Q(x) state of Chl a, whereas the S(1)(2A(g)(-)) state remains inactive. The time constant and the partial efficiency of the energy transfer are determined to be 240 +/- 40 fs and (49 +/- 4)%, respectively, which supports the overall efficiency of 24% determined with steady-state fluorescence spectroscopy. A scheme of the alpha-carotene-to-Chl a singlet energy transfer is proposed based on the excited-state dynamics of the pigments.",
+        "affiliation": "State Key Laboratory for Structural Chemistry of Unstable and Stable Species, Institute of Chemistry, Chinese Academy of Sciences, Beijing 100080, People's Republic of China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "30370347",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "39890390",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "20433010",
+              "orderIn": 0
+            },
+            {
+              "agency": "Chinese Academy of Sciences",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "20273077",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hexanes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyll",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome b6f Complex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Transfer"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyta",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Hexanes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Chlorophyll",
+              "registryNumber": "1406-65-1"
+            },
+            {
+              "name": "Cytochrome b6f Complex",
+              "registryNumber": "9035-40-9"
+            },
+            {
+              "name": "alpha-carotene",
+              "registryNumber": "45XWE1Z69V"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1529/biophysj.105.076612"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1459505"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1459505?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1529/biophysj.105.076612"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-08-07",
+        "dateOfCreation": "2006-03-28",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2006-03-24",
+        "firstPublicationDate": "2006-03-24",
+        "firstIndexDate": "2010-09-17",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19939422",
+        "source": "MED",
+        "pmid": "19939422",
+        "doi": "10.1016/j.phytochem.2009.10.011",
+        "title": "Over-expression of Arabidopsis thaliana carotenoid hydroxylases individually and in combination with a beta-carotene ketolase provides insight into in vivo functions.",
+        "authorString": "Kim JE, Cheng KM, Craft NE, Hamberger B, Douglas CJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kim JE",
+              "lastName": "Kim",
+              "firstName": "Ji-Eun",
+              "initials": "JE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Animal Science, University of British Columbia, Vancouver, BC, Canada V6T1Z4."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng KM",
+              "lastName": "Cheng",
+              "firstName": "Kimberly M",
+              "initials": "KM"
+            },
+            {
+              "fullName": "Craft NE",
+              "lastName": "Craft",
+              "firstName": "Neal E",
+              "initials": "NE"
+            },
+            {
+              "fullName": "Hamberger B",
+              "lastName": "Hamberger",
+              "firstName": "Björn",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1249-1807"
+              }
+            },
+            {
+              "fullName": "Douglas CJ",
+              "lastName": "Douglas",
+              "firstName": "Carl J",
+              "initials": "CJ"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1249-1807"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2-3",
+          "volume": "71",
+          "journalIssueId": 1693342,
+          "dateOfPublication": "2010 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Phytochemistry",
+            "title": "Phytochemistry",
+            "essn": "1873-3700",
+            "issn": "0031-9422",
+            "isoabbreviation": "Phytochemistry",
+            "nlmid": "0151434"
+          },
+          "printPublicationDate": "2010-02-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "168-178",
+        "abstractText": "Carotenoids represent a group of widely distributed pigments derived from the general isoprenoid biosynthetic pathway that possess diverse functions in plant primary and secondary metabolism. Modification of alpha- and beta-carotene backbones depends in part on ring hydroxylation. Two ferredoxin-dependent non-heme di-iron monooxygenases (AtB1 and AtB2) that mainly catalyze in vivo beta-carotene hydroxylations of beta,beta-carotenoids, and two heme-containing cytochrome P450 (CYP) monooxygenases (CYP97A3 and CYP97C1) that preferentially hydroxylate the epsilon-ring of alpha-carotene or the beta-ring of beta,epsilon-carotenoids, have been characterized in Arabidopsis by analysis of loss-of-function mutant phenotypes. We further investigated functional roles of both hydroxylase classes in modification of the beta- and epsilon-rings of alpha-carotene and beta-carotene through over-expression of AtB1, CYP97A3, CYP97C1, and the hydroxylase candidate CYP97B3. Since carotenoid hydroxylation is required for generation of ketocarotenoids by the bkt1(CrtO) beta-carotene ketolase, all hydroxylase constructs were also introduced into an Arabidopsis line expressing the Haematococcus pluvalis bkt1 beta-carotene ketolase. Analysis of foliar carotenoid profiles in lines overexpressing the individual hydroxylases indicate a role for CYP97B3 in carotenoid biosynthesis, confirm and extend previous findings of hydroxylase activities based on knock-out mutants, and suggest functions of the multifunctional enzymes in carotenoid biosynthesis. Hydroxylase over-expression in combination with bkt1 did not result in ketocarotenoid accumulation, but instead unexpected patterns of alpha-carotene derivatives, accompanied by a reduction of alpha-carotene, were observed. These data suggest possible interactions between the beta-carotene ketolase bkt1 and the hydroxylases that impact partitioning of carbon flux into different carotenoid branch pathways.",
+        "affiliation": "Department of Animal Science, University of British Columbia, Vancouver, BC, Canada V6T1Z4.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants, Genetically Modified"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mixed Function Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription, Genetic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transformation, Genetic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genes, Plant"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "beta-carotene hydroxylase",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Mixed Function Oxygenases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "Arabidopsis Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxygenases",
+              "registryNumber": "EC 1.13.-"
+            },
+            {
+              "name": "beta-carotene ketolase",
+              "registryNumber": "EC 1.13.-"
+            },
+            {
+              "name": "alpha-carotene",
+              "registryNumber": "45XWE1Z69V"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.phytochem.2009.10.011"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 46,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "INTERPRO",
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-08-10",
+        "dateOfCreation": "2009-11-27",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2009-11-24",
+        "firstPublicationDate": "2009-11-24",
+        "firstIndexDate": "2010-08-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19147649",
+        "source": "MED",
+        "pmid": "19147649",
+        "doi": "10.1093/pcp/pcp005",
+        "title": "The evolution and function of carotenoid hydroxylases in Arabidopsis.",
+        "authorString": "Kim J, Smith JJ, Tian L, Dellapenna D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kim J",
+              "lastName": "Kim",
+              "firstName": "Joonyul",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smith JJ",
+              "lastName": "Smith",
+              "firstName": "James J",
+              "initials": "JJ"
+            },
+            {
+              "fullName": "Tian L",
+              "lastName": "Tian",
+              "firstName": "Li",
+              "initials": "L"
+            },
+            {
+              "fullName": "Dellapenna D",
+              "lastName": "Dellapenna",
+              "firstName": "Dean",
+              "initials": "D"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "50",
+          "journalIssueId": 1605980,
+          "dateOfPublication": "2009 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "Plant Cell Physiol",
+            "title": "Plant & cell physiology",
+            "essn": "1471-9053",
+            "issn": "0032-0781",
+            "isoabbreviation": "Plant Cell Physiol",
+            "nlmid": "9430925"
+          },
+          "printPublicationDate": "2009-03-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "463-479",
+        "abstractText": "To gain insight into the evolution of xanthophyll synthesis in Arabidopsis thaliana, we analyzed two pairs of duplicated carotenoid hydroxylase enzymes in Arabidopsis thaliana: the cytochrome P450 enzymes CYP97A3 and CYP97C1, and non-heme di-iron enzymes, BCH1 and BCH2. Hydroxylated carotenes did not accumulate in a quadruple mutant for these four genes, demonstrating that they encode the full complement of carotenoid hydroxylases in A. thaliana. We were thus able to infer definitively the activity of each enzyme in vivo based on the phenotypes of selected double and triple mutant genotypes. The CYP97 and BCH gene pairs are primarily responsible for hydroxylation of alpha- and beta-carotenes, respectively, but exhibit some overlapping activities, most notably in hydroxylation of the beta-ring of alpha-carotene. Surprisingly, triple mutants containing only CYP97C1 or CYP97A3 activity produced 74 and 6% of the wild-type lutein level, indicating that CYP97C1 can efficiently hydroxylate both the beta- and epsilon-rings of alpha-carotene and that CYP97A3 also has low activity toward the epsilon-ring of alpha-carotene. The modes of functional divergence for the gene pairs appear distinct, with the CYP97 duplicates being strongly co-expressed but encoding enzymes with different in vivo substrates, while the BCH duplicates encode isozymes that show significant expression divergence in reproductive organs. By integrating the evolutionary history and substrate specificities of each extant enzyme with the phenotypic responses of various mutant genotypes to high light stress, we propose two likely scenarios for the evolution of alpha-xanthophyll biosynthesis in plants from ancestral organisms.",
+        "affiliation": "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lutein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mixed Function Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sequence Alignment"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sequence Analysis, Protein"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Evolution, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phylogeny"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxylation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Light"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Sequence Data"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Knockout Techniques"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "beta-carotene hydroxylase",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Mixed Function Oxygenases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "Arabidopsis Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha-carotene",
+              "registryNumber": "45XWE1Z69V"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            },
+            {
+              "name": "Lutein",
+              "registryNumber": "X72A60C9MT"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "pcp.oxfordjournals.org",
+              "url": "http://pcp.oxfordjournals.org/cgi/content/abstract/50/3/463"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "html",
+              "site": "pcp.oxfordjournals.org",
+              "url": "http://pcp.oxfordjournals.org/cgi/content/full/50/3/463"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/pcp/pcp005"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 143,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL",
+            "INTERPRO",
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2009-03-26",
+        "dateOfCreation": "2009-01-17",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2009-01-15",
+        "firstPublicationDate": "2009-01-15",
+        "firstIndexDate": "2009-03-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND43741137",
+        "source": "AGR",
+        "doi": "10.1016/j.foodres.2004.07.013",
+        "title": "An in vitro model to study the intestinal absorption of carotenoids",
+        "authorString": "During A, Harrison EH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "During A",
+              "lastName": "During",
+              "firstName": "A",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6878-0870"
+              }
+            },
+            {
+              "fullName": "Harrison EH",
+              "lastName": "Harrison",
+              "firstName": "E H",
+              "initials": "EH"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6878-0870"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8-9",
+          "volume": "38",
+          "journalIssueId": 1429759,
+          "dateOfPublication": "2005 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Food Res Int",
+            "title": "Food research international (Ottawa, Ont.)",
+            "essn": "1873-7145",
+            "issn": "1873-7145",
+            "isoabbreviation": "Food Res Int",
+            "nlmid": "9210143"
+          },
+          "printPublicationDate": "2005-01-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "1001-1008",
+        "abstractText": "An in vitro cell culture model to assess the intestinal absorption of carotenoids is described. When supplemented with taurocholate and oleic acid, differentiated Caco-2 cells on membranes are able to produce chylomicrons. Under conditions mimicking the in vivo postprandial state, Caco-2 cells take up carotenoids and secrete them incorporated into chylomicrons; the extents of absorption of all-trans, 9-cis, 13-cis beta-carotene, alpha-carotene, lutein, lycopene were 11%, 2%, 3%, 10%, 7%, and 3%, respectively. Saturation of beta-carotene transport through Caco-2 cells occurred at concentrations (>15 micromolar) higher than \"physiological\" concentrations. Finally, retinol supplementation resulted in an 1.7-fold increase in beta-carotene transport. The data suggest that (1) the intestinal absorption of carotenoids is facilitated by the participation of a specific epithelial transporter and (2) retinol promotes beta-carotene incorporation into larger, retinyl ester-enriched chylomicrons. The present in vitro cell culture system is a relevant model to study the intestinal absorption of carotenoids at the molecular level.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "ScienceDirect",
+              "url": "https://doi.org/10.1016/j.foodres.2004.07.013"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 25,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-09-09",
+        "dateOfCreation": "2005-09-09",
+        "dateOfRevision": "2022-11-22",
+        "firstPublicationDate": "2005-01-01",
+        "firstIndexDate": "2007-07-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "17431035",
+        "source": "MED",
+        "pmid": "17431035",
+        "pmcid": "PMC1851883",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC1851883"
+          ]
+        },
+        "doi": "10.1073/pnas.0701847104",
+        "title": "Identification of the special pair of photosystem II in a chlorophyll d-dominated cyanobacterium.",
+        "authorString": "Tomo T, Okubo T, Akimoto S, Yokono M, Miyashita H, Tsuchiya T, Noguchi T, Mimuro M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tomo T",
+              "lastName": "Tomo",
+              "firstName": "Tatsuya",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9369-1941"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Technology and Ecology, Hall of Global Environmental Research, Kyoto University, Kyoto 606-8501, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Okubo T",
+              "lastName": "Okubo",
+              "firstName": "Tatsunori",
+              "initials": "T"
+            },
+            {
+              "fullName": "Akimoto S",
+              "lastName": "Akimoto",
+              "firstName": "Seiji",
+              "initials": "S"
+            },
+            {
+              "fullName": "Yokono M",
+              "lastName": "Yokono",
+              "firstName": "Makio",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4813-2120"
+              }
+            },
+            {
+              "fullName": "Miyashita H",
+              "lastName": "Miyashita",
+              "firstName": "Hideaki",
+              "initials": "H"
+            },
+            {
+              "fullName": "Tsuchiya T",
+              "lastName": "Tsuchiya",
+              "firstName": "Tohru",
+              "initials": "T"
+            },
+            {
+              "fullName": "Noguchi T",
+              "lastName": "Noguchi",
+              "firstName": "Takumi",
+              "initials": "T"
+            },
+            {
+              "fullName": "Mimuro M",
+              "lastName": "Mimuro",
+              "firstName": "Mamoru",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4813-2120"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9369-1941"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "17",
+          "volume": "104",
+          "journalIssueId": 1391500,
+          "dateOfPublication": "2007 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+            "title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "essn": "1091-6490",
+            "issn": "0027-8424",
+            "isoabbreviation": "Proc Natl Acad Sci U S A",
+            "nlmid": "7505876"
+          },
+          "printPublicationDate": "2007-04-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "7283-7288",
+        "abstractText": "The composition of photosystem II (PSII) in the chlorophyll (Chl) d-dominated cyanobacterium Acaryochloris marina MBIC 11017 was investigated to enhance the general understanding of the energetics of the PSII reaction center. We first purified photochemically active complexes consisting of a 47-kDa Chl protein (CP47), CP43' (PcbC), D1, D2, cytochrome b(559), PsbI, and a small polypeptide. The pigment composition per two pheophytin (Phe) a molecules was 55 +/- 7 Chl d, 3.0 +/- 0.4 Chl a, 17 +/- 3 alpha-carotene, and 1.4 +/- 0.2 plastoquinone-9. The special pair was detected by a reversible absorption change at 713 nm (P713) together with a cation radical band at 842 nm. FTIR difference spectra of the specific bands of a 3-formyl group allowed assignment of the special pair. The combined results indicate that the special pair comprises a Chl d homodimer. The primary electron acceptor was shown by photoaccumulation to be Phe a, and its potential was shifted to a higher value than that in the Chl a/Phe a system. The overall energetics of PSII in the Chl d system are adjusted to changes in the redox potentials, with P713 as the special pair using a lower light energy at 713 nm. Taking into account the reported downward shift in the potential of the special pair of photosystem I (P740) in A. marina, our findings lend support to the idea that changes in photosynthetic pigments combine with a modification of the redox potentials of electron transfer components to give rise to an energetic adjustment of the total reaction system.",
+        "affiliation": "Department of Technology and Ecology, Hall of Global Environmental Research, Kyoto University, Kyoto 606-8501, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyanobacteria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chlorophyll",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photosystem II Protein Complex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coenzymes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Subunits",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electrophoresis, Polyacrylamide Gel"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photochemistry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electrons"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pigments, Biological",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Coenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Chlorophyll",
+              "registryNumber": "1406-65-1"
+            },
+            {
+              "name": "Protein Subunits",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Photosystem II Protein Complex",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pigments, Biological",
+              "registryNumber": "0"
+            },
+            {
+              "name": "chlorophyll d",
+              "registryNumber": "60L1FX1O1U"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.0701847104"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1851883"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1851883?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.0701847104"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 89,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-06-06",
+        "dateOfCreation": "2007-04-14",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2007-04-12",
+        "firstPublicationDate": "2007-04-12",
+        "firstIndexDate": "2010-09-16",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "14709673",
+        "source": "MED",
+        "pmid": "14709673",
+        "pmcid": "PMC314197",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC314197"
+          ]
+        },
+        "doi": "10.1073/pnas.2237237100",
+        "title": "The Arabidopsis LUT1 locus encodes a member of the cytochrome p450 family that is required for carotenoid epsilon-ring hydroxylation activity.",
+        "authorString": "Tian L, Musetti V, Kim J, Magallanes-Lundback M, DellaPenna D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tian L",
+              "lastName": "Tian",
+              "firstName": "Li",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Musetti V",
+              "lastName": "Musetti",
+              "firstName": "Valeria",
+              "initials": "V"
+            },
+            {
+              "fullName": "Kim J",
+              "lastName": "Kim",
+              "firstName": "Joonyul",
+              "initials": "J"
+            },
+            {
+              "fullName": "Magallanes-Lundback M",
+              "lastName": "Magallanes-Lundback",
+              "firstName": "Maria",
+              "initials": "M"
+            },
+            {
+              "fullName": "DellaPenna D",
+              "lastName": "DellaPenna",
+              "firstName": "Dean",
+              "initials": "D"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "recommended_reviews",
+            "related_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "101",
+          "journalIssueId": 1186058,
+          "dateOfPublication": "2004 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+            "title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "essn": "1091-6490",
+            "issn": "0027-8424",
+            "isoabbreviation": "Proc Natl Acad Sci U S A",
+            "nlmid": "7505876"
+          },
+          "printPublicationDate": "2004-01-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "402-407",
+        "abstractText": "Lutein, a dihydroxy xanthophyll, is the most abundant carotenoid in plant photosynthetic tissues and plays crucial structural and functional roles in the light-harvesting complexes. Carotenoid beta-and epsilon-hydroxylases catalyze the formation of lutein from alpha-carotene (beta,epsilon-carotene). In contrast to the well studied beta-hydroxylases that have been cloned and characterized from many organisms, the epsilon-hydroxylase has only been genetically defined by the lut1 mutation in Arabidopsis. We have isolated the LUT1 gene by positional cloning and found that, in contrast to all known carotenoid hydroxylases, which are the nonheme diiron monooxygenases, LUT1 encodes a cytochrome p450-type monooxygenase, CYP97C1. Introduction of a null mutant allele of LUT1, lut1-3, into the beta-hydroxylase 1/beta-hydroxylase 2 (b1 b2) double-mutant background, in which both Arabidopsis beta-hydroxylases are disrupted, yielded a genotype (lut1-3 b1 b2) in which all three known carotenoid hydroxylase activities are eliminated. Surprisingly, hydroxylated beta-rings were still produced in lut1-3 b1 b2, suggesting that a fourth unknown carotenoid beta-hydroxylase exists in vivo that is structurally unrelated to beta-hydroxylase 1 or 2. A second chloroplast-targeted member of the CYP97 family, CYP97A3, is 49% identical to LUT1 and hypothesized as a likely candidate for this additional beta-ring hydroxylation activity. Overall, LUT1 defines a class of carotenoid hydroxylases that has evolved independently from and uses a different mechanism than nonheme diiron beta-hydroxylases.",
+        "affiliation": "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lutein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Arabidopsis Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA, Plant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromosome Mapping"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cloning, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Complementation Test"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phylogeny"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amino Acid Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Base Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxylation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genes, Plant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Sequence Data"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "DNA, Plant",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Arabidopsis Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lutein",
+              "registryNumber": "X72A60C9MT"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.2237237100"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC314197"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC314197?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.2237237100"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 155,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL",
+            "INTERPRO",
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen"
+          ]
+        },
+        "dateOfCompletion": "2004-02-25",
+        "dateOfCreation": "2004-01-08",
+        "dateOfRevision": "2024-01-09",
+        "firstPublicationDate": "2004-01-01",
+        "firstIndexDate": "2010-09-22",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16177187",
+        "source": "MED",
+        "pmid": "16177187",
+        "doi": "10.1093/jn/135.10.2305",
+        "title": "Carotenoid transport is decreased and expression of the lipid transporters SR-BI, NPC1L1, and ABCA1 is downregulated in Caco-2 cells treated with ezetimibe.",
+        "authorString": "During A, Dawson HD, Harrison EH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "During A",
+              "lastName": "During",
+              "firstName": "Alexandrine",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of International Health, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD 21205, USA. duringa@ba.ars.usda.gov"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dawson HD",
+              "lastName": "Dawson",
+              "firstName": "Harry D",
+              "initials": "HD"
+            },
+            {
+              "fullName": "Harrison EH",
+              "lastName": "Harrison",
+              "firstName": "Earl H",
+              "initials": "EH"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "135",
+          "journalIssueId": 1260571,
+          "dateOfPublication": "2005 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "J Nutr",
+            "title": "The Journal of nutrition",
+            "essn": "1541-6100",
+            "issn": "0022-3166",
+            "isoabbreviation": "J Nutr",
+            "nlmid": "0404243"
+          },
+          "printPublicationDate": "2005-10-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "2305-2312",
+        "abstractText": "Data suggest that intestinal carotenoid absorption is a facilitated process. The present study was conducted to determine whether carotenoids and cholesterol share common pathways (transporters) for their intestinal absorption. Differentiated Caco-2 cells on membranes were incubated (16 h) with a carotenoid (1 micromol/L) with or without ezetimibe (EZ; Zetia, an inhibitor of cholesterol transport), and with or without antibodies against the receptors, cluster determinant 36 (CD36) and scavenger receptor class B, type I (SR-BI). Carotenoid transport in Caco-2 cells (cellular uptake + secretion) was decreased by EZ (10 mg/L) as follows: beta-carotene approximately alpha-carotene (50% inhibition) >> beta-cryptoxanthin approximately lycopene (20%) >> lutein:zeaxanthin (1:1) (7%). EZ reduced cholesterol transport by 31%, but not retinol transport. beta-Carotene transport was also inhibited by anti-SR-BI, but not by anti-CD36. The inhibitory effects of EZ and anti-SR-BI on beta-carotene transport were additive, indicating that they may have different targets. Finally, differentiated Caco-2 cells treated with EZ showed a significant decrease in mRNA expression for the surface receptors SR-BI, Niemann-Pick type C1 Like 1 protein (NPC1L1), and ATP-binding cassette transporter, subfamily A (ABCA1) and for the nuclear receptors retinoid acid receptor (RAR)gamma, sterol-regulatory element binding proteins (SREBP)-1 and -2, and liver X receptor (LXR)beta as assessed by real-time PCR analysis. The data indicate that 1) EZ is an inhibitor of carotenoid transport, an effect that decreases with increasing polarity of the carotenoid molecule, 2) SR-BI is involved in carotenoid transport, and 3) EZ may act, not only by interacting physically with cholesterol transporters as previously suggested, but also by downregulating expression of these proteins. The cellular uptake and efflux of carotenoids, like that of cholesterol, likely involve more than one transporter.",
+        "affiliation": "Department of International Health, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD 21205, USA. duringa@ba.ars.usda.gov",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "R01 HL049879",
+              "orderIn": 0
+            },
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "HL49879",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestine, Small",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon Radioisotopes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Azetidines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Transport Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP-Binding Cassette Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticholesteremic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Down-Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport, Active",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Scavenger Receptors, Class B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcriptional Activation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter 1"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ezetimibe"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CD36 Antigens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "NPC1L1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP binding cassette transporter 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Vitamin A",
+              "registryNumber": "11103-57-4"
+            },
+            {
+              "name": "Anticholesteremic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Carbon Radioisotopes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Azetidines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP-Binding Cassette Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Scavenger Receptors, Class B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "SCARB1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha-carotene",
+              "registryNumber": "45XWE1Z69V"
+            },
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            },
+            {
+              "name": "ABCA1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ezetimibe",
+              "registryNumber": "EOR26LQQ24"
+            },
+            {
+              "name": "CD36 Antigens",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/full/135/10/2305"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/abstract/135/10/2305"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jn/135.10.2305"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 225,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-01-11",
+        "dateOfCreation": "2005-09-24",
+        "dateOfRevision": "2023-02-16",
+        "firstPublicationDate": "2005-10-01",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "14696128",
+        "source": "MED",
+        "pmid": "14696128",
+        "doi": "10.1002/ijc.11535",
+        "title": "Modification effects of GSTM1, GSTT1 and CYP2E1 polymorphisms on associations between raw salted food and incomplete intestinal metaplasia in a high-risk area of stomach cancer.",
+        "authorString": "Chen SY, Liu TY, Shun CT, Wu MS, Lu TH, Lin JT, Sheu JC, Santella RM, Chen CJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chen SY",
+              "lastName": "Chen",
+              "firstName": "Shu-Yuan",
+              "initials": "SY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Biostatistics and Bioinformatics, National Health Research Institutes, Taipei, Taiwan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu TY",
+              "lastName": "Liu",
+              "firstName": "Tzeng-Ying",
+              "initials": "TY"
+            },
+            {
+              "fullName": "Shun CT",
+              "lastName": "Shun",
+              "firstName": "Chia-Tung",
+              "initials": "CT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0468-4468"
+              }
+            },
+            {
+              "fullName": "Wu MS",
+              "lastName": "Wu",
+              "firstName": "Ming-Shiang",
+              "initials": "MS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1940-6428"
+              }
+            },
+            {
+              "fullName": "Lu TH",
+              "lastName": "Lu",
+              "firstName": "Tsung-Hsueh",
+              "initials": "TH"
+            },
+            {
+              "fullName": "Lin JT",
+              "lastName": "Lin",
+              "firstName": "Jaw-Town",
+              "initials": "JT"
+            },
+            {
+              "fullName": "Sheu JC",
+              "lastName": "Sheu",
+              "firstName": "Jin-Chuan",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2503-7139"
+              }
+            },
+            {
+              "fullName": "Santella RM",
+              "lastName": "Santella",
+              "firstName": "Regina M",
+              "initials": "RM"
+            },
+            {
+              "fullName": "Chen CJ",
+              "lastName": "Chen",
+              "firstName": "Chien-Jen",
+              "initials": "CJ"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0468-4468"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1940-6428"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2503-7139"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "108",
+          "journalIssueId": 1184529,
+          "dateOfPublication": "2004 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Int J Cancer",
+            "title": "International journal of cancer",
+            "essn": "1097-0215",
+            "issn": "0020-7136",
+            "isoabbreviation": "Int J Cancer",
+            "nlmid": "0042124"
+          },
+          "printPublicationDate": "2004-02-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "606-612",
+        "abstractText": "Incomplete intestinal metaplasia (IM) is a precursor of stomach cancer. To identify risk factors of incomplete IM, a 2-stage survey was carried out in 1995 among 1,485 residents in Matzu, an area with highest mortality from stomach cancer in Taiwan. There were 312 study subjects including 174 men and 138 women sampled for the gastroendoscopic examination of IM. Information on personal and familial history of stomach cancer, cigarette smoking, alcohol consumption and intake frequency of various salted food items were obtained by personal interview based on a structured questionnaire. Blood samples were collected from each participant. Four biopsies per subject were taken from all subjects at gastroendoscopic examination to diagnose the status of IM pathologically. The Helicobacter pylori in biopsies was detected by the histomorphological or immunochemistry method, and antibodies against H. pylori in serum by the enzyme-linked immunosorbent assay. Plasma level of selenium was determined by atomic absorption spectrometry, plasma level of retinol, alpha-tocopherol, alpha-carotene, and beta-carotene by high performance liquid chromatography, genotypes of glutathione S-transferase (GST) M1 and T1 and cytochrome P450 (CYP) 2E1 by polymerase chain reaction. The significant association between history of stomach cancer among first-degree relatives and incomplete IM was found (odds ratio [OR] = 2.50; 95% confidence interval [CI] = 1.15-5.43). There was no association between H. pylori infection and incomplete IM. Alcohol drinkers for >20 years had an elevated risk compared to non-drinkers (OR = 3.34; 95% CI = 1.19-9.39). No associations between incomplete IM and plasma levels of selenium, retinol, alpha-tocopherol, alpha-carotene and beta-carotene were found. Salted food including salted meat, dehydrated salted vegetables and raw salted seafood consumed at ages of </=15 and 16-30 years old was associated with an increased IM risk with OR ranging from 2-3. More striking associations between incomplete IM and salted food intake were observed among subjects with genotypes of GSTM1 null, GSTT1 non-null and CYP2E1 c1/c1. Our study suggests the importance of gene-environment interaction on the development of incomplete IM.",
+        "affiliation": "Division of Biostatistics and Bioinformatics, National Health Research Institutes, Taipei, Taiwan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stomach Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metaplasia"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Selenium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sodium, Dietary",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2E1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Transferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "alpha-Tocopherol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Risk Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Case-Control Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genotype"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polymorphism, Genetic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Taiwan",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "glutathione S-transferase T1",
+              "registryNumber": "EC 2.5.1.-"
+            },
+            {
+              "name": "Glutathione Transferase",
+              "registryNumber": "EC 2.5.1.18"
+            },
+            {
+              "name": "Sodium, Dietary",
+              "registryNumber": "0"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            },
+            {
+              "name": "Selenium",
+              "registryNumber": "H6241UJ22B"
+            },
+            {
+              "name": "alpha-Tocopherol",
+              "registryNumber": "H4N855PNZ1"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2E1",
+              "registryNumber": "EC 1.14.13.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ijc.11535"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ijc.11535"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ijc.11535"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ijc.11535"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-02-05",
+        "dateOfCreation": "2003-12-30",
+        "dateOfRevision": "2026-01-28",
+        "firstPublicationDate": "2004-02-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "1901441",
+        "source": "MED",
+        "pmid": "1901441",
+        "doi": "10.1093/ajcn/53.4.1071s",
+        "title": "Effects of palm carotenoids in rat hepatic cytochrome P450-mediated benzo(a)pyrene metabolism.",
+        "authorString": "Tan B, Chu FL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tan B",
+              "lastName": "Tan",
+              "firstName": "B",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science, Chenoweth Laboratory, University of Massachusetts, Amherst."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chu FL",
+              "lastName": "Chu",
+              "firstName": "F L",
+              "initials": "FL"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4 Suppl",
+          "volume": "53",
+          "journalIssueId": 835338,
+          "dateOfPublication": "1991 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 1991,
+          "journal": {
+            "medlineAbbreviation": "Am J Clin Nutr",
+            "title": "The American journal of clinical nutrition",
+            "essn": "1938-3207",
+            "issn": "0002-9165",
+            "isoabbreviation": "Am J Clin Nutr",
+            "nlmid": "0376027"
+          },
+          "printPublicationDate": "1991-04-01"
+        },
+        "pubYear": "1991",
+        "pageInfo": "1071S-1075S",
+        "abstractText": "Using benzo(a)pyrene (BaP) metabolism as a probe for chemical carcinogenesis, in vitro and in vivo effects of palm-oil carotenoid [beta-carotene (BC), alpha-carotene (AC), or canthaxanthin (CTX)] on BaP metabolism in the rat hepatic cytochrome P450-mediated monooxygenase system were studied. Apparent Michaelis-Menten constants (Km) for formation of the precursor carcinogen, 7,8-dihydrodiol BaP, were found to be 14.4 (BC), 1.74 (AC), and 0.7 (CTX) mumol/L. The order of anticarcinogenic strength established in this study was BC much greater than AC greater than CTX. Increased formation of the detoxification intermediate, 3-hydroxy BaP, with increased carotenoid concentration was observed. The order of detoxification strength was BC greater than AC = CTX. The presence of carotenoids in vivo inhibited BaP metabolism. Using 9,10-dihydrodiol BaP as an indicator for inhibition, the order of the antioxidative activity was palm oil (with carotenoids) greater than BC greater than CTX greater than palm oil (without carotenoids). BC and AC may selectively modify the rat-liver microsomal enzymes, thus providing a biochemical mechanism for the inhibitory effect of palm carotenoids on chemical carcinogenesis.",
+        "affiliation": "Department of Food Science, Chenoweth Laboratory, University of Massachusetts, Amherst.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCRR NIH HHS",
+              "acronym": "RR",
+              "grantId": "1RR07048-21",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred Strains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Canthaxanthin"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzo(a)pyrene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Oils",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Palm Oil"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Plant Oils",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzo(a)pyrene",
+              "registryNumber": "3417WMA06D"
+            },
+            {
+              "name": "Canthaxanthin",
+              "registryNumber": "4C3C6403MU"
+            },
+            {
+              "name": "palm oil",
+              "registryNumber": "5QUO05548Z"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1093/ajcn/53.4.1071s"
+            },
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "American Society for Nutrition",
+              "url": "http://www.ajcn.org/cgi/pmidlookup?pmid=1901441"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ajcn/53.4.1071S"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1991-05-07",
+        "dateOfCreation": "1991-04-01",
+        "dateOfRevision": "2018-05-08",
+        "firstPublicationDate": "1991-04-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

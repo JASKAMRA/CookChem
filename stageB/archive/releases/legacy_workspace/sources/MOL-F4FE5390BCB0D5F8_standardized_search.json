@@ -1,0 +1,785 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "TITLE_ABS:\"Glucoalyssin\" AND (TITLE_ABS:drug OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:pharmacodynamic OR TITLE_ABS:absorption OR TITLE_ABS:metabolism OR TITLE_ABS:transporter) AND FIRST_PDATE:[* TO 2026-10-06]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35696949",
+        "source": "MED",
+        "pmid": "35696949",
+        "doi": "10.1016/j.foodchem.2022.133414",
+        "title": "Identification and quantification of intact glucosinolates at different vegetative growth periods in Chinese cabbage cultivars by UHPLC-Q-TOF-MS.",
+        "authorString": "Zhou B, Huang W, Feng X, Liu Q, Ibrahim SA, Liu Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhou B",
+              "lastName": "Zhou",
+              "firstName": "Bei",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Huazhong Agricultural University, Wuhan, Hubei 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang W",
+              "lastName": "Huang",
+              "firstName": "Wen",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Huazhong Agricultural University, Wuhan, Hubei 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Feng X",
+              "lastName": "Feng",
+              "firstName": "Xi",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7229-3752"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutrition, Food Science and Packaging, San Jose State University, San Jose, CA 95192, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Q",
+              "lastName": "Liu",
+              "firstName": "Qian",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Huazhong Agricultural University, Wuhan, Hubei 430070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ibrahim SA",
+              "lastName": "Ibrahim",
+              "firstName": "Salam A",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Family and Consumer Sciences, North Carolina A&T State University, 171 Carver Hall, Greensboro, NC 27411, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Ying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food Science and Technology, Huazhong Agricultural University, Wuhan, Hubei 430070, China. Electronic address: yingliu@mail.hzau.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7229-3752"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9380-3424"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-3489-6251"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "393",
+          "journalIssueId": 3379074,
+          "dateOfPublication": "2022 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Food Chem",
+            "title": "Food chemistry",
+            "essn": "1873-7072",
+            "issn": "1873-7072",
+            "isoabbreviation": "Food Chem",
+            "nlmid": "7702639"
+          },
+          "printPublicationDate": "2022-11-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "133414",
+        "abstractText": "The aims of this study were to investigate glucosinolate variations in Chinese cabbage cultivars at different growth periods. Glucosinolates in two types of Chinese cabbage (Xiayangbai and Zaoshu-5) at different growth periods (seeds, germination, seedling, and rosette period) were investigated. Thirteen glucosinolates were identified and quantified using UHPLC-Q-TOF-MS. Concentrations of the glucosinolates were significantly different between Xiayangbai and Zaoshu-5. The seed period generated the highest concentration of glucosinolates, and aliphatic glucosinolate predominated in seeds, seedling, and leaves of the rosette as well as during germination. However, the dominant glucosinolate in the roots was an aromatic glucosinolate (gluconasturtiin). In addition, glucoerucin was only found in the roots of rosettes. There were positive significant correlations with each other among gluconapin, glucobrassicanapin, glucoraphanin, glucoalyssin, and 4-hydroxyglucobrassicin. Our results released the metabolism pathways of glucosinolates in Chinese cabbage, which provided scientific evidence to develop functional foods with higher glucosinolate.",
+        "affiliation": "College of Food Science and Technology, Huazhong Agricultural University, Wuhan, Hubei 430070, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Hubei Agricultural Science and Technology Innovation Center",
+              "grantId": "2021-620-000-001-031",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brassica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "China"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seedlings",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Glucosinolate",
+            "Chinese cabbage",
+            "Growth periods",
+            "Uhplc-q-tof-ms"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.foodchem.2022.133414"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-06-24",
+        "dateOfCreation": "2022-06-13",
+        "dateOfRevision": "2022-06-24",
+        "electronicPublicationDate": "2022-06-08",
+        "firstPublicationDate": "2022-06-08",
+        "firstIndexDate": "2022-06-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32784853",
+        "source": "MED",
+        "pmid": "32784853",
+        "pmcid": "PMC7466272",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7466272"
+          ]
+        },
+        "doi": "10.3390/plants9081006",
+        "title": "Tumorous Stem Development of <i>Brassica Juncea</i>: A Complex Regulatory Network of Stem Formation and Identification of Key Genes in Glucosinolate Biosynthesis.",
+        "authorString": "Li M, Xie F, Li J, Sun B, Luo Y, Zhang Y, Chen Q, Wang Y, Zhang F, Zhang Y, Lin Y, Wang X, Tang H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li M",
+              "lastName": "Li",
+              "firstName": "Mengyao",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3199-9465"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie F",
+              "lastName": "Xie",
+              "firstName": "Fangjie",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun B",
+              "lastName": "Sun",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3306-656X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo Y",
+              "lastName": "Luo",
+              "firstName": "Ya",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yong",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2281-4481"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Q",
+              "lastName": "Chen",
+              "firstName": "Qing",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang F",
+              "lastName": "Zhang",
+              "firstName": "Fen",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yunting",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin Y",
+              "lastName": "Lin",
+              "firstName": "Yuanxiu",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6542-7836"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xiaorong",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9332-9571"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang H",
+              "lastName": "Tang",
+              "firstName": "Haoru",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6008-2747"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  },
+                  {
+                    "affiliation": "Institute of Pomology and Olericulture, Sichuan Agricultural University, Chengdu 611130, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6008-2747"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2281-4481"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3199-9465"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6542-7836"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9332-9571"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0769-2874"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3306-656X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "9",
+          "journalIssueId": 2991483,
+          "dateOfPublication": "2020 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Plants (Basel)",
+            "title": "Plants (Basel, Switzerland)",
+            "essn": "2223-7747",
+            "issn": "2223-7747",
+            "isoabbreviation": "Plants (Basel)",
+            "nlmid": "101596181"
+          },
+          "printPublicationDate": "2020-08-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "E1006",
+        "abstractText": "Stem mustard is a stem variety of mustard, an important <i>Brassica</i> vegetable. The formation and development of the tumorous stem, which is the key organ for the direct yield and quality, is a complex biological process involving morphogenesis, material accumulation and gene regulation. In this study, we demonstrated through anatomical studies that stem swelling is mainly dependent on the increase in the number of cells and the volume of parenchyma cells in the cortex and pith. To further understand transcript and metabolic changes during stem swelling, we obtained 27,901 differentially expressed genes, of which 671 were specifically detected using transcriptome sequencing technology in all four stages of stem swelling. Functional annotation identified enrichment for genes involved in photosynthesis, energy metabolism, cell growth, sulfur metabolism and glucosinolate biosynthesis. Glucosinolates are a group of nitrogen- and sulfur-containing secondary metabolites, which largely exist in the Cruciferous vegetables. HPLC analysis of the contents and components of glucosinolates in four different stem development stages revealed eight glucosinolates, namely, three aliphatic glucosinolates (sinigrin, glucoalyssin and gluconapin), four indole glucosinolates (4-hydroxyglucobrassicin, glucobrassicin, 4-methoxyglucobrassicin and neoglucobrassicin) and one aromatic glucosinolate (gluconasturtiin). All these types of glucosinolates showed a significant downward trend during the stem swelling period. The content of aliphatic glucosinolates was the highest, with sinigrin being the main component. In addition, qPCR was used to validate the expression of nine genes involved in glucosinolate biosynthesis. Most of these genes were down-regulated during stem swelling in qPCR, which is consistent with transcriptome data. These data provide a basic resource for further molecular and genetic research on <i>Brassica juncea</i>.",
+        "affiliation": "College of Horticulture, Sichuan Agricultural University, Chengdu 611130, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Shuangzhi project of Sichuan Agricultural University",
+              "grantId": "No. 03573134",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shuangzhi project of Sichuan Agricultural University",
+              "grantId": "No. 035-1921993014",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Brassica juncea",
+            "Differentially expressed genes",
+            "glucosinolates",
+            "Transcriptome Sequencing"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/2223-7747/9/8/1006/pdf?version=1596968030"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/plants9081006"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7466272"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7466272?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2020-08-14",
+        "dateOfRevision": "2024-03-29",
+        "electronicPublicationDate": "2020-08-09",
+        "firstPublicationDate": "2020-08-09",
+        "firstIndexDate": "2020-08-14",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND43848938",
+        "source": "AGR",
+        "doi": "10.1002/jsfa.2488",
+        "title": "Purification of major glucosinolates from Brassicaceae seeds and preparation of isothiocyanate and amine metabolites",
+        "authorString": "Song L, Iori R, Thornalley PJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Song L",
+              "lastName": "Song",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Iori R",
+              "lastName": "Iori",
+              "firstName": "R",
+              "initials": "R"
+            },
+            {
+              "fullName": "Thornalley PJ",
+              "lastName": "Thornalley",
+              "firstName": "P J",
+              "initials": "PJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7659-443X"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7659-443X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "86",
+          "journalIssueId": 1450472,
+          "dateOfPublication": "2006 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "J Sci Food Agric",
+            "title": "Journal of the science of food and agriculture",
+            "essn": "1097-0010",
+            "issn": "1097-0010",
+            "isoabbreviation": "J Sci Food Agric",
+            "nlmid": "0376334"
+          },
+          "printPublicationDate": "2006-06-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "1271-1280",
+        "abstractText": "Consumption of Brassica vegetables containing glucosinolates is associated with decreased risk of cancer at several tissue sites. Studies of the relative potency and metabolism of the major dietary isothiocyanates have been hindered by limited availability of high-purity isothiocyanates and their glucosinolate precursors. We describe a simple procedure for the preparation of glucosinolates sinigrin, gluconapin, progoitrin, glucoiberin, glucoraphanin, glucoalyssin and gluconasturtiin from vegetable seeds. Glucosinolates were extracted from the seeds of mustard, oilseed, broccoli, cauliflower and winter cress. Purification by preparative anion exchange and reversed-phase column chromatography gave the pure glucosinolates. Good separation was achieved without using ion-pair reagents. Related isothiocyanates and amine degradation products were prepared by myrosinase-catalysed hydrolysis of the corresponding glucosinolate and by organic synthesis, respectively. The compounds were characterized by analytical HPLC, 1H NMR, 13C NMR, elemental analysis and mass spectrometry. Optimized conditions for detection and quantitation of these glucosinolates and metabolites by LC-MS/MS are also given. Large-scale glucosinolate preparation could be performed, giving amounts suitable for pharmacological evaluation in vivo. These methods will facilitate studies of the pharmacological activity and metabolism of dietary glucosinolates.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "New or refined analytical methods (incl. reviews)",
+            "Compositional determination",
+            "Vegetables, fruits, nuts, seeds and products",
+            "Bioactive components (excl tocopherols etc)",
+            "Chromatographic (GC, HPLC, TLC)",
+            "Spectroscopic (UV, FL, IR, NMR, AAS)",
+            "Italy",
+            "UK"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "WileyInterScience",
+              "url": "https://doi.org/10.1002/jsfa.2488"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-11-02",
+        "dateOfCreation": "2006-11-02",
+        "dateOfRevision": "2022-11-19",
+        "firstPublicationDate": "2006-06-01",
+        "firstIndexDate": "2008-05-07",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

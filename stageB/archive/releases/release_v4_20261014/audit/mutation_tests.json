@@ -1,0 +1,38 @@
+{
+  "tests": [
+    {
+      "Test": "v3 duplicate ID",
+      "Passed": true
+    },
+    {
+      "Test": "v3 broken reference",
+      "Passed": true
+    },
+    {
+      "Test": "v3 numerical mutation",
+      "Passed": true
+    },
+    {
+      "Test": "v3 bibliographic corruption",
+      "Passed": true
+    },
+    {
+      "Test": "v3 baseline alteration",
+      "Passed": true
+    },
+    {
+      "Test": "v3 missing selection",
+      "Passed": true
+    },
+    {
+      "Test": "v4 corrected claim tamper",
+      "Passed": true
+    },
+    {
+      "Test": "v4 significance overclaim",
+      "Passed": true
+    }
+  ],
+  "passed": 8,
+  "total": 8
+}

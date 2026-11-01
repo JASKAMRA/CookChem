@@ -1,0 +1,2102 @@
+{
+  "version": "6.9",
+  "hitCount": 9,
+  "request": {
+    "queryString": "TITLE:\"Theobromine\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:disposition) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30852283",
+        "source": "MED",
+        "pmid": "30852283",
+        "doi": "10.1016/j.saa.2019.03.001",
+        "title": "Study on the interaction and antioxidant activity of theophylline and theobromine with SOD by spectra and calculation.",
+        "authorString": "Wu F, Liu R, Shen X, Xu H, Sheng L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu F",
+              "lastName": "Wu",
+              "firstName": "Fufang",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry and Materials Engineering, Fuyang Normal College, Fuyang 236037, China; Engineering Research Center of Biomass Conversion and Pollution Prevention Control of Anhui Provincial Department of Education, Fuyang 236037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu R",
+              "lastName": "Liu",
+              "firstName": "Ruirui",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry and Materials Engineering, Fuyang Normal College, Fuyang 236037, China; Engineering Research Center of Biomass Conversion and Pollution Prevention Control of Anhui Provincial Department of Education, Fuyang 236037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shen X",
+              "lastName": "Shen",
+              "firstName": "Xiaobao",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry and Materials Engineering, Fuyang Normal College, Fuyang 236037, China; Engineering Research Center of Biomass Conversion and Pollution Prevention Control of Anhui Provincial Department of Education, Fuyang 236037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu H",
+              "lastName": "Xu",
+              "firstName": "Huajie",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry and Materials Engineering, Fuyang Normal College, Fuyang 236037, China; Engineering Research Center of Biomass Conversion and Pollution Prevention Control of Anhui Provincial Department of Education, Fuyang 236037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sheng L",
+              "lastName": "Sheng",
+              "firstName": "Liangquan",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Chemistry and Materials Engineering, Fuyang Normal College, Fuyang 236037, China; Engineering Research Center of Biomass Conversion and Pollution Prevention Control of Anhui Provincial Department of Education, Fuyang 236037, China. Electronic address: Shenglq@fync.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "215",
+          "journalIssueId": 2798503,
+          "dateOfPublication": "2019 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Spectrochim Acta A Mol Biomol Spectrosc",
+            "title": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+            "essn": "1873-3557",
+            "issn": "1386-1425",
+            "nlmid": "9602533",
+            "isoabbreviation": "Spectrochim Acta A Mol Biomol Spectrosc"
+          },
+          "printPublicationDate": "2019-05-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "354-362",
+        "abstractText": "Theophylline (TP) and theobromine (TB) are the methyl derivatives of xanthine. The antioxidation of TP and TB as well as the effect of the antioxidation and activity of copper‑zinc superoxide dismutase (SOD) with TP and TB were investigated. The contents of MDA in cells showed that both TP (14.49 μmol/g) and TB (14.25 μmol/g) are active in oxidation resistance and closed to the antioxidant effect of SOD (13.77 μmol/g). With the formation of TP-SOD and TB-SOD, the antioxidant ability can be superimposed. The interactions between TP/TB and SOD were studied by ultraviolet spectrum, fluorescence spectrum and molecular docking. The results showed that the complex of TP/TB and SOD with 1:1 component was stabilized by hydrogen bonding and van der Waals forces. The analysis also indicated that the microenvironment and structure of SOD were changed. All of the results indicate that the complex formation of TP-SOD and TB-SOD can maintain their respective antioxidant effects without changes in the activity of SOD.",
+        "affiliation": "School of Chemistry and Materials Engineering, Fuyang Normal College, Fuyang 236037, China; Engineering Research Center of Biomass Conversion and Pollution Prevention Control of Anhui Provincial Department of Education, Fuyang 236037, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Anhui Province Foundation",
+              "grantId": "18030701213",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fuyang Municipal Government",
+              "grantId": "XDHX2016026",
+              "orderIn": 0
+            },
+            {
+              "agency": "Anhui Province Foundation",
+              "grantId": "gxbj ZD21",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fuyang Municipal Government",
+              "grantId": "XDHX2016009",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "21602029",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Malondialdehyde"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theophylline",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Superoxide Dismutase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Antioxidation",
+            "Theophylline",
+            "Theobromine",
+            "Superoxide Dismutase (Sod, Ec 1.15.1.1)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Superoxide Dismutase",
+              "registryNumber": "EC 1.15.1.1"
+            },
+            {
+              "name": "Malondialdehyde",
+              "registryNumber": "4Y8F71G49Q"
+            },
+            {
+              "name": "Theophylline",
+              "registryNumber": "C137DTR5RG"
+            },
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.saa.2019.03.001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-05-13",
+        "dateOfCreation": "2019-03-11",
+        "dateOfRevision": "2019-05-13",
+        "electronicPublicationDate": "2019-03-03",
+        "firstPublicationDate": "2019-03-03",
+        "firstIndexDate": "2019-03-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "27662634",
+        "source": "MED",
+        "pmid": "27662634",
+        "doi": "10.1002/dta.2097",
+        "title": "Control of methylxanthines in the competition horse: pharmacokinetic/pharmacodynamic studies on caffeine, theobromine and theophylline for the assessment of irrelevant concentrations.",
+        "authorString": "Machnik M, Kaiser S, Koppe S, Kietzmann M, Schenk I, Düe M, Thevis M, Schänzer W, Toutain PL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Machnik M",
+              "lastName": "Machnik",
+              "firstName": "Marc",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1961-0881"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Preventive Doping Research - Institute of Biochemistry, German Sport University Cologne, Cologne, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaiser S",
+              "lastName": "Kaiser",
+              "firstName": "Simone",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Toxicology and Pharmacy, University of Veterinary Medicine Hannover, Hannover, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Koppe S",
+              "lastName": "Koppe",
+              "firstName": "Sophie",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Toxicology and Pharmacy, University of Veterinary Medicine Hannover, Hannover, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kietzmann M",
+              "lastName": "Kietzmann",
+              "firstName": "Manfred",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, Toxicology and Pharmacy, University of Veterinary Medicine Hannover, Hannover, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schenk I",
+              "lastName": "Schenk",
+              "firstName": "Ina",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Preventive Doping Research - Institute of Biochemistry, German Sport University Cologne, Cologne, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Düe M",
+              "lastName": "Düe",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "German Equestrian Federation, Warendorf, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thevis M",
+              "lastName": "Thevis",
+              "firstName": "Mario",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Preventive Doping Research - Institute of Biochemistry, German Sport University Cologne, Cologne, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schänzer W",
+              "lastName": "Schänzer",
+              "firstName": "Wilhelm",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Preventive Doping Research - Institute of Biochemistry, German Sport University Cologne, Cologne, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Toutain PL",
+              "lastName": "Toutain",
+              "firstName": "Pierre-Louis",
+              "initials": "PL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Experimental Physiopathology and Toxicology, National Veterinary School of Toulouse, Toulouse, France."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1961-0881"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "9",
+          "journalIssueId": 2600578,
+          "dateOfPublication": "2017 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Drug Test Anal",
+            "title": "Drug testing and analysis",
+            "essn": "1942-7611",
+            "issn": "1942-7603",
+            "nlmid": "101483449",
+            "isoabbreviation": "Drug Test Anal"
+          },
+          "printPublicationDate": "2017-09-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "1372-1384",
+        "abstractText": "Methylxanthines positives in competition samples have challenged doping control laboratories and racing jurisdictions since methylxanthines are naturally occurring prohibited substances and often constituents of feed. For theobromine, an international threshold (renamed in International Residue Limit, IRL) of 2 µg/mL in urine has been established. On the basis of the data presented herein, a threshold or rather an IRL for theobromine in plasma of 0.3 µg/mL was proposed and was thereupon approved by the International Federation of Horseracing Authorities (IFHA). Official recommendations for reporting caffeine and theophylline are still lacking. The aim of the study was to investigate IRLs for theobromine in blood and for caffeine and theophylline in blood and urine. Therefore, a set of six administrations were carried out including both single i.v. and single oral administrations of caffeine, theobromine and theophylline. Plasma and urine concentrations were determined using a validated liquid chromatography-tandem mass spectrometry (LC-MS/MS). Applying the Toutain model approach an effective plasma concentration (EPC) of caffeine was estimated at 3.05 µg/mL, irrelevant concentrations in blood (IPC) and urine (IUC) approached 6 and 12 ng/mL, respectively. EPC of theobromine was calculated with 3.80 µg/mL, and irrelevant concentrations of theobromine were determined at 8 ng/mL in plasma and at 142 ng/mL in urine. Toutain modelling of the theophylline data produced an EPC, IPC, and IUC of 3.20 µg/mL, 6 ng/mL, and 75 ng/mL, respectively. The obtained irrelevant concentrations were used to postulate IRLs for theobromine in plasma and for caffeine and theophylline in plasma and urine. Copyright © 2016 John Wiley & Sons, Ltd.",
+        "affiliation": "Center for Preventive Doping Research - Institute of Biochemistry, German Sport University Cologne, Cologne, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "German Equestrian Federation (FN)",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Horses"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xanthines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theophylline",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Horse",
+            "LC-MS/MS",
+            "Doping Control",
+            "International Residue Limits",
+            "Methylxanthines, Irrelevant Concentrations"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "methylxanthine",
+              "registryNumber": "28109-92-4"
+            },
+            {
+              "name": "Xanthines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caffeine",
+              "registryNumber": "3G6A5W338E"
+            },
+            {
+              "name": "Theophylline",
+              "registryNumber": "C137DTR5RG"
+            },
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/dta.2097"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-07-10",
+        "dateOfCreation": "2016-09-24",
+        "dateOfRevision": "2018-07-10",
+        "electronicPublicationDate": "2016-11-04",
+        "firstPublicationDate": "2016-11-04",
+        "firstIndexDate": "2016-09-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19823947",
+        "source": "MED",
+        "pmid": "19823947",
+        "doi": "10.1007/s11033-009-9891-x",
+        "title": "The interaction of lysozyme with caffeine, theophylline and theobromine in solution.",
+        "authorString": "Zhang HM, Tang BP, Wang YQ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang HM",
+              "lastName": "Zhang",
+              "firstName": "Hong-Mei",
+              "initials": "HM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Jiangsu Provincial Key Laboratory of Coastal Wetland Bioresources and Environmental Protection, Institute of Applied Chemistry and Environmental Engineering, Yancheng Normal College, 224002, Yancheng City, Jiangsu Province, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang BP",
+              "lastName": "Tang",
+              "firstName": "Bo-Ping",
+              "initials": "BP"
+            },
+            {
+              "fullName": "Wang YQ",
+              "lastName": "Wang",
+              "firstName": "Yan-Qing",
+              "initials": "YQ"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "37",
+          "journalIssueId": 1762818,
+          "dateOfPublication": "2010 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Mol Biol Rep",
+            "title": "Molecular biology reports",
+            "essn": "1573-4978",
+            "issn": "0301-4851",
+            "nlmid": "0403234",
+            "isoabbreviation": "Mol Biol Rep"
+          },
+          "printPublicationDate": "2010-10-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "3127-3136",
+        "abstractText": "The interactions of lysozyme with caffeine (Caf), theophylline (Tph) and theobromine (Tbr) were investigated using UV-Vis absorption, fluorescence, synchronous fluorescence, and three-dimensional fluorescence spectra techniques. The results revealed that Caf (Tph or Tbr) caused the fluorescence quenching of lysozyme by the formation of Caf (Tph or Tbr)-lysozyme complex. The binding constants (K(A)) and thermodynamic parameters (ΔG°, ΔH°, ΔS°) at two different temperatures, the binding locality, and the binding power were obtained. The results showed that the process of binding Caf (Tph or Tbr) to lysozyme was a spontaneous molecular interaction procedure and the hydrophobic and electrostatic interactions play a major role in stabilizing the complex; The distance r between donor (lysozyme) and acceptor (Caf, Tph or Tbr) was obtained according to fluorescence resonance energy transfer. The effect of Caf (Tph or Tbr) on the conformation of lysozyme was analyzed using synchronous fluorescence and three-dimensional fluorescence spectra techniques. The results showed that the binding of Caf (Tph or Tbr) to lysozyme induced some micro-environmental and conformational changes in lysozyme and disturbed the environment of the polypeptide of lysozyme.",
+        "affiliation": "Jiangsu Provincial Key Laboratory of Coastal Wetland Bioresources and Environmental Protection, Institute of Applied Chemistry and Environmental Engineering, Yancheng Normal College, 224002, Yancheng City, Jiangsu Province, People's Republic of China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chickens"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theophylline",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muramidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solutions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Ultraviolet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Binding Sites"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Transfer"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Conformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "hen egg lysozyme",
+              "registryNumber": "EC 3.2.1.-"
+            },
+            {
+              "name": "Muramidase",
+              "registryNumber": "EC 3.2.1.17"
+            },
+            {
+              "name": "Solutions",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caffeine",
+              "registryNumber": "3G6A5W338E"
+            },
+            {
+              "name": "Theophylline",
+              "registryNumber": "C137DTR5RG"
+            },
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s11033-009-9891-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 26,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-01-10",
+        "dateOfCreation": "2009-10-14",
+        "dateOfRevision": "2021-10-20",
+        "electronicPublicationDate": "2009-10-13",
+        "firstPublicationDate": "2009-10-13",
+        "firstIndexDate": "2010-09-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "6617078",
+        "source": "MED",
+        "pmid": "6617078",
+        "doi": "10.1038/clpt.1983.212",
+        "title": "Theobromine kinetics and metabolic disposition.",
+        "authorString": "Tarka SM, Arnaud MJ, Dvorchik BH, Vesell ES.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tarka SM Jr",
+              "lastName": "Tarka",
+              "firstName": "S M",
+              "initials": "SM"
+            },
+            {
+              "fullName": "Arnaud MJ",
+              "lastName": "Arnaud",
+              "firstName": "M J",
+              "initials": "MJ"
+            },
+            {
+              "fullName": "Dvorchik BH",
+              "lastName": "Dvorchik",
+              "firstName": "B H",
+              "initials": "BH"
+            },
+            {
+              "fullName": "Vesell ES",
+              "lastName": "Vesell",
+              "firstName": "E S",
+              "initials": "ES"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "34",
+          "journalIssueId": 566467,
+          "dateOfPublication": "1983 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 1983,
+          "journal": {
+            "medlineAbbreviation": "Clin Pharmacol Ther",
+            "title": "Clinical pharmacology and therapeutics",
+            "essn": "1532-6535",
+            "issn": "0009-9236",
+            "nlmid": "0372741",
+            "isoabbreviation": "Clin Pharmacol Ther"
+          },
+          "printPublicationDate": "1983-10-01"
+        },
+        "pubYear": "1983",
+        "pageInfo": "546-555",
+        "abstractText": "Metabolism and kinetics of a single oral dose of 30 microCi 8-14C-theobromine with 10 mg/kg theobromine sodium acetate were studied in six healthy, nonmedicated, nonsmoking men after 14 days' abstention from all methylxanthine sources. Identification and quantitation of metabolites in plasma and urine both by HPLC and by thin-layer chromatography coupled with radiography indicated that theobromine was predominant in plasma. For urine, both methods identified theobromine as well as 7-methylxanthine, 7-methyluric acid, 3-methylxanthine, 6-amino-5[N-methylformylamino]-1-methyluracil, and a small amount of 3,7-dimethyluric acid as the metabolites of theobromine. All administered radioactivity was recovered in urine and no polar metabolites could be detected. Analysis of the urinary excretion data by the sigma-minus method allowed calculation of the apparent first-order rate constants for production of 7-methylxanthine, 7-methyluric acid, 3-methylxanthine, 3,7-dimethyluric acid, and 6-amino-5[N-methylformylamino]-1-methyluracil.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/clpt.1983.212"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1983-11-23",
+        "dateOfCreation": "1983-10-01",
+        "dateOfRevision": "2022-04-08",
+        "firstPublicationDate": "1983-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "3726878",
+        "source": "MED",
+        "pmid": "3726878",
+        "doi": "10.1016/0041-008x(86)90265-6",
+        "title": "Diet-induced alterations in theobromine disposition and toxicity in the rat.",
+        "authorString": "Shively CA, White DM, Tarka SM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shively CA",
+              "lastName": "Shively",
+              "firstName": "C A",
+              "initials": "CA"
+            },
+            {
+              "fullName": "White DM",
+              "lastName": "White",
+              "firstName": "D M",
+              "initials": "DM"
+            },
+            {
+              "fullName": "Tarka SM Jr",
+              "lastName": "Tarka",
+              "firstName": "S M",
+              "initials": "SM"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "84",
+          "journalIssueId": 773479,
+          "dateOfPublication": "1986 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 1986,
+          "journal": {
+            "medlineAbbreviation": "Toxicol Appl Pharmacol",
+            "title": "Toxicology and applied pharmacology",
+            "essn": "1096-0333",
+            "issn": "0041-008X",
+            "nlmid": "0416575",
+            "isoabbreviation": "Toxicol Appl Pharmacol"
+          },
+          "printPublicationDate": "1986-07-01"
+        },
+        "pubYear": "1986",
+        "pageInfo": "593-598",
+        "abstractText": "To assess the potential influence of diet on theobromine (TBR) disposition and the development of TBR-induced thymic and testicular toxicity, male Sprague-Dawley rats were given the following diets ad libitum for 28 days: (1) semipurified (S); (2) commercial chow (Ch); (3) semipurified + 0.6% TBR (S + TBR); or (4) commercial chow + 0.6% TBR (Ch + TBR). Toxicity endpoints determined in each TBR group indicated that Ch + TBR-treated animals did not exhibit the marked reduction in body weight or testicular atrophy induced by the S + TBR diet, although thymic weight was lower regardless of diet. Metabolic studies performed after the 28-day feeding period using 5 mg/kg TBR + 10 microCi [8-14C]TBR revealed an overall inductive effect of Ch on TBR metabolism as shown by increased urinary excretion (0-24 hr) of the major TBR metabolite, 6-amino-5[N-methylformylamino]-1-methyluracil (6-AMMU), as well as 7-methylxanthine + 3-methylxanthine (7-MX + 3-MX) and 3,7-dimethyluric acid (3,7-DMU). Consumption of 0.6% TBR for 28 days in either S or Ch diets also induced its own metabolism, as shown by decreased urinary excretion of unchanged TBR and increased conversion primarily to 3,7-DMU. Fecal 14C elimination (0-24 hr) was similar between animals fed S and Ch diets, indicating no effect of control diet on TBR bioavailability. Since serum TBR concentrations and overall toxicity were lower in Ch + TBR-treated animals than in S + TBR treated animals, yet TBR bioavailability was similar, this effect was attributed to the inducing potential of the Ch diet on TBR metabolism and clearance. Investigators are cautioned to consider the potential effect of diet on metabolism when performing and evaluating toxicological studies.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Testis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymus Gland",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred Strains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Weight",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/0041-008x(86)90265-6"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1986-08-18",
+        "dateOfCreation": "1986-07-01",
+        "dateOfRevision": "2019-07-27",
+        "firstPublicationDate": "1986-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "3979003",
+        "source": "MED",
+        "pmid": "3979003",
+        "doi": "10.1038/clpt.1985.65",
+        "title": "High levels of methylxanthines in chocolate do not alter theobromine disposition.",
+        "authorString": "Shively CA, Tarka SM, Arnaud MJ, Dvorchik BH, Passananti GT, Vesell ES.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shively CA",
+              "lastName": "Shively",
+              "firstName": "C A",
+              "initials": "CA"
+            },
+            {
+              "fullName": "Tarka SM Jr",
+              "lastName": "Tarka",
+              "firstName": "S M",
+              "initials": "SM"
+            },
+            {
+              "fullName": "Arnaud MJ",
+              "lastName": "Arnaud",
+              "firstName": "M J",
+              "initials": "MJ"
+            },
+            {
+              "fullName": "Dvorchik BH",
+              "lastName": "Dvorchik",
+              "firstName": "B H",
+              "initials": "BH"
+            },
+            {
+              "fullName": "Passananti GT",
+              "lastName": "Passananti",
+              "firstName": "G T",
+              "initials": "GT"
+            },
+            {
+              "fullName": "Vesell ES",
+              "lastName": "Vesell",
+              "firstName": "E S",
+              "initials": "ES"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "37",
+          "journalIssueId": 679059,
+          "dateOfPublication": "1985 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 1985,
+          "journal": {
+            "medlineAbbreviation": "Clin Pharmacol Ther",
+            "title": "Clinical pharmacology and therapeutics",
+            "essn": "1532-6535",
+            "issn": "0009-9236",
+            "nlmid": "0372741",
+            "isoabbreviation": "Clin Pharmacol Ther"
+          },
+          "printPublicationDate": "1985-04-01"
+        },
+        "pubYear": "1985",
+        "pageInfo": "415-424",
+        "abstractText": "Theobromine disposition was measured twice in 12 normal men, once after 14 days of abstention from all methylxanthines and once after 1 week of theobromine (6 mg/kg/day) in the form of dark chocolate. Mean theobromine t 1/2, apparent volume of distribution, and clearance after abstinence from all methylxanthines were 10.0 hours, 0.76 L/kg, and 0.88 ml/min/kg. High daily doses of chocolate for 1 week did not change these values. After subjects abstained from methylxanthines, urinary radioactivity over 72 hours after a single, oral dose of [8-14C]theobromine consisted of 42% 7-methylxanthine, 20% 3-methylxanthine, 18% theobromine, 10% 7-methyluric acid, and 10% 6-amino-5[N-methylformylamino]-1-methyluracil. A week of daily theobromine consumption in the form of dark chocolate also did not alter this urinary profile of theobromine and its metabolites. Although these results might appear to differ from other reports of inhibition of theobromine elimination after five consecutive daily doses of theobromine in aqueous suspensions, both the rate and extent of absorption of theobromine in chocolate were less than that of theobromine in solution. Relative bioavailability of theobromine in chocolate was 80% that of theobromine in solution. This reinforces the fundamental principle that both the metabolic and the therapeutic consequences of a particular chemical can differ when that chemical is given in the pure compared with the dietary form.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cacao"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon Radioisotopes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xanthines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Chemical Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "methylxanthine",
+              "registryNumber": "28109-92-4"
+            },
+            {
+              "name": "Xanthines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carbon Radioisotopes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/clpt.1985.65"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 25,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1985-05-13",
+        "dateOfCreation": "1985-04-01",
+        "dateOfRevision": "2022-03-18",
+        "firstPublicationDate": "1985-04-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "6279819",
+        "source": "MED",
+        "pmid": "6279819",
+        "doi": "10.1002/jps.2600710324",
+        "title": "Interaction of theobromine with sodium benzoate.",
+        "authorString": "Nishijo J, Yonetani I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nishijo J",
+              "lastName": "Nishijo",
+              "firstName": "J",
+              "initials": "J"
+            },
+            {
+              "fullName": "Yonetani I",
+              "lastName": "Yonetani",
+              "firstName": "I",
+              "initials": "I"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "71",
+          "journalIssueId": 467949,
+          "dateOfPublication": "1982 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 1982,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Sci",
+            "title": "Journal of pharmaceutical sciences",
+            "essn": "1520-6017",
+            "issn": "0022-3549",
+            "nlmid": "2985195R",
+            "isoabbreviation": "J Pharm Sci"
+          },
+          "printPublicationDate": "1982-03-01"
+        },
+        "pubYear": "1982",
+        "pageInfo": "354-356",
+        "abstractText": "The interaction of theobromine with sodium benzoate was investigated by PMR spectroscopy. The interaction of theobromine with pentadeuterated benzoic acid (benzoic acid-d5) was examined in the same manner but to a lesser degree. Chemical shifts of theobromine protons were determined as a function of sodium benzoate concentration in deuterium oxide at 30 and 15 degrees. Signals of both methyl groups of theobromine underwent significant upfield shifts when sodium benzoate was added to a theobromine solution. This fact suggests that a complex is formed by vertical stacking or plane-to-plane stacking. The same results were obtained for benzoic acid-d5.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protons"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzoic Acid"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Benzoates"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Theobromine"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Spectroscopy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry, Physical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermodynamics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical Phenomena"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Protons",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzoates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            },
+            {
+              "name": "Benzoic Acid",
+              "registryNumber": "8SKN0B0MIM"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/jps.2600710324"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1982-06-21",
+        "dateOfCreation": "1982-03-01",
+        "dateOfRevision": "2019-07-11",
+        "firstPublicationDate": "1982-03-01",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "627135",
+        "source": "MED",
+        "pmid": "627135",
+        "doi": "10.1002/cpt1978233296",
+        "title": "Studies on theobromine disposition in normal subjects. Alterations induced by dietary abstention from or exposure to methylxanthines.",
+        "authorString": "Drouillard DD, Vesell ES, Dvorchik BH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Drouillard DD",
+              "lastName": "Drouillard",
+              "firstName": "D D",
+              "initials": "DD"
+            },
+            {
+              "fullName": "Vesell ES",
+              "lastName": "Vesell",
+              "firstName": "E S",
+              "initials": "ES"
+            },
+            {
+              "fullName": "Dvorchik BH",
+              "lastName": "Dvorchik",
+              "firstName": "B H",
+              "initials": "BH"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "23",
+          "journalIssueId": 57656,
+          "dateOfPublication": "1978 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 1978,
+          "journal": {
+            "medlineAbbreviation": "Clin Pharmacol Ther",
+            "title": "Clinical pharmacology and therapeutics",
+            "essn": "1532-6535",
+            "issn": "0009-9236",
+            "nlmid": "0372741",
+            "isoabbreviation": "Clin Pharmacol Ther"
+          },
+          "printPublicationDate": "1978-03-01"
+        },
+        "pubYear": "1978",
+        "pageInfo": "296-302",
+        "abstractText": "Normal male volunteers on xanthine-restricted diets had a plasma theobromine (TB) half-life (t1/2) of 6.1 +/- 0.7 hr (mean +/- SEM), a TB metabolic clearance rate (MCR) of 113.8 +/- 6.8 ml/min (mean +/- SEM), and an apparent volume of distribution (aVd) of 59.9 +/- 7.8 L (mean +/- SEM) after a single oral dose of 6 mg/kg of TB. A two-week period of dietary abstention from methylxanthines shortened the mean plasma TB t1/2 by 33% and increased the mean MCR of TB by 59%, no change occurred in mean aVd of TB. In another experiment, normal male volunteers received the same oral dose of TB for each of five consecutive days. The mean plasma TB t1/2 measured immediately after the last TB dose was prolonged by almost two-thirds, while the mean aVd increased 23%. Although the mean plasma TB t1/2 measured four days after this last TB dose was the same as that measured after a single oral dose, the mean MCR of TB increased by 34%, but this change was balanced by increased mean aVd of 35%. These results suggest that immediately after five daily doses of TB, an impairment of TB clearance occurs that is reversible by four days of dietary abstention from methylxanthines.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saliva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xanthines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metabolic Clearance Rate",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Xanthines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/cpt1978233296"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1978-04-26",
+        "dateOfCreation": "1978-03-01",
+        "dateOfRevision": "2019-05-09",
+        "firstPublicationDate": "1978-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "5132558",
+        "source": "MED",
+        "pmid": "5132558",
+        "doi": "10.1016/0014-2999(71)90033-1",
+        "title": "The interaction of caffeine, theophylline and theobromine with monoamine oxidase inhibitors.",
+        "authorString": "Berkowitz BA, Spector S, Pool W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Berkowitz BA",
+              "lastName": "Berkowitz",
+              "firstName": "B A",
+              "initials": "BA"
+            },
+            {
+              "fullName": "Spector S",
+              "lastName": "Spector",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Pool W",
+              "lastName": "Pool",
+              "firstName": "W",
+              "initials": "W"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "16",
+          "journalIssueId": 482718,
+          "dateOfPublication": "1971 Nov-Dec",
+          "monthOfPublication": 0,
+          "yearOfPublication": 1971,
+          "journal": {
+            "medlineAbbreviation": "Eur J Pharmacol",
+            "title": "European journal of pharmacology",
+            "essn": "1879-0712",
+            "issn": "0014-2999",
+            "nlmid": "1254354",
+            "isoabbreviation": "Eur J Pharmacol"
+          },
+          "printPublicationDate": "1971-11-01"
+        },
+        "pubYear": "1971",
+        "pageInfo": "315-321",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred Strains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theobromine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theophylline",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoamine Oxidase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Temperature",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lethal Dose 50"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Monoamine Oxidase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caffeine",
+              "registryNumber": "3G6A5W338E"
+            },
+            {
+              "name": "Theophylline",
+              "registryNumber": "C137DTR5RG"
+            },
+            {
+              "name": "Theobromine",
+              "registryNumber": "OBD445WZ5P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/0014-2999(71)90033-1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1972-03-09",
+        "dateOfCreation": "1971-11-01",
+        "dateOfRevision": "2019-06-24",
+        "firstPublicationDate": "1971-11-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

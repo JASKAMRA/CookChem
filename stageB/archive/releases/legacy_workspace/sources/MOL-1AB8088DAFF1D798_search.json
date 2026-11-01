@@ -1,0 +1,3224 @@
+{
+  "version": "6.9",
+  "hitCount": 9,
+  "request": {
+    "queryString": "TITLE_ABS:\"Vitamin B2 (Riboflavin)\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41011567",
+        "source": "MED",
+        "pmid": "41011567",
+        "pmcid": "PMC12472352",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12472352"
+          ]
+        },
+        "doi": "10.3390/molecules30183673",
+        "title": "The Activation of Cytochrome P450 2C9 Is Facilitated by the Coenzyme Forms of Vitamin B2.",
+        "authorString": "Koroleva PI, Kuzikov AV, Gilep AA, Ivanov SV, Archakov AI, Shumyantseva VV.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Koroleva PI",
+              "lastName": "Koroleva",
+              "firstName": "Polina I",
+              "initials": "PI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biomedical Chemistry, Pogodinskaya Street, 10, Build 8, 119121 Moscow, Russia."
+                  },
+                  {
+                    "affiliation": "Faculty of Biomedicine, Pirogov Russian National Research Medical University, Ostrovitianov Street, 1, 117997 Moscow, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kuzikov AV",
+              "lastName": "Kuzikov",
+              "firstName": "Alexey V",
+              "initials": "AV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8772-3214"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biomedical Chemistry, Pogodinskaya Street, 10, Build 8, 119121 Moscow, Russia."
+                  },
+                  {
+                    "affiliation": "Faculty of Biomedicine, Pirogov Russian National Research Medical University, Ostrovitianov Street, 1, 117997 Moscow, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gilep AA",
+              "lastName": "Gilep",
+              "firstName": "Andrei A",
+              "initials": "AA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3621-6482"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biomedical Chemistry, Pogodinskaya Street, 10, Build 8, 119121 Moscow, Russia."
+                  },
+                  {
+                    "affiliation": "Institute of Bioorganic Chemistry, 220084 Minsk, Belarus."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ivanov SV",
+              "lastName": "Ivanov",
+              "firstName": "Sergey V",
+              "initials": "SV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0438-9108"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biomedical Chemistry, Pogodinskaya Street, 10, Build 8, 119121 Moscow, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Archakov AI",
+              "lastName": "Archakov",
+              "firstName": "Alexander I",
+              "initials": "AI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biomedical Chemistry, Pogodinskaya Street, 10, Build 8, 119121 Moscow, Russia."
+                  },
+                  {
+                    "affiliation": "Faculty of Biomedicine, Pirogov Russian National Research Medical University, Ostrovitianov Street, 1, 117997 Moscow, Russia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shumyantseva VV",
+              "lastName": "Shumyantseva",
+              "firstName": "Victoria V",
+              "initials": "VV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1509-7218"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biomedical Chemistry, Pogodinskaya Street, 10, Build 8, 119121 Moscow, Russia."
+                  },
+                  {
+                    "affiliation": "Faculty of Biomedicine, Pirogov Russian National Research Medical University, Ostrovitianov Street, 1, 117997 Moscow, Russia."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1509-7218"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3621-6482"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8772-3214"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0438-9108"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "18",
+          "volume": "30",
+          "journalIssueId": 4015792,
+          "dateOfPublication": "2025 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "isoabbreviation": "Molecules",
+            "nlmid": "100964009"
+          },
+          "printPublicationDate": "2025-09-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "3673",
+        "abstractText": "The activity of cytochrome P450 enzymes decreases in older adults, which can lead to toxic effects from polypharmacy. Cytochromes P450 are the most significant enzymes involved in the metabolism of foreign compounds, including pharmaceutical substances. Vitamin B2, or riboflavin (RF), is a potent antioxidant that is vital for the body and participates in numerous enzyme-catalyzed redox reactions. RF is phosphorylated intracellularly to form flavin mononucleotide (FMN), which is further metabolized into flavin adenine dinucleotide (FAD). The active site of the NADPH-dependent cytochrome P450 reductase (CPR), a redox partner of CYP enzymes, is necessary for the catalytic functions of cytochromes P450. The active site of reductase is a complex formed by two types of vitamin B2, such as flavin adenine dinucleotide (FAD) and flavin mononucleotide (FMN). In our study, we investigated the impact of the phosphorylated form of vitamin B2, FAD, and FMN on the catalytic activity of cytochrome P450 2C9 (CYP2C9) towards non-steroidal anti-inflammatory medications diclofenac and naproxen. It was shown that FAD significantly enhanced the catalytic efficiency of CYP2C9. The 4-hydroxylation of diclofenac was enhanced by 148 ± 10%. The O-demethylation of naproxen showed an increase of 120 ± 14%. Based on these data, we can assume that intake of vitamin B2 (riboflavin) improves catalytic efficiency of CYP2C9. This finding is essential for the modulation of catalytic activity of CYP2C9. The proposed electroanalytic approach is a sensitive and robust method for drug metabolism assay.",
+        "affiliation": "Institute of Biomedical Chemistry, Pogodinskaya Street, 10, Build 8, 119121 Moscow, Russia.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministry of Science and Higher Education of the Russian Federation",
+              "grantId": "075-15-2024-643",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diclofenac",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Naproxen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Coenzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavin-Adenine Dinucleotide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavin Mononucleotide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Riboflavin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Activation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catalytic Domain"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxylation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cytochrome P-450 CYP2C9",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Electrochemical analysis",
+            "Electron transfer",
+            "Naproxen",
+            "riboflavin",
+            "Diclofenac",
+            "Cyp2c9",
+            "Enzymatic Assay",
+            "Protective Properties"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavin-Adenine Dinucleotide",
+              "registryNumber": "146-14-5"
+            },
+            {
+              "name": "Coenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Riboflavin",
+              "registryNumber": "TLM2976OFR"
+            },
+            {
+              "name": "Diclofenac",
+              "registryNumber": "144O8QL0L1"
+            },
+            {
+              "name": "Naproxen",
+              "registryNumber": "57Y76R9ATQ"
+            },
+            {
+              "name": "Flavin Mononucleotide",
+              "registryNumber": "7N464URE7E"
+            },
+            {
+              "name": "CYP2C9 protein, human",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2C9",
+              "registryNumber": "EC 1.14.13.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules30183673"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12472352"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12472352?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-09-27",
+        "dateOfCreation": "2025-09-27",
+        "dateOfRevision": "2025-09-30",
+        "electronicPublicationDate": "2025-09-10",
+        "firstPublicationDate": "2025-09-10",
+        "firstIndexDate": "2025-09-28",
+        "fullTextReceivedDate": "2025-11-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38601580",
+        "source": "MED",
+        "pmid": "38601580",
+        "pmcid": "PMC11004526",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11004526"
+          ]
+        },
+        "doi": "10.1016/j.heliyon.2024.e28271",
+        "title": "The riboflavin (vitamin B2) transporter protein (SmaRT) of the human intravascular parasitic trematode Schistosoma mansoni.",
+        "authorString": "Da'dara AA, Gondane R, Skelly PJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Da'dara AA",
+              "lastName": "Da'dara",
+              "firstName": "Akram A",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Helminthology Laboratory, Department of Infectious Disease and Global Health, Cummings School of Veterinary Medicine, Tufts University, North Grafton, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gondane R",
+              "lastName": "Gondane",
+              "firstName": "Roshni",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Helminthology Laboratory, Department of Infectious Disease and Global Health, Cummings School of Veterinary Medicine, Tufts University, North Grafton, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Skelly PJ",
+              "lastName": "Skelly",
+              "firstName": "Patrick J",
+              "initials": "PJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Helminthology Laboratory, Department of Infectious Disease and Global Health, Cummings School of Veterinary Medicine, Tufts University, North Grafton, MA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "10",
+          "journalIssueId": 3747938,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Heliyon",
+            "title": "Heliyon",
+            "essn": "2405-8440",
+            "issn": "2405-8440",
+            "isoabbreviation": "Heliyon",
+            "nlmid": "101672560"
+          },
+          "printPublicationDate": "2024-04-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "e28271",
+        "abstractText": "Schistosomes are intravascular parasitic worms infecting >200 million people globally. Here we examine how the worms acquire an essential nutrient - vitamin B2 (riboflavin). We demonstrate that all intravascular life stages (schistosomula, adult males and females) take up radiolabeled riboflavin. This process is impeded in the presence of excess unlabeled riboflavin and at 4 °C. We have identified a transporter homolog in worms designated SmaRT (<i>Schistosoma mansoni</i> riboflavin transporter) that localizes to the tegument and internal tissues of adults. CHO-S cells transfected with plasmid encoding SmaRT import significantly more radiolabeled riboflavin compared to controls. Uptake of radiolabel is impeded when SmaRT-expressing cells are incubated in an excess of unlabeled riboflavin but not by an excess of an irrelevant metabolite. Uptake is mediated in a sodium-independent manner and over a wide range of pH values (pH 5.5-9). This is the first identification of a <i>bone fide</i> riboflavin transporter in any platyhelminth.",
+        "affiliation": "Molecular Helminthology Laboratory, Department of Infectious Disease and Global Health, Cummings School of Veterinary Medicine, Tufts University, North Grafton, MA, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIAID NIH HHS",
+              "acronym": "AI",
+              "grantId": "R01 AI056273",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Allergy and Infectious Diseases",
+              "grantId": "AI056273",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Allergy and Infectious Diseases",
+              "grantId": "HHSN272201700014I",
+              "orderIn": 0
+            },
+            {
+              "agency": "Brigham Research Institute",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Nutrient uptake",
+            "Schistosome",
+            "riboflavin",
+            "Host-parasite Interaction",
+            "Blood Fluke"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.heliyon.2024.e28271"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11004526"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11004526?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2024-04-11",
+        "dateOfRevision": "2025-08-31",
+        "electronicPublicationDate": "2024-03-22",
+        "firstPublicationDate": "2024-03-22",
+        "firstIndexDate": "2024-04-11",
+        "fullTextReceivedDate": "2024-04-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29122468",
+        "source": "MED",
+        "pmid": "29122468",
+        "doi": "10.1016/j.ymgme.2017.10.014",
+        "title": "An intronic variation in SLC52A1 causes exon skipping and transient riboflavin-responsive multiple acyl-CoA dehydrogenation deficiency.",
+        "authorString": "Mosegaard S, Bruun GH, Flyvbjerg KF, Bliksrud YT, Gregersen N, Dembic M, Annexstad E, Tangeraas T, Olsen RKJ, Andresen BS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mosegaard S",
+              "lastName": "Mosegaard",
+              "firstName": "Signe",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4561-1978"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Unit for Molecular Medicine, Department of Clinical Medicine, Aarhus University and University Hospital, 8200 Aarhus N, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bruun GH",
+              "lastName": "Bruun",
+              "firstName": "Gitte Hoffmann",
+              "initials": "GH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry and Molecular Biology, The Villum Center for Bioanalytical Sciences, University of Southern Denmark, Odense, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Flyvbjerg KF",
+              "lastName": "Flyvbjerg",
+              "firstName": "Karen Freund",
+              "initials": "KF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry and Molecular Biology, The Villum Center for Bioanalytical Sciences, University of Southern Denmark, Odense, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bliksrud YT",
+              "lastName": "Bliksrud",
+              "firstName": "Yngve Thomas",
+              "initials": "YT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Biochemistry, Oslo University Hospital, Oslo, Norway."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gregersen N",
+              "lastName": "Gregersen",
+              "firstName": "Niels",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Unit for Molecular Medicine, Department of Clinical Medicine, Aarhus University and University Hospital, 8200 Aarhus N, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dembic M",
+              "lastName": "Dembic",
+              "firstName": "Maja",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2505-6863"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry and Molecular Biology, The Villum Center for Bioanalytical Sciences, University of Southern Denmark, Odense, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Annexstad E",
+              "lastName": "Annexstad",
+              "firstName": "Ellen",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ostfold Hospital Trust, Women's and Children's Department, Norway."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tangeraas T",
+              "lastName": "Tangeraas",
+              "firstName": "Trine",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Oslo University Hospital, Oslo, Norway."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Olsen RKJ",
+              "lastName": "Olsen",
+              "firstName": "Rikke Katrine Jentoft",
+              "initials": "RKJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3470-5589"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Unit for Molecular Medicine, Department of Clinical Medicine, Aarhus University and University Hospital, 8200 Aarhus N, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Andresen BS",
+              "lastName": "Andresen",
+              "firstName": "Brage S",
+              "initials": "BS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7488-3035"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry and Molecular Biology, The Villum Center for Bioanalytical Sciences, University of Southern Denmark, Odense, Denmark. Electronic address: bragea@bmb.sdu.dk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7488-3035"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4561-1978"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2505-6863"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3470-5589"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "122",
+          "journalIssueId": 2628185,
+          "dateOfPublication": "2017 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Mol Genet Metab",
+            "title": "Molecular genetics and metabolism",
+            "essn": "1096-7206",
+            "issn": "1096-7192",
+            "isoabbreviation": "Mol Genet Metab",
+            "nlmid": "9805456"
+          },
+          "printPublicationDate": "2017-12-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "182-188",
+        "abstractText": "Vitamin B2, riboflavin is essential for cellular function, as it participates in a diversity of redox reactions central to human metabolism, through its role as precursor for the cofactors flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD), which are electron carriers. The electron transfer flavoprotein (ETF) and its dehydrogenase (ETFDH), uses FAD as cofactor. The ETF and ETFDH are forming the electron transport pathway for many mitochondrial flavoprotein dehydrogenases involved in fatty acid, amino acid and choline metabolism. A variation in either ETF or ETFDH causes multiple acyl-CoA dehydrogenation deficiency (MADD), but genetic variations in the riboflavin metabolism or transportation of riboflavin can also cause MADD. The most common variations are located in the riboflavin transporter 2 (RFVT2) and 3 (RFVT3), that are highly expressed in brain and intestinal tissues, respectively. Deficiency of riboflavin transporter 1 (RFVT1), encoded by the SLC52A1 gene, highly expressed in the placenta, has only been reported once. We here report a case of transient MADD, caused by a heterozygous intronic variation, c.1134+11G>A, in the SLC52A1 gene encoding RFVT1. This variation creates a binding site for the splice inhibitory hnRNP A1 protein and causes exon 4 skipping. Riboflavin deficiency and maternal malnutrition during pregnancy might have been the determining factor in the outcome of this case.",
+        "affiliation": "Research Unit for Molecular Medicine, Department of Clinical Medicine, Aarhus University and University Hospital, 8200 Aarhus N, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article",
+            "Case Reports"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Novo Nordisk Fonden",
+              "grantId": "NNF13OC0007939",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natur og Univers, Det Frie Forskningsråd",
+              "grantId": "4181-00515",
+              "orderIn": 0
+            },
+            {
+              "agency": "Novo Nordisk Fonden",
+              "grantId": "NNF11OC1015438",
+              "orderIn": 0
+            },
+            {
+              "agency": "Danish Council of Independent Medical Research",
+              "grantId": "4004-00548",
+              "orderIn": 0
+            },
+            {
+              "agency": "Denmark&apos;s Research Foundation",
+              "grantId": "2016-R2",
+              "orderIn": 0
+            },
+            {
+              "agency": "Villum Fonden",
+              "grantId": "00007292",
+              "orderIn": 0
+            },
+            {
+              "agency": "Novo Nordisk Fonden",
+              "grantId": "61310-0128",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fibroblasts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Riboflavin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, G-Protein-Coupled",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Case-Control Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Mutational Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pregnancy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Heterozygote"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Introns",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Exons",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infant, Newborn"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Multiple Acyl Coenzyme A Dehydrogenase Deficiency",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genetic Variation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HEK293 Cells"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "riboflavin",
+            "Splicing Silencer",
+            "Hnrnp A1",
+            "Madd"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Membrane Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, G-Protein-Coupled",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Riboflavin",
+              "registryNumber": "TLM2976OFR"
+            },
+            {
+              "name": "SLC52A1 protein, human",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ymgme.2017.10.014"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 43,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-08-28",
+        "dateOfCreation": "2017-11-11",
+        "dateOfRevision": "2018-09-10",
+        "electronicPublicationDate": "2017-11-02",
+        "firstPublicationDate": "2017-11-02",
+        "firstIndexDate": "2017-11-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25284511",
+        "source": "MED",
+        "pmid": "25284511",
+        "pmcid": "PMC4254174",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4254174"
+          ]
+        },
+        "doi": "10.1016/j.gene.2014.10.001",
+        "title": "Identification and characterization of 5'-flanking region of the human riboflavin transporter 1 gene (SLC52A1).",
+        "authorString": "Sabui S, Ghosal A, Said HM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sabui S",
+              "lastName": "Sabui",
+              "firstName": "Subrata",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1037-8149"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine and Physiology/Biophysics, University of California-Irvine, Irvine, CA 92697, USA; Department of Medical Research, Veterans Affairs Medical Center, Long Beach, CA 90822, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ghosal A",
+              "lastName": "Ghosal",
+              "firstName": "Abhisek",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1571-0754"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine and Physiology/Biophysics, University of California-Irvine, Irvine, CA 92697, USA; Department of Medical Research, Veterans Affairs Medical Center, Long Beach, CA 90822, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Said HM",
+              "lastName": "Said",
+              "firstName": "Hamid M",
+              "initials": "HM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine and Physiology/Biophysics, University of California-Irvine, Irvine, CA 92697, USA; Department of Medical Research, Veterans Affairs Medical Center, Long Beach, CA 90822, USA. Electronic address: hmsaid@uci.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1037-8149"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1571-0754"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "553",
+          "journalIssueId": 2224667,
+          "dateOfPublication": "2014 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Gene",
+            "title": "Gene",
+            "essn": "1879-0038",
+            "issn": "0378-1119",
+            "isoabbreviation": "Gene",
+            "nlmid": "7706761"
+          },
+          "printPublicationDate": "2014-12-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "49-56",
+        "abstractText": "The human SLC52A1 gene encodes the riboflavin transporter-1 (RFVT-1), a plasma membrane protein that transports vitamin B2 (riboflavin, RF) into cells, and thus, plays a role in controlling cellular homeostasis of RF in those tissues that express the carrier protein (e.g. placenta and intestine). Currently, there is nothing known about transcriptional regulation of the SLC52A1 gene, therefore, we aimed to clone and characterize its 5'-flanking region. Using rapid amplification of the cDNA ends (5'-RACE), we identified one transcription start site (TSS). A 579 bp segment of the 5'-flanking region of this gene was cloned which exhibited robust promoter activity upon transfection in human intestinal epithelial cells. Deletion analysis revealed that the core promoter activity to be embedded in a region between -234 and -23 that lacked TATA element, was GC-rich, and harbored several putative cis-regulatory sites including KLFs, AP-2, EGRF and Sp-1. Mutating each of these sites led to a significant decrease in promoter activity (which was highest for the Sp-1 site), suggesting their possible involvement in regulating SLC52A1 transcription. Focusing on the Sp-1 site, EMSA, super-shift and ChIP analysis was performed that established the interaction of the Sp-1 transcription factor with the SLC52A1 promoter; also, co-transfection of the minimal SLC52A1 promoter with an Sp-1 containing vector in Drosophila SL-2 cells led to significant promoter activation. These results are the first to reveal the identity of the minimal SLC52A1 promoter and to establish an important role for Sp-1 in its activity.",
+        "affiliation": "Department of Medicine and Physiology/Biophysics, University of California-Irvine, Irvine, CA 92697, USA; Department of Medical Research, Veterans Affairs Medical Center, Long Beach, CA 90822, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK56061",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK58057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH",
+              "grantId": "DK58057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R37 DK056061",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK058057",
+              "orderIn": 0
+            },
+            {
+              "agency": "DVA",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH",
+              "grantId": "DK56061",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK056061",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drosophila"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, G-Protein-Coupled",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Primers"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electrophoretic Mobility Shift Assay"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatin Immunoprecipitation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Base Sequence"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "5' Flanking Region"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Promoter Regions, Genetic"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Transcription regulation",
+            "Minimal promoter",
+            "Riboflavin Transporter",
+            "Slc52a1"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA Primers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, G-Protein-Coupled",
+              "registryNumber": "0"
+            },
+            {
+              "name": "SLC52A1 protein, human",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://escholarship.org/content/qt7fm4v00c/qt7fm4v00c.pdf?t=rszs4o"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.gene.2014.10.001"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4254174"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4254174?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.gene.2014.10.001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "INTERPRO"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS635010",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refseq",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2015-02-04",
+        "dateOfCreation": "2014-10-07",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2014-10-05",
+        "firstPublicationDate": "2014-10-05",
+        "firstIndexDate": "2014-10-07",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26121134",
+        "source": "MED",
+        "pmid": "26121134",
+        "pmcid": "PMC4484800",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4484800"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0131698",
+        "title": "Molecular Mechanisms Mediating the Adaptive Regulation of Intestinal Riboflavin Uptake Process.",
+        "authorString": "Subramanian VS, Ghosal A, Kapadia R, Nabokina SM, Said HM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Subramanian VS",
+              "lastName": "Subramanian",
+              "firstName": "Veedamali S",
+              "initials": "VS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, University of California, Irvine, California, United States of America; VAMC, Long Beach, California, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ghosal A",
+              "lastName": "Ghosal",
+              "firstName": "Abhisek",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1571-0754"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, University of California, Irvine, California, United States of America; VAMC, Long Beach, California, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kapadia R",
+              "lastName": "Kapadia",
+              "firstName": "Rubina",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, University of California, Irvine, California, United States of America; VAMC, Long Beach, California, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nabokina SM",
+              "lastName": "Nabokina",
+              "firstName": "Svetlana M",
+              "initials": "SM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, University of California, Irvine, California, United States of America; VAMC, Long Beach, California, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Said HM",
+              "lastName": "Said",
+              "firstName": "Hamid M",
+              "initials": "HM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, University of California, Irvine, California, United States of America; Department of Physiology/Biophysics, University of California, Irvine, California, United States of America; VAMC, Long Beach, California, United States of America."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1571-0754"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "10",
+          "journalIssueId": 2380984,
+          "dateOfPublication": "2015 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2015-01-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "e0131698",
+        "abstractText": "The intestinal absorption process of vitamin B2 (riboflavin, RF) is carrier-mediated, and all three known human RF transporters, i.e., hRFVT-1, -2, and -3 (products of the SLC52A1, 2 & 3 genes, respectively) are expressed in the gut. We have previously shown that the intestinal RF uptake process is adaptively regulated by substrate level, but little is known about the molecular mechanism(s) involved. Using human intestinal epithelial NCM460 cells maintained under RF deficient and over-supplemented (OS) conditions, we now show that the induction in RF uptake in RF deficiency is associated with an increase in expression of the hRFVT-2 & -3 (but not hRFVT-1) at the protein and mRNA levels. Focusing on hRFVT-3, the predominant transporter in the intestine, we also observed an increase in the level of expression of its hnRNA and activity of its promoter in the RF deficiency state. An increase in the level of expression of the nuclear factor Sp1 (which is important for activity of the SLC52A3 promoter) was observed in RF deficiency, while mutating the Sp1/GC site in the SLC52A3 promoter drastically decreased the level of induction in SLC52A3 promoter activity in RF deficiency. We also observed specific epigenetic changes in the SLC52A3 promoter in RF deficiency. Finally, an increase in hRFVT-3 protein expression at the cell surface was observed in RF deficiency. Results of these investigations show, for the first time, that transcriptional and post-transcriptional mechanisms are involved in the adaptive regulation of intestinal RF uptake by the prevailing substrate level.",
+        "affiliation": "Department of Medicine, University of California, Irvine, California, United States of America; VAMC, Long Beach, California, United States of America.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK056061",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK058057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK-56061",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK-58057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R37 DK056061",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "R01 AA018071",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enterocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Membrane",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Riboflavin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lysine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Histones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Adaptation, Physiological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription, Genetic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Substrate Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methylation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Promoter Regions, Genetic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Real-Time Polymerase Chain Reaction"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Histones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Riboflavin",
+              "registryNumber": "TLM2976OFR"
+            },
+            {
+              "name": "Lysine",
+              "registryNumber": "K3Z4F929H6"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0131698"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4484800"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4484800?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-03-28",
+        "dateOfCreation": "2015-06-30",
+        "dateOfRevision": "2018-12-03",
+        "electronicPublicationDate": "2015-06-29",
+        "firstPublicationDate": "2015-06-29",
+        "firstIndexDate": "2015-06-30",
+        "fullTextReceivedDate": "2020-07-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21512156",
+        "source": "MED",
+        "pmid": "21512156",
+        "pmcid": "PMC3129935",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3129935"
+          ]
+        },
+        "doi": "10.1152/ajpgi.00120.2011",
+        "title": "Role of cysteine residues in cell surface expression of the human riboflavin transporter-2 (hRFT2) in intestinal epithelial cells.",
+        "authorString": "Subramanian VS, Rapp L, Marchant JS, Said HM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Subramanian VS",
+              "lastName": "Subramanian",
+              "firstName": "Veedamali S",
+              "initials": "VS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, University of California Medical School, Irvine, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rapp L",
+              "lastName": "Rapp",
+              "firstName": "Laramie",
+              "initials": "L"
+            },
+            {
+              "fullName": "Marchant JS",
+              "lastName": "Marchant",
+              "firstName": "Jonathan S",
+              "initials": "JS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6592-0877"
+              }
+            },
+            {
+              "fullName": "Said HM",
+              "lastName": "Said",
+              "firstName": "Hamid M",
+              "initials": "HM"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6592-0877"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "301",
+          "journalIssueId": 1843716,
+          "dateOfPublication": "2011 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Am J Physiol Gastrointest Liver Physiol",
+            "title": "American journal of physiology. Gastrointestinal and liver physiology",
+            "essn": "1522-1547",
+            "issn": "0193-1857",
+            "isoabbreviation": "Am J Physiol Gastrointest Liver Physiol",
+            "nlmid": "100901227"
+          },
+          "printPublicationDate": "2011-07-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "G100-9",
+        "abstractText": "The water-soluble vitamin B2 (riboflavin, RF) is an essential micronutrient for normal cell function and survival. Recent studies have identified a role for the human riboflavin transporter-2 (hRFT2) in normal intestinal RF absorption. However, little is known about the cell biology of this transporter and specifically about the molecular determinant(s) that dictate its cell surface expression in human intestinal epithelial cells. Here we show that the full-length hRFT2 protein fused to green fluorescent protein (GFP) (GFP-hRFT2) is expressed exclusively at the apical membrane domain of Caco-2 cells. COOH-terminal sequence was essential in dictating cell surface expression with a specific role for conserved cysteine residues (C463 and C467). Mutation of C463 and C467 ablated RF uptake, explained by retention of the constructs within the endoplasmic reticulum. Modeling analysis suggested a potential disulfide bridge between C463 and C386. Consistent with this prediction, mutating the C386 site in the context of the full-length transporter resulted in intracellular retention, whereas mutation of another conserved cysteine (C326A) was without effect on hRFT2 targeting. Intracellular trafficking of hRFT2 was also examined and appeared to involve distinct vesicular structures, the motility of vesicles critically dependent on an intact microtubule network. These results demonstrate a potential role for specific cysteine residues in the cell surface expression of the hRFT2 in human intestinal epithelial cells.",
+        "affiliation": "Department of Medicine, University of California Medical School, Irvine, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "GM088790",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK058057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "AA18071",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK58057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK84094",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Membrane",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Endoplasmic Reticulum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cysteine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amino Acid Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Sequence Data"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Membrane Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "SLC52A3 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cysteine",
+              "registryNumber": "K848JZ4886"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc3129935"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1152/ajpgi.00120.2011"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3129935"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1152/ajpgi.00120.2011"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 26,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen"
+          ]
+        },
+        "dateOfCompletion": "2011-09-06",
+        "dateOfCreation": "2011-04-23",
+        "dateOfRevision": "2023-05-31",
+        "electronicPublicationDate": "2011-04-21",
+        "firstPublicationDate": "2011-04-21",
+        "firstIndexDate": "2011-04-23",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "18940788",
+        "source": "MED",
+        "pmid": "18940788",
+        "pmcid": "PMC2600938",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2600938"
+          ]
+        },
+        "doi": "10.1534/genetics.108.094458",
+        "title": "The proline-dependent transcription factor Put3 regulates the expression of the riboflavin transporter MCH5 in Saccharomyces cerevisiae.",
+        "authorString": "Spitzner A, Perzlmaier AF, Geillinger KE, Reihl P, Stolz J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Spitzner A",
+              "lastName": "Spitzner",
+              "firstName": "Andrea",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lehrstuhl für Zellbiologie und Pflanzenphysiologie, Universität Regensburg, Universitätsstrasse 31, 93040 Regensburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Perzlmaier AF",
+              "lastName": "Perzlmaier",
+              "firstName": "Angelika F",
+              "initials": "AF"
+            },
+            {
+              "fullName": "Geillinger KE",
+              "lastName": "Geillinger",
+              "firstName": "Kerstin E",
+              "initials": "KE"
+            },
+            {
+              "fullName": "Reihl P",
+              "lastName": "Reihl",
+              "firstName": "Petra",
+              "initials": "P"
+            },
+            {
+              "fullName": "Stolz J",
+              "lastName": "Stolz",
+              "firstName": "Jürgen",
+              "initials": "J"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5145-0410"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "180",
+          "journalIssueId": 1586028,
+          "dateOfPublication": "2008 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Genetics",
+            "title": "Genetics",
+            "essn": "1943-2631",
+            "issn": "0016-6731",
+            "isoabbreviation": "Genetics",
+            "nlmid": "0374636"
+          },
+          "printPublicationDate": "2008-12-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "2007-2017",
+        "abstractText": "Like most microorganisms, the yeast Saccharomyces cerevisiae is prototrophic for riboflavin (vitamin B2). Riboflavin auxotrophic mutants with deletions in any of the RIB genes frequently segregate colonies with improved growth. We demonstrate by reporter assays and Western blots that these suppressor mutants overexpress the plasma-membrane riboflavin transporter MCH5. Frequently, this overexpression is mediated by the transcription factor Put3, which also regulates the proline catabolic genes PUT1 and PUT2. The increased expression of MCH5 may increase the concentrations of FAD, which is the coenzyme required for the activity of proline oxidase, encoded by PUT1. Thus, Put3 regulates proline oxidase activity by synchronizing the biosynthesis of the apoenzyme and the coenzyme FAD. Put3 is known to bind to the promoters of PUT1 and PUT2 constitutively, and we demonstrate by gel-shift assays that it also binds to the promoter of MCH5. Put3-mediated transcriptional activation requires proline as an inducer. We find that the increased activity of Put3 in one of the suppressor mutants is caused by increased intracellular levels of proline. Alternative PUT3-dependent and -independent mechanisms might operate in other suppressed strains.",
+        "affiliation": "Lehrstuhl für Zellbiologie und Pflanzenphysiologie, Universität Regensburg, Universitätsstrasse 31, 93040 Regensburg, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saccharomyces cerevisiae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Riboflavin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proline",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monocarboxylic Acid Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trans-Activators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saccharomyces cerevisiae Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Complementation Test"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Gene Expression Regulation, Fungal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Suppression, Genetic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Binding Sites"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenotype"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Biological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Promoter Regions, Genetic"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Saccharomyces cerevisiae Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Transcription Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Trans-Activators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monocarboxylic Acid Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Mch5 protein, S cerevisiae",
+              "registryNumber": "0"
+            },
+            {
+              "name": "PUT3 protein, S cerevisiae",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Riboflavin",
+              "registryNumber": "TLM2976OFR"
+            },
+            {
+              "name": "Proline",
+              "registryNumber": "9DLQ4CIU6V"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "intl.genetics.org",
+              "url": "http://intl.genetics.org/cgi/content/abstract/180/4/2007"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "pdf",
+              "site": "intl.genetics.org",
+              "url": "http://intl.genetics.org/cgi/reprint/180/4/2007.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "html",
+              "site": "intl.genetics.org",
+              "url": "http://intl.genetics.org/cgi/content/full/180/4/2007"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1534/genetics.108.094458"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2600938"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2600938?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1534/genetics.108.094458"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "INTERPRO"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2009-03-27",
+        "dateOfCreation": "2008-10-23",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2008-10-20",
+        "firstPublicationDate": "2008-10-20",
+        "firstIndexDate": "2009-12-24",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22917629",
+        "source": "MED",
+        "pmid": "22917629",
+        "pmcid": "PMC3517668",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3517668"
+          ]
+        },
+        "doi": "10.1152/ajpgi.00314.2012",
+        "title": "Mechanism and regulation of vitamin B2 (riboflavin) uptake by mouse and human pancreatic β-cells/islets: physiological and molecular aspects.",
+        "authorString": "Ghosal A, Said HM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ghosal A",
+              "lastName": "Ghosal",
+              "firstName": "Abhisek",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1571-0754"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine and Physiology/Biophysics, University of California, Irvine, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Said HM",
+              "lastName": "Said",
+              "firstName": "Hamid M",
+              "initials": "HM"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1571-0754"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "303",
+          "journalIssueId": 1979912,
+          "dateOfPublication": "2012 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Am J Physiol Gastrointest Liver Physiol",
+            "title": "American journal of physiology. Gastrointestinal and liver physiology",
+            "essn": "1522-1547",
+            "issn": "0193-1857",
+            "isoabbreviation": "Am J Physiol Gastrointest Liver Physiol",
+            "nlmid": "100901227"
+          },
+          "printPublicationDate": "2012-11-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "G1052-8",
+        "abstractText": "Riboflavin (RF) is essential for the normal metabolic activities of pancreatic β-cells and provides protection against oxidative stress. Very little is known about the mechanism of RF uptake by these cells and how the process is regulated. We addressed these issues using mouse-derived pancreatic β-TC-6 cells and freshly isolated primary mouse and human pancreatic islets. Our results showed (3)H-RF uptake by β-TC-6 cells is Na(+) independent, cis inhibited by RF-related compounds, trans stimulated by unlabeled RF, and saturable as a function of concentration (apparent K(m) of 0.17 ± 0.02 μM). The latter findings suggest involvement of a carrier-mediated process. Similarly, RF uptake by primary mouse and human pancreatic islets was via carrier-mediated process. RF transporters 1, 2, and 3 (RFVT-1, -3, and -2) were all expressed in mouse and human pancreatic β-cells/islets, with RFVT-1 being the predominant transporter expressed in the mouse and RFVT-3 in the human. Specific knockdown of RFVT-1 with gene-specific small interfering RNA leads to a significant inhibition in RF uptake by β-TC-6 cells. RF uptake by β-TC-6 cells was also found to be adaptively upregulated in RF deficiency via a transcriptional mechanism(s). Also, the process appears to be under the regulation of a Ca(2+)/calmodulin-mediated regulatory pathway. Results of these studies demonstrate, for the first time, the involvement of a carrier-mediated process for RF uptake by mouse and human pancreatic β-cells/islets. Furthermore, the process appears to be regulated by extracellular and intracellular factors.",
+        "affiliation": "Department of Medicine and Physiology/Biophysics, University of California, Irvine, California, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK58057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK058057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAAA NIH HHS",
+              "acronym": "AA",
+              "grantId": "AA 018071",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "DK56061",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R37 DK056061",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Islets of Langerhans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Riboflavin Deficiency",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Riboflavin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin B Complex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calmodulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, G-Protein-Coupled"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nerve Tissue Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Up-Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin-Secreting Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcriptional Activation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Nerve Tissue Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Vitamin B Complex",
+              "registryNumber": "12001-76-2"
+            },
+            {
+              "name": "Membrane Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Calmodulin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, G-Protein-Coupled",
+              "registryNumber": "0"
+            },
+            {
+              "name": "SLC52A2 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "riboflavin transporter 1, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Riboflavin",
+              "registryNumber": "TLM2976OFR"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc3517668"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1152/ajpgi.00314.2012"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3517668"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1152/ajpgi.00314.2012"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 20,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-01-17",
+        "dateOfCreation": "2012-08-25",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2012-08-23",
+        "firstPublicationDate": "2012-08-23",
+        "firstIndexDate": "2012-08-25",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "8834846",
+        "source": "MED",
+        "pmid": "8834846",
+        "title": "[Vitamin disturbances in chronic renal insufficiency. I. Water soluble vitamins].",
+        "authorString": "Pietrzak I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Pietrzak I",
+              "lastName": "Pietrzak",
+              "firstName": "I",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Z Kliniki Nefrologii Instytutu Chorób, Wewnetrznych Akademii Medycznej im. K. Marcinkowskiego w Poznaniu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "52",
+          "journalIssueId": 972444,
+          "dateOfPublication": "1995 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 1995,
+          "journal": {
+            "medlineAbbreviation": "Przegl Lek",
+            "title": "Przeglad lekarski",
+            "issn": "0033-2240",
+            "isoabbreviation": "Przegl Lek",
+            "nlmid": "19840720R"
+          },
+          "printPublicationDate": "1995-01-01"
+        },
+        "pubYear": "1995",
+        "pageInfo": "522-525",
+        "abstractText": "Deficiency and/or altered metabolism of vitamins in CRI is caused by uremic toxins, dietary restrictions, catabolic illness, losses during dialysis and drug interaction. There are no reports of consistent studies on vitamin status of water soluble vitamins in CRI. Vitamin B1 (thiamine) deficiency several authors found most frequently in CAPD patients. The cause of this deficiency depends probably on increased requirement of vitamin B1 due to high glucose intake with peritoneal dialysis solution. In patients with polyneuropathy high doses of thiamine pyrophosphate (Cocarboxylase), given i.v., can be helpful in this respect. There are conflicting reports concerning plasma level of vitamin B2 (riboflavin) in CRI patients. Some authors recommend its supplementation. The majority of patients with CRI exhibit biochemical and clinical signs of vitamin B6 deficiency. There exists an univocal opinion that supplementation of this vitamin effects the cellular immune system and the amino acid metabolism as well. An adequate dose of vitamin B6 is still a matter of dispute. Evidence of vitamin B12 deficiency has been reported rarely, thus, only few authors recommend the supplementation of it, mainly in CAPD patients. According to most authors the losses of folic acid and ascorbic acid during dialysis require oral supplementation. Despite the divergences in opinions concerning the deficiency of water-soluble vitamins in CRI patients, the supplementation of these vitamins is practised in many nephrological centers. The amount and the route of vitamins, administered to CRI patients, should be individualized.",
+        "affiliation": "Z Kliniki Nefrologii Instytutu Chorób, Wewnetrznych Akademii Medycznej im. K. Marcinkowskiego w Poznaniu.",
+        "publicationStatus": "ppublish",
+        "language": "pol",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Review",
+            "Journal Article",
+            "English Abstract"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kidney Failure, Chronic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food, Fortified"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Vitamins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1996-12-16",
+        "dateOfCreation": "1995-01-01",
+        "dateOfRevision": "2006-11-15",
+        "firstPublicationDate": "1995-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "TITLE_ABS:\"Vitamin B6 (Pyridoxine)\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27462413",
+        "source": "MED",
+        "pmid": "27462413",
+        "pmcid": "PMC4860826",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4860826"
+          ]
+        },
+        "doi": "10.1038/celldisc.2015.14",
+        "title": "Pyridoxamine is a substrate of the energy-coupling factor transporter HmpT.",
+        "authorString": "Wang T, de Jesus AJ, Shi Y, Yin H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang T",
+              "lastName": "Wang",
+              "firstName": "Tingliang",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ministry of Education Key Laboratory of Protein Science, Tsinghua University, Beijing, China; Tsinghua-Peking Joint Center for Life Sciences, Center for Structural Biology, School of Life Sciences and School of Medicine, Tsinghua University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Jesus AJ",
+              "lastName": "de Jesus",
+              "firstName": "Armando Jerome",
+              "initials": "AJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5928-5395"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry & Biochemistry, the BioFrontiers Institute, University of Colorado Boulder , Boulder, CO, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi Y",
+              "lastName": "Shi",
+              "firstName": "Yigong",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ministry of Education Key Laboratory of Protein Science, Tsinghua University, Beijing, China; Tsinghua-Peking Joint Center for Life Sciences, Center for Structural Biology, School of Life Sciences and School of Medicine, Tsinghua University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yin H",
+              "lastName": "Yin",
+              "firstName": "Hang",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9762-4818"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry & Biochemistry, the BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA; Center of Basic Molecular Science, Department of Chemistry, Tsinghua University, Beijing, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5928-5395"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9762-4818"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "1",
+          "journalIssueId": 2335668,
+          "dateOfPublication": "2015",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Cell Discov",
+            "title": "Cell discovery",
+            "essn": "2056-5968",
+            "issn": "2056-5968",
+            "isoabbreviation": "Cell Discov",
+            "nlmid": "101661034"
+          },
+          "printPublicationDate": "2015-01-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "15014",
+        "abstractText": "Energy-coupling factor (ECF) transporters belong to a novel family of proteins that forms a subset within the ATP-binding cassette (ABC) transporter family. These proteins are responsible for the uptake of micronutrients in bacteria. ECF transporters are composed of four proteins: the A- and A'-components, the T-component and the S-component. One of the ECF transporters, named HmpT, was crystallized in the apo form with all four components. It is currently unknown whether HmpT serves as a transporter for hydroxymethyl pyrimidine or the different forms of vitamin B6 (pyridoxine, pyridoxal or pyridoxamine). Using a combination of molecular dynamics (MD) simulations and mass spectrometry, we have identified pyridoxamine to be the preferred substrate of HmpT. Mass spectra show that the mass of the substrate from the HmpT-substrate complex matches that of pyridoxamine. MD simulations likewise indicate that pyridoxamine interacts most strongly with most of the conserved residues of the S-component (Glu 41, His 84 and Gln 43) compared with the other vitamin B6 forms. Furthermore, the simulations have implied that loops 1 and 5 of the S-component can participate in the gating action for HmpT.",
+        "affiliation": "Ministry of Education Key Laboratory of Protein Science, Tsinghua University, Beijing, China; Tsinghua-Peking Joint Center for Life Sciences, Center for Structural Biology, School of Life Sciences and School of Medicine, Tsinghua University, Beijing, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R01 GM103843",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Mass spectrometry",
+            "Molecular dynamics",
+            "Gating Mechanism",
+            "Hmpt",
+            "Ecf Transporters",
+            "S-component"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/celldisc201514.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/celldisc201514.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/celldisc.2015.14"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4860826"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4860826?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-07-27",
+        "dateOfCreation": "2016-07-28",
+        "dateOfRevision": "2020-09-30",
+        "electronicPublicationDate": "2015-07-14",
+        "firstPublicationDate": "2015-07-14",
+        "firstIndexDate": "2016-07-28",
+        "fullTextReceivedDate": "2020-07-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "8229700",
+        "source": "MED",
+        "pmid": "8229700",
+        "doi": "10.1002/jps.2600820921",
+        "title": "Determination of total pyridoxal in human plasma following oral administration of vitamin B6 by high-performance liquid chromatography with post-column derivatization.",
+        "authorString": "Mascher H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mascher H",
+              "lastName": "Mascher",
+              "firstName": "H",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pharm-analyt Labor GesmbH, Traiskirchen, Austria."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "82",
+          "journalIssueId": 718320,
+          "dateOfPublication": "1993 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 1993,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Sci",
+            "title": "Journal of pharmaceutical sciences",
+            "essn": "1520-6017",
+            "issn": "0022-3549",
+            "isoabbreviation": "J Pharm Sci",
+            "nlmid": "2985195R"
+          },
+          "printPublicationDate": "1993-09-01"
+        },
+        "pubYear": "1993",
+        "pageInfo": "972-974",
+        "abstractText": "An HPLC method for determining total pyridoxal from plasma was developed for a relative bioavailability comparison of two oral vitamin B6 (pyridoxine HCl) preparations. After cleavage of the pyridoxal-5-phosphate with the acid phosphatase enzyme, the total pyridoxal was determined by HPLC. Pyridoxal was separated on a reversed-phase column, post-column derivatized to pyridoxal-semicarbazide, and then detected by fluorescence and quantitated. The limit of detection was 2 ng/mL and interday variation (3 days) over the whole concentration range (13-215 ng/mL spiked) was < 4.1%. In the relative bioavailability study, 16 human subjects were put on a low vitamin B6 diet for a period of 3 days. On the 2nd and 3rd days, 14 blood samples were taken per subject at the same times each day. The drug was administered on the 3rd day. Total endogenous pyridoxal detected on the 2nd day varied in plasma between 13 and 17 ng/mL. Pharmacokinetic parameters corrected for background are reported for two vitamin B6 (40 mg) preparations. Briefly, the pharmacokinetic results for the Ratiopharm preparation compared with the Hoffmann-La Roche preparation are, respectively: AUC0-24, 369.2 and 352.6 ng.h/mL; AUC24-48, 1638.2 and 1662.3 ng.h/mL; net Cmax, 193.0 and 197.1 ng/mL; tmax, 1.25 and 1.44 h; and relative bioavailability, 97.9% (Westlake, 88-112%).",
+        "affiliation": "Pharm-analyt Labor GesmbH, Traiskirchen, Austria.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Semicarbazides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyridoxal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyridoxal Phosphate",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyridoxine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Semicarbazides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pyridoxal Phosphate",
+              "registryNumber": "5V5IOJ8338"
+            },
+            {
+              "name": "Pyridoxal",
+              "registryNumber": "3THM379K8A"
+            },
+            {
+              "name": "Pyridoxine",
+              "registryNumber": "KV2JZ1BI6Z"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/jps.2600820921"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1993-12-14",
+        "dateOfCreation": "1993-09-01",
+        "dateOfRevision": "2019-07-11",
+        "firstPublicationDate": "1993-09-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

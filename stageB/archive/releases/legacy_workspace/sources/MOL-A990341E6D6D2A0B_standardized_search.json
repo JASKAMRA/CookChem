@@ -1,0 +1,1458 @@
+{
+  "version": "6.9",
+  "hitCount": 5,
+  "request": {
+    "queryString": "TITLE_ABS:\"Quercetin 3,4'-diglucoside\" AND (TITLE_ABS:drug OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:pharmacodynamic OR TITLE_ABS:absorption OR TITLE_ABS:metabolism OR TITLE_ABS:transporter) AND FIRST_PDATE:[* TO 2026-10-06]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33922352",
+        "source": "MED",
+        "pmid": "33922352",
+        "pmcid": "PMC8145356",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8145356"
+          ]
+        },
+        "doi": "10.3390/metabo11050262",
+        "title": "Impact of High-Pressure Processed Onion on Colonic Metabolism Using a Dynamic Gastrointestinal Digestion Simulator.",
+        "authorString": "Fernández-Jalao I, Balderas C, Calvo MV, Fontecha J, Sánchez-Moreno C, De Ancos B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fernández-Jalao I",
+              "lastName": "Fernández-Jalao",
+              "firstName": "Irene",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Characterization, Quality and Safety, Institute of Food Science, Technology and Nutrition (ICTAN-CSIC), 28040 Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Balderas C",
+              "lastName": "Balderas",
+              "firstName": "Claudia",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Characterization, Quality and Safety, Institute of Food Science, Technology and Nutrition (ICTAN-CSIC), 28040 Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Calvo MV",
+              "lastName": "Calvo",
+              "firstName": "María V",
+              "initials": "MV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6785-7661"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioactivity and Food Analysis, Institute of Food Science Research (CIAL, CSIC-UAM), 28049 Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fontecha J",
+              "lastName": "Fontecha",
+              "firstName": "Javier",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5719-2304"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioactivity and Food Analysis, Institute of Food Science Research (CIAL, CSIC-UAM), 28049 Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sánchez-Moreno C",
+              "lastName": "Sánchez-Moreno",
+              "firstName": "Concepción",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2341-9328"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Characterization, Quality and Safety, Institute of Food Science, Technology and Nutrition (ICTAN-CSIC), 28040 Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Ancos B",
+              "lastName": "De Ancos",
+              "firstName": "Begoña",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8890-7525"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Characterization, Quality and Safety, Institute of Food Science, Technology and Nutrition (ICTAN-CSIC), 28040 Madrid, Spain."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5719-2304"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2341-9328"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6785-7661"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8524-0219"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8890-7525"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "11",
+          "journalIssueId": 3161120,
+          "dateOfPublication": "2021 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Metabolites",
+            "title": "Metabolites",
+            "essn": "2218-1989",
+            "issn": "2218-1989",
+            "isoabbreviation": "Metabolites",
+            "nlmid": "101578790"
+          },
+          "printPublicationDate": "2021-04-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "262",
+        "abstractText": "Onions are the main dietary source of flavonols that have been associated with important health-promoting properties. Onion treated by high-pressure processing (HPP-treated onion) was subjected to a dynamic gastrointestinal digestion and colon fermentation simulator (DGID-CF) to study the effect on the gut microbiota metabolism in the three colon regions (ascending-AC, transverse-TC, and descending-DC) by means of chronic feeding with 27 g/day for 14 days. HPP-treated onion presented a high content of the flavonols quercetin-3,4'-diglucoside and quercetin-4'-glucoside, and a large percentage of them reached the AC without change. TC and DC progressively increased the total phenolic metabolites 2.5 times respective to day 2, mainly 3-hydroxyphenylacetic, 4-hydroxyphenylacetic, 3-(4-hydroxyphenyl)-propionic, and 3,4-dihydroxyphenylpropionic acids. In addition, the chronic feeding increased the beneficial colon bacteria <i>Bifidobacterium</i> spp. and <i>Lactobacillus</i> spp. and the production of total SCFAs (acetic, propionic, and butyric acids) 9 times (AC), 2.2 times (TC), and 4.4 times (DC) respective to day 1. A multivariate analysis (principal component analysis, PCA) showed a clear separation between the three colon regions based on their phenolic composition (precursors and metabolites). These results showed that HPP-treated onion modulated the human gut microbiota's metabolism and the DGID-CF is a good system to study these changes.",
+        "affiliation": "Department of Characterization, Quality and Safety, Institute of Food Science, Technology and Nutrition (ICTAN-CSIC), 28040 Madrid, Spain.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Spanish Ministry of Economy and Competitiveness (MINECO)",
+              "grantId": "AGL2013-46326-R and AGL2016-76817-R.",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Onion",
+            "Gut Microbiota",
+            "Short-chain Fatty Acids",
+            "High-pressure Processing",
+            "Gastrointestinal Digestion-colon Fermentation Model",
+            "Quercetin Glycosides Metabolites"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/metabo11050262"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8145356"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8145356?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2021-04-30",
+        "dateOfRevision": "2021-05-27",
+        "electronicPublicationDate": "2021-04-22",
+        "firstPublicationDate": "2021-04-22",
+        "firstIndexDate": "2021-05-01",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "12756216",
+        "source": "MED",
+        "pmid": "12756216",
+        "doi": "10.1124/dmd.31.6.805",
+        "title": "Absorption/metabolism of sulforaphane and quercetin, and regulation of phase II enzymes, in human jejunum in vivo.",
+        "authorString": "Petri N, Tannergren C, Holst B, Mellon FA, Bao Y, Plumb GW, Bacon J, O'Leary KA, Kroon PA, Knutson L, Forsell P, Eriksson T, Lennernas H, Williamson G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Petri N",
+              "lastName": "Petri",
+              "firstName": "Niclas",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0007-4904-6383"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Biopharmaceutics Research Group Uppsala University, Uppsala, Sweden."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tannergren C",
+              "lastName": "Tannergren",
+              "firstName": "Christer",
+              "initials": "C"
+            },
+            {
+              "fullName": "Holst B",
+              "lastName": "Holst",
+              "firstName": "Birgit",
+              "initials": "B"
+            },
+            {
+              "fullName": "Mellon FA",
+              "lastName": "Mellon",
+              "firstName": "Fred A",
+              "initials": "FA"
+            },
+            {
+              "fullName": "Bao Y",
+              "lastName": "Bao",
+              "firstName": "Yongping",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Plumb GW",
+              "lastName": "Plumb",
+              "firstName": "Geoff W",
+              "initials": "GW"
+            },
+            {
+              "fullName": "Bacon J",
+              "lastName": "Bacon",
+              "firstName": "Jim",
+              "initials": "J"
+            },
+            {
+              "fullName": "O'Leary KA",
+              "lastName": "O'Leary",
+              "firstName": "Karen A",
+              "initials": "KA"
+            },
+            {
+              "fullName": "Kroon PA",
+              "lastName": "Kroon",
+              "firstName": "Paul A",
+              "initials": "PA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9805-6947"
+              }
+            },
+            {
+              "fullName": "Knutson L",
+              "lastName": "Knutson",
+              "firstName": "Lars",
+              "initials": "L"
+            },
+            {
+              "fullName": "Forsell P",
+              "lastName": "Forsell",
+              "firstName": "Patrik",
+              "initials": "P"
+            },
+            {
+              "fullName": "Eriksson T",
+              "lastName": "Eriksson",
+              "firstName": "Thomas",
+              "initials": "T"
+            },
+            {
+              "fullName": "Lennernas H",
+              "lastName": "Lennernas",
+              "firstName": "Hans",
+              "initials": "H"
+            },
+            {
+              "fullName": "Williamson G",
+              "lastName": "Williamson",
+              "firstName": "Gary",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5624-6267"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5624-6267"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9805-6947"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2777-6581"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0007-4904-6383"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "31",
+          "journalIssueId": 1117418,
+          "dateOfPublication": "2003 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2003,
+          "journal": {
+            "medlineAbbreviation": "Drug Metab Dispos",
+            "title": "Drug metabolism and disposition: the biological fate of chemicals",
+            "essn": "1521-009X",
+            "issn": "0090-9556",
+            "isoabbreviation": "Drug Metab Dispos",
+            "nlmid": "9421550"
+          },
+          "printPublicationDate": "2003-06-01"
+        },
+        "pubYear": "2003",
+        "pageInfo": "805-813",
+        "abstractText": "For the first time the human intestinal effective permeability, estimated from the luminal disappearance and intestinal metabolism of phytochemicals, sulforaphane and quercetin-3,4'-glucoside, as well as the simultaneous changes in gene expression in vivo in enterocytes, has been studied in the human jejunum in vivo (Loc-I-Gut). Both compounds as components of an onion and broccoli extract could readily permeate the enterocytes in the perfused jejunal segment. At the physiologically relevant, dietary concentration tested, the average effective jejunal permeability (Peff) and percentage absorbed (+/- S.D.) were 18.7 +/- 12.6 x 10-4 cm/s and 74 +/- 29% for sulforaphane and 8.9 +/- 7.1 x 10-4 cm/s and 60 +/- 31% for quercetin-3,4'-diglucoside, respectively. Furthermore, a proportion of each compound was conjugated and excreted back into the lumen as sulforaphane-glutathione and quercetin-3'-glucuronide. The capacity of the isolated segment to deconjugate quercetin from quercetin-3,4'-diglucoside during the perfusion was much higher than the beta-glucosidase activity of the preperfusion jejunal contents, indicating that the majority (79-100%) of the beta-glucosidase capacity derives from the enterocytes in situ. Simultaneously, we determined short-term changes in gene expression in exfoliated enterocytes, which showed 2.0 +/- 0.4-fold induction of glutathione transferase A1 (GSTA1) mRNA (p < 0.002) and 2.4 +/- 1.2-fold induction of UDP-glucuronosyl transferase 1A1 (UGT1A1) mRNA (p < 0.02). The changes in gene expression were also seen in differentiated Caco-2 cells, where sulforaphane was responsible for induction of GSTA1 and quercetin for induction of UGT1A1. These results show that food components have the potential to modify drug metabolism in the human enterocyte in vivo very rapidly.",
+        "affiliation": "Department of Pharmacy, Biopharmaceutics Research Group Uppsala University, Uppsala, Sweden.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enterocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Jejunum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brassica"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Onions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Stems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Tubers"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucuronides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thiocyanates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfoxides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quercetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta-Glucosidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Transferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucuronosyltransferase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reverse Transcriptase Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "UGT1A1 Enzyme"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Thiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfoxides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucuronosyltransferase",
+              "registryNumber": "EC 2.4.1.17"
+            },
+            {
+              "name": "Glutathione Transferase",
+              "registryNumber": "EC 2.5.1.18"
+            },
+            {
+              "name": "beta-Glucosidase",
+              "registryNumber": "EC 3.2.1.21"
+            },
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucuronides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glutathione",
+              "registryNumber": "GAN16C9B8O"
+            },
+            {
+              "name": "Quercetin",
+              "registryNumber": "9IKM0I5T1E"
+            },
+            {
+              "name": "sulforaphane",
+              "registryNumber": "GA49J4310U"
+            },
+            {
+              "name": "UGT1A1 Enzyme",
+              "registryNumber": "EC 2.4.1.17"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1124/dmd.31.6.805"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 144,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-01-12",
+        "dateOfCreation": "2003-05-21",
+        "dateOfRevision": "2026-01-28",
+        "firstPublicationDate": "2003-06-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16869998",
+        "source": "MED",
+        "pmid": "16869998",
+        "doi": "10.1079/bjn20061809",
+        "title": "Absorption, excretion and metabolite profiling of methyl-, glucuronyl-, glucosyl- and sulpho-conjugates of quercetin in human plasma and urine after ingestion of onions.",
+        "authorString": "Mullen W, Edwards CA, Crozier A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mullen W",
+              "lastName": "Mullen",
+              "firstName": "William",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5685-1563"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Plant Products and Human Nutrition Group, Graham Kerr Building, Division of Biochemistry and Molecular Biology, Institute of Biomedical and Life Sciences, University of Glasgow, Glasgow G12 8QQ, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Edwards CA",
+              "lastName": "Edwards",
+              "firstName": "Christine A",
+              "initials": "CA"
+            },
+            {
+              "fullName": "Crozier A",
+              "lastName": "Crozier",
+              "firstName": "Alan",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7581-6782"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7581-6782"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5685-1563"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "96",
+          "journalIssueId": 1338657,
+          "dateOfPublication": "2006 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Br J Nutr",
+            "title": "The British journal of nutrition",
+            "essn": "1475-2662",
+            "issn": "0007-1145",
+            "isoabbreviation": "Br J Nutr",
+            "nlmid": "0372547"
+          },
+          "printPublicationDate": "2006-07-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "107-116",
+        "abstractText": "It is essential to have a thorough knowledge of the bioavailability and metabolism of dietary flavonols to understand their role in disease prevention. Lightly fried onions containing 275 micromol flavonols, principally quercetin-4'-glucoside and quercetin-3,4'-diglucoside, were fed to healthy human volunteers and plasma and urine were collected over a 24 h period. Samples were analysed by HPLC with diode array and tandem mass spectrometric detection. Five flavonol metabolites, quercetin-3'-sulphate, quercetin-3-glucuronide, isorhamnetin-3-glucuronide, a quercetin diglucuronide and a quercetin glucuronide sulphate, were detected in plasma in quantifiable amounts with trace quantities of six additional quercetin metabolites. Sub-micromolar peak plasma concentrations (Cmax) of quercetin-3'-sulphate, quercetin-3-glucuronide, isorhamnetin-3-glucuronide and quercetin diglucuronide were observed 0.6-0.8 h after ingestion. In contrast, the Cmax of quercetin glucuronide sulphate was 2.5 h. The elimination half-lives (t1/2) of quercetin-3'-sulphate, quercetin-3-glucuronide and quercetin diglucuronide were 1.71, 2.33 and 1.76 h respectively, while the t1/2 of isorhamnetin-3-glucuronide was 5.34 h and that of quercetin glucuronide sulphate was 4.54 h. The profile of metabolites excreted in urine was markedly different to that of plasma with many of the major urinary components, including quercetin-3'-glucuronide, two quercetin glucoside sulphates and a methylquercetin diglucuronide, absent or present in only trace amounts in the bloodstream indicative of substantial phase II metabolism. Total urinary excretion of quercetin metabolites was 12.9 micromol, corresponding to 4.7 % of intake. If these samples had been subjected to hydrolysis, as in many previous studies, only quercetin and isorhamnetin would have been detected and quantified. The bioactivity of these metabolites should be considered.",
+        "affiliation": "Plant Products and Human Nutrition Group, Graham Kerr Building, Division of Biochemistry and Molecular Biology, Institute of Biomedical and Life Sciences, University of Glasgow, Glasgow G12 8QQ, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Onions",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quercetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Quercetin",
+              "registryNumber": "9IKM0I5T1E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C8E6807FBBB58669D99DDAEDBB66DFC1/S000711450600184Xa.pdf/div-class-title-absorption-excretion-and-metabolite-profiling-of-methyl-glucuronyl-glucosyl-and-sulpho-conjugates-of-quercetin-in-human-plasma-and-urine-after-ingestion-of-onions-div.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1079/bjn20061809"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 289,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-08-22",
+        "dateOfCreation": "2006-07-28",
+        "dateOfRevision": "2021-04-16",
+        "firstPublicationDate": "2006-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9634009",
+        "source": "MED",
+        "pmid": "9634009",
+        "doi": "10.1016/s0006-2952(98)00048-3",
+        "title": "Transport of quercetin and its glucosides across human intestinal epithelial Caco-2 cells.",
+        "authorString": "Walgren RA, Walle UK, Walle T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Walgren RA",
+              "lastName": "Walgren",
+              "firstName": "R A",
+              "initials": "RA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cell and Molecular Pharmacology and Experimental Therapeutics, Medical University of South Carolina, Charleston 29425, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Walle UK",
+              "lastName": "Walle",
+              "firstName": "U K",
+              "initials": "UK"
+            },
+            {
+              "fullName": "Walle T",
+              "lastName": "Walle",
+              "firstName": "T",
+              "initials": "T"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "55",
+          "journalIssueId": 911714,
+          "dateOfPublication": "1998 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 1998,
+          "journal": {
+            "medlineAbbreviation": "Biochem Pharmacol",
+            "title": "Biochemical pharmacology",
+            "essn": "1873-2968",
+            "issn": "0006-2952",
+            "isoabbreviation": "Biochem Pharmacol",
+            "nlmid": "0101032"
+          },
+          "printPublicationDate": "1998-05-01"
+        },
+        "pubYear": "1998",
+        "pageInfo": "1721-1727",
+        "abstractText": "There is mounting evidence from human epidemiological, animal in vivo, and in vitro studies to suggest beneficial effects related to the consumption of quercetin and its glucosides. However, there is limited knowledge on the oral bioavailability of these natural products. This study examined the intestinal epithelial membrane transport of quercetin, quercetin 4'-glucoside, and quercetin 3,4'-diglucoside, using the Caco-2 human colonic cell line, a model of human intestinal absorption. The apparent permeability (Papp) of each agent was measured in both apical to basal and basal to apical directions. The apical to basolateral flux of quercetin, Papp 5.8 +/- 1.1 x 10(-6) cm x sec(-1) (mean +/- SEM), was more than 10-fold higher than for the paracellular transport marker mannitol, 0.48 +/- 0.09 x 10(-6) cm x sec(-1) (P < 0.01). Under identical conditions, the Papp for the transcellular marker propranolol was about 5-fold higher than for quercetin (P < 0.001). Interestingly, the reverse, basolateral to apical, flux of quercetin (Papp 11.1 +/- 1.2 x 10(-6) cm x sec(-1)) was almost 2-fold higher than the apical to basolateral flux (P < 0.001). In similar experiments, quercetin 4'-glucoside demonstrated no absorption, Papp < 0.02 x 10(-6) cm x sec(-1) in the apical to basal direction, but did demonstrate basal to apical flux, Papp 1.6 +/- 0.2 x 10(-6) cm x sec(-1). Quercetin 3,4'-diglucoside showed a low apical to basolateral transport (Papp 0.09 +/- 0.03 x 10(-6) cm x sec(-1)); its reverse, basolateral to apical, transport was, however, 4-fold higher (P < 0.05). In these cells, glucose was actively transported with an apical to basolateral Papp of 36.8 +/- 1.1 x 10(-6) cm x sec(-1). These observations suggest facile absorption of quercetin through the human intestinal epithelium, but contrary to a previous proposal, they do not support an active transport process for quercetin glucosides.",
+        "affiliation": "Department of Cell and Molecular Pharmacology and Experimental Therapeutics, Medical University of South Carolina, Charleston 29425, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA 69138",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "GM 55561",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Mucosa",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quercetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Membrane Permeability"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Glucosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Quercetin",
+              "registryNumber": "9IKM0I5T1E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s0006-2952(98)00048-3"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 179,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1998-07-02",
+        "dateOfCreation": "1998-06-20",
+        "dateOfRevision": "2019-06-23",
+        "firstPublicationDate": "1998-05-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11053519",
+        "source": "MED",
+        "pmid": "11053519",
+        "doi": "10.1093/jn/130.11.2765",
+        "title": "Intestinal transport of quercetin glycosides in rats involves both deglycosylation and interaction with the hexose transport pathway.",
+        "authorString": "Gee JM, DuPont MS, Day AJ, Plumb GW, Williamson G, Johnson IT.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gee JM",
+              "lastName": "Gee",
+              "firstName": "J M",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Diet, Health and Consumer Sciences Division, Institute of Food Research, Norwich Research Park, Colney, Norwich, NR4 7UA, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "DuPont MS",
+              "lastName": "DuPont",
+              "firstName": "M S",
+              "initials": "MS"
+            },
+            {
+              "fullName": "Day AJ",
+              "lastName": "Day",
+              "firstName": "A J",
+              "initials": "AJ"
+            },
+            {
+              "fullName": "Plumb GW",
+              "lastName": "Plumb",
+              "firstName": "G W",
+              "initials": "GW"
+            },
+            {
+              "fullName": "Williamson G",
+              "lastName": "Williamson",
+              "firstName": "G",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5624-6267"
+              }
+            },
+            {
+              "fullName": "Johnson IT",
+              "lastName": "Johnson",
+              "firstName": "I T",
+              "initials": "IT"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3949-8155"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5624-6267"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "130",
+          "journalIssueId": 1071693,
+          "dateOfPublication": "2000 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2000,
+          "journal": {
+            "medlineAbbreviation": "J Nutr",
+            "title": "The Journal of nutrition",
+            "essn": "1541-6100",
+            "issn": "0022-3166",
+            "isoabbreviation": "J Nutr",
+            "nlmid": "0404243"
+          },
+          "printPublicationDate": "2000-11-01"
+        },
+        "pubYear": "2000",
+        "pageInfo": "2765-2771",
+        "abstractText": "Flavonoids are polyphenolic plant secondary metabolites with antioxidant and other biological activities potentially beneficial to health. Food-borne flavonoids occur mainly as glycosides, some of which can be absorbed in the human small intestine; however, the mechanism of uptake is uncertain. We used isolated preparations of rat small intestine to compare the uptake of the quercetin aglycone with that of some quercetin glucosides commonly found in foods, and investigated interactions between quercetin-3-glucoside and the intestinal hexose transport pathway. The nature of any metabolism of quercetin and its glucosides during small intestinal transport in vitro was determined by HPLC. The presence of quercetin-3-glucoside in the mucosal medium suppressed the uptake of labeled galactose by competitive inhibition and stimulated the efflux of preloaded galactose. Quercetin-3-glucoside and quercetin-4'-glucoside, but not quercetin-3,4'-diglucoside, were transported into everted sacs significantly more quickly than quercetin aglycone. Intact quercetin glucosides were not detected in mucosal tissue or within the serosal compartment, but both free quercetin and its metabolites were present, mainly as quercetin-3-glucuronide and quercetin-7-glucuronide. Evidently, quercetin derived from quercetin-3-glucoside passes across the small intestinal epithelium more rapidly than free quercetin aglycone. Monoglucosides of quercetin interact with the sodium-dependent glucose transporter. During passage across the epithelium, quercetin-3-glucoside is rapidly deglycosylated and then glucuronidated.",
+        "affiliation": "Diet, Health and Consumer Sciences Division, Institute of Food Research, Norwich Research Park, Colney, Norwich, NR4 7UA, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestine, Small",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quercetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Galactose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monosaccharide Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Analysis of Variance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Monosaccharide Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "isoquercitrin",
+              "registryNumber": "0YX10VRV6J"
+            },
+            {
+              "name": "spiraeoside",
+              "registryNumber": "K2B74751XI"
+            },
+            {
+              "name": "Galactose",
+              "registryNumber": "X2RN3Q8DNE"
+            },
+            {
+              "name": "Quercetin",
+              "registryNumber": "9IKM0I5T1E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/full/130/11/2765"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "jn.nutrition.org",
+              "url": "http://jn.nutrition.org/cgi/content/abstract/130/11/2765"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jn/130.11.2765"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 179,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2000-12-08",
+        "dateOfCreation": "2000-10-29",
+        "dateOfRevision": "2018-03-30",
+        "firstPublicationDate": "2000-11-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

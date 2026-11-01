@@ -1,0 +1,1877 @@
+{
+  "version": "6.9",
+  "hitCount": 5,
+  "request": {
+    "queryString": "TITLE:\"Allicin\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "29937536",
+        "source": "MED",
+        "pmid": "29937536",
+        "pmcid": "PMC6073756",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6073756"
+          ]
+        },
+        "doi": "10.3390/nu10070812",
+        "title": "Allicin Bioavailability and Bioequivalence from Garlic Supplements and Garlic Foods.",
+        "authorString": "Lawson LD, Hunsaker SM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lawson LD",
+              "lastName": "Lawson",
+              "firstName": "Larry D",
+              "initials": "LD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1262-8351"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mérieux NutriSciences Corporate Office (Silliker, Inc.), 111 E. Wacker Dr. Ste. 2300, Chicago, IL 60601, USA. llawson2323@yahoo.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hunsaker SM",
+              "lastName": "Hunsaker",
+              "firstName": "Scott M",
+              "initials": "SM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mérieux NutriSciences Corporate Office (Silliker, Inc.), 111 E. Wacker Dr. Ste. 2300, Chicago, IL 60601, USA. scott.huns@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1262-8351"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "10",
+          "journalIssueId": 2699065,
+          "dateOfPublication": "2018 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Nutrients",
+            "title": "Nutrients",
+            "essn": "2072-6643",
+            "issn": "2072-6643",
+            "isoabbreviation": "Nutrients",
+            "nlmid": "101521595"
+          },
+          "printPublicationDate": "2018-06-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "E812",
+        "abstractText": "Allicin is considered responsible for most of the pharmacological activity of crushed raw garlic cloves. However, when garlic supplements and garlic foods are consumed, allicin bioavailability or bioequivalence (ABB) has been unknown and in question because allicin formation from alliin and garlic alliinase usually occurs after consumption, under enzyme-inhibiting gastrointestinal conditions. The ABB from 13 garlic supplements and 9 garlic foods was determined by bioassay for 13 subjects by comparing the area under the 32-h concentration curve of breath allyl methyl sulfide (AMS), the main breath metabolite of allicin, to the area found after consuming a control (100% ABB) of known allicin content: homogenized raw garlic. For enteric tablets, ABB varied from 36⁻104%, but it was reduced to 22⁻57% when consumed with a high-protein meal, due to slower gastric emptying. Independent of meal type, non-enteric tablets gave high ABB (80⁻111%), while garlic powder capsules gave 26⁻109%. Kwai garlic powder tablets, which have been used in a large number of clinical trials, gave 80% ABB, validating it as representing raw garlic in those trials. ABB did not vary with alliinase activity, indicating that only a minimum level of activity is required. Enteric tablets (high-protein meal) disintegrated slower in women than men. The ABB of supplements was compared to that predicted in vitro by the dissolution test in the United States Pharmacopeia (USP); only partial agreement was found. Cooked or acidified garlic foods, which have no alliinase activity, gave higher ABB than expected: boiled (16%), roasted (30%), pickled (19%), and acid-minced (66%). Black garlic gave 5%. The mechanism for the higher than expected ABB for alliinase-inhibited garlic was explored; the results for an alliin-free/allicin-free extract indicate a partial role for the enhanced metabolism of &gamma;-glutamyl <i>S</i>-allylcysteine and <i>S</i>-allylcysteine to AMS. In conclusion, these largely unexpected results (lower ABB for enteric tablets and higher ABB for all other products) provide guidelines for the qualities of garlic products to be used in future clinical trials and new standards for manufacturers of garlic powder supplements. They also give the consumer an awareness of how garlic foods might compare to the garlic powder supplements used to establish any allicin-related health benefit of garlic.",
+        "affiliation": "Mérieux NutriSciences Corporate Office (Silliker, Inc.), 111 E. Wacker Dr. Ste. 2300, Chicago, IL 60601, USA. llawson2323@yahoo.com.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "R21 AT004236",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Garlic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfinic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cysteine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Capsules",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Breath Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Therapeutic Equivalency"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Alliin",
+            "Aged Garlic Extract",
+            "S-allylcysteine",
+            "Pickled Garlic",
+            "Black Garlic",
+            "Allyl Methyl Sulfide",
+            "Garlic Supplements",
+            "Allicin Bioavailability",
+            "Allicin Metabolism",
+            "Cooked Garlic"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dietary Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Capsules",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfinic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allicin",
+              "registryNumber": "3C39BY17Y6"
+            },
+            {
+              "name": "allyl methyl sulfide",
+              "registryNumber": "V7QI1R316C"
+            },
+            {
+              "name": "Cysteine",
+              "registryNumber": "K848JZ4886"
+            },
+            {
+              "name": "alliin",
+              "registryNumber": "7I4L2D0E9G"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/2072-6643/10/7/812/pdf?version=1529840208"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/nu10070812"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6073756"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6073756?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 122,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-01-07",
+        "dateOfCreation": "2018-06-26",
+        "dateOfRevision": "2021-12-04",
+        "electronicPublicationDate": "2018-06-24",
+        "firstPublicationDate": "2018-06-24",
+        "firstIndexDate": "2018-06-25",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31810206",
+        "source": "MED",
+        "pmid": "31810206",
+        "pmcid": "PMC6949904",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6949904"
+          ]
+        },
+        "doi": "10.3390/nu11122909",
+        "title": "Allicin Improves Metabolism in High-Fat Diet-Induced Obese Mice by Modulating the Gut Microbiota.",
+        "authorString": "Shi X, Zhou X, Chu X, Wang J, Xie B, Ge J, Guo Y, Li X, Yang G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shi X",
+              "lastName": "Shi",
+              "firstName": "Xin'e",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6036-9668"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou X",
+              "lastName": "Zhou",
+              "firstName": "Xiaomin",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-2478-4589"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chu X",
+              "lastName": "Chu",
+              "firstName": "Xinyi",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie B",
+              "lastName": "Xie",
+              "firstName": "Baocai",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0611-0131"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ge J",
+              "lastName": "Ge",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo Y",
+              "lastName": "Guo",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li X",
+              "lastName": "Li",
+              "firstName": "Xiao",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6630-0503"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang G",
+              "lastName": "Yang",
+              "firstName": "Gongshe",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6036-9668"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6630-0503"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0611-0131"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-2478-4589"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "11",
+          "journalIssueId": 2889554,
+          "dateOfPublication": "2019 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Nutrients",
+            "title": "Nutrients",
+            "essn": "2072-6643",
+            "issn": "2072-6643",
+            "isoabbreviation": "Nutrients",
+            "nlmid": "101521595"
+          },
+          "printPublicationDate": "2019-12-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "E2909",
+        "abstractText": "Allicin, naturally present in the bulbs of the lily family, has anticancer, blood pressure lowering, blood fat lowering and diabetes improving effects. Recent studies have shown that allicin promotes the browning of white adipocytes and reduces the weight gain of mice induced by high-fat diet. While the gut microbiota has a strong relationship with obesity and energy metabolism, the effect of allicin on weight loss via gut microorganisms is still unclear. In this study, we treated obese mice induced by high-fat diet with allicin to determine its effects on fat deposition, blood metabolic parameters and intestinal morphology. Furthermore, we used high-throughput sequencing on a MiSeq Illumina platform to determine the gut microorganisms' species. We found that allicin significantly reduced the weight gain of obese mice by promoting lipolysis and thermogenesis, as well as blood metabolism and intestinal morphology, and suppressing hepatic lipid synthesis and transport. In addition, allicin changed the composition of the intestinal microbiota and increased the proportion of beneficial bacteria. In conclusion, our study showed that allicin improves metabolism in high-fat induced obese mice by modulating the gut microbiota. Our findings provide a theoretical basis for further elucidation of the weight loss mechanism of allicin.",
+        "affiliation": "Key Laboratory of Animal Genetics, Breeding and Reproduction of Shaanxi Province, Laboratory of Animal Fat Deposition and Muscle Development, College of Animal Science and Technology, Northwest A&F University, Yangling 712100, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Obese"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Obesity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Weight Gain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfinic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypolipidemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet, High-Fat",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gastrointestinal Microbiome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Obesity",
+            "Allicin",
+            "Gut Microbiota",
+            "Adipose",
+            "Intestinal Microbiota"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfinic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hypolipidemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allicin",
+              "registryNumber": "3C39BY17Y6"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/2072-6643/11/12/2909/pdf?version=1575281018"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/nu11122909"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6949904"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6949904?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 63,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-07-01",
+        "dateOfCreation": "2019-12-08",
+        "dateOfRevision": "2021-12-04",
+        "electronicPublicationDate": "2019-12-02",
+        "firstPublicationDate": "2019-12-02",
+        "firstIndexDate": "2019-12-08",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29169723",
+        "source": "MED",
+        "pmid": "29169723",
+        "doi": "10.1016/j.biopha.2017.10.125",
+        "title": "Protective effects of allicin on 1,3-DCP-induced lipid metabolism disorder in HepG2 cells.",
+        "authorString": "Lu J, Cheng B, Fang B, Meng Z, Zheng Y, Tian X, Guan S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lu J",
+              "lastName": "Lu",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng B",
+              "lastName": "Cheng",
+              "firstName": "Bijun",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4772-9141"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fang B",
+              "lastName": "Fang",
+              "firstName": "Baochen",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meng Z",
+              "lastName": "Meng",
+              "firstName": "Zhuoqun",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zheng Y",
+              "lastName": "Zheng",
+              "firstName": "Yiying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tian X",
+              "lastName": "Tian",
+              "firstName": "Xiaochen",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guan S",
+              "lastName": "Guan",
+              "firstName": "Shuang",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4772-9141"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "96",
+          "journalIssueId": 2630966,
+          "dateOfPublication": "2017 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Biomed Pharmacother",
+            "title": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "essn": "1950-6007",
+            "issn": "0753-3322",
+            "isoabbreviation": "Biomed Pharmacother",
+            "nlmid": "8213295"
+          },
+          "printPublicationDate": "2017-12-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "1411-1417",
+        "abstractText": "Allicin (2-propene-1-sulfinothioic acid S-2-propenyl ester), with quite a good range of hepatoprotective and antineoplastic properties, is a functional substance from garlic (Allium sativum L.) The purpose of this study was to provide evidence that allicin could protect 1,3-DCP-induced lipid metabolism disorder in HepG2 cells. Allicin reduced the accumulation of triglycerides (TG) and total cholesterol (TC) in 1,3-DCP-induced HepG2 cells. Allicin significantly increased the phosphorylation of AMP-activated protein kinase (AMPK) and down-regulated the levels of sterol regulatory element binding protein-1 (SREBP-1) and sterol regulatory element binding protein-2 (SREBP-2) in 1,3-DCP-induced HepG2 cells. Additionally, allicin had obvious recovery influence on the phosphorylation level of PKA and CREB in 1,3-DCP-induced HepG2 cells. These observations indicated that allicin alleviated lipid metabolism disorder induced by 1,3-DCP in HepG2 cells by regulating AMPK-SREBPs and PKA-CREB signaling pathways.",
+        "affiliation": "Food science and engineering college, Jilin University, Changchun, Jilin Province 130062, People's Republic of China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Jilin University",
+              "grantId": "450060488105",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfinic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cholesterol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclic AMP-Dependent Protein Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triglycerides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Down-Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphorylation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclic AMP Response Element-Binding Protein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sterol Regulatory Element Binding Protein 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "AMP-Activated Protein Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "PKA",
+            "Allicin",
+            "Lipid metabolism disorder",
+            "Ampk",
+            "1,3-Dcp"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Triglycerides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfinic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sterol regulatory element binding protein 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cyclic AMP Response Element-Binding Protein",
+              "registryNumber": "0"
+            },
+            {
+              "name": "AMP-activated protein kinases",
+              "registryNumber": "EC 2.7.11.31"
+            },
+            {
+              "name": "Cyclic AMP-Dependent Protein Kinases",
+              "registryNumber": "EC 2.7.11.11"
+            },
+            {
+              "name": "allicin",
+              "registryNumber": "3C39BY17Y6"
+            },
+            {
+              "name": "Cholesterol",
+              "registryNumber": "97C5T2UQ7J"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.biopha.2017.10.125"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 22,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-07-25",
+        "dateOfCreation": "2017-11-25",
+        "dateOfRevision": "2021-12-04",
+        "electronicPublicationDate": "2017-11-21",
+        "firstPublicationDate": "2017-11-21",
+        "firstIndexDate": "2017-11-24",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15769123",
+        "source": "MED",
+        "pmid": "15769123",
+        "doi": "10.1021/jf048323s",
+        "title": "Allicin and allicin-derived garlic compounds increase breath acetone through allyl methyl sulfide: use in measuring allicin bioavailability.",
+        "authorString": "Lawson LD, Wang ZJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lawson LD",
+              "lastName": "Lawson",
+              "firstName": "Larry D",
+              "initials": "LD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Plant Bioactives Research Institute, Inc., Orem, Utah 84058, USA. lawson@plant-bioactives.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang ZJ",
+              "lastName": "Wang",
+              "firstName": "Z Jonathan",
+              "initials": "ZJ"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "53",
+          "journalIssueId": 1223033,
+          "dateOfPublication": "2005 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2005-03-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "1974-1983",
+        "abstractText": "Progress in establishing systemic pharmacological effects for fresh, crushed garlic (Allium sativum L) in humans has been hindered by (1) the inability to measure allicin bioavailability, (2) lack of direct evidence that allicin has significant systemic activity at doses of garlic normally consumed, and (3) lack of a model for an acute effect. We have addressed these problems by quantifying the increases in breath acetone and breath allyl methyl sulfide (AMS). The area under the 48 h curve was measured in humans after consumption of standardized garlic preparations, allicin, and allicin-derived compounds, at the equivalent of 7 g of crushed garlic. It was shown that the allyl thiosulfinates (mainly allicin) are solely responsible for breath AMS and increased breath acetone. Diallyl trisulfide, diallyl disulfide, ajoene, and S-allylmercaptocysteine, at isomolar dithioallyl, showed the same quantitative effects as allicin. Consumption of AMS at isomolar allyl also gave the same effects as allicin, indicating that AMS is the main metabolite of allicin and is an active metabolite. In conclusion, allicin and allicin-derived compounds are rapidly metabolized to AMS, a compound which stimulates the production of acetone and which can be used to measure the bioavailability of allicin and, hence, the ability of garlic supplements to represent fresh garlic.",
+        "affiliation": "Plant Bioactives Research Institute, Inc., Orem, Utah 84058, USA. lawson@plant-bioactives.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Garlic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfinic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acetone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Breath Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfinic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allicin",
+              "registryNumber": "3C39BY17Y6"
+            },
+            {
+              "name": "allyl methyl sulfide",
+              "registryNumber": "V7QI1R316C"
+            },
+            {
+              "name": "Acetone",
+              "registryNumber": "1364PS73AF"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/jf048323s"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 102,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-04-28",
+        "dateOfCreation": "2005-03-17",
+        "dateOfRevision": "2022-03-30",
+        "firstPublicationDate": "2005-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9528659",
+        "source": "MED",
+        "pmid": "9528659",
+        "doi": "10.1016/s0304-4165(97)00104-9",
+        "title": "The mode of action of allicin: trapping of radicals and interaction with thiol containing proteins.",
+        "authorString": "Rabinkov A, Miron T, Konstantinovski L, Wilchek M, Mirelman D, Weiner L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Rabinkov A",
+              "lastName": "Rabinkov",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Membrane Research and Biophysics, Weizmann Institute of Science, Rehovot, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miron T",
+              "lastName": "Miron",
+              "firstName": "T",
+              "initials": "T"
+            },
+            {
+              "fullName": "Konstantinovski L",
+              "lastName": "Konstantinovski",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Wilchek M",
+              "lastName": "Wilchek",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Mirelman D",
+              "lastName": "Mirelman",
+              "firstName": "D",
+              "initials": "D"
+            },
+            {
+              "fullName": "Weiner L",
+              "lastName": "Weiner",
+              "firstName": "L",
+              "initials": "L"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "1379",
+          "journalIssueId": 890421,
+          "dateOfPublication": "1998 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 1998,
+          "journal": {
+            "medlineAbbreviation": "Biochim Biophys Acta",
+            "title": "Biochimica et biophysica acta",
+            "essn": "1878-2434",
+            "issn": "0006-3002",
+            "isoabbreviation": "Biochim Biophys Acta",
+            "nlmid": "0217513"
+          },
+          "printPublicationDate": "1998-02-01"
+        },
+        "pubYear": "1998",
+        "pageInfo": "233-244",
+        "abstractText": "Allicin (thio-2-propene-1-sulfinic acid S-allyl ester) is the main biologically active component of garlic clove extracts. Its biological activity was attributed to either antioxidant activity or thiol disulfide exchange. Antioxidant properties of both allicin and its precursor, alliin (+S-allyl-L-cysteine sulfoxide), were investigated in the Fenton oxygen-radical generating system [H2O2-Fe(II)]. Using the spin trapping technique and ESR, it was found that both compounds possessed significant antioxidant activity. The reaction between allicin and L-cysteine was studied by 1H and 13C-NMR, and a S-thiolation product, S-allylmercaptocysteine, was identified. Allicin irreversibly inhibited SH-protease papain, NADP(+)-dependent alcohol dehydrogenase from Thermoanaerobium brockii (TBAD), and the NAD(+)-dependent alcohol dehydrogenase from horse liver (HLAD). All the three enzymes could be reactivated with thiol containing compounds. Papain could be reactivated with glutathione, TBAD with dithiothreitol or 2-mercaptoethanol (2-ME) but not by glutathione, while HLAD could be reactivated only with 2-ME. This study demonstrates that in addition to its antioxidant activity, the major biological effect of allicin should be attributed to its rapid reaction with thiol containing proteins.",
+        "affiliation": "Department of Membrane Research and Biophysics, Weizmann Institute of Science, Rehovot, Israel.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Horses"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gram-Positive Asporogenous Rods, Irregular",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Garlic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants, Medicinal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfinic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cysteine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Papain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alcohol Oxidoreductases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alcohol Dehydrogenase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Reactivators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Free Radical Scavengers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Spectroscopy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "alcohol dehydrogenase (NADP+)",
+              "registryNumber": "EC 1.1.1.2"
+            },
+            {
+              "name": "Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Papain",
+              "registryNumber": "EC 3.4.22.2"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfinic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Reactivators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Alcohol Dehydrogenase",
+              "registryNumber": "EC 1.1.1.1"
+            },
+            {
+              "name": "Free Radical Scavengers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Alcohol Oxidoreductases",
+              "registryNumber": "EC 1.1.-"
+            },
+            {
+              "name": "allicin",
+              "registryNumber": "3C39BY17Y6"
+            },
+            {
+              "name": "Cysteine",
+              "registryNumber": "K848JZ4886"
+            },
+            {
+              "name": "alliin",
+              "registryNumber": "7I4L2D0E9G"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s0304-4165(97)00104-9"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 231,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1998-04-21",
+        "dateOfCreation": "1998-04-07",
+        "dateOfRevision": "2021-12-03",
+        "firstPublicationDate": "1998-02-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

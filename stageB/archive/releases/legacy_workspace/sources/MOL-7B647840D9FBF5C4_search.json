@@ -1,0 +1,3376 @@
+{
+  "version": "6.9",
+  "hitCount": 12,
+  "request": {
+    "queryString": "TITLE_ABS:\"Sinigrin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39854962",
+        "source": "MED",
+        "pmid": "39854962",
+        "doi": "10.1016/j.cbd.2025.101424",
+        "title": "High levels of sinigrin trigger synthesis of fatty acids in Plutella xylostella (L.).",
+        "authorString": "Barve PR, Barvkar VT, Giri AP, Kotkar HM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Barve PR",
+              "lastName": "Barve",
+              "firstName": "Pranoti R",
+              "initials": "PR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Botany, Savitribai Phule Pune University, Ganeshkhind, Pune- 411 007, Maharashtra, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barvkar VT",
+              "lastName": "Barvkar",
+              "firstName": "Vitthal T",
+              "initials": "VT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Botany, Savitribai Phule Pune University, Ganeshkhind, Pune- 411 007, Maharashtra, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giri AP",
+              "lastName": "Giri",
+              "firstName": "Ashok P",
+              "initials": "AP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Plant Molecular Biology Unit, Biochemical Sciences Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune 411008, Maharashtra, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, Uttar Pradesh, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kotkar HM",
+              "lastName": "Kotkar",
+              "firstName": "Hemlata M",
+              "initials": "HM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Botany, Savitribai Phule Pune University, Ganeshkhind, Pune- 411 007, Maharashtra, India. Electronic address: kotkarh@unipune.ac.in."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "54",
+          "journalIssueId": 3912927,
+          "dateOfPublication": "2025 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Comp Biochem Physiol Part D Genomics Proteomics",
+            "title": "Comparative biochemistry and physiology. Part D, Genomics & proteomics",
+            "essn": "1878-0407",
+            "issn": "1744-117X",
+            "isoabbreviation": "Comp Biochem Physiol Part D Genomics Proteomics",
+            "nlmid": "101270611"
+          },
+          "printPublicationDate": "2025-06-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "101424",
+        "abstractText": "Diamondback moth (Lepidoptera: Plutellidae; Plutella xylostella L.) is a specialist insect of the Brassicaceae family, damaging economically important crops, such as cabbage and cauliflower. Glucosinolates, also known as 'mustard oil bombs' are present in all Brassicaceae members, of which sinigrin (allyl-glucosinolate or 2-propenyl-glucosinolate) is a major aliphatic compound. During herbivory, glucosinolates are converted to toxic isothiocyanates that deter insect pests. P. xylostella possesses glucosinolate sulfatases that desulfate them. Such a conversion renders them unfit for degradation to toxic products. Changes in the larval performance prompted us for RNA sequencing to understand probable adaptation mechanism under sinigrin stress. Differentially expressed genes were found to be related to larval cuticle proteins. Further, gene ontology and KEGG (Kyoto Encyclopedia of Genes and Genomes) analyses depict genes belonging to the categories, integral component of membrane, cellular processes and those involved in biosynthesis of fatty acids. Upregulation of cuticular genes viz. larval cuticle protein-17 (LCP-17), cuticular protein-19 (2CP-19) and ATP binding cassette transporter C7 (ABCC7), ABCC16 was validated by qRT-PCR. Liquid chromatography quadrupole time of flight mass spectrometry analysis of whole larvae feeding on sinigrin and their separated cuticle, depicted abundance of fatty acids. Changes in the topography of the larval cuticle were evident by scanning electron microscopy. Expression of PxABCH1 was corroborated to its role in the transport of cuticular lipids. Notably, molecular docking of PxABCH1 with cuticular fatty acids showed favorable binding interactions. To summarize, integrated transcriptomic and metabolomic analyses suggest that in response to a diet containing a high dose of sinigrin, P. xylostella re-programs metabolic pathways related to fatty acid biosynthesis that directly influence insect development.",
+        "affiliation": "Department of Botany, Savitribai Phule Pune University, Ganeshkhind, Pune- 411 007, Maharashtra, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "CSIR - National Chemical Laboratory",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Moths",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Fatty Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insect Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Larva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Plutella xylostella",
+            "Cuticle",
+            "Transcriptome",
+            "ABC transporter",
+            "metabolome",
+            "Sinigrin",
+            "Host Metabolite"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Fatty Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Insect Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sinigrin",
+              "registryNumber": "50UM64RMBJ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.cbd.2025.101424"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-05-03",
+        "dateOfCreation": "2025-01-24",
+        "dateOfRevision": "2026-06-02",
+        "electronicPublicationDate": "2025-01-17",
+        "firstPublicationDate": "2025-01-17",
+        "firstIndexDate": "2025-01-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39122120",
+        "source": "MED",
+        "pmid": "39122120",
+        "doi": "10.1016/j.fitote.2024.106177",
+        "title": "Effect of ultrasonic and conventional extraction on bioactive components, glucosinolate content and antidiabetic activity of Crambe tataria.",
+        "authorString": "Okumus E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Okumus E",
+              "lastName": "Okumus",
+              "firstName": "Emine",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Van Yüzüncü Yıl University, Faculty of Engineering, Department of Food Engineering, Van, Turkey. Electronic address: emineokumus@yyu.edu.tr."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "178",
+          "journalIssueId": 3830473,
+          "dateOfPublication": "2024 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Fitoterapia",
+            "title": "Fitoterapia",
+            "essn": "1873-6971",
+            "issn": "0367-326X",
+            "isoabbreviation": "Fitoterapia",
+            "nlmid": "16930290R"
+          },
+          "printPublicationDate": "2024-10-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "106177",
+        "abstractText": "This study was conducted to determine and compare the phenolic compounds, glucosinolate contents and antidiabetic effects of the extracts obtained by ultrasonic and conventional extraction method of the leaves and flowers of the Crambe tataria. The highest antioxidant activity (12.95 mg/mL IC<sub>50</sub> value) and total phenolic content (1313.57 mg GAE/100 g fw) were detected in the ultrasonic flower extract. In total flavonoid results, extracts obtained from the flower part of C. tataria had higher values than that of extracts obtained from the leaf part. The most abundant phenolic component in the flower extract was catechin. The highest catechin content in all samples was detected in the ultrasonic flower extract with a value of 374.37 mg/kg. Rutin was the dominant phenolic component in the leaf extract. Rutin values were 654.38 mg/kg and 757.30 mg/kg for conventional and ultrasonic extraction, respectively. In glucosinolate analysis, the highest glucoraphanin content was obtained in flower samples and by conventional extraction method (3466.84 mg/kg). The highest contents of sinigrin (689.97 mg/kg), glucotropaeolin (420.89 mg/kg), glucoerucin (357.27 mg/kg), glucoraphasatin (181.11 mg/kg) and gluconasturtin (66.07 mg/kg) were detected in ultrasonic flower extracts. The highest α-amylase and α-glucosidase enzyme inhibition effects belonged to the ultrasonic flower extract with values of 3.70 mg/mL and 4.89 mg/mL, respectively. As a result, this study determined for the first time that ultrasonic extraction of C. tataria flowers has much higher bioactive components and antidiabetic effects, revealing the potential use of this plant in the fields of medicine, pharmacology and chemistry.",
+        "affiliation": "Van Yüzüncü Yıl University, Faculty of Engineering, Department of Food Engineering, Van, Turkey. Electronic address: emineokumus@yyu.edu.tr.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Flowers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypoglycemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ultrasonics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phytochemicals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Glucosinolate",
+            "bioactive components",
+            "Ultrasound Assisted Extraction",
+            "Conventional Extraction",
+            "Crambe Tataria"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phytochemicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fitote.2024.106177"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-09-18",
+        "dateOfCreation": "2024-08-09",
+        "dateOfRevision": "2024-09-18",
+        "electronicPublicationDate": "2024-08-08",
+        "firstPublicationDate": "2024-08-08",
+        "firstIndexDate": "2024-08-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32416341",
+        "source": "MED",
+        "pmid": "32416341",
+        "pmcid": "PMC7204735",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7204735"
+          ]
+        },
+        "doi": "10.1016/j.jpba.2020.113356",
+        "title": "Stereoselective pharmacokinetic study of epiprogoitrin and progoitrin in rats with UHPLC-MS/MS method.",
+        "authorString": "Xu Y, Li J, Shi Y, Yang L, Wang Z, Han H, Wang R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Xu Y",
+              "lastName": "Xu",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jinhang",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi Y",
+              "lastName": "Shi",
+              "firstName": "Yanhong",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of TCM International Standardization, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Li",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5484-0895"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China; The MOE Key Laboratory of Standardization of Chinese Medicines, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zhengtao",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The MOE Key Laboratory of Standardization of Chinese Medicines, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han H",
+              "lastName": "Han",
+              "firstName": "Han",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China; Experiment Center for Teaching and Learning, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China. Electronic address: pashanhan@126.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang R",
+              "lastName": "Wang",
+              "firstName": "Rui",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China. Electronic address: ellewang@163.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5484-0895"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2797-4625"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "187",
+          "journalIssueId": 2968807,
+          "dateOfPublication": "2020 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Biomed Anal",
+            "title": "Journal of pharmaceutical and biomedical analysis",
+            "essn": "1873-264X",
+            "issn": "0731-7085",
+            "isoabbreviation": "J Pharm Biomed Anal",
+            "nlmid": "8309336"
+          },
+          "printPublicationDate": "2020-08-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "113356",
+        "abstractText": "An accurate and precise liquid chromatography-electrospray ionization-tandem mass spectrometry (LC-ESI-MS/MS) method was developed and validated for the pharmacokinetic study of epiprogoitrin and progoitrin, a pair of epimers that can be deglycosylated to epigoitrin and goitrin, respectively. These analytes were administered intravenously or intragastrically to male Sprague-Dawley rats, and the influence of 3(R/S)-configuration on the pharmacokinetics of both epimers in rat plasma was elucidated. The analytes and an internal standard (i.e., sinigrin) were resolved by LC-MS/MS on a reverse-phase ACQUITY UPLC™ HSS T3 column equilibrated and eluted with acetonitrile and water (0.1 % formic acid) at a ﬂow rate of 0.3 mL/min. Quantitation was achieved by applying the multiple reaction monitoring mode, in the negative ion mode, at transitions of m/z 388 → 97 and m/z 358 → 97 for the epimers and sinigrin, respectively. The method demonstrated good linearity over the concentration range of 2-5000 ng/mL (r > 0.996). The lower limit of quantification for epiprogoitrin and progoitrin was 2 ng/mL. The interday and intraday accuracy and precision were within ±15 %. The extraction recovery, stability, and matrix effect were demonstrated to be within acceptable limits. The validated method was thus successfully applied for the pharmacokinetic study of both the epimers. After the rats received the same oral dose of the epimers, the pharmacokinetic profiles were similar. The maximum plasma concentration (C<sub>max</sub>) and AUC values of epiprogoitrin were a bit higher than those of progoitrin, whereas the pharmacokinetic behaviours of the epimers were obviously different upon intravenous administration. The C<sub>max</sub> and AUC values of epiprogoitrin were approximately three-fold higher than those of progoitrin, and the half-life of progoitrin was much shorter than that of epiprogoitrin. The oral bioavailability of progoitrin was 20.1 %-34.1 %, which is three times higher than that of epiprogoitrin.",
+        "affiliation": "School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "research-article",
+            "Validation Study",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shanghai Association for Science and Technology",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stereoisomerism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Lc–ms/ms",
+            "Stereospecific",
+            "Progoitrin",
+            "Epiprogoitrin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "progoitrin",
+              "registryNumber": "585-95-5"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jpba.2020.113356"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7204735"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7204735?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-04-09",
+        "dateOfCreation": "2020-05-17",
+        "dateOfRevision": "2021-04-09",
+        "electronicPublicationDate": "2020-05-07",
+        "firstPublicationDate": "2020-05-07",
+        "firstIndexDate": "2020-05-17",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36754228",
+        "source": "MED",
+        "pmid": "36754228",
+        "doi": "10.1016/j.cbi.2023.110383",
+        "title": "In-Silico molecular screening of natural compounds as a potential therapeutic inhibitor for Methicillin-resistant Staphylococcus aureus inhibition.",
+        "authorString": "Nandhini P, Gupta PK, Mahapatra AK, Das AP, Agarwal SM, Mickymaray S, Alothaim AS, Rajan M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nandhini P",
+              "lastName": "Nandhini",
+              "firstName": "Palanichamy",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0003-8670-3822"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomaterials in Medicinal Chemistry Laboratory, Department of Natural Products Chemistry, School of Chemistry, Madurai Kamaraj University, Madurai-625021, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gupta PK",
+              "lastName": "Gupta",
+              "firstName": "Prashant Kr",
+              "initials": "PK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ayurinformatics Laboratory, Department of Kaumarbhritya, All India Institute of Ayurveda, Sarita Vihar, New Delhi, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mahapatra AK",
+              "lastName": "Mahapatra",
+              "firstName": "Arun Kumar",
+              "initials": "AK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8812-1007"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ayurinformatics Laboratory, Department of Kaumarbhritya, All India Institute of Ayurveda, Sarita Vihar, New Delhi, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Das AP",
+              "lastName": "Das",
+              "firstName": "Agneesh Pratim",
+              "initials": "AP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9567-3125"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ICMR-National Institute of Cancer Prevention and Research, I-7, Sector-39, Noida-201301, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Agarwal SM",
+              "lastName": "Agarwal",
+              "firstName": "Subhash Mohan",
+              "initials": "SM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6685-789X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ICMR-National Institute of Cancer Prevention and Research, I-7, Sector-39, Noida-201301, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mickymaray S",
+              "lastName": "Mickymaray",
+              "firstName": "Suresh",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, Al-Zulfi, Majmaah University, Majmaah-11952, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alothaim AS",
+              "lastName": "Alothaim",
+              "firstName": "Abdulaziz S",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, College of Science, Al-Zulfi, Majmaah University, Majmaah-11952, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rajan M",
+              "lastName": "Rajan",
+              "firstName": "Mariappan",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomaterials in Medicinal Chemistry Laboratory, Department of Natural Products Chemistry, School of Chemistry, Madurai Kamaraj University, Madurai-625021, India. Electronic address: rajanm153@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6685-789X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8812-1007"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9567-3125"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0003-8670-3822"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "374",
+          "journalIssueId": 3521969,
+          "dateOfPublication": "2023 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Chem Biol Interact",
+            "title": "Chemico-biological interactions",
+            "essn": "1872-7786",
+            "issn": "0009-2797",
+            "isoabbreviation": "Chem Biol Interact",
+            "nlmid": "0227276"
+          },
+          "printPublicationDate": "2023-04-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "110383",
+        "abstractText": "Methicillin-resistant Staphylococcus aureus (MRSA) is a life-threatening superbug causing infectious diseases such as pneumonia, endocarditis, osteomyelitis, etc. Conventional antibiotics are ineffective against MRSA infections due to their resistance mechanism against the antibiotics. The Penicillin Binding Protein (PBP2a) inhibits the activity of antibiotics by hydrolyzing the β-lactam ring. Thus, alternate treatment methods are needed for the treatment of MRSA infections. Natural bioactive compounds exhibit good inhibition efficiency against MRSA infections by hindering its enzymatic mechanism, efflux pump system, etc. The present work deals with identifying potential and non-toxic natural bioactive compounds (ligands) through molecular docking studies through StarDrop software. Various natural bioactive compounds which are effective against MRSA infections were docked with the protein (6VVA). The ligands having good binding energy values and pharmacokinetic and drug-likeness properties have been illustrated as potential ligands for treating MRSA infections. From this exploration, Luteolin, Kaempferol, Chlorogenic acid, Sinigrin, Zingiberene, 1-Methyl-4-(6-methylhepta-1,5-dien-2-yl)cyclohex-1-ene, and Curcumin have found with good binding energies of -8.6 kcal/mol, -8.4 kcal/mol, -8.2 kcal/mol, -7.5 kcal/mol, -7.4 kcal/mol, -7.3 kcal/mol, and -7.2 kcal/mol, respectively.",
+        "affiliation": "Biomaterials in Medicinal Chemistry Laboratory, Department of Natural Products Chemistry, School of Chemistry, Madurai Kamaraj University, Madurai-625021, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Department of Science and Technology, Ministry of Science and Technology, India",
+              "orderIn": 0
+            },
+            {
+              "agency": "University Grants Commission",
+              "orderIn": 0
+            },
+            {
+              "agency": "Rashtriya Uchchatar Shiksha Abhiyan",
+              "grantId": ":007-R2/RUSA/MKU/2020-21",
+              "orderIn": 0
+            },
+            {
+              "agency": "Science and Engineering Research Board",
+              "grantId": "EEQ/2020/000201",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta-Lactams",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Penicillin-Binding Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbial Sensitivity Tests"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Methicillin-Resistant Staphylococcus aureus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Inhibitors",
+            "Antibiotics",
+            "Molecular dynamics",
+            "Natural products",
+            "Molecular Docking Studies",
+            "Mrsa Protein"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "beta-Lactams",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Penicillin-Binding Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.cbi.2023.110383"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-03-10",
+        "dateOfCreation": "2023-02-08",
+        "dateOfRevision": "2023-03-10",
+        "electronicPublicationDate": "2023-02-06",
+        "firstPublicationDate": "2023-02-06",
+        "firstIndexDate": "2023-02-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33570481",
+        "source": "MED",
+        "pmid": "33570481",
+        "doi": "10.1080/00480169.2021.1875933",
+        "title": "The <i>in vitro</i> toxicity of nitrile and epithionitrile derivatives of glucosinolates from swedes (<i>Brassica napus)</i> in human and bovine liver cells.",
+        "authorString": "Latimer I, Chand R, Cridge B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Latimer I",
+              "lastName": "Latimer",
+              "firstName": "I",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, University of Otago, Dunedin, New Zealand."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chand R",
+              "lastName": "Chand",
+              "firstName": "R",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5707-8058"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, University of Otago, Dunedin, New Zealand."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cridge B",
+              "lastName": "Cridge",
+              "firstName": "B",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6284-6787"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, University of Otago, Dunedin, New Zealand."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5707-8058"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6284-6787"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "69",
+          "journalIssueId": 3139594,
+          "dateOfPublication": "2021 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "N Z Vet J",
+            "title": "New Zealand veterinary journal",
+            "essn": "1176-0710",
+            "issn": "0048-0169",
+            "isoabbreviation": "N Z Vet J",
+            "nlmid": "0021406"
+          },
+          "printPublicationDate": "2021-05-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "165-173",
+        "abstractText": "<h4>Aim</h4>To investigate the direct <i>in vitro</i> toxicity in human and bovine liver cells, and inhibition of activity of ATP-binding cassette transporter G2 (ABCG2) and cytochrome P450 3A4 (CYP3A4) by five nitrile and epithionitrile derivatives from swede (<i>Brassica napus</i>).<h4>Methods</h4>The following compounds were investigated: 1-cyano-2-hydroxy-3-butene (CHB, epithionitrile derivative of progoitrin), 1-cyano-2-hydroxy-3,4-epithiobutane (epithionitrile derivative of progoitrin), 3-butenenitrile (nitrile from sinigrin), 4-pentenenitrile (nitrile from gluconapin), and 5-hexenenitrile (nitrile from glucobrassicanapin). Direct cytotoxicity was assessed by incubating the compounds (at 100 mM, 200 mM, 2 M) with human (HepG2) hepatocellular carcinoma cells or bovine primary hepatocytes for 24 hours. Cell viability was then assessed using the 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) assay. Cytotoxicity in Hep2G cells was also assessed after incubation for 72 hours at sub-chronic concentrations (1, 2.5, 5, 10, 15, 20 µM) and for combinations of compounds (20 µM). The ability of compounds to inhibit activity of the ABCG2 transporter and the CYP3A4 enzyme were assessed using human ABCG2 vesicles and demethylation of erythromycin by rat liver microsomes, respectively.<h4>Results</h4>No reduction of cell viability compared to control assays was observed when the tested compounds were incubated with Hep2G cells or bovine liver cells at concentrations up to 2 mM for 24 hours or with Hep2G cells at concentrations up to 20 µM for 72 hours. None of the five tested compounds inhibited the ability of the ABCG2 transporter to transport the fluorescent substrate at concentrations up to 2 mM. Furthermore, no inhibition of CYP3A4 activity (measured as N-demethylation of erythromycin) was observed for CHB up to 2 mM.<h4>Conclusion</h4>This study suggests that under these conditions, the selected nitrile or epithionitrile derivatives of glucosinolates are not hepatotoxic <i>in vitro</i>.",
+        "affiliation": "Department of Pharmacology and Toxicology, University of Otago, Dunedin, New Zealand.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "AGMARDT NZ",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hepatocytes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brassica napus"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nitriles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Glucosinolates"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sweden"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Brassica",
+            "Glucosinolate",
+            "Bovine",
+            "Nitrile",
+            "ABCG2",
+            "Liver Toxicity",
+            "Epithionitrile"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Nitriles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/00480169.2021.1875933"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-10-28",
+        "dateOfCreation": "2021-02-11",
+        "dateOfRevision": "2022-04-21",
+        "electronicPublicationDate": "2021-02-11",
+        "firstPublicationDate": "2021-02-11",
+        "firstIndexDate": "2021-02-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26916517",
+        "source": "MED",
+        "pmid": "26916517",
+        "doi": "10.1093/ee/nvw007",
+        "title": "Induction of Cytochrome P450 Activity by the Interaction of Chlorantraniliprole and Sinigrin in the Spodoptera exigua (Lepidoptera: Noctuidae).",
+        "authorString": "Wang XG, Gao XW, Liang P, Shi XY, Song DL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang XG",
+              "lastName": "Wang",
+              "firstName": "X G",
+              "initials": "XG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, China Agricultural University, Beijing 100094, China (wangxuegui@sicau.edu.cn; gaoxiwu@263.net.cn; liangcau@cau.edu.cn; shixueyan@cau.edu.cn; songdl@cau.edu.cn), Biorational Pesticide Research Lab, Sichuan Agricultural University, Chengdu 611130, China, and gaoxiwu@263.net.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao XW",
+              "lastName": "Gao",
+              "firstName": "X W",
+              "initials": "XW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, China Agricultural University, Beijing 100094, China (wangxuegui@sicau.edu.cn; gaoxiwu@263.net.cn; liangcau@cau.edu.cn; shixueyan@cau.edu.cn; songdl@cau.edu.cn), gaoxiwu@263.net.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liang P",
+              "lastName": "Liang",
+              "firstName": "P",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, China Agricultural University, Beijing 100094, China (wangxuegui@sicau.edu.cn; gaoxiwu@263.net.cn; liangcau@cau.edu.cn; shixueyan@cau.edu.cn; songdl@cau.edu.cn)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi XY",
+              "lastName": "Shi",
+              "firstName": "X Y",
+              "initials": "XY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, China Agricultural University, Beijing 100094, China (wangxuegui@sicau.edu.cn; gaoxiwu@263.net.cn; liangcau@cau.edu.cn; shixueyan@cau.edu.cn; songdl@cau.edu.cn)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song DL",
+              "lastName": "Song",
+              "firstName": "D L",
+              "initials": "DL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Entomology, China Agricultural University, Beijing 100094, China (wangxuegui@sicau.edu.cn; gaoxiwu@263.net.cn; liangcau@cau.edu.cn; shixueyan@cau.edu.cn; songdl@cau.edu.cn)."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "45",
+          "journalIssueId": 2395404,
+          "dateOfPublication": "2016 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Environ Entomol",
+            "title": "Environmental entomology",
+            "essn": "1938-2936",
+            "issn": "0046-225X",
+            "isoabbreviation": "Environ Entomol",
+            "nlmid": "7502320"
+          },
+          "printPublicationDate": "2016-04-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "500-507",
+        "abstractText": "The joint toxicity of chlorantraniliprole, a novel insecticide that acts on ryanodine receptors, and sinigrin, a natural plant defense compound from brassicaceous vegetables, to the larvae of Spodoptera exigua (Hübner) was determined in this paper. Additionally, the joint effects of the two compounds on cytochrome P450 enzyme activity and on the expression levels of mRNA of three P450 genes (including CYP9A9, CYP6B, and CYP4G37) and an NADPH cytochrome P450 reductase gene (HQ852049) were investigated. The toxicity of the mixture of chlorantraniliprole and sinigrin to fourth-instar S. exigua larvae was 1.60-fold higher than the toxicity of the chlorantraniliprole-only treatment after 24 h. Induced by chlorantraniliprole and sinigrin, the specific activity of the P450 O-deethylase was affected in a time-, dose-, and organ-specific manner in fifth-instar S. exigua larvae. The effects were more pronounced in the midgut than in the fat body. The specific activity of the P450 O-deethylase in almost all treatments increased at 12, 24, and 36 h posttreatment compared with that in the control. Based on real-time PCR analyses, the expression levels of the P450 genes CYP9A9, CYP6B, and CYP4G37 and the NADPH cytochrome P450 reductase gene HQ852049 in fifth-instar S. exigua larvae were induced by chlorantraniliprole and sinigrin, and the trends were similar to the specific activity of the P450 O-deethylase. Therefore, the CYP9A9, CYP6B, and HQ852049 in the tested genes were the most inducible genes that were expressed when the S. exigua larvae were exposed to chlorantraniliprole and sinigrin.",
+        "affiliation": "Department of Entomology, China Agricultural University, Beijing 100094, China (wangxuegui@sicau.edu.cn; gaoxiwu@263.net.cn; liangcau@cau.edu.cn; shixueyan@cau.edu.cn; songdl@cau.edu.cn), Biorational Pesticide Research Lab, Sichuan Agricultural University, Chengdu 611130, China, and gaoxiwu@263.net.cn.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spodoptera",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NADPH-Ferrihemoprotein Reductase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosinolates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insect Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insecticides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sequence Analysis, DNA"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Larva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Insecticide Resistance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Real-Time Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ortho-Aminobenzoates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Spodoptera exigua",
+            "P450",
+            "Sinigrin",
+            "Chlorantraniliprole",
+            "Specific Activity Of P450 O-deethylase"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Insecticides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "NADPH-Ferrihemoprotein Reductase",
+              "registryNumber": "EC 1.6.2.4"
+            },
+            {
+              "name": "Insect Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosinolates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ortho-Aminobenzoates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sinigrin",
+              "registryNumber": "50UM64RMBJ"
+            },
+            {
+              "name": "chlorantranilipole",
+              "registryNumber": "622AK9DH9G"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ee/nvw007"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-12-29",
+        "dateOfCreation": "2016-02-27",
+        "dateOfRevision": "2017-11-16",
+        "electronicPublicationDate": "2016-02-25",
+        "firstPublicationDate": "2016-02-25",
+        "firstIndexDate": "2016-02-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28552107",
+        "source": "MED",
+        "pmid": "28552107",
+        "doi": "10.1016/j.apjtm.2017.03.019",
+        "title": "In vitro, in vivo and in silico anti-hyperglycemic inhibition by sinigrin.",
+        "authorString": "Abbas Q, Hassan M, Raza H, Kim SJ, Chung KW, Kim GH, Seo SY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Abbas Q",
+              "lastName": "Abbas",
+              "firstName": "Qamar",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hassan M",
+              "lastName": "Hassan",
+              "firstName": "Mubashir",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2532-1866"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Raza H",
+              "lastName": "Raza",
+              "firstName": "Hussain",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3078-6660"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim SJ",
+              "lastName": "Kim",
+              "firstName": "Song Ja",
+              "initials": "SJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chung KW",
+              "lastName": "Chung",
+              "firstName": "Ki-Wha",
+              "initials": "KW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim GH",
+              "lastName": "Kim",
+              "firstName": "Gwang-Hoon",
+              "initials": "GH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Seo SY",
+              "lastName": "Seo",
+              "firstName": "Sung-Yum",
+              "initials": "SY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea. Electronic address: dnalove@kongju.ac.kr."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8177-6107"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0009-8277"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3078-6660"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2532-1866"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "10",
+          "journalIssueId": 2561008,
+          "dateOfPublication": "2017 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Asian Pac J Trop Med",
+            "title": "Asian Pacific journal of tropical medicine",
+            "essn": "2352-4146",
+            "issn": "1995-7645",
+            "isoabbreviation": "Asian Pac J Trop Med",
+            "nlmid": "101533720"
+          },
+          "printPublicationDate": "2017-04-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "372-379",
+        "abstractText": "<h4>Objective</h4>To evaluate the anti-hyperglycemic potential of sinigrin using in vitro, in silico and in vivo streptozotocin (STZ) induced hyperglycemic zebrafish model.<h4>Methods</h4>The in vitro enzyme inhibition assay was carried out to determine the IC<sub>50</sub> value against α-glucosidase and α-amylase, in silico molecular docking was performed against both enzymes with PyRx tool and simulations were performed using GROMACS tool. Hyperglycemia was induced in zebrafishes using three intraperitoneal injections on alternating days for 1 week at 350 mg/kg of STZ. Hyperglycemic fishes were treated intraperitoneally with 50, 100 and 150 mg of sinigrin/kg of body weight for 24 h and glucose levels were measured.<h4>Results</h4>The sinigrin showed very strong inhibition against α-glucosidase and α-amylase with 0.248 and 0.00124 μM while reference drug acarbose showed IC<sub>50</sub> value of 73.0700 and 0.0017 μM against α-glucosidase and α-amylase, respectively. Kinetic analysis revealed that sinigrin has the mixed type mode of inhibition against α-glucosidase. Molecular docking results revealed its strong binding affinity with α-glucosidase (-10.00 kcal/mol) and α-amylase (-8.10 kcal/mol). Simulations graphs confirmed its stability against both enzymes. Furthermore, in hyperglycemic zebrafishes most significant (P < 0.001) reduction of glucose was occurred at 150 mg/kg, moderate significant reduction of glucose was observed at 100 mg/kg and no any significant reduction of glucose was measured at 50 mg/kg.<h4>Conclusions</h4>It can be evident from the present results that sinigrin has potent anti-hyperglycemic activity and it may prove to be effective treatment for the hyperglycemia.",
+        "affiliation": "Department of Biological Sciences, College of Natural Sciences, Kongju National University, 56 Gongjudehak-ro, Gongju, Chungnam 32588, Republic of Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Korea Small and Medium Business Administration in 2012",
+              "orderIn": 0
+            },
+            {
+              "agency": "Business for Cooperative R &amp; D between Industry, Academy, and Research Institute",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Zebrafish",
+            "α-amylase",
+            "Α-glucosidase",
+            "Anti-hyperglycemia",
+            "Sinigrin",
+            "Md Simulations"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.apjtm.2017.03.019"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.apjtm.2017.03.019"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.apjtm.2017.03.019"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.apjtm.2017.03.019"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.apjtm.2017.03.019"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2017-05-30",
+        "dateOfRevision": "2019-11-20",
+        "electronicPublicationDate": "2017-04-06",
+        "firstPublicationDate": "2017-04-06",
+        "firstIndexDate": "2017-05-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "PPR55912",
+        "source": "PPR",
+        "doi": "10.1101/419960",
+        "title": "The  <i>in vitro toxicity</i>  of nitrile and epithionitrile derivatives of glucosinolates from rutabaga in human and bovine liver cells",
+        "authorString": "Latimer I, Collett M, Matthews Z, Tapper B, Cridge B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Latimer I",
+              "lastName": "Latimer",
+              "firstName": "Ian",
+              "initials": "I"
+            },
+            {
+              "fullName": "Collett M",
+              "lastName": "Collett",
+              "firstName": "Mark",
+              "initials": "M"
+            },
+            {
+              "fullName": "Matthews Z",
+              "lastName": "Matthews",
+              "firstName": "Zoe",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Tapper B",
+              "lastName": "Tapper",
+              "firstName": "Brian",
+              "initials": "B"
+            },
+            {
+              "fullName": "Cridge B",
+              "lastName": "Cridge",
+              "firstName": "Belinda",
+              "initials": "B"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "pubYear": "2018",
+        "abstractText": "Previous evidence suggests that select nitrile and epithionitrile derivatives of glucosinolates can cause liver disease in cows grazing on brassica forage crops. A toxic incidence in New Zealand in cattle grazing brassica led us to investigate the direct  in vitro hepatotoxicity and possible inhibition of the ABCG2 transporter of five nitrile compounds. In this study, we investigated 1-cyano-2-hydroxy-3-butene (CHB, epithionitrile derivative of progoitrin), 1-cyano-2-hydroxy-3,4-epithiobutane (CHEB, nitrile derivative of progoitrin), 3-butenenitrile (nitrile from sinigrin), 4-pentenenitrile (nitrile from gluconapin), and 5-hexenenitrile (nitrile from glucobrassicanapin). Cell viability was assessed following 24- and 72-hr treatments with the 5 different compounds using the MTT assay (HepG2 cells and bovine primary liver cells). Additionally, ABCG2 transporter function was assessed. The results showed that none of the tested compounds caused cytotoxicity at concentrations up to 2 mM for 24hr. Over 72-hr the maximum concentration was 20 μM but no reduction in cell viability was observed. No inhibition of the ABCG2 transporter occured at concentrations up to 1 mM. Overall this study suggests that direct or secondary toxicity due to selected nitrile or epithionitrile derivatives of these glucosinolates was not the cause of the toxic event in cattle.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2018
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.biorxiv.org/content/biorxiv/early/2018/09/17/419960.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/419960"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2018-09-18",
+        "firstPublicationDate": "2018-09-17",
+        "firstIndexDate": "2018-09-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25197954",
+        "source": "MED",
+        "pmid": "25197954",
+        "doi": "10.1055/s-0034-1383000",
+        "title": "Inhibition of cytochrome P450 2C9 expression and activity in vitro by allyl isothiocyanate.",
+        "authorString": "Lim YP, Chen WC, Cheng CH, Ma WC, Lin YH, Chen CY, Hung DZ, Chen JJ, Yokoi T, Nakajima M, Chen CJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lim YP",
+              "lastName": "Lim",
+              "firstName": "Yun-Ping",
+              "initials": "YP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen WC",
+              "lastName": "Chen",
+              "firstName": "Wei-Cheng",
+              "initials": "WC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng CH",
+              "lastName": "Cheng",
+              "firstName": "Ching-Hao",
+              "initials": "CH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma WC",
+              "lastName": "Ma",
+              "firstName": "Wei-Chih",
+              "initials": "WC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lin YH",
+              "lastName": "Lin",
+              "firstName": "Yu-Hsien",
+              "initials": "YH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen CY",
+              "lastName": "Chen",
+              "firstName": "Cing-Yu",
+              "initials": "CY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hung DZ",
+              "lastName": "Hung",
+              "firstName": "Dong-Zong",
+              "initials": "DZ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen JJ",
+              "lastName": "Chen",
+              "firstName": "Jih-Jung",
+              "initials": "JJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Institute of Pharmaceutical Technology, Tajen University, Pingtung, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yokoi T",
+              "lastName": "Yokoi",
+              "firstName": "Tsuyoshi",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3239-2817"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Toxicology, Faculty of Pharmaceutical Sciences, Kanazawa University, Kakuma-machi, Kanazawa, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nakajima M",
+              "lastName": "Nakajima",
+              "firstName": "Miki",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Changhua Show Chwan Memorial Hospital, Changhua, Taiwan, ROC."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen CJ",
+              "lastName": "Chen",
+              "firstName": "Chao-Jung",
+              "initials": "CJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Institute of Integrated Medicine, China Medical University, Taichung, Taiwan, ROC."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3239-2817"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3834-9243"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "13",
+          "volume": "80",
+          "journalIssueId": 2199458,
+          "dateOfPublication": "2014 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Planta Med",
+            "title": "Planta medica",
+            "essn": "1439-0221",
+            "issn": "0032-0943",
+            "isoabbreviation": "Planta Med",
+            "nlmid": "0066751"
+          },
+          "printPublicationDate": "2014-08-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "1097-1106",
+        "abstractText": "The growing interest in the use of natural herbal products and dietary supplements to treat and prevent diseases raises the question of medicinal drug safety. Allyl isothiocyanate, a hydrolysis product of a glucosinolate, sinigrin, has multiple beneficial properties, and based on this fact, allyl isothiocyanate-containing dietary supplements have been developed. To date, no studies of the effects of this compound on the cytochrome P450 2C9 have been reported. In this study, we found that allyl isothiocyanate reduced catalytic activity, messenger ribonucleic acid, and protein expression of cytochrome P450 2C9 in HepaRG cells. An investigation of the transcriptional activity of the pregnane X receptor and the constitutive androstane receptor revealed that allyl isothiocyanate disrupted the transcriptional coregulation effects of the pregnane X receptor/constitutive androstane receptor with several important coregulators and interfered with the assembly of transcriptional complexes of the cytochrome P450 2C9 pregnane X receptor/constitutive androstane receptor-response element. The decrease of cytochrome P450 2C9 expression and activity mediated by allyl isothiocyanate suggested that this agent could alter the metabolism of drugs metabolized by cytochrome P450 2C9. This may cause food/dietary supplement-drug interactions or alter the therapeutic effects, and even the toxicity of drugs coadministered with allyl isothiocyanate. Since the consumption of allyl isothiocyanate-containing food/dietary supplements continues to increase, it is important to predict and ultimately avoid interactions with concomitant drugs. It is required that these possible pharmacokinetic interactions be characterized and the recommendations available to patients and healthcare professionals be improved.",
+        "affiliation": "Department of Pharmacy, College of Pharmacy, China Medical University, Taichung, Taiwan, ROC.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isothiocyanates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Cytoplasmic and Nuclear",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Steroid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Herb-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2C9",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2C9 Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pregnane X Receptor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Constitutive Androstane Receptor"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "pregnane X receptor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "constitutive androstane receptor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Steroid",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isothiocyanates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Cytoplasmic and Nuclear",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allyl isothiocyanate",
+              "registryNumber": "BN34FX42G3"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2C9",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2C9 Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1055/s-0034-1383000"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "reference": "Planta Med. 2014 Sep;80(14):1247",
+              "type": "Erratum in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-06-10",
+        "dateOfCreation": "2014-09-09",
+        "dateOfRevision": "2021-12-03",
+        "electronicPublicationDate": "2014-09-08",
+        "firstPublicationDate": "2014-08-01",
+        "firstIndexDate": "2014-09-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "32489397",
+        "source": "MED",
+        "pmid": "32489397",
+        "pmcid": "PMC7247208",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7247208"
+          ]
+        },
+        "doi": "10.1186/s13007-020-00618-0",
+        "title": "A cell suspension based uptake method to study high affinity glucosinolate transporters.",
+        "authorString": "Nambiar DM, Kumari J, Arya GC, Singh AK, Bisht NC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nambiar DM",
+              "lastName": "Nambiar",
+              "firstName": "Deepti M",
+              "initials": "DM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute of Plant Genome Research, Aruna Asaf Ali Marg, New Delhi, 110067 India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kumari J",
+              "lastName": "Kumari",
+              "firstName": "Juhi",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute of Plant Genome Research, Aruna Asaf Ali Marg, New Delhi, 110067 India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arya GC",
+              "lastName": "Arya",
+              "firstName": "Gulab C",
+              "initials": "GC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5222-0601"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute of Plant Genome Research, Aruna Asaf Ali Marg, New Delhi, 110067 India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh AK",
+              "lastName": "Singh",
+              "firstName": "Amarjeet K",
+              "initials": "AK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, CGMCP, University of Delhi South Campus, New Delhi, 110021 India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bisht NC",
+              "lastName": "Bisht",
+              "firstName": "Naveen C",
+              "initials": "NC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7817-2193"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute of Plant Genome Research, Aruna Asaf Ali Marg, New Delhi, 110067 India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5222-0601"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7817-2193"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "16",
+          "journalIssueId": 2899436,
+          "dateOfPublication": "2020 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Plant Methods",
+            "title": "Plant methods",
+            "essn": "1746-4811",
+            "issn": "1746-4811",
+            "isoabbreviation": "Plant Methods",
+            "nlmid": "101245798"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "75",
+        "abstractText": "<h4>Background</h4>Glucosinolates are an important class of secondary metabolites characteristic to the order Brassicales. They are known to play a major role in plant defense and from the human perspective, can be anticarcinogenic or antinutritive. GTRs are plasma-membrane localized high affinity glucosinolate transporters, which are important components of the source (leaf) to sink (seed) translocation of intact glucosinolates in members of Brassicaceae family. GTRs are identified as major candidates for <i>Brassica</i> crop improvement, thus dictating a need for their functional characterization. However, currently there are limitations in availability of heterologous assay systems for functional characterization of plant secondary metabolite transporters. To date, the animal-based <i>Xenopus</i> oocyte system is the best established heterologous system for functional characterization of these transporters. Inherent biochemical and physiological attributes unique to the plant membranes necessitate the need for developing plant-based transporters assay systems as well.<h4>Methods</h4>In this study, <i>Agrobacterium</i> mediated transformation was used to develop <i>GTR</i> expressing cotton cell lines (CCL-1) for functional characterization of the <i>Arabidopsis</i> high affinity glucosinolate transporters, AtGTR1 and AtGTR2. Following sub-cellular localization of AtGTRs, we standardized the glucosinolate uptake assays using cell suspension cultures of <i>AtGTR</i> expressing CCL-1 its requirement of pH, salt, and time based glucosinolate uptake. Using the GTR expressing CCL-1, we subsequently performed kinetic analysis of AtGTR1 and AtGTR2 for different glucosinolate substrates, sinigrin, gluconapin and sinalbin.<h4>Results</h4>Several clones expressing each of <i>AtGTR1</i> and <i>AtGTR2</i> were obtained showing high level of <i>GTR</i> expression and were maintained through regular sub-culturing. Both AtGTR1 and AtGTR2 are predominantly plasma-localized proteins when overexpressed in CCL-1 cells. Uptake assays were standardized, suggesting that glucosinolate uptake of GTR expressing CCL-1 is robust within the physiological pH range 5-6, and at lower concentration of nitrate salts. GTR expressing CCL-1 cells show increasing glucosinolate accumulation in time course experiment. Kinetic studies over a wide glucosinolate concentrations (10-800 µM) revealed that our novel assay system displayed robust GTR-mediated uptake of different glucosinolates and unambiguously helps elucidate the saturable kinetics of GTRs. Our system confirms the high affinity of AtGTRs for both aliphatic and aromatic glucosinolates.<h4>Conclusion</h4>The transporter assay system described in this study holds potential for studying sub-functionalization amongst <i>GTR</i> homologs present across Brassicaceae family. The fast growing CCL-1 cells, confer the benefits of an in vitro system for quick assays and is plant based thus enabling optimal expression without sequence modifications. The efficient functioning of the GTR transporters in the heterologous CCL-1 opens the possibility of using this plant cell suspension system for functional characterization of other metabolite transporters.",
+        "affiliation": "National Institute of Plant Genome Research, Aruna Asaf Ali Marg, New Delhi, 110067 India.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Department of Biotechnology",
+              "grantId": "BT/06/IYBA/2012",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Kinetic analysis",
+            "glucosinolates",
+            "Cotton Cell Suspensions",
+            "Secondary Metabolite Transporters",
+            "Gtr Transporters"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://plantmethods.biomedcentral.com/track/pdf/10.1186/s13007-020-00618-0"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s13007-020-00618-0"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7247208"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7247208?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2020-06-04",
+        "dateOfRevision": "2024-03-28",
+        "electronicPublicationDate": "2020-05-24",
+        "firstPublicationDate": "2020-05-24",
+        "firstIndexDate": "2020-06-04",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9328168",
+        "source": "MED",
+        "pmid": "9328168",
+        "doi": "10.1093/carcin/18.9.1729",
+        "title": "Mechanism of action of dietary chemoprotective agents in rat liver: induction of phase I and II drug metabolizing enzymes and aflatoxin B1 metabolism.",
+        "authorString": "Manson MM, Ball HW, Barrett MC, Clark HL, Judah DJ, Williamson G, Neal GE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Manson MM",
+              "lastName": "Manson",
+              "firstName": "M M",
+              "initials": "MM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "MRC Toxicology Unit, University of Leicester, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ball HW",
+              "lastName": "Ball",
+              "firstName": "H W",
+              "initials": "HW"
+            },
+            {
+              "fullName": "Barrett MC",
+              "lastName": "Barrett",
+              "firstName": "M C",
+              "initials": "MC"
+            },
+            {
+              "fullName": "Clark HL",
+              "lastName": "Clark",
+              "firstName": "H L",
+              "initials": "HL"
+            },
+            {
+              "fullName": "Judah DJ",
+              "lastName": "Judah",
+              "firstName": "D J",
+              "initials": "DJ"
+            },
+            {
+              "fullName": "Williamson G",
+              "lastName": "Williamson",
+              "firstName": "G",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5624-6267"
+              }
+            },
+            {
+              "fullName": "Neal GE",
+              "lastName": "Neal",
+              "firstName": "G E",
+              "initials": "GE"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5624-6267"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "18",
+          "journalIssueId": 1078839,
+          "dateOfPublication": "1997 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 1997,
+          "journal": {
+            "medlineAbbreviation": "Carcinogenesis",
+            "title": "Carcinogenesis",
+            "essn": "1460-2180",
+            "issn": "0143-3334",
+            "isoabbreviation": "Carcinogenesis",
+            "nlmid": "8008055"
+          },
+          "printPublicationDate": "1997-09-01"
+        },
+        "pubYear": "1997",
+        "pageInfo": "1729-1738",
+        "abstractText": "A range of potential chemoprotective agents, most of them natural dietary constituents, has been examined for ability to modulate both phase I (cytochrome P450 1A1, 1A2, 2B1/2, 2C11, 2E1, 3A, 4A) and phase II drug metabolizing enzymes (glutathione S-transferases, in particular subunits Yc2 and P, aflatoxin B1-aldehyde reductase and quinone reductase) in rat liver. In addition to assays of total enzyme activity and Western blots for individual isozymes, the ability of microsomes to metabolize aflatoxin B1, and of cytosols to conjugate aflatoxin B1 (AFB1)-epoxide to GSH and to produce AFB1-dialcohol, were measured. Induction of gamma-glutamyl transpeptidase activity was examined by histochemistry. Differing patterns of induction were observed, reflecting differences in the control of expression of the individual enzymes studied. Of the compounds examined, butylated hydroxytoluene, ethoxyquin, indole-3-carbinol and phenethyl isothiocyanate were the most potent bifunctional agents (inducing both phase I and II activities). Oltipraz, while only weakly inducing CYP1A2 and 2B1/2, was a potent inducer of phase II enzymes. Caffeic acid, garlic oil, sinigrin and propyl gallate all showed some ability to induce phase II enzymes. 4-Methyl catechol, alpha-tocopherol and red wine decreased certain phase I enzyme activities, while inducing total GST activity. Butylated hydroxytoluene, ethoxyquin, garlic oil and indole-3-carbinol induced gamma glutamyltranspeptidase in periportal hepatocytes. Particularly because of their ability to induce the detoxifying activities of glutathione S-transferase Yc2 and aldehyde reductase, butylated hydroxytoluene, ethoxyquin, indole-3-carbinol, oltipraz, phenethyl isothiocyanate and sinigrin will be effective blocking agents in rodents, if administered prior to AFB1. While these studies indicate the relative contributions of phase I and II metabolism in the overall protective effect in rat, care should be taken that a similar balance is achieved in man, and that relevant enzymes or iso forms are induced.",
+        "affiliation": "MRC Toxicology Unit, University of Leicester, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred F344"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Weight"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anticarcinogenic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aflatoxin B1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organ Size"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunohistochemistry"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Induction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Anticarcinogenic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Aflatoxin B1",
+              "registryNumber": "9N2N2Y55MH"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://academic.oup.com/carcin/article-pdf/18/9/1729/19257891/181729.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/carcin/18.9.1729"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 133,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1997-11-13",
+        "dateOfCreation": "1997-11-05",
+        "dateOfRevision": "2019-05-12",
+        "firstPublicationDate": "1997-09-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "2823818",
+        "source": "MED",
+        "pmid": "2823818",
+        "doi": "10.1016/0006-2952(87)90308-x",
+        "title": "Inhibition of N-diethylnitrosamine metabolism by human lung cancer cell lines with features of well differentiated pulmonary endocrine cells.",
+        "authorString": "Hegedus TJ, Falzon M, Margaretten N, Gazdar AF, Schuller HM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hegedus TJ",
+              "lastName": "Hegedus",
+              "firstName": "T J",
+              "initials": "TJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathobiology, College of Veterinary Medicine, University of Tennessee, Knoxville 37901-1071."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Falzon M",
+              "lastName": "Falzon",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Margaretten N",
+              "lastName": "Margaretten",
+              "firstName": "N",
+              "initials": "N"
+            },
+            {
+              "fullName": "Gazdar AF",
+              "lastName": "Gazdar",
+              "firstName": "A F",
+              "initials": "AF"
+            },
+            {
+              "fullName": "Schuller HM",
+              "lastName": "Schuller",
+              "firstName": "H M",
+              "initials": "HM"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "20",
+          "volume": "36",
+          "journalIssueId": 866764,
+          "dateOfPublication": "1987 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 1987,
+          "journal": {
+            "medlineAbbreviation": "Biochem Pharmacol",
+            "title": "Biochemical pharmacology",
+            "essn": "1873-2968",
+            "issn": "0006-2952",
+            "isoabbreviation": "Biochem Pharmacol",
+            "nlmid": "0101032"
+          },
+          "printPublicationDate": "1987-10-01"
+        },
+        "pubYear": "1987",
+        "pageInfo": "3339-3343",
+        "abstractText": "Cell lines derived from a human pulmonary carcinoid tumor (NCI-H727) and from a human pulmonary large cell carcinoma (NCI-H460) were investigated by transmission electron microscopy. Both cell lines, at early in vitro passage, demonstrated ultrastructural features of well differentiated pulmonary endocrine cells. Line NCI-H727 had more endoplasmic reticulum than line NCI-H460 and demonstrated L-dopa decarboxylase activity as well as production of calcitonin and bombesin. Because of their ultrastructural resemblance with normal pulmonary endocrine cells, these cell lines were used to test the theory derived from experiments in hamsters that human pulmonary endocrine cells can metabolize N-nitrosodiethylamine (DEN). The cells were incubated in vitro with [14C]DEN. Metabolism was assessed by 14CO2 production. Both cell lines metabolized DEN to a much greater extent than previously investigated human lung cancer cell lines of Clara cell and alveolar type II cell morphology. In keeping with its abundant endoplasmic reticulum, line NCI-H727 yielded 14CO2 in the 300 nM range, whereas NCI-H460 was less active. Metabolism was time dependent. Preincubation with various enzyme inhibitors yielded a highly significant inhibition of DEN metabolism with the two inhibitors of the fatty acid cyclooxygenase component of prostaglandin endoperoxide synthetase, aspirin and indomethacin. Inhibitors of cytochrome P-450 (CO, piperoxylbutoxide) did not inhibit DEN metabolism. Preincubation with sinigrin yielded similar negative results as CO and piperonylbutoxide. Our data are in support of the theory that human pulmonary endocrine cells can metabolize nitrosamines. Moreover, the experiments with enzyme inhibitors suggest that in this cell type such metabolism is largely dependent on prostaglandin endoperoxide synthetase.",
+        "affiliation": "Department of Pathobiology, College of Veterinary Medicine, University of Tennessee, Knoxville 37901-1071.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Cells, Cultured",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carcinoid Tumor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carcinoma, Small Cell",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lung Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbon Dioxide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diethylnitrosamine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Differentiation"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carbon Dioxide",
+              "registryNumber": "142M471B3J"
+            },
+            {
+              "name": "Diethylnitrosamine",
+              "registryNumber": "3IQ78TTX1A"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/0006-2952(87)90308-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1987-12-11",
+        "dateOfCreation": "1987-10-15",
+        "dateOfRevision": "2019-06-23",
+        "firstPublicationDate": "1987-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

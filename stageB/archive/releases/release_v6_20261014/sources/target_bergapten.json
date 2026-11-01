@@ -1,0 +1,1974 @@
+{
+  "version": "6.9",
+  "hitCount": 7,
+  "request": {
+    "queryString": "TITLE:\"Bergapten\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27795734",
+        "source": "MED",
+        "pmid": "27795734",
+        "pmcid": "PMC5064970",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5064970"
+          ]
+        },
+        "doi": "10.1186/s13065-016-0212-x",
+        "title": "The pharmacokinetics, bioavailability and excretion of bergapten after oral and intravenous administration in rats using high performance liquid chromatography with fluorescence detection.",
+        "authorString": "Yu XA, Azietaku JT, Li J, An M, He J, Hao J, Cao J, Chang YX.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yu XA",
+              "lastName": "Yu",
+              "firstName": "Xie-An",
+              "initials": "XA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2918-7369"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, 300193 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Azietaku JT",
+              "lastName": "Azietaku",
+              "firstName": "John Teye",
+              "initials": "JT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, 300193 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jin",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3094-4777"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, 300193 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "An M",
+              "lastName": "An",
+              "firstName": "Mingrui",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Surgery, University of Michigan, Ann Arbor, MI 48109 USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He J",
+              "lastName": "He",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3781-9234"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, 300193 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hao J",
+              "lastName": "Hao",
+              "firstName": "Jia",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, 300193 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao J",
+              "lastName": "Cao",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Material Chemistry and Chemical Engineering, Hangzhou Normal University, Hangzhou, 310036 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chang YX",
+              "lastName": "Chang",
+              "firstName": "Yan-Xu",
+              "initials": "YX",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, 300193 China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3781-9234"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2918-7369"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3094-4777"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "10",
+          "journalIssueId": 2537832,
+          "dateOfPublication": "2016 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Chem Cent J",
+            "title": "Chemistry Central journal",
+            "essn": "1752-153X",
+            "issn": "1752-153X",
+            "isoabbreviation": "Chem Cent J",
+            "nlmid": "101314213"
+          },
+          "printPublicationDate": "2016-01-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "62",
+        "abstractText": "A sensitive, specific, reproducible and optimized high performance liquid chromatography with fluorescence detection (HPLC-FLD) method for the determination of bergapten in rat plasma was established and applied to the pharmacokinetic and bioavailability study in rat after oral and intravenous administration of bergapten. The method was also successfully applied to the excretion study of bergapten after an oral administration of bergapten at a dose of 15 mg kg<sup>-1</sup> to rats. The sample preparation was achieved using liquid-liquid extraction. Isoimperatorin was used as the internal standard (IS). The analytes were detected by using fluorescence detection at an excitation and emission wavelength of 288 and 478 nm, respectively. Using aqueous formic acid (0.1 %, v/v) and acetonitrile as the mobile phase, the chromatographic separation was achieved on a Hedera™ ODS column at a flow rate of 1 mL min<sup>-1</sup>. The lower limit of quantitation (LLOQ) of bergapten was 2 ng mL<sup>-1</sup>. The HPLC-FLD method was successfully applied to the pharmacokinetic, bioavailability and excretion study of bergapten in rats.Graphical abstractAn high performance liquid chromatography with fluorescence detection (HPLC-FLD) method for the pharmacokinetic and bioavailability study in rat after administration of bergapten.",
+        "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, 300193 China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "State the Science &amp; Technology Commission of MOST of China",
+              "grantId": "2014ZX09304307-001-005",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81374050",
+              "orderIn": 0
+            },
+            {
+              "agency": "tated Key Development Program for Basic Research of China",
+              "grantId": "No. 973: 2014CB542902",
+              "orderIn": 0
+            },
+            {
+              "agency": "PCSIRT",
+              "grantId": "(IRT-14R41)",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Science and Technology Support Program Projects",
+              "grantId": "2014BA105B01",
+              "orderIn": 0
+            },
+            {
+              "agency": "State the Science &amp; Technology Commission of MOST of China",
+              "grantId": "2014ZX09201022-004",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81503213",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bergapten",
+            "Hplc-fld",
+            "Oral Bioavailability And Excretion"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s13065-016-0212-x"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5064970"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5064970?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2016-11-01",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2016-10-14",
+        "firstPublicationDate": "2016-10-14",
+        "firstIndexDate": "2016-11-01",
+        "fullTextReceivedDate": "2020-07-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23549759",
+        "source": "MED",
+        "pmid": "23549759",
+        "doi": "10.1055/s-0033-1341426",
+        "title": "Pharmacokinetic studies of bergapten in dog plasma by using a LC-MS/MS method studies.",
+        "authorString": "Gao Y, Liu YZ, Zhang XM, Zhou Y, Zhang X, Dong CY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gao Y",
+              "lastName": "Gao",
+              "firstName": "Y",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Oncology, Shanghai East Hospital, Tongji University, Shanghai China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu YZ",
+              "lastName": "Liu",
+              "firstName": "Y Z",
+              "initials": "YZ"
+            },
+            {
+              "fullName": "Zhang XM",
+              "lastName": "Zhang",
+              "firstName": "X-M",
+              "initials": "XM"
+            },
+            {
+              "fullName": "Zhou Y",
+              "lastName": "Zhou",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "X",
+              "initials": "X"
+            },
+            {
+              "fullName": "Dong CY",
+              "lastName": "Dong",
+              "firstName": "C-Y",
+              "initials": "CY"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "63",
+          "journalIssueId": 2059930,
+          "dateOfPublication": "2013 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Drug Res (Stuttg)",
+            "title": "Drug research",
+            "essn": "2194-9387",
+            "issn": "2194-9379",
+            "isoabbreviation": "Drug Res (Stuttg)",
+            "nlmid": "101602406"
+          },
+          "printPublicationDate": "2013-07-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "338-341",
+        "abstractText": "A sensitive LC-MS/MS method was developed for the determination of bergapten in dog plasma. The chromatographic separation was carried out on a Hypersil ODS column with a mobile phase consisting of methanol-water. The plasma sample was precipitated with methanol and prepare for injecting onto the LC-MS/MS system. The detection was performed on a triple quadrupole tandem mass spectrometer by MRM via electro spray ionization source. The standard curve for bergapten was linear over the concentration range of 0.5-500 ng/mL with a lower limit of quantification of 0.5 ng/mL. The inter-day and intra-day precision (R.S.D.%) for bergapten varied between 3.4 and 11.5. The corresponding inter-day and intra-day accuracy (Bias%) ranged between -3.8 and 6.9. For the pharmacokinetic analysis of serum, the mean (SD) values obtained for the bergapten were as follows: Cmax, 228.5 (14.3) ng/ml; Tmax, 4.2 (0.4) h; t1/2, 6.9 (2.3) h; AUC0-t h, 2507.2 (168.5) ng · h/mL and AUC0-∞, 3 219.2 (211.4) ng · h/mL, respectively.",
+        "affiliation": "Department of Oncology, Shanghai East Hospital, Tongji University, Shanghai China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dogs"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methoxsalen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "5-Methoxypsoralen"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "5-methoxypsoralen",
+              "registryNumber": "4FVK84C92X"
+            },
+            {
+              "name": "Methoxsalen",
+              "registryNumber": "U4VJ29L7BQ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1055/s-0033-1341426"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-08-29",
+        "dateOfCreation": "2013-04-04",
+        "dateOfRevision": "2018-12-02",
+        "electronicPublicationDate": "2013-04-02",
+        "firstPublicationDate": "2013-04-02",
+        "firstIndexDate": "2013-04-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28115935",
+        "source": "MED",
+        "pmid": "28115935",
+        "pmcid": "PMC5220503",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5220503"
+          ]
+        },
+        "doi": "10.1155/2016/9507246",
+        "title": "Simultaneous Determination of Bergapten, Imperatorin, Notopterol, and Isoimperatorin in Rat Plasma by High Performance Liquid Chromatography with Fluorescence Detection and Its Application to Pharmacokinetic and Excretion Study after Oral Administration of <i>Notopterygium incisum</i> Extract.",
+        "authorString": "Teye Azietaku J, Yu XA, Li J, Hao J, Cao J, An M, Tan Z, Chang YX.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Teye Azietaku J",
+              "lastName": "Teye Azietaku",
+              "firstName": "John",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu XA",
+              "lastName": "Yu",
+              "firstName": "Xie-An",
+              "initials": "XA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2918-7369"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jin",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3094-4777"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hao J",
+              "lastName": "Hao",
+              "firstName": "Jia",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao J",
+              "lastName": "Cao",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1224-0071"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Material Chemistry and Chemical Engineering, Hangzhou Normal University, Hangzhou 310036, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "An M",
+              "lastName": "An",
+              "firstName": "Mingrui",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Surgery, University of Michigan, Ann Arbor, MI 48109, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tan Z",
+              "lastName": "Tan",
+              "firstName": "Zhijing",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Surgery, University of Michigan, Ann Arbor, MI 48109, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chang YX",
+              "lastName": "Chang",
+              "firstName": "Yan-Xu",
+              "initials": "YX",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4198-374X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4198-374X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1224-0071"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2918-7369"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3094-4777"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "2016",
+          "journalIssueId": 2397282,
+          "dateOfPublication": "2016",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Int J Anal Chem",
+            "title": "International journal of analytical chemistry",
+            "essn": "1687-8779",
+            "issn": "1687-8760",
+            "isoabbreviation": "Int J Anal Chem",
+            "nlmid": "101519424"
+          },
+          "printPublicationDate": "2016-01-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "9507246",
+        "abstractText": "A specific, sensitive, and reliable high performance liquid chromatography with fluorescence detection (HPLC-FLD) was first optimized and then used in the simultaneous quantification of bergapten, imperatorin, notopterol, and isoimperatorin in rat plasma using osthole as the internal standard. Liquid-liquid extraction with ethyl acetate was employed in treating the rat plasma samples obtained. Separation was carried out with a Hedera™ ODS column (4.6 × 250 mm, 5 <i>μ</i>m) by gradient elution at a temperature of 40°C. Excitation and emission of the fluorescence detector were set to 300 and 490 nm, respectively. The lower limits of quantification for bergapten, imperatorin, notopterol, and isoimperatorin in rat plasma were 4, 40, 4, and 2 ng mL<sup>-1</sup>, respectively. The intraday and interday precision and accuracy for the four coumarins were within acceptable criteria. The recovery of the method was satisfactory with a range of 80.3-114%. The validated method was successfully used for the simultaneous determination of the four coumarins in <i>Notopterygium incisum</i> extracts and also for the pharmacokinetic and excretion study of bergapten, imperatorin, notopterol, and isoimperatorin in rats.",
+        "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "2014BA105B01",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "IRT-14R41",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "2014ZX09304307001",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81374050",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81503213",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "TD12-5033",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1155/2016/9507246"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5220503"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5220503?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2017-01-25",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2016-12-26",
+        "firstPublicationDate": "2016-12-26",
+        "firstIndexDate": "2017-01-25",
+        "fullTextReceivedDate": "2020-07-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "20067712",
+        "source": "MED",
+        "pmid": "20067712",
+        "doi": "10.18433/j3w01d",
+        "title": "Psoralen and bergapten: in silico metabolism and toxicophoric analysis of drugs used to treat vitiligo.",
+        "authorString": "da Silva VB, Kawano DF, Carvalho I, da Conceição EC, de Freitas O, da Silva CH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "da Silva VB",
+              "lastName": "da Silva",
+              "firstName": "Vinicius Barreto",
+              "initials": "VB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departamento de Ciências Farmacêuticas, Faculdade de Ciências Farmacêuticas de Ribeirão Preto, Universidade de São Paulo, Ribeirão Preto, CEP 14040-903, Brazil. vbs11@usp.br"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kawano DF",
+              "lastName": "Kawano",
+              "firstName": "Daniel Fábio",
+              "initials": "DF"
+            },
+            {
+              "fullName": "Carvalho I",
+              "lastName": "Carvalho",
+              "firstName": "Ivone",
+              "initials": "I"
+            },
+            {
+              "fullName": "da Conceição EC",
+              "lastName": "da Conceição",
+              "firstName": "Edemilson Cardoso",
+              "initials": "EC"
+            },
+            {
+              "fullName": "de Freitas O",
+              "lastName": "de Freitas",
+              "firstName": "Osvaldo",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7055-2028"
+              }
+            },
+            {
+              "fullName": "da Silva CH",
+              "lastName": "da Silva",
+              "firstName": "Carlos Henrique Tomich de Paula",
+              "initials": "CH"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6049-3650"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7055-2028"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4113-2686"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "12",
+          "journalIssueId": 1689976,
+          "dateOfPublication": "2009 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Pharm Sci",
+            "title": "Journal of pharmacy & pharmaceutical sciences : a publication of the Canadian Society for Pharmaceutical Sciences, Societe canadienne des sciences pharmaceutiques",
+            "essn": "1482-1826",
+            "issn": "1482-1826",
+            "isoabbreviation": "J Pharm Pharm Sci",
+            "nlmid": "9807281"
+          },
+          "printPublicationDate": "2009-01-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "378-387",
+        "abstractText": "<h4>Purpose</h4>To discuss the contribution of psoralen and bergapten metabolites on psoralens toxicity.<h4>Methods</h4>Computational chemistry prediction of metabolic reactions and toxicophoric groups based on the expert systems Derek and Meteor.<h4>Results</h4>a total of 15 metabolites were suggested for both psoralen and bergapten based on phase 1 and 2 biotransformations until the 3rd generation. Five toxicophoric substructures were shared among psoralen, bergapten and their corresponding metabolites; one toxicophoric marker (resorcinol) was only identified in bergapten and its biotransformation products.<h4>Conclusion</h4>Although the toxic effects of psoralens are well known and documented, there is little information concerning the role of their metabolites in this process. We believe this work add to the knowledge of which molecular substructures are relevant to the process of metabolism and toxicity induction, thus guiding the search and development of more effective and less toxic drugs to treat vitiligo.",
+        "affiliation": "Departamento de Ciências Farmacêuticas, Faculdade de Ciências Farmacêuticas de Ribeirão Preto, Universidade de São Paulo, Ribeirão Preto, CEP 14040-903, Brazil. vbs11@usp.br",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitiligo",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ficusin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methoxsalen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photosensitizing Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computational Biology"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Expert Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Discovery",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "5-Methoxypsoralen"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Photosensitizing Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "5-methoxypsoralen",
+              "registryNumber": "4FVK84C92X"
+            },
+            {
+              "name": "Ficusin",
+              "registryNumber": "KTZ7ZCN2EX"
+            },
+            {
+              "name": "Methoxsalen",
+              "registryNumber": "U4VJ29L7BQ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.18433/j3w01d"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 16,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-04-02",
+        "dateOfCreation": "2010-01-14",
+        "dateOfRevision": "2019-11-11",
+        "firstPublicationDate": "2009-01-01",
+        "firstIndexDate": "2010-04-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23384552",
+        "source": "MED",
+        "pmid": "23384552",
+        "doi": "10.1016/j.jpba.2012.12.031",
+        "title": "Simultaneous determination of scopoletin, psoralen, bergapten, xanthotoxin, columbianetin acetate, imperatorin, osthole and isoimperatorin in rat plasma by LC-MS/MS for pharmacokinetic studies following oral administration of Radix Angelicae Pubescentis extract.",
+        "authorString": "Chang YX, Zhang QH, Li J, Zhang L, Guo XR, He J, Zhang P, Ma L, Deng YR, Zhang BL, Gao XM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chang YX",
+              "lastName": "Chang",
+              "firstName": "Yan-xu",
+              "initials": "YX",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4198-374X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China. tcmcyx@126.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang QH",
+              "lastName": "Zhang",
+              "firstName": "Qiu-Hong",
+              "initials": "QH"
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jin",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3094-4777"
+              }
+            },
+            {
+              "fullName": "Zhang L",
+              "lastName": "Zhang",
+              "firstName": "Ling",
+              "initials": "L"
+            },
+            {
+              "fullName": "Guo XR",
+              "lastName": "Guo",
+              "firstName": "Xin-rong",
+              "initials": "XR"
+            },
+            {
+              "fullName": "He J",
+              "lastName": "He",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3781-9234"
+              }
+            },
+            {
+              "fullName": "Zhang P",
+              "lastName": "Zhang",
+              "firstName": "Peng",
+              "initials": "P"
+            },
+            {
+              "fullName": "Ma L",
+              "lastName": "Ma",
+              "firstName": "Lin",
+              "initials": "L"
+            },
+            {
+              "fullName": "Deng YR",
+              "lastName": "Deng",
+              "firstName": "Yan-ru",
+              "initials": "YR"
+            },
+            {
+              "fullName": "Zhang BL",
+              "lastName": "Zhang",
+              "firstName": "Bo-li",
+              "initials": "BL"
+            },
+            {
+              "fullName": "Gao XM",
+              "lastName": "Gao",
+              "firstName": "Xiu-mei",
+              "initials": "XM"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3781-9234"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4198-374X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3094-4777"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "77",
+          "journalIssueId": 2018084,
+          "dateOfPublication": "2013 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Biomed Anal",
+            "title": "Journal of pharmaceutical and biomedical analysis",
+            "essn": "1873-264X",
+            "issn": "0731-7085",
+            "isoabbreviation": "J Pharm Biomed Anal",
+            "nlmid": "8309336"
+          },
+          "printPublicationDate": "2013-04-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "71-75",
+        "abstractText": "A rapid and sensitive bioassay based on liquid chromatography tandem mass spectrometry (LC-MS/MS) has been developed and validated for the simultaneous determination of eight coumarins in rat plasma. The liquid-liquid extraction method with ethyl acetate was used to prepare the plasma samples after addition of warfarin as an internal standard (IS). Chromatographic separation was performed on an Eclipse plus C18 column (100mm×4.6mm, 1.8μm) using gradient elution when 1mM ammonium acetate aqueous solution - acetonitrile was used as the mobile phase. The lower limit of quantitation (LLOQ) of each coumarin was lower than 2.16ngmL(-1). Intra-day and inter-day precisions were less than 15%. The accuracies were in the range of 88.9-117%. The mean recoveries of coumarins and IS were higher than 84%. The method was successfully applied to a pharmacokinetic study of eight coumarins in rats after oral administration of radix angelicae pubescentis.",
+        "affiliation": "Tianjin State Key Laboratory of Modern Chinese Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China. tcmcyx@126.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministry of Education of the People&amp;apos;s Republic of China",
+              "grantId": "210013",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education of the People&amp;apos;s Republic of China",
+              "grantId": "20101210120007",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81001632",
+              "orderIn": 0
+            },
+            {
+              "agency": "Program for Changjiang Scholars and Innovative Research Team in University",
+              "orderIn": 0
+            },
+            {
+              "agency": "Tianjin Research Program of Application Foundation and Advanced Technology of China",
+              "grantId": "12JCQNJC08800",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "20100480657",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Roots",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acetates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ficusin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methoxsalen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Scopoletin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drugs, Chinese Herbal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liquid-Liquid Extraction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "5-Methoxypsoralen"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "columbianetin acetate",
+              "registryNumber": "23180-65-6"
+            },
+            {
+              "name": "Acetates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Coumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "osthol",
+              "registryNumber": "XH1TI1759C"
+            },
+            {
+              "name": "ammonium acetate",
+              "registryNumber": "RRE756S6Q2"
+            },
+            {
+              "name": "imperatorin",
+              "registryNumber": "K713N25C78"
+            },
+            {
+              "name": "5-methoxypsoralen",
+              "registryNumber": "4FVK84C92X"
+            },
+            {
+              "name": "Ficusin",
+              "registryNumber": "KTZ7ZCN2EX"
+            },
+            {
+              "name": "Methoxsalen",
+              "registryNumber": "U4VJ29L7BQ"
+            },
+            {
+              "name": "Scopoletin",
+              "registryNumber": "KLF1HS0SXJ"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "isoimperatorin",
+              "registryNumber": "0ZMV066080"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jpba.2012.12.031"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 43,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-01-13",
+        "dateOfCreation": "2013-02-07",
+        "dateOfRevision": "2018-12-02",
+        "electronicPublicationDate": "2013-01-05",
+        "firstPublicationDate": "2013-01-05",
+        "firstIndexDate": "2013-02-08",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "3279089",
+        "source": "MED",
+        "pmid": "3279089",
+        "doi": "10.1016/s0190-9622(88)70048-1",
+        "title": "5-Methoxypsoralen (Bergapten) for photochemotherapy. Bioavailability, phototoxicity, and clinical efficacy in psoriasis of a new drug preparation.",
+        "authorString": "Tanew A, Ortel B, Rappersberger K, Hönigsmann H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tanew A",
+              "lastName": "Tanew",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Dermatology I, University of Vienna, Austria."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ortel B",
+              "lastName": "Ortel",
+              "firstName": "B",
+              "initials": "B"
+            },
+            {
+              "fullName": "Rappersberger K",
+              "lastName": "Rappersberger",
+              "firstName": "K",
+              "initials": "K"
+            },
+            {
+              "fullName": "Hönigsmann H",
+              "lastName": "Hönigsmann",
+              "firstName": "H",
+              "initials": "H"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2 Pt 1",
+          "volume": "18",
+          "journalIssueId": 560845,
+          "dateOfPublication": "1988 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 1988,
+          "journal": {
+            "medlineAbbreviation": "J Am Acad Dermatol",
+            "title": "Journal of the American Academy of Dermatology",
+            "essn": "1097-6787",
+            "issn": "0190-9622",
+            "isoabbreviation": "J Am Acad Dermatol",
+            "nlmid": "7907132"
+          },
+          "printPublicationDate": "1988-02-01"
+        },
+        "pubYear": "1988",
+        "pageInfo": "333-338",
+        "abstractText": "In a previous study we evaluated a microcrystalline preparation of 5-methoxypsoralen (5-MOP; Bergapten) for its photochemotherapeutic properties. Preliminary data indicated that the clinical efficacy of 5-MOP is comparable to that of 8-methoxypsoralen. 5-MOP appeared as a promising alternative photosensitizer for the management of psoriasis because of the almost complete lack of phototoxic and drug intolerance reactions that are frequently encountered in patients undergoing 8-MOP photochemotherapy. With a new liquid preparation of 5-MOP we have now extended our earlier investigation on a larger clinical scale and have correlated the clinical response with the bioavailability of the drug. Serum level determinations showed an absorption rate of only approximately 25% that of 8-MOP. When administered in the same dosage as 8-MOP, 5-MOP turned out to be significantly less effective; however, by doubling the oral dosage, comparable results in terms of clearing of psoriasis were obtained. Also with this high-dose 5-MOP regimen, no drug intolerance was noted and other side effects, such as severe erythema, pruritus, and nausea, occurred only rarely. We propose 5-MOP as a valuable alternative for photochemotherapy (PUVA) of PUVA-responsive diseases.",
+        "affiliation": "Department of Dermatology I, University of Vienna, Austria.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Clinical Trial",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photosensitivity Disorders",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psoriasis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methoxsalen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "PUVA Therapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Administration Schedule"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Random Allocation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Clinical Trials as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "5-Methoxypsoralen"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "5-methoxypsoralen",
+              "registryNumber": "4FVK84C92X"
+            },
+            {
+              "name": "Methoxsalen",
+              "registryNumber": "U4VJ29L7BQ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.1016/s0190-9622(88)70048-1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 44,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1988-04-18",
+        "dateOfCreation": "1988-02-01",
+        "dateOfRevision": "2018-11-30",
+        "firstPublicationDate": "1988-02-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "5929408",
+        "source": "MED",
+        "pmid": "5929408",
+        "doi": "10.1111/j.1751-1097.1966.tb05823.x",
+        "title": "Skin-photosensitizing furocoumarins: photochemical interaction between DNA and -O14CH3 bergapten (5-methoxy-psoralen).",
+        "authorString": "Musajo L, Rodighiero G, Breccia A, Dall'Acqua F, Malesani G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Musajo L",
+              "lastName": "Musajo",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Rodighiero G",
+              "lastName": "Rodighiero",
+              "firstName": "G",
+              "initials": "G"
+            },
+            {
+              "fullName": "Breccia A",
+              "lastName": "Breccia",
+              "firstName": "A",
+              "initials": "A"
+            },
+            {
+              "fullName": "Dall'Acqua F",
+              "lastName": "Dall'Acqua",
+              "firstName": "F",
+              "initials": "F"
+            },
+            {
+              "fullName": "Malesani G",
+              "lastName": "Malesani",
+              "firstName": "G",
+              "initials": "G"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "5",
+          "journalIssueId": 110200,
+          "dateOfPublication": "1966 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 1966,
+          "journal": {
+            "medlineAbbreviation": "Photochem Photobiol",
+            "title": "Photochemistry and photobiology",
+            "essn": "1751-1097",
+            "issn": "0031-8655",
+            "isoabbreviation": "Photochem Photobiol",
+            "nlmid": "0376425"
+          },
+          "printPublicationDate": "1966-09-01"
+        },
+        "pubYear": "1966",
+        "pageInfo": "739-745",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Photosensitivity Disorders"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Coumarins"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "DNA"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemical Phenomena"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Coumarins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1751-1097.1966.tb05823.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 48,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1967-02-28",
+        "dateOfCreation": "1966-09-01",
+        "dateOfRevision": "2019-08-18",
+        "firstPublicationDate": "1966-09-01",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

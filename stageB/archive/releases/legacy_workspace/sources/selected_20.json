@@ -1,0 +1,270 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:25624269 AND SRC:MED",
+    "internalQuery": "EXT_ID:25624269 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "25624269",
+        "source": "MED",
+        "pmid": "25624269",
+        "doi": "10.1002/ptr.5302",
+        "title": "Effect of resveratrol on the pharmacokinetics of carbamazepine in healthy human volunteers.",
+        "authorString": "Bedada SK, Nearati P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bedada SK",
+              "lastName": "Bedada",
+              "firstName": "Satish Kumar",
+              "initials": "SK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1080-4446"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "DMPK & Clinical Pharmacology Division, Department of Pharmacology, University College of Pharmaceutical Sciences, Kakatiya University, Warangal, AP, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nearati P",
+              "lastName": "Nearati",
+              "firstName": "Prasad",
+              "initials": "P"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1080-4446"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7145-1699"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "29",
+          "journalIssueId": 2281865,
+          "dateOfPublication": "2015 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Phytother Res",
+            "title": "Phytotherapy research : PTR",
+            "essn": "1099-1573",
+            "issn": "0951-418X",
+            "nlmid": "8904486",
+            "isoabbreviation": "Phytother Res"
+          },
+          "printPublicationDate": "2015-05-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "701-706",
+        "abstractText": "The purpose of the present study was to assess the effect of resveratrol (RSV) pretreatment on CYP3A4 enzyme activity and pharmacokinetics of carbamazepine (CBZ) in healthy human volunteers. The open-label, two period, sequential study was conducted in 12 healthy human volunteers. A single dose of RSV 500 mg was administered once daily for 10 days during treatment phase. A single dose of CBZ 200 mg was administered during control and after treatment phases under fasting conditions. The blood samples were collected after CBZ dosing at predetermined time intervals and analyzed by LC-MS/MS. In comparison with the control, RSV pretreatment significantly enhanced maximum plasma concentration (Cmax ), area under the curve (AUC), and half life (t1/2 ) and significantly decreased apparent oral clearance (CL/F) and apparent volume of distribution (Vd/F), while there was no significant change observed in time to reach maximum concentration (tmax ) and elimination rate constant (kel ) of CBZ. Furthermore, RSV pretreatment significantly decreased metabolite to parent (CBZE/CBZ) ratios of Cmax and AUC and significantly increased CBZE/CBZ ratios of CL/F and Vd/F, indicating the reduced formation of CBZE to CBZ. The results suggest that the altered CYP3A4 enzyme activity and pharmacokinetics of CBZ might be attributed to RSV-mediated inhibition of CYP3A4 enzyme. Thus, there is a potential pharmacokinetic interaction between RSV and CBZ including other CYP3A4 substrates.",
+        "affiliation": "DMPK & Clinical Pharmacology Division, Department of Pharmacology, University College of Pharmaceutical Sciences, Kakatiya University, Warangal, AP, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "University College of Pharmaceutical Sciences at Kakatiya University, Warangal, AP, India",
+              "orderIn": 0
+            },
+            {
+              "agency": "University Grants Commission, New Delhi, India",
+              "grantId": "F.36-130/2009.SR",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stilbenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carbamazepine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Half-Life"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Healthy Volunteers"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Resveratrol"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Metabolism",
+            "Pharmacokinetics",
+            "Resveratrol",
+            "carbamazepine",
+            "Cyp3a4 Enzyme"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Stilbenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "resveratrol",
+              "registryNumber": "Q369O8926L"
+            },
+            {
+              "name": "Carbamazepine",
+              "registryNumber": "33CM23913M"
+            },
+            {
+              "name": "CYP3A4 protein, human",
+              "registryNumber": "EC 1.14.14.55"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ptr.5302"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 21,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-09-25",
+        "dateOfCreation": "2015-01-28",
+        "dateOfRevision": "2019-03-18",
+        "electronicPublicationDate": "2015-01-27",
+        "firstPublicationDate": "2015-01-27",
+        "firstIndexDate": "2015-01-28",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

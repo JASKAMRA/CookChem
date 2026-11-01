@@ -1,0 +1,3505 @@
+{
+  "version": "6.9",
+  "hitCount": 10,
+  "request": {
+    "queryString": "TITLE:\"6-Gingerol\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30324361",
+        "source": "MED",
+        "pmid": "30324361",
+        "doi": "10.1208/s12249-018-1165-2",
+        "title": "Formulation, Characterization, and Pharmacokinetic Studies of 6-Gingerol-Loaded Nanostructured Lipid Carriers.",
+        "authorString": "Wei Q, Yang Q, Wang Q, Sun C, Zhu Y, Niu Y, Yu J, Xu X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wei Q",
+              "lastName": "Wei",
+              "firstName": "Qiuyu",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang Q",
+              "lastName": "Yang",
+              "firstName": "Qiuxuan",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Q",
+              "lastName": "Wang",
+              "firstName": "Qilong",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun C",
+              "lastName": "Sun",
+              "firstName": "Congyong",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3073-5417"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu Y",
+              "lastName": "Zhu",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Niu Y",
+              "lastName": "Niu",
+              "firstName": "Ya",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu J",
+              "lastName": "Yu",
+              "firstName": "Jiangnan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China. yjn@ujs.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu X",
+              "lastName": "Xu",
+              "firstName": "Ximing",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7113-6226"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China. xmxu@ujs.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3073-5417"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7113-6226"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "19",
+          "journalIssueId": 2773111,
+          "dateOfPublication": "2018 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "AAPS PharmSciTech",
+            "title": "AAPS PharmSciTech",
+            "essn": "1530-9932",
+            "issn": "1530-9932",
+            "isoabbreviation": "AAPS PharmSciTech",
+            "nlmid": "100960111"
+          },
+          "printPublicationDate": "2018-11-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "3661-3669",
+        "abstractText": "In this study, an optimized nanostructured lipid carriers (NLCs) were developed and investigated for improving the solubility and oral availability of 6-Gingerol (6G), an active and abundant component of ginger with limited applications due to its poor water solubility plus oral biological availability. The NLCs consisted of a solid lipid (glyceryl monostearate), another liquid lipid (decanoyl/octanoyl-glycerides) and mixed surfactants (Tween 80 and Poloxamer 188), and was prepared by high pressure homogenization method. The optimal 6G-NLC formulation was evaluated through physical properties such as appearance, mean particle size, zeta potential, encapsulation efficiency, and in vitro drug release, alongside techniques viz., transmission electron microscopy (TEM), differential scanning calorimetry (DSC), as well as powder X-ray diffraction (XRD). Pharmacokinetics were also evaluated in rats. The 6G-NLCs prepared with optimal formulation exhibited a homogenous spherical shape with mean particle size and zeta potential of 63.59 ± 5.54 nm and - 12.18 ± 1.06 mV. Encapsulation efficiency and drug loading were 76.71 ± 1.11 and 1.17 ± 0.35%, respectively. In vitro release profile of 6G from NLCs was sustained and fitted with Weibull equation. After oral administration of the 6G-NLCs, drug concentrations in serum, MRT, and AUC<sub>0-t</sub> were significantly higher as compared with the free 6G suspension. All these results indicated that the developed NLC formulation could be effective and promising drug carriers to improve the water solubility of 6G while sustaining the drug release as well as prolonging in vivo acting time of the drug coupled with oral bioavailability enhancement.",
+        "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, No.301, Xuefu Road, Jingkou District, Zhenjiang City, 212013, Jiangsu Province, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycerides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Carriers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Solubility"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanostructures",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bioavailability",
+            "Nanostructured Lipid Carriers",
+            "sustained release",
+            "6-Gingerol"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Lipids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glycerides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            },
+            {
+              "name": "glyceryl monostearate",
+              "registryNumber": "230OU9XXE4"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1208/s12249-018-1165-2"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 37,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-02-05",
+        "dateOfCreation": "2018-10-17",
+        "dateOfRevision": "2019-02-15",
+        "electronicPublicationDate": "2018-10-15",
+        "firstPublicationDate": "2018-10-15",
+        "firstIndexDate": "2018-10-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28051355",
+        "source": "MED",
+        "pmid": "28051355",
+        "doi": "10.1080/00498254.2017.1278807",
+        "title": "Pharmacokinetic interaction of aconitine, liquiritin and 6-gingerol in a traditional Chinese herbal formula, Sini Decoction.",
+        "authorString": "Sun S, Chen Q, Ge J, Liu X, Wang X, Zhan Q, Zhang H, Zhang G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sun S",
+              "lastName": "Sun",
+              "firstName": "Sen",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Q",
+              "lastName": "Chen",
+              "firstName": "Qingshan",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ge J",
+              "lastName": "Ge",
+              "firstName": "Jiyun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu X",
+              "lastName": "Liu",
+              "firstName": "Xiang",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xinxia",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhan Q",
+              "lastName": "Zhan",
+              "firstName": "Qi",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang H",
+              "lastName": "Zhang",
+              "firstName": "Hai",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang G",
+              "lastName": "Zhang",
+              "firstName": "Guoqing",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "48",
+          "journalIssueId": 2622487,
+          "dateOfPublication": "2018 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Xenobiotica",
+            "title": "Xenobiotica; the fate of foreign compounds in biological systems",
+            "essn": "1366-5928",
+            "issn": "0049-8254",
+            "isoabbreviation": "Xenobiotica",
+            "nlmid": "1306665"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "45-52",
+        "abstractText": "1. This study aimed to investigate the pharmacokinetic interaction of the three ingredients in a traditional Chinese herbal formulation, Sini Decoction, and provide evidence for its compatibility mechanism. 2. First, the effect of liquiritin and 6-gingerol on the pharmacokinetic parameters of aconitine was investigated in rats by using a sensitive and reliable LC-MS/MS method. Then the Caco-2 cell monolayer model and Rhodamine-123 uptake assay were used to investigate the effect of liquiritin and 6-gingerol on the absorption of aconitine and the activity of P-gp. 3. The C<sub>max</sub> of aconitine increased significantly (p < 0.05) from 10.34 ± 1.99 to 17.68 ± 2.65 ng/mL with the pretreatment of liquiritin (20 mg/kg), and to 17.43 ± 0.96 ng/mL with 6-gingerol (20 mg/kg). When aconitine was co-administered with liquiritin and 6-gingerol, the C<sub>max</sub> and AUC<sub>(0</sub><sub>-t</sub><sub>)</sub> of aconitine increased approximately twofold, and while t<sub>1/2</sub> only increased 1.2-fold. The Caco-2 cell monolayer model and Rhodamine-123 uptake assay indicated that both liquiritin and 6-gingerol could increase the absorption of aconitine by inhibiting the activity of P-gp. 4. These results indicated that both liquiritin and 6-gingerol could promote the absorption of aconitine and increase its drug concentration in blood by inhibiting the activity of P-gp, and it could also provide evidence for compatibility mechanism of the traditional Chinese herbal formula, Sini Decoction.",
+        "affiliation": "a Department of Pharmacy , Eastern Hepatobiliary Surgery Hospital, Second Military Medical University , Shanghai , China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aconitine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavanones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drugs, Chinese Herbal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicine, Chinese Traditional"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Aconitine",
+            "Sini Decoction",
+            "Pharmacokinetic Interaction",
+            "Lc–ms/ms",
+            "Liquiritin",
+            "6-Gingerol",
+            "Compatibility Mechanism"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "sini tang",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavanones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            },
+            {
+              "name": "Aconitine",
+              "registryNumber": "X8YN71D5WC"
+            },
+            {
+              "name": "liquiritin",
+              "registryNumber": "T0O79T74CD"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/00498254.2017.1278807"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 15,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-01-03",
+        "dateOfCreation": "2017-01-05",
+        "dateOfRevision": "2018-01-03",
+        "electronicPublicationDate": "2017-01-25",
+        "firstPublicationDate": "2017-01-25",
+        "firstIndexDate": "2017-01-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29126908",
+        "source": "MED",
+        "pmid": "29126908",
+        "doi": "10.1016/j.ijpharm.2017.11.006",
+        "title": "A novel formulation of [6]-gingerol: Proliposomes with enhanced oral bioavailability and antitumor effect.",
+        "authorString": "Wang Q, Wei Q, Yang Q, Cao X, Li Q, Shi F, Tong SS, Feng C, Yu Q, Yu J, Xu X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang Q",
+              "lastName": "Wang",
+              "firstName": "Qilong",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei Q",
+              "lastName": "Wei",
+              "firstName": "Qiuyu",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang Q",
+              "lastName": "Yang",
+              "firstName": "Qiuxuan",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao X",
+              "lastName": "Cao",
+              "firstName": "Xia",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Q",
+              "lastName": "Li",
+              "firstName": "Qiang",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi F",
+              "lastName": "Shi",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tong SS",
+              "lastName": "Tong",
+              "firstName": "Shan Shan",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Feng C",
+              "lastName": "Feng",
+              "firstName": "Chunlai",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9628-1331"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu Q",
+              "lastName": "Yu",
+              "firstName": "Qingtong",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu J",
+              "lastName": "Yu",
+              "firstName": "Jiangnan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China. Electronic address: yjn@ujs.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu X",
+              "lastName": "Xu",
+              "firstName": "Ximing",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7113-6226"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China. Electronic address: xmxu@ujs.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7113-6226"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9628-1331"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1-2",
+          "volume": "535",
+          "journalIssueId": 2635741,
+          "dateOfPublication": "2018 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Int J Pharm",
+            "title": "International journal of pharmaceutics",
+            "essn": "1873-3476",
+            "issn": "0378-5173",
+            "isoabbreviation": "Int J Pharm",
+            "nlmid": "7804127"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "308-315",
+        "abstractText": "[6]-Gingerol, one of the components of the rhizome of Ginger, has a variety of biological activities such as anticoagulant, antioxidative, antitumor, anti-inflammatory, antihypertensive, and so forth. However, as one of the homologous phenolic ketones, [6]-gingerol is insoluble in water which limits its applications. Herein, we prepared [6]-gingerol proliposomes through modified thin-film dispersion method, which was spherical or oval, and physicochemically stable with narrow size distribution. Surprisingly, in vitro release of [6]-gingerol loaded proliposome compared with the free [6]-gingerol was significantly higher and its oral bioavailability increased 5-fold in vivo. Intriguingly, its antitumor effect was enhanced in the liposome formulation. Thus, our prepared [6]-gingerol proliposome proved to be a novel formulation for [6]-gingerol, which significantly improved its antitumor effect.",
+        "affiliation": "Department of Pharmaceutics, School of Pharmacy, Center for Nano Drug/Gene Delivery and Tissue Engineering, Jiangsu University, Zhenjiang 212013, People's Republic of China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81373371",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2014M560410",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "2014M560409",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liposomes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemistry, Pharmaceutical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Liberation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Antitumor",
+            "Extraction",
+            "proliposome",
+            "[6]-Gingerol"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Liposomes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ijpharm.2017.11.006"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 63,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-08-29",
+        "dateOfCreation": "2017-11-12",
+        "dateOfRevision": "2018-08-29",
+        "electronicPublicationDate": "2017-11-07",
+        "firstPublicationDate": "2017-11-07",
+        "firstIndexDate": "2017-11-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29454952",
+        "source": "MED",
+        "pmid": "29454952",
+        "doi": "10.1016/j.ijbiomac.2018.02.099",
+        "title": "Probing the interaction of the phytochemical 6-gingerol from the spice ginger with DNA.",
+        "authorString": "Haris P, Mary V, Sudarsanakumar C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Haris P",
+              "lastName": "Haris",
+              "firstName": "Poovvathingal",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pure and Applied Physics, Mahatma Gandhi University, Kottayam, Kerala 686560, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mary V",
+              "lastName": "Mary",
+              "firstName": "Varughese",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pure and Applied Physics, Mahatma Gandhi University, Kottayam, Kerala 686560, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sudarsanakumar C",
+              "lastName": "Sudarsanakumar",
+              "firstName": "Chellappanpillai",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pure and Applied Physics, Mahatma Gandhi University, Kottayam, Kerala 686560, India; Center for High Performance Computing, Mahatma Gandhi University, Kottayam, Kerala 686560, India. Electronic address: c.sudarsan.mgu@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "113",
+          "journalIssueId": 2677219,
+          "dateOfPublication": "2018 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Int J Biol Macromol",
+            "title": "International journal of biological macromolecules",
+            "essn": "1879-0003",
+            "issn": "0141-8130",
+            "isoabbreviation": "Int J Biol Macromol",
+            "nlmid": "7909578"
+          },
+          "printPublicationDate": "2018-07-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "124-131",
+        "abstractText": "6-Gingerol [5-hydroxy-1-(4-hydroxy-3-methoxyphenyl) decan-3-one], the bio-active ingredient of the popular Indian spice ginger (Zingiber officinale Roscoe), is well-known for its pharmacological and physiological actions. The potent antioxidant, antiemetic, antiulcer, antimicrobial, analgesic, hypoglycemic, antihypertensive, antihyperlipidemic, immunostimulant, anti-inflammatory, cardiotonic, and cancer prevention activities of 6-Gingerol has been investigated and explored. 6-Gingerol is a good candidate for the treatment of various cancers including prostrate, pancreatic, breast, skin, gastrointestinal, pulmonary, and renal cancer. In this study we report for the first time the molecular recognition of 6-Gingerol with calf thymus DNA (ctDNA) through experimental and molecular modeling techniques confirming a minor groove binding mode of 6-Gingerol with ctDNA. Fluorescence and UV-vis spectroscopic studies confirm the complex formation of 6-gingerol with ctDNA. The energetics and thermodynamics of the interaction of 6-Gingerol with ctDNA was explored by Isothermal Titration Calorimetry (ITC) and Differential Scanning Calorimetry (DSC). The ctDNA helix melting upon 6-Gingerol binding was examined by melting temperature T<sub>m</sub> analysis. Further the electrophoretic mobility shift assay confirms a possible groove binding of 6-Gingerol with ctDNA. Molecular docking and Molecular dynamics (MD) studies provide a detailed understanding on the interaction of 6-Gingerol binding in the minor groove of DNA which supports experimental results.",
+        "affiliation": "School of Pure and Applied Physics, Mahatma Gandhi University, Kottayam, Kerala 686560, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nucleic Acid Conformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transition Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Zingiber officinale",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Calorimetry",
+            "6-Gingerol",
+            "Dna Minor Groove Binding"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ijbiomac.2018.02.099"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2018-09-27",
+        "dateOfCreation": "2018-02-19",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2018-02-16",
+        "firstPublicationDate": "2018-02-16",
+        "firstIndexDate": "2018-02-19",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29535632",
+        "source": "MED",
+        "pmid": "29535632",
+        "pmcid": "PMC5835308",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5835308"
+          ]
+        },
+        "doi": "10.3389/fphar.2018.00159",
+        "title": "6-Gingerol Regulates Hepatic Cholesterol Metabolism by Up-regulation of LDLR and Cholesterol Efflux-Related Genes in HepG2 Cells.",
+        "authorString": "Li X, Guo J, Liang N, Jiang X, Song Y, Ou S, Hu Y, Jiao R, Bai W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li X",
+              "lastName": "Li",
+              "firstName": "Xiao",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo J",
+              "lastName": "Guo",
+              "firstName": "Jingting",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liang N",
+              "lastName": "Liang",
+              "firstName": "Ning",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang X",
+              "lastName": "Jiang",
+              "firstName": "Xinwei",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song Y",
+              "lastName": "Song",
+              "firstName": "Yuan",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ou S",
+              "lastName": "Ou",
+              "firstName": "Shiyi",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu Y",
+              "lastName": "Hu",
+              "firstName": "Yunfeng",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiao R",
+              "lastName": "Jiao",
+              "firstName": "Rui",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bai W",
+              "lastName": "Bai",
+              "firstName": "Weibin",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1729-2970"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1729-2970"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "9",
+          "journalIssueId": 2645047,
+          "dateOfPublication": "2018 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Front Pharmacol",
+            "title": "Frontiers in pharmacology",
+            "essn": "1663-9812",
+            "issn": "1663-9812",
+            "isoabbreviation": "Front Pharmacol",
+            "nlmid": "101548923"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "159",
+        "abstractText": "Gingerols, the pungent ingredients in ginger, are reported to possess a cholesterol-lowering activity. However, the underlying mechanism remains unclear. The present study was to investigate how 6-gingerol (6-GN), the most abundant gingerol in fresh ginger, regulates hepatic cholesterol metabolism. HepG2 cells were incubated with various concentrations of 6-GN ranging from 50 to 200 μM for 24 h. Results showed that both cellular total cholesterol and free cholesterol decreased in a dose-dependent manner. Besides, 6-GN ranging from 100 to 200 μM increased the LDLR protein and uptake of fluorescent-labeled LDL. Moreover, the mRNA and protein expressions of cholesterol metabolism-related genes were also examined. It was found that 6-GN regulated cholesterol metabolism via up-regulation of LDLR through activation of SREBP2 as well as up-regulation of cholesterol efflux-related genes LXRα and ABCA1.",
+        "affiliation": "Department of Food Science and Engineering, Institute of Food Safety and Nutrition, Guangdong Engineering Technology Center of Food Safety Molecular Rapid Detection, Jinan University, Guangzhou, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31401502",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cholesterol efflux",
+            "ABCA1",
+            "Cholesterol Metabolism",
+            "Ldlr",
+            "6-Gingerol"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fphar.2018.00159"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5835308"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5835308?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2018-03-15",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2018-02-27",
+        "firstPublicationDate": "2018-02-27",
+        "firstIndexDate": "2018-03-15",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25658238",
+        "source": "MED",
+        "pmid": "25658238",
+        "pmcid": "PMC4344571",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4344571"
+          ]
+        },
+        "doi": "10.3390/nu7020999",
+        "title": "6-gingerol protects against nutritional steatohepatitis by regulating key genes related to inflammation and lipid metabolism.",
+        "authorString": "Tzeng TF, Liou SS, Chang CJ, Liu IM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tzeng TF",
+              "lastName": "Tzeng",
+              "firstName": "Thing-Fong",
+              "initials": "TF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy & Graduate Institute of Pharmaceutical Technology, Tajen University, Yanpu Township, 90741 Pingtung County, Taiwan. d850084@yahoo.com.tw."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liou SS",
+              "lastName": "Liou",
+              "firstName": "Shorong-Shii",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy & Graduate Institute of Pharmaceutical Technology, Tajen University, Yanpu Township, 90741 Pingtung County, Taiwan. ssliou@tajen.edu.tw."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chang CJ",
+              "lastName": "Chang",
+              "firstName": "Chia Ju",
+              "initials": "CJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy & Graduate Institute of Pharmaceutical Technology, Tajen University, Yanpu Township, 90741 Pingtung County, Taiwan. 7419417@yahoo.com.tw."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu IM",
+              "lastName": "Liu",
+              "firstName": "I-Min",
+              "initials": "IM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy & Graduate Institute of Pharmaceutical Technology, Tajen University, Yanpu Township, 90741 Pingtung County, Taiwan. iml@tajen.edu.tw."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "7",
+          "journalIssueId": 2475529,
+          "dateOfPublication": "2015 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Nutrients",
+            "title": "Nutrients",
+            "essn": "2072-6643",
+            "issn": "2072-6643",
+            "isoabbreviation": "Nutrients",
+            "nlmid": "101521595"
+          },
+          "printPublicationDate": "2015-02-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "999-1020",
+        "abstractText": "Non-alcoholic fatty liver disease, including non-alcoholic steatohepatitis (NASH), appears to be increasingly common worldwide. The aim of the study was to investigate the effects of 6-gingerol ((S)-5-hydroxy-1-(4-hydroxy-3-methoxyphenyl)-3-decanone), a bioactive ingredient of plants belonging to the Zingiberaceae family, on experimental models of NASH. In HepG2 cells, 6-gingerol (100 μmol/L) treatment inhibited free fatty acids mixture (0.33 mmol/L palmitate and 0.66 mmol/L oleate)-induced triglyceride and inflammatory marker accumulations. Male C57BL/6 mice were fed with a methionine and choline-deficient (MCD) diet to induce steatohepatitis. After four weeks of MCD diet feeding, the mice were dosed orally with 6-gingerol (25, 50 or 100 mg/kg/day) once daily for another four weeks. 6-Gingerol (100 mg/kg/day) attenuated liver steatosis and necro-inflammation in MCD diet-fed mice. The expressions of inflammatory cytokine genes, including those for monocyte chemoattractant protein-1, tumor necrosis factor-α, and interleukin-6, and nuclear transcription factor (NF-κB), which were increased in the livers of MCD diet-fed mice, were attenuated by 6-gingerol. 6-Gingerol possesses a repressive property on hepatic steatosis, which is associated with induction of peroxisome proliferator-activated receptor α. Our study demonstrated the protective role of 6-gingerol in ameliorating nutritional steatohepatitis. The effect was mediated through regulating key genes related to lipid metabolism and inflammation.",
+        "affiliation": "Department of Pharmacy & Graduate Institute of Pharmaceutical Technology, Tajen University, Yanpu Township, 90741 Pingtung County, Taiwan. d850084@yahoo.com.tw.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DH",
+                    "qualifierName": "diet therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Choline Deficiency"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DH",
+                    "qualifierName": "diet therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Methionine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Necrosis Factor-alpha",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NF-kappa B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interleukin-6",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chemokine CCL2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Non-alcoholic Fatty Liver Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DH",
+                    "qualifierName": "diet therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tumor Necrosis Factor-alpha",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interleukin-6",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NF-kappa B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Chemokine CCL2",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            },
+            {
+              "name": "Methionine",
+              "registryNumber": "AE28F7PNPL"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/nu7020999"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4344571"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4344571?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-10-07",
+        "dateOfCreation": "2015-02-07",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2015-02-04",
+        "firstPublicationDate": "2015-02-04",
+        "firstIndexDate": "2015-02-07",
+        "fullTextReceivedDate": "2020-07-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25694332",
+        "source": "MED",
+        "pmid": "25694332",
+        "doi": "10.1002/jcb.25100",
+        "title": "[6]-Gingerol Affects Glucose Metabolism by Dual Regulation via the AMPKα2-Mediated AS160-Rab5 Pathway and AMPK-Mediated Insulin Sensitizing Effects.",
+        "authorString": "Lee JO, Kim N, Lee HJ, Moon JW, Lee SK, Kim SJ, Kim JK, Park SH, Kim HS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lee JO",
+              "lastName": "Lee",
+              "firstName": "Jung Ok",
+              "initials": "JO",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim N",
+              "lastName": "Kim",
+              "firstName": "Nami",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee HJ",
+              "lastName": "Lee",
+              "firstName": "Hye Jeong",
+              "initials": "HJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moon JW",
+              "lastName": "Moon",
+              "firstName": "Ji Wook",
+              "initials": "JW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee SK",
+              "lastName": "Lee",
+              "firstName": "Soo Kyung",
+              "initials": "SK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim SJ",
+              "lastName": "Kim",
+              "firstName": "Su Jin",
+              "initials": "SJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim JK",
+              "lastName": "Kim",
+              "firstName": "Joong Kwan",
+              "initials": "JK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Park SH",
+              "lastName": "Park",
+              "firstName": "Sun Hwa",
+              "initials": "SH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim HS",
+              "lastName": "Kim",
+              "firstName": "Hyeon Soo",
+              "initials": "HS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0048-5322"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1507-9829"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "116",
+          "journalIssueId": 2284075,
+          "dateOfPublication": "2015 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "J Cell Biochem",
+            "title": "Journal of cellular biochemistry",
+            "essn": "1097-4644",
+            "issn": "0730-2312",
+            "isoabbreviation": "J Cell Biochem",
+            "nlmid": "8205768"
+          },
+          "printPublicationDate": "2015-07-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "1401-1410",
+        "abstractText": "[6]-Gingerol has been used to control diabetes and dyslipidemia; however, its metabolic role is poorly understood. In this study, [6]-gingerol increased adenosine monophosphate (AMP)-activated protein kinase (AMPK) phosphorylation in mouse skeletal muscle C2C12 cells. Stimulation of glucose uptake by [6]-gingerol was dependent on AMPKα2. Moreover, both Inhibition and knockdown of AMPKα2 blocked [6]-gingerol-induced glucose uptake. [6]-Gingerol significantly decreased the activity of protein phosphatase 2A (PP2A). Inhibition of PP2A activity with okadaic acid enhanced the phosphorylation of AMPKα2. Moreover, the interaction between AMPKα2 and PP2A was increased by [6]-gingerol, suggesting that PP2A mediates the effect of [6]-gingerol on AMPK phosphorylation. In addition, [6]-gingerol increased the phosphorylation of Akt-substrate 160 (AS160), which is a Rab GTPase-activating protein. Inhibition of AMPKα2 blocked [6]-gingerol-induced AS160 phosphorylation. [6]-gingerol increased the Rab5, and AMPKα2 knockdown blocked [6]-gingerol-induced expression of Rab5, indicating AMPK play as an upstream of Rab5. It also increased glucose transporter 4 (GLUT4) mRNA and protein expression and stimulated GLUT4 translocation. Furthermore, insulin-mediated glucose uptake and Akt phosphorylation were further potentiated by [6]-gingerol treatment. This potentiation was not observed in the presence of AMPK inhibitor compound C. In summary, our results suggest that [6]-gingerol plays an important role in glucose metabolism via the AMPKα2-mediated AS160-Rab5 pathway and through potentiation of insulin-mediated glucose regulation.",
+        "affiliation": "Department of Anatomy, Korea University College of Medicine, Seoul, Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Research Foundation of Korea, which is funded by the Korean government",
+              "grantId": "NRF-2012R1A1A2041548",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "rab5 GTP-Binding Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "GTPase-Activating Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphorylation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Synergism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose Transporter Type 4",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Phosphatase 2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "AMP-Activated Protein Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Signal transduction",
+            "Diabetes",
+            "Ampk",
+            "[6]-Gingerol",
+            "Insulin Sensitizing"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "GTPase-Activating Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucose Transporter Type 4",
+              "registryNumber": "0"
+            },
+            {
+              "name": "rab5 GTP-Binding Proteins",
+              "registryNumber": "EC 3.6.5.2"
+            },
+            {
+              "name": "AMP-activated protein kinases",
+              "registryNumber": "EC 2.7.11.31"
+            },
+            {
+              "name": "Protein Phosphatase 2",
+              "registryNumber": "EC 3.1.3.16"
+            },
+            {
+              "name": "Insulin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/jcb.25100"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 30,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-01-29",
+        "dateOfCreation": "2015-02-20",
+        "dateOfRevision": "2024-01-09",
+        "firstPublicationDate": "2015-07-01",
+        "firstIndexDate": "2015-02-20",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21337351",
+        "source": "MED",
+        "pmid": "21337351",
+        "doi": "10.1002/bmc.1585",
+        "title": "Characterization of [6]-gingerol metabolism in rat by liquid chromatography electrospray tandem mass spectrometry.",
+        "authorString": "Gauthier ML, Douat J, Vachon P, Beaudry F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gauthier ML",
+              "lastName": "Gauthier",
+              "firstName": "Marie-Lou",
+              "initials": "ML",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Département de biomédecine vétérinaire, Faculté de médecine vétérinaire, Université de Montréal, Québec, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Douat J",
+              "lastName": "Douat",
+              "firstName": "Jennifer",
+              "initials": "J"
+            },
+            {
+              "fullName": "Vachon P",
+              "lastName": "Vachon",
+              "firstName": "Pascal",
+              "initials": "P"
+            },
+            {
+              "fullName": "Beaudry F",
+              "lastName": "Beaudry",
+              "firstName": "Francis",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5403-7333"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5403-7333"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "25",
+          "journalIssueId": 1862204,
+          "dateOfPublication": "2011 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Biomed Chromatogr",
+            "title": "Biomedical chromatography : BMC",
+            "essn": "1099-0801",
+            "issn": "0269-3879",
+            "isoabbreviation": "Biomed Chromatogr",
+            "nlmid": "8610241"
+          },
+          "printPublicationDate": "2011-10-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "1150-1158",
+        "abstractText": "[6]-Gingerol is a structural analog of capsaicin, an agonist of the transient receptor potential channel vanilloid 1, which is known to have therapeutic properties for the treatment of pain and inflammation. A selective and sensitive quantitative method for the determination of [6]-gingerol by HPLC-ESI/MS/MS was developed. The method consisted of a protein precipitation extraction followed by analysis using liquid chromatography electrospray tandem mass spectrometry. The chromatographic separation was achieved using a Thermo 100 × 2.1 mm C(8) column combined with an isocratic mobile phase composed of acetonitrile, water and formic acid (80:20:0.1) at a flow rate of 250 μL/min. The mass spectrometer was operating in SRM mode and an analytical range set at 20-5000 ng/mL was used to construct a calibration curve in rat plasma. The interbatch precision (%CV) and accuracy (%NOM) observed were 2.9-10.8% and 98.1-102.1% in rat plasma. Similarly, precision and accuracy in rat liver microsomal suspension were also evaluated at nominal concentrations of 1, 25 and 100 μm; the precision (%CV) was <3.4% and the accuracy (%NOM) observed ranged from 89.7 to 109.4%. An in vitro metabolic stability study using rat liver microsomes was performed to determine intrinsic clearance of [6]-gingerol. The results show slow degradation with a T(1/2) of 163 min and relatively low intrinsic clearance suggesting that phase I metabolism may not be a major contributor of the drug clearance. Further analyses were performed to characterize in vitro and in vivo metabolites. Three main phase I metabolites and four phase II metabolites were identified by HPLC-MS/MS and HPLC-MSD TOF. However, the results suggest that glucuronidation of hydroxylated [6]-gingerol is the primary metabolite excreted in rat urine.",
+        "affiliation": "Département de biomédecine vétérinaire, Faculté de médecine vétérinaire, Université de Montréal, Québec, Canada.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dogs"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Capsaicin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calibration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sensitivity and Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nonlinear Dynamics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            },
+            {
+              "name": "Capsaicin",
+              "registryNumber": "S07O44R1ZM"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/bmc.1585"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-01-18",
+        "dateOfCreation": "2011-02-22",
+        "dateOfRevision": "2013-11-21",
+        "electronicPublicationDate": "2011-02-18",
+        "firstPublicationDate": "2011-02-18",
+        "firstIndexDate": "2011-02-22",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "22939973",
+        "source": "MED",
+        "pmid": "22939973",
+        "doi": "10.1016/j.ejphar.2012.08.001",
+        "title": "[6]-Gingerol induces caspase 3 dependent apoptosis and autophagy in cancer cells: drug-DNA interaction and expression of certain signal genes in HeLa cells.",
+        "authorString": "Chakraborty D, Bishayee K, Ghosh S, Biswas R, Mandal SK, Khuda-Bukhsh AR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chakraborty D",
+              "lastName": "Chakraborty",
+              "firstName": "Debrup",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cytogenetics and Molecular Biology Laboratory, Department of Zoology, University of Kalyani, Kalyani-741235, West Bengal, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bishayee K",
+              "lastName": "Bishayee",
+              "firstName": "Kausik",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6638-6311"
+              }
+            },
+            {
+              "fullName": "Ghosh S",
+              "lastName": "Ghosh",
+              "firstName": "Samrat",
+              "initials": "S"
+            },
+            {
+              "fullName": "Biswas R",
+              "lastName": "Biswas",
+              "firstName": "Raktim",
+              "initials": "R"
+            },
+            {
+              "fullName": "Mandal SK",
+              "lastName": "Mandal",
+              "firstName": "Sushil Kumar",
+              "initials": "SK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6833-4790"
+              }
+            },
+            {
+              "fullName": "Khuda-Bukhsh AR",
+              "lastName": "Khuda-Bukhsh",
+              "firstName": "Anisur Rahman",
+              "initials": "AR"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6638-6311"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6833-4790"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1-3",
+          "volume": "694",
+          "journalIssueId": 1972121,
+          "dateOfPublication": "2012 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Eur J Pharmacol",
+            "title": "European journal of pharmacology",
+            "essn": "1879-0712",
+            "issn": "0014-2999",
+            "isoabbreviation": "Eur J Pharmacol",
+            "nlmid": "1254354"
+          },
+          "printPublicationDate": "2012-11-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "20-29",
+        "abstractText": "[6]-Gingerol, a pharmacologically important bioactive component of ginger, has been reported to have anti-hyperglycemic, anti-cancer and anti-oxidative properties, but mechanisms through which these are achieved are largely unclear. The present study focuses on apoptosis and autophagy, two key events of anti-cancer activity, in HeLa cells treated with [6]-gingerol. The treated cells showed several morphological changes, including externalization of phosphatidyl serine, degradation of DNA and increase in TUNEL positivity. Furthermore, there was depolarization of mitochondrial membrane potential, providing evidence of mitochondria mediated apoptosis. The expression of caspase 3 and PARP was increased in cells exposed to [6]-gingerol. Circular dichroism study for testing drug-DNA interaction with both calf thymus and nuclear DNA as target revealed that the drug had potential to bind with the nuclear DNA and induce conformational changes of DNA. The over-expression of NFkβ, AKT and Bcl2 genes in cancer cells was down-regulated by [6]-gingerol treatment. On the other hand the expression levels of TNFα, Bax and cytochrome c were enhanced in [6]-gingerol treated cells. Thus, overall results suggest that [6]-gingerol has potential to bind with DNA and induce cell death by autophagy and caspase 3 mediated apoptosis.",
+        "affiliation": "Cytogenetics and Molecular Biology Laboratory, Department of Zoology, University of Kalyani, Kalyani-741235, West Bengal, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hela Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Nucleus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Poly(ADP-ribose) Polymerases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Materials Testing"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Fragmentation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Neoplastic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Autophagy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caspase 3",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Potential, Mitochondrial",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteolysis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caspase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Poly(ADP-ribose) Polymerases",
+              "registryNumber": "EC 2.4.2.30"
+            },
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caspase 3",
+              "registryNumber": "EC 3.4.22.-"
+            },
+            {
+              "name": "Caspase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ejphar.2012.08.001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 75,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-04-05",
+        "dateOfCreation": "2012-09-04",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2012-08-24",
+        "firstPublicationDate": "2012-08-24",
+        "firstIndexDate": "2012-09-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "12002808",
+        "source": "MED",
+        "pmid": "12002808",
+        "doi": "10.1016/s0024-3205(01)01551-x",
+        "title": "Metabolism of [6]-gingerol in rats.",
+        "authorString": "Nakazawa T, Ohsawa K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nakazawa T",
+              "lastName": "Nakazawa",
+              "firstName": "Takahiro",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Phytochemistry, Tohoku Pharmaceutical University, Sendai, Miyagi, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ohsawa K",
+              "lastName": "Ohsawa",
+              "firstName": "Keisuke",
+              "initials": "K"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "18",
+          "volume": "70",
+          "journalIssueId": 1078704,
+          "dateOfPublication": "2002 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2002,
+          "journal": {
+            "medlineAbbreviation": "Life Sci",
+            "title": "Life sciences",
+            "essn": "1879-0631",
+            "issn": "0024-3205",
+            "isoabbreviation": "Life Sci",
+            "nlmid": "0375521"
+          },
+          "printPublicationDate": "2002-03-01"
+        },
+        "pubYear": "2002",
+        "pageInfo": "2165-2175",
+        "abstractText": "The metabolic fate of [6]-gingerol, one of the active constituents of Zingiber officinale Roscoe, was investigated using rats. The bile of rats orally administered [6]-gingerol was shown to contain a major metabolite (1) by HPLC analysis. Although the metabolites derived from [6]-gingerol were not detected in the urine, the ethyl acetate extract of the urine after enzymatic hydrolysis was shown to contain six minor metabolites (2-7). Their structures were determined to be (S)-[6]-gingerol-4'-O-beta-glucuronide (1), vanillic acid (2), ferulic acid (3), (S)-(+)-4-hydroxy-6-oxo-8-(4-hydroxy-3-methoxyphenyl) octanoic acid (4), 4-(4-hydroxy-3-methoxyphenyl)butanoic acid (5), 9-hydroxy [6]-gingerol (6) and (S)-(+)-[6]-gingerol (7) based on spectroscopic and chemical data. The total cumulative amount of 1 excreted in the bile and 2-7 in the urine during 60 h after the oral administration of [6]-gingerol were approximately 48% and 16% of the dose, respectively. The excretion of 2-7 in the urine decreased after gut sterilization. On the other hand, the incubations of [6]-gingerol with rat liver showed the presence of 9-hydroxy [6]-gingerol, gingerdiol (8), and (S)-[6]-gingerol-4'-O-beta-glucuronide (1). These findings suggest that the gut flora and enzymes in the liver play an important part in the metabolism of [6]-gingerol.",
+        "affiliation": "Department of Phytochemistry, Tohoku Pharmaceutical University, Sendai, Miyagi, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Urine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Alcohols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drugs, Chinese Herbal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Urinalysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Fatty Alcohols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gingerol",
+              "registryNumber": "925QK2Z900"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s0024-3205(01)01551-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 55,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2002-05-23",
+        "dateOfCreation": "2002-05-11",
+        "dateOfRevision": "2024-01-09",
+        "firstPublicationDate": "2002-03-01",
+        "firstIndexDate": "2008-12-24",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

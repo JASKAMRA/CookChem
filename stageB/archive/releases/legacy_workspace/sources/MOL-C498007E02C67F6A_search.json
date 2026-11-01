@@ -1,0 +1,2829 @@
+{
+  "version": "6.9",
+  "hitCount": 9,
+  "request": {
+    "queryString": "TITLE_ABS:\"Protodioscin\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42277171",
+        "source": "MED",
+        "pmid": "42277171",
+        "pmcid": "PMC13503766",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13503766"
+          ]
+        },
+        "doi": "10.1038/s41598-026-57541-y",
+        "title": "A tri-target in silico analysis of Testolift: a nutraceutical formulation targeting aromatase, myostatin, and prolyl hydroxylase-2 in testosterone regulation and muscle performance.",
+        "authorString": "Amalraj A, Narayanan VA, Reshna KR, Varma K, Balakrishnan P, Gopi S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Amalraj A",
+              "lastName": "Amalraj",
+              "firstName": "Augustine",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "NIMP Innovation Hub, Padmalife Nutrition Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  },
+                  {
+                    "affiliation": "Global Innovation Centre, Molecules Biolabs Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Narayanan VA",
+              "lastName": "Narayanan",
+              "firstName": "V Anantha",
+              "initials": "VA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Global Innovation Centre, Molecules Biolabs Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reshna KR",
+              "lastName": "Reshna",
+              "firstName": "Kaniyath Ramachandran",
+              "initials": "KR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "NIMP Innovation Hub, Padmalife Nutrition Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  },
+                  {
+                    "affiliation": "Global Innovation Centre, Molecules Biolabs Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Varma K",
+              "lastName": "Varma",
+              "firstName": "Karthik",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "NIMP Innovation Hub, Padmalife Nutrition Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  },
+                  {
+                    "affiliation": "Global Innovation Centre, Molecules Biolabs Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Balakrishnan P",
+              "lastName": "Balakrishnan",
+              "firstName": "Preetha",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "NIMP Innovation Hub, Padmalife Nutrition Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  },
+                  {
+                    "affiliation": "Global Innovation Centre, Molecules Biolabs Private Limited, Koratty, Thrissur, Kerala, 680 309, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gopi S",
+              "lastName": "Gopi",
+              "firstName": "Sreerag",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "NIMP Innovation Hub, Padmalife Nutrition Private Limited, Koratty, Thrissur, Kerala, 680 309, India. sreeraggopi@gmail.com."
+                  },
+                  {
+                    "affiliation": "Global Innovation Centre, Molecules Biolabs Private Limited, Koratty, Thrissur, Kerala, 680 309, India. sreeraggopi@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "16",
+          "journalIssueId": 4203755,
+          "dateOfPublication": "2026 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Sci Rep",
+            "title": "Scientific reports",
+            "essn": "2045-2322",
+            "issn": "2045-2322",
+            "isoabbreviation": "Sci Rep",
+            "nlmid": "101563288"
+          },
+          "printPublicationDate": "2026-06-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "26636",
+        "abstractText": "Declining testosterone levels and associated impairments in muscle function, endurance, and metabolic health represent a growing global concern, while limitations associated with long-term testosterone replacement therapy have intensified interest in safer, mechanism-based nutraceutical approaches. In the present study, a systems-oriented multi-target computational framework integrating physicochemical profiling, ADMET prediction, molecular docking, and molecular dynamics (MD) simulations was employed to investigate the mechanistic basis of the Testolift formulation composed of protodioscin, diosgenin, 5,7-dimethoxyflavone (DMF), and 5,7,4'-trimethoxyflavone (TMF). The phytochemicals were evaluated against three mechanistically interconnected targets namely aromatase (CYP19A1), myostatin, and prolyl hydroxylase-2 (PHD2), which are associated with testosterone regulation, muscle physiology, and oxygen-dependent metabolic adaptation. Protodioscin demonstrated extensive polar interactions and persistent hydrogen bonding within the CYP19A1 binding region, whereas diosgenin exhibited favorable lipophilicity and interaction characteristics consistent with steroidogenic signaling. DMF and TMF displayed the most favorable drug-like physicochemical profiles (QED = 0.74), high predicted intestinal absorption, and stable interactions with myostatin and PHD2. Molecular dynamics simulations performed over 150 ns confirmed stable ligand-protein complexes without major conformational destabilization. ADMET analysis further indicated complementary pharmacokinetic behavior together with an overall favorable predicted safety profile. Collectively, these findings support a coordinated multi-target nutraceutical framework in which structurally distinct phytochemicals modulate complementary peripheral pathways associated with testosterone balance, muscle anabolic regulation, and endurance-related metabolic adaptation, thereby supporting further experimental validation of the Testolift formulation.",
+        "affiliation": "NIMP Innovation Hub, Padmalife Nutrition Private Limited, Koratty, Thrissur, Kerala, 680 309, India.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Muscle, Skeletal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Testosterone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosgenin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Aromatase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Myostatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Dynamics Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypoxia-Inducible Factor-Proline Dioxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular dynamics simulation",
+            "Molecular docking",
+            "Testosterone Metabolism",
+            "Nutraceutical Formulation",
+            "Testolift"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Aromatase",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Myostatin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Testosterone",
+              "registryNumber": "3XMK78S47O"
+            },
+            {
+              "name": "Hypoxia-Inducible Factor-Proline Dioxygenases",
+              "registryNumber": "EC 1.14.11.29"
+            },
+            {
+              "name": "Diosgenin",
+              "registryNumber": "K49P2K8WLX"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41598-026-57541-y"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13503766"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13503766?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-08-24",
+        "dateOfCreation": "2026-06-11",
+        "dateOfRevision": "2026-08-27",
+        "electronicPublicationDate": "2026-06-11",
+        "firstPublicationDate": "2026-06-11",
+        "firstIndexDate": "2026-06-12",
+        "fullTextReceivedDate": "2026-09-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39921733",
+        "source": "MED",
+        "pmid": "39921733",
+        "doi": "10.1007/s00210-025-03860-2",
+        "title": "Assessments of protodioscin's antinociceptive and antidiarrheal properties: in vivo and in silico investigations on macromolecule binding affinity and modulatory effects.",
+        "authorString": "Ghosh PR, Al Hasan MS, Rouf R, Chowdhury R, Yadav B, Mia E, Islam MT, Hasan MR, Ansari SA, Ansari IA, Bhuia MS, Islam MT.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ghosh PR",
+              "lastName": "Ghosh",
+              "firstName": "Pompa Rani",
+              "initials": "PR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al Hasan MS",
+              "lastName": "Al Hasan",
+              "firstName": "Md Sakib",
+              "initials": "MS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh."
+                  },
+                  {
+                    "affiliation": "Bioinformatics and Drug Innovation Laboratory, BioLuster Research Center Ltd., Gopalganj, 8100, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rouf R",
+              "lastName": "Rouf",
+              "firstName": "Razina",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh. razinaown@yahoo.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chowdhury R",
+              "lastName": "Chowdhury",
+              "firstName": "Raihan",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh."
+                  },
+                  {
+                    "affiliation": "Bioinformatics and Drug Innovation Laboratory, BioLuster Research Center Ltd., Gopalganj, 8100, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yadav B",
+              "lastName": "Yadav",
+              "firstName": "Balkrishnan",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mia E",
+              "lastName": "Mia",
+              "firstName": "Emon",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh."
+                  },
+                  {
+                    "affiliation": "Bioinformatics and Drug Innovation Laboratory, BioLuster Research Center Ltd., Gopalganj, 8100, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Islam MT",
+              "lastName": "Islam",
+              "firstName": "Md Tanvir",
+              "initials": "MT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Rajshahi, Rajshahi, 6205, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hasan MR",
+              "lastName": "Hasan",
+              "firstName": "Md Rakibul",
+              "initials": "MR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Rajshahi, Rajshahi, 6205, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ansari SA",
+              "lastName": "Ansari",
+              "firstName": "Siddique Akber",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, 11451, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ansari IA",
+              "lastName": "Ansari",
+              "firstName": "Irfan Aamer",
+              "initials": "IA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Drug Science and Technology, University of Turin, 10124, Turin, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bhuia MS",
+              "lastName": "Bhuia",
+              "firstName": "Md Shimul",
+              "initials": "MS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6179-9720"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh."
+                  },
+                  {
+                    "affiliation": "Bioinformatics and Drug Innovation Laboratory, BioLuster Research Center Ltd., Gopalganj, 8100, Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Islam MT",
+              "lastName": "Islam",
+              "firstName": "Muhammad Torequl",
+              "initials": "MT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh. dmt.islam@bsmrstu.edu.bd."
+                  },
+                  {
+                    "affiliation": "Bioinformatics and Drug Innovation Laboratory, BioLuster Research Center Ltd., Gopalganj, 8100, Bangladesh. dmt.islam@bsmrstu.edu.bd."
+                  },
+                  {
+                    "affiliation": "Pharmacy Discipline, Khulna University, Khulna, 9208, Bangladesh. dmt.islam@bsmrstu.edu.bd."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6179-9720"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-4693-1390"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0007-7390-056X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "398",
+          "journalIssueId": 3978848,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "title": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "essn": "1432-1912",
+            "issn": "0028-1298",
+            "isoabbreviation": "Naunyn Schmiedebergs Arch Pharmacol",
+            "nlmid": "0326264"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "9225-9239",
+        "abstractText": "Protodioscin (PRO) is a furostanol saponin with antioxidant and anti-inflammatory properties. However, there is no proof against nociception and diarrhea. The study aims to investigate the antinociceptive and antidiarrheal effects of PRO, comparing its efficacy with diclofenac sodium (DFS) and loperamide (LOP) using in vivo and in silico methods. Antinociceptive activity was evaluated using the acetic acid-induced writhing and formalin-induced paw licking tests, and antidiarrheal effects were assessed via castor oil-induced diarrhea in mice. Mice were divided into groups receiving PRO (2.5 and 10 mg/kg, p.o.), DFS (25 mg/kg, p.o.), LOP (3 mg/kg, p.o.), or combinations. Molecular docking studies were conducted on COX-1, COX-2 enzymes, and the Mu-opioid receptor (MOR), with toxicity predictions performed for safety profiling. In vivo results demonstrated that PRO significantly (p < 0.05) reduced pain and diarrhea in animals. PRO at 10 mg/kg, showed comparable efficacy to DFS and LOP (25 and 3 mg/kg) in both models. Molecular docking revealed that PRO had stronger binding affinities with COX-1 (‒10.0 kcal/mol), COX-2 (‒9.6 kcal/mol) enzymes, and MOR (‒7.7 kcal/mol) compared to standard drugs. Toxicity predictions indicate PRO is relatively safe in some toxicity parameters. PRO exhibits significant antinociceptive and antidiarrheal activities comparable to DFS and LOP, making it a promising natural alternative for managing pain and diarrhea. Additional clinical trials and pharmacokinetic assessments are required to evaluate its long-term safety for use.",
+        "affiliation": "Department of Pharmacy, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj, 8100, Bangladesh.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Diarrhea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CI",
+                    "qualifierName": "chemically induced"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acetic Acid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Loperamide",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Saponins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Castor Oil"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Opioid, mu",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Analgesics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antidiarrheals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclooxygenase 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclooxygenase 2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Saponin",
+            "Natural product",
+            "In silico",
+            "Antinociceptive",
+            "Antidiarrheal",
+            "Protodioscin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Ptgs2 protein, mouse",
+              "registryNumber": "EC 1.14.99.-"
+            },
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Saponins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Analgesics",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Castor Oil",
+              "registryNumber": "8001-79-4"
+            },
+            {
+              "name": "Antidiarrheals",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Opioid, mu",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cyclooxygenase 1",
+              "registryNumber": "EC 1.14.99.1"
+            },
+            {
+              "name": "Cyclooxygenase 2",
+              "registryNumber": "EC 1.14.99.1"
+            },
+            {
+              "name": "Ptgs1 protein, mouse",
+              "registryNumber": "EC 1.14.99.1"
+            },
+            {
+              "name": "Loperamide",
+              "registryNumber": "6X9OC3H4II"
+            },
+            {
+              "name": "Acetic Acid",
+              "registryNumber": "Q40Q9N063P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00210-025-03860-2"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "PPR",
+              "id": "PPR944866",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-07-17",
+        "dateOfCreation": "2025-02-08",
+        "dateOfRevision": "2026-06-17",
+        "electronicPublicationDate": "2025-02-08",
+        "firstPublicationDate": "2025-02-08",
+        "firstIndexDate": "2025-02-09",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "IND608009763",
+        "source": "AGR",
+        "doi": "10.1016/j.fbp.2023.01.010",
+        "title": "Biosynthesis of silver nanoparticles of Tribulus terrestris food supplement and evaluated antioxidant activity and collagenase, elastase and tyrosinase enzyme inhibition: In vitro and in silico approaches",
+        "authorString": "Figueiredo CCM, da Costa Gomes A, Zibordi LC, Granero FO, Ximenes VF, Pavan NM, Silva LP, Sonvesso CdSM, Job AE, Nicolau-Junior N, Silva RMGd.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Figueiredo CCM",
+              "lastName": "Figueiredo",
+              "firstName": "Célia Cristina Malaguti",
+              "initials": "CCM"
+            },
+            {
+              "fullName": "da Costa Gomes A",
+              "lastName": "da Costa Gomes",
+              "firstName": "Amanda",
+              "initials": "A"
+            },
+            {
+              "fullName": "Zibordi LC",
+              "lastName": "Zibordi",
+              "firstName": "Laura Camargo",
+              "initials": "LC"
+            },
+            {
+              "fullName": "Granero FO",
+              "lastName": "Granero",
+              "firstName": "Filipe Oliveira",
+              "initials": "FO"
+            },
+            {
+              "fullName": "Ximenes VF",
+              "lastName": "Ximenes",
+              "firstName": "Valdecir Farias",
+              "initials": "VF"
+            },
+            {
+              "fullName": "Pavan NM",
+              "lastName": "Pavan",
+              "firstName": "Nathalia Mariana",
+              "initials": "NM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9986-9512"
+              }
+            },
+            {
+              "fullName": "Silva LP",
+              "lastName": "Silva",
+              "firstName": "Luciana Pereira",
+              "initials": "LP"
+            },
+            {
+              "fullName": "Sonvesso CdSM",
+              "lastName": "Sonvesso",
+              "firstName": "Cibely da Silva Martin",
+              "initials": "CdSM"
+            },
+            {
+              "fullName": "Job AE",
+              "lastName": "Job",
+              "firstName": "Aldo Eloizo",
+              "initials": "AE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1979-8257"
+              }
+            },
+            {
+              "fullName": "Nicolau-Junior N",
+              "lastName": "Nicolau-Junior",
+              "firstName": "Nilson",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7148-5813"
+              }
+            },
+            {
+              "fullName": "Silva RMGd",
+              "lastName": "Silva",
+              "firstName": "Regildo Márcio Gonçalves da",
+              "initials": "RMGd"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9986-9512"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0300-0247"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0914-2094"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1717-4512"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1979-8257"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2803-4267"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7148-5813"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "138",
+          "journalIssueId": 3587184,
+          "dateOfPublication": "2023 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Food and bioproducts processing : transactions of the Institution of Chemical Engineers, Part C.",
+            "title": "Food and Bioproducts Processing.",
+            "issn": "0960-3085"
+          },
+          "printPublicationDate": "2023-03-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "150-161",
+        "abstractText": "Food supplements from plants are source of many antioxidant substances. Tribulus terrestris food supplement (TtFS) is highlighted as one of these supplements that has presented potential to prevent damages and diseases caused by oxidative stress. In addition, new formulations that enhance the benefits of food supplement have been developed and metallic nanoparticles, the so-called green synthesis, has been of great interest. UV–visible spectroscopy, energy dispersive spectroscopy (EDS), Zeta potential (ZP), scanning transmission electron microscopy (STEM), scanning electron microscope (SEM) were used to characterize the synthesized silver nanoparticles (AgNPs). Antioxidant activity was determined by DPPH radical scavenging, ferric ion reducing power (FRAP); ABTS radical scavenging, and oxygen radical absorption capacity (ORAC-FL). Molecular docking analyses were performed to evaluate molecular interactions. Antioxidant evaluation of TtFS demonstrated 83.6% antioxidant activity (DPPH), 714.82 μM Trolox Equivalent (TE)/g sample (FRAP), 91.24 μM TE/g sample (ABTS), and antioxidant activity in ORAC assay. It presented inhibition activity on collagenase (75.33%), elastase (54.04%) and tyrosinase (59.07%). In addition, in silico assays showed an interaction between T. terrestris steroidal saponins and DNA, and the highest DNA binding affinity was observed with protodioscin. Steroidal saponins also presented interaction with all enzymes evaluated. The characterization of AgNPs demonstrated that they were formed as a spherical shape. These AgNPs showed greater protective properties against oxidative stress (85.41% antioxidant activity (DPPH) and 957.55 μM TE/g sample (FRAP)). The results represent an important indicator for the development and discovery of new nanoestructured pharmaceutical and cosmetic formulation using plants and natural products.",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Fundação de Amparo à Pesquisa do Estado de São Paulo",
+              "grantId": "2015/17893–3",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.fbp.2023.01.010"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-07-12",
+        "dateOfCreation": "2023-07-12",
+        "dateOfRevision": "2023-07-15",
+        "firstPublicationDate": "2023-03-01",
+        "firstIndexDate": "2023-06-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26703445",
+        "source": "MED",
+        "pmid": "26703445",
+        "pmcid": "PMC4921743",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4921743"
+          ]
+        },
+        "doi": "10.1016/j.steroids.2015.12.009",
+        "title": "A new quantitation method of protodioscin by HPLC-ESI-MS/MS in rat plasma and its application to the pharmacokinetic study.",
+        "authorString": "Zhang X, Guo Z, Li J, Ito Y, Sun W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "Xinxin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Xi'an Jiaotong Univeristy, Xi'an 710061, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo Z",
+              "lastName": "Guo",
+              "firstName": "Zengjun",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Xi'an Jiaotong Univeristy, Xi'an 710061, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedicine Key Laboratory of Shaanxi Province, Northwest University, Xi'an 710069, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ito Y",
+              "lastName": "Ito",
+              "firstName": "Yoichiro",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Bioseparation Technology, Biochemistry and Biophysics Center, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, Maryland, USA. Electronic address: itoy@nhlbi.nih.gov."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun W",
+              "lastName": "Sun",
+              "firstName": "Wenji",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedicine Key Laboratory of Shaanxi Province, Northwest University, Xi'an 710069, China. Electronic address: swj@nwu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "106",
+          "journalIssueId": 2373934,
+          "dateOfPublication": "2016 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Steroids",
+            "title": "Steroids",
+            "essn": "1878-5867",
+            "issn": "0039-128X",
+            "isoabbreviation": "Steroids",
+            "nlmid": "0404536"
+          },
+          "printPublicationDate": "2016-02-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "62-69",
+        "abstractText": "A specific high performance liquid chromatography tandem mass spectrometry (HPLC-MS/MS method) was established for determining the concentration of protodioscin (PG) in rat plasma after intragastric administration of its standard form. Ginsenoside Rb1 was selected as the internal standard (IS). The plasma sample was prepared using one-step deproteinization procedure by adding three parts of acetonitrile to precipitate proteins. The chromatographic separation was accomplished on an Inersil ODS-3 C18 column (250 × 4.6 mm, 5 μm) with a mobile phase composed with acetonitrile and water containing 0.1% formic acid under a gradient elution mode at a flow rate of 1 mL min(-1). A 3:1 portion of the eluent after a microsplit was detected on a triple quadrupole tandem mass spectrometer coupled with electrospray ionization (ESI) in positive ion and multiple reaction monitoring (MRM) scanning modes. The mass transitions were selected as 888.1 → 1050.2 for PG and 948.2 → 1110.3 for IS, respectively. After careful validation, the plasma samples were always stable under different storage conditions. These analytical results rendered sensitive, selective, and reliable values by this established method which displayed high accuracy, adequate extracted recoveries, and almost negligible matrix effects. This method was applied to the pharmacokinetic studies on PG level in the rat plasma and its pharmacokinetic effect. The results of our studies suggest that the present method may be a useful tool for further clinical study of PG.",
+        "affiliation": "College of Pharmacy, Xi'an Jiaotong Univeristy, Xi'an 710061, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 HL999999",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosgenin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saponins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IP",
+                    "qualifierName": "isolation & purification"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Chemical Analysis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calibration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrometry, Mass, Electrospray Ionization",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Rat Plasma",
+            "Hplc–ms/ms",
+            "Protodioscin",
+            "Ginsenoside Rb(1)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Saponins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Diosgenin",
+              "registryNumber": "K49P2K8WLX"
+            },
+            {
+              "name": "protodioscin",
+              "registryNumber": "D0LC3PH24P"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.steroids.2015.12.009"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4921743"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4921743?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.steroids.2015.12.009"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS796368",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-12-13",
+        "dateOfCreation": "2015-12-26",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2015-12-17",
+        "firstPublicationDate": "2015-12-17",
+        "firstIndexDate": "2015-12-26",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33793831",
+        "source": "MED",
+        "pmid": "33793831",
+        "doi": "10.1093/jpp/rgaa038",
+        "title": "Steroidal saponins from Trillium govanianum as α-amylase, α-glucosidase, and dipeptidyl peptidase IV inhibitory agents.",
+        "authorString": "Suresh PS, Singh PP, Padwad YS, Sharma U.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Suresh PS",
+              "lastName": "Suresh",
+              "firstName": "Patil Shivprasad",
+              "initials": "PS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemical Technology Division, CSIR-IHBT, Palampur, India."
+                  },
+                  {
+                    "affiliation": "Food and Nutraceuticals Division, CSIR-IHBT, Palampur, India."
+                  },
+                  {
+                    "affiliation": "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, U.P., India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh PP",
+              "lastName": "Singh",
+              "firstName": "Prithvi Pal",
+              "initials": "PP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemical Technology Division, CSIR-IHBT, Palampur, India."
+                  },
+                  {
+                    "affiliation": "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, U.P., India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Padwad YS",
+              "lastName": "Padwad",
+              "firstName": "Yogendra S",
+              "initials": "YS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1793-9340"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food and Nutraceuticals Division, CSIR-IHBT, Palampur, India."
+                  },
+                  {
+                    "affiliation": "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, U.P., India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sharma U",
+              "lastName": "Sharma",
+              "firstName": "Upendra",
+              "initials": "U",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7693-8690"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Chemical Technology Division, CSIR-IHBT, Palampur, India."
+                  },
+                  {
+                    "affiliation": "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, U.P., India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5935-1786"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7693-8690"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1793-9340"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "73",
+          "journalIssueId": 3143498,
+          "dateOfPublication": "2021 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "J Pharm Pharmacol",
+            "title": "The Journal of pharmacy and pharmacology",
+            "essn": "2042-7158",
+            "issn": "0022-3573",
+            "isoabbreviation": "J Pharm Pharmacol",
+            "nlmid": "0376363"
+          },
+          "printPublicationDate": "2021-03-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "487-495",
+        "abstractText": "<h4>Objective</h4>To provide the scientific basis for the utility of rhizome of Trillium govanianum as nutraceutical supplements in managing physiological glycemic levels.<h4>Methods</h4>The in vitro enzyme inhibitory activity of the extract, fractions, and the isolated steroidal saponins from the rhizome part of T. govanianum was carried out against α-amylase, α-glucosidase, and dipeptidyl peptidase IV. The molecular interactions, binding score, and pharmacokinetic parameters (absorption, distribution metabolism, and excretion) of steroidal saponins were analyzed by the Schrodinger molecular docking software.<h4>Key findings</h4>Current study explained that the extract, fractions, and isolated steroidal saponins from T. govanianum possess good α-amylase and α-glucosidase inhibitory activity while moderate dipeptidyl peptidase IV inhibitory activity. Moreover, in vitro results revealed that borassoside E (IC50 7.15 ± 1.78 μM), protodioscin (IC50 6.72 ± 0.04 μM), and diosgenin (IC50 12.75 ± 2.70 μM) are most effective in inhibiting the activity of α-amylase, α-glucosidase, and dipeptidyl peptidase IV, respectively. Current in silico and in vitro studies established an association between the steroidal saponins from T. govanianum and their molecular interactions with α-amylase, α-glucosidase, and dipeptidyl peptidase IV.<h4>Conclusion</h4>The results of this investigation suggest that fractions and steroidal saponins from T. govanianum exhibit good antidiabetic activity which could be used as nutraceutical supplements for the management of systemic glucose level.",
+        "affiliation": "Chemical Technology Division, CSIR-IHBT, Palampur, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trillium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhizome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "alpha-Glucosidases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saponins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypoglycemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dipeptidyl-Peptidase IV Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "alpha-Amylases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Discovery"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dipeptidyl Peptidase 4",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycoside Hydrolase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular docking",
+            "α-amylase",
+            "Steroidal saponins",
+            "Α-glucosidase",
+            "Dpp-iv",
+            "Trillium Govanianum"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Saponins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha-Glucosidases",
+              "registryNumber": "EC 3.2.1.20"
+            },
+            {
+              "name": "Dipeptidyl-Peptidase IV Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha-Amylases",
+              "registryNumber": "EC 3.2.1.1"
+            },
+            {
+              "name": "Dipeptidyl Peptidase 4",
+              "registryNumber": "EC 3.4.14.5"
+            },
+            {
+              "name": "Glycoside Hydrolase Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://academic.oup.com/jpp/article-pdf/73/4/487/36516540/rgaa038.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jpp/rgaa038"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-11-08",
+        "dateOfCreation": "2021-04-01",
+        "dateOfRevision": "2021-11-08",
+        "firstPublicationDate": "2021-03-01",
+        "firstIndexDate": "2021-04-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26882690",
+        "source": "MED",
+        "pmid": "26882690",
+        "doi": "10.1177/1934578x1501001237",
+        "title": "A Rapid Study of Botanical Drug-Drug Interaction with Protein by Re-ligand Fishing using Human Serum Albumin-Functionalized Magnetic Nanoparticles.",
+        "authorString": "Qing LS, Xue Y, Ding LS, Liu YM, Liang J, Liao X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Qing LS",
+              "lastName": "Qing",
+              "firstName": "Lin-Sen",
+              "initials": "LS"
+            },
+            {
+              "fullName": "Xue Y",
+              "lastName": "Xue",
+              "firstName": "Ying",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Ding LS",
+              "lastName": "Ding",
+              "firstName": "Li-Sheng",
+              "initials": "LS"
+            },
+            {
+              "fullName": "Liu YM",
+              "lastName": "Liu",
+              "firstName": "Yi-Ming",
+              "initials": "YM"
+            },
+            {
+              "fullName": "Liang J",
+              "lastName": "Liang",
+              "firstName": "Jian",
+              "initials": "J"
+            },
+            {
+              "fullName": "Liao X",
+              "lastName": "Liao",
+              "firstName": "Xun",
+              "initials": "X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "10",
+          "journalIssueId": 2375851,
+          "dateOfPublication": "2015 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Nat Prod Commun",
+            "title": "Natural product communications",
+            "essn": "1555-9475",
+            "issn": "1934-578X",
+            "isoabbreviation": "Nat Prod Commun",
+            "nlmid": "101477873"
+          },
+          "printPublicationDate": "2015-12-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "2161-2163",
+        "abstractText": "A great many active constituents of botanical drugs bind to human serum albumin (HSA) reversibly with a dynamic balance between the free- and bound-forms in blood. The curative or side effect of a drug depends on its free-form level, which is always influenced by other drugs, combined dosed or multi-constituents of botanical drugs. This paper presented a rapid and convenient methodology to investigate the drug-drug interactions with HSA. The interaction of two steroidal saponins, dioscin and pseudo-protodioscin, from a botanical drug was studied for their equilibrium time and equilibrium amount by re-ligand fishing using HSA functionalized magnetic nanoparticles. A clear competitive situation was obtained by this method. The equilibrium was reached soon about 15 s at a ratio of 0.44: 1. Furthermore, the interaction of pseudo-protodioscin to total steroidal saponins from DAXXK was also studied. The operation procedures of this method were faster and more convenient compared with other methods reported.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosgenin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serum Albumin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Binding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Magnetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metal Nanoparticles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Serum Albumin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Diosgenin",
+              "registryNumber": "K49P2K8WLX"
+            },
+            {
+              "name": "dioscin",
+              "registryNumber": "3B95U4OLWV"
+            },
+            {
+              "name": "pseudo-protodioscin",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.1177/1934578x1501001237"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-04-04",
+        "dateOfCreation": "2016-02-18",
+        "dateOfRevision": "2016-02-17",
+        "firstPublicationDate": "2015-12-01",
+        "firstIndexDate": "2016-02-19",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25210320",
+        "source": "MED",
+        "pmid": "25210320",
+        "pmcid": "PMC4159926",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4159926"
+          ]
+        },
+        "doi": "10.4103/0973-1296.137373",
+        "title": "Methyl protodioscin induces G2/M cell cycle arrest and apoptosis in A549 human lung cancer cells.",
+        "authorString": "Bai Y, Qu XY, Yin JQ, Wu L, Jiang H, Long HW, Jia Q.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bai Y",
+              "lastName": "Bai",
+              "firstName": "Yang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangzhou Institute of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qu XY",
+              "lastName": "Qu",
+              "firstName": "Xiao-Yuan",
+              "initials": "XY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biology, Guizhou Academy of Sciences, Guiyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yin JQ",
+              "lastName": "Yin",
+              "firstName": "Jun-Qiang",
+              "initials": "JQ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu L",
+              "lastName": "Wu",
+              "firstName": "Liangcai",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "First Affiliated Hospital of Sun Yat-Sen University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang H",
+              "lastName": "Jiang",
+              "firstName": "Hong",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biology, Guizhou Academy of Sciences, Guiyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Long HW",
+              "lastName": "Long",
+              "firstName": "Han-Wu",
+              "initials": "HW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biology, Guizhou Academy of Sciences, Guiyang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jia Q",
+              "lastName": "Jia",
+              "firstName": "Qiang",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biology, Guizhou Academy of Sciences, Guiyang, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "39",
+          "volume": "10",
+          "journalIssueId": 2200698,
+          "dateOfPublication": "2014 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Pharmacogn Mag",
+            "title": "Pharmacognosy magazine",
+            "essn": "0976-4062",
+            "issn": "0973-1296",
+            "isoabbreviation": "Pharmacogn Mag",
+            "nlmid": "101300403"
+          },
+          "printPublicationDate": "2014-07-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "318-324",
+        "abstractText": "<h4>Background</h4>Methyl protodioscin (MPD) is a furostanol bisglycoside with antitumor properties. It has been shown to reduce proliferation, cause cell cycle arrest.<h4>Objective</h4>The present study elucidates the mechanism underlying MPD's apoptotic effects, using the A549 human lung cancer cell line.<h4>Materials and methods</h4>The human pulmonary adenocarcinoma cell line A549 was obtained from the Cell Bank of the Animal Experiment Center, North School Region, Sun Yat-Sen University. All of the cells were grown in RPMI 1640 supplemented with 10% fetal calf serum (Hyclone, Logan, UT, USA), penicillin (10,000 U/l), and streptomycin (100 mg/l) at 37°C in a 5% CO2 humidified atmosphere. The induction of apoptosis was observed in flow cytometry and fluorescent staining experiments.<h4>Results</h4>MPD showed growth inhibitory effects in A549 cells in a dose- and time-dependent manner. The significant G2/M cell cycle arrest and apoptotic effect were also seen in A549 cells treated with MPD. MPD-induced apoptosis was accompanied by a significant reduction of mitochondrial membrane potential, release of mitochondrial cytochrome c to cytosol, activation of caspase-3, downregulation of Bcl-2, p-Bad, and upregulation of Bax.<h4>Conclusion</h4>Our results show that the induction of apoptosis by MPD involves multiple molecular pathways and strongly suggest that Bcl-2 family proteins signaling pathways. In addition, mitochondrial membrane potential, mitochondrial cytochrome c and caspase-3 were also closely associated with MPD-induced apoptotic process in human A549 cells.",
+        "affiliation": "Guangzhou Institute of Biomedicine and Health, Chinese Academy of Sciences, Guangzhou, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Apoptosis",
+            "A549",
+            "Bcl-2 family",
+            "Methyl Protodioscin"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.4103/0973-1296.137373"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4159926"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4159926?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by-nc-sa",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2014-09-11",
+        "dateOfCreation": "2014-09-12",
+        "dateOfRevision": "2021-10-21",
+        "firstPublicationDate": "2014-07-01",
+        "firstIndexDate": "2014-09-13",
+        "fullTextReceivedDate": "2020-07-12",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25201262",
+        "source": "MED",
+        "pmid": "25201262",
+        "pmcid": "PMC4297735",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4297735"
+          ]
+        },
+        "doi": "10.1016/j.steroids.2014.08.023",
+        "title": "Simultaneous quantification of five steroid saponins from Dioscorea zingiberensis C.H. Wright in rat plasma by HPLC-MS/MS and its application to the pharmacokinetic studies.",
+        "authorString": "Zhang X, Li J, Ito Y, Sun W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "Xinxin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedicine Key Laboratory of Shaanxi Province, Northwest University, Xi'an 710069, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedicine Key Laboratory of Shaanxi Province, Northwest University, Xi'an 710069, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ito Y",
+              "lastName": "Ito",
+              "firstName": "Yoichiro",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Bioseparation Technology, Biochemistry and Biophysics Center, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA. Electronic address: itoy@nhlbi.nih.gov."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun W",
+              "lastName": "Sun",
+              "firstName": "Wenji",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedicine Key Laboratory of Shaanxi Province, Northwest University, Xi'an 710069, China. Electronic address: guoxiaolizhang@163.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "93",
+          "journalIssueId": 2244585,
+          "dateOfPublication": "2015 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Steroids",
+            "title": "Steroids",
+            "essn": "1878-5867",
+            "issn": "0039-128X",
+            "isoabbreviation": "Steroids",
+            "nlmid": "0404536"
+          },
+          "printPublicationDate": "2015-01-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "16-24",
+        "abstractText": "A simple, reliable and sensitive high-performance liquid chromatography tandem mass spectrometry method (HPLC-MS/MS) was established for simultaneous analyses of the following 5 steroid saponins in rat plasma after the single dose administration of total steroid saponins extracted from the rhizome of Dioscorea zingiberensis C.H. Wright for the first time. Protodioscin, huangjiangsu A, zingiberensis new saponin, dioscin, and gracillin were quantified using ginsenoside Rb1 as the internal standard (IS). The plasma samples were pretreated by a single step acetonitrile-mediated protein precipitation. The chromatographic separation was performed on an Inersil ODS-3 C18 column (250mm×4.6mm, 5μm) with the mobile phase composed of acetonitrile and water containing 0.1% formic acid under a gradient elution mode at 0.2mLmin(-1) using a microsplit after the eluent from the HPLC apparatus. The quantification was accomplished on a triple quadrupole tandem mass spectrometer using the multiple reaction monitoring (MRM) in the positive ionization mode. The above five analytes were stable under sample storage and preparation conditions applied in the present study. The linearity, precision, accuracy, and recoveries of the analysis confirmed the requirements for quality-control purposes. After validation, this proposed method was successfully adopted to investigate the pharmacokinetic parameters of these five analytes.",
+        "affiliation": "Biomedicine Key Laboratory of Shaanxi Province, Northwest University, Xi'an 710069, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Intramural NIH HHS",
+              "acronym": "ImNIH",
+              "grantId": "Z99 HL999999",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioscorea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhizome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saponins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drugs, Chinese Herbal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Chemical Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Distribution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Dioscorea zingiberensis C.H. Wright",
+            "pharmacokinetic parameters",
+            "Mrm",
+            "Hplc–ms/ms",
+            "Total Steroid Saponins"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Saponins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drugs, Chinese Herbal",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.steroids.2014.08.023"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4297735"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4297735?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.steroids.2014.08.023"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS625559",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-09-30",
+        "dateOfCreation": "2014-09-10",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2014-09-06",
+        "firstPublicationDate": "2014-09-06",
+        "firstIndexDate": "2014-09-10",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "18004744",
+        "source": "MED",
+        "pmid": "18004744",
+        "doi": "10.1002/bmc.948",
+        "title": "Development and validation of a liquid chromatography/tandem mass spectrometry assay for the quantification of methyl protodioscin in rat plasma: application to a pharmacokinetic study.",
+        "authorString": "Cao X, Yao Z, Chen H, Dai Y, Sun P, Ye W, Yao X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cao X",
+              "lastName": "Cao",
+              "firstName": "Xiuzhen",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Natural Products Chemistry, Shenyang Pharmaceutical University, Wenhua-Road 103, Shenyang 110016, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao Z",
+              "lastName": "Yao",
+              "firstName": "Zhihong",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Chen H",
+              "lastName": "Chen",
+              "firstName": "Haifeng",
+              "initials": "H"
+            },
+            {
+              "fullName": "Dai Y",
+              "lastName": "Dai",
+              "firstName": "Yi",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Sun P",
+              "lastName": "Sun",
+              "firstName": "Pinghua",
+              "initials": "P"
+            },
+            {
+              "fullName": "Ye W",
+              "lastName": "Ye",
+              "firstName": "Wencai",
+              "initials": "W"
+            },
+            {
+              "fullName": "Yao X",
+              "lastName": "Yao",
+              "firstName": "Xinsheng",
+              "initials": "X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "22",
+          "journalIssueId": 1516287,
+          "dateOfPublication": "2008 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Biomed Chromatogr",
+            "title": "Biomedical chromatography : BMC",
+            "essn": "1099-0801",
+            "issn": "0269-3879",
+            "isoabbreviation": "Biomed Chromatogr",
+            "nlmid": "8610241"
+          },
+          "printPublicationDate": "2008-04-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "408-413",
+        "abstractText": "A high performance liquid chromatography/tandem mass spectrometry assay was first developed and validated for the quantification of methyl protodioscin (MPD), a natural furostanol saponin with distinct antitumor activity, in rat plasma with 17alpha-ethinylestradiol as internal standard (IS). Methanol-mediated protein precipitation was employed for plasma sample pretreatment. The separation was achieved on a C(18) column (150 x 4.6 mm, i.d., 5 microm) by isocratic elution with methanol-water (72:28, v/v) as mobile phase at a flow rate of 1.0 mL/min. Ion acquisition was performed in selective reaction monitoring positive mode by monitoring the transition of m/z 1085.7 --> 1053.7 for MPD, and in selective ion monitoring negative mode by monitoring the deprotonated ion m/z 295.5 for IS. The assay was linear over the concentration range of 2.024-270.0 microg/mL with 2.024 microg/mL as the lower limit of quantification. It was specific, accurate, precise and reproducible with intra- and inter-run RSD <8.3% and RE between -11.5 and 12.8%. The assay was successfully applied to a preclinical pharmacokinetic study after an intravenous dose of 40 mg/kg MPD to rats.",
+        "affiliation": "Department of Natural Products Chemistry, Shenyang Pharmaceutical University, Wenhua-Road 103, Shenyang 110016, People's Republic of China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diosgenin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Saponins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Evaluation, Preclinical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tandem Mass Spectrometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Saponins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Diosgenin",
+              "registryNumber": "K49P2K8WLX"
+            },
+            {
+              "name": "methyl protodioscin",
+              "registryNumber": "1VJB6VV6IA"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/bmc.948"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-06-30",
+        "dateOfCreation": "2007-11-16",
+        "dateOfRevision": "2018-07-12",
+        "firstPublicationDate": "2008-04-01",
+        "firstIndexDate": "2008-07-01",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

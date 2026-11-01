@@ -1,0 +1,3 @@
+﻿Test_ID,Target_Release,Expected,Actual,Status,Severity_if_failed,Affected_Records,Diagnostic
+RP-01,V11,Build script uses release-relative paths and captured inputs; no network required,Script resolves adjacent V10 and accepts explicit V11 destination; standard library only,PASS,High,build_v11.py,Independent execution from temporary clean folder completed.
+RP-02,V11,Clean-copy rebuild regenerates identical primary CSV/summary outputs and validator passes,12/12 byte-identical; clean validator 43/43 passed,PASS,Critical,12 core V11 outputs,See audit/v11_clean_rebuild_comparison.csv; clean-copy test files were removed after checks.

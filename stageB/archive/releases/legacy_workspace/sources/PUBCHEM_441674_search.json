@@ -1,0 +1,1436 @@
+{
+  "version": "6.9",
+  "hitCount": 4,
+  "request": {
+    "queryString": "TITLE_ABS:\"Cyanidin-3-O-rutinoside\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40330338",
+        "source": "MED",
+        "pmid": "40330338",
+        "pmcid": "PMC12055241",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12055241"
+          ]
+        },
+        "doi": "10.7759/cureus.81807",
+        "title": "Nutraceuticals Targeting Cannabinoid Receptor 1 and Transient Receptor Potential Vanilloid 1 for Pain Relief: A Computational Screening Approach.",
+        "authorString": "Hasan T, Mohammadi M, Jabbari A, Flaifel HA, Mirzaei H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hasan T",
+              "lastName": "Hasan",
+              "firstName": "Tahseen",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesiology, Ischemic Disorders Research Center, Golestan University of Medical Sciences, Gorgan, IRN."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mohammadi M",
+              "lastName": "Mohammadi",
+              "firstName": "Mostafa",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesiology and Intensive Care, Imam Khomeini Hospital Complex, Tehran University of Medical Sciences, Tehran, IRN."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jabbari A",
+              "lastName": "Jabbari",
+              "firstName": "Ali",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesiology and Critical Care Medicine, Ischemic Disorders Research Center, Golestan University of Medical Sciences, Gorgan, IRN."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Flaifel HA",
+              "lastName": "Flaifel",
+              "firstName": "Hamed A",
+              "initials": "HA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesia Techniques, Al-Farqadin University College, Basra, IRQ."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mirzaei H",
+              "lastName": "Mirzaei",
+              "firstName": "Hassan",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Integrative or Complementary Medicine, Ischemic Disorders Research Center, Golestan University of Medical Sciences, Gorgan, IRN."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "17",
+          "journalIssueId": 3923659,
+          "dateOfPublication": "2025 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Cureus",
+            "title": "Cureus",
+            "essn": "2168-8184",
+            "issn": "2168-8184",
+            "isoabbreviation": "Cureus",
+            "nlmid": "101596737"
+          },
+          "printPublicationDate": "2025-04-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e81807",
+        "abstractText": "<h4>Objective</h4>This study examined the binding affinities and therapeutic potential of natural products targeting pain-related receptors using molecular docking and molecular dynamics (MD) simulations. Drug-like properties and absorption, distribution, metabolism, excretion, and toxicity (ADMET) analyses were also conducted.<h4>Methods</h4>AutoDock Vina (The Scripps Research Institute, La Jolla, CA, USA) was used for docking against pain-related receptors, including transient receptor potential vanilloid 1 (TRPV1), cyclooxygenase-2 (COX-2), cannabinoid receptor 1 (CB1), mu-opioid receptor, and nicotinic acetylcholine receptors. Celecoxib was included as a reference drug for docking score comparison. Protein-ligand complex stability was assessed via 100-nanosecond (ns) MD simulations using GROMACS (GROningen MAchine for Chemical Simulations; the University of Groningen, Netherlands), analyzing root mean square deviation (RMSD) and radius of gyration (Rg). Drug-likeness was evaluated by Lipinski's rule of five, and ADMET analysis was performed for pharmacokinetics and toxicity profiling.<h4>Results</h4>Ginsenoside Rb1 exhibited a strong affinity for TRPV1 (-9.5 kcal/mol) and mu-opioid (-9.0 kcal/mol) receptors, suggesting its potential as a non-opioid analgesic candidate. Cyanidin 3-O-rutinoside demonstrated high binding to TRPV1 (-9.35 kcal/mol), COX-2 (-9.65 kcal/mol), and CB1 (-9.18 kcal/mol), surpassing the reference drug celecoxib (-7.22 kcal/mol) in COX-2 binding. MD simulations confirmed complex stability, with RMSD (~3.0 Å) and Rg (~3.0 nm) values lower than unbound proteins. Most compounds met Lipinski's criteria, indicating good oral bioavailability. ADMET analysis revealed favorable absorption and distribution with low toxicity.<h4>Conclusion</h4>Ginsenoside Rb1 and cyanidin 3-O-rutinoside exhibit high binding affinity, stability, and favorable pharmacokinetic properties, supporting their potential as non-opioid analgesic candidates. Their ability to modulate pain pathways in vitro and in vivo warrants further investigation.",
+        "affiliation": "Department of Anesthesiology, Ischemic Disorders Research Center, Golestan University of Medical Sciences, Gorgan, IRN.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular dynamics simulation",
+            "Molecular docking",
+            "TRPV1",
+            "Admet",
+            "Mu-opioid Receptor",
+            "Natural Compounds",
+            "Drug-likeness"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7759/cureus.81807"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12055241"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12055241?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2025-05-07",
+        "dateOfRevision": "2025-05-09",
+        "electronicPublicationDate": "2025-04-06",
+        "firstPublicationDate": "2025-04-06",
+        "firstIndexDate": "2025-05-07",
+        "fullTextReceivedDate": "2025-11-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "34940988",
+        "source": "MED",
+        "pmid": "34940988",
+        "doi": "10.1111/1750-3841.16001",
+        "title": "Sweet cherry phenolics revealed to be promising agents in inhibiting P-glycoprotein activity and increasing cellular viability under oxidative stress conditions: in vitro and in silico study.",
+        "authorString": "Gonçalves AC, Rodrigues M, Flores-Félix JD, Campos G, Nunes AR, Ribeiro AB, Silva LR, Alves G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gonçalves AC",
+              "lastName": "Gonçalves",
+              "firstName": "Ana C",
+              "initials": "AC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7795-795X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rodrigues M",
+              "lastName": "Rodrigues",
+              "firstName": "Márcio",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7010-0619"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal."
+                  },
+                  {
+                    "affiliation": "UDI-IPG - Unidade de Investigação para o Desenvolvimento do Interior, Instituto Politécnico da Guarda, Guarda, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Flores-Félix JD",
+              "lastName": "Flores-Félix",
+              "firstName": "José David",
+              "initials": "JD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2200-4400"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Campos G",
+              "lastName": "Campos",
+              "firstName": "Gonçalo",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nunes AR",
+              "lastName": "Nunes",
+              "firstName": "Ana R",
+              "initials": "AR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6847-5764"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ribeiro AB",
+              "lastName": "Ribeiro",
+              "firstName": "Alessandra Braga",
+              "initials": "AB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3822-8601"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Católica Portuguesa, CBQF - Centro de Biotecnologia e Química Fina - Laboratório Associado, Escola Superior de Biotecnologia, Porto, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Silva LR",
+              "lastName": "Silva",
+              "firstName": "Luís R",
+              "initials": "LR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5264-3516"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal."
+                  },
+                  {
+                    "affiliation": "UDI-IPG - Unidade de Investigação para o Desenvolvimento do Interior, Instituto Politécnico da Guarda, Guarda, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alves G",
+              "lastName": "Alves",
+              "firstName": "Gilberto",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4213-0714"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5264-3516"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6847-5764"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7795-795X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3854-6549"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4213-0714"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7010-0619"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2200-4400"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3822-8601"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "87",
+          "journalIssueId": 3296033,
+          "dateOfPublication": "2022 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "J Food Sci",
+            "title": "Journal of food science",
+            "essn": "1750-3841",
+            "issn": "1750-3841",
+            "isoabbreviation": "J Food Sci",
+            "nlmid": "0014052"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "450-465",
+        "abstractText": "This study aimed to explore the total phenolic and anthocyanin content (TPC and TAC, respectively), and the biological potential of Portuguese sweet cherry cultivars. The TPC and TAC values ranged between 72.9 and 493.6 gallic acid equivalents per 100 g fresh weight (fw), and from 1.0 to 179.1 cyanidin 3-O-rutinoside equivalents per 100 g fw, respectively. Cristalina total extract was the most effective in capturing DPPH reactive species, whereas the colored fraction and the total extract of Saco cultivar were the most efficient in scavenging ferric and peroxide species. Celeste total extract was the most effective in inhibiting α-glucosidase enzyme. Phenolic-rich extracts and standard phenolics also revealed ability to interfere with the P-gp activity on MDCK-II and MDCK-MDR1 cells and to increase cellular viability under conditions of oxidative stress. Computational studies were performed to evaluate the interaction between phenolics and the P-gp activity. This study revealed that cherry extracts and their phenolic compounds present notable biological properties, encouraging the development of cherry-based dietary and medicinal supplements. PRACTICAL APPLICATION: The interest in phenolic-rich sources has increased significantly in recent years, given their capacity to prevent the development of chronic disorders, such as cancer. Recent evidence suggests that phenolic compounds can act as P-glycoprotein (P-gp) inhibitors, an important drug efflux transporter, preventing multidrug resistance, and thus, enhancing the therapeutic efficacy of some drugs in certain target cells. Our results indicate that enriched-fractions from sweet cherries can effectively interfere with the P-gp activity on MDCK-II and MDCK-MDR1 cells and protect against oxidative damage.",
+        "affiliation": "CICS-UBI - Health Sciences Research Centre, University of Beira Interior, Covilhã, Portugal.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Fundação para a Ciência e a Tecnologia",
+              "grantId": "2020.04947.BD (Ana C. Gonçalves)",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fundação para a Ciência e a Tecnologia",
+              "grantId": "SFRH/BD/139137/2018 (Ana R. Nunes)",
+              "orderIn": 0
+            },
+            {
+              "agency": "Marie Sklodowska-Curie",
+              "grantId": "101003373 (José D. Flores-Félix)",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Prunus avium"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Phenolic compounds",
+            "P-glycoprotein",
+            "Sweet cherry",
+            "Biological Potential"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily B",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/1750-3841.16001"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-01-19",
+        "dateOfCreation": "2021-12-23",
+        "dateOfRevision": "2022-01-19",
+        "electronicPublicationDate": "2021-12-23",
+        "firstPublicationDate": "2021-12-23",
+        "firstIndexDate": "2021-12-25",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21517858",
+        "source": "MED",
+        "pmid": "21517858",
+        "doi": "10.1111/j.1600-0765.2011.01372.x",
+        "title": "Inhibition of host- and bacteria-derived proteinases by natural anthocyanins.",
+        "authorString": "Santos J, La VD, Bergeron C, Grenier D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Santos J",
+              "lastName": "Santos",
+              "firstName": "J",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Groupe de Recherche en Ecologie Buccale, Faculté de Médecine Dentaire, Université Laval, Quebec City, QC, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "La VD",
+              "lastName": "La",
+              "firstName": "V D",
+              "initials": "VD"
+            },
+            {
+              "fullName": "Bergeron C",
+              "lastName": "Bergeron",
+              "firstName": "C",
+              "initials": "C"
+            },
+            {
+              "fullName": "Grenier D",
+              "lastName": "Grenier",
+              "firstName": "D",
+              "initials": "D"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "46",
+          "journalIssueId": 1858106,
+          "dateOfPublication": "2011 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "J Periodontal Res",
+            "title": "Journal of periodontal research",
+            "essn": "1600-0765",
+            "issn": "0022-3484",
+            "isoabbreviation": "J Periodontal Res",
+            "nlmid": "0055107"
+          },
+          "printPublicationDate": "2011-10-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "550-557",
+        "abstractText": "<h4>Background and objectives</h4>Host- and bacteria-derived proteinases are considered to play critical roles in periodontitis progression. This study investigated the ability of a blackcurrant extract and its major anthocyanins (cyanidin-3-O-glucoside, cyanidin-3-O-rutinoside and delphinidin-3-O-rutinoside) to inhibit the activity of matrix metalloproteinases (MMPs), neutrophil elastase and periodontopathogen (Porphyromonas gingivalis, Tannerella forsythia and Treponema denticola) proteinases.<h4>Material and methods</h4>Enzyme inhibition was detected using fluorometric and colorimetric assays after incubating blackcurrant extract and its major anthocyanins (at concentrations of 6.25, 12.5, 25 and 50 μg/mL) with MMPs, elastase or bacterial proteinases, along with their specific substrates. Substrate degradation was recorded every hour for up to 4 h.<h4>Results</h4>The blackcurrant extract (50 μg/mL) inhibited all proteinases tested. MMP-1 and MMP-9 were significantly inhibited by pure anthocyanins at concentrations ranging from 6.25 to 50 μg/mL. Elastase activity was inhibited by cyanidin-3-O-glucoside and cyanidin-3-O-rutinoside in the range of 6.25-50 μg/mL and by delphinidin-3-O-rutinoside at 50 μg/mL. P. gingivalis, T. forsythia and T. denticola proteinases were also significantly inhibited by pure anthocyanins. In all cases, enzyme inhibition was time-dependent.<h4>Conclusion</h4>Our study showed that a blackcurrant extract and its major anthocyanins were able to inhibit the activity of host- and bacteria-derived proteinases. This suggests that such natural compounds may represent promising agents for use in adjunctive treatments for periodontitis.",
+        "affiliation": "Groupe de Recherche en Ecologie Buccale, Faculté de Médecine Dentaire, Université Laval, Quebec City, QC, Canada.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacteroides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Porphyromonas gingivalis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treponema denticola",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ribes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leukocyte Elastase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacterial Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protease Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Matrix Metalloproteinase 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteolysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Matrix Metalloproteinase Inhibitors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "delphinidin-3-rutinoside",
+              "registryNumber": "15674-58-5"
+            },
+            {
+              "name": "cyanidin-3-O-beta-glucopyranoside",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protease Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Bacterial Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Leukocyte Elastase",
+              "registryNumber": "EC 3.4.21.37"
+            },
+            {
+              "name": "Matrix Metalloproteinase 1",
+              "registryNumber": "EC 3.4.24.7"
+            },
+            {
+              "name": "Matrix Metalloproteinase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cyanidin 3-rutinoside",
+              "registryNumber": "OR49FC491X"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1600-0765.2011.01372.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-12-20",
+        "dateOfCreation": "2011-04-27",
+        "dateOfRevision": "2021-01-12",
+        "electronicPublicationDate": "2011-04-21",
+        "firstPublicationDate": "2011-04-21",
+        "firstIndexDate": "2011-04-27",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25183255",
+        "source": "MED",
+        "pmid": "25183255",
+        "doi": "10.1007/s00425-014-2152-9",
+        "title": "Temporal and spatial regulation of anthocyanin biosynthesis provide diverse flower colour intensities and patterning in Cymbidium orchid.",
+        "authorString": "Wang L, Albert NW, Zhang H, Arathoon S, Boase MR, Ngo H, Schwinn KE, Davies KM, Lewis DH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang L",
+              "lastName": "Wang",
+              "firstName": "Lei",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The New Zealand Institute for Plant and Food Research Limited, Private Bag 11 600, Palmerston North, 4474, New Zealand."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Albert NW",
+              "lastName": "Albert",
+              "firstName": "Nick W",
+              "initials": "NW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8579-529X"
+              }
+            },
+            {
+              "fullName": "Zhang H",
+              "lastName": "Zhang",
+              "firstName": "Huaibi",
+              "initials": "H"
+            },
+            {
+              "fullName": "Arathoon S",
+              "lastName": "Arathoon",
+              "firstName": "Steve",
+              "initials": "S"
+            },
+            {
+              "fullName": "Boase MR",
+              "lastName": "Boase",
+              "firstName": "Murray R",
+              "initials": "MR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7747-670X"
+              }
+            },
+            {
+              "fullName": "Ngo H",
+              "lastName": "Ngo",
+              "firstName": "Hanh",
+              "initials": "H"
+            },
+            {
+              "fullName": "Schwinn KE",
+              "lastName": "Schwinn",
+              "firstName": "Kathy E",
+              "initials": "KE"
+            },
+            {
+              "fullName": "Davies KM",
+              "lastName": "Davies",
+              "firstName": "Kevin M",
+              "initials": "KM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5652-5015"
+              }
+            },
+            {
+              "fullName": "Lewis DH",
+              "lastName": "Lewis",
+              "firstName": "David H",
+              "initials": "DH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4912-1674"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5652-5015"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7747-670X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8579-529X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4912-1674"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "240",
+          "journalIssueId": 2212679,
+          "dateOfPublication": "2014 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Planta",
+            "title": "Planta",
+            "essn": "1432-2048",
+            "issn": "0032-0935",
+            "isoabbreviation": "Planta",
+            "nlmid": "1250576"
+          },
+          "printPublicationDate": "2014-11-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "983-1002",
+        "abstractText": "<h4>Main conclusion</h4>This study confirmed pigment profiles in different colour groups, isolated key anthocyanin biosynthetic genes and established a basis to examine the regulation of colour patterning in flowers of Cymbidium orchid. Cymbidium orchid (Cymbidium hybrida) has a range of flower colours, often classified into four colour groups; pink, white, yellow and green. In this study, the biochemical and molecular basis for the different colour types was investigated, and genes involved in flavonoid/anthocyanin synthesis were identified and characterised. Pigment analysis across selected cultivars confirmed cyanidin 3-O-rutinoside and peonidin 3-O-rutinoside as the major anthocyanins detected; the flavonols quercetin and kaempferol rutinoside and robinoside were also present in petal tissue. β-carotene was the major carotenoid in the yellow cultivars, whilst pheophytins were the major chlorophyll pigments in the green cultivars. Anthocyanin pigments were important across all eight cultivars because anthocyanin accumulated in the flower labellum, even if not in the other petals/sepals. Genes encoding the flavonoid biosynthetic pathway enzymes chalcone synthase, flavonol synthase, flavonoid 3' hydroxylase (F3'H), dihydroflavonol 4-reductase (DFR) and anthocyanidin synthase (ANS) were isolated from petal tissue of a Cymbidium cultivar. Expression of these flavonoid genes was monitored across flower bud development in each cultivar, confirming that DFR and ANS were only expressed in tissues where anthocyanin accumulated. Phylogenetic analysis suggested a cytochrome P450 sequence as that of the Cymbidium F3'H, consistent with the accumulation of di-hydroxylated anthocyanins and flavonols in flower tissue. A separate polyketide synthase, identified as a bibenzyl synthase, was isolated from petal tissue but was not associated with pigment accumulation. Our analyses show the diversity in flower colour of Cymbidium orchid derives not from different individual pigments but from subtle variations in concentration and pattern of pigment accumulation.",
+        "affiliation": "The New Zealand Institute for Plant and Food Research Limited, Private Bag 11 600, Palmerston North, 4474, New Zealand.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Orchidaceae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CL",
+                    "qualifierName": "classification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flowers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anthocyanins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kaempferols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quercetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CL",
+                    "qualifierName": "classification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidoreductases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CL",
+                    "qualifierName": "classification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alcohol Oxidoreductases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CL",
+                    "qualifierName": "classification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acyltransferases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CL",
+                    "qualifierName": "classification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CL",
+                    "qualifierName": "classification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pigmentation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Profiling"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phylogeny"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Species Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Color"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Biosynthetic Pathways"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "flavanone synthetase",
+              "registryNumber": "EC 2.3.1.74"
+            },
+            {
+              "name": "dihydroflavanol 4-reductase",
+              "registryNumber": "EC 1.1.1.-"
+            },
+            {
+              "name": "flavonol synthase",
+              "registryNumber": "EC 1.3.-"
+            },
+            {
+              "name": "anthocyanidin synthase",
+              "registryNumber": "EC 1.14.99.-"
+            },
+            {
+              "name": "Plant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Kaempferols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxygenases",
+              "registryNumber": "EC 1.13.-"
+            },
+            {
+              "name": "Oxidoreductases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "Alcohol Oxidoreductases",
+              "registryNumber": "EC 1.1.-"
+            },
+            {
+              "name": "Acyltransferases",
+              "registryNumber": "EC 2.3.-"
+            },
+            {
+              "name": "kaempferol",
+              "registryNumber": "731P2LE49E"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            },
+            {
+              "name": "Quercetin",
+              "registryNumber": "9IKM0I5T1E"
+            },
+            {
+              "name": "peonidin-3-rutinoside",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cyanidin 3-rutinoside",
+              "registryNumber": "OR49FC491X"
+            },
+            {
+              "name": "flavonoid 3'-hydroxylase",
+              "registryNumber": "EC 1.14.14.82"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00425-014-2152-9"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-12-08",
+        "dateOfCreation": "2014-09-04",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2014-09-03",
+        "firstPublicationDate": "2014-09-03",
+        "firstIndexDate": "2014-09-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2713 @@
+{
+  "version": "6.9",
+  "hitCount": 7,
+  "request": {
+    "queryString": "TITLE:\"Diallyl disulfide\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33500108",
+        "source": "MED",
+        "pmid": "33500108",
+        "doi": "10.1016/j.numecd.2020.08.012",
+        "title": "Diallyl disulfide improves lipid metabolism by inhibiting PCSK9 expression and increasing LDL uptake via PI3K/Akt-SREBP2 pathway in HepG2 cells.",
+        "authorString": "Wu YR, Li L, Sun XC, Wang J, Ma CY, Zhang Y, Qu HL, Xu RX, Li JJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu YR",
+              "lastName": "Wu",
+              "firstName": "Ya-Ru",
+              "initials": "YR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Cardiovascular Disease, National Center for Cardiovascular Disease, Fu Wai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li L",
+              "lastName": "Li",
+              "firstName": "Liang",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Surgical Intensive Care Unit, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun XC",
+              "lastName": "Sun",
+              "firstName": "Xian-Chang",
+              "initials": "XC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of CT, The Third Medical Center of Chinese PLA General Hospital, Beijing 100039, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tancheng Traditional Chinese Hospital, Tancheng 276100, Shandong Province, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma CY",
+              "lastName": "Ma",
+              "firstName": "Chun-Yan",
+              "initials": "CY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Cardiovascular Disease, National Center for Cardiovascular Disease, Fu Wai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yue",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Cardiovascular Disease, National Center for Cardiovascular Disease, Fu Wai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qu HL",
+              "lastName": "Qu",
+              "firstName": "Hui-Lin",
+              "initials": "HL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Cardiovascular Disease, National Center for Cardiovascular Disease, Fu Wai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu RX",
+              "lastName": "Xu",
+              "firstName": "Rui-Xia",
+              "initials": "RX",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Cardiovascular Disease, National Center for Cardiovascular Disease, Fu Wai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China. Electronic address: ruixiaxu@sina.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li JJ",
+              "lastName": "Li",
+              "firstName": "Jian-Jun",
+              "initials": "JJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Cardiovascular Disease, National Center for Cardiovascular Disease, Fu Wai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China. Electronic address: lijianjun@126.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "31",
+          "journalIssueId": 3098794,
+          "dateOfPublication": "2021 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Nutr Metab Cardiovasc Dis",
+            "title": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+            "essn": "1590-3729",
+            "issn": "0939-4753",
+            "nlmid": "9111474",
+            "isoabbreviation": "Nutr Metab Cardiovasc Dis"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "322-332",
+        "abstractText": "<h4>Background and aim</h4>Diallyl disulfide (DADS), a volatile sulfide extracted from garlic, has been suggested as a chemical of anti-atherosclerotic drugs, while its molecular mechanism for this benefit has not fully been understood. The aim of the present study was to investigate the effects of DADS on lipid metabolism and its potential mechanisms in HepG2 cells induced by lipopolysaccharides (LPS).<h4>Methods and results</h4>HepG2 cells were treated with LPS with or without different concentrations of DADS (0, 20, 40, 80, 160 μg/ml) for 24 h. The cell activity was detected by CCK8, and Dil-LDL uptake assay was used to examine the LDL uptake. Real-time PCR and Western blot were used to detect the expression of LDLR, PCSK9 SREBP2 and HMGCR. In addition, we examined the effect of the combination of DADS with atorvastatin on PCSK9 expression. The results showed that LPS significantly increased PCSK9 and SREBP2 expressions in a dose-dependent manner in HepG2 cells. DADS attenuated PCSK9, SREBP2 and HMGCR expressions and up-regulated the expression of LDLR. Moreover, DADS reversed the expressions of PCSK9, SREBP2, HMGCR and LDLR induced by LPS and DADS could promote the LDL uptake in HepG2 cells. Furthermore, DADS decreased the expression of PCSK9 by activating the PI3K/Akt-SREBP2 signal pathway. Notably, DADS could reduce PCSK9 expression induced by atorvastatin in HepG2 cells.<h4>Conclusion</h4>DADS could significantly attenuated PCSK9 expression in a dose-dependent manner induced by LPS and increased the LDLR expression in HepG2 cells, which was associated with the activation of PI3K/Akt-SREBP2 signaling pathway.",
+        "affiliation": "State Key Laboratory of Cardiovascular Disease, National Center for Cardiovascular Disease, Fu Wai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Peking Union Medical College",
+              "grantId": "3332018200",
+              "orderIn": 0
+            },
+            {
+              "agency": "Peking Union Medical College",
+              "grantId": "3332016018",
+              "orderIn": 0
+            },
+            {
+              "agency": "Chinese Academy of Medical Sciences",
+              "grantId": "2016-I2M-1-011",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hepatocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipoproteins, LDL",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serine Proteinase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-akt",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sterol Regulatory Element Binding Protein 2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypolipidemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphatidylinositol 3-Kinase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proprotein Convertase 9",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "PCSK9 Inhibitors"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "HepG2 cells",
+            "lipid metabolism",
+            "Diallyl disulfide",
+            "Pcsk9",
+            "Ldlr"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "PCSK9 protein, human",
+              "registryNumber": "EC 3.4.21.-"
+            },
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lipoproteins, LDL",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Serine Proteinase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sterol regulatory element binding protein 2",
+              "registryNumber": "0"
+            },
+            {
+              "name": "SREBF2 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-akt",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Hypolipidemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phosphatidylinositol 3-Kinase",
+              "registryNumber": "EC 2.7.1.137"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            },
+            {
+              "name": "Proprotein Convertase 9",
+              "registryNumber": "EC 3.4.21.-"
+            },
+            {
+              "name": "PCSK9 Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.nmcd-journal.com/article/S0939475320303501/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.numecd.2020.08.012"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 37,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-03-02",
+        "dateOfCreation": "2021-01-27",
+        "dateOfRevision": "2021-12-04",
+        "electronicPublicationDate": "2020-08-20",
+        "firstPublicationDate": "2020-08-20",
+        "firstIndexDate": "2021-01-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31173200",
+        "source": "MED",
+        "pmid": "31173200",
+        "doi": "10.3892/mmr.2019.10316",
+        "title": "Diallyl disulfide attenuates non‑alcoholic steatohepatitis by suppressing key regulators of lipid metabolism, lipid peroxidation and inflammation in mice.",
+        "authorString": "Zhang N, Wang Y, Zhang J, Liu B, Li G, Xin S, Xu K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang N",
+              "lastName": "Zhang",
+              "firstName": "Ning",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yuli",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Oncology, The First Affiliated Hospital of Medical College, Shihezi University, Shihezi, Xinjiang 832002, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Junli",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu B",
+              "lastName": "Liu",
+              "firstName": "Beibei",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li G",
+              "lastName": "Li",
+              "firstName": "Guixin",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xin S",
+              "lastName": "Xin",
+              "firstName": "Shengliang",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, P.R. China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu K",
+              "lastName": "Xu",
+              "firstName": "Keshu",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Gastroenterology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, P.R. China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "20",
+          "journalIssueId": 2834826,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Mol Med Rep",
+            "title": "Molecular medicine reports",
+            "essn": "1791-3004",
+            "issn": "1791-2997",
+            "nlmid": "101475259",
+            "isoabbreviation": "Mol Med Rep"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "1363-1372",
+        "abstractText": "Non‑alcoholic steatohepatitis (NASH) is a common clinicopathological condition. Currently, the pathogenesis of NASH remains unknown, and no optimal therapy option currently exists. It has previously been demonstrated that diallyl disulfide (DADS) was capable of attenuating liver dysfunction, as DADS supplementation had a positive impact on liver regeneration, proliferation and oxidative damage. Thus, DADS could serve as a potential therapeutic agent that can protect against the effects of NASH. The present study aimed to evaluate the effect of DADS on NASH and to understand the associated underlying molecular mechanisms. A methionine‑ and choline‑deficient diet (MCD) and high‑fat diet (HFD) are the two common animal models that induce NASH. C57BL/6J mice were fed an MCD for 4 weeks, or an HFD for 20 weeks, in the present study. The mice were treated with or without DADS (20, 50 and 100 mg/kg) for 4 or 20 weeks. For the histopathological examination, hematoxylin and eosin staining, oil red O staining and immunohistochemical analyses were performed using the liver sections. Biochemical assays and ELISA were performed to measure the serum biochemical indicators of hepatic function and inflammatory indicators, respectively. Reverse transcription‑quantitative PCR, immunofluorescence and western blotting were used to detect expression levels of the genes involved in the molecular mechanisms underlying DADS protection. MCD or HFD induced the histological features of NASH in mice, including significant vacuolated hepatocytes, marked inflammatory cell infiltration and severe micro‑ and macro‑vesicular steatosis. Serum alanine transferase and aspartate aminotransferase levels, as well as the contents of liver triglyceride and total cholesterol, were significantly increased in these two models. DADS attenuated these histological and biochemical changes. DADS ameliorated hepatic steatosis by regulating sterol regulatory element‑binding transcription factor 1, apolipoprotein A1, cyclic AMP‑responsive element‑binding protein H and fibroblast growth factor 21. Furthermore, DADS was revealed to prevent lipotoxicity via peroxisome proliferator‑activated receptor α elevation and stearoyl‑coenzyme A desaturase 1 inhibition in HFD‑fed mice. In addition, DADS markedly inhibited lipid peroxidation by modulating malondialdehyde and superoxide dismutase, and it also decreased tumor necrosis factor‑α production, interleukin‑6 production and macrophage influx, as well as suppressing nuclear factor‑κB activation, indicating suppression of MCD‑induced hepatic inflammation. Taken together, the results have shown that DADS exerts beneficial effects on MCD‑ or HFD‑induced NASH by suppressing key regulators of lipid metabolism, lipid peroxidation and inflammation.",
+        "affiliation": "Division of Gastroenterology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, P.R. China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NF-kappa B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Lipid Peroxidation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Lipid Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Non-alcoholic Fatty Liver Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NF-kappa B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.spandidos-publications.com/10.3892/mmr.2019.10316/download"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3892/mmr.2019.10316"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-12-11",
+        "dateOfCreation": "2019-06-08",
+        "dateOfRevision": "2019-12-17",
+        "electronicPublicationDate": "2019-05-31",
+        "firstPublicationDate": "2019-05-31",
+        "firstIndexDate": "2019-06-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28277182",
+        "source": "MED",
+        "pmid": "28277182",
+        "doi": "10.1080/19440049.2017.1285056",
+        "title": "Pharmacokinetic analysis of thymol, carvacrol and diallyl disulfide after intramammary and topical applications in healthy organic dairy cattle.",
+        "authorString": "Mason SE, Mullen KAE, Anderson KL, Washburn SP, Yeatts JL, Baynes RE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mason SE",
+              "lastName": "Mason",
+              "firstName": "Sharon E",
+              "initials": "SE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Biological Sciences , Campbell University , Buies Creek , NC , USA."
+                  },
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mullen KAE",
+              "lastName": "Mullen",
+              "firstName": "Keena A E",
+              "initials": "KAE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Department of Animal Science , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anderson KL",
+              "lastName": "Anderson",
+              "firstName": "Kevin L",
+              "initials": "KL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Washburn SP",
+              "lastName": "Washburn",
+              "firstName": "Steven P",
+              "initials": "SP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Department of Animal Science , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yeatts JL",
+              "lastName": "Yeatts",
+              "firstName": "James L",
+              "initials": "JL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baynes RE",
+              "lastName": "Baynes",
+              "firstName": "Ronald E",
+              "initials": "RE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7920-9338"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7920-9338"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "34",
+          "journalIssueId": 2570693,
+          "dateOfPublication": "2017 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Food Addit Contam Part A Chem Anal Control Expo Risk Assess",
+            "title": "Food additives & contaminants. Part A, Chemistry, analysis, control, exposure & risk assessment",
+            "essn": "1944-0057",
+            "issn": "1944-0049",
+            "nlmid": "101485040",
+            "isoabbreviation": "Food Addit Contam Part A Chem Anal Control Expo Risk Assess"
+          },
+          "printPublicationDate": "2017-05-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "740-749",
+        "abstractText": "Mastitis is among the most costly concerns for dairy producers whether cattle are managed conventionally or organically. Unfortunately, there are no USFDA-approved mastitis treatments that allow dairy cows in the United States to maintain organic dairy status. We investigated the plasma pharmacokinetics of three organic mastitis products currently used by organic producers and organic dairy veterinarians. Those products include intramammary, topical and intravaginal preparations, each dosed at two levels. Additionally, tissue data were collected for kidney, liver and fat in order to estimate a withholding time for each of the products. The lower limit of quantification (LOQ) and lower limit of detection (LOD) were 0.001 and 0.0005 µg ml<sup>-1</sup>, respectively, in plasma and all tissues except fat for both thymol and carvacrol. Fat had an LOQ of 0.01 µg ml<sup>-1</sup> and an LOD of 0.005 µg ml<sup>-1</sup> for thymol and carvacrol. Diallyl disulfide had an LOQ of 0.005 µg ml<sup>-1</sup> and LOD of 0.001 µg ml<sup>-1</sup> in all tissues. For diallyl disulfide (garlic), no levels above 0.001 µg ml<sup>-1</sup> were measurable in plasma or tissues. For topical and intramammary products, levels were measurable in the plasma, liver, kidney and fat up to 72 h after the last dose. The plasma half-lives were short for thymol (approximately 1.6 h) and carvacrol (approximately 1.5 h), whereas the estimated half-lives for these substances in tissues ranged from 13.9 to 31.5 h for thymol and from 16.9 to 25 h for carvacrol. The predicted amount of time that the molecules would be found in the body based on the slowest depletion time of liver tissue was 13 days for thymol and 10 days for carvacrol. The apparent half-life of topically applied carvacrol was approximately 4.5 h in plasma, with an estimated withhold time of 10 days. These times were calculated using the USFDA's tolerance limit method for meat withdrawal times.",
+        "affiliation": "a Department of Biological Sciences , Campbell University , Buies Creek , NC , USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institute of Food and Agriculture",
+              "grantId": "2014-51300-22234",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mammary Glands, Animal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Topical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dairying"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bovine",
+            "Mastitis",
+            "Residue",
+            "Organic",
+            "Generally Recognised As Safe (Gras)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/19440049.2017.1285056"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-09-21",
+        "dateOfCreation": "2017-03-10",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2017-02-14",
+        "firstPublicationDate": "2017-02-14",
+        "firstIndexDate": "2017-03-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29110616",
+        "source": "MED",
+        "pmid": "29110616",
+        "doi": "10.2174/1568009617666171024165657",
+        "title": "Diallyl Disulfide Inhibits Breast Cancer Stem Cell Progression and Glucose Metabolism by Targeting CD44/PKM2/AMPK Signaling.",
+        "authorString": "Xie X, Huang X, Tang H, Ye F, Yang L, Guo X, Tian Z, Xie X, Peng C, Xie X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Xie X",
+              "lastName": "Xie",
+              "firstName": "Xinhua",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Oncology, Sun Yat-Sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang X",
+              "lastName": "Huang",
+              "firstName": "Xiaojia",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Oncology, Sun Yat-Sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang H",
+              "lastName": "Tang",
+              "firstName": "Hailin",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3206-782X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Oncology, Sun Yat-Sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ye F",
+              "lastName": "Ye",
+              "firstName": "Feng",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Oncology, Sun Yat-Sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Lu",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Oncology, Sun Yat-Sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo X",
+              "lastName": "Guo",
+              "firstName": "Xiaofang",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, University of South Florida, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tian Z",
+              "lastName": "Tian",
+              "firstName": "Zhi",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2558-3268"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, University of South Florida, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie X",
+              "lastName": "Xie",
+              "firstName": "Xiaofang",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, State Key Laboratory Breeding Base of Systematic Research, Development and Utilization of Chinese Medicine Resources, Sichuan Province and Ministry of Science and Technology, Chengdu, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Peng C",
+              "lastName": "Peng",
+              "firstName": "Cheng",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3303-906X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, State Key Laboratory Breeding Base of Systematic Research, Development and Utilization of Chinese Medicine Resources, Sichuan Province and Ministry of Science and Technology, Chengdu, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xie X",
+              "lastName": "Xie",
+              "firstName": "Xiaoming",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Oncology, Sun Yat-Sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3206-782X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2558-3268"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3303-906X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "18",
+          "journalIssueId": 2707195,
+          "dateOfPublication": "2018 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Curr Cancer Drug Targets",
+            "title": "Current cancer drug targets",
+            "essn": "1873-5576",
+            "issn": "1568-0096",
+            "nlmid": "101094211",
+            "isoabbreviation": "Curr Cancer Drug Targets"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "592-599",
+        "abstractText": "<h4>Background</h4>It has been reported that diallyl disulfide (DADS) has anti-proliferative activity in many cancers.<h4>Objective</h4>The purpose of this study was to investigate the functions of DADS and the underlying mechanisms of its effect in breast cancer stem cells (BCSCs).<h4>Method</h4>Mammosphere formation assay, glucose consumption assay, lactate production assay and mouse xenograft experiments were performed to explore the functions of DADS in BCSCs. ATPase activity assay, western blotting and immunohistochemistry (IHC) assay were conduct to explore the mechanisms underlying the effects of DADS in BCSCs.<h4>Results</h4>The results showed that DADS suppressed cell stemness and glucose metabolism in BCSCs. In vivo mouse xenograft experiments showed that DADS inhibited the proliferation and metastasis of BCSCs. Then, we continued to explore the mechanisms underlying the effects of DADS in BCSCs and found that DADS acts by targeting CD44, Pyruvate kinase M2 (PKM2) and AMP-activated protein kinase (AMPK) signaling pathways. IHC analysis of 125 breast cancer patients' tissues demonstrated that CD44, PKM2 and AMPK expression levels were positively correlated. In addition, positive CD44, PKM2 and AMPK expression was associated with poor patient overall survival (OS) and disease-free survival (DFS).<h4>Conclusion</h4>In summary, DADS suppresses cell stemness, proliferation, metastasis and glucose metabolism in BCSCs partly through the inhibition of CD44/PKM2/AMPK. DADS may be used as a potential therapy for breast cancer treatment.",
+        "affiliation": "Department of Breast Oncology, Sun Yat-Sen University Cancer Center, State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Guangzhou, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Nude"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Breast Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Progression"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thyroid Hormones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carrier Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Neoplastic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplastic Stem Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "AMP-Activated Protein Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hyaluronan Receptors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thyroid Hormone-Binding Proteins"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "CD44",
+            "Diallyl disulfide",
+            "Ampk",
+            "Breast Cancer Stem Cell",
+            "Pkm2",
+            "Xenograft."
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "thyroid hormone-binding proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Thyroid Hormones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carrier Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "CD44 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "AMP-activated protein kinases",
+              "registryNumber": "EC 2.7.11.31"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            },
+            {
+              "name": "Hyaluronan Receptors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2174/1568009617666171024165657"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 31,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-09-09",
+        "dateOfCreation": "2017-11-08",
+        "dateOfRevision": "2026-01-27",
+        "firstPublicationDate": "2018-01-01",
+        "firstIndexDate": "2017-11-08",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "20226993",
+        "source": "MED",
+        "pmid": "20226993",
+        "doi": "10.1016/j.nutres.2010.01.004",
+        "title": "Influence of garlic or its main active component diallyl disulfide on iron bioavailability and toxicity.",
+        "authorString": "Nahdi A, Hammami I, Brasse-Lagnel C, Pilard N, Hamdaoui MH, Beaumont C, El May M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nahdi A",
+              "lastName": "Nahdi",
+              "firstName": "Afef",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8650-0935"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unité de recherche 01/UR/08-07, Laboratoire d'histologie-embryologie et biologie cellulaire, Faculté de Médecine de Tunis, Tunis, Tunisie."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hammami I",
+              "lastName": "Hammami",
+              "firstName": "Imen",
+              "initials": "I"
+            },
+            {
+              "fullName": "Brasse-Lagnel C",
+              "lastName": "Brasse-Lagnel",
+              "firstName": "Carole",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4370-2865"
+              }
+            },
+            {
+              "fullName": "Pilard N",
+              "lastName": "Pilard",
+              "firstName": "Nathalie",
+              "initials": "N"
+            },
+            {
+              "fullName": "Hamdaoui MH",
+              "lastName": "Hamdaoui",
+              "firstName": "Mohamed Hedi",
+              "initials": "MH"
+            },
+            {
+              "fullName": "Beaumont C",
+              "lastName": "Beaumont",
+              "firstName": "Carole",
+              "initials": "C"
+            },
+            {
+              "fullName": "El May M",
+              "lastName": "El May",
+              "firstName": "Michèle",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8650-0935"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4370-2865"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "30",
+          "journalIssueId": 1706934,
+          "dateOfPublication": "2010 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Nutr Res",
+            "title": "Nutrition research (New York, N.Y.)",
+            "essn": "1879-0739",
+            "issn": "0271-5317",
+            "nlmid": "8303331",
+            "isoabbreviation": "Nutr Res"
+          },
+          "printPublicationDate": "2010-02-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "85-95",
+        "abstractText": "Garlic is regularly consumed and is known to have diverse biologic activities, particularly due to its antioxidant properties. In this study, we hypothesized that crude garlic can prevent iron-mediated oxidative stress in a rat model of nutritional iron overload, and we used an in vitro model to confirm the results. For the in vivo studies, rats received a basal diet supplemented with or without carbonyl iron (3%) and were fed distilled water or garlic solution (1g/kg body weight) by gavage for 3 weeks. The presence of both garlic and iron led to a 2-fold increase in plasma iron and a 50% increase in liver iron as compared with iron alone. However, garlic did not offer any protection against iron-induced oxidative stress. Duodenal divalent metal transporter-1 mRNA expression was fully repressed by iron and by the combined treatments but was also reduced by garlic alone. To confirm these data, we tested the effect of diallyl disulfide, one of the active components in garlic, in vitro on polarized Caco-2 cells. A 24-hour treatment decreased iron uptake at the apical side of Caco-2 cells but increased the percentage of iron transfer at the basolateral side. This probably resulted from a modest induction of ferroportin mRNA and protein expression. These results suggest that garlic, when given in the presence of iron, enhances iron absorption by increasing ferroportin expression. The presence of garlic in the diet at the dose studied does not seem to protect against iron-mediated oxidative stress.",
+        "affiliation": "Unité de recherche 01/UR/08-07, Laboratoire d'histologie-embryologie et biologie cellulaire, Faculté de Médecine de Tunis, Tunis, Tunisie.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Duodenum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caco-2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Wistar"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Garlic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Iron, Dietary",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cation Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ferroportin"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cation Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Iron, Dietary",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            },
+            {
+              "name": "Ferroportin",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.nutres.2010.01.004"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-08-04",
+        "dateOfCreation": "2010-03-16",
+        "dateOfRevision": "2025-01-03",
+        "firstPublicationDate": "2010-02-01",
+        "firstIndexDate": "2010-08-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "10383929",
+        "source": "MED",
+        "pmid": "10383929",
+        "doi": "10.1016/s0090-9556(24)11821-1",
+        "title": "Metabolism of diallyl disulfide by human liver microsomal cytochromes P-450 and flavin-containing monooxygenases.",
+        "authorString": "Teyssier C, Guenot L, Suschetet M, Siess MH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Teyssier C",
+              "lastName": "Teyssier",
+              "firstName": "C",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unité de Toxicologie Nutritionnelle, Institut National de la Recherche Agronomique, 21034 Dijon Cedex, France. teyssier@dijon.inra.fr"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guenot L",
+              "lastName": "Guenot",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Suschetet M",
+              "lastName": "Suschetet",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Siess MH",
+              "lastName": "Siess",
+              "firstName": "M H",
+              "initials": "MH"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "27",
+          "journalIssueId": 914570,
+          "dateOfPublication": "1999 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 1999,
+          "journal": {
+            "medlineAbbreviation": "Drug Metab Dispos",
+            "title": "Drug metabolism and disposition: the biological fate of chemicals",
+            "essn": "1521-009X",
+            "issn": "0090-9556",
+            "nlmid": "9421550",
+            "isoabbreviation": "Drug Metab Dispos"
+          },
+          "printPublicationDate": "1999-07-01"
+        },
+        "pubYear": "1999",
+        "pageInfo": "835-841",
+        "abstractText": "The metabolism of diallyl disulfide (DADS), a garlic sulfur compound, was investigated in human liver microsomes. Diallyl thiosulfinate (allicin) was the only metabolite observed and its formation followed Michaelis-Menten kinetics with a Km = 0.61 +/- 0.2 mM and a Vmax = 18.5 +/- 4.2 nmol/min/mg protein, respectively (mean +/- S.E. M., n = 4). Both flavin-containing monooxygenase and the cytochrome P-450 monooxygenases (CYP) were involved in DADS oxidation, but the contribution of CYP was predominant. The cytochrome P-450 isoforms involved in this metabolism were investigated using selective chemical inhibitors, microsomes from cells expressing recombinant CYP isoenzymes, and studying the correlation of the rate of DADS oxidation with specific monooxygenase activities of human liver microsomes. Diethyldithiocarbamate and tranylcypromine inhibited allicin formation, whereas other specific inhibitors had low or no effect. Most of the different human microsomes from cells expressing CYP were able to catalyze this reaction, but CYP2E1 showed the highest affinity with a substantial activity. Furthermore, allicin formation by human liver microsomes was correlated with p-nitrophenol hydroxylase activity, a marker of CYP2E1, and tolbutamide hydroxylase activity, a marker of CYP2C9. Among these approaches only CYP2E1 was identified in each case, which suggested that DADS is preferentially metabolized to allicin by CYP2E1 in human liver. However the minor participation of other CYP forms and flavin-containing monooxygenases is likely.",
+        "affiliation": "Unité de Toxicologie Nutritionnelle, Institut National de la Recherche Agronomique, 21034 Dijon Cedex, France. teyssier@dijon.inra.fr",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoenzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "dimethylaniline monooxygenase (N-oxide forming)",
+              "registryNumber": "EC 1.14.13.8"
+            },
+            {
+              "name": "Isoenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Oxygenases",
+              "registryNumber": "EC 1.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "OpenAlex",
+              "url": "https://doi.org/10.1016/s0090-9556(24)11821-1"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "intl-dmd.aspetjournals.org",
+              "url": "http://intl-dmd.aspetjournals.org/cgi/content/abstract/27/7/835"
+            },
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "intl-dmd.aspetjournals.org",
+              "url": "http://intl-dmd.aspetjournals.org/cgi/content/full/27/7/835"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1999-07-20",
+        "dateOfCreation": "1999-06-29",
+        "dateOfRevision": "2016-11-24",
+        "firstPublicationDate": "1999-07-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11470743",
+        "source": "MED",
+        "pmid": "11470743",
+        "doi": "10.1093/carcin/22.8.1155",
+        "title": "Effects of the garlic compound diallyl disulfide on the metabolism, adherence and cell cycle of HT-29 colon carcinoma cells: evidence of sensitive and resistant sub-populations.",
+        "authorString": "Robert V, Mouillé B, Mayeur C, Michaud M, Blachier F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Robert V",
+              "lastName": "Robert",
+              "firstName": "V",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratoire de Nutrition et Sécurité Alimentaire, Institut National de la Recherche Agronomique, 78350 Jouy-en-Josas, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mouillé B",
+              "lastName": "Mouillé",
+              "firstName": "B",
+              "initials": "B"
+            },
+            {
+              "fullName": "Mayeur C",
+              "lastName": "Mayeur",
+              "firstName": "C",
+              "initials": "C"
+            },
+            {
+              "fullName": "Michaud M",
+              "lastName": "Michaud",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Blachier F",
+              "lastName": "Blachier",
+              "firstName": "F",
+              "initials": "F"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "22",
+          "journalIssueId": 993851,
+          "dateOfPublication": "2001 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "Carcinogenesis",
+            "title": "Carcinogenesis",
+            "essn": "1460-2180",
+            "issn": "0143-3334",
+            "nlmid": "8008055",
+            "isoabbreviation": "Carcinogenesis"
+          },
+          "printPublicationDate": "2001-08-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "1155-1161",
+        "abstractText": "Diallyl disulfide (DADS) is a major organosulphur compound present in garlic with an anti-mitotic potential against colon neoplastic lesions in vivo and colon tumour cell growth in vitro. Using the human colon adenocarcinoma HT-29 Glc(-/+) cell line we identified sub-populations of tumoural cells with markedly different characteristics in terms of metabolic capacities, adhesion properties and distribution in the cell cycle phases. After 1 and 2 days treatment with 100 microM DADS HT-29 cells were largely released into the culture medium. These floating cells accumulated in the G(2)/M phase and were characterized by a 5-fold reduction in cell capacity for de novo protein synthesis. Polyamine metabolism, which is necessary for intestinal epithelial cell attachment and growth, was also severely affected, since 3-fold reductions in polyamine biosynthesis and net accumulation of putrescine were measured after DADS treatment. However, oxidation of L-glutamine, the main precursor of the tricarboxylic acid cycle in these cells, and de novo synthesis of glutathione, a tripeptide involved in tumoural cell chemoresistance, were not affected by DADS treatment. In contrast, the adherent sub-population of HT-29 cells, although partially accumulated in G(2)/M phase, were characterized by unaffected metabolic capacities when compared with control cells except for putrescine accumulation, which was transiently decreased, and L-glutamine oxidation, which was increased 2-fold. DADS-resistant cells selected within 5 days were then able to proliferate at a similar rate to control untreated cells. The DADS-induced changes in HT-29 metabolic capacities, adhesion properties and the cell cycle are discussed from a causal perspective.",
+        "affiliation": "Laboratoire de Nutrition et Sécurité Alimentaire, Institut National de la Recherche Agronomique, 78350 Jouy-en-Josas, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HT29 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Membrane"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Garlic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants, Medicinal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adenocarcinoma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colonic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flow Cytometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Adhesion",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Division",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "allyl sulfide",
+              "registryNumber": "60G7CF7CWZ"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://academic.oup.com/carcin/article-pdf/22/8/1155/8103619/0221155.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/carcin/22.8.1155"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2001-08-23",
+        "dateOfCreation": "2001-07-27",
+        "dateOfRevision": "2019-05-13",
+        "firstPublicationDate": "2001-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

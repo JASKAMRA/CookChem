@@ -1,0 +1,5149 @@
+{
+  "version": "6.9",
+  "hitCount": 15,
+  "request": {
+    "queryString": "TITLE:\"Thymol\" AND (TITLE:pharmacokinetic OR TITLE:interaction OR TITLE:bioavailability OR TITLE:metabolism) AND FIRST_PDATE:[1900-01-01 TO 2020-12-31] AND SRC:MED NOT PUB_TYPE:Review",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31452900",
+        "source": "MED",
+        "pmid": "31452900",
+        "pmcid": "PMC6700254",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6700254"
+          ]
+        },
+        "doi": "10.1002/prp2.515",
+        "title": "Pharmacokinetic study of thymol after intravenous injection and high-dose inhalation in mouse model.",
+        "authorString": "Xie K, Tashkin DP, Luo MZ, Zhang JY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Xie K",
+              "lastName": "Xie",
+              "firstName": "Kevin",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Amphastar New Drug Research Center (NDRC) Chino California USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tashkin DP",
+              "lastName": "Tashkin",
+              "firstName": "Donald P",
+              "initials": "DP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pulmonary and Critical Care edicine, David Geffen School of Medicine University of California at Los Angeles Los Angeles California USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo MZ",
+              "lastName": "Luo",
+              "firstName": "Mary Z",
+              "initials": "MZ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Amphastar Pharmaceuticals, Inc. Rancho Cucamonga California USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang JY",
+              "lastName": "Zhang",
+              "firstName": "Jack Y",
+              "initials": "JY",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2524-5074"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Amphastar Pharmaceuticals, Inc. Rancho Cucamonga California USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2524-5074"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "7",
+          "journalIssueId": 2849331,
+          "dateOfPublication": "2019 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Pharmacol Res Perspect",
+            "title": "Pharmacology research & perspectives",
+            "essn": "2052-1707",
+            "issn": "2052-1707",
+            "isoabbreviation": "Pharmacol Res Perspect",
+            "nlmid": "101626369"
+          },
+          "printPublicationDate": "2019-10-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "e00515",
+        "abstractText": "Thymol is generally recognized as a safe substance by the FDA and has been widely used in the pharmaceutical, food, and cosmetic industries. Pharmacokinetic (PK) studies of thymol have been previously conducted for oral administration, but there has been no PK study for inhalation administration or intravenous (IV) injection. This study aims at exploring and comparing the inhalation and IV PK profile of thymol in a mouse model. The inhalation PK for mouse model was corrected with fur/skin absorption. Thirty-two male CD-1 mice were randomized into two study arms, Arm-A for intravenous (n = 16) and Arm-B for inhalation (n = 16). The amount of thymol in the mouse serum was measured for Arm-A and for Arm-B at the highest dose. Furthermore, 48 mice were utilized for fur/skin absorption of thymol. In total, 320 mouse serum samples for thymol were analyzed by LC/MS method. After inhalation, the peak concentration of thymol in mouse serum was 42.3 ng/mL (<i>C<sub>max</sub></i> ) and occurred at 2 minutes (<i>t<sub>max</sub></i> ). The AUC of the inhaled thymol at 0-60 minutes (AUC<sub>0-60</sub>) was 464 ng/mL/min. From 10-60 minutes post-dose, the PK inhalation curve appeared to be higher than that for the IV injection. This is likely attributed to the effect of absorption of thymol through the fur/skin of mice. After an adjustment by fur/skin absorption, the PK profile for net inhalation closely matched the two-compartment model. In fact, the bioavailability for the net inhalation of thymol was 74% and 77% relative to that for IV injection per AUC<sub>0-60min</sub> and AUC<sub>0-infinite</sub>, respectively.",
+        "affiliation": "Amphastar New Drug Research Center (NDRC) Chino California USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Amphastar Pharmaceuticals Inc.",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Inhalation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Injections, Intravenous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Random Allocation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mass Spectrometry"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Mice",
+            "Bioavailability",
+            "Inhalation",
+            "intravenous injection",
+            "Thymol",
+            "Epinephrine Hfa"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bpspubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/prp2.515"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/prp2.515"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6700254"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6700254?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-05-06",
+        "dateOfCreation": "2019-08-28",
+        "dateOfRevision": "2023-10-13",
+        "electronicPublicationDate": "2019-08-19",
+        "firstPublicationDate": "2019-08-19",
+        "firstIndexDate": "2019-08-28",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31011599",
+        "source": "MED",
+        "pmid": "31011599",
+        "pmcid": "PMC6463762",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6463762"
+          ]
+        },
+        "doi": "10.1016/j.dib.2019.103884",
+        "title": "Dynamics of thymol dietary supplementation in quail (<i>Coturnix japonica</i>): Dataset on thymol bioavailability, egg yolk fatty acids profile and performance traits.",
+        "authorString": "Fernandez ME, Kembro JM, Ballesteros ML, Caliva JM, Marin RH, Labaque MC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fernandez ME",
+              "lastName": "Fernandez",
+              "firstName": "Maria E",
+              "initials": "ME",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7808-1478"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kembro JM",
+              "lastName": "Kembro",
+              "firstName": "Jackelyn M",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Química Biológica, Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ballesteros ML",
+              "lastName": "Ballesteros",
+              "firstName": "Maria L",
+              "initials": "ML",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1086-6399"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Diversidad Animal II, Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Diversidad y Ecología Animal (IDEA), Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Caliva JM",
+              "lastName": "Caliva",
+              "firstName": "Jorge M",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1428-3000"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marin RH",
+              "lastName": "Marin",
+              "firstName": "Raul H",
+              "initials": "RH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8161-4044"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Química Biológica, Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Labaque MC",
+              "lastName": "Labaque",
+              "firstName": "Maria C",
+              "initials": "MC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Ecología, Córdoba, Argentina."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7808-1478"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8161-4044"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1086-6399"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1428-3000"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "24",
+          "journalIssueId": 2805594,
+          "dateOfPublication": "2019 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Data Brief",
+            "title": "Data in brief",
+            "essn": "2352-3409",
+            "issn": "2352-3409",
+            "isoabbreviation": "Data Brief",
+            "nlmid": "101654995"
+          },
+          "printPublicationDate": "2019-06-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "103884",
+        "abstractText": "Dietary supplementation with thymol (2-isopropyl-5-methylphenol) has been proposed as a strategy to improve modern intensive poultry production. Moreover, its antioxidant properties and potential beneficial influence on lipid metabolism have fostered current research focusing on enhancing nutritional quality of meat and egg products. In general, studies have focused on the overall effects of dietary supplementation once the supplementation protocol has finished and using only one potential dose, without actually measuring bioactive compounds' concentration in the diet supplied or target tissues. Herein, we provide a unique dataset of the dynamics of thymol bioavailability and biological action, optimal dosage and duration of supplementation needed to achieve meaningful effects, as well as persistence of induced changes after chronic supplement withdrawal. Specifically, during a month-long supplementation period, 5 sampling points were evaluated separated by at least 1 week. Then, a last sampling point was studied after a 3-week withdrawal period. Three increasing doses of dietary thymol were used, and approximately 80 variables assessed. The measured variables were associated with free thymol concentration in feed, egg yolk and droppings, feed and egg yolk fatty acids profile (saturated, unsaturated, and polyunsaturated fatty acids), performance traits (body weight, feed intake, egg laying rate, egg physical characteristics), general welfare quality assessment (plumage state) and liver histopathology. The data can provide insights on the link between the dynamics of free thymol concentration and the changes in fatty acids profile in quail egg yolk, both during chronic thymol dietary supplementation and after supplement withdrawal. The comprehensive approach used herein for studying thymol supplementation outcome could help understanding the scope of its effects on a whole organism level.",
+        "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "data-paper",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Fondo para la Investigación Científica y Tecnológica",
+              "grantId": "BID-PICT 2014–2764",
+              "orderIn": 0
+            },
+            {
+              "agency": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+              "orderIn": 0
+            },
+            {
+              "agency": "Universidad Nacional de Córdoba",
+              "grantId": "33820180100125CB",
+              "orderIn": 0
+            },
+            {
+              "agency": "Secretaria de Ciencia y Tecnica, Universidad de Buenos Aires",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Eggs",
+            "Natural products",
+            "PUFA",
+            "Feed additives",
+            "Healthy",
+            "Liver Histopathology",
+            "Sfa",
+            "Mufa",
+            "Poultry Nutrition"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.dib.2019.103884"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.dib.2019.103884"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6463762"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6463762?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2019-04-24",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2019-03-30",
+        "firstPublicationDate": "2019-03-30",
+        "firstIndexDate": "2019-04-24",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31673997",
+        "source": "MED",
+        "pmid": "31673997",
+        "doi": "10.1007/s10695-019-00718-2",
+        "title": "Benefits of thymol supplementation on performance, the hepatic antioxidant system, and energetic metabolism in grass carp.",
+        "authorString": "Morselli MB, Reis JH, Baldissera MD, Souza CF, Baldisserotto B, Petrolli TG, Paiano D, Lopes DLA, Da Silva AS, Da Silva AS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Morselli MB",
+              "lastName": "Morselli",
+              "firstName": "Monique B",
+              "initials": "MB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program in Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reis JH",
+              "lastName": "Reis",
+              "firstName": "João H",
+              "initials": "JH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program in Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baldissera MD",
+              "lastName": "Baldissera",
+              "firstName": "Matheus D",
+              "initials": "MD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Pharmacology, Universidade Federal de Santa Maria, Santa Maria, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Souza CF",
+              "lastName": "Souza",
+              "firstName": "Carine F",
+              "initials": "CF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Pharmacology, Universidade Federal de Santa Maria, Santa Maria, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baldisserotto B",
+              "lastName": "Baldisserotto",
+              "firstName": "Bernardo",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Pharmacology, Universidade Federal de Santa Maria, Santa Maria, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Petrolli TG",
+              "lastName": "Petrolli",
+              "firstName": "Tiago G",
+              "initials": "TG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program in Animal Health and Production in Small Farms, Universidade do Oeste de Santa Catarina, Xanxerê, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Paiano D",
+              "lastName": "Paiano",
+              "firstName": "Diovani",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2715-9524"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program in Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lopes DLA",
+              "lastName": "Lopes",
+              "firstName": "Diogo L A",
+              "initials": "DLA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3873-2373"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program in Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Da Silva AS",
+              "lastName": "Da Silva",
+              "firstName": "Aleksandro S",
+              "initials": "AS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6940-6776"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program in Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil. dasilva.aleksandro@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Da Silva AS",
+              "lastName": "Da Silva",
+              "firstName": "Aleksandro S",
+              "initials": "AS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5459-3823"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program in Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil. dasilva.aleksandro@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5459-3823"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6175-5939"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6940-6776"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2715-9524"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3873-2373"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "46",
+          "journalIssueId": 2913122,
+          "dateOfPublication": "2020 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Fish Physiol Biochem",
+            "title": "Fish physiology and biochemistry",
+            "essn": "1573-5168",
+            "issn": "0920-1742",
+            "isoabbreviation": "Fish Physiol Biochem",
+            "nlmid": "100955049"
+          },
+          "printPublicationDate": "2020-02-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "305-314",
+        "abstractText": "Thymol is an herbal food additive used to improve animal performance. Thymol acts via its potential to enhance productive and reproductive performance, and by improving bioavailability of nutrients in fish. Nevertheless, the exact mechanisms associated with these phenomena remain poorly understood, although recent evidence has suggested the involvement of the phosphotransfer network and antioxidant status. Therefore, the aim of this study was to determine whether the improvement of the antioxidant/oxidant status and the phosphoryl transfer network may be involved in enhanced growth performance in grass carp (Ctenopharyngodon idella) fed with various levels of thymol (100, 200, and 300 mg/kg feed). Thymol-supplementation (100 mg/kg feed) produced higher body weight and weight gain for 60-day post-feeding compared to the control group. Specific growth rate was higher; while feed conversion ratio was lower in fish that consumed 100 mg of thymol/kg compared to other groups. Hepatic lactate dehydrogenase activity and lipid peroxidation levels were lower in the thymol-supplemented group (100 mg/kg feed) than in the control group, while reactive oxygen species were lower in all supplemented groups than in the control group. Hepatic superoxide dismutase (300 mg/kg feed) and glutathione peroxidase (100, 200, and 300 mg/kg feed) activities, as well as antioxidant capacity against peroxyl radicals (100 mg/kg feed) were higher in these groups than in the control group. Based on these data, we conclude that 100 mg thymol/kg dietary supplementation increased growth performance of fingerling grass carp. Finally, hepatic adenylate kinase activity was lower in the thymol supplemented group (100 mg/kg feed) than in the control group. Thymol supplementation (100 mg/kg feed) improved hepatic energy metabolism, while practically all tested concentrations of thymol enhanced hepatic antioxidant status, all of which may be pathways involved in increased growth performance in fingerling grass carp.",
+        "affiliation": "Graduate Program in Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carps",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Thymol"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glutathione Peroxidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Peroxidation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Feed"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dietary Supplements"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Free radicals",
+            "Aquaculture",
+            "Phosphoryl Transfer Network",
+            "Fish Performance"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glutathione Peroxidase",
+              "registryNumber": "EC 1.11.1.9"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s10695-019-00718-2"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-10-23",
+        "dateOfCreation": "2019-11-02",
+        "dateOfRevision": "2020-10-23",
+        "electronicPublicationDate": "2019-11-01",
+        "firstPublicationDate": "2019-11-01",
+        "firstIndexDate": "2019-11-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31809794",
+        "source": "MED",
+        "pmid": "31809794",
+        "doi": "10.1016/j.micpath.2019.103915",
+        "title": "Effects of thymol supplementation on performance, mortality and branchial energetic metabolism in grass carp experimentally infected by Aeromonas hydrophila.",
+        "authorString": "Morselli MB, Baldissera MD, Souza CF, Reis JH, Baldisserotto B, Sousa AA, Zimmer F, Lopes DLA, Petrolli TG, Da Silva AS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Morselli MB",
+              "lastName": "Morselli",
+              "firstName": "Monique B",
+              "initials": "MB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program of Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baldissera MD",
+              "lastName": "Baldissera",
+              "firstName": "Matheus D",
+              "initials": "MD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Pharmacology, Universidade Federal de Santa Maria, Santa Maria, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Souza CF",
+              "lastName": "Souza",
+              "firstName": "Carine F",
+              "initials": "CF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Pharmacology, Universidade Federal de Santa Maria, Santa Maria, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reis JH",
+              "lastName": "Reis",
+              "firstName": "João H",
+              "initials": "JH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program of Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baldisserotto B",
+              "lastName": "Baldisserotto",
+              "firstName": "Bernardo",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Pharmacology, Universidade Federal de Santa Maria, Santa Maria, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sousa AA",
+              "lastName": "Sousa",
+              "firstName": "Alison A",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program of Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zimmer F",
+              "lastName": "Zimmer",
+              "firstName": "Fernando",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program of Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lopes DLA",
+              "lastName": "Lopes",
+              "firstName": "Diogo L A",
+              "initials": "DLA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3873-2373"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program of Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Petrolli TG",
+              "lastName": "Petrolli",
+              "firstName": "Tiago G",
+              "initials": "TG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade do Oeste de Santa Catarina, Xanxerê, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Da Silva AS",
+              "lastName": "Da Silva",
+              "firstName": "Aleksandro S",
+              "initials": "AS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6940-6776"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Program of Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil. Electronic address: dasilva.aleksandro@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6940-6776"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3873-2373"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "139",
+          "journalIssueId": 2910371,
+          "dateOfPublication": "2020 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Microb Pathog",
+            "title": "Microbial pathogenesis",
+            "essn": "1096-1208",
+            "issn": "0882-4010",
+            "isoabbreviation": "Microb Pathog",
+            "nlmid": "8606191"
+          },
+          "printPublicationDate": "2020-02-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "103915",
+        "abstractText": "We determined whether thymol supplementation of would minimize the negative effects of Aeromonas hydrophila infection on branchial energy metabolism, weight loss and mortality in grass carp (Ctenopharyngodon idella). We found that the infected fish all died, while 62.5% of those supplemented with 100 mg/kg thymol survived. Cytosolic and mitochondrial creatine kinase (CK) activities, as well as adenylate kinase (AK) and pyruvate kinase (PK) activities were significant lower in gills of A. hydrophila-infected fish than those of the control group, and adenosine triphosphate (ATP) levels were significant lower in the infected group. Finally, branchial reactive oxygen species (ROS) were significant higher in A. hydrophila-infected fish than in the control group. Supplementation with 100 and 300 mg thymol/kg diet prevented inhibition of branchial cytosolic and mitochondrial CK activities caused by infection, and also inhibited the reduction of branchial ATP levels. Supplementation with 100, 200 and 300 mg thymol/kg prevented the inhibition of branchial AK and PK activities induced by aeromonosis. Supplementation of 100 mg thymol/kg prevented weight loss after A. hydrophila infection. These data suggest that supplementation with 100 mg thymol/kg exerts potent bactericidal properties and augments longevity. Supplementation at all concentrations of thymol prevented A. hydrophila-induced branchial bioenergetics; nevertheless, higher concentrations were associated with side-effects.",
+        "affiliation": "Graduate Program of Animal Science, Universidade do Estado de Santa Catarina, Chapecó, RS, Brazil.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+              "orderIn": 0
+            },
+            {
+              "agency": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carps",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aeromonas hydrophila",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gram-Negative Bacterial Infections",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MO",
+                    "qualifierName": "mortality"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "VE",
+                    "qualifierName": "veterinary"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fish Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MO",
+                    "qualifierName": "mortality"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adenosine Triphosphate",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Energy Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Feed",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Supplements",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Teleost",
+            "Pathogenesis",
+            "Terpene",
+            "Fish disease",
+            "Supplementation",
+            "Aeromonosis"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Adenosine Triphosphate",
+              "registryNumber": "8L70Q75FXE"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.micpath.2019.103915"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-10-26",
+        "dateOfCreation": "2019-12-07",
+        "dateOfRevision": "2020-10-26",
+        "electronicPublicationDate": "2019-12-04",
+        "firstPublicationDate": "2019-12-04",
+        "firstIndexDate": "2019-12-08",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31071185",
+        "source": "MED",
+        "pmid": "31071185",
+        "pmcid": "PMC6508865",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6508865"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0216623",
+        "title": "Dynamics of thymol dietary supplementation in quail (Coturnix japonica): Linking bioavailability, effects on egg yolk total fatty acids and performance traits.",
+        "authorString": "Fernandez ME, Kembro JM, Ballesteros ML, Caliva JM, Marin RH, Labaque MC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fernandez ME",
+              "lastName": "Fernandez",
+              "firstName": "Maria E",
+              "initials": "ME",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7808-1478"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kembro JM",
+              "lastName": "Kembro",
+              "firstName": "Jackelyn M",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1127-8975"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Química Biológica, Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ballesteros ML",
+              "lastName": "Ballesteros",
+              "firstName": "Maria L",
+              "initials": "ML",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1086-6399"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Diversidad y Ecología Animal (IDEA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Diversidad Animal II, Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Caliva JM",
+              "lastName": "Caliva",
+              "firstName": "Jorge M",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1428-3000"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marin RH",
+              "lastName": "Marin",
+              "firstName": "Raul H",
+              "initials": "RH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8161-4044"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Química Biológica, Córdoba, Argentina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Labaque MC",
+              "lastName": "Labaque",
+              "firstName": "Maria C",
+              "initials": "MC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3367-3776"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Instituto de Ciencia y Tecnología de los Alimentos (ICTA), Córdoba, Argentina."
+                  },
+                  {
+                    "affiliation": "Universidad Nacional de Córdoba, Facultad de Ciencias Exactas, Físicas y Naturales, Cátedra de Ecología, Córdoba, Argentina."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7808-1478"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8161-4044"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1086-6399"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1428-3000"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3367-3776"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1127-8975"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "14",
+          "journalIssueId": 2839730,
+          "dateOfPublication": "2019",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2019-01-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "e0216623",
+        "abstractText": "Phytogenic additives such as thymol are encountering growing interest in the poultry industry. However, there are still questions concerning dynamics of their bioavailability, biological action, optimal dosage and duration of supplementation needed to achieve meaningful effects, as well as persistence of induced changes after supplement withdrawal. We studied the link between the dynamics of free thymol concentration and the changes in fatty acids composition in quail egg yolk, both during a month-long chronic dietary supplementation and after 3 weeks of supplement withdrawal (post-supplementation). Fifty, 85 days-old, female quail of homogeneous body weights (251±1g) in egg-laying peak were used. To evaluate potential dose-dependent effects, three increasing doses 2, 4, and 6.25 g of thymol/kg of feed (THY2, THY4 and THY6, respectively) and two controls were evaluated (n = 10). In parallel, we assessed the concomitant changes in free thymol excretion, potential liver histopathological changes, and birds´ performance traits. Egg yolk and droppings show a dose-dependent increase in THY concentration after 9 days of supplementation and a decrease after post-supplementation. In egg yolk, these changes were accompanied by reduced saturated fatty acid concentrations achieved by 28 days of supplementation in THY2 and 14 days of supplementation in THY4 and THY6. However, after post-supplementation the aforementioned effect disappeared in THY2 but not in THY4 and THY6. While THY2 failed to increase polyunsaturated fatty acids, THY4 and THY6 increased polyunsaturated fatty acids by day 14 of supplementation and remained increased after post-supplementation. Fatty acids changes induced by thymol are consistent with improved nutritional quality of eggs. No treatment effects were observed in liver histopathology and female performance. Findings suggest that both dose of thymol and duration of supplementation modulate thymol and fatty acids concentrations in egg yolk and thymol concentration in droppings. Furthermore, the persistence of those effects after post-supplementation period is also a dose-dependent phenomenon.",
+        "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Investigaciones Biológicas y Tecnológicas (IIByT), Córdoba, Argentina.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Secretaria de Ciencia y Tecnología - Universidad Nacional de Córdoba",
+              "grantId": "33820180100125CB",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fondo para la Investigación Científica y Tecnológica",
+              "grantId": "PICT 2014–2764",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Egg Yolk",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coturnix",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Infective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oviposition",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animal Feed",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dietary Supplements"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Fatty Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anti-Infective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0216623"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6508865"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6508865?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2020-01-23",
+        "dateOfCreation": "2019-05-10",
+        "dateOfRevision": "2020-03-09",
+        "electronicPublicationDate": "2019-05-09",
+        "firstPublicationDate": "2019-05-09",
+        "firstIndexDate": "2019-05-10",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "30361692",
+        "source": "MED",
+        "pmid": "30361692",
+        "pmcid": "PMC6202332",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6202332"
+          ]
+        },
+        "doi": "10.1038/s41598-018-34055-w",
+        "title": "In-vitro evaluation of apoptotic effect of OEO and thymol in 2D and 3D cell cultures and the study of their interaction mode with DNA.",
+        "authorString": "Jamali T, Kavoosi G, Safavi M, Ardestani SK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jamali T",
+              "lastName": "Jamali",
+              "firstName": "Tahereh",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7380-0215"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kavoosi G",
+              "lastName": "Kavoosi",
+              "firstName": "Gholamreza",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2920-3453"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biotechnology, Shiraz University, Shiraz, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Safavi M",
+              "lastName": "Safavi",
+              "firstName": "Maliheh",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0950-3141"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biotechnology, Iranian Research Organization for Science and Technology, Tehran, Iran."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ardestani SK",
+              "lastName": "Ardestani",
+              "firstName": "Susan K",
+              "initials": "SK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran. ardestany@ut.ac.ir."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7380-0215"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0950-3141"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2920-3453"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "8",
+          "journalIssueId": 2732877,
+          "dateOfPublication": "2018 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Sci Rep",
+            "title": "Scientific reports",
+            "essn": "2045-2322",
+            "issn": "2045-2322",
+            "isoabbreviation": "Sci Rep",
+            "nlmid": "101563288"
+          },
+          "printPublicationDate": "2018-10-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "15787",
+        "abstractText": "Oliveria decumbens is an Iranian endemic plant used extensively in traditional medicine. Recently, some studies have been performed on biological effects of Oliveria essential oil (OEO). However, to our knowledge, the anticancer activity of OEO has not been reported. Based on our GC/MS analysis, the basic ingredients of OEO are thymol, carvacrol, p-cymene and γ-terpinene. Therefore, we used OEO and its main component, thymol, to explore their effects on cell growth inhibition and anticancer activity. Despite having a limited effect on L929 normal cells, OEO/thymol induced cytotoxicity in MDA-MB231 breast cancer monolayers (2D) and to a lesser extent in MDA-MB231 spheroids (3D). Flow cytometry, caspase-3 activity assay in treated monolayers/spheroids and also fluorescence staining and DNA fragmentation in treated monolayers demonstrated apoptotic death mode. Indeed, OEO/thymol increased the Reactive Oxygen Species (ROS) level leading to mitochondrial membrane potential (MMP, ΔΨm) loss, caspase-3 activation and DNA damage caused S-phase cell cycle arrest. Furthermore, immunoblotting studies revealed the activation of intrinsic and maybe extrinsic apoptosis pathways by OEO/thymol. Additionally, in-vitro experiments, indicated that OEO/thymol interacts with DNA via minor grooves confirmed by docking method. Altogether, our reports underlined the potential of OEO to be considered as a new candidate for cancer therapy.",
+        "affiliation": "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spheroids, Cellular",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intracellular Space",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apiaceae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oils, Volatile",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deoxyguanosine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Culture Techniques",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inhibitory Concentration 50"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Fragmentation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nucleic Acid Conformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "bcl-2-Associated X Protein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caspase 3",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Potential, Mitochondrial",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Docking Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "8-Hydroxy-2'-Deoxyguanosine"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Oils, Volatile",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "bcl-2-Associated X Protein",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Caspase 3",
+              "registryNumber": "EC 3.4.22.-"
+            },
+            {
+              "name": "Deoxyguanosine",
+              "registryNumber": "G9481N71RO"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "8-Hydroxy-2'-Deoxyguanosine",
+              "registryNumber": "88847-89-6"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/s41598-018-34055-w.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41598-018-34055-w"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6202332"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6202332?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 65,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2019-10-18",
+        "dateOfCreation": "2018-10-27",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2018-10-25",
+        "firstPublicationDate": "2018-10-25",
+        "firstIndexDate": "2018-10-27",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31378798",
+        "source": "MED",
+        "pmid": "31378798",
+        "doi": "10.1039/c8fo02248h",
+        "title": "Ca<sup>2+</sup>-Calcineurin-NFAT pathway mediates the effect of thymol on oxidative metabolism and fiber-type switch in skeletal muscle.",
+        "authorString": "Luo P, Wang L, Luo L, Wang L, Yang K, Shu G, Wang S, Zhu X, Gao P, Jiang Q.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Luo P \n",
+              "lastName": "Luo",
+              "firstName": "Pei",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Animal Nutrition Control, College of Animal Science, South China Agricultural University, Guangzhou 510642, Guangdong, People's Republic of China. qyjiang@scau.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang L \n",
+              "lastName": "Wang",
+              "firstName": "Lina",
+              "initials": "L"
+            },
+            {
+              "fullName": "Luo L \n",
+              "lastName": "Luo",
+              "firstName": "Lv",
+              "initials": "L"
+            },
+            {
+              "fullName": "Wang L \n",
+              "lastName": "Wang",
+              "firstName": "Leshan",
+              "initials": "L"
+            },
+            {
+              "fullName": "Yang K \n",
+              "lastName": "Yang",
+              "firstName": "Kelin",
+              "initials": "K"
+            },
+            {
+              "fullName": "Shu G \n",
+              "lastName": "Shu",
+              "firstName": "Gang",
+              "initials": "G"
+            },
+            {
+              "fullName": "Wang S \n",
+              "lastName": "Wang",
+              "firstName": "Songbo",
+              "initials": "S"
+            },
+            {
+              "fullName": "Zhu X \n",
+              "lastName": "Zhu",
+              "firstName": "Xiaotong",
+              "initials": "X"
+            },
+            {
+              "fullName": "Gao P \n",
+              "lastName": "Gao",
+              "firstName": "Ping",
+              "initials": "P"
+            },
+            {
+              "fullName": "Jiang Q \n",
+              "lastName": "Jiang",
+              "firstName": "Qingyan",
+              "initials": "Q"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8983-9229"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "10",
+          "journalIssueId": 2848682,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Food Funct",
+            "title": "Food & function",
+            "essn": "2042-650X",
+            "issn": "2042-6496",
+            "isoabbreviation": "Food Funct",
+            "nlmid": "101549033"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "5166-5173",
+        "abstractText": "Thymol is a major component of thyme, and it has been reported that thymol administration reduces body weight, plasma insulin and blood glucose in type-2 diabetes. Skeletal muscle is the most important metabolism organs in the body; however, to date, there is no report on the effect of thymol on skeletal muscle. Our goal was to determine whether thymol has an effect on the different types of skeletal muscle fibers and their metabolism characteristics. Hence, we performed in vivo and in vitro experiments. In vivo, SD rats (4 weeks old) were fed with different concentrations of thymol for 4 weeks, and in vitro C2C12 myotubes were directly treated with thymol for 2 days. The rats fed with 0.025% thymol showed a significantly lower body weight, subcutaneous white adipose tissue index and gastrocnemius muscle index (P < 0.05), while their proportion of brown adipose tissue significantly increased (P < 0.05). The protein and mRNA expression of MyHC I and MyHC IIa in the gastrocnemius muscle of the rats significantly increased (P < 0.05), while the protein level of MyHC II and mRNA expression of MyHC IIb decreased (P < 0.05). Furthermore, 0.025% thymol supplement significantly reduced (P < 0.05) the activity of lactate dehydrogenase (LDH) in the gastrocnemius muscle of the rats, but their succinate dehydrogenase (SDH) and hexokinase (HK) activities increased (P < 0.05). Also, the expression of the fatty acid oxidation-related genes in the gastrocnemius muscle of the rats decreased with the thymol supplement (P < 0.05). In vitro, similar results were obtained. Furthermore, the Ca<sup>2+</sup>-calcineurin-NFAT pathway, which is an important pathway to regulate the transformation of skeletal muscle fiber type, was studied. We found that the effects of thymol on the myosin heavy chain isoforms, genes related to metabolism and the activation of the Ca<sup>2+</sup>-calcineurin-NFAT pathway were all reversed by a Ca<sup>2+</sup> chelator (P < 0.05). Thus, thymol can promote the oxidative metabolism and fiber type switch in skeletal muscle, and the Ca<sup>2+</sup>-calcineurin-NFAT pathway plays an important role in it.",
+        "affiliation": "Guangdong Provincial Key Laboratory of Animal Nutrition Control, College of Animal Science, South China Agricultural University, Guangzhou 510642, Guangdong, People's Republic of China. qyjiang@scau.edu.cn.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31672464",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "31790411",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscle, Skeletal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymus Plant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcineurin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myosin Heavy Chains",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NFATC Transcription Factors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscle Fibers, Skeletal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NFATC Transcription Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Calcineurin",
+              "registryNumber": "EC 3.1.3.16"
+            },
+            {
+              "name": "Calcium",
+              "registryNumber": "SY7Q814VUP"
+            },
+            {
+              "name": "Myosin Heavy Chains",
+              "registryNumber": "EC 3.6.4.1"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/c8fo02248h"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-02-05",
+        "dateOfCreation": "2019-08-06",
+        "dateOfRevision": "2020-02-05",
+        "electronicPublicationDate": "2019-08-05",
+        "firstPublicationDate": "2019-08-05",
+        "firstIndexDate": "2019-08-06",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28277182",
+        "source": "MED",
+        "pmid": "28277182",
+        "doi": "10.1080/19440049.2017.1285056",
+        "title": "Pharmacokinetic analysis of thymol, carvacrol and diallyl disulfide after intramammary and topical applications in healthy organic dairy cattle.",
+        "authorString": "Mason SE, Mullen KAE, Anderson KL, Washburn SP, Yeatts JL, Baynes RE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mason SE",
+              "lastName": "Mason",
+              "firstName": "Sharon E",
+              "initials": "SE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "a Department of Biological Sciences , Campbell University , Buies Creek , NC , USA."
+                  },
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mullen KAE",
+              "lastName": "Mullen",
+              "firstName": "Keena A E",
+              "initials": "KAE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Department of Animal Science , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anderson KL",
+              "lastName": "Anderson",
+              "firstName": "Kevin L",
+              "initials": "KL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Washburn SP",
+              "lastName": "Washburn",
+              "firstName": "Steven P",
+              "initials": "SP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "b Department of Animal Science , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yeatts JL",
+              "lastName": "Yeatts",
+              "firstName": "James L",
+              "initials": "JL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baynes RE",
+              "lastName": "Baynes",
+              "firstName": "Ronald E",
+              "initials": "RE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7920-9338"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "c Department of Population Health and Pathobiology, College of Veterinary Medicine , North Carolina State University , Raleigh , NC , USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7920-9338"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "34",
+          "journalIssueId": 2570693,
+          "dateOfPublication": "2017 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Food Addit Contam Part A Chem Anal Control Expo Risk Assess",
+            "title": "Food additives & contaminants. Part A, Chemistry, analysis, control, exposure & risk assessment",
+            "essn": "1944-0057",
+            "issn": "1944-0049",
+            "isoabbreviation": "Food Addit Contam Part A Chem Anal Control Expo Risk Assess",
+            "nlmid": "101485040"
+          },
+          "printPublicationDate": "2017-05-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "740-749",
+        "abstractText": "Mastitis is among the most costly concerns for dairy producers whether cattle are managed conventionally or organically. Unfortunately, there are no USFDA-approved mastitis treatments that allow dairy cows in the United States to maintain organic dairy status. We investigated the plasma pharmacokinetics of three organic mastitis products currently used by organic producers and organic dairy veterinarians. Those products include intramammary, topical and intravaginal preparations, each dosed at two levels. Additionally, tissue data were collected for kidney, liver and fat in order to estimate a withholding time for each of the products. The lower limit of quantification (LOQ) and lower limit of detection (LOD) were 0.001 and 0.0005 µg ml<sup>-1</sup>, respectively, in plasma and all tissues except fat for both thymol and carvacrol. Fat had an LOQ of 0.01 µg ml<sup>-1</sup> and an LOD of 0.005 µg ml<sup>-1</sup> for thymol and carvacrol. Diallyl disulfide had an LOQ of 0.005 µg ml<sup>-1</sup> and LOD of 0.001 µg ml<sup>-1</sup> in all tissues. For diallyl disulfide (garlic), no levels above 0.001 µg ml<sup>-1</sup> were measurable in plasma or tissues. For topical and intramammary products, levels were measurable in the plasma, liver, kidney and fat up to 72 h after the last dose. The plasma half-lives were short for thymol (approximately 1.6 h) and carvacrol (approximately 1.5 h), whereas the estimated half-lives for these substances in tissues ranged from 13.9 to 31.5 h for thymol and from 16.9 to 25 h for carvacrol. The predicted amount of time that the molecules would be found in the body based on the slowest depletion time of liver tissue was 13 days for thymol and 10 days for carvacrol. The apparent half-life of topically applied carvacrol was approximately 4.5 h in plasma, with an estimated withhold time of 10 days. These times were calculated using the USFDA's tolerance limit method for meat withdrawal times.",
+        "affiliation": "a Department of Biological Sciences , Campbell University , Buies Creek , NC , USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institute of Food and Agriculture",
+              "grantId": "2014-51300-22234",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mammary Glands, Animal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disulfides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allyl Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Topical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dairying"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Limit of Detection"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bovine",
+            "Mastitis",
+            "Residue",
+            "Organic",
+            "Generally Recognised As Safe (Gras)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Allyl Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Disulfides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "diallyl disulfide",
+              "registryNumber": "5HI47O6OA7"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/19440049.2017.1285056"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-09-21",
+        "dateOfCreation": "2017-03-10",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2017-02-14",
+        "firstPublicationDate": "2017-02-14",
+        "firstIndexDate": "2017-03-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28012625",
+        "source": "MED",
+        "pmid": "28012625",
+        "doi": "10.3168/jds.2016-11536",
+        "title": "Short communication: Interaction of the isomers carvacrol and thymol with the antibiotics doxycycline and tilmicosin: In vitro effects against pathogenic bacteria commonly found in the respiratory tract of calves.",
+        "authorString": "Kissels W, Wu X, Santos RR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kissels W",
+              "lastName": "Kissels",
+              "firstName": "W",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ECOstyle B.V., 8431 SM Oosterwolde, the Netherlands. Electronic address: w.kissels@ecostyle.nl."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu X",
+              "lastName": "Wu",
+              "firstName": "X",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8013-5770"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hubert Department of Global Health, Rollins School of Public Health, Emory University, Atlanta, GA 30322."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Santos RR",
+              "lastName": "Santos",
+              "firstName": "R R",
+              "initials": "RR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7030-6097"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Risk Assessment Sciences, Division Veterinary Pharmacology, Pharmacotherapy and Toxicology, Faculty of Veterinary Medicine, Utrecht University, 3584 CM Utrecht, the Netherlands."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7030-6097"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8013-5770"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "100",
+          "journalIssueId": 2518948,
+          "dateOfPublication": "2017 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "J Dairy Sci",
+            "title": "Journal of dairy science",
+            "essn": "1525-3198",
+            "issn": "0022-0302",
+            "isoabbreviation": "J Dairy Sci",
+            "nlmid": "2985126R"
+          },
+          "printPublicationDate": "2017-02-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "970-974",
+        "abstractText": "Bovine respiratory disease is the major problem faced by cattle, specially calves, leading to reduced animal performance and increased mortality, consequently causing important economic losses. Hence, calves must be submitted to antibiotic therapy to counteract this infection usually initiated by the combination of environmental stress factors and viral infection, altering the animal's defense mechanism, and thus allowing lung colonization by the opportunistic bacteria Mannheimia haemolytica and Pasteurella multocida. Essential oils appear to be candidates to replace antibiotics or to act as antibiotic adjuvants due to their antimicrobial properties. In the present study, we aimed to evaluate the 4 essential oil components carvacrol, thymol, trans-anethole, and 1,8 cineole as antibacterial agents or as adjuvants for the antibiotics doxycycline and tilmicosin against M. haemolytica and P. multocida. Bacteria were cultured according to standard protocols, followed by the determination of minimum inhibitory concentration (MIC) and minimum bactericidal concentration. A checkerboard assay was applied to detect possible interactions between components, between antibiotics, and between components and antibiotics. Doxycycline at 0.25 and 0.125 μg/mL inhibited the growth of P. multocida and M. haemolytica, respectively, whereas tilmicosin MIC values were 1.0 and 4.0 μg/mL for P. multocida and M. haemolytica, respectively. Carvacrol MIC values were 2.5 and 1.25 mM for P. multocida and M. haemolytica, respectively, whereas thymol MIC values were 1.25 and 0.625 mM for P. multocida and M. haemolytica, respectively. Trans-anethole and 1,8 cineole did not present any antibacterial effect even at 40 mM against the investigated pathogens. All minimum bactericidal concentration values were the same as MIC, except when thymol was tested against M. haemolytica, being twice the MIC data (i.e., 1.25 mM thymol). Based on fractional inhibitory concentration checkerboard assay, no interaction was observed between doxycycline and tilmicosin. Carvacrol and thymol presented an additive effect when one of them was combined with tilmicosin. Additive effect was also observed when doxycycline was combined with thymol. Synergism was observed when carvacrol was combined with doxycycline or with thymol. Although the antibacterial effects of the tested essential oil components were observed at high concentrations for in vitro conditions, the additive and synergic effects of carvacrol and thymol with antibiotics suggest the option to apply them as antibiotic adjuvants.",
+        "affiliation": "ECOstyle B.V., 8431 SM Oosterwolde, the Netherlands. Electronic address: w.kissels@ecostyle.nl.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Respiratory System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacteria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Doxycycline"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anti-Bacterial Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microbial Sensitivity Tests",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "VE",
+                    "qualifierName": "veterinary"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Essential oils",
+            "Tetracycline",
+            "Macrolide",
+            "Bovine Respiratory Disease"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anti-Bacterial Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Doxycycline",
+              "registryNumber": "N12000U13O"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.journalofdairyscience.org/article/S0022030216308979/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3168/jds.2016-11536"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 30,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-05-22",
+        "dateOfCreation": "2016-12-26",
+        "dateOfRevision": "2018-01-06",
+        "electronicPublicationDate": "2016-12-21",
+        "firstPublicationDate": "2016-12-21",
+        "firstIndexDate": "2016-12-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "23346763",
+        "source": "MED",
+        "pmid": "23346763",
+        "title": "Identification of CYP isoforms involved in the metabolism of thymol and carvacrol in human liver microsomes (HLMs).",
+        "authorString": "Dong RH, Fang ZZ, Zhu LL, Ge GB, Cao YF, Li XB, Hu CM, Yang L, Liu ZY.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dong RH",
+              "lastName": "Dong",
+              "firstName": "Rui-Hua",
+              "initials": "RH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Pharmacology, Affiliated Hospital, Academy of Military Medical Sciences, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fang ZZ",
+              "lastName": "Fang",
+              "firstName": "Zhong-Ze",
+              "initials": "ZZ"
+            },
+            {
+              "fullName": "Zhu LL",
+              "lastName": "Zhu",
+              "firstName": "Liang-Liang",
+              "initials": "LL"
+            },
+            {
+              "fullName": "Ge GB",
+              "lastName": "Ge",
+              "firstName": "Guang-Bo",
+              "initials": "GB"
+            },
+            {
+              "fullName": "Cao YF",
+              "lastName": "Cao",
+              "firstName": "Yun-Feng",
+              "initials": "YF"
+            },
+            {
+              "fullName": "Li XB",
+              "lastName": "Li",
+              "firstName": "Xiao-Bao",
+              "initials": "XB"
+            },
+            {
+              "fullName": "Hu CM",
+              "lastName": "Hu",
+              "firstName": "Cui-Min",
+              "initials": "CM"
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Ling",
+              "initials": "L"
+            },
+            {
+              "fullName": "Liu ZY",
+              "lastName": "Liu",
+              "firstName": "Ze-Yuan",
+              "initials": "ZY"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "67",
+          "journalIssueId": 2003692,
+          "dateOfPublication": "2012 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Pharmazie",
+            "title": "Die Pharmazie",
+            "essn": "0031-7144",
+            "issn": "0031-7144",
+            "isoabbreviation": "Pharmazie",
+            "nlmid": "9800766"
+          },
+          "printPublicationDate": "2012-12-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "1002-1006",
+        "abstractText": "Carvacrol and thymol are phenolic compounds with similar structures isolated from many aromatic plants, and have been demonstrated to exert multiple pharmacological effects. The metabolic and pharmacokinetic behaviour of thymol and carvacrol has received much attention. Carvacrol and thymol have been demonstrated to undergo phase I metabolism such as hydroxylation reaction. However, drug-metabolizing enzymes involved in this process remain unclear. Given that cytochrome P450s (CYPs) are involved in most phase I metabolism, the aim of the present study was to investigate the role of CYPs in the metabolism of thymol and carvacrol. After incubation with human liver microsomes (HLMs) in the presence of NADPH, a new metabolite and two metabolites were detected for thymol and carvacrol, respectively. A combination of chemical inhibition studies and assays with recombinant CYP isoforms demonstrated that CYP2A6 was the predominant drug-metabolizing enzyme involved in the metabolism of thymol and carvacrol. All these results remind the researchers that special attention should be paid on pharmacokinetic and clinical outcomes when thymol or carvacrol was co-administrated with other compounds mainly undergoing CYP2A6-mediated metabolism.",
+        "affiliation": "Department of Clinical Pharmacology, Affiliated Hospital, Academy of Military Medical Sciences, Beijing, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochromes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoenzymes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Recombinant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Indicators and Reagents"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Ultraviolet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cytochromes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Isoenzymes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Indicators and Reagents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Recombinant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 15,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-03-08",
+        "dateOfCreation": "2013-01-26",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "2012-12-01",
+        "firstIndexDate": "2013-01-26",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15222014",
+        "source": "MED",
+        "pmid": "15222014",
+        "doi": "10.1002/bip.20080",
+        "title": "Thymol and carvacrol binding to DNA: model for drug-DNA interaction.",
+        "authorString": "Nafisi Sh, Hajiakhoondi A, Yektadoost A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nafisi Sh",
+              "lastName": "Nafisi",
+              "firstName": "Sh",
+              "initials": "Sh",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Azad University, Tehran Central Branch, South Felestine Street, Below the Felestine Square, Tehran 14169 63316, Iran. drshohreh@yahoo.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hajiakhoondi A",
+              "lastName": "Hajiakhoondi",
+              "firstName": "A",
+              "initials": "A"
+            },
+            {
+              "fullName": "Yektadoost A",
+              "lastName": "Yektadoost",
+              "firstName": "A",
+              "initials": "A"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "74",
+          "journalIssueId": 1162123,
+          "dateOfPublication": "2004 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Biopolymers",
+            "title": "Biopolymers",
+            "essn": "1097-0282",
+            "issn": "0006-3525",
+            "isoabbreviation": "Biopolymers",
+            "nlmid": "0372525"
+          },
+          "printPublicationDate": "2004-08-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "345-351",
+        "abstractText": "Thymol and carvacrol can bind to major and minor grooves of B-DNA. The aim of this study was to examine the interaction of calf thymus DNA with thymol and carvacrol in aqueous solution and physiological pH with thymol/DNA and carvacrol/DNA (phosphate) molar ratios of 1/20, 1/10, 1/5, and 1/1. Fourier transform infrared and UV-visible difference spectroscopy were used to determine the thymol and carvacrol binding mode, binding constant, sequence selectivity, DNA secondary structure, and structural variations of thymol/DNA and carvacrol/DNA complexes in aqueous solution. Spectroscopic evidence showed that the thymol and carvacrol interaction occurred mainly through H-bonding of the thymol and carvacrol OH group to the guanine N7, cytosine N3, and backbone phosphate group with overall binding constant of K(thymol-DNA) = 2.43 x 10(3) M(-1), K(carvacrol-DNA) = 1.55 x 10(3) M(-1). In thymol and carvacrol-DNA complexes, DNA remains in the B-family structure.",
+        "affiliation": "Department of Chemistry, Azad University, Tehran Central Branch, South Felestine Street, Below the Felestine Square, Tehran 14169 63316, Iran. drshohreh@yahoo.com",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymus Gland",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cattle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monoterpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectroscopy, Fourier Transform Infrared"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spectrophotometry, Ultraviolet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nucleic Acid Conformation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen Bonding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen-Ion Concentration"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carvacrol",
+              "registryNumber": "9B1J4V995Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/bip.20080"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-09-08",
+        "dateOfCreation": "2004-06-29",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "2004-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16185724",
+        "source": "MED",
+        "pmid": "16185724",
+        "doi": "10.1016/j.neuropharm.2005.07.009",
+        "title": "Allosteric positive interaction of thymol with the GABAA receptor in primary cultures of mouse cortical neurons.",
+        "authorString": "García DA, Bujons J, Vale C, Suñol C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "García DA",
+              "lastName": "García",
+              "firstName": "Daniel A",
+              "initials": "DA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5282-2557"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurochemistry, Institut d'Investigacions Biomèdiques de Barcelona, CSIC-IDIBAPS, Rosselló 161, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bujons J",
+              "lastName": "Bujons",
+              "firstName": "Jordi",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2944-2905"
+              }
+            },
+            {
+              "fullName": "Vale C",
+              "lastName": "Vale",
+              "firstName": "Carmen",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9842-6223"
+              }
+            },
+            {
+              "fullName": "Suñol C",
+              "lastName": "Suñol",
+              "firstName": "Cristina",
+              "initials": "C"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5282-2557"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9367-8483"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9842-6223"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2944-2905"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "50",
+          "journalIssueId": 1291310,
+          "dateOfPublication": "2006 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Neuropharmacology",
+            "title": "Neuropharmacology",
+            "essn": "1873-7064",
+            "issn": "0028-3908",
+            "isoabbreviation": "Neuropharmacology",
+            "nlmid": "0236217"
+          },
+          "printPublicationDate": "2006-01-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "25-35",
+        "abstractText": "Thymol is a naturally occurring phenolic monoterpene known for its anti-microbial and anti-oxidant properties. It is used in dental practice and in anaesthetic halothane preparations. Recent studies have reported enhanced GABA(A) receptor-operated chloride channel activity and increased binding affinity of [(3)H]flunitrazepam in the presence of thymol. In the present work, we more closely examined the pharmacological action of thymol on the native GABA(A) receptor by using primary cultures of cortical neurons. Thymol enhanced GABA-induced (5 microM) chloride influx at concentrations lower than those exhibiting direct activity in the absence of GABA (EC(50) = 12 microM and 135 microM, respectively). This direct effect was inhibited by competitive and non-competitive GABA(A) receptor antagonists. Thymol increased [(3)H]flunitrazepam binding (EC(50) = 131 microM) and showed a tendency to increase [(3)H]muscimol binding. These results confirm that thymol is a positive allosteric modulator of the GABA(A) receptor. The thymol structural analogues menthol and cymene, which lack an aromatic ring or a hydroxyl group, did not affect [(3)H]flunitrazepam binding. Using a pharmacophoric model that includes a hydrogen bond donor group as well as an aromatic ring with two aliphatic substituents, we propose to demonstrate the molecular essential features of these compounds to interact with GABA(A) receptors. Thymol (0-1 mM) did not affect cellular viability.",
+        "affiliation": "Department of Neurochemistry, Institut d'Investigacions Biomèdiques de Barcelona, CSIC-IDIBAPS, Rosselló 161, Spain.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cerebral Cortex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neurons",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "gamma-Aminobutyric Acid",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Propofol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscimol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flunitrazepam",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Propidium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "L-Lactate Dehydrogenase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chloride Channels",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, GABA-A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "GABA Agonists",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "GABA Modulators",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anesthetics, Intravenous",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neurotoxins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pregnancy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Neurological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "L-Lactate Dehydrogenase",
+              "registryNumber": "EC 1.1.1.27"
+            },
+            {
+              "name": "gamma-Aminobutyric Acid",
+              "registryNumber": "56-12-2"
+            },
+            {
+              "name": "Neurotoxins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Muscimol",
+              "registryNumber": "2763-96-4"
+            },
+            {
+              "name": "Propidium",
+              "registryNumber": "36015-30-2"
+            },
+            {
+              "name": "Receptors, GABA-A",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anesthetics, Intravenous",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Chloride Channels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "GABA Agonists",
+              "registryNumber": "0"
+            },
+            {
+              "name": "GABA Modulators",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Propofol",
+              "registryNumber": "YI7VU623SF"
+            },
+            {
+              "name": "Flunitrazepam",
+              "registryNumber": "620X0222FQ"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.neuropharm.2005.07.009"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 75,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-05-01",
+        "dateOfCreation": "2005-09-28",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2005-09-26",
+        "firstPublicationDate": "2005-09-26",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15113155",
+        "source": "MED",
+        "pmid": "15113155",
+        "doi": "10.1021/jf035386m",
+        "title": "Metabolism of thymol and trans-anethole in larvae of Spodoptera litura and Trichoplusia ni (Lepidoptera: Noctuidae).",
+        "authorString": "Passreiter CM, Wilson J, Andersen R, Isman MB.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Passreiter CM",
+              "lastName": "Passreiter",
+              "firstName": "Claus M",
+              "initials": "CM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8006-0166"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut für Pharmazeutische Biologie, Heinrich-Heine-Universität, Düsseldorf, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilson J",
+              "lastName": "Wilson",
+              "firstName": "Joanne",
+              "initials": "J"
+            },
+            {
+              "fullName": "Andersen R",
+              "lastName": "Andersen",
+              "firstName": "Raymond",
+              "initials": "R"
+            },
+            {
+              "fullName": "Isman MB",
+              "lastName": "Isman",
+              "firstName": "Murray B",
+              "initials": "MB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3285-1315"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8006-0166"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3285-1315"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "52",
+          "journalIssueId": 1144124,
+          "dateOfPublication": "2004 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2004-05-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "2549-2551",
+        "abstractText": "Metabolism of the monoterpenoid thymol and the phenylpropanoid trans-anethole, both constituents of essential oils, was investigated following topical and oral administration of the compounds to the tobacco cutworm (Spodoptera litura) and the cabbage looper (Trichoplusia ni). In both species and irrespective of route, administration of thymol resulted in the excretion of its 3-O-beta-glucoside, whereas trans-anethole was hydroxylated on the side chain methyl group. Both metabolites were isolated and their structures elucidated by interpretation of their mass and NMR spectra. Previous experiments indicated that trans-anethole synergized the toxicity of thymol in S. litura, but analyses of feces indicated that metabolism of thymol was not significantly suppressed when the two compounds were orally coadministered to T. ni larvae.",
+        "affiliation": "Institut für Pharmazeutische Biologie, Heinrich-Heine-Universität, Düsseldorf, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lepidoptera",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spodoptera",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anisoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Larva",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Allylbenzene Derivatives"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Anisoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "anethole",
+              "registryNumber": "Q3JEK5DO4K"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "Allylbenzene Derivatives",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/jf035386m"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 22,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-06-28",
+        "dateOfCreation": "2004-04-29",
+        "dateOfRevision": "2021-12-03",
+        "firstPublicationDate": "2004-05-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "2959918",
+        "source": "MED",
+        "pmid": "2959918",
+        "doi": "10.1111/j.1600-0773.1987.tb01783.x",
+        "title": "Metabolism in rats of p-cymene derivatives: carvacrol and thymol.",
+        "authorString": "Austgulen LT, Solheim E, Scheline RR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Austgulen LT",
+              "lastName": "Austgulen",
+              "firstName": "L T",
+              "initials": "LT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Toxicology, School of Medicine, University of Bergen, Norway."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Solheim E",
+              "lastName": "Solheim",
+              "firstName": "E",
+              "initials": "E"
+            },
+            {
+              "fullName": "Scheline RR",
+              "lastName": "Scheline",
+              "firstName": "R R",
+              "initials": "RR"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "61",
+          "journalIssueId": 865016,
+          "dateOfPublication": "1987 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 1987,
+          "journal": {
+            "medlineAbbreviation": "Pharmacol Toxicol",
+            "title": "Pharmacology & toxicology",
+            "essn": "1600-0773",
+            "issn": "0901-9928",
+            "isoabbreviation": "Pharmacol Toxicol",
+            "nlmid": "8702180"
+          },
+          "printPublicationDate": "1987-08-01"
+        },
+        "pubYear": "1987",
+        "pageInfo": "98-102",
+        "abstractText": "The metabolism of carvacrol and thymol in rats was studied using gas chromatographic-mass spectrometric methods. The urinary excretion of metabolites was rapid. Only very small amounts were excreted after 24 hrs. Although large quantities of carvacrol and, especially, thymol were excreted unchanged (or as their glucuronide and sulphate conjugates), extensive oxidation of the methyl and isopropyl groups also occurred. This resulted in the formation of derivatives of benzyl alcohol and 2-phenylpropanol and their corresponding carboxylic acids. In contrast, ring hydroxylation of the two phenols was a minor reaction.",
+        "affiliation": "Department of Pharmacology and Toxicology, School of Medicine, University of Bergen, Norway.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Terpenes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Monoterpenes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UR",
+                    "qualifierName": "urine"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxylation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cymenes"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Terpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Monoterpenes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "4-cymene",
+              "registryNumber": "1G1C8T1N7Q"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            },
+            {
+              "name": "Cymenes",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/j.1600-0773.1987.tb01783.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 56,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1987-12-15",
+        "dateOfCreation": "1987-08-01",
+        "dateOfRevision": "2019-12-10",
+        "firstPublicationDate": "1987-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "4303067",
+        "source": "MED",
+        "pmid": "4303067",
+        "pmcid": "PMC1187451",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC1187451"
+          ]
+        },
+        "doi": "10.1042/bj1100755",
+        "title": "The metabolism of thymol by a Pseudomonas.",
+        "authorString": "Chamberlain EM, Dagley S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chamberlain EM",
+              "lastName": "Chamberlain",
+              "firstName": "E M",
+              "initials": "EM"
+            },
+            {
+              "fullName": "Dagley S",
+              "lastName": "Dagley",
+              "firstName": "S",
+              "initials": "S"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "110",
+          "journalIssueId": 272922,
+          "dateOfPublication": "1968 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 1968,
+          "journal": {
+            "medlineAbbreviation": "Biochem J",
+            "title": "The Biochemical journal",
+            "essn": "1470-8728",
+            "issn": "0264-6021",
+            "isoabbreviation": "Biochem J",
+            "nlmid": "2984726R"
+          },
+          "printPublicationDate": "1968-12-01"
+        },
+        "pubYear": "1968",
+        "pageInfo": "755-763",
+        "abstractText": "1. Pseudomonas putida when grown with thymol contained a meta-fission dioxygenase, which required ferrous ions and readily cleaved the benzene nucleus of catechols between adjacent carbon atoms bearing hydroxyl and isopropyl groups. 2. 3-Hydroxythymo-1,4-quinone was excreted towards the end of exponential growth and later was slowly metabolized. This compound was oxidized by partially purified extracts only when NADH was supplied; the substrate for the dioxygenase appeared to be 3-hydroxythymo-1,4-quinol, which was readily and non-enzymically oxidized to the quinone. 3. 2-Oxobutyrate (0.9 mole) was formed from 1 mole of 3-hydroxythymo-1,4-quinone with the consumption of 1 mole of oxygen; acetate, isobutyrate and 2-hydroxybutyrate (which arose from the enzymic reduction of 2-oxobutyrate) were also formed. 4. These products, which were produced only when the catechol substrate contained a third hydroxyl group, appeared to result from the enzymic hydrolysis of the ring-fission product.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pseudomonas",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Iron",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acetates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Butyrates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxybutyrates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thymol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quinones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NAD",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygenases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygen Consumption"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Acetates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Quinones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hydroxybutyrates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Butyrates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxygenases",
+              "registryNumber": "EC 1.13.-"
+            },
+            {
+              "name": "NAD",
+              "registryNumber": "0U46U6E8UK"
+            },
+            {
+              "name": "Iron",
+              "registryNumber": "E1UOL152H7"
+            },
+            {
+              "name": "Thymol",
+              "registryNumber": "3J50XA376E"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc1187451?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc1187451?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc1187451?pdf=render"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1042/bj1100755"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1187451"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1187451?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1042/bj1100755"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1969-03-05",
+        "dateOfCreation": "1968-12-01",
+        "dateOfRevision": "2019-05-01",
+        "firstPublicationDate": "1968-12-01",
+        "firstIndexDate": "2009-12-24",
+        "fullTextReceivedDate": "2026-10-13",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

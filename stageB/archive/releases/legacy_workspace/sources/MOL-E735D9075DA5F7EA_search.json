@@ -1,0 +1,2702 @@
+{
+  "version": "6.9",
+  "hitCount": 8,
+  "request": {
+    "queryString": "TITLE_ABS:\"Alpha-Tocopherol (Vitamin E)\" AND (TITLE_ABS:\"drug interaction\" OR TITLE_ABS:pharmacokinetic OR TITLE_ABS:cytochrome OR TITLE_ABS:transporter OR TITLE_ABS:\"enzyme inhibition\" OR TITLE_ABS:\"drug absorption\")",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35150738",
+        "source": "MED",
+        "pmid": "35150738",
+        "pmcid": "PMC8913317",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8913317"
+          ]
+        },
+        "doi": "10.1016/j.jbc.2022.101712",
+        "title": "The tocopherol transfer protein mediates vitamin E trafficking between cerebellar astrocytes and neurons.",
+        "authorString": "Ulatowski L, Ghelfi M, West R, Atkinson J, Finno CJ, Manor D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ulatowski L",
+              "lastName": "Ulatowski",
+              "firstName": "L",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1495-293X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biology, Ursuline College, Pepper Pike, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ghelfi M",
+              "lastName": "Ghelfi",
+              "firstName": "Mikel",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8238-9560"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Brock University, St Catharines, Ontario, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "West R",
+              "lastName": "West",
+              "firstName": "Ryan",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Brock University, St Catharines, Ontario, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Atkinson J",
+              "lastName": "Atkinson",
+              "firstName": "J",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3710-4893"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, Brock University, St Catharines, Ontario, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Finno CJ",
+              "lastName": "Finno",
+              "firstName": "C J",
+              "initials": "CJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5924-0234"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Population Health and Reproduction, University of California School of Veterinary Medicine, Davis, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Manor D",
+              "lastName": "Manor",
+              "firstName": "D",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departments of Nutrition and Pharmacology, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA; Case Comprehensive Cancer Center, Cleveland, Ohio, USA. Electronic address: dxm178@case.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5924-0234"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1495-293X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8238-9560"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3710-4893"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "298",
+          "journalIssueId": 3324225,
+          "dateOfPublication": "2022 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "J Biol Chem",
+            "title": "The Journal of biological chemistry",
+            "essn": "1083-351X",
+            "issn": "0021-9258",
+            "isoabbreviation": "J Biol Chem",
+            "nlmid": "2985121R"
+          },
+          "printPublicationDate": "2022-03-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "101712",
+        "abstractText": "Alpha-tocopherol (vitamin E) is an essential nutrient that functions as a major lipid-soluble antioxidant in humans. The alpha-tocopherol transfer protein (TTP) binds α-tocopherol with high affinity and selectivity and regulates whole-body distribution of the vitamin. Heritable mutations in the TTPA gene result in familial vitamin E deficiency, elevated indices of oxidative stress, and progressive neurodegeneration that manifest primarily in spinocerebellar ataxia. Although the essential role of vitamin E in neurological health has been recognized for over 50 years, the mechanisms by which this essential nutrient is transported in the central nervous system are poorly understood. Here we found that, in the murine cerebellum, TTP is selectively expressed in glial fibrillary acidic protein-positive astrocytes, where it facilitates efflux of vitamin E to neighboring neurons. We also show that induction of oxidative stress enhances the transcription of the TtpA gene in cultured cerebellar astrocytes. Furthermore, secretion of vitamin E from astrocytes is mediated by an ABC-type transporter, and uptake of the vitamin into neurons involves the low-density lipoprotein receptor-related protein 1. Taken together, our data indicate that TTP-expressing astrocytes control the delivery of vitamin E from astrocytes to neurons, and that this process is homeostatically responsive to oxidative stress. These are the first observations that address the detailed molecular mechanisms of vitamin E transport in the central nervous system, and these results have important implications for understanding the molecular underpinnings of oxidative stress-related neurodegenerative diseases.",
+        "affiliation": "Department of Biology, Ursuline College, Pepper Pike, Ohio, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "DK125115",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK067494",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "T32 DK007319",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "T32DK007319",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "R01 DK125115",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "grantId": "DK067494",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cerebellum",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Astrocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neurons",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Vitamin E",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tocopherols"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "alpha-Tocopherol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Carrier Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP-Binding Cassette Transporters",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Vitamin E",
+            "Tocopherol",
+            "Lipid Transport",
+            "Lipid Trafficking",
+            "Tocopherol Transfer Protein"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "alpha-tocopherol transfer protein",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Vitamins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Vitamin E",
+              "registryNumber": "1406-18-4"
+            },
+            {
+              "name": "Carrier Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tissue Plasminogen Activator",
+              "registryNumber": "EC 3.4.21.68"
+            },
+            {
+              "name": "ATP-Binding Cassette Transporters",
+              "registryNumber": "0"
+            },
+            {
+              "name": "alpha-Tocopherol",
+              "registryNumber": "H4N855PNZ1"
+            },
+            {
+              "name": "Tocopherols",
+              "registryNumber": "R0ZB2556P8"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jbc.2022.101712"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8913317"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8913317?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 26,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-04-15",
+        "dateOfCreation": "2022-02-12",
+        "dateOfRevision": "2022-05-31",
+        "electronicPublicationDate": "2022-02-09",
+        "firstPublicationDate": "2022-02-09",
+        "firstIndexDate": "2022-02-13",
+        "fullTextReceivedDate": "2022-03-21",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "28062356",
+        "source": "MED",
+        "pmid": "28062356",
+        "doi": "10.1016/j.tiv.2016.12.014",
+        "title": "CYP4F2 repression and a modified alpha-tocopherol (vitamin E) metabolism are two independent consequences of ethanol toxicity in human hepatocytes.",
+        "authorString": "Russo A, Bartolini D, Torquato P, Giusepponi D, Barola C, Galarini R, Birringer M, Lorkowski S, Galli F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Russo A",
+              "lastName": "Russo",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, University of Perugia, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bartolini D",
+              "lastName": "Bartolini",
+              "firstName": "D",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3849-757X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, University of Perugia, Italy. Electronic address: desirex85@hotmail.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Torquato P",
+              "lastName": "Torquato",
+              "firstName": "P",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5218-4356"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, University of Perugia, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giusepponi D",
+              "lastName": "Giusepponi",
+              "firstName": "D",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6213-9161"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Istituto Zooprofilattico Sperimentale dell'Umbria e delle Marche (IZSUM), Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barola C",
+              "lastName": "Barola",
+              "firstName": "C",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2519-0798"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, University of Perugia, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Galarini R",
+              "lastName": "Galarini",
+              "firstName": "R",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1575-4756"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Istituto Zooprofilattico Sperimentale dell'Umbria e delle Marche (IZSUM), Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Birringer M",
+              "lastName": "Birringer",
+              "firstName": "M",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0343-4704"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nutritional, Food and Consumer Sciences, Fulda University of Applied Sciences, Leipziger Straße 123, 36037 Fulda, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lorkowski S",
+              "lastName": "Lorkowski",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9649-840X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Nutrition, Friedrich Schiller University Jena, Dornburger Str. 25, 07743 Jena, Germany; Competence Cluster for Nutrition and Cardiovascular Health (nutriCARD), Halle-Jena-Leipzig, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Galli F",
+              "lastName": "Galli",
+              "firstName": "F",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3626-051X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Sciences, University of Perugia, Italy."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5218-4356"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6213-9161"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9649-840X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0343-4704"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1575-4756"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2519-0798"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3626-051X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3849-757X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "40",
+          "journalIssueId": 2533177,
+          "dateOfPublication": "2017 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Toxicol In Vitro",
+            "title": "Toxicology in vitro : an international journal published in association with BIBRA",
+            "essn": "1879-3177",
+            "issn": "0887-2333",
+            "isoabbreviation": "Toxicol In Vitro",
+            "nlmid": "8712158"
+          },
+          "printPublicationDate": "2017-04-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "124-133",
+        "abstractText": "The expression of CYP4F2, a form of cytochrome P-450 with proposed role in α-tocopherol and long-chain fatty acid metabolism, was explored in HepG2 and HepaRG human hepatocytes during ethanol toxicity. Cytotoxicity, ROS production, and JNK and ERK1/2 kinase signaling increased in a dose and time-dependent manner during ethanol treatments; CYP4F2 gene expression decreased, while other CYP4F forms, namely 4F11 and 12, increased along with 3A4 and 2E1 isoforms. α-Tocopherol antagonized the cytotoxicity and CYP4F2 gene repression effect of ethanol in HepG2 cells. Ethanol stimulated the tocopherol-ω-hydroxylase activity and the other steps of vitamin E metabolism, which points to a minor role of CYP4F2 in this metabolism of human hepatocytes. PPAR-γ and SREBP-1c followed the same expression pattern of CYP4F2 in response to ethanol and α-tocopherol treatments. Moreover, the pharmacological inhibition of PPAR-γ synergized with ethanol in decreasing CYP4F2 protein expression, which suggests a role of this nuclear receptor in CYP4F2 transcriptional regulation. In conclusion, ethanol toxicity modifies the CYP expression pattern of human hepatic cells impairing CYP4F2 transcription and protein expression. These changes were associated with a lowered expression of the fatty acid biosynthesis regulators PPAR-γ and SREBP-1c, and with an increased enzymatic catabolism of vitamin E. CYP4F2 gene repression and a sustained vitamin E metabolism appear to be independent effects of ethanol toxicity in human hepatocytes.",
+        "affiliation": "Department of Pharmaceutical Sciences, University of Perugia, Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Italian Ministry of University and Research",
+              "grantId": "CTN01_00230_413096",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hepatocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ethanol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "alpha-Tocopherol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "PPAR gamma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sterol Regulatory Element Binding Protein 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hep G2 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Ethanol",
+            "α-tocopherol",
+            "Cyp4f2",
+            "Ppar-γ",
+            "Srebp-1",
+            "Alcohol Liver Disease"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "PPAR gamma",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sterol regulatory element binding protein 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Ethanol",
+              "registryNumber": "3K9958V90M"
+            },
+            {
+              "name": "alpha-Tocopherol",
+              "registryNumber": "H4N855PNZ1"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.tiv.2016.12.014"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-07-26",
+        "dateOfCreation": "2017-01-08",
+        "dateOfRevision": "2017-07-26",
+        "electronicPublicationDate": "2017-01-03",
+        "firstPublicationDate": "2017-01-03",
+        "firstIndexDate": "2017-01-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "18547170",
+        "source": "MED",
+        "pmid": "18547170",
+        "doi": "10.1042/ba20080041",
+        "title": "Angiotensin-converting enzyme inhibitory and antioxidant activities of enzymatically synthesized phenolic and vitamin glycosides.",
+        "authorString": "Charles RE, Ponrasu T, Sivakumar R, Divakar S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Charles RE",
+              "lastName": "Charles",
+              "firstName": "Rajachristu Einstein",
+              "initials": "RE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Fermentation Technology and Bioengineering, Central Food Technological Research Institute, Council of Scientific and Industrial Research, Mysore 570 020, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ponrasu T",
+              "lastName": "Ponrasu",
+              "firstName": "Thangavel",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2339-9993"
+              }
+            },
+            {
+              "fullName": "Sivakumar R",
+              "lastName": "Sivakumar",
+              "firstName": "Ramaiah",
+              "initials": "R"
+            },
+            {
+              "fullName": "Divakar S",
+              "lastName": "Divakar",
+              "firstName": "Soundar",
+              "initials": "S"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7440-580X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2339-9993"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "Pt 3",
+          "volume": "52",
+          "journalIssueId": 1596340,
+          "dateOfPublication": "2009 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "Biotechnol Appl Biochem",
+            "title": "Biotechnology and applied biochemistry",
+            "essn": "1470-8744",
+            "issn": "0885-4513",
+            "isoabbreviation": "Biotechnol Appl Biochem",
+            "nlmid": "8609465"
+          },
+          "printPublicationDate": "2009-03-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "177-184",
+        "abstractText": "Amyloglucosidase from Rhizopus mould and beta-glucosidase from sweet almond were employed for the preparation of phenolic and vitamin glycosides of vanillin, N-vanillylnonanamide, DL-dopa, dopamine, curcumin, alpha-tocopherol (vitamin E), pyridoxine (vitamin B(6)), ergocalciferol (vitamin D(2)), thiamin (vitamin B(1)) and riboflavin (vitamin B(2)). Approx. 20 enzymatically prepared phenolic and vitamin glycosides were subjected to ACE (angiotensin-converting enzyme) inhibition activity measurements, and 14 glycosides were tested for antioxidant activities. Both phenolic and vitamin glycosides exhibited IC(50) values for ACE inhibition in the 0.52+/-0.03-3.33+/-0.17 mM range and antioxidant activities ranging from 0.8+/-0.04 to 1.18+/-0.06 mM. Comparable ACE inhibition values were observed between free phenols and vitamin glycosides. However, antioxidant activities of glycosides were, in general, lesser than those of free phenols. Best IC(50) value for ACE inhibition were observed for 11-O-(D-fructofuranosyl)thiamin (0.52+/-0.03 mM), 3-hydroxy-4-O-(6-D-sorbitol)phenylalanine (0.56+/-0.03 mM), 4-O-(beta-D-glucopyranosyl)vanillin (0.61+/-0.03 mM), 4-O-(D-galactopyranosyl)vanillin (0.61+/-0.03 mM) and pyridoxine-D-glucoside (0.84+/-0.04 mM). Similarly, best IC(50) values for antioxidant activity were observed for 1,7-O-(bis-beta-D-glucopyranosyl)curcumin (0.8+/-0.04 mM), 4-O-(beta-D-glucopyranosyl)vanillin (0.9+/-0.05 mM), 3-hydroxy-4-O-(beta-D-galactopyranosyl-(1'-->4)beta-D-glucopyranosyl)phenylalanine (0.9+/-0.05 mM), 20-O-(D-glucopyranosyl)ergocalciferol (0.9+/-0.05 mM) and dopamine-D-galactoside (0.93+/-0.05 mM).",
+        "affiliation": "Fermentation Technology and Bioengineering, Central Food Technological Research Institute, Council of Scientific and Industrial Research, Mysore 570 020, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhizopus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prunus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phenols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta-Glucosidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucan 1,4-alpha-Glucosidase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peptidyl-Dipeptidase A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycosides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Angiotensin-Converting Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nuclear Magnetic Resonance, Biomolecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inhibitory Concentration 50"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Vitamins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Phenols",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glycosides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "beta-Glucosidase",
+              "registryNumber": "EC 3.2.1.21"
+            },
+            {
+              "name": "Angiotensin-Converting Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucan 1,4-alpha-Glucosidase",
+              "registryNumber": "EC 3.2.1.3"
+            },
+            {
+              "name": "Peptidyl-Dipeptidase A",
+              "registryNumber": "EC 3.4.15.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "www.babonline.org",
+              "url": "http://www.babonline.org/bab/052/bab0520177.htm"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "html",
+              "site": "www.babonline.org",
+              "url": "http://www.babonline.org/bab/052/0177/bab0520177.htm"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1042/BA20080041"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2009-07-13",
+        "dateOfCreation": "2008-06-13",
+        "dateOfRevision": "2009-02-06",
+        "firstPublicationDate": "2009-03-01",
+        "firstIndexDate": "2009-07-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11222084",
+        "source": "MED",
+        "pmid": "11222084",
+        "doi": "10.1006/taap.2000.9114",
+        "title": "Polychlorinated biphenyl-induced effects on metabolic enzymes, AP-1 binding, vitamin E, and oxidative stress in the rat liver.",
+        "authorString": "Twaroski TP, O'Brien ML, Larmonier N, Glauert HP, Robertson LW.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Twaroski TP",
+              "lastName": "Twaroski",
+              "firstName": "T P",
+              "initials": "TP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate Center for Toxicology, University of Kentucky, 306 Health Sciences Research Building, Lexington, KY 40536-0305, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "O'Brien ML",
+              "lastName": "O'Brien",
+              "firstName": "M L",
+              "initials": "ML"
+            },
+            {
+              "fullName": "Larmonier N",
+              "lastName": "Larmonier",
+              "firstName": "N",
+              "initials": "N"
+            },
+            {
+              "fullName": "Glauert HP",
+              "lastName": "Glauert",
+              "firstName": "H P",
+              "initials": "HP"
+            },
+            {
+              "fullName": "Robertson LW",
+              "lastName": "Robertson",
+              "firstName": "L W",
+              "initials": "LW"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "171",
+          "journalIssueId": 952656,
+          "dateOfPublication": "2001 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2001,
+          "journal": {
+            "medlineAbbreviation": "Toxicol Appl Pharmacol",
+            "title": "Toxicology and applied pharmacology",
+            "essn": "1096-0333",
+            "issn": "0041-008X",
+            "isoabbreviation": "Toxicol Appl Pharmacol",
+            "nlmid": "0416575"
+          },
+          "printPublicationDate": "2001-03-01"
+        },
+        "pubYear": "2001",
+        "pageInfo": "85-93",
+        "abstractText": "Environmental pollutants, such as polychlorinated biphenyls (PCBs), may induce drug metabolism and may be substrates for the induced metabolic enzymes. Both processes may lead to oxidative stress. The goal of this study was to determine the influence of polychlorinated biphenyls, selected as inducers and substrates of drug metabolism, on oxidative events within the liver over a 3-week time course. Male and female Sprague-Dawley rats received two ip injections per week of 4-chlorobiphenyl, 2,4,4'-trichlorobiphenyl, 3,4,5-trichlorobiphenyl, 3,3',4,4'-tetrachlorobiphenyl (PCB 77), 2,2',4,4',5,5'-hexachlorobiphenyl (PCB 153), or both PCB 77 and 153 (100 micromol/kg/injection) and were euthanized at the end of 1, 2, or 3 weeks. Hepatic cytochrome P450 1A1 (EROD) activity, DT-diaphorase activity, AP-1 DNA-binding activity, conjugated dienes, and alpha-tocopherol (vitamin E) as well as alpha-tocopheryl quinone (oxidized vitamin E) were determined. While the lower chlorinated biphenyls (at these doses and times) showed little or no effect on these oxidative stress parameters, both CYP 1A1 and DT-diaphorase activities were significantly increased in both male and female rats receiving PCB 77, a ligand for the aryl hydrocarbon receptor. In addition, the DNA-binding activity of the transcription factor AP-1 was increased in rats treated with PCB 77 or PCB 153. Within the lipid fraction there was no significant increase observed in conjugated diene concentrations, but there was a significant increase in alpha-tocopheryl quinone upon treatment with all PCBs tested. These data indicate that alpha-tocopheryl quinone may be a sensitive marker for PCB exposure and is possibly increased by a wide range of PCBs.",
+        "affiliation": "Graduate Center for Toxicology, University of Kentucky, 306 Health Sciences Research Building, Lexington, KY 40536-0305, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "T32 ES 07266",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIEHS NIH HHS",
+              "acronym": "ES",
+              "grantId": "P42 ES 07380",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Nucleus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polychlorinated Biphenyls",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin E",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP1A1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NAD(P)H Dehydrogenase (Quinone)",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription Factor AP-1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Environmental Pollutants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organ Size",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oxidative Stress"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gas Chromatography-Mass Spectrometry"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "tocopherylquinone",
+              "registryNumber": "7559-04-8"
+            },
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Vitamin E",
+              "registryNumber": "1406-18-4"
+            },
+            {
+              "name": "Environmental Pollutants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 CYP1A1",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Transcription Factor AP-1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NAD(P)H Dehydrogenase (Quinone)",
+              "registryNumber": "EC 1.6.5.2"
+            },
+            {
+              "name": "Polychlorinated Biphenyls",
+              "registryNumber": "DFC2HB4I0K"
+            },
+            {
+              "name": "2,4,5,2',4',5'-hexachlorobiphenyl",
+              "registryNumber": "ZRU0C9E32O"
+            },
+            {
+              "name": "3,4,3',4'-tetrachlorobiphenyl",
+              "registryNumber": "Y2I6546TMI"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1006/taap.2000.9114"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 53,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2001-03-29",
+        "dateOfCreation": "2001-02-27",
+        "dateOfRevision": "2016-11-24",
+        "firstPublicationDate": "2001-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "121247",
+        "source": "MED",
+        "pmid": "121247",
+        "title": "[Effect of alpha-tocopherol (vitamin E) on the utilization of vitamin A and induction of cytochrome P 450 in rats receiving DDT].",
+        "authorString": "Truhaut R, Ferrando R, Fourlon C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Truhaut R",
+              "lastName": "Truhaut",
+              "firstName": "R",
+              "initials": "R"
+            },
+            {
+              "fullName": "Ferrando R",
+              "lastName": "Ferrando",
+              "firstName": "R",
+              "initials": "R"
+            },
+            {
+              "fullName": "Fourlon C",
+              "lastName": "Fourlon",
+              "firstName": "C",
+              "initials": "C"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "289",
+          "journalIssueId": 311177,
+          "dateOfPublication": "1979 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 1979,
+          "journal": {
+            "medlineAbbreviation": "C R Seances Acad Sci D",
+            "title": "Comptes rendus des seances de l'Academie des sciences. Serie D, Sciences naturelles",
+            "issn": "0567-655X",
+            "isoabbreviation": "C R Seances Acad Sci D",
+            "nlmid": "8108552"
+          },
+          "printPublicationDate": "1979-11-01"
+        },
+        "pubYear": "1979",
+        "pageInfo": "845-847",
+        "abstractText": "During detoxication processes of DDT, there is, in the Rat, interference between vitamins A and E (D.1.alpha-tocopherol acetate). Vitamin E spares retinal and has a slighter but significant influence on P 450 cytochrome induction. These results are discussed.",
+        "publicationStatus": "ppublish",
+        "language": "fre",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "English Abstract"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin A Deficiency",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DDT",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin E",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Vitamin A",
+              "registryNumber": "11103-57-4"
+            },
+            {
+              "name": "Vitamin E",
+              "registryNumber": "1406-18-4"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "DDT",
+              "registryNumber": "CIW5S16655"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1980-09-23",
+        "dateOfCreation": "1979-11-12",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "1979-11-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9705746",
+        "source": "MED",
+        "pmid": "9705746",
+        "doi": "10.1021/tx970129v",
+        "title": "Alpha-tocopherol induces oxidative damage to DNA in the presence of copper(II) ions.",
+        "authorString": "Yamashita N, Murata M, Inoue S, Burkitt MJ, Milne L, Kawanishi S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yamashita N",
+              "lastName": "Yamashita",
+              "firstName": "N",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Hygiene, Mie University School of Medicine, Tsu, Mie 514, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Murata M",
+              "lastName": "Murata",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Inoue S",
+              "lastName": "Inoue",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Burkitt MJ",
+              "lastName": "Burkitt",
+              "firstName": "M J",
+              "initials": "MJ"
+            },
+            {
+              "fullName": "Milne L",
+              "lastName": "Milne",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Kawanishi S",
+              "lastName": "Kawanishi",
+              "firstName": "S",
+              "initials": "S"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "11",
+          "journalIssueId": 926688,
+          "dateOfPublication": "1998 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 1998,
+          "journal": {
+            "medlineAbbreviation": "Chem Res Toxicol",
+            "title": "Chemical research in toxicology",
+            "essn": "1520-5010",
+            "issn": "0893-228X",
+            "isoabbreviation": "Chem Res Toxicol",
+            "nlmid": "8807448"
+          },
+          "printPublicationDate": "1998-08-01"
+        },
+        "pubYear": "1998",
+        "pageInfo": "855-862",
+        "abstractText": "There is currently much interest in the possibility that dietary antioxidants may confer protection from certain diseases, such as atherosclerosis and cancer. The importance of alpha-tocopherol (vitamin E) as a biological antioxidant is widely recognized. However, pro-oxidant properties of alpha-tocopherol have been observed in chemical systems, and it has been reported that the vitamin can induce tumor formation and act as a complete tumor promotor in laboratory animals. In the present communication, we find that alpha-tocopherol can act as a potent DNA-damaging agent in the presence of copper(II) ions, using a simplified, in vitro model. alpha-Tocopherol was found to promote copper-dependent reactive oxygen species formation from molecular oxygen, resulting in DNA base oxidation and backbone cleavage. Neither alpha-tocopherol nor Cu(II) alone induced DNA damage. Bathocuproine, a Cu(I)-specific chelator, and catalase inhibited the DNA damage, whereas free hydroxyl radical scavengers did not. The order of DNA cleavage sites was thymine, cytosine > guanine residues. Examinations using an oxygen electrode and cytochrome c indicate that molecular oxygen was consumed in the reaction of alpha-tocopherol and Cu(II) and that superoxide was formed. Stoichiometry studies showed that two Cu(II) ions could be reduced by each alpha-tocopherol molecule. Electron spin resonance spin-trapping investigations were then used to demonstrate that hydrogen peroxide interacts with Cu(I) to generate the reactive species responsible for DNA damage, which is either the hydroxyl radical or a species of similar reactivity. These findings may be of relevance to the tumorigenic properties of the vitamin reported in the literature. However, further studies are required to establish the significance of these reactions under in vivo conditions.",
+        "affiliation": "Department of Hygiene, Mie University School of Medicine, Tsu, Mie 514, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "DNA Damage"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Superoxides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Copper",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin E",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liposomes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genes, p53"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Vitamin E",
+              "registryNumber": "1406-18-4"
+            },
+            {
+              "name": "Liposomes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Superoxides",
+              "registryNumber": "11062-77-4"
+            },
+            {
+              "name": "Oxygen",
+              "registryNumber": "S88TT14065"
+            },
+            {
+              "name": "Copper",
+              "registryNumber": "789U1901C5"
+            },
+            {
+              "name": "cupric chloride",
+              "registryNumber": "S2QG84156O"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/tx970129v"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 67,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1998-09-28",
+        "dateOfCreation": "1998-08-26",
+        "dateOfRevision": "2016-11-24",
+        "firstPublicationDate": "1998-08-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "2557330",
+        "source": "MED",
+        "pmid": "2557330",
+        "doi": "10.1016/s0021-9258(20)88204-0",
+        "title": "Mitochondrial electron transport-linked tocopheroxyl radical reduction.",
+        "authorString": "Maguire JJ, Wilson DS, Packer L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Maguire JJ",
+              "lastName": "Maguire",
+              "firstName": "J J",
+              "initials": "JJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lawrence Berkeley Laboratory, University of California, Berkeley 94720."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilson DS",
+              "lastName": "Wilson",
+              "firstName": "D S",
+              "initials": "DS"
+            },
+            {
+              "fullName": "Packer L",
+              "lastName": "Packer",
+              "firstName": "L",
+              "initials": "L"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "36",
+          "volume": "264",
+          "journalIssueId": 711296,
+          "dateOfPublication": "1989 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 1989,
+          "journal": {
+            "medlineAbbreviation": "J Biol Chem",
+            "title": "The Journal of biological chemistry",
+            "essn": "1083-351X",
+            "issn": "0021-9258",
+            "isoabbreviation": "J Biol Chem",
+            "nlmid": "2985121R"
+          },
+          "printPublicationDate": "1989-12-01"
+        },
+        "pubYear": "1989",
+        "pageInfo": "21462-21465",
+        "abstractText": "alpha-Tocopherol (vitamin E) is a lipophilic chain-breaking antioxidant which inhibits lipid peroxidation in isolated mitochondrial membranes and protects membranes from oxidative damage. The primary oxidation product of vitamin E is the tocopheroxyl radical. Reduction of the tocopheroxyl radical can occur by reactions with water-soluble anti-oxidants such as ascorbate or glutathione, resulting in the recycling of vitamin E. Physiological concentrations of vitamin E are too low to allow detection of tocopheroxyl radical by ESR. After dietary supplementation with vitamin E, a 10-20-fold increase in the rat liver mitochondrial membrane content of vitamin E was achieved and this allowed for direct detection of the tocopheroxyl radical by ESR, after treatment with an oxidizing system composed of lipoxygenase and arachidonic acid. By using submitochondrial particle membranes, it was shown that NADH, succinate, and reduced cytochrome c-linked oxidation reduce the tocopheroxyl radical, preventing both accumulation of the radical and vitamin E consumption. As the electron transport chain can reduce tocopheroxyl radical it may have an important physiological role in recycling vitamin E.",
+        "affiliation": "Lawrence Berkeley Laboratory, University of California, Berkeley 94720.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA47597",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intracellular Membranes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondria, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Submitochondrial Particles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Inbred Strains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Free Radicals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin E",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Spin Resonance Spectroscopy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Vitamin E",
+              "registryNumber": "1406-18-4"
+            },
+            {
+              "name": "Free Radicals",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "intl.jbc.org",
+              "url": "http://intl.jbc.org/cgi/content/abstract/264/36/21462"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/S0021-9258(20)88204-0"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 62,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1990-02-01",
+        "dateOfCreation": "1989-12-25",
+        "dateOfRevision": "2021-02-10",
+        "firstPublicationDate": "1989-12-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "1404449",
+        "source": "MED",
+        "pmid": "1404449",
+        "doi": "10.1093/jnci/84.20.1559",
+        "title": "Reduction in plasma or skin alpha-tocopherol concentration with long-term oral administration of beta-carotene in humans and mice.",
+        "authorString": "Xu MJ, Plezia PM, Alberts DS, Emerson SS, Peng YM, Sayers SM, Liu Y, Ritenbaugh C, Gensler HL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Xu MJ",
+              "lastName": "Xu",
+              "firstName": "M J",
+              "initials": "MJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cancer Prevention and Control Program, Arizona Cancer Center, Tucson 85724."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Plezia PM",
+              "lastName": "Plezia",
+              "firstName": "P M",
+              "initials": "PM"
+            },
+            {
+              "fullName": "Alberts DS",
+              "lastName": "Alberts",
+              "firstName": "D S",
+              "initials": "DS"
+            },
+            {
+              "fullName": "Emerson SS",
+              "lastName": "Emerson",
+              "firstName": "S S",
+              "initials": "SS"
+            },
+            {
+              "fullName": "Peng YM",
+              "lastName": "Peng",
+              "firstName": "Y M",
+              "initials": "YM"
+            },
+            {
+              "fullName": "Sayers SM",
+              "lastName": "Sayers",
+              "firstName": "S M",
+              "initials": "SM"
+            },
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Ritenbaugh C",
+              "lastName": "Ritenbaugh",
+              "firstName": "C",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3307-2727"
+              }
+            },
+            {
+              "fullName": "Gensler HL",
+              "lastName": "Gensler",
+              "firstName": "H L",
+              "initials": "HL"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3307-2727"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "20",
+          "volume": "84",
+          "journalIssueId": 630504,
+          "dateOfPublication": "1992 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 1992,
+          "journal": {
+            "medlineAbbreviation": "J Natl Cancer Inst",
+            "title": "Journal of the National Cancer Institute",
+            "essn": "1460-2105",
+            "issn": "0027-8874",
+            "isoabbreviation": "J Natl Cancer Inst",
+            "nlmid": "7503089"
+          },
+          "printPublicationDate": "1992-10-01"
+        },
+        "pubYear": "1992",
+        "pageInfo": "1559-1565",
+        "abstractText": "<h4>Background</h4>Beta-carotene is one of the most commonly used compounds in clinical trials of chemopreventive agents in various neoplastic diseases. Animal studies, including our own, have documented that dietary beta-carotene can reduce plasma alpha-tocopherol (vitamin E) levels, but few published studies have examined the clinical or pharmacokinetic ramifications of long-term, high-dose beta-carotene regimens on other fat-soluble vitamins such as alpha-tocopherol.<h4>Purpose</h4>This study was designed to determine the effects of long-term beta-carotene supplementation on plasma concentrations of alpha-tocopherol in normal human subjects and in an experimental C3H/HeN mouse model.<h4>Methods</h4>In a double-blind study, 45 normal subjects were randomly assigned to receive 0 (placebo), 15, 30, 45, or 60 mg of oral beta-carotene daily for approximately 9 months. Monthly plasma samples were collected. Thirty-five C3H/HeN mice were fed a basal diet with or without beta-carotene and treated topically with or without alpha-tocopherol, except for the control mice, which received UV radiation for 27 weeks from week 3 to week 30. Plasma and dorsal skin samples were taken after 40 weeks and were analyzed for alpha-tocopherol and/or beta-carotene by high-performance liquid chromatography.<h4>Results</h4>Long-term dietary beta-carotene administration resulted in statistically significant reductions in levels of alpha-tocopherol in the skin and plasma of UV-irradiated mice. In the human study, the decrease in plasma alpha-tocopherol levels was progressive and significant between 6 and 9 months of beta-carotene dosing in all dosage groups. The greatest decrease was observed during the 9th (last) month of dosing, with a decrease of 40% from baseline. All oral beta-carotene doses (15-60 mg/d), however, resulted in similar decreases in steady-state plasma levels of alpha-tocopherol and in only small differences in beta-carotene plasma levels.<h4>Conclusion</h4>Long-term oral administration of beta-carotene decreased steady-state plasma concentrations of alpha-tocopherol. The lack of a significant dose-response effect between doses of beta-carotene and alpha-tocopherol plasma levels is not unexpected, given the small differences in steady-state beta-carotene plasma levels in the four beta-carotene dose groups.<h4>Implications</h4>Studies are needed to determine how long-term beta-carotene dosing influences tissue distribution of dietary alpha-tocopherol. Careful surveillance for this and other potentially harmful nutrient interactions should become part of all long-term intervention studies.",
+        "affiliation": "Cancer Prevention and Control Program, Arizona Cancer Center, Tucson 85724.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA-23074",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA-27502",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Skin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C3H"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "beta Carotene"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin E",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Regression Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Random Allocation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Biological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reference Values"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Vitamin E",
+              "registryNumber": "1406-18-4"
+            },
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "beta Carotene",
+              "registryNumber": "01YAE03M7J"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jnci/84.20.1559"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 58,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1992-11-13",
+        "dateOfCreation": "1992-10-21",
+        "dateOfRevision": "2019-05-09",
+        "firstPublicationDate": "1992-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

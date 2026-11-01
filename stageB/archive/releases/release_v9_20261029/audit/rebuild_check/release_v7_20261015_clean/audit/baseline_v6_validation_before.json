@@ -1,0 +1,197 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "checks_passed": 90,
+  "checks_total": 90,
+  "inherited_v5_checks": 53,
+  "v6_checks": 37,
+  "errors": [],
+  "warning_entries": 17,
+  "distinct_warning_codes": 16,
+  "checks": [
+    {
+      "Check": "V5 evidence field values and order preserved",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Evidence IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Evidence IDs stable sequential new suffix",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Compound IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Distinct chemical entities",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Schema remains 36 columns",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Compound foreign keys and names",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "V5 registry unchanged",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No duplicate study experimental contexts",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "PMID DOI and study identifiers valid",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Permitted evidence classes",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Claims ledger exactly matches new rows",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Numerical tokens present in actual primary abstract",
+      "Passed": true,
+      "Detail": "Diagnostic token check; manual endpoint/unit context remains necessary"
+    },
+    {
+      "Check": "Numerical outcomes have units or dimensionless measures",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Primary bibliography matches exact MED snapshot",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Source cache paths resolve and match new primary IDs",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Selection sources rationale and date complete",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Historical dates not invented",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Identity metadata matches cached reference",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Reference stereochemistry not asserted as tested purity",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Human cells not classified as human PK",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Diosmin uncontrolled studies classified as human PK",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Null thymoquinone finding retained",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Thymol partial synergy distinguished",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Reverse glycyrrhizin interaction direction retained",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No retention coefficient inferred for new anchors",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Registry evidence counts correct",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No retrospective clinical scoring",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Primary publication count matches unique PMIDs",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Selection-only food reports not interaction publications",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No unresolved Crossref title mismatch",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Changes document all additions",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Issue statuses use requested vocabulary",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Processing rows preserved separately",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Candidate decisions complete",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "All prior workspace files including V5 preserved",
+      "Passed": true,
+      "Detail": "6495 hashes; changed: []"
+    },
+    {
+      "Check": "Offline deterministic rebuild",
+      "Passed": true,
+      "Detail": "22 output files byte compared"
+    }
+  ]
+}
