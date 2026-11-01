@@ -1,0 +1,57 @@
+{
+  "last_successful_checkpoint": "Checkpoint 3 \u2014 two source batches ingested; validation, 47-test suite, clean-copy and protected baseline all pass",
+  "completed_batches": [
+    "batch_001_usda_flavonoids",
+    "batch_002_usda_cocoa"
+  ],
+  "current_batch": null,
+  "research_framework": {
+    "priority_register_compounds": 119,
+    "search_log_entries": 6,
+    "pending_candidates": 2,
+    "accepted_food_records": 4,
+    "unique_compounds_with_quantitative_data": 2
+  },
+  "active_food_records": 4,
+  "active_mappings": 4,
+  "stage_b_release_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e",
+  "checkpoint_files": [
+    {
+      "path": "stageC/reports/phase1b/COMPOUND_PRIORITY_REGISTER.csv",
+      "sha256": "93a5d850b9793f847bb2e0b8dbee974ad9acfe7a5c2a42e27808e1b3c6b425c8"
+    },
+    {
+      "path": "stageC/reports/phase1b/SEARCH_LOG.csv",
+      "sha256": "0210754075882f886b3da5bb71acdbba6be14ea6d8aff54db114e71b15a322e7"
+    },
+    {
+      "path": "stageC/reports/phase1b/CANDIDATES.csv",
+      "sha256": "34a2558735b47dfb9ad1dd261467cc583373e0578510c78d2fd871643a82732c"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_001_usda_flavonoids/usda_flav3_3_apple_candidates.csv",
+      "sha256": "a7488d7a24d96090b411b97c86040351cd87052c94ea7751ffe835fb11359c64"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_002_usda_cocoa/usda_flav3_3_cocoa_candidates.csv",
+      "sha256": "f1bf32c3ee3fc9281c0a89f7e156f40e3839ad96148e3721268357767a41ec6f"
+    },
+    {
+      "path": "stageC/data/food_composition/food_composition.csv",
+      "sha256": "ac9322f679155f08e70e3f2592896c43a25ae5aa716c8e30733a90b7aa340b0e"
+    },
+    {
+      "path": "stageC/data/compound_food_mapping/compound_food_mapping.csv",
+      "sha256": "f98c7116c33b330cf43eef25283093569fb567a41c8182d7772ec6ebe85f2cf9"
+    },
+    {
+      "path": "stageC/data/food_composition/source_registry.csv",
+      "sha256": "6014078640cce2543c4bfe8b5b9308d0aeb33138d0248cf1afb01be26b010960"
+    }
+  ],
+  "validation_status": "PASS",
+  "test_status": "47/47 PASS",
+  "clean_copy_status": "PASS",
+  "protected_baseline_status": "PASS",
+  "status": "PASS"
+}

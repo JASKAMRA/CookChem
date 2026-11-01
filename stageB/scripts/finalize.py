@@ -1,4 +1,4 @@
-"""Finalize an explicitly named staging copy using the archived V12 finalizer."""
+"""Finalize an explicitly named staging candidate."""
 from pathlib import Path
 import argparse, subprocess, sys
 ROOT=Path(__file__).resolve().parents[1]; FINALIZER=ROOT/"archive"/"scripts"/"finalize_v12.py"; AUTHORITATIVE=(ROOT/"release"/"StageB_Final").resolve()

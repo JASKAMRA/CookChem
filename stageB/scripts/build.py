@@ -1,10 +1,10 @@
-"""Create a new V12 staging build from an explicit V11 release copy."""
+"""Create a staging build from an explicit source release copy."""
 from pathlib import Path
 import argparse, shutil, subprocess, sys
 ROOT=Path(__file__).resolve().parents[1]; BUILDER=ROOT/"archive"/"scripts"/"build_v12.py"; AUTHORITATIVE=(ROOT/"release"/"StageB_Final").resolve()
 def main():
-    ap=argparse.ArgumentParser(description=__doc__); ap.add_argument("v11_source",type=Path); ap.add_argument("destination",type=Path); a=ap.parse_args()
-    src=a.v11_source.resolve(); dst=a.destination.resolve()
+    ap=argparse.ArgumentParser(description=__doc__); ap.add_argument("source_release",type=Path); ap.add_argument("destination",type=Path); a=ap.parse_args()
+    src=a.source_release.resolve(); dst=a.destination.resolve()
     if not src.is_dir(): ap.error("V11 source directory not found")
     if dst==AUTHORITATIVE or AUTHORITATIVE in dst.parents: ap.error("refusing to overwrite or nest in the authoritative release")
     if dst.exists(): ap.error("destination must not already exist")

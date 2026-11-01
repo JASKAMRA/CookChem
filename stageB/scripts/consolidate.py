@@ -1,4 +1,4 @@
-"""Consolidate an explicit V12 source into a new release directory."""
+"""Consolidate an explicit source release into a new destination directory."""
 from pathlib import Path
 import argparse, subprocess, sys
 ROOT=Path(__file__).resolve().parents[1]; TOOL=ROOT/"archive"/"scripts"/"consolidate_final.py"; AUTHORITATIVE=(ROOT/"release"/"StageB_Final").resolve()

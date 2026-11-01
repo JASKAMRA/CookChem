@@ -1,0 +1,3 @@
+# Resume instructions
+
+Read `BASELINE_AUDIT.md`, `CHECKPOINTS.json`, `SOURCE_SCREENING_RULES.md`, and `NEXT_STEPS.md`. Batch 001 and Batch 002 are complete; their source notes, candidate CSVs, ingestion receipts, exposure input/results, and independent math checks are under `batches/`. The active food table and mappings already contain four validated records. Start with the next unsearched P2 compound in `COMPOUND_PRIORITY_REGISTER.csv`; append search evidence before ingestion. Run focused tests for each code change and re-run full suite/validation after dataset changes. Compare protected tree hashes against `BASELINE_CHECKSUMS.json` before release.

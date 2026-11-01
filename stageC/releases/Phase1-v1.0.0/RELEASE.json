@@ -1,0 +1,322 @@
+{
+  "release_version": "Phase1-v1.0.0",
+  "release_date": "2026-11-01",
+  "python_version": "3.14.7",
+  "runtime_dependencies": [],
+  "stage_b_release_id": "StageB_Final",
+  "stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e",
+  "release_files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "32a999f59966d0995503822ffe65fa3f44ed6eb3906065d2fb8d9830367b7299",
+      "bytes": 677
+    },
+    {
+      "path": "README.md",
+      "sha256": "db2dfbbd4bd96cca0365b97ea70e6d5050e5fd71034470d3e62a185f7a892a89",
+      "bytes": 1805
+    },
+    {
+      "path": "config/settings.yaml",
+      "sha256": "b590bdd05daefb10b1341ac087d701afea11641532fe2c85edc03f37bc26bbd9",
+      "bytes": 421
+    },
+    {
+      "path": "data/compound_food_mapping/compound_food_mapping.csv",
+      "sha256": "8864b92d0d9d145f3c6b6e9e8848b6b5b5cc9df738e10d1ecef6041df3b048d9",
+      "bytes": 207
+    },
+    {
+      "path": "data/food_composition/food_composition.csv",
+      "sha256": "dd2f3a7196848fe5caf9d036e2b494f47f9668a3b8be6f0a8b09e07ada44e7c6",
+      "bytes": 708
+    },
+    {
+      "path": "data/food_composition/source_registry.csv",
+      "sha256": "15d00e9a83a61536ce039595220e1ef2223c83edc2c45da881b0884e295192b6",
+      "bytes": 1101
+    },
+    {
+      "path": "data/stage_b_snapshot/claim_support_and_verification.csv",
+      "sha256": "9461ee68a611a7052d2981f05e7dcd02045cb7c82ebe18eb734ce6b1e0de6103",
+      "bytes": 99907
+    },
+    {
+      "path": "data/stage_b_snapshot/compound_registry.csv",
+      "sha256": "d51970b51023ec6ab6b8f45755661cb9d7505ce25cc100b6f98c665da7e2ed77",
+      "bytes": 170546
+    },
+    {
+      "path": "data/stage_b_snapshot/food_context_audit.csv",
+      "sha256": "12b5a36e7ff535021ced0da64fbcb04fa5dee84cd521d19fa71acc2b85463753",
+      "bytes": 30241
+    },
+    {
+      "path": "data/stage_b_snapshot/identity_structure_audit.csv",
+      "sha256": "e926bf83b9a7e15ce76b3f09663f728edab9f0d50879940388f0f39e24b4832b",
+      "bytes": 118560
+    },
+    {
+      "path": "data/stage_b_snapshot/import_manifest.json",
+      "sha256": "7ca3a7a7c58263256861f5cdeebe30942e7ad664951658ed1bcc56fb6ad299e2",
+      "bytes": 7965
+    },
+    {
+      "path": "data/stage_b_snapshot/interaction_evidence.csv",
+      "sha256": "1aad7ab0648a5fa109e96bfdaec701253568f0a9a853452eb8151b94fdcdfa59",
+      "bytes": 394661
+    },
+    {
+      "path": "data/stage_b_snapshot/publication_bibliography.csv",
+      "sha256": "c81d3e19e4f689f29858350e8315cd0b724205df2b7756af6d7d7363b9892414",
+      "bytes": 47716
+    },
+    {
+      "path": "data/stage_b_snapshot/source_audit.csv",
+      "sha256": "b55a3d4ddd12adfd3aded8b22091873dab7dd957388d92a3b9a1fd81e264652c",
+      "bytes": 34507
+    },
+    {
+      "path": "data/stage_b_snapshot/source_register.csv",
+      "sha256": "a845e578c8bd293702b2eaed521b6d3ed455d67c0958472a7c9d6146997a3fcf",
+      "bytes": 4626
+    },
+    {
+      "path": "data/stage_b_snapshot/warning_ledger.csv",
+      "sha256": "e94a9731e6908bd1317a7e4964b1c545f59694864ef5854e44e23b417bee9b55",
+      "bytes": 27107
+    },
+    {
+      "path": "documentation/COMPOUND_MAPPING.md",
+      "sha256": "da36ae4bb9050eea63590930807fbead4cfa9de12292e35b478d8163d8f5a87a",
+      "bytes": 880
+    },
+    {
+      "path": "documentation/DATA_DICTIONARY.md",
+      "sha256": "b3c800d455fa5d8025b54c8633642ef4095ae50cdce9c75cef59737a9a2cec1d",
+      "bytes": 1750
+    },
+    {
+      "path": "documentation/DATA_SOURCES.md",
+      "sha256": "01fb736ff91ea0f77291592d20d13fa3cbcbc4055466183047dfe6353d377e5a",
+      "bytes": 1154
+    },
+    {
+      "path": "documentation/LIMITATIONS.md",
+      "sha256": "8d25c9d7c1c08a5be022d8b47142562f47c5e3275e347843d8cf420354edfcc7",
+      "bytes": 994
+    },
+    {
+      "path": "documentation/METHODOLOGY.md",
+      "sha256": "d29c25398c60ba389fdb9f6b7a465b340e35f655640b65cacf51e8c1728200d5",
+      "bytes": 1382
+    },
+    {
+      "path": "documentation/PHASE1_HANDOFF.md",
+      "sha256": "471ab8d39a0d30de4d2e41d431c42152af61db44724246a41ab37332cf1eb4a0",
+      "bytes": 1338
+    },
+    {
+      "path": "documentation/PROVENANCE.md",
+      "sha256": "2957496ea6a3636c88af4bc5f57f39839a51240049050fa22f8a9a8e4a7c8743",
+      "bytes": 804
+    },
+    {
+      "path": "documentation/TEST_REPORT.md",
+      "sha256": "e0f9ffce479d4d1d28ffcd325c1abae75110bf3b4fbc43f54b597b975cafa980",
+      "bytes": 725
+    },
+    {
+      "path": "documentation/UNIT_CONVENTIONS.md",
+      "sha256": "67e3422a2248eb5cd4e338b32f9f0d53f16f79872a4adef888722b5a023d2a37",
+      "bytes": 759
+    },
+    {
+      "path": "documentation/VALIDATION_REPORT.md",
+      "sha256": "6c1bd260344a36d06f92b02dcff2231d775297d1da7979331ba763b4131589d1",
+      "bytes": 803
+    },
+    {
+      "path": "reports/PHASE1_PROGRESS.md",
+      "sha256": "dd0871d1a8d7ffab0b059b53f2f7ec53bd8249b4272998b3a0ad769ba5bbe2fd",
+      "bytes": 2087
+    },
+    {
+      "path": "schemas/compound_food_mapping_schema.json",
+      "sha256": "7acb0d1cb870d66d63105313257e55db5354d5d8076169e24605c381649509d7",
+      "bytes": 616
+    },
+    {
+      "path": "schemas/compound_schema.json",
+      "sha256": "0557826840e96f34e604bcad8111e27e17c52ec9fd2ecb80552a8486a6237ecf",
+      "bytes": 505
+    },
+    {
+      "path": "schemas/exposure_input_schema.json",
+      "sha256": "66960a40721eb00310b37952a432c7e2ed9d2dd90e6af740224131909163048f",
+      "bytes": 653
+    },
+    {
+      "path": "schemas/exposure_output_schema.json",
+      "sha256": "d1f7546f12e4e9136210d4dbed71ee7ee9dcbe90e187a80a3e290cc3b47ea6f1",
+      "bytes": 1509
+    },
+    {
+      "path": "schemas/food_composition_schema.json",
+      "sha256": "999702a482d3a57fab3db7c05e8539208842d4c5096d4e8cd877cf2a2a04458f",
+      "bytes": 2254
+    },
+    {
+      "path": "schemas/food_schema.json",
+      "sha256": "a6aa6c52e57f4160655c692af3bf56ac923e0127c757d12290813ecb924c3184",
+      "bytes": 634
+    },
+    {
+      "path": "schemas/provenance_schema.json",
+      "sha256": "bf4bde0a8bb78b8fd5f28098a086587340b4c907acc3dc26efe8244b68548153",
+      "bytes": 830
+    },
+    {
+      "path": "scripts/_bootstrap.py",
+      "sha256": "7d4d4c838738dbaf0149a43cb8de16ebbeaee59a38487266e5ddacdd375e5c56",
+      "bytes": 185
+    },
+    {
+      "path": "scripts/build_compound_mapping.py",
+      "sha256": "04dc7ebc9804d0f5893a6a698c88abafc33a35e2d382a6c6948546051b74a56d",
+      "bytes": 142
+    },
+    {
+      "path": "scripts/import_stage_b.py",
+      "sha256": "ea5f2bde839e86ebc48a26d392fa70f5534605a9359b483e7fc7bbe505a29311",
+      "bytes": 153
+    },
+    {
+      "path": "scripts/ingest_food_data.py",
+      "sha256": "bace7e9092fe5219fc8465d035d9e967507398fd6ab2cbf018e1b32681c729b4",
+      "bytes": 150
+    },
+    {
+      "path": "scripts/inspect_stage_b.py",
+      "sha256": "c2b6809772f0b0f53ef473b1a3e476ca683a914823e23a3f82a77602bb0d28dc",
+      "bytes": 146
+    },
+    {
+      "path": "scripts/normalize_data.py",
+      "sha256": "1f4743ae7a88eb53e0ba7d81f7a92f140359292a665375ed0fd14fc570865272",
+      "bytes": 230
+    },
+    {
+      "path": "scripts/run_exposure.py",
+      "sha256": "cc1689db6e6b23829aceb350b81210a3a91c4c0f628a826d1872994c20fe6510",
+      "bytes": 147
+    },
+    {
+      "path": "scripts/validate_phase1.py",
+      "sha256": "947b5e78ea200b57dbd1f13d96146acf5237fc548c7add71ee1cc7af2f359b38",
+      "bytes": 147
+    },
+    {
+      "path": "src/stage_c/__init__.py",
+      "sha256": "125b6123e0a03f4c5eedbdff2c9cfcaa1c6821b0359a6f5ae0e7f97fdb048784",
+      "bytes": 97
+    },
+    {
+      "path": "src/stage_c/cli.py",
+      "sha256": "cfc62f1bef1e0cfafe61ea2b3bc934e96d5e08c627b0919e0918468b4015de4d",
+      "bytes": 8484
+    },
+    {
+      "path": "src/stage_c/compound_mapping.py",
+      "sha256": "5b40168fade1404c5c41c38cb8885e9228935861ab8471c204105861aa6da2e0",
+      "bytes": 12079
+    },
+    {
+      "path": "src/stage_c/exceptions.py",
+      "sha256": "f34fae16f90d4dc7282c16a70c5363a7e7c793f25369957339f52fca55e013b6",
+      "bytes": 426
+    },
+    {
+      "path": "src/stage_c/exposure_engine.py",
+      "sha256": "a3b65a052f52553ad9ab98f35715b3c3adfb74acd6106b47ac708cf9b7caa42a",
+      "bytes": 14714
+    },
+    {
+      "path": "src/stage_c/food_composition.py",
+      "sha256": "a991e4c415eef279783e70fca2ba02f6581bd1646d63b9c25b844a081a763396",
+      "bytes": 7128
+    },
+    {
+      "path": "src/stage_c/provenance.py",
+      "sha256": "88c38381bac78d5c19c3e31292ef13591e3d5e57711e73d680931cdfc0c4750a",
+      "bytes": 2148
+    },
+    {
+      "path": "src/stage_c/stage_b_connector.py",
+      "sha256": "221ea7f6b8f5940c595b5a652f9950d75d0d26423a037ee20a04bbeced88164b",
+      "bytes": 6923
+    },
+    {
+      "path": "src/stage_c/unit_conversion.py",
+      "sha256": "606a141317af352e510f0ced7ca354b8f490b599a6ecd263fdca38e4f6e36b7b",
+      "bytes": 3578
+    },
+    {
+      "path": "src/stage_c/validation.py",
+      "sha256": "4c45d601e59b774253edc5d345c70e811fdb22679b787097df54bc2b2e5f6d77",
+      "bytes": 5142
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "edd688621cb850f15677c4c261e1846ac047d1ffad724ce9168b2a5f8684e13e",
+      "bytes": 520
+    },
+    {
+      "path": "tests/test_compound_mapping.py",
+      "sha256": "2a7a8b3335649024118d20bbcc2c48642dd392b9c542ab50861294abd6c018d2",
+      "bytes": 4147
+    },
+    {
+      "path": "tests/test_exposure_engine.py",
+      "sha256": "da81764ecc7df509733c7322cc258712d32ddd593ae33a5417e7eccca1fe2752",
+      "bytes": 4792
+    },
+    {
+      "path": "tests/test_food_composition.py",
+      "sha256": "35ae49ca4e7e189f8671658c132b383281a23f1cd639810cd3b7a14ad76a4444",
+      "bytes": 2900
+    },
+    {
+      "path": "tests/test_integration.py",
+      "sha256": "f4cf98fd4c5c3cad44a80200f5875da1e4d89b7b65ac16de37713bdde6e40943",
+      "bytes": 3069
+    },
+    {
+      "path": "tests/test_provenance.py",
+      "sha256": "934317bfeabbf00cf96c7a74631f5cb3cf363b4bc44a2e15ce32fa10b8bb17fa",
+      "bytes": 1169
+    },
+    {
+      "path": "tests/test_stage_b_connector.py",
+      "sha256": "48afe85c2d44aca1eef69444921178233cdbd472d475f8dc7e36fff5c786ed71",
+      "bytes": 2336
+    },
+    {
+      "path": "tests/test_unit_conversion.py",
+      "sha256": "8d5099a7af2d546f5db7cc3ede787f56be3da8296f825f95ab7b5a53c608c9f3",
+      "bytes": 1727
+    },
+    {
+      "path": "tests/test_validation.py",
+      "sha256": "5322644cecd490c83a465582f8af74eb544c7611051f9e178b018560772375d3",
+      "bytes": 1412
+    }
+  ],
+  "release_file_count": 61,
+  "test_report_sha256": "337a2007ecfbcc43defc0456bcb85014073e013aa5aa2863ce8529562be116f5",
+  "phase1_validation_sha256": "f9e90fb9facd7cddccfaa03b54cb742b248a88652dca6e1ce699cad2f0fbc325",
+  "stage_b_validation_sha256": "b8333c43e8bc0708a83ed41270b40ad1224d73c883a4b196010c6a48c5f1f80b",
+  "quantitative_food_composition_records": 0,
+  "real_exposure_calculations": 0,
+  "scientific_status": "SOFTWARE_READY_DATA_INCOMPLETE"
+}

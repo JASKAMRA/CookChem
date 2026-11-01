@@ -1,0 +1,131 @@
+{
+  "python": "3.14.7",
+  "results": [
+    {
+      "script": "audit.py",
+      "mode": "safe runtime",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 1.94,
+      "stdout": "{\n  \"release\": \"stageB/release/StageB_Final\",\n  \"manifest_entries\": 708,\n  \"manifest_mismatches\": [],\n  \"status\": \"PASS\",\n  \"counts\": {\n    \"anchors\": 119,\n    \"evidence_records\": 286,\n    \"drug_probe_labels\": 127,\n    \"warning_rows\": 55\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "validate.py",
+      "mode": "safe runtime",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 6.87,
+      "stdout": "{\n  \"status\": \"PASS_WITH_WARNINGS\",\n  \"checks\": 16,\n  \"passed\": 16,\n  \"failed\": 0,\n  \"errors\": 0,\n  \"warnings\": 313\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "mutation_tests.py",
+      "mode": "safe runtime",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 16.12,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"attempted\": 12,\n  \"detected\": 12,\n  \"missed\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "build.py",
+      "mode": "release safety guard; full mutation deliberately avoided",
+      "status": "PASS",
+      "exit_code": 2,
+      "duration_seconds": 0.71,
+      "stdout": "",
+      "stderr": "usage: build.py [-h] source_release destination\nbuild.py: error: refusing to overwrite or nest in the authoritative release\n"
+    },
+    {
+      "script": "finalize.py",
+      "mode": "release safety guard; full mutation deliberately avoided",
+      "status": "PASS",
+      "exit_code": 2,
+      "duration_seconds": 0.69,
+      "stdout": "",
+      "stderr": "usage: finalize.py [-h] candidate\nfinalize.py: error: refusing to modify the authoritative release\n"
+    },
+    {
+      "script": "consolidate.py",
+      "mode": "release safety guard; full mutation deliberately avoided",
+      "status": "PASS",
+      "exit_code": 2,
+      "duration_seconds": 0.76,
+      "stdout": "",
+      "stderr": "usage: consolidate.py [-h] v12_source destination\nconsolidate.py: error: refusing to overwrite or nest in the authoritative release\n"
+    },
+    {
+      "script": "audit_extreme_retention.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 4.27,
+      "stdout": "Audited 12 extreme observations at threshold 525.281679.\n",
+      "stderr": ""
+    },
+    {
+      "script": "evaluate_missingness_features.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 96.08,
+      "stdout": "                         Model       MAE       RMSE       R2  Delta_MAE  Delta_RMSE  Delta_R2\n          ExtraTrees_reference 31.964078 141.308626 0.255978   0.000000    0.000000  0.000000\nExtraTrees_missingness_thermal 31.858863 141.110587 0.258062  -0.105215   -0.198039  0.002084\n",
+      "stderr": ""
+    },
+    {
+      "script": "evaluate_tail_aware_models.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 106.53,
+      "stdout": "                     Model       MAE       RMSE       R2  Delta_MAE  Delta_RMSE  Delta_R2\n          ExtraTrees_log1p 31.858863 141.110587 0.258062   0.000000    0.000000  0.000000\n     ExtraTrees_YeoJohnson 31.634909 140.840050 0.260904  -0.223954   -0.270537  0.002842\n       HistGB_absolute_raw 39.020767 159.711666 0.049566   7.161904   18.601080 -0.208495\nGradientBoosting_huber_raw 38.507631 151.139248 0.148856   6.648768   10.028662 -0.109206\n",
+      "stderr": ""
+    },
+    {
+      "script": "evaluate_extreme_detectability.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 15.46,
+      "stdout": "{\n  \"threshold\": 525.2816789579997,\n  \"n\": 1124,\n  \"extreme_n\": 12,\n  \"prevalence\": 0.010676156583629894,\n  \"OOF_PR_AUC\": 0.1929495435871802,\n  \"OOF_ROC_AUC\": 0.8263264388489209,\n  \"OOF_Brier\": 0.02133688939497204,\n  \"precision_at_0.5\": 0.20689655172413793,\n  \"recall_at_0.5\": 0.5,\n  \"f1_at_0.5\": 0.2926829268292683\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "evaluate_catboost.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 53.43,
+      "stdout": "               Model       MAE       RMSE       R2  Delta_MAE_vs_current_best  Delta_RMSE_vs_current_best  Delta_R2_vs_current_best\n      CatBoost_log1p 36.878772 146.866574 0.196299                   5.243863                    6.026524                 -0.064605\nCatBoost_yeo_johnson 36.602177 146.141423 0.204216                   4.967269                    5.301373                 -0.056688\n",
+      "stderr": ""
+    },
+    {
+      "script": "tune_best_extra_trees.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 316.71,
+      "stdout": "                             Model       MAE       RMSE       R2  Delta_MAE  Delta_RMSE  Delta_R2\nExtraTrees_YeoJohnson_nested_tuned 32.155612 141.474647 0.254229   0.520703    0.634597 -0.006675\n",
+      "stderr": ""
+    },
+    {
+      "script": "final_like_for_like_comparison.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 2.02,
+      "stdout": "                    Recipe       MAE       RMSE       R2                                                                      Notes  Delta_MAE_vs_phase2  Delta_RMSE_vs_phase2  Delta_R2_vs_phase2\nPhase 2 selected benchmark 31.959809 123.073056 0.380461 Frozen Phase 2 Extra Trees, log1p target, selected Phase 2 feature recipe.             0.000000              0.000000             0.00000\n         Stage B candidate 31.630524 122.357915 0.390691      Extra Trees, Step 2 missingness/thermal features, Yeo-Johnson target.            -0.329285             -0.715142             0.01023\nSELECT STAGE B CANDIDATE\n",
+      "stderr": ""
+    },
+    {
+      "script": "freeze_stageb_candidate.py",
+      "mode": "disposable project copy",
+      "status": "PASS",
+      "exit_code": 0,
+      "duration_seconds": 14.13,
+      "stdout": "Frozen artifact: C:\\Users\\dakshant\\Desktop\\CookChem\\stageB\\temp\\runtime_model_project\\stageB\\final_model\\cookrisk_retention_stageB_selected.joblib\n",
+      "stderr": ""
+    }
+  ]
+}

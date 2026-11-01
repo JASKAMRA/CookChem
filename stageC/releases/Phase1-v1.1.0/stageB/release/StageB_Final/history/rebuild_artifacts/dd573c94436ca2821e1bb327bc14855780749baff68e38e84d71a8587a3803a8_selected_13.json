@@ -1,0 +1,341 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:10606838 AND SRC:MED",
+    "internalQuery": "EXT_ID:10606838 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 5,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "10606838",
+        "source": "MED",
+        "pmid": "10606838",
+        "pmcid": "PMC2014893",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2014893"
+          ]
+        },
+        "doi": "10.1046/j.1365-2125.2000.00111.x",
+        "title": "Effect of caffeine on clozapine pharmacokinetics in healthy volunteers.",
+        "authorString": "Hägg S, Spigset O, Mjörndal T, Dahlqvist R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hägg S",
+              "lastName": "Hägg",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5137-8420"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Clinical Pharmacology, Norrland University Hospital, Umeå, Sweden."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Spigset O",
+              "lastName": "Spigset",
+              "firstName": "O",
+              "initials": "O"
+            },
+            {
+              "fullName": "Mjörndal T",
+              "lastName": "Mjörndal",
+              "firstName": "T",
+              "initials": "T"
+            },
+            {
+              "fullName": "Dahlqvist R",
+              "lastName": "Dahlqvist",
+              "firstName": "R",
+              "initials": "R"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5137-8420"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "49",
+          "journalIssueId": 986330,
+          "dateOfPublication": "2000 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2000,
+          "journal": {
+            "medlineAbbreviation": "Br J Clin Pharmacol",
+            "title": "British journal of clinical pharmacology",
+            "essn": "1365-2125",
+            "issn": "0306-5251",
+            "isoabbreviation": "Br J Clin Pharmacol",
+            "nlmid": "7503323"
+          },
+          "printPublicationDate": "2000-01-01"
+        },
+        "pubYear": "2000",
+        "pageInfo": "59-63",
+        "abstractText": "<h4>Aims</h4>To assess the effects of caffeine on the pharmacokinetics of clozapine in healthy volunteers.<h4>Methods</h4>This was an open label randomized crossover study in 12 nonsmoking healthy male volunteers. The subjects received a single oral dose of 12.5 mg clozapine in each phase with or without concomitant intake of caffeine (mean dose: 550 mg day-1, range: 400-1000 mg day-1 ). Serum concentrations of clozapine and its metabolites desmethyl-clozapine and clozapine-N-oxide were measured during a 48 h period in each phase. In addition, serum concentrations of caffeine and the metabolite paraxanthine were monitored.<h4>Results</h4>A 19% increase in mean clozapine AUC(0,infinity) (P=0.05) and a 14% decrease of mean oral clearance of clozapine were observed during concomitant intake of caffeine (P=0.05) compared with intake of only clozapine. Statistically significant decreases of mean ratios between AUC(0, 12h) for desmethyl-clozapine and AUC(0,12h) for clozapine (-18%), and between AUC(0,12h) for clozapine-N-oxide and AUC(0,12h) for clozapine (-23%) were observed during the caffeine phase (P=0.03 and 0.02, respectively). Oral clearance of clozapine and the ratio AUC(0, 12h) for desmethyl-clozapine/AUC(0,12h) for clozapine were correlated with the paraxanthine/caffeine ratio in serum after intake of caffeine (rs=0.62; P=0.03 and rs=0.77; P=0.003, respectively).<h4>Conclusions</h4>These results suggest that caffeine in daily doses of 400-1000 mg inhibits the metabolism of clozapine to an extent that might be clinically significant in certain individuals.",
+        "affiliation": "Division of Clinical Pharmacology, Norrland University Hospital, Umeå, Sweden.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Theophylline",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Clozapine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antipsychotic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Central Nervous System Stimulants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antipsychotic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Central Nervous System Stimulants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "1,7-dimethylxanthine",
+              "registryNumber": "Q3565Y41V7"
+            },
+            {
+              "name": "Caffeine",
+              "registryNumber": "3G6A5W338E"
+            },
+            {
+              "name": "Clozapine",
+              "registryNumber": "J60AR2IKIC"
+            },
+            {
+              "name": "Theophylline",
+              "registryNumber": "C137DTR5RG"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1046/j.1365-2125.2000.00111.x"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1046/j.1365-2125.2000.00111.x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2014893"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2014893?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1046/j.1365-2125.2000.00111.x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 45,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2000-02-24",
+        "dateOfCreation": "1999-12-22",
+        "dateOfRevision": "2022-03-18",
+        "firstPublicationDate": "2000-01-01",
+        "firstIndexDate": "2009-12-23",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

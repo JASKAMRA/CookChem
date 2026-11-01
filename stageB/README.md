@@ -13,12 +13,12 @@ The sole authoritative evidence release is [`release/StageB_Final/`](release/Sta
 - `release/StageB_Final/` — authoritative evidence release.
 - `validation/` — cleanup inventories and non-invasive release check results.
 - `provenance/` — provenance notes for this organization pass.
-- `documentation/` — project workflow and change records.
+- `README.md` and `CHANGELOG.md` — workflow, scope, and organization history.
 - `archive/scripts/` — original version-specific builders, finalizers, auditors, validators, mutation tests, and consolidation tools. Exact duplicate nested experiment scripts are preserved under `archive/scripts/duplicates/`.
 - `archive/releases/` — preserved V2–V12 releases, expansions, V6 workspaces, and legacy workspace snapshots.
 - `archive/reports/` — legacy project handoffs and release archive files.
 
-The root `README.md`, `.gitignore`, and `requirements.txt` remain shared project files. Stage A remains untouched.
+The root `README.md`, `.gitignore`, and `requirements.txt` remain shared project files. The root `reports/run_dataset_forensic_audit.py` is also retained because it audits the shared CookChem dataset rather than the Stage B evidence package. Stage A remains untouched.
 
 ## Active evidence workflow
 
@@ -42,7 +42,16 @@ The build copies the source before applying V12 build logic. Finalize that stagi
 
 ## Retention model workflow
 
-Existing experiments remain under `scripts/` and write to `outputs/`. They read Stage A's preprocessed input at `stageA/input/cookchem_molecular_retention_preprocessed.csv`; the input is shared and was not moved. `freeze_stageb_candidate.py` writes the retained model under `final_model/`. Install the model dependencies listed in `stageB/requirements-stageB.txt` in addition to shared project requirements. Model execution was not available in the current Python environment because NumPy is absent; the active scripts passed syntax compilation, while model runtime imports require installing those dependencies. The archived literature evidence package is separate from these model experiments.
+Existing experiments remain under `scripts/` and write to `outputs/`. They read Stage A's preprocessed input at `stageA/input/cookchem_molecular_retention_preprocessed.csv`; the input is shared and was not moved. `freeze_stageb_candidate.py` writes the retained model under `final_model/`. Create the isolated model environment and install the Stage B dependencies from the repository root:
+
+```powershell
+python -m venv stageB/.venv
+stageB/.venv/Scripts/python.exe -m pip install -r stageB/requirements-stageB.txt
+```
+
+All active Stage B scripts have safe runtime checks recorded in [`documentation/STAGEB_RUNTIME_READINESS.md`](documentation/STAGEB_RUNTIME_READINESS.md) and [`reports/runtime/script_runtime_report.md`](reports/runtime/script_runtime_report.md). Modeling scripts were run against a disposable copy of inputs and outputs; release-building commands were checked for their authoritative-release safety guards rather than used to create another release. The isolated environment uses Python 3.14.7; Stage A's reproducibility record specifies Python 3.12.14 and slightly different NumPy/pandas versions, so exact bitwise model reproducibility is not claimed. The archived literature evidence package is separate from these model experiments.
+
+The generated repository after-inventory excludes its own `file_inventory_after.csv` row and the `file_inventory.csv` transition ledger to avoid self-referential checksums. It includes the preserved inventories inside historical release snapshots.
 
 ## Stage C interface
 
