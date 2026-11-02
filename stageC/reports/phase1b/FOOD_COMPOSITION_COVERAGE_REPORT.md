@@ -1,5 +1,7 @@
-# Food-composition coverage report
+# Stage C Phase 1B Food Composition Coverage
 
-Active dataset: 4 verified quantitative food records (all USDA aggregate database values), 2 unique compounds, 2 food items, 2 food-use classes (ordinary food and food ingredient), 4 exact-name mapping records. Quantitative coverage is 2/119 Stage B compounds (1.68%); 117 compounds have no accepted quantitative concentration in this dataset. No qualitative context was converted into a concentration.
+Active dataset: 14 verified quantitative records, 12 unique Stage B compounds, and 14 mappings across ordinary foods and food ingredients. Quantitative compound coverage is 12/119 (10.08%); 107 Stage B compounds have no accepted quantitative concentration. Coverage is source- and matrix-specific and does not establish absence in other foods.
 
-Values (mg/100g edible portion): apple with skin, raw: epicatechin 7.53 (N150, SE0.44, range 0.80–19.16, B), catechin 1.30 (N140, SE0.07, range 0–5.10, B); unsweetened dry cocoa powder: epicatechin 196.43 (N13, SE45.38, range 158–258, B), catechin 64.82 (N13, SE14.53, range 61–90, B). USDA reports weighted database means; zero in the apple catechin range is below detection, not the accepted mean and not treated as missing. Cocoa basis is retained as USDA edible portion for dry powder; no extra moisture conversion was made.
+Batch 009 adds five primary analytical records: 6-gingerol and 6-shogaol in fresh ginger, xanthohumol in hops, capsaicin in Habanero on a dry-weight basis, and piperine in black pepper. No new exposure estimates were calculated because the records lack a compatible individual portion input; the chili result is on a dry-weight basis without dry-mass consumption data.
+
+Source-specific limitations and screening outcomes are recorded in `batches/batch_009_multimatrix_primary_food_composition/`.

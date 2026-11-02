@@ -1,3 +1,3 @@
-# Search coverage report
+# Search Coverage
 
-Four USDA Flavonoid Database Release 3.3 analyte/food candidates were searched and accepted (apple and unsweetened dry cocoa for catechin and epicatechin). Two additional USDA candidates remain held in `CANDIDATES.csv`: apple quercetin due to aglycone-equivalent ambiguity, and standardized decaffeinated green tea EGCG due to infusion basis/category and low N. Thus 6 candidate rows are documented in the search log, 4 accepted, 2 pending. The other 115 Stage B compounds were not searched in this pass.
+The search log contains 139 search-event rows covering 119 distinct Stage B compound IDs. Batch 009 records a focused, multi-matrix screen of 25 distinct compounds. This is not a claim that every possible source or food has been searched. Full batch decisions and limitations are in `batches/batch_009_multimatrix_primary_food_composition/compound_screening.csv`.

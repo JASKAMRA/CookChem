@@ -47,6 +47,8 @@ class CompoundMappingTests(unittest.TestCase):
         self.assertEqual(mapped[0]["quantitative_data_available"],"true")
         ingredient=build_mappings(COMPOUNDS,[{**record,"food_use_classification":"food ingredient"}])
         self.assertEqual(ingredient[0]["quantitative_data_available"],"true")
+        beverage=build_mappings(COMPOUNDS,[{**record,"food_use_classification":"prepared beverage"}])
+        self.assertEqual(beverage[0]["quantitative_data_available"],"true")
         missing_basis=build_mappings(COMPOUNDS,[{**record,"moisture_basis":""}])
         self.assertEqual(missing_basis[0]["quantitative_data_available"],"false")
 

@@ -1,3 +1,3 @@
-# Mapping coverage report
+# Mapping Coverage
 
-Mapping builder result: 119 Stage B compounds; 2 compounds with verified quantitative data; 4 food composition records; 4 mapping rows. All four are exact canonical stereospecific name matches, with zero ambiguous, unmatched, or rejected records. Nineteen Stage B entries remain pending identity review. This is narrow data coverage and does not establish that other compounds are absent from foods.
+The 119-compound Stage B registry was evaluated against 14 active quantitative food records. 12 compounds are represented by 14 records/mappings. All 14 mappings resolve without ambiguity or unmatched records. Five Batch 009 records map to exact Stage B Compound_IDs and have verified quantitative data. Nineteen Stage B entries remain pending identity review. No accepted record is unmapped. See `../validation/mapping_coverage.json` for pipeline counts.

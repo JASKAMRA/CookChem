@@ -1,0 +1,24 @@
+{
+  "batch": "009",
+  "date": "2026-11-02",
+  "distinct_compounds_screened": 25,
+  "accepted_new_records": 5,
+  "cumulative_active_records": 14,
+  "cumulative_mappings": 14,
+  "unique_compounds_covered": 12,
+  "stage_b_compounds": 119,
+  "new_exposure_estimates": 0,
+  "notes": [
+    "SR Legacy April 2018 archive ZIP could not be retrieved; existing official API caffeine value retained separately.",
+    "All newly accepted records use exact Stage B IDs; no new exposure estimate calculated.",
+    "Held garlic results and other nonaccepted findings are documented in compound_screening.csv and CANDIDATES.csv."
+  ],
+  "verification": {
+    "active_full_test_suite": "PASS: 53 tests",
+    "clean_copy_test_suite": "PASS: 53 tests",
+    "focused_unit_conversion_tests": "PASS: 5 tests",
+    "integration_tests": "PASS: 7 tests",
+    "active_validation": "PASS: 119 Stage B compounds; 14 food records; 14 mappings; zero errors",
+    "protected_checks": "PASS: Stage A 19/19; Stage B Final 709/709; Stage B archive 8096/8096; Phase1-v1.2.0 package 816/816"
+  }
+}

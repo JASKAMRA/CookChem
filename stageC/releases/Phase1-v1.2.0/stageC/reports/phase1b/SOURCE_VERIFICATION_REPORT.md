@@ -1,0 +1,5 @@
+# Source verification report
+
+Primary database inspected: USDA ARS, *Database for the Flavonoid Content of Selected Foods*, Release 3.3 official PDF. Direct table review verified all six accepted aggregate values: four entries from batches 001–002 and two prepared-infusion entries from batch 003. USDA documents units, table means and confidence codes, tea standardization, and its glycoside/aglycone conversion approach. The accepted tea ref 272 is explicitly an unpublished Unilever 2002 data summary; its underlying observations and method were not independently retrieved. These records are `AUTHORITATIVE_DATABASE_VERIFIED`, not full-text primary-study verified.
+
+USDA flavonoid aggregates for parsley and orange juice were reviewed but held where glycosides may be represented as aglycone equivalents. Isorhamnetin in fresh parsley is explicitly a reported zero (N=4, CC C); it remains out of the quantitative dataset. The official FoodData Central search/download pages identify SR Legacy NDB 14209 and an April 2018 downloadable dataset; caffeine concentration awaits direct extraction from that official dataset.

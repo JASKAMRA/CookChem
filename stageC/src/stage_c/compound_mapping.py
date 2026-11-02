@@ -20,7 +20,7 @@ def _quantitative_data_available(record: dict[str, Any]) -> bool:
         bool(record.get("reported_concentration"))
         and bool(record.get("raw_or_processed_state"))
         and bool(record.get("moisture_basis"))
-        and record.get("food_use_classification", "").casefold() in {"ordinary food", "food ingredient"}
+        and record.get("food_use_classification", "").casefold() in {"ordinary food", "food ingredient", "prepared beverage"}
         and record.get("source_verification_status", "").casefold() in {"verified", "full-text verified", "database verified", "user verified"}
         and record.get("source_classification", "") in {"Primary analytical measurement", "Peer-reviewed secondary source", "Authoritative food-composition database", "Verified laboratory measurement", "User-supplied measurement"}
     )

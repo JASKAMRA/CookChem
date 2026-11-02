@@ -36,9 +36,7 @@ def normalize_unit(unit: str) -> str:
 
 
 def mass_to_mg(value: object, unit: str) -> Decimal:
-    key = normalize_unit(unit).replace("μ", "µ")
-    # Greek mu variants are accepted; all outputs are in mg.
-    key = key.replace("µ", "ug")
+    key = normalize_unit(unit).replace("μg", "ug").replace("µg", "ug")
     if key not in MASS_TO_MG:
         raise UnitConversionError(f"Unsupported mass unit: {unit!r}")
     return _decimal(value) * MASS_TO_MG[key]
@@ -49,7 +47,7 @@ def mass_to_kg(value: object, unit: str) -> Decimal:
 
 
 def concentration_to_mg_per_kg(value: object, unit: str) -> Decimal:
-    key = normalize_unit(unit).replace("μ", "µ").replace("µ", "ug")
+    key = normalize_unit(unit).replace("μg", "ug").replace("µg", "ug")
     key = key.replace("100g", "100 g")
     if key not in CONCENTRATION_TO_MG_PER_KG:
         raise UnitConversionError(f"Unsupported mass concentration unit: {unit!r}")
@@ -58,7 +56,7 @@ def concentration_to_mg_per_kg(value: object, unit: str) -> Decimal:
 
 def concentration_factor_to_mg_per_kg(unit: str) -> Decimal:
     """Return the exact multiplicative factor for a source unit."""
-    key = normalize_unit(unit).replace("μ", "µ").replace("µ", "ug").replace("100g", "100 g")
+    key = normalize_unit(unit).replace("μg", "ug").replace("µg", "ug").replace("100g", "100 g")
     if key not in CONCENTRATION_TO_MG_PER_KG:
         raise UnitConversionError(f"Unsupported mass concentration unit: {unit!r}")
     return CONCENTRATION_TO_MG_PER_KG[key]

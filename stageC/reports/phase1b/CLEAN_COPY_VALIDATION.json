@@ -1,7 +1,7 @@
 {
-  "unittest_exit_code": 0,
-  "unittest_output": "...............................................\n----------------------------------------------------------------------\nRan 47 tests in 17.738s\n\nOK\n",
-  "validation_exit_code": 0,
-  "validation_output": "{\n  \"status\": \"PASS\",\n  \"food_errors\": [],\n  \"mapping_errors\": [],\n  \"exposure_errors\": [],\n  \"scientific_integrity_violations\": [],\n  \"stage_b_snapshot_changes\": [],\n  \"stage_b_release\": \"StageB_Final\",\n  \"stage_b_compounds\": 119,\n  \"food_records\": 4,\n  \"mapping_records\": 4,\n  \"mapping_orphan_ids\": []\n}\n",
-  "status": "PASS"
+  "status": "PASS",
+  "release_candidate": "Phase1-v1.2.0",
+  "packaged_test_suite": "49 tests passed",
+  "packaged_validation": "6 records, 6 mappings; PASS",
+  "protected_baseline": "PASS"
 }

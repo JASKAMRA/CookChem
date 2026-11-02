@@ -123,7 +123,7 @@ def calculate_exposure(item: dict[str, Any], food_records: dict[str, dict[str, A
         result["compound_name"] = compound.get("Canonical_Name", "")
         result["calculation_timestamp"] = timestamp or result["calculation_timestamp"]
         return _with_inherited_warnings(result, compound)
-    if food.get("food_use_classification", "").casefold() not in {"ordinary food", "food ingredient"}:
+    if food.get("food_use_classification", "").casefold() not in {"ordinary food", "food ingredient", "prepared beverage"}:
         result = _incomplete_base(item, "Unverified input", [], ["Record is not explicitly verified as an ordinary food; supplement and medicinal-botanical data are excluded."])
         result["compound_name"] = compound.get("Canonical_Name", "")
         result["calculation_timestamp"] = timestamp or result["calculation_timestamp"]

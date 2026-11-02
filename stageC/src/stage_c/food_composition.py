@@ -48,7 +48,7 @@ def validate_food_record(record: dict[str, Any]) -> list[str]:
         errors.append("normalized concentration cannot exist when reported concentration is missing")
     if record.get("raw_or_processed_state", "").strip().lower() not in {"raw", "processed", "cooked", "fermented", "dried", "frozen", "other", ""}:
         errors.append("raw_or_processed_state must use a documented categorical value")
-    if record.get("food_use_classification", "").strip().lower() not in {"ordinary food", "food ingredient", "supplement", "medicinal botanical", "extract", "uncertain", "not applicable", ""}:
+    if record.get("food_use_classification", "").strip().lower() not in {"ordinary food", "food ingredient", "prepared beverage", "supplement", "medicinal botanical", "extract", "uncertain", "not applicable", ""}:
         errors.append("food_use_classification must use a documented categorical value")
     if record.get("source_classification") not in VERIFIED_CLASSES | {"Unverified record", "Missing data"}:
         errors.append("source_classification must be an allowed evidence class")

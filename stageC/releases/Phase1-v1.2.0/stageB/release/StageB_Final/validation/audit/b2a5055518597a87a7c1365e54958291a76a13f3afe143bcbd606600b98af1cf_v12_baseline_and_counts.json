@@ -1,0 +1,46 @@
+{
+  "release": "V12",
+  "date": "2026-10-30",
+  "status": "PASS_WITH_WARNINGS",
+  "v11_recalculated_baseline": {
+    "anchors": 105,
+    "evidence": 272,
+    "drug_probe_labels": 121,
+    "unique_PMIDs": 144,
+    "unique_nonblank_DOIs": 141,
+    "warning_rows": 41
+  },
+  "anchors": 119,
+  "new_anchors": 14,
+  "target": 150,
+  "remaining_to_target": 31,
+  "deferred_new_candidates": 0,
+  "deferred_reasons": [],
+  "evidence_records": 286,
+  "new_evidence_records": 14,
+  "drug_probe_labels": 127,
+  "unique_PMIDs": 151,
+  "unique_DOIs": 148,
+  "evidence_classes": {
+    "Animal": 51,
+    "Controlled clinical": 4,
+    "Human pharmacokinetic": 70,
+    "In vitro": 160,
+    "Other human clinical": 1
+  },
+  "PMID_to_multiple_DOIs": {},
+  "manual_checks": {
+    "FC-01": "PARTIAL",
+    "CH-05": "PARTIAL",
+    "NX-05": "PARTIAL",
+    "CL-03": "PARTIAL",
+    "PV-07": "NOT COMPLETED",
+    "WA-03": "PARTIAL"
+  },
+  "V11_claimed_tests_corrected": {
+    "actual_V11_automated_passes": 43,
+    "reconciliation": "V11 handoff states 45/45, but audit summary and test results show 43 automated assertions plus 6 pending manual checks"
+  },
+  "inherited_rows_modified": 0,
+  "cooking_retention_preserved": true
+}

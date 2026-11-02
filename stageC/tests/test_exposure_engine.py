@@ -53,6 +53,12 @@ class ExposureEngineTests(unittest.TestCase):
         self.assertEqual(r["calculation_status"],"Complete")
         self.assertEqual(r["estimated_consumed_amount"],"1.0")
 
+    def test_prepared_beverage_uses_reported_food_mass_basis(self):
+        beverage={"F-1":{**FOOD["F-1"],"food_use_classification":"prepared beverage","raw_or_processed_state":"processed","moisture_basis":"as-consumed beverage; USDA reports per 100g (100ml)"}}
+        r=calculate_exposure(item(),beverage,MAP,COMPOUNDS)
+        self.assertEqual(r["calculation_status"],"Complete")
+        self.assertEqual(r["estimated_consumed_amount"],"1.0")
+
     def test_pending_stage_b_identity_is_withheld(self):
         pending={"C-1":{**COMPOUNDS["C-1"],"StageC_Identity_Verification_Status":"Source transcription; independent chemical parser/adjudication pending"}}
         r=calculate_exposure(item(),FOOD,MAP,pending)

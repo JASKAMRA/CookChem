@@ -10,12 +10,16 @@ class UnitConversionTests(unittest.TestCase):
     def test_supported_mass_units(self):
         self.assertEqual(mass_to_mg("1", "g"), Decimal("1000"))
         self.assertEqual(mass_to_mg("1000", "ug"), Decimal("1.000"))
+        self.assertEqual(mass_to_mg("1000", "µg"), Decimal("1.000"))
+        self.assertEqual(mass_to_mg("1000", "μg"), Decimal("1.000"))
         self.assertEqual(mass_to_kg("200", "g"), Decimal("0.2"))
 
     def test_concentration_factors_independently(self):
         self.assertEqual(concentration_to_mg_per_kg("5", "mg/kg"), Decimal("5"))
         self.assertEqual(concentration_to_mg_per_kg("5", "mg/100 g"), Decimal("50"))
         self.assertEqual(concentration_to_mg_per_kg("5", "ug/g"), Decimal("5"))
+        self.assertEqual(concentration_to_mg_per_kg("5", "µg/g"), Decimal("5"))
+        self.assertEqual(concentration_to_mg_per_kg("5", "μg/g"), Decimal("5"))
         self.assertEqual(concentration_to_mg_per_kg("5", "ng/g"), Decimal("0.005"))
 
     def test_rejects_volume_and_unknown_units(self):

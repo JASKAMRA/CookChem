@@ -1,28 +1,10 @@
-# Phase 1B progress
+# Stage C Phase 1B Progress
 
-## Completed modules
-- Baseline/checkpoint capture and immutable Stage B verification.
-- USDA Release 3.3 discovery/screening framework and 119-compound priority register.
-- Batch 001 apple catechin/epicatechin ingestion and exposure calculations.
-- Backward-compatible `food ingredient` classification across schema, validation, mapping, exposure, and regression tests.
-- Batch 002 cocoa catechin/epicatechin ingestion and exposure calculations.
-- Search, source, mapping, coverage, acceptance, exposure, recovery, and resume reports.
-
-## Remaining modules
-- Expand source discovery beyond the current four accepted measurements and resolve two held candidates if evidence permits; detailed prioritized resume tasks are in `NEXT_STEPS.md`. This is the next research checkpoint, not completed work.
-- Versioned Phase 1B release packaging and packaged-copy validation completed.
-
-## Tests and checks
-- Focused food/mapping/exposure tests: 27 passed.
-- Full unittest suite: 47 passed, 0 failed. One initial run failed only because a pre-expansion integration assertion expected two rows; the assertion was corrected to cover all four records and the rerun passed.
-- Active data validation: PASS (4 records, 4 mappings, no integrity errors).
-- Cocoa independent formula check: PASS (2/2). Clean-copy suite and validation: PASS. Protected baseline: PASS.
-
-## Known limitations/blockers
-- Only 2 of 119 Stage B compounds have accepted quantitative food data.
-- USDA source-reference IDs behind aggregate summaries were not retraced to individual papers; underlying Access dataset not accessed.
-- Stage B warning V11-W02 remains relevant to catechin/epicatechin identity adjudication; entries are separate and not merged.
-- No processing, recipe dilution, cooking retention, bioavailability, or health-risk interpretation.
-
-## Remaining work
-- Stable checkpoint preserved. Broader analyte-by-analyte evidence expansion remains; do not infer coverage for the 117 compounds without accepted quantitative measurements.
+- Latest historical release: `Phase1-v1.2.0` (historical package remains at 6 records; no new release was produced in this run).
+- Verified baseline at start of Batch 009: 119 Stage B compounds; 9 active records and mappings covering 7 compounds; 52 tests passed; active validation PASS.
+- Batch 009 screened 25 distinct compounds, added 5 primary-source quantitative records, and documented held/rejected candidates and the USDA SR Legacy archive retrieval limitation.
+- Active data after Batch 009: 14 quantitative records, 14 mappings, 12/119 unique compounds covered; validation PASS.
+- Search log after Batch 009: 139 search events and 119/119 distinct compound IDs represented.
+- New exposure estimates: none; none of the Batch 009 measurements had sufficiently compatible individual serving inputs. Existing coffee and phytoestrogen demonstration estimates remain documented in the existing exposure report.
+- Test status: focused unit-conversion tests passed (5); Stage C integration tests passed (7); full active suite passed (53); isolated clean-copy suite passed (53).
+- Protected integrity check PASS: Stage A 19/19, Stage B Final 709/709, Stage B archive 8,096/8,096, and historical Phase1-v1.2.0 package 816/816. No edits to `NEXT_STEPS.md`, `RESUME_INSTRUCTIONS.md`, or `CHECKPOINTS.json`; Stage A and Stage B are read-only.

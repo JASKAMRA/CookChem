@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checks": {
+    "stageA": {
+      "expected_file_count": 19,
+      "checked_files": 19,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS"
+    },
+    "stageB_final": {
+      "expected_file_count": 709,
+      "checked_files": 709,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS"
+    },
+    "stageB_archive": {
+      "expected_file_count": 8096,
+      "checked_files": 8096,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS"
+    },
+    "stageC_phase1_release": {
+      "expected_file_count": 1,
+      "checked_files": 1,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "status": "PASS"
+    }
+  },
+  "stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e",
+  "expected_stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e",
+  "stage_b_manifest_status": "PASS"
+}

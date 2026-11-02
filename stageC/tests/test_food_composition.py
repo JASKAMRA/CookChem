@@ -30,6 +30,9 @@ class FoodCompositionTests(unittest.TestCase):
     def test_backward_compatible_food_ingredient_classification(self):
         self.assertEqual(validate_food_record(self.record(food_use_classification="food ingredient")),[])
 
+    def test_prepared_beverage_classification(self):
+        self.assertEqual(validate_food_record(self.record(food_use_classification="prepared beverage")),[])
+
     def test_ingestion_manifest_checksums_and_count(self):
         with tempfile.TemporaryDirectory(dir=self.temp_root) as td:
             source=Path(td)/"in.csv"; output=Path(td)/"out.csv"; manifest=Path(td)/"manifest.json"
