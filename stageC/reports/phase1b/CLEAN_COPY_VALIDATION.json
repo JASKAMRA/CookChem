@@ -1,7 +1,10 @@
 {
   "status": "PASS",
-  "release_candidate": "Phase1-v1.2.0",
-  "packaged_test_suite": "49 tests passed",
-  "packaged_validation": "6 records, 6 mappings; PASS",
-  "protected_baseline": "PASS"
+  "active_test_suite": "59 tests passed",
+  "clean_copy_test_suite": "59 tests passed",
+  "active_validation": "PASS (99 food records; 99 mappings; zero orphan IDs/errors)",
+  "clean_copy_validation": "PASS",
+  "usda_sr_legacy_download_verification": "PASS (official April 2018 CSV; FDC 171890/NDB 14209 exact join; archive SHA-256 recorded in Batch 009)",
+  "protected_baseline_recheck": "PASS (Stage A 19/19; Stage B Final 709/709; archive 8,096/8,096; Phase1-v1.2.0 artifacts 816/816; verified 2026-11-02)",
+  "validated_at_utc": "2026-11-02T10:54:04Z"
 }

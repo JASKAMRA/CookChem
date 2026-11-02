@@ -32,7 +32,7 @@ class PhaseOneIntegrationTests(unittest.TestCase):
         foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
         mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
         data=load_stage_b(); compounds={c["Compound_ID"]:c for c in data["source_files"]["compound_registry.csv"]}
-        self.assertEqual(len(foods),14)
+        self.assertEqual(len(foods),99)
         expected={
             "USDA-FLAV33-NDB09003-EPICATECHIN":("(-)-Epicatechin","7.53","CHEM-PUBCHEM-72276"),
             "USDA-FLAV33-NDB09003-CATECHIN":("(+)-Catechin","1.30","CHEM-PUBCHEM-9064"),
@@ -83,6 +83,191 @@ class PhaseOneIntegrationTests(unittest.TestCase):
         self.assertIn("dry-weight",by_id["CAPSAICIN-2026-HABANERO-DW"]["moisture_basis"].lower())
         self.assertIn("not separately reported",by_id["KOREA-PEPPER-2021-PIPERINE"]["moisture_basis"])
 
+    def test_batch_010_primary_measurements_keep_fraction_and_basis(self):
+        stage=project_root()/"stageC"
+        foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
+        mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
+        by_id={r["food_record_id"]:r for r in foods}
+        expected={
+            "B010-BERRY-01":("MOL-25F875E0BC8D5FF1","1.3995","dry weight"),
+            "B010-BERRY-02":("MOL-25F8CD05AD250A06","4.6726","dry weight"),
+            "B010-BERRY-03":("MOL-V10-637542","0.6611","dry weight"),
+            "B010-BERRY-04":("MOL-25433E39C2198405","2.3719","dry weight"),
+            "B010-BERRY-05":("CHEM-PUBCHEM-932","0.1406","dry weight"),
+            "B010-BERRY-06":("CHEM-PUBCHEM-5281672","0.1189","dry weight"),
+            "B010-BERRY-07":("CHEM-PUBCHEM-5281670","4.0738","dry weight"),
+            "B010-BERRY-08":("CHEM-PUBCHEM-5280343","0.0186","dry weight"),
+            "B010-BERRY-09":("MOL-0DD55E4F408730D4","0.4059","dry weight"),
+            "B010-BERRY-10":("MOL-06FA7CEF96696340","0.5113","dry weight"),
+            "B010-BERRY-11":("MOL-6213BC022378CC3A","3.8259","dry weight"),
+            "B010-BERRY-12":("MOL-V10-637542","4.7476","dry weight"),
+            "B010-FURO-01":("CHEM-PUBCHEM-2355","0.0302","food mass basis"),
+            "B010-FURO-02":("MOL-V9-6440498","12.2437","food mass basis"),
+            "B010-FURO-03":("CHEM-PUBCHEM-5471349","8.3567","food mass basis"),
+        }
+        self.assertEqual(len(expected),15)
+        for food_id,(compound_id,normalized,basis) in expected.items():
+            food=by_id[food_id]
+            mapping=next(m for m in mappings if m["food_record_id"]==food_id)
+            self.assertEqual(mapping["compound_id"],compound_id)
+            self.assertEqual(food["normalized_concentration"],normalized)
+            self.assertEqual(food["normalized_unit"],"mg/kg")
+            self.assertIn(basis,food["moisture_basis"])
+            self.assertEqual(food["source_verification_status"],"Full-text verified")
+        self.assertIn("free fraction only",by_id["B010-BERRY-01"]["extraction_notes"])
+        self.assertEqual(by_id["B010-FURO-01"]["sample_size"],"n=3")
+
+    def test_batch_011_hplc_measurements_keep_fresh_basis_and_exact_analytes(self):
+        stage=project_root()/"stageC"
+        foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
+        mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
+        by_id={r["food_record_id"]:r for r in foods}
+        expected={
+            "B011-HPLC-01":("MOL-V10-135","14.0"),
+            "B011-HPLC-02":("MOL-06FA7CEF96696340","832.0"),
+            "B011-HPLC-03":("MOL-6213BC022378CC3A","306.0"),
+            "B011-HPLC-04":("MOL-25F875E0BC8D5FF1","323.0"),
+            "B011-HPLC-05":("MOL-25F8CD05AD250A06","29.80"),
+            "B011-HPLC-06":("CHEM-PUBCHEM-5280343","26.60"),
+            "B011-HPLC-07":("MOL-3811F42D3C15ED32","116.0"),
+        }
+        for food_id,(compound_id,normalized) in expected.items():
+            food=by_id[food_id]
+            mapping=next(m for m in mappings if m["food_record_id"]==food_id)
+            self.assertEqual(mapping["compound_id"],compound_id)
+            self.assertEqual(food["normalized_concentration"],normalized)
+            self.assertEqual(food["normalized_unit"],"mg/kg")
+            self.assertEqual(food["moisture_basis"],"fresh weight, edible portion")
+            self.assertEqual(food["sample_size"],"n=3 independent measurements")
+
+    def test_batch_012_herb_profiles_preserve_dry_basis_and_semiquantitation(self):
+        stage=project_root()/"stageC"
+        foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
+        mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
+        by_id={r["food_record_id"]:r for r in foods}
+        expected={
+            "B012-HERB-01":("MOL-91A03F746BDB1805","1650.13"),
+            "B012-HERB-02":("MOL-91A03F746BDB1805","540.76"),
+            "B012-HERB-03":("MOL-91A03F746BDB1805","210.23"),
+            "B012-HERB-04":("MOL-91A03F746BDB1805","199.54"),
+            "B012-HERB-05":("MOL-91A03F746BDB1805","167.84"),
+            "B012-HERB-06":("MOL-91A03F746BDB1805","154.34"),
+            "B012-HERB-07":("MOL-V10-442009","0.11"),
+            "B012-HERB-08":("MOL-V10-65126","0.65"),
+            "B012-HERB-09":("MOL-V10-72","331.45"),
+            "B012-HERB-10":("MOL-V10-72","110.01"),
+            "B012-HERB-11":("MOL-6213BC022378CC3A","140.05"),
+            "B012-HERB-12":("MOL-25F875E0BC8D5FF1","270.05"),
+            "B012-HERB-13":("MOL-25F875E0BC8D5FF1","32.12"),
+            "B012-HERB-14":("CHEM-PUBCHEM-5280343","170.95"),
+            "B012-HERB-15":("CHEM-PUBCHEM-5280343","70.3"),
+        }
+        for food_id,(compound_id,normalized) in expected.items():
+            food=by_id[food_id]
+            mapping=next(m for m in mappings if m["food_record_id"]==food_id)
+            self.assertEqual(mapping["compound_id"],compound_id)
+            self.assertEqual(food["normalized_concentration"],normalized)
+            self.assertEqual(food["normalized_unit"],"mg/kg")
+            self.assertEqual(food["moisture_basis"],"dry weight, as reported by study")
+            self.assertIn("semi-quantitative",food["extraction_notes"])
+            self.assertEqual(food["sample_size"],"n=3 (study triplicate)")
+
+    def test_batch_013_native_food_herb_records_preserve_dried_sample_basis(self):
+        stage=project_root()/"stageC"
+        foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
+        mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
+        by_id={r["food_record_id"]:r for r in foods}
+        expected={
+            "B013-NATIVE-01":("MOL-91A03F746BDB1805","945.56"),
+            "B013-NATIVE-02":("MOL-91A03F746BDB1805","745.67"),
+            "B013-NATIVE-03":("MOL-91A03F746BDB1805","76.57"),
+            "B013-NATIVE-04":("MOL-91A03F746BDB1805","23.43"),
+            "B013-NATIVE-05":("MOL-6213BC022378CC3A","747.52"),
+            "B013-NATIVE-06":("MOL-6213BC022378CC3A","584.07"),
+            "B013-NATIVE-07":("MOL-6213BC022378CC3A","238.76"),
+            "B013-NATIVE-08":("MOL-6213BC022378CC3A","29.07"),
+            "B013-NATIVE-09":("MOL-25F875E0BC8D5FF1","556.8"),
+            "B013-NATIVE-10":("MOL-25F875E0BC8D5FF1","11.66"),
+            "B013-NATIVE-11":("CHEM-PUBCHEM-5281612","65.61"),
+            "B013-NATIVE-12":("MOL-V9-5280442","138.37"),
+            "B013-NATIVE-13":("MOL-39FEB7124D04D54E","98.36"),
+            "B013-NATIVE-14":("CHEM-PUBCHEM-5281613","45.17"),
+            "B013-NATIVE-15":("CHEM-PUBCHEM-5281613","14.04"),
+            "B013-NATIVE-16":("CHEM-PUBCHEM-5281613","71.46"),
+            "B013-NATIVE-17":("CHEM-PUBCHEM-5281613","10.64"),
+            "B013-NATIVE-18":("MOL-3811F42D3C15ED32","64.16"),
+            "B013-NATIVE-19":("MOL-3811F42D3C15ED32","12.48"),
+            "B013-NATIVE-20":("MOL-25433E39C2198405","116.03"),
+            "B013-NATIVE-21":("MOL-25433E39C2198405","135.25"),
+        }
+        self.assertEqual(len(expected),21)
+        for food_id,(compound_id,normalized) in expected.items():
+            food=by_id[food_id]
+            mapping=next(m for m in mappings if m["food_record_id"]==food_id)
+            self.assertEqual(mapping["compound_id"],compound_id)
+            self.assertEqual(food["normalized_concentration"],normalized)
+            self.assertEqual(food["normalized_unit"],"mg/kg")
+            self.assertEqual(food["moisture_basis"],"dried sample; reported per gram of sample")
+            self.assertIn("semi-quantified",food["extraction_notes"])
+            self.assertEqual(food["sample_size"],"n=3 extraction replicates")
+
+
+    def test_batch_014_native_fruit_values_preserve_source_state_and_semiquantitation(self):
+        stage=project_root()/"stageC"
+        foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
+        mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
+        by_id={r["food_record_id"]:r for r in foods}
+        expected={
+            "B014-NATIVE-01":("MOL-V10-72","63.56"),
+            "B014-NATIVE-03":("MOL-V10-135","11.74"),
+            "B014-NATIVE-05":("MOL-25F875E0BC8D5FF1","23.49"),
+            "B014-NATIVE-07":("MOL-06FA7CEF96696340","19.24"),
+            "B014-NATIVE-10":("MOL-V10-637542","10.56"),
+            "B014-NATIVE-11":("MOL-6213BC022378CC3A","134.05"),
+            "B014-NATIVE-12":("CHEM-PUBCHEM-5280343","71.46"),
+            "B014-NATIVE-14":("CHEM-PUBCHEM-5281672","23.67"),
+            "B014-NATIVE-16":("CHEM-PUBCHEM-932","24.72"),
+            "B014-NATIVE-17":("MOL-V9-5281654","26.83"),
+            "B014-NATIVE-19":("CHEM-PUBCHEM-5280805","56.61"),
+        }
+        for food_id,(compound_id,normalized) in expected.items():
+            food=by_id[food_id]
+            mapping=next(m for m in mappings if m["food_record_id"]==food_id)
+            self.assertEqual(mapping["compound_id"],compound_id)
+            self.assertEqual(food["normalized_concentration"],normalized)
+            self.assertEqual(food["normalized_unit"],"mg/kg")
+            self.assertEqual(food["raw_or_processed_state"],"dried")
+            self.assertIn("dried",food["moisture_basis"])
+            self.assertIn("semi-quantification",food["analytical_method"])
+            self.assertEqual(food["sample_size"],"n=3 extraction replicates")
+
+
+    def test_batch_015_raw_common_beans_keep_dry_weight_and_exact_analytes(self):
+        stage=project_root()/"stageC"
+        foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
+        mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
+        by_id={r["food_record_id"]:r for r in foods}
+        expected={
+            "B015-BEAN-01":("MOL-06FA7CEF96696340","0.19"),
+            "B015-BEAN-02":("MOL-V10-72","5.15"),
+            "B015-BEAN-03":("MOL-V10-135","0.60"),
+            "B015-BEAN-04":("MOL-25F875E0BC8D5FF1","0.26"),
+            "B015-BEAN-05":("MOL-V10-637542","0.68"),
+            "B015-BEAN-06":("MOL-V10-1549091","3.38"),
+            "B015-BEAN-07":("CHEM-PUBCHEM-5280343","1.34"),
+            "B015-BEAN-08":("MOL-3811F42D3C15ED32","13.54"),
+        }
+        for food_id,(compound_id,normalized) in expected.items():
+            food=by_id[food_id]
+            mapping=next(m for m in mappings if m["food_record_id"]==food_id)
+            self.assertEqual(mapping["compound_id"],compound_id)
+            self.assertEqual(food["normalized_concentration"],normalized)
+            self.assertEqual(food["normalized_unit"],"mg/kg")
+            self.assertEqual(food["raw_or_processed_state"],"raw")
+            self.assertIn("dry weight",food["moisture_basis"])
+            self.assertEqual(food["sample_size"],"n=3 extraction replicates")
+            self.assertIn("authentic-standard",food["analytical_method"])
+
     def test_usda_biochanin_a_maps_exactly_without_inferred_metadata(self):
         stage=project_root()/"stageC"
         foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
@@ -120,8 +305,16 @@ class PhaseOneIntegrationTests(unittest.TestCase):
         self.assertEqual(mapping["compound_id"],"MOL-693364CB16A9EA2D")
         self.assertEqual(food["reported_concentration"],"40")
         self.assertEqual(food["reported_unit"],"mg/100g")
+        self.assertIn("FoodData_Central_sr_legacy_food_csv_2018-04.zip",food["source_url"])
+        self.assertIn("nutrient ID 1057",food["database_reference"])
+        self.assertIn("8 data points",food["database_reference"])
+        self.assertIn("237 g",food["database_reference"])
+        self.assertIn("API record",food["extraction_notes"])
         estimate=calculate_exposure({"estimate_id":"FDC-COFFEE-1-CUP","compound_id":mapping["compound_id"],"food_record_id":food["food_record_id"],"ingredient_quantity":"237","ingredient_unit":"g","serving_mass":"237","serving_unit":"g","consumed_fraction":"1","period_id":"illustrative-usda-srlegacy-coffee-cup"},{food["food_record_id"]:food},[mapping],compounds,data["release"]["manifest_sha256"],timestamp="2026-01-01T00:00:00Z")
         self.assertEqual(estimate["calculation_status"],"Complete")
         self.assertEqual(estimate["estimated_consumed_amount"],"94.800")
 
 if __name__=="__main__":unittest.main()
+
+
+

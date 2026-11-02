@@ -1,7 +1,7 @@
 # Stage C Phase 1B Food Composition Coverage
 
-Active dataset: 14 verified quantitative records, 12 unique Stage B compounds, and 14 mappings across ordinary foods and food ingredients. Quantitative compound coverage is 12/119 (10.08%); 107 Stage B compounds have no accepted quantitative concentration. Coverage is source- and matrix-specific and does not establish absence in other foods.
+The active dataset contains 99 verified food-composition records, 39 unique Stage B compounds, and 99 mappings (39/119, 32.77%). 80 Stage B compounds have no accepted quantitative food measurement. Current mapping validation reports zero ambiguous, orphaned or rejected mappings.
 
-Batch 009 adds five primary analytical records: 6-gingerol and 6-shogaol in fresh ginger, xanthohumol in hops, capsaicin in Habanero on a dry-weight basis, and piperine in black pepper. No new exposure estimates were calculated because the records lack a compatible individual portion input; the chili result is on a dry-weight basis without dry-mass consumption data.
+Batches 010–015 added 85 source-backed records from berry, citrus, fresh fruit/vegetable/spice, culinary-herb, native Australian food, and Portuguese common-bean matrices. Food basis remains as reported. Semi-quantitative source panels, dried ingredients, and raw seed dry-weight measurements are expressly caveated. No new exposures were calculated.
 
-Source-specific limitations and screening outcomes are recorded in `batches/batch_009_multimatrix_primary_food_composition/`.
+Source-panel limitations, pending identities, non-numeric results, ND results and unsupported units are documented in batch screening files and `CANDIDATES.csv`; source-panel non-detection is not global absence.

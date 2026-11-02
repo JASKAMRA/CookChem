@@ -9,7 +9,7 @@
   "stage_b_compounds": 119,
   "new_exposure_estimates": 0,
   "notes": [
-    "SR Legacy April 2018 archive ZIP could not be retrieved; existing official API caffeine value retained separately.",
+    "USDA SR Legacy April 2018 archive was later downloaded and independently parsed; caffeine record FDC 171890 / NDB 14209 verified. API provenance retained separately.",
     "All newly accepted records use exact Stage B IDs; no new exposure estimate calculated.",
     "Held garlic results and other nonaccepted findings are documented in compound_screening.csv and CANDIDATES.csv."
   ],
@@ -20,5 +20,19 @@
     "integration_tests": "PASS: 7 tests",
     "active_validation": "PASS: 119 Stage B compounds; 14 food records; 14 mappings; zero errors",
     "protected_checks": "PASS: Stage A 19/19; Stage B Final 709/709; Stage B archive 8096/8096; Phase1-v1.2.0 package 816/816"
+  },
+  "usda_sr_legacy_download_verification": {
+    "status": "PASS",
+    "release": "SR Legacy April 2018 CSV",
+    "archive": "usda_sr_legacy_2018_04.zip",
+    "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+    "food_record": "FDC 171890 / NDB 14209",
+    "caffeine_nutrient_id": 1057,
+    "reported_amount_mg_per_100g": 40,
+    "data_points": 8,
+    "min_mg": 30,
+    "max_mg": 44,
+    "cup_mass_g": 237,
+    "api_provenance_preserved_separately": true
   }
 }

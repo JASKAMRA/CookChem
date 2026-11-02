@@ -1,10 +1,11 @@
 # Stage C Phase 1B Progress
 
-- Latest historical release: `Phase1-v1.2.0` (historical package remains at 6 records; no new release was produced in this run).
-- Verified baseline at start of Batch 009: 119 Stage B compounds; 9 active records and mappings covering 7 compounds; 52 tests passed; active validation PASS.
-- Batch 009 screened 25 distinct compounds, added 5 primary-source quantitative records, and documented held/rejected candidates and the USDA SR Legacy archive retrieval limitation.
-- Active data after Batch 009: 14 quantitative records, 14 mappings, 12/119 unique compounds covered; validation PASS.
-- Search log after Batch 009: 139 search events and 119/119 distinct compound IDs represented.
-- New exposure estimates: none; none of the Batch 009 measurements had sufficiently compatible individual serving inputs. Existing coffee and phytoestrogen demonstration estimates remain documented in the existing exposure report.
-- Test status: focused unit-conversion tests passed (5); Stage C integration tests passed (7); full active suite passed (53); isolated clean-copy suite passed (53).
-- Protected integrity check PASS: Stage A 19/19, Stage B Final 709/709, Stage B archive 8,096/8,096, and historical Phase1-v1.2.0 package 816/816. No edits to `NEXT_STEPS.md`, `RESUME_INSTRUCTIONS.md`, or `CHECKPOINTS.json`; Stage A and Stage B are read-only.
+- Historical release `Phase1-v1.2.0` remains preserved; no new release was created. The official USDA SR Legacy April 2018 CSV archive was downloaded and caffeine FDC 171890 / NDB 14209 was verified against the component tables; API provenance remains separately identified.
+- Batches 010–015 each screened 25 distinct Stage B targets against primary-source panels (150 batch-specific outcomes total). Batches 010–015 contributed 85 quantitative food records. Batch 015 added eight raw common-bean records spanning eight analytes and newly covered one Stage B compound.
+- Active dataset: 99 accepted food-composition records and 99 mappings, covering 39/119 compounds; 80 have no accepted quantitative measurement. Validation reports 19 identity-review entries.
+- Search log: 289 source/compound events, spanning all 119 Stage B IDs. This establishes logged screening coverage, not exhaustive literature absence.
+- Food evidence covers berries, citrus, fresh fruit/vegetables/spices, culinary and native herbs, native Australian fruits/spices, and Portuguese common beans. Semi-quantitative panels and dry/fresh bases remain explicitly flagged.
+- Exact stereochemistry, positional isomers, glycosides/aglycones, free/bound fractions, and units/bases were not conflated. Batch 014 heatmap-only findings and Batch 015 generic stereoisomer values were not ingested. Paired cooked-bean values are held out of Phase 1B.
+- No new exposure estimates were calculated; study-specific dried ingredients/raw-seed dry-weight measurements lack compatible individual as-consumed serving inputs.
+- Active validation: PASS, 99 records, 99 mappings, zero orphan/error findings. Active and clean-copy regression outcomes are in `CLEAN_COPY_VALIDATION.json`.
+- Protected integrity recheck: PASS (Stage A 19/19, Stage B Final 709/709, Stage B archive 8,096/8,096, Phase1-v1.2.0 package 816/816). Historical release files remain untouched.

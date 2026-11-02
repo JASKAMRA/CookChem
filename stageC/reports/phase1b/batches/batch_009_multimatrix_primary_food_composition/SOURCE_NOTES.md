@@ -8,9 +8,9 @@ Primary measurement studies: Koch et al., 2017, DOI 10.3390/ijms18020452 (Table 
 
 No exposure estimate was calculated for the new records. Ginger and pepper concentrations are source-specific, and the chili value is dry-weight basis without a matching dry-serving input. Piperine paper reports population exposure separately using Korean dietary survey data, not an individual serving input.
 
-## Caffeine archive attempt
+## Caffeine downloadable archive verification
 
-USDA lists the April 2018 SR Legacy release on its official download page. The official JSON and CSV ZIP package links could not be retrieved here: the web reader does not support ZIP content and the local downloader failed DNS resolution. No third-party mirror was used and archive extraction is not claimed. The previously accepted USDA FoodData Central API record remains separate; the archive attempt did not duplicate or change it.
+Retrieved the official USDA April 2018 SR Legacy CSV archive from `https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip` (SHA-256: `b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0`). The archive was joined directly across `sr_legacy_food.csv`, `food.csv`, `nutrient.csv`, `food_nutrient.csv`, and `food_portion.csv`. It confirms FDC 171890 / NDB 14209, the food description “Beverages, coffee, brewed, prepared with tap water”, nutrient ID 1057 / nutrient number 262 (Caffeine, MG), 40 mg/100 g, 8 data points, 30–44 mg observed range, derivation ID 1, and one cup (8 fl oz) = 237 g. The earlier official FDC API response remains separate corroborating provenance and was not counted as a second measurement.
 
 ## Screening scope
 

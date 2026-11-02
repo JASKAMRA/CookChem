@@ -1,16 +1,17 @@
-# Source verification report
+# Source Verification Report
 
-Accepted source databases in the active dataset: USDA Flavonoid Content of Selected Foods Release 3.3; USDA FoodData Central SR Legacy record 171890 / NDB 14209 accessed through the official API; and USDA Database on the Isoflavone Content of Selected Foods Release 2.1 separate table for other phytoestrogens. The USDA FNDDS 2017–2018 official analyte roster was used for scope screening only; no FNDDS food-code data were extracted.
+Batch 010 verified three primary studies: Kim JS (2018), DOI 10.3746/pnf.2018.23.1.35, Table 2 (free/esterified/bound berry fractions); Chun et al. (2017), DOI 10.1021/acs.jafc.7b01279, Table 4 (furocoumarins; n=3); and VanderMolen et al. (2013), DOI 10.1002/pca.2449, Table 3 (grapefruit juice in µM, retained for unit/basis review).
 
-The official FDC API confirms coffee caffeine at 40 mg/100g, nutrient ID 1057 / number 262, analytical derivation, eight data points, observed range 30–44 mg, and a one-cup mass of 237 g. Its description is brewed coffee prepared with tap water and its footnote says it includes fast-food and home-brewed coffee. The web data viewer could not extract the USDA downloadable ZIP, so the direct official USDA API record is the source used; no third-party mirror was used.
+Batch 011 verified Gu et al. (2019), PMID 31533286, DOI 10.3390/antiox8090405, Tables 2–3 (HPLC-PDA and LC-ESI-QTOF/MS characterization across 16 foods; fresh-weight basis; triplicate).
 
-USDA isoflavone Release 2.1 documentation states the main daidzein/genistein/glycitein values combine free forms with glucosides converted to aglycone equivalents. Those rows were held. Separate positive source-table values for formononetin and biochanin A in raw alfalfa sprouts were ingested as the exact reported analytes; USDA did not report row-level N or method. USDA Flav3.3 tea rows cite unpublished source ref 272 (2002), low N=2 and unavailable underlying method. No primary study was independently retrieved for accepted aggregate database values.
+Batch 012 verified Ali et al. (2021), PMID 34829641, DOI 10.3390/antiox10111770, §3.4/Table S1 (semi-quantified herb phenolics, µg/g dry weight, triplicate). Batch 013 verified Ali et al. (2023), PMID 36903854, DOI 10.3390/plants12050993, §2.6/Table S2 (native dried herbs/fruits, semi-quantitative values, triplicate).
+
+Batch 014 verified Ali et al. (2023), PMID 36829816, DOI 10.3390/antiox12020254, §§2.2, 2.4 and 3.5/Table S2. The study analyzed whole-dried mountain pepper, freeze-dried rosella and lemon aspen, and finely ground strawberry gum using LC-ESI-QTOF-MS/MS; extractions were triplicate. Individual results are described as quantification/semi-quantification. Only exact food-specific numerical values explicitly stated in the full text were ingested; the reported µg/g sample values, SDs, and dried-source basis are preserved without fresh-weight conversion.
+
+All accepted records carry source URL, DOI/PMID, table/section locator, reported units, food state, analytical method, sample size when available, and uncertainty notes.
 
 
-## Batch 009 — 2026-11-02
+Caffeine archive follow-up: the official [USDA FoodData Central download page](https://fdc.nal.usda.gov/download-datasets/) identifies SR Legacy as the April 2018 release and offers the CSV archive. The archive was downloaded from USDA and joined across `sr_legacy_food.csv`, `food.csv`, `nutrient.csv`, `food_nutrient.csv`, and `food_portion.csv`. It confirms FDC 171890 / NDB 14209, caffeine nutrient 1057 / 262 (MG), 40 mg/100 g, eight data points, range 30–44 mg, derivation code 1, and one 8-fl-oz cup = 237 g. Archive SHA-256 is recorded in Batch 009; the prior FDC API record remains an independent provenance path, not an additional measurement.
 
-- Five new quantitative records were verified against full primary-study tables and processed with the Stage C ingestion pipeline: 6-gingerol, 6-shogaol, xanthohumol, capsaicin, and piperine. Exact source locators and uncertainty flags are in `batches/batch_009_multimatrix_primary_food_composition/compound_screening.csv` and `new_primary_measurements.csv`.
-- Nine records remain authoritative-database measurements from earlier batches; the five Batch 009 records are primary analytical measurements.
-- Caffeine's FDC API record remains separately database-verified. The official SR Legacy April 2018 ZIP links were confirmed but not retrievable in this environment; no archive extraction was claimed.
-- Garlic-paste sulfur measurements remain candidates because the study's raw control was prepared with added water and the source concentration denominator needs adjudication. Candidate rows are preserved in `CANDIDATES.csv`.
-- Other held findings include the inconsistent broccoli I3C unit reports, licorice and cinnamon studies with inaccessible quantitative rows, and compounds with no eligible ordinary-food quantitative value located in this search pass.
+
+Batch 015 verified Mecha et al. (2020), PMID 31699168, DOI 10.1017/S0007114519002836, Table 2 and methods. Raw Moleiro common beans were quantified by UPLC-Q-TOF-MS against authentic standards, with external calibration and triplicate extraction. Accepted raw values are reported as µg/g raw-bean dry weight; paired cooked measurements are explicitly outside Phase 1B ingestion.
