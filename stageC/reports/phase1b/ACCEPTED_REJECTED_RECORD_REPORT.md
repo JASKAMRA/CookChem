@@ -1,9 +1,7 @@
 # Accepted and Held Record Report
 
-Active verified dataset: 99 records and 99 mappings covering 39/119 Stage B compounds. Batches 010–015 contributed 85 records, ingested through the existing validation and exact-mapping pipeline.
+Active verified ordinary-food dataset: **511 records and 511 mappings covering 109/119 Stage B compounds**. Accepted expansions through Batch 098 are documented in numbered source/review batches; candidate rows held at scientific review gates are excluded from these counts. The central candidate register currently has 22 pending manual-review rows and one row resolved by an accepted alternate measurement. Two explicit rejected source outcomes are retained in screening records: incompatible matrix and incompatible analyte.
 
-Accepted evidence includes free-fraction berry phenolics (dry-weight basis), grapefruit furocoumarins, direct HPLC fruit/vegetable/spice analytes on fresh-weight basis, semi-quantified dried culinary-herb and native-food profiles, and directly quantified raw Portuguese common-bean phenolics on raw-seed dry-weight basis.
+Source units and basis are retained or arithmetically normalized without inferred moisture/density conversions. Summary statistics stay labeled as aggregates; technical or analytical replicates are not presented as independent market lots. Some records are study-specific dry-weight, frozen-weight, processed-food, or commercial-product measurements and should not be interpreted as general-population averages. Volume-basis results remain in volume units.
 
-Held findings preserve source limits: grapefruit juice values in µM need mass-basis review; epoxybergamottin needs identity verification; generic catechin/epicatechin and trans-ferulic observations are pending exact Stage B structure compatibility; Batch 014 heatmap-only values were not converted to measurements. Batch 015 paired cooked results and human metabolite data were excluded from Phase 1B. ND and missing values were not changed to zero.
-
-No new exposure estimates were produced from the new records because compatible as-consumed serving inputs are unavailable.
+Batch 100 has a separate contextual table: seven Stage B targets with primary quantitative plant-context values (medicinal *Scutellaria* roots and *Viburnum* leaves/branches), one irilone value reported only in a secondary monograph and held pending primary numeric-table verification, and two targets with no verified exact-matrix quantity. Contextual values are not accepted ordinary-food records and do not enter the food mapping file.

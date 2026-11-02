@@ -18,6 +18,12 @@ CONCENTRATION_TO_MG_PER_KG = {
     "ug/100g": Decimal("0.01"), "µg/100g": Decimal("0.01"), "μg/100g": Decimal("0.01"),
     "ng/g": Decimal("0.001"),
 }
+VOLUME_CONCENTRATION_TO_MG_PER_L = {
+    "mg/l": Decimal("1"), "ug/l": Decimal("0.001"), "µg/l": Decimal("0.001"), "μg/l": Decimal("0.001"),
+    "mg/ml": Decimal("1000"), "ug/ml": Decimal("1"), "µg/ml": Decimal("1"), "μg/ml": Decimal("1"),
+    "ng/ml": Decimal("0.001"), "mg/100 ml": Decimal("10"), "mg/100ml": Decimal("10"),
+    "ug/100 ml": Decimal("0.01"), "µg/100 ml": Decimal("0.01"), "μg/100 ml": Decimal("0.01"),
+}
 MOLE_TO_MOL = {"mol": Decimal("1"), "mmol": Decimal("0.001"), "umol": Decimal("0.000001"), "µmol": Decimal("0.000001"), "μmol": Decimal("0.000001"), "nmol": Decimal("0.000000001")}
 
 
@@ -60,6 +66,15 @@ def concentration_factor_to_mg_per_kg(unit: str) -> Decimal:
     if key not in CONCENTRATION_TO_MG_PER_KG:
         raise UnitConversionError(f"Unsupported mass concentration unit: {unit!r}")
     return CONCENTRATION_TO_MG_PER_KG[key]
+
+
+def volume_concentration_to_mg_per_l(value: object, unit: str) -> Decimal:
+    """Convert a source volume concentration without assuming liquid density."""
+    key = normalize_unit(unit).replace("μg", "ug").replace("µg", "ug")
+    key = key.replace("100ml", "100 ml")
+    if key not in VOLUME_CONCENTRATION_TO_MG_PER_L:
+        raise UnitConversionError(f"Unsupported volume concentration unit: {unit!r}")
+    return _decimal(value) * VOLUME_CONCENTRATION_TO_MG_PER_L[key]
 
 
 def amount_moles_to_mg(value: object, unit: str, molecular_weight_g_mol: object,

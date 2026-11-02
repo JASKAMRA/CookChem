@@ -1,0 +1,41 @@
+{
+  "release_id": "Phase1B-v1.0.0",
+  "version": "1.0.0",
+  "status": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+  "created_on": "2026-11-02",
+  "scope": "CookRisk Stage C Phase 1B source-screening, quantitative food-composition data, conservative mappings, validation and reproducible package; Phase 2 excluded.",
+  "source_stage_b_release": "StageB_Final",
+  "source_stage_b_manifest_sha256": "52a5ee457f5730ee1642c2a51b121ad0d8ef1165f1a51e66f0260a25c2fc1024",
+  "data": {
+    "stage_b_compounds": 119,
+    "ordinary_food_records": 511,
+    "ordinary_food_mapping_rows": 511,
+    "ordinary_food_compounds_covered": 109,
+    "ordinary_food_compounds_uncovered": 10,
+    "contextual_primary_target_leads": 7,
+    "contextual_secondary_held_target_leads": 1,
+    "final_targets_without_verified_exact_numeric_matrix_values": 2,
+    "numbered_batches": 100,
+    "search_log_events": 411,
+    "historical_candidate_food_rows_in_batch_files": 618
+  },
+  "validation": {
+    "status": "PASS",
+    "full_clean_copy_tests": "61/61 PASS",
+    "focused_active_tests": "50/50 PASS",
+    "mapping_rebuild": "byte-for-byte match",
+    "stage_b_connector": "PASS (710 manifest entries)",
+    "stage_b_validator": "16/16 checks passed, 313 inherited warnings retained",
+    "clean_copy_validation": "PASS (511 food records; 511 mappings; zero errors; snapshot unchanged)"
+  },
+  "limitations": [
+    "Ten Stage B targets lack accepted ordinary-food concentration data.",
+    "Contextual botanical evidence is not ordinary-food coverage or dietary exposure.",
+    "Irilone quantitative value is secondary-source-only and held pending primary-row verification.",
+    "7-methoxyflavanone and the exact pentamethoxyflavone lack verified matrix-specific numeric concentrations.",
+    "Historical BASELINE_CHECKSUMS.json does not match the current Git tree; current-tree audit and scope are documented separately.",
+    "No cooking retention, population exposure, bioavailability, clinical outcome or health-risk conclusions are included."
+  ],
+  "verification": "Run python3 verify_release.py and the commands in README.md.",
+  "package_artifact_count": 1064
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "runtime": "3.14.7",
+  "full_clean_copy_test_suite": {
+    "status": "PASS",
+    "passed": 61,
+    "failed": 0,
+    "blocked": 0,
+    "command": "python3 -m unittest discover -s stageC/tests -v",
+    "log": "TEST_RESULTS.txt"
+  },
+  "focused_active_test_suite": {
+    "status": "PASS",
+    "passed": 50,
+    "failed": 0,
+    "modules": [
+      "test_cli",
+      "test_compound_mapping",
+      "test_exposure_engine",
+      "test_food_composition",
+      "test_integration",
+      "test_unit_conversion"
+    ]
+  },
+  "clean_copy_phase1_validation": {
+    "status": "PASS",
+    "food_errors": [],
+    "mapping_errors": [],
+    "exposure_errors": [],
+    "scientific_integrity_violations": [],
+    "stage_b_snapshot_changes": [],
+    "stage_b_release": "StageB_Final",
+    "stage_b_compounds": 119,
+    "food_records": 511,
+    "mapping_records": 511,
+    "mapping_orphan_ids": []
+  },
+  "clean_copy_mapping_rebuild": {
+    "status": "PASS",
+    "records": 511,
+    "byte_for_byte_match": true,
+    "covered_ordinary_food_compounds": 109,
+    "stage_b_compounds": 119
+  },
+  "clean_copy_stage_b_connector": {
+    "status": "PASS",
+    "release_id": "StageB_Final",
+    "manifest_entries": 710,
+    "manifest_sha256": "52a5ee457f5730ee1642c2a51b121ad0d8ef1165f1a51e66f0260a25c2fc1024",
+    "compound_count": 119
+  },
+  "active_repository_stage_b_portable_validator": {
+    "status": "PASS_WITH_WARNINGS",
+    "checks": 16,
+    "passed": 16,
+    "failed": 0,
+    "errors": 0,
+    "warnings": 313,
+    "warnings_disposition": "inherited Stage B warnings retained; not suppressed"
+  },
+  "active_repository_validation_and_protected_data_audit": "stageC/reports/phase1b/PROTECTED_TREE_AUDIT_2026-11-02.json"
+}

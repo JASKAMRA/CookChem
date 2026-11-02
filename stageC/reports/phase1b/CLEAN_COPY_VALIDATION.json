@@ -1,10 +1,15 @@
 {
   "status": "PASS",
-  "active_test_suite": "59 tests passed",
-  "clean_copy_test_suite": "59 tests passed",
-  "active_validation": "PASS (99 food records; 99 mappings; zero orphan IDs/errors)",
-  "clean_copy_validation": "PASS",
-  "usda_sr_legacy_download_verification": "PASS (official April 2018 CSV; FDC 171890/NDB 14209 exact join; archive SHA-256 recorded in Batch 009)",
-  "protected_baseline_recheck": "PASS (Stage A 19/19; Stage B Final 709/709; archive 8,096/8,096; Phase1-v1.2.0 artifacts 816/816; verified 2026-11-02)",
-  "validated_at_utc": "2026-11-02T10:54:04Z"
+  "python": "3.14.7",
+  "active_test_suite": "61/61 PASS",
+  "focused_test_suite": "50/50 PASS",
+  "clean_copy_test_suite": "61/61 PASS",
+  "active_validation": "PASS (511 food records; 511 mappings; 119 Stage B compounds; zero errors)",
+  "clean_copy_validation": "PASS (511 food records; 511 mappings; zero errors; snapshot checksums unchanged)",
+  "mapping_rebuild": "PASS (511 mappings; byte-for-byte match; 109/119 ordinary-food targets)",
+  "stage_b_connector": "PASS (StageB_Final; 710 manifest entries; 119 compounds)",
+  "stage_b_portable_validator": "16/16 passed; 0 errors; 313 inherited warnings retained",
+  "verified_at_local_date": "2026-11-02",
+  "protected_tree_audit": "PROTECTED_TREE_AUDIT_2026-11-02.json",
+  "historical_pre_final_report_preserved_as": "CLEAN_COPY_VALIDATION_HISTORICAL_PRE_FINAL_RELEASE.json"
 }

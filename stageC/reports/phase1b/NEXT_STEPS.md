@@ -1,7 +1,5 @@
 # Next steps
 
-1. Retrieve the official USDA FoodData Central SR Legacy April 2018 downloadable package from the USDA download page and verify NDB 14209's caffeine component row, unit, value basis, and record ID directly. Do not use a third-party mirrored value. If verified, ingest as the next batch through the standard pipeline and add a 1-cup or explicit 100 g as-consumed exposure example with the database portion mass and warning/uncertainty preserved.
-2. Continue priority-ranked P3 candidates after caffeine; log negative/blocked screens and move on without repeated screening.
-3. Revisit held P2 records only if a source resolves the free analyte versus total-aglycone-equivalent distinction; retain their current hold status otherwise.
-4. Increase quantitative coverage from reliable authoritative databases and primary tables; 115 compounds remain without accepted measurements.
-5. Inspect a formal Phase 2 specification and data dependencies before proceeding. Current active data do not provide a validated paired food/compound basis with compatible Stage A retention records; do not integrate retention until this prerequisite is met.
+Stage C Phase 1B screening is complete with documented gaps. The final active dataset contains 511 food-composition records and mappings covering 109/119 Stage B compounds; 10 remain uncovered because final searches did not locate eligible quantitative food measurements under the current rules. See `PHASE1B_COMPLETION_REPORT.md` and `coverage_gap_register.csv`.
+
+Do not infer missing values or transfer measurements from supplements/medicinal botanicals into ordinary-food records. Future source discovery or an explicitly revised inclusion scope can reopen the corresponding gap. No exposure estimates are available from this phase.

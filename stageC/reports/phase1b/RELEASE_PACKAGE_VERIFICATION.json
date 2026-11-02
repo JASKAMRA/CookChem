@@ -1,12 +1,16 @@
 {
   "status": "PASS",
-  "release_id": "Phase1-v1.2.0",
-  "artifact_count": 816,
-  "hash_mismatches": [],
-  "packaged_tests_exit_code": 0,
-  "packaged_validation_exit_code": 0,
-  "packaged_suite": "49 tests passed",
-  "packaged_validation": "6 records, 6 mappings; PASS",
-  "bundled_stage_b_files": 709,
-  "bundled_stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e"
+  "release_id": "Phase1B-v1.0.0",
+  "package_path": "stageC/releases/Phase1B-v1.0.0/",
+  "package_artifact_manifest": "CHECKSUMS.json",
+  "manifest_digest_file": "CHECKSUMS.sha256",
+  "artifact_count": 1064,
+  "manifest_verifier": "python3 verify_release.py",
+  "source_stage_b_manifest_sha256": "52a5ee457f5730ee1642c2a51b121ad0d8ef1165f1a51e66f0260a25c2fc1024",
+  "clean_copy_validation": "PASS (511 food records; 511 mappings; 119 Stage B compounds; zero errors)",
+  "clean_copy_full_test_suite": "61/61 passed",
+  "mapping_rebuild": "PASS; 511 rows byte-for-byte equal to packaged active mapping",
+  "ordinary_food_coverage": "109/119 compounds; 10 documented gaps",
+  "contextual_values": "Seven primary target leads and one secondary held lead are separate from ordinary-food coverage.",
+  "verification_command": "python3 stageC/releases/Phase1B-v1.0.0/verify_release.py"
 }

@@ -7,7 +7,7 @@ from typing import Any
 from .compound_mapping import VERIFIED_STATUSES
 from .exceptions import ValidationError
 from .food_composition import FIELDS, validate_food_record
-from .unit_conversion import concentration_to_mg_per_kg
+from .unit_conversion import concentration_to_mg_per_kg, volume_concentration_to_mg_per_l
 
 
 def validate_food_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -21,8 +21,13 @@ def validate_food_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]
         if set(record) - set(FIELDS): issues.append("unexpected fields: " + ", ".join(sorted(set(record) - set(FIELDS))))
         if record.get("reported_concentration") not in (None, "") and record.get("normalized_concentration") not in (None, ""):
             try:
-                expected = str(concentration_to_mg_per_kg(record["reported_concentration"], record.get("reported_unit", "")))
+                source_unit = str(record.get("reported_unit", ""))
+                volume_basis = any(token in source_unit.casefold() for token in ("/l", "/ml", "/100 ml", "/100ml"))
+                converter = volume_concentration_to_mg_per_l if volume_basis else concentration_to_mg_per_kg
+                expected = str(converter(record["reported_concentration"], source_unit))
                 if expected != str(record["normalized_concentration"]): issues.append("reported and normalized concentrations are inconsistent")
+                expected_unit = "mg/L" if volume_basis else "mg/kg"
+                if record.get("normalized_unit") != expected_unit: issues.append(f"normalized unit must be {expected_unit}")
             except Exception as exc: issues.append(str(exc))
         if issues: errors.append({"index": index, "food_record_id": key, "errors": issues})
     return errors

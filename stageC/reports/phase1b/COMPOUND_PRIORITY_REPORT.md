@@ -1,3 +1,7 @@
 # Compound priority report
 
-The Stage B register contains 119 compounds. Focused Phase 1B research accepted two food compounds with quantitative USDA coverage: (+)-catechin and (-)-epicatechin, each in raw apple with skin and unsweetened dry cocoa powder (four records total). Priority counts: 2 P1 (accepted and still worth expanding), 10 P2, 90 P3, 17 P4, and 0 P5. Only four matching analyte/food table candidates were screened in this pass; no claim of exhaustive literature searching is made. Full 119-row register: `COMPOUND_PRIORITY_REGISTER.csv`.
+The Stage B register contains 119 compounds. The active Stage C dataset has 511 quantitative records covering 109/119 compounds; 10 have no accepted quantitative measurement. Candidate evidence remains separate until exact mapping and validation pass.
+
+Priority counts: 7 P1, 13 P2, 84 P3, 15 P4, 0 P5. Priority guides screening order; it does not establish occurrence or evidence quality.
+
+Full register: `COMPOUND_PRIORITY_REGISTER.csv`; remaining targets: `coverage_gap_register.csv`; search decisions: `SEARCH_LOG.csv`.

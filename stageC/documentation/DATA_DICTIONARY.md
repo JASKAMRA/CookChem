@@ -8,7 +8,7 @@ The snapshot contains the 9 allowlisted Stage B tables named in `data/stage_b_sn
 
 ## Food composition
 
-`data/food_composition/food_composition.csv` stores one compound concentration observation per food record. It keeps `reported_concentration` and `reported_unit` separate from `normalized_concentration` and `normalized_unit`. Food identity and part, cultivar, geography, raw/processed state, compound identity, moisture basis, analytical/extraction methods, sample size, LOD/LOQ, source citation/database IDs, source class and verification, and uncertainty/extraction notes are represented as columns. Optional unknowns remain blank.
+`data/food_composition/food_composition.csv` stores one compound concentration observation per food record. It keeps `reported_concentration` and `reported_unit` separate from `normalized_concentration` and `normalized_unit`; supported mass-basis observations normalize to `mg/kg`, while volume-basis observations normalize to `mg/L`. No density-based conversion is inferred. Food identity and part, cultivar, geography, raw/processed state, compound identity, moisture basis, analytical/extraction methods, sample size, LOD/LOQ, source citation/database IDs, source class and verification, and uncertainty/extraction notes are represented as columns. Optional unknowns remain blank.
 
 ## Mapping
 

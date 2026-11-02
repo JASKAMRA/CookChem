@@ -7,7 +7,7 @@ from typing import Any
 
 from .exceptions import ValidationError
 from .provenance import sha256_file, utc_timestamp
-from .unit_conversion import concentration_to_mg_per_kg
+from .unit_conversion import concentration_to_mg_per_kg, volume_concentration_to_mg_per_l
 
 FIELDS = [
     "food_record_id", "food_name", "common_name", "scientific_name", "food_database", "food_database_record_id",
@@ -38,10 +38,12 @@ def validate_food_record(record: dict[str, Any]) -> list[str]:
     if not str(record.get("compound_name", "")).strip(): errors.append("compound_name is required")
     if record.get("reported_concentration", "") not in (None, ""):
         try:
-            normalized = concentration_to_mg_per_kg(record["reported_concentration"], str(record.get("reported_unit", "")))
+            source_unit = str(record.get("reported_unit", ""))
+            normalized_unit = "mg/L" if any(token in source_unit.casefold() for token in ("/l", "/ml", "/100 ml", "/100ml")) else "mg/kg"
+            normalized = (volume_concentration_to_mg_per_l if normalized_unit == "mg/L" else concentration_to_mg_per_kg)(record["reported_concentration"], source_unit)
             if record.get("normalized_concentration", "") not in (None, ""):
                 if str(normalized) != str(record["normalized_concentration"]): errors.append("normalized concentration does not match the reported value and unit")
-                if record.get("normalized_unit") != "mg/kg": errors.append("normalized_unit must be mg/kg")
+                if record.get("normalized_unit") != normalized_unit: errors.append(f"normalized_unit must be {normalized_unit}")
         except Exception as exc:
             errors.append(str(exc))
     elif record.get("normalized_concentration", "") not in (None, ""):
@@ -72,8 +74,10 @@ def normalize_record(record: dict[str, Any]) -> dict[str, Any]:
         output["normalized_concentration"] = ""
         output["normalized_unit"] = "mg/kg"
         return output
-    output["normalized_concentration"] = str(concentration_to_mg_per_kg(reported, output["reported_unit"]))
-    output["normalized_unit"] = "mg/kg"
+    volume_basis = any(token in output["reported_unit"].casefold() for token in ("/l", "/ml", "/100 ml", "/100ml"))
+    converter = volume_concentration_to_mg_per_l if volume_basis else concentration_to_mg_per_kg
+    output["normalized_concentration"] = str(converter(reported, output["reported_unit"]))
+    output["normalized_unit"] = "mg/L" if volume_basis else "mg/kg"
     return output
 
 

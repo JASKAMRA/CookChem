@@ -15,3 +15,9 @@ Caffeine archive follow-up: the official [USDA FoodData Central download page](h
 
 
 Batch 015 verified Mecha et al. (2020), PMID 31699168, DOI 10.1017/S0007114519002836, Table 2 and methods. Raw Moleiro common beans were quantified by UPLC-Q-TOF-MS against authentic standards, with external calibration and triplicate extraction. Accepted raw values are reported as µg/g raw-bean dry weight; paired cooked measurements are explicitly outside Phase 1B ingestion.
+
+## Current dataset source audit
+
+The current 511 accepted ordinary-food rows reference 61 distinct source titles/URLs. Every row has an HTTP(S) source URL, source title, quantitative value/unit, sample-basis description, analytical method, and verification status. Twenty-two rows lack DOI and PMID, but all have a database/reference locator. Source-specific uncertainty and matrix limitations are retained in each record and its numbered batch note. The accepted class counts are 491 primary analytical measurements, 15 authoritative food-composition database records, and 5 peer-reviewed secondary-source records.
+
+Batch 100 was independently reconciled from full-text tables: primary *Scutellaria* HPLC tables support six contextual target compounds on dry-root basis; the *Viburnum* amentoflavone study uses a dried-powder basis and reports Table 3 means ± SD with n=3 analytical measurements; the irilone value is secondary-source-only and held; the two remaining compounds lack exact numeric matrix values. None of these were added to ordinary-food composition.

@@ -2,7 +2,7 @@
 
 Stage B is loaded from `stageB/release/StageB_Final` only after every entry in its SHA-256 manifest verifies. Stage C copies a fixed allowlist to an immutable-by-policy snapshot and detects later source/snapshot changes.
 
-Food composition is ingested from user-provided CSV records. No value is created from qualitative occurrence, an interaction result, a cooking-retention record, a supplement dose, or a missing cell. Source-reported values and units are preserved. Supported mass-per-mass units normalize to mg/kg with decimal arithmetic; basis/state are not inferred.
+Food composition is ingested from source-supported CSV records. No value is created from qualitative occurrence, an interaction result, a cooking-retention record, a supplement dose, or a missing cell. Source-reported values and units are preserved. Supported mass-per-mass units normalize to mg/kg and supported mass-per-volume units normalize to mg/L with decimal arithmetic; no density is assumed to convert between them, and food basis/state are not inferred.
 
 `ordinary food` and `food ingredient` are distinct explicit food-use classifications, and both can support concentration × mass arithmetic when source, mapping, state, and basis checks pass. An ingredient estimate is only the analyte amount represented by the stated ingredient mass; recipe dilution, processing, cooking retention, and actual intake are not inferred. Existing classifications and records remain valid.
 

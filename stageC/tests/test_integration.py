@@ -1,6 +1,7 @@
 import json
 import sys
 import unittest
+import csv
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"src"))
 from stage_c.compound_mapping import build_mappings
@@ -12,6 +13,23 @@ from stage_c.compound_mapping import load_mappings
 from stage_c.provenance import project_root
 
 class PhaseOneIntegrationTests(unittest.TestCase):
+    def test_final_contextual_reconciliation_stays_separate_from_food_coverage(self):
+        root=project_root()/"stageC"
+        context=root/"reports"/"phase1b"/"batches"/"batch_100_contextual_reconciliation"
+        with (context/"CONTEXTUAL_QUANTITATIVE_SCREEN.csv").open(encoding="utf-8-sig",newline="") as stream:
+            records=list(csv.DictReader(stream))
+        coverage=json.loads((context/"CONTEXT_COVERAGE.json").read_text(encoding="utf-8"))
+        self.assertTrue(all(r["phase1b_food_eligible"]=="false" for r in records))
+        numeric={r["compound_id"] for r in records if r["reported_value"]}
+        missing={r["compound_id"] for r in records if not r["reported_value"]}
+        self.assertEqual(len(numeric),8)
+        self.assertEqual(len(missing),2)
+        self.assertEqual(len(numeric|missing),10)
+        self.assertEqual(coverage["ordinary_food_coverage"],109)
+        self.assertEqual(coverage["final_10_with_numeric_contextual_leads"],8)
+        active_ids={r["compound_id"] for r in load_food_data(root/"data"/"food_composition"/"food_composition.csv")}
+        self.assertTrue(numeric.isdisjoint(active_ids))
+
     def test_authoritative_compound_identity_to_synthetic_measurement_to_estimate(self):
         stage_b=load_stage_b();compounds=stage_b["source_files"]["compound_registry.csv"]
         compound=compounds[0];food={"food_record_id":"SYN-F-1","compound_id":compound["Compound_ID"],"compound_name":compound["Canonical_Name"],"pubchem_cid":compound["PubChem_CID"],"inchikey":compound["InChIKey"],"food_name":"Synthetic test matrix","reported_concentration":"5","reported_unit":"mg/kg","normalized_concentration":"5","normalized_unit":"mg/kg","raw_or_processed_state":"raw","food_use_classification":"ordinary food","moisture_basis":"wet weight","source_title":"Synthetic test fixture; not empirical data","source_url":"","source_classification":"Primary analytical measurement","source_verification_status":"Verified"}
@@ -32,7 +50,8 @@ class PhaseOneIntegrationTests(unittest.TestCase):
         foods=load_food_data(stage/"data"/"food_composition"/"food_composition.csv")
         mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
         data=load_stage_b(); compounds={c["Compound_ID"]:c for c in data["source_files"]["compound_registry.csv"]}
-        self.assertEqual(len(foods),99)
+        self.assertEqual(len(foods),len(mappings))
+        self.assertGreaterEqual(len(foods),511)
         expected={
             "USDA-FLAV33-NDB09003-EPICATECHIN":("(-)-Epicatechin","7.53","CHEM-PUBCHEM-72276"),
             "USDA-FLAV33-NDB09003-CATECHIN":("(+)-Catechin","1.30","CHEM-PUBCHEM-9064"),

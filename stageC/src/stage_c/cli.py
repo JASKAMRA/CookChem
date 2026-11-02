@@ -18,7 +18,7 @@ from .validation import validate_all
 
 ROOT = project_root()
 STAGE = ROOT / "stageC"
-SNAPSHOT = STAGE / "data" / "stage_b_snapshot"
+SNAPSHOT = STAGE / "data" / "stage_b_snapshot_20261102"
 COMPOSITION = STAGE / "data" / "food_composition" / "food_composition.csv"
 MAPPING = STAGE / "data" / "compound_food_mapping" / "compound_food_mapping.csv"
 
@@ -26,6 +26,14 @@ MAPPING = STAGE / "data" / "compound_food_mapping" / "compound_food_mapping.csv"
 def _json_write(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def _portable_artifact_path(path: Path) -> str:
+    try:
+        return path.resolve().relative_to(STAGE.resolve()).as_posix()
+    except ValueError:
+        # Keep validation artifacts portable instead of embedding a machine-specific path.
+        return path.name
 
 
 def _read_exposure_input(path: Path) -> tuple[list[dict[str, str]], str]:
@@ -69,7 +77,7 @@ def command_map(args: argparse.Namespace) -> dict[str, Any]:
     mappings = build_mappings(compounds, food)
     write_mappings(args.output, mappings)
     coverage = mapping_coverage(compounds, food, mappings)
-    coverage["mapping_file"] = str(args.output.resolve())
+    coverage["mapping_file"] = _portable_artifact_path(args.output)
     _json_write(args.report, coverage)
     return coverage
 

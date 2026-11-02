@@ -1,9 +1,11 @@
-# Phase 1 handoff
+# Stage C Phase 1 and Phase 1B handoff
 
-**Release:** Phase1-v1.0.0. **Scope:** Stage B read-only connection, food composition ingestion/normalization, conservative mapping, raw-food exposure, validation, CLI, and provenance. Stage A integration and cooking retention are excluded.
+Stage C Phase 1 is the software foundation for read-only Stage B integration, source-backed food composition, conservative compound mapping, mass/volume concentration normalization, raw-food exposure arithmetic, validation, and provenance. Phase 1B has expanded the data layer to 511 accepted ordinary-food measurements across 109 of 119 Stage B targets.
 
-The imported release is `stageB/release/StageB_Final`, status `READY_WITH_WARNINGS`, with 119 stable compound IDs and 9 allowlisted CSV sources. Snapshot checksums match. Warning IDs are exposed on compound records and propagated to estimates. Preserve inherited identity, food-occurrence, supplement-context, numeric/unit, and source-audit limitations.
+The Phase 1B final release and its reproducibility instructions are in `../releases/Phase1B-v1.0.0/`. The authoritative current ordinary-food coverage report is `../reports/phase1b/PHASE1B_COMPLETION_REPORT.md`; source batches, accepted/held/rejected decisions, and the coverage register are retained under `../reports/phase1b/`.
 
-No qualifying quantitative food records were actually ingested; verified, candidate, and unverified quantitative records are each zero. All 119 compounds currently lack quantitative food data. Thus there are no real source-backed calculations; the arithmetic demonstration is synthetic and exists only in tests. Missing values remain missing.
+Seven final-target botanical measurements have primary quantitative reports and one additional irilone value is held as secondary-source evidence. All remain outside ordinary-food coverage. Ten Stage B targets therefore remain without accepted ordinary-food measurements; 7-methoxyflavanone and the exact pentamethoxyflavone also lack verified numeric matrix values.
 
-Release contents are defined by `../releases/Phase1-v1.0.0/RELEASE.json`, which hashes the shipped Stage C code, schemas, templates, snapshot, and source registry. Current interpreter is Python 3.14.7; implementation uses the standard library. Rebuild/test and CLI validation details are in reports. Known limitation: pytest package is unavailable, so tests ran under unittest.
+Phase 1 does not apply Stage A cooking-retention predictions. It does not establish recipe-level dietary exposure across a population, bioavailability, clinical effects, or health risk. Phase 2 is a separate integration task.
+
+The Stage B read-only connector resolves to the current `StageB_Final` package and checks its manifest. The Stage C release bundles a copy of that input package and a versioned Stage B snapshot. Reproduce the current tests and data validation with the commands in the release README.
