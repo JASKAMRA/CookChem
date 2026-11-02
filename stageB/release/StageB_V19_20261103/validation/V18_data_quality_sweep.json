@@ -1,0 +1,29 @@
+{
+  "release": "StageB_V18_20261103",
+  "counts": {
+    "compounds": 143,
+    "evidence": 317,
+    "drug_probe": 133,
+    "bibliography": 163,
+    "studies": 161,
+    "warnings": 70,
+    "source_audit_rows": 317
+  },
+  "duplicate_nonblank_compound_ids": {},
+  "duplicate_nonblank_compound_inchikeys": {},
+  "duplicate_nonblank_evidence_ids": {},
+  "duplicate_nonblank_bibliography_pmids": {},
+  "duplicate_nonblank_bibliography_dois": {},
+  "duplicate_nonblank_study_ids": {},
+  "unresolved_evidence_compound_references": 0,
+  "unresolved_evidence_drug_references": 0,
+  "unresolved_evidence_study_references": 0,
+  "unresolved_study_pmid_references": 0,
+  "blank_quantitative_outcomes": 90,
+  "numeric_outcome_text_rows": 210,
+  "limitations": [
+    "Automated registry/reference sweep only; it does not establish absence of scientific or publication errors.",
+    "90 evidence rows have blank Quantitative_Outcome fields; values were not imputed.",
+    "Two bibliography records have no PMID but do have DOI/source locators; they are not treated as duplicate PMIDs."
+  ]
+}

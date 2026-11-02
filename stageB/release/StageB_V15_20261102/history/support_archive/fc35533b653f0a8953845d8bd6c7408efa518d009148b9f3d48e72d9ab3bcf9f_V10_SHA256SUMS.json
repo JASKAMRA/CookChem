@@ -1,0 +1,4945 @@
+{
+  "file_count": 988,
+  "files": [
+    {
+      "path": "access_followup.py",
+      "sha256": "8c439116c38f3346feb271438ae742659eb053fb765613939e9fc19e46bbab63",
+      "bytes": 1412
+    },
+    {
+      "path": "all_v9_pubchem_structures.json",
+      "sha256": "cfa84cbb88e8b4634cf29771763d4c1840a9ecca49ddb75be70443fa18acf2e1",
+      "bytes": 27767
+    },
+    {
+      "path": "audit/baseline_counts.json",
+      "sha256": "bf4228985e29f7e8658071c19179ab511c7ebef3f08bc5aa6100b78ef1cb483b",
+      "bytes": 400
+    },
+    {
+      "path": "audit/baseline_isolated_rebuild.json",
+      "sha256": "de82c8636f5242e0ed4c7fe8a123a43389ac24eec28602c34bf82705ff64f194",
+      "bytes": 38
+    },
+    {
+      "path": "audit/baseline_v7_mutation_tests.json",
+      "sha256": "7f766dd452623e8c44f511d586856b912b36b80b6137619bb4e00a5ced781f38",
+      "bytes": 914
+    },
+    {
+      "path": "audit/baseline_v7_rebuild_verification.json",
+      "sha256": "de82c8636f5242e0ed4c7fe8a123a43389ac24eec28602c34bf82705ff64f194",
+      "bytes": 38
+    },
+    {
+      "path": "audit/baseline_v7_validation_report.json",
+      "sha256": "fb0902bce15661bb6ab15eff915f39322c12f2b5117fd961f86e1d6e577aea07",
+      "bytes": 5487
+    },
+    {
+      "path": "audit/page-1.png",
+      "sha256": "56a1aa76c7e67425bb5ef5a8ae8b3129e66d8bee4e33258436b2cb33bc9cc240",
+      "bytes": 129390
+    },
+    {
+      "path": "audit/page-2.png",
+      "sha256": "346a67a10bde0265d468303af3935872dfcdfc234c5cc46d5c19f2f62b472122",
+      "bytes": 169516
+    },
+    {
+      "path": "audit/page-3.png",
+      "sha256": "a4cf2e274c98a7e790303e82b32a883fed627e08fbbf1c0dd20ad22ccd95fb95",
+      "bytes": 102135
+    },
+    {
+      "path": "audit/page-4.png",
+      "sha256": "7b1c2a999db178d694c4b0d6a1b52e576ac7d8c8dbd6e27d9a780de3021d0c4e",
+      "bytes": 179896
+    },
+    {
+      "path": "audit/preservation_manifest.json",
+      "sha256": "0b80836802ddd63c0050a236012774918745a1a81587d74353a84a2343864bf0",
+      "bytes": 1076186
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/baseline_counts.json",
+      "sha256": "89e54149b575f16854eaa6319f86f2441c3abea61325d6ad0ddac2bf2492bac1",
+      "bytes": 739
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/baseline_v6_mutation_after.json",
+      "sha256": "2c0b608034b0d68203a1aa0d0eab735a67ddbd457aa74a91c43e703b9e1824d3",
+      "bytes": 1836
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/baseline_v6_mutation_before.json",
+      "sha256": "2c0b608034b0d68203a1aa0d0eab735a67ddbd457aa74a91c43e703b9e1824d3",
+      "bytes": 1836
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/baseline_v6_validation_after.json",
+      "sha256": "fded568bd1d4ca93dbd934b7e2f8e622d30baad6626be9a54bb9c637b0d0a229",
+      "bytes": 4655
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/baseline_v6_validation_before.json",
+      "sha256": "fded568bd1d4ca93dbd934b7e2f8e622d30baad6626be9a54bb9c637b0d0a229",
+      "bytes": 4655
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/interrupted_artifact_assessment.csv",
+      "sha256": "bfb414b482c31258a0aa03395aead778d1f141cc78f744c4d5dc59848aa0811d",
+      "bytes": 35393
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/interrupted_attempt_inventory.json",
+      "sha256": "6c2b724db9bcd9a48a47faa941a2bc6b880db6a00c6d5027c1a8d3e5e2ddeb3c",
+      "bytes": 42000
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/mutation_tests.json",
+      "sha256": "7f766dd452623e8c44f511d586856b912b36b80b6137619bb4e00a5ced781f38",
+      "bytes": 914
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/preservation_manifest.json",
+      "sha256": "313e36513c754633fbac86d3b8908ce4cbb478c7641110d9a1eed82c034c5a20",
+      "bytes": 979220
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/primary_refresh_comparison.json",
+      "sha256": "f7b25c209d843bc288c7fd300c8edef8ac8e5c5ecf34e2403ea9ab93ba9ded70",
+      "bytes": 3019
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/rebuild_verification.json",
+      "sha256": "de82c8636f5242e0ed4c7fe8a123a43389ac24eec28602c34bf82705ff64f194",
+      "bytes": 38
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/release_manifest_sha256.json",
+      "sha256": "34dbbe6df10978678982026948232ae17bdd000bd7e31b15d919d778d519279a",
+      "bytes": 42193
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/report_visual_qa.json",
+      "sha256": "296184002dbd8cbc973e46f2376dfbf2074cdbe7a1c8a7c566a875cb2a84e16d",
+      "bytes": 148
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/template_reuse_review.json",
+      "sha256": "4779d14dd4b85c8cebb296032ec358579e058aef53896a11bc5a13d3ecd9ad42",
+      "bytes": 1701
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/v6_original_manifest_verification.json",
+      "sha256": "e217a0ac19fc95aae628c5df11916d7c2ef179cd9a5a674cb0a1403ecc8dca99",
+      "bytes": 126
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/audit/validation_report.json",
+      "sha256": "fb0902bce15661bb6ab15eff915f39322c12f2b5117fd961f86e1d6e577aea07",
+      "bytes": 5487
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/build.py",
+      "sha256": "3b1d280c12bd0046fb63b6b335df0636bc0d2f4d47883c203af631b1de748ac4",
+      "bytes": 18102
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/collect.py",
+      "sha256": "f53fc7905750f8397f32288e91716912011e3dfaa278be081c67a0565782a684",
+      "bytes": 3082
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/curation.py",
+      "sha256": "25085ec4b3fdfa4234abbaa33362042e5f748fe2efa357cee6ad0b372662e2d7",
+      "bytes": 14550
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/exact.py",
+      "sha256": "5dcbe5a64827ae661384bba023f55ea9cbd6943ddbe40cae19430bc338c5adbc",
+      "bytes": 1073
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v5/all_record_review_audit.csv",
+      "sha256": "fae9cc150d38272db8a8d430250a17cf46adee044ea3b6ad6f060aa8156b2ef4",
+      "bytes": 18521
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v5/compound_selection_provenance_audit.csv",
+      "sha256": "2955ab6dee2806e4e91f9cc29497698f4b7185b9c1e1701ecbcd511dc0072fee",
+      "bytes": 11955
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v5/identity_structure_audit.csv",
+      "sha256": "69a38f2b99269188b73e6e7496f94b9acd855fd0ff50eaa08dd5e32576039364",
+      "bytes": 6414
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v5/inherited_v4_claim_support.csv",
+      "sha256": "a04c80cdf128853cce24f31e8475f2123a94e2b0bdf0074014c81af6e4c96e8f",
+      "bytes": 27322
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v5/interaction_evidence_source_audit.csv",
+      "sha256": "37fa2f5a00e7c8160b7e859e4cd57c41be7a2714a92fe097d4ff98ae1bd2619f",
+      "bytes": 24266
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v5/original_nine_interaction_reference_map.csv",
+      "sha256": "136e22a16f1d387bf32b8b6b1a24732ea9db6a3ebef9f27cd58c3a0628c0b713",
+      "bytes": 3371
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/all_record_review_audit.csv",
+      "sha256": "b92c98ba3fa039a444fe7f8778a797a55c2df7c3d894d6b1fd2a6be541dc9c97",
+      "bytes": 41819
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/candidate_selection.csv",
+      "sha256": "291896ad718b4bb89258592ae421cea27a5f869b0a04db464d874bae02c70c5a",
+      "bytes": 5585
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/claim_support_and_outcome_audit.csv",
+      "sha256": "f6fc000637f2f9b4ed0d2115e8710304c37ca3e75a5bad2f52c499dd4d289086",
+      "bytes": 56548
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/compound_registry.csv",
+      "sha256": "d148437d1ffe8a8b65356d9645d387eaa156a20c20f4a54c8bc60b4e765c9185",
+      "bytes": 70901
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/compound_selection_provenance_audit.csv",
+      "sha256": "33b5c66fcf3d445099b451f2a3838f820e8a51f3e4cc672506861efd40819f7c",
+      "bytes": 8228
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/cooking_retention_evidence.csv",
+      "sha256": "6df1cd92d8843ea179064f5f848bbd5f46042226003b68539f623dd86a3422de",
+      "bytes": 3306
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/correction_notice_audit.csv",
+      "sha256": "3fe880f49fb012a05da937a06d9ebc7007837908cc735aecfedeb123677cdb79",
+      "bytes": 253
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/evidence_change_log.csv",
+      "sha256": "829c49e91e05e64552744870642eef156fd4c31b226a97ef4187c80a01ea0788",
+      "bytes": 1995
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/identity_structure_audit.csv",
+      "sha256": "f3afa9accf0ede876f1f1463934286d3a57dc096b4f70cb3aa56e17b07b9cf5c",
+      "bytes": 11483
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/interaction_evidence_source_audit.csv",
+      "sha256": "1a5aac2b48dfda5f8d79699e21f4f849d327b51d9796bce76ec0dc1a82d80957",
+      "bytes": 27590
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/new_evidence_records.csv",
+      "sha256": "b2a8539666c515d4070b633da28c2913b3e026ec65dc69c7a2c356eb2f68727e",
+      "bytes": 42062
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/processing_provenance_audit.csv",
+      "sha256": "9ed12a86c8e9f3b6df03bc19d935f76d0f258cc4a2040e21aa9b5ce2544ce303",
+      "bytes": 2131
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/processing_source_resolution.csv",
+      "sha256": "2de7a206a555ab140af21f10b9c031492ac50eec17b9f8775c6836acffe9f0bd",
+      "bytes": 1163
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/registry_change_log.csv",
+      "sha256": "536e545bec477e4fff7e396ec40e8ac34b1b7a48dcbe866611fe99b5380686d5",
+      "bytes": 4222
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/release_summary.json",
+      "sha256": "c7d5f3d09683ffc7d821e40df990c0a2963758b49eab268061eac0fecffa9dc4",
+      "bytes": 698
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/screening_log.csv",
+      "sha256": "3595ef1a1f4d2ff3bbc8a1474138fbb383b779c308b3dd0d6c95584d6aff5baf",
+      "bytes": 596696
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/search_log.csv",
+      "sha256": "423668248e5b302a18e1a7b7972fb864fd8d3d8165639a73c4017450d3cd1929",
+      "bytes": 11765
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/stageB_food_drug_interactions_v6.csv",
+      "sha256": "5590012dcf2ca05d0a8645c26114bce3267077428f2b4258adac3c8aa2d088a5",
+      "bytes": 209429
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/study_registry.csv",
+      "sha256": "1a5aac2b48dfda5f8d79699e21f4f849d327b51d9796bce76ec0dc1a82d80957",
+      "bytes": 27590
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/supplemental_food_context_sources.csv",
+      "sha256": "a917ca400c0224886dab2542fc42712bd3810b12abd86ef8bb9e1c67cd9e83ff",
+      "bytes": 941
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/targeted_search_log.csv",
+      "sha256": "d66eaa1c8e1d0b226c1e4b013266dad6680f027e6c5d5c89b1b5c8a3d3a4e06a",
+      "bytes": 14852
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_audits/v6/warning_resolution_ledger.csv",
+      "sha256": "ae7735a1f7bd67254e7d6fa60fa0b52aa4468ee2e50643543fee9c27694093a8",
+      "bytes": 8750
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_21.json",
+      "sha256": "79b44a806a49bde815dcfdec804ccaa4fd75f40ab647c0000d315f56c477181d",
+      "bytes": 1154915
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_28.json",
+      "sha256": "96649185080d4b43cb9bfa25988c7eb3f673a8d231065031e8204cdf9af7e44f",
+      "bytes": 1341370
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_29.json",
+      "sha256": "e939367df2bbeac4772357a8573d6b4d29947b8dfa982de840ad37d7de66a3a3",
+      "bytes": 1208275
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_30.json",
+      "sha256": "9d73a53cc91361b6ed2813df64557911fd1fe6a84bb20e09d29c3a7ec1b2a1a5",
+      "bytes": 1262058
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_31.json",
+      "sha256": "1f6deb6aab18dd9433f26f4dfb6364d03be22f528639c2b7d1f94f4f6abba44a",
+      "bytes": 1211259
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_33.json",
+      "sha256": "5e3ace83684ff9d7f93e38c86345dbf3649d9691d2198619fb5058177bd38884",
+      "bytes": 1230614
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_34.json",
+      "sha256": "973df9c9d159b376f5764e8a89532133304c7d12ebeda2f4d54771a43f4128c3",
+      "bytes": 14933
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_37.json",
+      "sha256": "277b85d0d661f4d927b087d00348526e971b4e0aeb9315f2ad0e69869687e7bc",
+      "bytes": 10147
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_38.json",
+      "sha256": "94e7b5616848da5bd2c8f51d006a2ad520affc30a1c0e3eac3d3076042ad26a1",
+      "bytes": 10932
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_39.json",
+      "sha256": "9288078dee65cc8c2dbfebff63148aec082ecd510602325912c0bb551f7c7504",
+      "bytes": 13158
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_40.json",
+      "sha256": "a8762271686f176e9c3a676711b97aec2c940f525e3ac37fb4c47daabfceacd8",
+      "bytes": 8710
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_42.json",
+      "sha256": "b3a7bb2a66f0b17eff3804bac97f96110ad10adfce35542d63f9849b5d85613f",
+      "bytes": 13933
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_43.json",
+      "sha256": "b986d0cdab095d3415ed52f9689106f312baada8740a0a822190502e77ce5552",
+      "bytes": 14870
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v2/sources/search_44.json",
+      "sha256": "5a2df09ae298f39498652557fed09da0b1e1a5183dc5179a6e4b1212723bde7f",
+      "bytes": 10963
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_12756512.json",
+      "sha256": "8f8eee6ed71614161133303c27b6682b21719cfcfa8d6fef2e92134d86bfb63d",
+      "bytes": 10492
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_18338336.json",
+      "sha256": "e39ce4b5055923e6d5171534884cd2383a8d6ec5671ac7c00317533ae6eef984",
+      "bytes": 9525
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_19221726.json",
+      "sha256": "9b8a1601e244aaf914ebff9991fe23210c7540358c5848f68bd8ab1ee901f650",
+      "bytes": 9931
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_21680781.json",
+      "sha256": "f4d38801c1af3b6348aeb599fba3124ec6478bb833c80c6c4c87390214ed5c5b",
+      "bytes": 10371
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_23153560.json",
+      "sha256": "5f9b12b2681413550929a04a2a0262da561b3eead8f55cfd45d6ceda40c58261",
+      "bytes": 15373
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_24369535.json",
+      "sha256": "1d05042a2e179f7773c75bf212904685ed1287074424dd28845fd0d276e047f0",
+      "bytes": 14824
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_24871039.json",
+      "sha256": "0b31dd80e4274a2c3b8542ca50cfc3f7b35b881f65d09eb9b90b92ac39abbd73",
+      "bytes": 10672
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/expansion_v3_20261014/sources/pmid_25988261.json",
+      "sha256": "af413d2cffb084aa9ae6b98a74b93726b9e345b7147181211134ab6a479364f3",
+      "bytes": 10290
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v4_20261014/sources/PMC11011382.xml",
+      "sha256": "fcc1f01c0e60b1e680882fb802d6a6bce79e90609def7fc7ead5bb19d2e9183a",
+      "bytes": 182846
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v4_20261014/sources/PMC8151956.xml",
+      "sha256": "540bee53d93c5b7d0dacf58e70d41c9eda5ea199bbeb428abb5d49c63a4739b1",
+      "bytes": 218371
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_10794622.json",
+      "sha256": "e0957f6cadef611257bb312aa0153d626195bb7cc035dc1a27d966cad5b5a65c",
+      "bytes": 7891
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_11032486.json",
+      "sha256": "908327440c22852086bd716c298e43df174eacad4c249c8c066f3c18202b04c9",
+      "bytes": 7296
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_11792681.json",
+      "sha256": "3a0ff604d9f9ecc6f0c47f00defcb5effdd668e18d4d448d4507f1925069b409",
+      "bytes": 12748
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_12554070.json",
+      "sha256": "a6cff6a0a9769fcadc896bb53cdc5dca20e84cb02acf8efa6fe2cd2b0e1806af",
+      "bytes": 10925
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_12920504.json",
+      "sha256": "99a6f10462261b27f84002569a1224abbc0436e6783b7a59d8610ad40508f080",
+      "bytes": 13428
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_15309458.json",
+      "sha256": "526fe02f958e19631287eb2377500a00e83429fd9296e3747a9ddb8725de517e",
+      "bytes": 13922
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_15592332.json",
+      "sha256": "881d78cdaaad71979cb6ba899551ab41f4e1689b0753021396e183fbde02b036",
+      "bytes": 13970
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_16003560.json",
+      "sha256": "c8b43ae0bef3487de401b1b64337a6e5eca12278680353b2724fbe32af889304",
+      "bytes": 14616
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_17468862.json",
+      "sha256": "7cbab2ff71bdb3eb9e38e60e3287570ac3b1cb01d6b30660ace11cea6746b52e",
+      "bytes": 12432
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_18446505.json",
+      "sha256": "6aea4c31d42e039299c09a8db0dac8d98bbe40df5e2caccafb08d2a9a033fa5e",
+      "bytes": 10997
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_21380815.json",
+      "sha256": "9407a5c17c280f69e4496e185301b7ae7134fc0ac042acfb34ca78f668c591ed",
+      "bytes": 10814
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_21442417.json",
+      "sha256": "6c7f463cdab1f57d451bf0f1e491f37e39defb38f8ac5ea874df7b1fc1aa7fdc",
+      "bytes": 10921
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_21697612.json",
+      "sha256": "ce41a2af75fee7cef3e57ed50a2ab35189f90c1307865b5f725b720d4011094f",
+      "bytes": 15317
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_21704146.json",
+      "sha256": "ab5f372f3d6f768c48935bc6aea63bd73aae59e70e738dbb3cda739687fb79fe",
+      "bytes": 12136
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_22114872.json",
+      "sha256": "ba2f422d2db41e4ca7ad7ee694624d4eedf196d1992ed678cc67a9263c53f5b6",
+      "bytes": 14816
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_22132944.json",
+      "sha256": "bbe683d9c81a6a00bb204beee150873d4683ae1b9abab7804d5085f6f8fd64bb",
+      "bytes": 15951
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_23422925.json",
+      "sha256": "17f3130c7174f647a9441dc9cf022594ee82e9460cc5df18b58a98cfee0b31a4",
+      "bytes": 12070
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_23883365.json",
+      "sha256": "08e8b661178c46118dc12ab3106b7ac3bbdad11ddfa4108fbfb588cb57671575",
+      "bytes": 12337
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_24472704.json",
+      "sha256": "98c9fdd9a4781f5ad46c78cd459ea9cba7261235c832392f1a4876231786c30e",
+      "bytes": 12127
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_26692948.json",
+      "sha256": "d9230c4887e4229c84ec7aead990d70cd8853ea762a637c97697bb45d127668b",
+      "bytes": 7407
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_26884726.json",
+      "sha256": "78ba25ed1c2987d0730444428e62c15d7c292e25544a4af1272bd18645d505d2",
+      "bytes": 11691
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_27098862.json",
+      "sha256": "9bb5ad406c8cb27a512aaac53876cdd23a6d74b81e5a25c9172249c87fb0b388",
+      "bytes": 9660
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_27396204.json",
+      "sha256": "face4b3cf63d59aa9c953311e2b4bb779052ae0cb1aca654163e49bfae402bb5",
+      "bytes": 9211
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_27765854.json",
+      "sha256": "43f5cd1be33be51aefb62daa7638bf637a4ff46b4f0b30a3d5ab2aaf6ee1cd6a",
+      "bytes": 15249
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_28185989.json",
+      "sha256": "3a7cc26a737c19d5b5e842927fc08b682d35996258125cc28ffc4b182bfcbde4",
+      "bytes": 14012
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_30590119.json",
+      "sha256": "a1ebfdaea0241b75bef536287c8cdd76c092c68c9e02820d7b64d7acc11025f9",
+      "bytes": 14509
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_30678660.json",
+      "sha256": "66cbb7da4470710976a666a1f202dd7b33832b238a4dcfb16b4f6a54fded1f83",
+      "bytes": 17679
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_33435470.json",
+      "sha256": "9e471f1dcd20ddd54d97a71ef2265a728b781882db57ba841fe60f0b48646393",
+      "bytes": 9534
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_34138683.json",
+      "sha256": "caf3c0513065a0f5cbb066634045289c3bc3b96c1b1e0dcf7034a336c3a0db68",
+      "bytes": 9939
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v5_20261014/sources/pmid_34144662.json",
+      "sha256": "2a40e85f479be29ff5c6024d182799cbb2cdf8b302b294e2448b8aa356406d33",
+      "bytes": 16381
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_10755708.json",
+      "sha256": "2746b9a39c7732b0d4312e333e2b5ceb731ad23d3e85f095dc58681ddd08b44b",
+      "bytes": 14513
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_12136947.json",
+      "sha256": "c143d88d8dbb70a977afaec8e69b8abca95d540345c1895e22453386a6b3c734",
+      "bytes": 8360
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_12698306.json",
+      "sha256": "c2758a83ca36fb2625f6a4085317f804200db8d19e0b338aaba063d3aa3d7ac5",
+      "bytes": 9284
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_12920504.json",
+      "sha256": "99a6f10462261b27f84002569a1224abbc0436e6783b7a59d8610ad40508f080",
+      "bytes": 13428
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_15885265.json",
+      "sha256": "ab5406dffaa12aeb8dbc6cf339b96e9308737a4bf44e03971d57020bbb133210",
+      "bytes": 19157
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_16002304.json",
+      "sha256": "f0f1e297702365059cd117ce511b18e4524f8d43ada9ca94a2fe611f6caeb684",
+      "bytes": 8560
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_17708066.json",
+      "sha256": "88f3569639019871fef0cd5e3133dd4fe7d4d9388cbf5deebdb83bf393527456",
+      "bytes": 9380
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_18449511.json",
+      "sha256": "c24fba935e77c26c4df5ac049bce9c52cc9bceb739f507c7402e0a10e80c037e",
+      "bytes": 9725
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_20582416.json",
+      "sha256": "95541eb200470a9db7459eaa30875bd9dffaf1ab7022c5011ebaaec88bf60826",
+      "bytes": 11561
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_20877134.json",
+      "sha256": "33934e67d1a58f920d7bd550c566b222ce6d082d98c84a01d54b57a1760032b0",
+      "bytes": 15817
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_21535728.json",
+      "sha256": "3489695e5de003bf6b8740af7ac3c05636b590a1fb7021ad90be6d030e38c334",
+      "bytes": 13526
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_22139695.json",
+      "sha256": "e4f392726376af431710e0fa87d70085795ae01b5d082f952a48dbf19b3d06a0",
+      "bytes": 14503
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_24276478.json",
+      "sha256": "56800bfd89cb785cadf533fc8887c7a4f29bc1b233333f1ad2c10102b6720893",
+      "bytes": 15597
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_27690733.json",
+      "sha256": "93d949af4de8e3f03a218db412660dcfc5750abd2379d09cedc2f97ef780058c",
+      "bytes": 8615
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_28051355.json",
+      "sha256": "192321303b08977b6a8fbc7da1cb7dd38abe3064c53470e9f6a3f461f0037d64",
+      "bytes": 13151
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_29908072.json",
+      "sha256": "0f0d50fd1545d5dd1ab69addd60ee347310b1b6bee4395a317b7cb0daa42a842",
+      "bytes": 17499
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_33074419.json",
+      "sha256": "bf8a41b6776405336dae149cbc03ab1450b0330942245cdf1891690d4e9c829c",
+      "bytes": 9474
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_33149871.json",
+      "sha256": "ae8a453ccd4159e48e8038056a06f33bd55aec6e8b723720ae24f56fa377a2a1",
+      "bytes": 10617
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_37492094.json",
+      "sha256": "bc3aa1081da46c458193c590f3f79c8587e1f5f3e89503762e201f974c3d1bb3",
+      "bytes": 11889
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_38148345.json",
+      "sha256": "4b15a7cff5854e1b2a962dc5aca4edf454665bd12cbf8e3bb4ff88e3b7e19ab5",
+      "bytes": 18904
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_38411783.json",
+      "sha256": "82516e17c8943cde8854eab315257ee4019fc1daec330fd283bd4b86def1f28a",
+      "bytes": 14713
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/release_v6_20261014/sources/pmid_38958374.json",
+      "sha256": "bf25a8a45c2a8835e33aae42011ebeaa498124998e16f9a7cc6709d57a1e463b",
+      "bytes": 15194
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_00.json",
+      "sha256": "ba8d825594dc48280211286d42ee2551e6e4b2589925ccbe4a21c8ea6c1fd9a0",
+      "bytes": 9480
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_01.json",
+      "sha256": "7e81082c26584eb9b3e04932624e97df17e4f69ce5ab9600dcaccbced1e7a3ed",
+      "bytes": 7751
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_02.json",
+      "sha256": "b734c1e73f4f99d4011dbc3a37650ab1002d7b627150bf29aee11e8ccc975326",
+      "bytes": 8863
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_03.json",
+      "sha256": "1bf13735fcb2b5958a97091039e96c645af115936087a9a50dddc9bdf8f3e26b",
+      "bytes": 10570
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_04.json",
+      "sha256": "476ddfad3ec97dfc6ab953b6d629520e140f18b9813ed8a547ce64493064f5a9",
+      "bytes": 10579
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_05.json",
+      "sha256": "a6d40565f2d5c748626f3f256f1b5d2686abdae28af22cfe2c2067da9c3557ca",
+      "bytes": 10879
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_06.json",
+      "sha256": "711548fe68747d93398e1aac5785a4933f5b540f268b9c4e18b5275bfc2c6bcc",
+      "bytes": 11150
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_07.json",
+      "sha256": "c5e2f735b40522cc8f5b26e65fea1e24a99886ab01ed1099d6390427f1b86ca3",
+      "bytes": 14239
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_08.json",
+      "sha256": "1879763b4f689769e4a6f772201dcce84b5123bc15d39361308f87638b433f20",
+      "bytes": 19239
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_09.json",
+      "sha256": "a6a83223654bd22b8b7c2cef57da2a394e9654b5e8b4c3bcaa9fde46eecf5acf",
+      "bytes": 18530
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_10.json",
+      "sha256": "9c6b221781dbf3de3d0c38d9214575e4f79cc4bcb69c5a5531c4f0a5b2b0a5bf",
+      "bytes": 11027
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_11.json",
+      "sha256": "fc291e2da87b8036555ecc113e16689a08e3465afd054f20fff71eeb090215d8",
+      "bytes": 11992
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_12.json",
+      "sha256": "e9ffdefdbba91f2ced0813e087567578d9695297c2ded2286777ba3fe688c2c1",
+      "bytes": 19733
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_13.json",
+      "sha256": "dd573c94436ca2821e1bb327bc14855780749baff68e38e84d71a8587a3803a8",
+      "bytes": 12177
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_14.json",
+      "sha256": "9609c5dbd51f0c4c0599e96fbf0700ecd876c33fc528560b7014b0c69459a5de",
+      "bytes": 10386
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_15.json",
+      "sha256": "6095d29d0f873355e38655069e5a2108a22f80e572f7e7ad74a165b2a87ce276",
+      "bytes": 10439
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_16.json",
+      "sha256": "20f39f6fed6c25a0f4cdf0aab6d53de3643f1e2a6e43b8fea6616d14dd1be14c",
+      "bytes": 11220
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_17.json",
+      "sha256": "29157fbd4ac0c5cb00d528f7ab1bd51a029ea64157806c565700f0860ba98963",
+      "bytes": 17970
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_21.json",
+      "sha256": "c160bfe6a45911416744d3c1eae5fe3c88a95bd0de4f062b7e36c2ba6c446a3b",
+      "bytes": 15412
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_22.json",
+      "sha256": "0f2aaeff7465addc9159e426df6b0ee42333dd975385d9460f3dba4471be7cf8",
+      "bytes": 15005
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_23.json",
+      "sha256": "d18c46b68fb3a82dbc389f7689632034a2000fdc6dc512319a503b5fdc5a4aa6",
+      "bytes": 7835
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_24.json",
+      "sha256": "51de6fe8897809c713953e2a561f85f89a336fbe8fb1280e029cc973b297ffaf",
+      "bytes": 15626
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_25.json",
+      "sha256": "bd2e8dfba2c47c6bec3a400be4f956f6fda6b810b1938fac94a4a1c7d9a69c7b",
+      "bytes": 9893
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_26.json",
+      "sha256": "c2bc20903a6c358e5ad0ae8555502fbea981f0503ba0acc2ce9760dc53282762",
+      "bytes": 16075
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_31.json",
+      "sha256": "bd527259cd5d10c9a3fbf94654b33732a2bccdb2f0f2af4388bb8091b6296e9b",
+      "bytes": 13328
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_32.json",
+      "sha256": "fc2955e97491d07e530c79de0c2df8ae78ef5e48d845f659a4ff8a8c6ea20f3e",
+      "bytes": 12055
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_33.json",
+      "sha256": "96ec6a55ad4e9dbb4a49b4bc763ac9b5ee4cebc419b4e8dea1ea07827ab179b5",
+      "bytes": 12799
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inherited_sources/sources/selected_34.json",
+      "sha256": "01ff831c50f1a164f9aae17966d33c8405e412af5e5e65002dbe8a164dc348e7",
+      "bytes": 5302
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inputs/baseline_review_levels.csv",
+      "sha256": "054f6520d0598adc6c221cf9dab854a9acdf694b28acdc0963b850cc88fdd867",
+      "bytes": 19527
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inputs/compound_registry.csv",
+      "sha256": "d148437d1ffe8a8b65356d9645d387eaa156a20c20f4a54c8bc60b4e765c9185",
+      "bytes": 70901
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inputs/cooking_retention_evidence.csv",
+      "sha256": "6df1cd92d8843ea179064f5f848bbd5f46042226003b68539f623dd86a3422de",
+      "bytes": 3306
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inputs/processing_provenance_audit.csv",
+      "sha256": "9ed12a86c8e9f3b6df03bc19d935f76d0f258cc4a2040e21aa9b5ce2544ce303",
+      "bytes": 2131
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inputs/stageB_food_drug_interactions_v6.csv",
+      "sha256": "5590012dcf2ca05d0a8645c26114bce3267077428f2b4258adac3c8aa2d088a5",
+      "bytes": 209429
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/inputs/warning_resolution_ledger.csv",
+      "sha256": "ae7735a1f7bd67254e7d6fa60fa0b52aa4468ee2e50643543fee9c27694093a8",
+      "bytes": 8750
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/layout.py",
+      "sha256": "4035ad73924cf17843263cef82892b1244ea19b1b947713f76101c25dacdf07f",
+      "bytes": 2237
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/all_record_review_audit.csv",
+      "sha256": "e86cb1016e946738aa3d54998a3cd377f7e3b79c1d0f7c729440640a5022be69",
+      "bytes": 24551
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/bibliographic_discrepancy_audit.csv",
+      "sha256": "4ceaa0821f275695da4c097b00c584039f35de70a6ee8c5b2c378a768d6f9bba",
+      "bytes": 872
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/candidate_selection.csv",
+      "sha256": "3f453c3f1b1c61e6c95a6e86d28cb6842e213b157400dcb16ed1634fb66c8190",
+      "bytes": 6566
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/claim_support_and_outcome_audit.csv",
+      "sha256": "21eff591a5f0ea2695c7342832142eaf63daee0837397d2850fe5d815916c728",
+      "bytes": 424714
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/compound_registry.csv",
+      "sha256": "8db6039fe4e287d39d1c2751499c2a18cea4699cc56014810c5446c80f014a9a",
+      "bytes": 94280
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/cooking_retention_evidence.csv",
+      "sha256": "6df1cd92d8843ea179064f5f848bbd5f46042226003b68539f623dd86a3422de",
+      "bytes": 3306
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/drug_probe_registry.csv",
+      "sha256": "fd801bdaee00c8e626de46b4593f3c38b5dc6df70d7d4a531968a17759df7e09",
+      "bytes": 10381
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/evidence_change_log.csv",
+      "sha256": "d01a9dedb2e4db2a845a58ab698d38623cc74acb3e44d1ce2fc8e72f8bc5ae70",
+      "bytes": 8686
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/food_context_source_audit.csv",
+      "sha256": "954e526022ee07a28d05f6d83d09d4726c947c5bc59548f9187f00872deafdde",
+      "bytes": 6875
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/identity_structure_audit.csv",
+      "sha256": "afd262607c815b8029d1faa8d2094abd6f6e3484a1ab6f25650c24cc3f9727a2",
+      "bytes": 24400
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/inherited_quality_audit.csv",
+      "sha256": "6ea0a786ebe994ca3fe04f87613a1fa13af51f2c5ae5496f262cbc88f419cc3f",
+      "bytes": 1876
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/interaction_evidence_source_audit.csv",
+      "sha256": "bad5cd802aa438cf54eba884400beadb27aee19150c1b2b7198101d25aef9fb5",
+      "bytes": 38041
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/near_duplicate_identity_audit.csv",
+      "sha256": "2480e3097d5434d13282b9497f4b274710a5d2c94e9305ec3108e7b74d5ba511",
+      "bytes": 273
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/new_evidence_records.csv",
+      "sha256": "160c6a78e44d6682b7a6b362f4937a241a277487e0cde25eb89230b037d87d5f",
+      "bytes": 63587
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/processing_provenance_audit.csv",
+      "sha256": "9ed12a86c8e9f3b6df03bc19d935f76d0f258cc4a2040e21aa9b5ce2544ce303",
+      "bytes": 2131
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/registry_change_log.csv",
+      "sha256": "f981cba1cd06342d257aef489fc4c8918800ad64020491b8d22e507e4731a8ff",
+      "bytes": 4052
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/release_summary.json",
+      "sha256": "2d85650104ad066a2469d340aee051f589b6fb2567445d8025e8e2b3d6511c3b",
+      "bytes": 1021
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/screening_log.csv",
+      "sha256": "a00d4ee5ac401a1127fd8a995df108bd30a9ba9fc45172bf08fa1ee16f567fd1",
+      "bytes": 977545
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/search_log.csv",
+      "sha256": "a7942e6f6f5ad25d868523a7c4a78f07c7988e5c198c4aa3f4e98dcfe1d7307d",
+      "bytes": 39148
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/selection_provenance_ledger.csv",
+      "sha256": "33b95eeca245ae2a52cf40293cb1a971419665cbb2dd5bc0c62cbebd2bf146a6",
+      "bytes": 23867
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/stageB_food_drug_interactions_v7.csv",
+      "sha256": "c026e723182dee95321fb0c322e370345c7961ec310f84209d13a478a08c13d4",
+      "bytes": 272579
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/study_registry.csv",
+      "sha256": "bad5cd802aa438cf54eba884400beadb27aee19150c1b2b7198101d25aef9fb5",
+      "bytes": 38041
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/outputs/warning_resolution_ledger.csv",
+      "sha256": "9a39d392bc6ea6beb6b0d1a44fb5acff8380097b829f87c4098d21c18e9d5eaa",
+      "bytes": 11131
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/package.py",
+      "sha256": "157eef3cdd1d43d5725fce2219e669cc04f598ca6074870d45faf0bd0136c1aa",
+      "bytes": 3630
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/README.md",
+      "sha256": "5074fe39d324d927b78cbfdd7adbc05ce37c7fb0052cacb4353c6c6ca6b49f80",
+      "bytes": 12426
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/release_config.json",
+      "sha256": "76bd8d3b3c648f24462a406a3394ff700c10adcffe40804cbb14e19b9738e63e",
+      "bytes": 447
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/report.py",
+      "sha256": "41386f5902f9c47a55c4fc541bf7d51c28b194e3a184d0c58ef1a37be48b30d9",
+      "bytes": 11716
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/reports/CookRisk_StageB_v7_Findings.md",
+      "sha256": "84b39430c774385306ec6d9582f5b85d3cd5792dc2f79bbade65a928bac5001f",
+      "bytes": 3217
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/reports/CookRisk_StageB_v7_Report.pdf",
+      "sha256": "497278b7128168074e7a90259ef7b72d5084cb3c6757d0a51c71c6ad0d580086",
+      "bytes": 12970
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/restart_audit.py",
+      "sha256": "091771251706d6133bc0118eeb6fd34d8586b60a0bf7f373efee9f4fac936a69",
+      "bytes": 2825
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/SCHEMA.md",
+      "sha256": "8dfc54e29816e291d20afbb1395cc01d39a0309f3f0bf22185e1e3b0d315c693",
+      "bytes": 1203
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_67-dihydroxybergamottin.json",
+      "sha256": "a87b79986ac5e7b70d520cfeca81cc5357144c21356f913c436278605d200b5c",
+      "bytes": 10267
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_allyl_isothiocyanate.json",
+      "sha256": "4186e36afccf63e0b585f18acfb7688cbefc25e0f87ab4fb6119bae6ac35f6ef",
+      "bytes": 1300744
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_ascorbic_acid.json",
+      "sha256": "8c925655f17b50b0c6f6ff90ea314b497466f9517efb7f8bd7b64c65c6416ab7",
+      "bytes": 1259283
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_astaxanthin.json",
+      "sha256": "d4405ca47d1f5bf2a07d716327c33d827fd0ec1eee709696bbee5391e6795a38",
+      "bytes": 1343393
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_bergaptol.json",
+      "sha256": "b8bc11287b22b64a6763ac532f3a2fee7e776f0dec8d33f6d568186463760807",
+      "bytes": 59223
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_beta-carotene.json",
+      "sha256": "36f01e0cb54f77bf33583326ebcfbd8b64c3cd5b35e26045eed26a02baa6510b",
+      "bytes": 1225764
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_catechin_gallate.json",
+      "sha256": "0072e9def8cb0e44d3aad2a1286358e764e3e79c69f8d05c8b98d1d59a408aba",
+      "bytes": 65055
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_chlorophyllin.json",
+      "sha256": "3c8e0033249c1a64dc5fad3091eff5539ff5853d70f82422e463b8ee0d9246ad",
+      "bytes": 1152063
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_diosmetin.json",
+      "sha256": "0c74ea19a8b2b94504ce272c3e0f3171fb6760159b6067a70697a30776358d52",
+      "bytes": 1242466
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_epicatechin_gallate.json",
+      "sha256": "c3b0b578c712a3ce3072c8bef94f0d9cfb762e3fc0263614b0a57481325a3526",
+      "bytes": 629568
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_epigallocatechin.json",
+      "sha256": "985ece081269edb10a3b293a21a3584c338593fe509ad2bb2d02edbe5d5c7205",
+      "bytes": 1328374
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_folic_acid.json",
+      "sha256": "ed6879864df3f5dfdec4cca57eaa7ce0e7688b75049b4e83b9d1586c648d4d7c",
+      "bytes": 1256567
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_gallocatechin.json",
+      "sha256": "5c543a5ccebf42f90c08f9fc9a943c13bd016eead7c58c3ffc13bdd98c071412",
+      "bytes": 256831
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_hydroxytyrosol.json",
+      "sha256": "e9226f075b45534fdc2642f40698e4f34b71b845ece1cb8ccc516d89dbb38e81",
+      "bytes": 1463869
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_isothiocyanate.json",
+      "sha256": "6a94cff55e56a20d2e510f6639e31989e07e31a6606da57bec5c8b195b4243f4",
+      "bytes": 1296511
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_lutein.json",
+      "sha256": "60040b00b2c927b8271bafd59fd8519d76fd0dff7ce0b6e0d06c3a03ec796ff5",
+      "bytes": 1295366
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_lycopene.json",
+      "sha256": "778b4e0a96dc019aa8e1c09a2cf68458edee098911e0891e25087bb3559bc279",
+      "bytes": 1305890
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_nobiletin.json",
+      "sha256": "2ff3a4321e9f7f0c56d47b7a84e8482d2802c8abc016b3173f40f52a1464c63e",
+      "bytes": 1329355
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_oleanolic_acid.json",
+      "sha256": "d272d41612321d94ffd61479ecca58e5a0638bcaafcb476332a11c6e7a876ec9",
+      "bytes": 1317659
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_oleuropein.json",
+      "sha256": "2d64f4933ebdd3a2df9ed20b7cd14aec080cf533419a63bf5d45476f3605abc4",
+      "bytes": 1460822
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_phylloquinone.json",
+      "sha256": "5235ba20305de12fb6be396d33235aa61d1a8878931c8baeda0b46e9c54ac6a0",
+      "bytes": 1171419
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_pterostilbene.json",
+      "sha256": "f1cbf6b89d0b881e588004cf832f7a48a98eb3bdd4cf41b3c4c040f985f83eea",
+      "bytes": 1370073
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_rutin.json",
+      "sha256": "5729026ac201456a2975e88a780f7c578fcb42bb1282aeabbdd702cac94ee779",
+      "bytes": 1323568
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_sesamin.json",
+      "sha256": "9528bf1c2acb2d24b481cd87674f987ae0195ebdc5259588ff6cac1dd05f1344",
+      "bytes": 1340665
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_sesamolin.json",
+      "sha256": "8f1c4e9f594909e1df9109b662f39bf0d4d69fb157f737fe444a51487b8d1f92",
+      "bytes": 185160
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_sulforaphene.json",
+      "sha256": "cd636f77ef8c266b885eff03276f5adf5d2856c0ad6f10b328a571ffec046230",
+      "bytes": 174964
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_tangeretin.json",
+      "sha256": "852f7569896199ce7c34786b2e5ef2d608aa58f714625be4ac332cacbb0af705",
+      "bytes": 1189664
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_theaflavin.json",
+      "sha256": "cf1350cb9d7402e1a97c660402301fae5bcfd4b4daa04d531a6f9f5e1e963fb5",
+      "bytes": 1373902
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_theobromine.json",
+      "sha256": "ced3db2b7eaabf31e4482ff5de202863993110436d6ea65c7d963b87db0a3e8d",
+      "bytes": 1187242
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_ursolic_acid.json",
+      "sha256": "68e118b177524bfad0762958f9c28af98ab611a173b1627618a95a836eb5ed06",
+      "bytes": 1390112
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_vanillin.json",
+      "sha256": "6659050eeaea0694665a38ee9d930b153ffcae996187f4a597ec8e79219cca04",
+      "bytes": 1178347
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/broad_zeaxanthin.json",
+      "sha256": "739f69383d095201a577e90984be4c13f551eb5df2a6543e0d0f8e0737da3e39",
+      "bytes": 1266605
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_15767232.json",
+      "sha256": "69afc6e4df846cff6618fcdd64b6be01cec0fe8a92e3bd0045d84a8c6a5d801c",
+      "bytes": 14410
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_17110451.json",
+      "sha256": "dd8a3cbffbf34149477e1328dbb8fef8a3d1a4279518b602e3a01632f2fe5bae",
+      "bytes": 18589
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_17666020.json",
+      "sha256": "a3929e0c1f8b77a284e8ae6fe7976e8f26f688649deb001696b32438711cd892",
+      "bytes": 14374
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_18191104.json",
+      "sha256": "72dfd9fc4270889eee89199f02af163370902ed56b514ee333481ee1657e5fb8",
+      "bytes": 25648
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_1828561.json",
+      "sha256": "395641202555c6cab9bbeb8e1b051608c820580232ef07dd4c2ee41a369e57db",
+      "bytes": 15411
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_20877134.json",
+      "sha256": "c1e9d2edacd26c17477322939cae5257f905f093feb493335e8436fff2730941",
+      "bytes": 28329
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_21482950.json",
+      "sha256": "657357e81a7eccf0a2822f15ce4e0d5dabcc54d5cbed0e690ef36925e696d51c",
+      "bytes": 10306
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_21870106.json",
+      "sha256": "e57ca52d90d732bfa7c320ebd5c682c84a17b3206387255d3875af4bf6e1e974",
+      "bytes": 15607
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_23441616.json",
+      "sha256": "c9d3ad0353d40c9415aef0e1eff193f0c75cb7790228ceacc33cd27d3251ce41",
+      "bytes": 8794
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_24009877.json",
+      "sha256": "442623d9d623d063cccc000ec5cc324b28adae9a1cddcd3cb3f4ee5182f62054",
+      "bytes": 14554
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_26360766.json",
+      "sha256": "7330b28d67e68f02d707b8722b39f415cfa5cf1eddcc7137f475e94eead9caff",
+      "bytes": 26829
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_27058921.json",
+      "sha256": "f1ec8e9ba213044af9e679b294ffa8b08925d7e3a0d5e0c8c5c3c4a073f545f6",
+      "bytes": 27589
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_27472952.json",
+      "sha256": "be8147a9bf52db1bd39c4ca1c12652c53bd8c2c1cb1be0e3f015d5001724fda6",
+      "bytes": 26587
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_27493101.json",
+      "sha256": "cea3a1aaef3820104507192b59b2373838fb3527d35e22b3d62eca08e11f7fed",
+      "bytes": 20907
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_27529203.json",
+      "sha256": "d017c3f6b99ea01b1809521f0b1a7d499aa03acafd4a50c1e1b88bd358088bc6",
+      "bytes": 29048
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_30572191.json",
+      "sha256": "f17750e4f195e6d4829ece2cfeaa6d045ae1ca707e5460820d0f68d0acc20f2b",
+      "bytes": 19080
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_30877660.json",
+      "sha256": "85ceecc42eae5aab97b7d325f51b7ca80736645cc6de5809396ea4d179a008f5",
+      "bytes": 25824
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_30902268.json",
+      "sha256": "407fea9e013aa9c0f29bdfc8321dbde35ced5e37db54c97ede3d4bb21be9f7c6",
+      "bytes": 22138
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_30976185.json",
+      "sha256": "8b58a5cdcddda22abae42cba70e44ddb440747cfc291a75659593f736a7bc9dc",
+      "bytes": 23670
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_31252064.json",
+      "sha256": "9052e452996390e842383e48319bffec0a4ddef5c99b333de39bef3c656593be",
+      "bytes": 138
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_32187570.json",
+      "sha256": "44e1ff2b1492994fdf6bccab38c457202296f7344820018ce36776a6aebf4e12",
+      "bytes": 26423
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_32601017.json",
+      "sha256": "db54aef660bf3d017f2b18c60db6bbd17824e7ca99568ea1afffad5dffb8e7fe",
+      "bytes": 12358
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_34219099.json",
+      "sha256": "ab966541116b4a7b92ac525e09691e29302541324a5534d513b6c216b5499216",
+      "bytes": 14360
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_35766779.json",
+      "sha256": "b08283a7a459ffbfab362a28597a757c30f489a07c63123c9554e6a5d36499cf",
+      "bytes": 16642
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_4091996.json",
+      "sha256": "40cbb5b0524333f391472580134608bd5704c90ab7d2385c818798f11c453653",
+      "bytes": 10219
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/crossref_688723.json",
+      "sha256": "c4f5f1072be08d2ddff8fb6e5f542fcc781add124a650db3d00344354e8cb998",
+      "bytes": 5320
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_allyl_isothiocyanate.json",
+      "sha256": "5382c84a377185889de5c536b04d1aef6a23ffc8c120922c3406b714b1e8eb04",
+      "bytes": 711
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_ascorbic_acid.json",
+      "sha256": "688cc74e66deb7c1c31c5d7dfaab54b44bbde7e8260bdf26dd91f36127362ef9",
+      "bytes": 739
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_diosmetin.json",
+      "sha256": "08c22e3308911b3e9844d9893d42cedebd3c28795667fd3c0f9a9b24d62485c2",
+      "bytes": 982
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_folic_acid.json",
+      "sha256": "da694277113cf50613302183cf130ffc9bfe9280da9ea34efac8793d34d9b995",
+      "bytes": 773
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_lutein.json",
+      "sha256": "b750833e1c2f42a6a92fc4335192da293cf36c9500b79d4046522fd0fb07dc78",
+      "bytes": 478
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_nobiletin.json",
+      "sha256": "8873395977e00e5ebd692432077c2b876df7420b61a572d9554dff3772a2ffee",
+      "bytes": 564
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_oleanolic_acid.json",
+      "sha256": "f9abe6c33bf0b225575fcc86a0753a24e0eb70c097316cf095332fe43ac6dd5d",
+      "bytes": 655
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_oleuropein.json",
+      "sha256": "11195819d31a2eab95177d57a2d691c9bd0c006741312696fd5b745b2f0516c7",
+      "bytes": 1221
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_phylloquinone.json",
+      "sha256": "99136601f1cafa79ba0d1017f039967c15f813e9c89d58e2781890c72b7c375e",
+      "bytes": 667
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_pterostilbene.json",
+      "sha256": "e97ee6256d54d41faa3c6f5ad14ebe675cedf9fc3c7d3a371ea3383ee6e9951f",
+      "bytes": 828
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_rutin.json",
+      "sha256": "40f876d951b0676112ed0c6d25804700d5525b62fbe107993a27800bfa11f0e0",
+      "bytes": 613
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_sesamin.json",
+      "sha256": "0958f233dbf54e24cfc1d981cfb1ed03c9cbe7f7f656c481590e6f23a22152e0",
+      "bytes": 717
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_tangeretin.json",
+      "sha256": "7c34e9623f72028b2b48731875a48e05b460d7807884fff420470e79c6abcbd8",
+      "bytes": 496
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_ursolic_acid.json",
+      "sha256": "46f44553acf5a7956c229104e7249a3f78600c630a6c0c745f0b332918f4236b",
+      "bytes": 668
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_vanillin.json",
+      "sha256": "69cb63dbbe3db4ba670cd78c0b3abf46de29912698e10472162812953740d7c2",
+      "bytes": 661
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/description_zeaxanthin.json",
+      "sha256": "c85dfd4b5cd8b4c91786dba3c0061c6fdcf546f4e17eed1080f311f6ecc4240d",
+      "bytes": 484
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_67-dihydroxybergamottin.json",
+      "sha256": "7a07c2e6798dd618aea6f00ba8fa77baca20ee9491bcfc07536ea748a78db52a",
+      "bytes": 438
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_allyl_isothiocyanate.json",
+      "sha256": "2f195912076079af77c2fd62112ccca786fdf20066dfca61c4cff3f910e408b8",
+      "bytes": 798755
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_ascorbic_acid.json",
+      "sha256": "12395f52c1889acb38be4bbb8b35b8f856361850f6d85fe3407a50e1b59e3b67",
+      "bytes": 1332008
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_astaxanthin.json",
+      "sha256": "fcadf9cfdd3e8ca6afb14dfa959f8ef76a1a753b7bdcd2f0274ef663ca92b4a6",
+      "bytes": 1300214
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_bergaptol.json",
+      "sha256": "9ec5771808fd571b57397e87283dab99199813700f1cdaa704e1be32cf028c5e",
+      "bytes": 34641
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_beta-carotene.json",
+      "sha256": "8db07779fba34e288baab14492e6259b7c649fa6c0a50652f9d403ce25ecd96c",
+      "bytes": 1201039
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_catechin_gallate.json",
+      "sha256": "b05217d42ed15d549929e01bd4d4682e0b8206a0488fbe427fad3b1be81181c5",
+      "bytes": 39886
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_chlorophyllin.json",
+      "sha256": "bbcf0d7b7b76305a4dbbe23843b9e8c90be983c75d9d789674961a2ca429726c",
+      "bytes": 704029
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_diosmetin.json",
+      "sha256": "65bb02c5bf57bfc32b01f8e18a286fc3662e747b331347f361d45aa8f962f36b",
+      "bytes": 488806
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_epicatechin_gallate.json",
+      "sha256": "92898546b32db710f3df5f45a78968f1008c0b69f7a73b210e72627aefd276f5",
+      "bytes": 350073
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_epigallocatechin.json",
+      "sha256": "abc4e0da88b98400f9d54801f8cadb11f1fbc5724216652ba58fa6b5d56cf3cb",
+      "bytes": 1389215
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_folic_acid.json",
+      "sha256": "4aa5fd7e190435903333493f7afe42c37149b24b5d5505e767d96b62ada8562c",
+      "bytes": 1370934
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_gallocatechin.json",
+      "sha256": "8f98cce891e3f396f95b03b659f00bed3877138fa18c9f148c3e09011b485d6b",
+      "bytes": 146194
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_hydroxytyrosol.json",
+      "sha256": "7f854692080889181be089a761c2290889cb06bb37060fee54ba6111a4dc378b",
+      "bytes": 1497041
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_isothiocyanate.json",
+      "sha256": "2797109840f7d2ede94a596de5500dfeeb70faa3fe1bd26bd0fe89877bc8e8a1",
+      "bytes": 1376239
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_lutein.json",
+      "sha256": "971dda41ae11686bf28c1ca3ca72128935716068415fe01079bae83ff44b7072",
+      "bytes": 1356500
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_lycopene.json",
+      "sha256": "82945fce5e350d012dafd3de50174cecb5c68c6a4fa58bf8b8aca9624615518d",
+      "bytes": 1289657
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_nobiletin.json",
+      "sha256": "06b3fcdfbedf96fa761585cbbc3d4e74bbb2734346bd9c6b8c0c89aad578dbb1",
+      "bytes": 1163261
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_oleanolic_acid.json",
+      "sha256": "7aa55c2e834f7bce4fd07f06f4510e9be49049c62c779fc315f773b42fc44533",
+      "bytes": 1407134
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_oleuropein.json",
+      "sha256": "1c3b09a632cb286c7844e643d952500ec2f8da86572003a09f389ec766a8c3b6",
+      "bytes": 1249882
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_phylloquinone.json",
+      "sha256": "8ac1e1eb803d82653cf4a1134bbd213695a7c2ca351dbedb6461aa3ba9d038b1",
+      "bytes": 949233
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_pterostilbene.json",
+      "sha256": "249d983e19b3791de90e6a9ac2057a5eeb240abf6b363164a519aa590179e5e9",
+      "bytes": 1431709
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_rutin.json",
+      "sha256": "00cc5f2155f8c76c0d369673bb10667299d377bb393576b5210f21517a4a11f8",
+      "bytes": 1262611
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_sesamin.json",
+      "sha256": "26af439bc8d3075fb3b38afe6146016d1a748b012a99d47a841d2fa6f655a7af",
+      "bytes": 1326751
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_sesamolin.json",
+      "sha256": "78a266abee7ba273a4be1cca062619d4a2faee667cec00d7e7c21c20f34b02e7",
+      "bytes": 79935
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_sulforaphene.json",
+      "sha256": "5e96b4e5f77d9d7b560fa8b044159de315b49991ec774c65644e9a63f4378946",
+      "bytes": 71082
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_tangeretin.json",
+      "sha256": "b4e3813a760c97b0e89c0501f595bbddc6fca9854935c1a398656e2fa7075f94",
+      "bytes": 493102
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_theaflavin.json",
+      "sha256": "8b1a0ca9b4606fb234b9e2d2c3e92caec272401852f2061ae0fb56b5537de032",
+      "bytes": 525703
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_theobromine.json",
+      "sha256": "3350450dd6ff295b13fc05c8cf429477e9ea482152d81492bc1d617da8017cf1",
+      "bytes": 783163
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_ursolic_acid.json",
+      "sha256": "cdbbab7f52dae4fa537f9d0426822f635a0da8448ff99cbfdde138a1b299cfec",
+      "bytes": 1387802
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_vanillin.json",
+      "sha256": "7a9086fbd0c667e4564c871e6fee647e45db4c11fbcbf79d657bd3cba2c6fd3e",
+      "bytes": 1192110
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/historical_zeaxanthin.json",
+      "sha256": "57bfd2d95c20bab283f41e11087394c2ff362bb2b42d8f790af16830638cf0dd",
+      "bytes": 1345574
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_67-dihydroxybergamottin.json",
+      "sha256": "fe7d6431b5138006f5e017803fa72e92be0903e5a97995812e0be695347dfebe",
+      "bytes": 540
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_allyl_isothiocyanate.json",
+      "sha256": "bedb5985db330203d446f56092c542035b687058c5165a0c30755ee69d67994b",
+      "bytes": 345
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_ascorbic_acid.json",
+      "sha256": "3d20a6a8f2a71bc16719377ae43cdd4c2e46a206f45a9208861df434553132f9",
+      "bytes": 436
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_astaxanthin.json",
+      "sha256": "56ad47a45ee974a8d0a7356365b52dbf76585ee38c42a005cee8fd530635919d",
+      "bytes": 827
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_bergaptol.json",
+      "sha256": "b14c2fa2bb21b5a4c2b8623f0a5ef07529d8d5f9d08ae8a634df83d05e045111",
+      "bytes": 411
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_beta-carotene.json",
+      "sha256": "212e736f1830c2403746415ec7a394d3a5d05e72740dd09f2c817d9a17fca0ca",
+      "bytes": 752
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_catechin_gallate.json",
+      "sha256": "6ef43ac43ba6518a74c8d2de0caf1073f8ab1f2662d5ef15b8afa26e5936635d",
+      "bytes": 602
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_chlorophyllin.json",
+      "sha256": "d393c44341522deb6f59a7b6674e3c98be0e810d2d1a931ba0ca23c6b7918388",
+      "bytes": 795
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_diosmetin.json",
+      "sha256": "c3c9888acf7dab23dd1185a7674eab21a526230f4a1b253bc48378c43636277b",
+      "bytes": 479
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_epicatechin_gallate.json",
+      "sha256": "71d583a5e305bd8207d19f5bf9784568875cd10c11493a72c920b7d10633c012",
+      "bytes": 601
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_epigallocatechin.json",
+      "sha256": "515c22980ee489b9917fe34261e143b101b5812ec908438f0c05b2c2c689b86a",
+      "bytes": 508
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_folic_acid.json",
+      "sha256": "8e8eb7f97092ae045e7856053e929120e4d5eacdca6d37f3d88bb6d98d20f774",
+      "bytes": 627
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_gallocatechin.json",
+      "sha256": "7d4f8dafcf81d6cd915a6aff0921d3f72acc05b7e8ce86395825cd20a6161552",
+      "bytes": 508
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_hydroxytyrosol.json",
+      "sha256": "e34c63fd59baeede2843690d302dd43971d34474fdde5ce5a375e5d366e4b506",
+      "bytes": 390
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_isothiocyanate.json",
+      "sha256": "d830b5d49426789f1e09ca4696f5aa37c78af9a7664d32c14cbed8e68b6eff74",
+      "bytes": 217
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_lutein.json",
+      "sha256": "a1ab9c2750c14c1767d8806421d5cdebdf78948edc28669b5b08427079dbfffe",
+      "bytes": 808
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_lycopene.json",
+      "sha256": "cf104d9f9740f75621352c4747afb25733ef4451960f2e591de2ab1df6cceb5e",
+      "bytes": 723
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_nobiletin.json",
+      "sha256": "f1a5686368ebb2d05494c21915286b249c8ce7821cff34e0933737843bb004f9",
+      "bytes": 507
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_oleanolic_acid.json",
+      "sha256": "34327a9c1fcfb55b7aa00bca51cba866713e442ef7c32818f05321e9032cbe1e",
+      "bytes": 688
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_oleuropein.json",
+      "sha256": "ce9681b057cc1f3831bb5401ddd2dd4825feb38cd39387e1f48e5ddd4e980c55",
+      "bytes": 746
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_phylloquinone.json",
+      "sha256": "eabd662d3c99f37b4ff28811ae2dedcc2e7443ae569e034170588e70b1b50905",
+      "bytes": 584
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_pterostilbene.json",
+      "sha256": "ae313f8ee5766c9169bb77dc56b79981be1e90e8e67aff8f0d7c3fb21ef6eb15",
+      "bytes": 451
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_rutin.json",
+      "sha256": "a17868d417e5e22b25aabc5aa8ec426d069535aebe8f64e7fe78ab2125ecac5d",
+      "bytes": 773
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_sesamin.json",
+      "sha256": "a9f06b3eb1bebd987831d4fd94e2f76bfd335a289cb03d3375ee81cefaa02c4c",
+      "bytes": 585
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_sesamolin.json",
+      "sha256": "274ccce6efaffdaad59ddbd35831310a3aaac5bac91c7df00351941625362f6a",
+      "bytes": 595
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_sulforaphene.json",
+      "sha256": "a670b2ddb9bb8f4dfc8c54c655c89c7d889ce119a2a6e86f574102e87e32cd82",
+      "bytes": 400
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_tangeretin.json",
+      "sha256": "3ec17bfa89fb0e83d5a9f79a02c01031267f89bb7b4a883fc3b3eacf0f70a639",
+      "bytes": 493
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_theaflavin.json",
+      "sha256": "c2893e8749a17f012e4b8a623983b47f5ab9e2aad2b7d874ebd437f60d462dd2",
+      "bytes": 685
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_theobromine.json",
+      "sha256": "f693094ab09c1a1e660415e40be4961b452493a4f2b8d26615eedad1a1367c4f",
+      "bytes": 402
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_ursolic_acid.json",
+      "sha256": "bded6720708a29836113c0fc807a75ed942725037677caa15ff1e4544c8341c7",
+      "bytes": 710
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_vanillin.json",
+      "sha256": "8309e222eab3d189d0a3c2e5ed8bad5e839826248f0f87992171d2079bab0f86",
+      "bytes": 379
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/identity_zeaxanthin.json",
+      "sha256": "0df205b2c58b49f53d136f78220afb4db6877d013526b9d9ab588b9ad3d0df21",
+      "bytes": 798
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/nih_food_context_retrieval.json",
+      "sha256": "35755156a5d240934464d718c3775fc1d4ec853cf812ecc81a7b7f1de0fcfcda",
+      "bytes": 1075
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC10363979.xml",
+      "sha256": "77b31e53a0bcc44f9999f5d6b1332fc751900d3c0803ba6aa26e3f8f15ccade2",
+      "bytes": 112952
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC1400816_access.json",
+      "sha256": "560f0a50f294f931b6ea700a8a68d206fb67dde65f1a6cab84af1ffc3f0f9d59",
+      "bytes": 111
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC3090066_access.json",
+      "sha256": "694d071031bbf879fc7496d5ecce00eb5d33f356d127dd284259134171bb41a5",
+      "bytes": 111
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC3762317.xml",
+      "sha256": "48dc1ef52a1f56461ade8a2a02d4b3b9934627dfe6647de3b42615558d63d2f1",
+      "bytes": 87553
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC4567131.xml",
+      "sha256": "319ab53d1a1b55d54b273c2602948f9f0a2dbe337449d97c0c5603a43560eadd",
+      "bytes": 136038
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC4568788_access.json",
+      "sha256": "fbf5709c56df66e63d62a08ba27c34e728adbcfa74c0415f45056df003fd0f6a",
+      "bytes": 111
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC4898966_access.json",
+      "sha256": "8ed7c98f804005e4eed2319fbce68ba199ae205f6160b9b6da06d0cd2febb7f6",
+      "bytes": 111
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC4980335.xml",
+      "sha256": "8b2c4c41d05937901a522d5b8c9a758798aa825013204cf85a4a8775de94c06e",
+      "bytes": 100790
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC6272861.xml",
+      "sha256": "20d0ae36ab0e1b3a65726503bb8b8ce86585708296fc54e45aec49b900708ded",
+      "bytes": 98467
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC6438784.xml",
+      "sha256": "af38c49605c93ed9afb9055d16dd935ebba36b3f7a2c0ca5305495d4185c177e",
+      "bytes": 86798
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/PMC6831770.xml",
+      "sha256": "3d2c3e1261d192fd1a1d4e4d67cf92f339ff7332c98b5075a079bfa0d2cb0f08",
+      "bytes": 100360
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_15767232.json",
+      "sha256": "dd83b444a8fd44d8f89b37d4cee77c09cd728dc43f0a438c32118f382c1df783",
+      "bytes": 11093
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_17110451.json",
+      "sha256": "af8042ccb227509365010713aa7bef7dc6631ff0609bfccbb5fcd35b9aaba454",
+      "bytes": 10335
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_17666020.json",
+      "sha256": "c8f6da6b21adc3b8f8f3d636ec486920a7432601de109655d227ee926214f55d",
+      "bytes": 9532
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_18191104.json",
+      "sha256": "4bcf7ef9bb102769124c952b66b3e4c8bf0f2d43c65c8e92cddd1a34268a6be8",
+      "bytes": 11007
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_1828561.json",
+      "sha256": "b0a5b07eac8d760a9c4900b515929c89285287a8cc50a5754035f79d202c3f8b",
+      "bytes": 8854
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_20877134.json",
+      "sha256": "845148f168e990e893415239fa0a23e686d5d90cd67a5e6795f2144e32e70261",
+      "bytes": 15817
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_21482950.json",
+      "sha256": "f506c7ca73d735cb1db4311a959881617cb73280ab8fa3198dc0aab9e87858bc",
+      "bytes": 12594
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_21870106.json",
+      "sha256": "e6087e27abee52b102719512fdea5e34b85a2e0746eaea63037868f862944d8a",
+      "bytes": 15411
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_23441616.json",
+      "sha256": "3a53cfe79d07afdc5196513371b15fb247b69180f0710158d02bb226a9b9578f",
+      "bytes": 13595
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_24009877.json",
+      "sha256": "d0e0b3b2abb146dce467263c0d06afe6a516eaab9087309cacbf3f1fe89d8055",
+      "bytes": 6053
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_26360766.json",
+      "sha256": "fa1a3360dd9c31b7c6e21ca281aff22ab9899da09da774b398e2a5ecf01fdd3d",
+      "bytes": 11794
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_26396928.json",
+      "sha256": "306d5b6e6fb6056adf5a6a03f3d32e5d7e48dfd1c6dfe73c63cfb76522f43506",
+      "bytes": 11253
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_27058921.json",
+      "sha256": "1996c937349d4b695e609a79a8f36da3ed8d43e6d387ccc3ea905a95f4ec016b",
+      "bytes": 19822
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_27472952.json",
+      "sha256": "b478b7288bba8a68c28e9731c805f0784d57fc975d4fd6a5e0f5f276260f037b",
+      "bytes": 14049
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_27493101.json",
+      "sha256": "a6d1c2faec04a49c3d95c2aa356fa8599b21c97d3397d3bb70c416c25c74faab",
+      "bytes": 13417
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_27529203.json",
+      "sha256": "364e7c84e377c813e1e21862e022ca688101523cf17d1d2f18308422a219fd14",
+      "bytes": 16382
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_28646810.json",
+      "sha256": "fcd2a15b6cad632488ea4e77673fbd168a987f23927a3ff0ff0477f65028dc2a",
+      "bytes": 10163
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_30572191.json",
+      "sha256": "089a9bdee494aea3a4ffd49334ae0684c3b1c00143549687eb8a8c1ac6c1c665",
+      "bytes": 15514
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_30877660.json",
+      "sha256": "99cec0f2d566d2068a7f35f8503f49ec51454c7470812ddf65dd9a540c13e9bd",
+      "bytes": 14842
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_30902268.json",
+      "sha256": "f8eacacd733471c9eb3aaef5e64db59fe353e2df1615b401390f9c449a5cdda0",
+      "bytes": 11704
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_30976185.json",
+      "sha256": "627498c2e942cd3fc295f113d8e9f4bb606e54e48625f0513d6ce2a3ef455188",
+      "bytes": 7973
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_31252064.json",
+      "sha256": "5c7209b3b22dc73e2c32313dcdf2970949de5613ce3592252117a506646fcb51",
+      "bytes": 20165
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_32187570.json",
+      "sha256": "39db758548b7b7577822100e8b1a4c978e4d2fee36db1c634aac168a2c1e6393",
+      "bytes": 18194
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_32601017.json",
+      "sha256": "786a71e0e4d5ecdf383f1426fc808edf3456234a881fec3720412d9ac0ccc19c",
+      "bytes": 11015
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_34219099.json",
+      "sha256": "edd0933c35370186de93a71b74128b9dff0b2ea37f40a3d335448b3f3a60e52e",
+      "bytes": 8501
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_35766779.json",
+      "sha256": "69e5057215b6e82f56eeb312054a87bfc4268e0c28f0f88944ceb97aca7dfc0c",
+      "bytes": 10028
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_4091996.json",
+      "sha256": "e35ed845d1d2fcd3b36d260483aba01ff744bc336d23d2dbe085d8aefb8bbd2f",
+      "bytes": 9924
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/sources/pmid_688723.json",
+      "sha256": "64a16d5d4d5c87cb036f1681ff9e95cefa68738cf8680f6b30869b3f3255e394",
+      "bytes": 6460
+    },
+    {
+      "path": "audit/rebuild_check/release_v7_20261015_clean/validate.py",
+      "sha256": "cfed07fc8ef95d084c7c51227c2751bb76b0686bf881c782e2285be5cb77b21c",
+      "bytes": 11666
+    },
+    {
+      "path": "audit/v10_baseline_recalculation.json",
+      "sha256": "3e50ce73f3dbaa24e1fa1e2570a8101afecbb4d3f8602bc5bf39b4b015b9a6a9",
+      "bytes": 768
+    },
+    {
+      "path": "audit/v10_inherited_v9_hashes.json",
+      "sha256": "bef3515f4078abf63d02e8e664310fada04409c33bd902813124246fb6c9fa61",
+      "bytes": 788
+    },
+    {
+      "path": "audit/v10_release_summary.json",
+      "sha256": "154699d480977379bc729d8fdbbdfa50698274f5030e0c5135c6fcde3c012b00",
+      "bytes": 4155
+    },
+    {
+      "path": "audit/v10_validation_report.json",
+      "sha256": "109f66f198846d872d31afa3d3f473a134d06b4b2e96e6d7eb41b5bf81b04017",
+      "bytes": 2081
+    },
+    {
+      "path": "audit/v7_manifest_verification.json",
+      "sha256": "1439d2c8ac5694716bdfb7a7089522c91077b674ec1cce4be3af6e24ace640c4",
+      "bytes": 41
+    },
+    {
+      "path": "audit/v8_rebuild_verification.json",
+      "sha256": "abda1c015ce16ddec9ec1aa3e32d1d124ea3767f7025fa6c1503a8a122b858b5",
+      "bytes": 76
+    },
+    {
+      "path": "audit/v9_baseline_hash.json",
+      "sha256": "aa607a7248820f6d8ee4f745b344230701fce594e6839f4eccc8b629dcf51dc1",
+      "bytes": 136
+    },
+    {
+      "path": "audit/v9_validation_report.json",
+      "sha256": "04ac1b1edaca7bdf6d212c459ad2a46e673760a514578340d9ff9193de3973d3",
+      "bytes": 1639
+    },
+    {
+      "path": "audit/validation_report.json",
+      "sha256": "e6a17bc6875355ddf80e56ba0cc48d3f4e5986ce17a4ac5e9f1c4b4b71743a88",
+      "bytes": 2104
+    },
+    {
+      "path": "audit_records.py",
+      "sha256": "42925c5202df4ca4af6eccaf8a9628a3825496ba32d1b65d7e837cf4207ab694",
+      "bytes": 2236
+    },
+    {
+      "path": "baseline.py",
+      "sha256": "062cb1764d35d801b3028c60ddb43a79b5941b7c97360781dc4bf4c6583c6adf",
+      "bytes": 2868
+    },
+    {
+      "path": "build.py",
+      "sha256": "41546521af36256efa5c9a3c0aa31d37a52fa8cadb0521c3a3f2ff4ecc19e8b1",
+      "bytes": 15387
+    },
+    {
+      "path": "build_v10.py",
+      "sha256": "73924254169d41a603736e5d4a610c53cd903fa2632fd7ab07692c3089440b5e",
+      "bytes": 29281
+    },
+    {
+      "path": "build_v9_data.py",
+      "sha256": "78e224784ecfd060bf0aa9a149503a8dda02368d00afbaab7878ac2310feded8",
+      "bytes": 30168
+    },
+    {
+      "path": "candidate_pubchem_cids.json",
+      "sha256": "7142a2bf2e0c49ea36f0067bfbd97ae5b98966acf8aea98771f772fe5d783efd",
+      "bytes": 1529
+    },
+    {
+      "path": "candidate_pubchem_structures.json",
+      "sha256": "9e2c96074d339616b09ae0df79fefd027acf795f8d2efb4189356ef1068d30fa",
+      "bytes": 9712
+    },
+    {
+      "path": "collect.py",
+      "sha256": "b568f179480c50e83559c6aa6624030eccb0aea2fd6ab4210ca6875bea6991c6",
+      "bytes": 2540
+    },
+    {
+      "path": "finalize_v10.py",
+      "sha256": "93ad41f80f438f3cdabba21ee667c85f638e407c2b5444615d7eb1a15fecb310",
+      "bytes": 4392
+    },
+    {
+      "path": "finalize_v9.py",
+      "sha256": "38d32fee4b5b1cb32c6911f878671025a501d9815ddc1a01591d7a24a7d55ce9",
+      "bytes": 9445
+    },
+    {
+      "path": "history_search.py",
+      "sha256": "6e8323aa7be3eec40383a45c3a3d8bb640b96ec7d1b4063ce0678741164cb7be",
+      "bytes": 2474
+    },
+    {
+      "path": "inherited_audits/v5/all_record_review_audit.csv",
+      "sha256": "fae9cc150d38272db8a8d430250a17cf46adee044ea3b6ad6f060aa8156b2ef4",
+      "bytes": 18521
+    },
+    {
+      "path": "inherited_audits/v5/compound_selection_provenance_audit.csv",
+      "sha256": "2955ab6dee2806e4e91f9cc29497698f4b7185b9c1e1701ecbcd511dc0072fee",
+      "bytes": 11955
+    },
+    {
+      "path": "inherited_audits/v5/identity_structure_audit.csv",
+      "sha256": "69a38f2b99269188b73e6e7496f94b9acd855fd0ff50eaa08dd5e32576039364",
+      "bytes": 6414
+    },
+    {
+      "path": "inherited_audits/v5/inherited_v4_claim_support.csv",
+      "sha256": "a04c80cdf128853cce24f31e8475f2123a94e2b0bdf0074014c81af6e4c96e8f",
+      "bytes": 27322
+    },
+    {
+      "path": "inherited_audits/v5/interaction_evidence_source_audit.csv",
+      "sha256": "37fa2f5a00e7c8160b7e859e4cd57c41be7a2714a92fe097d4ff98ae1bd2619f",
+      "bytes": 24266
+    },
+    {
+      "path": "inherited_audits/v5/original_nine_interaction_reference_map.csv",
+      "sha256": "136e22a16f1d387bf32b8b6b1a24732ea9db6a3ebef9f27cd58c3a0628c0b713",
+      "bytes": 3371
+    },
+    {
+      "path": "inherited_audits/v6/all_record_review_audit.csv",
+      "sha256": "b92c98ba3fa039a444fe7f8778a797a55c2df7c3d894d6b1fd2a6be541dc9c97",
+      "bytes": 41819
+    },
+    {
+      "path": "inherited_audits/v6/candidate_selection.csv",
+      "sha256": "291896ad718b4bb89258592ae421cea27a5f869b0a04db464d874bae02c70c5a",
+      "bytes": 5585
+    },
+    {
+      "path": "inherited_audits/v6/claim_support_and_outcome_audit.csv",
+      "sha256": "f6fc000637f2f9b4ed0d2115e8710304c37ca3e75a5bad2f52c499dd4d289086",
+      "bytes": 56548
+    },
+    {
+      "path": "inherited_audits/v6/compound_registry.csv",
+      "sha256": "d148437d1ffe8a8b65356d9645d387eaa156a20c20f4a54c8bc60b4e765c9185",
+      "bytes": 70901
+    },
+    {
+      "path": "inherited_audits/v6/compound_selection_provenance_audit.csv",
+      "sha256": "33b5c66fcf3d445099b451f2a3838f820e8a51f3e4cc672506861efd40819f7c",
+      "bytes": 8228
+    },
+    {
+      "path": "inherited_audits/v6/cooking_retention_evidence.csv",
+      "sha256": "6df1cd92d8843ea179064f5f848bbd5f46042226003b68539f623dd86a3422de",
+      "bytes": 3306
+    },
+    {
+      "path": "inherited_audits/v6/correction_notice_audit.csv",
+      "sha256": "3fe880f49fb012a05da937a06d9ebc7007837908cc735aecfedeb123677cdb79",
+      "bytes": 253
+    },
+    {
+      "path": "inherited_audits/v6/evidence_change_log.csv",
+      "sha256": "829c49e91e05e64552744870642eef156fd4c31b226a97ef4187c80a01ea0788",
+      "bytes": 1995
+    },
+    {
+      "path": "inherited_audits/v6/identity_structure_audit.csv",
+      "sha256": "f3afa9accf0ede876f1f1463934286d3a57dc096b4f70cb3aa56e17b07b9cf5c",
+      "bytes": 11483
+    },
+    {
+      "path": "inherited_audits/v6/interaction_evidence_source_audit.csv",
+      "sha256": "1a5aac2b48dfda5f8d79699e21f4f849d327b51d9796bce76ec0dc1a82d80957",
+      "bytes": 27590
+    },
+    {
+      "path": "inherited_audits/v6/new_evidence_records.csv",
+      "sha256": "b2a8539666c515d4070b633da28c2913b3e026ec65dc69c7a2c356eb2f68727e",
+      "bytes": 42062
+    },
+    {
+      "path": "inherited_audits/v6/processing_provenance_audit.csv",
+      "sha256": "9ed12a86c8e9f3b6df03bc19d935f76d0f258cc4a2040e21aa9b5ce2544ce303",
+      "bytes": 2131
+    },
+    {
+      "path": "inherited_audits/v6/processing_source_resolution.csv",
+      "sha256": "2de7a206a555ab140af21f10b9c031492ac50eec17b9f8775c6836acffe9f0bd",
+      "bytes": 1163
+    },
+    {
+      "path": "inherited_audits/v6/registry_change_log.csv",
+      "sha256": "536e545bec477e4fff7e396ec40e8ac34b1b7a48dcbe866611fe99b5380686d5",
+      "bytes": 4222
+    },
+    {
+      "path": "inherited_audits/v6/release_summary.json",
+      "sha256": "c7d5f3d09683ffc7d821e40df990c0a2963758b49eab268061eac0fecffa9dc4",
+      "bytes": 698
+    },
+    {
+      "path": "inherited_audits/v6/screening_log.csv",
+      "sha256": "3595ef1a1f4d2ff3bbc8a1474138fbb383b779c308b3dd0d6c95584d6aff5baf",
+      "bytes": 596696
+    },
+    {
+      "path": "inherited_audits/v6/search_log.csv",
+      "sha256": "423668248e5b302a18e1a7b7972fb864fd8d3d8165639a73c4017450d3cd1929",
+      "bytes": 11765
+    },
+    {
+      "path": "inherited_audits/v6/stageB_food_drug_interactions_v6.csv",
+      "sha256": "5590012dcf2ca05d0a8645c26114bce3267077428f2b4258adac3c8aa2d088a5",
+      "bytes": 209429
+    },
+    {
+      "path": "inherited_audits/v6/study_registry.csv",
+      "sha256": "1a5aac2b48dfda5f8d79699e21f4f849d327b51d9796bce76ec0dc1a82d80957",
+      "bytes": 27590
+    },
+    {
+      "path": "inherited_audits/v6/supplemental_food_context_sources.csv",
+      "sha256": "a917ca400c0224886dab2542fc42712bd3810b12abd86ef8bb9e1c67cd9e83ff",
+      "bytes": 941
+    },
+    {
+      "path": "inherited_audits/v6/targeted_search_log.csv",
+      "sha256": "d66eaa1c8e1d0b226c1e4b013266dad6680f027e6c5d5c89b1b5c8a3d3a4e06a",
+      "bytes": 14852
+    },
+    {
+      "path": "inherited_audits/v6/warning_resolution_ledger.csv",
+      "sha256": "ae7735a1f7bd67254e7d6fa60fa0b52aa4468ee2e50643543fee9c27694093a8",
+      "bytes": 8750
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_21.json",
+      "sha256": "79b44a806a49bde815dcfdec804ccaa4fd75f40ab647c0000d315f56c477181d",
+      "bytes": 1154915
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_28.json",
+      "sha256": "96649185080d4b43cb9bfa25988c7eb3f673a8d231065031e8204cdf9af7e44f",
+      "bytes": 1341370
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_29.json",
+      "sha256": "e939367df2bbeac4772357a8573d6b4d29947b8dfa982de840ad37d7de66a3a3",
+      "bytes": 1208275
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_30.json",
+      "sha256": "9d73a53cc91361b6ed2813df64557911fd1fe6a84bb20e09d29c3a7ec1b2a1a5",
+      "bytes": 1262058
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_31.json",
+      "sha256": "1f6deb6aab18dd9433f26f4dfb6364d03be22f528639c2b7d1f94f4f6abba44a",
+      "bytes": 1211259
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_33.json",
+      "sha256": "5e3ace83684ff9d7f93e38c86345dbf3649d9691d2198619fb5058177bd38884",
+      "bytes": 1230614
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_34.json",
+      "sha256": "973df9c9d159b376f5764e8a89532133304c7d12ebeda2f4d54771a43f4128c3",
+      "bytes": 14933
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_37.json",
+      "sha256": "277b85d0d661f4d927b087d00348526e971b4e0aeb9315f2ad0e69869687e7bc",
+      "bytes": 10147
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_38.json",
+      "sha256": "94e7b5616848da5bd2c8f51d006a2ad520affc30a1c0e3eac3d3076042ad26a1",
+      "bytes": 10932
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_39.json",
+      "sha256": "9288078dee65cc8c2dbfebff63148aec082ecd510602325912c0bb551f7c7504",
+      "bytes": 13158
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_40.json",
+      "sha256": "a8762271686f176e9c3a676711b97aec2c940f525e3ac37fb4c47daabfceacd8",
+      "bytes": 8710
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_42.json",
+      "sha256": "b3a7bb2a66f0b17eff3804bac97f96110ad10adfce35542d63f9849b5d85613f",
+      "bytes": 13933
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_43.json",
+      "sha256": "b986d0cdab095d3415ed52f9689106f312baada8740a0a822190502e77ce5552",
+      "bytes": 14870
+    },
+    {
+      "path": "inherited_sources/expansion_v2/sources/search_44.json",
+      "sha256": "5a2df09ae298f39498652557fed09da0b1e1a5183dc5179a6e4b1212723bde7f",
+      "bytes": 10963
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_12756512.json",
+      "sha256": "8f8eee6ed71614161133303c27b6682b21719cfcfa8d6fef2e92134d86bfb63d",
+      "bytes": 10492
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_18338336.json",
+      "sha256": "e39ce4b5055923e6d5171534884cd2383a8d6ec5671ac7c00317533ae6eef984",
+      "bytes": 9525
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_19221726.json",
+      "sha256": "9b8a1601e244aaf914ebff9991fe23210c7540358c5848f68bd8ab1ee901f650",
+      "bytes": 9931
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_21680781.json",
+      "sha256": "f4d38801c1af3b6348aeb599fba3124ec6478bb833c80c6c4c87390214ed5c5b",
+      "bytes": 10371
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_23153560.json",
+      "sha256": "5f9b12b2681413550929a04a2a0262da561b3eead8f55cfd45d6ceda40c58261",
+      "bytes": 15373
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_24369535.json",
+      "sha256": "1d05042a2e179f7773c75bf212904685ed1287074424dd28845fd0d276e047f0",
+      "bytes": 14824
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_24871039.json",
+      "sha256": "0b31dd80e4274a2c3b8542ca50cfc3f7b35b881f65d09eb9b90b92ac39abbd73",
+      "bytes": 10672
+    },
+    {
+      "path": "inherited_sources/expansion_v3_20261014/sources/pmid_25988261.json",
+      "sha256": "af413d2cffb084aa9ae6b98a74b93726b9e345b7147181211134ab6a479364f3",
+      "bytes": 10290
+    },
+    {
+      "path": "inherited_sources/release_v4_20261014/sources/PMC11011382.xml",
+      "sha256": "fcc1f01c0e60b1e680882fb802d6a6bce79e90609def7fc7ead5bb19d2e9183a",
+      "bytes": 182846
+    },
+    {
+      "path": "inherited_sources/release_v4_20261014/sources/PMC8151956.xml",
+      "sha256": "540bee53d93c5b7d0dacf58e70d41c9eda5ea199bbeb428abb5d49c63a4739b1",
+      "bytes": 218371
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_10794622.json",
+      "sha256": "e0957f6cadef611257bb312aa0153d626195bb7cc035dc1a27d966cad5b5a65c",
+      "bytes": 7891
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_11032486.json",
+      "sha256": "908327440c22852086bd716c298e43df174eacad4c249c8c066f3c18202b04c9",
+      "bytes": 7296
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_11792681.json",
+      "sha256": "3a0ff604d9f9ecc6f0c47f00defcb5effdd668e18d4d448d4507f1925069b409",
+      "bytes": 12748
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_12554070.json",
+      "sha256": "a6cff6a0a9769fcadc896bb53cdc5dca20e84cb02acf8efa6fe2cd2b0e1806af",
+      "bytes": 10925
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_12920504.json",
+      "sha256": "99a6f10462261b27f84002569a1224abbc0436e6783b7a59d8610ad40508f080",
+      "bytes": 13428
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_15309458.json",
+      "sha256": "526fe02f958e19631287eb2377500a00e83429fd9296e3747a9ddb8725de517e",
+      "bytes": 13922
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_15592332.json",
+      "sha256": "881d78cdaaad71979cb6ba899551ab41f4e1689b0753021396e183fbde02b036",
+      "bytes": 13970
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_16003560.json",
+      "sha256": "c8b43ae0bef3487de401b1b64337a6e5eca12278680353b2724fbe32af889304",
+      "bytes": 14616
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_17468862.json",
+      "sha256": "7cbab2ff71bdb3eb9e38e60e3287570ac3b1cb01d6b30660ace11cea6746b52e",
+      "bytes": 12432
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_18446505.json",
+      "sha256": "6aea4c31d42e039299c09a8db0dac8d98bbe40df5e2caccafb08d2a9a033fa5e",
+      "bytes": 10997
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_21380815.json",
+      "sha256": "9407a5c17c280f69e4496e185301b7ae7134fc0ac042acfb34ca78f668c591ed",
+      "bytes": 10814
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_21442417.json",
+      "sha256": "6c7f463cdab1f57d451bf0f1e491f37e39defb38f8ac5ea874df7b1fc1aa7fdc",
+      "bytes": 10921
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_21697612.json",
+      "sha256": "ce41a2af75fee7cef3e57ed50a2ab35189f90c1307865b5f725b720d4011094f",
+      "bytes": 15317
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_21704146.json",
+      "sha256": "ab5f372f3d6f768c48935bc6aea63bd73aae59e70e738dbb3cda739687fb79fe",
+      "bytes": 12136
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_22114872.json",
+      "sha256": "ba2f422d2db41e4ca7ad7ee694624d4eedf196d1992ed678cc67a9263c53f5b6",
+      "bytes": 14816
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_22132944.json",
+      "sha256": "bbe683d9c81a6a00bb204beee150873d4683ae1b9abab7804d5085f6f8fd64bb",
+      "bytes": 15951
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_23422925.json",
+      "sha256": "17f3130c7174f647a9441dc9cf022594ee82e9460cc5df18b58a98cfee0b31a4",
+      "bytes": 12070
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_23883365.json",
+      "sha256": "08e8b661178c46118dc12ab3106b7ac3bbdad11ddfa4108fbfb588cb57671575",
+      "bytes": 12337
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_24472704.json",
+      "sha256": "98c9fdd9a4781f5ad46c78cd459ea9cba7261235c832392f1a4876231786c30e",
+      "bytes": 12127
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_26692948.json",
+      "sha256": "d9230c4887e4229c84ec7aead990d70cd8853ea762a637c97697bb45d127668b",
+      "bytes": 7407
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_26884726.json",
+      "sha256": "78ba25ed1c2987d0730444428e62c15d7c292e25544a4af1272bd18645d505d2",
+      "bytes": 11691
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_27098862.json",
+      "sha256": "9bb5ad406c8cb27a512aaac53876cdd23a6d74b81e5a25c9172249c87fb0b388",
+      "bytes": 9660
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_27396204.json",
+      "sha256": "face4b3cf63d59aa9c953311e2b4bb779052ae0cb1aca654163e49bfae402bb5",
+      "bytes": 9211
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_27765854.json",
+      "sha256": "43f5cd1be33be51aefb62daa7638bf637a4ff46b4f0b30a3d5ab2aaf6ee1cd6a",
+      "bytes": 15249
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_28185989.json",
+      "sha256": "3a7cc26a737c19d5b5e842927fc08b682d35996258125cc28ffc4b182bfcbde4",
+      "bytes": 14012
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_30590119.json",
+      "sha256": "a1ebfdaea0241b75bef536287c8cdd76c092c68c9e02820d7b64d7acc11025f9",
+      "bytes": 14509
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_30678660.json",
+      "sha256": "66cbb7da4470710976a666a1f202dd7b33832b238a4dcfb16b4f6a54fded1f83",
+      "bytes": 17679
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_33435470.json",
+      "sha256": "9e471f1dcd20ddd54d97a71ef2265a728b781882db57ba841fe60f0b48646393",
+      "bytes": 9534
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_34138683.json",
+      "sha256": "caf3c0513065a0f5cbb066634045289c3bc3b96c1b1e0dcf7034a336c3a0db68",
+      "bytes": 9939
+    },
+    {
+      "path": "inherited_sources/release_v5_20261014/sources/pmid_34144662.json",
+      "sha256": "2a40e85f479be29ff5c6024d182799cbb2cdf8b302b294e2448b8aa356406d33",
+      "bytes": 16381
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_10755708.json",
+      "sha256": "2746b9a39c7732b0d4312e333e2b5ceb731ad23d3e85f095dc58681ddd08b44b",
+      "bytes": 14513
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_12136947.json",
+      "sha256": "c143d88d8dbb70a977afaec8e69b8abca95d540345c1895e22453386a6b3c734",
+      "bytes": 8360
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_12698306.json",
+      "sha256": "c2758a83ca36fb2625f6a4085317f804200db8d19e0b338aaba063d3aa3d7ac5",
+      "bytes": 9284
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_12920504.json",
+      "sha256": "99a6f10462261b27f84002569a1224abbc0436e6783b7a59d8610ad40508f080",
+      "bytes": 13428
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_15885265.json",
+      "sha256": "ab5406dffaa12aeb8dbc6cf339b96e9308737a4bf44e03971d57020bbb133210",
+      "bytes": 19157
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_16002304.json",
+      "sha256": "f0f1e297702365059cd117ce511b18e4524f8d43ada9ca94a2fe611f6caeb684",
+      "bytes": 8560
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_17708066.json",
+      "sha256": "88f3569639019871fef0cd5e3133dd4fe7d4d9388cbf5deebdb83bf393527456",
+      "bytes": 9380
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_18449511.json",
+      "sha256": "c24fba935e77c26c4df5ac049bce9c52cc9bceb739f507c7402e0a10e80c037e",
+      "bytes": 9725
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_20582416.json",
+      "sha256": "95541eb200470a9db7459eaa30875bd9dffaf1ab7022c5011ebaaec88bf60826",
+      "bytes": 11561
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_20877134.json",
+      "sha256": "33934e67d1a58f920d7bd550c566b222ce6d082d98c84a01d54b57a1760032b0",
+      "bytes": 15817
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_21535728.json",
+      "sha256": "3489695e5de003bf6b8740af7ac3c05636b590a1fb7021ad90be6d030e38c334",
+      "bytes": 13526
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_22139695.json",
+      "sha256": "e4f392726376af431710e0fa87d70085795ae01b5d082f952a48dbf19b3d06a0",
+      "bytes": 14503
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_24276478.json",
+      "sha256": "56800bfd89cb785cadf533fc8887c7a4f29bc1b233333f1ad2c10102b6720893",
+      "bytes": 15597
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_27690733.json",
+      "sha256": "93d949af4de8e3f03a218db412660dcfc5750abd2379d09cedc2f97ef780058c",
+      "bytes": 8615
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_28051355.json",
+      "sha256": "192321303b08977b6a8fbc7da1cb7dd38abe3064c53470e9f6a3f461f0037d64",
+      "bytes": 13151
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_29908072.json",
+      "sha256": "0f0d50fd1545d5dd1ab69addd60ee347310b1b6bee4395a317b7cb0daa42a842",
+      "bytes": 17499
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_33074419.json",
+      "sha256": "bf8a41b6776405336dae149cbc03ab1450b0330942245cdf1891690d4e9c829c",
+      "bytes": 9474
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_33149871.json",
+      "sha256": "ae8a453ccd4159e48e8038056a06f33bd55aec6e8b723720ae24f56fa377a2a1",
+      "bytes": 10617
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_37492094.json",
+      "sha256": "bc3aa1081da46c458193c590f3f79c8587e1f5f3e89503762e201f974c3d1bb3",
+      "bytes": 11889
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_38148345.json",
+      "sha256": "4b15a7cff5854e1b2a962dc5aca4edf454665bd12cbf8e3bb4ff88e3b7e19ab5",
+      "bytes": 18904
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_38411783.json",
+      "sha256": "82516e17c8943cde8854eab315257ee4019fc1daec330fd283bd4b86def1f28a",
+      "bytes": 14713
+    },
+    {
+      "path": "inherited_sources/release_v6_20261014/sources/pmid_38958374.json",
+      "sha256": "bf25a8a45c2a8835e33aae42011ebeaa498124998e16f9a7cc6709d57a1e463b",
+      "bytes": 15194
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_67-dihydroxybergamottin.json",
+      "sha256": "a87b79986ac5e7b70d520cfeca81cc5357144c21356f913c436278605d200b5c",
+      "bytes": 10267
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_allyl_isothiocyanate.json",
+      "sha256": "4186e36afccf63e0b585f18acfb7688cbefc25e0f87ab4fb6119bae6ac35f6ef",
+      "bytes": 1300744
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_ascorbic_acid.json",
+      "sha256": "8c925655f17b50b0c6f6ff90ea314b497466f9517efb7f8bd7b64c65c6416ab7",
+      "bytes": 1259283
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_astaxanthin.json",
+      "sha256": "d4405ca47d1f5bf2a07d716327c33d827fd0ec1eee709696bbee5391e6795a38",
+      "bytes": 1343393
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_bergaptol.json",
+      "sha256": "b8bc11287b22b64a6763ac532f3a2fee7e776f0dec8d33f6d568186463760807",
+      "bytes": 59223
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_beta-carotene.json",
+      "sha256": "36f01e0cb54f77bf33583326ebcfbd8b64c3cd5b35e26045eed26a02baa6510b",
+      "bytes": 1225764
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_catechin_gallate.json",
+      "sha256": "0072e9def8cb0e44d3aad2a1286358e764e3e79c69f8d05c8b98d1d59a408aba",
+      "bytes": 65055
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_chlorophyllin.json",
+      "sha256": "3c8e0033249c1a64dc5fad3091eff5539ff5853d70f82422e463b8ee0d9246ad",
+      "bytes": 1152063
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_diosmetin.json",
+      "sha256": "0c74ea19a8b2b94504ce272c3e0f3171fb6760159b6067a70697a30776358d52",
+      "bytes": 1242466
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_epicatechin_gallate.json",
+      "sha256": "c3b0b578c712a3ce3072c8bef94f0d9cfb762e3fc0263614b0a57481325a3526",
+      "bytes": 629568
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_epigallocatechin.json",
+      "sha256": "985ece081269edb10a3b293a21a3584c338593fe509ad2bb2d02edbe5d5c7205",
+      "bytes": 1328374
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_folic_acid.json",
+      "sha256": "ed6879864df3f5dfdec4cca57eaa7ce0e7688b75049b4e83b9d1586c648d4d7c",
+      "bytes": 1256567
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_gallocatechin.json",
+      "sha256": "5c543a5ccebf42f90c08f9fc9a943c13bd016eead7c58c3ffc13bdd98c071412",
+      "bytes": 256831
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_hydroxytyrosol.json",
+      "sha256": "e9226f075b45534fdc2642f40698e4f34b71b845ece1cb8ccc516d89dbb38e81",
+      "bytes": 1463869
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_isothiocyanate.json",
+      "sha256": "6a94cff55e56a20d2e510f6639e31989e07e31a6606da57bec5c8b195b4243f4",
+      "bytes": 1296511
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_lutein.json",
+      "sha256": "60040b00b2c927b8271bafd59fd8519d76fd0dff7ce0b6e0d06c3a03ec796ff5",
+      "bytes": 1295366
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_lycopene.json",
+      "sha256": "778b4e0a96dc019aa8e1c09a2cf68458edee098911e0891e25087bb3559bc279",
+      "bytes": 1305890
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_nobiletin.json",
+      "sha256": "2ff3a4321e9f7f0c56d47b7a84e8482d2802c8abc016b3173f40f52a1464c63e",
+      "bytes": 1329355
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_oleanolic_acid.json",
+      "sha256": "d272d41612321d94ffd61479ecca58e5a0638bcaafcb476332a11c6e7a876ec9",
+      "bytes": 1317659
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_oleuropein.json",
+      "sha256": "2d64f4933ebdd3a2df9ed20b7cd14aec080cf533419a63bf5d45476f3605abc4",
+      "bytes": 1460822
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_phylloquinone.json",
+      "sha256": "5235ba20305de12fb6be396d33235aa61d1a8878931c8baeda0b46e9c54ac6a0",
+      "bytes": 1171419
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_pterostilbene.json",
+      "sha256": "f1cbf6b89d0b881e588004cf832f7a48a98eb3bdd4cf41b3c4c040f985f83eea",
+      "bytes": 1370073
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_rutin.json",
+      "sha256": "5729026ac201456a2975e88a780f7c578fcb42bb1282aeabbdd702cac94ee779",
+      "bytes": 1323568
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_sesamin.json",
+      "sha256": "9528bf1c2acb2d24b481cd87674f987ae0195ebdc5259588ff6cac1dd05f1344",
+      "bytes": 1340665
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_sesamolin.json",
+      "sha256": "8f1c4e9f594909e1df9109b662f39bf0d4d69fb157f737fe444a51487b8d1f92",
+      "bytes": 185160
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_sulforaphene.json",
+      "sha256": "cd636f77ef8c266b885eff03276f5adf5d2856c0ad6f10b328a571ffec046230",
+      "bytes": 174964
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_tangeretin.json",
+      "sha256": "852f7569896199ce7c34786b2e5ef2d608aa58f714625be4ac332cacbb0af705",
+      "bytes": 1189664
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_theaflavin.json",
+      "sha256": "cf1350cb9d7402e1a97c660402301fae5bcfd4b4daa04d531a6f9f5e1e963fb5",
+      "bytes": 1373902
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_theobromine.json",
+      "sha256": "ced3db2b7eaabf31e4482ff5de202863993110436d6ea65c7d963b87db0a3e8d",
+      "bytes": 1187242
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_ursolic_acid.json",
+      "sha256": "68e118b177524bfad0762958f9c28af98ab611a173b1627618a95a836eb5ed06",
+      "bytes": 1390112
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_vanillin.json",
+      "sha256": "6659050eeaea0694665a38ee9d930b153ffcae996187f4a597ec8e79219cca04",
+      "bytes": 1178347
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/broad_zeaxanthin.json",
+      "sha256": "739f69383d095201a577e90984be4c13f551eb5df2a6543e0d0f8e0737da3e39",
+      "bytes": 1266605
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_15767232.json",
+      "sha256": "69afc6e4df846cff6618fcdd64b6be01cec0fe8a92e3bd0045d84a8c6a5d801c",
+      "bytes": 14410
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_17110451.json",
+      "sha256": "dd8a3cbffbf34149477e1328dbb8fef8a3d1a4279518b602e3a01632f2fe5bae",
+      "bytes": 18589
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_17666020.json",
+      "sha256": "a3929e0c1f8b77a284e8ae6fe7976e8f26f688649deb001696b32438711cd892",
+      "bytes": 14374
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_18191104.json",
+      "sha256": "72dfd9fc4270889eee89199f02af163370902ed56b514ee333481ee1657e5fb8",
+      "bytes": 25648
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_1828561.json",
+      "sha256": "395641202555c6cab9bbeb8e1b051608c820580232ef07dd4c2ee41a369e57db",
+      "bytes": 15411
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_20877134.json",
+      "sha256": "c1e9d2edacd26c17477322939cae5257f905f093feb493335e8436fff2730941",
+      "bytes": 28329
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_21482950.json",
+      "sha256": "657357e81a7eccf0a2822f15ce4e0d5dabcc54d5cbed0e690ef36925e696d51c",
+      "bytes": 10306
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_21870106.json",
+      "sha256": "e57ca52d90d732bfa7c320ebd5c682c84a17b3206387255d3875af4bf6e1e974",
+      "bytes": 15607
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_23441616.json",
+      "sha256": "c9d3ad0353d40c9415aef0e1eff193f0c75cb7790228ceacc33cd27d3251ce41",
+      "bytes": 8794
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_24009877.json",
+      "sha256": "442623d9d623d063cccc000ec5cc324b28adae9a1cddcd3cb3f4ee5182f62054",
+      "bytes": 14554
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_26360766.json",
+      "sha256": "7330b28d67e68f02d707b8722b39f415cfa5cf1eddcc7137f475e94eead9caff",
+      "bytes": 26829
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_27058921.json",
+      "sha256": "f1ec8e9ba213044af9e679b294ffa8b08925d7e3a0d5e0c8c5c3c4a073f545f6",
+      "bytes": 27589
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_27472952.json",
+      "sha256": "be8147a9bf52db1bd39c4ca1c12652c53bd8c2c1cb1be0e3f015d5001724fda6",
+      "bytes": 26587
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_27493101.json",
+      "sha256": "cea3a1aaef3820104507192b59b2373838fb3527d35e22b3d62eca08e11f7fed",
+      "bytes": 20907
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_27529203.json",
+      "sha256": "d017c3f6b99ea01b1809521f0b1a7d499aa03acafd4a50c1e1b88bd358088bc6",
+      "bytes": 29048
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_30572191.json",
+      "sha256": "f17750e4f195e6d4829ece2cfeaa6d045ae1ca707e5460820d0f68d0acc20f2b",
+      "bytes": 19080
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_30877660.json",
+      "sha256": "85ceecc42eae5aab97b7d325f51b7ca80736645cc6de5809396ea4d179a008f5",
+      "bytes": 25824
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_30902268.json",
+      "sha256": "407fea9e013aa9c0f29bdfc8321dbde35ced5e37db54c97ede3d4bb21be9f7c6",
+      "bytes": 22138
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_30976185.json",
+      "sha256": "8b58a5cdcddda22abae42cba70e44ddb440747cfc291a75659593f736a7bc9dc",
+      "bytes": 23670
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_31252064.json",
+      "sha256": "9052e452996390e842383e48319bffec0a4ddef5c99b333de39bef3c656593be",
+      "bytes": 138
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_32187570.json",
+      "sha256": "44e1ff2b1492994fdf6bccab38c457202296f7344820018ce36776a6aebf4e12",
+      "bytes": 26423
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_32601017.json",
+      "sha256": "db54aef660bf3d017f2b18c60db6bbd17824e7ca99568ea1afffad5dffb8e7fe",
+      "bytes": 12358
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_34219099.json",
+      "sha256": "ab966541116b4a7b92ac525e09691e29302541324a5534d513b6c216b5499216",
+      "bytes": 14360
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_35766779.json",
+      "sha256": "b08283a7a459ffbfab362a28597a757c30f489a07c63123c9554e6a5d36499cf",
+      "bytes": 16642
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_4091996.json",
+      "sha256": "40cbb5b0524333f391472580134608bd5704c90ab7d2385c818798f11c453653",
+      "bytes": 10219
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/crossref_688723.json",
+      "sha256": "c4f5f1072be08d2ddff8fb6e5f542fcc781add124a650db3d00344354e8cb998",
+      "bytes": 5320
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_allyl_isothiocyanate.json",
+      "sha256": "5382c84a377185889de5c536b04d1aef6a23ffc8c120922c3406b714b1e8eb04",
+      "bytes": 711
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_ascorbic_acid.json",
+      "sha256": "688cc74e66deb7c1c31c5d7dfaab54b44bbde7e8260bdf26dd91f36127362ef9",
+      "bytes": 739
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_diosmetin.json",
+      "sha256": "08c22e3308911b3e9844d9893d42cedebd3c28795667fd3c0f9a9b24d62485c2",
+      "bytes": 982
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_folic_acid.json",
+      "sha256": "da694277113cf50613302183cf130ffc9bfe9280da9ea34efac8793d34d9b995",
+      "bytes": 773
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_lutein.json",
+      "sha256": "b750833e1c2f42a6a92fc4335192da293cf36c9500b79d4046522fd0fb07dc78",
+      "bytes": 478
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_nobiletin.json",
+      "sha256": "8873395977e00e5ebd692432077c2b876df7420b61a572d9554dff3772a2ffee",
+      "bytes": 564
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_oleanolic_acid.json",
+      "sha256": "f9abe6c33bf0b225575fcc86a0753a24e0eb70c097316cf095332fe43ac6dd5d",
+      "bytes": 655
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_oleuropein.json",
+      "sha256": "11195819d31a2eab95177d57a2d691c9bd0c006741312696fd5b745b2f0516c7",
+      "bytes": 1221
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_phylloquinone.json",
+      "sha256": "99136601f1cafa79ba0d1017f039967c15f813e9c89d58e2781890c72b7c375e",
+      "bytes": 667
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_pterostilbene.json",
+      "sha256": "e97ee6256d54d41faa3c6f5ad14ebe675cedf9fc3c7d3a371ea3383ee6e9951f",
+      "bytes": 828
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_rutin.json",
+      "sha256": "40f876d951b0676112ed0c6d25804700d5525b62fbe107993a27800bfa11f0e0",
+      "bytes": 613
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_sesamin.json",
+      "sha256": "0958f233dbf54e24cfc1d981cfb1ed03c9cbe7f7f656c481590e6f23a22152e0",
+      "bytes": 717
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_tangeretin.json",
+      "sha256": "7c34e9623f72028b2b48731875a48e05b460d7807884fff420470e79c6abcbd8",
+      "bytes": 496
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_ursolic_acid.json",
+      "sha256": "46f44553acf5a7956c229104e7249a3f78600c630a6c0c745f0b332918f4236b",
+      "bytes": 668
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_vanillin.json",
+      "sha256": "69cb63dbbe3db4ba670cd78c0b3abf46de29912698e10472162812953740d7c2",
+      "bytes": 661
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/description_zeaxanthin.json",
+      "sha256": "c85dfd4b5cd8b4c91786dba3c0061c6fdcf546f4e17eed1080f311f6ecc4240d",
+      "bytes": 484
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_67-dihydroxybergamottin.json",
+      "sha256": "7a07c2e6798dd618aea6f00ba8fa77baca20ee9491bcfc07536ea748a78db52a",
+      "bytes": 438
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_allyl_isothiocyanate.json",
+      "sha256": "2f195912076079af77c2fd62112ccca786fdf20066dfca61c4cff3f910e408b8",
+      "bytes": 798755
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_ascorbic_acid.json",
+      "sha256": "12395f52c1889acb38be4bbb8b35b8f856361850f6d85fe3407a50e1b59e3b67",
+      "bytes": 1332008
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_astaxanthin.json",
+      "sha256": "fcadf9cfdd3e8ca6afb14dfa959f8ef76a1a753b7bdcd2f0274ef663ca92b4a6",
+      "bytes": 1300214
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_bergaptol.json",
+      "sha256": "9ec5771808fd571b57397e87283dab99199813700f1cdaa704e1be32cf028c5e",
+      "bytes": 34641
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_beta-carotene.json",
+      "sha256": "8db07779fba34e288baab14492e6259b7c649fa6c0a50652f9d403ce25ecd96c",
+      "bytes": 1201039
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_catechin_gallate.json",
+      "sha256": "b05217d42ed15d549929e01bd4d4682e0b8206a0488fbe427fad3b1be81181c5",
+      "bytes": 39886
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_chlorophyllin.json",
+      "sha256": "bbcf0d7b7b76305a4dbbe23843b9e8c90be983c75d9d789674961a2ca429726c",
+      "bytes": 704029
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_diosmetin.json",
+      "sha256": "65bb02c5bf57bfc32b01f8e18a286fc3662e747b331347f361d45aa8f962f36b",
+      "bytes": 488806
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_epicatechin_gallate.json",
+      "sha256": "92898546b32db710f3df5f45a78968f1008c0b69f7a73b210e72627aefd276f5",
+      "bytes": 350073
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_epigallocatechin.json",
+      "sha256": "abc4e0da88b98400f9d54801f8cadb11f1fbc5724216652ba58fa6b5d56cf3cb",
+      "bytes": 1389215
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_folic_acid.json",
+      "sha256": "4aa5fd7e190435903333493f7afe42c37149b24b5d5505e767d96b62ada8562c",
+      "bytes": 1370934
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_gallocatechin.json",
+      "sha256": "8f98cce891e3f396f95b03b659f00bed3877138fa18c9f148c3e09011b485d6b",
+      "bytes": 146194
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_hydroxytyrosol.json",
+      "sha256": "7f854692080889181be089a761c2290889cb06bb37060fee54ba6111a4dc378b",
+      "bytes": 1497041
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_isothiocyanate.json",
+      "sha256": "2797109840f7d2ede94a596de5500dfeeb70faa3fe1bd26bd0fe89877bc8e8a1",
+      "bytes": 1376239
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_lutein.json",
+      "sha256": "971dda41ae11686bf28c1ca3ca72128935716068415fe01079bae83ff44b7072",
+      "bytes": 1356500
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_lycopene.json",
+      "sha256": "82945fce5e350d012dafd3de50174cecb5c68c6a4fa58bf8b8aca9624615518d",
+      "bytes": 1289657
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_nobiletin.json",
+      "sha256": "06b3fcdfbedf96fa761585cbbc3d4e74bbb2734346bd9c6b8c0c89aad578dbb1",
+      "bytes": 1163261
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_oleanolic_acid.json",
+      "sha256": "7aa55c2e834f7bce4fd07f06f4510e9be49049c62c779fc315f773b42fc44533",
+      "bytes": 1407134
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_oleuropein.json",
+      "sha256": "1c3b09a632cb286c7844e643d952500ec2f8da86572003a09f389ec766a8c3b6",
+      "bytes": 1249882
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_phylloquinone.json",
+      "sha256": "8ac1e1eb803d82653cf4a1134bbd213695a7c2ca351dbedb6461aa3ba9d038b1",
+      "bytes": 949233
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_pterostilbene.json",
+      "sha256": "249d983e19b3791de90e6a9ac2057a5eeb240abf6b363164a519aa590179e5e9",
+      "bytes": 1431709
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_rutin.json",
+      "sha256": "00cc5f2155f8c76c0d369673bb10667299d377bb393576b5210f21517a4a11f8",
+      "bytes": 1262611
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_sesamin.json",
+      "sha256": "26af439bc8d3075fb3b38afe6146016d1a748b012a99d47a841d2fa6f655a7af",
+      "bytes": 1326751
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_sesamolin.json",
+      "sha256": "78a266abee7ba273a4be1cca062619d4a2faee667cec00d7e7c21c20f34b02e7",
+      "bytes": 79935
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_sulforaphene.json",
+      "sha256": "5e96b4e5f77d9d7b560fa8b044159de315b49991ec774c65644e9a63f4378946",
+      "bytes": 71082
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_tangeretin.json",
+      "sha256": "b4e3813a760c97b0e89c0501f595bbddc6fca9854935c1a398656e2fa7075f94",
+      "bytes": 493102
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_theaflavin.json",
+      "sha256": "8b1a0ca9b4606fb234b9e2d2c3e92caec272401852f2061ae0fb56b5537de032",
+      "bytes": 525703
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_theobromine.json",
+      "sha256": "3350450dd6ff295b13fc05c8cf429477e9ea482152d81492bc1d617da8017cf1",
+      "bytes": 783163
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_ursolic_acid.json",
+      "sha256": "cdbbab7f52dae4fa537f9d0426822f635a0da8448ff99cbfdde138a1b299cfec",
+      "bytes": 1387802
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_vanillin.json",
+      "sha256": "7a9086fbd0c667e4564c871e6fee647e45db4c11fbcbf79d657bd3cba2c6fd3e",
+      "bytes": 1192110
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/historical_zeaxanthin.json",
+      "sha256": "57bfd2d95c20bab283f41e11087394c2ff362bb2b42d8f790af16830638cf0dd",
+      "bytes": 1345574
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_67-dihydroxybergamottin.json",
+      "sha256": "fe7d6431b5138006f5e017803fa72e92be0903e5a97995812e0be695347dfebe",
+      "bytes": 540
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_allyl_isothiocyanate.json",
+      "sha256": "bedb5985db330203d446f56092c542035b687058c5165a0c30755ee69d67994b",
+      "bytes": 345
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_ascorbic_acid.json",
+      "sha256": "3d20a6a8f2a71bc16719377ae43cdd4c2e46a206f45a9208861df434553132f9",
+      "bytes": 436
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_astaxanthin.json",
+      "sha256": "56ad47a45ee974a8d0a7356365b52dbf76585ee38c42a005cee8fd530635919d",
+      "bytes": 827
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_bergaptol.json",
+      "sha256": "b14c2fa2bb21b5a4c2b8623f0a5ef07529d8d5f9d08ae8a634df83d05e045111",
+      "bytes": 411
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_beta-carotene.json",
+      "sha256": "212e736f1830c2403746415ec7a394d3a5d05e72740dd09f2c817d9a17fca0ca",
+      "bytes": 752
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_catechin_gallate.json",
+      "sha256": "6ef43ac43ba6518a74c8d2de0caf1073f8ab1f2662d5ef15b8afa26e5936635d",
+      "bytes": 602
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_chlorophyllin.json",
+      "sha256": "d393c44341522deb6f59a7b6674e3c98be0e810d2d1a931ba0ca23c6b7918388",
+      "bytes": 795
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_diosmetin.json",
+      "sha256": "c3c9888acf7dab23dd1185a7674eab21a526230f4a1b253bc48378c43636277b",
+      "bytes": 479
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_epicatechin_gallate.json",
+      "sha256": "71d583a5e305bd8207d19f5bf9784568875cd10c11493a72c920b7d10633c012",
+      "bytes": 601
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_epigallocatechin.json",
+      "sha256": "515c22980ee489b9917fe34261e143b101b5812ec908438f0c05b2c2c689b86a",
+      "bytes": 508
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_folic_acid.json",
+      "sha256": "8e8eb7f97092ae045e7856053e929120e4d5eacdca6d37f3d88bb6d98d20f774",
+      "bytes": 627
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_gallocatechin.json",
+      "sha256": "7d4f8dafcf81d6cd915a6aff0921d3f72acc05b7e8ce86395825cd20a6161552",
+      "bytes": 508
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_hydroxytyrosol.json",
+      "sha256": "e34c63fd59baeede2843690d302dd43971d34474fdde5ce5a375e5d366e4b506",
+      "bytes": 390
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_isothiocyanate.json",
+      "sha256": "d830b5d49426789f1e09ca4696f5aa37c78af9a7664d32c14cbed8e68b6eff74",
+      "bytes": 217
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_lutein.json",
+      "sha256": "a1ab9c2750c14c1767d8806421d5cdebdf78948edc28669b5b08427079dbfffe",
+      "bytes": 808
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_lycopene.json",
+      "sha256": "cf104d9f9740f75621352c4747afb25733ef4451960f2e591de2ab1df6cceb5e",
+      "bytes": 723
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_nobiletin.json",
+      "sha256": "f1a5686368ebb2d05494c21915286b249c8ce7821cff34e0933737843bb004f9",
+      "bytes": 507
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_oleanolic_acid.json",
+      "sha256": "34327a9c1fcfb55b7aa00bca51cba866713e442ef7c32818f05321e9032cbe1e",
+      "bytes": 688
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_oleuropein.json",
+      "sha256": "ce9681b057cc1f3831bb5401ddd2dd4825feb38cd39387e1f48e5ddd4e980c55",
+      "bytes": 746
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_phylloquinone.json",
+      "sha256": "eabd662d3c99f37b4ff28811ae2dedcc2e7443ae569e034170588e70b1b50905",
+      "bytes": 584
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_pterostilbene.json",
+      "sha256": "ae313f8ee5766c9169bb77dc56b79981be1e90e8e67aff8f0d7c3fb21ef6eb15",
+      "bytes": 451
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_rutin.json",
+      "sha256": "a17868d417e5e22b25aabc5aa8ec426d069535aebe8f64e7fe78ab2125ecac5d",
+      "bytes": 773
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_sesamin.json",
+      "sha256": "a9f06b3eb1bebd987831d4fd94e2f76bfd335a289cb03d3375ee81cefaa02c4c",
+      "bytes": 585
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_sesamolin.json",
+      "sha256": "274ccce6efaffdaad59ddbd35831310a3aaac5bac91c7df00351941625362f6a",
+      "bytes": 595
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_sulforaphene.json",
+      "sha256": "a670b2ddb9bb8f4dfc8c54c655c89c7d889ce119a2a6e86f574102e87e32cd82",
+      "bytes": 400
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_tangeretin.json",
+      "sha256": "3ec17bfa89fb0e83d5a9f79a02c01031267f89bb7b4a883fc3b3eacf0f70a639",
+      "bytes": 493
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_theaflavin.json",
+      "sha256": "c2893e8749a17f012e4b8a623983b47f5ab9e2aad2b7d874ebd437f60d462dd2",
+      "bytes": 685
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_theobromine.json",
+      "sha256": "f693094ab09c1a1e660415e40be4961b452493a4f2b8d26615eedad1a1367c4f",
+      "bytes": 402
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_ursolic_acid.json",
+      "sha256": "bded6720708a29836113c0fc807a75ed942725037677caa15ff1e4544c8341c7",
+      "bytes": 710
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_vanillin.json",
+      "sha256": "8309e222eab3d189d0a3c2e5ed8bad5e839826248f0f87992171d2079bab0f86",
+      "bytes": 379
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/identity_zeaxanthin.json",
+      "sha256": "0df205b2c58b49f53d136f78220afb4db6877d013526b9d9ab588b9ad3d0df21",
+      "bytes": 798
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/nih_food_context_retrieval.json",
+      "sha256": "35755156a5d240934464d718c3775fc1d4ec853cf812ecc81a7b7f1de0fcfcda",
+      "bytes": 1075
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC10363979.xml",
+      "sha256": "77b31e53a0bcc44f9999f5d6b1332fc751900d3c0803ba6aa26e3f8f15ccade2",
+      "bytes": 112952
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC1400816_access.json",
+      "sha256": "560f0a50f294f931b6ea700a8a68d206fb67dde65f1a6cab84af1ffc3f0f9d59",
+      "bytes": 111
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC3090066_access.json",
+      "sha256": "694d071031bbf879fc7496d5ecce00eb5d33f356d127dd284259134171bb41a5",
+      "bytes": 111
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC3762317.xml",
+      "sha256": "48dc1ef52a1f56461ade8a2a02d4b3b9934627dfe6647de3b42615558d63d2f1",
+      "bytes": 87553
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC4567131.xml",
+      "sha256": "319ab53d1a1b55d54b273c2602948f9f0a2dbe337449d97c0c5603a43560eadd",
+      "bytes": 136038
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC4568788_access.json",
+      "sha256": "fbf5709c56df66e63d62a08ba27c34e728adbcfa74c0415f45056df003fd0f6a",
+      "bytes": 111
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC4898966_access.json",
+      "sha256": "8ed7c98f804005e4eed2319fbce68ba199ae205f6160b9b6da06d0cd2febb7f6",
+      "bytes": 111
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC4980335.xml",
+      "sha256": "8b2c4c41d05937901a522d5b8c9a758798aa825013204cf85a4a8775de94c06e",
+      "bytes": 100790
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC6272861.xml",
+      "sha256": "20d0ae36ab0e1b3a65726503bb8b8ce86585708296fc54e45aec49b900708ded",
+      "bytes": 98467
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC6438784.xml",
+      "sha256": "af38c49605c93ed9afb9055d16dd935ebba36b3f7a2c0ca5305495d4185c177e",
+      "bytes": 86798
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/PMC6831770.xml",
+      "sha256": "3d2c3e1261d192fd1a1d4e4d67cf92f339ff7332c98b5075a079bfa0d2cb0f08",
+      "bytes": 100360
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_15767232.json",
+      "sha256": "dd83b444a8fd44d8f89b37d4cee77c09cd728dc43f0a438c32118f382c1df783",
+      "bytes": 11093
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_17110451.json",
+      "sha256": "af8042ccb227509365010713aa7bef7dc6631ff0609bfccbb5fcd35b9aaba454",
+      "bytes": 10335
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_17666020.json",
+      "sha256": "c8f6da6b21adc3b8f8f3d636ec486920a7432601de109655d227ee926214f55d",
+      "bytes": 9532
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_18191104.json",
+      "sha256": "4bcf7ef9bb102769124c952b66b3e4c8bf0f2d43c65c8e92cddd1a34268a6be8",
+      "bytes": 11007
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_1828561.json",
+      "sha256": "b0a5b07eac8d760a9c4900b515929c89285287a8cc50a5754035f79d202c3f8b",
+      "bytes": 8854
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_20877134.json",
+      "sha256": "845148f168e990e893415239fa0a23e686d5d90cd67a5e6795f2144e32e70261",
+      "bytes": 15817
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_21482950.json",
+      "sha256": "f506c7ca73d735cb1db4311a959881617cb73280ab8fa3198dc0aab9e87858bc",
+      "bytes": 12594
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_21870106.json",
+      "sha256": "e6087e27abee52b102719512fdea5e34b85a2e0746eaea63037868f862944d8a",
+      "bytes": 15411
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_23441616.json",
+      "sha256": "3a53cfe79d07afdc5196513371b15fb247b69180f0710158d02bb226a9b9578f",
+      "bytes": 13595
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_24009877.json",
+      "sha256": "d0e0b3b2abb146dce467263c0d06afe6a516eaab9087309cacbf3f1fe89d8055",
+      "bytes": 6053
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_26360766.json",
+      "sha256": "fa1a3360dd9c31b7c6e21ca281aff22ab9899da09da774b398e2a5ecf01fdd3d",
+      "bytes": 11794
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_26396928.json",
+      "sha256": "306d5b6e6fb6056adf5a6a03f3d32e5d7e48dfd1c6dfe73c63cfb76522f43506",
+      "bytes": 11253
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_27058921.json",
+      "sha256": "1996c937349d4b695e609a79a8f36da3ed8d43e6d387ccc3ea905a95f4ec016b",
+      "bytes": 19822
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_27472952.json",
+      "sha256": "b478b7288bba8a68c28e9731c805f0784d57fc975d4fd6a5e0f5f276260f037b",
+      "bytes": 14049
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_27493101.json",
+      "sha256": "a6d1c2faec04a49c3d95c2aa356fa8599b21c97d3397d3bb70c416c25c74faab",
+      "bytes": 13417
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_27529203.json",
+      "sha256": "364e7c84e377c813e1e21862e022ca688101523cf17d1d2f18308422a219fd14",
+      "bytes": 16382
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_28646810.json",
+      "sha256": "fcd2a15b6cad632488ea4e77673fbd168a987f23927a3ff0ff0477f65028dc2a",
+      "bytes": 10163
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_30572191.json",
+      "sha256": "089a9bdee494aea3a4ffd49334ae0684c3b1c00143549687eb8a8c1ac6c1c665",
+      "bytes": 15514
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_30877660.json",
+      "sha256": "99cec0f2d566d2068a7f35f8503f49ec51454c7470812ddf65dd9a540c13e9bd",
+      "bytes": 14842
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_30902268.json",
+      "sha256": "f8eacacd733471c9eb3aaef5e64db59fe353e2df1615b401390f9c449a5cdda0",
+      "bytes": 11704
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_30976185.json",
+      "sha256": "627498c2e942cd3fc295f113d8e9f4bb606e54e48625f0513d6ce2a3ef455188",
+      "bytes": 7973
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_31252064.json",
+      "sha256": "5c7209b3b22dc73e2c32313dcdf2970949de5613ce3592252117a506646fcb51",
+      "bytes": 20165
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_32187570.json",
+      "sha256": "39db758548b7b7577822100e8b1a4c978e4d2fee36db1c634aac168a2c1e6393",
+      "bytes": 18194
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_32601017.json",
+      "sha256": "786a71e0e4d5ecdf383f1426fc808edf3456234a881fec3720412d9ac0ccc19c",
+      "bytes": 11015
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_34219099.json",
+      "sha256": "edd0933c35370186de93a71b74128b9dff0b2ea37f40a3d335448b3f3a60e52e",
+      "bytes": 8501
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_35766779.json",
+      "sha256": "69e5057215b6e82f56eeb312054a87bfc4268e0c28f0f88944ceb97aca7dfc0c",
+      "bytes": 10028
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_4091996.json",
+      "sha256": "e35ed845d1d2fcd3b36d260483aba01ff744bc336d23d2dbe085d8aefb8bbd2f",
+      "bytes": 9924
+    },
+    {
+      "path": "inherited_sources/release_v7_20261015_clean/sources/pmid_688723.json",
+      "sha256": "64a16d5d4d5c87cb036f1681ff9e95cefa68738cf8680f6b30869b3f3255e394",
+      "bytes": 6460
+    },
+    {
+      "path": "inherited_sources/sources/selected_00.json",
+      "sha256": "ba8d825594dc48280211286d42ee2551e6e4b2589925ccbe4a21c8ea6c1fd9a0",
+      "bytes": 9480
+    },
+    {
+      "path": "inherited_sources/sources/selected_01.json",
+      "sha256": "7e81082c26584eb9b3e04932624e97df17e4f69ce5ab9600dcaccbced1e7a3ed",
+      "bytes": 7751
+    },
+    {
+      "path": "inherited_sources/sources/selected_02.json",
+      "sha256": "b734c1e73f4f99d4011dbc3a37650ab1002d7b627150bf29aee11e8ccc975326",
+      "bytes": 8863
+    },
+    {
+      "path": "inherited_sources/sources/selected_03.json",
+      "sha256": "1bf13735fcb2b5958a97091039e96c645af115936087a9a50dddc9bdf8f3e26b",
+      "bytes": 10570
+    },
+    {
+      "path": "inherited_sources/sources/selected_04.json",
+      "sha256": "476ddfad3ec97dfc6ab953b6d629520e140f18b9813ed8a547ce64493064f5a9",
+      "bytes": 10579
+    },
+    {
+      "path": "inherited_sources/sources/selected_05.json",
+      "sha256": "a6d40565f2d5c748626f3f256f1b5d2686abdae28af22cfe2c2067da9c3557ca",
+      "bytes": 10879
+    },
+    {
+      "path": "inherited_sources/sources/selected_06.json",
+      "sha256": "711548fe68747d93398e1aac5785a4933f5b540f268b9c4e18b5275bfc2c6bcc",
+      "bytes": 11150
+    },
+    {
+      "path": "inherited_sources/sources/selected_07.json",
+      "sha256": "c5e2f735b40522cc8f5b26e65fea1e24a99886ab01ed1099d6390427f1b86ca3",
+      "bytes": 14239
+    },
+    {
+      "path": "inherited_sources/sources/selected_08.json",
+      "sha256": "1879763b4f689769e4a6f772201dcce84b5123bc15d39361308f87638b433f20",
+      "bytes": 19239
+    },
+    {
+      "path": "inherited_sources/sources/selected_09.json",
+      "sha256": "a6a83223654bd22b8b7c2cef57da2a394e9654b5e8b4c3bcaa9fde46eecf5acf",
+      "bytes": 18530
+    },
+    {
+      "path": "inherited_sources/sources/selected_10.json",
+      "sha256": "9c6b221781dbf3de3d0c38d9214575e4f79cc4bcb69c5a5531c4f0a5b2b0a5bf",
+      "bytes": 11027
+    },
+    {
+      "path": "inherited_sources/sources/selected_11.json",
+      "sha256": "fc291e2da87b8036555ecc113e16689a08e3465afd054f20fff71eeb090215d8",
+      "bytes": 11992
+    },
+    {
+      "path": "inherited_sources/sources/selected_12.json",
+      "sha256": "e9ffdefdbba91f2ced0813e087567578d9695297c2ded2286777ba3fe688c2c1",
+      "bytes": 19733
+    },
+    {
+      "path": "inherited_sources/sources/selected_13.json",
+      "sha256": "dd573c94436ca2821e1bb327bc14855780749baff68e38e84d71a8587a3803a8",
+      "bytes": 12177
+    },
+    {
+      "path": "inherited_sources/sources/selected_14.json",
+      "sha256": "9609c5dbd51f0c4c0599e96fbf0700ecd876c33fc528560b7014b0c69459a5de",
+      "bytes": 10386
+    },
+    {
+      "path": "inherited_sources/sources/selected_15.json",
+      "sha256": "6095d29d0f873355e38655069e5a2108a22f80e572f7e7ad74a165b2a87ce276",
+      "bytes": 10439
+    },
+    {
+      "path": "inherited_sources/sources/selected_16.json",
+      "sha256": "20f39f6fed6c25a0f4cdf0aab6d53de3643f1e2a6e43b8fea6616d14dd1be14c",
+      "bytes": 11220
+    },
+    {
+      "path": "inherited_sources/sources/selected_17.json",
+      "sha256": "29157fbd4ac0c5cb00d528f7ab1bd51a029ea64157806c565700f0860ba98963",
+      "bytes": 17970
+    },
+    {
+      "path": "inherited_sources/sources/selected_21.json",
+      "sha256": "c160bfe6a45911416744d3c1eae5fe3c88a95bd0de4f062b7e36c2ba6c446a3b",
+      "bytes": 15412
+    },
+    {
+      "path": "inherited_sources/sources/selected_22.json",
+      "sha256": "0f2aaeff7465addc9159e426df6b0ee42333dd975385d9460f3dba4471be7cf8",
+      "bytes": 15005
+    },
+    {
+      "path": "inherited_sources/sources/selected_23.json",
+      "sha256": "d18c46b68fb3a82dbc389f7689632034a2000fdc6dc512319a503b5fdc5a4aa6",
+      "bytes": 7835
+    },
+    {
+      "path": "inherited_sources/sources/selected_24.json",
+      "sha256": "51de6fe8897809c713953e2a561f85f89a336fbe8fb1280e029cc973b297ffaf",
+      "bytes": 15626
+    },
+    {
+      "path": "inherited_sources/sources/selected_25.json",
+      "sha256": "bd2e8dfba2c47c6bec3a400be4f956f6fda6b810b1938fac94a4a1c7d9a69c7b",
+      "bytes": 9893
+    },
+    {
+      "path": "inherited_sources/sources/selected_26.json",
+      "sha256": "c2bc20903a6c358e5ad0ae8555502fbea981f0503ba0acc2ce9760dc53282762",
+      "bytes": 16075
+    },
+    {
+      "path": "inherited_sources/sources/selected_31.json",
+      "sha256": "bd527259cd5d10c9a3fbf94654b33732a2bccdb2f0f2af4388bb8091b6296e9b",
+      "bytes": 13328
+    },
+    {
+      "path": "inherited_sources/sources/selected_32.json",
+      "sha256": "fc2955e97491d07e530c79de0c2df8ae78ef5e48d845f659a4ff8a8c6ea20f3e",
+      "bytes": 12055
+    },
+    {
+      "path": "inherited_sources/sources/selected_33.json",
+      "sha256": "96ec6a55ad4e9dbb4a49b4bc763ac9b5ee4cebc419b4e8dea1ea07827ab179b5",
+      "bytes": 12799
+    },
+    {
+      "path": "inherited_sources/sources/selected_34.json",
+      "sha256": "01ff831c50f1a164f9aae17966d33c8405e412af5e5e65002dbe8a164dc348e7",
+      "bytes": 5302
+    },
+    {
+      "path": "inputs/metadata_review_pmids.json",
+      "sha256": "cf1a94141a5c79dd2ddc036a934f70fa9a369bd7f174c10063fc9421d5722f76",
+      "bytes": 499
+    },
+    {
+      "path": "inputs/v7_candidate_selection.csv",
+      "sha256": "3f453c3f1b1c61e6c95a6e86d28cb6842e213b157400dcb16ed1634fb66c8190",
+      "bytes": 6566
+    },
+    {
+      "path": "inputs/v7_claim_support_and_outcome_audit.csv",
+      "sha256": "21eff591a5f0ea2695c7342832142eaf63daee0837397d2850fe5d815916c728",
+      "bytes": 424714
+    },
+    {
+      "path": "inputs/v7_cooking_retention_evidence.csv",
+      "sha256": "6df1cd92d8843ea179064f5f848bbd5f46042226003b68539f623dd86a3422de",
+      "bytes": 3306
+    },
+    {
+      "path": "inputs/v7_drug_probe_registry.csv",
+      "sha256": "fd801bdaee00c8e626de46b4593f3c38b5dc6df70d7d4a531968a17759df7e09",
+      "bytes": 10381
+    },
+    {
+      "path": "inputs/v7_food_context_source_audit.csv",
+      "sha256": "954e526022ee07a28d05f6d83d09d4726c947c5bc59548f9187f00872deafdde",
+      "bytes": 6875
+    },
+    {
+      "path": "inputs/v7_interaction_evidence_source_audit.csv",
+      "sha256": "bad5cd802aa438cf54eba884400beadb27aee19150c1b2b7198101d25aef9fb5",
+      "bytes": 38041
+    },
+    {
+      "path": "inputs/v7_near_duplicate_identity_audit.csv",
+      "sha256": "2480e3097d5434d13282b9497f4b274710a5d2c94e9305ec3108e7b74d5ba511",
+      "bytes": 273
+    },
+    {
+      "path": "inputs/v7_processing_provenance_audit.csv",
+      "sha256": "9ed12a86c8e9f3b6df03bc19d935f76d0f258cc4a2040e21aa9b5ce2544ce303",
+      "bytes": 2131
+    },
+    {
+      "path": "inputs/v7_screening_log.csv",
+      "sha256": "a00d4ee5ac401a1127fd8a995df108bd30a9ba9fc45172bf08fa1ee16f567fd1",
+      "bytes": 977545
+    },
+    {
+      "path": "inputs/v7_selection_provenance_ledger.csv",
+      "sha256": "33b95eeca245ae2a52cf40293cb1a971419665cbb2dd5bc0c62cbebd2bf146a6",
+      "bytes": 23867
+    },
+    {
+      "path": "inputs/v7_study_registry.csv",
+      "sha256": "bad5cd802aa438cf54eba884400beadb27aee19150c1b2b7198101d25aef9fb5",
+      "bytes": 38041
+    },
+    {
+      "path": "outputs/all_record_pre_audit.csv",
+      "sha256": "2f4a4aaa9795f64d4c29f4a34a572c27086362222436aaafec8ff66bf4b90d3c",
+      "bytes": 47160
+    },
+    {
+      "path": "outputs/all_record_review_audit.csv",
+      "sha256": "3ad82e836850ffab14e90e4183fb33e6452b0ed2ec40f7dbcf54bbff865b4ac3",
+      "bytes": 27366
+    },
+    {
+      "path": "outputs/alternative_full_text_access_log.csv",
+      "sha256": "951369c550187e7db87efb083cdab2ef16eae3826e2ff3e212b9fd4d176597bb",
+      "bytes": 1526
+    },
+    {
+      "path": "outputs/claim_level_audit.csv",
+      "sha256": "d4fc77e6e7c7a3b3bb5767d54495f2c78411b5003c08c40f7fdb33e9cfab2626",
+      "bytes": 146813
+    },
+    {
+      "path": "outputs/claim_support_and_verification_v10.csv",
+      "sha256": "c8f48ffb2991ecf283954de57fac583ab6c1da28aecbeb9f28dff85b420930c8",
+      "bytes": 90841
+    },
+    {
+      "path": "outputs/claim_support_and_verification_v9.csv",
+      "sha256": "2d475d3476487e2ddb0a4fac7fd4bdba3acda40ec8781ca32e946cc71ef5363e",
+      "bytes": 76346
+    },
+    {
+      "path": "outputs/compound_registry.csv",
+      "sha256": "8db6039fe4e287d39d1c2751499c2a18cea4699cc56014810c5446c80f014a9a",
+      "bytes": 94280
+    },
+    {
+      "path": "outputs/compound_registry_v10.csv",
+      "sha256": "3a7422882e1990f1c749b76c42d18563012feaab4b0138470cc6175d4bbb647b",
+      "bytes": 144398
+    },
+    {
+      "path": "outputs/compound_registry_v9.csv",
+      "sha256": "bce882abe67e3c6f0c715032d786bcde7b2918890f12346659de6466dac769be",
+      "bytes": 110425
+    },
+    {
+      "path": "outputs/cooking_retention_evidence_v9.csv",
+      "sha256": "6df1cd92d8843ea179064f5f848bbd5f46042226003b68539f623dd86a3422de",
+      "bytes": 3306
+    },
+    {
+      "path": "outputs/deferred_candidate_review.csv",
+      "sha256": "5bcc76bf258c87eaa0a5ad8830c4000b5e9716524b27e62a993f62e5a6d53755",
+      "bytes": 5437
+    },
+    {
+      "path": "outputs/drug_probe_registry_v10.csv",
+      "sha256": "19fe99cfeb6f345b421ddd6bd43ac42c0c37f962326536e4621618b23c4a10de",
+      "bytes": 14038
+    },
+    {
+      "path": "outputs/drug_probe_registry_v9.csv",
+      "sha256": "160ec0cbd2edadf3350e60fb8584e9239cd0c3373b86562101ff036b343db1c1",
+      "bytes": 12574
+    },
+    {
+      "path": "outputs/evidence_change_log.csv",
+      "sha256": "8c0acf9519009898146e136abe60f18eedb196d9e9fb2c9cdb9a8a9a4f3a1d7f",
+      "bytes": 5025
+    },
+    {
+      "path": "outputs/full_text_access_log.csv",
+      "sha256": "3c4a4a4c813db13e75acfb757e6618463f8fb91795c32d2d1e7c4894e18012e5",
+      "bytes": 977
+    },
+    {
+      "path": "outputs/historical_document_search.csv",
+      "sha256": "ea3754576b61257f2919ca8c31514e529de4216e2ad1d8637ea0e98fffa0dcb3",
+      "bytes": 14684
+    },
+    {
+      "path": "outputs/identity_structure_audit.csv",
+      "sha256": "c2cf1f878b56a402f2916f4ac3ac7eee5099c9f79b4fbe2e197f3a74e2c04d78",
+      "bytes": 26529
+    },
+    {
+      "path": "outputs/identity_structure_audit_v10.csv",
+      "sha256": "86cace59dafa4ee104585ecc09279ec73e93535d1d4c8356f0ca4cd981565629",
+      "bytes": 107738
+    },
+    {
+      "path": "outputs/identity_structure_audit_v9.csv",
+      "sha256": "f83e27669b5aafc1a82e2eaa710728ecb4269a0a20d72f0bdaa94642deb6a6d3",
+      "bytes": 16670
+    },
+    {
+      "path": "outputs/original_nine_selection_provenance.csv",
+      "sha256": "2a681d14557b09d0c7ade933666dd3649763bd9f10514b0576ca7b0337a919b8",
+      "bytes": 3983
+    },
+    {
+      "path": "outputs/README_V9.md",
+      "sha256": "9404d0a89fb9873be16cdca2ae7c48aadaaa5a15d401dde8774d51967483d5ee",
+      "bytes": 5727
+    },
+    {
+      "path": "outputs/release_summary.json",
+      "sha256": "6545836c553819a5208a9d3341052ae94597fd61fda74eced47c705af49d8f79",
+      "bytes": 718
+    },
+    {
+      "path": "outputs/search_log.csv",
+      "sha256": "5a0557308232f6df74e57c690283e2e00071d3b3c5744b97c9f112aa22b2f696",
+      "bytes": 30051
+    },
+    {
+      "path": "outputs/source_bibliography.csv",
+      "sha256": "350fd9cc8a92cb5f5d2dec14e8a205301d22c99396e0c8d673095ef3325f3389",
+      "bytes": 38410
+    },
+    {
+      "path": "outputs/source_bibliography_v10.csv",
+      "sha256": "abe947e12e894f946a2a7ec4393485a7eb065c6fe10a07be04c2a9ffd18fb0c8",
+      "bytes": 45200
+    },
+    {
+      "path": "outputs/source_bibliography_v9.csv",
+      "sha256": "741ee2639bae71d7e409f732b12c78674e318f7f5f766192755510c9aeb5bfcf",
+      "bytes": 41403
+    },
+    {
+      "path": "outputs/stageB_food_drug_interactions_v10.csv",
+      "sha256": "df9a4c649515823ac8aebb0d7d7c6cbc9e018e3e5c55aa93395f513f141b6de9",
+      "bytes": 364731
+    },
+    {
+      "path": "outputs/stageB_food_drug_interactions_v8.csv",
+      "sha256": "cb17edede9e31b0817b53ce2ebe2ec34d22fb2d6c5251e458fa05f4255233b0d",
+      "bytes": 273490
+    },
+    {
+      "path": "outputs/stageB_food_drug_interactions_v9.csv",
+      "sha256": "2d423ff7ebaf36f294513291ec472c5f507bbda6d15ed711590e6939bab8e425",
+      "bytes": 302810
+    },
+    {
+      "path": "outputs/study_registry_v10.csv",
+      "sha256": "347a729cf3e4d04541faf27702b27d73a4053523ae8171abdf08524f5993e142",
+      "bytes": 51027
+    },
+    {
+      "path": "outputs/study_registry_v9.csv",
+      "sha256": "6794ab3587d4314c08cc8e5497639dc5491a2dabbe44918f7414da3184135abf",
+      "bytes": 46777
+    },
+    {
+      "path": "outputs/v10_candidate_screening_log.csv",
+      "sha256": "2ed345a4f91a4287d81bcce2e76625b3fc8be6d75733cb248f4c79f652641e50",
+      "bytes": 12215
+    },
+    {
+      "path": "outputs/v10_change_log.csv",
+      "sha256": "8a74cd937b9671163ff34ef9fc915e3576c34dcceb3cf9b305dd45a2e7fe94a2",
+      "bytes": 27205
+    },
+    {
+      "path": "outputs/v10_selection_decisions.csv",
+      "sha256": "4d53731a04cd65a6b331dc39294958d7171e6588756e0397b70d13efb5869e53",
+      "bytes": 16689
+    },
+    {
+      "path": "outputs/v10_source_audit.csv",
+      "sha256": "a96f97cdeaa52f6d9be026ed1bca48e3446b3b4cd77be9d4dd00924b73aa2b86",
+      "bytes": 23681
+    },
+    {
+      "path": "outputs/v9_candidate_screening_log.csv",
+      "sha256": "59c9548b03aa122ba40477dab475303e89f41ff4281d29f5d725d2286f95f9ca",
+      "bytes": 2945
+    },
+    {
+      "path": "outputs/v9_change_log.csv",
+      "sha256": "9b18d4cfcfb660bd4c506972bb03e50be45d35169ddeca33d766d4742d51bdb0",
+      "bytes": 7418
+    },
+    {
+      "path": "outputs/v9_release_summary.json",
+      "sha256": "9d16d7c92d45d207bb78a49338964465377a37e8bb6fc0a4bb47cf32b6ffcbe2",
+      "bytes": 407
+    },
+    {
+      "path": "outputs/v9_selection_decisions.csv",
+      "sha256": "cda0ccd6da8b081ff16374ee22a5026d77b3f9feb4330f2b1a113c6e81cae856",
+      "bytes": 7516
+    },
+    {
+      "path": "outputs/v9_source_audit.csv",
+      "sha256": "45988c2303f0d2d933dbf80396e43b8249368d872529eb1b53d90c51df650f90",
+      "bytes": 9873
+    },
+    {
+      "path": "outputs/warning_resolution_ledger.csv",
+      "sha256": "8c28f4440c750ed06aeb68802f7c7d4a0e13e609f5fb843685921502d2c36c12",
+      "bytes": 13604
+    },
+    {
+      "path": "outputs/warning_resolution_ledger_v10.csv",
+      "sha256": "8c8f85ace4da8ec54b261f91900a8cf6a1c2a71ae62f2f09165e9521ca805d8e",
+      "bytes": 17691
+    },
+    {
+      "path": "outputs/warning_resolution_ledger_v9.csv",
+      "sha256": "38e075355cfe9ff6c81958d5ccd32398c96cc6002f3c14e24e961ba9e116f976",
+      "bytes": 14936
+    },
+    {
+      "path": "package.py",
+      "sha256": "76f1c9eddea22e11dafb4370275ee2ddc90b32c82d1292473afcfa7b7fc1c6ce",
+      "bytes": 1018
+    },
+    {
+      "path": "prepare_validate_v9.py",
+      "sha256": "a6ace3b481659c4d580bff6cba7692cc9ebac9b0cf44d6661cae636333a7b12d",
+      "bytes": 11912
+    },
+    {
+      "path": "README.md",
+      "sha256": "7778948bf06f5f3ecbd056717a31344509fdf46dd48e40d867818e0de891519a",
+      "bytes": 3475
+    },
+    {
+      "path": "README_V10.md",
+      "sha256": "04601015c7f1a3444d5b7d6e75c4352057d38d498342ab16fa83c97e21b01601",
+      "bytes": 1445
+    },
+    {
+      "path": "report.py",
+      "sha256": "cd763cefa86c4f738fa2c4c8e32857e9a4397aac8e1907d5029e0c165cd40684",
+      "bytes": 12173
+    },
+    {
+      "path": "reports/CookRisk_StageB_V8_Handoff.pdf",
+      "sha256": "25632881fb1315c9a0a6c17f06079ba44c437c17c17b3250e844452b0ef5b68e",
+      "bytes": 12159
+    },
+    {
+      "path": "reports/CookRisk_StageB_V9_Handoff.md",
+      "sha256": "2a4622bc99ac0750aeaefa066d45e551cc29494d554a2624c57ac2a4149a5587",
+      "bytes": 8450
+    },
+    {
+      "path": "selected_pubmed_metadata.json",
+      "sha256": "20fdff2cf49af9f654f20138be7dd512230d05a230cd7d8b0a01ea9488f34429",
+      "bytes": 32051
+    },
+    {
+      "path": "SHA256SUMS.json",
+      "sha256": "8dfb116d308ff5aedcd0b19dccee40e37ced880a465873bb6bdd01524b40e0e6",
+      "bytes": 67681
+    },
+    {
+      "path": "sources/identity_10281.json",
+      "sha256": "447e8fc0f83b98d44546ed667b59f388a284d8e4d88ebb5606f9694d352ab0ab",
+      "bytes": 332
+    },
+    {
+      "path": "sources/identity_10364.json",
+      "sha256": "9450b631891786803b58e66779fd6657d3cd97f5bbc23a9e991115d905186888",
+      "bytes": 328
+    },
+    {
+      "path": "sources/identity_10494.json",
+      "sha256": "d96ab9722deae9ee827696b848ca596a61240349e6fda1af0036fb4da70d7912",
+      "bytes": 510
+    },
+    {
+      "path": "sources/identity_10621.json",
+      "sha256": "c9e7093b3b91ef394d8f2d493f86c80d4f81900bc8c694de88caa8ba40b78179",
+      "bytes": 580
+    },
+    {
+      "path": "sources/identity_11617.json",
+      "sha256": "f9510dcf68f0cecafa97581037f4852e5ac7a6ef0caf5b20133450a4e4fa10fd",
+      "bytes": 302
+    },
+    {
+      "path": "sources/identity_1183.json",
+      "sha256": "c9b34b5ad0a8dd33b8a1f8a041e0b51bc2364630b3659a4d81ced2243b672061",
+      "bytes": 227
+    },
+    {
+      "path": "sources/identity_135398658.json",
+      "sha256": "65a42218b50ae03a5fd699a13097373ba68d636a09d3fffc75ce4e349676020f",
+      "bytes": 371
+    },
+    {
+      "path": "sources/identity_14982.json",
+      "sha256": "7cd9fed28cd5fdd8afce48bc6c253372ab83b9542de8b4da88b59972ca231a4e",
+      "bytes": 725
+    },
+    {
+      "path": "sources/identity_1548943.json",
+      "sha256": "e5cd934c1740cc4500b81abbe76e0367cf977bf804a678169bdff25e2e06d3be",
+      "bytes": 421
+    },
+    {
+      "path": "sources/identity_16315.json",
+      "sha256": "68755c0c2c7afc671ce64977e988450e6f07b75bc73f488fd20acf5bdce39983",
+      "bytes": 310
+    },
+    {
+      "path": "sources/identity_16590.json",
+      "sha256": "9615f65ef870c83e2ecb440894973fe3946eeb20d30904874061f5d0be1c3200",
+      "bytes": 307
+    },
+    {
+      "path": "sources/identity_1794427.json",
+      "sha256": "dab39f2a0ac6e022a8738878436eb799742921a7e03f08b98812e1c9e000f2ff",
+      "bytes": 463
+    },
+    {
+      "path": "sources/identity_2353.json",
+      "sha256": "1dd7286173339ea127cf17a145a5d9cea345d4d6f4d3b23dae5a43ad04461dd9",
+      "bytes": 432
+    },
+    {
+      "path": "sources/identity_2355.json",
+      "sha256": "cdecefc4e56ecc94ce3bf693ed029bf44345ff061d7f370e21e8bc6b08fafb4a",
+      "bytes": 350
+    },
+    {
+      "path": "sources/identity_2519.json",
+      "sha256": "a66f8848d994e6e465c8aa0b4787c550e030938221c3e19c27758ccb38e53432",
+      "bytes": 344
+    },
+    {
+      "path": "sources/identity_3314.json",
+      "sha256": "088252930d4fd2e829db6d29f4db8efa8153e7570e1021309d7cc6f5d2153a1d",
+      "bytes": 338
+    },
+    {
+      "path": "sources/identity_370.json",
+      "sha256": "6a76d230dd187032756bc121d099e6a60fa604080fce0bc13b4218f9dc08bdfb",
+      "bytes": 337
+    },
+    {
+      "path": "sources/identity_442428.json",
+      "sha256": "61548d0f98751228ff583a72693c30c31408b686445c0187445b26d8fb718036",
+      "bytes": 567
+    },
+    {
+      "path": "sources/identity_442793.json",
+      "sha256": "9b02e948d14f04c67d5e7c3271896dab6959f9d6b28e03115a24da72e90be6e1",
+      "bytes": 407
+    },
+    {
+      "path": "sources/identity_445154.json",
+      "sha256": "b94b9a5379a06d3f9c0d237b0f1f4544c6ac00b06fe46e649038ad693078dec0",
+      "bytes": 368
+    },
+    {
+      "path": "sources/identity_445858.json",
+      "sha256": "d0b880015f65686919616accc6416b4b9c0d3cb912a3c974aaae0d865df98cc6",
+      "bytes": 359
+    },
+    {
+      "path": "sources/identity_5280343.json",
+      "sha256": "baab894561495dfce5f3039fc27dc5862bc376e0682c3bfeb6dd0bff9f17adb7",
+      "bytes": 396
+    },
+    {
+      "path": "sources/identity_5280443.json",
+      "sha256": "c9f127f3e75fa42f6b94085097edd8ecee58ad1678d2a792fa3c684426a01521",
+      "bytes": 382
+    },
+    {
+      "path": "sources/identity_5280445.json",
+      "sha256": "aa6026f65b49f1899dc21681bff17b12b65bf57384e01d5c98b7ce1e216c25c0",
+      "bytes": 387
+    },
+    {
+      "path": "sources/identity_5280805.json",
+      "sha256": "062f74d8d67e9b6946b52e224300f48ace41429f3f46542a6f49c58ab225da44",
+      "bytes": 580
+    },
+    {
+      "path": "sources/identity_5280863.json",
+      "sha256": "aa50bd31e8af359d644491b717c8592315b6812f3fd5a9af11de45f882e17074",
+      "bytes": 270
+    },
+    {
+      "path": "sources/identity_5280899.json",
+      "sha256": "9bae4740c9dbe025b4194e5392a9eac6dc1381ba2a7211adf8852dd3fc24c7ca",
+      "bytes": 430
+    },
+    {
+      "path": "sources/identity_5280961.json",
+      "sha256": "cf142c756614ee4b0d5be20261dac2f719f53d7a53ef43926d40643bdcdfe262",
+      "bytes": 380
+    },
+    {
+      "path": "sources/identity_5281243.json",
+      "sha256": "d1d4815a105880a92e52e2ac5f81b34bcf24ccdf07d2d8d86baf257cfdbcf3fc",
+      "bytes": 434
+    },
+    {
+      "path": "sources/identity_5281544.json",
+      "sha256": "c3e675b80bc5f756c1889d5b60057b5e45697d5c4d6d7356fcdea1e99576473f",
+      "bytes": 402
+    },
+    {
+      "path": "sources/identity_5281607.json",
+      "sha256": "ad88bcf1fdf63271d60433c213f17cbe0e066fc6e3d0d7433b48ee6e6f92b27e",
+      "bytes": 378
+    },
+    {
+      "path": "sources/identity_5281612.json",
+      "sha256": "d272d8aa533aa1afd1d1af23e9dfe83dd15df9b545f3c77f27a69574328c3d5a",
+      "bytes": 397
+    },
+    {
+      "path": "sources/identity_5281613.json",
+      "sha256": "27f7761a5167f2a8fe579e0b36672a8402aa75ad53b15252d9c14848acf03f3c",
+      "bytes": 574
+    },
+    {
+      "path": "sources/identity_5281614.json",
+      "sha256": "29e42a6b9992f130e798d6430a8a00434f996261779a37d214b535597a66449b",
+      "bytes": 391
+    },
+    {
+      "path": "sources/identity_5281670.json",
+      "sha256": "03c3d72a12d617d9ae186d61c9dae4c6f6e365773b92bb23af3458b86f0bb885",
+      "bytes": 397
+    },
+    {
+      "path": "sources/identity_5281672.json",
+      "sha256": "c83f4cb75ca837f7e54558876a90d179457eb0bc71869269f610eedb351555f5",
+      "bytes": 402
+    },
+    {
+      "path": "sources/identity_5281708.json",
+      "sha256": "df645a4e6899e2e75c73625cfb57639c81b72cde03dcc278d6a5b07d6e75ca11",
+      "bytes": 377
+    },
+    {
+      "path": "sources/identity_5281727.json",
+      "sha256": "a67d95a19d64c56d6139944286b1b22b0ca5d82fb643dcbaae3cef4556231714",
+      "bytes": 381
+    },
+    {
+      "path": "sources/identity_5281792.json",
+      "sha256": "107b5da67f32614578bc08c1d0ff9f6e89729ac2ae904d29645296cc396a9f53",
+      "bytes": 443
+    },
+    {
+      "path": "sources/identity_5281855.json",
+      "sha256": "2c96a8f59bce002e618748d169aff0cb0ae8af6c3d817ebcfb0c26822ca343d5",
+      "bytes": 394
+    },
+    {
+      "path": "sources/identity_5284607.json",
+      "sha256": "567ba974be953f05813e81369f9d21b68494e46ba0f3cf65f187f6413ed255e0",
+      "bytes": 346
+    },
+    {
+      "path": "sources/identity_5350.json",
+      "sha256": "a6ae1685c5ee07e68150eba2c1e4c6abefcf3e1a34cd2d326d84a3214282e595",
+      "bytes": 315
+    },
+    {
+      "path": "sources/identity_54670067.json",
+      "sha256": "53fd1ccef75bf5febc74b6c7ffdf64e841b4edbfefe2c600dfa0146d716d13f1",
+      "bytes": 249
+    },
+    {
+      "path": "sources/identity_5471349.json",
+      "sha256": "fdee9f792c9ca83f50e81c17c84dcf7d3c00b590fef2ec80d62f76b7392bb058",
+      "bytes": 426
+    },
+    {
+      "path": "sources/identity_5971.json",
+      "sha256": "47f35c13a0a150eb9b453c4394678e3312a365f7aad5f73845cdc86df0508fc8",
+      "bytes": 210
+    },
+    {
+      "path": "sources/identity_637511.json",
+      "sha256": "a869563aedd38cdb3479d512664ca3daedf94d6b952678828b3365ec0076c312",
+      "bytes": 316
+    },
+    {
+      "path": "sources/identity_638024.json",
+      "sha256": "0a426d78c016048c6e8966abce7bc6466d6941f79f37d83638e8199a408b9d0c",
+      "bytes": 413
+    },
+    {
+      "path": "sources/identity_64945.json",
+      "sha256": "27b26b520f567e0d685be8766d79f4558dbfb3405f0c2fbf78c5a92c7a1cd21a",
+      "bytes": 522
+    },
+    {
+      "path": "sources/identity_65036.json",
+      "sha256": "eac22cc914cdcf4a5da0a9705aefc4ff13fe2db423406fa15dab65bc068dba09",
+      "bytes": 315
+    },
+    {
+      "path": "sources/identity_65064.json",
+      "sha256": "7a3bb9e35dcdbaa3ef25da08854e9785e74aa0447a46b2a4c470ac4321f4afa8",
+      "bytes": 479
+    },
+    {
+      "path": "sources/identity_68077.json",
+      "sha256": "f1ce437d91e85a591bfb0143dada58ab57e110441318c827edc00e3734f0f087",
+      "bytes": 285
+    },
+    {
+      "path": "sources/identity_689043.json",
+      "sha256": "2a2accb5eee52c1928f2cf72d9ba79fcbb87630e7f6b7d65b16b8e6189f8a8d7",
+      "bytes": 250
+    },
+    {
+      "path": "sources/identity_6989.json",
+      "sha256": "f542af3b49f07e0ee2f4d54c50da647b7465ccd9084f6d95ce6aebc7829cc03b",
+      "bytes": 327
+    },
+    {
+      "path": "sources/identity_72276.json",
+      "sha256": "39a5df2e2896017e6e8807e1036a7fe066add59e4202091511f329a87494d22f",
+      "bytes": 406
+    },
+    {
+      "path": "sources/identity_72281.json",
+      "sha256": "9b504ae787a698b5e76a6e1d80f307707732b0b3b4ebbd3e17abdb97412a9086",
+      "bytes": 412
+    },
+    {
+      "path": "sources/identity_72307.json",
+      "sha256": "24b62b149e5433c25916c3dc3e3426dc383cde651e9da96a3af46d1bc249e59a",
+      "bytes": 453
+    },
+    {
+      "path": "sources/identity_72344.json",
+      "sha256": "3c686fee807fa56bb6a7c68a0242e22a3b74edb09dfc2419c1319cda5dcbc55a",
+      "bytes": 291
+    },
+    {
+      "path": "sources/identity_9064.json",
+      "sha256": "be4399a36f551914bffe23591e8470ad702a97f29d9aab73b306f341539c7b02",
+      "bytes": 405
+    },
+    {
+      "path": "sources/identity_932.json",
+      "sha256": "af89fdaae53133c1746f4a84928a0fe7e83a653cdbd6daaa1b184eb7ab33e51c",
+      "bytes": 384
+    },
+    {
+      "path": "sources/identity_969516.json",
+      "sha256": "a911866cd68b2acc1aa5062c29fab859a39801bdd7825087411249a0fb634c03",
+      "bytes": 434
+    },
+    {
+      "path": "sources/PMC3863468.xml",
+      "sha256": "3294123ed65eb6cc7078671a8771d81b846f89af8969ce15154955cce5896c78",
+      "bytes": 67258
+    },
+    {
+      "path": "sources/PMC3904487.xml",
+      "sha256": "dbd27674ced3989614eb95b9c9fbf8ea1d782b081b30ea5dd5f4f9edc3cffb9d",
+      "bytes": 83593
+    },
+    {
+      "path": "sources/PMC5431696.xml",
+      "sha256": "c6b139ea17adea65810da9c0cebb5481e94d521933bb87b77140fc3297028944",
+      "bytes": 87673
+    },
+    {
+      "path": "sources/pmid_10096258.json",
+      "sha256": "b33ac59dc5b54e7df9fe4e8e1435d5924ae191bc9165119b0cff6ff860dd4b28",
+      "bytes": 13157
+    },
+    {
+      "path": "sources/pmid_10217339.json",
+      "sha256": "cf814fd9613cd198857d9b72e610be2302721dbcb13f0581632b5b64beac3c11",
+      "bytes": 10931
+    },
+    {
+      "path": "sources/pmid_10606838.json",
+      "sha256": "f5912f1203cbbf7f24d8c5c1e9e1a9b5bcba94cd6fa8e5c050c83ec2d7b5a473",
+      "bytes": 12178
+    },
+    {
+      "path": "sources/pmid_10755708.json",
+      "sha256": "95f6ce4099b26f5b87bbf39daf17fdd6d330c85d4b22f8a3839bbff14c178b82",
+      "bytes": 14513
+    },
+    {
+      "path": "sources/pmid_11792681.json",
+      "sha256": "0eddd7d4827c2a55657c8d960b03cc3f647cda5b970d41a5d81747af56baacde",
+      "bytes": 12748
+    },
+    {
+      "path": "sources/pmid_11808866.json",
+      "sha256": "5c1ecd5baf3fca4b3cf617a3c79cd3fb65a27a0cd170ce44187ab09202d59e37",
+      "bytes": 10580
+    },
+    {
+      "path": "sources/pmid_12136947.json",
+      "sha256": "a96138008633987763eeacc99db72c97d91af34bf2cedb816fb4c01074bfc8de",
+      "bytes": 8360
+    },
+    {
+      "path": "sources/pmid_12554070.json",
+      "sha256": "a6cff6a0a9769fcadc896bb53cdc5dca20e84cb02acf8efa6fe2cd2b0e1806af",
+      "bytes": 10925
+    },
+    {
+      "path": "sources/pmid_12698306.json",
+      "sha256": "773ea816d2c6c5a666cb429c5b156b998c999793ee14686c5ee663582d6afe1e",
+      "bytes": 9284
+    },
+    {
+      "path": "sources/pmid_12756512.json",
+      "sha256": "3bc6a696b3383bc75bf2f8c499cb2676c937904826cc6f74ee5f39dde21ff888",
+      "bytes": 10492
+    },
+    {
+      "path": "sources/pmid_12920504.json",
+      "sha256": "9d13c1704df39b03f718ec5a14375903d4cf67c7edd8ee14e821304d90b6fa0a",
+      "bytes": 13428
+    },
+    {
+      "path": "sources/pmid_14725610.json",
+      "sha256": "921299c182c5e01fc06b080d746752a92548480bdf0372110553fd56445f885b",
+      "bytes": 10387
+    },
+    {
+      "path": "sources/pmid_15592332.json",
+      "sha256": "881d78cdaaad71979cb6ba899551ab41f4e1689b0753021396e183fbde02b036",
+      "bytes": 13970
+    },
+    {
+      "path": "sources/pmid_15767232.json",
+      "sha256": "972f2ea068e068758e65364164904b78a959f43993b6f5ddd12d45db50132f8c",
+      "bytes": 11093
+    },
+    {
+      "path": "sources/pmid_15885265.json",
+      "sha256": "ab5406dffaa12aeb8dbc6cf339b96e9308737a4bf44e03971d57020bbb133210",
+      "bytes": 19157
+    },
+    {
+      "path": "sources/pmid_16002304.json",
+      "sha256": "f0f1e297702365059cd117ce511b18e4524f8d43ada9ca94a2fe611f6caeb684",
+      "bytes": 8560
+    },
+    {
+      "path": "sources/pmid_16003560.json",
+      "sha256": "423170c2c17e3955c81d6d8d0c49acf1f655bd766ea1df512d1a2547b8eec7af",
+      "bytes": 14616
+    },
+    {
+      "path": "sources/pmid_16133554.json",
+      "sha256": "7edf805fdd2cbf95b1298ca3f4ea9d1b1282c95bd08c899c5709338ff8c3e200",
+      "bytes": 9481
+    },
+    {
+      "path": "sources/pmid_16236038.json",
+      "sha256": "2b491f47eee859a2e67e33b53b65934a63678b7663e8f078becae86b659f66cb",
+      "bytes": 15657
+    },
+    {
+      "path": "sources/pmid_16767797.json",
+      "sha256": "4e4e75f7d7dbb8323297ddcafc3e9165267baee812da000358f759fa36dbf127",
+      "bytes": 10571
+    },
+    {
+      "path": "sources/pmid_17301733.json",
+      "sha256": "500ec954ba8c38af45b82a5e61fdb2fb6547b4e7265c380427ecdddc8589e5ed",
+      "bytes": 13959
+    },
+    {
+      "path": "sources/pmid_17442681.json",
+      "sha256": "90deb83c667f486b371fa749f81510a3484897216388acdaeac0aa48d10ccca0",
+      "bytes": 11221
+    },
+    {
+      "path": "sources/pmid_17468862.json",
+      "sha256": "adf7811acb030cc5f861058a7fae56adbb47d9e6778a4b962b8f4fb89ea36c13",
+      "bytes": 12432
+    },
+    {
+      "path": "sources/pmid_17708066.json",
+      "sha256": "0f1db25166c1f61d65a1307cb971d9ab0fd187691d384b79bf6776fce9264bb8",
+      "bytes": 9380
+    },
+    {
+      "path": "sources/pmid_17963429.json",
+      "sha256": "5c8142de0a9dd5530e454e193ad6bd294b2ce6cee259d1767bbd778e60e82239",
+      "bytes": 11151
+    },
+    {
+      "path": "sources/pmid_1815977.json",
+      "sha256": "f78d3604810d42190fe3c907c047cca921d48900755adf8d6db66c926e07bcf6",
+      "bytes": 8864
+    },
+    {
+      "path": "sources/pmid_18191104.json",
+      "sha256": "61c9deda3fda610eec5a590a006d064f71567c40e2462ca12a4f3731ef5dc35e",
+      "bytes": 11007
+    },
+    {
+      "path": "sources/pmid_1828561.json",
+      "sha256": "b0a5b07eac8d760a9c4900b515929c89285287a8cc50a5754035f79d202c3f8b",
+      "bytes": 8854
+    },
+    {
+      "path": "sources/pmid_18338336.json",
+      "sha256": "20d025db61fd92341de36832c5874b836dbc0c5135e534a65ff91ca73e636a54",
+      "bytes": 9525
+    },
+    {
+      "path": "sources/pmid_18446505.json",
+      "sha256": "1f3cff75991cae7ee87ee4615e38c77501225f7a82fd6bf3ce47125015e2a400",
+      "bytes": 10997
+    },
+    {
+      "path": "sources/pmid_18449511.json",
+      "sha256": "ff66944a2e3bc8d68fa3d24d8fb3329174fe8b850f86656308c119edc962b150",
+      "bytes": 9725
+    },
+    {
+      "path": "sources/pmid_18928093.json",
+      "sha256": "e323f77e137d020357cc5ad34dc7f31ece1483b72934023e7a4220973e6a3866",
+      "bytes": 7752
+    },
+    {
+      "path": "sources/pmid_19190249.json",
+      "sha256": "97e527726cefc51e2cecfaab451232db7d77d477fa5bbe24dcfddb8c21a25b5d",
+      "bytes": 18531
+    },
+    {
+      "path": "sources/pmid_19221726.json",
+      "sha256": "7e6f29a367aaf728141c56464296118a15d61ba8a8d6b448e87ee3e353bc7b54",
+      "bytes": 9931
+    },
+    {
+      "path": "sources/pmid_19283724.json",
+      "sha256": "4b17003a30f158bca395b5dc106e7569ba2691a7aa46d98c4d303ed301cfc121",
+      "bytes": 10880
+    },
+    {
+      "path": "sources/pmid_20582416.json",
+      "sha256": "d3ad5b2569f7958df5fd09652bdbd9c26410c7d596e1364432045984028bddcf",
+      "bytes": 11561
+    },
+    {
+      "path": "sources/pmid_20716633.json",
+      "sha256": "17153c17aa985f048f11ab2a52f95290ff7fddf64d4808de799df2ee85100b06",
+      "bytes": 14869
+    },
+    {
+      "path": "sources/pmid_20877134.json",
+      "sha256": "33934e67d1a58f920d7bd550c566b222ce6d082d98c84a01d54b57a1760032b0",
+      "bytes": 15817
+    },
+    {
+      "path": "sources/pmid_21222115.json",
+      "sha256": "a3a808d3c1074fba8cf07814601a2bbf8760b06e05cf17bbf80b74fe1c4bee8b",
+      "bytes": 16779
+    },
+    {
+      "path": "sources/pmid_21380815.json",
+      "sha256": "9407a5c17c280f69e4496e185301b7ae7134fc0ac042acfb34ca78f668c591ed",
+      "bytes": 10814
+    },
+    {
+      "path": "sources/pmid_21400028.json",
+      "sha256": "ee402c73cbab90d6848dcbe9fddddd509bcf0e16e0034a72742db5cd18357eef",
+      "bytes": 16076
+    },
+    {
+      "path": "sources/pmid_21442417.json",
+      "sha256": "6c7f463cdab1f57d451bf0f1e491f37e39defb38f8ac5ea874df7b1fc1aa7fdc",
+      "bytes": 10921
+    },
+    {
+      "path": "sources/pmid_21482950.json",
+      "sha256": "89c599e093f15135487b51fc45b35a383585edb877ec7f80c7fa801288544f6e",
+      "bytes": 12594
+    },
+    {
+      "path": "sources/pmid_21535728.json",
+      "sha256": "759a0f9c0abf2d28ba8ac86e1ec6e07dcf90ac5268f53b0eca635eb44aaaf8b8",
+      "bytes": 13526
+    },
+    {
+      "path": "sources/pmid_21680781.json",
+      "sha256": "f4d38801c1af3b6348aeb599fba3124ec6478bb833c80c6c4c87390214ed5c5b",
+      "bytes": 10371
+    },
+    {
+      "path": "sources/pmid_21697612.json",
+      "sha256": "ce41a2af75fee7cef3e57ed50a2ab35189f90c1307865b5f725b720d4011094f",
+      "bytes": 15317
+    },
+    {
+      "path": "sources/pmid_21704146.json",
+      "sha256": "b729530543662539156b9af7bea040f228297b243048f4a7cb3fabc87023bece",
+      "bytes": 12136
+    },
+    {
+      "path": "sources/pmid_21870106.json",
+      "sha256": "e6087e27abee52b102719512fdea5e34b85a2e0746eaea63037868f862944d8a",
+      "bytes": 15411
+    },
+    {
+      "path": "sources/pmid_21943317.json",
+      "sha256": "b704ee9735ab0ac85abb48aa530a0481a2dd44e4417ad28edb92dc7f95495288",
+      "bytes": 10962
+    },
+    {
+      "path": "sources/pmid_22114872.json",
+      "sha256": "000ac944a870cad5527a3bd67770332ca58a3b80f3e9d038faee0853281fc54f",
+      "bytes": 14816
+    },
+    {
+      "path": "sources/pmid_22132944.json",
+      "sha256": "bbe683d9c81a6a00bb204beee150873d4683ae1b9abab7804d5085f6f8fd64bb",
+      "bytes": 15951
+    },
+    {
+      "path": "sources/pmid_22139695.json",
+      "sha256": "9f07e0eb037df3d30c3fbe57b2ca9e1dacdf5162382e22287bf9f6a9a04b33d4",
+      "bytes": 14503
+    },
+    {
+      "path": "sources/pmid_22300367.json",
+      "sha256": "c0f9cd6c0efae469417992a6b1d02c6a5f2b6c227318fb997c0a7ea51b2fbb1f",
+      "bytes": 14932
+    },
+    {
+      "path": "sources/pmid_22512082.json",
+      "sha256": "dda25cf4fe5d7bd12395030a49f6ced3d03e7ddad49590ed448add45c098faea",
+      "bytes": 12800
+    },
+    {
+      "path": "sources/pmid_22725836.json",
+      "sha256": "e66d84e148eab25af94ed9efe8ec6e7e6d8536261454c9de91b5e798856fc809",
+      "bytes": 17971
+    },
+    {
+      "path": "sources/pmid_23153560.json",
+      "sha256": "5f9b12b2681413550929a04a2a0262da561b3eead8f55cfd45d6ceda40c58261",
+      "bytes": 15373
+    },
+    {
+      "path": "sources/pmid_23422925.json",
+      "sha256": "17f3130c7174f647a9441dc9cf022594ee82e9460cc5df18b58a98cfee0b31a4",
+      "bytes": 12070
+    },
+    {
+      "path": "sources/pmid_23441616.json",
+      "sha256": "3a53cfe79d07afdc5196513371b15fb247b69180f0710158d02bb226a9b9578f",
+      "bytes": 13595
+    },
+    {
+      "path": "sources/pmid_23883365.json",
+      "sha256": "08e8b661178c46118dc12ab3106b7ac3bbdad11ddfa4108fbfb588cb57671575",
+      "bytes": 12337
+    },
+    {
+      "path": "sources/pmid_23920278.json",
+      "sha256": "ce63e1fd761d440b7c82426333cfa131e1e5261e9c53360133458fa4cbb2f752",
+      "bytes": 11028
+    },
+    {
+      "path": "sources/pmid_24009877.json",
+      "sha256": "d0e0b3b2abb146dce467263c0d06afe6a516eaab9087309cacbf3f1fe89d8055",
+      "bytes": 6053
+    },
+    {
+      "path": "sources/pmid_24276478.json",
+      "sha256": "56800bfd89cb785cadf533fc8887c7a4f29bc1b233333f1ad2c10102b6720893",
+      "bytes": 15597
+    },
+    {
+      "path": "sources/pmid_24369535.json",
+      "sha256": "1d05042a2e179f7773c75bf212904685ed1287074424dd28845fd0d276e047f0",
+      "bytes": 14824
+    },
+    {
+      "path": "sources/pmid_24398010.json",
+      "sha256": "925e50ec63857e965a33844d0b34032f962341f02f672ddd7fe2e5ff43bfc54b",
+      "bytes": 7864
+    },
+    {
+      "path": "sources/pmid_24472704.json",
+      "sha256": "98c9fdd9a4781f5ad46c78cd459ea9cba7261235c832392f1a4876231786c30e",
+      "bytes": 12127
+    },
+    {
+      "path": "sources/pmid_24871039.json",
+      "sha256": "59404fbe0f3f54b55eb725e3ba650e8359c29e996a7e070e30e85bd0303f5b1a",
+      "bytes": 10672
+    },
+    {
+      "path": "sources/pmid_25532954.json",
+      "sha256": "1e27ca9cd06a12567f0430a365d504e0d54a7f8c2c302d9b3d61c513799da6e8",
+      "bytes": 14703
+    },
+    {
+      "path": "sources/pmid_25624269.json",
+      "sha256": "625fd65520de7b8c65d85767ffeab9314436b1b8650fea8b304772909bde1e59",
+      "bytes": 9677
+    },
+    {
+      "path": "sources/pmid_25988261.json",
+      "sha256": "af413d2cffb084aa9ae6b98a74b93726b9e345b7147181211134ab6a479364f3",
+      "bytes": 10290
+    },
+    {
+      "path": "sources/pmid_26360766.json",
+      "sha256": "fa1a3360dd9c31b7c6e21ca281aff22ab9899da09da774b398e2a5ecf01fdd3d",
+      "bytes": 11794
+    },
+    {
+      "path": "sources/pmid_26396928.json",
+      "sha256": "306d5b6e6fb6056adf5a6a03f3d32e5d7e48dfd1c6dfe73c63cfb76522f43506",
+      "bytes": 11253
+    },
+    {
+      "path": "sources/pmid_26633237.json",
+      "sha256": "7e23c8967ee8edd91d4cfeeff292b683e0333110d6f16ac5fea4010d435f9a13",
+      "bytes": 10940
+    },
+    {
+      "path": "sources/pmid_26680654.json",
+      "sha256": "6d50bd030e9b16124585c5765bc6706c725e171ba16e61ffa48a95bad0501e96",
+      "bytes": 11024
+    },
+    {
+      "path": "sources/pmid_26692948.json",
+      "sha256": "d9230c4887e4229c84ec7aead990d70cd8853ea762a637c97697bb45d127668b",
+      "bytes": 7407
+    },
+    {
+      "path": "sources/pmid_26884726.json",
+      "sha256": "78ba25ed1c2987d0730444428e62c15d7c292e25544a4af1272bd18645d505d2",
+      "bytes": 11691
+    },
+    {
+      "path": "sources/pmid_27052193.json",
+      "sha256": "70fe02ff9b5e6244bfb8c8496246606daf3ba28491c005c5378bee99c47f50c1",
+      "bytes": 12295
+    },
+    {
+      "path": "sources/pmid_27058921.json",
+      "sha256": "3dff6a4276a01e312254ac67930ef86731d3c2b290e46bff41ae72b7635955cf",
+      "bytes": 19822
+    },
+    {
+      "path": "sources/pmid_27098862.json",
+      "sha256": "9bb5ad406c8cb27a512aaac53876cdd23a6d74b81e5a25c9172249c87fb0b388",
+      "bytes": 9660
+    },
+    {
+      "path": "sources/pmid_2729942.json",
+      "sha256": "31d87541272530025f8c8e8df11edcb175ec251d05afab377c5373fda2026ee1",
+      "bytes": 9911
+    },
+    {
+      "path": "sources/pmid_27377006.json",
+      "sha256": "d289ad6a7095b193a32979a5ecd38e8244e621d2dbc33047e8eb2a1160d77cbe",
+      "bytes": 19365
+    },
+    {
+      "path": "sources/pmid_27396204.json",
+      "sha256": "face4b3cf63d59aa9c953311e2b4bb779052ae0cb1aca654163e49bfae402bb5",
+      "bytes": 9211
+    },
+    {
+      "path": "sources/pmid_27472952.json",
+      "sha256": "b478b7288bba8a68c28e9731c805f0784d57fc975d4fd6a5e0f5f276260f037b",
+      "bytes": 14049
+    },
+    {
+      "path": "sources/pmid_27493101.json",
+      "sha256": "a6d1c2faec04a49c3d95c2aa356fa8599b21c97d3397d3bb70c416c25c74faab",
+      "bytes": 13417
+    },
+    {
+      "path": "sources/pmid_27529203.json",
+      "sha256": "364e7c84e377c813e1e21862e022ca688101523cf17d1d2f18308422a219fd14",
+      "bytes": 16382
+    },
+    {
+      "path": "sources/pmid_27670974.json",
+      "sha256": "3468a8a83d67a56f3ca65db58dfbbc40c882d7cbb5ef901b9a3d7d2d0a2b6bc7",
+      "bytes": 13095
+    },
+    {
+      "path": "sources/pmid_27690733.json",
+      "sha256": "93d949af4de8e3f03a218db412660dcfc5750abd2379d09cedc2f97ef780058c",
+      "bytes": 8615
+    },
+    {
+      "path": "sources/pmid_27765854.json",
+      "sha256": "43f5cd1be33be51aefb62daa7638bf637a4ff46b4f0b30a3d5ab2aaf6ee1cd6a",
+      "bytes": 15249
+    },
+    {
+      "path": "sources/pmid_27776366.json",
+      "sha256": "3f7d9c41cdaba0cb394d22aacd2ad540d0c67601f7fecd64948a13811d9cb59f",
+      "bytes": 14462
+    },
+    {
+      "path": "sources/pmid_27981349.json",
+      "sha256": "cb893f0bfe9e06da0addc74614537ab0996391f59e68216d28505e0d9f0fcab2",
+      "bytes": 12056
+    },
+    {
+      "path": "sources/pmid_28051355.json",
+      "sha256": "4e3dd4a09f105077a94a308e2eb73d01db8b04d18b7c03214fe242c7452e0e7f",
+      "bytes": 13151
+    },
+    {
+      "path": "sources/pmid_28185989.json",
+      "sha256": "802876b851049e0c7975cc040aa4dec557cc71bc902ae4a3c8c9ec4b1e3c85c4",
+      "bytes": 14012
+    },
+    {
+      "path": "sources/pmid_28533679.json",
+      "sha256": "98a0d4138d2717f194a81125dd0bc904a0cb16866dcdf98cabd822b4727ee97b",
+      "bytes": 14072
+    },
+    {
+      "path": "sources/pmid_28646810.json",
+      "sha256": "38fe6d9277a5670291d87117caade1796ff0906a810b538200c54dda1929b990",
+      "bytes": 10163
+    },
+    {
+      "path": "sources/pmid_2920498.json",
+      "sha256": "15cd9ca910390d0d78bd3ea5fd34dc2985bf75e5e66a33f82acce35c009ff617",
+      "bytes": 8709
+    },
+    {
+      "path": "sources/pmid_29480324.json",
+      "sha256": "f03384f98564be31a7240b69b376d9d307171d635a1e637a0f496f56f2211a37",
+      "bytes": 19734
+    },
+    {
+      "path": "sources/pmid_29908072.json",
+      "sha256": "cea6b6020ad656ec69932aa25231748c501c204f62dc4f984c83a83f6865825a",
+      "bytes": 17499
+    },
+    {
+      "path": "sources/pmid_30572191.json",
+      "sha256": "dfd43a2fd91ecf3e00e732fa06a69a46e660b445a952c95ba82987b50dfc0360",
+      "bytes": 15514
+    },
+    {
+      "path": "sources/pmid_30590119.json",
+      "sha256": "a1ebfdaea0241b75bef536287c8cdd76c092c68c9e02820d7b64d7acc11025f9",
+      "bytes": 14509
+    },
+    {
+      "path": "sources/pmid_30611786.json",
+      "sha256": "b28016c5ab1c87651c8e3f494197fda196d20a5abbd8d4c1c84c2651f8ac0b45",
+      "bytes": 14240
+    },
+    {
+      "path": "sources/pmid_30678660.json",
+      "sha256": "66cbb7da4470710976a666a1f202dd7b33832b238a4dcfb16b4f6a54fded1f83",
+      "bytes": 17679
+    },
+    {
+      "path": "sources/pmid_30877660.json",
+      "sha256": "99cec0f2d566d2068a7f35f8503f49ec51454c7470812ddf65dd9a540c13e9bd",
+      "bytes": 14842
+    },
+    {
+      "path": "sources/pmid_30909366.json",
+      "sha256": "4448360229473663633896c7e4ffa351d761713a3e9dc3f8f9e47350e90807ab",
+      "bytes": 15038
+    },
+    {
+      "path": "sources/pmid_30976185.json",
+      "sha256": "627498c2e942cd3fc295f113d8e9f4bb606e54e48625f0513d6ce2a3ef455188",
+      "bytes": 7973
+    },
+    {
+      "path": "sources/pmid_31252064.json",
+      "sha256": "5c7209b3b22dc73e2c32313dcdf2970949de5613ce3592252117a506646fcb51",
+      "bytes": 20165
+    },
+    {
+      "path": "sources/pmid_31321577.json",
+      "sha256": "1e4eb09756e1f15fde9ee8d5fd304610bcb5b45137687ddc200e25ca78b989ec",
+      "bytes": 19240
+    },
+    {
+      "path": "sources/pmid_32601017.json",
+      "sha256": "ef5fda5bc4da3e6f26453a7e489b2f06b61f979c4a3ffa83a38e65e2b36311dd",
+      "bytes": 11015
+    },
+    {
+      "path": "sources/pmid_33074419.json",
+      "sha256": "bf8a41b6776405336dae149cbc03ab1450b0330942245cdf1891690d4e9c829c",
+      "bytes": 9474
+    },
+    {
+      "path": "sources/pmid_33149871.json",
+      "sha256": "ae8a453ccd4159e48e8038056a06f33bd55aec6e8b723720ae24f56fa377a2a1",
+      "bytes": 10617
+    },
+    {
+      "path": "sources/pmid_33435470.json",
+      "sha256": "6d21bce6b7f20ae316b5a7af48f73b52f55596c9245ecc27a253a356e22e8235",
+      "bytes": 9534
+    },
+    {
+      "path": "sources/pmid_34138683.json",
+      "sha256": "caf3c0513065a0f5cbb066634045289c3bc3b96c1b1e0dcf7034a336c3a0db68",
+      "bytes": 9939
+    },
+    {
+      "path": "sources/pmid_34144662.json",
+      "sha256": "2a40e85f479be29ff5c6024d182799cbb2cdf8b302b294e2448b8aa356406d33",
+      "bytes": 16381
+    },
+    {
+      "path": "sources/pmid_34303263.json",
+      "sha256": "c306791e98eb62a7aa92a4d190fb21e083fc0ceeeaab65391543eba0f32ffed6",
+      "bytes": 11993
+    },
+    {
+      "path": "sources/pmid_3480885.json",
+      "sha256": "828adc9c916c95ff5753e92a7a3f09af123930ff4e25b52760dbb7ec210001ff",
+      "bytes": 10146
+    },
+    {
+      "path": "sources/pmid_37492094.json",
+      "sha256": "bc3aa1081da46c458193c590f3f79c8587e1f5f3e89503762e201f974c3d1bb3",
+      "bytes": 11889
+    },
+    {
+      "path": "sources/pmid_37935204.json",
+      "sha256": "50809bcfe2136e324b31df0b146b91314a239f3345d5463cc3fe95bc34dce13b",
+      "bytes": 8758
+    },
+    {
+      "path": "sources/pmid_38148345.json",
+      "sha256": "4b15a7cff5854e1b2a962dc5aca4edf454665bd12cbf8e3bb4ff88e3b7e19ab5",
+      "bytes": 18904
+    },
+    {
+      "path": "sources/pmid_38411783.json",
+      "sha256": "8aaaa31644cbaa808d175b25bec8e0f0623c8236e463e106a34ae0e0ee3aa44e",
+      "bytes": 14713
+    },
+    {
+      "path": "sources/pmid_38958374.json",
+      "sha256": "8ed0b6dbb9e11f762f0cafd4677547628c8ec714efc4ed4f91e7d7d57e5764c6",
+      "bytes": 15194
+    },
+    {
+      "path": "sources/pmid_4091996.json",
+      "sha256": "697e59e01f9b5ee4deb95399e9eba79c101d3e9ff7426c962dcea15255c67b9a",
+      "bytes": 9924
+    },
+    {
+      "path": "sources/pmid_688723.json",
+      "sha256": "64a16d5d4d5c87cb036f1681ff9e95cefa68738cf8680f6b30869b3f3255e394",
+      "bytes": 6460
+    },
+    {
+      "path": "sources/pmid_8807660.json",
+      "sha256": "edac3c8fb02aefab60eef7e584c94d54ddd3dc88d2509bd99773662d6c7fca86",
+      "bytes": 10440
+    },
+    {
+      "path": "sources/pubchem_candidate_name_resolution_v10.json",
+      "sha256": "7142a2bf2e0c49ea36f0067bfbd97ae5b98966acf8aea98771f772fe5d783efd",
+      "bytes": 1529
+    },
+    {
+      "path": "sources/pubchem_candidate_structures_v10.json",
+      "sha256": "9e2c96074d339616b09ae0df79fefd027acf795f8d2efb4189356ef1068d30fa",
+      "bytes": 9712
+    },
+    {
+      "path": "sources/pubchem_structures_v9_74.json",
+      "sha256": "cfa84cbb88e8b4634cf29771763d4c1840a9ecca49ddb75be70443fa18acf2e1",
+      "bytes": 27767
+    },
+    {
+      "path": "sources/pubchem_synonyms_all.json",
+      "sha256": "3dfa4be0b5e9f5fb0b4b1e60614de71d80d7eeea868fab5703fe9d3abd3468df",
+      "bytes": 478305
+    },
+    {
+      "path": "sources/pubmed_esummary_v10.json",
+      "sha256": "20fdff2cf49af9f654f20138be7dd512230d05a230cd7d8b0a01ea9488f34429",
+      "bytes": 32051
+    },
+    {
+      "path": "sources/v10_pmid_16490810.json",
+      "sha256": "8083cc40b7249068acb56ed23573d4cb04912bd1a265831a7d6616b79551c296",
+      "bytes": 2555
+    },
+    {
+      "path": "sources/v10_pmid_18096694.json",
+      "sha256": "b7323f22665e476a4348e05ca0cf4eb46c5f5dde5baa01b4e2c7576579f6835c",
+      "bytes": 4219
+    },
+    {
+      "path": "sources/v10_pmid_19074529.json",
+      "sha256": "ebc06ce0d2545acfd256629ea538c25cc0cfa671bcd54b9c51a080d9f24d35fa",
+      "bytes": 2604
+    },
+    {
+      "path": "sources/v10_pmid_22531045.json",
+      "sha256": "5ff0ae2ba9a5ed109dc01bdac4ffacd2eb2acf67da225880e6a14d3a1aeeec69",
+      "bytes": 2313
+    },
+    {
+      "path": "sources/v10_pmid_22877817.json",
+      "sha256": "4e2bb2318c5ccc59d5181196876e26a0fb6544f8298f63abdcdc77d6527b0762",
+      "bytes": 2385
+    },
+    {
+      "path": "sources/v10_pmid_24295672.json",
+      "sha256": "7a74a13fd190865edebada9aa31a8af598549a1a10b6acd993f8361e8d9c5917",
+      "bytes": 2797
+    },
+    {
+      "path": "sources/v10_pmid_24342125.json",
+      "sha256": "d890d9267e54da202cf5b26c28eb1bad0d4fe13d844324d262a66c87db265dac",
+      "bytes": 3385
+    },
+    {
+      "path": "sources/v10_pmid_30989924.json",
+      "sha256": "c68e57c6ed5959049cabd6e6ac37075a539296d0c29bd0b8b392cb9201728e8c",
+      "bytes": 2461
+    },
+    {
+      "path": "sources/v10_pmid_34592323.json",
+      "sha256": "15c1ef2aa65c4f8831af78f8362dab7eb8b8bb511b36a0d9a059f03d86191396",
+      "bytes": 2915
+    },
+    {
+      "path": "sources/v10_pmid_38256064.json",
+      "sha256": "8406ea45d7e289da9d941e51d559b28ec0039bcd67d792832facf7d85d3b6c4c",
+      "bytes": 3432
+    },
+    {
+      "path": "sources/v9_pmid_12604704.json",
+      "sha256": "ed074a5d1e3e586b1210a6991560b3da228cb6b126edb7e6d50e0a2505769b3c",
+      "bytes": 620
+    },
+    {
+      "path": "sources/v9_pmid_15179411.json",
+      "sha256": "6a75bc23ff4bae643b810ed306b5f26c1d45839d386d8da8d4f908e173780501",
+      "bytes": 623
+    },
+    {
+      "path": "sources/v9_pmid_20195825.json",
+      "sha256": "0bf3743e2bb11c88b54e3aa08bd1b38724b4366fa27cf8bdf7d5ed2ce9e45e81",
+      "bytes": 620
+    },
+    {
+      "path": "sources/v9_pmid_23669408.json",
+      "sha256": "e27546c992889c9b658d06d281b2c6d77efde97fd3d3f88c55885598b5ea02f8",
+      "bytes": 693
+    },
+    {
+      "path": "sources/v9_pmid_24710899.json",
+      "sha256": "ea6867ad91256479af19d9a0a203326ad38abf0aac2b302f6a39ddfc3e0d5bb0",
+      "bytes": 699
+    },
+    {
+      "path": "sources/v9_pmid_24786236.json",
+      "sha256": "a55a2a97c07b11eeb4e066a02842c35f5c7a57ae8a5de5bc8106ff7661520f8b",
+      "bytes": 685
+    },
+    {
+      "path": "sources/v9_pmid_26139922.json",
+      "sha256": "9976dc6367eea2eac5f1ac0e13231f5c7c3b97034dc6cc34ed1af2b96a825170",
+      "bytes": 750
+    },
+    {
+      "path": "sources/v9_pmid_26278343.json",
+      "sha256": "8908b0a19139af0a16b742935ca8c375193fec0274c956a46a8e011b7b1f78f8",
+      "bytes": 712
+    },
+    {
+      "path": "sources/v9_pmid_27529203.json",
+      "sha256": "1ec7532bf0c946b5f46f019ec89596185df8fe861e8d0e5bdb98217bf800b7e9",
+      "bytes": 795
+    },
+    {
+      "path": "sources/v9_pmid_30301254.json",
+      "sha256": "699463e240e415db4f837b9974e46888f0a5a54acc0040d8bf92546b75cfe8a2",
+      "bytes": 715
+    },
+    {
+      "path": "V10_HANDOFF.md",
+      "sha256": "de818487f7b1745f38b3f0f1e20e1f8e663b382e968a73e7a252a06145edabef",
+      "bytes": 7425
+    },
+    {
+      "path": "V9_SHA256SUMS.json",
+      "sha256": "0724e3421a04191ee41602484f2c3e63feb27e1dade601c1f65726b3b3564103",
+      "bytes": 3189
+    },
+    {
+      "path": "validate.py",
+      "sha256": "26b973e172f6d179ac7b2e22fe99f5bd8d2e7a213df5f55c934de43913b61f08",
+      "bytes": 5985
+    },
+    {
+      "path": "validate_v10.py",
+      "sha256": "c064de134459885aa519191ec0c280c2e14bee87c0335a52df11e3e8be227e64",
+      "bytes": 7653
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "screened": 12,
+  "accepted": [
+    {
+      "compound": "all-trans-β-Carotene",
+      "CID": "5280489",
+      "reason": "Directly tested in primary transporter study PMID 40773056; exact PubChem identity cross-check; assay-level result retained."
+    },
+    {
+      "compound": "Butylated hydroxytoluene",
+      "CID": "31404",
+      "reason": "Directly tested in primary transporter study PMID 40773056; exact PubChem identity cross-check; assay-level result retained."
+    },
+    {
+      "compound": "Dodecyl gallate",
+      "CID": "14425",
+      "reason": "Directly tested in primary transporter study PMID 40773056; exact PubChem identity cross-check; assay-level result retained."
+    },
+    {
+      "compound": "Octyl gallate",
+      "CID": "61253",
+      "reason": "Directly tested in primary transporter study PMID 40773056; exact PubChem identity cross-check; assay-level result retained."
+    }
+  ],
+  "held": [
+    {
+      "candidate": "GF-I-1",
+      "reason": "Exact entity and primary tested-material linkage were not resolved in this batch."
+    },
+    {
+      "candidate": "GF-I-4",
+      "reason": "Exact entity and primary tested-material linkage were not resolved in this batch."
+    },
+    {
+      "candidate": "Paradisin B",
+      "reason": "No direct exact-identity/primary tested-compound linkage established."
+    },
+    {
+      "candidate": "Imperatorin",
+      "reason": "No newly verified compound-specific food–drug interaction primary record established in this batch."
+    },
+    {
+      "candidate": "FD&C Yellow 6",
+      "reason": "Primary paper verified as a tested inhibitor, but exact original SI row and structure form were not independently checked in this execution; held pending direct SI review."
+    },
+    {
+      "candidate": "FD&C Blue 1",
+      "reason": "Original primary SI row and tested material identity not directly verified; held."
+    },
+    {
+      "candidate": "FD&C Red 3",
+      "reason": "Original primary SI row and tested material identity not directly verified; held."
+    },
+    {
+      "candidate": "Neohesperidin dihydrochalcone",
+      "reason": "Original primary SI row and tested material identity not directly verified; held."
+    }
+  ],
+  "rejected": [],
+  "categories": {
+    "xanthophylls": "lutein, zeaxanthin, astaxanthin, beta-cryptoxanthin and canthaxanthin already present; beta-carotene is distinct and accepted from direct primary assay evidence.",
+    "red_clover_isoflavones": "biochanin A, formononetin, genistein, daidzein and glycitein already present; no duplicate added.",
+    "flavonoid_aglycones": "many covered (including quercetin, kaempferol, naringenin, apigenin); no category-level placeholder admitted.",
+    "phytosterols": "beta-sitosterol and stigmasterol present; campesterol not added absent directly verified interaction evidence."
+  }
+}

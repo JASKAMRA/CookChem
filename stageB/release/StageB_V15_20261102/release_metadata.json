@@ -1,0 +1,38 @@
+{
+  "release": "StageB_V15_20261102",
+  "baseline_release": "StageB_V14_20261102",
+  "expected_compounds": 136,
+  "expected_evidence": 310,
+  "warning_count": 64,
+  "readiness": "PARTIAL_NOT_READY_FOR_160",
+  "last_completed_batch": 7,
+  "drug_probe_rows": 133,
+  "bibliography_rows": 158,
+  "unique_nonblank_PMIDs": 156,
+  "study_rows": 158,
+  "full_stageB_tests": {
+    "passed": 45,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0
+  },
+  "v14_synthetic_mutation_assertions": {
+    "detected": 8,
+    "total": 8
+  },
+  "v14_structural_provenance_validator_errors": 0,
+  "v15_batch_07_focused_tests": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0
+  },
+  "v15_structural_provenance_validator_errors": 0,
+  "manifest_entries": 735,
+  "final_integrity": {
+    "v15_exact_manifest": "PASS 735/735",
+    "v15_clean_copy_exact": "PASS 735/735",
+    "v14_exact_manifest": "PASS 725/725",
+    "v13_canonical_manifest": "PASS 716/716"
+  }
+}

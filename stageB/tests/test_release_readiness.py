@@ -10,6 +10,7 @@ import hashlib
 import importlib.util
 import json
 import tempfile
+import types
 import unittest
 from collections import Counter
 from pathlib import Path
@@ -19,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[2]
 RELEASE = ROOT / "stageB" / "release" / "StageB_Final"
 FIXTURES = Path(__file__).resolve().parent / "fixtures"
 VALIDATOR_PATH = ROOT / "stageB" / "archive" / "scripts" / "validate_final.py"
+MANIFEST_INTEGRITY_PATH = RELEASE / "scripts" / "manifest_integrity.py"
 
 
 def read_csv(relative_path: str) -> tuple[list[str], list[dict[str, str]]]:
@@ -41,6 +43,17 @@ def load_validator():
         raise RuntimeError("Could not load the archived Stage B validator")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
+    return module
+
+
+def load_manifest_integrity():
+    # Execute the trusted verifier in memory so checking a frozen release cannot
+    # create __pycache__ inside the tree being enumerated by the test.
+    module = types.ModuleType("stageb_manifest_integrity")
+    module.__file__ = str(MANIFEST_INTEGRITY_PATH)
+    module.__package__ = ""
+    source = MANIFEST_INTEGRITY_PATH.read_bytes()
+    exec(compile(source, str(MANIFEST_INTEGRITY_PATH), "exec"), module.__dict__)
     return module
 
 
@@ -161,10 +174,18 @@ class ReleaseReadinessTests(unittest.TestCase):
         self.assertTrue(any(error["Code"] == "CMP_ID_DUP" for error in errors))
 
     def test_manifest_entries_exist_and_match_sha256(self) -> None:
-        manifest = json.loads((RELEASE / "manifests" / "SHA256SUMS.json").read_text(encoding="utf-8"))
-        self.assertEqual(len(manifest), 708)
-        mismatches = [rel for rel, expected in manifest.items() if not (RELEASE / rel).is_file() or sha256(RELEASE / rel) != expected]
-        self.assertEqual(mismatches, [])
+        verifier = load_manifest_integrity()
+        manifest = verifier.load_manifest(RELEASE)
+        actual_paths = {
+            path.relative_to(RELEASE).as_posix()
+            for path in RELEASE.rglob("*")
+            if path.is_file() and path.relative_to(RELEASE).as_posix() != verifier.MANIFEST_RELATIVE_PATH
+        }
+        self.assertEqual(set(manifest), actual_paths)
+        result = verifier.verify_manifest(RELEASE, mode="canonical")
+        self.assertEqual(result["status"], "PASS", result)
+        self.assertEqual(result["manifest_entries"], result["release_files"])
+        self.assertNotIn(verifier.MANIFEST_RELATIVE_PATH, manifest)
 
     def test_release_reads_do_not_change_authoritative_files(self) -> None:
         paths = [

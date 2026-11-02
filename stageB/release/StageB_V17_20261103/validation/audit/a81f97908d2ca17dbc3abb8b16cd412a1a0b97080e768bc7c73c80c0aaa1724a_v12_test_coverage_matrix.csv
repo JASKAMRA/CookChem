@@ -1,0 +1,11 @@
+﻿Requirement,Test_or_review,Coverage,Status
+Registry integrity,"Unique identifiers, refs, rows, source counts",Automated and manual,TESTED
+Identity,"CID, name, InChIKey collision screen",Automated + manual; full graph review incomplete,PARTIAL
+Food occurrence,Food context fields and source links,Manual; inherited complete review pending,PARTIAL
+Numerical/statistical,Outcome triage and selected source check,Automated screen + targeted manual; full text pending,PARTIAL
+Source-to-claim,Evidence-to-claim links and selected locator review,Both; inherited exhaustive review pending,PARTIAL
+Six inherited manual checks,Individual dispositions in v12_manual_check_disposition.csv,Manual,TESTED
+Mutation testing,32 controlled rule-level mutations,Automated harness,TESTED
+Regression,V11 row equality and cooking file digest,Automated,TESTED
+Cohort overlap,Not determined from identifiers,Manual; not completed,PARTIAL
+Reproducibility,Deterministic rebuild and hashes,Automated,TESTED

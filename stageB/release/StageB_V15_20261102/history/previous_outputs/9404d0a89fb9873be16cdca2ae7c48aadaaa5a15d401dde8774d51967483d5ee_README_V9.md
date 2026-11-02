@@ -1,0 +1,51 @@
+# CookRisk Stage B — V9 evidence expansion (2026-10-29)
+
+V9 is a separate expansion built from the frozen V8 quality release. V8 source files remain present and the V8 evidence CSV hash is recorded at `audit/v9_baseline_hash.json`.
+
+## Verified counts
+
+- Baseline: 60 anchors, 189 interaction records, 121 unique PMID publications.
+- V9: 74 anchors (14 added), 210 interaction records (21 added), 130 unique PMID publications. Progress: 74/100; 26 anchors remain.
+- V9 evidence classes: {'Human pharmacokinetic': 70, 'In vitro': 85, 'Animal': 51, 'Controlled clinical': 4}.
+- Warning ledger: 25 open/partially resolved entries across 27 codes; all 25 inherited entries carried forward, plus three V9 entries.
+
+## New anchors
+
+- **6',7'-Dihydroxybergamottin** (CID 6440498): Named component of grapefruit juice; purified compound tested against CYP3A4 in a primary mechanistic study. Human juice-serum PK is not treated as isolated-compound evidence.
+- **Astaxanthin** (CID 5281224): Food/supplement-associated xanthophyll with direct human CYP enzyme-panel testing and a separate human UGT panel; weak/null findings retained.
+- **β-Cryptoxanthin** (CID 5281235): Food carotenoid with direct CYP and UGT interaction screening, including quantitative weak inhibition and a null/low-risk interpretation.
+- **Canthaxanthin** (CID 5281227): Food colorant/nutritional supplement carotenoid with direct CYP and UGT inhibition screening; effects were weak in vitro.
+- **Biochanin A** (CID 5280373): Principal red-clover isoflavone with CYP1A2 data and independent P-gp cell-transport evidence; rat P-gp substrate PK publication is not added here because metadata was ambiguous.
+- **Formononetin** (CID 5280378): Principal red-clover isoflavone with direct human/rat microsomal CYP inhibition results; predicted in-vivo statements remain labeled as predictions.
+- **Puerarin** (CID 5281807): Major kudzu-root isoflavone with human probe-drug observations, human/rat microsomal CYP3A work, rat buspirone PK, and cell-model CYP2D6 evidence. Herbal preparation and isolated compound are not equated.
+- **Phloretin** (CID 4788): Diet-associated apple/pear chalcone with direct cellular P-gp efflux evidence; no human PK interaction is inferred.
+- **Acacetin** (CID 5280442): Food-associated flavonoid directly screened against CYP3A4; strongest reported screening result in the source (95% inhibition at 1 μM).
+- **Pinocembrin** (CID 68071): Food-associated flavanone with qualitative irreversible CYP3A4 inhibition in a primary aglycone screen; no numerical potency is claimed.
+- **Isorhamnetin** (CID 5281654): Food-associated flavonol with qualitative irreversible CYP3A4 inhibition in a primary aglycone screen; no numerical potency is claimed.
+- **Tectochrysin** (CID 5281954): Food-associated flavonoid tested as a pure aglycone and reported to irreversibly inhibit CYP3A4; no numerical potency is claimed.
+- **β-Sitosterol** (CID 222284): Common dietary phytosterol with direct rat-microsome CYP3A4/CYP2D6 screening; weak activity is retained as in-vitro evidence only.
+- **Stigmasterol** (CID 5280794): Common dietary phytosterol with direct rat-microsome CYP3A4/CYP2D6 screening; weak activity is retained as in-vitro evidence only.
+
+## Verification and limitations
+
+New interaction claims were taken from primary PubMed abstracts except the β-sitosterol and stigmasterol CYP IC50 values, which were checked against the full-text table in PMC4486538. Abstract-only records are explicitly labeled and missing doses or effect sizes remain unstated. The grapefruit-juice human felodipine result was not assigned to isolated DHB; only the purified-DHB in-vitro results were linked to the DHB anchor. Puerarin CYP2D6 inhibition and CYP1A2 induction are both preserved. Weak, null, and in-vitro-only results are not presented as clinical risk.
+
+V9 added compound-specific selection rationales and PubChem CIDs; most new rows still need structured SMILES/InChI/InChIKey capture. One prior candidate mapping was caught during review: CID 5281614 is fisetin, not phloretin. Phloretin was admitted using PubChem CID 4788 and exact structure strings. Original-nine historical selection triggers/dates remain as documented in the inherited V8 ledger; no historical date was invented. Known apigenin/rutin-paclitaxel preparation ambiguity, apigenin Cmax discrepancy, daidzein reporting ambiguity, and daidzein/quercetin cooking-retention linkage limitations remain open. Cooking-retention evidence is carried separately and unchanged.
+
+The focused search used PubMed/PMC for primary interaction studies and PubChem for identity and food-context checks. Candidate screening was targeted, not systematic. No Stage A models, Stage C exposure estimates, or Stage D scores were changed or created.
+
+## Validation
+
+V8 baseline checks had passed 26/26 checks and 12/12 mutations before this expansion. The inherited V8 validator was rerun after the work as a baseline-preservation check. V9-specific integrity and mutation results are recorded in `audit/v9_validation_report.json`; the report distinguishes automated integrity from scientific adjudication.
+
+## Main V9 files
+
+- `outputs/compound_registry_v9.csv`
+- `outputs/stageB_food_drug_interactions_v9.csv`
+- `outputs/drug_probe_registry_v9.csv`
+- `outputs/source_bibliography_v9.csv` and `outputs/study_registry_v9.csv`
+- `outputs/v9_selection_decisions.csv`, `outputs/v9_candidate_screening_log.csv`
+- `outputs/v9_source_audit.csv`, `outputs/claim_support_and_verification_v9.csv`
+- `outputs/warning_resolution_ledger_v9.csv`, `outputs/v9_change_log.csv`
+- `outputs/cooking_retention_evidence_v9.csv`
+- `audit/v9_validation_report.json`

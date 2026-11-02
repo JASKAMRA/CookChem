@@ -1,0 +1,270 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:18449511 AND SRC:MED",
+    "internalQuery": "EXT_ID:18449511 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "18449511",
+        "source": "MED",
+        "pmid": "18449511",
+        "doi": "10.1007/s12272-001-1187-4",
+        "title": "Enhanced bioavailability of verapamil after oral administration with hesperidin in rats.",
+        "authorString": "Piao YJ, Choi JS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Piao YJ",
+              "lastName": "Piao",
+              "firstName": "Yong-Ji",
+              "initials": "YJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Chosun University, Gwangju, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Choi JS",
+              "lastName": "Choi",
+              "firstName": "Jun-Shik",
+              "initials": "JS"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "31",
+          "journalIssueId": 1525333,
+          "dateOfPublication": "2008 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Arch Pharm Res",
+            "title": "Archives of pharmacal research",
+            "essn": "1976-3786",
+            "issn": "0253-6269",
+            "nlmid": "8000036",
+            "isoabbreviation": "Arch Pharm Res"
+          },
+          "printPublicationDate": "2008-04-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "518-522",
+        "abstractText": "The aim of this study was to investigate the effects of hesperidin on the pharmacokinetics of verapamil and its major metabolite, norverapamil, in rats. The pharmacokinetic parameters of verapamil and norverapamil in rats were measured after the oral administration of verapamil (9 mg/kg) in the presence or absence of hesperidin (3 or 10 mg/kg). Compared to the control group, the presence of hesperidin significantly (p<0.01) increased the area under the plasma concentration-time curve (AUC) of verapamil by 71.1-96.8% and the peak concentration (C(max)) of verapamil by 98.3-105.2%. Hesperidin significantly (p<0.01) decreased the total plasma clearance (CL/F) of verapamil by 41.6-49.2% in rats. However there was no significant change in the time to reach the peak plasma concentration (T(max)), the elimination rate constant (K(el)) and the terminal half-life (T(1/2)) of verapamil in the presence of hesperidin. The AUC and C(max) of norverapamil were significantly (p<0.05) higher in rats co-administrated with hesperidin than those of the control. Consequently hesperidin significantly enhanced bioavailability of verapamil in rats. These results might be due to the decreased efflux and metabolism of verapamil in the intestine. Drug interactions should be concerned in the clinical setting when verapamil is used concomitantly with hesperidin or hesperidin-containing dietary.",
+        "affiliation": "College of Pharmacy, Chosun University, Gwangju, Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Verapamil",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hesperidin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcium Channel Blockers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Oral"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Availability"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestinal Absorption",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Biological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Calcium Channel Blockers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Verapamil",
+              "registryNumber": "CJ0O37KU29"
+            },
+            {
+              "name": "Hesperidin",
+              "registryNumber": "E750O06Y6O"
+            },
+            {
+              "name": "norverapamil",
+              "registryNumber": "957Z3K3R56"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s12272-001-1187-4"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 15,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-06-11",
+        "dateOfCreation": "2008-05-02",
+        "dateOfRevision": "2015-11-19",
+        "electronicPublicationDate": "2008-05-01",
+        "firstPublicationDate": "2008-04-01",
+        "firstIndexDate": "2008-06-12",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+﻿Area,Item,Change,Reason,Source_or_test
+Dataset,V10 inherited records/anchors,Copied row-identically into V11; no inherited interaction or anchor row edited.,Regression preservation,RG-01/RG-02; V10 checksum manifest
+Expansion,Five new anchors; nine evidence rows,"Added grapefruit-associated Paradisin A, Paradisin C, nootkatone, epoxybergamottin and supplement-context amentoflavone.",Primary-source in-vitro evidence and context reviewed; limitations flagged,V11 source audit and PubMed/Crossref captures
+Provenance,Selection coverage,Completed explicit retrospective selection rows for inherited anchors missing a V10 decision row.,Decision traceability; original dates/rationales not invented,PR-01/PR-02
+Build,Relative paths,Added path-relative V11 build script.,Avoid machine-specific absolute release directory,RP-01/RP-02

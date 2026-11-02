@@ -1,0 +1,51 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "anchors": 105,
+  "evidence_records": 272,
+  "drug_probe_labels": 121,
+  "unique_PMIDs": 144,
+  "unique_DOIs": 141,
+  "bibliography_publications": 146,
+  "evidence_classes": {
+    "Human pharmacokinetic": 70,
+    "In vitro": 147,
+    "Animal": 51,
+    "Controlled clinical": 4
+  },
+  "claim_verification_status": {
+    "Inherited V8 review status; see claim_level_audit.csv": 189,
+    "Abstract verified": 77,
+    "Full-text table verified": 2,
+    "Article abstract located; full extraction not completed": 3,
+    "Partially verified": 1
+  },
+  "warning_rows": 41,
+  "warning_codes": 39,
+  "warning_status": {
+    "Partially resolved": 13,
+    "Unresolved": 25,
+    "Resolved": 1,
+    "Not applicable": 2
+  },
+  "v10_automated_pass": 40,
+  "v10_automated_fail": 2,
+  "v11_automated_pass": 45,
+  "v11_automated_fail": 0,
+  "v11_manual_not_executed": 6,
+  "mutation_attempted": 23,
+  "mutation_detected": 23,
+  "mutation_missed": [],
+  "mutation_detection_rate": 1.0,
+  "inherited_evidence_rows_unchanged": 263,
+  "inherited_anchor_rows_unchanged": 100,
+  "new_anchors": 5,
+  "new_evidence_records": 9,
+  "anchors_remaining_to_120": 15,
+  "critical_integrity_failures": [],
+  "limitations": [
+    "Full source-to-claim extraction and table-level numeric review of inherited records remains incomplete.",
+    "Food-context sources for inherited anchors were not independently reviewed one by one.",
+    "Manual chemical parsing/stereochemical and cohort-overlap review remains incomplete.",
+    "Candidate expansion stopped at five additions; 15 anchors short of stretch target."
+  ]
+}

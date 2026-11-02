@@ -1,0 +1,17 @@
+﻿Test_ID,Purpose,Status
+STRUCT-CMP-ID,Unique compound identifiers,PASS
+STRUCT-EVI-ID,Unique evidence identifiers,PASS
+REF-01,Compound foreign keys resolve,PASS
+REF-02,Drug/probe foreign keys resolve,PASS
+REF-03,Study foreign keys resolve,PASS
+PUB-01,PMID and DOI formatting/references,PASS
+EVI-CLASS,Evidence class values supported,PASS
+CLAIM-01,Evidence has source-claim support,PASS
+WARN-01,Warning IDs unique,PASS
+WARN-02,Warning status vocabulary valid,PASS
+PUB-02,Study publications resolve,PASS
+DOMAIN-01,Cooking-retention IDs remain separate,PASS
+IDENT-01,Identity key uniqueness screen,PASS
+SEL-01,Selection rationale coverage screened,PASS
+DUP-01,Repeated evidence contexts surfaced,PASS
+NUM-01,Numerical/unit review flags surfaced,PASS

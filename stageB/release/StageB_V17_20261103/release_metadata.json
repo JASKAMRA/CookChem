@@ -1,0 +1,98 @@
+{
+  "release": "StageB_V17_20261103",
+  "baseline_release": "StageB_V16_20261102",
+  "target_compounds": 143,
+  "expected_compounds": 143,
+  "expected_evidence": 317,
+  "warning_count": 70,
+  "readiness": "FINAL_WITH_DOCUMENTED_SCIENTIFIC_LIMITATIONS",
+  "last_completed_batch": 11,
+  "drug_probe_rows": 133,
+  "bibliography_rows": 163,
+  "unique_nonblank_PMIDs": 161,
+  "study_rows": 161,
+  "full_stageB_tests": {
+    "passed": 46,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0,
+    "result": "PASS; full current Stage B regression run after finalization edits."
+  },
+  "v17_validation": {
+    "structural_validator": "PASS_WITH_WARNINGS; 0 errors",
+    "focused_tests_passed": 15,
+    "focused_tests_failed": 0,
+    "warning_reaudit_complete": true,
+    "warning_rows_preserved": 66,
+    "warning_rows_reaudited": 66,
+    "warning_rows_partial_recheck": 3,
+    "exact_manifest": "PASS 765/765 exact bytes",
+    "clean_copy_exact_manifest": "PASS 765/765 exact bytes",
+    "batch_08": "PASS",
+    "warning_rows_inherited_and_preserved": 66,
+    "v17_new_warnings": 4,
+    "batch_09": "PASS",
+    "batch_10": "PASS",
+    "batch_11": "PASS",
+    "warning_audit_rows": 70,
+    "warning_audit_status_counts": {
+      "RESOLVED": 3,
+      "PARTIALLY_RESOLVED": 14,
+      "STILL_VALID": 26,
+      "NEEDS_MANUAL_REVIEW": 25,
+      "NOT_APPLICABLE": 2
+    },
+    "final_validation": "PASS_WITH_WARNINGS; 16/16 checks, zero errors, 318 review flags",
+    "claim_support_unique_evidence": 317,
+    "source_audit_rows": 118,
+    "source_audit_unique_evidence": 107,
+    "identity_audit_rows": 143,
+    "mutation_tests_passed": 12,
+    "mutation_tests_failed": 0,
+    "final_validation_warnings": 318,
+    "final_validation_errors": 0,
+    "full_regression": "46/46 PASS",
+    "source_audit_total_evidence": 317,
+    "source_audit_missing_unique_evidence": 210,
+    "v16_readonly_manifest": "PASS 744/744 exact bytes"
+  },
+  "v14_synthetic_mutation_assertions": {
+    "detected": 8,
+    "total": 8
+  },
+  "v14_structural_provenance_validator_errors": 0,
+  "v15_batch_07_focused_tests": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0
+  },
+  "v15_structural_provenance_validator_errors": 0,
+  "manifest_entries": 765,
+  "final_integrity": {
+    "v16_exact_manifest": "PASS 744/744",
+    "v16_clean_copy_exact": "PASS 744/744",
+    "v15_exact_manifest": "PASS 736/736",
+    "v14_exact_manifest": "PASS 725/725",
+    "v13_canonical_manifest": "PASS 716/716; 650 raw line-ending differences"
+  },
+  "inherited_warning_audit_from_v16": {
+    "inherited_warnings": 64,
+    "audited": 64,
+    "partially_resolved": 15,
+    "still_valid": 26,
+    "resolved": 2,
+    "needs_manual_review": 20,
+    "not_applicable": 3,
+    "new_warnings": 2
+  },
+  "doi_rows_nonblank": 154,
+  "v16_structural_provenance_validator": "PASS",
+  "v16_warning_validator": "PASS",
+  "v16_warning_tests": {
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0
+  }
+}

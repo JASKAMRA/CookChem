@@ -1,62 +1,30 @@
 # CookChem Stage B
 
-Stage B contains two related but distinct resources: the cooking-retention model experiments and the CookRisk literature evidence package. This cleanup changes organization and execution paths only; it does not alter scientific records or model outputs.
+Stage B contains the cooking-retention modeling work and the CookRisk literature evidence package.
 
-## Authoritative release
+## Authoritative evidence release
 
-The sole authoritative evidence release is [`release/StageB_Final/`](release/StageB_Final/). It is the existing consolidated release, copied into this repository without regeneration. Its canonical tables live in `release/StageB_Final/data/`; its own README and handoff explain evidence scope, record counts, validation limits, and scientific cautions. The release remains a literature evidence resource, not clinical decision support.
+The sole authoritative Stage B evidence deliverable is [`release/StageB_FINALIZED/`](release/StageB_FINALIZED/). It contains 143 compounds, 317 interaction-evidence records, 133 drug/probe rows, 163 bibliography rows, 161 study rows, and 88 traceable warnings. Its status is `FINALIZED_WITH_DOCUMENTED_SCIENTIFIC_LIMITATIONS`.
 
-## Layout
+The release consolidates the best validated state from V19 batches 001–012 on the immutable V18 baseline. Earlier folders, including `StageB_Final` (119 compounds), V18, and V19, are retained as non-authoritative historical records for provenance and reproducibility. Do not use them as the current evidence package or resume their research queues.
 
-- `scripts/` — active, version-independent entry points plus model research scripts.
-- `outputs/`, `final_model/` — existing retention experiments, their outputs, and selected model; paths are preserved.
-- `release/StageB_Final/` — authoritative evidence release.
-- `validation/` — cleanup inventories and non-invasive release check results.
-- `provenance/` — provenance notes for this organization pass.
-- `README.md` and `CHANGELOG.md` — workflow, scope, and organization history.
-- `archive/scripts/` — original version-specific builders, finalizers, auditors, validators, mutation tests, and consolidation tools. Exact duplicate nested experiment scripts are preserved under `archive/scripts/duplicates/`.
-- `archive/releases/` — preserved V2–V12 releases, expansions, V6 workspaces, and legacy workspace snapshots.
-- `archive/reports/` — legacy project handoffs and release archive files.
+## Validate the evidence release
 
-The root `README.md`, `.gitignore`, and `requirements.txt` remain shared project files. The root `reports/run_dataset_forensic_audit.py` is also retained because it audits the shared CookChem dataset rather than the Stage B evidence package. Stage A remains untouched.
-
-## Active evidence workflow
-
-Run from the repository root (Python 3):
+From the repository root, run:
 
 ```powershell
-python stageB/scripts/validate.py
-python stageB/scripts/mutation_tests.py
-python stageB/scripts/audit.py
+python stageB/release/StageB_FINALIZED/scripts/validate_final.py stageB/release/StageB_FINALIZED
+python stageB/release/StageB_FINALIZED/scripts/validate_stageb_finalized.py stageB/release/StageB_FINALIZED
+python stageB/release/StageB_FINALIZED/scripts/mutation_test_final.py stageB/release/StageB_FINALIZED
 ```
 
-Validation and mutation checks run on disposable copies so the authoritative release and its checksums stay unchanged. Results are written to `stageB/validation/`. A clean mutation result means each injected integrity defect was detected; it does not establish scientific validity.
+The release README records the complete test and manifest commands. Technical validation checks structure, references, provenance and integrity; it does not certify that every historical scientific claim has been independently re-reviewed.
 
-To build a new staging tree, provide an explicit V11 directory and a destination that does not exist:
+## Repository layout
 
-```powershell
-python stageB/scripts/build.py <path-to-release_v11> <new-staging-directory>
-```
+- `release/StageB_FINALIZED/` — sole authoritative literature-evidence package.
+- Other `release/StageB_*` folders — historical, non-authoritative snapshots.
+- `scripts/`, `outputs/`, `final_model/` — existing retention-model work and outputs.
+- `validation/`, `provenance/`, `archive/` — repository-level validation, organization history and preserved older materials.
 
-The build copies the source before applying V12 build logic. Finalize that staging copy with `python stageB/scripts/finalize.py <staging-directory>`. Consolidate a finalized V12 tree using `python stageB/scripts/consolidate.py <path-to-release_v12> <new-destination>`. These commands reject the authoritative release path; do not point them at it. Historical versions are available under `archive/releases/`.
-
-## Retention model workflow
-
-Existing experiments remain under `scripts/` and write to `outputs/`. They read Stage A's preprocessed input at `stageA/input/cookchem_molecular_retention_preprocessed.csv`; the input is shared and was not moved. `freeze_stageb_candidate.py` writes the retained model under `final_model/`. Create the isolated model environment and install the Stage B dependencies from the repository root:
-
-```powershell
-python -m venv stageB/.venv
-stageB/.venv/Scripts/python.exe -m pip install -r stageB/requirements-stageB.txt
-```
-
-All active Stage B scripts have safe runtime checks recorded in [`documentation/STAGEB_RUNTIME_READINESS.md`](documentation/STAGEB_RUNTIME_READINESS.md) and [`reports/runtime/script_runtime_report.md`](reports/runtime/script_runtime_report.md). Modeling scripts were run against a disposable copy of inputs and outputs; release-building commands were checked for their authoritative-release safety guards rather than used to create another release. The isolated environment uses Python 3.14.7; Stage A's reproducibility record specifies Python 3.12.14 and slightly different NumPy/pandas versions, so exact bitwise model reproducibility is not claimed. The archived literature evidence package is separate from these model experiments.
-
-The generated repository after-inventory excludes its own `file_inventory_after.csv` row and the `file_inventory.csv` transition ledger to avoid self-referential checksums. It includes the preserved inventories inside historical release snapshots.
-
-## Stage C interface
-
-Stage C should read the stable, unversioned CSV tables in `release/StageB_Final/data/`, join by the recorded compound/publication/evidence identifiers, and retain warning and provenance fields. Review `release/StageB_Final/documentation/FINAL_HANDOFF.md` and `manual_review_status.csv` before interpreting the records. Do not treat in-vitro or animal observations as clinical effects, infer ordinary food exposure from supplement doses, or convert the evidence package into patient-specific advice.
-
-## Known limitations
-
-The final release records unresolved source-audit, quantitative-outcome, and manual scientific review flags. The checks validate structure, references, and file integrity, not the truth of each claim. Model experiment dependencies are broader than the shared repository requirements. Archived historical scripts may retain their original command-line interfaces and versioned output names.
+Stage B finalization is complete. Further Stage B evidence research or expansion is stopped; any next-stage work requires a separate user instruction.
