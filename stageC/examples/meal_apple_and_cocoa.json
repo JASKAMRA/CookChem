@@ -1,0 +1,24 @@
+{
+  "meal_id": "meal-apple-and-cocoa-example",
+  "components": [
+    {
+      "component_id": "apple-recipe",
+      "kind": "recipe",
+      "recipe_id": "recipe-apples-epicatechin-example",
+      "servings_consumed": "1",
+      "consumed_fraction": "1"
+    },
+    {
+      "component_id": "cocoa-food",
+      "kind": "food",
+      "food_record_id": "USDA-FLAV33-NDB19165-EPICATECHIN",
+      "compound_ids": ["CHEM-PUBCHEM-72276"],
+      "quantity": {"value": "5", "unit": "g", "source_reference": "Illustrative example input; not measured"},
+      "food_state": "raw",
+      "consumed_fraction": "1",
+      "cooking_operations": [],
+      "provenance": {"example_quantity": "illustrative, not an observed intake"}
+    }
+  ],
+  "provenance": {"example": true, "note": "Illustrative quantities only; not a dietary recommendation."}
+}

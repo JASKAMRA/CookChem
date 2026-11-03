@@ -1,0 +1,18 @@
+{
+  "method": "Decimal arithmetic: mg/100g \u00d7 10g \u00f7100 \u00d7 consumed_fraction",
+  "checks": [
+    {
+      "estimate_id": "B002-EPICATECHIN-10G",
+      "expected_consumed_amount_mg": "19.6430",
+      "actual_consumed_amount_mg": "19.6430",
+      "pass": true
+    },
+    {
+      "estimate_id": "B002-CATECHIN-10G",
+      "expected_consumed_amount_mg": "6.4820",
+      "actual_consumed_amount_mg": "6.4820",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

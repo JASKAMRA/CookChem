@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:evidence_review_action:1.0.0",
+  "title": "CookRisk human evidence-review action",
+  "description": "Explicit reviewer action stored in a separate append-only hash-chained audit log; machine triage never creates these events.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "sequence", "action_id", "review_id", "evidence_id", "resulting_status", "reviewer_name", "reviewer_role", "review_date", "source_locator", "rationale", "negative_evidence_assessment", "previous_event_sha256", "event_sha256"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "sequence": {"type": "integer", "minimum": 1},
+    "action_id": {"type": "string", "minLength": 1},
+    "review_id": {"type": "string", "pattern": "^RV-[A-F0-9]{20}$"},
+    "evidence_id": {"type": "string", "minLength": 1},
+    "resulting_status": {"enum": ["SOURCE_VERIFIED", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"]},
+    "reviewer_name": {"type": "string", "minLength": 1},
+    "reviewer_role": {"type": "string", "minLength": 1},
+    "review_date": {"type": "string", "format": "date"},
+    "source_locator": {"type": "string", "minLength": 1},
+    "rationale": {"type": "string", "minLength": 1},
+    "negative_evidence_assessment": {"enum": ["NOT_ASSESSED", "EXPLICIT_NEGATIVE_REVIEWED", "NOT_NEGATIVE", "CONFLICTING", "UNCLEAR"]},
+    "previous_event_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "event_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "allOf": [
+    {"if": {"properties": {"resulting_status": {"enum": ["EXPERT_ACCEPTED", "EXPERT_REJECTED"]}}, "required": ["resulting_status"]}, "then": {"properties": {"reviewer_role": {"const": "expert"}}}},
+    {"if": {"properties": {"negative_evidence_assessment": {"const": "EXPLICIT_NEGATIVE_REVIEWED"}}, "required": ["negative_evidence_assessment"]}, "then": {"properties": {"resulting_status": {"enum": ["SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"]}}}}
+  ]
+}

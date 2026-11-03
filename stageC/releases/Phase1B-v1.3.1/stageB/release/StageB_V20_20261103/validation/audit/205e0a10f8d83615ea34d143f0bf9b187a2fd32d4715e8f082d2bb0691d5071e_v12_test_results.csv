@@ -1,0 +1,33 @@
+﻿Test_ID,Description,Status,Details
+AUTO-01,Anchor count recalculates,PASS,119
+AUTO-02,Unique compound IDs,PASS,
+AUTO-03,Unique PubChem CIDs,PASS,
+AUTO-04,Unique evidence IDs,PASS,
+AUTO-05,All evidence compound references resolve,PASS,
+AUTO-06,Evidence drug labels resolve,PASS,
+AUTO-07,Study references resolve,PASS,
+AUTO-08,PMIDs numeric when present,PASS,
+AUTO-09,DOI syntax normalized check,PASS,
+AUTO-10,New evidence links claims,PASS,
+AUTO-11,New identities have PubChem source,PASS,
+AUTO-12,New keys unique against baseline,PASS,
+AUTO-13,Evidence class vocabulary preserved,PASS,
+AUTO-14,Numeric outcomes have reported text,PASS,
+AUTO-15,DOI mapping multiplicity surfaced,PASS,{}
+AUTO-16,Bibliography PMID uniqueness,PASS,
+AUTO-17,Bibliography DOI uniqueness,PASS,
+AUTO-18,Inherited evidence-count fields preserved; new anchor counts reconcile,PASS,11 inherited count discrepancies carried forward and reported
+AUTO-19,Probe counts reconcile,PASS,
+AUTO-20,Inherited anchors exact prefix,PASS,
+AUTO-21,Inherited evidence exact prefix,PASS,
+AUTO-22,Inherited warning prefix preserved,PASS,
+AUTO-23,Cooking-retention hash preserved,PASS,
+AUTO-24,Claim evidence IDs resolve,PASS,
+AUTO-25,Selection rationale exists for new anchors,PASS,
+AUTO-26,Food context marked for each new anchor,PASS,
+AUTO-27,Numerical discrepancy screen includes numeric outcomes,PASS,
+AUTO-28,Six manual V11 IDs explicitly dispositioned,PASS,
+AUTO-29,Manual outcomes not falsely all passed,PASS,
+AUTO-30,No V12 edits to cooking retention evidence,PASS,Inherited file retained; no cooking evidence added
+AUTO-31,One source audit row per added record,PASS,
+AUTO-32,Versioned output schemas created,PASS,

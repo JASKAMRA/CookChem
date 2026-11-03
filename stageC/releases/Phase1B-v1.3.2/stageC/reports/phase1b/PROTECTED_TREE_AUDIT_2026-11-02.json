@@ -1,0 +1,71 @@
+{
+  "generated_at_local": "2026-11-02",
+  "comparison_basis": "Current Git HEAD and working tree; this establishes the state at Phase 1B final packaging, not the historical hashes in the older baseline file.",
+  "stageA": {
+    "tracked_file_count": 19,
+    "checked_file_count": 19,
+    "git_worktree_status": [],
+    "tree_sha256": "3917865aacb094f2ea875312d36cd4a9bc8b0d6510b86d9fef51ec8680b0388b"
+  },
+  "stageB_final": {
+    "tracked_file_count": 709,
+    "checked_file_count": 709,
+    "git_worktree_status": [
+      " M stageB/release/StageB_Final/manifests/SHA256SUMS.json",
+      " M stageB/release/StageB_Final/validation/final_validation_results.csv",
+      "?? stageB/release/StageB_Final/history/reconciliations/"
+    ],
+    "tree_sha256": "cbf5177ccb7ceb0eed616c30b6c2963b8c03ddc515660d98b65fce75dd9e85f6"
+  },
+  "stageB_archive": {
+    "tracked_file_count": 8096,
+    "checked_file_count": 8096,
+    "git_worktree_status": [],
+    "tree_sha256": "26274b7094c9b1e74538ee5d100358a9895f02be468de12544ca61a32ff2b4f6"
+  },
+  "verified_stage_b_release_manifest": {
+    "manifest_sha256": "52a5ee457f5730ee1642c2a51b121ad0d8ef1165f1a51e66f0260a25c2fc1024",
+    "manifest_entries": 710,
+    "verification": "PASS via Stage C read-only connector"
+  },
+  "historical_BASELINE_CHECKSUMS_json": {
+    "status": "STALE_RELATIVE_TO_CURRENT_GIT_TREE",
+    "mismatches": {
+      "stageA": {
+        "expected_file_count": 19,
+        "mismatch_count": 19,
+        "sample_mismatches": [
+          "stageA/input/cookchem_molecular_retention_preprocessed.csv",
+          "stageA/outputs/CookRisk_StageA_Benchmark_Report.pdf",
+          "stageA/outputs/stageA_benchmark_results.csv",
+          "stageA/outputs/stageA_fold_results.csv",
+          "stageA/outputs/stageA_oof_predictions.csv"
+        ]
+      },
+      "stageB_final": {
+        "expected_file_count": 709,
+        "mismatch_count": 661,
+        "sample_mismatches": [
+          "stageB/release/StageB_Final/data/compound_registry.csv",
+          "stageB/release/StageB_Final/data/cooking_retention_evidence.csv",
+          "stageB/release/StageB_Final/data/drug_probe_registry.csv",
+          "stageB/release/StageB_Final/data/interaction_evidence.csv",
+          "stageB/release/StageB_Final/data/publication_bibliography.csv"
+        ]
+      },
+      "stageB_archive": {
+        "expected_file_count": 8096,
+        "mismatch_count": 7546,
+        "sample_mismatches": [
+          "stageB/archive/releases/expansion_v2/manifest_sha256.json",
+          "stageB/archive/releases/expansion_v2/outputs/candidates.jsonl",
+          "stageB/archive/releases/expansion_v2/outputs/compound_prioritization.csv",
+          "stageB/archive/releases/expansion_v2/outputs/conflict_synthesis.csv",
+          "stageB/archive/releases/expansion_v2/outputs/drug_identity_registry.csv"
+        ]
+      }
+    }
+  },
+  "historical_PROTECTED_BASELINE_RECHECK_json": "Earlier point-in-time report; not treated as current verification.",
+  "conclusion": "No Stage A or Stage B archive tracked working-tree changes are present. Stage B Final has tracked changes only to its generated checksum manifest and generated validation report, plus an untracked reconciliation record directory from the prior release-manifest repair. Stage B source/evidence tables are not changed in the current Phase 1B finalization turn."
+}

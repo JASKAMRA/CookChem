@@ -1,0 +1,3938 @@
+{
+  "version": "6.9",
+  "hitCount": 12,
+  "request": {
+    "queryString": "TITLE:\"Gallocatechin\" AND (pharmacokinetic OR interaction OR coadministration OR metabolism OR synergistic) AND SRC:MED NOT PUB_TYPE:Review AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33092253",
+        "source": "MED",
+        "pmid": "33092253",
+        "pmcid": "PMC7594021",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7594021"
+          ]
+        },
+        "doi": "10.3390/molecules25204836",
+        "title": "Overexpression of <i>GbF3'5'H1</i> Provides a Potential to Improve the Content of Epicatechin and Gallocatechin.",
+        "authorString": "Wu Y, Wang T, Xin Y, Wang G, Xu LA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu Y",
+              "lastName": "Wu",
+              "firstName": "Yaqiong",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7101-4413"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for the Sustainable Forestry in Southern China, College of Forestry, Nanjing Forestry University, 159 Longpan Road, Nanjing 210037, China."
+                  },
+                  {
+                    "affiliation": "Research Center for Pomology, Institute of Botany, Jiangsu Province and Chinese Academy of Sciences, Qian Hu Hou Cun No.1, Nanjing 210014, China."
+                  },
+                  {
+                    "affiliation": "Department of Forest and Conservation Sciences, Faculty of Forestry, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang T",
+              "lastName": "Wang",
+              "firstName": "Tongli",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9967-6769"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Forest and Conservation Sciences, Faculty of Forestry, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xin Y",
+              "lastName": "Xin",
+              "firstName": "Yue",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for the Sustainable Forestry in Southern China, College of Forestry, Nanjing Forestry University, 159 Longpan Road, Nanjing 210037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang G",
+              "lastName": "Wang",
+              "firstName": "Guibin",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for the Sustainable Forestry in Southern China, College of Forestry, Nanjing Forestry University, 159 Longpan Road, Nanjing 210037, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu LA",
+              "lastName": "Xu",
+              "firstName": "Li-An",
+              "initials": "LA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for the Sustainable Forestry in Southern China, College of Forestry, Nanjing Forestry University, 159 Longpan Road, Nanjing 210037, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7101-4413"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9967-6769"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9987-6496"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "20",
+          "volume": "25",
+          "journalIssueId": 3038190,
+          "dateOfPublication": "2020 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "isoabbreviation": "Molecules",
+            "nlmid": "100964009"
+          },
+          "printPublicationDate": "2020-10-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "E4836",
+        "abstractText": "The flavonoids in <i>Ginkgo biloba</i> L. (<i>ginkgo</i>) have important medicinal uses due to their antioxidant, antitumor, and blood circulation-promoting effects. However, the genetic mechanisms underlying flavonoid biosynthesis in <i>ginkgo</i> remain elusive. Flavonoid 3', 5'-hydroxylase (F3'5'H) is an important enzyme in flavonoid synthesis. We detected a novel differentially expressed <i>GbF3'5'H1</i> gene homologous to the F3'5'H enzyme involved in the flavonoid synthesis pathway through transcriptome sequencing. In this study, we characterized this gene, performed an expression analysis, and heterologously overexpressed GbF3'5'H1 in <i>Populus</i>. Our results showed that <i>GbF3'5'H1</i> is abundant in the leaf and highly expressed during April. We also found four metabolites closely related to flavonoid biosynthesis. Importantly, the contents of 4',5-dihydroxy-7-glucosyloxyflavanone, epicatechin, and gallocatechin were significantly higher in transgenic plants than in nontransgenic plants. Our findings revealed that the <i>GbF3'5'H1</i> gene functions in the biosynthesis of flavonoid-related metabolites, suggesting that GbF3'5'H1 represents a prime candidate for future studies (e.g., gene-editing) aiming to optimize <i>ginkgo</i> flavonoid production, especially that of flavan-3-ols.",
+        "affiliation": "Co-Innovation Center for the Sustainable Forestry in Southern China, College of Forestry, Nanjing Forestry University, 159 Longpan Road, Nanjing 210037, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Fundation of China",
+              "grantId": "31971689",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants, Genetically Modified",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Populus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ginkgo biloba",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme System",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Circulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcriptome",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Flavonoid",
+            "Overexpression",
+            "Metabolite",
+            "F3′5′h"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "flavonoid 3',5'-hydroxylase",
+              "registryNumber": "EC 1.14.-"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme System",
+              "registryNumber": "9035-51-2"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "gallocatechol",
+              "registryNumber": "HEJ6575V1X"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/1420-3049/25/20/4836/pdf?version=1603200294"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules25204836"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7594021"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7594021?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "interpro"
+          ]
+        },
+        "dateOfCompletion": "2021-03-25",
+        "dateOfCreation": "2020-10-23",
+        "dateOfRevision": "2021-03-25",
+        "electronicPublicationDate": "2020-10-20",
+        "firstPublicationDate": "2020-10-20",
+        "firstIndexDate": "2020-10-23",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "26904400",
+        "source": "MED",
+        "pmid": "26904400",
+        "pmcid": "PMC4724690",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4724690"
+          ]
+        },
+        "doi": "10.1016/j.apsb.2015.10.001",
+        "title": "Pharmacokinetic study of gallocatechin-7-gallate from Pithecellobium clypearia Benth. in rats.",
+        "authorString": "Li C, Li C, Song X, Song J, Pang X, Wang Z, Zhao Y, Lian W, Liu A, Du G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li C",
+              "lastName": "Li",
+              "firstName": "Chao",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-8576-3265"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li C",
+              "lastName": "Li",
+              "firstName": "Chao",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9196-1859"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song X",
+              "lastName": "Song",
+              "firstName": "Xiaowei",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song J",
+              "lastName": "Song",
+              "firstName": "Junke",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pang X",
+              "lastName": "Pang",
+              "firstName": "Xiaocong",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5951-5944"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zhe",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Ying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lian W",
+              "lastName": "Lian",
+              "firstName": "Wenwen",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu A",
+              "lastName": "Liu",
+              "firstName": "Ailin",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China; Beijing Key Laboratory of Drug Target and Screening Research, Beijing 100050, China; State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Beijing 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Du G",
+              "lastName": "Du",
+              "firstName": "Guanhua",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6896-0847"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China; Beijing Key Laboratory of Drug Target and Screening Research, Beijing 100050, China; State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Beijing 100050, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9196-1859"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4379-0909"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5951-5944"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6896-0847"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-8576-3265"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "6",
+          "journalIssueId": 2378266,
+          "dateOfPublication": "2016 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Acta Pharm Sin B",
+            "title": "Acta pharmaceutica Sinica. B",
+            "essn": "2211-3843",
+            "issn": "2211-3835",
+            "isoabbreviation": "Acta Pharm Sin B",
+            "nlmid": "101600560"
+          },
+          "printPublicationDate": "2016-01-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "64-70",
+        "abstractText": "The pharmacokinetic profile of gallocatechin-7-gallate (J10688) was studied in rats after intravenous administration. Male and female Sprague-Dawley (SD) rats received 1, 3, and 10 mg/kg (i.v.) of J10688 and plasma drug concentrations were determined by a high performance liquid chromatography-mass spectrometry (LC-MS) method. The pharmacokinetic software Data Analysis System (Version 3.0) was used to calculate the pharmacokinetic parameters. For different i.v. doses of J10688, the mean peak plasma concentration (C 0) values ranged from 11.26 to 50.82 mg/L, and mean area under the concentration-time curve (AUC0-t ) values ranged from 1.75 to 11.80 (mg·h/L). J10688 lacked dose-dependent pharmacokinetic properties within doses between 1 and 10 mg/kg, based on the power model. The method developed in this study was sensitive, precise, and stable. The pharmacokinetic properties of J10688 in SD rats were shown to have rapid distribution and clearance values. These pharmacokinetic results may contribute to an improved understanding of the pharmacological actions of J10688.",
+        "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Great Science and Technology Projects",
+              "orderIn": 0
+            },
+            {
+              "agency": "International Collaboration Project",
+              "orderIn": 0
+            },
+            {
+              "agency": "Beijing Natural Science Foundation",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Pharmacokinetics",
+            "Non-compartment Model",
+            "Lc–ms",
+            "Dose Proportionality",
+            "Gallocatechin-7-gallate"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.apsb.2015.10.001"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4724690"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4724690?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-02-23",
+        "dateOfCreation": "2016-02-24",
+        "dateOfRevision": "2020-09-30",
+        "electronicPublicationDate": "2015-11-29",
+        "firstPublicationDate": "2015-11-29",
+        "firstIndexDate": "2016-02-24",
+        "fullTextReceivedDate": "2020-07-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31210578",
+        "source": "MED",
+        "pmid": "31210578",
+        "doi": "10.1089/jmf.2018.4327",
+        "title": "Gallocatechin Gallate-Containing Fermented Green Tea Extract Ameliorates Obesity and Hypertriglyceridemia Through the Modulation of Lipid Metabolism in Adipocytes and Myocytes.",
+        "authorString": "Cho D, Jeong HW, Kim JK, Kim AY, Hong YD, Lee JH, Choi JK, Seo DB.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cho D",
+              "lastName": "Cho",
+              "firstName": "Donghyun",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "1Vital Beautie Research Division, Amorepacific Corporation Research and Development Center, Yongin, Korea."
+                  },
+                  {
+                    "affiliation": "2Graduate School of Basic Biomedical Science, Sungkyunkwan University School of Medicine, Suwon, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jeong HW",
+              "lastName": "Jeong",
+              "firstName": "Hyun Woo",
+              "initials": "HW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "1Vital Beautie Research Division, Amorepacific Corporation Research and Development Center, Yongin, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim JK",
+              "lastName": "Kim",
+              "firstName": "Jeong Kee",
+              "initials": "JK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "3Department of Genetic Engineering and Graduate School of Biotechnology, College of Life Sciences, Kyung Hee University, Yongin, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim AY",
+              "lastName": "Kim",
+              "firstName": "A Young",
+              "initials": "AY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "1Vital Beautie Research Division, Amorepacific Corporation Research and Development Center, Yongin, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hong YD",
+              "lastName": "Hong",
+              "firstName": "Yong Deog",
+              "initials": "YD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "1Vital Beautie Research Division, Amorepacific Corporation Research and Development Center, Yongin, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee JH",
+              "lastName": "Lee",
+              "firstName": "Ji-Hae",
+              "initials": "JH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "1Vital Beautie Research Division, Amorepacific Corporation Research and Development Center, Yongin, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Choi JK",
+              "lastName": "Choi",
+              "firstName": "Jin Kyu",
+              "initials": "JK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "4QA Team, Aestura Corporation, Ansung, Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Seo DB",
+              "lastName": "Seo",
+              "firstName": "Dae Bang",
+              "initials": "DB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "1Vital Beautie Research Division, Amorepacific Corporation Research and Development Center, Yongin, Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "22",
+          "journalIssueId": 2846960,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "J Med Food",
+            "title": "Journal of medicinal food",
+            "essn": "1557-7600",
+            "issn": "1096-620X",
+            "isoabbreviation": "J Med Food",
+            "nlmid": "9812512"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "779-788",
+        "abstractText": "Green tea is reported to exert beneficial effects on metabolic disorders through the regulation of lipid metabolism. On the contrary, fermented food products have been introduced to improve human health by modulating immune response and energy metabolism. To maximize health benefit, we applied fermentation processing to green tea. Fermented green tea extract (FGT) inhibited adipogenesis and lipogenesis in cultured adipocytes, whereas it augmented mRNA expression of fatty acid oxidation-related genes in differentiated myocytes. In diet-induced obese mice, FGT blunted body weight and fat mass gain by 69.7% and 56.7%, respectively. FGT also improved circulating triglyceride concentrations by 32.6%. Similar to <i>in vitro</i> results, FGT suppressed lipogenesis and promoted lipid catabolism in peripheral tissues. In addition, FGT administration modulated the composition of certain gut microbiota which are associated with obesity and related metabolic disorders. Among the various components of FGT, gallocatechin gallate is suggested to mediate the effect of FGT on lipid metabolism. Taken together, we propose FGT as a novel functional food to benefit human health by controlling adiposity and lipid metabolism.",
+        "affiliation": "1Vital Beautie Research Division, Amorepacific Corporation Research and Development Center, Yongin, Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adipocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscle Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacillus subtilis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Camellia sinensis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypertriglyceridemia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Obesity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triglycerides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fermentation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipogenesis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            null
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Triglycerides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "gallocatechin gallate",
+              "registryNumber": "0C056HB16M"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1089/jmf.2018.4327"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-01-06",
+        "dateOfCreation": "2019-06-19",
+        "dateOfRevision": "2020-01-06",
+        "electronicPublicationDate": "2019-06-17",
+        "firstPublicationDate": "2019-06-17",
+        "firstIndexDate": "2019-06-19",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "31910001",
+        "source": "MED",
+        "pmid": "31910001",
+        "doi": "10.1021/acs.jafc.9b07008",
+        "title": "Overexpression of the <i>GbF3</i>'<i>H1</i> Gene Enhanced the Epigallocatechin, Gallocatechin, and Catechin Contents in Transgenic <i>Populus</i>.",
+        "authorString": "Wu Y, Wang T, Xin Y, Wang G, Xu LA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wu Y",
+              "lastName": "Wu",
+              "firstName": "Yaqiong",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7101-4413"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for Sustainable Forestry in Southern China , Nanjing Forestry University , 159 Longpan Road , Nanjing 210037 , China."
+                  },
+                  {
+                    "affiliation": "Department of Forest and Conservation Sciences, Faculty of Forestry , The University of British Columbia , Vancouver V6T 1Z4 , Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang T",
+              "lastName": "Wang",
+              "firstName": "Tongli",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Forest and Conservation Sciences, Faculty of Forestry , The University of British Columbia , Vancouver V6T 1Z4 , Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xin Y",
+              "lastName": "Xin",
+              "firstName": "Yue",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for Sustainable Forestry in Southern China , Nanjing Forestry University , 159 Longpan Road , Nanjing 210037 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang G",
+              "lastName": "Wang",
+              "firstName": "Guibin",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for Sustainable Forestry in Southern China , Nanjing Forestry University , 159 Longpan Road , Nanjing 210037 , China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu LA",
+              "lastName": "Xu",
+              "firstName": "Li-An",
+              "initials": "LA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6616-9747"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Co-Innovation Center for Sustainable Forestry in Southern China , Nanjing Forestry University , 159 Longpan Road , Nanjing 210037 , China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6616-9747"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7101-4413"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9987-6496"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "68",
+          "journalIssueId": 2905670,
+          "dateOfPublication": "2020 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "998-1006",
+        "abstractText": "<i>Ginkgo biloba</i> L. leaves are a flavonoid resource for the pharmaceutical industry. The flavonoid 3'-hydroxylase (<i>F3'H</i>) is a key enzyme in the flavonoid biosynthesis pathway. However, the role of <i>F3'H</i> in flavonoid biosynthesis and metabolism is unclear. In this study, we characterized and functionally analyzed the ginkgo <i>F3</i>'<i>H</i> gene <i>GbF3</i>'<i>H1</i> that encodes a protein of 520 amino acids. Expression profiling showed that <i>GbF3</i>'<i>H1</i> was highly expressed in the leaves of ginkgo in September. Subcellular localization showed that <i>GbF3</i>'<i>H1</i> occurred predominately in the cytoplasm. Transgenic poplars overexpressing <i>GbF3</i>'<i>H1</i> had more red pigmentation in leaves than did wild-type (WT) plants. Furthermore, the concentrations of epigallocatechin, gallocatechin, and catechin in the downstream products synthesized by flavonoids were significantly higher in the transgenic plants than in the WT plants. These results indicate that the overexpression of <i>GbF3</i>'<i>H1</i> enhances flavonoid production in transgenic plants and provides new insights into flavonoid biosynthesis and metabolism.",
+        "affiliation": "Co-Innovation Center for Sustainable Forestry in Southern China , Nanjing Forestry University , 159 Longpan Road , Nanjing 210037 , China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "State Forestry Administration",
+              "grantId": "201504105",
+              "orderIn": 0
+            },
+            {
+              "agency": "Government of Jiangsu Province",
+              "grantId": "KYCX18_0954",
+              "orderIn": 0
+            },
+            {
+              "agency": "Priority Academic Program Development of Jiangsu Higher Education Institutions",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Science and Technology of the People&apos;s Republic of China",
+              "grantId": "2017YFD0600700",
+              "orderIn": 0
+            },
+            {
+              "agency": "Government of Jiangsu Province",
+              "grantId": "CX(16)1005",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plants, Genetically Modified",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Populus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ginkgo biloba",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Plant"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Flavonoid",
+            "Transgenic plant",
+            "Metabolite",
+            "Gene function"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Plant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "gallocatechol",
+              "registryNumber": "HEJ6575V1X"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.jafc.9b07008"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 31,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-02-17",
+        "dateOfCreation": "2020-01-08",
+        "dateOfRevision": "2020-02-17",
+        "electronicPublicationDate": "2020-01-16",
+        "firstPublicationDate": "2020-01-16",
+        "firstIndexDate": "2020-01-17",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "29802302",
+        "source": "MED",
+        "pmid": "29802302",
+        "pmcid": "PMC6289332",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6289332"
+          ]
+        },
+        "doi": "10.1038/s41401-018-0030-x",
+        "title": "Anti-influenza effect and action mechanisms of the chemical constituent gallocatechin-7-gallate from Pithecellobium clypearia Benth.",
+        "authorString": "Li C, Li C, Xu LJ, Lian WW, Pang XC, Jia H, Liu AL, Du GH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li C",
+              "lastName": "Li",
+              "firstName": "Chao",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9196-1859"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China."
+                  },
+                  {
+                    "affiliation": "Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing, 100730, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li C",
+              "lastName": "Li",
+              "firstName": "Chao",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-8576-3265"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China."
+                  },
+                  {
+                    "affiliation": "Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing, 100730, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu LJ",
+              "lastName": "Xu",
+              "firstName": "Lv-Jie",
+              "initials": "LJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lian WW",
+              "lastName": "Lian",
+              "firstName": "Wen-Wen",
+              "initials": "WW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pang XC",
+              "lastName": "Pang",
+              "firstName": "Xiao-Cong",
+              "initials": "XC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5951-5944"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jia H",
+              "lastName": "Jia",
+              "firstName": "Hao",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu AL",
+              "lastName": "Liu",
+              "firstName": "Ai-Lin",
+              "initials": "AL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China. liuailin@imm.ac.cn."
+                  },
+                  {
+                    "affiliation": "Beijing Key Laboratory of Drug Target Research and Drug Screening, Beijing, 100050, China. liuailin@imm.ac.cn."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Natural Active Substances and Functions, Beijing, 100050, China. liuailin@imm.ac.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Du GH",
+              "lastName": "Du",
+              "firstName": "Guan-Hua",
+              "initials": "GH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China. dugh@imm.ac.cn."
+                  },
+                  {
+                    "affiliation": "Beijing Key Laboratory of Drug Target Research and Drug Screening, Beijing, 100050, China. dugh@imm.ac.cn."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Natural Active Substances and Functions, Beijing, 100050, China. dugh@imm.ac.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9196-1859"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5951-5944"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-8576-3265"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "39",
+          "journalIssueId": 2760397,
+          "dateOfPublication": "2018 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Acta Pharmacol Sin",
+            "title": "Acta pharmacologica Sinica",
+            "essn": "1745-7254",
+            "issn": "1671-4083",
+            "isoabbreviation": "Acta Pharmacol Sin",
+            "nlmid": "100956087"
+          },
+          "printPublicationDate": "2018-12-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "1913-1922",
+        "abstractText": "Host cdc2-like kinase 1 (CLK1) is responsible for the alternative splicing of the influenza virus M2 gene during influenza virus infection and replication that has been recognized as a potential anti-influenza virus target. In this study, we showed that gallocatechin-7-gallate (J10688), a novel CLK1 inhibitor isolated from Pithecellobium clypearia Benth, exerted potent anti-influenza virus activity in vivo and in vitro. ICR mice were intranasally infected with a lethal dose of H1N1. Administration of J10688 (30 mg·kg<sup>-</sup><sup>1</sup>·d<sup>-1</sup>, iv, for 5 days) significantly increased the survival rate of the H1N1-infected mice to 91.67% and prolong their mean survival time from 5.83 ± 1.74 days to 13.66 ± 1.15 days. J10688 administration also slowed down body weight loss, significantly alleviated influenza-induced acute lung injury, reduced lung virus titer, elevated the spleen and thymus indexes, and enhanced the immunological function. We further explored its anti-influenza mechanisms in the H1N1-infected A549 cells: as a novel CLK1 inhibitor, J10688 (3, 10, 30 μmol/L) dose-dependently impaired synthesis of the viral proteins NP and M2, and significantly downregulated the phosphorylation of splicing factors SF2/ASF and SC35, which regulate virus M2 gene alternative splicing. As a novel CLK1 inhibitor with potent anti-influenza activity in vitro and in vivo, J10688 could be a promising antiviral drug for the therapy of influenza A virus infection.",
+        "affiliation": "Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100050, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lung",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spleen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred ICR"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dogs"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Influenza B virus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fabaceae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Orthomyxoviridae Infections",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Kinase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antiviral Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Virus Replication",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Influenza A Virus, H3N2 Subtype",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Influenza A Virus, H1N1 Subtype",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein-Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Madin Darby Canine Kidney Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "A549 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Serine-Threonine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Influenza Virus",
+            "Traditional Chinese medicine",
+            "Gallocatechin-7-gallate",
+            "Pithecellobium Clypearia Benth",
+            "Cdc2-like Kinase 1"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antiviral Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protein Kinase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Clk dual-specificity kinases",
+              "registryNumber": "EC 2.7.1.-"
+            },
+            {
+              "name": "gallocatechin-7-gallate",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protein-Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "Protein Serine-Threonine Kinases",
+              "registryNumber": "EC 2.7.11.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/s41401-018-0030-x.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/s41401-018-0030-x.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/s41401-018-0030-x.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41401-018-0030-x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6289332"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6289332?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41401-018-0030-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-01-04",
+        "dateOfCreation": "2018-05-27",
+        "dateOfRevision": "2021-12-04",
+        "electronicPublicationDate": "2018-05-25",
+        "firstPublicationDate": "2018-05-25",
+        "firstIndexDate": "2018-05-26",
+        "fullTextReceivedDate": "2025-02-03",
+        "embargoDate": "2019-12-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25747993",
+        "source": "MED",
+        "pmid": "25747993",
+        "doi": "10.1248/bpb.b14-00646",
+        "title": "Biotransformation of (-)-epigallocatechin and (-)-gallocatechin by intestinal bacteria involved in isoflavone metabolism.",
+        "authorString": "Takagaki A, Nanjo F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Takagaki A",
+              "lastName": "Takagaki",
+              "firstName": "Akiko",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Food Research Laboratories, Mitsui Norin Co., Ltd."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nanjo F",
+              "lastName": "Nanjo",
+              "firstName": "Fumio",
+              "initials": "F"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "38",
+          "journalIssueId": 2261437,
+          "dateOfPublication": "2015 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Biol Pharm Bull",
+            "title": "Biological & pharmaceutical bulletin",
+            "essn": "1347-5215",
+            "issn": "0918-6158",
+            "isoabbreviation": "Biol Pharm Bull",
+            "nlmid": "9311984"
+          },
+          "printPublicationDate": "2015-01-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "325-330",
+        "abstractText": "Four isoflavone-metabolizing bacteria were tested for their abilities to degrade (-)-epigallocatechin (EGC) and its isomer (-)-gallocatechin (GC). Biotransformation of both EGC and GC was observed with Adlercreutzia equolifaciens JCM 14793, Asaccharobacter celatus JCM 14811, and Slackia equolifaciens JCM 16059, but not Slackia isoflavoniconvertens JCM 16137. With respect to the degradation of EGC, strain JCM 14793 only catalyzed 4'-dehydroxylation to produce 4'-dehydroxylated EGC (7). Strain JCM 14811 mainly produced 7, along with a slight formation of the C ring-cleaving product 1-(3,4,5-trihydroxyphenyl)-3-(2,4,6-trihydroxyphenyl)propan-2-ol (1). Strain JCM 16059 catalyzed only C ring cleavage to form 1. Interestingly, the presence of hydrogen promoted the bioconversion of EGC by these bacteria. In addition, strain JCM 14811 revealed the ability to catalyze 4'-dehydroxylation of 1 to yield 1-(3,5-dihydroxyphenyl)-3-(2,4,6-trihydroxyphenyl)propan-2-ol (2) in the presence of hydrogen. In the case of GC, strain JCM 14793 mainly produced C ring-cleaving product (1) with only a very small amount of 4'-dehydroxylated GC (8), while Strain JCM 14811 only catalyzed 4'-dehydroxylation to form 8. Strain JCM 16059 formed 1. The bioconversion of GC by the three strains was stimulated by hydrogen. Strain JCM 14793 showed the ability to convert 1 into 2 in the presence of hydrogen as did strain JCM 14811. Furthermore, strains JCM 14793 and JCM 14811 were found to have the ability to catalyze p-dehydroxylation of the pyrogallol moiety in the EGC metabolites 4-hydroxy-5-(3,4,5-trihydroxyphenyl)valeric acid (3) and 5-(3,4,5-trihydroxyphenyl)-γ-valerolactone (4), and this ability was enhanced by the presence of hydrogen.",
+        "affiliation": "Food Research Laboratories, Mitsui Norin Co., Ltd.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intestines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Actinobacteria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Isoflavones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biotransformation"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Isoflavones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "gallocatechol",
+              "registryNumber": "HEJ6575V1X"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1248/bpb.b14-00646"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 31,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-12-15",
+        "dateOfCreation": "2015-03-10",
+        "dateOfRevision": "2018-10-16",
+        "firstPublicationDate": "2015-01-01",
+        "firstIndexDate": "2015-03-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19653629",
+        "source": "MED",
+        "pmid": "19653629",
+        "doi": "10.1021/jf901545u",
+        "title": "Effects of tea catechins, epigallocatechin, gallocatechin, and gallocatechin gallate, on bone metabolism.",
+        "authorString": "Ko CH, Lau KM, Choy WY, Leung PC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ko CH",
+              "lastName": "Ko",
+              "firstName": "Chun Hay",
+              "initials": "CH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9180-2196"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Chinese Medicine, The Chinese University of Hong Kong, Shatin, Hong Kong, SAR, People's Republic of China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lau KM",
+              "lastName": "Lau",
+              "firstName": "Kit Man",
+              "initials": "KM"
+            },
+            {
+              "fullName": "Choy WY",
+              "lastName": "Choy",
+              "firstName": "Wing Yee",
+              "initials": "WY"
+            },
+            {
+              "fullName": "Leung PC",
+              "lastName": "Leung",
+              "firstName": "Ping Chung",
+              "initials": "PC"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9180-2196"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "16",
+          "volume": "57",
+          "journalIssueId": 1675417,
+          "dateOfPublication": "2009 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "J Agric Food Chem",
+            "title": "Journal of agricultural and food chemistry",
+            "essn": "1520-5118",
+            "issn": "0021-8561",
+            "isoabbreviation": "J Agric Food Chem",
+            "nlmid": "0374755"
+          },
+          "printPublicationDate": "2009-08-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "7293-7297",
+        "abstractText": "In this study, three tea catechins, epigallocatechin (EGC), gallocatechin (GC), and gallocatechin gallate (GCG), were investigated for their effects on bone metabolism. The effects of the tea catechins on bone formation were evaluated using cultured rat osteoblast-like osteosarcoma cell line UMR-106. EGC stimulated alkaline phosphatase activity significantly at concentrations of 10 and 20 microM. The amount of mineralization also increased significantly with EGC. On another cell culture platform, EGC significantly inhibited osteoclast formations from RAW 264.7 cells upon receptor activation of nuclear factor-kappaB ligand induction on the fourth day of treatment, at a concentration of 10 microM. EGC also dose-dependently inhibited the mRNA expression of tatrate-resistant acid phosphatase. GC and GCG could decrease osteoclastogenesis at 20 microM. The present study illustrated that the tea catechins, EGC in particular, had positive effects on bone metabolism through a double process of promoting osteoblastic activity and inhibiting osteoclast differentiations.",
+        "affiliation": "Institute of Chinese Medicine, The Chinese University of Hong Kong, Shatin, Hong Kong, SAR, People's Republic of China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bone and Bones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osteoclasts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Osteoblasts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/jf901545u"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 45,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-07-15",
+        "dateOfCreation": "2009-08-06",
+        "dateOfRevision": "2013-11-21",
+        "firstPublicationDate": "2009-08-01",
+        "firstIndexDate": "2010-07-16",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "21212555",
+        "source": "MED",
+        "pmid": "21212555",
+        "doi": "10.1248/cpb.59.100",
+        "title": "Stereochemical structure and intermolecular interaction of complexes of (-)-Gallocatechin-3-O-gallate and caffeine.",
+        "authorString": "Tsutsumi H, Sato T, Ishizu T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tsutsumi H",
+              "lastName": "Tsutsumi",
+              "firstName": "Hiroyuki",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9681-2139"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy and Pharmaceutical Sciences, Fukuyama University, Fukuyama, Hiroshima, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sato T",
+              "lastName": "Sato",
+              "firstName": "Takashi",
+              "initials": "T"
+            },
+            {
+              "fullName": "Ishizu T",
+              "lastName": "Ishizu",
+              "firstName": "Takashi",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9681-2139"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "59",
+          "journalIssueId": 1795687,
+          "dateOfPublication": "2011 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Chem Pharm Bull (Tokyo)",
+            "title": "Chemical & pharmaceutical bulletin",
+            "essn": "1347-5223",
+            "issn": "0009-2363",
+            "isoabbreviation": "Chem Pharm Bull (Tokyo)",
+            "nlmid": "0377775"
+          },
+          "printPublicationDate": "2011-01-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "100-105",
+        "abstractText": "A suspension containing an equimolecular amount of (-)-gallocatechin-3-O-gallate (GCg) and caffeine in water was heated at 90 °C for 30 min to give a 1 : 2 complex of GCg and caffeine. X-Ray crystallographic analysis of crystal of the 1 : 2 complex showed that π-π interactions formed between the A, B' rings of GCg and the two six-membered rings of caffeine. Whereas, the same suspension was heated at 90 °C for 30 s to give a sticky substance, which contained GCg, caffeine, and water at a molar ratio of 1 : 1 : 22 based on measurement of the integral volume of (1)H-NMR signals. The sticky substance crystallized slowly to give a 2 : 2 complex of GCg and caffeine. X-Ray crystallographic analysis of crystal of the 2 : 2 complex showed that the A and C rings of GCg moieties faced each other, and face-to-face π-π interactions formed between the B ring of GCg and caffeine, the B' ring of GCg and caffeine.",
+        "affiliation": "Faculty of Pharmacy and Pharmaceutical Sciences, Fukuyama University, Fukuyama, Hiroshima, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Water",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caffeine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Crystallography, X-Ray"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Spectroscopy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Conformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stereoisomerism"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Water",
+              "registryNumber": "059QF0KO0R"
+            },
+            {
+              "name": "Caffeine",
+              "registryNumber": "3G6A5W338E"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "gallocatechin gallate",
+              "registryNumber": "0C056HB16M"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1248/cpb.59.100"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-04-26",
+        "dateOfCreation": "2011-01-08",
+        "dateOfRevision": "2019-07-06",
+        "firstPublicationDate": "2011-01-01",
+        "firstIndexDate": "2011-01-11",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "20410646",
+        "source": "MED",
+        "pmid": "20410646",
+        "doi": "10.1248/cpb.58.572",
+        "title": "Offset pi-pi interaction in crystal structure of (-)-gallocatechin-3-O-gallate.",
+        "authorString": "Tsutsumi H, Sato T, Ishizu T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tsutsumi H",
+              "lastName": "Tsutsumi",
+              "firstName": "Hiroyuki",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9681-2139"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy and Pharmaceutical Sciences, Fukuyama University, Fukuyama, Hiroshima, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sato T",
+              "lastName": "Sato",
+              "firstName": "Takashi",
+              "initials": "T"
+            },
+            {
+              "fullName": "Ishizu T",
+              "lastName": "Ishizu",
+              "firstName": "Takashi",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9681-2139"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "58",
+          "journalIssueId": 1814440,
+          "dateOfPublication": "2010 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Chem Pharm Bull (Tokyo)",
+            "title": "Chemical & pharmaceutical bulletin",
+            "essn": "1347-5223",
+            "issn": "0009-2363",
+            "isoabbreviation": "Chem Pharm Bull (Tokyo)",
+            "nlmid": "0377775"
+          },
+          "printPublicationDate": "2010-04-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "572-574",
+        "abstractText": "The single crystal of (-)-gallocatechin-3-O-gallate (GCg) was prepared using a solution containing an equimolecular amount of GCg and (-)-epigallocatechin-3-O-gallate (EGCg) in water. The crystal structure of GCg determined by X-ray crystallographic analysis was monoclinic with the space group P2(1) at 223 K. Offset pi-pi interactions formed between the A and A rings, B and B rings, and gallate and gallate rings of GCg, and five intermolecular hydrogen bonds formed between GCgs, GCg and water. The B ring of GCg bonded to C2 was in the axial position and the gallate ring of GCg bonded to C3 was in the pseudoaxial position with respect to the C ring of GCg.",
+        "affiliation": "Faculty of Pharmacy and Pharmaceutical Sciences, Fukuyama University, Fukuyama, Hiroshima, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Crystallography, X-Ray"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrogen Bonding"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "gallocatechin gallate",
+              "registryNumber": "0C056HB16M"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1248/cpb.58.572"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEBI"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-07-27",
+        "dateOfCreation": "2010-04-23",
+        "dateOfRevision": "2019-07-06",
+        "firstPublicationDate": "2010-04-01",
+        "firstIndexDate": "2010-07-28",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "35558992",
+        "source": "MED",
+        "pmid": "35558992",
+        "pmcid": "PMC9088451",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9088451"
+          ]
+        },
+        "doi": "10.1039/c9ra05889c",
+        "title": "Interactions between β-cyclodextrin and tea catechins, and potential anti-osteoclastogenesis activity of the (-)-epigallocatechin-3-gallate-β-cyclodextrin complex.",
+        "authorString": "Xu H, Liu T, Xu J, Li J, Chen F, Xiang Z, Huang Y, Zhang D, Hu L, Zhang B, Zi C, Wang X, Sheng J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Xu H",
+              "lastName": "Xu",
+              "firstName": "Huanhuan",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0645-7998"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Science, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu T",
+              "lastName": "Liu",
+              "firstName": "Titi",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Food Science and Technology, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu J",
+              "lastName": "Xu",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Food Science and Technology, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jin",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Food Science and Technology, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen F",
+              "lastName": "Chen",
+              "firstName": "Fei",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Food Science and Technology, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xiang Z",
+              "lastName": "Xiang",
+              "firstName": "Zemin",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Food Science and Technology, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang Y",
+              "lastName": "Huang",
+              "firstName": "Yewei",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Science, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang D",
+              "lastName": "Zhang",
+              "firstName": "Dongying",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Science, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu L",
+              "lastName": "Hu",
+              "firstName": "Lihong",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Food Science and Technology, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang B",
+              "lastName": "Zhang",
+              "firstName": "Banglei",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5642-2745"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Food Science and Technology, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zi C",
+              "lastName": "Zi",
+              "firstName": "Chengting",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2367-3617"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Science, Yunnan Agricultural University Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xuanjun",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1211-506X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "College of Science, Yunnan Agricultural University Kunming 650201 China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan Kunming 650201 China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sheng J",
+              "lastName": "Sheng",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan Kunming 650201 China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5642-2745"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0645-7998"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2367-3617"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1211-506X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "48",
+          "volume": "9",
+          "journalIssueId": 3355939,
+          "dateOfPublication": "2019 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "RSC Adv",
+            "title": "RSC advances",
+            "essn": "2046-2069",
+            "issn": "2046-2069",
+            "isoabbreviation": "RSC Adv",
+            "nlmid": "101581657"
+          },
+          "printPublicationDate": "2019-09-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "28006-28018",
+        "abstractText": "Galloylated catechins, the most important secondary metabolites in green tea including (-)-epigallocatechin-3-gallate (EGCG) and (-)-epicatechin-3-gallate, constitute nearly 75% of all tea catechins and have stronger health effects than non-galloylated catechins such as (-)-epigallocatechin and (-)-epicatechin. EGCG is the most abundant, active, and thoroughly investigated compound in green tea, and its bioactivity might be improved by complexing with β-cyclodextrin (β-CD). We investigated interactions between four catechins and β-CD in a PBS buffer solution of pH 6.5 at 25 °C using biolayer interferometry and isothermal titration calorimetry, and to determine whether β-CD could enhance the anti-osteoclastogenesis effect of EGCG. β-CD could directly bind galloylated catechins at a stoichiometric ratio close to 1 : 1, with high specificities and affinities, and these inclusion interactions were primarily enthalpy-driven processes. We synthesized the EGCG-β-CD complex and identified it using infrared radiation and nuclear magnetic resonance spectra. Interestingly, we revealed that the EGCG-β-CD complex could inhibit osteoclastogenesis significantly more than EGCG.",
+        "affiliation": "Key Laboratory of Pu-er Tea Science, Ministry of Education, Yunnan Agricultural University Kunming 650201 China zichengting@126.com wangxuanjun@gmail.com shengjunpuer@163.com +86-871-65226058 +86-871-65226058.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://pubs.rsc.org/en/content/articlepdf/2019/ra/c9ra05889c"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/c9ra05889c"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9088451"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9088451?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2022-05-13",
+        "dateOfRevision": "2023-11-05",
+        "electronicPublicationDate": "2019-09-06",
+        "firstPublicationDate": "2019-09-06",
+        "firstIndexDate": "2022-05-15",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "11981454",
+        "source": "MED",
+        "pmid": "11981454",
+        "doi": "10.1179/135100002125000172",
+        "title": "Antioxidant properties of gallocatechin and prodelphinidins from pomegranate peel.",
+        "authorString": "Plumb GW, de Pascual-Teresa S, Santos-Buelga C, Rivas-Gonzalo JC, Williamson G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Plumb GW",
+              "lastName": "Plumb",
+              "firstName": "G W",
+              "initials": "GW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Phytochemicals Team, Nutrition, Health and Consumer Sciences Division, Institute of Food Research, Norwich, UK. geoff.plumb@bbsrc.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Pascual-Teresa S",
+              "lastName": "de Pascual-Teresa",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8546-8507"
+              }
+            },
+            {
+              "fullName": "Santos-Buelga C",
+              "lastName": "Santos-Buelga",
+              "firstName": "C",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6592-5299"
+              }
+            },
+            {
+              "fullName": "Rivas-Gonzalo JC",
+              "lastName": "Rivas-Gonzalo",
+              "firstName": "J C",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5654-335X"
+              }
+            },
+            {
+              "fullName": "Williamson G",
+              "lastName": "Williamson",
+              "firstName": "G",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5624-6267"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6592-5299"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8546-8507"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5624-6267"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5654-335X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "7",
+          "journalIssueId": 1075403,
+          "dateOfPublication": "2002 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2002,
+          "journal": {
+            "medlineAbbreviation": "Redox Rep",
+            "title": "Redox report : communications in free radical research",
+            "essn": "1743-2928",
+            "issn": "1351-0002",
+            "isoabbreviation": "Redox Rep",
+            "nlmid": "9511366"
+          },
+          "printPublicationDate": "2002-01-01"
+        },
+        "pubYear": "2002",
+        "pageInfo": "41-46",
+        "abstractText": "Gallocatechins and a range of prodelphinidins were purified by high performance liquid chromatography from pomegranate peel. Gallocatechin, gallocatechin-(4-8)-catechin, gallocatechin-(4-8)-gallocatechin and catechin-(4-8)-gallocatechin were all identified, purified and quantified by LC-DAD-MS and MS-MS. The antioxidant properties of these compounds were assessed using two methods: (i) inhibition of ascorbate/iron-induced peroxidation of phosphatidylcholine liposomes; and (ii) scavenging of the radical cation of 2,2-azinobis (3-ethyl-benzothiazoline-6-sulphonate, ABTS) relative to the water-soluble vitamin E analogue Trolox C (expressed as Trolox C equivalent antioxidant capacity, TEAC). The prodelphinidin dimers were potent antioxidants in the aqueous phase, being much more effective than the gallocatechin monomer. However, in the lipid phase, only one of the dimers (gallocatechin-(4-8)-catechin) was significantly more effective than the monomer in the inhibition of lipid peroxidation of phosphatidylcholine vesicles. This study represents the first report on the antioxidant properties of prodelphinidins.",
+        "affiliation": "Phytochemicals Team, Nutrition, Health and Consumer Sciences Division, Institute of Food Research, Norwich, UK. geoff.plumb@bbsrc.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fruit"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzopyrans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Anthocyanins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Extracts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inhibitory Concentration 50"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dimerization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Peroxidation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydrolysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Chemical"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Metabolism"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "gallocatechin-(4-8)-catechin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "gallocatechin-(4-8)-gallocatechin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Plant Extracts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzopyrans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Anthocyanins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "delphinidin",
+              "registryNumber": "EM6MD4AEHE"
+            },
+            {
+              "name": "gallocatechol",
+              "registryNumber": "HEJ6575V1X"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1179/135100002125000172"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 55,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2002-10-08",
+        "dateOfCreation": "2002-05-01",
+        "dateOfRevision": "2018-10-16",
+        "firstPublicationDate": "2002-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "16314917",
+        "source": "MED",
+        "pmid": "16314917",
+        "pmcid": "PMC11139065",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11139065"
+          ]
+        },
+        "doi": "10.1007/s00018-005-5422-7",
+        "title": "A structure-activity study for the inhibition of metalloproteinase-9 activity and gene expression by analogues of gallocatechin-3-gallate.",
+        "authorString": "Dell'agli M, Bellosta S, Rizzi L, Galli GV, Canavesi M, Rota F, Parente R, Bosisio E, Romeo S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dell'agli M",
+              "lastName": "Dell'agli",
+              "firstName": "M",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacological Sciences, University of Milan, Via Balzaretti 9, 20133, Milan, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bellosta S",
+              "lastName": "Bellosta",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Rizzi L",
+              "lastName": "Rizzi",
+              "firstName": "L",
+              "initials": "L"
+            },
+            {
+              "fullName": "Galli GV",
+              "lastName": "Galli",
+              "firstName": "G V",
+              "initials": "GV"
+            },
+            {
+              "fullName": "Canavesi M",
+              "lastName": "Canavesi",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Rota F",
+              "lastName": "Rota",
+              "firstName": "F",
+              "initials": "F"
+            },
+            {
+              "fullName": "Parente R",
+              "lastName": "Parente",
+              "firstName": "R",
+              "initials": "R"
+            },
+            {
+              "fullName": "Bosisio E",
+              "lastName": "Bosisio",
+              "firstName": "E",
+              "initials": "E"
+            },
+            {
+              "fullName": "Romeo S",
+              "lastName": "Romeo",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4692-7314"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4692-7314"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "23",
+          "volume": "62",
+          "journalIssueId": 1278727,
+          "dateOfPublication": "2005 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Cell Mol Life Sci",
+            "title": "Cellular and molecular life sciences : CMLS",
+            "essn": "1420-9071",
+            "issn": "1420-682X",
+            "isoabbreviation": "Cell Mol Life Sci",
+            "nlmid": "9705402"
+          },
+          "printPublicationDate": "2005-12-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "2896-2903",
+        "abstractText": "Catechins are able to modulate the gelatinolytic activity of matrix metalloproteinase-9 (MMP-9) by reducing its release from macrophages. Gallocatechins decrease MMP-9 secretion by lowering MMP-9 promoter activity and mRNA levels. The effect appears to be dependent on some structural and stereochemical requirements. In this study, the relationship between chemical structure and activity was studied by testing the effect of analogues of (+/-)-gallocatechin-3-gallate (+/-)-GCG, selectively deprived of hydroxyl groups, on MMP-9 activity, transcription, and secretion. Our results indicate that (+/-)-GCG and (+/-)-catechin-3-gallate are characterized by a substitution pattern compatible with direct inhibition of MMP-9 activity. Conversely, when transcription was the target, (+/-)-trans-3-flavanol-3-benzoate, lacking all the hydroxyl groups, was the most effective both in lowering MMP-9 promoter activity and consequently protein secretion, and in inhibiting nuclear-factor-kappaB-driven transcription. Our results suggest that the structural requirements for enzyme inhibition are different from those necessary for targeting gene expression.",
+        "affiliation": "Department of Pharmacological Sciences, University of Milan, Via Balzaretti 9, 20133, Milan, Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Macrophages",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NF-kappa B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Inhibitor of Metalloproteinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stereoisomerism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Matrix Metalloproteinase 9",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Matrix Metalloproteinase Inhibitors"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Tissue Inhibitor of Metalloproteinases",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NF-kappa B",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Matrix Metalloproteinase 9",
+              "registryNumber": "EC 3.4.24.35"
+            },
+            {
+              "name": "Matrix Metalloproteinase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "gallocatechin gallate",
+              "registryNumber": "0C056HB16M"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00018-005-5422-7"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11139065"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11139065?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00018-005-5422-7"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 15,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-01-19",
+        "dateOfCreation": "2005-11-30",
+        "dateOfRevision": "2024-06-01",
+        "firstPublicationDate": "2005-12-01",
+        "firstIndexDate": "2008-01-29",
+        "fullTextReceivedDate": "2024-06-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

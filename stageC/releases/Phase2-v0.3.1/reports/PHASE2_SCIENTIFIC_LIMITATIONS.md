@@ -1,0 +1,3 @@
+# Phase 2 scientific limitations
+
+No numerical cooked-concentration output is supported by the current evidence. The 117 observed records are condition-level concentration pairs and their ratios are not total-mass retention. Turmeric source cooked samples were lyophilized and table denominators are not fully bridged to Phase1B as-analyzed retail powder; turmeric+tamarind evidence does not match turmeric-only foods; pepper source and Phase1B states/moisture bases differ; cooking yields/mass balances are not reported. Green-tea EGCG evidence is qualitative only. Several Stage A/Stage B identity candidates require structure/stereochemistry or source-level review. Missing scientific inputs remain unresolved rather than imputed.

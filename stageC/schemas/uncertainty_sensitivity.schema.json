@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:uncertainty_sensitivity",
+  "title": "CookRisk additive interval sensitivity report",
+  "description": "Deterministic contributor-width ranking; missing contributor uncertainty withholds the full aggregate interval.",
+  "type": "object",
+  "required": ["output_id", "status", "method", "probabilistic", "aggregate_interval_complete", "amount_low", "amount_high", "unit", "supported_contributor_count", "unavailable_contributors", "ranked_contributors", "limitations"],
+  "properties": {
+    "output_id": {"type": "string"},
+    "status": {"enum": ["NO_SUPPORTED_INTERVALS", "PARTIAL_INTERVAL_SENSITIVITY_ONLY", "COMPLETE_CONDITIONAL_INTERVAL_SENSITIVITY", "COMPLETE_INTERVAL_SENSITIVITY"]},
+    "method": {"type": "string", "minLength": 1},
+    "probabilistic": {"const": false},
+    "aggregate_interval_complete": {"type": "boolean"},
+    "amount_low": {"type": "string"},
+    "amount_high": {"type": "string"},
+    "unit": {"type": "string", "minLength": 1},
+    "supported_contributor_count": {"type": "integer", "minimum": 0},
+    "unavailable_contributors": {"type": "array", "items": {"type": "object", "required": ["estimate_id", "uncertainty_status", "missing_uncertainty_reasons"], "properties": {"estimate_id": {"type": "string"}, "uncertainty_status": {"type": "string"}, "missing_uncertainty_reasons": {"type": "array", "items": {"type": "object"}}}, "additionalProperties": true}},
+    "ranked_contributors": {"type": "array", "items": {"type": "object", "required": ["rank", "estimate_id", "uncertainty_status", "interval_width", "unit", "share_of_supported_width", "supporting_evidence"], "properties": {"rank": {"type": "integer", "minimum": 1}, "estimate_id": {"type": "string"}, "uncertainty_status": {"type": "string"}, "interval_width": {"type": "string"}, "unit": {"type": "string"}, "share_of_supported_width": {"type": "string"}, "supporting_evidence": {"type": "array", "items": {"type": "object"}}}, "additionalProperties": false}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "allOf": [
+    {"if": {"properties": {"aggregate_interval_complete": {"const": true}}, "required": ["aggregate_interval_complete"]}, "then": {"properties": {"amount_low": {"minLength": 1}, "amount_high": {"minLength": 1}, "unavailable_contributors": {"maxItems": 0}}}, "else": {"properties": {"amount_low": {"const": ""}, "amount_high": {"const": ""}}}}
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,209 @@
+{
+  "registry_id": "STAGE-C-PHASE5-PUBLISHED-CANDIDATES-2026-11-04",
+  "scope": "Primary literature screen for quantitative raw/cooked onion quercetin evidence potentially comparable to Stage C food record B011-HPLC-06.",
+  "target_record": {
+    "food_record_id": "B011-HPLC-06",
+    "food": "Onion (Allium cepa), edible portion, raw",
+    "analyte": "Quercetin aglycone as a directly targeted HPLC-PDA analyte, with LC-ESI-QTOF/MS identity verification",
+    "reported_value_pointer": "stageC/data/food_composition/food_composition.csv; source DOI 10.3390/antiox8090405; Table 2",
+    "unit": "mg/100 g",
+    "basis": "fresh weight, edible portion",
+    "method_note": "The Stage C source chromatographically reports quercetin as its own analyte; it does not report acid-hydrolyzed total quercetin equivalents."
+  },
+  "screen_policy": {
+    "required_for_quantitative_comparison": [
+      "same compound form and reported measurand (free analyte versus hydrolysis-released or equivalent totals must not be conflated)",
+      "same food species and edible matrix; cultivar or variety must be known or explicitly treated as a population-level range",
+      "same raw/cooked state and compatible cooking condition for the modeled endpoint",
+      "same unit and measurement basis; no inferred dry/fresh, cooked/raw, or yield conversion",
+      "traceable analytical calibration and quantitative data locator in primary article or recognized database",
+      "replication and uncertainty sufficiently described to interpret the reference"
+    ],
+    "software_gate": "stageC/src/stage_c/validation.py::compare_to_reference requires units and measurement basis to match and requires reference ID/source reference for the published_data_comparison layer. This literature screen additionally requires scientific analyte and condition commensurability; code-level unit/basis acceptance alone is not a scientific eligibility decision.",
+    "value_policy": "No values were copied from abstracts, third-party reproductions, or unverified graphs. No numeric source fixture was made because no candidate clears the scientific comparison gate."
+  },
+  "candidates": [
+    {
+      "candidate_id": "PUB-001",
+      "citation": "Watanabe J, Muro T, Kobori M, Takano-Ishikawa Y. Changes in Quercetin Content and Antioxidant Capacity of Quercetin-Rich Onion Cultivar 'Quer-Gold' During Cooking. Nippon Shokuhin Kagaku Kogaku Kaishi. 2018;65(2):63-66.",
+      "doi": "10.3136/nskkk.65.63",
+      "pmid": null,
+      "pmcid": null,
+      "primary_source": "https://www.jstage.jst.go.jp/article/nskkk/65/2/65_63/_pdf",
+      "recognized_metadata_source": "https://doi.org/10.3136/nskkk.65.63",
+      "source_access": "Open primary publisher PDF; full text inspected.",
+      "quantitative_locator": "Table 1, pp. 64-65: quercetin content during sautéing; Table 3/Figure 1, p. 65: cooked onion dishes. Table 1 heading and associated methods/results §§1(1)-1(4), 2(1).",
+      "food_and_matrix": "Allium cepa edible bulb; 2014 Hokkaido-grown cultivars Quer-Gold and Kitamomiji 2000; bulbs held at 0°C before use.",
+      "analyte_and_form": "Quercetin reported as quercetin aglycone equivalents after analytical hydrolysis of quercetin glycosides. It is a total hydrolyzable quercetin measure, not free aglycone concentration.",
+      "raw_cooked_conditions": "Raw and sautéed onion. 4 mm dice, 6% canola/salad oil, 160°C; sampled at 20% and 50% mass loss. Cooked dishes used sautéed onion at a specified raw-onion-equivalent amount.",
+      "units_and_basis": "Table 1 reports mg/100 g initial fresh onion weight, correcting for oil added and water lost during sautéing. Dish values are per serving.",
+      "yield_and_mass_balance": "Mass-loss endpoints measured at 20% and 50%; recipe portions specify raw-onion-equivalent mass. Cooking yield is documented for the sauté treatment.",
+      "analytical_method": "Prominence HPLC using the authors' previously validated onion aglycone method; hydrolysis converts quercetin glycosides to aglycone equivalents before quantification.",
+      "replication": "Ten bulbs of each cultivar contributed edible material; cooking and recipe preparation performed three times; two sample/measurement replicates were averaged; Table 1 n=3, mean ± SD.",
+      "comparability_decision": "NOT_ELIGIBLE_FOR_CURRENT_B011_COMPARISON",
+      "blockers": [
+        "The measurand is total hydrolysis-released quercetin aglycone equivalents, while B011-HPLC-06 is direct quercetin aglycone; those values are not chemically interchangeable.",
+        "The controlled cultivars (Quer-Gold, Kitamomiji 2000; Hokkaido 2014) do not match the unspecified Melbourne-market cultivar in B011-HPLC-06.",
+        "No Stage C cooked onion prediction with a matching cultivar, sauté endpoint and total-equivalent measurand was present for this workstream to compare."
+      ],
+      "value_extracted": false
+    },
+    {
+      "candidate_id": "PUB-002",
+      "citation": "Cattivelli A, Conte A, Martini S, Tagliazucchi D. Influence of Cooking Methods on Onion Phenolic Compounds Bioaccessibility. Foods. 2021;10(5):1023.",
+      "doi": "10.3390/foods10051023",
+      "pmid": "34066759",
+      "pmcid": "PMC8151956",
+      "primary_source": "https://www.mdpi.com/2304-8158/10/5/1023",
+      "full_text_mirror": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8151956/",
+      "source_access": "Open publisher and PMC full text; tables, cooking methods, and analysis section inspected.",
+      "quantitative_locator": "Table 1 (cooking conditions and weight loss); Tables 2-3 (individual compounds in raw/cooked yellow- and red-skinned onion); Figure 1 (quercetin derivatives normalized to initial fresh weight); Methods §§2.2-2.7.",
+      "food_and_matrix": "Allium cepa L. bulb, yellow-skinned and red-skinned retail onions from Reggio Emilia, Italy.",
+      "analyte_and_form": "Individual free quercetin and multiple quercetin glycosides are listed; however, the methods state flavonols are quantified in quercetin-3-O-glucoside equivalents.",
+      "raw_cooked_conditions": "Raw plus baked (180°C, 30 min), boiled (100°C, 30 min; onion:water 1:5, drained 30 s), fried (sunflower oil, 140°C, 8 min), and grilled (110°C, 15 min). Onion peeled and sliced to about 0.3 cm.",
+      "units_and_basis": "Tables 2-3: mg compound/100 g raw or cooked onion. Figure 1: mg/100 g original fresh weight. These are distinct denominators and cannot be silently mixed.",
+      "yield_and_mass_balance": "Initial/final mass and weight-loss ratios recorded by cooking method in Table 1.",
+      "analytical_method": "HPLC coupled to electrospray ion-trap mass spectrometry; water/methanol/formic-acid extraction. Flavonols quantified as quercetin-3-O-glucoside equivalents.",
+      "replication": "Each cooking experiment in three trials; each analysis in triplicate; mean ± SD. Retail source cultivar, lot size, and biological lot replication are not resolved in the inspected methods.",
+      "comparability_decision": "NOT_ELIGIBLE_FOR_CURRENT_B011_COMPARISON",
+      "blockers": [
+        "Although quercetin is individually listed, the stated flavonol calibration is quercetin-3-O-glucoside equivalents; the published mass concentration is not traceably equivalent to B011's authentic-quercetin-standard result.",
+        "B011 has no cultivar identity, while this source separates yellow- and red-skinned retail onions.",
+        "The article provides cooked measurements but no matched Stage C cooked prediction was available in this isolated workstream."
+      ],
+      "value_extracted": false
+    },
+    {
+      "candidate_id": "PUB-003",
+      "citation": "Nishimuro H, et al. Estimated Daily Intake and Seasonal Food Sources of Quercetin in Japan. Nutrients. 2015;7(4):2345-2358.",
+      "doi": "10.3390/nu7042345",
+      "pmid": "25849945",
+      "pmcid": "PMC4425148",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4425148/",
+      "recognized_metadata_source": "https://pubmed.ncbi.nlm.nih.gov/25849945/",
+      "source_access": "Open full text in PMC; Methods §§2.1-2.2, Results §3.1 and Table 1 inspected.",
+      "quantitative_locator": "Table 1 and Results §3.1; cooking/sample preparation §§2.1-2.2.",
+      "food_and_matrix": "Allium cepa edible onion samples purchased in Sobetsu-area markets/supermarket, June/July and December 2013; planting/season/origin differ between summer and winter.",
+      "analyte_and_form": "Quercetin aglycone measured after acid hydrolysis of freeze-dried foods; the result includes aglycone liberated from glycosides and is not free aglycone alone.",
+      "raw_cooked_conditions": "Onion (200 g × 2) was cooked by stir-frying before lyophilization; the text separately describes sautéed onion results. Table 1 lists seasonal onion rows without a clearly paired untreated/cooked designation.",
+      "units_and_basis": "mg/100 g fresh weight; edible-portion basis. The reported sentence for sautéed onion gives the same unit, but the source does not provide a usable raw/cooked matched pair with explicit cooked mass yield in the inspected tables.",
+      "yield_and_mass_balance": "No cooked onion yield/retention mass balance identified in the inspected methods or tables.",
+      "analytical_method": "Acid hydrolysis (90°C, 60 min), then HPLC-PDA detection at 370 nm; hydrolysis converts quercetin glycosides to aglycone before measurement.",
+      "replication": "One to three market purchases per food; each sample determined in triplicate. Triplicates are analytical; the sample-level biological n is 1-3.",
+      "comparability_decision": "NOT_ELIGIBLE_FOR_CURRENT_B011_COMPARISON",
+      "blockers": [
+        "Hydrolyzed total quercetin aglycone equivalents differ from the directly measured free quercetin analyte in B011.",
+        "The article does not give an unambiguous paired raw-versus-sautéed onion table row and cooked yield needed for retention or cooked concentration comparison.",
+        "Season, planting type and production origin differ, and cultivar/lot matching with B011 is unavailable."
+      ],
+      "value_extracted": false
+    },
+    {
+      "candidate_id": "PUB-004",
+      "citation": "Németh K, Piskula MK, Takácsová M. Effect of Boiling on Yellow Onion Quercetin (Glucosides). Czech Journal of Food Sciences. 2004;22(Special Issue):S170-S172.",
+      "doi": "10.17221/10649-CJFS",
+      "pmid": null,
+      "pmcid": null,
+      "primary_source": "https://cjfs.agriculturejournals.cz/artkey/cjf-200410-0027_effect-of-boiling-on-yellow-onion-quercetin-glucosides.php",
+      "primary_pdf": "https://cjfs.agriculturejournals.cz/pdfs/cjf/2004/10/27.pdf",
+      "source_access": "Open primary publisher record and PDF; methods, figure captions and article locator inspected.",
+      "quantitative_locator": "Publisher PDF, pp. S170-S172; Figure 2 is identified as transfer of dry mass and quercetin glucosides into soup under three onion:water ratios. No table of free quercetin concentration was located.",
+      "food_and_matrix": "Yellow onion edible fleshy scales; inner/outer scale structure is considered.",
+      "analyte_and_form": "Quercetin mono- and diglucosides (3-glucoside, 4'-glucoside, 3,4'-diglucoside); analyte focus is conjugates and redistribution into broth.",
+      "raw_cooked_conditions": "Raw control, onion solids, and soup after 30 min reflux boiling at onion:water ratios 1:5, 1:10, and 1:20 by weight.",
+      "units_and_basis": "Not confirmed as a fresh-weight mass concentration in the accessible article text/figure locator; solids and soup were lyophilized before extraction. Do not infer or convert a fresh-weight result.",
+      "yield_and_mass_balance": "Cooking medium and onion:water ratios are specified; a quantitative cooked yield for the edible solids is not verified from the accessible locator.",
+      "analytical_method": "Lyophilization, acidified methanol extraction and HPLC-UV, per the primary article abstract/method description.",
+      "replication": "Not reported in the accessible paper text reviewed for this screen.",
+      "comparability_decision": "NOT_ELIGIBLE_FOR_CURRENT_B011_COMPARISON",
+      "blockers": [
+        "The target analytes are quercetin glycosides, not direct free quercetin aglycone.",
+        "The accessible locator does not establish compatible fresh-weight concentration units or replicate structure.",
+        "Boiling and broth transfer do not match a current Stage C cooked estimate in this workstream."
+      ],
+      "value_extracted": false
+    },
+    {
+      "candidate_id": "PUB-005",
+      "citation": "Harris S, Brunton N, Tiwari U, Cummins E. Human Exposure Modelling of Quercetin in Onions (Allium cepa L.) Following Thermal Processing. Food Chemistry. 2015;187:135-139.",
+      "doi": "10.1016/j.foodchem.2015.04.035",
+      "pmid": "25977008",
+      "pmcid": null,
+      "primary_source": "https://www.sciencedirect.com/science/article/abs/pii/S0308814615005816",
+      "recognized_metadata_source": "https://pubmed.ncbi.nlm.nih.gov/25977008/",
+      "source_access": "PubMed and publisher abstract/section preview accessible; full quantitative table content not available through inspected access.",
+      "quantitative_locator": "Publisher preview identifies Table 1 as concentrations of 3,4'-Qdg and 4'-Qmg in freeze-dried fresh/control and heat-treated onion extracts; exact cells and table units were not available in accessible preview.",
+      "food_and_matrix": "Local-retail Allium cepa inner flesh, Dublin, Ireland; outer layer removed.",
+      "analyte_and_form": "Quercetin-3,4'-diglucoside and quercetin-4'-monoglucoside. Publisher preview states quercetin standard was run but aglycone was not detected.",
+      "raw_cooked_conditions": "Frying, baking and steaming for 5, 10 and 15 min; full method details partially visible in publisher section snippets.",
+      "units_and_basis": "Exact Table 1 quantitative units/basis could not be verified from accessible full text; source calls the samples freeze-dried and methanolic extracts. No fresh-weight conversion was assumed.",
+      "yield_and_mass_balance": "Not verified from accessible table/method detail.",
+      "analytical_method": "Chromatographic glycoside concentration analysis reported; exact calibration and full method not verified from inspected primary full text.",
+      "replication": "Abstract reports onion samples n=3 and treatments by process/time; whether n denotes biological or analytical replicates was not resolved from accessible text.",
+      "comparability_decision": "NOT_ELIGIBLE_FOR_CURRENT_B011_COMPARISON",
+      "blockers": [
+        "Target analytes are quercetin glycosides, and the study reports no detected free quercetin aglycone.",
+        "Units, measurement basis, cooking yield and quantitative table cells could not be verified from accessible article text.",
+        "No matching Stage C prediction endpoint was available."
+      ],
+      "value_extracted": false
+    },
+    {
+      "candidate_id": "PUB-006",
+      "citation": "Lombard K, Peffley E, Geoffriau E, Thompson L, Herring A. Quercetin in Onion (Allium cepa L.) after Heat-Treatment Simulating Home Preparation. Journal of Food Composition and Analysis. 2005;18(6):571-581.",
+      "doi": "10.1016/j.jfca.2004.03.027",
+      "pmid": null,
+      "pmcid": null,
+      "primary_source": "https://www.sciencedirect.com/science/article/pii/S0889157504000675",
+      "recognized_metadata_source": "https://agris.fao.org/search/en/providers/122436/records/65deffc30f3e94b9e5d3dabe",
+      "source_access": "Publisher article page/preview and AGRIS metadata accessible; full quantitative article table not inspected.",
+      "quantitative_locator": "Publisher preview states pooled main-effect means are displayed in Table 1; tables/figures beyond the preview were not accessible for this screen.",
+      "food_and_matrix": "Allium cepa bulbs from five cultivars: four yellow-skinned and one red-skinned; publisher preview describes ten randomly selected bulbs per cultivar and cold storage before cooking.",
+      "analyte_and_form": "Primarily quercetin diglucoside and quercetin monoglucoside; source abstract reports the combined major conjugates and says they represent most total flavonol content. Individual free-aglycone result not verified in accessible table.",
+      "raw_cooked_conditions": "Raw control and sautéing, baking, boiling; detailed cooking times/temperatures are not in the accessible quantitative preview.",
+      "units_and_basis": "Not verified in accessible publisher preview; no unit or basis conversion attempted.",
+      "yield_and_mass_balance": "Preview discusses water loss/concentration effects, but exact paired yield and mass data were not accessible.",
+      "analytical_method": "Not sufficiently verified from accessible preview for a quantitative import.",
+      "replication": "Ten bulbs per cultivar are described in preview; the article reports pooled treatment means, but treatment-level independent sample/analytical replicate details were not verified.",
+      "comparability_decision": "NOT_ELIGIBLE_FOR_CURRENT_B011_COMPARISON",
+      "blockers": [
+        "The article's headline measurand is dominated by glycoside forms, not directly comparable to B011's free quercetin aglycone.",
+        "Full quantitative table, calibration, units, measurement basis, cooking yields and replicate details were unavailable in inspected access.",
+        "The multi-cultivar pooled sample cannot be matched to the unspecified B011 cultivar or a Stage C cooked endpoint."
+      ],
+      "value_extracted": false
+    },
+    {
+      "candidate_id": "PUB-007",
+      "citation": "Ioku K, Aoyama Y, Tokuno A, Terao J, Nakatani N, Takei Y. Various Cooking Methods and the Flavonoid Content in Onion. Journal of Nutritional Science and Vitaminology. 2001;47(1):78-83.",
+      "doi": "10.3177/jnsv.47.78",
+      "pmid": "11349895",
+      "pmcid": null,
+      "primary_source": "https://pubmed.ncbi.nlm.nih.gov/11349895/",
+      "publisher_article": "https://doi.org/10.3177/jnsv.47.78",
+      "source_access": "PubMed citation and abstract accessible; full numerical article tables not inspected.",
+      "quantitative_locator": "PubMed abstract (pp. 78-83 citation); a table/figure locator was not visible in the inspected record.",
+      "food_and_matrix": "Onion (Allium cepa); color, cultivar, part and sourcing are not specified in the accessible abstract.",
+      "analyte_and_form": "Quercetin 4'-O-beta-glucoside and quercetin 3,4'-O-beta-diglucoside, plus total phenolics and ascorbic acid.",
+      "raw_cooked_conditions": "Boiling, frying with oil or butter, and microwave cooking; exact time/temperature absent from accessible abstract.",
+      "units_and_basis": "Not verified; no table data extracted.",
+      "yield_and_mass_balance": "Not verified; abstract notes transfer to boiling water but no quantitative mass balance used.",
+      "analytical_method": "HPLC is indexed in PubMed; full quantitative method not inspected.",
+      "replication": "Not reported in accessible abstract.",
+      "comparability_decision": "NOT_ELIGIBLE_FOR_CURRENT_B011_COMPARISON",
+      "blockers": [
+        "Reported target is quercetin conjugates rather than direct free quercetin aglycone.",
+        "Compound-specific numeric tables, units, fresh/cooked basis, conditions and replicate details were not accessible for independent verification.",
+        "No matching Stage C cooked estimate was available."
+      ],
+      "value_extracted": false
+    }
+  ],
+  "screen_result": {
+    "candidate_count": 7,
+    "scientifically_eligible_count": 0,
+    "quantitative_fixture_created": false,
+    "comparison_run": false,
+    "reason": "No source provides a verified reference value that is the same direct free-quercetin measurand, in a compatible fresh-weight basis and target condition, with complete enough provenance to compare to B011-HPLC-06 or a Stage C cooked prediction without hydrolysis/calibration/matrix assumptions."
+  }
+}

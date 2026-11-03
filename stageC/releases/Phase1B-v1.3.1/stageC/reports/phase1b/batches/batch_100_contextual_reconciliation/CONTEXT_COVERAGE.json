@@ -1,0 +1,32 @@
+{
+  "metric_name": "quantitative_contextual_coverage",
+  "total_stage_b_targets": 119,
+  "ordinary_food_coverage": 109,
+  "ordinary_food_gaps": 10,
+  "final_10_with_numeric_contextual_leads": 8,
+  "final_10_without_verified_exact_numeric_matrix_values": 2,
+  "contextual_targets": [
+    "MOL-V10-5281605",
+    "MOL-V10-64982",
+    "MOL-V10-5281697",
+    "MOL-V10-5281703",
+    "MOL-V10-5320315",
+    "MOL-V10-3084961",
+    "MOL-V11-CID-5281600",
+    "MOL-V12-CID-5281779"
+  ],
+  "unresolved_targets": [
+    "MOL-V10-2825024",
+    "MOL-V12-CID-100625"
+  ],
+  "important_limitations": [
+    "Contextual values are not ordinary-food values and do not count toward the 109/119 verified ordinary-food metric.",
+    "Irilone 0.06 mg/g is secondary-source reported and its primary numeric row was not independently verified.",
+    "Amentoflavone percentages are for dried powdered Viburnum tissues; the study reports n=3 analytical measurements from collected material, not a market-sample series or independent population survey.",
+    "7-Methoxyflavanone and the exact pentamethoxyflavone have no verified quantitative matrix value; no estimate or zero was entered."
+  ],
+  "active_food_dataset_changed": false,
+  "phase1_validation": "PASS",
+  "active_food_records": 511,
+  "active_mapping_records": 511
+}

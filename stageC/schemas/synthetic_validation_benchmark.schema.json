@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:synthetic_validation_benchmark",
+  "title": "CookRisk SYNTHETIC arithmetic benchmark fixture",
+  "description": "Test-only arithmetic examples. This schema is not a published-data evidence or external-validation benchmark format.",
+  "type": "object",
+  "required": ["benchmark_id", "label", "benchmark_kind", "scientific_validation_claim", "records"],
+  "properties": {
+    "benchmark_id": {"type": "string", "pattern": "^SYNTHETIC-"},
+    "label": {"const": "SYNTHETIC — TEST FIXTURE ONLY"},
+    "benchmark_kind": {"const": "synthetic_arithmetic"},
+    "scientific_validation_claim": {"const": "NONE"},
+    "not_real_world_evidence": {"const": true},
+    "not_for_published_data_comparison": {"const": true},
+    "not_for_external_validation": {"const": true},
+    "purpose": {"type": "string", "minLength": 1},
+    "records": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["scenario_id", "scenario_kind", "inputs", "expected_output"],
+        "properties": {
+          "scenario_id": {"type": "string", "pattern": "^SYN-"},
+          "scenario_kind": {"enum": ["point_mass_exposure", "point_volume_exposure", "retention_interval"]},
+          "inputs": {
+            "type": "object",
+            "properties": {
+              "concentration": {"type": "string"},
+              "concentration_unit": {"type": "string"},
+              "quantity": {"type": "string"},
+              "quantity_unit": {"type": "string"},
+              "consumed_fraction": {"type": "string"},
+              "retention_low_percent": {"type": "string"},
+              "retention_high_percent": {"type": "string"},
+              "cooked_portion_quantity": {"type": "string"},
+              "cooked_portion_unit": {"type": "string"}
+            },
+            "additionalProperties": false
+          },
+          "expected_output": {
+            "type": "object",
+            "properties": {
+              "amount_mg": {"type": "string"},
+              "cooked_concentration_low": {"type": "string"},
+              "cooked_concentration_high": {"type": "string"},
+              "amount_low_mg": {"type": "string"},
+              "amount_high_mg": {"type": "string"},
+              "interval_interpretation": {"const": "conditional bound; not a probability interval"}
+            },
+            "additionalProperties": false
+          },
+          "provenance_label": {"const": "SYNTHETIC_FIXTURE_INPUT"}
+        },
+        "allOf": [
+          {
+            "if": {"properties": {"scenario_kind": {"const": "point_mass_exposure"}}, "required": ["scenario_kind"]},
+            "then": {
+              "properties": {
+                "inputs": {"required": ["concentration", "concentration_unit", "quantity", "quantity_unit", "consumed_fraction"]},
+                "expected_output": {"required": ["amount_mg"]}
+              }
+            }
+          },
+          {
+            "if": {"properties": {"scenario_kind": {"const": "point_volume_exposure"}}, "required": ["scenario_kind"]},
+            "then": {
+              "properties": {
+                "inputs": {"required": ["concentration", "concentration_unit", "quantity", "quantity_unit", "consumed_fraction"]},
+                "expected_output": {"required": ["amount_mg"]}
+              }
+            }
+          },
+          {
+            "if": {"properties": {"scenario_kind": {"const": "retention_interval"}}, "required": ["scenario_kind"]},
+            "then": {
+              "properties": {
+                "inputs": {"required": ["concentration", "concentration_unit", "retention_low_percent", "retention_high_percent", "cooked_portion_quantity", "cooked_portion_unit", "consumed_fraction"]},
+                "expected_output": {"required": ["cooked_concentration_low", "cooked_concentration_high", "amount_low_mg", "amount_high_mg", "interval_interpretation"]}
+              }
+            }
+          }
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "not": {
+    "anyOf": [
+      {"required": ["doi"]},
+      {"required": ["pmid"]},
+      {"required": ["publication_year"]},
+      {"required": ["external_validation_protocol"]}
+    ]
+  },
+  "additionalProperties": false
+}

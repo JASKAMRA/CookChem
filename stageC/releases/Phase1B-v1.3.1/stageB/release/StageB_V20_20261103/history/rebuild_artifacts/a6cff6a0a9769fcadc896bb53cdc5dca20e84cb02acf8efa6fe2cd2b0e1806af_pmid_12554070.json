@@ -1,0 +1,307 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:12554070 AND SRC:MED",
+    "internalQuery": "EXT_ID:12554070 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "12554070",
+        "source": "MED",
+        "pmid": "12554070",
+        "doi": "10.1016/s0928-0987(02)00222-1",
+        "title": "In vitro inhibition of simvastatin metabolism, a HMG-CoA reductase inhibitor in human and rat liver by bergamottin, a component of grapefruit juice.",
+        "authorString": "Le Goff-Klein N, Koffel JC, Jung L, Ubeaud G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Le Goff-Klein N",
+              "lastName": "Le Goff-Klein",
+              "firstName": "Nathalie",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratoire de Chimie Thérapeutique, Faculté de Pharmacie, 74 route du Rhin, BP 24, 67401 Illkirch Cedex, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Koffel JC",
+              "lastName": "Koffel",
+              "firstName": "Jean-Claude",
+              "initials": "JC"
+            },
+            {
+              "fullName": "Jung L",
+              "lastName": "Jung",
+              "firstName": "Louis",
+              "initials": "L"
+            },
+            {
+              "fullName": "Ubeaud G",
+              "lastName": "Ubeaud",
+              "firstName": "Geneviève",
+              "initials": "G"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "18",
+          "journalIssueId": 1165690,
+          "dateOfPublication": "2003 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2003,
+          "journal": {
+            "medlineAbbreviation": "Eur J Pharm Sci",
+            "title": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "essn": "1879-0720",
+            "issn": "0928-0987",
+            "isoabbreviation": "Eur J Pharm Sci",
+            "nlmid": "9317982"
+          },
+          "printPublicationDate": "2003-01-01"
+        },
+        "pubYear": "2003",
+        "pageInfo": "31-35",
+        "abstractText": "Grapefruit juice is responsible for many drug interactions but the exact components involved in this interaction are not precisely known. Flavonoids and furocoumarin derivatives such as naringenin and bergamottin, respectively, could be involved in the inhibition of drug metabolism. The objective of this paper is to investigate in vitro the possible metabolic hepatic interaction between simvastatin (SV) and bergamottin (BG) and thus to compare its effects to those of naringenin (NRG) the aglycone form of naringin (NR) (a flavonoid present in grapefruit juice). In human and rat microsomes and in rat hepatocytes, BG was found to be a mixed type inhibitor of SV metabolism. In rat liver microsomes the K(i) value of BG (K(i)=174+/-36 microM) is higher than the K(i) value of NRG (K(i)=29+/-11 microM). However, in human liver microsomes the K(i) values are similar in BG and NRG (K(i)=34+/-5 microM and 29+/-11 microM, respectively). Moreover, it seems that there is an interspecies difference between human and rat hepatic metabolism of SV involving different isoenzymes of CYP 450. In conclusion, our study shows that BG inhibits SV metabolism. BG and NRG could therefore be applied as markers in food-drug interaction studies in order to adjust posology.",
+        "affiliation": "Laboratoire de Chimie Thérapeutique, Faculté de Pharmacie, 74 route du Rhin, BP 24, 67401 Illkirch Cedex, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hepatocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Citrus paradisi"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavanones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Simvastatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food-Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Beverages"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "In Vitro Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furocoumarins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavanones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "naringenin",
+              "registryNumber": "HN5425SBF2"
+            },
+            {
+              "name": "Simvastatin",
+              "registryNumber": "AGG2FN16EV"
+            },
+            {
+              "name": "Furocoumarins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "bergamottin",
+              "registryNumber": "JMU611YFRB"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/s0928-0987(02)00222-1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2004-01-05",
+        "dateOfCreation": "2003-01-30",
+        "dateOfRevision": "2019-11-06",
+        "firstPublicationDate": "2003-01-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

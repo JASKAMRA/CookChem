@@ -1,0 +1,38 @@
+{
+  "recipe_id": "recipe-apples-epicatechin-example",
+  "name": "Illustrative raw apple portion",
+  "description": "Example only. The 150 g portion is user-entered and is not a measured dietary record or recommendation.",
+  "recipe_source": "CookRisk Phase 1B v1.3.1 food record; illustrative quantity supplied in this example",
+  "ingredients": [
+    {
+      "ingredient_id": "apple-1",
+      "food_record_id": "USDA-FLAV33-NDB09003-EPICATECHIN",
+      "compound_ids": ["CHEM-PUBCHEM-72276"],
+      "quantity": {"value": "150", "unit": "g", "source_reference": "Illustrative example input; not measured"},
+      "food_state": "raw",
+      "preparation_description": "Raw apple with skin; example portion",
+      "serving_fraction": "1",
+      "consumed_fraction": "1",
+      "mass_balance": {
+        "raw_mass": {"status": "not_reported"}, "prepared_mass": {"status": "not_reported"},
+        "cooked_mass": {"status": "not_reported"}, "edible_portion_mass": {"status": "not_reported"},
+        "discarded_portion_mass": {"status": "not_reported"}, "cooking_liquid_retained_mass": {"status": "not_reported"},
+        "cooking_liquid_discarded_mass": {"status": "not_reported"}, "cooking_oil_retained_mass": {"status": "not_reported"},
+        "cooking_oil_discarded_mass": {"status": "not_reported"}
+      },
+      "cooking_operations": [],
+      "provenance": {"example_quantity": "illustrative, not an observed intake"}
+    }
+  ],
+  "cooking_operations": [],
+  "servings_count": {"status": "not_reported"},
+  "mass_balance": {
+    "raw_mass": {"status": "not_reported"}, "prepared_mass": {"status": "not_reported"},
+    "cooked_mass": {"status": "not_reported"}, "edible_portion_mass": {"status": "not_reported"},
+    "discarded_portion_mass": {"status": "not_reported"}, "cooking_liquid_retained_mass": {"status": "not_reported"},
+    "cooking_liquid_discarded_mass": {"status": "not_reported"}, "cooking_oil_retained_mass": {"status": "not_reported"},
+    "cooking_oil_discarded_mass": {"status": "not_reported"}, "batch_yield": {"status": "not_reported"},
+    "serving_mass": {"status": "not_reported"}, "leftovers_mass": {"status": "not_reported"}
+  },
+  "provenance": {"example": true, "data_release": "Phase1B-v1.3.2"}
+}

@@ -1,0 +1,71 @@
+{
+  "release": "StageB_V15_20261102",
+  "classification": "PARTIAL_NOT_READY_FOR_160",
+  "counts": {
+    "unique_compounds": 136,
+    "interaction_evidence": 310,
+    "drug_probe_rows": 133,
+    "bibliography_rows": 158,
+    "unique_nonblank_PMIDs": 156,
+    "study_rows": 158,
+    "warning_rows": 64,
+    "remaining_to_160": 24
+  },
+  "batch_gates": {
+    "batch_6": "PASS",
+    "batch_7": "PASS"
+  },
+  "tests": {
+    "V15_focused": {
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 0
+    },
+    "StageB_full_regression": {
+      "passed": 45,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 0
+    },
+    "V15_synthetic_mutation_test": "PASS; 10 defect assertions in focused mutation test; 1 test method"
+  },
+  "validators": {
+    "V15_structural_provenance": "PASS",
+    "errors": 0,
+    "V14_historical_record_preservation": "PASS"
+  },
+  "integrity": {
+    "V15_manifest_exact": {
+      "status": "PASS",
+      "entries": 736,
+      "missing": 0,
+      "unexpected": 0,
+      "mismatches": 0,
+      "raw_byte_mismatches": 0
+    },
+    "V15_clean_copy_exact": {
+      "status": "PASS",
+      "entries": 736,
+      "missing": 0,
+      "unexpected": 0,
+      "mismatches": 0,
+      "raw_byte_mismatches": 0
+    },
+    "V14_manifest_exact": {
+      "status": "PASS",
+      "entries": 725
+    },
+    "V13_manifest_canonical": {
+      "status": "PASS",
+      "entries": 716,
+      "missing": 0,
+      "unexpected": 0,
+      "mismatches": 0,
+      "raw_exact_line_ending_differences": 650
+    }
+  },
+  "scientific_scope": "No new human clinical interaction claims. Batch 6 in-vitro transporter endpoints; Batch 7 categorical Caco-2 null findings. No unreported effect size converted to zero.",
+  "identity_limit": "RDKit unavailable; PubChem CID/name/InChI/InChIKey/SMILES checked; no local structure-parser result claimed.",
+  "protected_scope": "No Stage A or Stage C files inspected or modified; work and test execution limited to Stage B. No Git operations performed."
+}

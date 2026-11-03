@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.example/schemas/recipe.schema.json",
+  "title": "CookRisk Stage C recipe",
+  "type": "object",
+  "required": ["recipe_id", "name", "ingredients", "cooking_operations", "servings_count", "mass_balance", "provenance"],
+  "properties": {
+    "recipe_id": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
+    "recipe_source": {"type": "string"},
+    "ingredients": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/ingredient"}},
+    "cooking_operations": {"type": "array", "items": {"$ref": "#/$defs/operation"}},
+    "servings_count": {"$ref": "#/$defs/count"},
+    "mass_balance": {"$ref": "#/$defs/recipeMassBalance"},
+    "cooked_volume": {"$ref": "#/$defs/measurement"},
+    "serving_volume": {"$ref": "#/$defs/measurement"},
+    "leftovers_volume": {"$ref": "#/$defs/measurement"},
+    "provenance": {"type": "object"},
+    "metadata": {"type": "object"}
+  },
+  "$defs": {
+    "decimal": {"anyOf": [{"type": "number"}, {"type": "string", "pattern": "^-?[0-9]+([.][0-9]+)?$"}]},
+    "nonnegativeDecimal": {"anyOf": [{"type": "number", "minimum": 0}, {"type": "string", "pattern": "^[0-9]+([.][0-9]+)?$"}]},
+    "positiveDecimal": {"anyOf": [{"type": "number", "exclusiveMinimum": 0}, {"type": "string", "pattern": "^(?=.*[1-9])[0-9]+([.][0-9]+)?$"}]},
+    "fraction": {"anyOf": [{"type": "number", "minimum": 0, "maximum": 1}, {"type": "string", "pattern": "^(?:0(?:[.][0-9]+)?|1(?:[.]0+)?)$"}]},
+    "measurement": {
+      "type": "object", "required": ["status"],
+      "properties": {
+        "status": {"enum": ["measured", "not_reported"]},
+        "value": {"$ref": "#/$defs/nonnegativeDecimal"},
+        "unit": {"type": "string", "minLength": 1},
+        "source_reference": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"status": {"const": "measured"}}}, "then": {"required": ["value", "unit", "source_reference"]}},
+        {"if": {"properties": {"status": {"const": "not_reported"}}}, "then": {"not": {"anyOf": [{"required": ["value"]}, {"required": ["unit"]}]}}}
+      ]
+    },
+    "quantity": {
+      "type": "object", "required": ["value", "unit"],
+      "properties": {
+        "value": {"$ref": "#/$defs/nonnegativeDecimal"},
+        "unit": {"enum": ["kg", "g", "mg", "ug", "µg", "μg", "ng", "L", "l", "liter", "litre", "mL", "ml", "milliliter", "millilitre"]},
+        "source_reference": {"type": "string"}
+      }
+    },
+    "operation": {
+      "type": "object", "required": ["operation_id", "method"],
+      "properties": {
+        "operation_id": {"type": "string", "minLength": 1},
+        "method": {"type": "string", "minLength": 1},
+        "duration_min": {"$ref": "#/$defs/nonnegativeDecimal"},
+        "temperature_c": {"$ref": "#/$defs/decimal"},
+        "medium": {"type": "string"},
+        "details": {"type": "string"}
+      }
+    },
+    "count": {
+      "type": "object", "required": ["status"],
+      "properties": {"status": {"enum": ["measured", "not_reported"]}, "value": {"$ref": "#/$defs/positiveDecimal"}}
+    },
+    "ingredientMassBalance": {
+      "type": "object",
+      "required": ["raw_mass", "prepared_mass", "cooked_mass", "edible_portion_mass", "discarded_portion_mass", "cooking_liquid_retained_mass", "cooking_liquid_discarded_mass", "cooking_oil_retained_mass", "cooking_oil_discarded_mass"],
+      "properties": {
+        "raw_mass": {"$ref": "#/$defs/measurement"}, "prepared_mass": {"$ref": "#/$defs/measurement"},
+        "cooked_mass": {"$ref": "#/$defs/measurement"}, "edible_portion_mass": {"$ref": "#/$defs/measurement"},
+        "discarded_portion_mass": {"$ref": "#/$defs/measurement"}, "cooking_liquid_retained_mass": {"$ref": "#/$defs/measurement"},
+        "cooking_liquid_discarded_mass": {"$ref": "#/$defs/measurement"}, "cooking_oil_retained_mass": {"$ref": "#/$defs/measurement"},
+        "cooking_oil_discarded_mass": {"$ref": "#/$defs/measurement"}, "batch_yield": {"$ref": "#/$defs/measurement"},
+        "serving_mass": {"$ref": "#/$defs/measurement"}, "leftovers_mass": {"$ref": "#/$defs/measurement"}
+      }
+    },
+    "recipeMassBalance": {
+      "type": "object",
+      "required": ["raw_mass", "prepared_mass", "cooked_mass", "edible_portion_mass", "discarded_portion_mass", "cooking_liquid_retained_mass", "cooking_liquid_discarded_mass", "cooking_oil_retained_mass", "cooking_oil_discarded_mass", "batch_yield", "serving_mass", "leftovers_mass"],
+      "properties": {
+        "raw_mass": {"$ref": "#/$defs/measurement"}, "prepared_mass": {"$ref": "#/$defs/measurement"}, "cooked_mass": {"$ref": "#/$defs/measurement"},
+        "edible_portion_mass": {"$ref": "#/$defs/measurement"}, "discarded_portion_mass": {"$ref": "#/$defs/measurement"},
+        "cooking_liquid_retained_mass": {"$ref": "#/$defs/measurement"}, "cooking_liquid_discarded_mass": {"$ref": "#/$defs/measurement"},
+        "cooking_oil_retained_mass": {"$ref": "#/$defs/measurement"}, "cooking_oil_discarded_mass": {"$ref": "#/$defs/measurement"},
+        "batch_yield": {"$ref": "#/$defs/measurement"}, "serving_mass": {"$ref": "#/$defs/measurement"}, "leftovers_mass": {"$ref": "#/$defs/measurement"}
+      }
+    },
+    "ingredient": {
+      "type": "object",
+      "required": ["ingredient_id", "food_record_id", "compound_ids", "quantity", "food_state", "serving_fraction", "consumed_fraction", "mass_balance", "cooking_operations", "provenance"],
+      "properties": {
+        "ingredient_id": {"type": "string", "minLength": 1}, "food_record_id": {"type": "string", "minLength": 1},
+        "compound_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "quantity": {"$ref": "#/$defs/quantity"},
+        "food_state": {"enum": ["raw", "processed", "cooked", "fermented", "dried", "frozen", "other"]},
+        "preparation_description": {"type": "string"},
+        "serving_fraction": {"$ref": "#/$defs/fraction"},
+        "consumed_fraction": {"$ref": "#/$defs/fraction"},
+        "mass_balance": {"$ref": "#/$defs/ingredientMassBalance"},
+        "cooked_volume": {"$ref": "#/$defs/measurement"},
+        "cooking_operations": {"type": "array", "items": {"$ref": "#/$defs/operation"}},
+        "density": {"type": "object", "required": ["kg_per_l", "verification_status", "source_reference"], "properties": {"kg_per_l": {"$ref": "#/$defs/positiveDecimal"}, "verification_status": {"type": "string"}, "source_reference": {"type": "string", "minLength": 1}}},
+        "provenance": {"type": "object"}
+      }
+    }
+  }
+}

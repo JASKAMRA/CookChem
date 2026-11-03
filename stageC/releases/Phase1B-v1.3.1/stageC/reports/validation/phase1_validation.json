@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "food_errors": [],
+  "mapping_errors": [],
+  "exposure_errors": [],
+  "scientific_integrity_violations": [],
+  "stage_b_snapshot_changes": [],
+  "mapping_coverage": {
+    "total_stage_b_compounds": 143,
+    "compounds_with_verified_quantitative_food_data": 125,
+    "compounds_with_candidate_records": 130,
+    "compounds_with_no_verified_quantitative_data": 18,
+    "compounds_with_no_quantitative_data": 18,
+    "compounds_pending_identity_review": 13,
+    "legacy_mapped_compounds_pending_identity_review": 5,
+    "legacy_mapping_rows_pending_identity_review": 9,
+    "ambiguous_mappings": 0,
+    "unmatched_records": 0,
+    "rejected_mappings": 0,
+    "food_composition_records": 584,
+    "mapping_records": 584
+  },
+  "stage_b_release": "StageB_V20_20261103",
+  "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+  "stage_b_compounds": 143,
+  "stage_b_identity_review_items": [
+    {
+      "compound_id": "MOL-V11-CID-72941753",
+      "canonical_name": "Paradisin A",
+      "status": "Manual review pending — V20 manual review required"
+    },
+    {
+      "compound_id": "MOL-V11-CID-24788952",
+      "canonical_name": "Paradisin C",
+      "status": "Manual review pending — V20 manual review required"
+    },
+    {
+      "compound_id": "MOL-V11-CID-1268142",
+      "canonical_name": "Nootkatone",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V11-CID-9946625",
+      "canonical_name": "Epoxybergamottin",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V12-CID-5702287",
+      "canonical_name": "18β-Glycyrrhetinic acid",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V13-CID-5281858",
+      "canonical_name": "Ginkgolic acid C15:1",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V13-CID-5469634",
+      "canonical_name": "Ginkgolic acid C17:1",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V14-CID-5469424",
+      "canonical_name": "Demethoxycurcumin",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V14-CID-5315472",
+      "canonical_name": "Bisdemethoxycurcumin",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V14-CID-33258",
+      "canonical_name": "Allura Red AC (FD&C Red No. 40)",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V15-CID-19700",
+      "canonical_name": "Brilliant Blue FCF",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V15-CID-19118",
+      "canonical_name": "Azorubine (carmoisine)",
+      "status": "Manual review pending — V20 partially resolved"
+    },
+    {
+      "compound_id": "MOL-V15-CID-164825",
+      "canonical_name": "Tartrazine",
+      "status": "Manual review pending — V20 partially resolved"
+    }
+  ],
+  "repeated_nonstereospecific_smiles_review_groups": [
+    {
+      "compound_ids": [
+        "CHEM-PUBCHEM-72276",
+        "CHEM-PUBCHEM-9064"
+      ],
+      "canonical_names": [
+        "(+)-Catechin",
+        "(-)-Epicatechin"
+      ]
+    }
+  ],
+  "food_records": 584,
+  "mapping_records": 584,
+  "mapping_orphan_ids": [],
+  "legacy_mappings_blocked_by_current_identity_review": [
+    {
+      "mapping_id": "MAP-33662B97A5C426A767C1",
+      "compound_id": "MOL-V11-CID-9946625",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 partially resolved",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-37D570CEA89882094B94",
+      "compound_id": "MOL-V11-CID-9946625",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 partially resolved",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-E7AA77860DE1B32B29C4",
+      "compound_id": "MOL-V11-CID-72941753",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 manual review required",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-CD5847C8550024E11F6C",
+      "compound_id": "MOL-V11-CID-24788952",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 manual review required",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-169B9C953A9E4C23A452",
+      "compound_id": "MOL-V12-CID-5702287",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 partially resolved",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-41618011973E2E7BDD28",
+      "compound_id": "MOL-V12-CID-5702287",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 partially resolved",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-4304827B25CB948D6965",
+      "compound_id": "MOL-V12-CID-5702287",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 partially resolved",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-D89BB1E8D68DD6A88205",
+      "compound_id": "MOL-V11-CID-1268142",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 partially resolved",
+      "active_use_allowed": "false"
+    },
+    {
+      "mapping_id": "MAP-C6BE43CC811C4D320C0D",
+      "compound_id": "MOL-V11-CID-1268142",
+      "stored_mapping_status": "Exact identity match",
+      "effective_mapping_status": "Pending identity review",
+      "current_identity_status": "Manual review pending — V20 partially resolved",
+      "active_use_allowed": "false"
+    }
+  ],
+  "legacy_mapping_rows_blocked_by_current_identity_review": 9
+}

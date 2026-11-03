@@ -1,0 +1,57 @@
+{
+  "release": "StageB_V17_20261103",
+  "baseline": "StageB_V16_20261102",
+  "status": "FINAL_WITH_DOCUMENTED_SCIENTIFIC_LIMITATIONS",
+  "approved_scope": {
+    "compounds": 143,
+    "interaction_evidence": 317,
+    "drug_probe_rows": 133,
+    "bibliography_rows": 163,
+    "study_rows": 161,
+    "warning_rows": 70,
+    "new_v17_compounds": 7
+  },
+  "warning_audit": {
+    "audited_rows": 70,
+    "inherited_rows": 66,
+    "new_v17_rows": 4,
+    "status_counts": {
+      "RESOLVED": 3,
+      "PARTIALLY_RESOLVED": 14,
+      "STILL_VALID": 26,
+      "NEEDS_MANUAL_REVIEW": 25,
+      "NOT_APPLICABLE": 2
+    },
+    "severity": "NOT_RECORDED for inherited severity; no severity invented",
+    "source_review_limit": "The warning dispositions are fresh row-level V17 assessments against current records, source locators and validation. They do not assert a full-text re-extraction of all 317 outcomes."
+  },
+  "technical_repairs": [
+    "Added claim-support and source-audit links for SB-V14-001..009 and SB-V15-001..011, retaining primary-source locators and limitations.",
+    "Confirmed all 14 V9-origin compounds have complete registry and identity-audit structure fields with exact-key matches.",
+    "Updated V17 validator to enforce the user-approved final count of 143 and support fresh warning-report reconciliation.",
+    "Updated structural validator to recognize the V17 warning lifecycle vocabulary without suppressing legacy checks."
+  ],
+  "remaining_scientific_limitations": [
+    "210 of 317 evidence records still lack a separate source-audit row; tracked by V11-W03.",
+    "S-equol journal full text was inaccessible; quantitative values remain attributed to the dissertation; V17-W03 open.",
+    "Phloridzin rat rosuvastatin data are not attributed; the animal experiment used phloretin; V17-W04 open.",
+    "Unresolved stereochemistry, source access, exposure and cohort/arm adjudications remain open as itemized in the warning report."
+  ],
+  "tests": {
+    "v17_focused": "15/15 PASS",
+    "stageB_root": "46/46 PASS",
+    "structural_validator": "PASS_WITH_WARNINGS; 0 errors, 318 warnings",
+    "mutation_tests": "12/12 PASS",
+    "manifest_exact": "PASS 765/765",
+    "clean_copy": "PASS 765/765",
+    "V16_readonly_manifest": "PASS 744/744"
+  },
+  "authoritative_warning_report": "validation/V17_warning_by_warning_audit.csv",
+  "source_audit_coverage": {
+    "evidence_records": 317,
+    "claim_support_unique": 317,
+    "source_audit_rows": 118,
+    "source_audit_unique": 107,
+    "records_without_source_audit": 210
+  }
+}

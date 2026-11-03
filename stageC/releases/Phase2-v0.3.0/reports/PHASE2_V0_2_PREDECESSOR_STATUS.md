@@ -1,0 +1,1 @@
+Phase2-v0.2.0 is preserved byte-for-byte as a historical release. Its status and file hashes describe that predecessor snapshot; the v0.3.0 completion decision and final reviews are recorded in PHASE2_FINALIZATION_REPORT.md.

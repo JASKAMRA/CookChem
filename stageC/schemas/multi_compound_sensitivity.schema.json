@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:multi_compound_sensitivity",
+  "title": "CookRisk compound-separated interval sensitivity report",
+  "type": "object",
+  "required": ["schema_version", "output_id", "compound_reports", "limitations"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "output_id": {"type": "string"},
+    "compound_reports": {"type": "array", "items": {"type": "object", "required": ["compound_id", "analysis"], "properties": {"compound_id": {"type": "string", "minLength": 1}, "analysis": {"type": "object", "required": ["status", "method", "probabilistic", "aggregate_interval_complete", "amount_low", "amount_high", "unit", "supported_contributor_count", "unavailable_contributors", "ranked_contributors", "limitations"], "properties": {"status": {"type": "string"}, "method": {"type": "string"}, "probabilistic": {"const": false}, "aggregate_interval_complete": {"type": "boolean"}, "amount_low": {"type": "string"}, "amount_high": {"type": "string"}, "unit": {"type": "string"}, "supported_contributor_count": {"type": "integer", "minimum": 0}, "unavailable_contributors": {"type": "array"}, "ranked_contributors": {"type": "array"}, "limitations": {"type": "array", "items": {"type": "string"}}}, "additionalProperties": true}}, "additionalProperties": false}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

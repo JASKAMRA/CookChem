@@ -1,0 +1,75 @@
+[
+  {
+    "evidence_id": "EVD-PK-0001",
+    "source_id": "SRC-PK-0001",
+    "compound_reference": {
+      "name_as_reported": "caffeine",
+      "phase1b_compound_id": "MOL-693364CB16A9EA2D",
+      "match_status": "NAME_ONLY_MATCH",
+      "match_rationale": "The PubMed abstract names caffeine but does not report a structure identifier or Phase1B ID. The Phase1B-v1.3.1 registry contains the candidate record under this ID; the link is retained as a name-level cross-reference and is not identity-adjudicated."
+    },
+    "food_matrix": ["coffee", "energy drink"],
+    "category": "human_pharmacokinetics",
+    "research_question": "In healthy young adults, do beverage vehicle (coffee versus energy drink), beverage temperature, or rapid versus slower consumption materially change caffeine pharmacokinetic profiles after the studied dose?",
+    "study": {
+      "study_type": "open-label, group-randomized, crossover experimental study",
+      "model": "human",
+      "population_or_model": "24 healthy subjects aged 18-30 completed the study",
+      "exposure_route": "oral"
+    },
+    "conditions": {
+      "dose": 160,
+      "dose_unit": "mg caffeine per condition",
+      "dose_basis": "administered dose stated in PubMed abstract; five conditions",
+      "preparation": "Coffee or a sugar-free energy drink; coffee/energy drink temperature and consumption rate varied by condition",
+      "experimental_conditions": ["rapid consumption over 2 minutes", "slow consumption over 20 minutes", "chilled coffee", "hot coffee", "chilled sugar-free energy drink", "10 serial plasma samples after each caffeine dose"]
+    },
+    "outcome": {
+      "measure": "Plasma caffeine concentration-time profile and pharmacokinetic parameters",
+      "result_type": "qualitative_observation",
+      "reported_result": "The abstract reports similar mean concentration-time profiles with overlapping standard deviations at measured time points. An omnibus repeated-measures analysis found differences in mean Cmax and Vdss/F, but no pairwise comparison reached statistical significance; no numerical PK estimates are extracted here.",
+      "numeric_value": null,
+      "unit": null,
+      "denominator": "24 participants completed; five crossover conditions; 10 serial plasma samples after each condition",
+      "uncertainty": "The abstract reports overlapping standard deviations but provides no numerical estimates or confidence intervals for these outcomes."
+    },
+    "identity_assessment": {
+      "match_status": "NAME_ONLY_MATCH",
+      "basis": "The abstract identifies the analyte by the common name caffeine; no chemical identifier is reported in the source section reviewed.",
+      "review_status": "pending"
+    },
+    "applicability_assessment": {
+      "status": "CONTEXT_LIMITED",
+      "food_matrix": "Coffee and a sugar-free energy drink under the study protocols",
+      "preparation": "Beverage temperature and consumption rate as specified in the abstract; serving composition and preparation details not extracted from full text",
+      "route": "Oral",
+      "population": "Healthy young adults aged 18-30",
+      "rationale": "The result is restricted to a single administered dose and the tested beverage protocols. It cannot be generalized to other foods, recipes, populations, or doses without review of full methods and results."
+    },
+    "limitations": [
+      "Only the PubMed abstract was inspected for this extraction; full-text tables and figures were not reviewed.",
+      "The abstract does not provide the numerical Cmax, AUC, Tmax, or half-life values, so this record supports no numeric exposure conversion.",
+      "A single 160 mg administered dose and 24 healthy completers do not establish dose-response or applicability to other populations.",
+      "The source's common-name analyte identification is not an adjudicated chemical-identity crosswalk to Phase1B.",
+      "This record is contextual research evidence and is not a food concentration, cooking-retention factor, safety threshold, or clinical recommendation."
+    ],
+    "extraction": {
+      "status": "abstract_extracted",
+      "method": "manual transcription and paraphrase from the NCBI PubMed abstract; no automated or LLM-generated acceptance",
+      "source_location": "PubMed record PMID 27100333, Abstract: Materials, Results, Discussion, and Conclusion",
+      "extracted_on": "2026-11-03"
+    },
+    "review": {
+      "status": "pending_second_reviewer",
+      "quality_class": "not_rated",
+      "reviewer_notes": "Single-pass abstract-level extraction. Full text and independent source-level verification are pending.",
+      "decision_rationale": "Not accepted for downstream calculation or contextual display pending independent review, full-text assessment, and identity/application adjudication."
+    },
+    "version": "0.1.0",
+    "provenance": {
+      "upstream_phase1b_release": "Phase1B-v1.3.1",
+      "upstream_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+      "registered_on": "2026-11-03"
+    }
+  }
+]

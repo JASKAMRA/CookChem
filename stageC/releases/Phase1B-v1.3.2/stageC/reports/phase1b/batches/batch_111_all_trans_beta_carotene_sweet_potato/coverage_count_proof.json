@@ -1,0 +1,33 @@
+{
+  "batch": "111_cumulative_probe",
+  "stage_b_release": "StageB_V20_20261103",
+  "baseline_identity_complete_quantitative_compounds": 111,
+  "cumulative_new_unique_compounds": [
+    "Vanillic acid",
+    "Sinensetin",
+    "Butylated hydroxytoluene",
+    "all-trans-β-Carotene"
+  ],
+  "after_probe_validation": 115,
+  "new_food_records_since_546_baseline": 24,
+  "probe_food_records": 570,
+  "probe_mappings": 570,
+  "phase1_validation": "PASS",
+  "food_errors": 0,
+  "mapping_errors": 0,
+  "snapshot_changes": 0,
+  "identity_complete_compounds": 130,
+  "identity_pending_compounds": 13,
+  "legacy_mapping_rows_blocked": 9,
+  "food_composition_sha256": "fff9e89370cce6bff235d8e16f3cf3b33c4007fa9133366eb91730013c9922e5",
+  "mapping_sha256": "7997dc240b7322eb67b441eab78dc17f74a7b4b76b00f05f0a931fd14bce8cd6",
+  "active_root_modified": false,
+  "phase1_v13_modified": false,
+  "release_created": false,
+  "target_status": {
+    "approx_120_achieved": false,
+    "approx_120_shortfall": 5,
+    "earlier_130_minimum_achieved": false,
+    "earlier_130_minimum_shortfall": 15
+  }
+}

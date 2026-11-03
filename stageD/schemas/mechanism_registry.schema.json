@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookchem.local/stageD/schemas/mechanism_registry.schema.json",
+  "title": "Stage D source-pinned mechanism candidate registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "release_id", "source_file", "source_file_sha256", "source_row_count", "selected_record_count", "warning", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "release_id": {"const": "StageB_V20_20261103"},
+    "source_file": {"type": "string", "minLength": 1},
+    "source_file_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_row_count": {"type": "integer", "minimum": 1},
+    "selected_record_count": {"type": "integer", "minimum": 0},
+    "warning": {"type": "string", "minLength": 1},
+    "records": {
+      "type": "array",
+      "items": {"type": "object"},
+      "uniqueItems": true
+    }
+  }
+}

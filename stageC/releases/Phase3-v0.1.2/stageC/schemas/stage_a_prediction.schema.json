@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.example/schemas/stage_a_prediction.schema.json",
+  "title": "CookRisk supplied Stage A output handoff",
+  "description": "A provenance-carrying prediction or measurement record; passing this schema does not mean it is scientifically approved or compatible.",
+  "type": "object",
+  "required": ["schema_version", "prediction_id", "food_record_id", "compound_id", "food_matrix", "food_state", "cooking_conditions", "measurement_basis", "denominator", "prediction", "provenance", "scientific_review"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "prediction_id": {"type": "string", "minLength": 1},
+    "food_record_id": {"type": "string", "minLength": 1},
+    "compound_id": {"type": "string", "minLength": 1},
+    "food_matrix": {"type": "string", "minLength": 1},
+    "food_state": {"type": "string", "minLength": 1},
+    "cooking_conditions": {"$ref": "#/$defs/cookingConditions"},
+    "measurement_basis": {"type": "string", "minLength": 1},
+    "denominator": {"type": "string", "minLength": 1},
+    "prediction": {"$ref": "#/$defs/prediction"},
+    "provenance": {"$ref": "#/$defs/provenance"},
+    "scientific_review": {"$ref": "#/$defs/scientificReview"}
+  },
+  "$defs": {
+    "nonnegativeDecimal": {"anyOf": [{"type": "number", "minimum": 0}, {"type": "string", "pattern": "^[0-9]+([.][0-9]+)?$"}]},
+    "decimal": {"anyOf": [{"type": "number"}, {"type": "string", "pattern": "^-?[0-9]+([.][0-9]+)?$"}]},
+    "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+    "cookingConditions": {
+      "type": "object",
+      "required": ["cooking_method"],
+      "properties": {
+        "cooking_method": {"type": "string", "minLength": 1},
+        "temperature_c": {"$ref": "#/$defs/decimal"},
+        "duration_min": {"$ref": "#/$defs/nonnegativeDecimal"},
+        "pressure_kpa": {"$ref": "#/$defs/nonnegativeDecimal"},
+        "microwave_power_w": {"$ref": "#/$defs/nonnegativeDecimal"},
+        "cooking_medium": {"type": "string"},
+        "oil_type": {"type": "string"}
+      }
+    },
+    "prediction": {
+      "type": "object",
+      "required": ["semantic_type", "value", "unit"],
+      "properties": {
+        "semantic_type": {"enum": ["apparent_concentration_ratio", "concentration_retention", "total_mass_retention", "model_predicted_retention", "measured_retention"]},
+        "value": {"$ref": "#/$defs/nonnegativeDecimal"},
+        "unit": {"enum": ["percent", "fraction", "ratio"]},
+        "underlying_retention_semantics": {"enum": ["concentration_retention", "total_mass_retention"]},
+        "prediction_interval": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"$ref": "#/$defs/nonnegativeDecimal"}}
+      },
+      "allOf": [
+        {"if": {"properties": {"semantic_type": {"const": "apparent_concentration_ratio"}}, "required": ["semantic_type"]}, "then": {"properties": {"unit": {"enum": ["fraction", "ratio"]}}}},
+        {"if": {"properties": {"semantic_type": {"enum": ["model_predicted_retention", "measured_retention"]}}, "required": ["semantic_type"]}, "then": {"properties": {"unit": {"enum": ["percent", "fraction"]}}}}
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["origin", "source_reference"],
+      "properties": {
+        "origin": {"enum": ["mocked_fixture", "supplied_prediction", "measured_source_record"]},
+        "source_reference": {"type": "string", "minLength": 1},
+        "stage_a_input_sha256": {"$ref": "#/$defs/sha256"},
+        "stage_a_code_sha256": {"$ref": "#/$defs/sha256"},
+        "model_artifact_sha256": {"$ref": "#/$defs/sha256"},
+        "output_sha256": {"$ref": "#/$defs/sha256"},
+        "model_name": {"type": "string", "minLength": 1},
+        "python_version": {"type": "string", "minLength": 1},
+        "package_versions": {"type": "object", "minProperties": 1},
+        "output_row_id": {"type": "string"},
+        "run_id": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"origin": {"const": "supplied_prediction"}}, "required": ["origin"]}, "then": {"required": ["stage_a_input_sha256", "stage_a_code_sha256", "model_artifact_sha256", "output_sha256", "model_name", "python_version", "package_versions"]}}
+      ]
+    },
+    "scientificReview": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["pending", "approved", "rejected"]},
+        "reviewer": {"type": "string", "minLength": 1},
+        "review_reference": {"type": "string", "minLength": 1},
+        "reviewed_on": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"status": {"const": "approved"}}, "required": ["status"]}, "then": {"required": ["reviewer", "review_reference"]}}
+      ]
+    }
+  }
+}

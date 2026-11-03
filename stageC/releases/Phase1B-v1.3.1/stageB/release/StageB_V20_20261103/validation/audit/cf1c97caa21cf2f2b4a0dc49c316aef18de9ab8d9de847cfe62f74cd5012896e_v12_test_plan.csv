@@ -1,0 +1,39 @@
+﻿Test_ID,Category,Purpose,Method,Expected_Result,Status,Notes
+AUTO-01,Automated structural/provenance validation,Anchor count recalculates,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,119
+AUTO-02,Automated structural/provenance validation,Unique compound IDs,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-03,Automated structural/provenance validation,Unique PubChem CIDs,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-04,Automated structural/provenance validation,Unique evidence IDs,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-05,Automated structural/provenance validation,All evidence compound references resolve,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-06,Automated structural/provenance validation,Evidence drug labels resolve,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-07,Automated structural/provenance validation,Study references resolve,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-08,Automated structural/provenance validation,PMIDs numeric when present,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-09,Automated structural/provenance validation,DOI syntax normalized check,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-10,Automated structural/provenance validation,New evidence links claims,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-11,Automated structural/provenance validation,New identities have PubChem source,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-12,Automated structural/provenance validation,New keys unique against baseline,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-13,Automated structural/provenance validation,Evidence class vocabulary preserved,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-14,Automated structural/provenance validation,Numeric outcomes have reported text,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-15,Automated structural/provenance validation,DOI mapping multiplicity surfaced,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,{}
+AUTO-16,Automated structural/provenance validation,Bibliography PMID uniqueness,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-17,Automated structural/provenance validation,Bibliography DOI uniqueness,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-18,Automated structural/provenance validation,Inherited evidence-count fields preserved; new anchor counts reconcile,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,11 inherited count discrepancies carried forward and reported
+AUTO-19,Automated structural/provenance validation,Probe counts reconcile,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-20,Automated structural/provenance validation,Inherited anchors exact prefix,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-21,Automated structural/provenance validation,Inherited evidence exact prefix,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-22,Automated structural/provenance validation,Inherited warning prefix preserved,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-23,Automated structural/provenance validation,Cooking-retention hash preserved,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-24,Automated structural/provenance validation,Claim evidence IDs resolve,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-25,Automated structural/provenance validation,Selection rationale exists for new anchors,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-26,Automated structural/provenance validation,Food context marked for each new anchor,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-27,Automated structural/provenance validation,Numerical discrepancy screen includes numeric outcomes,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-28,Automated structural/provenance validation,Six manual V11 IDs explicitly dispositioned,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-29,Automated structural/provenance validation,Manual outcomes not falsely all passed,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-30,Automated structural/provenance validation,No V12 edits to cooking retention evidence,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,Inherited file retained; no cooking evidence added
+AUTO-31,Automated structural/provenance validation,One source audit row per added record,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+AUTO-32,Automated structural/provenance validation,Versioned output schemas created,Automated assertion on V12 registry/evidence/release files,PASS on conforming release,PASS,
+FC-01,Inherited V11 manual check,All inherited 105 and V12 additions,Targeted human/source review,Complete original intended scope or document limitation,PARTIAL,Full source-to-occurrence verification for every inherited row not completed.
+CH-05,Inherited V11 manual check,All inherited anchors and V12 additions; only identifiers/known collision pairs,Targeted human/source review,Complete original intended scope or document limitation,PARTIAL,"No complete graph, tautomer, salt, protonation, or stereochemistry adjudication."
+NX-05,Inherited V11 manual check,New numeric outcomes plus inherited unresolved records,Targeted human/source review,Complete original intended scope or document limitation,PARTIAL,Full-text verification of every inherited numeric record is not complete.
+CL-03,Inherited V11 manual check,All V12 evidence rows checked at stated locator; inherited sample triage only,Targeted human/source review,Complete original intended scope or document limitation,PARTIAL,All inherited claims not individually source-verified.
+PV-07,Inherited V11 manual check,All publications; overlap status retained unknown,Targeted human/source review,Complete original intended scope or document limitation,NOT COMPLETED,Distinct PMIDs/DOIs are not proof of independent cohorts.
+WA-03,Inherited V11 manual check,All warning rows status-counted; priority warnings remain open,Targeted human/source review,Complete original intended scope or document limitation,PARTIAL,Full primary-source validation of every closure remains pending.

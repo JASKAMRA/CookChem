@@ -1,0 +1,9 @@
+﻿Category,Status,Finding,Evidence
+Metadata and primary links,Partially resolved,Every inherited PMID/cached source retained; six outcomes rechecked. Missing DOI remains explicit.,study_registry.csv; claim_support_and_outcome_audit.csv; inherited_audits/
+Duplicates and context,Resolved with supporting source,No exact duplicate IDs or study/compound/drug/class/preparation contexts found. Independent cohorts are not inferred from unique PMIDs.,validation_report.json; evidence table
+Historical selection provenance,Unresolved,Original-nine selection triggers/dates remain unknown; current rationale does not reconstruct historical selection.,V6 registry; warning ledger; inherited historical audits
+Apigenin/rutin paclitaxel attribution,Unresolved,SB-0066 remains provisional. New isolated-rutin florfenicol evidence admits rutin but does not repair the old paclitaxel arm attribution.,PMID24871039; PMID31252064; SB-0066
+Apigenin Cmax table versus prose,Unresolved,SB-0067 prior Table 1/prose discrepancy retained; no disputed Cmax value imported.,Inherited PMC3863468.xml and prior claim audit
+Daidzein/quercetin retention and identity,Partially resolved,Prior analyte/hydrolysis restrictions retained; no certified master links or new retention coefficients.,processing_provenance_audit.csv; inherited source copies
+Inherited outcome verification,Partially resolved,SB-0001/0003/0004/0005 reverified from primary abstracts; two bergapten-macitentan records from selected full text; 58 earlier metadata-audit-only rows remain.,claim_support_and_outcome_audit.csv; all_record_review_audit.csv
+Study classification and secondary evidence,Partially resolved,New RCTs separated from PK and human-cell work. No new secondary-only interaction claim admitted. Historical outcomes not all independently re-extracted.,new_evidence_records.csv; baseline_review_levels.csv

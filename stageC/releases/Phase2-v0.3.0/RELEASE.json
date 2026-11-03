@@ -1,0 +1,32 @@
+{
+  "release_id": "Phase2-v0.3.0",
+  "version": "0.3.0",
+  "status": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+  "successor_of": "Phase2-v0.2.0",
+  "created_on": "2026-11-03",
+  "scope": "Fixed 117 observed cooking pairs; no additional study collection.",
+  "source_phase1b_release": "Phase1B-v1.3.1",
+  "source_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+  "stage_b_release": "StageB_V20_20261103",
+  "stage_b_read_only": true,
+  "stage_a_model_inference_performed": false,
+  "observed_pairs": 117,
+  "analytes": 24,
+  "candidate_reviews": 63,
+  "compatibility_reviews": 22,
+  "applicability_reviews": 584,
+  "identity_crosswalk_reviews": 197,
+  "cooked_concentration_estimates": 0,
+  "excluded_unavailable_artifacts": [
+    {
+      "path": "reports/full_stagec_test_rerun_2026-11-03.log",
+      "reason": "Referenced by Phase2-v0.2.0 manifest, but absent from predecessor package and recoverable project history; omitted rather than fabricated."
+    },
+    {
+      "path": "validation/full_stagec_test_rerun_2026-11-03.log",
+      "reason": "Referenced by Phase2-v0.2.0 manifest, but absent from predecessor package and recoverable project history; omitted rather than fabricated."
+    }
+  ],
+  "limitations_report": "reports/PHASE2_SCIENTIFIC_LIMITATIONS.md",
+  "verification_command": "python scripts/build_phase2_v0_3_release.py --verify"
+}

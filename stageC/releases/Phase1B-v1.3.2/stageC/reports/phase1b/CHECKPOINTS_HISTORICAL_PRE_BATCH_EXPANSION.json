@@ -1,0 +1,139 @@
+{
+  "last_successful_checkpoint": "Checkpoint 4 — all P2 targets screened, Batch 003 accepted, release v1.2.0 clean-copy tests/validation PASS, protected baseline verified",
+  "completed_batches": [
+    "batch_001_usda_flavonoids",
+    "batch_002_usda_cocoa",
+    "batch_003_usda_tea"
+  ],
+  "current_batch": null,
+  "research_framework": {
+    "priority_register_compounds": 119,
+    "search_log_entries": 15,
+    "pending_candidates": 7,
+    "accepted_food_records": 6,
+    "unique_compounds_with_quantitative_data": 4
+  },
+  "active_food_records": 6,
+  "active_mappings": 6,
+  "stage_b_release_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e",
+  "checkpoint_files": [
+    {
+      "path": "stageC/reports/phase1b/COMPOUND_PRIORITY_REGISTER.csv",
+      "sha256": "1bdc974f65786d1e743a7e7e26a947eba5026a48dc85d85062b475db996d5af0"
+    },
+    {
+      "path": "stageC/reports/phase1b/SEARCH_LOG.csv",
+      "sha256": "0814e585fa1bf59833a7a67c5b6dbebca2bdff61039447f71425d3926394e316"
+    },
+    {
+      "path": "stageC/reports/phase1b/CANDIDATES.csv",
+      "sha256": "fb59d344c685ed114df6e882388257102a9e2852ec33ac207c85e7254d6dff82"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_001_usda_flavonoids/usda_flav3_3_apple_candidates.csv",
+      "sha256": "a7488d7a24d96090b411b97c86040351cd87052c94ea7751ffe835fb11359c64"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_002_usda_cocoa/usda_flav3_3_cocoa_candidates.csv",
+      "sha256": "f1bf32c3ee3fc9281c0a89f7e156f40e3839ad96148e3721268357767a41ec6f"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/usda_flav3_3_tea_candidates.csv",
+      "sha256": "1f4a42d2af66d24fda80eeb1fbec38c8bea55627ef78ae54456f3824b9f053a5"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/accepted_food_records.csv",
+      "sha256": "9c6f72156f11e3facd01e61c29b1c1eb0812d44c74d5765842b8a137c43d615b"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/exposure_input.json",
+      "sha256": "fced0955bae9144fa65763007ef07dd570697aad2d539494f5878163778f14d5"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/exposure_results.json",
+      "sha256": "ab36705cda0f5fe3d1796a0dcd10060ac5353eb1c55b1c21923baca0cadc2a8d"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/ingestion_manifest.json",
+      "sha256": "6b368848db656f3cfa598b27bba0a5db13c367d33ef5eecb1ae126c33bca30df"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/SOURCE_NOTES.md",
+      "sha256": "3a29f6c507434bd1618533b58fd7d3052cabdcc5f0b496743ecb040c04ef21fc"
+    },
+    {
+      "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/exposure_math_check.md",
+      "sha256": "82c07f1068a88cf086b40d60bbfa7d004e2f5eb1038434dd2ef1d13b61b5fd3d"
+    },
+    {
+      "path": "stageC/data/food_composition/food_composition.csv",
+      "sha256": "28d5b2e301c1c314dd160b1f3be9a37fb5e1859f8d485bd7714b14b06f2a01f7"
+    },
+    {
+      "path": "stageC/data/compound_food_mapping/compound_food_mapping.csv",
+      "sha256": "a7f7520205071328c2557c3ed92cb2af48839eeef7c988d77b181619271b19f4"
+    },
+    {
+      "path": "stageC/data/food_composition/source_registry.csv",
+      "sha256": "4d30c41f3c7cc1a8d122b85844155bf930880f26a88a94034b1b803081646971"
+    },
+    {
+      "path": "stageC/schemas/food_composition_schema.json",
+      "sha256": "7bab7d149e759eba2b1e7cdd99a6c1abc4af35a9a919662a34d9f0625ce4b7b8"
+    },
+    {
+      "path": "stageC/src/stage_c/food_composition.py",
+      "sha256": "311cf9113259ce075f755149160757bfa902e86c77d72ff1bea360d0b5d2b801"
+    },
+    {
+      "path": "stageC/src/stage_c/compound_mapping.py",
+      "sha256": "26f20f99e9727054c0b4cdacd57f2ecc0e8f90ec65e6d0a0d46efb5a9e9a3141"
+    },
+    {
+      "path": "stageC/src/stage_c/exposure_engine.py",
+      "sha256": "9b553363d3301e1ed557ab49af836216da57eef224ba86281a376c8c1c9c1100"
+    },
+    {
+      "path": "stageC/tests/test_food_composition.py",
+      "sha256": "bacda14bd07804b3a10c6decdaa4ee1a9e07c8eb71e4aec31b43292ba41534d5"
+    },
+    {
+      "path": "stageC/tests/test_compound_mapping.py",
+      "sha256": "3069bb6a276249b16fb70e30c665ca8a8f141c40f5c136dec51ebc078419dff5"
+    },
+    {
+      "path": "stageC/tests/test_exposure_engine.py",
+      "sha256": "b3990124b34ffa0e0e1b9b6d239832fb9337b3688faaa496ca2eba0c8d54e06d"
+    },
+    {
+      "path": "stageC/tests/test_integration.py",
+      "sha256": "c52fcc2ff24a45a66f4d756cffbfbf2255d5b01f5d62ae5a88afc2cae2e394f9"
+    },
+    {
+      "path": "stageC/reports/validation/mapping_coverage.json",
+      "sha256": "ddaa46a8ba618590191ed0972289c78f0afc946ef2982c30af1718f44dd98690"
+    },
+    {
+      "path": "stageC/reports/validation/phase1_validation.json",
+      "sha256": "cbd280b298cf2fb049ba50ea0c2c5b2decc1244d20aaee41da4e22ed97a967b6"
+    },
+    {
+      "path": "stageC/reports/phase1b/PROTECTED_BASELINE_RECHECK.json",
+      "sha256": "ccddad79ce026c2c74589fc84e3f2898714da8efd97da5ba4d542b37d060a3ad"
+    },
+    {
+      "path": "stageC/reports/phase1b/SEARCH_COVERAGE_REPORT.md",
+      "sha256": "9f00745559b8ff383fd65f761ae3d68ebbd8a3ff3a9717ab980a2db169852339"
+    },
+    {
+      "path": "stageC/reports/phase1b/SOURCE_VERIFICATION_REPORT.md",
+      "sha256": "76b98e9fbf7f497954317394095b19dedd84365464ccaca3076c312e6c7fa683"
+    }
+  ],
+  "validation_status": "PASS",
+  "test_status": "49/49 PASS",
+  "clean_copy_status": "PASS",
+  "protected_baseline_status": "PASS",
+  "current_release": "Phase1-v1.2.0; package manifest verified",
+  "status": "PASS"
+}

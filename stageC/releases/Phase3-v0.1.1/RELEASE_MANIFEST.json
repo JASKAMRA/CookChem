@@ -1,0 +1,137 @@
+{
+  "release_id": "Phase3-v0.1.1",
+  "algorithm": "SHA-256",
+  "artifact_count": 26,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c0a5c50eaf3cb9d4f3cc720af6ebe6f55eb350cfebbacd03be45e641111ae677",
+      "bytes": 665
+    },
+    {
+      "path": "README.md",
+      "sha256": "7aac6984ab6e68aac7f87737ce246e004ffa2c834ec5d7cd98d7a156ab63846c",
+      "bytes": 1113
+    },
+    {
+      "path": "RELEASE.json",
+      "sha256": "3b07e0d81107213a276fe8752cd7ffc53ce6e0411b15df2c47cb6266a4c0066e",
+      "bytes": 1778
+    },
+    {
+      "path": "stageC/examples/meal_apple_and_cocoa.json",
+      "sha256": "880ec8ef4ce047f19d3d9455ee4090038a2cf301c1314588baf4145f7871f107",
+      "bytes": 854
+    },
+    {
+      "path": "stageC/examples/recipe_apples_epicatechin.json",
+      "sha256": "ce1d267a62fc392bfe04acef50fe00f894c6c6c90a2fcca5f134c88a06cd1f53",
+      "bytes": 2269
+    },
+    {
+      "path": "stageC/reports/phase3/PHASE3_RECIPE_MEAL_ARCHITECTURE.md",
+      "sha256": "60b65de62f33cd01a9776822d65d727f97a542b571cbe0e63c792e554ff0e533",
+      "bytes": 5146
+    },
+    {
+      "path": "stageC/reports/phase3/PHASE3_USER_GUIDE.md",
+      "sha256": "ebc6e69332fb3a9fa4688696459229eb29abf4bbff6c3b198fafb3f9e71dec83",
+      "bytes": 4419
+    },
+    {
+      "path": "stageC/requirements-dev.txt",
+      "sha256": "f8627c2960cd0420174227fbb0b6b70d21fd2636bda5bd91c31f0fd3ff68a313",
+      "bytes": 89
+    },
+    {
+      "path": "stageC/schemas/meal.schema.json",
+      "sha256": "35d253dc38fa5e08322fe68791a0a55a73d62a00022a4fad9118af0510230fec",
+      "bytes": 4619
+    },
+    {
+      "path": "stageC/schemas/recipe.schema.json",
+      "sha256": "60cf66285bd68fdfb797f922cdb2056209efac6fd4b6edfb0abbdff63bc717b2",
+      "bytes": 6282
+    },
+    {
+      "path": "stageC/src/stage_c/__init__.py",
+      "sha256": "125b6123e0a03f4c5eedbdff2c9cfcaa1c6821b0359a6f5ae0e7f97fdb048784",
+      "bytes": 97
+    },
+    {
+      "path": "stageC/src/stage_c/cli.py",
+      "sha256": "7dbc0c3685a0e4ccede6d87ca93d8e6c0d3fc0789f4f95997854b0a4028d71d0",
+      "bytes": 19094
+    },
+    {
+      "path": "stageC/src/stage_c/compound_mapping.py",
+      "sha256": "eb5bb43168fb8e5ccb8ae9602baec2f750e02b2732e694f854c907be1e6fd31e",
+      "bytes": 14218
+    },
+    {
+      "path": "stageC/src/stage_c/exceptions.py",
+      "sha256": "f34fae16f90d4dc7282c16a70c5363a7e7c793f25369957339f52fca55e013b6",
+      "bytes": 426
+    },
+    {
+      "path": "stageC/src/stage_c/exposure_engine.py",
+      "sha256": "5e4bcefa6d5f30b50caabd6e1090c982e8ee203ec941c49e9defd3abd5a85676",
+      "bytes": 14798
+    },
+    {
+      "path": "stageC/src/stage_c/food_composition.py",
+      "sha256": "5f43de6dabb51602e58ff7a45ccede15e8736d13ee1ee2ae2c237ad322b8ac0a",
+      "bytes": 7801
+    },
+    {
+      "path": "stageC/src/stage_c/phase2_retention.py",
+      "sha256": "dafb08366f43ed4f9e079b9edd30756453de4a8e1c36f7f8424ee2ac3f302338",
+      "bytes": 3318
+    },
+    {
+      "path": "stageC/src/stage_c/provenance.py",
+      "sha256": "88c38381bac78d5c19c3e31292ef13591e3d5e57711e73d680931cdfc0c4750a",
+      "bytes": 2148
+    },
+    {
+      "path": "stageC/src/stage_c/recipe_engine.py",
+      "sha256": "b435363457e0414106d1f70ae2d93a92a0bb8676fd929dbd39b38031a710b667",
+      "bytes": 55409
+    },
+    {
+      "path": "stageC/src/stage_c/release_adapters.py",
+      "sha256": "78c4623c7349f71096e53c92ef306ec755102262f26f706c739488d4c94c34d5",
+      "bytes": 12529
+    },
+    {
+      "path": "stageC/src/stage_c/stage_b_connector.py",
+      "sha256": "2ceef9a23b3fa9835f7e76fb5045546e14c3fadf61045f19034849da30f67766",
+      "bytes": 19558
+    },
+    {
+      "path": "stageC/src/stage_c/unit_conversion.py",
+      "sha256": "5605428a298f194966f25f7de40ac3748f5f71826274f5e938f1c82de3dbe756",
+      "bytes": 4505
+    },
+    {
+      "path": "stageC/src/stage_c/validation.py",
+      "sha256": "512431aea81db48347b8c17b357191696d1086b87225bc5b160481f366755467",
+      "bytes": 6816
+    },
+    {
+      "path": "stageC/tests/test_recipe_cli.py",
+      "sha256": "9897579e3bc510541827d57ed5b63e589c2d7ba935bdf3fc5cdf282950799725",
+      "bytes": 3134
+    },
+    {
+      "path": "stageC/tests/test_recipe_engine.py",
+      "sha256": "5514918e826e86a2f8aa3c85348c79a9530a158ef2c06bfa0398b6eee4dd4552",
+      "bytes": 19745
+    },
+    {
+      "path": "stageC/tests/test_recipe_schema.py",
+      "sha256": "26a6d9a44d096ccc14f9cf9b4624b62671806bd493737130dc4f1bda5bbcb171",
+      "bytes": 2003
+    }
+  ]
+}

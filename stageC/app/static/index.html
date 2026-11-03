@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CookRisk local research prototype</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="mark">C</span><div><strong>CookRisk</strong><small>Local research prototype</small></div></div>
+    <span class="local-tag"><span></span> LOCAL · NON-PRODUCTION</span>
+  </header>
+  <main>
+    <section class="notice" aria-label="Safety notice">
+      <strong>Research use only.</strong> No patient-specific advice or clinical interpretation. Cooking values appear only when compatible Phase 2 evidence is available; unavailable values stay blank.
+    </section>
+    <section class="release-strip" id="release-status" aria-live="polite">Checking pinned data packages…</section>
+    <nav class="tabs" aria-label="Work area">
+      <button class="tab active" data-view="stage-c">Stage C · Food exposure</button>
+      <button class="tab" data-view="stage-d">Stage D · Evidence review</button>
+    </nav>
+
+    <section class="view active" id="stage-c">
+      <div class="layout">
+        <form class="card recipe-form" id="recipe-form">
+          <div class="section-heading"><div><p class="eyebrow">STAGE C</p><h1>Build a recipe</h1></div><span class="step">01 / INPUTS</span></div>
+          <label class="field">Recipe name<input name="name" value="My recipe" maxlength="120"></label>
+          <label class="field">Find a food or compound<input id="catalog-filter" type="search" placeholder="Search names or scientific IDs"><span id="catalog-filter-status" class="food-source">Shows matching food records and mapped compounds.</span></label>
+          <div class="ingredient-heading"><h2>Ingredients</h2><button type="button" class="button quiet" id="add-ingredient">＋ Add ingredient</button></div>
+          <div id="ingredient-list"></div>
+          <fieldset class="cooking-fields">
+            <legend>Preparation and cooking</legend>
+            <div class="field-grid">
+              <label class="field">Cooking method<select name="cooking_method"><option value="">Not cooked / not specified</option><option>boil</option><option>steam</option><option>fry</option><option>bake</option><option>roast</option><option>grill</option><option>microwave</option><option>other (describe)</option></select></label>
+              <label class="field">Duration (min)<input name="duration_min" type="number" min="0" step="any" placeholder="Not reported"></label>
+              <label class="field">Temperature (°C)<input name="temperature_c" type="number" step="any" placeholder="Not reported"></label>
+              <label class="field">Cooking medium<input name="cooking_medium" placeholder="Water, oil, dry heat…"></label>
+              <label class="field">Recipe servings<input name="servings_count" type="number" min="0.000001" step="any" value="1"></label>
+              <label class="field">Meal servings consumed<input name="meal_servings" type="number" min="0" step="any" value="1"></label>
+            </div>
+            <p class="hint">A cooking method describes your preparation. It does not create a retention estimate. Cooked mass may be entered per ingredient only when measured.</p>
+          </fieldset>
+          <button class="button primary full" type="submit">Calculate recipe and meal</button>
+          <p class="hint">Calculations use pinned Stage C data and the existing exposure engine. Unknown values remain unknown.</p>
+        </form>
+        <section class="card results" aria-live="polite">
+          <div class="section-heading"><div><p class="eyebrow">OUTPUT</p><h1>Exposure summary</h1></div><span class="step">02 / REVIEW</span></div>
+          <div id="calculation-state" class="empty-state"><span class="empty-icon">↗</span><strong>Your result will appear here</strong><span>Add one or more ingredients to begin.</span></div>
+          <div id="result-content" hidden></div>
+          <div class="export-actions" id="export-actions" hidden>
+            <button class="button secondary" data-export="json">Export JSON</button><button class="button secondary" data-export="csv">Export CSV</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="view" id="stage-d">
+      <section class="card queue-overview">
+        <div class="section-heading"><div><p class="eyebrow">STAGE D</p><h1>Evidence review queue</h1></div><span class="step">SOURCE · MACHINE TRIAGE · HUMAN TRACE</span></div>
+        <p class="hint">Machine classifications are review aids, not decisions. Human review status and action history come from the append-only Stage D action log. Every action below requires a named reviewer, source locator, rationale, and explicit submission.</p>
+        <div id="review-coverage" class="coverage-grid" aria-live="polite"><div class="coverage-tile"><small>Queue records</small><strong>Loading…</strong></div><div class="coverage-tile"><small>Machine triage</small><strong>Loading…</strong></div><div class="coverage-tile"><small>Human review</small><strong>Loading…</strong></div><div class="coverage-tile"><small>Review coverage</small><strong>Loading…</strong></div></div>
+      </section>
+      <div class="layout evidence-layout queue-layout">
+        <section class="card evidence-search">
+          <div class="section-heading"><div><p class="eyebrow">BROWSE</p><h2>Find a source record</h2></div><span class="step">PINNED SOURCE</span></div>
+          <div class="field-grid">
+            <label class="field">Compound<input id="filter-compound" type="search" placeholder="Name or Compound_ID"></label>
+            <label class="field">Drug<input id="filter-drug" type="search" placeholder="Drug label"></label>
+            <label class="field wide">Study or source<input id="filter-study" type="search" placeholder="Study_ID, title, DOI, PMID"></label>
+            <label class="field">Evidence category<select id="evidence-category"><option value="">All categories</option></select></label>
+            <label class="field">Outcome polarity<select id="filter-polarity"><option value="">All source labels</option><option value="positive">Positive</option><option value="negative">Negative</option><option value="null">Null</option><option value="conflicting">Conflicting</option><option value="unclear">Unclear</option></select></label>
+            <label class="field">Conflict status<select id="filter-conflict"><option value="">Any</option><option value="conflict">Conflict group or conflict triage</option><option value="no_conflict">No conflict marked</option></select></label>
+            <label class="field">Identity status<input id="filter-identity" type="search" placeholder="Source identity label"></label>
+            <label class="field">Source verification<select id="filter-source-verification"><option value="">Any</option><option value="NOT_PERFORMED">Not performed</option><option value="SOURCE_VERIFIED">Source verified by reviewer</option></select></label>
+            <label class="field wide">Human review status<select id="filter-human-status"><option value="">Any status</option><option>NOT_REVIEWED</option><option>SOURCE_VERIFIED</option><option>IDENTITY_PENDING</option><option>CONTEXT_PENDING</option><option>CONFLICT_REVIEW</option><option>READY_FOR_EXPERT_REVIEW</option><option>EXPERT_ACCEPTED</option><option>EXPERT_REJECTED</option></select></label>
+          </div>
+          <div class="filter-actions"><label class="field assignment-field">Assignment label (optional)<input id="assigned-to" maxlength="120" placeholder="Reviewer or team"></label><button class="button primary" id="search-evidence" type="button">Apply filters</button><button class="button secondary" id="clear-filters" type="button">Clear</button><button class="button secondary" id="export-assignment" type="button">Export review assignment</button></div>
+          <div id="queue-result-status" class="queue-result-status" aria-live="polite"></div>
+          <div id="evidence-results" class="evidence-results"><p class="hint">Loading Stage D queue records…</p></div>
+          <button class="button secondary full" id="load-more-records" type="button" hidden>Load more records</button>
+        </section>
+        <section class="card evidence-detail">
+          <div class="section-heading"><div><p class="eyebrow">SOURCE CONTEXT</p><h2>Review the record</h2></div><span class="step">DETAIL · MECHANISM · TRACE</span></div>
+          <div id="selected-evidence" class="empty-state compact">Select a source record to inspect its finding, machine triage, mechanism candidate, and human review trace.</div>
+          <div id="gate-panel" hidden>
+            <div class="gate-heading"><h3>Comparability criteria</h3><span>Gate check · not a human decision</span></div>
+            <div class="gate-grid" id="gate-grid"></div>
+            <button class="button primary full" id="evaluate-gates" type="button">Evaluate gates</button>
+            <div id="gate-result" aria-live="polite"></div>
+          </div>
+          <section class="review-action-panel" id="review-action-panel" hidden>
+            <div class="gate-heading"><h3>Record a human review action</h3><span>Appends to the local audit log</span></div>
+            <p id="allowed-actions-note" class="hint"></p>
+            <form id="review-action-form">
+              <label class="field">Action status<select id="action-status" required></select></label>
+              <div class="field-grid">
+                <label class="field">Reviewer name<input id="action-reviewer-name" maxlength="160" required></label>
+                <label class="field">Reviewer role<select id="action-reviewer-role" required><option value="source_reviewer">Source reviewer</option><option value="expert">Expert reviewer</option></select></label>
+                <label class="field">Review date<input id="action-review-date" type="date" required></label>
+                <label class="field">Negative-evidence assessment<select id="action-negative-assessment"><option>NOT_ASSESSED</option><option>EXPLICIT_NEGATIVE_REVIEWED</option><option>NOT_NEGATIVE</option><option>CONFLICTING</option><option>UNCLEAR</option></select></label>
+                <label class="field wide">Source locator<input id="action-source-locator" maxlength="500" required placeholder="Page, table, section, registry entry, or source URL"></label>
+                <label class="field wide">Rationale<textarea id="action-rationale" rows="3" maxlength="4000" required></textarea></label>
+              </div>
+              <p class="hint">This records the entered action and rationale; it does not change the source evidence or create an automatic scientific conclusion.</p>
+              <button class="button primary full" id="submit-review-action" type="submit" disabled>Record this review action</button>
+            </form>
+            <div id="review-action-result" aria-live="polite"></div>
+          </section>
+          <p class="clinical-note">A ready comparability gate is only a criteria result. Expert review remains necessary. No dose equivalence or clinical interpretation is performed.</p>
+        </section>
+      </div>
+    </section>
+  </main>
+  <footer>CookRisk · Local-only prototype · No data are sent to an external service</footer>
+  <template id="ingredient-template">
+    <article class="ingredient-card">
+      <div class="ingredient-top"><span class="ingredient-number">Ingredient</span><button type="button" class="remove-ingredient" aria-label="Remove ingredient">×</button></div>
+      <div class="field-grid">
+        <label class="field wide">Food record<select class="food-select" required></select><span class="food-source"></span></label>
+        <label class="field wide">Mapped compound<select class="compound-select" required></select><span class="identity-note"></span></label>
+        <label class="field">Quantity<input class="quantity" type="number" min="0" step="any" required value="100"></label>
+        <label class="field">Unit<select class="unit"><option>g</option><option>kg</option><option>mg</option><option>ug</option><option>mL</option><option>L</option></select></label>
+        <label class="field">Serving fraction<input class="serving-fraction" type="number" min="0" max="1" step="any" value="1"></label>
+        <label class="field">Consumed fraction<input class="consumed-fraction" type="number" min="0" max="1" step="any" value="1"></label>
+        <label class="field">Food state<select class="food-state"><option value="raw">Raw reference form</option><option value="cooked">Cooked food</option><option value="processed">Processed food</option><option value="fermented">Fermented</option><option value="dried">Dried</option><option value="frozen">Frozen</option><option value="other">Other documented state</option></select><span class="state-note">Select the state represented by the amount you entered.</span></label>
+        <label class="field">Measured cooked mass<input class="cooked-mass" type="number" min="0" step="any" placeholder="Needed only for an eligible cooked estimate"><span>Enter an actual cooked mass. It does not establish compatible retention evidence.</span></label>
+        <p class="field wide cooked-measurement-note" hidden></p>
+        <label class="field wide">Preparation description<input class="preparation-description" placeholder="Peel, chop, drained, etc."></label>
+      </div>
+    </article>
+  </template>
+  <script src="/app.js" defer></script>
+</body>
+</html>

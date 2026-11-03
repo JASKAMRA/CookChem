@@ -1,0 +1,93 @@
+{
+  "manifest_schema": "cookrisk-phase4-release-manifest-v1",
+  "release_id": "Phase4-v0.1.1",
+  "status": "IN_PROGRESS",
+  "artifact_count": 17,
+  "files": [
+    {
+      "path": "data/evidence_registry.json",
+      "sha256": "90503d55928b5e0314680d0611b4f4b5d4eb7947dd8f38cbcd3f7a0333a503d3",
+      "bytes": 38416
+    },
+    {
+      "path": "data/source_registry.json",
+      "sha256": "ea250cd1dd9181ed5869927cf0326b8f4a4dd5f8dd3342ae8e5be36a446ab482",
+      "bytes": 1315
+    },
+    {
+      "path": "PROPOSED_SCOPE.md",
+      "sha256": "10d620a428267ddacff02b26c9cf21f0254a98e58c5f1c540b06b0ecbbb9a074",
+      "bytes": 2482
+    },
+    {
+      "path": "README.md",
+      "sha256": "0c88211ef0913fe75b509fe5b56443dbbb096c448af0783d7e1cf0f0677408d7",
+      "bytes": 1767
+    },
+    {
+      "path": "release_info.json",
+      "sha256": "df3d10d04b01c70819fd697390325da4ad084b38b20fb12cfe57606f3b448c61",
+      "bytes": 1864
+    },
+    {
+      "path": "reports/extraction_report.md",
+      "sha256": "2fc696ba58d620523074234275621a44b32d964f3b7b0c0550952376fc1c2af9",
+      "bytes": 2863
+    },
+    {
+      "path": "reports/identity_applicability_review.md",
+      "sha256": "8c9dc351c84cbde0318f853d584c02bb7b65a9660b48cf3be7de349f92592b84",
+      "bytes": 1890
+    },
+    {
+      "path": "reports/pending_evidence_register.csv",
+      "sha256": "76abc471a2e960f67412cf50c5e8738e1726add43276c497e3af8835eb187a22",
+      "bytes": 2605
+    },
+    {
+      "path": "reports/source_bibliography.csv",
+      "sha256": "cb44cc16b7f76f57b92af7897c5c780100ff9868a245bb05465c96952f1026ff",
+      "bytes": 649
+    },
+    {
+      "path": "reports/validation_report.md",
+      "sha256": "6e00e3c54fca62a97a4050520284aa9b22765df57d14202b0b9c04d394477280",
+      "bytes": 993
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "0234ec3d247779dd0c2dbf4caee15bd42fa394dc495250d5eeca2decc0663224",
+      "bytes": 103
+    },
+    {
+      "path": "schemas/evidence.schema.json",
+      "sha256": "511867d60ccdc09395b7ac1ea6303c1901d125ddb514ad0cc6c6bcac4650a7dd",
+      "bytes": 5300
+    },
+    {
+      "path": "schemas/source.schema.json",
+      "sha256": "12f8206dfe478fdb27bdfd0ab8ea973fd341ead1fb6a784ca4cb4476161dee2b",
+      "bytes": 1884
+    },
+    {
+      "path": "scripts/build_release.py",
+      "sha256": "0205cb388eccd3d672760aa13a7bc4ca1e7149210f62308811c1673065594033",
+      "bytes": 4656
+    },
+    {
+      "path": "scripts/extract_white2016_full_text.py",
+      "sha256": "32405e9bf5b006504f7ee5182d317f02e07d950d26fc8cd5728547ba9d817c35",
+      "bytes": 21349
+    },
+    {
+      "path": "src/phase4_registry.py",
+      "sha256": "16886eeb78792a200a6b0790c813df8e4913c1b350199f8efdd2d3dc139bc68b",
+      "bytes": 5635
+    },
+    {
+      "path": "tests/test_phase4_registry.py",
+      "sha256": "a4f34e5090b7b1b0c0fdc76a98210257f14b06b9e6b5793453442f5164882e92",
+      "bytes": 6379
+    }
+  ]
+}

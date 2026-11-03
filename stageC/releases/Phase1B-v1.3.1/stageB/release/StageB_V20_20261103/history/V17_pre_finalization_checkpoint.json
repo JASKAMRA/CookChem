@@ -1,0 +1,57 @@
+{
+  "release": "StageB_V17_20261103",
+  "baseline": "StageB_V16_20261102",
+  "status": "IN_PROGRESS_NOT_READY",
+  "target_compounds": 150,
+  "current_compounds": 143,
+  "current_evidence_records": 317,
+  "drug_probe_rows": 133,
+  "bibliography_rows": 163,
+  "study_rows": 161,
+  "warning_rows": 70,
+  "new_compounds_admitted": 7,
+  "batches_completed": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "candidate_screening": {
+    "current_log_rows": 80,
+    "current_distinct_names": 75,
+    "v17_new_leads_adjudicated": 7,
+    "required": 40,
+    "caveat": "Do not count inherited V16 leads or repeated duplicate checks."
+  },
+  "warnings": {
+    "inherited": 66,
+    "fresh_v17_reaudited": 0,
+    "partial_source_rechecks": 3,
+    "silently_removed": 0,
+    "warning_audit_complete": false
+  },
+  "tests": {
+    "stageB_root_last_verified": {
+      "passed": 46,
+      "failed": 0,
+      "when": "before current V17 batches; rerun required"
+    },
+    "v17_focused": {
+      "passed": 13,
+      "failed": 0
+    },
+    "structural_validator": "PASS"
+  },
+  "next_work": [
+    "Research and screen at least 33 additional distinct candidate leads, recording source-specific disposition; only admit scientifically eligible candidates in batches of at most four.",
+    "Add seven eligible unique compounds to reach exactly 150; preserve primary evidence, identity and food context traceability.",
+    "Freshly re-audit all 66 inherited warnings row by row; current inherited dispositions are historical only; 3 are partial rechecks.",
+    "Run final full Stage B regression, refresh exact manifest and verify an independent clean copy."
+  ],
+  "known_limitations": [
+    "Batch 8 evidence is in vitro; no clinical DDI inference.",
+    "S-equol journal full text unavailable; numerical values came from a dissertation and V17-W03 remains open.",
+    "Phloridzin study food preparation/lot not reported; no in-vivo phloridzin outcome inferred.",
+    "Release remains partial and not ready for 150."
+  ]
+}

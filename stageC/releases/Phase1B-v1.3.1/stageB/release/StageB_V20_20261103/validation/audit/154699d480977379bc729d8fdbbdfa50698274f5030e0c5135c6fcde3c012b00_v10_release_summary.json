@@ -1,0 +1,152 @@
+{
+  "release": "CookRisk Stage B V10",
+  "release_date": "2026-10-30",
+  "v9_baseline": {
+    "anchors": 74,
+    "records": 210,
+    "distinct_drugs_probes": 103,
+    "unique_PMID": 130,
+    "unique_nonblank_DOI": 125,
+    "DOI_blank_records": 6,
+    "evidence_classes": {
+      "Human pharmacokinetic": 70,
+      "In vitro": 85,
+      "Animal": 51,
+      "Controlled clinical": 4
+    },
+    "numerical_outcomes": 114,
+    "warning_rows": 28,
+    "warning_codes": 27,
+    "warning_status": {
+      "Partially resolved": 10,
+      "Unresolved": 15,
+      "Resolved": 1,
+      "Not applicable": 2
+    }
+  },
+  "v10": {
+    "anchors": 100,
+    "new_anchors": 26,
+    "records": 263,
+    "new_records": 53,
+    "distinct_drug_probe_labels": 117,
+    "unique_PMIDs": 140,
+    "unique_DOIs": 136,
+    "DOI_only_publications": 1,
+    "study_index_entries": 141,
+    "independent_cohorts": "not counted; publication identifiers do not establish cohort independence",
+    "evidence_classes": {
+      "Human pharmacokinetic": 70,
+      "In vitro": 138,
+      "Animal": 51,
+      "Controlled clinical": 4
+    },
+    "new_records_all_in_vitro": true,
+    "records_with_numeric_text": 161,
+    "source_verification": {
+      "full_text_verified": 23,
+      "abstract_verified": 233,
+      "abstract_qualitative_numeric_pending": 4,
+      "DOI_only_article_abstract_located_full_text_extraction_pending": 3,
+      "metadata_only": 0,
+      "secondary_source_only": 0
+    },
+    "structure_complete": 100,
+    "exact_structure_duplicates": 0,
+    "selection_anchors_added": 26,
+    "warnings": {
+      "rows": 35,
+      "codes": 33,
+      "status": {
+        "Partially resolved": 11,
+        "Unresolved": 21,
+        "Resolved": 1,
+        "Not applicable": 2
+      }
+    },
+    "anchor_target_gap": 0,
+    "record_target_gap": 237
+  },
+  "validation": {
+    "status": "PASS",
+    "checks": {
+      "100_distinct_anchors": true,
+      "263_unique_evidence_ids": true,
+      "all_v9_evidence_preserved_exactly": true,
+      "all_evidence_compound_references_valid": true,
+      "all_structures_complete": true,
+      "unique_exact_structures": true,
+      "unique_pubchem_cids": true,
+      "selection_coverage": true,
+      "claims_cover_new_records": true,
+      "all_new_sources_linked": true,
+      "valid_new_identifiers": true,
+      "warning_inheritance": true,
+      "cooking_table_preserved": true,
+      "no_cooking_records_in_interaction_table": true,
+      "no_duplicate_warning_ids": true,
+      "drug_registry_covers_records": true,
+      "study_registry_covers_new_records": true,
+      "bibliography_identifier_reconciliation": true,
+      "100_name_or_alias_to_cid_matches": true,
+      "v9_unchanged_hashes_match": true,
+      "full_v9_release_manifest_matches": true
+    },
+    "passed": 21,
+    "total_checks": 21,
+    "errors": [],
+    "mutation_tests": [
+      {
+        "Mutation": "duplicate_compound_id",
+        "Detected": true
+      },
+      {
+        "Mutation": "duplicate_evidence_id",
+        "Detected": true
+      },
+      {
+        "Mutation": "orphan_compound",
+        "Detected": true
+      },
+      {
+        "Mutation": "missing_inchikey",
+        "Detected": true
+      },
+      {
+        "Mutation": "duplicate_structure",
+        "Detected": true
+      },
+      {
+        "Mutation": "bad_pmid",
+        "Detected": true
+      },
+      {
+        "Mutation": "missing_source_claim",
+        "Detected": true
+      },
+      {
+        "Mutation": "missing_selection",
+        "Detected": true
+      },
+      {
+        "Mutation": "missing_warning",
+        "Detected": true
+      },
+      {
+        "Mutation": "mix_cooking_domain",
+        "Detected": true
+      }
+    ],
+    "mutations_passed": 10,
+    "mutations_total": 10,
+    "v9_hash_mismatches": [],
+    "full_v9_manifest_files_checked": 30,
+    "full_v9_manifest_mismatches": [],
+    "anchors": 100,
+    "records": 263,
+    "new_anchors": 26,
+    "new_records": 53,
+    "unique_PMIDs": 140,
+    "unique_DOIs": 136
+  }
+}

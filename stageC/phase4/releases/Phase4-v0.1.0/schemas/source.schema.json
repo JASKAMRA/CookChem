@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.local/schemas/phase4-source.schema.json",
+  "title": "CookRisk Phase 4 source record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_id", "title", "authors", "publication_year", "source_type", "doi", "pmid", "url", "full_text_url", "access_status", "bibliographic_status", "provenance"],
+  "properties": {
+    "source_id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "authors": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1},
+    "publication_year": {"type": "integer", "minimum": 1800},
+    "journal": {"type": ["string", "null"]},
+    "volume_issue_pages": {"type": ["string", "null"]},
+    "source_type": {"enum": ["primary_experimental", "primary_observational", "systematic_review", "meta_analysis", "authoritative_assessment", "other_secondary"]},
+    "doi": {"type": ["string", "null"], "pattern": "^(10\\.[0-9]{4,9}/[^\\s]+)?$"},
+    "pmid": {"type": ["string", "null"], "pattern": "^[0-9]*$"},
+    "url": {"type": "string", "format": "uri"},
+    "full_text_url": {"type": ["string", "null"], "format": "uri"},
+    "access_status": {"enum": ["full_text_reviewed", "abstract_only_reviewed", "metadata_only", "unavailable"]},
+    "bibliographic_status": {"enum": ["verified", "partially_verified", "pending"]},
+    "provenance": {"type": "object", "additionalProperties": false, "required": ["registered_on", "registration_method", "source_registry_version"], "properties": {"registered_on": {"type": "string", "format": "date"}, "registration_method": {"type": "string", "minLength": 1}, "source_registry_version": {"type": "string", "minLength": 1}}}
+  }
+}

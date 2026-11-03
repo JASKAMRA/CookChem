@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "checks": {
+    "baseline_anchors": 60,
+    "baseline_records": 189,
+    "final_anchors": 74,
+    "final_records": 210,
+    "new_anchors": 14,
+    "new_records": 21,
+    "unique_publications": 130,
+    "evidence_classes": {
+      "Human pharmacokinetic": 70,
+      "In vitro": 85,
+      "Animal": 51,
+      "Controlled clinical": 4
+    },
+    "open_warning_entries": 25,
+    "distinct_warning_codes": 27,
+    "new_record_verification": {
+      "Abstract verified": 19,
+      "Full-text table verified": 2
+    },
+    "v8_prefix_preserved": true,
+    "v8_source_hash_unchanged": true
+  },
+  "errors": [],
+  "mutation_tests": [
+    {
+      "Mutation": "duplicate_evidence_id",
+      "Detected": true
+    },
+    {
+      "Mutation": "orphan_compound",
+      "Detected": true
+    },
+    {
+      "Mutation": "bad_pmid",
+      "Detected": true
+    },
+    {
+      "Mutation": "missing_source_cache",
+      "Detected": true
+    },
+    {
+      "Mutation": "missing_selection",
+      "Detected": true
+    },
+    {
+      "Mutation": "missing_warning",
+      "Detected": true
+    },
+    {
+      "Mutation": "mixed_cooking_record",
+      "Detected": true
+    }
+  ],
+  "mutations_passed": 7,
+  "mutations_total": 7,
+  "limitations": "Automated integrity checks do not validate every extraction scientifically. Most new claims are abstract verified; 2 phytosterol IC50 rows were checked against a full-text table. New rows use PubChem CID for identity; only phloretin has structured SMILES/InChI/InChIKey copied into this build. No Stage C/D calculations were performed."
+}

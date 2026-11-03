@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:uncertainty_assessment",
+  "title": "CookRisk uncertainty assessment record",
+  "description": "Machine-readable uncertainty output. Empty bounds mean no total interval is available; missing reasons must explain why.",
+  "$defs": {
+    "factorMetadata": {
+      "type": "object",
+      "required": ["name", "unit", "type", "source_type", "source_reference", "method"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "unit": {"type": "string", "minLength": 1},
+        "type": {"enum": ["reported_interval", "source_reported_range", "measured_interval", "analytical_measurement_variability", "derived_interval", "literature_derived_range", "assumed_scenario", "scenario_bound", "model_prediction_uncertainty"]},
+        "source_type": {"enum": ["reported", "measured", "derived", "literature", "assumed", "model_prediction"]},
+        "source_reference": {"type": "string", "minLength": 1},
+        "method": {"type": "string"},
+        "model_artifact_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "target_contract_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "prediction_reference": {"type": "string", "minLength": 1}
+      },
+      "allOf": [
+        {"if": {"properties": {"type": {"enum": ["reported_interval", "source_reported_range"]}}, "required": ["type"]}, "then": {"properties": {"source_type": {"const": "reported"}}}, "else": {}},
+        {"if": {"properties": {"type": {"enum": ["measured_interval", "analytical_measurement_variability"]}}, "required": ["type"]}, "then": {"properties": {"source_type": {"const": "measured"}}}, "else": {}},
+        {"if": {"properties": {"type": {"enum": ["derived_interval"]}}, "required": ["type"]}, "then": {"properties": {"source_type": {"const": "derived"}, "method": {"minLength": 1}}}, "else": {}},
+        {"if": {"properties": {"type": {"const": "literature_derived_range"}}, "required": ["type"]}, "then": {"properties": {"source_type": {"const": "literature"}, "method": {"minLength": 1}}}, "else": {}},
+        {"if": {"properties": {"type": {"enum": ["assumed_scenario", "scenario_bound"]}}, "required": ["type"]}, "then": {"properties": {"source_type": {"const": "assumed"}}}, "else": {}},
+        {"if": {"properties": {"type": {"const": "model_prediction_uncertainty"}}, "required": ["type"]}, "then": {"required": ["model_artifact_sha256", "target_contract_sha256", "prediction_reference"], "properties": {"source_type": {"const": "model_prediction"}, "method": {"minLength": 1}}}, "else": {}}
+      ],
+      "additionalProperties": false
+    },
+    "missingReason": {
+      "type": "object",
+      "required": ["code", "factor", "reason"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "NO_SUPPORTED_BOUNDS",
+            "PHASE3_ESTIMATE_INCOMPLETE",
+            "PHASE3_TOTAL_INCOMPLETE",
+            "NO_ANALYTICAL_UNCERTAINTY",
+            "NO_QUANTITY_UNCERTAINTY",
+            "NO_FRACTION_UNCERTAINTY",
+            "COMPONENT_UNCERTAINTY_UNAVAILABLE"
+          ]
+        },
+        "factor": {"type": "string", "minLength": 1},
+        "reason": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": ["uncertainty_status", "amount_low", "amount_high", "unit", "distribution_assumed", "correlation_assumed", "missing_uncertainty_reasons"],
+  "properties": {
+    "estimate_id": {"type": "string"},
+    "compound_id": {"type": "string"},
+    "uncertainty_status": {
+      "type": "string",
+      "enum": [
+        "NOT_QUANTIFIABLE",
+        "PARTIALLY_QUANTIFIABLE",
+        "POINT_ESTIMATE_ONLY",
+        "BOUNDED_INTERVAL",
+        "BOUNDED_INTERVAL_CONDITIONAL_ON_RECIPE_INPUTS",
+        "SCENARIO_ENVELOPE"
+      ]
+    },
+    "amount_low": {"type": "string"},
+    "amount_high": {"type": "string"},
+    "point_amount": {"type": "string"},
+    "central_amount": {"type": "string"},
+    "unit": {"type": "string", "minLength": 1},
+    "distribution_assumed": {"type": "boolean", "const": false},
+    "correlation_assumed": {"type": "boolean", "const": false},
+    "missing_uncertainty_reasons": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/missingReason"}
+    },
+    "supporting_evidence": {"type": "array", "items": {"type": "object"}},
+    "factors": {"type": "array", "items": {"$ref": "#/$defs/factorMetadata"}}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"uncertainty_status": {"const": "POINT_ESTIMATE_ONLY"}}, "required": ["uncertainty_status"]},
+      "then": {
+        "required": ["point_amount"],
+        "properties": {"amount_low": {"const": ""}, "amount_high": {"const": ""}, "missing_uncertainty_reasons": {"minItems": 1}}
+      }
+    },
+    {
+      "if": {"properties": {"uncertainty_status": {"enum": ["NOT_QUANTIFIABLE", "PARTIALLY_QUANTIFIABLE"]}}, "required": ["uncertainty_status"]},
+      "then": {
+        "properties": {"amount_low": {"const": ""}, "amount_high": {"const": ""}, "missing_uncertainty_reasons": {"minItems": 1}}
+      }
+    },
+    {
+      "if": {"properties": {"uncertainty_status": {"enum": ["BOUNDED_INTERVAL", "BOUNDED_INTERVAL_CONDITIONAL_ON_RECIPE_INPUTS", "SCENARIO_ENVELOPE"]}}, "required": ["uncertainty_status"]},
+      "then": {
+        "properties": {"amount_low": {"minLength": 1}, "amount_high": {"minLength": 1}}
+      }
+    },
+    {
+      "if": {"properties": {"uncertainty_status": {"const": "BOUNDED_INTERVAL_CONDITIONAL_ON_RECIPE_INPUTS"}}, "required": ["uncertainty_status"]},
+      "then": {"properties": {"supporting_evidence": {"minItems": 1}}}
+    },
+    {
+      "if": {"properties": {"uncertainty_status": {"const": "BOUNDED_INTERVAL"}}, "required": ["uncertainty_status"]},
+      "then": {"properties": {"factors": {"minItems": 1}}}
+    },
+    {
+      "if": {"properties": {"uncertainty_status": {"const": "SCENARIO_ENVELOPE"}}, "required": ["uncertainty_status"]},
+      "then": {
+        "properties": {
+          "factors": {
+            "minItems": 1,
+            "contains": {"properties": {"source_type": {"const": "assumed"}}, "required": ["source_type"]}
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": true
+}

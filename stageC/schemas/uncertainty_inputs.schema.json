@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.example/schemas/uncertainty_inputs.schema.json",
+  "title": "Structured uncertainty inputs for Stage C calculations",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "food_concentration": {"$ref": "#/$defs/factor"},
+    "analytical_variability": {"$ref": "#/$defs/factor"},
+    "ingredient_quantity": {"$ref": "#/$defs/factor"},
+    "serving_size": {"$ref": "#/$defs/factor"},
+    "serving_fraction": {"$ref": "#/$defs/factor"},
+    "consumed_fraction": {"$ref": "#/$defs/factor"},
+    "serving_count": {"$ref": "#/$defs/factor"},
+    "cooking_retention": {"$ref": "#/$defs/factor"},
+    "cooked_quantity": {"$ref": "#/$defs/factor"},
+    "cooking_yield": {"$ref": "#/$defs/factor"},
+    "recipe_level": {"$ref": "#/$defs/factor"},
+    "meal_aggregation": {"$ref": "#/$defs/factor"}
+  },
+  "$defs": {
+    "decimal": {"anyOf": [{"type": "number"}, {"type": "string", "pattern": "^[0-9]+([.][0-9]+)?$"}]},
+    "factor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "value", "unit"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "value": {"$ref": "#/$defs/decimal"},
+        "unit": {"type": "string", "minLength": 1},
+        "bounds": {"$ref": "#/$defs/bounds"}
+      }
+    },
+    "bounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["low", "high", "type", "source_type", "source_reference"],
+      "properties": {
+        "low": {"$ref": "#/$defs/decimal"},
+        "high": {"$ref": "#/$defs/decimal"},
+        "type": {"enum": ["reported_interval", "source_reported_range", "measured_interval", "analytical_measurement_variability", "derived_interval", "literature_derived_range", "assumed_scenario", "scenario_bound", "model_prediction_uncertainty"]},
+        "source_type": {"enum": ["reported", "measured", "derived", "literature", "assumed", "model_prediction"]},
+        "source_reference": {"type": "string", "minLength": 1},
+        "method": {"type": "string"},
+        "model_artifact_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "target_contract_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "prediction_reference": {"type": "string"}
+      }
+    }
+  }
+}

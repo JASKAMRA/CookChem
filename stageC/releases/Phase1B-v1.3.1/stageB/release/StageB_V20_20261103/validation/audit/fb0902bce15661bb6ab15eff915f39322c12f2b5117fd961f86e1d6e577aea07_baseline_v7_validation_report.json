@@ -1,0 +1,222 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "checks_passed": 42,
+  "checks_total": 42,
+  "errors": [],
+  "warning_entries": 20,
+  "distinct_warning_codes": 19,
+  "checks": [
+    {
+      "Check": "Inherited 147 rows preserved in exact field order",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Evidence IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Compound IDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "New IDs stable unrecycled sequential suffix",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Schema 36 fields unchanged",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Chemical keys and CIDs unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Canonical anchor names unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Connectivity near-duplicates explicitly retain distinct stereo keys",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Reference identities match actual PubChem snapshots",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Foreign keys and names valid",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No duplicate experimental contexts",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Inherited registry changes restricted to evidence counts",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Registry evidence counts correct",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Selection provenance complete and current dates explicit",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Original-nine dates not fabricated",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Food context sources separate and locally available",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "New primary MED bibliography concordant",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "PMID DOI study formatting valid",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Primary source cache paths valid",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Claim ledger covers new and upgraded contexts exactly",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Numeric tokens trace to actual source passages",
+      "Passed": true,
+      "Detail": "[]; diagnostic only, manual endpoint/unit checks retained"
+    },
+    {
+      "Check": "Numerical outcomes retain units or dimensionless context",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Evidence classes permitted",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Only randomized clinical studies labelled Controlled clinical",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Human microsomes and cancer cells remain In vitro",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Folic acid prevention and established-disease null separated",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Sesamin prior-study numerical result not attributed to current experiment",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Lutein native suspension null not formulation-positive",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Vitamin K1 not generalized to all vitamin K forms",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Oleuropein unequal comparator dose remains explicit",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Processing rows preserved independently",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "New anchors have no imputed retention/master linkage",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Publication count distinct PMIDs not endpoints",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Food-only and unused generic vitamin-K sources not counted",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "All new contexts and upgrades change logged",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "All 32 candidate decisions explicit",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Review status ledger complete and unique",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Final anchor count computed from distinct entities",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "Drug registry exactly covers evidence labels",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "No unresolved bibliographic mismatch",
+      "Passed": true,
+      "Detail": ""
+    },
+    {
+      "Check": "All frozen prior files including V6 preserved",
+      "Passed": true,
+      "Detail": "7425 files; changed=[]"
+    },
+    {
+      "Check": "Offline deterministic rebuild byte-identical",
+      "Passed": true,
+      "Detail": "23 files compared"
+    }
+  ],
+  "baseline_suite_before": "PASS_WITH_WARNINGS",
+  "baseline_suite_after": "PASS_WITH_WARNINGS"
+}

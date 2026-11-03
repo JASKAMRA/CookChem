@@ -1,0 +1,92 @@
+{
+  "passed": 20,
+  "total": 20,
+  "inherited_tests": {
+    "passed": 11,
+    "total": 11,
+    "tests": [
+      {
+        "Test": "Existing v3 duplicate ID",
+        "Passed": true
+      },
+      {
+        "Test": "Existing v3 broken FK",
+        "Passed": true
+      },
+      {
+        "Test": "Existing v3 numeric claim",
+        "Passed": true
+      },
+      {
+        "Test": "Existing v3 wrong bibliography",
+        "Passed": true
+      },
+      {
+        "Test": "Existing v3 baseline changed",
+        "Passed": true
+      },
+      {
+        "Test": "Existing v3 missing selection",
+        "Passed": true
+      },
+      {
+        "Test": "Existing v4 corrected claim tamper",
+        "Passed": true
+      },
+      {
+        "Test": "Existing v4 significance overclaim",
+        "Passed": true
+      },
+      {
+        "Test": "New v5 false new quantity",
+        "Passed": true
+      },
+      {
+        "Test": "New v5 no synergy relabelled no interaction",
+        "Passed": true
+      },
+      {
+        "Test": "New v5 reverse interaction flipped",
+        "Passed": true
+      }
+    ]
+  },
+  "new_tests": [
+    {
+      "Test": "duplicate evidence",
+      "Passed": true
+    },
+    {
+      "Test": "broken foreign key",
+      "Passed": true
+    },
+    {
+      "Test": "false number",
+      "Passed": true
+    },
+    {
+      "Test": "wrong bibliography",
+      "Passed": true
+    },
+    {
+      "Test": "inherited change",
+      "Passed": true
+    },
+    {
+      "Test": "missing selection",
+      "Passed": true
+    },
+    {
+      "Test": "reverse direction",
+      "Passed": true
+    },
+    {
+      "Test": "duplicate chemical",
+      "Passed": true
+    },
+    {
+      "Test": "broken source cache",
+      "Passed": true
+    }
+  ]
+}

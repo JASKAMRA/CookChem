@@ -1,0 +1,312 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:32601017 AND SRC:MED",
+    "internalQuery": "EXT_ID:32601017 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32601017",
+        "source": "MED",
+        "pmid": "32601017",
+        "doi": "10.1016/j.dmpk.2020.05.002",
+        "title": "Inhibitory effects of sesamin on CYP2C9-dependent 7-hydroxylation of S-warfarin.",
+        "authorString": "Fujii M, Yasuda K, Sakaki T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fujii M",
+              "lastName": "Fujii",
+              "firstName": "Miharu",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Engineering, Faculty of Engineering, Toyama Prefectural University, 5180 Kurokawa, Imizu, Toyama, 939-0398, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yasuda K",
+              "lastName": "Yasuda",
+              "firstName": "Kaori",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Engineering, Faculty of Engineering, Toyama Prefectural University, 5180 Kurokawa, Imizu, Toyama, 939-0398, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sakaki T",
+              "lastName": "Sakaki",
+              "firstName": "Toshiyuki",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Engineering, Faculty of Engineering, Toyama Prefectural University, 5180 Kurokawa, Imizu, Toyama, 939-0398, Japan. Electronic address: tsakaki@pu-toyama.ac.jp."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "35",
+          "journalIssueId": 2989070,
+          "dateOfPublication": "2020 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Drug Metab Pharmacokinet",
+            "title": "Drug metabolism and pharmacokinetics",
+            "essn": "1880-0920",
+            "issn": "1347-4367",
+            "nlmid": "101164773",
+            "isoabbreviation": "Drug Metab Pharmacokinet"
+          },
+          "printPublicationDate": "2020-08-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "368-373",
+        "abstractText": "A recent report demonstrated that sesamin strongly and non-competitively inhibits S-warfarin 7-hydroxylation activity in human liver microsomes with a K<sub>i</sub> value of 0.2 μM. This finding suggests that sesamin predominantly binds to CYP2C9 at another site for which it has a higher affinity than its affinity for the active site, thereby inhibiting the activity of CYP2C9 non-competitively. In this study, we found that sesamin competitively inhibited the 7-hydroxylation activity of S-warfarin in human liver microsomes with a K<sub>i</sub> value of 15.7 μM. In addition, the recombinant CYP2C9-dependent 7-hydroxylation activity of S-warfarin was competitively inhibited by sesamin with a Ki value of 13.1 μM. These results are consistent with the fact that sesamin is a good substrate of CYP2C9, and its activity follows Michaelis-Menten kinetics. As the plasma concentration of sesamin after its administration is usually lower than 0.01 μM, the inhibition of S-warfarin metabolism by sesamin does not appear to be severe.",
+        "affiliation": "Department of Pharmaceutical Engineering, Faculty of Engineering, Toyama Prefectural University, 5180 Kurokawa, Imizu, Toyama, 939-0398, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lignans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dioxoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Warfarin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hydroxylation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP2C9",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Competitive inhibition",
+            "Warfarin",
+            "Cyp2c9",
+            "Human Liver Microsomes",
+            "Sesamin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Dioxoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lignans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "sesamin",
+              "registryNumber": "S7946O4P76"
+            },
+            {
+              "name": "Warfarin",
+              "registryNumber": "5Q7ZVV76EI"
+            },
+            {
+              "name": "CYP2C9 protein, human",
+              "registryNumber": "EC 1.14.13.-"
+            },
+            {
+              "name": "Cytochrome P-450 CYP2C9",
+              "registryNumber": "EC 1.14.13.-"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.dmpk.2020.05.002"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-12-31",
+        "dateOfCreation": "2020-07-01",
+        "dateOfRevision": "2020-12-31",
+        "electronicPublicationDate": "2020-05-19",
+        "firstPublicationDate": "2020-05-19",
+        "firstIndexDate": "2020-07-01",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

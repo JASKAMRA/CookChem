@@ -1,0 +1,52 @@
+{
+  "release": "StageB_V16_20261102",
+  "status": "PARTIAL_NOT_READY_FOR_160",
+  "baseline_counts": {
+    "compounds": 136,
+    "evidence": 310,
+    "drug_probe_rows": 133,
+    "bibliography_rows": 158,
+    "unique_nonblank_PMIDs": 156,
+    "study_rows": 158,
+    "inherited_warnings": 64
+  },
+  "current_counts": {
+    "compounds": 136,
+    "evidence": 310,
+    "drug_probe_rows": 133,
+    "bibliography_rows": 158,
+    "unique_nonblank_PMIDs": 156,
+    "study_rows": 158,
+    "warnings": 66
+  },
+  "pending_candidates_screened": 9,
+  "accepted": 0,
+  "held": 9,
+  "rejected": 0,
+  "batch_gates": {
+    "8": "NOT_STARTED — qualifying candidates not established",
+    "9": "NOT_STARTED — sequential dependency on Batch 8",
+    "10": "NOT_STARTED — sequential dependency on Batch 9",
+    "11": "NOT_STARTED — sequential dependency on Batch 10"
+  },
+  "validators": {
+    "v16_structural_provenance": "PASS",
+    "warning_ledger": "PASS"
+  },
+  "tests": {
+    "v16_warning_tests": "4 passed, 0 failed",
+    "stageB_root": "44 passed, 1 failed; transient pyc path-enumeration false-positive during dynamic import"
+  },
+  "integrity": {
+    "v16_exact_manifest": "PASS 744/744",
+    "v16_clean_copy_exact": "PASS 744/744",
+    "v15_exact_manifest": "PASS 736/736",
+    "v14_exact_manifest": "PASS 725/725",
+    "v13_canonical_manifest": "PASS 716/716; 650 raw line-ending differences"
+  },
+  "notes": [
+    "No new compound was admitted; numerical target gap remains 24.",
+    "Original PMID 32571913 supplementary table was not directly retrievable and inspected; four Ki values remain absent.",
+    "DOI 10.1691/ph.2012.1099 was verified from the primary publisher PDF and corrected across PMID 22512082 linked records."
+  ]
+}

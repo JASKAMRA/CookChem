@@ -1,0 +1,36 @@
+{
+  "method": "Independent Decimal arithmetic: mg/100g \u00d7 10 = mg/kg; g/1000 = kg; consumed = concentration \u00d7 serving kg \u00d7 fraction",
+  "status": "PASS",
+  "checks": [
+    {
+      "estimate_id": "B001-EPICATECHIN-150G",
+      "compound_id": "CHEM-PUBCHEM-72276",
+      "source_concentration": "7.53",
+      "normalized_mg_per_kg": "75.30",
+      "reported_expected_mg_per_kg": "75.30",
+      "initial_amount_reported_mg": "11.2950",
+      "initial_amount_independent_mg": "11.2950",
+      "consumed_reported_mg": "9.03600",
+      "consumed_independent_mg": "9.03600",
+      "status": "Complete",
+      "warning_identifiers": [
+        "V11-W02"
+      ]
+    },
+    {
+      "estimate_id": "B001-CATECHIN-150G",
+      "compound_id": "CHEM-PUBCHEM-9064",
+      "source_concentration": "1.30",
+      "normalized_mg_per_kg": "13.00",
+      "reported_expected_mg_per_kg": "13.00",
+      "initial_amount_reported_mg": "1.9500",
+      "initial_amount_independent_mg": "1.9500",
+      "consumed_reported_mg": "1.56000",
+      "consumed_independent_mg": "1.56000",
+      "status": "Complete",
+      "warning_identifiers": [
+        "V11-W02"
+      ]
+    }
+  ]
+}

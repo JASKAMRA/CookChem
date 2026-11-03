@@ -1,0 +1,59 @@
+{
+  "release": "StageB_V14_20261102",
+  "readiness": "PARTIAL_NOT_READY_FOR_160",
+  "target_compounds": 160,
+  "current_compounds": 128,
+  "numerical_gap": 32,
+  "numerical_shortfall_scientifically_justified": false,
+  "counts": {
+    "evidence": 299,
+    "drug_probe_rows": 128,
+    "bibliography_rows": 157,
+    "unique_nonblank_PMIDs": 155,
+    "study_rows": 157,
+    "warning_rows": 61
+  },
+  "batch_gates": {
+    "batch_02": "PASS",
+    "batch_03": "PASS",
+    "batch_04": "PASS",
+    "batch_05": "PASS"
+  },
+  "tests": {
+    "stageB_passed": 45,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0,
+    "v14_synthetic_mutations_detected": 8,
+    "v14_synthetic_mutations_total": 8,
+    "structural_provenance_errors": 0
+  },
+  "new_evidence_scope": "In-vitro/mechanistic or animal; no human clinical interaction inferred.",
+  "limitations": [
+    "Red 40 numerical Ki omitted because primary supplementary table was not directly verified.",
+    "Four additional panel candidates held pending primary supplement and identity verification."
+  ],
+  "preservation": "Inherited V13 compound and evidence records verified unchanged by release validator and regression tests.",
+  "protected_stages": "Stage A and Stage C were not modified or executed.",
+  "git_operations": "None",
+  "manifest_verification": {
+    "status": "PASS",
+    "mode": "exact",
+    "manifest_entries": 725,
+    "release_files": 725,
+    "missing": 0,
+    "unexpected": 0,
+    "mismatches": 0,
+    "raw_byte_mismatches": 0
+  },
+  "clean_copy_exact_verification": {
+    "status": "PASS",
+    "mode": "exact",
+    "manifest_entries": 725,
+    "release_files": 725,
+    "missing": 0,
+    "unexpected": 0,
+    "mismatches": 0,
+    "raw_byte_mismatches": 0
+  }
+}

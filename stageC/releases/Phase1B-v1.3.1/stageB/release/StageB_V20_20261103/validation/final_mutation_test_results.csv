@@ -1,0 +1,13 @@
+﻿Mutation,Expected_Code,Target_Record,Detected,Observed_Matching_Diagnostics
+duplicate compound ID,CMP_ID_DUP,MOL-E8216E9AF4FCDA58,True,1
+duplicate evidence ID,EVI_ID_DUP,SB-0001,True,1
+orphan compound reference,FK_COMPOUND,SB-0001,True,1
+orphan drug reference,FK_DRUG,SB-0001,True,1
+missing study reference,FK_STUDY,SB-0001,True,1
+invalid evidence class,EVIDENCE_CLASS,SB-0001,True,1
+invalid PMID,PMID_FORMAT,SB-0001,True,1
+duplicate InChIKey,IDENTITY_DUP_KEY,YBHILYKTIRIUTE-UHFFFAOYSA-N,True,1
+missing source claim,CLAIM_MISSING,SB-0001,True,1
+missing selection rationale,SELECTION_MISSING,MOL-V12-CID-122685,True,1
+duplicate warning ID,WARNING_ID_DUP,V3-W01,True,1
+cooking/interactions domain collision,DOMAIN_ID_COLLISION,SB-0001,True,1

@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:stage_a_deployment_manifest:1.0.0",
+  "title": "CookRisk supplied Stage A deployment package manifest",
+  "description": "Metadata contract only. A structurally valid package is not scientific approval and never authorizes inference by Stage C.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "package_id", "package_version", "package_status", "build_date", "owner", "runtime_interface", "selected_model", "target_contract", "runtime", "feature_contract", "output_contract", "training_provenance", "artifact_count", "artifacts", "review"],
+  "properties": {
+    "contract_version": {"const": "1.0.0"},
+    "package_id": {"type": "string", "minLength": 1},
+    "package_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "package_status": {"enum": ["DRAFT", "REVIEW_PENDING", "APPROVED"]},
+    "build_date": {"type": "string", "format": "date"},
+    "owner": {"type": "string", "minLength": 1},
+    "runtime_interface": {"const": "supplied_prediction_record"},
+    "selected_model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "class", "selection_decision", "artifact_path", "artifact_sha256", "metadata_path", "metadata_sha256"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "class": {"type": "string", "minLength": 1},
+        "selection_decision": {"type": "string", "minLength": 1},
+        "best_model_by_rmse": {"type": ["string", "null"]},
+        "overall_benchmark_model": {"type": ["string", "null"]},
+        "artifact_path": {"$ref": "#/$defs/relativePath"},
+        "artifact_sha256": {"$ref": "#/$defs/sha256"},
+        "metadata_path": {"$ref": "#/$defs/relativePath"},
+        "metadata_sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "target_contract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["contract_id", "artifact_path", "sha256", "target_name", "semantic_type", "output_unit", "numerator", "denominator", "measurement_basis", "scientific_approval"],
+      "properties": {
+        "contract_id": {"type": "string", "minLength": 1},
+        "artifact_path": {"$ref": "#/$defs/relativePath"},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "target_name": {"const": "Retention_Final"},
+        "semantic_type": {"enum": ["apparent_concentration_ratio", "concentration_retention", "total_mass_retention", "other"]},
+        "output_unit": {"type": "string", "minLength": 1},
+        "numerator": {"type": "string", "minLength": 1},
+        "denominator": {"type": "string", "minLength": 1},
+        "measurement_basis": {"enum": ["fresh_weight", "dry_weight", "cooked_weight", "volume", "total_mass", "source_native", "other"]},
+        "source_reference": {"type": "string", "minLength": 1},
+        "scientific_approval": {"$ref": "#/$defs/reviewApproval"}
+      }
+    },
+    "runtime": {
+      "type": "object", "additionalProperties": false,
+      "required": ["python_version", "lock_path", "lock_sha256", "serialization_library", "serialization_library_version"],
+      "properties": {
+        "python_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+        "lock_path": {"$ref": "#/$defs/relativePath"},
+        "lock_sha256": {"$ref": "#/$defs/sha256"},
+        "serialization_library": {"type": "string", "minLength": 1},
+        "serialization_library_version": {"type": "string", "minLength": 1}
+      }
+    },
+    "feature_contract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_path", "schema_sha256", "preprocessing_path", "preprocessing_sha256", "ordered_feature_names", "features", "engineered_feature_names"],
+      "properties": {
+        "schema_path": {"$ref": "#/$defs/relativePath"},
+        "schema_sha256": {"$ref": "#/$defs/sha256"},
+        "preprocessing_path": {"$ref": "#/$defs/relativePath"},
+        "preprocessing_sha256": {"$ref": "#/$defs/sha256"},
+        "ordered_feature_names": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "features": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/feature"}},
+        "engineered_feature_names": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "output_contract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_path", "schema_sha256", "canonicalization", "checksum_rule"],
+      "properties": {
+        "schema_path": {"$ref": "#/$defs/relativePath"},
+        "schema_sha256": {"$ref": "#/$defs/sha256"},
+        "canonicalization": {"const": "utf8_sorted_keys_compact_json_no_nan"},
+        "checksum_rule": {"const": "sha256_payload_without_output_sha256"}
+      }
+    },
+    "training_provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["dataset_version", "training_input_path", "training_input_sha256", "training_code_path", "training_code_sha256", "training_environment_path", "training_environment_sha256", "record_count", "group_count", "feature_count"],
+      "properties": {
+        "dataset_version": {"type": "string", "minLength": 1},
+        "training_input_path": {"$ref": "#/$defs/relativePath"},
+        "training_input_sha256": {"$ref": "#/$defs/sha256"},
+        "training_code_path": {"$ref": "#/$defs/relativePath"},
+        "training_code_sha256": {"$ref": "#/$defs/sha256"},
+        "training_environment_path": {"$ref": "#/$defs/relativePath"},
+        "training_environment_sha256": {"$ref": "#/$defs/sha256"},
+        "record_count": {"type": "integer", "minimum": 1},
+        "group_count": {"type": "integer", "minimum": 1},
+        "feature_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "artifact_count": {"type": "integer", "minimum": 1},
+    "artifacts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/artifact"}},
+    "review": {"$ref": "#/$defs/reviewApproval"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+    "relativePath": {"type": "string", "minLength": 1, "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"},
+    "artifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256", "size_bytes", "media_type"],
+      "properties": {
+        "path": {"$ref": "#/$defs/relativePath"},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "size_bytes": {"type": "integer", "minimum": 0},
+        "media_type": {"type": "string", "minLength": 1}
+      }
+    },
+    "feature": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "type", "unit", "missing_policy"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "type": {"type": "string", "minLength": 1},
+        "unit": {"type": "string", "minLength": 1},
+        "missing_policy": {"type": "string", "minLength": 1},
+        "preprocessing": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "reviewApproval": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["pending", "approved", "rejected"]},
+        "reviewer": {"type": "string", "minLength": 1},
+        "review_date": {"type": "string", "format": "date"},
+        "review_reference": {"type": "string", "minLength": 1}
+      },
+      "allOf": [
+        {"if": {"properties": {"status": {"const": "approved"}}, "required": ["status"]}, "then": {"required": ["reviewer", "review_date", "review_reference"]}}
+      ]
+    }
+  }
+}

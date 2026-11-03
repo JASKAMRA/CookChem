@@ -1,0 +1,3 @@
+# Batch 007 — USDA isoflavone and source-scope screen
+
+Distinct priority compounds screened: 25 (priority-register rows 51–75). The USDA Release 2.1 separate table for other phytoestrogens yielded one exact compatible quantitative record for Formononetin: alfalfa seeds, sprouted, raw (NDB 11001), 1.43 mg/100g edible portion, references 24, 31, 89. This table does not supply sample count or method, which remain blank in the ingested row. Genistein/daidzein/glycitein remain held when represented as aglycone-equivalent aggregates; glycoside analytes are not conflated. Other database-scope outcomes are in SEARCH_LOG.csv and are not global absence claims.

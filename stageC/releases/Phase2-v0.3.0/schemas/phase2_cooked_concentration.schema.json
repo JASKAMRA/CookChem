@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.local/schemas/phase2_cooked_concentration.schema.json",
+  "title": "CookRisk Phase 2 cooked-concentration estimate",
+  "type": "object",
+  "required": [
+    "output_record_id", "food_record_id", "compound_id", "raw_concentration",
+    "raw_concentration_unit", "retention_source", "cooked_concentration_unit",
+    "calculation_pathway", "source_provenance", "validation_status"
+  ],
+  "properties": {
+    "output_record_id": {"type": "string", "minLength": 1},
+    "food_record_id": {"type": "string", "minLength": 1},
+    "compound_id": {"type": "string", "minLength": 1},
+    "raw_concentration": {"type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$"},
+    "raw_concentration_unit": {"type": "string", "minLength": 1},
+    "retention_source": {"type": "string", "minLength": 1},
+    "cooked_concentration_unit": {"type": "string", "minLength": 1},
+    "calculation_pathway": {"type": "string", "minLength": 1},
+    "source_provenance": {"type": "string", "minLength": 1},
+    "validation_status": {"type": "string", "minLength": 1},
+    "assumptions": {"type": "string"},
+    "warnings": {"type": "string"}
+  },
+  "additionalProperties": true
+}

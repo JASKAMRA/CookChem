@@ -1,0 +1,53 @@
+{
+  "batch": "102",
+  "batch_date": "2026-11-03",
+  "verified_baseline": {
+    "food_records": 539,
+    "mapping_rows": 539,
+    "identity_complete_covered": 97,
+    "stage_b_total": 143,
+    "identity_complete": 107,
+    "identity_pending": 36,
+    "food_sha256": "616a62c3cce8426b058e8aee3c6e746438ee2eea49680f2da492e10101172115",
+    "mapping_sha256": "9774a96396107409a53f6bef5960daffacf5e40ae25d26e7ecaabbbc8c1d6bc1"
+  },
+  "batch_changes": {
+    "accepted_food_records": 2,
+    "accepted_mappings": 2,
+    "newly_covered_identity_complete_compounds": [
+      "MOL-V17-CID-5280704",
+      "MOL-V17-CID-5281673"
+    ],
+    "new_candidate_detail_rows": 29,
+    "search_events": 15,
+    "unique_newly_screened_ids": 12
+  },
+  "current": {
+    "food_records": 541,
+    "mapping_rows": 541,
+    "unique_compounds_with_quantitative_mapping_including_pending": 115,
+    "identity_complete_quantitative_compounds": 99,
+    "identity_complete_total": 107,
+    "identity_complete_uncovered": 8,
+    "identity_pending": 36,
+    "unique_researched_ids": 138,
+    "research_coverage": "138/143",
+    "pending_identity_candidate_numeric_rows": 27,
+    "orphan_mappings": 0,
+    "blocked_mapping_rows": 46,
+    "food_sha256": "a715c92205ba3c2e2e184d0f1330e7db025910a4f4e3365916a4088e3f7cad2e",
+    "mapping_sha256": "5f197098e8cc91df0970568f7758d6d6b5594152c0b83100edd3cbd21f73cec3"
+  },
+  "target": {
+    "minimum": 130,
+    "stretch": 143,
+    "achieved": false,
+    "status": "PHASE1B_ACQUISITION_IN_PROGRESS"
+  },
+  "scientific_notes": [
+    "Pending-identity measurements remain separate and do not count toward eligible coverage.",
+    "Apigetrin is accepted only from the explicit FW Table 3 result; earlier powder finding remains held.",
+    "Myricitrin spinach result is retained on as-analyzed sample-mass basis; no FW/DW assertion; apple conflict remains unresolved.",
+    "No Stage B identity status was changed."
+  ]
+}

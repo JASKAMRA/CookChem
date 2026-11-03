@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:evidence_review_coverage:1.0.0",
+  "title": "CookRisk human review coverage dashboard",
+  "description": "Counts source-pinned machine triage and explicit reviewer actions without treating machine labels as decisions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_release_id", "source_sha256", "record_count", "machine_triage_counts", "human_review_status_counts", "source_verification_status_counts", "machine_source_polarity_counts", "reviewed_record_count", "not_reviewed_record_count", "review_coverage_fraction", "audit_action_count", "expert_accepted_count", "expert_rejected_count", "automatic_approval_count", "automatic_negative_inference_count", "negative_assessments_require_human_action"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "source_release_id": {"const": "StageB_V20_20261103"},
+    "source_sha256": {"const": "358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6"},
+    "record_count": {"const": 317},
+    "machine_triage_counts": {"$ref": "#/$defs/countMap"},
+    "human_review_status_counts": {"$ref": "#/$defs/countMap"},
+    "source_verification_status_counts": {"$ref": "#/$defs/countMap"},
+    "machine_source_polarity_counts": {"$ref": "#/$defs/countMap"},
+    "reviewed_record_count": {"type": "integer", "minimum": 0, "maximum": 317},
+    "not_reviewed_record_count": {"type": "integer", "minimum": 0, "maximum": 317},
+    "review_coverage_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+    "audit_action_count": {"type": "integer", "minimum": 0},
+    "expert_accepted_count": {"type": "integer", "minimum": 0, "maximum": 317},
+    "expert_rejected_count": {"type": "integer", "minimum": 0, "maximum": 317},
+    "automatic_approval_count": {"const": 0},
+    "automatic_negative_inference_count": {"const": 0},
+    "negative_assessments_require_human_action": {"const": true}
+  },
+  "$defs": {"countMap": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 317}}}
+}

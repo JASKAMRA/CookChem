@@ -1,0 +1,17 @@
+{
+  "label": "SYNTHETIC — TEST FIXTURE ONLY",
+  "not_scientific_evidence": true,
+  "not_a_probability_distribution": true,
+  "recipe_id": "R-SYN-MULTICOMPOUND-01",
+  "meal_id": "M-SYN-MULTICOMPOUND-01",
+  "ingredients": [
+    {"ingredient_id": "I-MC-1", "food_record_id": "F-1", "compound_ids": ["C-1", "C-2"], "quantity_g": "100", "concentration_mg_kg": "5", "concentration_low": "4.5", "concentration_high": "5.5"},
+    {"ingredient_id": "I-MC-2", "food_record_id": "F-2", "compound_ids": ["C-1"], "quantity_g": "200", "concentration_mg_kg": "10", "concentration_low": "9", "concentration_high": "11"},
+    {"ingredient_id": "I-MC-3", "food_record_id": "F-3", "compound_ids": ["C-2"], "quantity_g": "150", "concentration_mg_kg": "8", "concentration_low": "7.2", "concentration_high": "8.8"}
+  ],
+  "fractions": {"serving_fraction": "0.5", "serving_fraction_low": "0.4", "serving_fraction_high": "0.6", "consumed_fraction": "0.5", "consumed_fraction_low": "0.4", "consumed_fraction_high": "0.6"},
+  "expected": {
+    "C-1": {"ingredient_ids": ["I-MC-1", "I-MC-2"], "point_mg": "0.625", "low_mg": "0.324", "high_mg": "1.089"},
+    "C-2": {"ingredient_ids": ["I-MC-1", "I-MC-3"], "point_mg": "0.425", "low_mg": "0.22032", "high_mg": "0.74052"}
+  }
+}

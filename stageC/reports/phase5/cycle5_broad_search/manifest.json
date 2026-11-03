@@ -1,0 +1,55 @@
+{
+  "artifact": "Cycle 5 broad benchmark search: additive source dataset and descriptive raw-pair reconciliation",
+  "manifest_version": 1,
+  "comparison_scope": "Descriptive raw food-composition values only; no Stage C model estimates or external-validation metrics are read or emitted.",
+  "normalization_rules": {
+    "micrograms_per_100g_to_mg_per_100g": "divide by 1000",
+    "mg_per_kg_to_mg_per_100g": "divide by 10",
+    "mg_per_100g": "unchanged",
+    "no moisture, cooking-yield, or tea-brew-ratio imputation": true
+  },
+  "inputs": {
+    "phase1b_food_composition_csv": {
+      "path_from_repository_root": "stageC/releases/Phase1B-v1.3.2/stageC/data/food_composition/food_composition.csv",
+      "sha256": "40f2e41494ce1f8cbd58ff52bd9e8678236145ad740dd8a0a25c0b6054d02ece",
+      "release_id": "Phase1B-v1.3.2"
+    },
+    "phase1b_release_manifest": {
+      "path_from_repository_root": "stageC/releases/Phase1B-v1.3.2/CHECKSUMS.json",
+      "sha256": "df3a95ae0957b68a89e38098c0824877196aa74ef7dd92573e6ab1f37e39b9b5"
+    },
+    "benchmark_observations_csv": {
+      "path": "benchmark_observations.csv",
+      "sha256": "1c2de2a9a2bf0928352c1737817984dfdee5ebb9576570a4b0fb58503b9473dc",
+      "rows": 10
+    },
+    "candidate_matrix_csv": {
+      "path": "candidate_matrix.csv",
+      "sha256": "375aca5d4f6d884bc451f24fef8719f5111e20517651a4cd365d0ccf82fb58d6",
+      "rows": 9
+    },
+    "comparison_script": {
+      "path": "compare_cycle5_benchmarks.py",
+      "sha256": "eb9b594e0bee211f118fe1264811562d7276e9194c1cf3b57c794ae9b9a7a68b"
+    },
+    "screen_report": {
+      "path_from_repository_root": "stageC/reports/phase5/CYCLE5_BROAD_BENCHMARK_SCREEN.md",
+      "sha256": "6e426c408823aaff0c4568b5f67d8d3992e30b11af395812729f20f3d474a3ab"
+    }
+  },
+  "outputs": {
+    "descriptive_comparison_csv": {
+      "path": "descriptive_comparison.csv",
+      "sha256": "2ebe073fd81ebba892cb5e8abcf66dcd21905072324582bb2819f98401ab5376",
+      "rows": 2
+    }
+  },
+  "checks": [
+    "observation identifiers unique",
+    "citation, table locator, source URL and analytical method present",
+    "stored unit conversions recomputed and checked",
+    "comparator IDs and mapped compound IDs checked against current Phase1B file",
+    "only raw-to-raw descriptive comparisons emitted",
+    "cooked observations retained without synthetic or model comparison"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:evidence_review_assignment:1.0.0",
+  "title": "CookRisk evidence review assignment export",
+  "description": "A source-pinned work allocation/export. Assignment does not imply a review decision.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "assignment_id", "source_release_id", "source_sha256", "assigned_to", "filters", "record_count", "purpose_and_limits", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "assignment_id": {"type": "string", "minLength": 1},
+    "source_release_id": {"const": "StageB_V20_20261103"},
+    "source_sha256": {"const": "358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6"},
+    "assigned_to": {"type": ["string", "null"]},
+    "filters": {"type": "object"},
+    "record_count": {"type": "integer", "minimum": 0, "maximum": 317},
+    "purpose_and_limits": {
+      "type": "object", "additionalProperties": false,
+      "required": ["assignment_is_human_review", "decisions_created", "negative_inference_created", "note"],
+      "properties": {
+        "assignment_is_human_review": {"const": false},
+        "decisions_created": {"const": false},
+        "negative_inference_created": {"const": false},
+        "note": {"type": "string", "minLength": 1}
+      }
+    },
+    "records": {"type": "array", "items": {"$ref": "#/$defs/record"}}
+  },
+  "$defs": {
+    "record": {
+      "type": "object", "additionalProperties": false,
+      "required": ["review_id", "evidence_id", "compound_id", "compound_source_label", "drug_source_label", "study_id", "source_title", "evidence_category", "outcome_polarity_machine_triage", "machine_triage_state", "identity_source_label", "source_verification_status", "conflict_group", "source_url", "doi", "pmid", "source_locator", "review_status"],
+      "properties": {
+        "review_id": {"type": "string", "pattern": "^RV-[A-F0-9]{20}$"},
+        "evidence_id": {"type": "string", "minLength": 1},
+        "compound_id": {"type": "string"}, "compound_source_label": {"type": "string"}, "drug_source_label": {"type": "string"},
+        "study_id": {"type": "string"}, "source_title": {"type": "string"}, "evidence_category": {"type": "string"},
+        "outcome_polarity_machine_triage": {"enum": ["positive", "negative", "null", "conflicting", "unclear"]},
+        "machine_triage_state": {"enum": ["NOT_REVIEWED", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW", "READY_FOR_EXPERT_REVIEW"]},
+        "identity_source_label": {"type": "string"}, "source_verification_status": {"enum": ["SOURCE_VERIFIED", "NOT_PERFORMED"]},
+        "conflict_group": {"type": "string"}, "source_url": {"type": "string"}, "doi": {"type": "string"}, "pmid": {"type": "string"},
+        "source_locator": {"type": "string"},
+        "review_status": {"enum": ["NOT_REVIEWED", "SOURCE_VERIFIED", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"]}
+      }
+    }
+  }
+}

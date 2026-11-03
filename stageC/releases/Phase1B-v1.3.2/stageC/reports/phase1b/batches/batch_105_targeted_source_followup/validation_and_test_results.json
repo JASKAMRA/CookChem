@@ -1,0 +1,41 @@
+{
+  "batch": "105",
+  "status": "PASS",
+  "ingestion": {
+    "status": "PASS",
+    "records": 5,
+    "pipeline": "existing Stage C ingest-food validation/normalization"
+  },
+  "phase1_validation": {
+    "status": "PASS",
+    "food_records": 546,
+    "mapping_records": 546,
+    "food_errors": 0,
+    "mapping_errors": 0,
+    "orphans": 0,
+    "stage_b_snapshot_changes": 0
+  },
+  "focused_unittest": {
+    "status": "PASS",
+    "tests_run": 38,
+    "failures": 0,
+    "command": "python -B -m unittest stageC.tests.test_food_composition stageC.tests.test_compound_mapping stageC.tests.test_phase1b_batch101 stageC.tests.test_phase1b_continuation_102_103 stageC.tests.test_phase1b_batch104_gap_reaudit stageC.tests.test_phase1b_batch105_targeted_source_followup"
+  },
+  "full_unittest": {
+    "status": "PASS",
+    "tests_run": 94,
+    "failures": 0,
+    "command": "python -B -m unittest discover -s stageC/tests"
+  },
+  "mapping_rebuild": {
+    "status": "PASS",
+    "active_rows": 546,
+    "rebuild_rows": 546,
+    "exact_row_order_match": true
+  },
+  "initial_test_failures_corrected": [
+    "First ingestion attempt rejected the nonstandard raw_or_processed_state category; corrected to processed and ingestion passed.",
+    "Early focused assertions were corrected to match preserved Decimal formatting, source-specific mapping status, and Batch 105 basis fields.",
+    "Initial full suite exposed stale historical coverage/hash assumptions in regression tests; updated tests to validate current checkpoint integrity and documented accepted additions."
+  ]
+}

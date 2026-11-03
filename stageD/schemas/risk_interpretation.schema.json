@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.example/stageD/risk_interpretation.schema.json",
+  "title": "CookRisk Stage D nonclinical research interpretation",
+  "description": "Review-state contract only. It cannot encode a patient-specific risk score or clinical advice.",
+  "oneOf": [
+    {"$ref": "#/$defs/input_case"},
+    {"$ref": "#/$defs/assessment"}
+  ],
+  "$defs": {
+    "expert_review": {
+      "type": "object",
+      "required": ["status", "adjudication", "reviewer_reference", "rationale"],
+      "properties": {
+        "status": {"enum": ["not_reviewed", "in_progress", "completed"]},
+        "adjudication": {"enum": ["not_assessed", "supports_research_relevance", "does_not_support_research_relevance"]},
+        "reviewer_reference": {"type": "string"},
+        "rationale": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "dimensions": {
+      "type": "object",
+      "required": ["evidence_level", "evidence_strength", "source_review_status", "source_identity_status", "mechanistic_plausibility", "experimental_context", "outcome", "exposure_comparability", "dietary_exposure_status", "uncertainty_status", "conflict_status", "human_relevance_status", "source_reference", "dietary_exposure_reference", "comparability_review_reference"],
+      "properties": {
+        "evidence_level": {"enum": ["none", "mechanistic_only", "experimental", "human_pharmacokinetic", "human_clinical"]},
+        "evidence_strength": {"enum": ["not_assessed", "single_source", "multiple_sources", "expert_assessed"]},
+        "source_review_status": {"enum": ["unreviewed", "abstract_only", "full_text_reviewed"]},
+        "source_identity_status": {"enum": ["verified", "pending", "unverified"]},
+        "mechanistic_plausibility": {"enum": ["not_assessed", "proposed", "supported_by_direct_experiment", "not_supported", "conflicting"]},
+        "experimental_context": {"enum": ["not_reported", "in_vitro", "animal", "human_pharmacokinetic", "human_clinical", "multiple"]},
+        "outcome": {"enum": ["not_reported", "positive", "negative", "null", "conflicting", "unclear"]},
+        "exposure_comparability": {"enum": ["not_assessed", "pending", "incompatible", "supported_by_expert"]},
+        "dietary_exposure_status": {"enum": ["not_assessed", "unavailable", "available"]},
+        "uncertainty_status": {"enum": ["not_assessed", "bounded", "material", "unquantified"]},
+        "conflict_status": {"enum": ["not_assessed", "none_known", "source_discrepancy", "conflicting_studies"]},
+        "human_relevance_status": {"enum": ["not_assessed", "preclinical_only", "plausible", "supported_by_human_evidence", "expert_reviewed"]},
+        "source_reference": {"type": "string", "minLength": 1},
+        "dietary_exposure_reference": {"type": "string"},
+        "comparability_review_reference": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "claim_boundary": {
+      "type": "object",
+      "required": ["clinical_interpretation", "patient_specific_advice", "risk_score", "mechanism_only_sufficient", "negative_or_null_is_not_generalized"],
+      "properties": {
+        "clinical_interpretation": {"const": "not_performed"},
+        "patient_specific_advice": {"const": "not_provided"},
+        "risk_score": {"const": "not_calculated"},
+        "mechanism_only_sufficient": {"const": false},
+        "negative_or_null_is_not_generalized": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "decision_trace": {
+      "type": "object",
+      "required": ["matched_rule_id", "checks"],
+      "properties": {
+        "matched_rule_id": {"enum": ["KNOWN_CONFLICT", "NO_INTERPRETABLE_RESULT", "UNRESOLVED_REVIEW_GATES", "MECHANISM_ONLY", "EXPERT_DOES_NOT_SUPPORT_RESEARCH_RELEVANCE", "COMPARABILITY_PENDING", "RESEARCH_RELEVANCE_REQUIREMENTS_MET", "POSITIVE_HUMAN_UNCERTAINTY_UNBOUNDED", "EXPERIMENTAL_EVIDENCE_DEFAULT"]},
+        "checks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["order", "rule_id", "matched", "category_on_match", "detail"],
+            "properties": {
+              "order": {"type": "integer", "minimum": 1},
+              "rule_id": {"enum": ["KNOWN_CONFLICT", "NO_INTERPRETABLE_RESULT", "UNRESOLVED_REVIEW_GATES", "MECHANISM_ONLY", "EXPERT_DOES_NOT_SUPPORT_RESEARCH_RELEVANCE", "COMPARABILITY_PENDING", "RESEARCH_RELEVANCE_REQUIREMENTS_MET", "POSITIVE_HUMAN_UNCERTAINTY_UNBOUNDED", "EXPERIMENTAL_EVIDENCE_DEFAULT"]},
+              "matched": {"type": "boolean"},
+              "category_on_match": {"enum": ["INSUFFICIENT_EVIDENCE", "MECHANISTIC_EVIDENCE_ONLY", "EXPERIMENTAL_EVIDENCE", "EXPOSURE_COMPARABILITY_PENDING", "REQUIRES_EXPERT_REVIEW", "RESEARCH_RELEVANCE_SUPPORTED"]},
+              "detail": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "input_case": {
+      "type": "object",
+      "required": ["schema_version", "assessment_id", "evidence_level", "evidence_strength", "source_review_status", "source_identity_status", "mechanistic_plausibility", "experimental_context", "outcome", "exposure_comparability", "dietary_exposure_status", "uncertainty_status", "conflict_status", "human_relevance_status", "source_reference", "dietary_exposure_reference", "comparability_review_reference", "expert_review"],
+      "properties": {
+        "schema_version": {"const": "1.0.0"},
+        "assessment_id": {"type": "string", "minLength": 1},
+        "evidence_level": {"enum": ["none", "mechanistic_only", "experimental", "human_pharmacokinetic", "human_clinical"]},
+        "evidence_strength": {"enum": ["not_assessed", "single_source", "multiple_sources", "expert_assessed"]},
+        "source_review_status": {"enum": ["unreviewed", "abstract_only", "full_text_reviewed"]},
+        "source_identity_status": {"enum": ["verified", "pending", "unverified"]},
+        "mechanistic_plausibility": {"enum": ["not_assessed", "proposed", "supported_by_direct_experiment", "not_supported", "conflicting"]},
+        "experimental_context": {"enum": ["not_reported", "in_vitro", "animal", "human_pharmacokinetic", "human_clinical", "multiple"]},
+        "outcome": {"enum": ["not_reported", "positive", "negative", "null", "conflicting", "unclear"]},
+        "exposure_comparability": {"enum": ["not_assessed", "pending", "incompatible", "supported_by_expert"]},
+        "dietary_exposure_status": {"enum": ["not_assessed", "unavailable", "available"]},
+        "uncertainty_status": {"enum": ["not_assessed", "bounded", "material", "unquantified"]},
+        "conflict_status": {"enum": ["not_assessed", "none_known", "source_discrepancy", "conflicting_studies"]},
+        "human_relevance_status": {"enum": ["not_assessed", "preclinical_only", "plausible", "supported_by_human_evidence", "expert_reviewed"]},
+        "source_reference": {"type": "string", "minLength": 1},
+        "dietary_exposure_reference": {"type": "string"},
+        "comparability_review_reference": {"type": "string"},
+        "expert_review": {"$ref": "#/$defs/expert_review"}
+      },
+      "additionalProperties": false
+    },
+    "assessment": {
+      "type": "object",
+      "required": ["schema_version", "assessment_id", "category", "decision_reason", "decision_trace", "dimensions", "expert_review", "claim_boundary"],
+      "properties": {
+        "schema_version": {"const": "1.1.0"},
+        "assessment_id": {"type": "string", "minLength": 1},
+        "category": {"enum": ["INSUFFICIENT_EVIDENCE", "MECHANISTIC_EVIDENCE_ONLY", "EXPERIMENTAL_EVIDENCE", "EXPOSURE_COMPARABILITY_PENDING", "REQUIRES_EXPERT_REVIEW", "RESEARCH_RELEVANCE_SUPPORTED"]},
+        "decision_reason": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "decision_trace": {"$ref": "#/$defs/decision_trace"},
+        "dimensions": {"$ref": "#/$defs/dimensions"},
+        "expert_review": {"$ref": "#/$defs/expert_review"},
+        "claim_boundary": {"$ref": "#/$defs/claim_boundary"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

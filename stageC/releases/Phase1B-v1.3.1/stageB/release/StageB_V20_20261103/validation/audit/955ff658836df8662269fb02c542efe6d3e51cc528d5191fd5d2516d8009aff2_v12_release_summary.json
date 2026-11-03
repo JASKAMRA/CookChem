@@ -1,0 +1,61 @@
+{
+  "release": "V12",
+  "date": "2026-10-30",
+  "status": "PASS_WITH_WARNINGS",
+  "anchors": 119,
+  "new_anchors": 14,
+  "target": 150,
+  "remaining_to_target": 31,
+  "evidence_records": 286,
+  "new_evidence_records": 14,
+  "drug_probe_labels": 127,
+  "unique_PMID_publications": 151,
+  "unique_nonblank_DOIs": 148,
+  "DOI_only_bibliography_rows": 2,
+  "evidence_classes": {
+    "Animal": 51,
+    "Controlled clinical": 4,
+    "Human pharmacokinetic": 70,
+    "In vitro": 160,
+    "Other human clinical": 1
+  },
+  "warning_rows": 55,
+  "warning_codes": 40,
+  "warning_statuses": {
+    "Partially resolved": 13,
+    "Unresolved": 39,
+    "Resolved": 1,
+    "Not applicable": 2
+  },
+  "automated_tests": {
+    "passed": 32,
+    "failed": 0
+  },
+  "mutation_tests": {
+    "attempted": 34,
+    "detected": 34,
+    "rate": 1.0,
+    "baseline_findings": [
+      "direction_conflict",
+      "duplicate_context",
+      "missing_numeric_unit"
+    ]
+  },
+  "clean_rebuild": {
+    "compared": 12,
+    "identical": 12
+  },
+  "regression_checks": {
+    "passed": 15,
+    "failed": 0
+  },
+  "manual_checks": {
+    "FC-01": "PARTIAL",
+    "CH-05": "PARTIAL",
+    "NX-05": "PARTIAL",
+    "CL-03": "PARTIAL",
+    "PV-07": "NOT COMPLETED",
+    "WA-03": "PARTIAL"
+  },
+  "inherited_count_discrepancies": 11
+}

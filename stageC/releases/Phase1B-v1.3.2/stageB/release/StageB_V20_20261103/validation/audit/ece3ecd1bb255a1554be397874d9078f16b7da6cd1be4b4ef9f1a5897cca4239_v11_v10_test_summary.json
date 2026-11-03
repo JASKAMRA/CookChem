@@ -1,0 +1,61 @@
+{
+  "target": "v10",
+  "automated_tests": 42,
+  "passed": 40,
+  "failed": 2,
+  "manual_not_executed": 6,
+  "failed_critical": [],
+  "status_counts": {
+    "PASS": 40,
+    "FAIL": 2,
+    "NOT_EXECUTED_MANUAL": 6
+  },
+  "v10_recalculation": {
+    "anchors": 100,
+    "unique_compound_ids": 100,
+    "records": 263,
+    "unique_evidence_ids": 263,
+    "distinct_drug_probe_labels": 117,
+    "unique_PMIDs": 140,
+    "unique_nonblank_DOIs": 136,
+    "DOI_blank_evidence_rows": 6,
+    "PMIDs_without_DOI_in_evidence": [
+      "18928093",
+      "22512082",
+      "26396928",
+      "26692948",
+      "28646810"
+    ],
+    "PMIDs_mapping_to_multiple_DOIs": [],
+    "DOIs_mapping_to_multiple_PMIDs": {},
+    "evidence_classes": {
+      "Human pharmacokinetic": 70,
+      "In vitro": 138,
+      "Animal": 51,
+      "Controlled clinical": 4
+    },
+    "digit_containing_outcomes": 161,
+    "numerical_outcome_candidates_with_endpoint_or_unit_marker": 148,
+    "claim_verification_status": {
+      "Inherited V8 review status; see claim_level_audit.csv": 189,
+      "Abstract verified": 69,
+      "Full-text table verified": 2,
+      "Article abstract located; full extraction not completed": 3
+    },
+    "warning_rows": 35,
+    "warning_codes": 33,
+    "warning_status": {
+      "Partially resolved": 11,
+      "Unresolved": 21,
+      "Resolved": 1,
+      "Not applicable": 2
+    },
+    "bibliography_rows": 141,
+    "study_registry_rows": 141,
+    "bibliography_PMID_count": 140,
+    "bibliography_DOI_count": 136,
+    "V10_report_status": "PASS",
+    "V10_report_checks": 21,
+    "V10_report_mutations": 10
+  }
+}

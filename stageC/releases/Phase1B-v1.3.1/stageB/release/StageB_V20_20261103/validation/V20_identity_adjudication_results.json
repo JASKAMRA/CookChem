@@ -1,0 +1,34 @@
+{
+  "release": "StageB_V20_20261103",
+  "parent": "StageB_V19_20261103",
+  "status": "PASS",
+  "registry_compounds": 143,
+  "identity_complete_before": 107,
+  "resolved": 23,
+  "partially_resolved": 11,
+  "manual_review_required": 2,
+  "unresolved": 0,
+  "identity_complete_after": 130,
+  "identity_pending_after": 13,
+  "food_data_changed": false,
+  "interaction_evidence_changed": false,
+  "tartrazine_key_correction": {
+    "previous": "UJMBCXLDXJUMFB-UHFFFAOYSA-K",
+    "current_pubchem": "UJMBCXLDXJUMFB-GLCFPVLVSA-K",
+    "inchi_text_unchanged": true
+  },
+  "limitations": [
+    "No independent graph parser used.",
+    "Human chemist review not claimed.",
+    "Stage C connector update blocked by pre-existing Phase1-v1.3.0 package artifact checksum failure."
+  ],
+  "manifest_exact": "PASS; 839/839 files",
+  "identity_validator": "PASS; 143 compounds, 130 complete, 13 pending",
+  "v19_batch_regression": {
+    "passed": 135,
+    "failed": 0,
+    "result": "PASS; 135/135"
+  },
+  "structural_validation": "PASS_WITH_WARNINGS; 16/16 checks, 0 errors, 67 inherited review flags",
+  "clean_copy_manifest": "PASS; exact 839/839"
+}

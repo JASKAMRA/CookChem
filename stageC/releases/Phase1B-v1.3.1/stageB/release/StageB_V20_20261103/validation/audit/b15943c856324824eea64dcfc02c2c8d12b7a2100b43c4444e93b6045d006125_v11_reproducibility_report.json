@@ -1,0 +1,14 @@
+{
+  "build_script": "build_v11.py",
+  "source_cache_files": [
+    "pubchem_structures_v11_candidates.json",
+    "pubchem_synonyms_v11_candidates.json",
+    "pubmed_esummary_v11_candidates.json",
+    "crossref_paradisin_c.json"
+  ],
+  "network_required": false,
+  "path_strategy": "script-relative release path; optional explicit destination argument",
+  "clean_copy_rebuild": "PASS: 12/12 core outputs byte-identical; clean validator 43/43 automated checks passed; six manual checks remain unexecuted",
+  "deterministic_ids": true,
+  "dependencies": "Python standard library only"
+}

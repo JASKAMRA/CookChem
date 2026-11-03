@@ -1,0 +1,56 @@
+{
+  "checkpoint_id": "Phase1B-2026-11-03-batch-102-scientific-coverage",
+  "status": "PHASE1B_BATCH_COMPLETE",
+  "scope": "Stage C Phase 1B only",
+  "previous_checkpoint": "Phase1B-2026-11-03-batch-101-final-continuation",
+  "source_stage_b_release": "StageB_FINALIZED (read-only)",
+  "phase1_foundation_dependency": "stageC/releases/Phase1-v1.3.0 (read-only)",
+  "stage_b_target_count": 143,
+  "stage_b_identity_complete": 107,
+  "stage_b_identity_pending": 36,
+  "research_screened": 138,
+  "research_screened_fraction": "138/143",
+  "active_food_records": 541,
+  "active_mapping_rows": 541,
+  "unique_compounds_quantitatively_mapped_including_pending": 115,
+  "identity_complete_quantitative_compounds": 99,
+  "identity_complete_uncovered": 8,
+  "blocked_mapping_rows": 46,
+  "orphan_mappings": 0,
+  "batch_102": {
+    "accepted_records": 2,
+    "accepted_mappings": 2,
+    "newly_covered_identity_complete_compounds": 2,
+    "target_compounds_screened": 15,
+    "new_search_events": 15,
+    "pending_identity_candidate_rows": 27
+  },
+  "target": {
+    "minimum": 130,
+    "stretch": 143,
+    "achieved": false,
+    "current_identity_ceiling_without_stage_b_review": 107,
+    "additional_identity_complete_compounds_needed_for_minimum": 31
+  },
+  "validation": {
+    "data_append": "PASS; existing 539-row files preserved as byte prefixes",
+    "accepted_identity_gate": "PASS; exact CID/InChIKey and Stage B Complete status verified",
+    "candidate_identity_gate": "PASS; all pending rows separated from accepted files",
+    "phase1_validation": "PASS; 541 records/mappings; 99 eligible; zero errors/orphans; no snapshot changes",
+    "focused_tests": "PASS; unittest food-composition 7/7 and compound mapping 9/9; pytest unavailable",
+    "mapping_rebuild": "PENDING"
+  },
+  "sha256": {
+    "food_composition": "a715c92205ba3c2e2e184d0f1330e7db025910a4f4e3365916a4088e3f7cad2e",
+    "compound_food_mapping": "5f197098e8cc91df0970568f7758d6d6b5594152c0b83100edd3cbd21f73cec3"
+  },
+  "reports": [
+    "batches/batch_102_scientific_coverage/BATCH_102_SCREENING_REPORT.md",
+    "batches/batch_102_scientific_coverage/screening_matrix.csv",
+    "batches/batch_102_scientific_coverage/pending_identity_candidates.csv",
+    "PENDING_IDENTITY_CANDIDATES.csv",
+    "IDENTITY_ADJUDICATION_PROPOSALS_2026-11-03.csv",
+    "COMPOUND_COVERAGE_REGISTER_2026-11-03.csv"
+  ],
+  "next_batch": "103; five previously unlogged identity-pending compounds"
+}

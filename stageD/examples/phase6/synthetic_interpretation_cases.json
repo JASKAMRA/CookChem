@@ -1,0 +1,359 @@
+{
+  "label": "SYNTHETIC TEST FIXTURES ONLY — NOT SCIENTIFIC EVIDENCE",
+  "not_scientific_evidence": true,
+  "not_clinical_advice": true,
+  "cases": [
+    {
+      "case_id": "insufficient",
+      "expected_category": "INSUFFICIENT_EVIDENCE",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-001",
+        "evidence_level": "none",
+        "evidence_strength": "not_assessed",
+        "source_review_status": "unreviewed",
+        "source_identity_status": "unverified",
+        "mechanistic_plausibility": "not_assessed",
+        "experimental_context": "not_reported",
+        "outcome": "not_reported",
+        "exposure_comparability": "not_assessed",
+        "dietary_exposure_status": "not_assessed",
+        "uncertainty_status": "not_assessed",
+        "conflict_status": "not_assessed",
+        "human_relevance_status": "not_assessed",
+        "expert_review": {
+          "status": "not_reviewed",
+          "adjudication": "not_assessed",
+          "reviewer_reference": "",
+          "rationale": ""
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: insufficient",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "mechanism_only",
+      "expected_category": "MECHANISTIC_EVIDENCE_ONLY",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-002",
+        "evidence_level": "mechanistic_only",
+        "evidence_strength": "single_source",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "supported_by_direct_experiment",
+        "experimental_context": "in_vitro",
+        "outcome": "positive",
+        "exposure_comparability": "supported_by_expert",
+        "dietary_exposure_status": "available",
+        "uncertainty_status": "bounded",
+        "conflict_status": "none_known",
+        "human_relevance_status": "expert_reviewed",
+        "expert_review": {
+          "status": "completed",
+          "adjudication": "supports_research_relevance",
+          "reviewer_reference": "SYNTHETIC REVIEWER",
+          "rationale": "Synthetic only; mechanism gate regression."
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: mechanism_only",
+        "dietary_exposure_reference": "SYNTHETIC TEST FIXTURE ONLY: exposure mechanism_only",
+        "comparability_review_reference": "SYNTHETIC TEST FIXTURE ONLY: comparability mechanism_only"
+      }
+    },
+    {
+      "case_id": "experimental_positive",
+      "expected_category": "EXPERIMENTAL_EVIDENCE",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-003",
+        "evidence_level": "experimental",
+        "evidence_strength": "single_source",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "proposed",
+        "experimental_context": "animal",
+        "outcome": "positive",
+        "exposure_comparability": "incompatible",
+        "dietary_exposure_status": "unavailable",
+        "uncertainty_status": "unquantified",
+        "conflict_status": "none_known",
+        "human_relevance_status": "preclinical_only",
+        "expert_review": {
+          "status": "not_reviewed",
+          "adjudication": "not_assessed",
+          "reviewer_reference": "",
+          "rationale": ""
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: experimental_positive",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "human_exposure_pending",
+      "expected_category": "EXPOSURE_COMPARABILITY_PENDING",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-004",
+        "evidence_level": "human_pharmacokinetic",
+        "evidence_strength": "single_source",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "proposed",
+        "experimental_context": "human_pharmacokinetic",
+        "outcome": "positive",
+        "exposure_comparability": "pending",
+        "dietary_exposure_status": "available",
+        "uncertainty_status": "material",
+        "conflict_status": "none_known",
+        "human_relevance_status": "supported_by_human_evidence",
+        "expert_review": {
+          "status": "not_reviewed",
+          "adjudication": "not_assessed",
+          "reviewer_reference": "",
+          "rationale": ""
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: human_exposure_pending",
+        "dietary_exposure_reference": "SYNTHETIC TEST FIXTURE ONLY: exposure human_exposure_pending",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "conflicting_source",
+      "expected_category": "REQUIRES_EXPERT_REVIEW",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-005",
+        "evidence_level": "experimental",
+        "evidence_strength": "multiple_sources",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "conflicting",
+        "experimental_context": "in_vitro",
+        "outcome": "conflicting",
+        "exposure_comparability": "not_assessed",
+        "dietary_exposure_status": "unavailable",
+        "uncertainty_status": "material",
+        "conflict_status": "conflicting_studies",
+        "human_relevance_status": "not_assessed",
+        "expert_review": {
+          "status": "not_reviewed",
+          "adjudication": "not_assessed",
+          "reviewer_reference": "",
+          "rationale": ""
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: conflicting_source",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "expert_supported_research_relevance",
+      "expected_category": "RESEARCH_RELEVANCE_SUPPORTED",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-006",
+        "evidence_level": "human_pharmacokinetic",
+        "evidence_strength": "multiple_sources",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "supported_by_direct_experiment",
+        "experimental_context": "human_pharmacokinetic",
+        "outcome": "positive",
+        "exposure_comparability": "supported_by_expert",
+        "dietary_exposure_status": "available",
+        "uncertainty_status": "bounded",
+        "conflict_status": "none_known",
+        "human_relevance_status": "expert_reviewed",
+        "expert_review": {
+          "status": "completed",
+          "adjudication": "supports_research_relevance",
+          "reviewer_reference": "SYNTHETIC REVIEWER",
+          "rationale": "Synthetic test demonstrates rule only; no real expert review occurred."
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: expert_supported_research_relevance",
+        "dietary_exposure_reference": "SYNTHETIC TEST FIXTURE ONLY: exposure expert_supported_research_relevance",
+        "comparability_review_reference": "SYNTHETIC TEST FIXTURE ONLY: comparability expert_supported_research_relevance"
+      }
+    },
+    {
+      "case_id": "negative_under_tested_conditions",
+      "expected_category": "EXPERIMENTAL_EVIDENCE",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-007",
+        "evidence_level": "human_clinical",
+        "evidence_strength": "single_source",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "not_supported",
+        "experimental_context": "human_clinical",
+        "outcome": "negative",
+        "exposure_comparability": "incompatible",
+        "dietary_exposure_status": "available",
+        "uncertainty_status": "bounded",
+        "conflict_status": "none_known",
+        "human_relevance_status": "supported_by_human_evidence",
+        "expert_review": {
+          "status": "not_reviewed",
+          "adjudication": "not_assessed",
+          "reviewer_reference": "",
+          "rationale": ""
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: negative_under_tested_conditions",
+        "dietary_exposure_reference": "SYNTHETIC TEST FIXTURE ONLY: exposure negative_under_tested_conditions",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "null_under_tested_conditions",
+      "expected_category": "EXPERIMENTAL_EVIDENCE",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-008",
+        "evidence_level": "experimental",
+        "evidence_strength": "single_source",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "not_assessed",
+        "experimental_context": "in_vitro",
+        "outcome": "null",
+        "exposure_comparability": "incompatible",
+        "dietary_exposure_status": "unavailable",
+        "uncertainty_status": "unquantified",
+        "conflict_status": "none_known",
+        "human_relevance_status": "preclinical_only",
+        "expert_review": {
+          "status": "not_reviewed",
+          "adjudication": "not_assessed",
+          "reviewer_reference": "",
+          "rationale": ""
+        },
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: null_under_tested_conditions",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "unassessed_conflict_with_positive_result",
+      "expected_category": "REQUIRES_EXPERT_REVIEW",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-009",
+        "evidence_level": "experimental",
+        "evidence_strength": "single_source",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "proposed",
+        "experimental_context": "animal",
+        "outcome": "positive",
+        "exposure_comparability": "incompatible",
+        "dietary_exposure_status": "unavailable",
+        "uncertainty_status": "unquantified",
+        "conflict_status": "not_assessed",
+        "human_relevance_status": "preclinical_only",
+        "expert_review": {"status": "not_reviewed", "adjudication": "not_assessed", "reviewer_reference": "", "rationale": ""},
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: unassessed conflict",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "missing_outcome_is_not_negative",
+      "expected_category": "INSUFFICIENT_EVIDENCE",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-010",
+        "evidence_level": "none",
+        "evidence_strength": "not_assessed",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "not_assessed",
+        "experimental_context": "not_reported",
+        "outcome": "not_reported",
+        "exposure_comparability": "not_assessed",
+        "dietary_exposure_status": "unavailable",
+        "uncertainty_status": "not_assessed",
+        "conflict_status": "none_known",
+        "human_relevance_status": "not_assessed",
+        "expert_review": {"status": "not_reviewed", "adjudication": "not_assessed", "reviewer_reference": "", "rationale": ""},
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: missing outcome",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "conflict_precedes_missing_outcome",
+      "expected_category": "REQUIRES_EXPERT_REVIEW",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-011",
+        "evidence_level": "none",
+        "evidence_strength": "not_assessed",
+        "source_review_status": "unreviewed",
+        "source_identity_status": "unverified",
+        "mechanistic_plausibility": "not_assessed",
+        "experimental_context": "not_reported",
+        "outcome": "not_reported",
+        "exposure_comparability": "not_assessed",
+        "dietary_exposure_status": "not_assessed",
+        "uncertainty_status": "not_assessed",
+        "conflict_status": "source_discrepancy",
+        "human_relevance_status": "not_assessed",
+        "expert_review": {"status": "not_reviewed", "adjudication": "not_assessed", "reviewer_reference": "", "rationale": ""},
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: conflict and missing outcome",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "null_outcome_with_conflicting_studies",
+      "expected_category": "REQUIRES_EXPERT_REVIEW",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-012",
+        "evidence_level": "experimental",
+        "evidence_strength": "multiple_sources",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "conflicting",
+        "experimental_context": "multiple",
+        "outcome": "null",
+        "exposure_comparability": "incompatible",
+        "dietary_exposure_status": "unavailable",
+        "uncertainty_status": "unquantified",
+        "conflict_status": "conflicting_studies",
+        "human_relevance_status": "not_assessed",
+        "expert_review": {"status": "not_reviewed", "adjudication": "not_assessed", "reviewer_reference": "", "rationale": ""},
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: null finding with conflicting studies",
+        "dietary_exposure_reference": "",
+        "comparability_review_reference": ""
+      }
+    },
+    {
+      "case_id": "expert_does_not_support_research_relevance",
+      "expected_category": "EXPERIMENTAL_EVIDENCE",
+      "input": {
+        "schema_version": "1.0.0",
+        "assessment_id": "SYN-INT-013",
+        "evidence_level": "human_pharmacokinetic",
+        "evidence_strength": "multiple_sources",
+        "source_review_status": "full_text_reviewed",
+        "source_identity_status": "verified",
+        "mechanistic_plausibility": "supported_by_direct_experiment",
+        "experimental_context": "human_pharmacokinetic",
+        "outcome": "positive",
+        "exposure_comparability": "supported_by_expert",
+        "dietary_exposure_status": "available",
+        "uncertainty_status": "bounded",
+        "conflict_status": "none_known",
+        "human_relevance_status": "expert_reviewed",
+        "expert_review": {"status": "completed", "adjudication": "does_not_support_research_relevance", "reviewer_reference": "SYNTHETIC REVIEWER", "rationale": "Synthetic only; explicit non-support path."},
+        "source_reference": "SYNTHETIC TEST FIXTURE ONLY: expert does not support relevance",
+        "dietary_exposure_reference": "SYNTHETIC TEST FIXTURE ONLY: exposure",
+        "comparability_review_reference": "SYNTHETIC TEST FIXTURE ONLY: comparator"
+      }
+    }
+  ]
+}

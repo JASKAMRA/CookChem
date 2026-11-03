@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:uncertainty_gap_registry",
+  "title": "CookRisk Stage C source-linked uncertainty gap registry",
+  "type": "object",
+  "required": ["schema_version", "output_count", "outputs", "dimension_count", "dimensions", "uncertainty_representation", "limitations"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "output_count": {"type": "integer", "minimum": 0},
+    "outputs": {"type": "array", "items": {"type": "object", "required": ["output_id", "record_type", "ingredient_estimate_count", "aggregate_coverage"], "properties": {"output_id": {"type": "string", "minLength": 1}, "record_type": {"enum": ["recipe", "meal"]}, "ingredient_estimate_count": {"type": "integer", "minimum": 0}, "aggregate_coverage": {"type": "object"}}, "additionalProperties": false}},
+    "dimension_count": {"type": "integer", "minimum": 0},
+    "dimensions": {"type": "array", "items": {"$ref": "#/$defs/dimension"}},
+    "uncertainty_representation": {"type": "object", "required": ["point_estimates", "interval_bounds", "probability_distributions_assumed"], "properties": {"point_estimates": {"type": "string"}, "interval_bounds": {"type": "string"}, "probability_distributions_assumed": {"const": false}}, "additionalProperties": false},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "dimension": {"type": "object", "required": ["dimension", "total_estimates", "supported_count", "missing_count", "invalid_count", "not_applicable_count", "coverage_by_output", "gaps", "coverage_status"], "properties": {"dimension": {"type": "string"}, "total_estimates": {"type": "integer", "minimum": 0}, "supported_count": {"type": "integer", "minimum": 0}, "missing_count": {"type": "integer", "minimum": 0}, "invalid_count": {"type": "integer", "minimum": 0}, "not_applicable_count": {"type": "integer", "minimum": 0}, "coverage_by_output": {"type": "array", "items": {"type": "object", "required": ["output_id", "record_type", "coverage_status"], "properties": {"output_id": {"type": "string"}, "record_type": {"enum": ["recipe", "meal"]}, "coverage_status": {"type": "string"}}, "additionalProperties": false}}, "gaps": {"type": "array", "items": {"type": "object", "required": ["output_id", "record_type", "gap_status", "estimate_id", "reason"], "properties": {"output_id": {"type": "string"}, "record_type": {"enum": ["recipe", "meal"]}, "gap_status": {"enum": ["MISSING", "INVALID_METADATA"]}, "estimate_id": {"type": "string"}, "reason": {"type": "string"}}, "additionalProperties": true}}, "coverage_status": {"enum": ["AVAILABLE", "PARTIAL", "MISSING", "NOT_APPLICABLE", "INVALID_METADATA"]}}, "additionalProperties": false}
+  },
+  "additionalProperties": false
+}

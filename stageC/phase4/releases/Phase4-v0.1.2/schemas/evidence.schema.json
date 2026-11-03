@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.local/schemas/phase4-evidence.schema.json",
+  "title": "CookRisk Phase 4 extracted evidence record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["evidence_id", "source_id", "compound_reference", "food_matrix", "category", "research_question", "study", "conditions", "outcome", "identity_assessment", "applicability_assessment", "extraction", "review", "version", "provenance"],
+  "properties": {
+    "evidence_id": {"type": "string", "pattern": "^EVD-[A-Z0-9-]+$"},
+    "source_id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+    "compound_reference": {"type": "object", "additionalProperties": false, "required": ["name_as_reported", "phase1b_compound_id", "match_status", "match_rationale"], "properties": {"name_as_reported": {"type": "string", "minLength": 1}, "phase1b_compound_id": {"type": ["string", "null"]}, "match_status": {"enum": ["STRICT_IDENTITY_MATCH", "SUPPORTED_STRUCTURE_EQUIVALENCE", "MANUAL_ADJUDICATION_REQUIRED", "NAME_ONLY_MATCH", "UNRESOLVED_IDENTITY", "NO_MATCH"]}, "match_rationale": {"type": "string", "minLength": 1}}},
+    "food_matrix": {"type": "array", "items": {"type": "string"}},
+    "category": {"enum": ["food_compound_occurrence", "food_matrix_bioavailability", "human_pharmacokinetics", "food_drug_interaction", "mechanistic_metabolism", "cooking_preparation", "dose_response", "toxicology_safety", "clinical_outcomes"]},
+    "research_question": {"type": "string", "minLength": 1},
+    "study": {"type": "object", "additionalProperties": true, "required": ["study_type", "model", "population_or_model", "exposure_route"], "properties": {"study_type": {"type": "string", "minLength": 1}, "model": {"enum": ["human", "animal", "in_vitro", "in_silico", "mixed", "not_reported"]}, "population_or_model": {"type": "string", "minLength": 1}, "exposure_route": {"type": "string", "minLength": 1}}},
+    "conditions": {"type": "object", "additionalProperties": true, "required": ["dose", "dose_unit", "dose_basis", "preparation", "experimental_conditions"], "properties": {"dose": {"type": ["number", "null"]}, "dose_unit": {"type": ["string", "null"]}, "dose_basis": {"type": "string", "minLength": 1}, "preparation": {"type": "string", "minLength": 1}, "experimental_conditions": {"type": "array", "items": {"type": "string"}}}},
+    "outcome": {"type": "object", "additionalProperties": true, "required": ["measure", "result_type", "reported_result", "numeric_value", "unit", "denominator", "uncertainty"], "properties": {"measure": {"type": "string", "minLength": 1}, "result_type": {"enum": ["measured_numeric", "derived_numeric", "qualitative_observation", "review_conclusion", "not_reported"]}, "reported_result": {"type": "string", "minLength": 1}, "numeric_value": {"type": ["number", "null"]}, "unit": {"type": ["string", "null"]}, "denominator": {"type": ["string", "null"]}, "uncertainty": {"type": ["string", "null"]}}},
+    "identity_assessment": {"type": "object", "additionalProperties": false, "required": ["match_status", "basis", "review_status"], "properties": {"match_status": {"enum": ["STRICT_IDENTITY_MATCH", "SUPPORTED_STRUCTURE_EQUIVALENCE", "MANUAL_ADJUDICATION_REQUIRED", "NAME_ONLY_MATCH", "UNRESOLVED_IDENTITY", "NO_MATCH"]}, "basis": {"type": "string", "minLength": 1}, "review_status": {"enum": ["pending", "reviewed", "adjudicated"]}}},
+    "applicability_assessment": {"type": "object", "additionalProperties": false, "required": ["status", "food_matrix", "preparation", "route", "population", "rationale"], "properties": {"status": {"enum": ["APPLICABLE", "CONTEXT_LIMITED", "NOT_APPLICABLE", "PENDING_REVIEW"]}, "food_matrix": {"type": "string", "minLength": 1}, "preparation": {"type": "string", "minLength": 1}, "route": {"type": "string", "minLength": 1}, "population": {"type": "string", "minLength": 1}, "rationale": {"type": "string", "minLength": 1}}},
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "extraction": {"type": "object", "additionalProperties": false, "required": ["status", "method", "source_location", "extracted_on"], "properties": {"status": {"enum": ["metadata_only", "abstract_extracted", "full_text_extracted", "pending"]}, "method": {"type": "string", "minLength": 1}, "source_location": {"type": "string", "minLength": 1}, "extracted_on": {"type": "string", "format": "date"}}},
+    "review": {"type": "object", "additionalProperties": false, "required": ["status", "quality_class", "reviewer_notes", "decision_rationale"], "properties": {"status": {"enum": ["pending_second_reviewer", "under_review", "accepted_context_only", "accepted_quantitative", "rejected"]}, "quality_class": {"enum": ["not_rated", "low", "moderate", "high"]}, "reviewer_notes": {"type": "string"}, "decision_rationale": {"type": "string"}}},
+    "version": {"type": "string", "minLength": 1},
+    "provenance": {"type": "object", "additionalProperties": false, "required": ["upstream_phase1b_release", "upstream_phase1b_manifest_sha256", "registered_on"], "properties": {"upstream_phase1b_release": {"type": "string", "minLength": 1}, "upstream_phase1b_manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "registered_on": {"type": "string", "format": "date"}}}
+  }
+}

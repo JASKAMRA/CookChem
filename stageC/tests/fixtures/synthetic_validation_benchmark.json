@@ -1,0 +1,59 @@
+{
+  "benchmark_id": "SYNTHETIC-PHASE5-ARITHMETIC-001",
+  "label": "SYNTHETIC — TEST FIXTURE ONLY",
+  "benchmark_kind": "synthetic_arithmetic",
+  "scientific_validation_claim": "NONE",
+  "not_real_world_evidence": true,
+  "not_for_published_data_comparison": true,
+  "not_for_external_validation": true,
+  "purpose": "Exercise dimensional arithmetic and Phase 2 retention-interval propagation using invented values only.",
+  "records": [
+    {
+      "scenario_id": "SYN-MASS-001",
+      "scenario_kind": "point_mass_exposure",
+      "provenance_label": "SYNTHETIC_FIXTURE_INPUT",
+      "inputs": {
+        "concentration": "5",
+        "concentration_unit": "mg/kg",
+        "quantity": "200",
+        "quantity_unit": "g",
+        "consumed_fraction": "0.5"
+      },
+      "expected_output": {"amount_mg": "0.5"}
+    },
+    {
+      "scenario_id": "SYN-VOLUME-001",
+      "scenario_kind": "point_volume_exposure",
+      "provenance_label": "SYNTHETIC_FIXTURE_INPUT",
+      "inputs": {
+        "concentration": "10",
+        "concentration_unit": "mg/L",
+        "quantity": "250",
+        "quantity_unit": "mL",
+        "consumed_fraction": "0.4"
+      },
+      "expected_output": {"amount_mg": "1.0"}
+    },
+    {
+      "scenario_id": "SYN-RETENTION-001",
+      "scenario_kind": "retention_interval",
+      "provenance_label": "SYNTHETIC_FIXTURE_INPUT",
+      "inputs": {
+        "concentration": "5",
+        "concentration_unit": "mg/kg",
+        "retention_low_percent": "40",
+        "retention_high_percent": "60",
+        "cooked_portion_quantity": "0.1",
+        "cooked_portion_unit": "kg",
+        "consumed_fraction": "0.5"
+      },
+      "expected_output": {
+        "cooked_concentration_low": "2.0",
+        "cooked_concentration_high": "3.0",
+        "amount_low_mg": "0.10",
+        "amount_high_mg": "0.15",
+        "interval_interpretation": "conditional bound; not a probability interval"
+      }
+    }
+  ]
+}

@@ -155,7 +155,10 @@ def audit_row(row: dict[str, str]) -> dict[str, str]:
                 if not close(row["raw_sd_value"], sd_data[0]): errors.append("raw_sd_differs_from_primary_table")
                 if not close(row["cooked_sd_value"], sd_data[1][sd_idx]): errors.append("cooked_sd_differs_from_primary_table")
                 if row["replicates_n"] != "3": errors.append("replicate_count_differs_from_primary_table")
-            if row["measurement_unit"].strip().lower() != "mg/g fresh rhizome": errors.append("unit_differs_from_existing_source_transcription")
+            # The source table labels the result as mg/g plant material. Fresh
+            # rhizome is the starting material, but the cooked-sample denominator
+            # is not explicit enough to relabel this as mg/g fresh rhizome.
+            if row["measurement_unit"].strip().lower() != "mg/g plant material": errors.append("unit_differs_from_primary_table")
             else: basis_warning = True
             if method == "Boiling":
                 if not close(row["temperature_c"], 100): errors.append("temperature_differs_from_primary_source")
@@ -169,7 +172,7 @@ def audit_row(row: dict[str, str]) -> dict[str, str]:
                 if row["temperature_c"].strip(): errors.append("temperature_reported_where_source_does_not_report_it")
                 if row["microwave_power_w"] != "800": errors.append("microwave_power_differs_from_primary_source")
                 if "dry" not in row["cooking_medium"].lower(): errors.append("microwave_medium_differs_from_primary_source")
-        table, unit = "Table 1", "mg/g plant material (source wording); fresh rhizome starting material"
+        table, unit = "Table 1", "mg/g plant material (source wording); cooked-sample denominator requires caution"
         food_state = "2 g fresh rhizome slices; cooked sample state as processed in the study"
         basis = "Table 1 reports mg/g plant material; Methods identify fresh rhizome as the starting material, but the post-cooking denominator is not explicitly defined; no dry-weight conversion or cooked yield reported"
         prep = "boil in deionized water at 100 °C; dry ceramic pan frying without oil; microwave at 800 W; 1/2/5/10 min; 10-min microwave charred and excluded"

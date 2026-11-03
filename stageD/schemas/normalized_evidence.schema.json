@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.local/stageD/schemas/normalized_evidence.schema.json",
+  "title": "CookRisk normalized interaction evidence record",
+  "description": "Version-aware normalized view of one immutable Stage B record. Normalization does not imply validation, identity adjudication, evidence acceptance, causality, or clinical applicability.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "evidence_id",
+    "compound",
+    "drug_probe",
+    "study_type",
+    "study_context",
+    "finding",
+    "mechanism_source_text",
+    "review_state",
+    "source_provenance"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "evidence_id": {"type": "string", "minLength": 1},
+    "compound": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage_b_compound_id", "source_name", "source_identity_status", "identity_review_status"],
+      "properties": {
+        "stage_b_compound_id": {"type": "string", "minLength": 1},
+        "source_name": {"type": "string"},
+        "source_identity_status": {"type": "string"},
+        "identity_review_status": {"enum": ["unassessed", "pending", "reviewed"]}
+      }
+    },
+    "drug_probe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage_b_drug_id", "source_name"],
+      "properties": {
+        "stage_b_drug_id": {"type": ["string", "null"]},
+        "source_name": {"type": "string"},
+        "identity_review_status": {"enum": ["unassessed", "pending", "reviewed"]}
+      }
+    },
+    "study_type": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_label", "normalized_category", "normalization_rule"],
+      "properties": {
+        "source_label": {"type": "string"},
+        "normalized_category": {
+          "enum": ["human_pharmacokinetic", "controlled_clinical", "animal", "in_vitro", "other_human_clinical", "other_unclassified"]
+        },
+        "normalization_rule": {"type": "string", "minLength": 1}
+      }
+    },
+    "study_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_evidence_level", "study_design", "dose", "population_or_model", "affected_entity", "perpetrator", "limitations", "clinical_extrapolation_boundary", "source_confidence_text"],
+      "properties": {
+        "source_evidence_level": {"type": "string"},
+        "study_design": {"type": "string"},
+        "dose": {"type": "string"},
+        "population_or_model": {"type": "string"},
+        "affected_entity": {"type": "string"},
+        "perpetrator": {"type": "string"},
+        "limitations": {"type": "string"},
+        "clinical_extrapolation_boundary": {"type": "string"},
+        "source_confidence_text": {"type": "string"}
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw_outcome", "raw_direction", "raw_quantitative_outcome", "polarity", "normalization_rule"],
+      "properties": {
+        "raw_outcome": {"type": "string"},
+        "raw_direction": {"type": "string"},
+        "raw_quantitative_outcome": {"type": "string"},
+        "conflict_group": {"type": ["string", "null"]},
+        "polarity": {"enum": ["positive", "negative", "null", "conflicting", "unclear"]},
+        "normalization_rule": {"type": "string", "minLength": 1}
+      }
+    },
+    "mechanism_source_text": {"type": "string"},
+    "review_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_review", "manual_review_required", "acceptance_status"],
+      "properties": {
+        "evidence_review": {"enum": ["normalized_pending_review", "needs_manual_review"]},
+        "manual_review_required": {"type": "boolean"},
+        "acceptance_status": {"const": "pending"}
+      }
+    },
+    "source_provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage_b_release", "stage_b_manifest_sha256", "source_record_id", "study_id", "source_title", "authors", "year", "doi", "pmid", "source_url", "source_locator", "source_type"],
+      "properties": {
+        "stage_b_release": {"type": "string", "minLength": 1},
+        "stage_b_manifest_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "source_record_id": {"type": "string", "minLength": 1},
+        "study_id": {"type": "string"},
+        "source_title": {"type": "string"},
+        "authors": {"type": "string"},
+        "year": {"type": "string"},
+        "doi": {"type": "string"},
+        "pmid": {"type": "string"},
+        "source_url": {"type": "string"},
+        "source_locator": {"type": "string"},
+        "source_type": {"type": "string"}
+      }
+    }
+  }
+}

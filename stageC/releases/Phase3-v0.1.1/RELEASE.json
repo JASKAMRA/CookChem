@@ -1,0 +1,36 @@
+{
+  "release_id": "Phase3-v0.1.1",
+  "version": "0.1.1",
+  "status": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+  "created_on": "2026-11-03",
+  "upstream_dependencies": [
+    {
+      "release_id": "Phase1B-v1.3.2",
+      "manifest_sha256": "df3a95ae0957b68a89e38098c0824877196aa74ef7dd92573e6ab1f37e39b9b5",
+      "use": "read-only food composition, compound mapping, identity; not quantitative eligibility inference"
+    },
+    {
+      "release_id": "Phase2-v0.3.1",
+      "manifest_sha256": "2b72e4df095002952fcf2eef2af3381425384317d6ea259b81676ed8c243746e",
+      "use": "read-only; zero quantitative cooked-concentration estimates"
+    },
+    {
+      "release_id": "Phase4-v0.1.2",
+      "manifest_sha256": "9d6a3a13d6567a872bfb890cf02ea118648a8572c92ebdd8e33b970d0f889fba",
+      "use": "read-only qualitative-context selector; numerical PK excluded"
+    }
+  ],
+  "validation_results": {
+    "core_tests": "run independently from package; see test output",
+    "json_schema_draft_2020_12": "NOT_RUN: jsonschema development dependency absent in build environment"
+  },
+  "known_limitations": [
+    "Phase2-v0.3.1 contains no quantitative cooked-concentration estimate; cooked exposure remains unavailable unless a later pinned Phase 2 release passes every gate.",
+    "Formal Draft 2020-12 schema validation was not run; stageC/requirements-dev.txt declares jsonschema>=4.18,<5.",
+    "Phase 3 reports food-compound exposure and performs no clinical interpretation.",
+    "Live CLI calculation resolves pinned upstream releases from the repository workspace; this core package's included tests use synthetic data and run independently."
+  ],
+  "stage_a_touched": false,
+  "stage_b_modified": false,
+  "historical_releases_modified": false
+}

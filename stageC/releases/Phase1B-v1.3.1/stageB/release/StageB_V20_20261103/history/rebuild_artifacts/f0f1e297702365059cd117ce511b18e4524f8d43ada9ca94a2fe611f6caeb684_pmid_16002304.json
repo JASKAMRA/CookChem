@@ -1,0 +1,238 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:16002304 AND SRC:MED",
+    "internalQuery": "EXT_ID:16002304 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "16002304",
+        "source": "MED",
+        "pmid": "16002304",
+        "doi": "10.1016/j.phrs.2005.05.011",
+        "title": "Pharmacokinetic interaction between diltiazem and morin, a flavonoid, in rats.",
+        "authorString": "Choi JS, Han HK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Choi JS",
+              "lastName": "Choi",
+              "firstName": "Jun-Shik",
+              "initials": "JS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy, Chosun university, 375 Su-suk Dong, Dong-Gu, Gwangju, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han HK",
+              "lastName": "Han",
+              "firstName": "Hyo-Kyung",
+              "initials": "HK"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "52",
+          "journalIssueId": 1266920,
+          "dateOfPublication": "2005 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Pharmacol Res",
+            "title": "Pharmacological research",
+            "essn": "1096-1186",
+            "issn": "1043-6618",
+            "isoabbreviation": "Pharmacol Res",
+            "nlmid": "8907422"
+          },
+          "printPublicationDate": "2005-11-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "386-391",
+        "abstractText": "The present study aims to investigate the effect of morin, a flavonoid, on the pharmacokinetics of diltiazem and its active metabolite, desacetyldiltiazem, in rats. Pharmacokinetic parameters of diltiazem and desacetyldiltiazem were determined in rats after an oral administration of diltiazem (15 mg kg(-1)) to rats in the presence and absence of morin (1.5, 7.5 and 15 mg kg(-1)). Compared to the control given diltiazem alone, the C(max) and AUC of diltiazem increased by 30-120% in the rats co-administered with a 1.5 or 7.5 mg kg(-1) of morin, while there was no significant change in T(max) and terminal plasma half-life (T(1/2)) of diltiazem in the presence of morin. Consequently, absolute and relative bioavailability values of diltiazem in the rats co-administered with morin were significantly higher (p<0.05) than those from the control group. Metabolite-parent AUC ratio in the presence of morin (7.5 mg kg(-1)) decreased by 30% compared to the control group, implying that coadministration of morin could be effective to inhibit the CYP3A4-mediated metabolism of diltiazem. In conclusion, the presence of morin significantly enhanced the oral exposure of diltiazem, suggesting that concurrent use of morin or morin-containing dietary supplement with diltiazem should require close monitoring for potential drug interactions.",
+        "affiliation": "College of Pharmacy, Chosun university, 375 Su-suk Dong, Dong-Gu, Gwangju, Republic of Korea.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats, Sprague-Dawley"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diltiazem",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavones"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Area Under Curve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 Enzyme Inhibitors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "CYP3A protein, human",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Flavones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "morin",
+              "registryNumber": "8NFQ3F76WR"
+            },
+            {
+              "name": "Diltiazem",
+              "registryNumber": "EE92BBP03H"
+            },
+            {
+              "name": "Cytochrome P-450 Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "CYP3A4 protein, human",
+              "registryNumber": "EC 1.14.14.55"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.phrs.2005.05.011"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 22,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-02-01",
+        "dateOfCreation": "2005-07-09",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2005-07-05",
+        "firstPublicationDate": "2005-07-05",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "6.9",
+  "hitCount": 0,
+  "request": {
+    "queryString": "TITLE:\"6,7-Dihydroxybergamottin\" AND (pharmacokinetic OR interaction OR coadministration OR metabolism OR synergistic) AND SRC:MED NOT PUB_TYPE:Review AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": []
+  }
+}

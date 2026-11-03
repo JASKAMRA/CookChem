@@ -1,0 +1,77 @@
+{
+  "batch": "105",
+  "baseline_timestamp": "2026-11-03",
+  "checkpoint_id_before": "Phase1B-2026-11-03-batch-103-all-143-screened",
+  "status_before": "PHASE1B_TARGET_NOT_ACHIEVED",
+  "baseline_counts": {
+    "stage_b_compounds": 143,
+    "research_screened": "143/143",
+    "food_records": 541,
+    "mapping_rows": 541,
+    "unique_mapped_compounds_including_pending": 115,
+    "identity_complete": 107,
+    "accepted_identity_complete_quantitative_compounds": 99,
+    "identity_complete_gaps": 8,
+    "identity_pending": 36,
+    "pending_identity_candidate_rows": 42,
+    "pending_identity_numeric_rows": 39,
+    "search_log_events": 448,
+    "source_registry_rows": 57,
+    "unique_source_urls": 56,
+    "identity_complete_covered": 99
+  },
+  "baseline_hashes": {
+    "food_composition.csv": "a715c92205ba3c2e2e184d0f1330e7db025910a4f4e3365916a4088e3f7cad2e",
+    "compound_food_mapping.csv": "5f197098e8cc91df0970568f7758d6d6b5594152c0b83100edd3cbd21f73cec3",
+    "stage_b_snapshot_manifest.json": "ea1cb06a7cd3b5c81093854d86346ac8b3779747c1df218ca4aeca60cc2bea27"
+  },
+  "checkpoint_hashes_match_actual": {
+    "food_composition.csv": true,
+    "compound_food_mapping.csv": true
+  },
+  "batch_104_preserved": true,
+  "baseline_gap_ids": [
+    "MOL-V10-2825024",
+    "MOL-V10-3084961",
+    "MOL-V10-5281605",
+    "MOL-V10-5281697",
+    "MOL-V10-5281703",
+    "MOL-V10-5320315",
+    "MOL-V10-64982",
+    "MOL-V17-CID-92794"
+  ],
+  "baseline_gap_statuses": {
+    "MOL-V10-5281605": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    },
+    "MOL-V10-64982": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    },
+    "MOL-V10-5281697": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    },
+    "MOL-V10-5281703": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    },
+    "MOL-V10-5320315": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    },
+    "MOL-V10-2825024": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    },
+    "MOL-V10-3084961": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    },
+    "MOL-V17-CID-92794": {
+      "coverage_status": "No accepted quantitative mapping",
+      "last_decision": "NO_NEW_QUALIFYING_MEASUREMENT; FOLLOW_UP_LEADS_RECORDED"
+    }
+  }
+}

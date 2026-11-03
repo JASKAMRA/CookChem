@@ -1,0 +1,29 @@
+{
+  "checkpoint_id": "Phase1B-v1.3.1-authoritative-reconciliation",
+  "release_id": "Phase1B-v1.3.1",
+  "source_stage_b_release": "StageB_V20_20261103",
+  "food_records": 584,
+  "food_records_by_class": {
+    "ordinary food": 335,
+    "food ingredient": 221,
+    "prepared beverage": 28
+  },
+  "mapping_rows": 584,
+  "raw_mapped_compound_ids": 130,
+  "identity_complete_mapped_compounds": 125,
+  "identity_pending_mapped_compounds": 5,
+  "accepted_mapped_compounds": 121,
+  "scientifically_eligible_quantitative_compounds": 116,
+  "ordinary_food_raw_mapped_compounds": 87,
+  "ordinary_food_identity_complete_mapped_compounds": 84,
+  "ordinary_food_identity_pending_mapped_compounds": 3,
+  "ordinary_food_scientifically_eligible_quantitative_compounds": 80,
+  "file_sha256": {
+    "data/food_composition/food_composition.csv": "40f2e41494ce1f8cbd58ff52bd9e8678236145ad740dd8a0a25c0b6054d02ece",
+    "data/compound_food_mapping/compound_food_mapping.csv": "e792e6a5675fdbd71e50f6afa8ea5dd48138ad45010bbede1c567a65b25e35d2",
+    "data/food_composition/source_registry.csv": "3c0f1ff7709cf6c827faa3b07078098e35c79e3432715addd08b5096d8b7dbfa",
+    "reports/phase1b/COMPOUND_COVERAGE_REGISTER_2026-11-03.csv": "79238c405af05fbdb31897ee7db3856a9f9794e13db52dbb8c49535ca300a2c6"
+  },
+  "historical_checkpoint_preserved_as": "CHECKPOINTS_BATCH120_HISTORICAL.json",
+  "note": "Eligibility uses accepted quantitative evidence and V20-complete identity; mapping presence alone is not scientific eligibility."
+}

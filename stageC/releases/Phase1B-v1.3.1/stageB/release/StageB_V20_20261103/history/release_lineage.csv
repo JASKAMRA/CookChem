@@ -1,0 +1,13 @@
+﻿Release,Directory,Anchor_rows,Evidence_rows,Distinct_anchor_IDs,Distinct_evidence_IDs,Evidence_file,Anchor_file,Counts_from,Summary
+V2,expansion_v2,9,64,0,64,outputs/stageB_food_drug_interactions_expanded.csv,,V2 release summary; no compound registry available,Initial nine-anchor evidence baseline with research-priority export.
+V3,expansion_v3_20261014,14,73,14,73,outputs/stageB_food_drug_interactions_v3.csv,outputs/compound_registry.csv,Underlying release CSVs,Added five anchors and nine evidence records; total 14/73.
+V4,release_v4_20261014,14,73,14,73,outputs/stageB_food_drug_interactions_v4.csv,outputs/compound_registry.csv,Underlying release CSVs,No count change; one record corrected and verification work recorded.
+V5,release_v5_20261014,26,118,26,118,outputs/stageB_food_drug_interactions_v5.csv,outputs/compound_registry.csv,Underlying release CSVs,Expanded to 26 anchors/118 records; controlled evidence additions and null findings retained.
+V6,release_v6_20261014,44,147,44,147,outputs/stageB_food_drug_interactions_v6.csv,outputs/compound_registry.csv,Underlying release CSVs,Expanded to 44 anchors/147 records; warning and provenance audits added.
+V7,release_v7_20261014,60,188,60,188,outputs/stageB_food_drug_interactions_v7.csv,outputs/compound_registry.csv,Underlying release CSVs,Quality/preservation release family; lineage counts must be read from the actual CSV tables.
+V7-clean,release_v7_20261015_clean,60,189,60,189,outputs/stageB_food_drug_interactions_v7.csv,outputs/compound_registry.csv,Underlying release CSVs,Clean-copy snapshot of the V7 release family.
+V8,release_v8_20261015_quality,60,189,60,189,outputs/stageB_food_drug_interactions_v8.csv,outputs/compound_registry.csv,Underlying release CSVs,Quality release with preservation and source-review material; not a separate expansion target.
+V9,release_v9_20261029,74,210,74,210,outputs/stageB_food_drug_interactions_v9.csv,outputs/compound_registry_v9.csv,Underlying release CSVs,Expanded baseline independently recalculated by V10 as 74/210.
+V10,release_v10_20261030,100,263,100,263,outputs/stageB_food_drug_interactions_v10.csv,outputs/compound_registry_v10.csv,Underlying release CSVs,100 anchors/263 evidence rows; preserved V9 inherited rows.
+V11,release_v11_20261030,105,272,105,272,outputs/stageB_food_drug_interactions_v11.csv,outputs/compound_registry_v11.csv,Underlying release CSVs,105 anchors/272 evidence rows; six manual reviews remain pending/partial.
+V12,release_v12_20261030,119,286,119,286,outputs/stageB_food_drug_interactions_v12.csv,outputs/compound_registry_v12.csv,Underlying release CSVs,"119 anchors/286 evidence rows; 14 additions, target gap 31; PASS_WITH_WARNINGS."

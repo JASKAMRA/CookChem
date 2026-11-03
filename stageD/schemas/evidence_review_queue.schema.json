@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.local/stageD/schemas/evidence_review_queue.schema.json",
+  "title": "CookRisk Stage D source-preserving evidence review queue",
+  "description": "A deterministic review work queue. Machine triage is not source verification or evidence adjudication; human decisions remain separate.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "queue_id", "source", "purpose_and_limits", "statistics", "group_index", "records"],
+  "properties": {
+    "schema_version": {"const": "1.1.0"},
+    "queue_id": {"const": "StageD-EvidenceReview-StageB_V20_20261103-v1.1.0"},
+    "source": {"$ref": "#/$defs/source"},
+    "purpose_and_limits": {"$ref": "#/$defs/purpose"},
+    "statistics": {"$ref": "#/$defs/statistics"},
+    "group_index": {"$ref": "#/$defs/groupIndex"},
+    "records": {"type": "array", "minItems": 317, "maxItems": 317, "items": {"$ref": "#/$defs/record"}}
+  },
+  "$defs": {
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["release_id", "relative_path", "sha256", "source_row_count", "records_preserved"],
+      "properties": {
+        "release_id": {"const": "StageB_V20_20261103"},
+        "relative_path": {"const": "stageB/release/StageB_V20_20261103/data/interaction_evidence.csv"},
+        "sha256": {"const": "358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6"},
+        "source_row_count": {"const": 317}, "records_preserved": {"const": 317}
+      }
+    },
+    "purpose": {
+      "type": "object", "additionalProperties": false,
+      "required": ["purpose", "machine_assessment_is_adjudication", "source_verification_performed", "expert_decisions_created", "negative_evidence_inferred", "grouping_note"],
+      "properties": {
+        "purpose": {"type": "string", "minLength": 1},
+        "machine_assessment_is_adjudication": {"const": false},
+        "source_verification_performed": {"const": false},
+        "expert_decisions_created": {"const": false},
+        "negative_evidence_inferred": {"const": false},
+        "grouping_note": {"type": "string", "minLength": 1}
+      }
+    },
+    "statistics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["record_count", "machine_triage_counts", "human_review_state_counts", "study_category_counts", "finding_polarity_counts", "identity_source_label_counts", "missing_core_field_counts", "explicit_conflict_record_count", "explicit_conflict_group_count", "exact_duplicate_candidate_group_count", "exact_duplicate_candidate_record_count", "source_verified_count", "expert_accepted_count", "expert_rejected_count"],
+      "properties": {
+        "record_count": {"const": 317},
+        "machine_triage_counts": {"$ref": "#/$defs/countMap"},
+        "human_review_state_counts": {"$ref": "#/$defs/countMap"},
+        "study_category_counts": {"$ref": "#/$defs/countMap"},
+        "finding_polarity_counts": {"$ref": "#/$defs/countMap"},
+        "identity_source_label_counts": {"$ref": "#/$defs/countMap"},
+        "missing_core_field_counts": {"$ref": "#/$defs/countMap"},
+        "explicit_conflict_record_count": {"type": "integer", "minimum": 0, "maximum": 317},
+        "explicit_conflict_group_count": {"type": "integer", "minimum": 0, "maximum": 317},
+        "exact_duplicate_candidate_group_count": {"type": "integer", "minimum": 0, "maximum": 317},
+        "exact_duplicate_candidate_record_count": {"type": "integer", "minimum": 0, "maximum": 317},
+        "source_verified_count": {"const": 0}, "expert_accepted_count": {"const": 0}, "expert_rejected_count": {"const": 0}
+      }
+    },
+    "countMap": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 317}},
+    "groupIndex": {
+      "type": "object", "additionalProperties": false,
+      "required": ["evidence_category", "compound", "drug_name", "source_and_study", "study", "source_reported_target_context", "conflict_group", "exact_duplicate_candidate"],
+      "properties": {
+        "evidence_category": {"$ref": "#/$defs/groups"}, "compound": {"$ref": "#/$defs/groups"},
+        "drug_name": {"$ref": "#/$defs/groups"}, "source_and_study": {"$ref": "#/$defs/groups"},
+        "study": {"$ref": "#/$defs/groups"}, "source_reported_target_context": {"$ref": "#/$defs/groups"},
+        "conflict_group": {"$ref": "#/$defs/groups"}, "exact_duplicate_candidate": {"$ref": "#/$defs/groups"}
+      }
+    },
+    "groups": {"type": "array", "items": {"$ref": "#/$defs/group"}},
+    "group": {
+      "type": "object", "additionalProperties": false,
+      "required": ["group_id", "member_evidence_ids", "member_count", "interpretation"],
+      "properties": {
+        "group_id": {"type": "string", "minLength": 5},
+        "member_evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "member_count": {"type": "integer", "minimum": 1, "maximum": 317},
+        "interpretation": {"type": "string", "minLength": 1}
+      }
+    },
+    "record": {
+      "type": "object", "additionalProperties": false,
+      "required": ["queue_record_id", "review_id", "source_reference", "source_record", "machine_assessment", "groups", "human_review"],
+      "properties": {
+        "queue_record_id": {"type": "string", "pattern": "^Q-.+"},
+        "review_id": {"type": "string", "pattern": "^RV-[A-F0-9]{20}$"},
+        "source_reference": {"$ref": "#/$defs/sourceReference"},
+        "source_record": {"$ref": "#/$defs/rawSourceRecord"},
+        "machine_assessment": {"$ref": "#/$defs/machineAssessment"},
+        "groups": {"$ref": "#/$defs/recordGroups"},
+        "human_review": {"$ref": "#/$defs/humanReview"}
+      }
+    },
+    "sourceReference": {
+      "type": "object", "additionalProperties": false,
+      "required": ["release_id", "source_path", "source_sha256", "csv_row_number", "evidence_id", "compound_id"],
+      "properties": {
+        "release_id": {"const": "StageB_V20_20261103"},
+        "source_path": {"const": "stageB/release/StageB_V20_20261103/data/interaction_evidence.csv"},
+        "source_sha256": {"const": "358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6"},
+        "csv_row_number": {"type": "integer", "minimum": 2, "maximum": 318},
+        "evidence_id": {"type": "string", "minLength": 1}, "compound_id": {"type": "string", "minLength": 1}
+      }
+    },
+    "rawSourceRecord": {
+      "type": "object", "additionalProperties": false,
+      "required": ["Evidence_ID", "Compound", "Compound_ID", "Drug", "Interaction_Effect", "Mechanism", "Evidence_Type", "Evidence_Level", "Direction", "Quantitative_Outcome", "Dose", "Population", "Study_Design", "Source_Title", "Authors", "Year", "DOI", "PMID", "Source_Type", "Limitations", "Confidence", "Notes", "Study_ID", "Source_URL", "Source_Cache", "Source_Locator", "Preparation", "Co_Compounds", "Affected_Entity", "Perpetrator", "Outcome", "Conflict_Group", "Identity_Status", "Release_Origin", "Clinical_Extrapolation", "CookRisk_Exposure_Link"],
+      "properties": {
+        "Evidence_ID": {"type": "string", "minLength": 1}, "Compound": {"type": "string"}, "Compound_ID": {"type": "string", "minLength": 1}, "Drug": {"type": "string"}, "Interaction_Effect": {"type": "string"}, "Mechanism": {"type": "string"}, "Evidence_Type": {"type": "string"}, "Evidence_Level": {"type": "string"}, "Direction": {"type": "string"}, "Quantitative_Outcome": {"type": "string"}, "Dose": {"type": "string"}, "Population": {"type": "string"}, "Study_Design": {"type": "string"}, "Source_Title": {"type": "string"}, "Authors": {"type": "string"}, "Year": {"type": "string"}, "DOI": {"type": "string"}, "PMID": {"type": "string"}, "Source_Type": {"type": "string"}, "Limitations": {"type": "string"}, "Confidence": {"type": "string"}, "Notes": {"type": "string"}, "Study_ID": {"type": "string"}, "Source_URL": {"type": "string"}, "Source_Cache": {"type": "string"}, "Source_Locator": {"type": "string"}, "Preparation": {"type": "string"}, "Co_Compounds": {"type": "string"}, "Affected_Entity": {"type": "string"}, "Perpetrator": {"type": "string"}, "Outcome": {"type": "string"}, "Conflict_Group": {"type": "string"}, "Identity_Status": {"type": "string"}, "Release_Origin": {"type": "string"}, "Clinical_Extrapolation": {"type": "string"}, "CookRisk_Exposure_Link": {"type": "string"}
+      }
+    },
+    "machineAssessment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["triage_state", "triage_reason_codes", "source_verification", "identity_source_label", "normalized_study_category", "finding_polarity", "finding_normalization_rule", "explicit_conflict_group", "missing_core_source_fields"],
+      "properties": {
+        "triage_state": {"enum": ["NOT_REVIEWED", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW", "READY_FOR_EXPERT_REVIEW"]},
+        "triage_reason_codes": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "source_verification": {"const": "NOT_PERFORMED"}, "identity_source_label": {"type": "string"},
+        "normalized_study_category": {"enum": ["human_pharmacokinetic", "controlled_clinical", "animal", "in_vitro", "other_human_clinical", "other_unclassified"]},
+        "finding_polarity": {"enum": ["positive", "negative", "null", "conflicting", "unclear"]},
+        "finding_normalization_rule": {"type": "string", "minLength": 1},
+        "explicit_conflict_group": {"type": ["string", "null"]},
+        "missing_core_source_fields": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+      }
+    },
+    "recordGroups": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "evidence_category": {"type": "string"}, "compound": {"type": "string"},
+        "drug_name": {"type": "string"}, "source_and_study": {"type": "string"},
+        "study": {"type": "string"}, "source_reported_target_context": {"type": "string"},
+        "conflict_group": {"type": "string"}, "exact_duplicate_candidate": {"type": "string"}
+      }
+    },
+    "humanReview": {
+      "type": "object", "additionalProperties": false,
+      "required": ["state", "reviewer_identity", "reviewed_at", "rationale", "cited_source_location", "negative_evidence_assessment"],
+      "properties": {
+        "state": {"const": "NOT_REVIEWED"},
+        "reviewer_identity": {"type": "null"}, "reviewed_at": {"type": "null"},
+        "rationale": {"type": "null"}, "cited_source_location": {"type": "null"},
+        "negative_evidence_assessment": {"const": "NOT_ASSESSED"}
+      }
+    }
+  }
+}

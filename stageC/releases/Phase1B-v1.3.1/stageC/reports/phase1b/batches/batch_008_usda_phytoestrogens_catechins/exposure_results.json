@@ -1,0 +1,67 @@
+{
+  "estimates": [
+    {
+      "estimate_id": "B008-BIOCHANIN-A-100G",
+      "compound_id": "MOL-V9-5280373",
+      "compound_name": "Biochanin A",
+      "food_record_id": "USDA-ISOFLAV-R21-NDB11001-BIOCHANIN-A",
+      "ingredient_quantity": "100",
+      "ingredient_unit": "g",
+      "source_concentration": "0.04",
+      "source_unit": "mg/100g",
+      "normalized_concentration": "0.40",
+      "normalized_unit": "mg/kg",
+      "initial_compound_amount": "0.040",
+      "calculated_amount_unit": "mg",
+      "compound_per_serving": "0.040",
+      "serving_mass": "100",
+      "serving_unit": "g",
+      "consumed_fraction": "1",
+      "estimated_consumed_amount": "0.040",
+      "calculation_method": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+      "calculation_status": "Complete",
+      "input_source_ids": [
+        "USDA-ISOFLAV-R21-NDB11001-BIOCHANIN-A",
+        "MAP-EC9AB799E169B81DDBB8",
+        "Table “Coumestrol, Formononetin, Biochanin A in Selected Foods,” p.47; NDB 11001; source refs 24, 31, 89"
+      ],
+      "stage_b_release_reference": "StageB_Final",
+      "warnings": [
+        "Stage A cooking-retention adjustment is excluded from Phase 1."
+      ],
+      "warning_identifiers": [],
+      "missing_inputs": [],
+      "assumptions": [],
+      "calculation_timestamp": "2026-11-02T09:16:45Z",
+      "software_version": "1.0.0",
+      "food_state": "raw",
+      "moisture_basis": "Fresh-weight edible portion; USDA table reports mg/100g edible portion",
+      "period_id": "illustrative-usda-alfalfa-sprouts-100g",
+      "provenance": {
+        "compound_id": "MOL-V9-5280373",
+        "stage_b_identity_source_file": "identity/identity_structure_audit.csv",
+        "food_record_id": "USDA-ISOFLAV-R21-NDB11001-BIOCHANIN-A",
+        "food_source_title": "USDA Database on the Isoflavone Content of Selected Foods, Release 2.1",
+        "food_source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/isoflav/Isoflav_R2-1.pdf",
+        "food_doi": "",
+        "food_pmid": "",
+        "mapping_id": "MAP-EC9AB799E169B81DDBB8",
+        "mapping_rationale": "Exact Compound_ID or canonical-name match; no fuzzy matching used.",
+        "source_reported_concentration": "0.04",
+        "source_reported_unit": "mg/100g",
+        "normalized_concentration": "0.40",
+        "normalized_unit": "mg/kg",
+        "conversion_factor_to_mg_per_kg": "10",
+        "ingredient_quantity": "100",
+        "ingredient_unit": "g",
+        "serving_mass": "100",
+        "serving_unit": "g",
+        "consumed_fraction": "1",
+        "formula": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+        "stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e"
+      }
+    }
+  ],
+  "aggregates": [],
+  "aggregation_status": "not performed: each input needs an explicit period_id"
+}

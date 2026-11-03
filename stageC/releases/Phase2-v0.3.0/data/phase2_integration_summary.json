@@ -1,0 +1,73 @@
+{
+  "release": "Phase2-v0.3.0",
+  "build_date": "2026-11-03",
+  "source_phase1b_release": "Phase1B-v1.3.1",
+  "phase1b_measurement_rows": 584,
+  "ordinary_food_rows_eligible_for_dietary_concentration": 335,
+  "contextual_or_nonordinary_rows_separate": 249,
+  "source_classifications": {
+    "ordinary food": 335,
+    "food ingredient": 221,
+    "prepared beverage": 28
+  },
+  "stagea_stageb_identity_status_counts": {
+    "STAGEA_STAGEB_IDENTITY_PENDING": 161,
+    "STRICT_STAGEA_STAGEB_MATCH": 64,
+    "NO_STAGEA_STAGEB_CROSSWALK": 349,
+    "MATCH_AFTER_MANUAL_REVIEW_CID_WARNING": 10
+  },
+  "strict_accepted_identity_crosswalk_groups": 19,
+  "manual_review_identity_matches_with_cid_warning": 1,
+  "identity_review_candidate_rows": 45,
+  "identity_review_status_counts": {
+    "POSSIBLE_MATCH": 27,
+    "IDENTITY_CONFLICT": 9,
+    "UNRESOLVED": 9
+  },
+  "observed_cooking_pairs": 117,
+  "observed_cooking_analytes": 24,
+  "apparent_ratio_validation": "all ratios recomputed from published group means and matched stored values within 0.011 percentage points",
+  "retention_applicability_status_counts": {
+    "NO_LINKED_RETENTION_EVIDENCE": 569,
+    "PENDING_MATRIX_COMPATIBILITY": 1,
+    "PENDING_SOURCE_BASIS_AND_MATRIX_COMPATIBILITY": 10,
+    "QUALITATIVE_ONLY": 4
+  },
+  "retention_based_cooked_concentration_outputs": 0,
+  "qualitative_retention_records": 1,
+  "stageb_model_inference": "NOT PERFORMED; not required for the bounded Phase2 evidence closeout",
+  "phase2_exit_decision": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+  "phase2_release": "Phase2-v0.3.0",
+  "source_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+  "observed_cooking_pairs_reviewed": 117,
+  "retention_candidates_reviewed": 63,
+  "retention_candidate_classifications": {
+    "PENDING_MATRIX_COMPATIBILITY": 33,
+    "PENDING_SOURCE_BASIS": 30
+  },
+  "compatibility_combinations_reviewed": 22,
+  "compatibility_final_statuses": {
+    "PENDING_MATRIX_COMPATIBILITY": 11,
+    "PENDING_SOURCE_BASIS": 10,
+    "QUALITATIVE_ONLY": 1
+  },
+  "applicability_records_reviewed": 584,
+  "applicability_final_statuses": {
+    "NO_LINKED_RETENTION_EVIDENCE": 569,
+    "PENDING_MATRIX_COMPATIBILITY": 1,
+    "PENDING_SOURCE_BASIS_AND_MATRIX_COMPATIBILITY": 10,
+    "QUALITATIVE_ONLY": 4
+  },
+  "identity_crosswalk_records_reviewed": 197,
+  "identity_crosswalk_final_statuses": {
+    "NO_STAGEB_CID_MATCH": 127,
+    "NO_CID": 5,
+    "ACCEPTED_STRICT_MATCH": 19,
+    "PENDING_STRUCTURE_EQUIVALENCE_REVIEW": 27,
+    "ACCEPTED_MANUAL_MATCH_WITH_CID_WARNING": 1,
+    "NEEDS_MANUAL_SOURCE_ADJUDICATION": 9,
+    "PENDING_NAME_AND_STRUCTURE_REVIEW": 9
+  },
+  "cooked_concentration_estimates": 0,
+  "model_inference_performed": false
+}

@@ -1,0 +1,40 @@
+{
+  "batch": "103",
+  "batch_date": "2026-11-03",
+  "screening_targets": 5,
+  "new_search_events": 5,
+  "research_coverage": "143/143",
+  "accepted_records_added": 0,
+  "accepted_mappings_added": 0,
+  "candidate_detail_rows_added": 13,
+  "pending_candidate_records_total": 42,
+  "pending_candidate_numeric_rows": 39,
+  "current": {
+    "stage_b_compounds": 143,
+    "identity_complete": 107,
+    "identity_pending": 36,
+    "researched_unique_compounds": 143,
+    "identity_complete_quantitative_compounds": 99,
+    "identity_complete_uncovered": 8,
+    "unique_compounds_quantitatively_mapped_including_pending": 115,
+    "food_records": 541,
+    "mapping_rows": 541,
+    "blocked_mapping_rows": 46,
+    "orphan_mappings": 0,
+    "food_sha256": "a715c92205ba3c2e2e184d0f1330e7db025910a4f4e3365916a4088e3f7cad2e",
+    "mapping_sha256": "5f197098e8cc91df0970568f7758d6d6b5594152c0b83100edd3cbd21f73cec3"
+  },
+  "target": {
+    "minimum": 130,
+    "stretch": 143,
+    "achieved": false,
+    "status": "PHASE1B_TARGET_NOT_ACHIEVED",
+    "additional_eligible_compounds_needed": 31
+  },
+  "limitations": [
+    "All five remaining previously unlogged IDs now have a documented first-pass screen; this is not an exhaustive-literature claim.",
+    "Four pending-identity compounds have numerical candidate findings; NHDC has qualitative source-confirmed detection but no accessible exact concentration.",
+    "Identity-pending findings are not accepted or counted.",
+    "130 minimum remains unreachable under the 107 complete-identity ceiling without separate Stage B adjudication."
+  ]
+}

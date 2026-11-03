@@ -1,0 +1,48 @@
+{
+  "label": "SYNTHETIC — TEST FIXTURE ONLY",
+  "not_scientific_evidence": true,
+  "not_a_probability_distribution": true,
+  "recipe": {
+    "recipe_id": "R-SYN-UNCERTAINTY-01",
+    "compound_id": "C-1",
+    "ingredients": [
+      {
+        "ingredient_id": "I-1",
+        "food_record_id": "F-1",
+        "quantity": "200",
+        "quantity_unit": "g",
+        "cooked_mass": "200",
+        "cooked_mass_unit": "g",
+        "serving_fraction": "0.5",
+        "consumed_fraction": "0.5",
+        "retention_low_percent": "40",
+        "retention_high_percent": "60",
+        "evidence_id": "P2-SYN-001",
+        "source_reference": "synthetic fixture row 1"
+      },
+      {
+        "ingredient_id": "I-2",
+        "food_record_id": "F-2",
+        "quantity": "100",
+        "quantity_unit": "g",
+        "cooked_mass": "100",
+        "cooked_mass_unit": "g",
+        "serving_fraction": "0.5",
+        "consumed_fraction": "0.5",
+        "retention_low_percent": "20",
+        "retention_high_percent": "80",
+        "evidence_id": "P2-SYN-002",
+        "source_reference": "synthetic fixture row 2"
+      }
+    ]
+  },
+  "expected": {
+    "ingredient_amounts_mg": [
+      {"low": "0.1", "high": "0.15"},
+      {"low": "0.05", "high": "0.2"}
+    ],
+    "recipe_amount_mg": {"low": "0.15", "high": "0.35"},
+    "meal_amount_mg": {"low": "0.15", "high": "0.35"},
+    "sensitivity_rank_by_width": ["I-2", "I-1"]
+  }
+}

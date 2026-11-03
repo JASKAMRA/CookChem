@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.local/stageD/schemas/exposure_comparison.schema.json",
+  "title": "CookRisk exposure-to-study comparability assessment",
+  "description": "A provenance-bound checklist. READY_FOR_REVIEW is not dose equivalence, clinical applicability, or a risk conclusion.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "comparison_id", "exposure_id", "evidence_id", "criteria", "decision", "decision_reason", "review_status"],
+  "properties": {
+    "schema_version": {"enum": ["1.0.0", "1.1.0"]},
+    "comparison_id": {"type": "string", "minLength": 1},
+    "exposure_id": {"type": "string", "minLength": 1},
+    "evidence_id": {"type": "string", "minLength": 1},
+    "criteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["compound_identity", "exposure_route", "dose_units_and_basis", "time_window", "population_or_model", "preparation_or_matrix"],
+      "properties": {
+        "compound_identity": {"type": ["boolean", "null"]},
+        "exposure_route": {"type": ["boolean", "null"]},
+        "dose_units_and_basis": {"type": ["boolean", "null"]},
+        "time_window": {"type": ["boolean", "null"]},
+        "population_or_model": {"type": ["boolean", "null"]},
+        "preparation_or_matrix": {"type": ["boolean", "null"]}
+      }
+    },
+    "decision": {"enum": ["PENDING", "REJECTED", "READY_FOR_REVIEW"]},
+    "decision_reason": {"type": "string", "minLength": 1},
+    "review_status": {"enum": ["automated_check_only", "human_review_pending", "human_reviewed"]},
+    "reviewer_reference": {"type": ["string", "null"]},
+    "clinical_interpretation": {"const": "not_performed"},
+    "exposure_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "phase3_release_id", "phase3_manifest_sha256", "phase3_manifest_verification", "recipe_id", "estimate_id", "stage_b_compound_id", "stage_b_release", "stage_b_manifest_sha256", "food_record_id", "mapping_id", "food_source_title", "food_source_url", "food_doi", "food_pmid", "input_source_ids", "upstream_releases"],
+      "properties": {
+        "stage": {"const": "Stage C Phase 3"},
+        "phase3_release_id": {"type": "string", "minLength": 1},
+        "phase3_manifest_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "phase3_manifest_verification": {"const": "verified"},
+        "recipe_id": {"type": "string", "minLength": 1},
+        "estimate_id": {"type": "string", "minLength": 1},
+        "stage_b_compound_id": {"type": "string", "minLength": 1},
+        "stage_b_release": {"type": "string", "minLength": 1},
+        "stage_b_manifest_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "food_record_id": {"type": "string"},
+        "mapping_id": {"type": "string"},
+        "food_source_title": {"type": "string"},
+        "food_source_url": {"type": "string"},
+        "food_doi": {"type": "string"},
+        "food_pmid": {"type": "string"},
+        "input_source_ids": {"type": "array", "items": {"type": "string"}},
+        "upstream_releases": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["phase1b", "phase2", "phase4"],
+          "properties": {
+            "phase1b": {"$ref": "#/$defs/upstreamPhase1B"},
+            "phase2": {"$ref": "#/$defs/upstreamRelease"},
+            "phase4": {"$ref": "#/$defs/upstreamRelease"}
+          }
+        }
+      }
+    },
+    "dietary_exposure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quantity_type", "lower", "upper", "unit", "raw_reference_amount_mg", "raw_food_concentration", "raw_food_concentration_unit", "cooked_food_concentration_lower", "cooked_food_concentration_upper", "cooked_food_concentration_unit", "cooked_exposure_status", "retention_evidence_id", "food_state", "preparation_description", "cooking_operations", "missing_inputs", "source_warnings", "calculation_method"],
+      "properties": {
+        "quantity_type": {"const": "consumed_food_compound_amount"},
+        "lower": {"type": "string", "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
+        "upper": {"type": "string", "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
+        "unit": {"const": "mg"},
+        "raw_reference_amount_mg": {"type": ["string", "null"], "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
+        "raw_food_concentration": {"type": "string", "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
+        "raw_food_concentration_unit": {"type": "string", "minLength": 1},
+        "cooked_food_concentration_lower": {"type": ["string", "null"], "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
+        "cooked_food_concentration_upper": {"type": ["string", "null"], "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
+        "cooked_food_concentration_unit": {"type": ["string", "null"]},
+        "cooked_exposure_status": {"type": "string", "minLength": 1},
+        "retention_evidence_id": {"type": "string"},
+        "food_state": {"enum": ["raw", "cooked", "prepared", "unknown"]},
+        "preparation_description": {"type": "string"},
+        "cooking_operations": {"type": "array", "items": {"type": "object"}},
+        "missing_inputs": {"type": "array", "items": {"type": "string"}},
+        "source_warnings": {"type": "array", "items": {"type": "string"}},
+        "calculation_method": {"type": "string"}
+      }
+    },
+    "experimental_exposure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reported_dose_text", "normalized_dose_value", "normalized_dose_unit", "experimental_concentration_value", "experimental_concentration_unit", "normalization_status"],
+      "properties": {
+        "reported_dose_text": {"type": "string"},
+        "normalized_dose_value": {"type": ["number", "null"]},
+        "normalized_dose_unit": {"type": ["string", "null"]},
+        "experimental_concentration_value": {"type": ["number", "null"]},
+        "experimental_concentration_unit": {"type": ["string", "null"]},
+        "normalization_status": {"const": "source_text_preserved_no_dimensional_conversion"}
+      }
+    }
+  },
+  "$defs": {
+    "upstreamRelease": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["release_id", "manifest_sha256"],
+      "properties": {
+        "release_id": {"type": "string", "minLength": 1},
+        "manifest_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}
+      }
+    },
+    "upstreamPhase1B": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["release_id", "manifest_sha256", "stage_b_release", "stage_b_manifest_sha256"],
+      "properties": {
+        "release_id": {"type": "string", "minLength": 1},
+        "manifest_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "stage_b_release": {"type": "string", "minLength": 1},
+        "stage_b_manifest_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"schema_version": {"const": "1.1.0"}}, "required": ["schema_version"]},
+      "then": {"required": ["clinical_interpretation", "exposure_reference", "dietary_exposure", "experimental_exposure"]}
+    }
+  ]
+}

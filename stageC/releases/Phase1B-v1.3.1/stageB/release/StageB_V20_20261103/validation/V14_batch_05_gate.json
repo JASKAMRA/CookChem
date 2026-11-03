@@ -1,0 +1,30 @@
+{
+  "batch": 5,
+  "status": "PASS",
+  "accepted_compounds": [
+    "Allura Red AC (FD&C Red No. 40)"
+  ],
+  "new_evidence_ids": [
+    "SB-V14-008",
+    "SB-V14-009"
+  ],
+  "held_or_rejected": [
+    "GF-I-1",
+    "GF-I-4",
+    "Paradisin B",
+    "Imperatorin"
+  ],
+  "compound_count": 128,
+  "evidence_count": 299,
+  "bibliography_rows": 157,
+  "study_rows": 157,
+  "warnings": 61,
+  "checks": {
+    "unique_compound_ids": "PASS",
+    "unique_inchikeys": "PASS",
+    "unique_evidence_ids": "PASS",
+    "compound_foreign_keys": "PASS",
+    "study_and_publication_foreign_keys": "PASS",
+    "V13_data_preservation": "PASS"
+  }
+}

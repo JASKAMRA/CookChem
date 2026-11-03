@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:uncertainty_coverage",
+  "title": "CookRisk Phase 3 uncertainty coverage report",
+  "description": "Coverage inventory of supported and missing uncertainty at ingredient input and recipe/meal aggregate levels. Point values are not interpreted as zero-width intervals.",
+  "$defs": {
+    "record": {
+      "type": "object",
+      "required": ["estimate_id"],
+      "properties": {
+        "estimate_id": {"type": "string"},
+        "reason": {"type": "string"},
+        "source_reference": {"type": "string"},
+        "evidence_id": {"type": "string"},
+        "compound_id": {"type": "string"},
+        "ingredient_id": {"type": "string"},
+        "food_record_id": {"type": "string"},
+        "input_source_ids": {"type": "array", "items": {"type": "string"}},
+        "food_source_title": {"type": "string"},
+        "food_source_url": {"type": "string"},
+        "food_doi": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "dimension": {
+      "type": "object",
+      "required": ["dimension", "coverage_status", "total_estimates", "supported_count", "missing_count", "invalid_count", "not_applicable_count", "supported_records", "missing_records", "invalid_records"],
+      "properties": {
+        "dimension": {"enum": ["food_concentration", "analytical_variability", "ingredient_quantity", "cooked_quantity", "cooking_yield", "serving_size", "serving_fraction", "consumed_fraction", "serving_count", "cooking_retention", "recipe_level", "meal_aggregation"]},
+        "coverage_status": {"enum": ["AVAILABLE", "PARTIAL", "MISSING", "NOT_APPLICABLE", "INVALID_METADATA"]},
+        "total_estimates": {"type": "integer", "minimum": 0},
+        "supported_count": {"type": "integer", "minimum": 0},
+        "missing_count": {"type": "integer", "minimum": 0},
+        "invalid_count": {"type": "integer", "minimum": 0},
+        "not_applicable_count": {"type": "integer", "minimum": 0},
+        "supported_records": {"type": "array", "items": {"$ref": "#/$defs/record"}},
+        "missing_records": {"type": "array", "items": {"$ref": "#/$defs/record"}},
+        "invalid_records": {"type": "array", "items": {"$ref": "#/$defs/record"}}
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": ["schema_version", "output_id", "record_type", "ingredient_estimate_count", "dimensions", "aggregate_coverage", "limitations"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "output_id": {"type": "string"},
+    "record_type": {"enum": ["recipe", "meal"]},
+    "ingredient_estimate_count": {"type": "integer", "minimum": 0},
+    "dimensions": {"type": "array", "minItems": 11, "maxItems": 11, "items": {"$ref": "#/$defs/dimension"}},
+    "aggregate_coverage": {
+      "type": "object",
+      "required": ["level", "status", "compound_total_count", "bounded_total_count", "status_counts"],
+      "properties": {
+        "level": {"enum": ["recipe", "meal"]},
+        "status": {"enum": ["AVAILABLE", "PARTIAL", "POINT_OR_MISSING_ONLY", "NOT_AVAILABLE"]},
+        "compound_total_count": {"type": "integer", "minimum": 0},
+        "bounded_total_count": {"type": "integer", "minimum": 0},
+        "status_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}}
+      },
+      "additionalProperties": false
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,37 @@
+﻿Action,Record_ID,Field,Old_Value,New_Value,Reason,Source
+add_anchor,MOL-V9-6440498,*,,"6',7'-Dihydroxybergamottin; PubChem CID 6440498",Named component of grapefruit juice; purified compound tested against CYP3A4 in a primary mechanistic study. Human juice-serum PK is not treated as isolated-compound evidence.,15179411
+add_anchor,MOL-V9-5281224,*,,Astaxanthin; PubChem CID 5281224,Food/supplement-associated xanthophyll with direct human CYP enzyme-panel testing and a separate human UGT panel; weak/null findings retained.,23669408|27529203
+add_anchor,MOL-V9-5281235,*,,β-Cryptoxanthin; PubChem CID 5281235,"Food carotenoid with direct CYP and UGT interaction screening, including quantitative weak inhibition and a null/low-risk interpretation.",23669408|27529203
+add_anchor,MOL-V9-5281227,*,,Canthaxanthin; PubChem CID 5281227,Food colorant/nutritional supplement carotenoid with direct CYP and UGT inhibition screening; effects were weak in vitro.,23669408|27529203
+add_anchor,MOL-V9-5280373,*,,Biochanin A; PubChem CID 5280373,Principal red-clover isoflavone with CYP1A2 data and independent P-gp cell-transport evidence; rat P-gp substrate PK publication is not added here because metadata was ambiguous.,26278343|12604704
+add_anchor,MOL-V9-5280378,*,,Formononetin; PubChem CID 5280378,Principal red-clover isoflavone with direct human/rat microsomal CYP inhibition results; predicted in-vivo statements remain labeled as predictions.,26278343
+add_anchor,MOL-V9-5281807,*,,Puerarin; PubChem CID 5281807,"Major kudzu-root isoflavone with human probe-drug observations, human/rat microsomal CYP3A work, rat buspirone PK, and cell-model CYP2D6 evidence. Herbal preparation and isolated compound are not equated.",20195825|24710899|24786236
+add_anchor,MOL-V9-4788,*,,Phloretin; PubChem CID 4788,Diet-associated apple/pear chalcone with direct cellular P-gp efflux evidence; no human PK interaction is inferred.,12604704
+add_anchor,MOL-V9-5280442,*,,Acacetin; PubChem CID 5280442,Food-associated flavonoid directly screened against CYP3A4; strongest reported screening result in the source (95% inhibition at 1 μM).,30301254
+add_anchor,MOL-V9-68071,*,,Pinocembrin; PubChem CID 68071,Food-associated flavanone with qualitative irreversible CYP3A4 inhibition in a primary aglycone screen; no numerical potency is claimed.,30301254
+add_anchor,MOL-V9-5281654,*,,Isorhamnetin; PubChem CID 5281654,Food-associated flavonol with qualitative irreversible CYP3A4 inhibition in a primary aglycone screen; no numerical potency is claimed.,30301254
+add_anchor,MOL-V9-5281954,*,,Tectochrysin; PubChem CID 5281954,Food-associated flavonoid tested as a pure aglycone and reported to irreversibly inhibit CYP3A4; no numerical potency is claimed.,30301254
+add_anchor,MOL-V9-222284,*,,β-Sitosterol; PubChem CID 222284,Common dietary phytosterol with direct rat-microsome CYP3A4/CYP2D6 screening; weak activity is retained as in-vitro evidence only.,26139922
+add_anchor,MOL-V9-5280794,*,,Stigmasterol; PubChem CID 5280794,Common dietary phytosterol with direct rat-microsome CYP3A4/CYP2D6 screening; weak activity is retained as in-vitro evidence only.,26139922
+add_evidence,SB-0190,*,,"6',7'-Dihydroxybergamottin / CYP3A4 / PMID 15179411",Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/15179411/
+add_evidence,SB-0191,*,,Astaxanthin / CYP2C19 / PMID 23669408,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/23669408/
+add_evidence,SB-0192,*,,β-Cryptoxanthin / CYP2C8 / PMID 23669408,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/23669408/
+add_evidence,SB-0193,*,,Canthaxanthin / CYP2C19 and CYP3A4/5 / PMID 23669408,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/23669408/
+add_evidence,SB-0194,*,,Astaxanthin / Human UGT panel / PMID 27529203,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/27529203/
+add_evidence,SB-0195,*,,β-Cryptoxanthin / UGT1A1 / UGT1A3 / UGT1A4 / PMID 27529203,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/27529203/
+add_evidence,SB-0196,*,,Canthaxanthin / UGT1A1 / UGT1A3 / PMID 27529203,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/27529203/
+add_evidence,SB-0197,*,,Formononetin / CYP1A2 / PMID 26278343,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/26278343/
+add_evidence,SB-0198,*,,Biochanin A / CYP1A2 / PMID 26278343,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/26278343/
+add_evidence,SB-0199,*,,Biochanin A / P-glycoprotein; [3H]daunomycin; doxorubicin / PMID 12604704,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/12604704/
+add_evidence,SB-0200,*,,Puerarin / Metoprolol (CYP2D6 probe); caffeine (CYP1A2 probe) / PMID 20195825,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/20195825/
+add_evidence,SB-0201,*,,Puerarin / Testosterone (CYP3A marker) / PMID 24710899,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/24710899/
+add_evidence,SB-0202,*,,Puerarin / Buspirone (CYP3A probe) / PMID 24710899,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/24710899/
+add_evidence,SB-0203,*,,Puerarin / AMMC (CYP2D6*1/*10 cell-model probe) / PMID 24786236,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/24786236/
+add_evidence,SB-0204,*,,Phloretin / P-glycoprotein; [3H]daunomycin / PMID 12604704,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/12604704/
+add_evidence,SB-0205,*,,Acacetin / Testosterone 6β-hydroxylation (CYP3A4 marker) / PMID 30301254,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/30301254/
+add_evidence,SB-0206,*,,Pinocembrin / Testosterone 6β-hydroxylation (CYP3A4 marker) / PMID 30301254,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/30301254/
+add_evidence,SB-0207,*,,Isorhamnetin / Testosterone 6β-hydroxylation (CYP3A4 marker) / PMID 30301254,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/30301254/
+add_evidence,SB-0208,*,,Tectochrysin / Testosterone 6β-hydroxylation (CYP3A4 marker) / PMID 30301254,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/30301254/
+add_evidence,SB-0209,*,,β-Sitosterol / CYP3A4 / CYP2D6 / PMID 26139922,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/26139922/
+add_evidence,SB-0210,*,,Stigmasterol / CYP3A4 / CYP2D6 / PMID 26139922,Primary-source evidence extraction; limitations captured in row.,https://pubmed.ncbi.nlm.nih.gov/26139922/
+candidate_identity_correction_before_admission,MOL-V9-4788,PubChem_CID,5281614 (CID resolves to fisetin),4788 (Phloretin),PubChem name/structure review found a candidate identity mapping error; corrected before V9 anchor admission.,https://pubchem.ncbi.nlm.nih.gov/compound/4788

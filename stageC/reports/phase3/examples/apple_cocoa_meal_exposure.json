@@ -1,0 +1,303 @@
+{
+  "meal_id": "meal-apple-and-cocoa-example",
+  "calculation_status": "COMPLETE",
+  "component_results": [
+    {
+      "component_id": "apple-recipe",
+      "kind": "recipe",
+      "calculation_status": "COMPLETE",
+      "ingredient_results": [
+        {
+          "estimate_id": "REX-65BEC3C039EADDCF91B0",
+          "ingredient_id": "apple-1",
+          "food_record_id": "USDA-FLAV33-NDB09003-EPICATECHIN",
+          "compound_id": "CHEM-PUBCHEM-72276",
+          "calculation_status": "Complete",
+          "raw_reference_amount_mg": "11.2950",
+          "consumed_amount_low_mg": "11.2950",
+          "consumed_amount_high_mg": "11.2950",
+          "estimate_type": "point",
+          "raw_concentration": "75.30",
+          "raw_concentration_unit": "mg/kg",
+          "cooked_concentration_low": "",
+          "cooked_concentration_high": "",
+          "cooked_concentration_unit": "",
+          "cooked_exposure_status": "RAW_FOOD_NO_COOKING_ADJUSTMENT",
+          "raw_reference_consumed_amount_mg": "11.2950",
+          "input_source_ids": [
+            "USDA-FLAV33-NDB09003-EPICATECHIN",
+            "MAP-B3A7D45CA07C130A77EC",
+            "NDB 09003; summary table, printed p.22 (PDF p.24); USDA source refs 11, 15, 58, 67, 110, 158, 269, 276, 279, 283"
+          ],
+          "retention_evidence_id": "",
+          "warnings": [],
+          "missing_inputs": [],
+          "uncertainty_status": "No probability distribution or unsupported uncertainty added.",
+          "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+          "calculation_method": "food concentration × explicit serving mass/volume × explicit consumed fraction; cooked foods require compatible Phase2 evidence and measured cooked mass/volume",
+          "provenance": {
+            "food_record_id": "USDA-FLAV33-NDB09003-EPICATECHIN",
+            "compound_id": "CHEM-PUBCHEM-72276",
+            "mapping_id": "MAP-B3A7D45CA07C130A77EC",
+            "mapping_rationale": "Exact Compound_ID or canonical-name match; no fuzzy matching used.",
+            "food_source_title": "USDA Database for the Flavonoid Content of Selected Foods, Release 3.3",
+            "food_source_url": "https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf",
+            "food_doi": "",
+            "food_pmid": "",
+            "reported_concentration": "7.53",
+            "reported_unit": "mg/100g",
+            "normalized_concentration": "75.30",
+            "normalized_unit": "mg/kg",
+            "quantity": {
+              "value": "150",
+              "unit": "g",
+              "source_reference": "Illustrative example input; not measured"
+            },
+            "serving_fraction": "1",
+            "consumed_fraction": "1",
+            "normalized_portion_quantity": "0.15",
+            "normalized_portion_unit": "kg",
+            "quantity_conversion_method": "stage_c.unit_conversion.mass_to_kg",
+            "density": {},
+            "ingredient_state": "raw",
+            "preparation_description": "Raw apple with skin; example portion",
+            "cooking_operations": [],
+            "mass_balance": {
+              "raw_mass": {
+                "status": "not_reported"
+              },
+              "prepared_mass": {
+                "status": "not_reported"
+              },
+              "cooked_mass": {
+                "status": "not_reported"
+              },
+              "edible_portion_mass": {
+                "status": "not_reported"
+              },
+              "discarded_portion_mass": {
+                "status": "not_reported"
+              },
+              "cooking_liquid_retained_mass": {
+                "status": "not_reported"
+              },
+              "cooking_liquid_discarded_mass": {
+                "status": "not_reported"
+              },
+              "cooking_oil_retained_mass": {
+                "status": "not_reported"
+              },
+              "cooking_oil_discarded_mass": {
+                "status": "not_reported"
+              }
+            },
+            "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+            "servings_consumed": "1",
+            "leftovers_servings_consumed": "0"
+          },
+          "ingredient_quantity": "150",
+          "ingredient_unit": "g",
+          "serving_fraction": "1",
+          "consumed_fraction": "1",
+          "servings_consumed": "1",
+          "leftovers_servings_consumed": "0",
+          "meal_component_id": "apple-recipe"
+        }
+      ]
+    },
+    {
+      "component_id": "cocoa-food",
+      "kind": "food",
+      "calculation_status": "COMPLETE",
+      "ingredient_results": [
+        {
+          "estimate_id": "REX-A8699906FAD9EF799C57",
+          "ingredient_id": "cocoa-food",
+          "food_record_id": "USDA-FLAV33-NDB19165-EPICATECHIN",
+          "compound_id": "CHEM-PUBCHEM-72276",
+          "calculation_status": "Complete",
+          "raw_reference_amount_mg": "9.82150",
+          "consumed_amount_low_mg": "9.82150",
+          "consumed_amount_high_mg": "9.82150",
+          "estimate_type": "point",
+          "raw_concentration": "1964.30",
+          "raw_concentration_unit": "mg/kg",
+          "cooked_concentration_low": "",
+          "cooked_concentration_high": "",
+          "cooked_concentration_unit": "",
+          "cooked_exposure_status": "RAW_FOOD_NO_COOKING_ADJUSTMENT",
+          "raw_reference_consumed_amount_mg": "9.82150",
+          "input_source_ids": [
+            "USDA-FLAV33-NDB19165-EPICATECHIN",
+            "MAP-0A10D79527E458EC234D",
+            "NDB 19165; summary table, printed p.112 (PDF p.114); USDA source refs 8, 105"
+          ],
+          "retention_evidence_id": "",
+          "warnings": [],
+          "missing_inputs": [],
+          "uncertainty_status": "No probability distribution or unsupported uncertainty added.",
+          "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+          "calculation_method": "food concentration × explicit serving mass/volume × explicit consumed fraction; cooked foods require compatible Phase2 evidence and measured cooked mass/volume",
+          "provenance": {
+            "food_record_id": "USDA-FLAV33-NDB19165-EPICATECHIN",
+            "compound_id": "CHEM-PUBCHEM-72276",
+            "mapping_id": "MAP-0A10D79527E458EC234D",
+            "mapping_rationale": "Exact Compound_ID or canonical-name match; no fuzzy matching used.",
+            "food_source_title": "USDA Database for the Flavonoid Content of Selected Foods, Release 3.3",
+            "food_source_url": "https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf",
+            "food_doi": "",
+            "food_pmid": "",
+            "reported_concentration": "196.43",
+            "reported_unit": "mg/100g",
+            "normalized_concentration": "1964.30",
+            "normalized_unit": "mg/kg",
+            "quantity": {
+              "value": "5",
+              "unit": "g",
+              "source_reference": "Illustrative example input; not measured"
+            },
+            "serving_fraction": "1",
+            "consumed_fraction": "1",
+            "normalized_portion_quantity": "0.005",
+            "normalized_portion_unit": "kg",
+            "quantity_conversion_method": "stage_c.unit_conversion.mass_to_kg",
+            "density": null,
+            "ingredient_state": "raw",
+            "preparation_description": "",
+            "cooking_operations": [],
+            "mass_balance": {
+              "raw_mass": {
+                "status": "not_reported"
+              },
+              "prepared_mass": {
+                "status": "not_reported"
+              },
+              "cooked_mass": {
+                "status": "not_reported"
+              },
+              "edible_portion_mass": {
+                "status": "not_reported"
+              },
+              "discarded_portion_mass": {
+                "status": "not_reported"
+              },
+              "cooking_liquid_retained_mass": {
+                "status": "not_reported"
+              },
+              "cooking_liquid_discarded_mass": {
+                "status": "not_reported"
+              },
+              "cooking_oil_retained_mass": {
+                "status": "not_reported"
+              },
+              "cooking_oil_discarded_mass": {
+                "status": "not_reported"
+              }
+            },
+            "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2"
+          },
+          "ingredient_quantity": "5",
+          "ingredient_unit": "g",
+          "serving_fraction": "1",
+          "consumed_fraction": "1",
+          "meal_component_id": "cocoa-food"
+        }
+      ]
+    }
+  ],
+  "compound_totals": [
+    {
+      "compound_id": "CHEM-PUBCHEM-72276",
+      "period_id": "meal-apple-and-cocoa-example",
+      "calculation_status": "Complete",
+      "estimate_type": "point",
+      "consumed_amount_low_mg": "21.11650",
+      "consumed_amount_high_mg": "21.11650",
+      "input_estimate_ids": [
+        "REX-65BEC3C039EADDCF91B0",
+        "REX-A8699906FAD9EF799C57"
+      ],
+      "input_source_ids": [
+        "MAP-0A10D79527E458EC234D",
+        "MAP-B3A7D45CA07C130A77EC",
+        "NDB 09003; summary table, printed p.22 (PDF p.24); USDA source refs 11, 15, 58, 67, 110, 158, 269, 276, 279, 283",
+        "NDB 19165; summary table, printed p.112 (PDF p.114); USDA source refs 8, 105",
+        "USDA-FLAV33-NDB09003-EPICATECHIN",
+        "USDA-FLAV33-NDB19165-EPICATECHIN"
+      ],
+      "missing_inputs": [],
+      "warnings": []
+    }
+  ],
+  "raw_reference_totals": [
+    {
+      "compound_id": "CHEM-PUBCHEM-72276",
+      "period_id": "meal-apple-and-cocoa-example",
+      "calculation_status": "Complete",
+      "raw_reference_amount_mg": "21.11650",
+      "known_component_subtotal_mg": "21.11650",
+      "input_estimate_ids": [
+        "REX-65BEC3C039EADDCF91B0",
+        "REX-A8699906FAD9EF799C57"
+      ],
+      "missing_estimate_ids": [],
+      "input_source_ids": [
+        "MAP-0A10D79527E458EC234D",
+        "MAP-B3A7D45CA07C130A77EC",
+        "NDB 09003; summary table, printed p.22 (PDF p.24); USDA source refs 11, 15, 58, 67, 110, 158, 269, 276, 279, 283",
+        "NDB 19165; summary table, printed p.112 (PDF p.114); USDA source refs 8, 105",
+        "USDA-FLAV33-NDB09003-EPICATECHIN",
+        "USDA-FLAV33-NDB19165-EPICATECHIN"
+      ],
+      "interpretation": "raw-food reference amount for the consumed portion; not a cooked-food exposure estimate"
+    }
+  ],
+  "provenance": {
+    "meal_provenance": {
+      "example": true,
+      "note": "Illustrative quantities only; not a dietary recommendation."
+    },
+    "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+    "phase2_release": "Phase2-v0.3.1",
+    "phase2_manifest_sha256": "2b72e4df095002952fcf2eef2af3381425384317d6ea259b81676ed8c243746e",
+    "recipe_ids": [
+      "recipe-apples-epicatechin-example"
+    ],
+    "calculation_method": "sum unique recipe or direct-food component estimates in mg; any unresolved contribution blocks a complete aggregate"
+  },
+  "phase4_context_records": [],
+  "upstream_releases": {
+    "phase1b": {
+      "release_id": "Phase1B-v1.3.2",
+      "manifest_sha256": "df3a95ae0957b68a89e38098c0824877196aa74ef7dd92573e6ab1f37e39b9b5",
+      "artifact_count": 1324,
+      "stage_b_release": "StageB_V20_20261103",
+      "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+      "food_records": 584,
+      "mapping_records": 584,
+      "compounds": 143,
+      "identity_pending": 13
+    },
+    "phase2": {
+      "release_id": "Phase2-v0.3.1",
+      "manifest_sha256": "2b72e4df095002952fcf2eef2af3381425384317d6ea259b81676ed8c243746e",
+      "artifact_count": 50,
+      "status": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+      "numeric_records": 0,
+      "accepted_cooking_evidence": 0,
+      "blocked_records": 0,
+      "blocked_reasons": [],
+      "source_phase1b_release": "Phase1B-v1.3.2",
+      "source_phase1b_manifest_sha256": "df3a95ae0957b68a89e38098c0824877196aa74ef7dd92573e6ab1f37e39b9b5"
+    },
+    "phase4": {
+      "release_id": "Phase4-v0.1.2",
+      "manifest_sha256": "9d6a3a13d6567a872bfb890cf02ea118648a8572c92ebdd8e33b970d0f889fba",
+      "status": "IN_PROGRESS",
+      "source_count": 1,
+      "evidence_record_count": 6,
+      "selected_context_record_count": 0,
+      "selector_contract": "read-only accepted contextual records only; quantitative PK is not exposed to Phase 3 calculations"
+    }
+  }
+}

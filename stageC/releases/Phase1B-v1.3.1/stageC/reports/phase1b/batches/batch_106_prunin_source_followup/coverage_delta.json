@@ -1,0 +1,42 @@
+{
+  "batch": "106",
+  "status": "PASS_WITH_TARGET_NOT_ACHIEVED",
+  "baseline_checkpoint_id": "Phase1B-2026-11-03-batch-105-targeted-source-followup",
+  "target_compound_ids": [
+    "MOL-V17-CID-92794"
+  ],
+  "baseline_counts": {
+    "food_records": 546,
+    "mapping_rows": 546,
+    "source_registry_rows": 59,
+    "unique_source_urls": 58,
+    "search_log_events": 459,
+    "candidate_rows": 57
+  },
+  "current_counts": {
+    "stage_b_compounds": 143,
+    "research_screened": "143/143",
+    "food_records": 546,
+    "mapping_rows": 546,
+    "identity_complete_quantitative_compounds": 100,
+    "identity_complete_gaps_remaining": 7,
+    "identity_pending": 36,
+    "blocked_mapping_rows": 46,
+    "new_accepted_food_records": 0,
+    "new_accepted_mapping_rows": 0,
+    "new_accepted_unique_compounds": 0,
+    "new_held_prunin_candidate_rows": 9,
+    "search_log_events": 462,
+    "source_registry_rows": 62,
+    "unique_source_urls": 61,
+    "global_candidate_rows": 66,
+    "orphans": 0,
+    "stage_b_snapshot_changes": 0
+  },
+  "source_decisions": {
+    "apple_pulp_2021": "High-priority likely eligible standard-calibrated source; S1 numeric values not retrieved, therefore no promotion.",
+    "orange_fermentation_2024": "Seven exact table values held: analyte-specific calibration and ordinary-food use unresolved.",
+    "orange_pef_2024": "Two exact table values held: prunin-specific calibration assignment absent; process/by-product context."
+  },
+  "newly_created_release": false
+}

@@ -1,0 +1,303 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:18191104 AND SRC:MED",
+    "internalQuery": "EXT_ID:18191104 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "18191104",
+        "source": "MED",
+        "pmid": "18191104",
+        "doi": "10.1016/j.bcp.2007.11.012",
+        "title": "Flavonoids diosmetin and luteolin inhibit midazolam metabolism by human liver microsomes and recombinant CYP 3A4 and CYP3A5 enzymes.",
+        "authorString": "Quintieri L, Palatini P, Nassi A, Ruzza P, Floreani M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Quintieri L",
+              "lastName": "Quintieri",
+              "firstName": "Luigi",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7403-0921"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology and Anaesthesiology, University of Padova, Largo Meneghetti 2, 35131 Padova, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Palatini P",
+              "lastName": "Palatini",
+              "firstName": "Pietro",
+              "initials": "P"
+            },
+            {
+              "fullName": "Nassi A",
+              "lastName": "Nassi",
+              "firstName": "Alberto",
+              "initials": "A"
+            },
+            {
+              "fullName": "Ruzza P",
+              "lastName": "Ruzza",
+              "firstName": "Paolo",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5596-9295"
+              }
+            },
+            {
+              "fullName": "Floreani M",
+              "lastName": "Floreani",
+              "firstName": "Maura",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7403-0921"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5596-9295"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "75",
+          "journalIssueId": 1512720,
+          "dateOfPublication": "2008 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2008,
+          "journal": {
+            "medlineAbbreviation": "Biochem Pharmacol",
+            "title": "Biochemical pharmacology",
+            "essn": "1873-2968",
+            "issn": "0006-2952",
+            "isoabbreviation": "Biochem Pharmacol",
+            "nlmid": "0101032"
+          },
+          "printPublicationDate": "2008-03-01"
+        },
+        "pubYear": "2008",
+        "pageInfo": "1426-1437",
+        "abstractText": "We evaluated the effects of increasing concentrations of the flavonoids salvigenin, diosmetin and luteolin on the in vitro metabolism of midazolam (MDZ), a probe substrate for cytochrome P450 (CYP) 3A enzymes, which is converted into 1'-hydroxy-midazolam (1'-OH-MDZ) and 4-hydroxy-midazolam (4-OH-MDZ) by human liver microsomes. Salvigenin had only a modest effect on MDZ metabolism, whereas diosmetin and luteolin inhibited in a concentration-dependent manner the formation of both 1'-OH-MDZ and 4-OH-MDZ, with apparent K(i) values in the 30-50mumol range. Both diosmetin and luteolin decreased 1'-OH-MDZ formation by human recombinant CYP3A4, but not CYP3A5, whereas they decreased 4-OH-MDZ formation by both recombinant enzymes. To assess whether any relationship exists between the physico-chemical characteristics of flavones and their effects on MDZ metabolism, we tested the effects of three other flavones (flavone, tangeretin, chrysin) on MDZ metabolism by human liver microsomes. Whereas flavones possessing more than two hydroxyl groups (luteolin, diosmetin) inhibited MDZ biotransformation, flavones lacking hydroxyl groups in their A and B rings (flavone, tangeretin) stimulated MDZ metabolism. We also found close relationships between the maximum stimulatory or inhibitory effects of flavones on 1'-OH-MDZ and 4-OH-MDZ formation rates and their log of octanol/water partition coefficients (logP) or their total number of hydroxyl groups. The results of the study may be of clinical relevance since they suggest that luteolin and diosmetin may cause pharmacokinetic interactions with co-administered drugs metabolized via CYP3A.",
+        "affiliation": "Department of Pharmacology and Anaesthesiology, University of Padova, Largo Meneghetti 2, 35131 Padova, Italy.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microsomes, Liver",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Midazolam",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Luteolin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Recombinant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Interactions"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochrome P-450 CYP3A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Recombinant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "cytochrome P-450 CYP3A",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "CYP3A5 protein, human",
+              "registryNumber": "EC 1.14.14.1"
+            },
+            {
+              "name": "diosmetin",
+              "registryNumber": "TWZ37241OT"
+            },
+            {
+              "name": "Midazolam",
+              "registryNumber": "R60L0SM5BC"
+            },
+            {
+              "name": "Luteolin",
+              "registryNumber": "KUX1ZNC9J2"
+            },
+            {
+              "name": "CYP3A4 protein, human",
+              "registryNumber": "EC 1.14.14.55"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bcp.2007.11.012"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 71,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2008-04-29",
+        "dateOfCreation": "2008-01-15",
+        "dateOfRevision": "2018-12-11",
+        "electronicPublicationDate": "2007-12-04",
+        "firstPublicationDate": "2007-12-04",
+        "firstIndexDate": "2009-05-22",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

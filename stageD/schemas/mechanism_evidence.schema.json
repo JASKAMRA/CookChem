@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookchem.local/stageD/schemas/mechanism_evidence.schema.json",
+  "title": "Stage D mechanism evidence candidate",
+  "description": "A provenance-preserving, pending-review view of one source-backed Stage B mechanism evidence record. This schema does not establish causality, identity, clinical relevance, or food exposure equivalence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "mechanism_record_id", "stage_b_reference", "raw_stage_b_record", "mechanism_candidate", "source_verification", "source_outcome_classification", "review_criteria", "review_reasons", "source_discrepancies", "review_state"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "mechanism_record_id": {"type": "string", "pattern": "^SBD-MECH-[0-9]{4}$"},
+    "stage_b_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["release_id", "source_file", "source_file_sha256", "row_count_at_build", "evidence_id"],
+      "properties": {
+        "release_id": {"type": "string", "minLength": 1},
+        "source_file": {"type": "string", "minLength": 1},
+        "source_file_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "row_count_at_build": {"type": "integer", "minimum": 1},
+        "evidence_id": {"type": "string", "minLength": 1}
+      }
+    },
+    "raw_stage_b_record": {"type": "object", "minProperties": 30, "additionalProperties": {"type": "string"}},
+    "mechanism_candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_family", "source_reported_target", "source_reported_relation", "classification_basis", "classification_status"],
+      "properties": {
+        "candidate_family": {"enum": ["drug_metabolizing_enzyme", "membrane_transporter", "metabolism_or_transport_unresolved"]},
+        "source_reported_target": {"type": "string", "minLength": 1},
+        "source_reported_relation": {"enum": ["inhibition_or_reduced_activity", "induction_or_increased_activity", "substrate_or_transport", "unresolved_or_mixed"]},
+        "classification_basis": {"type": "string", "minLength": 1},
+        "classification_status": {"const": "pending_manual_review"},
+        "canonical_target_id": {"type": ["string", "null"]}
+      }
+    },
+    "source_verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["access_level", "verified_source_url", "pmid", "doi", "pmcid", "source_locator", "verification_note"],
+      "properties": {
+        "access_level": {"enum": ["primary_article_full_text_reviewed", "primary_article_abstract_reviewed"]},
+        "verified_source_url": {"type": "string", "format": "uri"},
+        "pmid": {"type": "string", "pattern": "^[0-9]+$"},
+        "doi": {"type": "string", "minLength": 1},
+        "pmcid": {"type": ["string", "null"]},
+        "source_locator": {"type": "string", "minLength": 1},
+        "verification_note": {"type": "string", "minLength": 1}
+      }
+    },
+    "source_outcome_classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw_outcome", "raw_direction", "raw_conflict_group", "state", "reason_code", "review_status", "interpretation_boundary"],
+      "properties": {
+        "raw_outcome": {"type": "string"},
+        "raw_direction": {"type": "string"},
+        "raw_conflict_group": {"type": "string"},
+        "state": {"enum": ["reported_effect", "negative_under_tested_conditions", "null_or_non_significant", "mixed", "conflicting", "unclear"]},
+        "reason_code": {"enum": ["explicit_conflict_group", "source_label_reports_discrepancy", "source_label_reports_mixed_endpoints", "explicit_null_or_non_significant_source_label", "explicit_no_effect_under_tested_conditions", "explicit_source_effect_label", "source_text_requires_manual_interpretation"]},
+        "review_status": {"const": "pending_manual_review"},
+        "interpretation_boundary": {"type": "string", "minLength": 1}
+      }
+    },
+    "review_criteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary_source_match", "record_to_source_match", "compound_identity", "target_identity", "mechanistic_directness", "assay_context", "study_design_and_confounding", "endpoint_reconciliation", "independent_replication", "food_context", "human_exposure_relevance", "clinical_interpretation"],
+      "properties": {
+        "primary_source_match": {"$ref": "#/$defs/reviewCriterion"},
+        "record_to_source_match": {"$ref": "#/$defs/reviewCriterion"},
+        "compound_identity": {"$ref": "#/$defs/reviewCriterion"},
+        "target_identity": {"$ref": "#/$defs/reviewCriterion"},
+        "mechanistic_directness": {"$ref": "#/$defs/reviewCriterion"},
+        "assay_context": {"$ref": "#/$defs/reviewCriterion"},
+        "study_design_and_confounding": {"$ref": "#/$defs/reviewCriterion"},
+        "endpoint_reconciliation": {"$ref": "#/$defs/reviewCriterion"},
+        "independent_replication": {"$ref": "#/$defs/reviewCriterion"},
+        "food_context": {"$ref": "#/$defs/reviewCriterion"},
+        "human_exposure_relevance": {"$ref": "#/$defs/reviewCriterion"},
+        "clinical_interpretation": {"$ref": "#/$defs/reviewCriterion"}
+      }
+    },
+    "review_reasons": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/reviewReason"}
+    },
+    "source_discrepancies": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/sourceDiscrepancy"}
+    },
+    "review_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "acceptance", "identity_adjudication", "reviewer", "reviewed_on"],
+      "properties": {
+        "status": {"const": "pending_manual_review"},
+        "acceptance": {"const": "pending"},
+        "identity_adjudication": {"const": "not_performed"},
+        "reviewer": {"type": ["string", "null"]},
+        "reviewed_on": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "$defs": {
+    "reviewCriterion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "reason_codes"],
+      "properties": {
+        "state": {"enum": ["meets", "does_not_meet", "not_assessed", "conflicting", "not_applicable"]},
+        "reason_codes": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/reviewReasonCode"}, "uniqueItems": true}
+      }
+    },
+    "reviewReasonCode": {"enum": ["manual_review_required", "primary_source_page_checked", "release_record_identifiers_match_article", "compound_identity_not_adjudicated", "target_mapping_not_adjudicated", "probe_phenotype_not_direct_binding_assay", "mechanistic_causality_not_adjudicated", "assay_model_requires_human_review", "study_design_and_population_require_review", "primary_source_endpoint_text_conflict", "source_table_abstract_discussion_corroboration", "endpoint_semantics_not_adjudicated", "independent_replication_not_assessed", "food_preparation_not_studied", "food_exposure_bridge_not_established", "clinical_interpretation_not_performed", "direct_transport_assay_still_requires_review"]},
+    "reviewReason": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["criterion", "code", "status"],
+      "properties": {
+        "criterion": {"enum": ["primary_source_match", "record_to_source_match", "compound_identity", "target_identity", "mechanistic_directness", "assay_context", "study_design_and_confounding", "endpoint_reconciliation", "independent_replication", "food_context", "human_exposure_relevance", "clinical_interpretation"]},
+        "code": {"$ref": "#/$defs/reviewReasonCode"},
+        "status": {"enum": ["open", "verified_source_check"]}
+      }
+    },
+    "sourceDiscrepancy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "status", "observations", "resolution"],
+      "properties": {
+        "code": {"const": "primary_source_endpoint_text_conflict"},
+        "status": {"const": "resolved_source_record_level"},
+        "observations": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["locator", "summary"],
+            "properties": {"locator": {"type": "string", "minLength": 1}, "summary": {"type": "string", "minLength": 1}}
+          }
+        },
+        "resolution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["decision", "selected_assignment", "conflicting_assignment", "rationale", "manual_review_status", "scope"],
+          "properties": {
+            "decision": {"const": "source_record_level_assignment"},
+            "selected_assignment": {"type": "string", "minLength": 1},
+            "conflicting_assignment": {"type": "string", "minLength": 1},
+            "rationale": {"type": "string", "minLength": 1},
+            "manual_review_status": {"const": "pending_manual_review"},
+            "scope": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    }
+  }
+}

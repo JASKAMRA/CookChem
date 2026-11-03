@@ -56,7 +56,13 @@ class Phase2IntegrationTests(unittest.TestCase):
     def test_release_manifest_and_report_exist(self):
         self.assertTrue((RELEASE / "RELEASE_MANIFEST.json").is_file())
         self.assertTrue((RELEASE / "PHASE2_COMPLETION_REPORT.md").is_file())
-        self.assertEqual(self.summary["phase2_exit_decision"], "NOT COMPLETE")
+        self.assertEqual(self.summary["phase2_exit_decision"], "COMPLETE_WITH_DOCUMENTED_LIMITATIONS")
+        self.assertEqual(self.summary["observed_cooking_pairs_reviewed"], 117)
+        self.assertEqual(self.summary["retention_candidates_reviewed"], 63)
+        self.assertEqual(self.summary["compatibility_combinations_reviewed"], 22)
+        self.assertEqual(self.summary["applicability_records_reviewed"], 584)
+        self.assertEqual(self.summary["identity_crosswalk_records_reviewed"], 197)
+        self.assertEqual(self.summary["cooked_concentration_estimates"], 0)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stage B read-only import manifest",
+  "type": "object",
+  "required": [
+    "source_release_id",
+    "source_release_path",
+    "source_manifest_sha256",
+    "compound_count",
+    "imported_at_utc",
+    "files",
+    "interaction_evidence_is_not_food_composition"
+  ],
+  "properties": {
+    "source_release_id": {"const": "StageB_FINALIZED"},
+    "source_release_path": {"const": "stageB/release/StageB_FINALIZED"},
+    "source_manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "compound_count": {"const": 143},
+    "imported_at_utc": {"type": "string", "format": "date-time"},
+    "files": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_file",
+          "source_path",
+          "snapshot_file",
+          "sha256",
+          "snapshot_sha256",
+          "record_count",
+          "schema",
+          "import_status"
+        ],
+        "properties": {
+          "source_file": {"type": "string", "minLength": 1},
+          "source_path": {"type": "string", "minLength": 1},
+          "snapshot_file": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "snapshot_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "record_count": {"type": "integer", "minimum": 0},
+          "schema": {"type": "array", "items": {"type": "string"}},
+          "import_status": {"const": "IMPORTED_READ_ONLY"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "interaction_evidence_is_not_food_composition": {"const": true}
+  },
+  "additionalProperties": false
+}

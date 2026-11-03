@@ -1,0 +1,61 @@
+{
+  "batch": "105",
+  "status": "PASS_WITH_TARGET_NOT_ACHIEVED",
+  "baseline_checkpoint_id": "Phase1B-2026-11-03-batch-103-all-143-screened",
+  "baseline_counts": {
+    "stage_b_compounds": 143,
+    "research_screened": "143/143",
+    "food_records": 541,
+    "mapping_rows": 541,
+    "unique_mapped_compounds_including_pending": 115,
+    "identity_complete": 107,
+    "accepted_identity_complete_quantitative_compounds": 99,
+    "identity_complete_gaps": 8,
+    "identity_pending": 36,
+    "pending_identity_candidate_rows": 42,
+    "pending_identity_numeric_rows": 39,
+    "search_log_events": 448,
+    "source_registry_rows": 57,
+    "unique_source_urls": 56,
+    "identity_complete_covered": 99
+  },
+  "current_counts": {
+    "stage_b_compounds": 143,
+    "research_screened": "143/143",
+    "food_records": 546,
+    "mapping_rows": 546,
+    "unique_compounds_quantitatively_mapped_including_pending": 116,
+    "identity_complete": 107,
+    "accepted_identity_complete_quantitative_compounds": 100,
+    "identity_complete_gaps_remaining": 7,
+    "identity_pending": 36,
+    "identity_blocked_legacy_mapping_rows": 46,
+    "pending_identity_candidate_rows": 42,
+    "pending_identity_numeric_rows": 39,
+    "global_candidate_rows": 57,
+    "search_log_events": 459,
+    "source_registry_rows": 59,
+    "unique_source_urls": 58
+  },
+  "batch_105_delta": {
+    "focused_gap_ids_reviewed": 8,
+    "new_search_events": 11,
+    "source_assessments": 4,
+    "new_source_registry_entries": 2,
+    "accepted_food_records": 5,
+    "accepted_mapping_rows": 5,
+    "new_accepted_unique_compounds": 1,
+    "prunin_hydrolysis_candidate_rows_held": 13,
+    "pending_identity_candidates_reviewed": 42,
+    "identity_proposals_reviewed": 36,
+    "existing_general_candidate_rows_reviewed": 44,
+    "newly_created_release": false
+  },
+  "validation_and_tests": {
+    "ingestion": "PASS (5 records)",
+    "phase1_validation": "PASS (546 records/mappings; zero errors/orphans; no Stage B changes)",
+    "focused_unittest": "PASS 38/38",
+    "full_unittest": "PASS 94/94",
+    "mapping_rebuild": "PASS exact 546-row ordered match"
+  }
+}

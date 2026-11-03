@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cookrisk:schema:stage_a_owner_decision_tracker:1.0.0",
+  "title": "Stage A Retention_Final owner decision tracker",
+  "description": "Structured handoff only; answers and approvals must be supplied by named human owners and reviewers.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "tracker_id", "overall_status", "decisions"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "tracker_id": {"type": "string", "minLength": 1},
+    "overall_status": {"enum": ["OPEN", "IN_REVIEW", "CLOSED"]},
+    "decisions": {
+      "type": "array", "minItems": 15, "maxItems": 15,
+      "items": {"$ref": "#/$defs/decision"}
+    }
+  },
+  "$defs": {
+    "decision": {
+      "type": "object", "additionalProperties": false,
+      "required": ["decision_id", "topic", "owner_response", "supporting_artifact", "source_locator", "decision_date", "scientific_reviewer", "approval_status", "unresolved_rationale"],
+      "properties": {
+        "decision_id": {"enum": ["RF-01", "RF-02", "RF-03", "RF-04", "RF-05", "RF-06", "RF-07", "RF-08", "RF-09", "RF-10", "RF-11", "RF-12", "RF-13", "RF-14", "RF-15"]},
+        "topic": {"type": "string", "minLength": 1},
+        "owner_response": {"type": ["string", "null"]},
+        "supporting_artifact": {"type": ["string", "null"]},
+        "source_locator": {"type": ["string", "null"]},
+        "decision_date": {"type": ["string", "null"], "format": "date"},
+        "scientific_reviewer": {"type": ["string", "null"]},
+        "approval_status": {"enum": ["PENDING", "APPROVED", "REJECTED"]},
+        "unresolved_rationale": {"type": ["string", "null"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"approval_status": {"const": "APPROVED"}}, "required": ["approval_status"]}, "then": {"properties": {"owner_response": {"type": "string", "minLength": 1}, "supporting_artifact": {"type": "string", "minLength": 1}, "source_locator": {"type": "string", "minLength": 1}, "decision_date": {"type": "string", "format": "date"}, "scientific_reviewer": {"type": "string", "minLength": 1}}}},
+        {"if": {"properties": {"approval_status": {"enum": ["PENDING", "REJECTED"]}}, "required": ["approval_status"]}, "then": {"properties": {"unresolved_rationale": {"type": "string", "minLength": 1}}}}
+      ]
+    }
+  }
+}

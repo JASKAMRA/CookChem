@@ -1,0 +1,3 @@
+# Batch 008 — USDA phytoestrogen and catechin source review
+
+Distinct priority compounds screened: 25 (the final 15 P3 plus first 10 P4 priorities). USDA Release 2.1 exact food-table values were ingested for Formononetin (1.43 mg/100g) and Biochanin A (0.04 mg/100g) in raw alfalfa sprouts (NDB 11001; source refs 24,31,89). USDA Flav3.3 exact tea rows for (-)-Epigallocatechin and (-)-Epicatechin 3-gallate and a raw-cacao (+)-Gallocatechin row were found and held in CANDIDATES.csv because Stage B identities remain pending; the cacao concentration is an extreme value warranting source review. Other scope-only outcomes are recorded in SEARCH_LOG.csv; they are not global absence claims.
