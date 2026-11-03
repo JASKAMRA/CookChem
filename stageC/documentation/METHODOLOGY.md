@@ -1,6 +1,6 @@
 # Methodology
 
-Stage B is loaded from `stageB/release/StageB_Final` only after every entry in its SHA-256 manifest verifies. Stage C copies a fixed allowlist to an immutable-by-policy snapshot and detects later source/snapshot changes.
+Stage B is loaded from `stageB/release/StageB_FINALIZED` only after every entry in its exact-byte SHA-256 manifest verifies. The connector checks the registry and identity audit have the same 143 unique IDs and matching canonical names, PubChem CIDs, SMILES, InChIs, and InChIKeys. Stage C copies a fixed nine-file allowlist into the new versioned snapshot and detects later source or snapshot changes. Older snapshots remain historical.
 
 Food composition is ingested from source-supported CSV records. No value is created from qualitative occurrence, an interaction result, a cooking-retention record, a supplement dose, or a missing cell. Source-reported values and units are preserved. Supported mass-per-mass units normalize to mg/kg and supported mass-per-volume units normalize to mg/L with decimal arithmetic; no density is assumed to convert between them, and food basis/state are not inferred.
 

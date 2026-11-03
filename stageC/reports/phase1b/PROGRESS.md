@@ -1,3 +1,15 @@
+## Current authoritative checkpoint — 2026-11-03, Batch 106
+
+- Completed modules: verified Batch 105 baseline hashes; screened new prunin sources; preserved nine orange-processing by-product values as held candidates; identified a primary apple-pulp study with an authentic prunin standard, compound-specific external calibration and fresh-weight Supplementary Table S1; no accepted data changed.
+- Current coverage: 546 food records / 546 mappings; 100/107 identity-complete compounds covered; seven complete-identity gaps; 36 identity reviews pending; 46 legacy mapping rows blocked; 143/143 IDs screened; 462 search events; 62 source-registry rows / 61 unique URLs; zero orphans.
+- Target status: PHASE1B_TARGET_NOT_ACHIEVED. The minimum 130 remains unmet by 30; no Phase 1B release was created.
+- Batch 106 verification: Phase 1 validation PASS (546 food records/mappings; zero errors, orphans, or Stage B snapshot changes); independent rebuild matched all 546 mapping rows in order; focused tests 5/5 PASS; full Stage C regression suite 99/99 PASS. Active food and mapping hashes match the checkpoint. See batches/batch_106_prunin_source_followup/validation_and_test_results.json.
+- Known blocker: numeric apple-pulp Table S1 could not be retrieved in this source-viewer session. Do not transcribe or infer its values. Nine orange peel values remain held because prunin-specific calibration/response factors and ordinary-food context are unresolved.
+- Next work: retrieve the apple Table S1 source file, then continue the six other complete-identity gaps and pending-identity research. StageB_FINALIZED remains read-only.
+- Checkpoint: CHECKPOINTS.json and batches/batch_106_prunin_source_followup/coverage_delta.json. No release was created.
+
+---
+
 # Stage C Phase 1B Progress
 
 - Historical release `Phase1-v1.2.0` remains preserved; no new release was created. The official USDA SR Legacy April 2018 CSV archive was downloaded and caffeine FDC 171890 / NDB 14209 was verified against the component tables; API provenance remains separately identified.
@@ -330,3 +342,18 @@ Completed an additional quantitative-context pass on the final ten. Captured six
 Audited all 100 batch directories, active accepted rows, central candidates, mapping rows, coverage outputs, and current Stage B snapshot. Regenerated mappings from the checksummed 119-target registry; the rebuilt 511-row mapping file matched byte-for-byte. The actual active dataset has 511 positive source-backed records, 511 mappings, zero duplicate IDs, 109/119 ordinary-food compounds, and validation PASS. Full Stage C tests passed 61/61; focused mapping/food/unit/exposure/integration/CLI tests passed 50/50. The clean-copy release suite also passed 61/61 and Phase 1 validation passed with 511 records/mappings. Versioned package: `stageC/releases/Phase1B-v1.0.0/`.
 
 The current Stage A and Stage B archive trees match the Git HEAD; the Stage B connector verifies 710 current release-manifest entries. The old `BASELINE_CHECKSUMS.json` hash list is stale against the current repository and remains preserved as historical evidence. Exact mismatch counts and the current-tree audit are in `PROTECTED_TREE_AUDIT_2026-11-02.json`; no Stage B source/evidence table was edited in final packaging.
+
+
+## Batch 102 continuation — 2026-11-03
+
+Screened 15 target compounds (12 new IDs); accepted 2 new compounds (Apigetrin and Myricitrin spinach). Active coverage is 92/107 identity-complete, research coverage 138/143, records/mappings 541/541. Pending-identity measurements remain in the separate candidate ledger. The 130 minimum remains unmet. See `batches/batch_102_scientific_coverage/BATCH_102_SCREENING_REPORT.md`.
+
+
+## Batch 103 — final five first-pass screens — 2026-11-03
+
+Research coverage reached 143/143. Four target compounds have quantitative identity-pending candidate data; NHDC has qualitative detection evidence but no accessible sample concentration. Accepted identity-complete coverage remains 99/107, below the 130 minimum. See `batches/batch_103_final_screen/BATCH_103_SCREENING_REPORT.md`.
+
+
+## Batch 104 — eligible-gap source re-audit — 2026-11-03
+
+The eight remaining identity-complete gaps received a targeted food-context and primary-source follow-up. Huangqin tea was treated as a potential beverage matrix; no accessible primary sample-level values and denominators were verified for the exact targets. Prunin evidence remained qualitative/untargeted or behind the primary table paywall. No accepted data changed; 99/107 coverage remains. See `batches/batch_104_eligible_gap_reaudit/BATCH_104_GAP_REAUDIT_REPORT.md`.

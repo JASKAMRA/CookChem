@@ -7,6 +7,7 @@ from typing import Any
 from . import __version__
 from .compound_mapping import VERIFIED_STATUSES
 from .provenance import deterministic_id, utc_timestamp
+from .stage_b_connector import RELEASE_ID
 from .unit_conversion import concentration_factor_to_mg_per_kg, concentration_to_mg_per_kg, mass_to_kg
 
 COMPLETE = "Complete"
@@ -22,7 +23,7 @@ def _incomplete_base(item: dict[str, Any], status: str, missing: list[str], warn
         "serving_mass": item.get("serving_mass", ""), "serving_unit": item.get("serving_unit", ""),
         "consumed_fraction": item.get("consumed_fraction", ""), "estimated_consumed_amount": "",
         "calculation_method": "mass concentration (mg/kg) × food mass (kg) × consumed fraction",
-        "calculation_status": status, "input_source_ids": [], "stage_b_release_reference": "StageB_Final",
+        "calculation_status": status, "input_source_ids": [], "stage_b_release_reference": RELEASE_ID,
         "warnings": warnings, "warning_identifiers": [], "missing_inputs": missing, "assumptions": [], "calculation_timestamp": utc_timestamp(),
         "software_version": __version__, "food_state": "", "moisture_basis": "", "period_id": item.get("period_id", ""),
         "provenance": {},

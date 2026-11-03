@@ -1,3 +1,13 @@
+# Historical report notice — current continuation is Batch 106
+
+This document's Phase1B-v1.0.0 release narrative below records the earlier 119-target dataset and remains historical. Its counts do not describe the current 143-compound continuation. The current authoritative checkpoint is `CHECKPOINTS.json`, and the latest work is `batches/batch_106_prunin_source_followup/BATCH_106_PRUNIN_SOURCE_FOLLOWUP_REPORT.md`.
+
+## Current continuation status — 2026-11-03, Batch 106
+
+The active dataset contains 546 food-composition records and 546 mappings, covering 100/107 identity-complete compounds in the 143-compound Stage B universe. Batch 106 retained nine orange by-product prunin values as held candidates and identified a high-priority apple-pulp primary source whose numeric supplementary table remains unavailable. Seven complete-identity gaps remain; 36 identities remain pending and 46 legacy mappings remain blocked. The 130 minimum is not achieved. Phase 1 validation and the mapping rebuild pass; no Phase 1B release was created.
+
+---
+
 # CookRisk Stage C — Phase 1B Final Completion and Release
 
 **Exit decision: COMPLETE WITH DOCUMENTED LIMITATIONS.** Phase 1B source screening, accepted-data reconciliation, final contextual review, validation, and release packaging are complete. This does not mean every Stage B target has an ordinary-food concentration.
@@ -74,3 +84,13 @@ The older `BASELINE_CHECKSUMS.json` does **not** match the current repository tr
 Ten of 119 targets remain without accepted ordinary-food quantitative measurements. Contextual source values are recorded separately; irilone remains secondary-source-only; two targets have no verified exact numeric matrix result. The 313 Stage B validator warnings are inherited and remain visible. The legacy protected-baseline checksum file is stale against the current tree.
 
 **Phase 1B exit decision: COMPLETE WITH DOCUMENTED LIMITATIONS.** All feasible Phase 1B acquisition, source screening, mapping reconciliation, quality checks, report updates, and reproducible release deliverables are complete. The limitations above are explicit; no value or completion claim is fabricated. Phase 2 is not part of this release.
+
+
+## Batch 103 continuation state — 2026-11-03
+
+All 143 Stage B IDs have at least one documented research/screening event. Accepted identity-complete quantitative coverage is 99/107; the 130 minimum remains unmet. Four quantitative identity-pending dye candidates and one qualitative-only NHDC finding are recorded separately. No release was created. See `batches/batch_103_final_screen/BATCH_103_SCREENING_REPORT.md` and the active checkpoint.
+
+
+## Batch 104 eligible-gap audit — 2026-11-03
+
+The eight remaining complete-identity gaps were re-audited against primary food-context sources. A 2026 widely-targeted Huangqin-tea study reports comparative baicalin and wogonoside findings, but no sample-level calibrated concentrations are accessible and study data are available on request. Prunin follow-up remains qualitative/untargeted or behind the primary table. Batch 104 logged 10 targeted searches and 12 source references; accepted coverage remains 99/107 with no food or mapping changes.

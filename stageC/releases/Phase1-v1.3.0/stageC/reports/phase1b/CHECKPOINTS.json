@@ -1,0 +1,39 @@
+{
+  "checkpoint_id": "Phase1B-2026-11-02-final",
+  "status": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+  "historical_checkpoint_preserved_as": "CHECKPOINTS_HISTORICAL_PRE_BATCH_EXPANSION.json",
+  "last_batch": "batch_100_contextual_reconciliation",
+  "current_batch": null,
+  "source_stage_b_release": "StageB_Final",
+  "source_stage_b_manifest_sha256": "52a5ee457f5730ee1642c2a51b121ad0d8ef1165f1a51e66f0260a25c2fc1024",
+  "stage_b_target_count": 119,
+  "active_ordinary_food_records": 511,
+  "active_mappings": 511,
+  "ordinary_food_compounds_covered": 109,
+  "ordinary_food_compounds_uncovered": 10,
+  "unique_accepted_source_titles_and_urls": 61,
+  "search_log_events": 411,
+  "batch_directories": 100,
+  "historical_candidate_food_rows_in_batch_csvs": 618,
+  "central_candidate_register": {
+    "rows": 23,
+    "pending_manual_review": 22,
+    "resolved_by_alternate_accepted_record": 1
+  },
+  "explicit_rejected_screening_outcomes": 2,
+  "contextual_final_10": {
+    "primary_quantitative_target_leads": 7,
+    "secondary_source_held_target_leads": 1,
+    "without_exact_numeric_matrix_value": 2
+  },
+  "validation": {
+    "active": "PASS",
+    "active_tests": "61/61 PASS",
+    "focused_tests": "50/50 PASS",
+    "clean_copy_tests": "61/61 PASS",
+    "clean_copy_validation": "PASS"
+  },
+  "coverage_policy": "Contextual medicinal-botanical and vegetative-tissue measurements are separate and do not count as ordinary-food coverage.",
+  "release_path": "stageC/releases/Phase1B-v1.0.0/",
+  "protected_tree_audit": "PROTECTED_TREE_AUDIT_2026-11-02.json"
+}

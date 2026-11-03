@@ -1,0 +1,137 @@
+{
+  "release": "StageB_FINALIZED",
+  "release_status": "FINALIZED_WITH_DOCUMENTED_SCIENTIFIC_LIMITATIONS",
+  "selection": {
+    "source_dataset": "StageB_V19_20261103",
+    "immutable_baseline": "StageB_V18_20261103",
+    "reason": "The prior StageB_Final contained 119 compounds; V18 had 143 compounds but no independent V19 source reviews; V19 retained the full 143/317 data scope and 12 completed, tested scientific-review batches.",
+    "completed_v19_batches_retained": [
+      "V19-001",
+      "V19-002",
+      "V19-003",
+      "V19-004",
+      "V19-005",
+      "V19-006",
+      "V19-007",
+      "V19-008",
+      "V19-009",
+      "V19-010",
+      "V19-011",
+      "V19-012"
+    ],
+    "partial_batch_excluded": "No V19-013 artifacts or partial source-review edits existed."
+  },
+  "dataset": {
+    "compounds": 143,
+    "evidence_records": 317,
+    "drug_probe_rows": 133,
+    "bibliography_rows": 163,
+    "study_rows": 161,
+    "source_audit_rows": 317,
+    "warning_rows": 88,
+    "final_warning_dispositions": {
+      "RESOLVED": 5,
+      "PARTIALLY_RESOLVED": 15,
+      "VALID": 26,
+      "NEEDS_MANUAL_REVIEW": 40,
+      "NOT_APPLICABLE": 2
+    }
+  },
+  "source_review": {
+    "new_v19_primary_source_reviews": 53,
+    "tier_1_full_text": 40,
+    "tier_3_primary_abstract": 13,
+    "records_without_new_v19_source_review": 264,
+    "historical_source_audit_dispositions_preserved": 317,
+    "exhaustive_historical_review_claimed": false
+  },
+  "quantitative_outcomes": {
+    "original_blank_fields": 90,
+    "source_supported_numeric_values_recovered": 29,
+    "qualitative_outcomes_dispositioned": 17,
+    "fields_still_blank": 44
+  },
+  "warning_integrity": {
+    "inherited_warning_ids_preserved": 70,
+    "new_v19_warning_rows_preserved": 18,
+    "inherited_rows_reaudited_in_v19": 2,
+    "inherited_rows_carried_forward_without_v19_reaudit": 68,
+    "resolved_new_v19_warnings": [
+      "V19-W10",
+      "V19-W14"
+    ],
+    "severity": "NOT_RECORDED for all rows; none inferred",
+    "canonical_status_field": "data/warning_ledger.csv: Final_Disposition",
+    "historical_status_field": "Audit_Status is retained; STILL_VALID maps to canonical VALID only in Final_Disposition.",
+    "blank_affected_scope_fields_repaired": [
+      "V3-W05",
+      "V3-W09"
+    ]
+  },
+  "validation": {
+    "structural": {
+      "status": "PASS_WITH_WARNINGS",
+      "checks": 16,
+      "passed": 16,
+      "errors": 0,
+      "review_flags": 67
+    },
+    "finalization_integrity": {
+      "status": "PASS",
+      "source_audit_coverage": "317/317",
+      "warning_register": "88 unique IDs; all 70 inherited IDs retained"
+    },
+    "release_tests": {
+      "status": "PASS",
+      "passed": 144,
+      "failed": 0
+    },
+    "stageB_regression": {
+      "status": "PASS",
+      "passed": 46,
+      "failed": 0
+    },
+    "mutation_tests": {
+      "status": "PASS",
+      "attempted": 12,
+      "detected": 12,
+      "missed": 0
+    },
+    "v18_parent_exact_manifest": {
+      "status": "PASS",
+      "files": 773
+    },
+    "v19_source_exact_manifest": {
+      "status": "PASS",
+      "files": 834
+    },
+    "final_exact_manifest": {
+      "status": "PASS",
+      "files": 836,
+      "mode": "exact-byte"
+    },
+    "clean_copy": {
+      "status": "PASS",
+      "files": 836,
+      "mode": "exact-byte",
+      "release_tests": "144/144 PASS",
+      "finalization_integrity": "PASS"
+    }
+  },
+  "cleanup": {
+    "obsolete_next_steps_removed_from_final_package": true,
+    "temporary_clean_copy_removed_after_verification": true,
+    "historical_release_folders": "Retained as non-authoritative records to preserve immutable baselines, lineage, and auditability.",
+    "only_authoritative_folder": "stageB/release/StageB_FINALIZED",
+    "no_v20_or_other_versioned_successor_created": true,
+    "stageB_research_stopped": true,
+    "stage_a_or_c_content_read_or_modified": false
+  },
+  "remaining_scientific_limitations": [
+    "264 of 317 evidence records have not received new V19 source-content review.",
+    "68 inherited warnings were not individually reaudited in V19; 40 warnings remain NEEDS_MANUAL_REVIEW and 26 remain VALID.",
+    "44 of the 90 original quantitative-outcome fields remain blank.",
+    "Full chemical identity adjudication across all compounds, full numerical/design review, bibliography and cohort-overlap review, and all unresolved warning investigation remain incomplete.",
+    "V19 source reviews include abstract-only evidence and do not imply full-text verification for those records."
+  ]
+}

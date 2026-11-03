@@ -27,8 +27,12 @@ class PhaseOneIntegrationTests(unittest.TestCase):
         self.assertEqual(len(numeric|missing),10)
         self.assertEqual(coverage["ordinary_food_coverage"],109)
         self.assertEqual(coverage["final_10_with_numeric_contextual_leads"],8)
-        active_ids={r["compound_id"] for r in load_food_data(root/"data"/"food_composition"/"food_composition.csv")}
-        self.assertTrue(numeric.isdisjoint(active_ids))
+        active=load_food_data(root/"data"/"food_composition"/"food_composition.csv")
+        active_sources={r["source_url"] for r in active}
+        contextual_sources={r["source"] for r in records if r["reported_value"]}
+        # A later, independently verified ordinary-tea source may cover an ID
+        # that also has an excluded medicinal-root value. Test the source gate.
+        self.assertTrue(contextual_sources.isdisjoint(active_sources))
 
     def test_authoritative_compound_identity_to_synthetic_measurement_to_estimate(self):
         stage_b=load_stage_b();compounds=stage_b["source_files"]["compound_registry.csv"]
@@ -36,7 +40,7 @@ class PhaseOneIntegrationTests(unittest.TestCase):
         mapping=build_mappings(compounds,[food]);self.assertEqual(mapping[0]["compound_id"],compound["Compound_ID"])
         estimate=calculate_exposure({"estimate_id":"SYN-1","compound_id":compound["Compound_ID"],"food_record_id":"SYN-F-1","ingredient_quantity":"0.2","ingredient_unit":"kg","serving_mass":"0.2","serving_unit":"kg","consumed_fraction":"0.5","period_id":"synthetic-meal"},{"SYN-F-1":food},mapping,{c["Compound_ID"]:c for c in compounds},stage_b["release"]["manifest_sha256"],timestamp="2026-01-01T00:00:00Z")
         self.assertEqual(estimate["calculation_status"],"Complete");self.assertEqual(estimate["estimated_consumed_amount"],"0.50")
-        self.assertEqual(estimate["stage_b_release_reference"],"StageB_Final")
+        self.assertEqual(estimate["stage_b_release_reference"],"StageB_FINALIZED")
         self.assertEqual(validate_all([food],mapping,[estimate],{c["Compound_ID"] for c in compounds})["status"],"PASS")
 
     def test_real_stage_b_context_alone_produces_incomplete_estimate(self):
@@ -44,6 +48,25 @@ class PhaseOneIntegrationTests(unittest.TestCase):
         food={"food_record_id":"NO-QUANT-DATA","compound_id":compound["Compound_ID"],"compound_name":compound["Canonical_Name"],"food_name":compound["Food_Context"],"reported_concentration":"","normalized_concentration":"","normalized_unit":"mg/kg","raw_or_processed_state":"","moisture_basis":"","source_verification_status":"unverified","source_classification":"Missing data"}
         m=build_mappings([compound],[food]);out=calculate_exposure({"compound_id":compound["Compound_ID"],"food_record_id":"NO-QUANT-DATA","ingredient_quantity":"0.2","ingredient_unit":"kg","consumed_fraction":"1"},{food["food_record_id"]:food},m,{compound["Compound_ID"]:compound})
         self.assertNotEqual(out["calculation_status"],"Complete");self.assertEqual(out["estimated_consumed_amount"],"")
+
+    def test_legacy_mappings_for_pending_current_identities_cannot_calculate_exposure(self):
+        stage=project_root()/"stageC"
+        data=load_stage_b()
+        compounds={row["Compound_ID"]:row for row in data["source_files"]["compound_registry.csv"]}
+        mappings=load_mappings(stage/"data"/"compound_food_mapping"/"compound_food_mapping.csv")
+        pending_ids={
+            row["compound_id"] for row in mappings
+            if row.get("mapping_status") in {"Exact identity match","Verified synonym match","Structure-supported match"}
+            and compounds.get(row.get("compound_id"),{}).get("StageC_Identity_Verification_Status") != "Complete"
+        }
+        self.assertEqual(len(pending_ids),16)
+        for compound_id in pending_ids:
+            mapping=next(row for row in mappings if row.get("compound_id")==compound_id)
+            food_id="SYNTHETIC-PENDING-"+compound_id
+            food={"food_record_id":food_id,"compound_id":compound_id,"compound_name":compounds[compound_id]["Canonical_Name"],"food_name":"Synthetic test matrix","reported_concentration":"5","reported_unit":"mg/kg","normalized_concentration":"5","normalized_unit":"mg/kg","raw_or_processed_state":"raw","food_use_classification":"ordinary food","moisture_basis":"wet weight","source_title":"Synthetic test fixture; not empirical data","source_verification_status":"Verified","source_classification":"Primary analytical measurement"}
+            result=calculate_exposure({"compound_id":compound_id,"food_record_id":food_id,"ingredient_quantity":"100","ingredient_unit":"g","consumed_fraction":"1"},{food_id:food},[mapping],compounds)
+            self.assertEqual(result["calculation_status"],"Incomplete: unresolved identity")
+            self.assertEqual(result["estimated_consumed_amount"],"")
 
     def test_phase1b_verified_food_records_map_and_calculate_with_warning(self):
         stage=project_root()/"stageC"

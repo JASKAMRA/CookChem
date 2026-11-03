@@ -1,0 +1,11 @@
+phase: 1
+version: 1.3.0
+stage_b_release: StageB_FINALIZED
+stage_b_release_path: ../stageB/release/StageB_FINALIZED
+food_composition_path: data/food_composition/food_composition.csv
+compound_mapping_path: data/compound_food_mapping/compound_food_mapping.csv
+normalized_concentration_unit: mg/kg
+calculation_amount_unit: mg
+cooking_retention: excluded
+missing_concentration: preserve_as_missing
+network_access_during_import: false

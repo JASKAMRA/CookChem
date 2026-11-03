@@ -4,7 +4,7 @@ The CSV headers are authoritative for serialized files; JSON Schemas in `../sche
 
 ## Stage B snapshot
 
-The snapshot contains the 9 allowlisted Stage B tables named in `data/stage_b_snapshot/import_manifest.json`. Original column names, IDs, identifiers, status fields, and missing cells are preserved. The manifest stores source and copied-file SHA-256 hashes, row counts, schemas, import time, and release identity.
+The current snapshot contains the 9 allowlisted tables from `StageB_FINALIZED` in `data/stage_b_snapshot_20261103/`. Original column names, IDs, identifiers, status fields, and missing cells are preserved. Its import manifest stores the exact source-manifest hash, per-file hashes, row counts, schemas, import time, release identity, and 143-compound count. Older snapshots are retained as history.
 
 ## Food composition
 

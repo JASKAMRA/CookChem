@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "release_id": "Phase1-v1.3.0",
+  "stage_b": {
+    "release_id": "StageB_FINALIZED",
+    "manifest_entries": 836,
+    "manifest_sha256": "b85f8293297cb5e447d2293e31cfcdafbef50497260d870d54f14da441c7359e",
+    "exact_byte_verification": "PASS"
+  },
+  "registry": {
+    "compound_count": 143,
+    "identity_audit_rows": 143,
+    "prior_ids_retained": 119,
+    "new_ids": 24,
+    "identity_ids_aligned": true,
+    "duplicate_compound_ids": 0,
+    "duplicate_pubchem_cids": 0,
+    "duplicate_inchikeys": 0
+  },
+  "phase1b_preservation": {
+    "food_records": 511,
+    "mapping_rows": 511,
+    "new_compound_mappings": 0,
+    "food_sha256": "aa15fd49be4afd30d1f61fe06de9039d0a925c22a6c56e970ddc75033b04f127",
+    "mapping_sha256": "9dcaadf0821aee15f1666ca26c88c592bb1e98a781eb533e246ddd94dab9ca97",
+    "legacy_mapped_compounds": 109,
+    "identity_complete_quantitative_compounds": 93,
+    "legacy_mapped_compounds_pending_identity_review": 16,
+    "legacy_mapping_rows_blocked_by_identity_review": 46,
+    "orphans": 0
+  },
+  "identity_review": {
+    "total_pending_compounds": 36,
+    "same_nonstereospecific_smiles_group": [
+      {
+        "compound_ids": [
+          "CHEM-PUBCHEM-9064",
+          "CHEM-PUBCHEM-72276"
+        ],
+        "names": [
+          "(+)-Catechin",
+          "(-)-Epicatechin"
+        ],
+        "distinct_inchikeys": true,
+        "manual_review_remains_open": true
+      }
+    ]
+  },
+  "active_validation": {
+    "status": "PASS",
+    "food_errors": 0,
+    "mapping_errors": 0,
+    "snapshot_changes": 0,
+    "report": "stageC/reports/validation/phase1_validation.json"
+  },
+  "clean_copy": {
+    "unittest": "72/72 PASS",
+    "phase1_validation": "PASS",
+    "inspect_stage_b": "PASS",
+    "stage_b_exact_manifest": "PASS (836/836)",
+    "json_schemas": "8/8 PASS; obsolete-119 manifest mutation rejected"
+  },
+  "historical_release_audit": {
+    "release_id": "Phase1B-v1.0.0",
+    "status": "FAIL_PREEXISTING",
+    "artifact_count": 1064,
+    "reason": "Detached checksum and packaged file hash/size mismatches; historical package was left untouched."
+  },
+  "scope": "Stage C Phase 1 software foundation only. No food-composition data acquisition, new food records or mappings, Phase 2 or Stage D work."
+}

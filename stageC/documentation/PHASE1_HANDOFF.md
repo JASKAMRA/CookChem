@@ -1,6 +1,8 @@
 # Stage C Phase 1 and Phase 1B handoff
 
-Stage C Phase 1 is the software foundation for read-only Stage B integration, source-backed food composition, conservative compound mapping, mass/volume concentration normalization, raw-food exposure arithmetic, validation, and provenance. Phase 1B has expanded the data layer to 511 accepted ordinary-food measurements across 109 of 119 Stage B targets.
+Stage C Phase 1 is the software foundation for read-only Stage B integration, source-backed food composition, conservative compound mapping, mass/volume concentration normalization, raw-food exposure arithmetic, validation, and provenance. The active connector now reads the exact-manifest-verified `StageB_FINALIZED` registry with 143 compounds. All 119 prior IDs remain and the 24 added IDs are available without inferred food mappings.
+
+The existing Phase 1B dataset remains unchanged at 511 accepted ordinary-food measurements and 511 mappings. Of 109 legacy mapped compounds, 16 currently require Stage B identity review; the 46 affected mapping rows remain preserved and are blocked from exposure calculations. Identity-complete quantitative food coverage is 93/143. The 24 additions have no mappings, and 34 compounds have no legacy food mappings. The previous Phase 1B release documents its original 109/119 baseline. No new Phase 1B research or records were added during this software update.
 
 The Phase 1B final release and its reproducibility instructions are in `../releases/Phase1B-v1.0.0/`. The authoritative current ordinary-food coverage report is `../reports/phase1b/PHASE1B_COMPLETION_REPORT.md`; source batches, accepted/held/rejected decisions, and the coverage register are retained under `../reports/phase1b/`.
 
@@ -8,4 +10,4 @@ Seven final-target botanical measurements have primary quantitative reports and 
 
 Phase 1 does not apply Stage A cooking-retention predictions. It does not establish recipe-level dietary exposure across a population, bioavailability, clinical effects, or health risk. Phase 2 is a separate integration task.
 
-The Stage B read-only connector resolves to the current `StageB_Final` package and checks its manifest. The Stage C release bundles a copy of that input package and a versioned Stage B snapshot. Reproduce the current tests and data validation with the commands in the release README.
+The Stage B read-only connector resolves only to `stageB/release/StageB_FINALIZED` and verifies its exact manifest. The Phase 1 v1.3.0 release bundles the source package and the versioned Stage B snapshot. Reproduce the checks with the commands in the release README.

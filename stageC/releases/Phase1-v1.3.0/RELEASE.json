@@ -1,0 +1,62 @@
+{
+  "release_id": "Phase1-v1.3.0",
+  "version": "1.3.0",
+  "created_on": "2026-11-03",
+  "status": "PHASE1_SOFTWARE_FOUNDATION_UPDATED_AND_VALIDATED",
+  "scope": "Stage C Phase 1 software foundation re-audit and update for the finalized 143-compound Stage B registry; Phase 1B science and Phase 2 excluded.",
+  "source_stage_b_release": "StageB_FINALIZED",
+  "source_stage_b_manifest_sha256": "b85f8293297cb5e447d2293e31cfcdafbef50497260d870d54f14da441c7359e",
+  "source_stage_b_manifest_entries": 836,
+  "data": {
+    "stage_b_compounds": 143,
+    "prior_compounds_retained": 119,
+    "new_compounds": 24,
+    "food_composition_records": 511,
+    "mapping_rows": 511,
+    "legacy_mapped_compounds": 109,
+    "identity_complete_quantitative_compounds": 93,
+    "compounds_pending_identity_review": 36,
+    "legacy_mapped_compounds_pending_identity_review": 16,
+    "legacy_mapping_rows_blocked_by_identity_review": 46,
+    "new_compounds_with_mappings": 0,
+    "current_identity_complete_coverage_denominator": 143
+  },
+  "preserved_phase1b_files": {
+    "stageC/data/food_composition/food_composition.csv": "aa15fd49be4afd30d1f61fe06de9039d0a925c22a6c56e970ddc75033b04f127",
+    "stageC/data/compound_food_mapping/compound_food_mapping.csv": "9dcaadf0821aee15f1666ca26c88c592bb1e98a781eb533e246ddd94dab9ca97"
+  },
+  "validation": {
+    "active_tests": "72/72 PASS",
+    "active_phase1_validation": "PASS",
+    "json_schema_fixtures": "8/8 PASS; obsolete-119 mutation rejected",
+    "clean_copy_tests": "72/72 PASS",
+    "clean_copy_validation": "PASS; 143 compounds; 511 foods; 511 mappings; zero errors; zero snapshot changes",
+    "package_manifest": "PASS after exact artifact manifest verification",
+    "stage_b_bundle_exact_manifest": "PASS (836/836)",
+    "package_artifact_count": 1203
+  },
+  "identity_review_findings": [
+    {
+      "compound_ids": [
+        "CHEM-PUBCHEM-9064",
+        "CHEM-PUBCHEM-72276"
+      ],
+      "canonical_names": [
+        "(+)-Catechin",
+        "(-)-Epicatechin"
+      ],
+      "finding": "Same non-stereospecific SMILES; distinct InChIKeys; source stereochemistry review remains open."
+    }
+  ],
+  "historical_phase1b_release_audit": {
+    "release_id": "Phase1B-v1.0.0",
+    "verification": "FAIL_PREEXISTING",
+    "artifact_count": 1064,
+    "reason": "Detached checksum and listed artifact hashes/sizes mismatch; historical package preserved without modification."
+  },
+  "limitations": [
+    "36 Stage B identities remain under review.",
+    "46 existing Phase 1B mapping rows for 16 currently unresolved identities are blocked from exposure.",
+    "No cooking retention, recipe exposure, bioavailability, clinical or health-risk conclusions are included."
+  ]
+}

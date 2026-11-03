@@ -10,7 +10,7 @@ from .food_composition import FIELDS, validate_food_record
 from .unit_conversion import concentration_to_mg_per_kg, volume_concentration_to_mg_per_l
 
 
-def validate_food_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def validate_food_records(records: list[dict[str, Any]], compound_ids: set[str] | None = None) -> list[dict[str, Any]]:
     errors = []
     seen = set()
     for index, record in enumerate(records):
@@ -18,6 +18,11 @@ def validate_food_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]
         key = record.get("food_record_id", "")
         if key in seen: issues.append("duplicate food_record_id")
         seen.add(key)
+        if compound_ids is not None:
+            for field in ("compound_id", "mapping_review_compound_id"):
+                compound_id = str(record.get(field, "")).strip()
+                if compound_id and compound_id not in compound_ids:
+                    issues.append(f"{field} does not resolve in Stage B: {compound_id}")
         if set(record) - set(FIELDS): issues.append("unexpected fields: " + ", ".join(sorted(set(record) - set(FIELDS))))
         if record.get("reported_concentration") not in (None, "") and record.get("normalized_concentration") not in (None, ""):
             try:
@@ -35,8 +40,18 @@ def validate_food_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]
 
 def validate_mapping_records(mappings: list[dict[str, Any]], compound_ids: set[str], food_ids: set[str]) -> list[dict[str, str]]:
     errors = []
+    seen_mapping_ids: set[str] = set()
     for row in mappings:
+        mapping_id = str(row.get("mapping_id", "")).strip()
+        if not mapping_id:
+            errors.append({"mapping_id": "", "error": "mapping_id is required"})
+        elif mapping_id in seen_mapping_ids:
+            errors.append({"mapping_id": mapping_id, "error": "duplicate mapping_id"})
+        seen_mapping_ids.add(mapping_id)
         if row.get("compound_id") and row["compound_id"] not in compound_ids: errors.append({"mapping_id": row.get("mapping_id", ""), "error": "compound ID does not resolve in Stage B"})
+        candidate_ids = {value.strip() for value in str(row.get("candidate_compound_ids", "")).split("|") if value.strip()}
+        for candidate_id in sorted(candidate_ids - compound_ids):
+            errors.append({"mapping_id": row.get("mapping_id", ""), "error": f"candidate compound ID does not resolve in Stage B: {candidate_id}"})
         if row.get("food_record_id") not in food_ids: errors.append({"mapping_id": row.get("mapping_id", ""), "error": "food record ID does not resolve"})
         if row.get("mapping_status") in VERIFIED_STATUSES and not row.get("rationale"): errors.append({"mapping_id": row.get("mapping_id", ""), "error": "verified mapping lacks rationale"})
         if row.get("mapping_status") == "Verified synonym match" and not row.get("mapping_source"): errors.append({"mapping_id": row.get("mapping_id", ""), "error": "verified synonym mapping lacks a source"})
@@ -65,7 +80,7 @@ def validate_exposure_output(row: dict[str, Any]) -> list[str]:
 
 
 def validate_all(food_records: list[dict[str, Any]], mappings: list[dict[str, Any]], exposures: list[dict[str, Any]], compound_ids: set[str]) -> dict[str, Any]:
-    food_errors = validate_food_records(food_records)
+    food_errors = validate_food_records(food_records, compound_ids)
     food_ids = {str(r.get("food_record_id", "")) for r in food_records}
     mapping_errors = validate_mapping_records(mappings, compound_ids, food_ids)
     exposure_errors = [{"estimate_id": r.get("estimate_id", ""), "errors": validate_exposure_output(r)} for r in exposures if validate_exposure_output(r)]

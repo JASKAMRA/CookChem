@@ -1,0 +1,5 @@
+# Validation report
+
+Validation checks the exact 836-entry StageB_FINALIZED manifest, all 143 unique compound IDs, registry-to-identity-audit alignment, food-record fields and units, duplicate IDs, reported/normalized consistency, mapping foreign keys and candidate IDs, exposure output completeness, missing-as-zero violations, consumed-fraction bounds, and exclusion of retention/cooking methods. Current active data contain 511 food records and 511 mappings. Mapping IDs and candidates are checked against all 143 compounds. Of 109 legacy mapped compounds, 16 have current Stage B identity-review status (46 rows); those mappings remain traceable but are not eligible for exposure. Identity-complete quantitative coverage is 93/143. Runtime results are recorded in `../reports/validation/phase1_validation.json` and `../reports/validation/stage_b_release_validation.json`.
+
+The final validation status applies to structural and scientific-integrity checks only; it does not imply empirical food coverage.

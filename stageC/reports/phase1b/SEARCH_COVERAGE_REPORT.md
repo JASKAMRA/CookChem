@@ -1,3 +1,11 @@
+# Current search coverage — 2026-11-03
+
+The cumulative log contains **418 source/compound events** across **126/143 Stage B IDs**, including all **107 identity-complete IDs**. The 17 unlogged IDs are all identity-pending, not eligible for Phase 1B source acquisition until Stage B review. Batch 101 added seven events for newly logged identity-complete targets. Search logs document bounded screening and do not establish exhaustive absence.
+
+Current Batch 101 dispositions and evidence are in `batches/batch_101_final_eligible_foodscreen/SCREENING_NOTE.md`. The dated entries below are the historical screening log through Batch 100 and remain useful as provenance; their former 119-target totals are superseded by the current summary above.
+
+---
+
 # Search Coverage
 
 The current cumulative search log contains **411 source/compound events across all 119 Stage B IDs**. Batch screening files preserve **618 candidate-food rows across 51 candidate CSVs**; these are separate from the 511 accepted measurements and include held analytical, identity, matrix, or source-basis cases. The 100 numbered batch folders retain candidate decisions and source locators. Logged searches do not establish exhaustive absence.
@@ -99,3 +107,13 @@ Rechecked pterostilbene, irilone, and positional artichoke dicaffeoylquinic-acid
 ## Final closure checkpoint — 2026-11-02
 
 A final targeted source pass resolved the remaining eligible astaxanthin target with six full-text-verified salmon-muscle treatment means (Batch 098). The final gap register contains 10 targets. Medicinal-botanical and supplement-only results were retained as out of scope; no proxy concentrations were added. Active Phase 1B coverage is 109/119 compounds across 511 food records and 511 mappings; official Phase 1 validation PASS. Screening is closed with explicit gaps, not complete compound coverage. See `PHASE1B_COMPLETION_REPORT.md`.
+
+
+## Batch 103 continuation state — 2026-11-03
+
+All 143 Stage B IDs have at least one documented research/screening event. Accepted identity-complete quantitative coverage is 99/107; the 130 minimum remains unmet. Four quantitative identity-pending dye candidates and one qualitative-only NHDC finding are recorded separately. No release was created. See `batches/batch_103_final_screen/BATCH_103_SCREENING_REPORT.md` and the active checkpoint.
+
+
+## Batch 104 eligible-gap audit — 2026-11-03
+
+The eight remaining complete-identity gaps were re-audited against primary food-context sources. A 2026 widely-targeted Huangqin-tea study reports comparative baicalin and wogonoside findings, but no sample-level calibrated concentrations are accessible and study data are available on request. Prunin follow-up remains qualitative/untargeted or behind the primary table. Batch 104 logged 10 targeted searches and 12 source references; accepted coverage remains 99/107 with no food or mapping changes.

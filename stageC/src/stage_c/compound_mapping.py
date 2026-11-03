@@ -129,9 +129,63 @@ def build_mappings(compounds: list[dict[str, str]], food_records: list[dict[str,
 
 
 def mapping_coverage(compounds: list[dict[str, str]], food_records: list[dict[str, Any]], mappings: list[dict[str, str]]) -> dict[str, Any]:
-    quantitatively_mapped = {r["compound_id"] for r in mappings if r["compound_id"] and r["mapping_status"] in VERIFIED_STATUSES and r["quantitative_data_available"] == "true"}
+    compound_by_id = {row.get("Compound_ID", ""): row for row in compounds}
+    eligible_ids = {
+        compound_id for compound_id, row in compound_by_id.items()
+        if row.get("StageC_Identity_Verification_Status", "Complete") == "Complete"
+    }
+    quantitatively_mapped = {
+        row["compound_id"] for row in mappings
+        if row["compound_id"] in eligible_ids
+        and row["mapping_status"] in VERIFIED_STATUSES
+        and row["quantitative_data_available"] == "true"
+    }
+    pending_identity_rows = [
+        row for row in mappings
+        if row.get("compound_id") in compound_by_id
+        and compound_by_id[row["compound_id"]].get("StageC_Identity_Verification_Status", "Complete") != "Complete"
+        and row.get("mapping_status") in VERIFIED_STATUSES
+    ]
     candidate_ids = {cid for r in mappings for cid in (r.get("candidate_compound_ids", "").split("|") if r.get("candidate_compound_ids") else ([r["compound_id"]] if r.get("compound_id") else []))}
-    return {"total_stage_b_compounds": len(compounds), "compounds_with_verified_quantitative_food_data": len(quantitatively_mapped), "compounds_with_candidate_records": len(candidate_ids), "compounds_with_no_quantitative_data": len(compounds) - len(quantitatively_mapped), "compounds_pending_identity_review": sum(c.get("StageC_Identity_Verification_Status", "Complete") != "Complete" for c in compounds), "ambiguous_mappings": sum(r["mapping_status"] == "Ambiguous match" for r in mappings), "unmatched_records": sum(r["mapping_status"] == "Unmatched" for r in mappings), "rejected_mappings": sum(r["mapping_status"] == "Rejected match" for r in mappings), "food_composition_records": len(food_records), "mapping_records": len(mappings)}
+    pending_ids = {row["compound_id"] for row in pending_identity_rows}
+    unverified_coverage = len(compounds) - len(quantitatively_mapped)
+    return {
+        "total_stage_b_compounds": len(compounds),
+        "compounds_with_verified_quantitative_food_data": len(quantitatively_mapped),
+        "compounds_with_candidate_records": len(candidate_ids),
+        "compounds_with_no_verified_quantitative_data": unverified_coverage,
+        "compounds_with_no_quantitative_data": unverified_coverage,
+        "compounds_pending_identity_review": sum(
+            row.get("StageC_Identity_Verification_Status", "Complete") != "Complete"
+            for row in compounds
+        ),
+        "legacy_mapped_compounds_pending_identity_review": len(pending_ids),
+        "legacy_mapping_rows_pending_identity_review": len(pending_identity_rows),
+        "ambiguous_mappings": sum(row["mapping_status"] == "Ambiguous match" for row in mappings),
+        "unmatched_records": sum(row["mapping_status"] == "Unmatched" for row in mappings),
+        "rejected_mappings": sum(row["mapping_status"] == "Rejected match" for row in mappings),
+        "food_composition_records": len(food_records),
+        "mapping_records": len(mappings),
+    }
+
+
+def assess_mapping_compatibility(compounds: list[dict[str, str]], mappings: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Describe legacy verified mappings that current Stage B identity review blocks."""
+    compound_by_id = {row.get("Compound_ID", ""): row for row in compounds}
+    return [
+        {
+            "mapping_id": row.get("mapping_id", ""),
+            "compound_id": row.get("compound_id", ""),
+            "stored_mapping_status": row.get("mapping_status", ""),
+            "effective_mapping_status": "Pending identity review",
+            "current_identity_status": compound_by_id[row["compound_id"]].get("StageC_Identity_Verification_Status", ""),
+            "active_use_allowed": "false",
+        }
+        for row in mappings
+        if row.get("compound_id") in compound_by_id
+        and compound_by_id[row["compound_id"]].get("StageC_Identity_Verification_Status", "Complete") != "Complete"
+        and row.get("mapping_status") in VERIFIED_STATUSES
+    ]
 
 
 def write_mappings(path: Path, mappings: list[dict[str, str]]) -> None:

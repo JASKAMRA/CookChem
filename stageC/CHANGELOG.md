@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.0 — 2026-11-03
+- Updated the read-only connector to the exact-manifest-verified StageB_FINALIZED registry (143 compounds).
+- Added registry-to-identity-audit consistency checks and guarded the authoritative source path.
+- Created a versioned 143-compound snapshot path; preserved the earlier snapshots and all Phase 1B records and mappings.
+- Added compound-reference and candidate-reference orphan checks, migration tests, and updated compatibility documentation.
+- Kept unresolved identity and stereochemistry review items open; no food data or mapping was added.
+
 ## Phase1-v1.0.0
 
 - Added checksum-verified, read-only Stage B connector and snapshot manifest.

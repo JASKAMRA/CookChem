@@ -1,3 +1,11 @@
+# Current dataset source audit — 2026-11-03
+
+The active dataset has 539 accepted records spanning 66 distinct source-title/URL pairs. All records have source URL, title, explicit value and unit, basis description, analytical method and verification status (0 missing required source fields). 22 records have neither DOI nor PMID; their source title/URL and dataset/table locator remain available. Source-class counts are {'Authoritative food-composition database': 15, 'Primary analytical measurement': 519, 'Peer-reviewed secondary source': 5}. Batch 101's four accepted source articles and five held-source leads are documented in the active source registry and its screening note. The 28 new records retain source denominators and uncertainty; no moisture or density conversion was inferred.
+
+The prior dated batch-level source notes below are historical verification records. The Batch 100 context findings remain separate from ordinary-food measurements.
+
+---
+
 # Source Verification Report
 
 Batch 010 verified three primary studies: Kim JS (2018), DOI 10.3746/pnf.2018.23.1.35, Table 2 (free/esterified/bound berry fractions); Chun et al. (2017), DOI 10.1021/acs.jafc.7b01279, Table 4 (furocoumarins; n=3); and VanderMolen et al. (2013), DOI 10.1002/pca.2449, Table 3 (grapefruit juice in µM, retained for unit/basis review).
@@ -16,8 +24,16 @@ Caffeine archive follow-up: the official [USDA FoodData Central download page](h
 
 Batch 015 verified Mecha et al. (2020), PMID 31699168, DOI 10.1017/S0007114519002836, Table 2 and methods. Raw Moleiro common beans were quantified by UPLC-Q-TOF-MS against authentic standards, with external calibration and triplicate extraction. Accepted raw values are reported as µg/g raw-bean dry weight; paired cooked measurements are explicitly outside Phase 1B ingestion.
 
-## Current dataset source audit
 
-The current 511 accepted ordinary-food rows reference 61 distinct source titles/URLs. Every row has an HTTP(S) source URL, source title, quantitative value/unit, sample-basis description, analytical method, and verification status. Twenty-two rows lack DOI and PMID, but all have a database/reference locator. Source-specific uncertainty and matrix limitations are retained in each record and its numbered batch note. The accepted class counts are 491 primary analytical measurements, 15 authoritative food-composition database records, and 5 peer-reviewed secondary-source records.
 
 Batch 100 was independently reconciled from full-text tables: primary *Scutellaria* HPLC tables support six contextual target compounds on dry-root basis; the *Viburnum* amentoflavone study uses a dried-powder basis and reports Table 3 means ± SD with n=3 analytical measurements; the irilone value is secondary-source-only and held; the two remaining compounds lack exact numeric matrix values. None of these were added to ordinary-food composition.
+
+
+## Batch 103 continuation state — 2026-11-03
+
+All 143 Stage B IDs have at least one documented research/screening event. Accepted identity-complete quantitative coverage is 99/107; the 130 minimum remains unmet. Four quantitative identity-pending dye candidates and one qualitative-only NHDC finding are recorded separately. No release was created. See `batches/batch_103_final_screen/BATCH_103_SCREENING_REPORT.md` and the active checkpoint.
+
+
+## Batch 104 eligible-gap audit — 2026-11-03
+
+The eight remaining complete-identity gaps were re-audited against primary food-context sources. A 2026 widely-targeted Huangqin-tea study reports comparative baicalin and wogonoside findings, but no sample-level calibrated concentrations are accessible and study data are available on request. Prunin follow-up remains qualitative/untargeted or behind the primary table. Batch 104 logged 10 targeted searches and 12 source references; accepted coverage remains 99/107 with no food or mapping changes.
