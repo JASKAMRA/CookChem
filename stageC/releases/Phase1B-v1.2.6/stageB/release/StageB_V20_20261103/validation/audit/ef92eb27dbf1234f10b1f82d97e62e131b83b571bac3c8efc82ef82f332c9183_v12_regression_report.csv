@@ -1,0 +1,16 @@
+﻿Dataset_or_test,Status,Detail
+V11 anchor rows,PASS,105 exact row-equal inherited rows
+V11 evidence rows,PASS,272 exact row-equal inherited rows
+identity_structure_audit_v12.csv,PASS,105 inherited rows preserved as exact prefix
+selection_decisions_v12.csv,PASS,110 inherited rows preserved as exact prefix
+candidate_screening_log_v12.csv,PASS,45 inherited rows preserved as exact prefix
+source_audit_v12.csv,PASS,62 inherited rows preserved as exact prefix
+claim_support_and_verification_v12.csv,PASS,272 inherited rows preserved as exact prefix
+warning_resolution_ledger_v12.csv,PASS,41 inherited rows preserved as exact prefix
+Drug/probe registry references,PASS,121 inherited IDs and labels retained; evidence counts recomputed for use
+Study registry references,PASS,146 inherited study IDs retained
+Bibliography references,PASS,146 inherited publication mappings retained
+Cooking-retention table,PASS,Exact SHA-256 equality
+V12 automated suite,PASS,32/32 PASS
+V12 mutation suite,PASS,34/34 intended defects detected
+V11 package copy integrity,PASS,1032 shared original files compared; differences=0

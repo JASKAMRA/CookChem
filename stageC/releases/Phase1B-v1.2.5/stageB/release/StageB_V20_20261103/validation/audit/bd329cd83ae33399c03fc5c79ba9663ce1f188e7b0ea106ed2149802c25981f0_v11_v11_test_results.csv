@@ -1,0 +1,52 @@
+﻿Test_ID,Target_Release,Expected,Actual,Status,Severity_if_failed,Affected_Records,Diagnostic
+ST-01,V11,Evidence rows use a single documented schema,1,PASS,Critical,,"['Evidence_ID', 'Compound', 'Compound_ID', 'Drug', 'Interaction_Effect', 'Mechanism', 'Evidence_Type', 'Evidence_Level', 'Direction', 'Quantitative_Outcome', 'Dose', 'Population', 'Study_Design', 'Source_Title', 'Authors', 'Year', 'DOI', 'PMID', 'Source_Type', 'Limitations', 'Confidence', 'Notes', 'Study_ID', 'Source_URL', 'Source_Cache', 'Source_Locator', 'Preparation', 'Co_Compounds', 'Affected_Entity', 'Perpetrator', 'Outcome', 'Conflict_Group', 'Identity_Status', 'Release_Origin', 'Clinical_Extrapolation', 'CookRisk_Exposure_Link']"
+ST-02,V11,All record IDs and primary labels populated,0,PASS,High,,
+ST-03,V11,Unique compound and evidence IDs,True,PASS,True,Critical,
+RI-01,V11,Every record resolves to matching compound row,0,PASS,Critical,,
+RI-02,V11,Every drug/probe in combined registry,0,PASS,High,,
+RI-03,V11,Every evidence Study_ID resolves,0,PASS,High,,
+RI-04,V11,Every evidence row maps to bibliography publication by PMID or DOI,0,PASS,High,,
+EV-01,V11,"Evidence rows have required fields, unique identifiers, and permitted classes",0,PASS,High,,
+EV-02,V11,Claim audit covers exactly all evidence rows,0,PASS,High,,
+DD-01,V11,No exact duplicate full evidence rows,0,PASS,High,,
+DD-02,V11,Potential repeated study/endpoint/preparation contexts are surfaced and counted for review,5,PASS,Info,"SB-0016,SB-0017;SB-0046,SB-0047,SB-0048;SB-0063,SB-0064;SB-0079,SB-0080;SB-0256,SB-0259",Five candidate groups are retained for human arm/endpoint adjudication; duplicate full evidence rows are separately tested by DD-01.
+CH-01,V11,Unique numeric PubChem CIDs,105,PASS,Critical,,
+CH-02,V11,Complete SMILES/InChI/InChIKey on all anchors,0,PASS,Critical,,
+CH-03,V11,InChIKey syntax valid and no exact-key duplicates,0,PASS,Critical,,
+CH-04,V11,Registry InChI and InChIKey equal captured PubChem response,0,PASS,Critical,,SMILES string forms are compared separately because serialization may differ while InChI identity agrees.
+CH-07,V11,SMILES serialization differences are counted separately,SMILES may vary while identity keys match,PASS,True,Info,"MOL-E8216E9AF4FCDA58,MOL-693364CB16A9EA2D,MOL-1F36FE6AE1F46586,MOL-16B10569D6F0625E,MOL-6B599D234F2062A2,MOL-68234627A0347BFF,MOL-B87D9FA9FAF4DDCD,MOL-A888520F9EA99648,MOL-25433E39C2198405,MOL-0DD55E4F408730D4,MOL-3811F42D3C15ED32,MOL-39FEB7124D04D54E,MOL-DEAD2AD07A4FA66B,MOL-06FA7CEF96696340,MOL-25F8CD05AD250A06,MOL-25F875E0BC8D5FF1,MOL-6213BC022378CC3A,MOL-91A03F746BDB1805,CHEM-PUBCHEM-5471349,CHEM-PUBCHEM-9064,CHEM-PUBCHEM-72276,CHEM-PUBCHEM-72281,CHEM-PUBCHEM-442793,CHEM-PUBCHEM-637511,CHEM-PUBCHEM-14982,CHEM-PUBCHEM-5281613,CHEM-PUBCHEM-10621,CHEM-PUBCHEM-5280805,CHEM-PUBCHEM-5281727,CHEM-PUBCHEM-64945"
+CH-05,V11,Every registry name or alias matches PubChem CID synonyms,0,PASS,High,,
+CH-06,V11,Connectivity-block pairs are documented and differ by stereochemical identity,2,PASS,Medium,"CHEM-PUBCHEM-9064,CHEM-PUBCHEM-72276;MOL-V10-5281643,MOL-V10-5280804",(+)-Catechin/(-)-epicatechin and hyperoside/isoquercetin have different full InChIKeys; manual stereochemistry review remains required.
+PV-01,V11,Every PMID resolves in current PubMed ESummary,0,PASS,High,,
+PV-02,V11,Evidence titles agree with PubMed titles,0,PASS,High,,
+PV-03,V11,No DOI mismatch or DOI missing where PubMed supplies one,0,PASS,High,,Missing DOI rows may be correctable from PubMed metadata; mismatches require primary bibliographic review.
+PV-04,V11,Bibliography PMIDs and DOIs unique,0,PASS,High,,
+PV-05,V11,Bibliography PMID set equals evidence PMID set,0,PASS,High,extra bib: extra evidence:,
+PV-06,V11,Bibliography publications present in study registry,0,PASS,High,,
+RI-06,V11,Every anchor has a selection-decision reference,0,PASS,High,,
+PR-01,V11,Selection decision covers every anchor,0,PASS,High,,
+PR-02,V11,"Every anchor has selection rationale, source, food context",0,PASS,High,,
+SC-01,V11,Evidence class uses permitted labels,0,PASS,High,,
+SC-02,V11,No obvious human/animal/in-vitro description conflict,0,PASS,High,,String-rule screen only; each flag needs manual adjudication.
+NX-01,V11,Numeric-text and quantitative outcome candidate counts are classified,digit strings separated from dose/PMID/year; 156 numeric candidates,PASS,True,Info,
+NX-02,V11,Any explicit CI has parseable lower/upper values,0,PASS,Medium,,
+NX-03,V11,No unresolved same-endpoint outcome/direction contradiction,"SB-0002,SB-0012,SB-0070,SB-0122,SB-0191,SB-0192,SB-0193,SB-0199,SB-0260",PASS,High,"SB-0002,SB-0012,SB-0070,SB-0122,SB-0191,SB-0192,SB-0193,SB-0199,SB-0260","Nine text-screen flags were manually reviewed: they mix endpoints, null secondary results, or qualitative assay outcomes; no same-endpoint numerical reversal found. Primary-source extraction remains open."
+NX-04,V11,All four resveratrol numerical holds remain marked HOLD,0,PASS,Critical,,
+CL-01,V11,Every evidence claim has an explicit verification status,0,PASS,High,,
+RI-05,V11,Every evidence source has a local cache or resolvable source URL,0,PASS,High,,
+CL-02,V11,Every source reference has a cache or resolvable source URL,0,PASS,High,,
+WA-01,V11,Warning IDs unique and status values valid,0,PASS,High,,
+WA-02,V11,V11 warning ledger row/code counts match release baseline,41 rows/39 codes,PASS,High,,"{'Partially resolved': 13, 'Unresolved': 25, 'Resolved': 1, 'Not applicable': 2}"
+RG-01,V11,All V10 inherited rows preserved; only documented DOI metadata corrections permitted,0,PASS,Critical,,
+RG-02,V11,All 100 V10 anchors retained byte-identically,0,PASS,Critical,,
+CD-01,V11,Cooking-retention table byte-identical to V10,byte-identical,PASS,Critical,,
+CD-02,V11,No cooking-retention rows mixed into interaction table,0,PASS,Critical,,
+RI-07,V11,All files in protected V10 manifest still match original V10 release,0,PASS,Critical,,
+FC-01,V11,Verify documented food occurrence/source for each of 100 inherited anchors,100 anchor food contexts,NOT_EXECUTED_MANUAL,High,See linked audits,Human review not completed for every anchor
+CH-05,V11,"Review all connectivity collisions, stereochemistry, tautomer/protonation and chemical forms",All exact/near-duplicate candidate pairs,NOT_EXECUTED_MANUAL,High,See linked audits,No cheminformatics toolkit available; PubChem identity only
+NX-05,V11,Source-check every numeric outcome and statistic against full text,All numeric outcome records,NOT_EXECUTED_MANUAL,High,See linked audits,Not fully reviewed; four resveratrol holds preserved
+CL-03,V11,Verify compound/probe/endpoint/preparation attribution at claim level,All evidence records,NOT_EXECUTED_MANUAL,High,See linked audits,Only selected full texts; broad record-level review remains incomplete
+PV-07,V11,Identify overlapping cohorts/multiple reports,All publications,NOT_EXECUTED_MANUAL,High,See linked audits,Cohort independence not inferred from PMID/DOI
+WA-03,V11,Review primary-source support for each warning closure,All resolved/partial warnings,NOT_EXECUTED_MANUAL,High,See linked audits,Inherited resolution history carried forward; not all warnings freshly adjudicated
+RP-01,V11,Build script uses release-relative paths and captured inputs; no network required,Script resolves adjacent V10 and accepts explicit V11 destination; standard library only,PASS,High,build_v11.py,Independent execution from temporary clean folder completed.
+RP-02,V11,Clean-copy rebuild regenerates identical primary CSV/summary outputs and validator passes,12/12 byte-identical; clean validator 43/43 passed,PASS,Critical,12 core V11 outputs,See audit/v11_clean_rebuild_comparison.csv; clean-copy test files were removed after checks.

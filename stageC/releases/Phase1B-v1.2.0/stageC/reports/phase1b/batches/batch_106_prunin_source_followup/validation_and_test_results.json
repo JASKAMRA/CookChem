@@ -1,0 +1,45 @@
+{
+  "batch": "106",
+  "status": "VALIDATED",
+  "phase1_validation": {
+    "status": "PASS",
+    "food_records": 546,
+    "mapping_rows": 546,
+    "food_errors": 0,
+    "mapping_errors": 0,
+    "orphans": 0,
+    "snapshot_changes": 0,
+    "report": "phase1_validation.json"
+  },
+  "mapping_rebuild": {
+    "status": "PASS",
+    "active_rows": 546,
+    "rebuilt_rows": 546,
+    "exact_row_order_match": true,
+    "report": "mapping_rebuild_report.json",
+    "output": "mapping_rebuild.csv"
+  },
+  "integrity": {
+    "food_sha256": "3344a6cfe590983e011b3d4c1f7350dead14d74efd822e5628bf5e39f697d253",
+    "mapping_sha256": "ddb0afd2019b028615624a03949e74833d617347970e00d14a548613ab733562",
+    "matches_checkpoint": true,
+    "stage_b_snapshot_changes": 0
+  },
+  "tests": {
+    "focused_batch106": {
+      "status": "PASS",
+      "passed": 5,
+      "failed": 0
+    },
+    "full_stage_c": {
+      "status": "PASS",
+      "passed": 99,
+      "failed": 0
+    },
+    "resolved_initial_failures": [
+      "Created missing validation evidence artifact before rerunning focused tests.",
+      "Aligned apple-source registry wording with verified authentic-standard/calibration details.",
+      "Updated three historical Batch 101/104 assertions to test preserved historical state and current cumulative state."
+    ]
+  }
+}

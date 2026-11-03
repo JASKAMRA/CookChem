@@ -1,0 +1,47 @@
+{
+  "release": "Phase1-v1.3.0",
+  "verification_status": "FAIL",
+  "mismatch_paths": 316,
+  "error_count": 632,
+  "comparison_counts": {
+    "release_metadata_or_script": 7,
+    "matches_active_tree": 210,
+    "differs_from_active_tree": 99
+  },
+  "sample_paths": {
+    "release_metadata_or_script": [
+      "PREVIOUS_RELEASE_AUDIT.md",
+      "README.md",
+      "RELEASE.json",
+      "TEST_RESULTS.txt",
+      "VALIDATION_RESULTS.json",
+      "build_checksums.py",
+      "verify_release.py"
+    ],
+    "matches_active_tree": [
+      "stageC/CHANGELOG.md",
+      "stageC/data/stage_b_snapshot_20261102/claim_support_and_verification.csv",
+      "stageC/data/stage_b_snapshot_20261102/compound_registry.csv",
+      "stageC/data/stage_b_snapshot_20261102/food_context_audit.csv",
+      "stageC/data/stage_b_snapshot_20261102/identity_structure_audit.csv",
+      "stageC/data/stage_b_snapshot_20261102/import_manifest.json",
+      "stageC/data/stage_b_snapshot_20261102/interaction_evidence.csv",
+      "stageC/data/stage_b_snapshot_20261102/publication_bibliography.csv",
+      "stageC/data/stage_b_snapshot_20261102/source_audit.csv",
+      "stageC/data/stage_b_snapshot_20261102/source_register.csv"
+    ],
+    "differs_from_active_tree": [
+      "stageC/README.md",
+      "stageC/data/compound_food_mapping/compound_food_mapping.csv",
+      "stageC/data/food_composition/food_composition.csv",
+      "stageC/data/food_composition/source_registry.csv",
+      "stageC/documentation/PHASE1_HANDOFF.md",
+      "stageC/documentation/TEST_REPORT.md",
+      "stageC/reports/ingestion/phase1b_candidates_20261102.csv",
+      "stageC/reports/ingestion/phase1b_combined_20261102.csv",
+      "stageC/reports/ingestion/phase1b_food_composition_import_2026-11-02.csv",
+      "stageC/reports/phase1b/ACCEPTED_REJECTED_RECORD_REPORT.md"
+    ]
+  },
+  "interpretation": "Read-only comparison to current Stage C source tree; differing files need reconciliation and are not automatically approved for a successor."
+}

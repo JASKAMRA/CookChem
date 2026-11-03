@@ -1,0 +1,56 @@
+{
+  "phase2_tests": {
+    "command": "python3 -m unittest discover -s stageC/tests -p 'test_phase2*.py' -v",
+    "passed": 14,
+    "failed": 0,
+    "blocked": 0,
+    "status": "PASS"
+  },
+  "full_stagec_suite": {
+    "command": "python3 -m unittest discover -s stageC/tests -v",
+    "total": 113,
+    "passed": 110,
+    "failed": 3,
+    "blocked": 0,
+    "status": "FAIL_WITH_DOCUMENTED_PHASE1B_COUNT_ASSERTIONS",
+    "failures": [
+      {
+        "test": "test_current_coverage_register_reconciles_all_143_stage_b_ids",
+        "expected": 100,
+        "observed": 101,
+        "suite": "Phase1B count assertion predates current coverage register"
+      },
+      {
+        "test": "test_checkpoint_preserves_active_data_and_records_batch_totals",
+        "expected_source_registry_rows": 62,
+        "observed_source_registry_rows": 63,
+        "suite": "Phase1B checkpoint count predates current source-registry row"
+      },
+      {
+        "test": "test_all_stage_b_ids_screened_and_coverage_is_identity_gated",
+        "expected": 100,
+        "observed": 101,
+        "suite": "Phase1B count assertion predates current coverage register"
+      }
+    ]
+  },
+  "reproducibility": {
+    "command": "python3 stageC/scripts/build_phase2_release.py",
+    "second_build": "existing-release data comparison passed without overwriting release",
+    "clean_copy": "/private/tmp/cookrisk-phase2-clean",
+    "clean_copy_generated_files": 11,
+    "clean_copy_sha256_match": true
+  },
+  "data_integrity": {
+    "phase1b_rows": 584,
+    "ordinary_food_rows": 335,
+    "separate_context_rows": 249,
+    "observed_group_mean_pairs": 117,
+    "ratios_recomputed_and_matched": 117,
+    "retention_based_cooked_concentration_outputs": 0
+  },
+  "model_inference": {
+    "status": "BLOCKED",
+    "reason": "Frozen model training-input hash differs from current Stage A input hash; inference was not attempted."
+  }
+}

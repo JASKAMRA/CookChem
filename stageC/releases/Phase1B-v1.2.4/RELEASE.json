@@ -1,0 +1,47 @@
+{
+  "release_id": "Phase1B-v1.2.4",
+  "version": "1.2.4",
+  "status": "VALIDATED_PROGRESS_CHECKPOINT_TARGET_NOT_ACHIEVED",
+  "created_on": "2026-11-03",
+  "scope": "Stage C Phase 1B continuation using the identity-adjudicated StageB_V20_20261103 registry; quantitative ordinary-food evidence and mappings only. Stage A and Phase1-v1.3.0 are read-only dependencies.",
+  "source_stage_b_release": "StageB_V20_20261103",
+  "source_stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+  "data": {
+    "stage_b_compounds": 143,
+    "identity_complete_compounds": 130,
+    "identity_pending_compounds": 13,
+    "ordinary_food_records": 582,
+    "ordinary_food_mapping_rows": 582,
+    "ordinary_food_compounds_covered": 123,
+    "ordinary_food_compounds_uncovered_identity_complete": 7,
+    "approx_120_target": 120,
+    "approx_120_target_achieved": true,
+    "minimum_130_target": 130,
+    "minimum_130_target_achieved": false,
+    "numbered_batches_documented_through": 118
+  },
+  "validation": {
+    "status": "PASS",
+    "phase1_validator": "PASS; see stageC/reports/validation/phase1_validation.json",
+    "food_errors": 0,
+    "mapping_errors": 0,
+    "snapshot_changes": 0,
+    "legacy_mapping_rows_blocked": 9,
+    "new_full_regression_tests": "not run in this checkpoint build"
+  },
+  "limitations": [
+    "Thirteen identity-pending compounds remain; no numerical coverage was assigned to them.",
+    "Phase1-v1.3.0 and the StageB_FINALIZED working tree were not updated to this V20 successor.",
+    "No cooking retention, population dietary exposure, bioavailability, clinical outcome or health-risk conclusions are included.",
+    "Thirteen identity-pending compounds remain; no numerical coverage was assigned to them.",
+    "Batch 115 NHDC value is a category mean with LOQ/2 substitution for two below-LOQ detections; it is not sample-specific.",
+    "Batch 116 Irilone value (0.06 mg/g dry weight) is a literature-level leaf summary; its number is transcribed from a cited pharmacopoeial monograph because the primary numerical table was not directly accessible.",
+    "Batch 117 ginkgolic acid C13:0 value is measured in dried Ginkgo leaf tea product and must not be interpreted as brewed-infusion concentration.",
+    "The 130 minimum remains seven short; this is a validated progress checkpoint, not target-complete closeout.",
+    "Seven identity-complete compounds remain without accepted ordinary-food quantitative data.",
+    "Batch 117 Ginkgo measurement is dried tea product, not brewed infusion.",
+    "Batch 118 Eupatorin measurement is for composite dried A. vulgaris aerial parts; culinary use is documented separately and the result is not a prepared-food or leaf-only concentration."
+  ],
+  "verification": "Run python3 verify_release.py and python3 stageC/scripts/validate_phase1.py from the package root.",
+  "package_artifact_count": 1309
+}

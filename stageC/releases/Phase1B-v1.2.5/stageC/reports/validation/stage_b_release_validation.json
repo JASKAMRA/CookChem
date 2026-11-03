@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "release_id": "StageB_Final",
+  "release_path": "stageB/release/StageB_Final",
+  "release_manifest_entries": 708,
+  "release_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e",
+  "allowlisted_source_files": {
+    "compound_registry.csv": "data/compound_registry.csv",
+    "identity_structure_audit.csv": "identity/identity_structure_audit.csv",
+    "food_context_audit.csv": "provenance/food_context_audit.csv",
+    "publication_bibliography.csv": "data/publication_bibliography.csv",
+    "interaction_evidence.csv": "data/interaction_evidence.csv",
+    "warning_ledger.csv": "data/warning_ledger.csv",
+    "source_audit.csv": "provenance/source_audit.csv",
+    "claim_support_and_verification.csv": "provenance/claim_support_and_verification.csv",
+    "source_register.csv": "provenance/source_register.csv"
+  },
+  "record_counts": {
+    "compound_registry.csv": 119,
+    "identity_structure_audit.csv": 119,
+    "food_context_audit.csv": 119,
+    "publication_bibliography.csv": 153,
+    "interaction_evidence.csv": 286,
+    "warning_ledger.csv": 55,
+    "source_audit.csv": 76,
+    "claim_support_and_verification.csv": 286,
+    "source_register.csv": 14
+  },
+  "compound_ids_unique": true,
+  "identity_status_counts": {
+    "Complete": 100,
+    "PubChem capture match; manual chemical review pending": 5,
+    "Source transcription; independent chemical parser/adjudication pending": 14
+  },
+  "food_context_class_counts": {
+    "Food-associated; exposure/context uncertain": 102,
+    "Supplement/medicinal botanical": 17
+  },
+  "food_context_review_counts": {
+    "Inherited V11 source-to-occurrence review remains incomplete": 105,
+    "Targeted V12 source review; dietary exposure not inferred": 14
+  },
+  "warning_classification_counts": {
+    "provenance gap": 2,
+    "missing bibliographic identifier": 1,
+    "previously inaccessible source": 1,
+    "review scope limitation": 1,
+    "inaccessible full text and preparation ambiguity": 1,
+    "identity and analyte ambiguity": 1,
+    "source reporting issue": 2,
+    "expected research scope uncertainty": 1,
+    "research or provenance limitation": 5,
+    "bibliographic limitation": 1,
+    "Research scope limitation": 3,
+    "Research scope or source reporting limitation": 4,
+    "Numerical verification limitation": 1,
+    "Source reporting limitation": 1,
+    "identity traceability": 1,
+    "coverage limitation": 1,
+    "source verification": 1,
+    "scientific or provenance limitation": 7,
+    "Data provenance / scientific verification / reproducibility": 6,
+    "Food-context / in-vitro interpretation": 14
+  },
+  "food_composition_quantitative_records": 0,
+  "stage_a_or_b_modified_by_stage_c_changes": false,
+  "note": "Stage B release verified read-only; source audit coverage and warnings remain inherited limitations."
+}

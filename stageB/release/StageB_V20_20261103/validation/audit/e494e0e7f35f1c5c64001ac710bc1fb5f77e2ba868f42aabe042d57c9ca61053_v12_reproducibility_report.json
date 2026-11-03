@@ -1,0 +1,11 @@
+{
+  "clean_copy_build_exit_code": 0,
+  "core_outputs_compared": 12,
+  "byte_identical": 12,
+  "result": "PASS",
+  "network_required": false,
+  "dependencies": "Python standard library",
+  "clean_copy_root": "isolated TemporaryDirectory; removed automatically",
+  "stdout": "{\n  \"baseline\": {\n    \"anchors\": 105,\n    \"evidence\": 272,\n    \"drug_probe_labels\": 121,\n    \"unique_PMIDs\": 144,\n    \"unique_nonblank_DOIs\": 141,\n    \"warning_rows\": 41\n  },\n  \"anchors\": 119,\n  \"new_anchors\": 14,\n  \"target_gap\": 31,\n  \"evidence\": 286,\n  \"new_evidence\": 14,\n  \"auto_pass\": 32,\n  \"auto_fail\": 0,\n  \"mutation_types\": 32,\n  \"mutations_executed\": 0\n}\n",
+  "stderr": ""
+}

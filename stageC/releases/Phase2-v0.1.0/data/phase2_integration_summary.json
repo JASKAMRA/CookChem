@@ -1,0 +1,38 @@
+{
+  "release": "Phase2-v0.1.0",
+  "build_date": "2026-11-03",
+  "source_phase1b_release": "Phase1B-v1.3.0",
+  "phase1b_measurement_rows": 584,
+  "ordinary_food_rows_eligible_for_dietary_concentration": 335,
+  "contextual_or_nonordinary_rows_separate": 249,
+  "source_classifications": {
+    "ordinary food": 335,
+    "food ingredient": 221,
+    "prepared beverage": 28
+  },
+  "stagea_stageb_identity_status_counts": {
+    "STAGEA_STAGEB_IDENTITY_PENDING": 161,
+    "STRICT_STAGEA_STAGEB_MATCH": 64,
+    "NO_STAGEA_STAGEB_CROSSWALK": 349,
+    "MATCH_AFTER_MANUAL_REVIEW_CID_WARNING": 10
+  },
+  "strict_accepted_identity_crosswalk_groups": 19,
+  "manual_review_identity_matches_with_cid_warning": 1,
+  "identity_review_candidate_rows": 45,
+  "identity_review_status_counts": {
+    "POSSIBLE_MATCH": 27,
+    "IDENTITY_CONFLICT": 9,
+    "UNRESOLVED": 9
+  },
+  "observed_cooking_pairs": 117,
+  "observed_cooking_analytes": 24,
+  "apparent_ratio_validation": "all ratios recomputed from published group means and matched stored values within 0.011 percentage points",
+  "retention_applicability_status_counts": {
+    "NOT_AVAILABLE_NO_COMPOUND_RETENTION_EVIDENCE": 569,
+    "NOT_APPLIED_BASIS_OR_CONDITION_COMPATIBILITY_NOT_ESTABLISHED": 15
+  },
+  "retention_based_cooked_concentration_outputs": 0,
+  "qualitative_retention_records": 1,
+  "stageb_model_inference": "BLOCKED: frozen artifact input hash differs from current Stage A data hash; required runtime unavailable; no inference performed",
+  "phase2_exit_decision": "NOT COMPLETE"
+}

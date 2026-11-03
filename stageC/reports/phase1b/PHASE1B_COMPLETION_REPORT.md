@@ -1,6 +1,8 @@
-# Historical report notice — current continuation is Batch 106
+> **Current closeout notice (2026-11-03):** This longer report contains historical Phase 1B checkpoints. The current accepted state is in [Phase1B-v1.3.0](../../releases/Phase1B-v1.3.0/README.md): 125/130 accepted quantitative ordinary-food compounds, 584 food records/mappings, 13 identity-pending. The user accepted closure at this count; 130 remains five short. Phase 2 is underway; see `../phase2/PHASE2_KICKOFF_READINESS_AUDIT.md`.
 
-This document's Phase1B-v1.0.0 release narrative below records the earlier 119-target dataset and remains historical. Its counts do not describe the current 143-compound continuation. The current authoritative checkpoint is `CHECKPOINTS.json`, and the latest work is `batches/batch_106_prunin_source_followup/BATCH_106_PRUNIN_SOURCE_FOLLOWUP_REPORT.md`.
+# Historical report notice — latest successor is Phase1B-v1.1.0
+
+This document preserves historical Phase1B-v1.0.0 and Batch 106–106-era counts below. The latest StageB_V20 successor closeout is `PHASE1B_CLOSEOUT_2026-11-03.md`; its release is `../../releases/Phase1B-v1.1.0/`. That separate release validates 115/130 identity-complete quantitative ordinary-food compounds (five short of ~120 and fifteen short of the earlier minimum 130). The active StageB_FINALIZED working tree still retains its earlier dataset and counts. See `CHECKPOINTS_V20_CLOSEOUT_2026-11-03.json` for the exact successor counts.
 
 ## Current continuation status — 2026-11-03, Batch 106
 

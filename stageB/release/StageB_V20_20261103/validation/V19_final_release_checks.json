@@ -1,0 +1,58 @@
+{
+  "release": "StageB_V19_20261103",
+  "parent": "StageB_V18_20261103",
+  "release_status": "SCIENTIFIC_REMEDIATION_IN_PROGRESS",
+  "scope": {
+    "compounds": 143,
+    "evidence_records": 317,
+    "drug_probe_rows": 133,
+    "bibliography_rows": 163,
+    "study_rows": 161,
+    "source_audit_dispositions": 317,
+    "new_V19_source_reviews": 53,
+    "tier_1_primary_full_text": 40,
+    "tier_3_primary_abstract": 13,
+    "records_pending_new_source_review": 264
+  },
+  "quantitative_outcomes_from_90_original_blank_fields": {
+    "source_supported_numeric_values_recovered": 29,
+    "qualitative_outcomes_dispositioned": 17,
+    "fields_still_blank": 44
+  },
+  "warnings": {
+    "inherited_rows_preserved": 70,
+    "new_rows": 18,
+    "inherited_rows_reaudited_in_V19": 2,
+    "inherited_rows_carried_forward_without_V19_reaudit": 68,
+    "warning_status_counts": {
+      "RESOLVED": 5,
+      "PARTIALLY_RESOLVED": 15,
+      "STILL_VALID": 26,
+      "NEEDS_MANUAL_REVIEW": 40,
+      "NOT_APPLICABLE": 2
+    },
+    "new_V19_resolutions": ["V19-W10", "V19-W14"],
+    "severity": "NOT_RECORDED for all 88 rows; no severity values inferred"
+  },
+  "validation": {
+    "batch_validators": "V19-001 through V19-012 PASS",
+    "focused_V19_tests": "135/135 PASS after exact-manifest verification",
+    "StageB_regression": "46/46 PASS",
+    "structural_validation": "16/16 PASS_WITH_WARNINGS; 0 errors; 67 review flags",
+    "batch_011_mutation_coverage": "Tier downgrade, broken cache pointer, altered source value, unsupported warning closure, duplicate source audit and inherited warning deletion are rejected by synthetic fixtures",
+    "batch_012_mutation_coverage": "Unsupported warning closure, fabricated AUC interval, inflated verification tier, broken cache pointer, DOI mutation and inherited warning loss are rejected by synthetic fixtures"
+  },
+  "manifests": {
+    "V18_parent_exact": "PASS; 773/773",
+    "V19_exact": "PASS; 834/834 exact-byte files",
+    "V19_clean_copy_exact": "PASS; 834/834 exact-byte files"
+  },
+  "scientific_completion": false,
+  "limitations": [
+    "Only 53 of 317 evidence records have new V19 source-content review; 264 remain.",
+    "Only two inherited warnings received warning-specific V19 rechecks; the other 68 are historical carry-forwards.",
+    "Forty-four of the 90 original blank quantitative outcomes remain blank pending source review.",
+    "Identity adjudication, full numerical/design review, bibliography and cohort-overlap review, and unresolved warning investigation remain incomplete.",
+    "V19-W01 and V19-W02 through V19-W09, V19-W11 through V19-W13, and V19-W15 through V19-W18 remain open. W17 records an internal CYP2C19/CYP2C9 source-label conflict; W18 records the unspecified AUC interval for SB-0013."
+  ]
+}

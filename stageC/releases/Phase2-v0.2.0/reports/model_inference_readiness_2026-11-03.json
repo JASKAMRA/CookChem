@@ -1,0 +1,76 @@
+{
+  "python_runtime": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "manifest_python": "3.12.14",
+  "manifest_pandas": "3.0.6",
+  "current_stagea_input": "/Users/ayushkamboj3/CookChem/stageA/input/cookchem_molecular_retention_preprocessed.csv",
+  "current_stagea_size_bytes": 570209,
+  "current_stagea_sha256": "750124efc8b89dff1f67764064b1049b5db51fb1b2f222d4f91cd94c56945f89",
+  "model_manifest_expected_input_sha256": "cd51de3286d9fea7c4d87ce45f4c9c4301214b1944f72bff19c3b41ce0358c27",
+  "sha256_mismatch": true,
+  "model_artifact_sha256_actual": "0f03701099a66792c8ebf9b81d650114968a415996e17ae5dd34048f5e15cb62",
+  "model_artifact_sha256_expected": "0f03701099a66792c8ebf9b81d650114968a415996e17ae5dd34048f5e15cb62",
+  "artifact_hash_valid": true,
+  "modules_available": {
+    "joblib": false,
+    "numpy": false,
+    "pandas": false,
+    "sklearn": false,
+    "xgboost": false,
+    "catboost": false
+  },
+  "selected_model": "ExtraTreesRegressor",
+  "required_selected_model_runtime": [
+    "joblib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "xgboost (current augmented_features import path)"
+  ],
+  "requirements_stageb": [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "catboost",
+    "joblib",
+    "xgboost==3.4.1"
+  ],
+  "feature_contract_base_count": 22,
+  "feature_contract_addition_count": 11,
+  "feature_augmentation_code": "stageB/scripts/evaluate_missingness_features.py::augmented_features",
+  "local_training_snapshot_matches_expected_hash": false,
+  "inference_performed": false,
+  "blocked_by": [
+    "training input SHA-256 mismatch; exact expected snapshot is absent",
+    "current Python 3.14.7 differs from manifest Python 3.12.14",
+    "current runtime lacks joblib, NumPy, pandas, scikit-learn, and xgboost",
+    "training-time joblib/transitive dependency lock is not recorded",
+    "Phase1B concentration rows alone do not provide scenario-specific model feature inputs such as cooking conditions/sample weight"
+  ],
+  "artifact_embedded_sklearn_version": "1.9.1 (read from serialized _sklearn_version metadata; also agrees with Stage A reproducibility record)",
+  "stageA_reproducibility_packages": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1"
+  },
+  "stageB_observed_runtime_packages": {
+    "python": "3.14.7",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10"
+  },
+  "joblib_training_version": "not recorded; current StageB runtime observation does not establish training-time serialization version",
+  "selected_model_runtime_requirement_note": "ExtraTrees deserialization requires joblib/numpy/pandas/scikit-learn; the recorded StageB feature augmentation imports stageA/scripts/run_stage_a.py, whose top-level XGBoost import makes xgboost part of that current preprocessing execution path. CatBoost is not required for selected ExtraTrees inference.",
+  "snapshot_search_result": "No exact expected SHA-256 in repository, Git path history, or user-home filename search; only two current copies, both with hash 750124efc8b89dff1f67764064b1049b5db51fb1b2f222d4f91cd94c56945f89.",
+  "reproducible_lock_created": false,
+  "lock_reason": "No training-time joblib/transitive package lock is recorded. Do not guess/pin current StageB runtime versions as original training versions.",
+  "snapshot_search_locations_checked": [
+    "all files under repository (36,373 files SHA-256 checked)",
+    "all Git revisions of the two CSV paths (one historical revision each; none matched)",
+    "all files under /Users/ayushkamboj3 matching the dataset filename (only the two current nonmatching copies found)"
+  ]
+}

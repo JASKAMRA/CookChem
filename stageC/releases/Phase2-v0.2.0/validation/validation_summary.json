@@ -1,0 +1,57 @@
+{
+  "release": "Phase2-v0.2.0",
+  "status": "NOT COMPLETE",
+  "source_pair_audit": {
+    "records": 117,
+    "primary_table_values_verified": 117,
+    "basis_limited_turmeric_records": 33,
+    "independent_ratio_formula": "cooked group mean / raw group mean",
+    "cooked_concentration_outputs": 0
+  },
+  "phase2_tests": {
+    "command": "python3 -m unittest discover -s stageC/tests -p 'test_phase2*.py' -v",
+    "total": 15,
+    "passed": 15,
+    "failed": 0
+  },
+  "full_stagec_tests": {
+    "command": "python3 -m unittest discover -s stageC/tests -v",
+    "total": 114,
+    "passed": 111,
+    "failed": 3,
+    "failures": [
+      {
+        "test": "test_current_coverage_register_reconciles_all_143_stage_b_ids",
+        "detail": "legacy expected 100; observed 101"
+      },
+      {
+        "test": "test_checkpoint_preserves_active_data_and_records_batch_totals",
+        "detail": "legacy expected 62 source rows; observed 63"
+      },
+      {
+        "test": "test_all_stage_b_ids_screened_and_coverage_is_identity_gated",
+        "detail": "legacy expected 100; observed 101"
+      }
+    ]
+  },
+  "reproducibility": {
+    "v0_1_clean_copy_build": "PASS",
+    "v0_2_builder": "scripts/build_phase2_v0_2_release.py",
+    "clean_copy_verification_command": "python3 stageC/scripts/build_phase2_v0_2_release.py --verify",
+    "full_git_clone": false
+  },
+  "model_inference": {
+    "status": "BLOCKED",
+    "reason": "Exact training snapshot SHA-256 is unavailable; inference was not attempted."
+  },
+  "phase1b_v1_3_hashes": {
+    "verified_artifacts": 1321,
+    "mismatches": 0
+  },
+  "phase2_v0_1_hashes": {
+    "verified_files": 19,
+    "mismatches": 0
+  },
+  "v0_1_manifest_sha256": "30c47d1826517b9b3d4c6eabed7e4e06114efbc1dffbb8c44dea8a03faed856b",
+  "cooked_output_rows": 0
+}

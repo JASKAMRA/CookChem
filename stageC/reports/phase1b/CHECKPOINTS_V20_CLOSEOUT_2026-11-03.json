@@ -1,0 +1,38 @@
+{
+  "checkpoint_id": "Phase1B-2026-11-03-v20-successor-batch-111-closeout",
+  "status": "SCREENING_CLOSED_BEST_EVIDENCE_TARGETS_UNMET",
+  "scope": "Stage C Phase 1B only; StageA, StageB_FINALIZED and Phase1-v1.3.0 preserved",
+  "successor_release": "stageC/releases/Phase1B-v1.1.0",
+  "source_stage_b_release": "StageB_V20_20261103",
+  "stage_b_total_compounds": 143,
+  "identity_complete_compounds": 130,
+  "identity_pending_compounds": 13,
+  "accepted_quantitative_ordinary_food_compounds": 115,
+  "identity_complete_uncovered": 15,
+  "approximate_120_target": {
+    "achieved": false,
+    "shortfall": 5
+  },
+  "previous_130_minimum": {
+    "achieved": false,
+    "shortfall": 15
+  },
+  "food_records": 570,
+  "mapping_rows": 570,
+  "legacy_mapping_rows_blocked": 9,
+  "validation": {
+    "phase1": "PASS",
+    "food_errors": 0,
+    "mapping_errors": 0,
+    "snapshot_changes": 0,
+    "release_checksum_verifier": "PASS",
+    "full_regression_tests": "not run for this successor"
+  },
+  "hashes": {
+    "food_composition_sha256": "fff9e89370cce6bff235d8e16f3cf3b33c4007fa9133366eb91730013c9922e5",
+    "compound_food_mapping_sha256": "7997dc240b7322eb67b441eab78dc17f74a7b4b76b00f05f0a931fd14bce8cd6",
+    "stage_b_snapshot_manifest_sha256": "991e430db82c7b275eb428830c6ddd1b3eecb0132cdbd93c6a5968dd16e21691",
+    "release_checksum_manifest_sha256": "d5cb7a1c918e23b3981b9bd85214f612cd608e98f7163ab4b9618111ef1d56b2"
+  },
+  "note": "Coverage counts unique identity-complete compounds with accepted quantitative ordinary-food data. Candidates, medicinal context, identity resolution alone, or inaccessible values do not count."
+}

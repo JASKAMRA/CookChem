@@ -1,0 +1,61 @@
+{
+  "phase": "Stage C Phase 2 kickoff",
+  "phase1b_release": "Phase1B-v1.3.0",
+  "phase1b_closeout": "user accepted closure below 130 minimum",
+  "stage_b_release": "StageB_V20_20261103",
+  "stage_a_input_sha256": "750124efc8b89dff1f67764064b1049b5db51fb1b2f222d4f91cd94c56945f89",
+  "stage_b_manifest_sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2",
+  "stage_a_rows": 1124,
+  "stage_a_molecular_groups": 197,
+  "stage_a_oof_rows": 5620,
+  "stage_a_oof_rows_by_model": {
+    "ExtraTrees_reference": 1124,
+    "RandomForest": 1124,
+    "RBF_SVR": 1124,
+    "XGBoost": 1124,
+    "XGBoost_tuned": 1124
+  },
+  "stage_a_qa_groups": 197,
+  "stage_a_deployable_model_artifacts_found": 0,
+  "stage_a_deployable_model_artifacts": [],
+  "stageb_selected_model_candidate_found": true,
+  "stageb_selected_model_sha256_matches_manifest": true,
+  "stageb_selected_model_input_sha256_matches_current_stagea": false,
+  "stageb_selected_model_manifest_input_sha256": "cd51de3286d9fea7c4d87ce45f4c9c4301214b1944f72bff19c3b41ce0358c27",
+  "current_stagea_input_sha256": "750124efc8b89dff1f67764064b1049b5db51fb1b2f222d4f91cd94c56945f89",
+  "inference_runtime_packages_available": {
+    "joblib": false,
+    "numpy": false,
+    "pandas": false,
+    "sklearn": false,
+    "xgboost": false
+  },
+  "stageb_model_inference_readiness": "BLOCKED_CHECKSUM_OR_RUNTIME_GATE",
+  "stage_a_stage_b_crosswalk_status_counts": {
+    "CID_MATCH_REQUIRES_STRUCTURE_REVIEW": 36,
+    "INTRA_GROUP_CID_CONFLICT": 9,
+    "NO_CID": 5,
+    "NO_STAGEB_CID_MATCH": 127,
+    "STABLE_ID_STRUCTURE_MATCH_CID_DISCREPANCY": 1,
+    "STRICT_MATCH": 19
+  },
+  "identity_candidate_review_rows": 45,
+  "identity_candidate_review_decisions": {
+    "PENDING_INTRA_GROUP_CID_CONFLICT": 9,
+    "PENDING_NAME_AND_STRUCTURE_REVIEW": 9,
+    "PENDING_STRUCTURE_EQUIVALENCE_REVIEW": 27
+  },
+  "strict_structure_crosswalk_groups": 19,
+  "stable_id_structure_crosswalk_groups_with_cid_discrepancy": 1,
+  "strict_structure_crosswalk_with_phase1b_coverage": 18,
+  "phase1b_food_records": 584,
+  "phase1b_verified_compound_coverage": 125,
+  "stage_b_retention_source_records": 3,
+  "phase2_retention_ledger_rows": 4,
+  "phase2_primary_observed_cooking_pairs": 117,
+  "phase2_primary_observed_cooking_analytes": 24,
+  "phase2_stagea_retention_crosscheck_discordances": 0,
+  "phase2_quantitative_retention_intervals": 3,
+  "phase2_cooked_concentrations_generated": 0,
+  "phase2_status": "PRIMARY_OBSERVED_PAIRS_AND_IDENTITY_REVIEW_DOCUMENTED; STAGEB_MODEL_CANDIDATE_BLOCKED_BY_INPUT_HASH_AND_RUNTIME_GATES; NO_PHASE1B_CONCENTRATION_ADJUSTMENT"
+}

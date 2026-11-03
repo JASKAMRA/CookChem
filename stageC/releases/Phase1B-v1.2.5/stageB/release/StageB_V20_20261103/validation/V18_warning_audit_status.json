@@ -1,0 +1,101 @@
+{
+  "release": "StageB_V18_20261103",
+  "parent": "StageB_V17_20261103",
+  "warning_rows": 70,
+  "warning_status_counts": {
+    "PARTIALLY_RESOLVED": 14,
+    "STILL_VALID": 26,
+    "RESOLVED": 3,
+    "NEEDS_MANUAL_REVIEW": 25,
+    "NOT_APPLICABLE": 2
+  },
+  "warning_ids_changed_from_v17_ledger": [
+    {
+      "Warning_ID": "V3-W06",
+      "V17_Ledger_Status": "STILL_VALID",
+      "V17_Fresh_Audit_Status": "NEEDS_MANUAL_REVIEW",
+      "V18_Status": "NEEDS_MANUAL_REVIEW"
+    },
+    {
+      "Warning_ID": "V5-target_not_fully_reached",
+      "V17_Ledger_Status": "NOT_APPLICABLE",
+      "V17_Fresh_Audit_Status": "STILL_VALID",
+      "V18_Status": "STILL_VALID"
+    },
+    {
+      "Warning_ID": "V5-possible_participant_overlap",
+      "V17_Ledger_Status": "STILL_VALID",
+      "V17_Fresh_Audit_Status": "NEEDS_MANUAL_REVIEW",
+      "V18_Status": "NEEDS_MANUAL_REVIEW"
+    },
+    {
+      "Warning_ID": "V8-W24",
+      "V17_Ledger_Status": "STILL_VALID",
+      "V17_Fresh_Audit_Status": "NEEDS_MANUAL_REVIEW",
+      "V18_Status": "NEEDS_MANUAL_REVIEW"
+    },
+    {
+      "Warning_ID": "V9-W01",
+      "V17_Ledger_Status": "PARTIALLY_RESOLVED",
+      "V17_Fresh_Audit_Status": "RESOLVED",
+      "V18_Status": "RESOLVED"
+    },
+    {
+      "Warning_ID": "V10-W02",
+      "V17_Ledger_Status": "STILL_VALID",
+      "V17_Fresh_Audit_Status": "NEEDS_MANUAL_REVIEW",
+      "V18_Status": "NEEDS_MANUAL_REVIEW"
+    },
+    {
+      "Warning_ID": "V10-W05",
+      "V17_Ledger_Status": "STILL_VALID",
+      "V17_Fresh_Audit_Status": "NEEDS_MANUAL_REVIEW",
+      "V18_Status": "NEEDS_MANUAL_REVIEW"
+    },
+    {
+      "Warning_ID": "V11-W03",
+      "V17_Ledger_Status": "NEEDS_MANUAL_REVIEW",
+      "V17_Fresh_Audit_Status": "PARTIALLY_RESOLVED",
+      "V18_Status": "PARTIALLY_RESOLVED"
+    },
+    {
+      "Warning_ID": "V11-W05",
+      "V17_Ledger_Status": "PARTIALLY_RESOLVED",
+      "V17_Fresh_Audit_Status": "STILL_VALID",
+      "V18_Status": "STILL_VALID"
+    },
+    {
+      "Warning_ID": "V13-W02",
+      "V17_Ledger_Status": "STILL_VALID",
+      "V17_Fresh_Audit_Status": "NEEDS_MANUAL_REVIEW",
+      "V18_Status": "NEEDS_MANUAL_REVIEW"
+    }
+  ],
+  "all_original_warning_ids_preserved": true,
+  "source_audit": {
+    "evidence_records": 317,
+    "unique_audited_evidence_ids": 317,
+    "duplicate_audit_ids": 0,
+    "current_source_content_independently_rechecked": 0,
+    "new_explicit_dispositions_added_for_previously_missing_ids": 210,
+    "current_source_review_pending": 210,
+    "historical_verification_level_counts": {
+      "5": 193,
+      "3": 111,
+      "1": 13
+    }
+  },
+  "scope": {
+    "compounds": 143,
+    "evidence": 317,
+    "drug_probe_rows": 133,
+    "bibliography_rows": 163,
+    "study_rows": 161
+  },
+  "limitations": [
+    "This is an integrity reconciliation, not completion of the requested primary-source review.",
+    "All 210 new source-audit records are explicit carry-forward dispositions and remain pending current review.",
+    "Manual review of 25 warning items, primary-source extraction of numeric outcomes, and chemical identity re-adjudication were not completed.",
+    "Unchanged warning dispositions were carried forward from the row-specific V17 warning investigation; they were not newly source-reviewed in V18."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "estimates": [
+    {
+      "estimate_id": "B004-CAFFEINE-237G-CUP",
+      "compound_id": "MOL-693364CB16A9EA2D",
+      "compound_name": "Caffeine",
+      "food_record_id": "USDA-FDC-SRLEGACY-171890-CAFFEINE",
+      "ingredient_quantity": "237",
+      "ingredient_unit": "g",
+      "source_concentration": "40",
+      "source_unit": "mg/100g",
+      "normalized_concentration": "400",
+      "normalized_unit": "mg/kg",
+      "initial_compound_amount": "94.800",
+      "calculated_amount_unit": "mg",
+      "compound_per_serving": "94.800",
+      "serving_mass": "237",
+      "serving_unit": "g",
+      "consumed_fraction": "1",
+      "estimated_consumed_amount": "94.800",
+      "calculation_method": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+      "calculation_status": "Complete",
+      "input_source_ids": [
+        "USDA-FDC-SRLEGACY-171890-CAFFEINE",
+        "MAP-18A7D6DB80BB6943641B",
+        "FDC 171890; NDB 14209; nutrient ID 1057, nutrient number 262; caffeine 40 mg; dataPoints 8, min 30 mg, max 44 mg; portion 1 cup (8 fl oz), 237 g"
+      ],
+      "stage_b_release_reference": "StageB_Final",
+      "warnings": [
+        "Stage A cooking-retention adjustment is excluded from Phase 1."
+      ],
+      "warning_identifiers": [
+        "V3-W02"
+      ],
+      "missing_inputs": [],
+      "assumptions": [],
+      "calculation_timestamp": "2026-11-02T09:10:40Z",
+      "software_version": "1.0.0",
+      "food_state": "processed",
+      "moisture_basis": "As-consumed prepared beverage; USDA FDC reports per 100 g",
+      "period_id": "illustrative-usda-srlegacy-coffee-cup",
+      "provenance": {
+        "compound_id": "MOL-693364CB16A9EA2D",
+        "stage_b_identity_source_file": "identity/identity_structure_audit.csv",
+        "food_record_id": "USDA-FDC-SRLEGACY-171890-CAFFEINE",
+        "food_source_title": "USDA FoodData Central, SR Legacy record for brewed coffee prepared with tap water",
+        "food_source_url": "https://api.nal.usda.gov/fdc/v1/food/171890?api_key=DEMO_KEY",
+        "food_doi": "",
+        "food_pmid": "",
+        "mapping_id": "MAP-18A7D6DB80BB6943641B",
+        "mapping_rationale": "Exact Compound_ID or canonical-name match; no fuzzy matching used.",
+        "source_reported_concentration": "40",
+        "source_reported_unit": "mg/100g",
+        "normalized_concentration": "400",
+        "normalized_unit": "mg/kg",
+        "conversion_factor_to_mg_per_kg": "10",
+        "ingredient_quantity": "237",
+        "ingredient_unit": "g",
+        "serving_mass": "237",
+        "serving_unit": "g",
+        "consumed_fraction": "1",
+        "formula": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+        "stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e"
+      }
+    }
+  ],
+  "aggregates": [],
+  "aggregation_status": "not performed: each input needs an explicit period_id"
+}

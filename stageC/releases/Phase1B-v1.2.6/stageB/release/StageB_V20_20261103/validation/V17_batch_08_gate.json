@@ -1,0 +1,24 @@
+{
+  "batch": 8,
+  "status": "PASS",
+  "start_compounds": 136,
+  "end_compounds": 140,
+  "new_compounds": 4,
+  "new_evidence": 4,
+  "new_warnings": 1,
+  "accepted": [
+    "Apigetrin",
+    "Myricitrin",
+    "Prunin",
+    "Quercitrin"
+  ],
+  "structural_validator": "PASS",
+  "focused_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "inherited_v16_records": "PASS exact row comparison",
+  "food_context_and_source_links": "PASS; per-compound test added",
+  "manifest": "PASS after deterministic rebuild",
+  "accepted_count": 4
+}

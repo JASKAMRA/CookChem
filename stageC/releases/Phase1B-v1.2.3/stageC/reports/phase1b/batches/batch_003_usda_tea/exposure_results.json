@@ -1,0 +1,165 @@
+{
+  "estimates": [
+    {
+      "estimate_id": "B003-EGCG-100G",
+      "compound_id": "MOL-6B599D234F2062A2",
+      "compound_name": "EGCG",
+      "food_record_id": "USDA-FLAV33-NDB99069-EGCG",
+      "ingredient_quantity": "100",
+      "ingredient_unit": "g",
+      "source_concentration": "26.05",
+      "source_unit": "mg/100g",
+      "normalized_concentration": "260.50",
+      "normalized_unit": "mg/kg",
+      "initial_compound_amount": "26.050",
+      "calculated_amount_unit": "mg",
+      "compound_per_serving": "26.050",
+      "serving_mass": "100",
+      "serving_unit": "g",
+      "consumed_fraction": "1",
+      "estimated_consumed_amount": "26.050",
+      "calculation_method": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+      "calculation_status": "Complete",
+      "input_source_ids": [
+        "USDA-FLAV33-NDB99069-EGCG",
+        "MAP-75F656F8AE1F03C44909",
+        "NDB 99069; summary table, printed p.105 (PDF p.107); USDA source ref 272 (Unilever Bestfoods North America, Summary Flavonoid Content of Teas in the U.S. Market, unpublished data, 2002)"
+      ],
+      "stage_b_release_reference": "StageB_Final",
+      "warnings": [
+        "Stage A cooking-retention adjustment is excluded from Phase 1."
+      ],
+      "warning_identifiers": [
+        "V3-W02"
+      ],
+      "missing_inputs": [],
+      "assumptions": [],
+      "calculation_timestamp": "2026-11-02T08:45:25Z",
+      "software_version": "1.0.0",
+      "food_state": "processed",
+      "moisture_basis": "As-consumed standardized tea infusion: USDA states 1% (1g tea leaves/100ml boiling water) and reports values mg/100g (100ml) infusion; no further conversion applied",
+      "period_id": "illustrative-usda-standardized-green-tea-100g",
+      "provenance": {
+        "compound_id": "MOL-6B599D234F2062A2",
+        "stage_b_identity_source_file": "identity/identity_structure_audit.csv",
+        "food_record_id": "USDA-FLAV33-NDB99069-EGCG",
+        "food_source_title": "USDA Database for the Flavonoid Content of Selected Foods, Release 3.3",
+        "food_source_url": "https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf",
+        "food_doi": "",
+        "food_pmid": "",
+        "mapping_id": "MAP-75F656F8AE1F03C44909",
+        "mapping_rationale": "USDA table reports explicit (-)-Epigallocatechin 3-gallate; matched to the stereospecific (-)-epigallocatechin gallate alias in the single Stage B EGCG record. Name punctuation normalized by documented manual review; no chemical identifier is attributed to the USDA source.",
+        "source_reported_concentration": "26.05",
+        "source_reported_unit": "mg/100g",
+        "normalized_concentration": "260.50",
+        "normalized_unit": "mg/kg",
+        "conversion_factor_to_mg_per_kg": "10",
+        "ingredient_quantity": "100",
+        "ingredient_unit": "g",
+        "serving_mass": "100",
+        "serving_unit": "g",
+        "consumed_fraction": "1",
+        "formula": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+        "stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e"
+      }
+    },
+    {
+      "estimate_id": "B003-THEAFLAVIN-100G",
+      "compound_id": "MOL-V10-135403798",
+      "compound_name": "Theaflavin",
+      "food_record_id": "USDA-FLAV33-NDB99069-THEAFLAVIN",
+      "ingredient_quantity": "100",
+      "ingredient_unit": "g",
+      "source_concentration": "0.12",
+      "source_unit": "mg/100g",
+      "normalized_concentration": "1.20",
+      "normalized_unit": "mg/kg",
+      "initial_compound_amount": "0.120",
+      "calculated_amount_unit": "mg",
+      "compound_per_serving": "0.120",
+      "serving_mass": "100",
+      "serving_unit": "g",
+      "consumed_fraction": "1",
+      "estimated_consumed_amount": "0.120",
+      "calculation_method": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+      "calculation_status": "Complete",
+      "input_source_ids": [
+        "USDA-FLAV33-NDB99069-THEAFLAVIN",
+        "MAP-340B608E0384E7A27608",
+        "NDB 99069; summary table, printed p.105 (PDF p.107); USDA source ref 272 (Unilever Bestfoods North America, Summary Flavonoid Content of Teas in the U.S. Market, unpublished data, 2002)"
+      ],
+      "stage_b_release_reference": "StageB_Final",
+      "warnings": [
+        "Stage A cooking-retention adjustment is excluded from Phase 1."
+      ],
+      "warning_identifiers": [
+        "V10-W03"
+      ],
+      "missing_inputs": [],
+      "assumptions": [],
+      "calculation_timestamp": "2026-11-02T08:45:25Z",
+      "software_version": "1.0.0",
+      "food_state": "processed",
+      "moisture_basis": "As-consumed standardized tea infusion: USDA states 1% (1g tea leaves/100ml boiling water) and reports values mg/100g (100ml) infusion; no further conversion applied",
+      "period_id": "illustrative-usda-standardized-green-tea-100g",
+      "provenance": {
+        "compound_id": "MOL-V10-135403798",
+        "stage_b_identity_source_file": "identity/identity_structure_audit.csv",
+        "food_record_id": "USDA-FLAV33-NDB99069-THEAFLAVIN",
+        "food_source_title": "USDA Database for the Flavonoid Content of Selected Foods, Release 3.3",
+        "food_source_url": "https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf",
+        "food_doi": "",
+        "food_pmid": "",
+        "mapping_id": "MAP-340B608E0384E7A27608",
+        "mapping_rationale": "Exact Compound_ID or canonical-name match; no fuzzy matching used.",
+        "source_reported_concentration": "0.12",
+        "source_reported_unit": "mg/100g",
+        "normalized_concentration": "1.20",
+        "normalized_unit": "mg/kg",
+        "conversion_factor_to_mg_per_kg": "10",
+        "ingredient_quantity": "100",
+        "ingredient_unit": "g",
+        "serving_mass": "100",
+        "serving_unit": "g",
+        "consumed_fraction": "1",
+        "formula": "Food concentration (mg/kg) × ingredient mass (kg); per-serving amount × explicitly supplied consumed fraction",
+        "stage_b_manifest_sha256": "349021670220b89a6b147d82a1b483f6a741d0962a7dde7e883c3e661a1bfe4e"
+      }
+    }
+  ],
+  "aggregates": [
+    {
+      "compound_id": "MOL-6B599D234F2062A2",
+      "period_id": "illustrative-usda-standardized-green-tea-100g",
+      "food_state": "processed",
+      "moisture_basis": "As-consumed standardized tea infusion: USDA states 1% (1g tea leaves/100ml boiling water) and reports values mg/100g (100ml) infusion; no further conversion applied",
+      "calculation_status": "Complete",
+      "estimated_consumed_amount": "26.050",
+      "calculated_amount_unit": "mg",
+      "input_estimate_ids": [
+        "B003-EGCG-100G"
+      ],
+      "warnings": [
+        "Stage A cooking-retention adjustment is excluded from Phase 1."
+      ],
+      "missing_inputs": []
+    },
+    {
+      "compound_id": "MOL-V10-135403798",
+      "period_id": "illustrative-usda-standardized-green-tea-100g",
+      "food_state": "processed",
+      "moisture_basis": "As-consumed standardized tea infusion: USDA states 1% (1g tea leaves/100ml boiling water) and reports values mg/100g (100ml) infusion; no further conversion applied",
+      "calculation_status": "Complete",
+      "estimated_consumed_amount": "0.120",
+      "calculated_amount_unit": "mg",
+      "input_estimate_ids": [
+        "B003-THEAFLAVIN-100G"
+      ],
+      "warnings": [
+        "Stage A cooking-retention adjustment is excluded from Phase 1."
+      ],
+      "missing_inputs": []
+    }
+  ],
+  "aggregation_status": "performed"
+}

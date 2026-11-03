@@ -1,0 +1,80 @@
+{
+  "checkpoint_id": "Phase1B-2026-11-03-batch-101-final-continuation",
+  "status": "CONTINUATION_COMPLETE_WITH_DOCUMENTED_LIMITATIONS_TARGET_NOT_MET",
+  "scope": "Stage C Phase 1B only",
+  "previous_checkpoint_preserved_as": "CHECKPOINTS_HISTORICAL_PRE_BATCH_EXPANSION.json",
+  "last_batch": "batch_101_final_eligible_foodscreen",
+  "source_stage_b_release": "StageB_FINALIZED (read-only)",
+  "phase1_foundation_dependency": "stageC/releases/Phase1-v1.3.0 (read-only)",
+  "stage_b_target_count": 143,
+  "stage_b_identity_complete": 107,
+  "stage_b_identity_pending": 36,
+  "active_food_records": 539,
+  "active_mapping_rows": 539,
+  "unique_compounds_any_mapping": 113,
+  "unique_compounds_with_quantitative_mapping_including_identity_pending": 113,
+  "identity_complete_quantitative_compounds": 97,
+  "identity_complete_compounds_uncovered": 10,
+  "identity_pending_compounds_with_mapping": 16,
+  "mapping_rows_blocked_by_identity_review": 46,
+  "orphan_mappings": 0,
+  "batch_101": {
+    "accepted_food_records": 28,
+    "accepted_mappings": 28,
+    "new_unique_identity_complete_compounds": 4,
+    "new_search_events": 7,
+    "new_source_registry_entries": 9,
+    "central_candidate_entries": 4,
+    "held_or_rejected_candidate_details": 26
+  },
+  "search_log_events": 418,
+  "search_log_ids": 126,
+  "identity_complete_ids_with_search_event": 107,
+  "source_registry_entries": 31,
+  "central_candidate_register_rows": 27,
+  "coverage_gap_register_rows": 13,
+  "current_143_compound_coverage_register_rows": 143,
+  "target": {
+    "criterion": ">109 identity-complete quantitative compounds",
+    "achieved": false,
+    "current_identity_ceiling_without_stage_b_review": 107,
+    "additional_compounds_needed_to_reach_110": 13
+  },
+  "validation": {
+    "phase1_validation": "PASS",
+    "food_records_checked": 539,
+    "mapping_rows_checked": 539,
+    "food_errors": 0,
+    "mapping_errors": 0,
+    "orphans": 0,
+    "snapshot_changes": 0,
+    "focused_tests": "24/24 PASS",
+    "coverage_register": "143 IDs; 107 complete; 97 eligible; 36 pending",
+    "mapping_rebuild": "row-for-row and order match; whole-file newline serialization differs",
+    "baseline_prefix_hashes": "PASS"
+  },
+  "sha256": {
+    "food_composition": "616a62c3cce8426b058e8aee3c6e746438ee2eea49680f2da492e10101172115",
+    "compound_food_mapping": "9774a96396107409a53f6bef5960daffacf5e40ae25d26e7ecaabbbc8c1d6bc1"
+  },
+  "reports": [
+    "FINAL_CONTINUATION_BASELINE_AUDIT_2026-11-03.md",
+    "COMPOUND_COVERAGE_REGISTER_2026-11-03.csv",
+    "batches/batch_101_final_eligible_foodscreen/SCREENING_NOTE.md",
+    "batches/batch_101_final_eligible_foodscreen/coverage_delta.json",
+    "FOOD_COMPOSITION_COVERAGE_REPORT.md",
+    "MAPPING_COVERAGE_REPORT.md",
+    "SEARCH_COVERAGE_REPORT.md",
+    "SOURCE_VERIFICATION_REPORT.md",
+    "COMPOUND_PRIORITY_REPORT.md",
+    "NEXT_STEPS.md",
+    "RESUME_INSTRUCTIONS.md"
+  ],
+  "limitations": [
+    "Thirty-six Stage B identities remain pending and are outside Phase 1B identity adjudication.",
+    "Ten identity-complete compounds remain without accepted quantitative ordinary-food measurements; all were screened to source-specific limits.",
+    "At least 13 additional identity-complete quantitative compounds are needed for the >109 target; only 10 currently uncovered compounds are identity-complete, and pending identities require Stage B adjudication plus qualifying evidence.",
+    "Cumulative qualitative-only and semiquantitative-only totals are not derivable from the available historical schemas and are not inferred."
+  ],
+  "new_release_created": false
+}

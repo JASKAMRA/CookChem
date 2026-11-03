@@ -1,0 +1,87 @@
+{
+  "checks": {
+    "counts": true,
+    "unique_ids": true,
+    "original_ids_preserved": true,
+    "schema_preserved": true,
+    "unique_identity": true,
+    "mapping": true,
+    "references": true,
+    "source_cache": true,
+    "study_classes": true,
+    "claim_coverage": true,
+    "four_numeric_holds": true,
+    "provisional_apigenin": true,
+    "no_historical_date_invention": true,
+    "registered_food_context": true,
+    "only_logged_changes": true,
+    "five_changed_records": true,
+    "nulls_preserved": true,
+    "egcg_cmax_nonsignificant": true,
+    "piperine_observed_auc_null": true,
+    "fresh_identity_matches": true,
+    "original_warning_coverage": true,
+    "warning_status_source": true,
+    "publication_count": true,
+    "deferred_count": true,
+    "historical_nine": true,
+    "prior_8087_files_unchanged": true
+  },
+  "passed": 26,
+  "total": 26,
+  "prior_files_checked": 8087,
+  "preservation_mismatches": [],
+  "mutations": [
+    {
+      "Mutation": "duplicate_evidence",
+      "Detected": true
+    },
+    {
+      "Mutation": "bad_mapping",
+      "Detected": true
+    },
+    {
+      "Mutation": "bad_pmid",
+      "Detected": true
+    },
+    {
+      "Mutation": "bad_title",
+      "Detected": true
+    },
+    {
+      "Mutation": "bad_doi",
+      "Detected": true
+    },
+    {
+      "Mutation": "wrong_class",
+      "Detected": true
+    },
+    {
+      "Mutation": "unlogged_number",
+      "Detected": true
+    },
+    {
+      "Mutation": "missing_cache",
+      "Detected": true
+    },
+    {
+      "Mutation": "identity_collision",
+      "Detected": true
+    },
+    {
+      "Mutation": "invented_history",
+      "Detected": true
+    },
+    {
+      "Mutation": "remove_numeric_hold",
+      "Detected": true
+    },
+    {
+      "Mutation": "erase_provisional_attribution",
+      "Detected": true
+    }
+  ],
+  "mutations_passed": 12,
+  "mutations_total": 12,
+  "Scientific_Limit": "Structural checks do not resolve primary-publication ambiguity or independently validate every scientific number."
+}

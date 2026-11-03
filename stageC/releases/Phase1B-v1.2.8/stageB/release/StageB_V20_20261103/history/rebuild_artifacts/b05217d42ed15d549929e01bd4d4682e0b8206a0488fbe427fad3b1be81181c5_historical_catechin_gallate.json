@@ -1,0 +1,1102 @@
+{
+  "version": "6.9",
+  "hitCount": 3,
+  "request": {
+    "queryString": "TITLE:\"Catechin gallate\" AND (pharmacokinetic OR interaction OR coadministration OR metabolism OR synergistic) AND SRC:MED NOT PUB_TYPE:Review AND FIRST_PDATE:[1900-01-01 TO 2020-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33257230",
+        "source": "MED",
+        "pmid": "33257230",
+        "doi": "10.1016/j.plaphy.2020.11.036",
+        "title": "Catechin gallate acts as a key metabolite induced by trypsin in Hylocereus undatus during storage indicated by omics.",
+        "authorString": "Pang X, Zhao S, Zhang M, Cai L, Zhang Y, Li X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Pang X",
+              "lastName": "Pang",
+              "firstName": "Xinyue",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Medical Technology and Engineering, Henan University of Science and Technology, Luoyang, 471023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao S",
+              "lastName": "Zhao",
+              "firstName": "Shoujing",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food and Bioengineering, Henan University of Science and Technology, Luoyang, 471023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang M",
+              "lastName": "Zhang",
+              "firstName": "Min",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food and Bioengineering, Henan University of Science and Technology, Luoyang, 471023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cai L",
+              "lastName": "Cai",
+              "firstName": "Luning",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food and Bioengineering, Henan University of Science and Technology, Luoyang, 471023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yinyin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food and Bioengineering, Henan University of Science and Technology, Luoyang, 471023, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li X",
+              "lastName": "Li",
+              "firstName": "Xin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Food and Bioengineering, Henan University of Science and Technology, Luoyang, 471023, China; National Demonstration Center for Experimental Food Processing and Safety Education, Luoyang, 471000, China; Henan Engineering Research Center of Food Microbiology, Luoyang, 471023, China. Electronic address: lixin@haust.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "158",
+          "journalIssueId": 3075556,
+          "dateOfPublication": "2021 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Plant Physiol Biochem",
+            "title": "Plant physiology and biochemistry : PPB",
+            "essn": "1873-2690",
+            "issn": "0981-9428",
+            "isoabbreviation": "Plant Physiol Biochem",
+            "nlmid": "9882449"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "497-507",
+        "abstractText": "Trypsin is a novel superoxide scavenger. The storage quality of H. undatus was significantly improved by trypsin. To investigate the mechanism of flavonoid metabolism regulated by trypsin, combined analysis of widely targeted metabolomic and transcriptome were performed. GO and KEGG enrichment analyses of the transcriptome profiles of H. undatus revealed that some of the flavonoid related biosynthesis pathways were regulated by up or down patterns with the treatment of trypsin. Correlation analysis of flavonoid related genes expression in H. undatus provided a rationale for the functional significance of them. Furthermore, it has been revealed that the most significantly regulated flavonoid was catechin gallate in metabolomic profiles of H. undatus. The major route of flavonoid biosynthesis regulated by trypsin was also illustrated by both transcriptomic and metabolomic data. Finally, the results of PPI network revealed that C4H, HCT, and CYP75B1 acted as hub proteins involved in flavonoid metabolism regulated by trypsin.",
+        "affiliation": "College of Medical Technology and Engineering, Henan University of Science and Technology, Luoyang, 471023, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Elsevier language editing services",
+              "grantId": "331566771",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Key R&amp;D Program of China",
+              "grantId": "2017YFC1600802",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cactaceae",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trypsin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Metabolome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcriptome"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Flavonoid",
+            "Trypsin",
+            "protein-protein interaction (PPI)",
+            "Transcriptomics",
+            "Widely Targeted Metabolomics",
+            "Hylocereus Undatus (H. Undatus)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Trypsin",
+              "registryNumber": "EC 3.4.21.4"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "catechin gallate",
+              "registryNumber": "78OW2GLG8Q"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.plaphy.2020.11.036"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-02-05",
+        "dateOfCreation": "2020-12-01",
+        "dateOfRevision": "2021-02-05",
+        "electronicPublicationDate": "2020-11-25",
+        "firstPublicationDate": "2020-11-25",
+        "firstIndexDate": "2020-12-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "19429387",
+        "source": "MED",
+        "pmid": "19429387",
+        "doi": "10.1016/j.ijdevneu.2009.01.003",
+        "title": "Mitochondrial alterations in aging rat brain: effective role of (-)-epigallo catechin gallate.",
+        "authorString": "Srividhya R, Zarkovic K, Stroser M, Waeg G, Zarkovic N, Kalaiselvi P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Srividhya R",
+              "lastName": "Srividhya",
+              "firstName": "Ravichandran",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Biochemistry, Dr. A.L.M. Post Graduate Institute of Basic Medical Sciences, University of Madras, Taramani Campus, Chennai 600 113, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zarkovic K",
+              "lastName": "Zarkovic",
+              "firstName": "Kamelija",
+              "initials": "K"
+            },
+            {
+              "fullName": "Stroser M",
+              "lastName": "Stroser",
+              "firstName": "Marina",
+              "initials": "M"
+            },
+            {
+              "fullName": "Waeg G",
+              "lastName": "Waeg",
+              "firstName": "Georg",
+              "initials": "G"
+            },
+            {
+              "fullName": "Zarkovic N",
+              "lastName": "Zarkovic",
+              "firstName": "Neven",
+              "initials": "N"
+            },
+            {
+              "fullName": "Kalaiselvi P",
+              "lastName": "Kalaiselvi",
+              "firstName": "Periandavan",
+              "initials": "P"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5032-0369"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5270-2651"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-2460-4046"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-4915-2381"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "27",
+          "journalIssueId": 1603161,
+          "dateOfPublication": "2009 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2009,
+          "journal": {
+            "medlineAbbreviation": "Int J Dev Neurosci",
+            "title": "International journal of developmental neuroscience : the official journal of the International Society for Developmental Neuroscience",
+            "essn": "1873-474X",
+            "issn": "0736-5748",
+            "isoabbreviation": "Int J Dev Neurosci",
+            "nlmid": "8401784"
+          },
+          "printPublicationDate": "2009-05-01"
+        },
+        "pubYear": "2009",
+        "pageInfo": "223-231",
+        "abstractText": "Aging is a multi-factorial process which involves deprivation in body's metabolism. Brain mitochondria are prone to oxidative damage owing to their high metabolic rate. The decline in antioxidant system during aging augments the neuronal damage to mitochondrial components like antioxidant system, Kreb's cycle enzymes and electron transport chain complexes. Since brain is an organ rich in fatty acids, lipid peroxidation products like hydroxynonenal are predominant. Those lipid peroxidation products conjugate with amino acids to form adducts which alter their structural and functional properties. Epigallo catechin gallate is a potent antioxidant which is rich in green tea extract. This study elucidated the antioxidant potential of epigallo catechin gallate to counteract the mitochondrial oxidative damage in brain. The study comprised of young (3-4 months old; 150+/-20 g) and aged (above 24 months; 420+/-20 g) male albino rats of Wistar strain in Groups I and II. Groups III and IV comprised of young and aged rats supplemented with epigallo catechin gallate (2mg/kg body weight) for 30 days. Antioxidants, Kreb's cycle enzymes and electron transport chain complexes were assayed in the mitochondrial fraction. Hydroxynonenal expression was carried out using immunohistochemical analysis. Epigallo catechin gallate supplementation decreased the expression of hydroxynonenal in aged brain, up-regulated the antioxidant system and augmented the activities of Kreb's cycle enzymes and electron transport chain complexes in aged brain mitochondria thus proving its antioxidant potential at the level of mitochondria.",
+        "affiliation": "Department of Medical Biochemistry, Dr. A.L.M. Post Graduate Institute of Basic Medical Sciences, University of Madras, Taramani Campus, Chennai 600 113, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Indian Council of Medical Research",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neurons",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Mitochondria",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport Chain Complex Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neuroprotective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidation-Reduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Peroxidation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidative Stress"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Aging",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Electron Transport Chain Complex Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Neuroprotective Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "epigallocatechin gallate",
+              "registryNumber": "BQM438CTEL"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ijdevneu.2009.01.003"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 37,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2009-07-13",
+        "dateOfCreation": "2009-05-12",
+        "dateOfRevision": "2020-01-06",
+        "electronicPublicationDate": "2009-01-20",
+        "firstPublicationDate": "2009-01-20",
+        "firstIndexDate": "2009-07-14",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15469417",
+        "source": "MED",
+        "pmid": "15469417",
+        "pmcid": "PMC1134865",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC1134865"
+          ]
+        },
+        "doi": "10.1042/bj20040703",
+        "title": "Myricetin, quercetin and catechin-gallate inhibit glucose uptake in isolated rat adipocytes.",
+        "authorString": "Strobel P, Allard C, Perez-Acle T, Calderon R, Aldunate R, Leighton F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Strobel P",
+              "lastName": "Strobel",
+              "firstName": "Pablo",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Nutrition Laboratory, Faculty of Biological Sciences, Universidad Católica de Chile, Casilla 114-D, Santiago, Chile. pstrobel@bio.puc.cl"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Allard C",
+              "lastName": "Allard",
+              "firstName": "Claudio",
+              "initials": "C"
+            },
+            {
+              "fullName": "Perez-Acle T",
+              "lastName": "Perez-Acle",
+              "firstName": "Tomás",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3769-390X"
+              }
+            },
+            {
+              "fullName": "Calderon R",
+              "lastName": "Calderon",
+              "firstName": "Rosario",
+              "initials": "R"
+            },
+            {
+              "fullName": "Aldunate R",
+              "lastName": "Aldunate",
+              "firstName": "Rebeca",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5540-3187"
+              }
+            },
+            {
+              "fullName": "Leighton F",
+              "lastName": "Leighton",
+              "firstName": "Federico",
+              "initials": "F"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3769-390X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5540-3187"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "Pt 3",
+          "volume": "386",
+          "journalIssueId": 1221417,
+          "dateOfPublication": "2005 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "Biochem J",
+            "title": "The Biochemical journal",
+            "essn": "1470-8728",
+            "issn": "0264-6021",
+            "isoabbreviation": "Biochem J",
+            "nlmid": "2984726R"
+          },
+          "printPublicationDate": "2005-03-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "471-478",
+        "abstractText": "The facilitative glucose transporter, GLUT4, mediates insulin-stimulated glucose uptake in adipocytes and muscles, and the participation of GLUT4 in the pathogenesis of various clinical conditions associated with obesity, visceral fat accumulation and insulin resistance has been proposed. Glucose uptake by some members of the GLUT family, mainly GLUT1, is inhibited by flavonoids, the natural polyphenols present in fruits, vegetables and wine. Therefore it is of interest to establish if these polyphenolic compounds present in the diet, known to be effective antioxidants but also endowed with several other biological activities such as protein-tyrosine kinase inhibition, interfere with GLUT4 function. In the present study, we show that three flavonoids, quercetin, myricetin and catechin-gallate, inhibit the uptake of methylglucose by adipocytes over the concentration range of 10-100 microM. These three flavonoids show a competitive pattern of inhibition, with K(i)=16, 33.5 and 90 microM respectively. In contrast, neither catechin nor gallic acid inhibit methylglucose uptake. To obtain a better understanding of the interaction among GLUT4 and flavonoids, we have derived a GLUT4 three-dimensional molecular comparative model, using structural co-ordinates from a GLUT3 comparative model and a mechanosensitive ion channel [PDB (Protein Data Bank) code 1MSL] solved by X-ray diffraction. On the whole, the experimental evidence and computer simulation data favour a transport inhibition mechanism in which flavonoids and GLUT4 interact directly, rather than by a mechanism related to protein-tyrosine kinase and insulin signalling inhibition. Furthermore, the results suggest that GLUT transporters are involved in flavonoid incorporation into cells.",
+        "affiliation": "Molecular Nutrition Laboratory, Faculty of Biological Sciences, Universidad Católica de Chile, Casilla 114-D, Santiago, Chile. pstrobel@bio.puc.cl",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adipocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rats"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Catechin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flavonoids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quercetin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "3-O-Methylglucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tyrosine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monosaccharide Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscle Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Binding, Competitive",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Conformation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Transport",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Phosphorylation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinetics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Thermodynamics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Molecular"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glucose Transporter Type 4"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Flavonoids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Muscle Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "3-O-Methylglucose",
+              "registryNumber": "146-72-5"
+            },
+            {
+              "name": "Monosaccharide Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glucose Transporter Type 4",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Slc2a4 protein, rat",
+              "registryNumber": "0"
+            },
+            {
+              "name": "myricetin",
+              "registryNumber": "76XC01FTOJ"
+            },
+            {
+              "name": "Glucose",
+              "registryNumber": "IY9XDZ35W2"
+            },
+            {
+              "name": "Tyrosine",
+              "registryNumber": "42HK56048U"
+            },
+            {
+              "name": "Catechin",
+              "registryNumber": "8R1V1STN48"
+            },
+            {
+              "name": "Quercetin",
+              "registryNumber": "9IKM0I5T1E"
+            },
+            {
+              "name": "catechin gallate",
+              "registryNumber": "78OW2GLG8Q"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1042/BJ20040703"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1134865"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC1134865?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1042/bj20040703"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 142,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2005-08-25",
+        "dateOfCreation": "2004-10-08",
+        "dateOfRevision": "2024-11-23",
+        "firstPublicationDate": "2005-03-01",
+        "firstIndexDate": "2009-12-23",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

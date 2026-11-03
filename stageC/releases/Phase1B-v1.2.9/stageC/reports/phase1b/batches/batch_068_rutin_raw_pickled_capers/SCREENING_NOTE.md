@@ -1,0 +1,7 @@
+# Batch 068 — rutin in raw and pickled capers
+
+Primary source: Kaşıkçı and Bağdatlıoğlu (2024), *Journal of Food Science and Technology* 61:106–116, DOI 10.1007/s13197-023-05824-x, PMID 38192703; [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC10771397/). Table 3 reports rutin before in vitro digestion as 175.9 ± 3.9 mg/100 g sample in raw capers and 117.5 ± 15.1 mg/100 g sample in pickled capers. Corresponding arithmetic unit conversions are 1,759 ± 39 and 1,175 ± 151 mg/kg as-analyzed sample. Post-digestion values are excluded from food-composition concentration candidates.
+
+The exact analyte is identified as rutin (quercetin-3-O-rutinoside); authentic rutin standard (≥98%) and analyte-specific calibration curve are reported, with RP-HPLC-DAD. Caper buds (<9 mm) were collected in Urla, İzmir, Turkey. Pickled capers were prepared in brine with salt, vinegar and *Lactobacillus plantarum*. The paper reports moisture 84.6% for raw and 87.1% for pickled capers. Extraction used 4 g ground sample in 75% methanol, sonication, three extractions and pooling to 20 mL.
+
+Held candidates: Table 3 gives mean ± SD but does not state n or replicate type, and its individual phenolic table does not explicitly label the denominator fresh or dry weight. Preserve mg/100 g sample and numeric mg/kg as-analyzed only; do not infer fresh/dry basis. These values are unusually high but within source table; source-independent replication is needed before considering promotion. No accepted mapping is changed while the Stage B checksum gate is active.

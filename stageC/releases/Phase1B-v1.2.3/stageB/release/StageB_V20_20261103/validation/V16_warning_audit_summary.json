@@ -1,0 +1,133 @@
+{
+  "release": "StageB_V16_20261102",
+  "inherited_warning_count": 64,
+  "inherited_warnings_audited": 64,
+  "new_warnings": 2,
+  "status_counts": {
+    "NEEDS_MANUAL_REVIEW": 20,
+    "NOT_APPLICABLE": 3,
+    "PARTIALLY_RESOLVED": 15,
+    "RESOLVED": 2,
+    "STILL_VALID": 26
+  },
+  "inherited_status_counts": {
+    "NEEDS_MANUAL_REVIEW": 19,
+    "NOT_APPLICABLE": 3,
+    "PARTIALLY_RESOLVED": 15,
+    "RESOLVED": 1,
+    "STILL_VALID": 26
+  },
+  "severity_distribution": "Inherited V15 warning ledger has no severity field; all inherited severities recorded as NOT_RECORDED. No severity was retroactively invented.",
+  "resolved_ids": [
+    "V3-W04",
+    "V16-W01"
+  ],
+  "partially_resolved_ids": [
+    "V3-W01",
+    "V3-W03",
+    "V3-W05",
+    "V3-W07",
+    "V5-parent_identity_scope",
+    "V6-v6_abstract_scope",
+    "V6-v6_reference_stereochemistry",
+    "v7_identity_scope",
+    "V8-W25",
+    "V9-W01",
+    "V9-W03",
+    "V10-W01",
+    "V11-W01",
+    "V11-W02",
+    "V11-W05"
+  ],
+  "still_valid_ids": [
+    "V3-W02",
+    "V3-W06",
+    "V3-W09",
+    "V5-new_abstract_detail_gaps",
+    "V5-source_reporting_units",
+    "V5-possible_participant_overlap",
+    "V5-bibliographic-gaps",
+    "v7_source_scope",
+    "v7_source_discrepancies",
+    "v7_unequal_dose_comparator",
+    "V8-W24",
+    "V10-W02",
+    "V10-W03",
+    "V10-W04",
+    "V10-W05",
+    "V10-W06",
+    "V10-W07",
+    "V13-W01",
+    "V13-W02",
+    "V14-W02",
+    "V14-W03",
+    "V14-W04",
+    "V14-W05",
+    "V15-W01",
+    "V15-W02",
+    "V15-W03"
+  ],
+  "needs_manual_review_ids": [
+    "V3-W08",
+    "V4-W10",
+    "V11-W03",
+    "V11-W04",
+    "V11-W06",
+    "V12-122685",
+    "V12-465405",
+    "V12-5702287",
+    "V12-3712",
+    "V12-16741",
+    "V12-5281779",
+    "V12-100625",
+    "V12-5280647",
+    "V12-5280544",
+    "V12-107905",
+    "V12-72277",
+    "V12-6419835",
+    "V12-65084",
+    "V12-5276890",
+    "V16-W02"
+  ],
+  "not_applicable_ids": [
+    "V5-target_not_fully_reached",
+    "V6-v6_anchor_target_gap",
+    "V9-W02"
+  ],
+  "resolution_details": {
+    "V3-W04": "V15 ledger records the Crossref/title lookup issue resolved after MED metadata verification; retained as historical resolved warning. This closes lookup access only, not scientific outcome verification.",
+    "V16-W01": "Corrected V16 metadata to the observed manifest count; V15 historical files are retained unchanged. Re-run exact manifest verification after final packaging."
+  },
+  "warning_category_counts": {
+    "Data provenance / scientific verification / reproducibility": 6,
+    "Food-context / in-vitro interpretation": 14,
+    "Numerical verification limitation": 1,
+    "Research scope limitation": 3,
+    "Research scope or source reporting limitation": 4,
+    "Source reporting limitation": 1,
+    "V16 audit finding": 2,
+    "bibliographic limitation": 1,
+    "conflicting evidence": 1,
+    "coverage limitation": 1,
+    "expected research scope uncertainty": 1,
+    "identity and analyte ambiguity": 1,
+    "identity traceability": 1,
+    "identity/stereochemistry uncertainty": 1,
+    "inaccessible full text and preparation ambiguity": 1,
+    "missing bibliographic identifier": 1,
+    "previously inaccessible source": 1,
+    "provenance gap": 2,
+    "research or provenance limitation": 5,
+    "review scope limitation": 1,
+    "scientific or provenance limitation": 7,
+    "scientific uncertainty": 7,
+    "source reporting issue": 2,
+    "source verification": 1
+  },
+  "inherited_severity_distribution": {
+    "NOT_RECORDED": 64
+  },
+  "all_release_severity_distribution": {
+    "NOT_RECORDED": 66
+  }
+}

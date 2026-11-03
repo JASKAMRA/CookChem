@@ -1,0 +1,40 @@
+{
+  "release": "Phase2-v0.1.0",
+  "status": "NOT COMPLETE \u2014 interim reproducible integration",
+  "build_command": "python3 stageC/scripts/build_phase2_release.py",
+  "source_phase1b_release": "Phase1B-v1.3.0",
+  "input_hashes": {
+    "stageC/releases/Phase1B-v1.3.0/stageC/data/food_composition/food_composition.csv": "40f2e41494ce1f8cbd58ff52bd9e8678236145ad740dd8a0a25c0b6054d02ece",
+    "stageC/releases/Phase1B-v1.3.0/stageC/data/compound_food_mapping/compound_food_mapping.csv": "e792e6a5675fdbd71e50f6afa8ea5dd48138ad45010bbede1c567a65b25e35d2",
+    "stageA/input/cookchem_molecular_retention_preprocessed.csv": "750124efc8b89dff1f67764064b1049b5db51fb1b2f222d4f91cd94c56945f89",
+    "stageB/final_model/stageB_selected_model_manifest.json": "e1f16367b8245a910ca3e26623f87c3bf522d462afcec854604143c8760d8cde",
+    "stageB/final_model/cookrisk_retention_stageB_selected.joblib": "0f03701099a66792c8ebf9b81d650114968a415996e17ae5dd34048f5e15cb62",
+    "stageB/release/StageB_V20_20261103/data/compound_registry.csv": "0dfed5ed3faa42f4242d41f7cb1423862ed27fc5b5f507eac017b01c3071edc9",
+    "stageB/release/StageB_V20_20261103/data/cooking_retention_evidence.csv": "51f4a65f5eba6b2e1b5b41cbfc64c710362d3575bb3c53e2cf72bbd232a7d950",
+    "stageC/phase2/data/identity_candidate_review.csv": "b5803507a6b86c965a24080ddd0b770662abd73d3f3c2b9ee26aef2252764d68",
+    "stageC/phase2/data/observed_cooking_pairs.csv": "b41d2e122bbfc5e2f64bf9bcf6c99d3a1259562ab13112c991fe7e7f58946fc6",
+    "stageC/phase2/data/observed_retention_evidence.csv": "2e60033a20fa7416d9f0828f2d9c62c2739cbe1e84f34ff3a730aa3556f277dd",
+    "stageC/phase2/data/stagea_stageb_identity_crosswalk.csv": "aa597d67e44b3ff69d90028e5e97b7038ce761f747c5a0ac20e73f314bcf9d49"
+  },
+  "file_hashes": {
+    "PHASE2_COMPLETION_REPORT.md": "7f086daf83966cf636d4619d08dec9fa83dd73a66d55e355b8fc7aca2bb45aaa",
+    "README.md": "e62231a16f991172ea1a370aab4eca53c52f251b7a6b27a7cefc28e3dea42449",
+    "data/accepted_identity_crosswalk.csv": "2debd35ecd0655eafa035afa7f36ac7252d49b51428f3d5cbf4b8e27278cfc43",
+    "data/contextual_food_concentrations.csv": "3c5b0f0eb948726acef626ed0fec2305c1e8f1f0b6c6424807db7b586eea8e5d",
+    "data/cooked_concentration_estimates.csv": "fc274ad8476aa83c618a53c1a6ed4b37493af9307189b03db97c3cc2d6384b8d",
+    "data/experimental_apparent_concentration_ratios.csv": "3282c8f591be6ee829fbdc461cec12e6299abc11b6dd2048fc171f9177cbe248",
+    "data/identity_review_45.csv": "55d7ab2c62b96acb96a87af1c0d87788e7c62b22a98f927e12ea68d7fc5d4c03",
+    "data/ordinary_food_concentrations.csv": "6f162d963c2bd1d7f1a511229b7c42da87a54d8eaca4e36bbceb7b0306f92cf0",
+    "data/phase1b_integrated_all.csv": "0b2541d56ead5ed9c2e7c6b367a16c2572da346d12c05377e1cecb7ffb950228",
+    "data/phase2_integration_summary.json": "6b7aed9bdef2ef7e4e0816770675cd1357a4ab8447f6dfd92abaa89cbab37aaa",
+    "data/qualitative_retention_records.csv": "3855f501a21a64d083b5d743abb14b488006a55a7f40271ff18243eeefcf2912",
+    "data/retention_applicability_review.csv": "d02c874ac6268ff29e9a677fc93c46ba831ae80efbe641b60bfc942fd56a7c57",
+    "data/source_identity_candidate_review.csv": "b5803507a6b86c965a24080ddd0b770662abd73d3f3c2b9ee26aef2252764d68",
+    "data/source_observed_cooking_pairs.csv": "b41d2e122bbfc5e2f64bf9bcf6c99d3a1259562ab13112c991fe7e7f58946fc6",
+    "data/source_observed_retention_evidence.csv": "2e60033a20fa7416d9f0828f2d9c62c2739cbe1e84f34ff3a730aa3556f277dd",
+    "data/source_stagea_stageb_identity_crosswalk.csv": "aa597d67e44b3ff69d90028e5e97b7038ce761f747c5a0ac20e73f314bcf9d49",
+    "data/unresolved_identity_crosswalk.csv": "f1709b8adf1d86e624cb5eaadf4ebc90328798abe6cc5593da8fb5b34a7edb46",
+    "scripts/build_phase2_release.py": "c768c497b91164ad7abb63673ec167b567acadfe9485970f83e9e415040d3ea7",
+    "validation/validation_summary.json": "c30a0a4d9cef153c8dc0e588057bd9f55e3e162564c995a6d16d79bfcffc7eb4"
+  }
+}

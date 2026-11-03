@@ -1,25 +1,15 @@
 # CookRisk Stage C
 
-Stage C Phase 1 is the read-only integration, food-record validation, conservative mapping, Decimal unit conversion, raw-food calculation, and provenance foundation. The active connector verifies the exact manifest for `stageB/release/StageB_FINALIZED` before exposing its 143 compounds.
+## Current handoff
 
-## Registry and preserved Phase 1B data
+Phase 1B's authoritative closeout is the versioned [Phase1B-v1.3.0 release](releases/Phase1B-v1.3.0/README.md). It uses the V20 identity-adjudicated registry (143 total; 130 identity-complete; 13 pending), 584 food records/mappings, and 125 accepted quantitative food-covered compounds. The user accepted Phase 1B completion at 125/130: the approximate 120 target is met and the 130 minimum remains five short.
 
-All 143 finalized Stage B compound IDs are available to Phase 1. The previous 119 IDs remain present; the 24 added IDs are imported without new food mappings. Registry names and chemical identifiers are compared with the Stage B identity audit. Pending identities and the catechin/epicatechin stereochemistry review remain visible.
+Phase 2 is active in `stageC/phase2/`. It includes an identity crosswalk and review ledger, separate observed-retention evidence, guarded interval arithmetic, and 117 source-transcribed raw/cooked group-mean concentration pairs for 24 analytes from two primary studies. These empirical pairs are not model predictions and are not joined to Phase 1B food concentrations. A frozen Stage B Extra Trees candidate exists, but its recorded training-input hash differs from the current Stage A input and the required runtime packages are unavailable; model inference remains blocked.
 
-The existing Phase 1B files remain unchanged: **511 quantitative food-composition records** and **511 mapping rows**. They contain 109 legacy mapped compounds, but Stage B currently marks 16 of those compounds for manual identity review; their 46 mapping rows are retained and blocked from exposure calculations. Current identity-complete quantitative coverage is **93 of 143 compounds**. The 24 newer compounds have no mappings, and 34 compounds have no legacy food mappings. Missing values remain missing.
+## Preserved Phase 1 working tree
 
-Contextual botanical measurements remain separate from ordinary-food coverage. Values retain their source units and sample basis; the pipeline does not infer food density, fresh-weight equivalence, cooking retention, recipe dilution, bioavailability, or health risk.
+The repository-root Phase 1 implementation remains the separately preserved `Phase1-v1.3.0` foundation connected to `StageB_FINALIZED`; it is not overwritten by the Phase1B V20 successor. Its older working-tree test fixtures and data are therefore not the Phase1B-v1.3.0 release dataset.
 
-## Validate and test
+## Checks
 
-Run from the repository root with Python 3.14 or compatible Python 3:
-
-```sh
-python stageC/scripts/import_stage_b.py
-python stageC/scripts/inspect_stage_b.py
-python stageC/scripts/validate_phase1.py
-pwsh -NoProfile -File stageC/scripts/validate_json_schemas.ps1
-python -B -m unittest discover -s stageC/tests -v
-```
-
-The updated software-foundation release is `stageC/releases/Phase1-v1.3.0/`. The prior `Phase1B-v1.0.0` package remains a historical release against its original 119-compound input.
+The Phase1B-v1.3.0 package validator and manifest verifier pass. Phase 2 tests pass 9/9, and all 117 source-pair ratios match their Stage A retention fields within 0.01 percentage point. The earlier repository-wide suite ran 104 tests: 101 passed and three assertions remain pinned to earlier Phase1B working-tree counts (100 vs 101 coverage and 62 vs 63 source registry rows). Details are in `stageC/reports/phase2/PHASE2_KICKOFF_READINESS_AUDIT.md`.

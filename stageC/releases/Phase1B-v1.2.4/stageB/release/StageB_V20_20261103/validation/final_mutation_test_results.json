@@ -1,0 +1,94 @@
+{
+  "attempted": 12,
+  "detected": 12,
+  "missed": [],
+  "detection_rate": 1.0,
+  "temporary_copies_removed": true,
+  "cases": [
+    {
+      "Mutation": "duplicate compound ID",
+      "Expected_Code": "CMP_ID_DUP",
+      "Target_Record": "MOL-E8216E9AF4FCDA58",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "duplicate evidence ID",
+      "Expected_Code": "EVI_ID_DUP",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "orphan compound reference",
+      "Expected_Code": "FK_COMPOUND",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "orphan drug reference",
+      "Expected_Code": "FK_DRUG",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "missing study reference",
+      "Expected_Code": "FK_STUDY",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "invalid evidence class",
+      "Expected_Code": "EVIDENCE_CLASS",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "invalid PMID",
+      "Expected_Code": "PMID_FORMAT",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "duplicate InChIKey",
+      "Expected_Code": "IDENTITY_DUP_KEY",
+      "Target_Record": "YBHILYKTIRIUTE-UHFFFAOYSA-N",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "missing source claim",
+      "Expected_Code": "CLAIM_MISSING",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "missing selection rationale",
+      "Expected_Code": "SELECTION_MISSING",
+      "Target_Record": "MOL-V12-CID-122685",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "duplicate warning ID",
+      "Expected_Code": "WARNING_ID_DUP",
+      "Target_Record": "V3-W01",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    },
+    {
+      "Mutation": "cooking/interactions domain collision",
+      "Expected_Code": "DOMAIN_ID_COLLISION",
+      "Target_Record": "SB-0001",
+      "Detected": true,
+      "Observed_Matching_Diagnostics": 1
+    }
+  ],
+  "status": "PASS"
+}

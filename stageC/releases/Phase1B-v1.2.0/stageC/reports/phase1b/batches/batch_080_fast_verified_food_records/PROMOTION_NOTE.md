@@ -1,0 +1,5 @@
+# Batch 080 — screened record promotion
+
+Promoted 93 quantitative food records from nine existing primary-source or USDA batches after exact Stage B compound-ID/name mapping and schema/unit validation. The 14 targets are chrysin, genistein, galangin, pinocembrin, glycyrrhizin, coumestrol, vanillin, (+)-gallocatechin, (−)-epigallocatechin, (−)-epicatechin gallate, carvacrol, thymol, eugenol, and phloretin. Exact IDs and values are listed in `ingested_food_records.csv`. Sources include targeted LC-HRMS honey medians, USDA strawberry flavonoid summaries, analytical studies of culinary produce/spices, and measured fruit matrices. Source statistics are retained as medians/weighted means where applicable; no per-lot observations are invented.
+
+The Danish licorice tea candidate (mg/L) was not included because a mass-basis conversion would require unreported density. The official Stage C pipeline produced 287 active records and mappings; coverage is 62/119. Phase 1 validation status: PASS.
