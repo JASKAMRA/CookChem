@@ -82,6 +82,13 @@ class SyntheticProvider:
     def authorize_assignment(self, actor, operation, *, target_issuer, target_subject_id):
         return operation == "assign_self" and actor.issuer == target_issuer and actor.subject_id == target_subject_id
 
+    def qualification_attestation(self, issuer, subject_id, review_type):
+        return {"status": "VERIFIED", "review_type": review_type,
+                "qualification_reference": f"synthetic:{issuer}:{subject_id}:{review_type}"}
+
+    def verify_qualification_attestation(self, issuer, subject_id, review_type, attestation):
+        return (attestation == self.qualification_attestation(issuer, subject_id, review_type))
+
 
 class AuthenticationOnlyProvider:
     def authenticate(self, credentials):

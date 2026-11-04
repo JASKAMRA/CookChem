@@ -21,7 +21,9 @@ from stage_d.assignment_ledger import (  # noqa: E402
     stable_assignment_id,
     verify_assignment_ledger,
 )
-from stage_d.audit_checkpoint import create_assignment_checkpoint, verify_assignment_checkpoint  # noqa: E402
+from stage_d.audit_checkpoint import (  # noqa: E402
+    AuditCheckpointError, create_assignment_checkpoint, verify_assignment_checkpoint,
+)
 from stage_d.evidence_queue import SOURCE_SHA256, SOURCE_RELEASE, build_queue_from_rows  # noqa: E402
 from stage_d.evidence_review_workflow import append_review_action  # noqa: E402
 from stage_d.reviewer_identity import AuthenticatedReviewer  # noqa: E402
@@ -211,6 +213,22 @@ class AssignmentLedgerTests(unittest.TestCase):
                 identity_provider=provider, checkpoint_provider=checkpoint_provider,
             )
             self.assertEqual(result["status"], "CHECKPOINT_MISMATCH")
+
+    def test_assignment_publish_response_requires_successful_reference_verification(self):
+        class LyingCheckpointProvider(SyntheticCheckpointProvider):
+            def verify_checkpoint(self, payload, reference):
+                return False
+
+        provider = SyntheticProvider()
+        record = self.queue["records"][0]
+        with tempfile.TemporaryDirectory(prefix=".assignment-ledger-", dir=STAGE_D / "tests") as tmp:
+            path = Path(tmp) / "assignments.jsonl"
+            self._assign(path, record, provider)
+            with self.assertRaisesRegex(AuditCheckpointError, "did not verify the published assignment head"):
+                create_assignment_checkpoint(
+                    str(path), self.queue, identity_provider=provider,
+                    checkpoint_provider=LyingCheckpointProvider(),
+                )
 
     def test_verified_assignment_and_review_ledgers_join_into_workload(self):
         provider = SyntheticProvider()

@@ -368,7 +368,8 @@ class CookRiskService:
 
     def review_coverage(self):
         queue, events = self._review_snapshot()
-        return build_coverage_dashboard(queue, events)
+        dashboard = build_coverage_dashboard(queue, events)
+        return {**dashboard, "record_count": len(queue["records"])}
 
     def review_assignment(self, filters: dict[str, str], *, assigned_to: str | None = None):
         queue, events = self._review_snapshot()

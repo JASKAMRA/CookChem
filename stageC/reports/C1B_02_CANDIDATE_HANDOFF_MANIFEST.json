@@ -1,0 +1,291 @@
+{
+  "manifest_id": "CookRisk-StageC-Candidate-Handoff-2026-11-05",
+  "status": "CANDIDATE_ONLY_NOT_OWNER_APPROVED_NOT_AN_ARCHIVE",
+  "hash_policy": "SHA-256 over exact original bytes; no normalization",
+  "included_scope": [
+    "Stage C app runtime and static browser assets",
+    "Stage C Python application modules",
+    "Stage C JSON schemas",
+    "Stage C API test module (partner must run only the named isolated tests)"
+  ],
+  "files": [
+    {
+      "path": "stageC/app/README.md",
+      "size_bytes": 4746,
+      "sha256_exact_bytes": "f7a8ab762ba7fd3bb2638f068375152dad0faded7f473bb417ec9a919afa9350"
+    },
+    {
+      "path": "stageC/app/__init__.py",
+      "size_bytes": 59,
+      "sha256_exact_bytes": "53d494d8fe6163e457261a5747dddefda57772a3ebed4f6f6115c084925b02b5"
+    },
+    {
+      "path": "stageC/app/server.py",
+      "size_bytes": 41623,
+      "sha256_exact_bytes": "a00edb466feed1e8084ddaff1f2a7855ff83c36d1aabc9cd80e4c4f8db3f0304"
+    },
+    {
+      "path": "stageC/app/static/app.js",
+      "size_bytes": 48165,
+      "sha256_exact_bytes": "8832bb310b2f2928e4568ca71adaf527287d7913ff58a38c4823f8fe1101fbe8"
+    },
+    {
+      "path": "stageC/app/static/index.html",
+      "size_bytes": 13598,
+      "sha256_exact_bytes": "0ad14b69f28cf9af6d2326fe83f8119301c2d5d0e0fedfa465b5376feca4bcf2"
+    },
+    {
+      "path": "stageC/app/static/style.css",
+      "size_bytes": 11335,
+      "sha256_exact_bytes": "68b39bf540eb5efcffa16a71c7e8f5fc6b6b04a6c7ed0335c8e4c07c2cc0833f"
+    },
+    {
+      "path": "stageC/schemas/compound_food_mapping_schema.json",
+      "size_bytes": 992,
+      "sha256_exact_bytes": "a19e0b40d200c5383e6611949688f4db562fc33db235835b655ce6fd28a5b398"
+    },
+    {
+      "path": "stageC/schemas/compound_schema.json",
+      "size_bytes": 505,
+      "sha256_exact_bytes": "0557826840e96f34e604bcad8111e27e17c52ec9fd2ecb80552a8486a6237ecf"
+    },
+    {
+      "path": "stageC/schemas/exposure_input_schema.json",
+      "size_bytes": 653,
+      "sha256_exact_bytes": "66960a40721eb00310b37952a432c7e2ed9d2dd90e6af740224131909163048f"
+    },
+    {
+      "path": "stageC/schemas/exposure_output_schema.json",
+      "size_bytes": 1509,
+      "sha256_exact_bytes": "d1f7546f12e4e9136210d4dbed71ee7ee9dcbe90e187a80a3e290cc3b47ea6f1"
+    },
+    {
+      "path": "stageC/schemas/food_composition_schema.json",
+      "size_bytes": 2291,
+      "sha256_exact_bytes": "7bab7d149e759eba2b1e7cdd99a6c1abc4af35a9a919662a34d9f0625ce4b7b8"
+    },
+    {
+      "path": "stageC/schemas/food_schema.json",
+      "size_bytes": 634,
+      "sha256_exact_bytes": "a6aa6c52e57f4160655c692af3bf56ac923e0127c757d12290813ecb924c3184"
+    },
+    {
+      "path": "stageC/schemas/meal.schema.json",
+      "size_bytes": 4989,
+      "sha256_exact_bytes": "33f0ac9d49c81c6b8f4d6bc14a07aeeb87627ef62767e7ec60e89a79d9da6d25"
+    },
+    {
+      "path": "stageC/schemas/multi_compound_sensitivity.schema.json",
+      "size_bytes": 1463,
+      "sha256_exact_bytes": "c21979e7fa6fd4d0153f6fe3cf1e63f8529ed97523c9fc07b4762416f6160648"
+    },
+    {
+      "path": "stageC/schemas/phase2_cooked_concentration.schema.json",
+      "size_bytes": 1236,
+      "sha256_exact_bytes": "c16cbf67c702bcfa5471198f5dda3da49dded5b3eac5a0749eb4cf137a0ec71e"
+    },
+    {
+      "path": "stageC/schemas/phase2_source_pair_audit.schema.json",
+      "size_bytes": 1560,
+      "sha256_exact_bytes": "2a201a47ae916db905d73063e89b3fe630e8ca2bacc9146f4420774a1599495f"
+    },
+    {
+      "path": "stageC/schemas/provenance_schema.json",
+      "size_bytes": 830,
+      "sha256_exact_bytes": "bf4bde0a8bb78b8fd5f28098a086587340b4c907acc3dc26efe8244b68548153"
+    },
+    {
+      "path": "stageC/schemas/recipe.schema.json",
+      "size_bytes": 6646,
+      "sha256_exact_bytes": "7d6881ff0d771149d22d88401d0d75c4b0a76682429b985eed7400123e3880c4"
+    },
+    {
+      "path": "stageC/schemas/stage_a_deployment_manifest.schema.json",
+      "size_bytes": 7726,
+      "sha256_exact_bytes": "6b7da2bbb6d91869db4541f719d748b855902d74ab3dd007f9ef6e695dcebaf7"
+    },
+    {
+      "path": "stageC/schemas/stage_a_owner_decision_tracker.schema.json",
+      "size_bytes": 2381,
+      "sha256_exact_bytes": "9662ee4cc81679f1eca29513a8320a17932cf4c327fa30143ac22e20912e17fb"
+    },
+    {
+      "path": "stageC/schemas/stage_a_prediction.schema.json",
+      "size_bytes": 4946,
+      "sha256_exact_bytes": "0cdaa87b0578b6842016c461db57ad4856014026c615fe7daaef968c91a90b3d"
+    },
+    {
+      "path": "stageC/schemas/stage_b_import_manifest_schema.json",
+      "size_bytes": 1742,
+      "sha256_exact_bytes": "c43027953a84358f0eeeea22f997e0415bf9bf7594a882eee652e62cd49b57a6"
+    },
+    {
+      "path": "stageC/schemas/synthetic_validation_benchmark.schema.json",
+      "size_bytes": 4298,
+      "sha256_exact_bytes": "b0122d1bd8308077e7b4fcf5cf2d59ea93ffe512ce947335a77b2d44075b5351"
+    },
+    {
+      "path": "stageC/schemas/uncertainty_assessment.schema.json",
+      "size_bytes": 6293,
+      "sha256_exact_bytes": "dd3c3bd0a2fba131e88ccde33564054cc65fecbe4029c2bd4a519d7a05b90021"
+    },
+    {
+      "path": "stageC/schemas/uncertainty_coverage.schema.json",
+      "size_bytes": 3511,
+      "sha256_exact_bytes": "11ea46b83c5d9af317303aabec159da2afba4776767549ebb2ba32368173215c"
+    },
+    {
+      "path": "stageC/schemas/uncertainty_gap_registry.schema.json",
+      "size_bytes": 2789,
+      "sha256_exact_bytes": "9ae830797987f4d3d73858588915d6bc41034b206fce83abead02e7f4b8dc08b"
+    },
+    {
+      "path": "stageC/schemas/uncertainty_inputs.schema.json",
+      "size_bytes": 2351,
+      "sha256_exact_bytes": "847cbe8c5ab51991c9b0124be8d560c20cc68a0d736ba5af5b3dc039c53c31a9"
+    },
+    {
+      "path": "stageC/schemas/uncertainty_sensitivity.schema.json",
+      "size_bytes": 2517,
+      "sha256_exact_bytes": "86fddba71373a2f61889081bf0683ad8a4d2259777a9150df2e5178c8a6fc2bd"
+    },
+    {
+      "path": "stageC/src/stage_c/__init__.py",
+      "size_bytes": 97,
+      "sha256_exact_bytes": "125b6123e0a03f4c5eedbdff2c9cfcaa1c6821b0359a6f5ae0e7f97fdb048784"
+    },
+    {
+      "path": "stageC/src/stage_c/cli.py",
+      "size_bytes": 18805,
+      "sha256_exact_bytes": "56a1ed287d1c184150a0659a3202abc89ad591db210f74474279d665e2a5e912"
+    },
+    {
+      "path": "stageC/src/stage_c/compound_mapping.py",
+      "size_bytes": 14218,
+      "sha256_exact_bytes": "eb5bb43168fb8e5ccb8ae9602baec2f750e02b2732e694f854c907be1e6fd31e"
+    },
+    {
+      "path": "stageC/src/stage_c/cooking_integration.py",
+      "size_bytes": 21712,
+      "sha256_exact_bytes": "3488cb6862b5622768ca7fd158f0d159b4b77af8849e571ae0b0d3870047d3ae"
+    },
+    {
+      "path": "stageC/src/stage_c/deployment_decisions.py",
+      "size_bytes": 11280,
+      "sha256_exact_bytes": "a38ddcb516478c035c3d045c9c4b0a700175e40407353520ba361dac13c9301d"
+    },
+    {
+      "path": "stageC/src/stage_c/deployment_package.py",
+      "size_bytes": 23028,
+      "sha256_exact_bytes": "b28c24b3de3531d9307618e0538b0fdb7f7028c6db62df27c94458bd7b74f7b8"
+    },
+    {
+      "path": "stageC/src/stage_c/exceptions.py",
+      "size_bytes": 426,
+      "sha256_exact_bytes": "f34fae16f90d4dc7282c16a70c5363a7e7c793f25369957339f52fca55e013b6"
+    },
+    {
+      "path": "stageC/src/stage_c/exposure_engine.py",
+      "size_bytes": 14798,
+      "sha256_exact_bytes": "5e4bcefa6d5f30b50caabd6e1090c982e8ee203ec941c49e9defd3abd5a85676"
+    },
+    {
+      "path": "stageC/src/stage_c/food_composition.py",
+      "size_bytes": 7692,
+      "sha256_exact_bytes": "302993aac249177def887d0b4f75b0579b4aaf7b1ecfea73952eb09e6cf40f0e"
+    },
+    {
+      "path": "stageC/src/stage_c/phase2_retention.py",
+      "size_bytes": 3235,
+      "sha256_exact_bytes": "3af4debc4936efbfd7ab5078e54f1fcdfec0129631f45047fd1df44fd727c0d9"
+    },
+    {
+      "path": "stageC/src/stage_c/provenance.py",
+      "size_bytes": 2148,
+      "sha256_exact_bytes": "88c38381bac78d5c19c3e31292ef13591e3d5e57711e73d680931cdfc0c4750a"
+    },
+    {
+      "path": "stageC/src/stage_c/recipe_engine.py",
+      "size_bytes": 58421,
+      "sha256_exact_bytes": "e9ab7dc86cdc18f21fb1f7b21dccdef82703a350bb03aa60f1a0c5bd9343678a"
+    },
+    {
+      "path": "stageC/src/stage_c/release_adapters.py",
+      "size_bytes": 12355,
+      "sha256_exact_bytes": "4fd24bf7c3eb509491fe8f606798f448c4c65bfdf85948749385a3ac228ca986"
+    },
+    {
+      "path": "stageC/src/stage_c/stage_b_connector.py",
+      "size_bytes": 19558,
+      "sha256_exact_bytes": "2ceef9a23b3fa9835f7e76fb5045546e14c3fadf61045f19034849da30f67766"
+    },
+    {
+      "path": "stageC/src/stage_c/uncertainty.py",
+      "size_bytes": 53292,
+      "sha256_exact_bytes": "7ca3cc440bd7c18774917cb3ccc84e5d093384d8ae98e2706cd287769ded3df6"
+    },
+    {
+      "path": "stageC/src/stage_c/unit_conversion.py",
+      "size_bytes": 4414,
+      "sha256_exact_bytes": "ac34a928b8cd306de99abaf12da8008118d742ce3f5361c642690de8f1518bc2"
+    },
+    {
+      "path": "stageC/src/stage_c/validation.py",
+      "size_bytes": 29980,
+      "sha256_exact_bytes": "4688a48be50b23a1fd398ff720294370e244c83218b26b7d4b76d68360eec4d7"
+    },
+    {
+      "path": "stageC/tests/test_app_api.py",
+      "size_bytes": 15198,
+      "sha256_exact_bytes": "0cce6b8dc6d8ff32c8e1bb2ab280bf27ee58181c4844a69af70235d56e5faa4e"
+    }
+  ],
+  "release_identifiers_required_but_not_included": [
+    {
+      "id": "Phase1B-v1.3.2",
+      "role": "food composition runtime package; complete original package and verifier require owner/authorized-partner provisioning"
+    },
+    {
+      "id": "Phase2-v0.3.1",
+      "role": "cooking/retention runtime context; owner/authorized-partner provisioning"
+    },
+    {
+      "id": "Phase4-v0.1.2",
+      "role": "degraded integrity context; preserve as-is and expect fail-closed degraded state"
+    }
+  ],
+  "separately_provisioned_runtime_dependencies": [
+    {
+      "dependency": "Protected Stage B interaction-evidence runtime input",
+      "provider": "authorized owner/partner only",
+      "included": false,
+      "inspected_or_hashed_by_Codex": false
+    },
+    {
+      "dependency": "Stage D source modules and mechanism-evidence registry required by current app runtime",
+      "provider": "authorized owner/partner only",
+      "included": false,
+      "modified_or_hashed_by_Codex": false
+    },
+    {
+      "dependency": "Stage C release packages listed above",
+      "provider": "authorized owner/partner only",
+      "included": false,
+      "modified_or_hashed_by_Codex": false
+    }
+  ],
+  "explicit_exclusions": [
+    "All Stage B files and embedded Stage B snapshots",
+    "All Stage D files",
+    "All Stage A models, data, and artifacts",
+    "Scientific source datasets and Phase 2 observation data",
+    "Frozen release directories, manifests, historical outputs, and archives"
+  ],
+  "limitations": [
+    "No archive was created; this manifest hashes only the listed candidate files.",
+    "Candidate source bundle cannot run the app without the separately provisioned runtime dependencies.",
+    "The existing Phase1B full-package verifier must not be reported as passing unless the complete owner-provisioned package is present and actually verified.",
+    "Windows/browser portability remains unverified until partner execution.",
+    "Candidate content requires owner review; this document does not claim approval."
+  ]
+}

@@ -52,6 +52,13 @@ class ReviewerIdentityProvider(Protocol):
     def authorize_assignment(self, actor: AuthenticatedReviewer, operation: str, *, target_issuer: str, target_subject_id: str) -> bool:
         """Authorize assignment creation/reassignment under current policy."""
 
+    def qualification_attestation(self, issuer: str, subject_id: str, review_type: str) -> dict[str, Any] | None:
+        """Return the authoritative qualification record for this review scope."""
+
+    def verify_qualification_attestation(self, issuer: str, subject_id: str, review_type: str,
+                                         attestation: dict[str, Any]) -> bool:
+        """Verify the qualification claim and its validity at action time."""
+
 
 def authenticate_reviewer(provider: ReviewerIdentityProvider | None, credentials: Any) -> AuthenticatedReviewer:
     if provider is None:
@@ -89,7 +96,8 @@ def reviewer_authorization_diagnostics(provider: ReviewerIdentityProvider | None
     """Report production authorization readiness without treating test providers as trusted."""
     required_methods = (
         "authenticate", "sign_audit_event", "verify_audit_event", "trusted_configuration",
-        "resolve_reviewer", "authorize_assignment",
+        "resolve_reviewer", "authorize_assignment", "qualification_attestation",
+        "verify_qualification_attestation",
     )
     if provider is None:
         return {

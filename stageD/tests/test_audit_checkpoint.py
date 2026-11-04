@@ -117,6 +117,67 @@ class AuditCheckpointTests(unittest.TestCase):
             )
             self.assertEqual(result["status"], "CHECKPOINT_MISMATCH")
 
+    def test_tampered_checkpoint_digest_payload_and_reference_fail_closed(self):
+        reviewer = SyntheticReviewerProvider()
+        checkpoint_provider = SyntheticCheckpointProvider()
+        with tempfile.TemporaryDirectory(prefix=".audit-checkpoint-", dir=STAGE_D / "tests") as tmp:
+            log = Path(tmp) / "actions.jsonl"
+            append_review_action(
+                log, self.queue, self._action(), identity_provider=reviewer,
+                credentials="synthetic-test-credential",
+            )
+            checkpoint = create_external_checkpoint(
+                str(log), self.queue, identity_provider=reviewer,
+                checkpoint_provider=checkpoint_provider,
+            )
+
+            bad_digest = dict(checkpoint, payload_sha256="0" * 64)
+            result = verify_external_checkpoint(
+                str(log), self.queue, bad_digest,
+                identity_provider=reviewer, checkpoint_provider=checkpoint_provider,
+            )
+            self.assertEqual(result["status"], "CHECKPOINT_MISMATCH")
+            self.assertEqual(result["reason"], "checkpoint_payload_digest_is_invalid")
+
+            bad_payload = {**checkpoint, "payload": {**checkpoint["payload"], "event_count": 2}}
+            result = verify_external_checkpoint(
+                str(log), self.queue, bad_payload,
+                identity_provider=reviewer, checkpoint_provider=checkpoint_provider,
+            )
+            self.assertEqual(result["status"], "CHECKPOINT_MISMATCH")
+            self.assertEqual(result["reason"], "checkpoint_payload_does_not_match_current_chain_head")
+
+            bad_reference = dict(checkpoint, external_reference="synthetic-checkpoint:unknown")
+            result = verify_external_checkpoint(
+                str(log), self.queue, bad_reference,
+                identity_provider=reviewer, checkpoint_provider=checkpoint_provider,
+            )
+            self.assertEqual(result["status"], "EXTERNAL_CHECKPOINT_INVALID")
+
+    def test_corrupt_audit_log_and_unavailable_checkpoint_fail_closed(self):
+        reviewer = SyntheticReviewerProvider()
+        checkpoint_provider = SyntheticCheckpointProvider()
+        with tempfile.TemporaryDirectory(prefix=".audit-checkpoint-", dir=STAGE_D / "tests") as tmp:
+            log = Path(tmp) / "actions.jsonl"
+            append_review_action(log, self.queue, self._action(), identity_provider=reviewer,
+                                 credentials="synthetic-test-credential")
+            checkpoint = create_external_checkpoint(
+                str(log), self.queue, identity_provider=reviewer, checkpoint_provider=checkpoint_provider,
+            )
+            original = log.read_bytes()
+            log.write_bytes(original.replace(b"Synthetic action", b"Altered action"))
+            corrupt = verify_external_checkpoint(
+                str(log), self.queue, checkpoint,
+                identity_provider=reviewer, checkpoint_provider=checkpoint_provider,
+            )
+            self.assertEqual(corrupt["status"], "LOCAL_CHAIN_INVALID")
+            log.write_bytes(original)
+            unavailable = verify_external_checkpoint(
+                str(log), self.queue, checkpoint,
+                identity_provider=reviewer, checkpoint_provider=None,
+            )
+            self.assertEqual(unavailable["status"], "UNAVAILABLE")
+
     def _action(self):
         return {
             "review_id": self.record["review_id"],
@@ -141,6 +202,21 @@ class AuditCheckpointTests(unittest.TestCase):
                     str(Path(tmp) / "actions.jsonl"), self.queue,
                     identity_provider=None, checkpoint_provider=None,
                 )
+
+    def test_publish_response_is_not_called_anchored_until_reference_verifies(self):
+        class LyingCheckpointProvider(SyntheticCheckpointProvider):
+            def verify_checkpoint(self, payload, external_reference):
+                return False
+
+        reviewer = SyntheticReviewerProvider()
+        checkpoint_provider = LyingCheckpointProvider()
+        with tempfile.TemporaryDirectory(prefix=".audit-checkpoint-", dir=STAGE_D / "tests") as tmp:
+            log = Path(tmp) / "actions.jsonl"
+            append_review_action(log, self.queue, self._action(), identity_provider=reviewer,
+                                 credentials="synthetic-test-credential")
+            with self.assertRaisesRegex(AuditCheckpointError, "did not verify the published audit head"):
+                create_external_checkpoint(str(log), self.queue, identity_provider=reviewer,
+                                           checkpoint_provider=checkpoint_provider)
 
 
 if __name__ == "__main__":

@@ -226,6 +226,24 @@ class AppApiTests(unittest.TestCase):
             self.assertEqual(assignment["record_count"], 317)
             self.assertFalse(assignment["purpose_and_limits"]["decisions_created"])
 
+    def test_review_coverage_api_returns_full_source_count_from_isolated_snapshot(self):
+        service = synthetic_service()
+        queue = {"records": [{"review_id": "RV-SYN-001"}, {"review_id": "RV-SYN-002"}, {"review_id": "RV-SYN-003"}]}
+        events = []
+        dashboard = {"reviewed_record_count": 1, "not_reviewed_record_count": 2}
+        with patch.object(service, "_review_snapshot", return_value=(queue, events)) as snapshot, \
+             patch("server.build_review_queue", side_effect=AssertionError("real queue loader must not run")), \
+             patch("server.build_coverage_dashboard", return_value=dashboard) as build_dashboard:
+            status, _, body = self.get("/api/review-coverage", service)
+
+        response = json.loads(body)
+        self.assertEqual(status, 200)
+        self.assertEqual(response["record_count"], 3)
+        self.assertEqual(response["reviewed_record_count"], 1)
+        self.assertEqual(response["not_reviewed_record_count"], 2)
+        snapshot.assert_called_once_with()
+        build_dashboard.assert_called_once_with(queue, events)
+
     def test_review_action_api_rejects_without_trusted_identity_and_writes_nothing(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             action_path = Path(temp_dir) / "review_actions.jsonl"

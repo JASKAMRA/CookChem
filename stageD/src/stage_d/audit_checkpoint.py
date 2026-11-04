@@ -22,6 +22,9 @@ class AuditCheckpointError(ValueError):
 class ExternalCheckpointProvider(Protocol):
     """Trusted independent store/signature service; must not share local trust domain."""
 
+    supports_idempotent_publish: bool
+    """True only when repeat publication of identical bytes is service-idempotent."""
+
     def publish_checkpoint(self, payload: bytes) -> str:
         """Durably publish immutable bytes and return an independently verifiable reference."""
 
@@ -84,6 +87,12 @@ def create_external_checkpoint(
         raise AuditCheckpointError("External checkpoint provider failed to publish the audit head") from None
     if not isinstance(reference, str) or not reference.strip():
         raise AuditCheckpointError("External checkpoint provider returned no reference")
+    try:
+        verified = checkpoint_provider.verify_checkpoint(serialized, reference)
+    except Exception:
+        verified = False
+    if verified is not True:
+        raise AuditCheckpointError("External checkpoint provider did not verify the published audit head")
     return {
         "payload": payload,
         "payload_sha256": hashlib.sha256(serialized).hexdigest(),
@@ -179,6 +188,12 @@ def create_assignment_checkpoint(
         raise AuditCheckpointError("External checkpoint provider failed to publish the assignment head") from None
     if not isinstance(reference, str) or not reference.strip():
         raise AuditCheckpointError("External assignment checkpoint provider returned no reference")
+    try:
+        verified = checkpoint_provider.verify_checkpoint(serialized, reference)
+    except Exception:
+        verified = False
+    if verified is not True:
+        raise AuditCheckpointError("External checkpoint provider did not verify the published assignment head")
     return {
         "payload": payload,
         "payload_sha256": hashlib.sha256(serialized).hexdigest(),
