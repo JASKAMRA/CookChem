@@ -10,7 +10,7 @@
     "schema_version": {"const": "1.0.0"},
     "assignment_id": {"type": "string", "minLength": 1},
     "source_release_id": {"const": "StageB_V20_20261103"},
-    "source_sha256": {"const": "358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6"},
+    "source_sha256": {"const": "5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec"},
     "assigned_to": {"type": ["string", "null"]},
     "filters": {"type": "object"},
     "record_count": {"type": "integer", "minimum": 0, "maximum": 317},

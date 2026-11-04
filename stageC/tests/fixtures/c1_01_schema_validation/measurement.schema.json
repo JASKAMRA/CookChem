@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.invalid/schemas/measurement.schema.json",
+  "type": "object",
+  "properties": {
+    "value": {"type": "number", "minimum": 0},
+    "unit": {"enum": ["mg/kg", "mg/100 g"]}
+  },
+  "required": ["value", "unit"],
+  "additionalProperties": false
+}

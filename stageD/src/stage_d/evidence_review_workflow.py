@@ -9,19 +9,26 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import hmac
 import json
 import os
 import uuid
 from collections import Counter
 from collections.abc import Mapping, Sequence
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
 from .evidence_queue import project_root, stable_review_id, validate_review_queue
+from .reviewer_identity import (
+    ReviewerAuthenticationError,
+    ReviewerIdentityProvider,
+    authenticate_reviewer,
+)
 
 
-ACTION_SCHEMA_VERSION = "1.0.0"
+ACTION_SCHEMA_VERSION = "1.2.0"
+_SIGNED_SCHEMA_VERSIONS = {"1.1.0", ACTION_SCHEMA_VERSION}
 REVIEW_STATES = {
     "SOURCE_VERIFIED", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW",
     "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED",
@@ -32,7 +39,21 @@ _ZERO_HASH = "0" * 64
 _EVENT_FIELDS = {
     "schema_version", "sequence", "action_id", "review_id", "evidence_id", "resulting_status",
     "reviewer_name", "reviewer_role", "review_date", "source_locator", "rationale",
-    "negative_evidence_assessment", "previous_event_sha256", "event_sha256",
+    "negative_evidence_assessment", "reviewer_subject_id", "identity_issuer", "identity_signature",
+    "identity_key_id", "reviewer_credential_expires_at", "identity_verified_at",
+    "review_assessment", "previous_event_sha256", "event_sha256",
+}
+_V11_EVENT_FIELDS = _EVENT_FIELDS - {"identity_key_id", "reviewer_credential_expires_at", "identity_verified_at", "review_assessment"}
+_LEGACY_EVENT_FIELDS = _V11_EVENT_FIELDS - {"reviewer_subject_id", "identity_issuer", "identity_signature"}
+_ALLOWED_TRANSITIONS = {
+    "NOT_REVIEWED": {"SOURCE_VERIFIED", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW"},
+    "SOURCE_VERIFIED": {"READY_FOR_EXPERT_REVIEW", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW"},
+    "IDENTITY_PENDING": {"SOURCE_VERIFIED", "CONTEXT_PENDING", "CONFLICT_REVIEW"},
+    "CONTEXT_PENDING": {"SOURCE_VERIFIED", "IDENTITY_PENDING", "CONFLICT_REVIEW"},
+    "CONFLICT_REVIEW": {"SOURCE_VERIFIED", "IDENTITY_PENDING", "CONTEXT_PENDING"},
+    "READY_FOR_EXPERT_REVIEW": _TERMINAL_STATES,
+    "EXPERT_ACCEPTED": set(),
+    "EXPERT_REJECTED": set(),
 }
 
 
@@ -57,6 +78,18 @@ def _event_hash(event: Mapping[str, Any]) -> str:
     payload = dict(event)
     payload.pop("event_sha256", None)
     return hashlib.sha256(_canonical(payload)).hexdigest()
+
+
+def _audit_head(events: Sequence[Mapping[str, Any]]) -> str:
+    """Return the head digest so deployments can anchor it outside this workspace."""
+    return str(events[-1]["event_sha256"]) if events else _ZERO_HASH
+
+
+def _identity_signing_payload(event: Mapping[str, Any]) -> bytes:
+    payload = dict(event)
+    payload.pop("event_sha256", None)
+    payload.pop("identity_signature", None)
+    return _canonical(payload)
 
 
 def _record_maps(queue: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]]]:
@@ -96,15 +129,18 @@ def _check_action_fields(action: Mapping[str, Any], queue_record: Mapping[str, A
     missing = [key for key in required if not isinstance(action.get(key), str) or not action[key].strip()]
     if missing:
         raise ReviewWorkflowError("Reviewer action is missing required fields: " + ", ".join(missing))
-    if action.get("schema_version") not in {None, ACTION_SCHEMA_VERSION}:
+    schema_version = action.get("schema_version")
+    if schema_version is not None and (not isinstance(schema_version, str) or schema_version not in {"1.0.0", "1.1.0", ACTION_SCHEMA_VERSION}):
         raise ReviewWorkflowError("Unsupported reviewer-action schema version")
     status = action["resulting_status"]
     if not isinstance(status, str) or status not in REVIEW_STATES:
         raise ReviewWorkflowError(f"Unsupported human review status: {status}")
     try:
-        date.fromisoformat(action["review_date"])
+        parsed_review_date = date.fromisoformat(action["review_date"])
     except ValueError:
-        raise ReviewWorkflowError("review_date must be an ISO date") from None
+        raise ReviewWorkflowError("review_date must be a calendar date in YYYY-MM-DD form") from None
+    if parsed_review_date.isoformat() != action["review_date"]:
+        raise ReviewWorkflowError("review_date must be a calendar date in YYYY-MM-DD form")
     if status == "READY_FOR_EXPERT_REVIEW" and previous_state != "SOURCE_VERIFIED":
         raise ReviewWorkflowError("READY_FOR_EXPERT_REVIEW requires a prior SOURCE_VERIFIED reviewer action")
     if status in _TERMINAL_STATES:
@@ -114,6 +150,12 @@ def _check_action_fields(action: Mapping[str, Any], queue_record: Mapping[str, A
             raise ReviewWorkflowError("EXPERT_ACCEPTED/EXPERT_REJECTED requires reviewer_role=expert")
     if previous_state in _TERMINAL_STATES:
         raise ReviewWorkflowError("An expert decision is terminal in this workflow; correction policy is not configured")
+    if schema_version == ACTION_SCHEMA_VERSION and status not in _ALLOWED_TRANSITIONS.get(previous_state, set()):
+        raise ReviewWorkflowError(f"Invalid review-state transition: {previous_state} -> {status}")
+    if schema_version == ACTION_SCHEMA_VERSION and previous_state == "NOT_REVIEWED":
+        machine_state = queue_record.get("machine_assessment", {}).get("triage_state")
+        if machine_state in {"IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW"} and status != machine_state:
+            raise ReviewWorkflowError(f"First human action must explicitly address machine triage state {machine_state}")
 
     expected_evidence_id = queue_record["source_reference"]["evidence_id"]
     if action.get("evidence_id") not in (None, expected_evidence_id):
@@ -125,9 +167,37 @@ def _check_action_fields(action: Mapping[str, Any], queue_record: Mapping[str, A
         raise ReviewWorkflowError("Unsupported negative_evidence_assessment value")
     if negative == "EXPLICIT_NEGATIVE_REVIEWED" and status not in {"SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"}:
         raise ReviewWorkflowError("Explicit negative assessment requires a source-verified review state")
+    if negative == "EXPLICIT_NEGATIVE_REVIEWED" and queue_record.get("machine_assessment", {}).get("finding_polarity") != "negative":
+        raise ReviewWorkflowError("Explicit negative assessment requires a source-negative finding; null, conflicting, unclear, and positive findings remain distinct")
+    if schema_version == ACTION_SCHEMA_VERSION:
+        assessment = action.get("review_assessment")
+        if not isinstance(assessment, Mapping) or set(assessment) != {
+            "supporting_findings", "contradicting_findings", "uncertainty_and_limitations", "exposure_comparability_status"
+        }:
+            raise ReviewWorkflowError("Schema 1.2.0 review action requires structured findings, limitations, and exposure comparability")
+        for key in ("supporting_findings", "contradicting_findings"):
+            findings = assessment[key]
+            if not isinstance(findings, list) or any(
+                not isinstance(item, Mapping) or set(item) != {"finding", "source_locator"}
+                or any(not isinstance(item[field], str) or not item[field].strip() for field in ("finding", "source_locator"))
+                for item in findings
+            ):
+                raise ReviewWorkflowError(f"{key} must contain source-located finding objects")
+        limitations = assessment["uncertainty_and_limitations"]
+        if not isinstance(limitations, list) or any(not isinstance(item, str) or not item.strip() for item in limitations):
+            raise ReviewWorkflowError("uncertainty_and_limitations must be a list of nonempty reviewer notes")
+        if assessment["exposure_comparability_status"] not in {
+            "NOT_ASSESSED", "COMPARABLE_PENDING_HUMAN_REVIEW", "NOT_COMPARABLE", "NOT_APPLICABLE"
+        }:
+            raise ReviewWorkflowError("Unsupported exposure comparability status")
 
 
-def verify_review_action_log(path: str | Path, queue: dict[str, Any]) -> list[dict[str, Any]]:
+def verify_review_action_log(
+    path: str | Path,
+    queue: dict[str, Any],
+    *,
+    identity_provider: ReviewerIdentityProvider | None = None,
+) -> list[dict[str, Any]]:
     """Read and verify append-only JSONL history, linkage, dates, transitions and hash chain."""
     by_review, by_evidence = _record_maps(queue)
     log_path = _safe_audit_path(path)
@@ -155,11 +225,30 @@ def verify_review_action_log(path: str | Path, queue: dict[str, Any]) -> list[di
         except (json.JSONDecodeError, ReviewWorkflowError) as exc:
             detail = exc.msg if isinstance(exc, json.JSONDecodeError) else str(exc)
             raise ReviewWorkflowError(f"Malformed audit event at line {line_number}: {detail}") from None
-        if not isinstance(event, dict) or event.get("schema_version") != ACTION_SCHEMA_VERSION:
+        if not isinstance(event, dict) or not isinstance(event.get("schema_version"), str) or event.get("schema_version") not in {"1.0.0", "1.1.0", ACTION_SCHEMA_VERSION}:
             raise ReviewWorkflowError(f"Unsupported audit event at line {line_number}")
-        if set(event) != _EVENT_FIELDS:
+        expected_fields = _EVENT_FIELDS if event["schema_version"] == ACTION_SCHEMA_VERSION else _V11_EVENT_FIELDS if event["schema_version"] == "1.1.0" else _LEGACY_EVENT_FIELDS
+        if set(event) != expected_fields:
             raise ReviewWorkflowError(f"Audit event has unexpected or missing fields at line {line_number}")
-        if event.get("sequence") != line_number:
+        if event["schema_version"] in _SIGNED_SCHEMA_VERSIONS and any(
+            not isinstance(event.get(key), str) or not event[key].strip()
+            for key in ("reviewer_subject_id", "identity_issuer", "identity_signature")
+        ):
+            raise ReviewWorkflowError(f"Authenticated reviewer provenance is missing at line {line_number}")
+        if event["schema_version"] == ACTION_SCHEMA_VERSION and (
+            not isinstance(event.get("identity_key_id"), str) or not event["identity_key_id"].strip()
+        ):
+            raise ReviewWorkflowError(f"Authenticated signing key ID is missing at line {line_number}")
+        if event["schema_version"] == ACTION_SCHEMA_VERSION:
+            try:
+                verified_at = datetime.fromisoformat(event["identity_verified_at"].replace("Z", "+00:00"))
+                expires_at = datetime.fromisoformat(event["reviewer_credential_expires_at"].replace("Z", "+00:00"))
+            except (AttributeError, TypeError, ValueError):
+                raise ReviewWorkflowError(f"Credential validity timestamps are invalid at line {line_number}") from None
+            if (verified_at.tzinfo is None or expires_at.tzinfo is None
+                    or verified_at > datetime.now(timezone.utc) or expires_at <= verified_at):
+                raise ReviewWorkflowError(f"Reviewer credential was expired at action time on line {line_number}")
+        if type(event.get("sequence")) is not int or event.get("sequence") != line_number:
             raise ReviewWorkflowError(f"Audit sequence is not contiguous at line {line_number}")
         action_id = event.get("action_id")
         if not isinstance(action_id, str) or not action_id or action_id in seen_actions:
@@ -167,8 +256,22 @@ def verify_review_action_log(path: str | Path, queue: dict[str, Any]) -> list[di
         seen_actions.add(action_id)
         if event.get("previous_event_sha256") != previous_hash:
             raise ReviewWorkflowError(f"Audit hash-chain link is invalid at line {line_number}")
-        if event.get("event_sha256") != _event_hash(event):
+        try:
+            calculated_hash = _event_hash(event)
+        except (TypeError, ValueError):
+            raise ReviewWorkflowError(f"Audit event contains invalid JSON values at line {line_number}") from None
+        if event.get("event_sha256") != calculated_hash:
             raise ReviewWorkflowError(f"Audit event hash is invalid at line {line_number}")
+        if event["schema_version"] in _SIGNED_SCHEMA_VERSIONS:
+            verify_signature = getattr(identity_provider, "verify_audit_event", None)
+            if not callable(verify_signature):
+                raise ReviewWorkflowError("A trusted identity verifier is required to accept authenticated audit events")
+            try:
+                signature_valid = verify_signature(event)
+            except Exception:
+                signature_valid = False
+            if signature_valid is not True:
+                raise ReviewWorkflowError(f"Authenticated identity signature is invalid at line {line_number}")
         review_id, evidence_id = event.get("review_id"), event.get("evidence_id")
         if not isinstance(review_id, str) or not isinstance(evidence_id, str) or review_id not in by_review or evidence_id not in by_evidence or by_review[review_id] is not by_evidence[evidence_id]:
             raise ReviewWorkflowError(f"Audit event refers to a non-matching queue record at line {line_number}")
@@ -180,7 +283,12 @@ def verify_review_action_log(path: str | Path, queue: dict[str, Any]) -> list[di
     return events
 
 
-def validate_review_events(queue: dict[str, Any], events: Sequence[Mapping[str, Any]]) -> None:
+def validate_review_events(
+    queue: dict[str, Any],
+    events: Sequence[Mapping[str, Any]],
+    *,
+    identity_provider: ReviewerIdentityProvider | None = None,
+) -> None:
     """Validate caller-supplied action events before using them as review state."""
     by_review, by_evidence = _record_maps(queue)
     previous_hash = _ZERO_HASH
@@ -190,37 +298,106 @@ def validate_review_events(queue: dict[str, Any], events: Sequence[Mapping[str, 
         if not isinstance(supplied, Mapping):
             raise ReviewWorkflowError(f"Audit event {index} must be an object")
         event = dict(supplied)
-        if event.get("schema_version") != ACTION_SCHEMA_VERSION or event.get("sequence") != index:
+        if (not isinstance(event.get("schema_version"), str)
+                or event.get("schema_version") not in {"1.0.0", "1.1.0", ACTION_SCHEMA_VERSION}
+                or type(event.get("sequence")) is not int or event.get("sequence") != index):
             raise ReviewWorkflowError(f"Audit event {index} has an invalid version or sequence")
-        if set(event) != _EVENT_FIELDS:
+        expected_fields = _EVENT_FIELDS if event["schema_version"] == ACTION_SCHEMA_VERSION else _V11_EVENT_FIELDS if event["schema_version"] == "1.1.0" else _LEGACY_EVENT_FIELDS
+        if set(event) != expected_fields:
             raise ReviewWorkflowError(f"Audit event {index} has unexpected or missing fields")
+        if event["schema_version"] in _SIGNED_SCHEMA_VERSIONS and any(
+            not isinstance(event.get(key), str) or not event[key].strip()
+            for key in ("reviewer_subject_id", "identity_issuer", "identity_signature")
+        ):
+            raise ReviewWorkflowError(f"Audit event {index} lacks authenticated reviewer provenance")
+        if event["schema_version"] == ACTION_SCHEMA_VERSION and (
+            not isinstance(event.get("identity_key_id"), str) or not event["identity_key_id"].strip()
+        ):
+            raise ReviewWorkflowError(f"Audit event {index} lacks an authenticated signing key ID")
+        if event["schema_version"] == ACTION_SCHEMA_VERSION:
+            try:
+                verified_at = datetime.fromisoformat(event["identity_verified_at"].replace("Z", "+00:00"))
+                expires_at = datetime.fromisoformat(event["reviewer_credential_expires_at"].replace("Z", "+00:00"))
+            except (AttributeError, TypeError, ValueError):
+                raise ReviewWorkflowError(f"Audit event {index} has invalid credential-validity timestamps") from None
+            if (verified_at.tzinfo is None or expires_at.tzinfo is None
+                    or verified_at > datetime.now(timezone.utc) or expires_at <= verified_at):
+                raise ReviewWorkflowError(f"Audit event {index} was signed with an expired reviewer credential")
         action_id, review_id, evidence_id = event.get("action_id"), event.get("review_id"), event.get("evidence_id")
         if not isinstance(action_id, str) or not action_id or action_id in action_ids:
             raise ReviewWorkflowError(f"Audit event {index} has a missing or duplicate action_id")
         action_ids.add(action_id)
         if not isinstance(review_id, str) or not isinstance(evidence_id, str) or review_id not in by_review or evidence_id not in by_evidence or by_review[review_id] is not by_evidence[evidence_id]:
             raise ReviewWorkflowError(f"Audit event {index} does not match a queue record")
-        if event.get("previous_event_sha256") != previous_hash or event.get("event_sha256") != _event_hash(event):
+        try:
+            calculated_hash = _event_hash(event)
+        except (TypeError, ValueError):
+            raise ReviewWorkflowError(f"Audit event {index} contains invalid JSON values") from None
+        if event.get("previous_event_sha256") != previous_hash or event.get("event_sha256") != calculated_hash:
             raise ReviewWorkflowError(f"Audit event {index} breaks the hash chain")
+        if event["schema_version"] in _SIGNED_SCHEMA_VERSIONS:
+            verify_signature = getattr(identity_provider, "verify_audit_event", None)
+            if not callable(verify_signature):
+                raise ReviewWorkflowError("A trusted identity verifier is required to accept authenticated audit events")
+            try:
+                signature_valid = verify_signature(event)
+            except Exception:
+                signature_valid = False
+            if signature_valid is not True:
+                raise ReviewWorkflowError(f"Authenticated identity signature is invalid at event {index}")
         _check_action_fields(event, by_review[review_id], states.get(review_id, "NOT_REVIEWED"))
         states[review_id] = event["resulting_status"]
         previous_hash = event["event_sha256"]
 
 
-def append_review_action(path: str | Path, queue: dict[str, Any], action: Mapping[str, Any]) -> dict[str, Any]:
+def append_review_action(
+    path: str | Path,
+    queue: dict[str, Any],
+    action: Mapping[str, Any],
+    *,
+    identity_provider: ReviewerIdentityProvider | None = None,
+    credentials: Any = None,
+) -> dict[str, Any]:
     """Append one explicitly supplied reviewer action; never edits the source queue."""
+    if not isinstance(action, Mapping):
+        raise ReviewWorkflowError("Reviewer action must be an object")
+    try:
+        authenticated = authenticate_reviewer(identity_provider, credentials)
+    except ReviewerAuthenticationError as exc:
+        raise ReviewWorkflowError(str(exc)) from None
+    selected_role = action.get("reviewer_role")
+    if not isinstance(selected_role, str) or selected_role not in authenticated.roles:
+        raise ReviewWorkflowError("Authenticated reviewer is not authorized for the requested role")
+    claimed_name = action.get("reviewer_name")
+    if claimed_name is not None and str(claimed_name).strip() != authenticated.display_name:
+        raise ReviewWorkflowError("Submitted reviewer name does not match the authenticated identity")
+    authorized_action = {
+        **action,
+        "schema_version": ACTION_SCHEMA_VERSION,
+        "reviewer_name": authenticated.display_name,
+        "reviewer_role": selected_role,
+    }
+    if "review_assessment" not in authorized_action and authorized_action.get("resulting_status") not in _TERMINAL_STATES:
+        authorized_action["review_assessment"] = {
+            "supporting_findings": [],
+            "contradicting_findings": [],
+            "uncertainty_and_limitations": [],
+            "exposure_comparability_status": "NOT_ASSESSED",
+        }
     by_review, by_evidence = _record_maps(queue)
     review_id = action.get("review_id")
     evidence_id = action.get("evidence_id")
     record = by_review.get(review_id) if isinstance(review_id, str) else None
-    if record is None or (isinstance(evidence_id, str) and by_evidence.get(evidence_id) is not record):
+    if record is None or not isinstance(evidence_id, str) or by_evidence.get(evidence_id) is not record:
         raise ReviewWorkflowError("A matching stable review_id and Evidence_ID are required")
     log_path = _safe_audit_path(path)
-    events = verify_review_action_log(log_path, queue)
+    events = verify_review_action_log(log_path, queue, identity_provider=identity_provider)
     latest = {event["review_id"]: event["resulting_status"] for event in events}
     previous_state = latest.get(review_id, "NOT_REVIEWED")
-    _check_action_fields(action, record, previous_state)
-    action_id = action.get("action_id") or str(uuid.uuid4())
+    if any(event["review_id"] == review_id and event["schema_version"] == "1.0.0" for event in events):
+        raise ReviewWorkflowError("Legacy unauthenticated history cannot authorize new review actions")
+    _check_action_fields(authorized_action, record, previous_state)
+    action_id = authorized_action.get("action_id") or str(uuid.uuid4())
     if not isinstance(action_id, str) or not action_id:
         raise ReviewWorkflowError("action_id must be a nonempty string")
     if any(event["action_id"] == action_id for event in events):
@@ -232,15 +409,36 @@ def append_review_action(path: str | Path, queue: dict[str, Any], action: Mappin
         "action_id": action_id,
         "review_id": record["review_id"],
         "evidence_id": record["source_reference"]["evidence_id"],
-        "resulting_status": action["resulting_status"],
-        "reviewer_name": action["reviewer_name"].strip(),
-        "reviewer_role": action["reviewer_role"].strip(),
-        "review_date": action["review_date"],
-        "source_locator": action["source_locator"].strip(),
-        "rationale": action["rationale"].strip(),
-        "negative_evidence_assessment": action.get("negative_evidence_assessment", "NOT_ASSESSED"),
+        "resulting_status": authorized_action["resulting_status"],
+        "reviewer_name": authenticated.display_name.strip(),
+        "reviewer_role": selected_role,
+        "review_date": authorized_action["review_date"],
+        "source_locator": authorized_action["source_locator"].strip(),
+        "rationale": authorized_action["rationale"].strip(),
+        "negative_evidence_assessment": authorized_action.get("negative_evidence_assessment", "NOT_ASSESSED"),
+        "review_assessment": authorized_action.get("review_assessment", {
+            "supporting_findings": [],
+            "contradicting_findings": [],
+            "uncertainty_and_limitations": [],
+            "exposure_comparability_status": "NOT_ASSESSED",
+        }),
+        "reviewer_subject_id": authenticated.subject_id,
+        "identity_issuer": authenticated.issuer,
+        "identity_key_id": authenticated.key_id,
+        "reviewer_credential_expires_at": authenticated.expires_at,
+        "identity_verified_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "previous_event_sha256": previous_hash,
     }
+    signer = getattr(identity_provider, "sign_audit_event", None)
+    if not callable(signer):
+        raise ReviewWorkflowError("Review submission is disabled: trusted provider cannot sign audit events")
+    try:
+        signature = signer(authenticated, _identity_signing_payload(event))
+    except Exception as exc:
+        raise ReviewWorkflowError(f"Trusted identity provider could not sign the audit event: {exc}") from None
+    if not isinstance(signature, str) or not signature.strip():
+        raise ReviewWorkflowError("Trusted identity provider returned an empty audit signature")
+    event["identity_signature"] = signature
     event["event_sha256"] = _event_hash(event)
     log_path.parent.mkdir(parents=True, exist_ok=True)
     with log_path.open("ab") as stream:
@@ -253,7 +451,11 @@ def append_review_action(path: str | Path, queue: dict[str, Any], action: Mappin
 def _latest_states(queue: dict[str, Any], events: Sequence[Mapping[str, Any]]) -> dict[str, str]:
     latest = {row["review_id"]: "NOT_REVIEWED" for row in queue["records"]}
     for event in events:
-        latest[event["review_id"]] = event["resulting_status"]
+        # Legacy 1.0 records have no authenticated identity provenance. Keep
+        # them in the verified log for preservation, but never treat them as a
+        # human review or approval in workflow state and coverage.
+        if event.get("schema_version") in _SIGNED_SCHEMA_VERSIONS:
+            latest[event["review_id"]] = event["resulting_status"]
     return latest
 
 
@@ -277,14 +479,16 @@ def filter_review_queue(
     identity_status: str | None = None,
     source_verification_status: str | None = None,
     human_review_status: str | None = None,
+    identity_provider: ReviewerIdentityProvider | None = None,
 ) -> list[dict[str, Any]]:
     """Return records matching source labels and separately recorded review history."""
     validate_review_queue(queue)
-    validate_review_events(queue, events)
+    validate_review_events(queue, events, identity_provider=identity_provider)
     states = _latest_states(queue, events)
     verified_ids = {
         event["review_id"] for event in events
-        if event.get("resulting_status") in {"SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"}
+        if event.get("schema_version") in _SIGNED_SCHEMA_VERSIONS
+        and event.get("resulting_status") in {"SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"}
     }
     result: list[dict[str, Any]] = []
     for record in queue["records"]:
@@ -329,14 +533,32 @@ def build_assignment_export(
     events: Sequence[Mapping[str, Any]] = (),
     filters: Mapping[str, Any] | None = None,
     assigned_to: str | None = None,
+    identity_provider: ReviewerIdentityProvider | None = None,
+    credentials: Any = None,
+    event_identity_provider: ReviewerIdentityProvider | None = None,
 ) -> dict[str, Any]:
+    if assigned_to is not None:
+        if not isinstance(assigned_to, str) or not assigned_to.strip():
+            raise ReviewWorkflowError("Assignment recipient must be a nonempty authenticated reviewer name")
+        try:
+            authenticated = authenticate_reviewer(identity_provider, credentials)
+        except ReviewerAuthenticationError as exc:
+            raise ReviewWorkflowError(str(exc)) from None
+        if "reviewer" not in authenticated.roles or assigned_to.strip() != authenticated.display_name:
+            raise ReviewWorkflowError("Assignment recipient must be the authenticated identity with reviewer role")
+        assigned_to = authenticated.display_name
     filters = dict(filters or {})
-    selected = filter_review_queue(queue, events=events, **filters)
+    selected = filter_review_queue(
+        queue, events=events,
+        identity_provider=event_identity_provider or identity_provider,
+        **filters,
+    )
     records = []
     states = _latest_states(queue, events)
     verified_ids = {
         event["review_id"] for event in events
-        if event.get("resulting_status") in {"SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"}
+        if event.get("schema_version") in _SIGNED_SCHEMA_VERSIONS
+        and event.get("resulting_status") in {"SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"}
     }
     for record in selected:
         source = record["source_record"]
@@ -384,14 +606,20 @@ def build_assignment_export(
     }
 
 
-def build_coverage_dashboard(queue: dict[str, Any], events: Sequence[Mapping[str, Any]] = ()) -> dict[str, Any]:
+def build_coverage_dashboard(
+    queue: dict[str, Any],
+    events: Sequence[Mapping[str, Any]] = (),
+    *,
+    identity_provider: ReviewerIdentityProvider | None = None,
+) -> dict[str, Any]:
     validate_review_queue(queue)
-    validate_review_events(queue, events)
+    validate_review_events(queue, events, identity_provider=identity_provider)
     latest = _latest_states(queue, events)
     human_counts = Counter(latest.values())
     verified_ids = {
         event["review_id"] for event in events
-        if event.get("resulting_status") in {"SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"}
+        if event.get("schema_version") in _SIGNED_SCHEMA_VERSIONS
+        and event.get("resulting_status") in {"SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"}
     }
     polarity = Counter(record["machine_assessment"]["finding_polarity"] for record in queue["records"])
     machine = Counter(record["machine_assessment"]["triage_state"] for record in queue["records"])
@@ -413,6 +641,7 @@ def build_coverage_dashboard(queue: dict[str, Any], events: Sequence[Mapping[str
         "not_reviewed_record_count": human_counts.get("NOT_REVIEWED", 0),
         "review_coverage_fraction": reviewed_count / record_count if record_count else 0.0,
         "audit_action_count": len(events),
+        "audit_head_sha256": _audit_head(events),
         "expert_accepted_count": human_counts.get("EXPERT_ACCEPTED", 0),
         "expert_rejected_count": human_counts.get("EXPERT_REJECTED", 0),
         "automatic_approval_count": 0,
@@ -421,10 +650,101 @@ def build_coverage_dashboard(queue: dict[str, Any], events: Sequence[Mapping[str
     }
 
 
+def build_assignment_workload_summary(
+    queue: dict[str, Any],
+    assignments: Sequence[Mapping[str, Any]],
+    events: Sequence[Mapping[str, Any]] = (),
+    *,
+    identity_provider: ReviewerIdentityProvider | None = None,
+) -> dict[str, Any]:
+    """Summarize current assignment exports separately from review completion.
+
+    This is a scope-checked workload view, not a durable assignment register.
+    Reassignment requires an external audit-backed assignment store.
+    """
+    by_review, by_evidence = _record_maps(queue)
+    validate_review_events(queue, events, identity_provider=identity_provider)
+    states = _latest_states(queue, events)
+    active_owner: dict[str, str] = {}
+    reviewer_counts: dict[str, Counter[str]] = {}
+    assigned_ids: set[str] = set()
+    for index, assignment in enumerate(assignments, start=1):
+        if not isinstance(assignment, Mapping):
+            raise ReviewWorkflowError(f"Assignment export {index} must be an object")
+        rows = assignment.get("records")
+        filters = assignment.get("filters")
+        assigned_to = assignment.get("assigned_to")
+        limits = assignment.get("purpose_and_limits")
+        if (assignment.get("source_release_id") != queue["source"]["release_id"]
+                or assignment.get("source_sha256") != queue["source"]["sha256"]
+                or not isinstance(rows, list)
+                or assignment.get("record_count") != len(rows)
+                or not isinstance(filters, Mapping)
+                or not isinstance(limits, Mapping)
+                or limits.get("assignment_is_human_review") is not False
+                or limits.get("decisions_created") is not False
+                or limits.get("negative_inference_created") is not False):
+            raise ReviewWorkflowError(f"Assignment export {index} has invalid source, counts, or purpose flags")
+        if assigned_to is not None and (not isinstance(assigned_to, str) or not assigned_to.strip()):
+            raise ReviewWorkflowError(f"Assignment export {index} has an invalid reviewer name")
+        review_ids = []
+        for row in rows:
+            review_id, evidence_id = row.get("review_id"), row.get("evidence_id")
+            if (not isinstance(review_id, str) or not isinstance(evidence_id, str)
+                    or review_id not in by_review or evidence_id not in by_evidence
+                    or by_review[review_id] is not by_evidence[evidence_id]):
+                raise ReviewWorkflowError(f"Assignment export {index} contains an invalid evidence reference")
+            if assigned_to is not None:
+                if review_id in active_owner:
+                    raise ReviewWorkflowError(f"Record {review_id} has duplicate active reviewer assignments")
+                active_owner[review_id] = assigned_to
+                assigned_ids.add(review_id)
+            review_ids.append(review_id)
+        expected_assignment_id = "ASG-" + hashlib.sha256(_canonical({
+            "source_sha256": queue["source"]["sha256"],
+            "review_ids": review_ids,
+            "filters": dict(filters),
+            "assigned_to": assigned_to,
+        })).hexdigest()[:16].upper()
+        if assignment.get("assignment_id") != expected_assignment_id:
+            raise ReviewWorkflowError(f"Assignment export {index} ID does not match its record scope")
+
+    for review_id, owner in active_owner.items():
+        state = states[review_id]
+        bucket = "completed" if state in _TERMINAL_STATES else "in_progress" if state != "NOT_REVIEWED" else "pending"
+        reviewer_counts.setdefault(owner, Counter())[bucket] += 1
+    total_assigned = len(assigned_ids)
+    return {
+        "schema_version": "1.0.0",
+        "source_release_id": queue["source"]["release_id"],
+        "source_sha256": queue["source"]["sha256"],
+        "record_count": len(queue["records"]),
+        "assigned_record_count": total_assigned,
+        "unassigned_record_count": len(queue["records"]) - total_assigned,
+        "pending_count": sum(item["pending"] for item in reviewer_counts.values()),
+        "in_progress_count": sum(item["in_progress"] for item in reviewer_counts.values()),
+        "completed_count": sum(item["completed"] for item in reviewer_counts.values()),
+        "audit_head_sha256": _audit_head(events),
+        "reviewer_workloads": {
+            name: {"pending": counts["pending"], "in_progress": counts["in_progress"], "completed": counts["completed"]}
+            for name, counts in sorted(reviewer_counts.items())
+        },
+        "reassignment_supported": False,
+        "decision_and_approval_created": False,
+        "note": "Assignments are current export snapshots; terminal human decisions alone count as completed. Duplicate active assignment is rejected.",
+    }
 def export_assignment_json(path: str | Path, assignment: Mapping[str, Any]) -> None:
     destination = Path(path)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(assignment, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def _spreadsheet_safe(value: Any) -> str:
+    """Render untrusted CSV cell text inert in common spreadsheet programs."""
+    text = "" if value is None else str(value)
+    if text.lstrip(" \t\r\n\v\f\ufeff").startswith(("=", "+", "-", "@")):
+        return "'" + text
+    return text
 
 
 def export_assignment_csv(path: str | Path, assignment: Mapping[str, Any]) -> None:
@@ -447,7 +767,7 @@ def export_assignment_csv(path: str | Path, assignment: Mapping[str, Any]) -> No
             "source_sha256": assignment.get("source_sha256", ""),
             "assigned_to": assignment.get("assigned_to") or "",
         }
-        writer.writerows({**provenance, **row} for row in rows)
+        writer.writerows({key: _spreadsheet_safe(value) for key, value in {**provenance, **row}.items()} for row in rows)
 
 
 def _load_queue() -> dict[str, Any]:
@@ -475,8 +795,11 @@ def main() -> None:
     parser.add_argument("--coverage-output", type=Path)
     args = parser.parse_args()
     queue = _load_queue()
-    events = verify_review_action_log(args.audit_log, queue)
-    coverage = build_coverage_dashboard(queue, events)
+    try:
+        events = verify_review_action_log(args.audit_log, queue)
+        coverage = build_coverage_dashboard(queue, events)
+    except ReviewWorkflowError as exc:
+        parser.error(str(exc))
     if args.coverage_output:
         args.coverage_output.parent.mkdir(parents=True, exist_ok=True)
         args.coverage_output.write_text(json.dumps(coverage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -492,7 +815,10 @@ def main() -> None:
         "human_review_status": args.human_review_status,
     }.items() if value is not None}
     if args.json_output or args.csv_output:
-        assignment = build_assignment_export(queue, events=events, filters=filters, assigned_to=args.assigned_to)
+        try:
+            assignment = build_assignment_export(queue, events=events, filters=filters, assigned_to=args.assigned_to)
+        except ReviewWorkflowError as exc:
+            parser.error(str(exc))
         if args.json_output:
             export_assignment_json(args.json_output, assignment)
         if args.csv_output:

@@ -2,7 +2,7 @@
 
 Review status: **prepared; independent reviewer not assigned; no expert approval claimed**  
 Registry: `stageD/data/mechanism_evidence_registry.json`  
-Pinned Stage B release: `StageB_V20_20261103` (`interaction_evidence.csv`, 317 rows; SHA-256 `358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6`).
+Pinned Stage B release: `StageB_V20_20261103` (`interaction_evidence.csv`, 317 rows; SHA-256 `5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec`). This packet index was refreshed after the 2026-11-04 source-pin reconciliation; see [`the incident report`](STAGEB_V20_SOURCE_PIN_RECONCILIATION_2026-11-04.md).
 
 Each packet retains the exact Stage B row and source identifiers in the registry. The locators below identify the primary-source passage, figure, table, or abstract needed for independent adjudication. Candidate relations and outcomes remain pending; neither an abstract-level probe phenotype nor an in-vitro transporter assay is treated as a clinical food effect.
 

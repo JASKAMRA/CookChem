@@ -3,11 +3,15 @@
 Review date: 2026-11-04  
 Status after Cycle 5: **25 source-pinned candidates across 7 primary studies; all pending independent manual review**
 
+## 2026-11-04 source-pin reconciliation
+
+The registry was rebuilt from the current manifest-verified StageB V20 CSV (`5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec`); source rows were not edited. The prior registry is preserved in [`the pre-rebind snapshot`](source_integrity_incident/stageb_v20_pre_rebind_snapshot/). The 25 selected records and pending review state are retained.
+
 ## Scope and counts
 
 - Read the pinned Stage B release `StageB_V20_20261103/data/interaction_evidence.csv` without modifying it: **317 rows**.
 - Before Cycle 5, the registry contained 12 records across 6 studies. Cycle 5 adds **13** source-checked Stage B rows, for **25 selected records** covering **7 primary studies**.
-- Stage B CSV SHA-256: `358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6`.
+- Stage B CSV SHA-256: `5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec`.
 - The builder copies each complete CSV row without changing strings. Tests compare the exact row dictionaries, source-file digest, row count, PMID and DOI.
 - Source status: **23 full-text or full-author-manuscript reviews; 2 primary-abstract-only reviews** (`SB-0043`, `SB-0044`). No source status or reviewer decision is inferred from another record.
 - Candidate relations: **18 inhibition/reduced-activity candidates; 2 induction/increased-activity candidates; 5 unresolved transport/permeability candidates**. Induction records are author interpretations of human probe pharmacokinetics, not direct molecular induction assays.

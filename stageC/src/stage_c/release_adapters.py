@@ -200,6 +200,7 @@ def load_phase4_context_evidence() -> tuple[list[dict[str, Any]], dict[str, Any]
     metadata = {
         "release_id": PHASE4_RELEASE,
         "manifest_sha256": manifest_hash,
+        "manifest_verified": True,
         "status": manifest["status"],
         "source_count": len(sources),
         "evidence_record_count": len(evidence),

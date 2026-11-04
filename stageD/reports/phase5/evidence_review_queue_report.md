@@ -4,7 +4,11 @@
 
 ## Scope and source integrity
 
-The queue is built from the read-only source `stageB/release/StageB_V20_20261103/data/interaction_evidence.csv`. Its SHA-256 is pinned to `358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6`. The builder refuses a different digest, row count, missing identifier, or duplicate `Evidence_ID`. Every source row is retained in the new derived JSON queue with its original CSV fields, Evidence_ID, Compound_ID, release, hash, and row number. Stage B itself was not edited.
+The queue is built from the read-only source `stageB/release/StageB_V20_20261103/data/interaction_evidence.csv`. Its SHA-256 is pinned to `5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec`. The builder refuses a different digest, row count, missing identifier, or duplicate `Evidence_ID`. Every source row is retained in the new derived JSON queue with its original CSV fields, Evidence_ID, Compound_ID, release, hash, and row number. Stage B itself was not edited.
+
+## 2026-11-04 source-pin reconciliation
+
+The earlier derived queue referenced stale digest `358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6`. The current StageB V20 manifest and CSV agree on `5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec`. The queue was regenerated against those verified bytes after field-by-field confirmation that all 317 source rows matched the prior queue. The old derived artifacts are preserved in [`the pre-rebind snapshot`](../source_integrity_incident/stageb_v20_pre_rebind_snapshot/). Review IDs were regenerated because they are source-hash scoped. No action log existed; all 317 human states remain `NOT_REVIEWED`.
 
 ## Queue and review states
 

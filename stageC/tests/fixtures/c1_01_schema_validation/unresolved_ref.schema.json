@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.invalid/schemas/unresolved-root.schema.json",
+  "type": "object",
+  "properties": {
+    "measurement": {"$ref": "https://cookrisk.invalid/schemas/missing.schema.json"}
+  },
+  "required": ["measurement"]
+}

@@ -5,6 +5,7 @@ import io
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from decimal import Decimal
 from pathlib import Path
 
@@ -13,6 +14,7 @@ sys.path.insert(0, str(ROOT / "app"))
 sys.path.insert(0, str(ROOT / "tests"))
 
 from server import CookRiskHandler, CookRiskService, make_server  # noqa: E402
+from stage_c.exceptions import SourceIntegrityError  # noqa: E402
 from test_recipe_engine import COMPOUNDS, FOOD, MAPPINGS, retention_evidence  # noqa: E402
 
 
@@ -153,9 +155,53 @@ class AppApiTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "local machine"):
             make_server("0.0.0.0", 0, synthetic_service())
 
+    def test_phase4_integrity_failure_is_fail_closed_but_does_not_hide_other_pinned_inputs(self):
+        service = CookRiskService(
+            foods=FOOD, mappings=MAPPINGS, compounds=COMPOUNDS,
+            phase1b={"release_id": "SYNTHETIC-TEST", "manifest_sha256": "a" * 64,
+                     "food_records": len(FOOD), "compounds": len(COMPOUNDS)},
+            phase2_evidence={}, phase2={"release_id": "SYNTHETIC-TEST", "manifest_sha256": "b" * 64,
+                                        "accepted_cooking_evidence": 0, "blocked_records": 0},
+            stage_b_rows=[SYNTHETIC_EVIDENCE], stage_b_release="SYNTHETIC-TEST",
+            stage_b_sha256="c" * 64, mechanisms=[],
+        )
+        with patch("server.load_phase4_context_evidence",
+                   side_effect=SourceIntegrityError("SYNTHETIC_TEST_ONLY: manifest mismatch")):
+            health_status, _, health_body = self.get("/api/health", service)
+            catalog_status, _, catalog_body = self.get("/api/catalog", service)
+
+        self.assertTrue(service.ready)
+        self.assertEqual(health_status, 200)
+        self.assertEqual(catalog_status, 200)
+        self.assertEqual(len(json.loads(catalog_body)["foods"]), len(FOOD))
+        health = json.loads(health_body)
+        self.assertEqual(health["status"], "DEGRADED_PHASE4_CONTEXT_UNAVAILABLE")
+        self.assertEqual(health["phase4_context"]["status"], "BLOCKED_INTEGRITY")
+        self.assertFalse(health["phase4_context"]["manifest_verified"])
+        self.assertEqual(health["phase4_context"]["records_loaded"], 0)
+        self.assertIn("SYNTHETIC_TEST_ONLY", health["phase4_context"]["error"])
+        self.assertEqual(health["evidence_context_records"], 0)
+        self.assertEqual(health["phase2"]["accepted_cooking_evidence"], 0)
+        self.assertEqual(len(health["warnings"]), 1)
+
+    def test_real_pinned_health_and_catalog_routes_degrade_safely_on_phase4_integrity_error(self):
+        service = CookRiskService()
+        health_status, _, health_body = self.get("/api/health", service)
+        catalog_status, _, catalog_body = self.get("/api/catalog", service)
+        health = json.loads(health_body)
+        catalog = json.loads(catalog_body)
+
+        self.assertEqual(health_status, 200)
+        self.assertEqual(catalog_status, 200)
+        self.assertEqual(health["status"], "DEGRADED_PHASE4_CONTEXT_UNAVAILABLE")
+        self.assertEqual(health["phase4_context"]["status"], "BLOCKED_INTEGRITY")
+        self.assertFalse(health["phase4_context"]["manifest_verified"])
+        self.assertEqual(health["phase4_context"]["records_loaded"], 0)
+        self.assertEqual(len(catalog["foods"]), 584)
+        self.assertGreater(len(catalog["compounds"]), 0)
+
     def test_review_queue_api_keeps_machine_triage_separate_from_human_state(self):
-        stage_d_root = ROOT.parent / "stageD"
-        with tempfile.TemporaryDirectory(dir=stage_d_root) as temp_dir:
+        with tempfile.TemporaryDirectory() as temp_dir:
             service = synthetic_service(Path(temp_dir) / "empty_actions.jsonl", Path(temp_dir) / "backups")
             _, _, coverage_body = self.get("/api/review-coverage", service)
             coverage = json.loads(coverage_body)
@@ -180,40 +226,28 @@ class AppApiTests(unittest.TestCase):
             self.assertEqual(assignment["record_count"], 317)
             self.assertFalse(assignment["purpose_and_limits"]["decisions_created"])
 
-    def test_review_action_api_uses_separate_log_and_snapshots_history(self):
-        stage_d_root = ROOT.parent / "stageD"
-        with tempfile.TemporaryDirectory(dir=stage_d_root) as temp_dir:
-            action_path = Path(temp_dir) / "synthetic_actions.jsonl"
+    def test_review_action_api_rejects_without_trusted_identity_and_writes_nothing(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            action_path = Path(temp_dir) / "review_actions.jsonl"
             backup_dir = Path(temp_dir) / "backups"
+            backup_dir.mkdir()
             service = synthetic_service(action_path, backup_dir)
-            _, _, queue_body = self.get("/api/review-queue?limit=1", service)
-            record = json.loads(queue_body)["records"][0]
-            action = {
-                "review_id": record["review_id"], "evidence_id": record["source_reference"]["evidence_id"],
-                "resulting_status": "SOURCE_VERIFIED", "reviewer_name": "SYNTHETIC_TEST_ONLY",
-                "reviewer_role": "synthetic_test", "review_date": "2026-11-04",
-                "source_locator": "SYNTHETIC_TEST_ONLY: app API test",
-                "rationale": "SYNTHETIC_TEST_ONLY: verify API append, hash chain, and backup behavior",
-            }
-            status, _, body = self.post("/api/review-action", action, service)
-            self.assertEqual(status, 200)
-            response = json.loads(body)
-            self.assertEqual(response["event"]["resulting_status"], "SOURCE_VERIFIED")
-            self.assertEqual(response["current_review_state"]["action_count"], 1)
-            self.assertEqual(response["backup"]["status"], "CREATED")
-            self.assertTrue((backup_dir / Path(response["backup"]["path"]).name).is_file())
-            coverage = service.review_coverage()
-            self.assertEqual(coverage["reviewed_record_count"], 1)
-            self.assertEqual(coverage["expert_accepted_count"], 0)
-            self.assertEqual(coverage["automatic_approval_count"], 0)
+            status, _, body = self.post("/api/review-action", {"review_id": "synthetic"}, service)
 
-            action["resulting_status"] = "EXPERT_ACCEPTED"
-            action["reviewer_role"] = "synthetic_test"
-            action["rationale"] = "SYNTHETIC_TEST_ONLY: expert acceptance must be gated"
-            status, _, body = self.post("/api/review-action", action, service)
-            self.assertEqual(status, 400)
-            self.assertIn("prior READY_FOR_EXPERT_REVIEW", json.loads(body)["error"])
-            self.assertEqual(len(service._review_snapshot()[1]), 1)
+            response = json.loads(body)
+            self.assertEqual(status, 503)
+            self.assertEqual(response["code"], "review_authentication_unavailable")
+            self.assertFalse(response["review_submission_enabled"])
+            self.assertIn("no trusted identity provider is configured", response["error"])
+            self.assertFalse(action_path.exists(), "unauthenticated rejection must not create the action log")
+            self.assertEqual(list(backup_dir.iterdir()), [], "unauthenticated rejection must not write a backup")
+
+    def test_review_action_ui_discloses_unavailable_authentication_and_stays_disabled(self):
+        app_js = (ROOT / "app" / "static" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("const reviewSubmissionEnabled = false;", app_js)
+        self.assertIn("Review submission is disabled because this app has no trusted identity provider configured.", app_js)
+        self.assertIn('statusSelect.disabled = true;', app_js)
+        self.assertIn('$("#submit-review-action").disabled = true;', app_js)
 
 
 if __name__ == "__main__":

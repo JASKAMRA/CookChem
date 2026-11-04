@@ -46,6 +46,10 @@ No application configuration is required. Paths are derived from the server file
 
 The repository `.gitignore` does not exclude these data or release paths. Do not copy the app directory by itself; use the complete repository checkout so the pinned sources and schemas remain available.
 
+## Current Phase 4 integrity notice
+
+The prototype fails closed for Phase4-v0.1.2: its current manifest does not match its detached digest and ten listed artifacts fail their declared hashes. The app does not load that contextual evidence. It can still start with the independently verified Phase1B, Phase2, and StageB inputs, and the status banner identifies the degraded Phase4 state. Do not treat the missing Phase4 context as verified or restore it by regenerating the historical manifest. See [`the integrity incident report`](../reports/phase4/integrity_incident/PHASE4_V0_1_2_INTEGRITY_INCIDENT_REPORT.md).
+
 ## Start CookRisk
 
 Run this from the `CookChem` repository root in PowerShell:
@@ -84,4 +88,4 @@ py -3 -m unittest stageC.tests.test_app_api -v
 
 ## Local data and limits
 
-The app reads the pinned local releases and Stage B evidence source. It does not run Stage A, write to Stage B source records, create a release, or provide clinical interpretation. Reviewer actions are saved separately in the Stage D JSONL audit log with local backup snapshots. The prototype binds only to the local machine and does not send data to an external service. It has no authentication, multi-user controls, or production deployment safeguards.
+The app reads the pinned local releases and Stage B evidence source. It does not run Stage A, write to Stage B source records, create a release, or provide clinical interpretation. Review submission is disabled because this prototype has no trusted reviewer identity provider configured; the API rejects submissions with HTTP 503 and writes neither an action log nor a backup. The review queue remains read-only. The prototype binds only to the local machine and does not send data to an external service. It has no authentication, multi-user controls, or production deployment safeguards.

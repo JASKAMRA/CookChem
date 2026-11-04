@@ -13,7 +13,7 @@ from .contracts import ContractError, normalize_stage_b_record
 
 SOURCE_RELEASE = "StageB_V20_20261103"
 SOURCE_RELATIVE_PATH = "stageB/release/StageB_V20_20261103/data/interaction_evidence.csv"
-SOURCE_SHA256 = "358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6"
+SOURCE_SHA256 = "5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec"
 SOURCE_ROW_COUNT = 317
 QUEUE_SCHEMA_VERSION = "1.1.0"
 _MACHINE_STATES = {

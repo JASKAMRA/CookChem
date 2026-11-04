@@ -1,0 +1,53 @@
+{
+  "purpose": "preserve old queue/provenance before rebuilding against checksum-verified current StageB V20 source; not a review record",
+  "files": [
+    {
+      "source_path": "stageD/data/evidence_review_queue.json",
+      "snapshot_file": "evidence_review_queue.json",
+      "sha256": "dea624bb2bbe9c3f7d7739a3f8d623e2231bfeedc987fe7553ab461c6988e241",
+      "bytes": 1647407
+    },
+    {
+      "source_path": "stageD/data/mechanism_evidence_registry.json",
+      "snapshot_file": "mechanism_evidence_registry.json",
+      "sha256": "0439737ccd738bb5476ea231b903f5b973323230bfae48256798fef4d07b7892",
+      "bytes": 238541
+    },
+    {
+      "source_path": "stageD/data/phase5/evidence_review_assignment_unassigned.json",
+      "snapshot_file": "evidence_review_assignment_unassigned.json",
+      "sha256": "48d1ee4321c906cbaf349b65151ad0e9c41396628ebce932b6ca32dbfa463848",
+      "bytes": 313671
+    },
+    {
+      "source_path": "stageD/data/phase5/evidence_review_coverage_dashboard.json",
+      "snapshot_file": "evidence_review_coverage_dashboard.json",
+      "sha256": "20a0843f2a6ec7e655752e9eae0e0a866cb32848b965d97b01990c2a002c21ea",
+      "bytes": 929
+    },
+    {
+      "source_path": "stageD/reports/phase5/evidence_review_queue_report.md",
+      "snapshot_file": "evidence_review_queue_report.md",
+      "sha256": "ca942e151411d9c1289675bdcc3bef3a21ac5ddf9ff2ec415d3e39eee1dfadca",
+      "bytes": 8800
+    },
+    {
+      "source_path": "stageD/reports/phase45_mechanism_registry_report.md",
+      "snapshot_file": "phase45_mechanism_registry_report.md",
+      "sha256": "9efc887167e495bf126db11a31f9ee1c8794bd0a3919ca5f4111840f9d6b5f55",
+      "bytes": 10178
+    },
+    {
+      "source_path": "stageD/reports/mechanism_reviewer_packets.md",
+      "snapshot_file": "mechanism_reviewer_packets.md",
+      "sha256": "008950752c3e6337e88e669441892e61dd082027aedadf1639f6ebda739f9348",
+      "bytes": 27468
+    },
+    {
+      "source_path": "stageD/data/evidence_review_actions.jsonl",
+      "exists": false,
+      "bytes": 0,
+      "sha256": null
+    }
+  ]
+}

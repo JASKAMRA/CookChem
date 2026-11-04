@@ -1,0 +1,14 @@
+# Resolved in the isolated CookRisk Stage A environment on macOS arm64.
+# Python: 3.12.14. Direct versions match stageA_requirements.txt.
+# Regenerated 2026-11-04; install with: python -m pip install -r stageA/stageA-requirements-py312.lock
+cloudpickle==3.1.2
+joblib==1.6.0
+narwhals==2.28.0
+numpy==2.5.3
+pandas==3.0.6
+python-dateutil==4.0.0
+scikit-learn==1.9.1
+scipy==1.18.1
+threadpoolctl==3.7.0
+tzdata==2026.6
+xgboost==3.4.1

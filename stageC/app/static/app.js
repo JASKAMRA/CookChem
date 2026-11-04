@@ -16,6 +16,7 @@ let queueOffset = 0;
 let queueLimit = 40;
 let selectedReviewId = "";
 let actionSubmitting = false;
+const reviewSubmissionEnabled = false;
 
 function searchTerms(value = catalogFilter) {
   return value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
@@ -588,29 +589,21 @@ function renderDecisionTrace(row) {
 function renderReviewActionForm(row) {
   const panel = $("#review-action-panel");
   panel.hidden = false;
-  const review = reviewStateOf(row);
-  const allowed = Array.isArray(review.allowed_next_statuses) ? review.allowed_next_statuses : [];
   const statusSelect = $("#action-status");
   const note = $("#allowed-actions-note");
   statusSelect.replaceChildren();
-  if (!allowed.length) {
-    statusSelect.append(new Option("No action currently allowed", ""));
-    statusSelect.disabled = true;
-    $("#submit-review-action").disabled = true;
-    note.textContent = "The server returned no allowed next status for this review record. The UI does not infer or advance workflow state.";
-    return;
-  }
-  statusSelect.disabled = false;
-  statusSelect.append(new Option("Choose an action status", ""));
-  allowed.forEach(status => statusSelect.append(new Option(status.replaceAll("_", " "), status)));
-  const terminal = allowed.filter(status => ["EXPERT_ACCEPTED", "EXPERT_REJECTED"].includes(status));
-  note.textContent = terminal.length
-    ? `Allowed next status${allowed.length === 1 ? "" : "es"} returned by the server: ${allowed.join(", ")}. Expert acceptance or rejection is available only with the expert role.`
-    : `Allowed next status${allowed.length === 1 ? "" : "es"} returned by the server: ${allowed.join(", ")}.`;
-  updateActionSubmitState();
+  statusSelect.append(new Option("Review submission unavailable", ""));
+  statusSelect.disabled = true;
+  $("#submit-review-action").disabled = true;
+  note.textContent = "Review submission is disabled because this app has no trusted identity provider configured. No human review action can be recorded.";
 }
 
 function updateActionSubmitState() {
+  if (!reviewSubmissionEnabled) {
+    $("#action-status").disabled = true;
+    $("#submit-review-action").disabled = true;
+    return;
+  }
   const review = reviewStateOf(selectedEvidence);
   const status = $("#action-status").value;
   const role = $("#action-reviewer-role").value;
@@ -749,7 +742,12 @@ async function init() {
   try {
     const [health, data] = await Promise.all([requestJson("/api/health"), requestJson("/api/catalog")]);
     catalog = data;
-    $("#release-status").textContent = `Verified inputs · Phase 1B ${health.phase1b.release_id} (${health.phase1b.food_records} foods) · Phase 2 ${health.phase2.release_id} (${health.phase2.accepted_cooking_evidence} accepted cooking estimates) · Stage B source ${health.stage_b_source.rows} rows · Stage A inference not run.`;
+    const releaseStatus = $("#release-status");
+    const phase4Blocked = health.phase4_context?.status === "BLOCKED_INTEGRITY";
+    releaseStatus.classList.toggle("warning", phase4Blocked);
+    releaseStatus.textContent = phase4Blocked
+      ? `Degraded local prototype · Phase 1B ${health.phase1b.release_id} (${health.phase1b.food_records} foods) and Phase 2 ${health.phase2.release_id} loaded · Phase 4 context withheld: ${health.phase4_context.error} · Stage B ${health.stage_b_source.rows} rows · Stage A inference not run.`
+      : `Pinned inputs loaded · Phase 1B ${health.phase1b.release_id} (${health.phase1b.food_records} foods) · Phase 2 ${health.phase2.release_id} (${health.phase2.accepted_cooking_evidence} accepted cooking estimates) · Phase 4 context ${health.phase4_context?.status || "not reported"} (${health.phase4_context?.records_loaded ?? 0} records) · Stage B source ${health.stage_b_source.rows} rows · Stage A inference not run.`;
     addIngredient();
     $("#action-review-date").value = new Date().toISOString().slice(0, 10);
     await Promise.all([searchEvidence(), refreshReviewCoverage(), loadEvidenceCategories()]);

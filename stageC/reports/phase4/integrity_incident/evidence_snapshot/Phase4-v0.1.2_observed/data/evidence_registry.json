@@ -1,0 +1,547 @@
+[
+  {
+    "evidence_id": "EVD-PK-0001",
+    "source_id": "SRC-PK-0001",
+    "compound_reference": {
+      "name_as_reported": "caffeine",
+      "phase1b_compound_id": "MOL-693364CB16A9EA2D",
+      "match_status": "NAME_ONLY_MATCH",
+      "match_rationale": "The publisher full text identifies caffeine as the analyte and reports caffeine measurements, but does not state a PubChem CID or structure. Phase1B-v1.3.1 candidate MOL-693364CB16A9EA2D is Caffeine (PubChem CID 2519); retain NAME_ONLY_MATCH until a second reviewer adjudicates this source-to-registry identity link."
+    },
+    "food_matrix": [
+      "coffee",
+      "energy drink"
+    ],
+    "category": "human_pharmacokinetics",
+    "research_question": "In healthy young adults, do beverage vehicle (coffee versus energy drink), beverage temperature, or rapid versus slower consumption materially change caffeine pharmacokinetic profiles after the studied dose?",
+    "study": {
+      "study_type": "open-label, group-randomized, crossover experimental study",
+      "model": "human",
+      "population_or_model": "Healthy non-caffeine-naive adults aged 18–30. Abstract reports 24 completers; Methods reports 24 recruited and two excluded for poor venous access; final analyzable denominator is unclear.",
+      "exposure_route": "oral"
+    },
+    "conditions": {
+      "dose": 160,
+      "dose_unit": "mg caffeine per condition",
+      "dose_basis": "160 mg caffeine per condition; open-label, group-randomized, crossover study; five conditions",
+      "preparation": "Four hundred fifty mL beverage per condition; instant coffee used 4.1 g powder, energy drink was sugar-free",
+      "experimental_conditions": [
+        "A: hot coffee prepared with 85 °C water, consumed over 20 min",
+        "B: cold coffee refrigerated at 4 °C, consumed over 2 min",
+        "C: cold coffee refrigerated at 4 °C, consumed over 20 min",
+        "D: sugar-free energy drink refrigerated at 4 °C, consumed over 2 min",
+        "E: sugar-free energy drink refrigerated at 4 °C, consumed over 20 min",
+        "Plasma samples collected at 0, 5, 10, 20, 40, 60, 90, 120, 240, and 480 min from start of beverage consumption"
+      ],
+      "denominator_note": "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved."
+    },
+    "outcome": {
+      "measure": "Between-condition plasma caffeine pharmacokinetic comparison",
+      "result_type": "qualitative_observation",
+      "reported_result": "One-way repeated-measures ANOVA found a difference in mean Cmax (p=0.043), but no pairwise comparison reached statistical significance. The paper reported no significant between-condition differences for AUC0–infinity, Tmax, MRT, MAT, half-life, or clearance divided by assumed bioavailability.",
+      "numeric_value": null,
+      "unit": null,
+      "denominator": "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "uncertainty": "The reported omnibus Cmax test is significant, but no pairwise comparison was significant; do not infer a specific pairwise effect or equivalence."
+    },
+    "identity_assessment": {
+      "match_status": "NAME_ONLY_MATCH",
+      "basis": "Publisher full text names caffeine and measures caffeine. The candidate Phase1B record is Caffeine, PubChem CID 2519, but that identifier is not cited in the study; keep name-only status pending independent adjudication.",
+      "review_status": "pending"
+    },
+    "applicability_assessment": {
+      "status": "CONTEXT_LIMITED",
+      "food_matrix": "Coffee and a sugar-free energy drink under the study protocols",
+      "preparation": "Specific 160 mg caffeine doses in 450 mL instant coffee or sugar-free energy drink, temperature and consumption-rate protocols in Methods; does not establish a general food-matrix correction.",
+      "route": "Oral",
+      "population": "Healthy young adults aged 18-30",
+      "rationale": "Human PK under these tested beverage conditions is contextual evidence only. It cannot be converted into food concentration, recipe dose, cooking retention, or exposure multipliers; applicability to other matrices, populations, and doses is unresolved."
+    },
+    "limitations": [
+      "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "Small single-center study; no dose-response assessment.",
+      "One investigator disclosed consultancy with the American Beverage Association, Red Bull GmbH, and Monster Energy; study funding was from the American Beverage Association.",
+      "Identity remains name-only pending adjudication despite an unambiguous common-name candidate in Phase1B.",
+      "Context-limited: the results are not food-composition values, cooking-retention factors, safety thresholds, or clinical recommendations.",
+      "One-pass extraction; independent second review remains pending."
+    ],
+    "extraction": {
+      "status": "full_text_extracted",
+      "method": "First-pass manual transcription and paraphrase from publisher full text; results and methods checked against the PubMed abstract; no automated or LLM-generated acceptance.",
+      "source_location": "Taylor & Francis full text, Results paragraphs 1–2; Methods, Pharmacokinetic analysis; PubMed Abstract Results",
+      "extracted_on": "2026-11-03"
+    },
+    "review": {
+      "status": "pending_second_reviewer",
+      "quality_class": "not_rated",
+      "reviewer_notes": "Full text inspected in a first-pass extraction. Independent verification, identity adjudication, and applicability review remain pending.",
+      "decision_rationale": "Source-level observation is retained but not accepted downstream because the identity/applicability gates and second review are unresolved."
+    },
+    "version": "0.1.0",
+    "provenance": {
+      "upstream_phase1b_release": "Phase1B-v1.3.1",
+      "upstream_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+      "registered_on": "2026-11-03"
+    }
+  },
+  {
+    "evidence_id": "EVD-PK-0001-A",
+    "source_id": "SRC-PK-0001",
+    "compound_reference": {
+      "name_as_reported": "caffeine",
+      "phase1b_compound_id": "MOL-693364CB16A9EA2D",
+      "match_status": "NAME_ONLY_MATCH",
+      "match_rationale": "The publisher full text identifies caffeine as the analyte and reports caffeine measurements, but does not state a PubChem CID or structure. Phase1B-v1.3.1 candidate MOL-693364CB16A9EA2D is Caffeine (PubChem CID 2519); retain NAME_ONLY_MATCH until a second reviewer adjudicates this source-to-registry identity link."
+    },
+    "food_matrix": [
+      "coffee",
+      "energy drink"
+    ],
+    "category": "human_pharmacokinetics",
+    "research_question": "In healthy young adults, do beverage vehicle (coffee versus energy drink), beverage temperature, or rapid versus slower consumption materially change caffeine pharmacokinetic profiles after the studied dose?",
+    "study": {
+      "study_type": "open-label, group-randomized, crossover experimental study",
+      "model": "human",
+      "population_or_model": "Healthy non-caffeine-naive adults aged 18–30. Abstract reports 24 completers; Methods reports 24 recruited and two excluded for poor venous access; final analyzable denominator is unclear.",
+      "exposure_route": "oral"
+    },
+    "conditions": {
+      "dose": 160,
+      "dose_unit": "mg caffeine per condition",
+      "dose_basis": "160 mg caffeine per condition; open-label, group-randomized, crossover study; five conditions",
+      "preparation": "Four hundred fifty mL beverage per condition; instant coffee used 4.1 g powder, energy drink was sugar-free",
+      "experimental_conditions": [
+        "A: hot coffee prepared with 85 °C water, consumed over 20 min",
+        "B: cold coffee refrigerated at 4 °C, consumed over 2 min",
+        "C: cold coffee refrigerated at 4 °C, consumed over 20 min",
+        "D: sugar-free energy drink refrigerated at 4 °C, consumed over 2 min",
+        "E: sugar-free energy drink refrigerated at 4 °C, consumed over 20 min",
+        "Plasma samples collected at 0, 5, 10, 20, 40, 60, 90, 120, 240, and 480 min from start of beverage consumption"
+      ],
+      "denominator_note": "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "condition_code": "A",
+      "condition_description": "hot coffee, consumed over 20 min"
+    },
+    "outcome": {
+      "measure": "Maximum observed plasma caffeine concentration (Cmax), condition-level mean",
+      "result_type": "measured_numeric",
+      "reported_result": "3.74 ± 1.09 µg/mL (range 1.96–5.95)",
+      "numeric_value": 3.74,
+      "unit": "µg/mL",
+      "denominator": "Condition A group mean; The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "uncertainty": "Reported as mean ± SD with range; SD=1.09 µg/mL, range=1.96–5.95 µg/mL.",
+      "dispersion_type": "standard deviation",
+      "standard_deviation": 1.09,
+      "range_min": 1.96,
+      "range_max": 5.95,
+      "condition_code": "A"
+    },
+    "identity_assessment": {
+      "match_status": "NAME_ONLY_MATCH",
+      "basis": "Publisher full text names caffeine and measures caffeine. The candidate Phase1B record is Caffeine, PubChem CID 2519, but that identifier is not cited in the study; keep name-only status pending independent adjudication.",
+      "review_status": "pending"
+    },
+    "applicability_assessment": {
+      "status": "CONTEXT_LIMITED",
+      "food_matrix": "Coffee and a sugar-free energy drink under the study protocols",
+      "preparation": "Specific 160 mg caffeine doses in 450 mL instant coffee or sugar-free energy drink, temperature and consumption-rate protocols in Methods; does not establish a general food-matrix correction.",
+      "route": "Oral",
+      "population": "Healthy young adults aged 18-30",
+      "rationale": "Human PK under these tested beverage conditions is contextual evidence only. It cannot be converted into food concentration, recipe dose, cooking retention, or exposure multipliers; applicability to other matrices, populations, and doses is unresolved."
+    },
+    "limitations": [
+      "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "Small single-center study; no dose-response assessment.",
+      "One investigator disclosed consultancy with the American Beverage Association, Red Bull GmbH, and Monster Energy; study funding was from the American Beverage Association.",
+      "Identity remains name-only pending adjudication despite an unambiguous common-name candidate in Phase1B.",
+      "Context-limited: the results are not food-composition values, cooking-retention factors, safety thresholds, or clinical recommendations.",
+      "One-pass extraction; independent second review remains pending."
+    ],
+    "extraction": {
+      "status": "full_text_extracted",
+      "method": "First-pass manual transcription of the published table row; values and units preserved without normalization or derivation.",
+      "source_location": "Taylor & Francis full text, Table 1, Cmax column, condition A; Methods and Results paragraphs 1–2",
+      "extracted_on": "2026-11-03"
+    },
+    "review": {
+      "status": "pending_second_reviewer",
+      "quality_class": "not_rated",
+      "reviewer_notes": "Numeric mean, SD, and observed range transcribed as printed in Table 1. Final analyzable n is not stated consistently across abstract and methods; independent review is pending.",
+      "decision_rationale": "A source-reported table value is preserved, but it is not accepted for downstream use until independent review and identity/applicability adjudication."
+    },
+    "version": "0.1.0",
+    "provenance": {
+      "upstream_phase1b_release": "Phase1B-v1.3.1",
+      "upstream_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+      "registered_on": "2026-11-03"
+    }
+  },
+  {
+    "evidence_id": "EVD-PK-0001-B",
+    "source_id": "SRC-PK-0001",
+    "compound_reference": {
+      "name_as_reported": "caffeine",
+      "phase1b_compound_id": "MOL-693364CB16A9EA2D",
+      "match_status": "NAME_ONLY_MATCH",
+      "match_rationale": "The publisher full text identifies caffeine as the analyte and reports caffeine measurements, but does not state a PubChem CID or structure. Phase1B-v1.3.1 candidate MOL-693364CB16A9EA2D is Caffeine (PubChem CID 2519); retain NAME_ONLY_MATCH until a second reviewer adjudicates this source-to-registry identity link."
+    },
+    "food_matrix": [
+      "coffee",
+      "energy drink"
+    ],
+    "category": "human_pharmacokinetics",
+    "research_question": "In healthy young adults, do beverage vehicle (coffee versus energy drink), beverage temperature, or rapid versus slower consumption materially change caffeine pharmacokinetic profiles after the studied dose?",
+    "study": {
+      "study_type": "open-label, group-randomized, crossover experimental study",
+      "model": "human",
+      "population_or_model": "Healthy non-caffeine-naive adults aged 18–30. Abstract reports 24 completers; Methods reports 24 recruited and two excluded for poor venous access; final analyzable denominator is unclear.",
+      "exposure_route": "oral"
+    },
+    "conditions": {
+      "dose": 160,
+      "dose_unit": "mg caffeine per condition",
+      "dose_basis": "160 mg caffeine per condition; open-label, group-randomized, crossover study; five conditions",
+      "preparation": "Four hundred fifty mL beverage per condition; instant coffee used 4.1 g powder, energy drink was sugar-free",
+      "experimental_conditions": [
+        "A: hot coffee prepared with 85 °C water, consumed over 20 min",
+        "B: cold coffee refrigerated at 4 °C, consumed over 2 min",
+        "C: cold coffee refrigerated at 4 °C, consumed over 20 min",
+        "D: sugar-free energy drink refrigerated at 4 °C, consumed over 2 min",
+        "E: sugar-free energy drink refrigerated at 4 °C, consumed over 20 min",
+        "Plasma samples collected at 0, 5, 10, 20, 40, 60, 90, 120, 240, and 480 min from start of beverage consumption"
+      ],
+      "denominator_note": "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "condition_code": "B",
+      "condition_description": "cold coffee, consumed over 2 min"
+    },
+    "outcome": {
+      "measure": "Maximum observed plasma caffeine concentration (Cmax), condition-level mean",
+      "result_type": "measured_numeric",
+      "reported_result": "3.64 ± 1.36 µg/mL (range 1.81–8.17)",
+      "numeric_value": 3.64,
+      "unit": "µg/mL",
+      "denominator": "Condition B group mean; The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "uncertainty": "Reported as mean ± SD with range; SD=1.36 µg/mL, range=1.81–8.17 µg/mL.",
+      "dispersion_type": "standard deviation",
+      "standard_deviation": 1.36,
+      "range_min": 1.81,
+      "range_max": 8.17,
+      "condition_code": "B"
+    },
+    "identity_assessment": {
+      "match_status": "NAME_ONLY_MATCH",
+      "basis": "Publisher full text names caffeine and measures caffeine. The candidate Phase1B record is Caffeine, PubChem CID 2519, but that identifier is not cited in the study; keep name-only status pending independent adjudication.",
+      "review_status": "pending"
+    },
+    "applicability_assessment": {
+      "status": "CONTEXT_LIMITED",
+      "food_matrix": "Coffee and a sugar-free energy drink under the study protocols",
+      "preparation": "Specific 160 mg caffeine doses in 450 mL instant coffee or sugar-free energy drink, temperature and consumption-rate protocols in Methods; does not establish a general food-matrix correction.",
+      "route": "Oral",
+      "population": "Healthy young adults aged 18-30",
+      "rationale": "Human PK under these tested beverage conditions is contextual evidence only. It cannot be converted into food concentration, recipe dose, cooking retention, or exposure multipliers; applicability to other matrices, populations, and doses is unresolved."
+    },
+    "limitations": [
+      "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "Small single-center study; no dose-response assessment.",
+      "One investigator disclosed consultancy with the American Beverage Association, Red Bull GmbH, and Monster Energy; study funding was from the American Beverage Association.",
+      "Identity remains name-only pending adjudication despite an unambiguous common-name candidate in Phase1B.",
+      "Context-limited: the results are not food-composition values, cooking-retention factors, safety thresholds, or clinical recommendations.",
+      "One-pass extraction; independent second review remains pending."
+    ],
+    "extraction": {
+      "status": "full_text_extracted",
+      "method": "First-pass manual transcription of the published table row; values and units preserved without normalization or derivation.",
+      "source_location": "Taylor & Francis full text, Table 1, Cmax column, condition B; Methods and Results paragraphs 1–2",
+      "extracted_on": "2026-11-03"
+    },
+    "review": {
+      "status": "pending_second_reviewer",
+      "quality_class": "not_rated",
+      "reviewer_notes": "Numeric mean, SD, and observed range transcribed as printed in Table 1. Final analyzable n is not stated consistently across abstract and methods; independent review is pending.",
+      "decision_rationale": "A source-reported table value is preserved, but it is not accepted for downstream use until independent review and identity/applicability adjudication."
+    },
+    "version": "0.1.0",
+    "provenance": {
+      "upstream_phase1b_release": "Phase1B-v1.3.1",
+      "upstream_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+      "registered_on": "2026-11-03"
+    }
+  },
+  {
+    "evidence_id": "EVD-PK-0001-C",
+    "source_id": "SRC-PK-0001",
+    "compound_reference": {
+      "name_as_reported": "caffeine",
+      "phase1b_compound_id": "MOL-693364CB16A9EA2D",
+      "match_status": "NAME_ONLY_MATCH",
+      "match_rationale": "The publisher full text identifies caffeine as the analyte and reports caffeine measurements, but does not state a PubChem CID or structure. Phase1B-v1.3.1 candidate MOL-693364CB16A9EA2D is Caffeine (PubChem CID 2519); retain NAME_ONLY_MATCH until a second reviewer adjudicates this source-to-registry identity link."
+    },
+    "food_matrix": [
+      "coffee",
+      "energy drink"
+    ],
+    "category": "human_pharmacokinetics",
+    "research_question": "In healthy young adults, do beverage vehicle (coffee versus energy drink), beverage temperature, or rapid versus slower consumption materially change caffeine pharmacokinetic profiles after the studied dose?",
+    "study": {
+      "study_type": "open-label, group-randomized, crossover experimental study",
+      "model": "human",
+      "population_or_model": "Healthy non-caffeine-naive adults aged 18–30. Abstract reports 24 completers; Methods reports 24 recruited and two excluded for poor venous access; final analyzable denominator is unclear.",
+      "exposure_route": "oral"
+    },
+    "conditions": {
+      "dose": 160,
+      "dose_unit": "mg caffeine per condition",
+      "dose_basis": "160 mg caffeine per condition; open-label, group-randomized, crossover study; five conditions",
+      "preparation": "Four hundred fifty mL beverage per condition; instant coffee used 4.1 g powder, energy drink was sugar-free",
+      "experimental_conditions": [
+        "A: hot coffee prepared with 85 °C water, consumed over 20 min",
+        "B: cold coffee refrigerated at 4 °C, consumed over 2 min",
+        "C: cold coffee refrigerated at 4 °C, consumed over 20 min",
+        "D: sugar-free energy drink refrigerated at 4 °C, consumed over 2 min",
+        "E: sugar-free energy drink refrigerated at 4 °C, consumed over 20 min",
+        "Plasma samples collected at 0, 5, 10, 20, 40, 60, 90, 120, 240, and 480 min from start of beverage consumption"
+      ],
+      "denominator_note": "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "condition_code": "C",
+      "condition_description": "cold coffee, consumed over 20 min"
+    },
+    "outcome": {
+      "measure": "Maximum observed plasma caffeine concentration (Cmax), condition-level mean",
+      "result_type": "measured_numeric",
+      "reported_result": "3.56 ± 1.06 µg/mL (range 1.69–5.77)",
+      "numeric_value": 3.56,
+      "unit": "µg/mL",
+      "denominator": "Condition C group mean; The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "uncertainty": "Reported as mean ± SD with range; SD=1.06 µg/mL, range=1.69–5.77 µg/mL.",
+      "dispersion_type": "standard deviation",
+      "standard_deviation": 1.06,
+      "range_min": 1.69,
+      "range_max": 5.77,
+      "condition_code": "C"
+    },
+    "identity_assessment": {
+      "match_status": "NAME_ONLY_MATCH",
+      "basis": "Publisher full text names caffeine and measures caffeine. The candidate Phase1B record is Caffeine, PubChem CID 2519, but that identifier is not cited in the study; keep name-only status pending independent adjudication.",
+      "review_status": "pending"
+    },
+    "applicability_assessment": {
+      "status": "CONTEXT_LIMITED",
+      "food_matrix": "Coffee and a sugar-free energy drink under the study protocols",
+      "preparation": "Specific 160 mg caffeine doses in 450 mL instant coffee or sugar-free energy drink, temperature and consumption-rate protocols in Methods; does not establish a general food-matrix correction.",
+      "route": "Oral",
+      "population": "Healthy young adults aged 18-30",
+      "rationale": "Human PK under these tested beverage conditions is contextual evidence only. It cannot be converted into food concentration, recipe dose, cooking retention, or exposure multipliers; applicability to other matrices, populations, and doses is unresolved."
+    },
+    "limitations": [
+      "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "Small single-center study; no dose-response assessment.",
+      "One investigator disclosed consultancy with the American Beverage Association, Red Bull GmbH, and Monster Energy; study funding was from the American Beverage Association.",
+      "Identity remains name-only pending adjudication despite an unambiguous common-name candidate in Phase1B.",
+      "Context-limited: the results are not food-composition values, cooking-retention factors, safety thresholds, or clinical recommendations.",
+      "One-pass extraction; independent second review remains pending."
+    ],
+    "extraction": {
+      "status": "full_text_extracted",
+      "method": "First-pass manual transcription of the published table row; values and units preserved without normalization or derivation.",
+      "source_location": "Taylor & Francis full text, Table 1, Cmax column, condition C; Methods and Results paragraphs 1–2",
+      "extracted_on": "2026-11-03"
+    },
+    "review": {
+      "status": "pending_second_reviewer",
+      "quality_class": "not_rated",
+      "reviewer_notes": "Numeric mean, SD, and observed range transcribed as printed in Table 1. Final analyzable n is not stated consistently across abstract and methods; independent review is pending.",
+      "decision_rationale": "A source-reported table value is preserved, but it is not accepted for downstream use until independent review and identity/applicability adjudication."
+    },
+    "version": "0.1.0",
+    "provenance": {
+      "upstream_phase1b_release": "Phase1B-v1.3.1",
+      "upstream_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+      "registered_on": "2026-11-03"
+    }
+  },
+  {
+    "evidence_id": "EVD-PK-0001-D",
+    "source_id": "SRC-PK-0001",
+    "compound_reference": {
+      "name_as_reported": "caffeine",
+      "phase1b_compound_id": "MOL-693364CB16A9EA2D",
+      "match_status": "NAME_ONLY_MATCH",
+      "match_rationale": "The publisher full text identifies caffeine as the analyte and reports caffeine measurements, but does not state a PubChem CID or structure. Phase1B-v1.3.1 candidate MOL-693364CB16A9EA2D is Caffeine (PubChem CID 2519); retain NAME_ONLY_MATCH until a second reviewer adjudicates this source-to-registry identity link."
+    },
+    "food_matrix": [
+      "coffee",
+      "energy drink"
+    ],
+    "category": "human_pharmacokinetics",
+    "research_question": "In healthy young adults, do beverage vehicle (coffee versus energy drink), beverage temperature, or rapid versus slower consumption materially change caffeine pharmacokinetic profiles after the studied dose?",
+    "study": {
+      "study_type": "open-label, group-randomized, crossover experimental study",
+      "model": "human",
+      "population_or_model": "Healthy non-caffeine-naive adults aged 18–30. Abstract reports 24 completers; Methods reports 24 recruited and two excluded for poor venous access; final analyzable denominator is unclear.",
+      "exposure_route": "oral"
+    },
+    "conditions": {
+      "dose": 160,
+      "dose_unit": "mg caffeine per condition",
+      "dose_basis": "160 mg caffeine per condition; open-label, group-randomized, crossover study; five conditions",
+      "preparation": "Four hundred fifty mL beverage per condition; instant coffee used 4.1 g powder, energy drink was sugar-free",
+      "experimental_conditions": [
+        "A: hot coffee prepared with 85 °C water, consumed over 20 min",
+        "B: cold coffee refrigerated at 4 °C, consumed over 2 min",
+        "C: cold coffee refrigerated at 4 °C, consumed over 20 min",
+        "D: sugar-free energy drink refrigerated at 4 °C, consumed over 2 min",
+        "E: sugar-free energy drink refrigerated at 4 °C, consumed over 20 min",
+        "Plasma samples collected at 0, 5, 10, 20, 40, 60, 90, 120, 240, and 480 min from start of beverage consumption"
+      ],
+      "denominator_note": "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "condition_code": "D",
+      "condition_description": "sugar-free energy drink, consumed over 2 min"
+    },
+    "outcome": {
+      "measure": "Maximum observed plasma caffeine concentration (Cmax), condition-level mean",
+      "result_type": "measured_numeric",
+      "reported_result": "3.36 ± 1.20 µg/mL (range 1.40–5.78)",
+      "numeric_value": 3.36,
+      "unit": "µg/mL",
+      "denominator": "Condition D group mean; The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "uncertainty": "Reported as mean ± SD with range; SD=1.20 µg/mL, range=1.40–5.78 µg/mL.",
+      "dispersion_type": "standard deviation",
+      "standard_deviation": 1.2,
+      "range_min": 1.4,
+      "range_max": 5.78,
+      "condition_code": "D"
+    },
+    "identity_assessment": {
+      "match_status": "NAME_ONLY_MATCH",
+      "basis": "Publisher full text names caffeine and measures caffeine. The candidate Phase1B record is Caffeine, PubChem CID 2519, but that identifier is not cited in the study; keep name-only status pending independent adjudication.",
+      "review_status": "pending"
+    },
+    "applicability_assessment": {
+      "status": "CONTEXT_LIMITED",
+      "food_matrix": "Coffee and a sugar-free energy drink under the study protocols",
+      "preparation": "Specific 160 mg caffeine doses in 450 mL instant coffee or sugar-free energy drink, temperature and consumption-rate protocols in Methods; does not establish a general food-matrix correction.",
+      "route": "Oral",
+      "population": "Healthy young adults aged 18-30",
+      "rationale": "Human PK under these tested beverage conditions is contextual evidence only. It cannot be converted into food concentration, recipe dose, cooking retention, or exposure multipliers; applicability to other matrices, populations, and doses is unresolved."
+    },
+    "limitations": [
+      "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "Small single-center study; no dose-response assessment.",
+      "One investigator disclosed consultancy with the American Beverage Association, Red Bull GmbH, and Monster Energy; study funding was from the American Beverage Association.",
+      "Identity remains name-only pending adjudication despite an unambiguous common-name candidate in Phase1B.",
+      "Context-limited: the results are not food-composition values, cooking-retention factors, safety thresholds, or clinical recommendations.",
+      "One-pass extraction; independent second review remains pending."
+    ],
+    "extraction": {
+      "status": "full_text_extracted",
+      "method": "First-pass manual transcription of the published table row; values and units preserved without normalization or derivation.",
+      "source_location": "Taylor & Francis full text, Table 1, Cmax column, condition D; Methods and Results paragraphs 1–2",
+      "extracted_on": "2026-11-03"
+    },
+    "review": {
+      "status": "pending_second_reviewer",
+      "quality_class": "not_rated",
+      "reviewer_notes": "Numeric mean, SD, and observed range transcribed as printed in Table 1. Final analyzable n is not stated consistently across abstract and methods; independent review is pending.",
+      "decision_rationale": "A source-reported table value is preserved, but it is not accepted for downstream use until independent review and identity/applicability adjudication."
+    },
+    "version": "0.1.0",
+    "provenance": {
+      "upstream_phase1b_release": "Phase1B-v1.3.1",
+      "upstream_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+      "registered_on": "2026-11-03"
+    }
+  },
+  {
+    "evidence_id": "EVD-PK-0001-E",
+    "source_id": "SRC-PK-0001",
+    "compound_reference": {
+      "name_as_reported": "caffeine",
+      "phase1b_compound_id": "MOL-693364CB16A9EA2D",
+      "match_status": "NAME_ONLY_MATCH",
+      "match_rationale": "The publisher full text identifies caffeine as the analyte and reports caffeine measurements, but does not state a PubChem CID or structure. Phase1B-v1.3.1 candidate MOL-693364CB16A9EA2D is Caffeine (PubChem CID 2519); retain NAME_ONLY_MATCH until a second reviewer adjudicates this source-to-registry identity link."
+    },
+    "food_matrix": [
+      "coffee",
+      "energy drink"
+    ],
+    "category": "human_pharmacokinetics",
+    "research_question": "In healthy young adults, do beverage vehicle (coffee versus energy drink), beverage temperature, or rapid versus slower consumption materially change caffeine pharmacokinetic profiles after the studied dose?",
+    "study": {
+      "study_type": "open-label, group-randomized, crossover experimental study",
+      "model": "human",
+      "population_or_model": "Healthy non-caffeine-naive adults aged 18–30. Abstract reports 24 completers; Methods reports 24 recruited and two excluded for poor venous access; final analyzable denominator is unclear.",
+      "exposure_route": "oral"
+    },
+    "conditions": {
+      "dose": 160,
+      "dose_unit": "mg caffeine per condition",
+      "dose_basis": "160 mg caffeine per condition; open-label, group-randomized, crossover study; five conditions",
+      "preparation": "Four hundred fifty mL beverage per condition; instant coffee used 4.1 g powder, energy drink was sugar-free",
+      "experimental_conditions": [
+        "A: hot coffee prepared with 85 °C water, consumed over 20 min",
+        "B: cold coffee refrigerated at 4 °C, consumed over 2 min",
+        "C: cold coffee refrigerated at 4 °C, consumed over 20 min",
+        "D: sugar-free energy drink refrigerated at 4 °C, consumed over 2 min",
+        "E: sugar-free energy drink refrigerated at 4 °C, consumed over 20 min",
+        "Plasma samples collected at 0, 5, 10, 20, 40, 60, 90, 120, 240, and 480 min from start of beverage consumption"
+      ],
+      "denominator_note": "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "condition_code": "E",
+      "condition_description": "sugar-free energy drink, consumed over 20 min"
+    },
+    "outcome": {
+      "measure": "Maximum observed plasma caffeine concentration (Cmax), condition-level mean",
+      "result_type": "measured_numeric",
+      "reported_result": "3.14 ± 0.95 µg/mL (range 1.87–5.25)",
+      "numeric_value": 3.14,
+      "unit": "µg/mL",
+      "denominator": "Condition E group mean; The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "uncertainty": "Reported as mean ± SD with range; SD=0.95 µg/mL, range=1.87–5.25 µg/mL.",
+      "dispersion_type": "standard deviation",
+      "standard_deviation": 0.95,
+      "range_min": 1.87,
+      "range_max": 5.25,
+      "condition_code": "E"
+    },
+    "identity_assessment": {
+      "match_status": "NAME_ONLY_MATCH",
+      "basis": "Publisher full text names caffeine and measures caffeine. The candidate Phase1B record is Caffeine, PubChem CID 2519, but that identifier is not cited in the study; keep name-only status pending independent adjudication.",
+      "review_status": "pending"
+    },
+    "applicability_assessment": {
+      "status": "CONTEXT_LIMITED",
+      "food_matrix": "Coffee and a sugar-free energy drink under the study protocols",
+      "preparation": "Specific 160 mg caffeine doses in 450 mL instant coffee or sugar-free energy drink, temperature and consumption-rate protocols in Methods; does not establish a general food-matrix correction.",
+      "route": "Oral",
+      "population": "Healthy young adults aged 18-30",
+      "rationale": "Human PK under these tested beverage conditions is contextual evidence only. It cannot be converted into food concentration, recipe dose, cooking retention, or exposure multipliers; applicability to other matrices, populations, and doses is unresolved."
+    },
+    "limitations": [
+      "The abstract reports 24 completers; Methods says 24 recruited and two excluded for poor venous access. Table 1 does not give condition-specific analyzed n; denominator discrepancy is unresolved.",
+      "Small single-center study; no dose-response assessment.",
+      "One investigator disclosed consultancy with the American Beverage Association, Red Bull GmbH, and Monster Energy; study funding was from the American Beverage Association.",
+      "Identity remains name-only pending adjudication despite an unambiguous common-name candidate in Phase1B.",
+      "Context-limited: the results are not food-composition values, cooking-retention factors, safety thresholds, or clinical recommendations.",
+      "One-pass extraction; independent second review remains pending."
+    ],
+    "extraction": {
+      "status": "full_text_extracted",
+      "method": "First-pass manual transcription of the published table row; values and units preserved without normalization or derivation.",
+      "source_location": "Taylor & Francis full text, Table 1, Cmax column, condition E; Methods and Results paragraphs 1–2",
+      "extracted_on": "2026-11-03"
+    },
+    "review": {
+      "status": "pending_second_reviewer",
+      "quality_class": "not_rated",
+      "reviewer_notes": "Numeric mean, SD, and observed range transcribed as printed in Table 1. Final analyzable n is not stated consistently across abstract and methods; independent review is pending.",
+      "decision_rationale": "A source-reported table value is preserved, but it is not accepted for downstream use until independent review and identity/applicability adjudication."
+    },
+    "version": "0.1.0",
+    "provenance": {
+      "upstream_phase1b_release": "Phase1B-v1.3.1",
+      "upstream_phase1b_manifest_sha256": "ad0d4a03e27022d8efade756c48ccd1d792d40608f9dd9674bc55190e1851da8",
+      "registered_on": "2026-11-03"
+    }
+  }
+]

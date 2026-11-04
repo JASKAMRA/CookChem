@@ -145,6 +145,8 @@ class ComparabilityGateTests(unittest.TestCase):
         result = evaluate_comparability(criteria)
         self.assertEqual(result["decision"], "PENDING")
         self.assertEqual(result["clinical_interpretation"], "not_performed")
+        self.assertEqual(result["gate_results"]["time_window"]["result"], "PENDING")
+        self.assertTrue(result["gate_results"]["time_window"]["reason"])
 
     def test_failed_criterion_rejects_comparison(self):
         criteria = self.criteria()
@@ -152,12 +154,17 @@ class ComparabilityGateTests(unittest.TestCase):
         result = evaluate_comparability(criteria)
         self.assertEqual(result["decision"], "REJECTED")
         self.assertIn("dose_units_and_basis", result["decision_reason"])
+        self.assertEqual(result["gate_results"]["dose_units_and_basis"]["result"], "FAIL")
 
     def test_all_positive_criteria_only_ready_for_human_review(self):
         result = evaluate_comparability(self.criteria())
         self.assertEqual(result["decision"], "READY_FOR_REVIEW")
         self.assertEqual(result["review_status"], "automated_check_only")
         self.assertIn("No dose equivalence", result["decision_reason"])
+        self.assertTrue(all(
+            result["gate_results"][gate]["result"] == "PASS_PENDING_HUMAN_REVIEW"
+            for gate in self.criteria()
+        ))
 
     def test_missing_or_mistyped_comparison_criteria_rejected(self):
         with self.assertRaises(ContractError):
@@ -166,6 +173,21 @@ class ComparabilityGateTests(unittest.TestCase):
         criteria["time_window"] = "compatible"
         with self.assertRaises(ContractError):
             evaluate_comparability(criteria)
+
+    def test_every_comparability_gate_fails_closed_individually(self):
+        for gate in self.criteria():
+            with self.subTest(gate=gate, state=False):
+                criteria = self.criteria()
+                criteria[gate] = False
+                result = evaluate_comparability(criteria)
+                self.assertEqual(result["decision"], "REJECTED")
+                self.assertIn(gate, result["decision_reason"])
+            with self.subTest(gate=gate, state=None):
+                criteria = self.criteria()
+                criteria[gate] = None
+                result = evaluate_comparability(criteria)
+                self.assertEqual(result["decision"], "PENDING")
+                self.assertIn(gate, result["decision_reason"])
 
 
 class CrossStageComparisonTests(unittest.TestCase):
@@ -235,6 +257,7 @@ class CrossStageComparisonTests(unittest.TestCase):
 
     def test_binds_exact_ids_hashes_and_separate_exposure_types(self):
         result = self.build()
+        self.assertEqual(result["schema_version"], "1.2.0")
         self.assertEqual(result["decision"], "READY_FOR_REVIEW")
         self.assertEqual(result["exposure_reference"]["estimate_id"], self.exposure["estimate_id"])
         self.assertEqual(result["exposure_reference"]["stage_b_compound_id"], self.exposure["compound_id"])
@@ -292,6 +315,8 @@ class CrossStageComparisonTests(unittest.TestCase):
             "cooked_concentration_low": "10.0",
             "cooked_concentration_high": "15.0",
             "cooked_concentration_unit": "mg/kg",
+            "raw_concentration_basis": "as-received",
+            "cooked_concentration_basis": "as-received",
             "cooked_exposure_status": "SUPPORTED_SYNTHETIC_INTERVAL",
             "retention_evidence_id": "EVID-SYN-001",
         })
@@ -302,10 +327,15 @@ class CrossStageComparisonTests(unittest.TestCase):
         self.assertEqual(dietary["cooked_food_concentration_lower"], "10.0")
         self.assertEqual(dietary["cooked_food_concentration_upper"], "15.0")
         self.assertEqual(dietary["cooked_food_concentration_unit"], "mg/kg")
+        self.assertEqual(dietary["raw_food_concentration_basis"], "as-received")
+        self.assertEqual(dietary["cooked_food_concentration_basis"], "as-received")
         self.assertEqual(dietary["retention_evidence_id"], "EVID-SYN-001")
         for invalid_update, message in (
             ({"retention_evidence_id": ""}, "retention_evidence_id"),
             ({"cooked_concentration_unit": ""}, "explicit unit"),
+            ({"raw_concentration_basis": ""}, "explicit measurement bases"),
+            ({"cooked_concentration_basis": "dry-weight"}, "bases differ"),
+            ({"cooked_concentration_unit": "mg/g"}, "units differ"),
         ):
             invalid = json.loads(json.dumps(result))
             invalid["ingredient_results"][0].update(invalid_update)

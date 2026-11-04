@@ -1,6 +1,7 @@
 """Validation for review-pending Stage D mechanism evidence candidates."""
 from __future__ import annotations
 
+from copy import deepcopy
 import re
 from collections.abc import Mapping
 from typing import Any
@@ -232,3 +233,116 @@ def classify_source_outcome(
         "review_status": "pending_manual_review",
         "interpretation_boundary": "Source-label grouping only; not evidence quality, clinical direction, or risk.",
     }
+
+
+def build_mechanism_review_packet(record: Mapping[str, Any]) -> dict[str, Any]:
+    """Create a traceable reviewer worksheet without changing candidate status.
+
+    The packet keeps source transcription, source verification, candidate
+    interpretation, and reviewer rationale in separate fields. Empty rationale
+    slots are intentional and must be completed by a human reviewer.
+    """
+    validate_mechanism_record(record)
+    raw = record["raw_stage_b_record"]
+    reference = record["stage_b_reference"]
+    verification = record["source_verification"]
+    criteria = record["review_criteria"]
+    return {
+        "packet_schema_version": "1.0.0",
+        "review_state": "PENDING_HUMAN_REVIEW",
+        "acceptance": "PENDING",
+        "candidate_reference": {
+            "mechanism_record_id": record["mechanism_record_id"],
+            "evidence_id": reference["evidence_id"],
+            "compound_id": raw["Compound_ID"],
+            "study_id": raw.get("Study_ID", ""),
+            "release_id": reference["release_id"],
+            "source_file_sha256": reference["source_file_sha256"],
+        },
+        "primary_source": {
+            "title": raw.get("Source_Title", ""),
+            "authors": raw.get("Authors", ""),
+            "year": raw.get("Year", ""),
+            "doi": verification.get("doi"),
+            "pmid": verification.get("pmid"),
+            "url": verification.get("verified_source_url"),
+            "access_level": verification.get("access_level"),
+            "source_locator": verification.get("source_locator"),
+            "verification_note": verification.get("verification_note"),
+        },
+        "source_record": {
+            "evidence_type": raw.get("Evidence_Type", ""),
+            "source_locator": raw.get("Source_Locator", ""),
+            "mechanism_text": raw.get("Mechanism", ""),
+            "outcome_text": raw.get("Outcome", ""),
+            "direction_text": raw.get("Direction", ""),
+            "quantitative_outcome_text": raw.get("Quantitative_Outcome", ""),
+            "assay_context": raw.get("Study_Design", ""),
+            "population_or_model": raw.get("Population", ""),
+            "dose_text": raw.get("Dose", ""),
+            "limitations_text": raw.get("Limitations", ""),
+            "conflict_group": raw.get("Conflict_Group", ""),
+        },
+        "machine_candidate": {
+            "family": record["mechanism_candidate"]["candidate_family"],
+            "source_reported_target": record["mechanism_candidate"]["source_reported_target"],
+            "source_reported_relation": record["mechanism_candidate"]["source_reported_relation"],
+            "classification_basis": record["mechanism_candidate"]["classification_basis"],
+            "interpretation_status": "PENDING_MANUAL_REVIEW",
+        },
+        "source_discrepancies": deepcopy(record["source_discrepancies"]),
+        "reviewer_evidence_assessment": {
+            "supporting_findings": [],
+            "contradicting_findings": [],
+            "uncertainty_and_limitations": [],
+            "rationale": None,
+            "disposition": None,
+        },
+        "review_worksheet": [
+            {
+                "criterion": criterion,
+                "current_machine_state": criteria[criterion]["state"],
+                "reason_codes": list(criteria[criterion]["reason_codes"]),
+                "reviewer_rationale": None,
+                "reviewer_decision": None,
+            }
+            for criterion in REVIEW_CRITERIA
+        ],
+        "decision_boundary": "Packet construction performs no source verification, identity adjudication, evidence acceptance, mechanism approval, or clinical interpretation.",
+    }
+
+
+def build_mechanism_review_packets(registry: Mapping[str, Any]) -> list[dict[str, Any]]:
+    """Validate registry-level source linkage and build every pending packet."""
+    if not isinstance(registry, Mapping):
+        raise MechanismContractError("Mechanism registry must be an object")
+    if registry.get("schema_version") != "1.0.0":
+        raise MechanismContractError("Unsupported mechanism registry schema version")
+    release_id = registry.get("release_id")
+    source_hash = registry.get("source_file_sha256")
+    source_count = registry.get("source_row_count")
+    records = registry.get("records")
+    if (release_id != "StageB_V20_20261103"
+            or not re.fullmatch(r"[0-9a-f]{64}", str(source_hash or ""))
+            or type(source_count) is not int or source_count < 1
+            or not isinstance(records, list)
+            or registry.get("selected_record_count") != len(records)):
+        raise MechanismContractError("Mechanism registry source pin or selected-record count is incomplete")
+    mechanism_ids: set[str] = set()
+    evidence_ids: set[str] = set()
+    packets = []
+    for index, record in enumerate(records, start=1):
+        validate_mechanism_record(record)
+        reference = record["stage_b_reference"]
+        evidence_id = reference["evidence_id"]
+        if (reference["release_id"] != release_id
+                or reference["source_file_sha256"] != source_hash
+                or reference["row_count_at_build"] != source_count):
+            raise MechanismContractError(f"Mechanism row {index} does not match the registry's pinned source")
+        mechanism_id = record["mechanism_record_id"]
+        if mechanism_id in mechanism_ids or evidence_id in evidence_ids:
+            raise MechanismContractError("Mechanism record IDs and source Evidence_IDs must be unique")
+        mechanism_ids.add(mechanism_id)
+        evidence_ids.add(evidence_id)
+        packets.append(build_mechanism_review_packet(record))
+    return packets

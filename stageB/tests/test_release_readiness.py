@@ -151,7 +151,7 @@ class ReleaseReadinessTests(unittest.TestCase):
 
     def test_duplicate_detection_flags_synthetic_duplicate_id(self) -> None:
         validator = load_validator()
-        with tempfile.TemporaryDirectory(dir=ROOT / "stageB" / "temp") as temp:
+        with tempfile.TemporaryDirectory() as temp:
             release = Path(temp)
             tables = {
                 "data/compound_registry.csv": ("Compound_ID,Canonical_Name,Food_Context,Selection_Rationale,Origin\nC-SYN,Test,food,test,legacy\nC-SYN,Test duplicate,food,test,legacy\n"),

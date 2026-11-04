@@ -1,6 +1,6 @@
 import csv
-import importlib.util
 import json
+import types
 import unittest
 from pathlib import Path
 
@@ -9,9 +9,18 @@ ROOT = Path(__file__).resolve().parents[2]
 BASELINE = ROOT / "stageB" / "release" / "StageB_Final"
 RELEASE = ROOT / "stageB" / "release" / "StageB_V13_20261102"
 VALIDATOR = RELEASE / "scripts" / "manifest_integrity.py"
-SPEC = importlib.util.spec_from_file_location("v13_manifest_integrity", VALIDATOR)
-manifest_integrity = importlib.util.module_from_spec(SPEC)
-SPEC.loader.exec_module(manifest_integrity)
+
+
+def load_manifest_integrity_without_bytecode():
+    """Execute the frozen release verifier in memory without adding files to it."""
+    module = types.ModuleType("v13_manifest_integrity")
+    module.__file__ = str(VALIDATOR)
+    module.__package__ = ""
+    exec(compile(VALIDATOR.read_bytes(), str(VALIDATOR), "exec"), module.__dict__)
+    return module
+
+
+manifest_integrity = load_manifest_integrity_without_bytecode()
 
 
 def table(path):

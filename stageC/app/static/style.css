@@ -10,6 +10,7 @@
 .assignment-field{flex:1 1 190px}
 .queue-result-status{font-size:10px;color:var(--muted);line-height:1.5;margin-top:13px;min-height:16px}
 .inline-status.error-text,.error-text{color:var(--red)}.inline-status.success-text{color:#28724d}
+.release-strip.warning{border-color:var(--red);color:var(--red)}
 .polarity.triage{background:#eaf0ff;color:#455b91}.polarity.human-state{background:#e8f5ec;color:#286b47}.polarity.conflicting{background:var(--red-bg);color:var(--red)}.polarity.pending-review{background:var(--amber-bg);color:var(--amber)}
 .state-separation{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px}
 .queue-id-line{font-size:10px;overflow-wrap:anywhere}

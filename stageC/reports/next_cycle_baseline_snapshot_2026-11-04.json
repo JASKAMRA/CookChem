@@ -1,0 +1,442 @@
+{
+  "snapshot_label": "next-execution-cycle-prechanges",
+  "date": "2026-11-04",
+  "branch": "main",
+  "head": "067c6d117bdcf4f9274606499150a859b7c791c6",
+  "working_tree_entries": [
+    {
+      "path": "stageC/app/README.md",
+      "status": " M",
+      "bytes": 4612,
+      "sha256": "af16564a28efe15ec6d7e60988d3fb6fdd02d7c07889ab71db424ef17e3ed49d"
+    },
+    {
+      "path": "stageC/app/server.py",
+      "status": " M",
+      "bytes": 40742,
+      "sha256": "7a7e6f9b35e0f410fe7713dc9d46617d817abe815b6de506ba13cb82b9b55522"
+    },
+    {
+      "path": "stageC/app/static/app.js",
+      "status": " M",
+      "bytes": 48812,
+      "sha256": "f6c7c1805edf4f432e1627c70d06a6337a61fe24d4840e2e8835f322903039a6"
+    },
+    {
+      "path": "stageC/app/static/style.css",
+      "status": " M",
+      "bytes": 11335,
+      "sha256": "68b39bf540eb5efcffa16a71c7e8f5fc6b6b04a6c7ed0335c8e4c07c2cc0833f"
+    },
+    {
+      "path": "stageC/src/stage_c/release_adapters.py",
+      "status": " M",
+      "bytes": 12355,
+      "sha256": "4fd24bf7c3eb509491fe8f606798f448c4c65bfdf85948749385a3ac228ca986"
+    },
+    {
+      "path": "stageC/tests/test_app_api.py",
+      "status": " M",
+      "bytes": 13681,
+      "sha256": "114544f92ca5e86bc7127531c8a6dc788a5864d3613d27523878fe6b692222c9"
+    },
+    {
+      "path": "stageD/data/evidence_review_queue.json",
+      "status": " M",
+      "bytes": 1647407,
+      "sha256": "625ddfbbfe9a48bfe4cd7f6faa6392d56bae7d1be653b8987c71ae760cd8ab54"
+    },
+    {
+      "path": "stageD/data/mechanism_evidence_registry.json",
+      "status": " M",
+      "bytes": 238541,
+      "sha256": "5747b6cc17d4cbebba05798567dd8cb4a90eea95ae47ff4912e5e6de30e782d4"
+    },
+    {
+      "path": "stageD/data/phase5/evidence_review_assignment_unassigned.json",
+      "status": " M",
+      "bytes": 313671,
+      "sha256": "f288eabfcc53b8aa8874fc8d3c19bb7d923ecd5f62ca759d893e0a2301e61d05"
+    },
+    {
+      "path": "stageD/data/phase5/evidence_review_coverage_dashboard.json",
+      "status": " M",
+      "bytes": 929,
+      "sha256": "f5a399ce29ff52044f1547d77f0e22d08f00bc461fed6f7d18ccdceac3b2cb2c"
+    },
+    {
+      "path": "stageD/reports/mechanism_reviewer_packets.md",
+      "status": " M",
+      "bytes": 27629,
+      "sha256": "ddddf66e778a5b402e1e2fa1768680e738411d90224add0b47dad040bf66f87d"
+    },
+    {
+      "path": "stageD/reports/phase45_mechanism_registry_report.md",
+      "status": " M",
+      "bytes": 10580,
+      "sha256": "1d1ad82227872ac53db58dfc5054a531bda550f40411e33433e0fd2e0ae726c9"
+    },
+    {
+      "path": "stageD/reports/phase5/evidence_review_queue_report.md",
+      "status": " M",
+      "bytes": 9482,
+      "sha256": "f5be4670d06dddcffd62f390fbc2761e74e34d7df195e2ebf3a3b999833a31e2"
+    },
+    {
+      "path": "stageD/src/stage_d/evidence_queue.py",
+      "status": " M",
+      "bytes": 20828,
+      "sha256": "9ee58107f29d99a15cdb3334ef8b626d328087c04ef14301c81f5b85ca8d8935"
+    },
+    {
+      "path": "stageB/reports/V20_PENDING_IDENTITY_REVIEW_AUDIT.md",
+      "status": "??",
+      "bytes": 7712,
+      "sha256": "16df10a074ca3ef11ad6794e527f4c9caeeb37a1ce545ac2a346004f7a071b99"
+    },
+    {
+      "path": "stageC/reports/DEPENDENCY_AND_TEST_STABILIZATION_2026-11-04.md",
+      "status": "??",
+      "bytes": 2899,
+      "sha256": "49f8bdf263def3acdec8fe41694992689c85c535cb4578cc66c08d1facca7469"
+    },
+    {
+      "path": "stageC/reports/NEXT_CYCLE_EXECUTION_STATUS_2026-11-04.md",
+      "status": "??",
+      "bytes": 5952,
+      "sha256": "75b1a37bdb33e05ed9a9f9524f960620b01b1cfcdaaea4e3005fe029a60f97fb"
+    },
+    {
+      "path": "stageC/reports/NEXT_DEVELOPER_CONTINUATION_REPORT.md",
+      "status": "??",
+      "bytes": 12368,
+      "sha256": "631f061fcc5ffde5cf7f957ad7be5586d733a9189d60d459d9163b1a0790f07c"
+    },
+    {
+      "path": "stageC/reports/next_cycle_baseline_snapshot.json",
+      "status": "??",
+      "bytes": 16033,
+      "sha256": "18b5fb1437e63e0ef805fb95563c9f5ae091214516d82b5a17bd43c80e3277fe"
+    },
+    {
+      "path": "stageC/reports/phase2/STAGE_A_RF01_RF15_DECISION_REGISTER.md",
+      "status": "??",
+      "bytes": 7174,
+      "sha256": "9e9f7e6ba78479bd75b3e41efc63d92dabb4ebed83e172cc90e28619df31619c"
+    },
+    {
+      "path": "stageD/reports/STAGEB_V20_SOURCE_PIN_RECONCILIATION_2026-11-04.md",
+      "status": "??",
+      "bytes": 3358,
+      "sha256": "63685364ef3e935d5c7fcc3db561af633bc6db08714a30b21fe3ff6aa55d9ada"
+    }
+  ],
+  "protected_stageA_stageB_path_diff": [],
+  "release_manifest_hashes": [
+    {
+      "path": "stageC/releases/Phase1B-v1.3.2",
+      "hash_artifacts": [
+        {
+          "path": "stageB/release/StageB_V20_20261103/history/rebuild_artifacts/313e36513c754633fbac86d3b8908ce4cbb478c7641110d9a1eed82c034c5a20_preservation_manifest.json",
+          "bytes": 971794,
+          "sha256": "a31de0ab8fc5426ea16bd4ffbe53e81a8d3c2b52ac1c1011a174168e48bdb1aa"
+        },
+        {
+          "path": "stageB/release/StageB_V20_20261103/history/rebuild_artifacts/34dbbe6df10978678982026948232ae17bdd000bd7e31b15d919d778d519279a_release_manifest_sha256.json",
+          "bytes": 41824,
+          "sha256": "df778bddce28f063bb9c24a5aba4f3375bd4ed60a7aac151ff3e907753b00acf"
+        },
+        {
+          "path": "stageB/release/StageB_V20_20261103/history/rebuild_artifacts/e217a0ac19fc95aae628c5df11916d7c2ef179cd9a5a674cb0a1403ecc8dca99_v6_original_manifest_verification.json",
+          "bytes": 122,
+          "sha256": "6e9f932a6cdfe2b76c359cd6494613a168c1ca8b1e7e949dc7f3f319bcb052c3"
+        },
+        {
+          "path": "stageB/release/StageB_V20_20261103/manifests/SHA256SUMS.json",
+          "bytes": 142335,
+          "sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2"
+        },
+        {
+          "path": "stageB/release/StageB_V20_20261103/scripts/build_v20_manifest.py",
+          "bytes": 500,
+          "sha256": "b186da077bc6f24df0930e65813aa0870df9ff3bec4c50eefb43179a10299990"
+        },
+        {
+          "path": "stageB/release/StageB_V20_20261103/scripts/manifest_integrity.py",
+          "bytes": 6953,
+          "sha256": "533c6173b295c58559c4bf470bedf7d6c289653494d8dcdde593a2c9843d9a4e"
+        },
+        {
+          "path": "stageB/release/StageB_V20_20261103/validation/audit/0b80836802ddd63c0050a236012774918745a1a81587d74353a84a2343864bf0_preservation_manifest.json",
+          "bytes": 1068098,
+          "sha256": "296e45ea343a440ea5196881bc2e5557a16eace116a60444bcc7f4e972d23ce8"
+        },
+        {
+          "path": "stageB/release/StageB_V20_20261103/validation/audit/1439d2c8ac5694716bdfb7a7089522c91077b674ec1cce4be3af6e24ace640c4_v7_manifest_verification.json",
+          "bytes": 38,
+          "sha256": "08fc0b326278cd4447ebd4267cd548378378624cea8e37207550dba09d569aff"
+        },
+        {
+          "path": "stageC/data/stage_b_snapshot_v20_20261103/import_manifest.json",
+          "bytes": 8714,
+          "sha256": "edbd8ff749244f0318df242f7de899cdde238048ee66111e234ef074e40fc321"
+        },
+        {
+          "path": "stageC/reports/ingestion/food_import_manifest_2026-11-02.json",
+          "bytes": 805,
+          "sha256": "b84e4a5bee388bc599eb5917b8f5868f50752d78e38b8fe6a2541d6ccca06fb6"
+        },
+        {
+          "path": "stageC/reports/ingestion/phase1b_ingestion_manifest_20261102.json",
+          "bytes": 788,
+          "sha256": "12a6a3c3e6803fa8e010113730f342accae993420e9ae7f5b86bf79fc50f2a45"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_001_usda_flavonoids/ingestion_manifest.json",
+          "bytes": 849,
+          "sha256": "79e516863908186034a59d8785805262b655e5426028f02ddeea12080216a2b2"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_002_usda_cocoa/ingestion_manifest.json",
+          "bytes": 1146,
+          "sha256": "31e7c5cf1bbdd7d78598a4c07bb6363427db18a135f3da2916718af95ad40b3c"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_003_usda_tea/ingestion_manifest.json",
+          "bytes": 1170,
+          "sha256": "6b368848db656f3cfa598b27bba0a5db13c367d33ef5eecb1ae126c33bca30df"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_004_usda_fdc_caffeine_flavonoid_screen/ingestion_manifest.json",
+          "bytes": 860,
+          "sha256": "a1b07a7ba5425b491925c694a5afa5b89a267deefd179bf2314da189a0479daf"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_006_usda_isoflavone_formononetin/ingestion_manifest.json",
+          "bytes": 854,
+          "sha256": "bcd91ba08652f3894b2ab60d02a834544e94e31658688cab3056156cdf2bac78"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_008_usda_phytoestrogens_catechins/ingestion_manifest.json",
+          "bytes": 855,
+          "sha256": "a0171f1485a03930733501699d11a1fd09510fa02dff60cba404e494af6b7daa"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_009_multimatrix_primary_food_composition/ingestion_manifest.json",
+          "bytes": 863,
+          "sha256": "c6b9a18831bcd129014a89b044a4e519d3f75e278f0236e4eeb111ffc2013e2a"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_010_berries_citrus_primary/ingestion_manifest.json",
+          "bytes": 845,
+          "sha256": "3f81debe085f444de539c721838713b9457d09bf5f1b384596a5be0e2860d99c"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_011_australian_fruit_vegetable_hplc/ingestion_manifest.json",
+          "bytes": 854,
+          "sha256": "4058255dff4820cc3a444351035fd4d3c04f7d338b0ff842b1ea72cbab353ff8"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_012_australian_herbs/ingestion_manifest.json",
+          "bytes": 839,
+          "sha256": "1585c5a54f81c2bf7b13d561dd8d784d12cb262f4dede197e985e1f7f3296f54"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_013_native_australian_food_herbs/ingestion_manifest.json",
+          "bytes": 851,
+          "sha256": "b03bcea82b065784d3a08d0a7181b04c3ccee21ce039959df9beef234bcdb6c3"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_014_native_australian_fruits_spices/ingestion_manifest.json",
+          "bytes": 854,
+          "sha256": "f03263c9c798ff991303b3f2156c48192a927cc0bc3da3aaffdb10e4b29bd872"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_015_portuguese_common_beans/ingestion_manifest.json",
+          "bytes": 846,
+          "sha256": "1d2b89fe763629dacfd0f7c935bdf1a7417cdc1b29cdbd9048a5ddd6694df790"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_091_pterostilbene_artichoke_dicaffeoylquinic_acids/ingestion_manifest.json",
+          "bytes": 747,
+          "sha256": "e4d568a68f8a1743d8c1f34e940ca04a9a4eafa7f5ef74999782aa898f26084a"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_092_nootkatone_sulforaphane_operational_measurements/ingestion_manifest.json",
+          "bytes": 747,
+          "sha256": "575eae3148fb0f922bf2c4da2d855ffee4b7a5fe1103ec145cc6bdcd0b531902"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_093_tectochrysin_honey_semquantified/ingestion_manifest.json",
+          "bytes": 747,
+          "sha256": "4e5ebf559f0df9f6e902ebc6c051e6a9753577a6d767c061fe8ae3fe789596a7"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_094_indole3carbinol_broccoli_hydrolysis_yield/ingestion_manifest.json",
+          "bytes": 747,
+          "sha256": "5d1b618928c666a83f01ede2990bec3bbb2cdf26166555427b73218b6ed53a21"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_095_gossypetin_roselle_dry_calyces/ingestion_manifest.json",
+          "bytes": 747,
+          "sha256": "67ddf86dae4bf6f69b844a795e966ca75cc657b30adb2f2e49b6e989e2877a9d"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_096_berberine_and_garlic_semquant_estimates/ingestion_manifest.json",
+          "bytes": 747,
+          "sha256": "4d64656c45daf79c975c53b9a85e5a553a9102e65caf44767297d9f097c4671a"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_097_syringic_acid_cornelian_cherry/ingestion_manifest.json",
+          "bytes": 415,
+          "sha256": "56572639b9f499e3ae9f572741e5b74d8fbaaf7615b7f565d90659b4a38af354"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_098_astaxanthin_salmon_full_text/ingestion_manifest.json",
+          "bytes": 405,
+          "sha256": "f76d735c12beb1bcb0ba62796653aae846dde1207fe5a619c3cc0fc6fd8c80a4"
+        },
+        {
+          "path": "stageC/reports/phase1b/batches/batch_105_targeted_source_followup/ingestion_manifest.json",
+          "bytes": 885,
+          "sha256": "3f3a014ec118a4e469623ac54153fc15aa40042ff558a9f67c2b248af6812772"
+        },
+        {
+          "path": "stageC/reports/validation/post_batch_ingestion_manifest.json",
+          "bytes": 808,
+          "sha256": "82c774bd4db96d18081a3cb934013b3efb6898b9f610a58377f2bc00afaf2817"
+        },
+        {
+          "path": "stageC/schemas/stage_b_import_manifest_schema.json",
+          "bytes": 1794,
+          "sha256": "0b3d7eacfb23076eaf720c7c2596140a261596709c933ad3c7a7aa6941ef5da8"
+        }
+      ]
+    },
+    {
+      "path": "stageC/releases/Phase2-v0.3.1",
+      "hash_artifacts": [
+        {
+          "path": "RELEASE_MANIFEST.json",
+          "bytes": 9205,
+          "sha256": "2b72e4df095002952fcf2eef2af3381425384317d6ea259b81676ed8c243746e"
+        },
+        {
+          "path": "RELEASE_MANIFEST.sha256",
+          "bytes": 89,
+          "sha256": "754b97d479088af8d33cff930abe77b75f1bcf6cd7a2d6d153122340d23d5317"
+        }
+      ]
+    },
+    {
+      "path": "stageC/releases/Phase3-v0.1.2",
+      "hash_artifacts": [
+        {
+          "path": "RELEASE_MANIFEST.json",
+          "bytes": 8447,
+          "sha256": "8a0d532ff35cc8ac88d5cedc0231caf35b94aebac6501c30c55b5db48ff1a9ec"
+        },
+        {
+          "path": "RELEASE_MANIFEST.sha256",
+          "bytes": 89,
+          "sha256": "7d53ad44372d865ea7befd7b6be7ff6d9599807f1997e7fa3b829178b968d62a"
+        },
+        {
+          "path": "stageC/schemas/stage_b_import_manifest_schema.json",
+          "bytes": 1742,
+          "sha256": "c43027953a84358f0eeeea22f997e0415bf9bf7594a882eee652e62cd49b57a6"
+        }
+      ]
+    },
+    {
+      "path": "stageC/phase4/releases/Phase4-v0.1.0",
+      "hash_artifacts": [
+        {
+          "path": "release_manifest.json",
+          "bytes": 2570,
+          "sha256": "bc69de18687c95584fbe8aca8b81ebc0f927cbba0a0ff0391859ff4145ea8b8a"
+        },
+        {
+          "path": "release_manifest.sha256",
+          "bytes": 88,
+          "sha256": "4bd748c47672e8ba1be95b0043ad3912e6829518b57b8ad1cd1147d5214ba998"
+        }
+      ]
+    },
+    {
+      "path": "stageC/phase4/releases/Phase4-v0.1.1",
+      "hash_artifacts": [
+        {
+          "path": "release_manifest.json",
+          "bytes": 2904,
+          "sha256": "8898d8425ff4f6ef7c3f34de7f3b9fecb94f573cdd1d54f9cf23d924fd4c77e3"
+        },
+        {
+          "path": "release_manifest.sha256",
+          "bytes": 88,
+          "sha256": "02ce42a6fcaae0e5847b047109833a3a82826761a88db4b2548e2a5029952ef4"
+        }
+      ]
+    },
+    {
+      "path": "stageC/phase4/releases/Phase4-v0.1.2",
+      "hash_artifacts": [
+        {
+          "path": "release_manifest.json",
+          "bytes": 3051,
+          "sha256": "978a706ac4c9bb0fbc69a95bb097bdb7b4d743795ab135eb66100e13c6cd2752"
+        },
+        {
+          "path": "release_manifest.sha256",
+          "bytes": 88,
+          "sha256": "f9ed421e5f1a4a5bf7deabde1061708a44e6c854aead219842cd7b065b65cce6"
+        }
+      ]
+    },
+    {
+      "path": "stageB/release/StageB_V20_20261103",
+      "hash_artifacts": [
+        {
+          "path": "history/rebuild_artifacts/313e36513c754633fbac86d3b8908ce4cbb478c7641110d9a1eed82c034c5a20_preservation_manifest.json",
+          "bytes": 971794,
+          "sha256": "a31de0ab8fc5426ea16bd4ffbe53e81a8d3c2b52ac1c1011a174168e48bdb1aa"
+        },
+        {
+          "path": "history/rebuild_artifacts/34dbbe6df10978678982026948232ae17bdd000bd7e31b15d919d778d519279a_release_manifest_sha256.json",
+          "bytes": 41824,
+          "sha256": "df778bddce28f063bb9c24a5aba4f3375bd4ed60a7aac151ff3e907753b00acf"
+        },
+        {
+          "path": "history/rebuild_artifacts/e217a0ac19fc95aae628c5df11916d7c2ef179cd9a5a674cb0a1403ecc8dca99_v6_original_manifest_verification.json",
+          "bytes": 122,
+          "sha256": "6e9f932a6cdfe2b76c359cd6494613a168c1ca8b1e7e949dc7f3f319bcb052c3"
+        },
+        {
+          "path": "manifests/SHA256SUMS.json",
+          "bytes": 142335,
+          "sha256": "db630b3134126df723494c7ebb58db64e1c61099660b0c6391a4602c3e7deec2"
+        },
+        {
+          "path": "scripts/build_v20_manifest.py",
+          "bytes": 500,
+          "sha256": "b186da077bc6f24df0930e65813aa0870df9ff3bec4c50eefb43179a10299990"
+        },
+        {
+          "path": "scripts/manifest_integrity.py",
+          "bytes": 6953,
+          "sha256": "533c6173b295c58559c4bf470bedf7d6c289653494d8dcdde593a2c9843d9a4e"
+        },
+        {
+          "path": "validation/audit/0b80836802ddd63c0050a236012774918745a1a81587d74353a84a2343864bf0_preservation_manifest.json",
+          "bytes": 1068098,
+          "sha256": "296e45ea343a440ea5196881bc2e5557a16eace116a60444bcc7f4e972d23ce8"
+        },
+        {
+          "path": "validation/audit/1439d2c8ac5694716bdfb7a7089522c91077b674ec1cce4be3af6e24ace640c4_v7_manifest_verification.json",
+          "bytes": 38,
+          "sha256": "08fc0b326278cd4447ebd4267cd548378378624cea8e37207550dba09d569aff"
+        }
+      ]
+    }
+  ]
+}

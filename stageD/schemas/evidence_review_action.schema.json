@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:cookrisk:schema:evidence_review_action:1.0.0",
+  "$id": "urn:cookrisk:schema:evidence_review_action:1.2.0",
   "title": "CookRisk human evidence-review action",
   "description": "Explicit reviewer action stored in a separate append-only hash-chained audit log; machine triage never creates these events.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "sequence", "action_id", "review_id", "evidence_id", "resulting_status", "reviewer_name", "reviewer_role", "review_date", "source_locator", "rationale", "negative_evidence_assessment", "previous_event_sha256", "event_sha256"],
   "properties": {
-    "schema_version": {"const": "1.0.0"},
+    "schema_version": {"enum": ["1.0.0", "1.1.0", "1.2.0"]},
     "sequence": {"type": "integer", "minimum": 1},
     "action_id": {"type": "string", "minLength": 1},
     "review_id": {"type": "string", "pattern": "^RV-[A-F0-9]{20}$"},
@@ -15,6 +15,22 @@
     "resulting_status": {"enum": ["SOURCE_VERIFIED", "IDENTITY_PENDING", "CONTEXT_PENDING", "CONFLICT_REVIEW", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"]},
     "reviewer_name": {"type": "string", "minLength": 1},
     "reviewer_role": {"type": "string", "minLength": 1},
+    "reviewer_subject_id": {"type": "string", "minLength": 1},
+    "identity_issuer": {"type": "string", "minLength": 1},
+    "identity_signature": {"type": "string", "minLength": 1},
+    "identity_key_id": {"type": "string", "minLength": 1},
+    "reviewer_credential_expires_at": {"type": "string", "format": "date-time"},
+    "identity_verified_at": {"type": "string", "format": "date-time"},
+    "review_assessment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["supporting_findings", "contradicting_findings", "uncertainty_and_limitations", "exposure_comparability_status"],
+      "properties": {
+        "supporting_findings": {"type": "array", "items": {"$ref": "#/$defs/finding"}},
+        "contradicting_findings": {"type": "array", "items": {"$ref": "#/$defs/finding"}},
+        "uncertainty_and_limitations": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "exposure_comparability_status": {"enum": ["NOT_ASSESSED", "COMPARABLE_PENDING_HUMAN_REVIEW", "NOT_COMPARABLE", "NOT_APPLICABLE"]}
+      }
+    },
     "review_date": {"type": "string", "format": "date"},
     "source_locator": {"type": "string", "minLength": 1},
     "rationale": {"type": "string", "minLength": 1},
@@ -23,7 +39,20 @@
     "event_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
   },
   "allOf": [
+    {"if": {"properties": {"schema_version": {"enum": ["1.1.0", "1.2.0"]}}, "required": ["schema_version"]}, "then": {"required": ["reviewer_subject_id", "identity_issuer", "identity_signature"]}},
+    {"if": {"properties": {"schema_version": {"const": "1.2.0"}}, "required": ["schema_version"]}, "then": {"required": ["identity_key_id", "reviewer_credential_expires_at", "identity_verified_at"]}},
+    {"if": {"properties": {"schema_version": {"const": "1.2.0"}}, "required": ["schema_version"]}, "then": {"required": ["review_assessment"]}},
     {"if": {"properties": {"resulting_status": {"enum": ["EXPERT_ACCEPTED", "EXPERT_REJECTED"]}}, "required": ["resulting_status"]}, "then": {"properties": {"reviewer_role": {"const": "expert"}}}},
     {"if": {"properties": {"negative_evidence_assessment": {"const": "EXPLICIT_NEGATIVE_REVIEWED"}}, "required": ["negative_evidence_assessment"]}, "then": {"properties": {"resulting_status": {"enum": ["SOURCE_VERIFIED", "READY_FOR_EXPERT_REVIEW", "EXPERT_ACCEPTED", "EXPERT_REJECTED"]}}}}
-  ]
+  ],
+  "$defs": {
+    "finding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["finding", "source_locator"],
+      "properties": {
+        "finding": {"type": "string", "minLength": 1},
+        "source_locator": {"type": "string", "minLength": 1}
+      }
+    }
+  }
 }

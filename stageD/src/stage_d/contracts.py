@@ -31,6 +31,14 @@ _REQUIRED_COMPARISON_CRITERIA = (
     "population_or_model",
     "preparation_or_matrix",
 )
+_COMPARABILITY_GATE_LABELS = {
+    "compound_identity": "exact compound identity",
+    "exposure_route": "exposure route",
+    "dose_units_and_basis": "units and measurement basis",
+    "time_window": "exposure time window",
+    "population_or_model": "population or experimental model",
+    "preparation_or_matrix": "preparation method or sample matrix",
+}
 
 
 def _text(row: Mapping[str, Any], key: str) -> str:
@@ -225,6 +233,19 @@ def evaluate_comparability(criteria: Mapping[str, bool | None]) -> dict[str, Any
 
     failed = [name for name, value in criteria.items() if value is False]
     pending = [name for name, value in criteria.items() if value is None]
+    gate_results = {
+        name: {
+            "result": "PASS_PENDING_HUMAN_REVIEW" if value is True else "FAIL" if value is False else "PENDING",
+            "reason": (
+                f"Caller marks {_COMPARABILITY_GATE_LABELS[name]} compatible; supporting source review remains required."
+                if value is True else
+                f"Caller marks {_COMPARABILITY_GATE_LABELS[name]} incompatible; the comparison is rejected."
+                if value is False else
+                f"Evidence for {_COMPARABILITY_GATE_LABELS[name]} is incomplete or contradictory; comparison remains pending."
+            ),
+        }
+        for name, value in sorted(criteria.items())
+    }
     if failed:
         decision = "REJECTED"
         reason = "Unsupported comparison; failed criteria: " + ", ".join(sorted(failed))
@@ -237,6 +258,7 @@ def evaluate_comparability(criteria: Mapping[str, bool | None]) -> dict[str, Any
     return {
         "schema_version": "1.0.0",
         "criteria": dict(criteria),
+        "gate_results": gate_results,
         "decision": decision,
         "decision_reason": reason,
         "review_status": "automated_check_only",
@@ -388,6 +410,9 @@ def build_cross_stage_comparison(
     cooked_low: Decimal | None = None
     cooked_high: Decimal | None = None
     cooked_unit: str | None = None
+    raw_basis_raw = exposure.get("raw_concentration_basis")
+    raw_basis = str(raw_basis_raw).strip() if isinstance(raw_basis_raw, str) else ""
+    cooked_basis: str | None = None
     if has_cooked_values:
         if cooked_status in {"not_reported", "RAW_FOOD_NO_COOKING_ADJUSTMENT"}:
             raise ContractError("Cooked concentration values conflict with cooked_exposure_status")
@@ -400,6 +425,14 @@ def build_cross_stage_comparison(
         cooked_unit = str(cooked_unit_raw or "").strip()
         if not cooked_unit:
             raise ContractError("Cooked concentration values require an explicit unit")
+        cooked_basis_raw = exposure.get("cooked_concentration_basis")
+        cooked_basis = str(cooked_basis_raw).strip() if isinstance(cooked_basis_raw, str) else ""
+        if not raw_basis or not cooked_basis:
+            raise ContractError("Raw and cooked concentration values require explicit measurement bases")
+        if concentration_unit.casefold() != cooked_unit.casefold():
+            raise ContractError("Raw and cooked concentration units differ; conversion evidence is required")
+        if raw_basis.casefold() != cooked_basis.casefold():
+            raise ContractError("Raw and cooked concentration bases differ; basis-conversion evidence is required")
 
     missing_inputs = exposure.get("missing_inputs") or []
     source_warnings = exposure.get("warnings") or []
@@ -411,11 +444,12 @@ def build_cross_stage_comparison(
     study_context = normalized_evidence.get("study_context", {})
     source_dose = study_context.get("dose") if isinstance(study_context, Mapping) else None
     return {
-        "schema_version": "1.1.0",
+        "schema_version": "1.2.0",
         "comparison_id": f"CMP-{exposure_id}-{evidence_id}",
         "exposure_id": exposure_id,
         "evidence_id": evidence_id,
         "criteria": gate["criteria"],
+        "gate_results": gate["gate_results"],
         "decision": gate["decision"],
         "decision_reason": gate["decision_reason"],
         "review_status": gate["review_status"],
@@ -450,9 +484,11 @@ def build_cross_stage_comparison(
             ),
             "raw_food_concentration": format(concentration, "f"),
             "raw_food_concentration_unit": concentration_unit,
+            "raw_food_concentration_basis": raw_basis or None,
             "cooked_food_concentration_lower": format(cooked_low, "f") if cooked_low is not None else None,
             "cooked_food_concentration_upper": format(cooked_high, "f") if cooked_high is not None else None,
             "cooked_food_concentration_unit": cooked_unit,
+            "cooked_food_concentration_basis": cooked_basis,
             "cooked_exposure_status": cooked_status,
             "retention_evidence_id": str(exposure.get("retention_evidence_id") or ""),
             "food_state": str(exp_provenance.get("ingredient_state") or "unknown"),

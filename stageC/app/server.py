@@ -32,6 +32,7 @@ from stage_c.exceptions import SourceIntegrityError, ValidationError  # noqa: E4
 from stage_c.provenance import deterministic_id, sha256_file  # noqa: E402
 from stage_c.recipe_engine import calculate_meal_exposure, calculate_recipe_exposure  # noqa: E402
 from stage_c.release_adapters import (  # noqa: E402
+    PHASE4_RELEASE,
     load_phase1b_v131_inputs,
     load_phase2_v030_evidence,
     load_phase4_context_evidence,
@@ -60,11 +61,14 @@ from stage_d.evidence_review_workflow import (  # noqa: E402
 )
 
 EVIDENCE_RELEASE = "StageB_V20_20261103"
-EVIDENCE_SHA256 = "358665c339e0ab673bb846d16d30e75dbed2b9587ae4df91baddfb5493a3b8e6"
+EVIDENCE_SHA256 = "5c095c6ee22d8d998888d3d47bc4ae2fcabf17faf4df0bee8aad7d6bb9af1cec"
 EVIDENCE_CSV = PROJECT_ROOT / "stageB" / "release" / EVIDENCE_RELEASE / "data" / "interaction_evidence.csv"
 EVIDENCE_REGISTRY = PROJECT_ROOT / "stageD" / "data" / "mechanism_evidence_registry.json"
 REVIEW_ACTION_LOG = PROJECT_ROOT / "stageD" / "data" / "evidence_review_actions.jsonl"
 REVIEW_BACKUP_DIR = PROJECT_ROOT / "stageD" / "data" / "phase5" / "backups"
+# This local prototype has no trusted reviewer identity provider configured.
+# Keep review submissions disabled until a real, trusted provider is integrated.
+TRUSTED_REVIEW_IDENTITY_PROVIDER_CONFIGURED = False
 COMPARABILITY_FIELDS = (
     "compound_identity", "exposure_route", "dose_units_and_basis",
     "time_window", "population_or_model", "preparation_or_matrix",
@@ -76,6 +80,10 @@ MASS_FIELDS = (
     "cooking_oil_discarded_mass",
 )
 RECIPE_MASS_FIELDS = (*MASS_FIELDS, "batch_yield", "serving_mass", "leftovers_mass")
+
+
+class ReviewAuthenticationUnavailable(RuntimeError):
+    """Raised when reviewer actions cannot be authenticated safely."""
 
 
 def _empty_mass_balance(fields: tuple[str, ...]) -> dict[str, dict[str, str]]:
@@ -203,6 +211,7 @@ class CookRiskService:
 
     def __init__(self, *, foods=None, mappings=None, compounds=None, phase1b=None,
                  phase2_evidence=None, phase2=None, phase4_evidence=None,
+                 phase4_status=None,
                  stage_b_rows=None, stage_b_release=EVIDENCE_RELEASE,
                  stage_b_sha256=EVIDENCE_SHA256, mechanisms=None,
                  review_action_path=REVIEW_ACTION_LOG, review_backup_dir=REVIEW_BACKUP_DIR):
@@ -213,6 +222,7 @@ class CookRiskService:
         self.phase2_evidence = phase2_evidence
         self.phase2 = phase2
         self.phase4_evidence = phase4_evidence
+        self.phase4_status = phase4_status
         self.stage_b_rows = stage_b_rows
         self.stage_b_release = stage_b_release
         self.stage_b_sha256 = stage_b_sha256
@@ -228,7 +238,27 @@ class CookRiskService:
         if self.phase2_evidence is None:
             self.phase2_evidence, self.phase2 = load_phase2_v030_evidence()
         if self.phase4_evidence is None:
-            self.phase4_evidence, _phase4 = load_phase4_context_evidence()
+            try:
+                self.phase4_evidence, self.phase4_status = load_phase4_context_evidence()
+            except SourceIntegrityError as exc:
+                # Phase 4 context is optional to the food/exposure workflow. Keep
+                # its integrity gate fail-closed while allowing unrelated pinned
+                # inputs to load with an explicit degraded-health warning.
+                self.phase4_evidence = []
+                self.phase4_status = {
+                    "release_id": PHASE4_RELEASE,
+                    "status": "BLOCKED_INTEGRITY",
+                    "manifest_verified": False,
+                    "selected_context_record_count": 0,
+                    "error": str(exc),
+                }
+        elif self.phase4_status is None:
+            self.phase4_status = {
+                "release_id": PHASE4_RELEASE,
+                "status": "PRELOADED_UNVERIFIED",
+                "manifest_verified": False,
+                "selected_context_record_count": len(self.phase4_evidence),
+            }
         if self.stage_b_rows is None:
             if not EVIDENCE_CSV.is_file() or sha256_file(EVIDENCE_CSV) != self.stage_b_sha256:
                 raise SourceIntegrityError("Pinned Stage B evidence source is missing or its SHA-256 changed")
@@ -245,20 +275,32 @@ class CookRiskService:
     def ready(self) -> bool:
         return all(value is not None for value in (self.foods, self.mappings, self.compounds,
                                                    self.phase1b, self.phase2_evidence,
-                                                   self.phase2, self.stage_b_rows, self.mechanisms))
+                                                   self.phase2, self.phase4_status,
+                                                   self.stage_b_rows, self.mechanisms))
 
     def health(self) -> dict[str, Any]:
         self.load()
+        phase4_status = dict(self.phase4_status or {})
+        phase4_blocked = phase4_status.get("status") == "BLOCKED_INTEGRITY"
         return {
-            "status": "NON_PRODUCTION_LOCAL_PROTOTYPE",
+            "status": "DEGRADED_PHASE4_CONTEXT_UNAVAILABLE" if phase4_blocked else "NON_PRODUCTION_LOCAL_PROTOTYPE",
             "stage_a_inference": "not_run",
             "stage_b_source": {"release_id": self.stage_b_release, "sha256": self.stage_b_sha256,
                                "rows": len(self.stage_b_rows), "read_only": True},
             "phase1b": {key: self.phase1b.get(key) for key in ("release_id", "manifest_sha256", "food_records", "compounds")},
             "phase2": {key: self.phase2.get(key) for key in ("release_id", "manifest_sha256", "accepted_cooking_evidence", "blocked_records")},
+            "phase4_context": {
+                "release_id": phase4_status.get("release_id", PHASE4_RELEASE),
+                "status": phase4_status.get("status", "NOT_REPORTED"),
+                "manifest_verified": bool(phase4_status.get("manifest_verified", False)),
+                "records_loaded": len(self.phase4_evidence),
+                "error": phase4_status.get("error"),
+            },
             "evidence_context_records": len(self.phase4_evidence),
             "mechanism_candidates": len(self.mechanisms),
             "clinical_interpretation": "not_performed",
+            "warnings": (["Phase 4 contextual evidence was withheld because its pinned release failed integrity verification."]
+                         if phase4_blocked else []),
         }
 
     def _review_snapshot(self):
@@ -382,6 +424,10 @@ class CookRiskService:
             return {"status": "FAILED", "reason": str(exc)}
 
     def submit_review_action(self, action: dict[str, Any]):
+        if not TRUSTED_REVIEW_IDENTITY_PROVIDER_CONFIGURED:
+            raise ReviewAuthenticationUnavailable(
+                "Review submission is disabled because no trusted identity provider is configured"
+            )
         with self.review_lock:
             if not EVIDENCE_CSV.is_file() or sha256_file(EVIDENCE_CSV) != EVIDENCE_SHA256:
                 raise SourceIntegrityError("Pinned Stage B source is missing or its SHA-256 changed")
@@ -680,6 +726,12 @@ class CookRiskHandler(BaseHTTPRequestHandler):
                     raise ValidationError("format must be json or csv")
             else:
                 self._json({"error": "Not found"}, 404)
+        except ReviewAuthenticationUnavailable as exc:
+            self._json({
+                "code": "review_authentication_unavailable",
+                "error": str(exc),
+                "review_submission_enabled": False,
+            }, 503)
         except (ValidationError, ContractError) as exc:
             self._json({"error": str(exc)}, 400)
         except (SourceIntegrityError, OSError, ValueError) as exc:

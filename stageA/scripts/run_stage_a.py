@@ -7,12 +7,17 @@ inside each molecular GroupKFold training partition.
 from __future__ import annotations
 
 import json
+import hashlib
+import importlib.metadata
 import math
 import platform
+import os
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import threadpoolctl
+import xgboost
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import ExtraTreesRegressor, RandomForestRegressor
 from sklearn.impute import SimpleImputer
@@ -52,6 +57,149 @@ ENGINEERED = [
     "logp_temperature_interaction", "tpsa_time_interaction",
 ]
 BENCHMARK = {"MAE": 31.959809, "RMSE": 123.073056, "R2": 0.380461}
+EXPECTED_INPUT_SHA256 = "750124efc8b89dff1f67764064b1049b5db51fb1b2f222d4f91cd94c56945f89"
+OUTPUT_FILES = (
+    "stageA_benchmark_results.csv",
+    "stageA_fold_results.csv",
+    "stageA_oof_predictions.csv",
+    "stageA_robustness.csv",
+    "stageA_tuning_results.csv",
+    "stageA_validation_audit.csv",
+    "stageA_qa.json",
+)
+
+
+def verify_input_snapshot(path: Path = INPUT) -> str:
+    """Verify the staged Stage A training snapshot before reading or fitting."""
+    digest = hashlib.sha256(path.read_bytes()).hexdigest()
+    if digest != EXPECTED_INPUT_SHA256:
+        raise ValueError(
+            f"Stage A input snapshot SHA-256 mismatch: expected {EXPECTED_INPUT_SHA256}, got {digest}"
+        )
+    return digest
+
+
+def sha256_text(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+
+def write_run_manifest(df: pd.DataFrame, input_sha256: str, tuned_params: dict) -> None:
+    """Record the exact current run contract and hashes without timestamps or local paths."""
+    features = make_features(df)
+    y = pd.to_numeric(df[TARGET], errors="raise").to_numpy(float)
+    groups = df[GROUP].astype(str).to_numpy()
+    record_ids = df["Record_ID"].astype(str).to_numpy()
+    fold_manifest = []
+    for fold, (train_idx, valid_idx) in enumerate(GroupKFold(n_splits=5).split(features, y, groups), 1):
+        train_group_ids = sorted(set(groups[train_idx]))
+        valid_group_ids = sorted(set(groups[valid_idx]))
+        train_record_ids = sorted(record_ids[train_idx].tolist())
+        valid_record_ids = sorted(record_ids[valid_idx].tolist())
+        fold_manifest.append({
+            "fold": fold,
+            "train_rows": len(train_idx),
+            "validation_rows": len(valid_idx),
+            "train_groups": len(train_group_ids),
+            "validation_groups": len(valid_group_ids),
+            "group_overlap_count": len(set(train_group_ids) & set(valid_group_ids)),
+            "train_record_ids_sha256": sha256_text("\n".join(train_record_ids)),
+            "validation_record_ids_sha256": sha256_text("\n".join(valid_record_ids)),
+            "train_group_ids_sha256": sha256_text("\n".join(train_group_ids)),
+            "validation_group_ids_sha256": sha256_text("\n".join(valid_group_ids)),
+        })
+
+    model_configs = {
+        "ExtraTrees_reference": {"n_estimators": 300, "min_samples_leaf": 2, "random_state": SEED, "n_jobs": 1},
+        "RandomForest": {"n_estimators": 300, "min_samples_leaf": 2, "random_state": SEED, "n_jobs": 1},
+        "RBF_SVR": {"kernel": "rbf", "C": 10.0, "epsilon": 0.1, "gamma": "scale"},
+        "XGBoost": {"objective": "reg:squarederror", "n_estimators": 300, "max_depth": 3, "learning_rate": 0.03, "min_child_weight": 5, "subsample": 0.8, "colsample_bytree": 0.8, "reg_lambda": 5.0, "random_state": SEED, "n_jobs": 1, "tree_method": "hist", "verbosity": 0},
+        "XGBoost_tuned": {**tuned_params, "objective": "reg:squarederror", "random_state": SEED, "n_jobs": 1, "tree_method": "hist", "verbosity": 0},
+    }
+    distributions = {
+        "numpy": "numpy", "pandas": "pandas", "scikit-learn": "scikit-learn",
+        "xgboost": "xgboost", "scipy": "scipy", "joblib": "joblib",
+        "cloudpickle": "cloudpickle", "narwhals": "narwhals",
+        "python-dateutil": "python-dateutil", "threadpoolctl": "threadpoolctl",
+        "tzdata": "tzdata",
+    }
+    lock_path = ROOT / "stageA-requirements-py312.lock"
+    manifest = {
+        "manifest_schema_version": "1.0.0",
+        "input": {
+            "path": "stageA/input/cookchem_molecular_retention_preprocessed.csv",
+            "sha256": input_sha256,
+            "rows": len(df),
+            "columns": list(df.columns),
+            "column_order_sha256": sha256_text("\n".join(df.columns)),
+            "record_id_order_sha256": sha256_text("\n".join(record_ids.tolist())),
+            "groups": int(pd.Series(groups).nunique()),
+        },
+        "code": {
+            "runner_path": "stageA/scripts/run_stage_a.py",
+            "runner_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        },
+        "dependency_lock": {
+            "path": "stageA/stageA-requirements-py312.lock",
+            "sha256": hashlib.sha256(lock_path.read_bytes()).hexdigest() if lock_path.exists() else None,
+        },
+        "feature_contract": {
+            "source_columns_in_order": BASE_FEATURES,
+            "derived_columns_in_order": list(features.columns[len(BASE_FEATURES):]),
+            "derived_definitions": {
+                "FE_Temperature_x_Time": "Temperature_C * Cooking_Time_min",
+                "FE_Log_Cooking_Time": "log1p(Cooking_Time_min)",
+                "FE_Log_Initial_Concentration": "log1p(Initial_Concentration)",
+                "FE_LogP_x_Temperature": "RDKit_LogP * Temperature_C",
+                "FE_TPSA_x_Cooking_Time": "RDKit_TPSA * Cooking_Time_min",
+            },
+            "columns_sha256": sha256_text("\n".join(features.columns)),
+            "numeric_imputation": "median",
+            "numeric_scaling": "StandardScaler",
+            "categorical_imputation": "constant Missing",
+            "categorical_encoding": "OneHotEncoder(handle_unknown=ignore, sparse_output=False)",
+            "learned_preprocessing_fit_scope": "each outer training fold only",
+        },
+        "target_contract": {
+            "column": TARGET,
+            "construction": "preprocessed input value; source equation is unresolved (RF-01)",
+            "fit_transform": "log1p",
+            "prediction_inverse": "expm1(clip(prediction, -20, 20))",
+            "scoring_scale": "original stored numeric target scale; physical unit unresolved",
+        },
+        "cross_validation": {
+            "class": "GroupKFold", "n_splits": 5, "group_column": GROUP,
+            "shuffle": False, "estimator_seed": SEED, "nondeterminism_controls": {"n_jobs": 1, "xgboost_tree_method": "hist"},
+            "folds": fold_manifest,
+        },
+        "model_configurations": model_configs,
+        "runtime": {
+            "python": platform.python_version(), "platform": platform.platform(),
+            "machine": platform.machine(), "system": platform.system(),
+            "packages": {name: importlib.metadata.version(dist) for name, dist in distributions.items()},
+            # These details help distinguish reproducible package versions from
+            # native numerical-runtime/build differences across historical hosts.
+            "native_build": {
+                "xgboost_build": {
+                    key: value for key, value in xgboost.build_info().items()
+                    if key != "libxgboost"
+                },
+                "threadpools": [
+                    {key: pool.get(key) for key in ("user_api", "internal_api", "prefix", "version", "num_threads")}
+                    for pool in threadpoolctl.threadpool_info()
+                ],
+                "thread_environment": {
+                    key: os.environ[key]
+                    for key in ("OMP_NUM_THREADS", "OMP_DYNAMIC", "MKL_NUM_THREADS", "OPENBLAS_NUM_THREADS", "VECLIB_MAXIMUM_THREADS", "NUMEXPR_NUM_THREADS")
+                    if key in os.environ
+                },
+            },
+        },
+        "outputs": {
+            name: hashlib.sha256((OUT / name).read_bytes()).hexdigest()
+            for name in OUTPUT_FILES if (OUT / name).exists()
+        },
+    }
+    (OUT / "stageA_run_manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def make_features(frame: pd.DataFrame) -> pd.DataFrame:
@@ -98,6 +246,27 @@ def metrics(actual: np.ndarray, predicted: np.ndarray) -> dict[str, float]:
         "RMSE": float(math.sqrt(mean_squared_error(actual, predicted))),
         "R2": float(r2_score(actual, predicted)),
     }
+
+
+def validate_input(df: pd.DataFrame) -> None:
+    """Fail closed on an incomplete or changed Stage A training table."""
+    required = ["Record_ID", GROUP, TARGET, *BASE_FEATURES]
+    missing = [column for column in required if column not in df.columns]
+    if missing:
+        raise ValueError(f"Input is missing required columns: {missing}")
+
+    record_ids = df["Record_ID"].astype("string")
+    groups = df[GROUP].astype("string")
+    if record_ids.isna().any() or record_ids.str.strip().eq("").any() or record_ids.duplicated().any():
+        raise ValueError("Input Record_ID values must be present, non-empty, and unique")
+    if groups.isna().any() or groups.str.strip().eq("").any():
+        raise ValueError(f"Input {GROUP} values must be present and non-empty")
+
+    target = pd.to_numeric(df[TARGET], errors="coerce").to_numpy(dtype=float)
+    if not np.isfinite(target).all() or (target <= -1).any():
+        raise ValueError(f"Input {TARGET} must be finite and greater than -1 for log1p")
+    if len(df) != 1124 or groups.nunique() != 197:
+        raise ValueError("Unexpected Stage A dataset dimensions; do not benchmark a changed dataset")
 
 
 def evaluate(df: pd.DataFrame, name: str, params: dict | None = None, seed: int = SEED, tuning: bool = False):
@@ -184,15 +353,10 @@ def robustness(df: pd.DataFrame, name: str, params: dict, oof: pd.DataFrame) -> 
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
+    input_sha256 = verify_input_snapshot(INPUT)
     df = pd.read_csv(INPUT)
-    required = ["Record_ID", GROUP, TARGET, *BASE_FEATURES]
-    missing = [col for col in required if col not in df.columns]
-    if missing:
-        raise ValueError(f"Input is missing required columns: {missing}")
-    if df["Record_ID"].duplicated().any() or df[TARGET].isna().any():
-        raise ValueError("Input Record_ID/target QA failed")
-    if len(df) != 1124 or df[GROUP].nunique() != 197:
-        raise ValueError("Unexpected Stage A dataset dimensions; do not benchmark a changed dataset")
+    validate_input(df)
+    df[TARGET] = pd.to_numeric(df[TARGET], errors="raise")
 
     initial = [("ExtraTrees_reference", {}), ("RandomForest", {}), ("RBF_SVR", {}), ("XGBoost", {})]
     summaries, folds, oofs, audits = [], [], [], []
@@ -231,7 +395,8 @@ def main() -> None:
     robust.to_csv(OUT / "stageA_robustness.csv", index=False)
 
     qa = {
-        "input": str(INPUT), "rows": len(df), "unique_molecular_groups": int(df[GROUP].nunique()),
+        "input": "stageA/input/cookchem_molecular_retention_preprocessed.csv", "input_sha256": input_sha256,
+        "rows": len(df), "unique_molecular_groups": int(df[GROUP].nunique()),
         "target": TARGET, "group_column": GROUP, "cv": "GroupKFold(n_splits=5)",
         "all_group_intersections_zero": bool((pd.concat(audits)["group_intersection_count"] == 0).all()),
         "no_duplicate_oof": True, "historical_phase2_benchmark": BENCHMARK,
@@ -239,6 +404,7 @@ def main() -> None:
         "software": {"python": platform.python_version(), "numpy": np.__version__, "pandas": pd.__version__},
     }
     (OUT / "stageA_qa.json").write_text(json.dumps(qa, indent=2), encoding="utf-8")
+    write_run_manifest(df, input_sha256, tuned_params)
     print(summary_df[["Model", "MAE", "RMSE", "R2", "Delta_MAE", "Delta_RMSE", "Delta_R2"]].to_string(index=False))
     print(f"Stage A complete: {OUT}")
 

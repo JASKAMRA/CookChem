@@ -1,0 +1,169 @@
+{
+  "snapshot_kind": "read-only evidence copy; not a recovery candidate or release",
+  "source_directory": "stageC/phase4/releases/Phase4-v0.1.2",
+  "source_manifest_sha256": "978a706ac4c9bb0fbc69a95bb097bdb7b4d743795ab135eb66100e13c6cd2752",
+  "declared_sidecar": "9d6a3a13d6567a872bfb890cf02ea118648a8572c92ebdd8e33b970d0f889fba  release_manifest.json",
+  "observed_file_count": 20,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "observed_sha256": "9b461c3ebe6f28ac2969d4d01855523096ac2d27ab52ecd9ea36acf724f3ec30",
+      "observed_bytes": 1011,
+      "manifest_sha256": "9b461c3ebe6f28ac2969d4d01855523096ac2d27ab52ecd9ea36acf724f3ec30",
+      "manifest_bytes": 1011,
+      "matches_manifest": true
+    },
+    {
+      "path": "PROPOSED_SCOPE.md",
+      "observed_sha256": "1c80f867f0e8766cfe1cfb66f577c9f052494e69a6d1c7adcee97cbb88f80497",
+      "observed_bytes": 2459,
+      "manifest_sha256": "87bdf2ccee391d10d5ea4231a92c5a7c97b16f6108579c1685426620fe6ea322",
+      "manifest_bytes": 2482,
+      "matches_manifest": false
+    },
+    {
+      "path": "README.md",
+      "observed_sha256": "1f2557adcfbc603700ffc39d4196bd7f245d1f07878fe927770418a916606f86",
+      "observed_bytes": 1816,
+      "manifest_sha256": "125844bb765f185147bf36982c2cdd4e17ca7858e4740ae82cf78b973158b3ba",
+      "manifest_bytes": 1833,
+      "matches_manifest": false
+    },
+    {
+      "path": "data/evidence_registry.json",
+      "observed_sha256": "6e359bfe453a02cf20fb5472529feb64477d3d791cf4d27c962772e6549ed72c",
+      "observed_bytes": 37869,
+      "manifest_sha256": "90503d55928b5e0314680d0611b4f4b5d4eb7947dd8f38cbcd3f7a0333a503d3",
+      "manifest_bytes": 38416,
+      "matches_manifest": false
+    },
+    {
+      "path": "data/source_registry.json",
+      "observed_sha256": "a117dfc8d740aef19dac9925a326007fb3bc030b31e57089942d52f7d3bd35ed",
+      "observed_bytes": 1282,
+      "manifest_sha256": "ea250cd1dd9181ed5869927cf0326b8f4a4dd5f8dd3342ae8e5be36a446ab482",
+      "manifest_bytes": 1315,
+      "matches_manifest": false
+    },
+    {
+      "path": "release_info.json",
+      "observed_sha256": "adfab3b71d3cc702deb9b56f15b6c119ac346372e6c35c7e284d23a5979b71bb",
+      "observed_bytes": 1859,
+      "manifest_sha256": "08ed6fd39e220d9a33c9b7deda2674cbc978c47f5bb5d9664a5dedbf0cff2d67",
+      "manifest_bytes": 1900,
+      "matches_manifest": false
+    },
+    {
+      "path": "release_manifest.json",
+      "observed_sha256": "978a706ac4c9bb0fbc69a95bb097bdb7b4d743795ab135eb66100e13c6cd2752",
+      "observed_bytes": 3051,
+      "manifest_sha256": null,
+      "manifest_bytes": null,
+      "matches_manifest": false
+    },
+    {
+      "path": "release_manifest.sha256",
+      "observed_sha256": "f9ed421e5f1a4a5bf7deabde1061708a44e6c854aead219842cd7b065b65cce6",
+      "observed_bytes": 88,
+      "manifest_sha256": null,
+      "manifest_bytes": null,
+      "matches_manifest": false
+    },
+    {
+      "path": "reports/extraction_report.md",
+      "observed_sha256": "41927c34f6aa505bf0e0fc032cc06bf62a7de818ba7e5c7ee0b39a9c07918826",
+      "observed_bytes": 2832,
+      "manifest_sha256": "b92ae2218369d652b04b11abdaa4b828e12886afbf9394fb723065f8229aed8c",
+      "manifest_bytes": 2863,
+      "matches_manifest": false
+    },
+    {
+      "path": "reports/identity_applicability_review.md",
+      "observed_sha256": "3ed945d240fa0c8d317ddee223b3ce89e7ef0d57aad5f945fd2a772f48c9df41",
+      "observed_bytes": 1866,
+      "manifest_sha256": "8e717d20fb64cb1db0fe523d49b685d5f5d1bba52b2be6dead61566bf72ef443",
+      "manifest_bytes": 1890,
+      "matches_manifest": false
+    },
+    {
+      "path": "reports/pending_evidence_register.csv",
+      "observed_sha256": "1e8d25e2bf09d8b9736d60dc1c695b0a07b238c8e5a936b36a535d758d75bf5a",
+      "observed_bytes": 2598,
+      "manifest_sha256": "76abc471a2e960f67412cf50c5e8738e1726add43276c497e3af8835eb187a22",
+      "manifest_bytes": 2605,
+      "matches_manifest": false
+    },
+    {
+      "path": "reports/source_bibliography.csv",
+      "observed_sha256": "bcb03eca7dbb70fcef1be7ba12e8a1897304f3d95c30162126dbbbade9cec7b8",
+      "observed_bytes": 647,
+      "manifest_sha256": "cb44cc16b7f76f57b92af7897c5c780100ff9868a245bb05465c96952f1026ff",
+      "manifest_bytes": 649,
+      "matches_manifest": false
+    },
+    {
+      "path": "reports/validation_report.md",
+      "observed_sha256": "d7c809a4f21c4ead2a6b6c6a28e49834256363a6c3b94200e7864f72e7a7ac62",
+      "observed_bytes": 985,
+      "manifest_sha256": "000266f34469a71137b72948a08b5726b6120620c929bccf613e8ebbb7f54934",
+      "manifest_bytes": 993,
+      "matches_manifest": false
+    },
+    {
+      "path": "requirements-dev.txt",
+      "observed_sha256": "0234ec3d247779dd0c2dbf4caee15bd42fa394dc495250d5eeca2decc0663224",
+      "observed_bytes": 103,
+      "manifest_sha256": "0234ec3d247779dd0c2dbf4caee15bd42fa394dc495250d5eeca2decc0663224",
+      "manifest_bytes": 103,
+      "matches_manifest": true
+    },
+    {
+      "path": "schemas/evidence.schema.json",
+      "observed_sha256": "511867d60ccdc09395b7ac1ea6303c1901d125ddb514ad0cc6c6bcac4650a7dd",
+      "observed_bytes": 5300,
+      "manifest_sha256": "511867d60ccdc09395b7ac1ea6303c1901d125ddb514ad0cc6c6bcac4650a7dd",
+      "manifest_bytes": 5300,
+      "matches_manifest": true
+    },
+    {
+      "path": "schemas/source.schema.json",
+      "observed_sha256": "12f8206dfe478fdb27bdfd0ab8ea973fd341ead1fb6a784ca4cb4476161dee2b",
+      "observed_bytes": 1884,
+      "manifest_sha256": "12f8206dfe478fdb27bdfd0ab8ea973fd341ead1fb6a784ca4cb4476161dee2b",
+      "manifest_bytes": 1884,
+      "matches_manifest": true
+    },
+    {
+      "path": "scripts/build_release.py",
+      "observed_sha256": "4b1e1da431aa6c848f9122831c141c72cbc318fd840199e57c12e09ea46ac195",
+      "observed_bytes": 4777,
+      "manifest_sha256": "4b1e1da431aa6c848f9122831c141c72cbc318fd840199e57c12e09ea46ac195",
+      "manifest_bytes": 4777,
+      "matches_manifest": true
+    },
+    {
+      "path": "scripts/extract_white2016_full_text.py",
+      "observed_sha256": "755e4ad6e39bbbe3ca0d01d03626872f6da95f754a919e66f0eaba16e0ddf7b5",
+      "observed_bytes": 21415,
+      "manifest_sha256": "755e4ad6e39bbbe3ca0d01d03626872f6da95f754a919e66f0eaba16e0ddf7b5",
+      "manifest_bytes": 21415,
+      "matches_manifest": true
+    },
+    {
+      "path": "src/phase4_registry.py",
+      "observed_sha256": "52a6e690d8541a22419a0fc81ca828fbc037f309c861e7d3aa04b7a19c4f105a",
+      "observed_bytes": 5898,
+      "manifest_sha256": "52a6e690d8541a22419a0fc81ca828fbc037f309c861e7d3aa04b7a19c4f105a",
+      "manifest_bytes": 5898,
+      "matches_manifest": true
+    },
+    {
+      "path": "tests/test_phase4_registry.py",
+      "observed_sha256": "dc6aefca61269753d26e72b6996a5b3bb9b51ed9afa50730350af21bc048443c",
+      "observed_bytes": 7025,
+      "manifest_sha256": "dc6aefca61269753d26e72b6996a5b3bb9b51ed9afa50730350af21bc048443c",
+      "manifest_bytes": 7025,
+      "matches_manifest": true
+    }
+  ]
+}

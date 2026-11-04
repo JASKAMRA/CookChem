@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cookrisk.invalid/schemas/root.schema.json",
+  "type": "object",
+  "properties": {
+    "record_id": {"type": "string", "minLength": 1},
+    "measurement": {"$ref": "https://cookrisk.invalid/schemas/measurement.schema.json"},
+    "replicate_count": {"$ref": "#/$defs/positiveInteger"},
+    "source_url": {"type": "string", "format": "uri"},
+    "measured_at": {"type": "string", "format": "date-time"}
+  },
+  "required": ["record_id", "measurement", "replicate_count", "source_url", "measured_at"],
+  "additionalProperties": false,
+  "$defs": {
+    "positiveInteger": {"type": "integer", "minimum": 1}
+  }
+}

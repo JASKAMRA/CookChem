@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "required": ["schema_version", "comparison_id", "exposure_id", "evidence_id", "criteria", "decision", "decision_reason", "review_status"],
   "properties": {
-    "schema_version": {"enum": ["1.0.0", "1.1.0"]},
+    "schema_version": {"enum": ["1.0.0", "1.1.0", "1.2.0"]},
     "comparison_id": {"type": "string", "minLength": 1},
     "exposure_id": {"type": "string", "minLength": 1},
     "evidence_id": {"type": "string", "minLength": 1},
@@ -22,6 +22,19 @@
         "time_window": {"type": ["boolean", "null"]},
         "population_or_model": {"type": ["boolean", "null"]},
         "preparation_or_matrix": {"type": ["boolean", "null"]}
+      }
+    },
+    "gate_results": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["compound_identity", "exposure_route", "dose_units_and_basis", "time_window", "population_or_model", "preparation_or_matrix"],
+      "properties": {
+        "compound_identity": {"$ref": "#/$defs/gateResult"},
+        "exposure_route": {"$ref": "#/$defs/gateResult"},
+        "dose_units_and_basis": {"$ref": "#/$defs/gateResult"},
+        "time_window": {"$ref": "#/$defs/gateResult"},
+        "population_or_model": {"$ref": "#/$defs/gateResult"},
+        "preparation_or_matrix": {"$ref": "#/$defs/gateResult"}
       }
     },
     "decision": {"enum": ["PENDING", "REJECTED", "READY_FOR_REVIEW"]},
@@ -74,9 +87,11 @@
         "raw_reference_amount_mg": {"type": ["string", "null"], "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
         "raw_food_concentration": {"type": "string", "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
         "raw_food_concentration_unit": {"type": "string", "minLength": 1},
+        "raw_food_concentration_basis": {"type": ["string", "null"]},
         "cooked_food_concentration_lower": {"type": ["string", "null"], "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
         "cooked_food_concentration_upper": {"type": ["string", "null"], "pattern": "^(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$"},
         "cooked_food_concentration_unit": {"type": ["string", "null"]},
+        "cooked_food_concentration_basis": {"type": ["string", "null"]},
         "cooked_exposure_status": {"type": "string", "minLength": 1},
         "retention_evidence_id": {"type": "string"},
         "food_state": {"enum": ["raw", "cooked", "prepared", "unknown"]},
@@ -102,6 +117,14 @@
     }
   },
   "$defs": {
+    "gateResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["result", "reason"],
+      "properties": {
+        "result": {"enum": ["PASS_PENDING_HUMAN_REVIEW", "FAIL", "PENDING"]},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    },
     "upstreamRelease": {
       "type": "object",
       "additionalProperties": false,
@@ -125,8 +148,16 @@
   },
   "allOf": [
     {
-      "if": {"properties": {"schema_version": {"const": "1.1.0"}}, "required": ["schema_version"]},
+      "if": {"properties": {"schema_version": {"enum": ["1.1.0", "1.2.0"]}}, "required": ["schema_version"]},
       "then": {"required": ["clinical_interpretation", "exposure_reference", "dietary_exposure", "experimental_exposure"]}
+    },
+    {
+      "if": {"properties": {"schema_version": {"const": "1.2.0"}}, "required": ["schema_version"]},
+      "then": {"required": ["gate_results"]}
+    },
+    {
+      "if": {"properties": {"schema_version": {"const": "1.2.0"}}, "required": ["schema_version"]},
+      "then": {"properties": {"dietary_exposure": {"required": ["raw_food_concentration_basis", "cooked_food_concentration_basis"]}}}
     }
   ]
 }

@@ -24,7 +24,7 @@ manifest_integrity = load_source_without_bytecode(MODULE_PATH, "stageb_manifest_
 
 class ManifestIntegrityTests(unittest.TestCase):
     def setUp(self) -> None:
-        self.temp = tempfile.TemporaryDirectory(dir=ROOT / "stageB" / "temp")
+        self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
 
@@ -165,7 +165,7 @@ class ManifestIntegrityTests(unittest.TestCase):
         original = Path.read_bytes
 
         def fail_for_artifact(path: Path) -> bytes:
-            if path == file:
+            if path.resolve() == file.resolve():
                 raise OSError("synthetic unreadable-file failure")
             return original(path)
 

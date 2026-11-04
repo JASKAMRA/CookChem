@@ -1,0 +1,209 @@
+{
+  "release": "Phase4-v0.1.2",
+  "classification_basis": "current source and preserved snapshot are repository-local; no external authenticated original available",
+  "counts": {
+    "UNKNOWN_OR_CORRUPTED": 1,
+    "UNRESOLVED": 8,
+    "VERIFIED_REGENERATION": 9
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "9b461c3ebe6f28ac2969d4d01855523096ac2d27ab52ecd9ea36acf724f3ec30",
+      "observed_bytes": 1011,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    },
+    {
+      "path": "data/evidence_registry.json",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "6e359bfe453a02cf20fb5472529feb64477d3d791cf4d27c962772e6549ed72c",
+      "observed_bytes": 37869,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "data/source_registry.json",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "a117dfc8d740aef19dac9925a326007fb3bc030b31e57089942d52f7d3bd35ed",
+      "observed_bytes": 1282,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "PROPOSED_SCOPE.md",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "1c80f867f0e8766cfe1cfb66f577c9f052494e69a6d1c7adcee97cbb88f80497",
+      "observed_bytes": 2459,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "README.md",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "1f2557adcfbc603700ffc39d4196bd7f245d1f07878fe927770418a916606f86",
+      "observed_bytes": 1816,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "release_info.json",
+      "classification": "UNKNOWN_OR_CORRUPTED",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "adfab3b71d3cc702deb9b56f15b6c119ac346372e6c35c7e284d23a5979b71bb",
+      "observed_bytes": 1859,
+      "matches_current_canonical_source": false,
+      "matches_preserved_observed_snapshot": true,
+      "note": "no trusted source counterpart established"
+    },
+    {
+      "path": "reports/extraction_report.md",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "41927c34f6aa505bf0e0fc032cc06bf62a7de818ba7e5c7ee0b39a9c07918826",
+      "observed_bytes": 2832,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "reports/identity_applicability_review.md",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "3ed945d240fa0c8d317ddee223b3ce89e7ef0d57aad5f945fd2a772f48c9df41",
+      "observed_bytes": 1866,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "reports/pending_evidence_register.csv",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "1e8d25e2bf09d8b9736d60dc1c695b0a07b238c8e5a936b36a535d758d75bf5a",
+      "observed_bytes": 2598,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "reports/source_bibliography.csv",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "bcb03eca7dbb70fcef1be7ba12e8a1897304f3d95c30162126dbbbade9cec7b8",
+      "observed_bytes": 647,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "reports/validation_report.md",
+      "classification": "VERIFIED_REGENERATION",
+      "manifest_hash_match": false,
+      "manifest_size_match": false,
+      "observed_sha256": "d7c809a4f21c4ead2a6b6c6a28e49834256363a6c3b94200e7864f72e7a7ac62",
+      "observed_bytes": 985,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "current canonical Phase4 source file byte-matches observed artifact; this does not recover manifest-declared bytes or authenticate historical package"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "0234ec3d247779dd0c2dbf4caee15bd42fa394dc495250d5eeca2decc0663224",
+      "observed_bytes": 103,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    },
+    {
+      "path": "schemas/evidence.schema.json",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "511867d60ccdc09395b7ac1ea6303c1901d125ddb514ad0cc6c6bcac4650a7dd",
+      "observed_bytes": 5300,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    },
+    {
+      "path": "schemas/source.schema.json",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "12f8206dfe478fdb27bdfd0ab8ea973fd341ead1fb6a784ca4cb4476161dee2b",
+      "observed_bytes": 1884,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "4b1e1da431aa6c848f9122831c141c72cbc318fd840199e57c12e09ea46ac195",
+      "observed_bytes": 4777,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    },
+    {
+      "path": "scripts/extract_white2016_full_text.py",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "755e4ad6e39bbbe3ca0d01d03626872f6da95f754a919e66f0eaba16e0ddf7b5",
+      "observed_bytes": 21415,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    },
+    {
+      "path": "src/phase4_registry.py",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "52a6e690d8541a22419a0fc81ca828fbc037f309c861e7d3aa04b7a19c4f105a",
+      "observed_bytes": 5898,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    },
+    {
+      "path": "tests/test_phase4_registry.py",
+      "classification": "UNRESOLVED",
+      "manifest_hash_match": true,
+      "manifest_size_match": true,
+      "observed_sha256": "dc6aefca61269753d26e72b6996a5b3bb9b51ed9afa50730350af21bc048443c",
+      "observed_bytes": 7025,
+      "matches_current_canonical_source": true,
+      "matches_preserved_observed_snapshot": true,
+      "note": "matches package manifest, but manifest/sidecar authenticity is not independently established"
+    }
+  ]
+}
