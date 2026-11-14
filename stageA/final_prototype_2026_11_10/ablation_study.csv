@@ -1,0 +1,9 @@
+model,validation,fold,train_n,test_n,independent_groups_test,held_out_groups,r2,mae,rmse,feature_set
+extra_trees,group,pooled,,439,46,ALL_OOF,-0.027347395325946433,63.24079118512273,173.69126812421362,molecular_descriptors_only
+extra_trees,source,pooled,,439,10,ALL_OOF,-0.11702795843113156,72.23534501636317,181.11371777283318,molecular_descriptors_only
+extra_trees,group,pooled,,439,46,ALL_OOF,-0.035234866369390216,45.837895063634534,174.3567515728885,cooking_experimental_only
+extra_trees,source,pooled,,439,10,ALL_OOF,-0.06693714469952572,58.62075680745343,177.0063070862649,cooking_experimental_only
+extra_trees,group,pooled,,439,46,ALL_OOF,-0.11219833011218139,47.50631139583583,180.72175825723,molecular_plus_cooking
+extra_trees,source,pooled,,439,10,ALL_OOF,-0.03273215940356655,52.34671119770249,174.14586807177636,molecular_plus_cooking
+extra_trees,group,pooled,,439,46,ALL_OOF,-0.0719112499817669,45.666836620122766,177.4184326858009,molecular_cooking_food_matrix
+extra_trees,source,pooled,,439,10,ALL_OOF,-0.046963583738847126,53.33178524880416,175.3416592216587,molecular_cooking_food_matrix

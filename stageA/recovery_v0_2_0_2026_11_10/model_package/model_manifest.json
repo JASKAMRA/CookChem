@@ -1,0 +1,48 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEPLOYABLE",
+  "selected_model": "extra_trees",
+  "selection_metric": "compound-grouped OOF MAE",
+  "target": {
+    "name": "apparent_concentration_ratio_percent",
+    "equation": "100 * C_cooked / C_raw",
+    "semantic_limit": "not total-mass retention"
+  },
+  "validation": {
+    "scheme": "5-fold GroupKFold by canonical molecular ID",
+    "source_holdout": "NOT_RUN: only two source DOI families",
+    "food_holdout": "NOT_RUN: only two food matrices",
+    "cooking_method_holdout": "NOT_RUN: insufficient independent support"
+  },
+  "features": {
+    "numeric": [
+      "Temperature_C",
+      "Cooking_Time_min",
+      "RDKit_Molecular_Weight",
+      "RDKit_LogP",
+      "RDKit_TPSA",
+      "RDKit_HBond_Donors",
+      "RDKit_HBond_Acceptors",
+      "RDKit_Rotatable_Bonds",
+      "RDKit_Aromatic_Rings",
+      "RDKit_Hydroxyl_Groups"
+    ],
+    "categorical": [
+      "compound_class",
+      "food_matrix",
+      "cooking_method_normalized",
+      "cooking_medium"
+    ]
+  },
+  "dataset": {
+    "rows": 117,
+    "compound_groups": 24,
+    "sha256": "b5a528f265f835da7a561600c71450ea0994c4f203537258e74759bb97b86c22"
+  },
+  "software": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "sklearn": "1.5.2"
+  },
+  "artifact_sha256": "5e1e9acc892ec10526b19842d73d649dd8eb159770455823bb9ec7e73b800f44",
+  "stage_c_integration_authorized": false
+}

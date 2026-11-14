@@ -1,0 +1,1 @@
+Lee 2018 reports vitamin C concentrations in mg/kg fresh weight and also reports a separate true-retention statistic. v0.7 uses only the compatible concentration pairs for the apparent-ratio target; true retention is not mixed into the target. No FW-to-DW conversion was performed.

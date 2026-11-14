@@ -1,0 +1,5 @@
+Experiment,Dataset version,Target,Model,Validation,Mean fold R2,Pooled OOF R2,Status
+Historical original-target molecular-grouped,"historical input / 1,124 rows",Retention_Final (unresolved construction),XGBoost_tuned (450 trees),"GroupKFold(5), Canonical_Molecular_ID",0.40037582421724033,0.2832468313018399,"historical, verified from saved OOF"
+Final dataset original-target molecular-grouped,"Batch 021 / 1,016 rows",Retention_Final,not run,not applicable,,,not admissible: target column absent
+Final apparent-ratio molecular-grouped,"Batch 021 / 1,016 rows",target_value_percent,ExtraTrees (25 trees),"GroupKFold(5), canonical_molecular_id",-0.2562161572065548,-0.06783292969385535,current fixed audit
+Final apparent-ratio source-held-out,"Batch 021 / 1,016 rows",target_value_percent,ExtraTrees (25 trees),"GroupKFold(5), DOI",-0.2065267817067223,-0.06564538205327386,current fixed audit

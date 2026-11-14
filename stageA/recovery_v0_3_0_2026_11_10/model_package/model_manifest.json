@@ -1,0 +1,38 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEPLOYABLE",
+  "selected_model": "random_forest",
+  "selection_metric": "compound-grouped OOF MAE",
+  "target": "apparent concentration ratio, not total-mass retention",
+  "dataset_rows": 338,
+  "compound_groups": 45,
+  "source_families": 6,
+  "dataset_sha256": "9476b6d1d5700e12f7a2d96a6876b68c8cb722e74d321101d653984ec9a79f24",
+  "artifact_sha256": "4daa623ca2e1591c8acf416db4cd5e08de6f481c9bd0c6c1b9a6bade45fc35b9",
+  "features": {
+    "numeric": [
+      "Temperature_C",
+      "Cooking_Time_min",
+      "RDKit_Molecular_Weight",
+      "RDKit_LogP",
+      "RDKit_TPSA",
+      "RDKit_HBond_Donors",
+      "RDKit_HBond_Acceptors",
+      "RDKit_Rotatable_Bonds",
+      "RDKit_Aromatic_Rings",
+      "RDKit_Hydroxyl_Groups"
+    ],
+    "categorical": [
+      "compound_class",
+      "food_matrix",
+      "cooking_method_normalized",
+      "cooking_medium"
+    ]
+  },
+  "validation_limit": "LOSO source result is exploratory; each source is also a distinct matrix/compound family. No Stage C integration authorized.",
+  "software": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "sklearn": "1.5.2"
+  },
+  "stage_c_integration_authorized": false
+}

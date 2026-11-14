@@ -1,0 +1,37 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEPLOYABLE",
+  "selected_model": "random_forest",
+  "selection_metric": "compound-grouped OOF MAE",
+  "target": "apparent concentration ratio, not total-mass retention",
+  "dataset_rows": 379,
+  "compound_groups": 46,
+  "source_families": 8,
+  "dataset_sha256": "72b1f7d547b19b40a58eb43db773d64996dfb1e6c4d5cb44d38c7d3845bb9cc0",
+  "artifact_sha256": "7f1657c4dd9a51609e8db180640afa5590c1239e95fc25f059a3070c2785fb8b",
+  "features": {
+    "numeric": [
+      "Temperature_C",
+      "Cooking_Time_min",
+      "RDKit_Molecular_Weight",
+      "RDKit_LogP",
+      "RDKit_TPSA",
+      "RDKit_HBond_Donors",
+      "RDKit_HBond_Acceptors",
+      "RDKit_Rotatable_Bonds",
+      "RDKit_Aromatic_Rings",
+      "RDKit_Hydroxyl_Groups"
+    ],
+    "categorical": [
+      "compound_class",
+      "food_matrix",
+      "cooking_method_normalized",
+      "cooking_medium"
+    ]
+  },
+  "stage_c_integration_authorized": false,
+  "software": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "sklearn": "1.5.2"
+  }
+}

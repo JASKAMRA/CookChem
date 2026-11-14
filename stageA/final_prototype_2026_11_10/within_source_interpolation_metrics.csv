@@ -1,0 +1,10 @@
+model,validation,fold,train_n,test_n,independent_groups_test,held_out_groups,r2,mae,rmse,doi,interpretation
+extra_trees,random,pooled,,28,28,ALL_OOF,0.18504412095925837,25.01633607409301,34.72644586850717,10.1007/s10068-017-0281-1,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,84,84,ALL_OOF,0.23466023752099852,27.32319561347983,35.13548777681725,10.1016/j.fochx.2022.100339,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,36,36,ALL_OOF,0.09923824584471985,14.15620307017189,18.404457949001273,10.1016/j.heliyon.2023.e21709,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,32,32,ALL_OOF,0.05033749417035949,9.694485227735683,12.099773575491442,10.1155/2020/8856260,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,32,32,ALL_OOF,0.3212715873138653,20.179693865301765,23.21755623984227,10.3390/foods10050960,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,33,33,ALL_OOF,0.26671465358727864,33.21688446969694,40.38715876454663,10.3390/foods12163086,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,50,50,ALL_OOF,0.800605697849305,10.103802588877745,14.501696900399143,10.3390/molecules26175171,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,84,84,ALL_OOF,0.3856988699801044,4.4036968188557735,8.5292348358511,10.3390/molecules31162740,Within-source random interpolation diagnostic only; not external generalisation.
+extra_trees,random,pooled,,55,55,ALL_OOF,0.3526439189064491,163.59125154754068,363.8188306155349,10.3390/plants13101283,Within-source random interpolation diagnostic only; not external generalisation.

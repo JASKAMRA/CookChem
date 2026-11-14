@@ -1,0 +1,295 @@
+model,validation,fold,held_out,n_valid,r2,mae,rmse
+dummy_median,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,-0.06439577917303696,58.19799419373784,130.99435011548783
+dummy_median,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,-0.043586829729196364,167.34046061610513,640.5967074468382
+dummy_median,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,-0.02905238551728817,85.28490033383007,260.75804275022347
+dummy_median,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,-0.002793609871349023,36.705824843067525,67.46376296322569
+dummy_median,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,-0.045213541113810596,179.18059335359175,633.4796960486011
+dummy_median,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,-0.04969219705580974,123.99837694671244,381.65057255220773
+dummy_median,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,-0.05262645309472602,93.56566790466493,270.3289518877317
+dummy_median,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,-0.012564543765701375,70.27415542237632,273.16292153962047
+dummy_median,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,-0.028547427547881865,112.08679218060284,530.1513351620682
+dummy_median,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,-0.020440324184072933,126.86807448968175,571.8203900905619
+dummy_median,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,-0.0032425705316387887,29.77886233654643,38.52975652439555
+dummy_median,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-48.24498073436647,24.62871052166717,24.882647747272458
+dummy_median,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-1.265797218283442,12.862319569959999,16.34893990339366
+dummy_median,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-20.594530263209194,70.06974587006873,71.75075540960259
+dummy_median,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-1.3599199651151475,28.30192854012279,35.46228670046598
+dummy_median,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,-0.07318840178212205,36.246208895538494,41.606083250716196
+dummy_median,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.040827698012650515,72.67566666992154,131.7103723371954
+dummy_median,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,-0.06544570526362281,15.060132806387347,20.016296410274528
+dummy_median,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.2143208871711093,596.9840728054177,1389.0741718014262
+dummy_median,leave_one_source_out,10,10.1021/jf072304b,56,-0.22940267855348395,35.79961400564918,43.16269324063869
+dummy_median,leave_one_source_out,11,10.1021/jf904306r,32,-0.018159101473666173,28.04376788321704,38.804698785165755
+dummy_median,leave_one_source_out,12,10.1155/2013/367819,34,-2.5055751103361765,62.52415195865789,65.33775131663603
+dummy_median,leave_one_source_out,13,10.1155/2020/8856260,32,-0.02244301546845917,9.964007524787498,12.55486808162845
+dummy_median,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.32327702948559844,531.0825668675336,1004.836304218181
+dummy_median,leave_one_source_out,15,10.14456/apst.2022.5,9,-0.007484186334705711,93.68611007136938,110.08231606029467
+dummy_median,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,-3.9544223608325026,27.86639669075689,31.19146708022976
+dummy_median,leave_one_source_out,17,10.3136/fstr.23.193,12,-1.7196163213643696,53.422826326077505,66.85834154614268
+dummy_median,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-4.9547384560608885,3108.432038004698,3407.7078510363044
+dummy_median,leave_one_source_out,19,10.3390/antiox13070755,3,-0.27669343169021765,48.005003126964105,62.6010099938651
+dummy_median,leave_one_source_out,20,10.3390/app15010254,30,-2.085449398560851,56.75760727345199,69.03724697910009
+dummy_median,leave_one_source_out,21,10.3390/foods10050960,32,-1.2794989450976293,34.58211376943835,42.54888551407003
+dummy_median,leave_one_source_out,22,10.3390/foods12163086,33,-0.34614293048001654,42.474848484848486,54.72079342748361
+dummy_median,leave_one_source_out,23,10.3390/foods13020230,20,-0.08691537000491767,110.57664080632135,207.49698387242466
+dummy_median,leave_one_source_out,24,10.3390/foods13030472,30,-0.5792212097757887,19.837238091252008,26.944150704589394
+dummy_median,leave_one_source_out,25,10.3390/foods13213459,12,-0.49468617752316546,27.7883410898804,33.4595350621712
+dummy_median,leave_one_source_out,26,10.3390/foods9050607,78,-0.8761555211832721,78.4717448216632,113.79144327758428
+dummy_median,leave_one_source_out,27,10.3390/molecules26175171,50,-1.5473681140725053,41.344416853264605,51.83323395247916
+dummy_median,leave_one_source_out,28,10.3390/molecules28073066,14,-2.0916320636396555,829.7682158138612,1008.8069166818798
+dummy_median,leave_one_source_out,29,10.3390/molecules31162740,84,-0.1407118052958023,9.507636693766665,11.622709496420628
+dummy_median,leave_one_source_out,30,10.3390/plants10102192,36,-0.015289138270963454,45.118698785499774,55.393106597982076
+dummy_median,leave_one_source_out,31,10.3390/plants13101283,55,-0.11269294116115125,208.04758932838743,476.98115851109577
+dummy_median,leave_one_source_out,32,10.3390/pr12102114,40,-0.012388041603230038,73.0313957994818,91.0373712648571
+ridge,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,-0.2917547930970399,74.01883646474248,144.30820796445124
+ridge,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,0.08774977416154195,164.9182815883716,598.9318341550177
+ridge,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,0.08360800417904879,126.99697876906423,246.0705354547343
+ridge,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,-3.3043094253660446,102.32247143716538,139.77082368588498
+ridge,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,0.030542581509824362,187.58045130999528,610.0909110525952
+ridge,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,0.028993058499705238,183.91970897412705,367.06764127722136
+ridge,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,-0.08124276018767662,143.53183042747838,273.97884272423664
+ridge,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,0.34521917539667546,122.53723365098092,219.66373676343972
+ridge,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,0.1710426412828181,135.17580777020098,475.9417398920606
+ridge,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,-0.029960507057009922,219.93297437005563,574.4815925131837
+ridge,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,-2.894683779165539,62.08886519668117,75.91531342606704
+ridge,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-225.50748448473635,51.20081084483447,53.365045498071794
+ridge,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-103.12486215777297,106.1594840788324,110.82973569256947
+ridge,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-179.01751838415305,194.19038241968096,207.16290017894667
+ridge,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-55.993495706888424,160.3414161968174,174.27325668785699
+ridge,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,-12.349115251238803,128.91689698937327,146.73884277748752
+ridge,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.2207549065778216,85.57851533603683,142.64113841213074
+ridge,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,-30.574518835130156,86.93873202688883,108.96485181790798
+ridge,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.11326428860600535,532.428710848035,1330.018992086078
+ridge,leave_one_source_out,10,10.1021/jf072304b,56,-14.274684981640593,124.69796333324813,152.1414634300778
+ridge,leave_one_source_out,11,10.1021/jf904306r,32,-9.598580454227415,97.56381677092554,125.19885099598599
+ridge,leave_one_source_out,12,10.1155/2013/367819,34,-51.05573598914103,232.52191105388584,251.77861532852768
+ridge,leave_one_source_out,13,10.1155/2020/8856260,32,-447.1419025756952,248.1070714195149,262.8453960116942
+ridge,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.1349970249309549,475.6720498683873,930.6090940855066
+ridge,leave_one_source_out,15,10.14456/apst.2022.5,9,-1.961980752887892,173.9721837951058,188.75112781250365
+ridge,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,-172.32990095042905,182.12350489010024,184.49136028545104
+ridge,leave_one_source_out,17,10.3136/fstr.23.193,12,-18.755860371905882,165.3149587203947,180.19791187792242
+ridge,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-4.761677950687816,3049.3902132144926,3352.011493701768
+ridge,leave_one_source_out,19,10.3390/antiox13070755,3,-9.11318832942926,167.25272438703203,176.19033263835232
+ridge,leave_one_source_out,20,10.3390/app15010254,30,-28.385194406714966,181.8191557653871,213.05343200686966
+ridge,leave_one_source_out,21,10.3390/foods10050960,32,-6.638672277912406,67.76807437713694,77.88923353854145
+ridge,leave_one_source_out,22,10.3390/foods12163086,33,-1.3459955835862072,60.6965214963849,72.23877846063696
+ridge,leave_one_source_out,23,10.3390/foods13020230,20,-1.6410581052897517,314.4035492375999,323.4468316178315
+ridge,leave_one_source_out,24,10.3390/foods13030472,30,-1.8953033536346866,28.851176934813154,36.48295869843231
+ridge,leave_one_source_out,25,10.3390/foods13213459,12,-6.421427658496063,68.24608828501418,74.55703387110408
+ridge,leave_one_source_out,26,10.3390/foods9050607,78,-0.6543685432276425,76.21603421474968,106.85413175646376
+ridge,leave_one_source_out,27,10.3390/molecules26175171,50,-6.510381359643226,61.54621726490396,89.00070499351573
+ridge,leave_one_source_out,28,10.3390/molecules28073066,14,-1.3954168925897652,704.5378149675333,887.983106917562
+ridge,leave_one_source_out,29,10.3390/molecules31162740,84,-8.19436805005177,26.738590076879852,32.997448307983724
+ridge,leave_one_source_out,30,10.3390/plants10102192,36,-7.6914193782517195,137.25938569848847,162.07133341947196
+ridge,leave_one_source_out,31,10.3390/plants13101283,55,-0.0602013029994779,236.90531308882265,465.5943745928565
+ridge,leave_one_source_out,32,10.3390/pr12102114,40,-6.074727245150936,217.00803368370708,240.65841719178553
+random_forest,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,-1.4870375976465366,62.8523400361493,200.23600327272766
+random_forest,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,0.07243407600308371,139.68075723450977,603.9386170162724
+random_forest,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,-0.0632582029393296,89.23655921383653,265.056428426199
+random_forest,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,-1.4175092439260677,40.60332584916115,104.7487512284917
+random_forest,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,-0.1895322146447942,185.4708616350301,675.8001594418723
+random_forest,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,-0.057752971341470616,122.36869857279719,383.11315160330037
+random_forest,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,0.0008491908203078768,90.50661390675052,263.3728133179287
+random_forest,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,0.6973579022954148,59.83687881205794,149.33962630069144
+random_forest,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,0.30639329847540075,98.22643890353173,435.3558039345905
+random_forest,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,0.06429989357570176,147.69809829814628,547.5630966045609
+random_forest,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,0.09701078797160168,27.92523527966856,36.55397154547728
+random_forest,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-2.651400092727269,5.96767287310274,6.775561890977366
+random_forest,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-24.07960864738818,43.138406476685,54.39255448360151
+random_forest,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-21.18791186202362,69.83747951904948,72.72987029855862
+random_forest,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-1.134611163961576,28.352240226859603,33.72698252461865
+random_forest,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,-0.2925192810726731,36.77816050027783,45.66015313243022
+random_forest,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.10122663992560277,76.9918589170945,135.47804203213823
+random_forest,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,0.12472010810607692,13.783856662754339,18.14226631422757
+random_forest,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.21744844711905498,603.2128320295977,1390.8618454961208
+random_forest,leave_one_source_out,10,10.1021/jf072304b,56,-0.2407243270921684,35.48110630744815,43.36098178643215
+random_forest,leave_one_source_out,11,10.1021/jf904306r,32,-1.013453433010382,37.481286697301044,54.56916238623918
+random_forest,leave_one_source_out,12,10.1155/2013/367819,34,-34.88343609103048,123.48789807726195,209.04103971027791
+random_forest,leave_one_source_out,13,10.1155/2020/8856260,32,-4.987200901454263,26.091207287948265,30.38117128049477
+random_forest,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.33893976738747167,535.5612876196036,1010.7655954574481
+random_forest,leave_one_source_out,15,10.14456/apst.2022.5,9,-0.12540437533088689,94.32699983511046,116.34634347103207
+random_forest,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,0.11764340441951038,10.984663181004922,13.163196265956152
+random_forest,leave_one_source_out,17,10.3136/fstr.23.193,12,-3.6670849292896035,76.16149608173714,87.58397103177386
+random_forest,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-5.043242586350993,3136.4989697703645,3432.9384998386754
+random_forest,leave_one_source_out,19,10.3390/antiox13070755,3,-1.5829875948141647,69.70706284562813,89.04287793469547
+random_forest,leave_one_source_out,20,10.3390/app15010254,30,-2.4352331395408098,59.02998177546287,72.84543796465117
+random_forest,leave_one_source_out,21,10.3390/foods10050960,32,0.17396077511511798,20.023172086864502,25.613494049727958
+random_forest,leave_one_source_out,22,10.3390/foods12163086,33,-0.15142285163911184,39.037448056338235,50.6085880197244
+random_forest,leave_one_source_out,23,10.3390/foods13020230,20,-0.10443933644983772,108.60943517101877,209.16299719340174
+random_forest,leave_one_source_out,24,10.3390/foods13030472,30,0.3254559601654353,14.950367446651047,17.609546410625615
+random_forest,leave_one_source_out,25,10.3390/foods13213459,12,0.3945837809381362,15.829760965911257,21.294719241138587
+random_forest,leave_one_source_out,26,10.3390/foods9050607,78,-1.1769926879724504,84.52667425562892,122.5754999114617
+random_forest,leave_one_source_out,27,10.3390/molecules26175171,50,-0.646587352363996,31.85572092145002,41.67300703950009
+random_forest,leave_one_source_out,28,10.3390/molecules28073066,14,-2.039542077126227,809.2854984463062,1000.2722711194779
+random_forest,leave_one_source_out,29,10.3390/molecules31162740,84,-1.8529500020680114,15.927849819977409,18.380888275010616
+random_forest,leave_one_source_out,30,10.3390/plants10102192,36,-0.14666627376412222,45.66050624148494,58.86801227370678
+random_forest,leave_one_source_out,31,10.3390/plants13101283,55,-0.16355490974784503,217.97000613028774,487.7609177279591
+random_forest,leave_one_source_out,32,10.3390/pr12102114,40,-0.24255213565408207,81.24238566644524,100.85641238856557
+extra_trees,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,-0.05955058063512575,48.85643332099108,130.69586266074003
+extra_trees,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,0.06713821120988606,140.1692787860307,605.6602332063493
+extra_trees,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,0.057908612723967856,85.49840130276486,249.49709160302697
+extra_trees,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,-0.856102790620427,37.02123684741416,91.78374930113131
+extra_trees,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,-0.17246267716612929,186.24045838011457,670.9338435220975
+extra_trees,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,-0.09287250043717199,126.94512660772223,389.42128262613073
+extra_trees,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,-0.025060617926661477,93.01419772165318,266.7658268271506
+extra_trees,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,0.6342294449169381,65.66217313892358,164.1779247102068
+extra_trees,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,0.37043479616278285,96.65697450395405,414.77068755146587
+extra_trees,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,0.06366617079457726,146.91232027024316,547.748489591108
+extra_trees,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,0.11215082280180821,28.51442326593976,36.24623374363175
+extra_trees,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-8.882351162683323,9.355091488478516,11.146685469549714
+extra_trees,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-0.1829265707551304,10.82631902039116,11.812939269917726
+extra_trees,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-16.73887155898874,60.528471021085466,65.03057463795788
+extra_trees,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-3.3851381708750417,35.96615396819734,48.34034442238259
+extra_trees,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,-0.35560038729130716,37.70906220284425,46.76109695557586
+extra_trees,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.12836785724960675,80.48515354353316,137.13739961677587
+extra_trees,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,0.049676868792880025,14.30035989094774,18.904000155740494
+extra_trees,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.22758619299096106,616.0802770486783,1396.6407235645995
+extra_trees,leave_one_source_out,10,10.1021/jf072304b,56,-0.22694397519383736,35.52224119985509,43.11951073673382
+extra_trees,leave_one_source_out,11,10.1021/jf904306r,32,-0.05275037026149154,28.912140114244597,39.45837484166684
+extra_trees,leave_one_source_out,12,10.1155/2013/367819,34,-67.69116771140762,147.55376420131998,289.2244439739321
+extra_trees,leave_one_source_out,13,10.1155/2020/8856260,32,-11.673450741925976,40.78298734613361,44.20180844131547
+extra_trees,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.3570791744004209,548.1747948106115,1017.5892810234253
+extra_trees,leave_one_source_out,15,10.14456/apst.2022.5,9,-0.031985288527474065,86.48780697441573,111.41282652169814
+extra_trees,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,-0.11065156512545138,10.667741743028953,14.768221758107966
+extra_trees,leave_one_source_out,17,10.3136/fstr.23.193,12,-4.513595699119066,84.5235558526083,95.1961179798446
+extra_trees,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-5.021400967194553,3129.58494913449,3426.7291837000703
+extra_trees,leave_one_source_out,19,10.3390/antiox13070755,3,-1.4907637933978544,67.64605062212044,87.43882241372657
+extra_trees,leave_one_source_out,20,10.3390/app15010254,30,-6.12298464088205,95.14309431836662,104.89511279730937
+extra_trees,leave_one_source_out,21,10.3390/foods10050960,32,0.10638618883689555,21.144233286618192,26.640564769250975
+extra_trees,leave_one_source_out,22,10.3390/foods12163086,33,-0.18966373659569058,40.29115302620176,51.44212617117139
+extra_trees,leave_one_source_out,23,10.3390/foods13020230,20,-0.1836150866545201,106.1813226291514,216.53054515020625
+extra_trees,leave_one_source_out,24,10.3390/foods13030472,30,-0.4706448750437422,20.922382659106468,26.001411335648513
+extra_trees,leave_one_source_out,25,10.3390/foods13213459,12,0.09173225455085976,19.68901103226,26.082657505219405
+extra_trees,leave_one_source_out,26,10.3390/foods9050607,78,-1.2270220113120236,86.66538872977289,123.97594938660377
+extra_trees,leave_one_source_out,27,10.3390/molecules26175171,50,-0.6651655027230032,32.60633220235811,41.90744216142346
+extra_trees,leave_one_source_out,28,10.3390/molecules28073066,14,-2.2689892605907653,862.3366455787555,1037.339455581813
+extra_trees,leave_one_source_out,29,10.3390/molecules31162740,84,-3.164862404766895,19.05633272685068,22.208526459936856
+extra_trees,leave_one_source_out,30,10.3390/plants10102192,36,-0.16431232482136937,46.150481103208726,59.31924292136364
+extra_trees,leave_one_source_out,31,10.3390/plants13101283,55,-0.17530591704438403,222.46759995924435,490.21773488370053
+extra_trees,leave_one_source_out,32,10.3390/pr12102114,40,-0.2034597258544244,73.39846770397871,99.25719229173724
+gradient_boosting,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,-0.8963428339928636,61.95356868671418,174.8474972313011
+gradient_boosting,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,0.06661214406103011,147.1073179306195,605.830983605352
+gradient_boosting,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,-0.11979710572592173,92.45288810865115,272.0123616152295
+gradient_boosting,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,-0.8114508514520373,45.38864436366105,90.67301567709065
+gradient_boosting,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,-0.18221976791462913,194.18449018369404,673.7197741086947
+gradient_boosting,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,-0.03989577676241285,122.36012693930905,379.8654903975354
+gradient_boosting,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,0.041427530258180134,90.12584319394263,257.96922358847047
+gradient_boosting,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,0.7547514088535263,59.277119036138195,134.43540243440998
+gradient_boosting,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,0.3197178418529617,97.63231897883814,431.1538204527875
+gradient_boosting,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,0.018698975880572566,144.90510975056006,560.7469983154707
+gradient_boosting,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,-0.11378621735651051,33.28137743647193,40.59702491487618
+gradient_boosting,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-177.15710605991757,47.19488087115831,47.32789407313185
+gradient_boosting,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-9.569866824089559,32.34111941040019,35.311310480740296
+gradient_boosting,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-35.30875218004915,91.81172597230423,93.03797707615293
+gradient_boosting,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-2.508648935564663,36.97158372565721,43.24023618765753
+gradient_boosting,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,-0.18487911853247163,38.05471191616715,43.717555636002345
+gradient_boosting,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.04246911315991775,75.91659455696453,131.81418694202935
+gradient_boosting,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,-0.6165731724595955,17.428027748279913,24.65560965348967
+gradient_boosting,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.20430451876085165,586.4430933331749,1383.333395537029
+gradient_boosting,leave_one_source_out,10,10.1021/jf072304b,56,-0.38772843917344124,37.94854269527718,45.8578513797019
+gradient_boosting,leave_one_source_out,11,10.1021/jf904306r,32,-0.46217460168685043,34.62873997702769,46.502479572172554
+gradient_boosting,leave_one_source_out,12,10.1155/2013/367819,34,-50.96349513677175,149.74530174800012,251.55544519261312
+gradient_boosting,leave_one_source_out,13,10.1155/2020/8856260,32,-0.7484190020880892,13.492296564218396,16.417814955512444
+gradient_boosting,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.3144715143189909,526.2545802500929,1001.487470288017
+gradient_boosting,leave_one_source_out,15,10.14456/apst.2022.5,9,0.0011147743870810745,99.4945902993107,109.61152852626967
+gradient_boosting,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,-7.195562701433989,37.623050704691636,40.11702112976682
+gradient_boosting,leave_one_source_out,17,10.3136/fstr.23.193,12,-1.2529101197114776,49.61218490495727,60.85183975967336
+gradient_boosting,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-4.993055592568321,3120.4283145923923,3418.654110849816
+gradient_boosting,leave_one_source_out,19,10.3390/antiox13070755,3,-0.02095071432864981,47.241423851742844,55.9809696641181
+gradient_boosting,leave_one_source_out,20,10.3390/app15010254,30,-1.1960262589348662,41.75609032474061,58.24290319117049
+gradient_boosting,leave_one_source_out,21,10.3390/foods10050960,32,-0.6441147209172506,29.146823315189877,36.13554009583498
+gradient_boosting,leave_one_source_out,22,10.3390/foods12163086,33,-0.1539113928303999,40.121022344165866,50.663248034765694
+gradient_boosting,leave_one_source_out,23,10.3390/foods13020230,20,-0.03605548612935516,114.51171963094717,202.58413463110628
+gradient_boosting,leave_one_source_out,24,10.3390/foods13030472,30,-0.12306395914884094,17.127282723186354,22.721932219741152
+gradient_boosting,leave_one_source_out,25,10.3390/foods13213459,12,-1.0498454124626142,33.650232674473045,39.18370046854573
+gradient_boosting,leave_one_source_out,26,10.3390/foods9050607,78,-0.6610837574615229,70.97444612345429,107.07077686765916
+gradient_boosting,leave_one_source_out,27,10.3390/molecules26175171,50,-2.091392606245678,45.798305237637024,57.10045037552542
+gradient_boosting,leave_one_source_out,28,10.3390/molecules28073066,14,-2.049956980772098,820.5395248906403,1001.9845077482786
+gradient_boosting,leave_one_source_out,29,10.3390/molecules31162740,84,-0.05066981590601993,6.6380755769247894,11.15456254153996
+gradient_boosting,leave_one_source_out,30,10.3390/plants10102192,36,-0.04883522282798469,44.6270435608574,56.30078938978027
+gradient_boosting,leave_one_source_out,31,10.3390/plants13101283,55,-0.11146874581290067,208.80843861335921,476.71869669871114
+gradient_boosting,leave_one_source_out,32,10.3390/pr12102114,40,-0.6197271773950941,90.21300420125014,115.15084789463866
+svr_rbf,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,0.04949961452701179,52.38928766284155,123.78759958093661
+svr_rbf,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,-0.03213786216133796,156.3951452167541,637.0730919574412
+svr_rbf,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,-0.02115334636946753,80.6932433145417,259.7553212590296
+svr_rbf,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,0.05278988774684101,33.28734226072272,65.56739741310894
+svr_rbf,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,-0.053744172948764435,172.65959553352474,636.0595518918448
+svr_rbf,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,-0.048768038816662695,119.16598899590231,381.4825312980469
+svr_rbf,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,-0.06382266767012568,91.49025874595182,271.7628201066428
+svr_rbf,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,-0.014378387283598304,71.26580522659054,273.4074753834462
+svr_rbf,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,-0.027377015086367917,107.48420324366082,529.8496123961362
+svr_rbf,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,-0.012879799493782373,122.09147252306185,569.6981200625661
+svr_rbf,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,0.06567557616950459,28.533329880313463,37.182804174264064
+svr_rbf,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-2.240756572884573,5.408060015749924,6.383205272867491
+svr_rbf,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-6.067282684670362,24.57342313692524,28.873890776385878
+svr_rbf,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-37.61387136541453,94.15486395191235,95.94586659286142
+svr_rbf,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-0.8541047487936162,25.131371974379675,31.432956570795863
+svr_rbf,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,0.042508285253883615,32.382144830907976,39.299439901024286
+svr_rbf,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.1318494248789739,82.28410344456175,137.34880470116522
+svr_rbf,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,-0.36434365270956826,17.16635876981329,22.65061245280803
+svr_rbf,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.218664553318773,599.602845864211,1391.5563363122906
+svr_rbf,leave_one_source_out,10,10.1021/jf072304b,56,-0.11603540984701644,34.94678977050882,41.12448244126642
+svr_rbf,leave_one_source_out,11,10.1021/jf904306r,32,-0.7373561825627495,39.957575883596476,50.689840510508496
+svr_rbf,leave_one_source_out,12,10.1155/2013/367819,34,-1.8011761679699885,53.69227439197427,58.40563588300484
+svr_rbf,leave_one_source_out,13,10.1155/2020/8856260,32,-0.02919826094273348,9.61422071738225,12.596274589956433
+svr_rbf,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.34419347944945855,534.3558359827504,1012.7466675838773
+svr_rbf,leave_one_source_out,15,10.14456/apst.2022.5,9,-0.021797328283611472,91.95451411316373,110.861517902943
+svr_rbf,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,-0.9626665408285002,15.069240589410109,19.631909708018256
+svr_rbf,leave_one_source_out,17,10.3136/fstr.23.193,12,-2.007800062627808,56.91230053784678,70.3114836445364
+svr_rbf,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-5.003982029648733,3124.315673934127,3421.7691077246272
+svr_rbf,leave_one_source_out,19,10.3390/antiox13070755,3,-0.32742503391012434,48.85810942133543,63.832672854996524
+svr_rbf,leave_one_source_out,20,10.3390/app15010254,30,-0.9675262456086007,42.20393433641507,55.129558884148445
+svr_rbf,leave_one_source_out,21,10.3390/foods10050960,32,-0.1658648463933876,24.608004302791315,30.42934436076184
+svr_rbf,leave_one_source_out,22,10.3390/foods12163086,33,-0.3575386526594295,42.8478476943724,54.951923708088714
+svr_rbf,leave_one_source_out,23,10.3390/foods13020230,20,-0.03522034806336882,122.14539385310138,202.50246920271488
+svr_rbf,leave_one_source_out,24,10.3390/foods13030472,30,0.04277724726504417,18.213528498902875,20.977296724998517
+svr_rbf,leave_one_source_out,25,10.3390/foods13213459,12,0.28182719820950564,18.203308360189247,23.19313039449481
+svr_rbf,leave_one_source_out,26,10.3390/foods9050607,78,-0.5300856334663122,68.73533320435989,102.762120337845
+svr_rbf,leave_one_source_out,27,10.3390/molecules26175171,50,-1.2017032924437525,37.34142077706831,48.18832688577283
+svr_rbf,leave_one_source_out,28,10.3390/molecules28073066,14,-2.0187511969309746,813.1474990993216,996.8454019788448
+svr_rbf,leave_one_source_out,29,10.3390/molecules31162740,84,-1.2208137087996729,14.440137219977325,16.217185325442316
+svr_rbf,leave_one_source_out,30,10.3390/plants10102192,36,-0.03185807012416819,45.91516009677535,55.84326917223352
+svr_rbf,leave_one_source_out,31,10.3390/plants13101283,55,-0.14237235067771548,209.8498379159016,483.30067221151745
+svr_rbf,leave_one_source_out,32,10.3390/pr12102114,40,-0.18335154040642143,77.38225205050739,98.42447246889101
+xgboost,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,0.14356853406640002,51.349817721017516,117.50255236804828
+xgboost,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,0.06957077518201149,142.59598462525332,604.870047030361
+xgboost,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,-1.790258134540216,117.7837300838756,429.37935783541093
+xgboost,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,-1.5241980878989434,40.52951327674258,107.03516902195325
+xgboost,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,-0.652722163441491,210.5862355804483,796.5813082162034
+xgboost,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,-0.03325695487434688,119.1423406900803,378.6509950352663
+xgboost,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,0.025232642313118836,88.8479006292235,260.13926529477646
+xgboost,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,0.2912026812036266,75.54587032340349,228.5448418982949
+xgboost,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,0.10132109083055252,104.89907689482844,495.55284417772214
+xgboost,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,-0.029649458193051093,165.79890350433988,574.3948390217643
+xgboost,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,-0.047859104073168846,31.164436173158624,39.37719116464044
+xgboost,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-16.589703379020964,14.442251913400705,14.871160589708202
+xgboost,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-14.792342822416957,37.217761006831246,43.16207940363666
+xgboost,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-29.142362904182583,83.86416462888492,84.77020710680098
+xgboost,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-1.2683190555759967,27.97110784449712,34.767236351529206
+xgboost,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,-0.07703431115283177,34.044068470011226,41.68056696879526
+xgboost,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.13408014067652774,79.92614619693357,137.48408565342044
+xgboost,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,-0.0966939253759389,15.741059445074264,20.307701961478635
+xgboost,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.20298753007541914,582.7406596235677,1382.5768041811373
+xgboost,leave_one_source_out,10,10.1021/jf072304b,56,-0.16899417925228866,35.41010281517835,42.08890552549454
+xgboost,leave_one_source_out,11,10.1021/jf904306r,32,-0.4598092271944276,34.10411671730476,46.46485058442229
+xgboost,leave_one_source_out,12,10.1155/2013/367819,34,-20.1310503274296,103.07165792491233,160.4150412914493
+xgboost,leave_one_source_out,13,10.1155/2020/8856260,32,-0.3021065911010803,10.9726016824666,14.168238736522174
+xgboost,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.3459069489989566,535.7303738404611,1013.3919459409141
+xgboost,leave_one_source_out,15,10.14456/apst.2022.5,9,-0.05985946367236972,94.6968036785495,112.90744511552178
+xgboost,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,-1.255897485418393,18.198369777070262,21.047424903781067
+xgboost,leave_one_source_out,17,10.3136/fstr.23.193,12,-2.209334374794407,61.26813687143443,72.62886611333829
+xgboost,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-5.023905768725261,3130.053435092586,3427.4418404482553
+xgboost,leave_one_source_out,19,10.3390/antiox13070755,3,-0.303704401750996,48.46812654152894,63.259767878290184
+xgboost,leave_one_source_out,20,10.3390/app15010254,30,-1.5276627324171326,48.077535270720176,62.486156617233114
+xgboost,leave_one_source_out,21,10.3390/foods10050960,32,-0.8886144895396393,31.36765952550884,38.729344801651585
+xgboost,leave_one_source_out,22,10.3390/foods12163086,33,-0.259995890123339,41.19619359796696,52.94090519876531
+xgboost,leave_one_source_out,23,10.3390/foods13020230,20,-0.031428132680961784,120.2663444282061,202.1312257551191
+xgboost,leave_one_source_out,24,10.3390/foods13030472,30,-0.1208334353612821,17.10179235832567,22.69935692481597
+xgboost,leave_one_source_out,25,10.3390/foods13213459,12,0.26927706171652477,17.502159663714863,23.394903765354268
+xgboost,leave_one_source_out,26,10.3390/foods9050607,78,-0.7363481674271606,73.31933858772739,109.4696159563909
+xgboost,leave_one_source_out,27,10.3390/molecules26175171,50,-0.8326357895463794,34.11505283522411,43.96433754694577
+xgboost,leave_one_source_out,28,10.3390/molecules28073066,14,-1.9631363328467848,801.371767667586,987.6202059540834
+xgboost,leave_one_source_out,29,10.3390/molecules31162740,84,-2.5406630085295614,18.801108718145457,20.47678223689555
+xgboost,leave_one_source_out,30,10.3390/plants10102192,36,-0.04610831549259653,45.12575534199547,56.22755245399237
+xgboost,leave_one_source_out,31,10.3390/plants13101283,55,-0.12851501853321068,210.21004516422093,480.3604347236048
+xgboost,leave_one_source_out,32,10.3390/pr12102114,40,-1.4060426342448178,107.50788161003227,140.34529729877505

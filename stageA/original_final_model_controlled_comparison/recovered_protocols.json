@@ -1,0 +1,33 @@
+{
+  "original_target": "Retention_Final",
+  "original_target_transform": "log1p / expm1 clipped prediction",
+  "original_split": "GroupKFold(5) by Canonical_Molecular_ID",
+  "original_source_group": "DOI_Normalized",
+  "original_model": "XGBoost_tuned: 450 trees, depth 3, learning rate .03, min_child_weight 3, subsample .8, colsample .8, reg_lambda 5, seed 42",
+  "historical_xgboost_tuned_pooled_oof_r2": 0.2832468313018399,
+  "historical_xgboost_tuned_mean_fold_r2": 0.4003758242172403,
+  "final_target": "target_value_percent = 100 * cooked_concentration / raw_concentration",
+  "final_model": "ExtraTrees: 25 trees, min_samples_leaf 2, max_features .8, seed 42",
+  "final_source_split": "GroupKFold(5) by doi",
+  "final_feature_columns": [
+    "raw_concentration",
+    "Temperature_C",
+    "Cooking_Time_min",
+    "RDKit_Molecular_Weight",
+    "RDKit_LogP",
+    "RDKit_TPSA",
+    "RDKit_HBond_Donors",
+    "RDKit_HBond_Acceptors",
+    "RDKit_Rotatable_Bonds",
+    "RDKit_Aromatic_Rings",
+    "RDKit_Hydroxyl_Groups",
+    "cooking_method_normalized",
+    "cooking_medium",
+    "measurement_basis",
+    "compound_class",
+    "food_matrix"
+  ],
+  "source_ids_as_features": false,
+  "target_derived_features_as_features": false,
+  "paired_target_fold_assignments_identical": true
+}

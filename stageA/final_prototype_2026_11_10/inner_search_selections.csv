@@ -1,0 +1,126 @@
+model,validation,fold,best_inner_parameters
+dummy,random,1,{}
+dummy,random,2,{}
+dummy,random,3,{}
+dummy,random,4,{}
+dummy,random,5,{}
+ridge,random,1,"{""model__alpha"": 10.0}"
+ridge,random,2,"{""model__alpha"": 1.0}"
+ridge,random,3,"{""model__alpha"": 100.0}"
+ridge,random,4,"{""model__alpha"": 1.0}"
+ridge,random,5,"{""model__alpha"": 10.0}"
+random_forest,random,1,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+random_forest,random,2,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 1}"
+random_forest,random,3,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+random_forest,random,4,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+random_forest,random,5,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 1}"
+extra_trees,random,1,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 4}"
+extra_trees,random,2,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+extra_trees,random,3,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 4}"
+extra_trees,random,4,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,random,5,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 4}"
+xgboost,random,1,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+xgboost,random,2,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+xgboost,random,3,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+xgboost,random,4,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+xgboost,random,5,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+dummy,group,1,{}
+dummy,group,2,{}
+dummy,group,3,{}
+dummy,group,4,{}
+dummy,group,5,{}
+ridge,group,1,"{""model__alpha"": 100.0}"
+ridge,group,2,"{""model__alpha"": 100.0}"
+ridge,group,3,"{""model__alpha"": 100.0}"
+ridge,group,4,"{""model__alpha"": 100.0}"
+ridge,group,5,"{""model__alpha"": 100.0}"
+random_forest,group,1,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+random_forest,group,2,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+random_forest,group,3,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 4}"
+random_forest,group,4,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+random_forest,group,5,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,group,1,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,group,2,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+extra_trees,group,3,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+extra_trees,group,4,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+extra_trees,group,5,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 4}"
+xgboost,group,1,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+xgboost,group,2,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,group,3,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,group,4,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,group,5,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+dummy,group,1,{}
+dummy,group,2,{}
+dummy,group,3,{}
+dummy,group,4,{}
+dummy,group,5,{}
+ridge,group,1,"{""model__alpha"": 100.0}"
+ridge,group,2,"{""model__alpha"": 100.0}"
+ridge,group,3,"{""model__alpha"": 100.0}"
+ridge,group,4,"{""model__alpha"": 100.0}"
+ridge,group,5,"{""model__alpha"": 100.0}"
+random_forest,group,1,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+random_forest,group,2,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 1}"
+random_forest,group,3,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+random_forest,group,4,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+random_forest,group,5,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 1}"
+extra_trees,group,1,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+extra_trees,group,2,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+extra_trees,group,3,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+extra_trees,group,4,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+extra_trees,group,5,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+xgboost,group,1,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,group,2,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+xgboost,group,3,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,group,4,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,group,5,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+dummy,source,1,{}
+dummy,source,2,{}
+dummy,source,3,{}
+dummy,source,4,{}
+dummy,source,5,{}
+dummy,source,6,{}
+dummy,source,7,{}
+dummy,source,8,{}
+dummy,source,9,{}
+dummy,source,10,{}
+ridge,source,1,"{""model__alpha"": 100.0}"
+ridge,source,2,"{""model__alpha"": 100.0}"
+ridge,source,3,"{""model__alpha"": 100.0}"
+ridge,source,4,"{""model__alpha"": 100.0}"
+ridge,source,5,"{""model__alpha"": 100.0}"
+ridge,source,6,"{""model__alpha"": 100.0}"
+ridge,source,7,"{""model__alpha"": 100.0}"
+ridge,source,8,"{""model__alpha"": 100.0}"
+ridge,source,9,"{""model__alpha"": 100.0}"
+ridge,source,10,"{""model__alpha"": 100.0}"
+random_forest,source,1,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+random_forest,source,2,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+random_forest,source,3,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 1}"
+random_forest,source,4,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+random_forest,source,5,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+random_forest,source,6,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+random_forest,source,7,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+random_forest,source,8,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+random_forest,source,9,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 2}"
+random_forest,source,10,"{""model__max_features"": 1.0, ""model__min_samples_leaf"": 4}"
+extra_trees,source,1,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,source,2,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,source,3,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,source,4,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+extra_trees,source,5,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,source,6,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+extra_trees,source,7,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+extra_trees,source,8,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+extra_trees,source,9,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 2}"
+extra_trees,source,10,"{""model__max_features"": 0.6, ""model__min_samples_leaf"": 4}"
+xgboost,source,1,"{""model__max_depth"": 2, ""model__min_child_weight"": 1}"
+xgboost,source,2,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,source,3,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,source,4,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,source,5,"{""model__max_depth"": 3, ""model__min_child_weight"": 4}"
+xgboost,source,6,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,source,7,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,source,8,"{""model__max_depth"": 3, ""model__min_child_weight"": 1}"
+xgboost,source,9,"{""model__max_depth"": 2, ""model__min_child_weight"": 4}"
+xgboost,source,10,"{""model__max_depth"": 2, ""model__min_child_weight"": 1}"

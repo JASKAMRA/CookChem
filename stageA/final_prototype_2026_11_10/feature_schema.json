@@ -1,0 +1,37 @@
+{
+  "target": "apparent_concentration_ratio_percent",
+  "equation": "100 * C_cooked / C_raw",
+  "semantic_limit": "Apparent concentration ratio; not true total-mass retention.",
+  "numeric_features": [
+    "raw_concentration",
+    "Temperature_C",
+    "Cooking_Time_min",
+    "RDKit_Molecular_Weight",
+    "RDKit_LogP",
+    "RDKit_TPSA",
+    "RDKit_HBond_Donors",
+    "RDKit_HBond_Acceptors",
+    "RDKit_Rotatable_Bonds",
+    "RDKit_Aromatic_Rings",
+    "RDKit_Hydroxyl_Groups"
+  ],
+  "categorical_features": [
+    "cooking_method_normalized",
+    "cooking_medium",
+    "measurement_basis",
+    "compound_class",
+    "food_matrix"
+  ],
+  "descriptor_features": [
+    "RDKit_Molecular_Weight",
+    "RDKit_LogP",
+    "RDKit_TPSA",
+    "RDKit_HBond_Donors",
+    "RDKit_HBond_Acceptors",
+    "RDKit_Rotatable_Bonds",
+    "RDKit_Aromatic_Rings",
+    "RDKit_Hydroxyl_Groups"
+  ],
+  "canonical_smiles": "Not stored in the authoritative 439-row dataset. Canonical molecular identifiers and precomputed verified RDKit descriptors are used; no SMILES were invented or backfilled.",
+  "basis_handling": "Measurement basis is an explicit categorical feature. No fresh/dry conversion or pooled basis assumption is performed."
+}

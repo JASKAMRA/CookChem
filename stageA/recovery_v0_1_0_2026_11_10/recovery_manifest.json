@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-11-09T20:50:37.959063+00:00",
+  "input_hashes": {
+    "data\\reviewed\\cookchem_molecular_retention_master.csv": "a32a3b404ac2b050ddd536fc0cca2f5fa7c8fdbb9677e66ff01f217bcfb11e2c",
+    "stageA\\input\\cookchem_molecular_retention_preprocessed.csv": "cd51de3286d9fea7c4d87ce45f4c9c4301214b1944f72bff19c3b41ce0358c27",
+    "stageC\\phase2\\data\\observed_cooking_pairs.csv": "5c9e372969f9dd29890b494567cc9c5216d2c4d2ead36f369bccd023dc04860e"
+  },
+  "package": "StageA_StageC_Recovery_v0.1.0_2026-11-10",
+  "summary": {
+    "deployment_authorized": false,
+    "historical_model_rows": 1124,
+    "model_trained": false,
+    "status_counts": {
+      "DOI_MISMATCH": 18,
+      "INSUFFICIENT_EVIDENCE": 807,
+      "TARGET_FORMULA_UNRESOLVED": 182,
+      "VERIFIED": 117
+    },
+    "target_counts": {
+      "UNRESOLVED_TARGET_SEMANTICS": 1007,
+      "VERIFIED_APPARENT_RATIO": 117
+    }
+  }
+}

@@ -1,0 +1,43 @@
+model,validation,fold,held_out,n_valid,r2,mae,rmse
+gradient_boosting,compound_grouped_5fold,1,MOL-1EEAF26DAB18220A;MOL-4211365770E800E7;MOL-4A01A162BE3ABD4F;MOL-68955EF6DFFBAE42;MOL-7EE1F4B0FE7C2F8F;MOL-FA72C357363DA8FF;MOL-FC3448154B3A0424;PUBCHEM_10743;PUBCHEM_5280805,202,-0.3364370207984593,78.57948917637796,146.7828248720673
+gradient_boosting,compound_grouped_5fold,2,MOL-25F875E0BC8D5FF1;MOL-3E358C460A5118D5;MOL-645ED05FEDA9E88D;MOL-750BB2887DE05D52;MOL-76A7BB0820569526;MOL-A5FCD67122EE24A3;MOL-E735D9075DA5F7EA;MOL-F175EF00D6D816CF;MOL-FDB10E6B0C4171D1;MOL-FE1955A62331D3AC,204,0.003664260319873769,165.18785450504424,625.9263892953682
+gradient_boosting,compound_grouped_5fold,3,MOL-16B10569D6F0625E;MOL-1DBD0A323105D2A1;MOL-25433E39C2198405;MOL-25F8CD05AD250A06;MOL-3811F42D3C15ED32;MOL-63D7A7828BA9C4DF;MOL-9D7D8AD8FB501A6B;MOL-C208ADB38D658E40;MOL-EEA321586E21AFFF;PUBCHEM_5484006,203,-0.1212248501621116,110.10980398145821,272.18571463668343
+gradient_boosting,compound_grouped_5fold,4,MOL-0364DE368E1C0643;MOL-0DC3BF114CA822C6;MOL-2E293CC4CD071EE8;MOL-3027440F3B4AE891;MOL-98D1F6293AB973E1;MOL-A243F0B3B6C746C6;MOL-CF1446AA0DE93D24;MOL-E6B0E2302EFABB39;MOL-F4FE5390BCB0D5F8;PUBCHEM_5282102,205,-0.49847170184887046,68.32081681768437,82.46868230753198
+gradient_boosting,compound_grouped_5fold,5,MOL-0D386D6E093BCAC9;MOL-143CDCE37B4BDC8E;MOL-1BD287941DF6A602;MOL-328C9DEDB92C78CB;MOL-4E6BF0FDD19784FD;MOL-6213BC022378CC3A;MOL-6A43BE59C5759A76;MOL-A7172F3404EC9E62;MOL-AD185038A3D0E63D,202,-0.012098321921190536,193.39495085596735,623.3637425662819
+gradient_boosting,food_matrix_grouped_5fold,1,"Chard;Chard leaves (Beta vulgaris var. cicla);Corn flour (Zea mays), market composite;Croatian domestic garlic cloves (Allium sativum L.);Dent corn (Zea mays), market composite;Frozen broccoli florets/stems;Potato;ProSoy soymilk (M3 grinding method);Quince fruit (Cydonia oblonga; diced);Red Cabbage;Spinach leaves (Spinacia oleracea);Sweet potato - Beauregard Slovakia;Trachystemon leaf and stem (Trachystemon orientalis)",203,-0.016740764128649,138.4733070170649,375.6125130849144
+gradient_boosting,food_matrix_grouped_5fold,2,"Broccoli;Corn grits (Zea mays), market composite;Frozen Brussels sprouts;Patata Rossa di Colfiorito red-skinned potato (T1; 1 month storage);ProSoy soymilk (M4 grinding method);Purple sweet potato (Ipomoea batatas);Sathkora;Sonchus asper leaves;Spinach;Sweet corn (Zea mays), market composite;Sweet potato;Sweet potato - Purple 414 Croatia;Turmeric",203,0.027172153678901134,103.79918121103634,259.88033464725305
+gradient_boosting,food_matrix_grouped_5fold,3,"Artichoke receptacle (Cynara scolymus cv. Sakiz);Broccoli florets (Brassica oleracea var. italica);Chaya leaf (Cnidoscolus chayamansa);Chicory;Chicory leaves (Cichorium intybus);Corn flakes (Zea mays), market composite;Fresh Brussels sprouts;Kale;Pea;Pumpkin;Pumpkin leaves;Triticale grain (ND2201; cooked as porridge);White cauliflower edible floret (Brassica oleracea var. botrytis)",204,0.5917235075391118,95.06430688735188,173.45530162627446
+gradient_boosting,food_matrix_grouped_5fold,4,"Artichoke receptacle (Cynara scolymus cv. Bayrampasa);Carrot;Carrot slices (Daucus carota subsp. sativus);Loche squash (Cucurbita moschata) pulp, composite of ten fruits;Orange-fleshed Sweet Potato;Popcorn, groundnut oil (Zea mays), market composite;Popcorn, no added oil (Zea mays), market composite;Red bell pepper;Red pepper pieces (Capsicum annuum L. cv. Kapya);Sonchus asper;Sonchus oleraceus;Sweet chestnut edible seed (Castanea sativa);Sweet potato - Beauregard Croatia",204,0.1734828777705102,111.01106510706492,475.2406987764074
+gradient_boosting,food_matrix_grouped_5fold,5,"Baby corn (Zea mays), market composite;Cauliflower florets (Brassica oleracea var. botrytis);Commercial red-skinned potato (France);Courgette;Fresh broccoli florets;Green pepper;Patata Rossa di Colfiorito red-skinned potato (T0);Potato (Lord cultivar);ProSoy soymilk (M1 grinding method);Red cabbage;Sonchus oleraceus leaves;Sweet potato - Purple 414 Slovakia;Whole unpeeled carrot roots (Daucus carota L. var. Berlikumer 2–Perfekcja);Zucchini",202,-0.017955003570909955,152.6708948705214,571.1236205958371
+gradient_boosting,leave_one_source_out,1,10.1007/s10068-017-0281-1,28,-1.33487286829846,47.86615521779102,58.7793674070598
+gradient_boosting,leave_one_source_out,2,10.1007/s10068-024-01623-y,12,-392.274762300723,70.2280790808782,70.31753599455008
+gradient_boosting,leave_one_source_out,3,10.1007/s11130-020-00808-0,5,-28.44352499244766,57.925632741317564,58.93509380783228
+gradient_boosting,leave_one_source_out,4,10.1007/s11130-026-01551-8,8,-56.429573340072594,115.98664340870165,117.00984174320517
+gradient_boosting,leave_one_source_out,5,10.1007/s13197-017-2547-2,39,-10.300736639332639,74.0887454994254,77.60174306349478
+gradient_boosting,leave_one_source_out,6,10.1016/j.fochx.2022.100339,84,-2.2467676729248307,64.13562777401853,72.36764751596569
+gradient_boosting,leave_one_source_out,7,10.1016/j.foodchem.2015.10.037,24,-0.023471459268415984,88.25017004991021,130.60759281065003
+gradient_boosting,leave_one_source_out,8,10.1016/j.heliyon.2023.e21709,36,-7.345429978906797,52.556528796510435,56.01991181928673
+gradient_boosting,leave_one_source_out,9,10.1016/j.jff.2024.106380,35,-0.1920884440039361,574.5945630287652,1376.2994697735712
+gradient_boosting,leave_one_source_out,10,10.1021/jf072304b,56,-2.96758862414041,68.97602081936348,77.53981783877313
+gradient_boosting,leave_one_source_out,11,10.1021/jf904306r,32,-1.8468850245194202,58.37517973765059,64.88756197418097
+gradient_boosting,leave_one_source_out,12,10.1155/2013/367819,34,-14.646322984122575,127.2712742309683,138.03546759363394
+gradient_boosting,leave_one_source_out,13,10.1155/2020/8856260,32,-15.50968883827312,48.898342705934574,50.45010118099146
+gradient_boosting,leave_one_source_out,14,10.1371/journal.pone.0299037,15,-0.2756437807437049,516.5602511502381,986.5852964239789
+gradient_boosting,leave_one_source_out,15,10.14456/apst.2022.5,9,-0.10926883847023316,108.93315514943984,115.50927173154254
+gradient_boosting,leave_one_source_out,16,10.17113/ftb.56.04.18.5709,32,-28.24771670419114,74.47850715950354,75.78535203321715
+gradient_boosting,leave_one_source_out,17,10.3136/fstr.23.193,12,-0.03180917031481023,37.432301454791265,41.181434609783516
+gradient_boosting,leave_one_source_out,18,10.3389/fsufs.2021.761145,6,-4.850044367067453,3075.415968186346,3377.618456915462
+gradient_boosting,leave_one_source_out,19,10.3390/antiox13070755,3,-0.0886043147482356,55.411763725028145,57.806017994965664
+gradient_boosting,leave_one_source_out,20,10.3390/app15010254,30,-0.06206085968334807,31.823852111055412,40.50409680684291
+gradient_boosting,leave_one_source_out,21,10.3390/foods10050960,32,-0.2944999906433887,26.543392940707072,32.06413416805734
+gradient_boosting,leave_one_source_out,22,10.3390/foods12163086,33,-0.1641780053052737,42.84884066475668,50.88813016394607
+gradient_boosting,leave_one_source_out,23,10.3390/foods13020230,20,-0.00463983655068545,122.20670277600911,199.4890769182948
+gradient_boosting,leave_one_source_out,24,10.3390/foods13030472,30,-2.0701344575598872,32.87643037973358,37.56831466631527
+gradient_boosting,leave_one_source_out,25,10.3390/foods13213459,12,-5.6436133229908485,65.01648969356818,70.54188595316424
+gradient_boosting,leave_one_source_out,26,10.3390/foods9050607,78,-0.1403540536958816,58.95863320572069,88.71458868516919
+gradient_boosting,leave_one_source_out,27,10.3390/molecules26175171,50,-7.511032083259517,89.00456056378601,94.74440344413493
+gradient_boosting,leave_one_source_out,28,10.3390/molecules28073066,14,-1.911618371561132,793.2585242524752,978.997032410976
+gradient_boosting,leave_one_source_out,29,10.3390/molecules31162740,84,-19.923431069556223,48.573732939276674,49.77781922959506
+gradient_boosting,leave_one_source_out,30,10.3390/plants10102192,36,-0.9617548297565057,63.76483637462968,76.99866890493064
+gradient_boosting,leave_one_source_out,31,10.3390/plants13101283,55,-0.06172905189127453,217.384570251982,465.92971431681633
+gradient_boosting,leave_one_source_out,32,10.3390/pr12102114,40,-0.39462961165258403,100.58290461895112,106.85027558498972

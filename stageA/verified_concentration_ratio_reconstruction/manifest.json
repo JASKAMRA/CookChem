@@ -1,0 +1,40 @@
+{
+  "inputs": [
+    "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\stageA\\input\\cookchem_molecular_retention_preprocessed.csv",
+    "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\stageA\\recovery_v0_1_0_2026_11_10\\source_to_target_ledger.csv",
+    "C:\\Users\\kamra\\Desktop\\BTP\\CookChem\\stageA\\dataset_expansion_1000\\batch_021\\updated_master_dataset.csv"
+  ],
+  "outputs": [
+    "build_reconstruction.py",
+    "compound_identity_manifest.csv",
+    "corrected_observations.csv",
+    "excluded_observations.csv",
+    "final_dataset_eda_report.md",
+    "final_verified_master_dataset.csv",
+    "manifest.json",
+    "model_evaluation_report.md",
+    "molecular_grouped_fold_metrics.csv",
+    "new_primary_source_observations.csv",
+    "oof_predictions.csv",
+    "original_1124_observation_audit.csv",
+    "professor_summary.md",
+    "README.md",
+    "source_held_out_fold_metrics.csv",
+    "source_provenance_manifest.csv",
+    "split_audit.csv",
+    "target_calculation_audit.csv",
+    "verified_original_observations.csv"
+  ],
+  "summary": {
+    "final_rows": 1016,
+    "verified_original_rows": 338,
+    "corrected_original_rows": 0,
+    "excluded_original_rows": 786,
+    "new_primary_source_verified_rows": 678,
+    "doi_families": 32,
+    "compounds": 48,
+    "food_matrices": 66,
+    "methods": 41,
+    "max_ratio_calc_difference": 0.004822448472793894
+  }
+}

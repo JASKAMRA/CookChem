@@ -1,0 +1,13 @@
+{
+  "package": "StageA_Recovery_v0.2.0_2026-11-10",
+  "generated_at_utc": "2026-11-09T21:10:55.514998+00:00",
+  "inputs": {
+    "data\\reviewed\\cookchem_molecular_retention_master.csv": "a32a3b404ac2b050ddd536fc0cca2f5fa7c8fdbb9677e66ff01f217bcfb11e2c",
+    "stageC\\phase2\\data\\observed_cooking_pairs.csv": "5c9e372969f9dd29890b494567cc9c5216d2c4d2ead36f369bccd023dc04860e"
+  },
+  "target": "100 * C_cooked / C_raw",
+  "target_semantics": "apparent concentration ratio, not total-mass retention",
+  "admitted_rows": 117,
+  "excluded_duplicate_rows": 0,
+  "model_deployment_authorized": false
+}
