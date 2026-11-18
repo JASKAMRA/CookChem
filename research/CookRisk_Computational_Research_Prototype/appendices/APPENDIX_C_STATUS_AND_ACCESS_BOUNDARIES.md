@@ -1,0 +1,5 @@
+# Appendix C — Evidence Status and Access Boundaries
+
+This package was assembled from authorized Stage A files and existing research summaries. Stage B protected data were not accessed. Restricted Stage C/D source files were not reopened; this prototype does not freshly audit those stages. No new experiments, model inference/training, dependency installation, or tests were run.
+
+Prior reproduction status is attributed only to the dated Stage A report for repeated execution of the specific 1,124-row `Retention_Final` benchmark. It does not extend to ACR results. The Batch021 validation audit records historical input SHA-256 `111064cee20b1f1536337e95b22941c5d6a07ef71360aad0df0acdbcafe669c8`, while the currently available CSV hashes to `d866d0ffab8c335e0469f2815c3cdf518b3d019be1bdf2e37ba2ced2e7d5d3c1`; exact historical input bytes were not located. Six curated figures remain byte-for-byte copies with their recorded SHA-256 values; original plots were not changed. No output is described as newly validated by this assembly.
