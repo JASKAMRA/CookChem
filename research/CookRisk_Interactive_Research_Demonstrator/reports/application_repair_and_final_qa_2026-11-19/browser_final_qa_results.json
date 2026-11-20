@@ -1,0 +1,105 @@
+{
+  "browser": "Chrome 157 headless via DevTools Protocol",
+  "initial_url": "http://127.0.0.1:8501/",
+  "final_module": "Research Overview",
+  "modules": [
+    {
+      "module": "Research Overview",
+      "clicked": true,
+      "ready": true,
+      "needle": "Research question",
+      "plotly_charts": 0,
+      "expanders": 0,
+      "traceback_visible": false,
+      "text_length": 1816
+    },
+    {
+      "module": "Evidence Explorer",
+      "clicked": true,
+      "ready": true,
+      "needle": "Live record-level exploration: Reconstruction",
+      "plotly_charts": 0,
+      "expanders": 5,
+      "traceback_visible": false,
+      "text_length": 3185,
+      "reconstruction_id": true,
+      "full_hash": true,
+      "dimensions": true,
+      "limited_scope": true,
+      "not_canonical": true
+    },
+    {
+      "module": "ACR Distributions",
+      "clicked": true,
+      "ready": true,
+      "needle": "Stored ACR values (all observations retained)",
+      "plotly_charts": 3,
+      "expanders": 0,
+      "traceback_visible": false,
+      "text_length": 2557
+    },
+    {
+      "module": "Cooking & Compound Patterns",
+      "clicked": true,
+      "ready": true,
+      "needle": "Group stored ACR values by",
+      "plotly_charts": 1,
+      "expanders": 0,
+      "traceback_visible": false,
+      "text_length": 3040
+    },
+    {
+      "module": "Existing ML Results",
+      "clicked": true,
+      "ready": true,
+      "needle": "Batch021 historical reference",
+      "plotly_charts": 1,
+      "expanders": 0,
+      "traceback_visible": false,
+      "text_length": 2009,
+      "batch021_id": true,
+      "full_hash": true,
+      "dimensions": true,
+      "reconstruction_id_absent": true
+    },
+    {
+      "module": "Validation & Generalization",
+      "clicked": true,
+      "ready": true,
+      "needle": "Pooled versus fold-wise R²",
+      "plotly_charts": 1,
+      "expanders": 0,
+      "traceback_visible": false,
+      "text_length": 2180,
+      "pooled_and_mean_fold_present": false,
+      "attribution_not_reproduced": true
+    },
+    {
+      "module": "Scientific Limitations",
+      "clicked": true,
+      "ready": true,
+      "needle": "Limitations are part of the evidence",
+      "plotly_charts": 0,
+      "expanders": 11,
+      "traceback_visible": false,
+      "text_length": 1088,
+      "retention_semantics": false,
+      "noncausal": false,
+      "acr_not_mass": true
+    },
+    {
+      "module": "Reproducibility & Evidence",
+      "clicked": true,
+      "ready": true,
+      "needle": "Approved dataset registry",
+      "plotly_charts": 0,
+      "expanders": 0,
+      "traceback_visible": false,
+      "text_length": 2423
+    }
+  ],
+  "javascript_console_errors": [],
+  "failed_network_requests": [],
+  "browser_exception_count": 0,
+  "failed_request_count": 0
+}

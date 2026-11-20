@@ -1,0 +1,46 @@
+record_type,field_name,present_in_reconstruction,present_in_batch021,shared_observation_ids,reconstruction_only_ids,batch021_only_ids,serialized_difference_count,numeric_difference_count,max_absolute_numeric_difference,status,notes
+ID_SET,__OBSERVATION_IDS__,YES,YES,1016,0,0,0,NOT_APPLICABLE,NOT_APPLICABLE,PASS,Compared ID sets only; no merge.
+SCHEMA,__SCHEMA__,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,PASS,Shared=38; Reconstruction-only=verified_concentration_ratio_percent|target_verification_status|original_retention_final_provenance|calculated_ratio_percent|ratio_calculation_abs_difference; Batch021-only=NONE.
+SHARED_COLUMN,observation_id,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,original_record_id,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,doi,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,paper_id,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,source_locator,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,compound,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,canonical_molecular_id,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,compound_class,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,food_matrix,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,cooking_method,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,cooking_method_normalized,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,cooking_medium,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,raw_concentration,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,cooked_concentration,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,concentration_unit,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,measurement_basis,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,target_name,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,target_equation,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,target_value_percent,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,15,15,4e-14,SERIALIZATION_LEVEL_NUMERIC_DIFFERENCE,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,target_semantics,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,evidence_status,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,cooked_yield_status,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,total_mass_retention_status,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,source_detail,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,Temperature_C,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,Cooking_Time_min,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_Molecular_Weight,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_LogP,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_TPSA,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_HBond_Donors,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_HBond_Acceptors,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_Rotatable_Bonds,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_Aromatic_Rings,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,RDKit_Hydroxyl_Groups,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,raw_sd,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,cooked_sd,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,reported_replicate_design,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+SHARED_COLUMN,analytical_definition,YES,YES,1016,NOT_APPLICABLE,NOT_APPLICABLE,0,0,0,MATCH_EXACT,Compared by observation_id; no merge or edits.
+RECONSTRUCTION_ONLY_COLUMN,verified_concentration_ratio_percent,YES,NO,1016,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,EXPECTED_ADDED_FIELD,Reconstruction-only enrichment/provenance field.
+RECONSTRUCTION_ONLY_COLUMN,target_verification_status,YES,NO,1016,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,EXPECTED_ADDED_FIELD,Reconstruction-only enrichment/provenance field.
+RECONSTRUCTION_ONLY_COLUMN,original_retention_final_provenance,YES,NO,1016,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,EXPECTED_ADDED_FIELD,Reconstruction-only enrichment/provenance field.
+RECONSTRUCTION_ONLY_COLUMN,calculated_ratio_percent,YES,NO,1016,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,EXPECTED_ADDED_FIELD,Reconstruction-only enrichment/provenance field.
+RECONSTRUCTION_ONLY_COLUMN,ratio_calculation_abs_difference,YES,NO,1016,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,EXPECTED_ADDED_FIELD,Reconstruction-only enrichment/provenance field.

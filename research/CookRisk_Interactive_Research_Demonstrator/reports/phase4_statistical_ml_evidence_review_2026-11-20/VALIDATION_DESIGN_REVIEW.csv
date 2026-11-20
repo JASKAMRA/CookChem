@@ -1,0 +1,29 @@
+﻿check_id,review_area,item,status,evidence_reviewed,assessment,remaining_gap_or_consequence
+V01,Input,Batch021 pin/shape,VERIFIED,"111064cee20b1f1536337e95b22941c5d6a07ef71360aad0df0acdbcafe669c8; 1,016 x 38; package sidecar matches.",Historical family identified.,Does not reproduce metrics.
+V02,Input,Reconstruction pin/shape,VERIFIED,"f9391233a2d4231140d46aa58e864180eddb6f2c3a56b030df3f94ca25f083b0; 1,016 x 43.",Descriptive role only.,Not used as ML replacement.
+V03,Target,Historical target,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Saved code/summary: 100*cooked/raw; Phase 2/3 formula evidence.,Apparent concentration-ratio percent.,Source precision/mass semantics limited.
+V04,Split,Compound grouping,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,GroupKFold(5) by canonical molecular ID.,"Molecular holdout, DOI may remain.",Not unseen source.
+V05,Split,Food-matrix grouping,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,GroupKFold(5) by food_matrix.,Matrix holdout within dataset.,DOI overlap not saved for this split.
+V06,Split,Post1000 DOI grouping,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,"LeaveOneGroupOut DOI; 32 folds; saved component OOF 1,016 unique IDs/model/protocol.",Paper-family holdout; all saved source R2 values negative.,Combined files fail hash; DOI not lab identity.
+V07,Split,Molecular-audit molecular strategy,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Zero molecular overlap; 17-20 DOI overlaps in saved folds.,"Unseen molecular ID stress test, not source.",One fixed model.
+V08,Split,Molecular-audit DOI strategy,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Zero DOI overlap; 6-18 molecular overlaps.,"DOI holdout, not unseen compounds/labs.",Overlap not independently recreated.
+V09,Preprocessing,Fold-local transformations,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Pipelines fit imputation/scaling/encoding on training folds per code and split audit.,Fold-aware as documented.,No rerun.
+V10,Features,Direct target as predictor,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,"Feature lists omit target and cooked concentration; one audit uses raw_concentration, target denominator.",No direct target column found.,Use-time availability unspecified.
+V11,Features,Feature selection,NOT_APPLICABLE,Reviewed fixed columns; no selection step in pipelines.,No feature selection to inspect.,Selection of model/hyperparameters remains unknown.
+V12,Randomness,Seed/split randomness,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Seed 42 for configured stochastic estimators; GroupKFold/LOGO has no shuffle/random state.,Split seed not configured.,Software versions absent from summary.
+V13,Selection,Tuning history,MISSING,No selection log; only fixed final settings.,Cannot exclude test-informed model selection.,No pass claim.
+V14,Leakage,Group overlap,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Molecular folds: 17-20 DOI overlap; DOI folds: zero DOI overlap and 6-18 molecular overlap.,Protocols answer different transfer questions.,Saved overlap not recomputed.
+V15,Leakage,Exact row-level split/duplicate linkage,BLOCKED,No full row-level split membership; combined OOF lacks fold ID and fails digest.,Cannot inspect every related record across train/test.,Needs immutable assignment evidence.
+V16,Leakage,Target leakage,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Target omitted; raw_concentration appears in separate audit and is denominator.,No direct target column leakage found.,Prediction context not specified.
+V17,Leakage,Preprocessing leakage,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Training-only preprocessing documented in script/split audit.,No such leak is documented.,Not independently rerun.
+V18,Leakage,Test-set reuse,MISSING,No experiment history.,Cannot determine reuse.,No pass claim.
+V19,Validation,External validation,MISSING,No external test source/lab.,Internal grouped outputs only.,No external claim.
+V20,Validation,Temporal validation,MISSING,No time-ordered holdout.,Drift not evaluated.,No temporal claim.
+V21,Validation,Lab/site validation,MISSING,DOI available; lab/site IDs absent.,DOI is not lab identity.,No cross-lab claim.
+V22,Generalization,Unseen compounds,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,Saved molecular grouped pooled and mean-fold R2 negative.,No positive transfer demonstrated for fixed model.,Historical only.
+V23,Generalization,Unseen food,BLOCKED,Food-matrix metrics exist but combined digest fails; no source overlap audit.,Exact performance not adjudicated.,Do not claim unseen-food performance.
+V24,Generalization,Cross-study,DOCUMENTED_BUT_NOT_INDEPENDENTLY_VERIFIED,DOI holdout exists; all saved source R2 values negative in both views.,No positive source-heldout result evidenced.,Metric conflict/lab gap remain.
+V25,Generalization,Deployment,MISSING,No prospective/deployment test; report says no model selected.,Deployment unsupported.,Historical research only.
+V26,Statistical,Inferential/causal comparisons,BLOCKED,"No independent sampling frame, compatible paired data, replicate uncertainty or multiplicity plan.",Descriptive groups are noncausal.,No significance testing.
+V27,Metrics,Pooled vs mean-fold R2,VERIFIED,Molecular/source summary stores different r2 and mean_fold_r2 fields.,Must remain distinct.,No post1000 fold means derived.
+V28,Integrity,Combined post1000 outputs,VERIFIED,Combined comparison/fold/OOF fail sidecar; components and JSON/Markdown match.,Integrity discrepancy confirmed.,Cause/version unresolved.

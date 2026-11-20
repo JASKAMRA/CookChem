@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "registry_purpose": "Demonstrator dataset identity, target semantics, provenance, and allowed use. Registry approval is limited to the scope recorded per entry.",
+  "owner_decision": {
+    "status": "APPROVED",
+    "recorded_on": "2026-11-19",
+    "source": "Explicit owner decision in the CookRisk implementation task.",
+    "scope": "The Reconstruction is approved for this demonstrator's live record-level exploration only. This does not designate a canonical scientific dataset or establish independent scientific validation.",
+    "preservation": "Batch021 remains a separate historical reference for its existing saved ML results and dataset metadata. Its datasets, outputs, predictions, and metrics must not be overwritten, regenerated, or silently recalculated."
+  },
+  "datasets": {
+    "stagea-acr-reconstruction-1016-f939": {
+      "dataset_id": "stagea-acr-reconstruction-1016-f939",
+      "repository_relative_path": "stageA/verified_concentration_ratio_reconstruction/final_verified_master_dataset.csv",
+      "expected_sha256": "f9391233a2d4231140d46aa58e864180eddb6f2c3a56b030df3f94ca25f083b0",
+      "row_count": 1016,
+      "column_count": 43,
+      "schema_columns": [
+        "observation_id", "original_record_id", "doi", "paper_id", "source_locator", "compound", "canonical_molecular_id", "compound_class", "food_matrix", "cooking_method", "cooking_method_normalized", "cooking_medium", "raw_concentration", "cooked_concentration", "concentration_unit", "measurement_basis", "target_name", "target_equation", "target_value_percent", "target_semantics", "evidence_status", "cooked_yield_status", "total_mass_retention_status", "source_detail", "Temperature_C", "Cooking_Time_min", "RDKit_Molecular_Weight", "RDKit_LogP", "RDKit_TPSA", "RDKit_HBond_Donors", "RDKit_HBond_Acceptors", "RDKit_Rotatable_Bonds", "RDKit_Aromatic_Rings", "RDKit_Hydroxyl_Groups", "raw_sd", "cooked_sd", "reported_replicate_design", "analytical_definition", "verified_concentration_ratio_percent", "target_verification_status", "original_retention_final_provenance", "calculated_ratio_percent", "ratio_calculation_abs_difference"
+      ],
+      "id_field": "observation_id",
+      "unique_id_count": 1016,
+      "target_definition": {
+        "field": "target_value_percent",
+        "name_field": "target_name",
+        "name": "apparent_concentration_ratio_percent",
+        "equation_field": "target_equation",
+        "equation": "100 * C_cooked / C_raw",
+        "semantics_field": "target_semantics",
+        "semantics": "apparent concentration ratio; not total-mass retention",
+        "unit": "%",
+        "scientific_meaning": "Apparent concentration ratio calculated from cooked and raw concentrations. It is not total-mass retention. True total-mass retention requires compatible paired food masses or validated compatible yield and concentration basis."
+      },
+      "measurement_basis": {
+        "basis_field": "measurement_basis",
+        "unit_field": "concentration_unit",
+        "status": "Source-specific and heterogeneous; values are shown as stored and are not harmonized."
+      },
+      "parent_dataset_id": "stagea-batch021-historical-1016-111064",
+      "lineage": {
+        "current_observation_set_matches_parent": true,
+        "added_fields": ["verified_concentration_ratio_percent", "target_verification_status", "original_retention_final_provenance", "calculated_ratio_percent", "ratio_calculation_abs_difference"],
+        "build_time_input_hashes_recorded": false,
+        "limitations": "The reconstruction manifest does not preserve input or output hashes. Its relationship to Batch021 is supported by current row and field comparisons, but exact build-time input-byte identity is not claimed."
+      },
+      "provenance_status": "Current file identity verified against owner-approved SHA-256; reconstruction lineage has the limitations recorded above.",
+      "designation_status": "OWNER_APPROVED_DEMONSTRATOR_EXPLORATION_ONLY",
+      "canonical_scientific_dataset": false,
+      "independently_scientifically_validated": false,
+      "allowed_application_uses": ["live_record_level_exploration", "descriptive_acr_distributions", "descriptive_cooking_and_compound_patterns"],
+      "restricted_application_uses": ["historical_ml_result_recalculation", "model_training", "prediction", "total_mass_retention_claims"],
+      "limitations": [
+        "Owner approval is limited to this demonstrator's live exploration sections.",
+        "This approval does not establish a canonical scientific dataset or independent scientific validation.",
+        "ACR is not total-mass retention.",
+        "Concentration units and measurement bases are source-specific and heterogeneous.",
+        "No fallback to Batch021 or another dataset is permitted for live exploration."
+      ]
+    },
+    "stagea-batch021-historical-1016-111064": {
+      "dataset_id": "stagea-batch021-historical-1016-111064",
+      "repository_relative_path": "stageA/dataset_expansion_1000/batch_021/updated_master_dataset.csv",
+      "expected_sha256": "111064cee20b1f1536337e95b22941c5d6a07ef71360aad0df0acdbcafe669c8",
+      "row_count": 1016,
+      "column_count": 38,
+      "schema_columns": [
+        "observation_id", "original_record_id", "doi", "paper_id", "source_locator", "compound", "canonical_molecular_id", "compound_class", "food_matrix", "cooking_method", "cooking_method_normalized", "cooking_medium", "raw_concentration", "cooked_concentration", "concentration_unit", "measurement_basis", "target_name", "target_equation", "target_value_percent", "target_semantics", "evidence_status", "cooked_yield_status", "total_mass_retention_status", "source_detail", "Temperature_C", "Cooking_Time_min", "RDKit_Molecular_Weight", "RDKit_LogP", "RDKit_TPSA", "RDKit_HBond_Donors", "RDKit_HBond_Acceptors", "RDKit_Rotatable_Bonds", "RDKit_Aromatic_Rings", "RDKit_Hydroxyl_Groups", "raw_sd", "cooked_sd", "reported_replicate_design", "analytical_definition"
+      ],
+      "id_field": "observation_id",
+      "unique_id_count": 1016,
+      "target_definition": {
+        "field": "target_value_percent",
+        "name_field": "target_name",
+        "name": "apparent_concentration_ratio_percent",
+        "equation_field": "target_equation",
+        "equation": "100 * C_cooked / C_raw",
+        "semantics_field": "target_semantics",
+        "semantics": "apparent concentration ratio; not total-mass retention",
+        "unit": "%",
+        "scientific_meaning": "Apparent concentration ratio, not total-mass retention."
+      },
+      "parent_dataset_id": "stagea-batch020-historical-938-31c205",
+      "lineage": {
+        "parent_sha256": "31c2059e3f90f8733461e7ba263856ee2b86a5da24537fdf035ee3648d95cb0d",
+        "parent_rows": 938,
+        "added_rows": 78
+      },
+      "saved_evaluation_provenance": {
+        "summary_path": "stageA/molecular_vs_source_validation_audit/validation_summary.json",
+        "summary_input_sha256": "111064cee20b1f1536337e95b22941c5d6a07ef71360aad0df0acdbcafe669c8",
+        "fold_metrics_path": "stageA/molecular_vs_source_validation_audit/fold_metrics.csv",
+        "model": "ExtraTreesRegressor; 25 trees; min_samples_leaf=2; max_features=0.8; random_state=42",
+        "splitter": "GroupKFold(n_splits=5)",
+        "target_column": "target_value_percent",
+        "target_equation_in_summary": "100 * cooked_concentration / raw_concentration",
+        "status": "Saved historical metrics only; hash match supports input-byte attribution but is not a fresh reproduction."
+      },
+      "provenance_status": "Current CSV hash matches Batch021 SHA256SUMS.txt, Stage A recovery state, and saved validation summary input_sha256.",
+      "designation_status": "OWNER_APPROVED_SEPARATE_HISTORICAL_REFERENCE",
+      "canonical_scientific_dataset": false,
+      "allowed_application_uses": ["historical_saved_ml_results", "historical_dataset_metadata", "validation_provenance_display"],
+      "restricted_application_uses": ["live_record_level_exploration", "silent_metric_recalculation", "overwrite_or_regenerate_saved_results"],
+      "limitations": [
+        "Batch021 remains separate from Reconstruction.",
+        "Saved metrics remain reported historical outputs and are not recalculated by the demonstrator.",
+        "DOI/source-held-out is a source-family proxy and does not prove laboratory independence.",
+        "ACR is not total-mass retention."
+      ]
+    },
+    "stagea-historical-retention-final-1124": {
+      "dataset_id": "stagea-historical-retention-final-1124",
+      "repository_relative_path": "stageA/input/cookchem_molecular_retention_preprocessed.csv",
+      "current_file_sha256": "cd51de3286d9fea7c4d87ce45f4c9c4301214b1944f72bff19c3b41ce0358c27",
+      "documented_historical_input_sha256": "750124efc8b89dff1f67764064b1049b5db51fb1b2f222d4f91cd94c56945f89",
+      "row_count": 1124,
+      "column_count": 47,
+      "schema_reference": "The exact current columns are recorded in reports/dataset_target_registry_phase0_2026-11-19/DATASET_FILE_INVENTORY.csv.",
+      "target_definition": {
+        "field": "Retention_Final",
+        "equation": null,
+        "unit": null,
+        "scientific_meaning": "Historical target; equation, scale, and units remain unresolved. It is not established as ACR."
+      },
+      "provenance_status": "Current file identity is known; it does not match the separately documented historical input hash.",
+      "designation_status": "HISTORICAL_TARGET_SEMANTICS_UNRESOLVED",
+      "canonical_scientific_dataset": false,
+      "allowed_application_uses": ["historical_saved_metrics_with_explicit_limitations"],
+      "restricted_application_uses": ["live_acr_exploration", "acr_labeling", "unit_or_equation_inference"],
+      "limitations": ["Keep Retention_Final separate from ACR.", "Do not infer target semantics or units."]
+    }
+  }
+}

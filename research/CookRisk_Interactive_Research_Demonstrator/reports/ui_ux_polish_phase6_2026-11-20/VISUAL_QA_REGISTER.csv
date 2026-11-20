@@ -1,0 +1,10 @@
+Check,Viewport or component,Result,Evidence,Limitation
+Desktop landing page,"2304 x 1042 CSS px",PASS,"Visually inspected rendered page; no horizontal overflow", "Browser-emulated desktop only"
+Tablet landing page,"810 x 1185 CSS px",PASS,"Visually inspected; hero stacks; topic cards wrap; document width equals viewport", "Browser viewport emulation"
+Mobile landing page,"390 x 840 CSS px",PASS,"Browser layout measurements; hero and cards stack; document/body width 390 px", "Screenshot capture timed out"
+Mobile Existing ML Results,"390 CSS px wide",PASS,"Title, 24 metric cards, one chart and one dataframe render; no horizontal overflow", "DOM/layout check; no saved screenshot"
+Shared color and typography,All modules, PASS,"Warm neutral surfaces; sage/terracotta accents; serif heading hierarchy", "No external font loaded"
+Accent contrast,Buttons and small accent text,PASS,"Darker terracotta text/button variants applied for readable contrast", "Automated contrast suite not run"
+Charts,Chart-bearing modules,PASS,"Palette, grid, axes and typography visually consistent; data/semantics unchanged", "No scientific recalculation performed"
+Navigation,Sidebar and landing CTAs,PASS,"All eight destinations present; both landing CTAs navigated correctly", "Manual browser QA"
+Browser errors,All eight modules, PASS,"No visible Python traceback, Streamlit page exception or browser console error observed", "No physical-device/browser matrix"

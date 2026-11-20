@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:8501/",
+  "clicked": true,
+  "ready": true,
+  "plots": 3,
+  "has_mean": true,
+  "has_empty_warning": false,
+  "text_tail": " recalculated.\n\nkeyboard_double_arrow_right\nDeploy\nACR Distributions\n\nDescriptive distributions of the Reconstruction's stored target values.\n\nACR (%) = 100 × cooked concentration / raw concentration. The analysis below reads the stored target column; it does not derive or convert concentration values.\n\nRows × columns\n\n1,016 × 43\n\nFile identity\n\nSHA-256 verified\n\nTarget\n\nACR (%)\n\nApproved use\n\nLive exploration only\n\nDataset ID: stagea-acr-reconstruction-1016-f939\nstageA/verified_concentration_ratio_reconstruction/final_verified_master_dataset.csv\nDimensions: 1,016 rows × 43 columns\nSHA-256  f9391233a2d4231140d46aa58e864180eddb6f2c3a56b030df3f94ca25f083b0\n\nOwner-approved for this demonstrator only. Target field target_value_percent: apparent_concentration_ratio_percent = 100 * C_cooked / C_raw. This is an apparent concentration ratio, not total-mass retention. Approval does not make Reconstruction canonical or independently validated.\n\nFilters use the selected file's existing values only. Blank source fields remain visible when no filter is selected.\n\nFood matrix\n\nCompound\n\nCooking method\n\nDOI / source\n\nRows in filtered view\n\n1,016\n\nRows with numeric target\n\n1,016\n\nMean ACR\n\n156.66%\n\nMedian ACR\n\n88.38%\n\nMinimum / maximum\n\n0.00% / 6,536.36%\n\nAbove 100%\n\n346\n\nRows with blank or nonnumeric stored target, excluded from numeric plots only: 0. They remain present in the evidence table.\n\nThese are interactive descriptive summaries of the filtered stored target values, not a recalculation of historical model metrics. The full reconstruction report's saved summaries remain separately cited in the documentation.\n\nACR above 100% can reflect concentration/basis or analytical context; it does not establish an increase in total analyte mass. Outlying values are retained in every view.",
+  "browser_error_events": []
+}

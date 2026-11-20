@@ -1,0 +1,99 @@
+{
+  "url": "http://127.0.0.1:8503/",
+  "modules": [
+    {
+      "module": "Research Overview",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 0
+    },
+    {
+      "module": "Evidence Explorer",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 0,
+      "id": true,
+      "hash": true,
+      "rows_cols": true,
+      "limited_approval": true,
+      "not_canonical": true
+    },
+    {
+      "module": "ACR Distributions",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 3
+    },
+    {
+      "module": "Cooking & Compound Patterns",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 1
+    },
+    {
+      "module": "Existing ML Results",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 1,
+      "batch021_id": true,
+      "batch021_hash": true,
+      "batch021_rows_cols": true,
+      "reconstruction_absent": true
+    },
+    {
+      "module": "Validation & Generalization",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 1,
+      "pooled_oof_r2_header": true,
+      "mean_fold_r2_header": true,
+      "not_reproduced": true
+    },
+    {
+      "module": "Scientific Limitations",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 0,
+      "expanders_open": 11,
+      "retention_unresolved": true,
+      "acr_not_mass": true,
+      "source_independence": true
+    },
+    {
+      "module": "Reproducibility & Evidence",
+      "clicked": true,
+      "ready": true,
+      "traceback_visible": false,
+      "plotly_charts": 0,
+      "registry_reconstruction_id": true,
+      "registry_batch021_id": true,
+      "limited_scope": true,
+      "not_canonical": true
+    }
+  ],
+  "browser_console_errors": [],
+  "failed_requests": [],
+  "error_count": 0,
+  "failed_request_count": 0,
+  "all_modules_ready": true,
+  "scientific_limitations_followup": {
+    "retention_semantics_verified": true,
+    "acr_not_total_mass_verified": true,
+    "retested_after_dom_ready": true,
+    "expander_count": 11,
+    "opened": 11
+  },
+  "browser_filter_followup": {
+    "result_count": 88,
+    "passed": true,
+    "source_count": 1016,
+    "food_matrix": "Potato"
+  }
+}
