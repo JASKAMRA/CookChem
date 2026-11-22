@@ -34,6 +34,7 @@ from research_data import (
     load_validation_folds,
     numeric,
 )
+from presentation import is_excluded_claim_entry, show_dataframe
 from extension_pages import render_error_analysis, render_stageb_explorer
 
 TITLE = "CookRisk: A Computational Investigation of Cooking-Associated Changes in Bioactive Compound Concentrations Using Machine Learning"
@@ -98,7 +99,15 @@ NAV_ICON_CSS = "\n".join(
 FILTER_ICON_CSS = f"[data-testid=\"stMultiSelect\"] [data-testid=\"stWidgetLabel\"] p {{ --filter-icon:{icon_mask('search')}; }}"
 BUTTON_ICON_CSS = "\n".join(
     f"div[class*='st-key-{key}'] button::before {{ --button-icon:{icon_mask(icon)}; }}"
-    for key, icon in (("home_explore", "search"), ("home_methodology", "microscope"))
+    for key, icon in (
+        ("home_explore", "search"), ("home_methodology", "microscope"),
+        ("home_topic_cooking", "cooking"), ("home_topic_acr", "leaf"),
+        ("home_topic_evidence", "evidence"),
+        ("home_module_evidence", "evidence"), ("home_module_acr", "chart"),
+        ("home_module_cooking", "cooking"), ("home_module_ml", "network"),
+        ("home_module_validation", "shield"), ("home_module_errors", "chart"),
+        ("home_module_limits", "info"), ("home_module_reproducibility", "provenance"),
+    )
 )
 
 
@@ -162,9 +171,11 @@ st.markdown(
     .brand-lockup .brand-app {margin-top:.7rem; color:var(--muted); font:600 .68rem/1.4 Inter,"Aptos","Segoe UI",sans-serif; letter-spacing:.1em; text-transform:uppercase;}
     [data-testid="stRadio"] > label {font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted);}
     [data-testid="stRadio"] div[role="radiogroup"] {gap:.28rem;}
-    [data-testid="stRadio"] div[role="radiogroup"] label {padding:.56rem .7rem; border-left:3px solid transparent; border-radius:0 9px 9px 0; transition:background .15s ease;}
-    [data-testid="stRadio"] div[role="radiogroup"] label:hover {background:rgba(255,254,252,.72);}
-    [data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) {background:var(--white); border-left-color:var(--terra); color:var(--sage); font-weight:700;}
+    [data-testid="stRadio"] div[role="radiogroup"] label {display:flex;align-items:center;width:100%;padding:.6rem .7rem;border-left:3px solid transparent;border-radius:0 9px 9px 0;transition:background .16s ease,color .16s ease,border-color .16s ease;}
+    [data-testid="stRadio"] div[role="radiogroup"] label:hover {background:rgba(255,254,252,.8);border-left-color:#CDD9C8;}
+    [data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) {background:var(--sage-soft);border-left-color:var(--terra);color:var(--sage);font-weight:700;box-shadow:inset 0 0 0 1px rgba(45,90,39,.1);}
+    [data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) * {color:var(--sage)!important;}
+    [data-testid="stRadio"] div[role="radiogroup"] label:has(input:focus-visible) {outline:3px solid var(--terra);outline-offset:2px;}
     .module-intro {padding:0 0 1.35rem; margin:0 0 1.65rem; border-bottom:1px solid var(--line);}
     .module-intro .eyebrow, .eyebrow {font:700 .7rem/1.4 Inter,"Aptos","Segoe UI",sans-serif; letter-spacing:.14em; color:var(--terra-ink); text-transform:uppercase; margin:0 0 .45rem;}
     .module-intro h1 {margin:.1rem 0 .55rem; color:var(--sage);}
@@ -186,6 +197,11 @@ st.markdown(
     .visual-sprig:before,.visual-sprig:after {content:"";position:absolute;width:20px;height:11px;border:1px solid rgba(45,90,39,.58);border-radius:100% 0 100% 0;}
     .visual-sprig:before {left:-18px;top:20px;transform:rotate(-27deg);}.visual-sprig:after {left:0;top:37px;transform:rotate(22deg);}
     .topic-heading {margin:2.2rem 0 .9rem;}
+    .research-highlight {position:relative;height:100%;min-height:150px;padding:.35rem 1.15rem .5rem;border-left:1px solid var(--line);}
+    .research-highlight:before {content:"";position:absolute;left:-1px;top:.35rem;width:2px;height:2.2rem;background:var(--terra);}
+    .research-highlight .eyebrow {margin-bottom:.35rem;font-size:.62rem;}
+    .research-highlight h3 {margin:.1rem 0 .55rem;color:var(--sage);font-size:1.26rem;}
+    .research-highlight p:last-child {margin:0;color:var(--muted);font-size:.86rem;line-height:1.55;}
     .topic-card {height:100%;min-height:145px;padding:1.1rem 1.15rem;background:var(--white);border:1px solid var(--line);border-radius:14px;}
     .topic-card .topic-icon {width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--sage-soft);color:var(--sage);margin-bottom:.8rem;}
     .topic-card .topic-name {font:600 1.12rem/1.25 Georgia,serif;color:var(--ink);}
@@ -202,7 +218,20 @@ st.markdown(
     [data-testid="stAlert"] p {line-height:1.55;color:var(--ink)!important;}
     [data-testid="stExpander"] {background:var(--white);border:1px solid var(--line);border-radius:11px;margin:.42rem 0;}
     [data-testid="stExpander"] summary {color:var(--sage);font-weight:650;}
-    [data-testid="stDataFrame"] {border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--white);}
+    [data-testid="stDataFrame"] {border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--white);color:var(--ink);}
+    [data-testid="stDataFrame"] [data-testid="glideDataEditor"] {background:var(--white);color:var(--ink);}
+    [data-testid="stDataFrame"] [class*="stDataFrameGlideDataEditor"] {
+        --gdg-accent-color:var(--sage)!important;--gdg-accent-fg:#fff!important;--gdg-accent-light:rgba(45,90,39,.1)!important;
+        --gdg-text-dark:var(--ink)!important;--gdg-text-medium:rgba(48,43,39,.76)!important;--gdg-text-light:rgba(48,43,39,.48)!important;
+        --gdg-text-bubble:rgba(48,43,39,.72)!important;--gdg-bg-icon-header:rgba(48,43,39,.66)!important;--gdg-fg-icon-header:#fff!important;
+        --gdg-text-header:var(--ink)!important;--gdg-text-group-header:var(--ink)!important;--gdg-bg-group-header:var(--cream)!important;
+        --gdg-bg-group-header-hovered:#E9E3DA!important;--gdg-text-header-selected:var(--sage)!important;
+        --gdg-bg-cell:var(--white)!important;--gdg-bg-cell-medium:var(--paper)!important;--gdg-bg-header:var(--sage-soft)!important;
+        --gdg-bg-header-has-focus:#D9E3D4!important;--gdg-bg-header-hovered:#DDE8D8!important;
+        --gdg-bg-bubble:var(--cream)!important;--gdg-bg-bubble-selected:#E7EEE3!important;
+        --gdg-bg-search-result:rgba(200,90,50,.15)!important;--gdg-border-color:var(--line)!important;
+        --gdg-horizontal-border-color:var(--line)!important;--gdg-link-color:var(--sage)!important;
+    }
     [data-testid="stDataFrame"] canvas {font-family:Inter,"Aptos","Segoe UI",sans-serif;}
     [data-testid="stTextInput"] input,[data-testid="stNumberInput"] input,[data-testid="stSelectbox"] [role="combobox"],[data-testid="stMultiSelect"] [role="combobox"] {border-color:var(--line);border-radius:9px;background:var(--white);}
     [data-testid="stSlider"] [role="slider"] {background:var(--sage);}
@@ -212,6 +241,7 @@ st.markdown(
     div.stButton > button[kind="primary"]:hover {background:#244B20;color:#fff;border-color:#244B20;}
     div[class*="st-key-home_methodology"] button {background:var(--terra-button);color:#fff;border-color:var(--terra-button);}
     div[class*="st-key-home_methodology"] button:hover {background:#923B21;color:#fff;border-color:#923B21;}
+    div.stButton > button[kind="primary"] *,div.stButton > button[data-testid="stBaseButton-primary"] *,div[class*="st-key-home_methodology"] button * {color:#fff!important;}
     hr {border-color:var(--line);}
     .site-footer {display:flex;justify-content:space-between;gap:1rem;align-items:center;border-top:1px solid var(--line);margin-top:3.2rem;padding:1.1rem .1rem .3rem;color:var(--muted);font-size:.75rem;}
     .site-footer strong {font:600 .9rem Georgia,serif;color:var(--sage);}
@@ -226,7 +256,7 @@ st.markdown(
     @media (max-width: 640px) {
         .block-container {padding-top:1rem;padding-left:1rem;padding-right:1rem;padding-bottom:1.5rem;}
         [data-testid="stVerticalBlockBorderWrapper"]:has(.home-hero-copy) {padding:1.2rem;border-radius:15px;}
-        .home-hero-copy h1 {font-size:2.25rem;}
+        .home-hero-copy h1 {font-size:clamp(1.8rem,8.5vw,2.25rem);}
         .research-visual {min-height:260px;}
         .site-footer {align-items:flex-start;flex-direction:column;}
         [data-testid="stHorizontalBlock"] {flex-wrap:wrap;gap:.65rem;}
@@ -258,10 +288,11 @@ st.markdown(
     .evidence-reported {background:#F7F0DE;color:#745B1F;border-color:#E7D9B5;}
     .evidence-conflict {background:#F8EAE4;color:#923B21;border-color:#EACFC3;}
     .evidence-unknown {background:#F3EFE8;color:#625C55;border-color:#E5DED4;}
-    .topic-card {min-height:210px;padding:1.2rem 1.25rem;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;}
-    .topic-card:hover {transform:translateY(-2px);box-shadow:0 12px 24px rgba(48,43,39,.075);border-color:#CDD9C8;}
+    div[class*="st-key-topic_card_shell_home_topic_"] {position:relative;padding:.2rem .2rem .7rem;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;}
+    div[class*="st-key-topic_card_shell_home_topic_"]:hover {transform:translateY(-2px);box-shadow:0 12px 24px rgba(48,43,39,.075);border-color:#CDD9C8!important;}
+    .topic-card {min-height:190px;padding:1.15rem 1.15rem .35rem;background:transparent;border:0;}
     .topic-card .topic-icon {width:42px;height:42px;border-radius:12px;margin-bottom:.85rem;transition:transform .18s ease;}
-    .topic-card:hover .topic-icon {transform:scale(1.045);}
+    div[class*="st-key-topic_card_shell_home_topic_"]:hover .topic-icon {transform:scale(1.045);}
     .topic-card .topic-description {margin-top:.7rem;color:var(--muted);font-size:.88rem;line-height:1.55;}
     .method-icon-row {display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:.62rem;color:var(--sage);font-size:.72rem;font-weight:650;}
     .method-icon-row span {display:inline-flex;align-items:center;gap:.28rem;}
@@ -274,8 +305,40 @@ st.markdown(
     [data-testid="stExpander"] {transition:box-shadow .16s ease,border-color .16s ease;}
     [data-testid="stExpander"]:hover {border-color:#D7CDC0!important;box-shadow:0 6px 18px rgba(48,43,39,.05);}
     [data-testid="stImage"] + div {color:var(--muted);}
+    div[class*="st-key-topic_card_shell_home_topic_"] div[class*="st-key-home_topic_"] {position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;z-index:2;}
+    div[class*="st-key-topic_card_shell_home_topic_"] div[class*="st-key-home_topic_"] button {position:absolute;inset:0;width:100%;height:100%;min-height:100%;margin:0;padding:0;border:0;border-radius:inherit;background:transparent!important;color:transparent!important;box-shadow:none!important;font-size:0;}
+    div[class*="st-key-topic_card_shell_home_topic_"] div[class*="st-key-home_topic_"] button::before {display:none!important;}
+    div[class*="st-key-topic_card_shell_home_topic_cooking"]::after {content:"Explore cooking patterns";}
+    div[class*="st-key-topic_card_shell_home_topic_acr"]::after {content:"Explore ACR distributions";}
+    div[class*="st-key-topic_card_shell_home_topic_evidence"]::after {content:"Open evidence register";}
+    div[class*="st-key-topic_card_shell_home_topic_"]::after {position:absolute;right:1.15rem;bottom:.72rem;color:var(--sage);font-size:.78rem;font-weight:700;letter-spacing:.02em;pointer-events:none;}
+    div[class*="st-key-topic_card_shell_home_topic_"]:focus-within {outline:3px solid var(--terra);outline-offset:2px;}
+    div[class*="st-key-home_module_group_"] [data-testid="stVerticalBlockBorderWrapper"] {height:100%;padding:.2rem .25rem .35rem;background:linear-gradient(155deg,#FFFEFC 0%,#F8F6F1 100%);border-color:#E3DDD3!important;}
+    .home-module-group-heading {min-height:104px;padding:.15rem .25rem .85rem;border-bottom:1px solid var(--line);margin-bottom:.65rem;}
+    .home-module-group-heading .eyebrow {margin-bottom:.3rem;font-size:.62rem;}
+    .home-module-group-heading h3 {margin:.05rem 0 .4rem;color:var(--sage);font-size:1.28rem;}
+    .home-module-group-heading p:last-child {margin:0;color:var(--muted);font-size:.82rem;line-height:1.5;}
+    div[class*="st-key-home_module_group_"] div.stButton > button {justify-content:flex-start;min-height:2.55rem;padding:.45rem .7rem;text-align:left;background:transparent;border-color:transparent;color:var(--sage);letter-spacing:0;font-size:.85rem;}
+    div[class*="st-key-home_module_group_"] div.stButton > button::before {color:var(--terra);}
+    div[class*="st-key-home_module_group_"] div.stButton > button:hover {background:#F1F3ED;color:var(--sage);border-color:#DCE4D6;box-shadow:0 4px 12px rgba(45,90,39,.08);}
+    div[class*="st-key-home_module_group_"] [data-testid="stCaptionContainer"] {margin:-.3rem 0 .45rem .15rem;padding-left:1.9rem;color:var(--muted);font-size:.76rem;line-height:1.45;}
+    [data-testid="stTextInput"]:focus-within,[data-testid="stNumberInput"]:focus-within,[data-testid="stSelectbox"]:focus-within,[data-testid="stMultiSelect"]:focus-within {border-radius:10px;box-shadow:0 0 0 3px rgba(200,90,50,.13);}
+    [data-testid="stPlotlyChart"] {border-radius:12px;}
+    div.stButton > button:active {transform:translateY(0) scale(.99);}
+    .home-hero-copy {animation:cookrisk-copy-enter .36s cubic-bezier(.2,.7,.2,1) both;}
+    [data-testid="stImage"] img {animation:cookrisk-image-enter .42s ease-out both;}
+    @keyframes cookrisk-copy-enter {from {opacity:0;transform:translateY(7px);} to {opacity:1;transform:translateY(0);}}
+    @keyframes cookrisk-image-enter {from {opacity:.82;transform:translateY(4px) scale(.992);} to {opacity:1;transform:translateY(0) scale(1);}}
+    [data-testid="stMainBlockContainer"]:has(.cookrisk-page-transition-marker) {animation:cookrisk-page-enter .2s ease-out both;}
+    @keyframes cookrisk-page-enter {from {opacity:.72;transform:translateY(5px);} to {opacity:1;transform:translateY(0);}}
     @media (prefers-reduced-motion: reduce) {
         *,*::before,*::after {scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important;}
+        .home-hero-copy,[data-testid="stImage"] img {animation:none!important;}
+    }
+    @media (max-width:640px) {
+        .research-highlight {min-height:0;padding:.55rem .6rem .75rem;border-left:0;border-top:1px solid var(--line);}
+        .research-highlight:before {left:.6rem;top:-1px;width:2.2rem;height:2px;}
+        .home-module-group-heading {min-height:0;}
     }
     </style>
     """,
@@ -313,6 +376,12 @@ with st.sidebar:
     else:
         st.warning("Research demonstrator only. No predictions, risk scores, or cooking advice.")
         st.caption("Source data are read-only. Saved metrics are displayed, not recalculated.")
+
+previous_page = st.session_state.get("_cookrisk_previous_page")
+page_changed = previous_page is not None and previous_page != page
+st.session_state["_cookrisk_previous_page"] = page
+if page_changed:
+    st.markdown("<span class='cookrisk-page-transition-marker' aria-hidden='true'></span>", unsafe_allow_html=True)
 
 
 def header(title: str, subtitle: str) -> None:
@@ -392,7 +461,7 @@ def source_provenance_card(digest: str, rows_count: int, entry: dict) -> None:
 
 
 def show_rows(rows: list[dict[str, str]], max_height: int = 540) -> None:
-    st.dataframe(rows, height=max_height, hide_index=True, width="stretch")
+    show_dataframe(rows, height=max_height, hide_index=True, width="stretch")
 
 
 def go_plot(fig: go.Figure, height: int = 430) -> None:
@@ -530,29 +599,92 @@ if page == "Research Overview":
             )
     st.info("This is an academic research demonstrator, not a validated predictor, deployed model, food-safety tool, or cooking-advice system.")
 
-    st.markdown("<div class='topic-heading'><p class='eyebrow'>Exploratory themes</p><h2>Three research themes</h2></div>", unsafe_allow_html=True)
-    st.caption("These themes describe the demonstrator's scope; they are not verified findings, rankings, or method recommendations.")
-    topic_cols = st.columns(3, gap="medium")
-    topics = [
-        ("Cooking Methods", "Steaming · boiling · stir-frying", "Methods represented in the records are compared descriptively.", "cooking"),
-        ("Nutrient Retention", "Reported concentration measures", "Stored ACR values describe concentration ratios, not total-mass retention.", "leaf"),
-        ("Scientific Evidence", "Records · metrics · validation", "Evidence is shown with dataset identity and provenance limitations.", "evidence"),
+    st.markdown("<div class='topic-heading'><p class='eyebrow'>Research framing</p><h2>Research highlights</h2></div>", unsafe_allow_html=True)
+    st.caption("These notes explain how to read the demonstrator; they are not verified findings, rankings, or recommendations.")
+    highlight_cols = st.columns(3, gap="large")
+    highlights = [
+        (
+            "METHODS IN CONTEXT",
+            "Descriptive cooking patterns",
+            "Methods represented in the records can be compared descriptively; those comparisons do not establish causal effects.",
+            "<div class='method-icon-row'><span>" + icon_svg("steam", 15) + "Steam</span><span>" + icon_svg("boil", 15) + "Boil</span><span>" + icon_svg("stir", 15) + "Stir-fry</span></div>",
+        ),
+        (
+            "TARGET DEFINITION",
+            "Apparent concentration ratio",
+            "ACR compares stored cooked and raw concentrations. It does not establish total-mass retention.",
+            "",
+        ),
+        (
+            "EVIDENCE STATUS",
+            "Source-aware results",
+            "Dataset identity, saved-result context, and provenance limits remain part of the research workflow.",
+            "",
+        ),
     ]
-    for col, (topic, label, description, icon) in zip(topic_cols, topics):
+    for col, (eyebrow, title, description, detail) in zip(highlight_cols, highlights):
         with col:
-            method_icons = (
-                "<div class='method-icon-row'>"
-                f"<span>{icon_svg('steam', 15)}Steam</span>"
-                f"<span>{icon_svg('boil', 15)}Boil</span>"
-                f"<span>{icon_svg('stir', 15)}Stir-fry</span></div>"
-                if topic == "Cooking Methods" else ""
-            )
             st.markdown(
-                f"<div class='topic-card'><div class='topic-icon'>{icon_svg(icon, 22)}</div>"
-                f"<div class='topic-name'>{topic}</div><div class='topic-label'>{label}</div>"
-                f"<div class='topic-description'>{description}</div>{method_icons}</div>",
+                f"<section class='research-highlight'><p class='eyebrow'>{eyebrow}</p>"
+                f"<h3>{title}</h3><p>{description}</p>{detail}</section>",
                 unsafe_allow_html=True,
             )
+
+    st.markdown(
+        "<div class='topic-heading'><p class='eyebrow'>Research pathways</p>"
+        "<h2>Explore the research modules</h2></div>",
+        unsafe_allow_html=True,
+    )
+    st.caption("Move between the evidence, saved evaluation records, and the limits that shape their interpretation.")
+    module_groups = [
+        (
+            "Evidence & patterns",
+            "Browse source-linked records and descriptive cooking-associated concentration patterns.",
+            "evidence",
+            [
+                ("Evidence Explorer", "Explore live record-level evidence and its source metadata.", "Evidence Explorer", "home_module_evidence"),
+                ("ACR Distributions", "Inspect the stored apparent concentration-ratio target.", "ACR Distributions", "home_module_acr"),
+                ("Cooking & Compound Patterns", "Review descriptive group comparisons without causal interpretation.", "Cooking & Compound Patterns", "home_module_cooking"),
+            ],
+        ),
+        (
+            "Model evidence",
+            "Keep saved results connected to their original datasets and evaluation designs.",
+            "models",
+            [
+                ("Existing ML Results", "Review saved model metrics with their original context.", "Existing ML Results", "home_module_ml"),
+                ("Validation & Generalization", "Inspect saved split and fold evidence.", "Validation & Generalization", "home_module_validation"),
+                ("ML Error Analysis", "Explore saved prediction errors; no retraining or live inference.", "ML Error Analysis", "home_module_errors"),
+            ],
+        ),
+        (
+            "Interpretation & reproducibility",
+            "Read the evidence boundaries and provenance limits alongside the results.",
+            "integrity",
+            [
+                ("Scientific Limitations", "Review evidence gaps and interpretation boundaries.", "Scientific Limitations", "home_module_limits"),
+                ("Reproducibility & Evidence", "Inspect dataset identity and saved-result provenance.", "Reproducibility & Evidence", "home_module_reproducibility"),
+            ],
+        ),
+    ]
+    module_cols = st.columns(3, gap="medium")
+    for group_index, (group_title, group_description, group_key, modules) in enumerate(module_groups):
+        with module_cols[group_index]:
+            with st.container(border=True, key=f"home_module_group_{group_key}"):
+                st.markdown(
+                    f"<div class='home-module-group-heading'><p class='eyebrow'>RESEARCH PATHWAY {group_index + 1:02d}</p>"
+                    f"<h3>{group_title}</h3><p>{group_description}</p></div>",
+                    unsafe_allow_html=True,
+                )
+                for module_title, module_description, target_page, button_key in modules:
+                    st.button(
+                        module_title,
+                        key=button_key,
+                        on_click=navigate_to,
+                        args=(target_page,),
+                        use_container_width=True,
+                    )
+                    st.caption(module_description)
 
     st.markdown("<div class='topic-heading'><p class='eyebrow'>Study frame</p><h2>How to read this research</h2></div>", unsafe_allow_html=True)
     left, right = st.columns([1.15, .85], gap="large")
@@ -685,7 +817,7 @@ elif page == "Cooking & Compound Patterns":
             go_plot(fig, max(430, 30 * min(len(plotted_groups), 18)))
             table = [{"group": key, "n": len(v), "median_acr_percent": statistics.median(v), "mean_acr_percent": statistics.fmean(v)} for key, v in plotted_groups]
             st.caption("Group summaries are calculated descriptively from stored ACR target values. They are not adjusted for source or protocol and must not be interpreted causally.")
-            st.dataframe(table, hide_index=True, width="stretch")
+            show_dataframe(table, hide_index=True, width="stretch")
 
 elif page == "Existing ML Results":
     header("Existing ML Results", "Saved historical evidence shown separately for each dataset family and target.")
@@ -753,7 +885,7 @@ elif page == "Existing ML Results":
             designs = sorted({r["validation"] for r in metrics if r["result_family"] in families and r["target"] in targets})
             selected_designs = st.multiselect("Evaluation design", designs, default=designs)
             filtered = [r for r in metrics if r["result_family"] in families and r["target"] in targets and r["validation"] in selected_designs]
-            st.dataframe(filtered, hide_index=True, width="stretch")
+            show_dataframe(filtered, hide_index=True, width="stretch")
             numeric_rows = [r for r in filtered if numeric(r, "r2") is not None]
             if numeric_rows and len(families) == 1 and len(targets) == 1:
                 metric_choice = st.selectbox("Plot saved metric", ["r2", "mae", "rmse"], format_func=lambda x: {"r2":"Pooled R² (dimensionless)", "mae":"MAE (recorded target scale)", "rmse":"RMSE (recorded target scale)"}[x])
@@ -807,7 +939,7 @@ elif page == "Validation & Generalization":
             family_folds = [r for r in fold_rows if r["dataset_family"] == family_name]
             if family_folds:
                 with st.expander(f"{family_name} — {len(family_folds)} saved fold records"):
-                    st.dataframe(family_folds, hide_index=True, width="stretch")
+                    show_dataframe(family_folds, hide_index=True, width="stretch")
         st.caption("Fold R² values are read from saved records. No fold values are re-derived for display. Post1000 mean-fold R² is not assessable in the saved evidence.")
     except (OSError, KeyError, ValueError) as exc:
         st.error(f"Saved fold evidence is unavailable or malformed: {exc}")
@@ -823,7 +955,7 @@ elif page == "Validation & Generalization":
         cols[1].metric("Comparison rows that differ", len(row_conflicts))
         cols[2].metric("Other comparison rows agreeing", "9 of 21")
         st.warning("All three combined comparison/fold/OOF files fail their recorded hashes. Twelve of 21 comparison rows differ across views; nine agree numerically, but the aggregate remains checksum-invalid. The alternate-runner explanation is possible, not proven.")
-        st.dataframe(post1000_conflicts, hide_index=True, width="stretch")
+        show_dataframe(post1000_conflicts, hide_index=True, width="stretch")
         st.caption("This conflict register preserves the component and combined values without selecting a winner, ranking models, changing outputs, or claiming that a checksum mismatch proves overwrite.")
     except (OSError, KeyError, ValueError) as exc:
         st.error(f"Historical conflict register is unavailable or malformed: {exc}")
@@ -866,7 +998,7 @@ elif page == "Validation & Generalization":
                     "mean_fold_mae": result.get("mean_fold_mae"),
                     "mean_fold_rmse": result.get("mean_fold_rmse"),
                 })
-            st.dataframe(summary_rows, hide_index=True, width="stretch")
+            show_dataframe(summary_rows, hide_index=True, width="stretch")
             st.caption("These are values read from the saved validation summary. Pooled out-of-fold R² and mean fold R² are distinct summaries; neither is recalculated here.")
     except (OSError, KeyError, ValueError) as exc:
         st.warning(f"Batch021 validation provenance unavailable: {exc}")
@@ -901,6 +1033,8 @@ elif page == "Scientific Limitations":
         st.caption("Conceptual comparison only. It does not imply that cooking consistently increases or decreases concentration or total-mass retention.")
     st.caption("Each item records the evidence basis, its interpretive effect, its current status, and the handling used in this prototype.")
     for limitation in SCIENTIFIC_LIMITATIONS:
+        if is_excluded_claim_entry(limitation):
+            continue
         with st.expander(f"{limitation['issue']} — {limitation['status']}"):
             st.markdown(f"**Evidence:** {limitation['evidence']}")
             st.markdown(f"**Effect on interpretation:** {limitation['effect_on_interpretation']}")
@@ -919,7 +1053,7 @@ elif page == "Reproducibility & Evidence":
     )
     st.caption("Pooled OOF R² and arithmetic mean-fold R² are different summaries. Values are never compared across unrelated target or dataset families as one leaderboard.")
     st.subheader("Dataset family register")
-    st.dataframe(DATASET_FAMILIES, hide_index=True, width="stretch")
+    show_dataframe(DATASET_FAMILIES, hide_index=True, width="stretch")
     st.subheader("Approved dataset registry")
     try:
         registry = load_dataset_registry()
@@ -938,27 +1072,27 @@ elif page == "Reproducibility & Evidence":
                 "canonical": item.get("canonical_scientific_dataset", False),
                 "allowed uses": ", ".join(item.get("allowed_application_uses", [])),
             })
-        st.dataframe(registry_rows, hide_index=True, width="stretch")
+        show_dataframe(registry_rows, hide_index=True, width="stretch")
     except (OSError, KeyError, ValueError) as exc:
         st.error(f"Dataset registry unavailable or malformed: {exc}")
     st.subheader("Documented dataset snapshots")
     try:
-        st.dataframe(load_dataset_catalog(), hide_index=True, width="stretch")
+        show_dataframe(load_dataset_catalog(), hide_index=True, width="stretch")
     except (OSError, KeyError) as exc:
         st.warning(f"Snapshot catalog unavailable: {exc}")
     st.subheader("Final Phase 4 model/R² evidence register")
     try:
         result_rows = load_consolidated_model_evidence()
         st.caption("All model evidence is keyed by dataset family, target, model, evaluation protocol, evidence status, checksum status, and input provenance. The register is read-only.")
-        st.dataframe(consolidated_identity_rows(result_rows), hide_index=True, width="stretch")
-        st.dataframe(consolidated_metric_rows(result_rows), hide_index=True, width="stretch")
+        show_dataframe(consolidated_identity_rows(result_rows), hide_index=True, width="stretch")
+        show_dataframe(consolidated_metric_rows(result_rows), hide_index=True, width="stretch")
         with st.expander("All configuration and provenance details"):
-            st.dataframe(consolidated_context_rows(result_rows), hide_index=True, width="stretch")
+            show_dataframe(consolidated_context_rows(result_rows), hide_index=True, width="stretch")
     except (OSError, KeyError, ValueError) as exc:
         st.error(f"Consolidated model evidence is unavailable or malformed: {exc}")
     st.subheader("Unverified and provenance gaps")
     try:
-        st.dataframe(load_provenance_gap_register(), hide_index=True, width="stretch")
+        show_dataframe(load_provenance_gap_register(), hide_index=True, width="stretch")
     except (OSError, KeyError, ValueError) as exc:
         st.warning(f"Provenance-gap register is unavailable or malformed: {exc}")
     st.subheader("Key provenance limitation")

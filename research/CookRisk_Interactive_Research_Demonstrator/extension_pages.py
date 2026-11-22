@@ -10,6 +10,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from extension_data import DESIGNS, error_metrics, load_reconstruction_errors, load_stageb_finalized
+from presentation import show_dataframe
 
 DESIGN_LABELS = {"molecular_grouped": "Molecular-grouped", "source_held_out": "DOI-held-out"}
 COLORS = {"molecular_grouped": "#2D5A27", "source_held_out": "#C85A32"}
@@ -66,7 +67,7 @@ def render_error_analysis(header: Callable, go_plot: Callable) -> None:
         "90th percentile absolute error (ACR pp)": round(value["p90_absolute_error"], 2),
     } for design, value in summaries.items()]
     st.subheader("Performance summary")
-    st.dataframe(comparison, hide_index=True, width="stretch")
+    show_dataframe(comparison, hide_index=True, width="stretch")
     st.caption("Pooled OOF R² uses all out-of-fold predictions together. Mean fold R² averages the five fold R² values; the two summaries differ because folds have different target distributions. Both match Existing ML Results for this Reconstruction run.")
     st.caption("R² compares predictions with a mean-prediction baseline; negative means worse on this evaluation. MAE is the average absolute error. RMSE penalizes large misses more strongly. Median absolute error describes a typical miss with less influence from extremes. All errors are ACR percentage points (pp).")
     design = st.radio("Inspect validation design", DESIGNS, format_func=DESIGN_LABELS.get, horizontal=True, key="error_design")
@@ -132,7 +133,7 @@ def render_error_analysis(header: Callable, go_plot: Callable) -> None:
     fold_chart.add_hline(y=0, line_dash="dash", line_color="#77716A")
     fold_chart.update_layout(title="Fold-wise R²", barmode="group", xaxis_title="Fold", yaxis_title="R²")
     go_plot(fold_chart, 350)
-    st.dataframe(fold_rows, hide_index=True, width="stretch")
+    show_dataframe(fold_rows, hide_index=True, width="stretch")
 
     st.subheader("Descriptive compound and DOI errors")
     st.caption("Group errors summarize these OOF rows; they are not independent group-validation results or causal effects.")
@@ -142,13 +143,13 @@ def render_error_analysis(header: Callable, go_plot: Callable) -> None:
     if not groups:
         st.info("No groups meet the selected observation threshold.")
     else:
-        st.dataframe(groups, hide_index=True, width="stretch")
+        show_dataframe(groups, hide_index=True, width="stretch")
         selected = st.selectbox("Inspect a group’s underlying observations", [r["Group"] for r in groups], key="error_group_selection")
-        st.dataframe(_observation_table([r for r in rows if (r[group_field] or "(not recorded)") == selected]), hide_index=True, width="stretch")
+        show_dataframe(_observation_table([r for r in rows if (r[group_field] or "(not recorded)") == selected]), hide_index=True, width="stretch")
 
     st.subheader("Largest prediction errors")
     worst = sorted(rows, key=lambda row: row["absolute_error"], reverse=True)[:10]
-    st.dataframe(_observation_table(worst), hide_index=True, width="stretch")
+    show_dataframe(_observation_table(worst), hide_index=True, width="stretch")
     chosen = st.selectbox("Inspect an extreme observation", [r["observation_id"] for r in worst], key="error_extreme_selection")
     record = next(r for r in worst if r["observation_id"] == chosen)
     st.write({key: record.get(key, "") for key in ("observation_id", "compound", "food_matrix", "cooking_method", "doi",
@@ -211,7 +212,7 @@ def _simple_registry(rows: list[dict], title: str, columns: list[str], key: str)
     subset = [row for row in rows if not query or query in " ".join(str(value) for value in row.values()).casefold()]
     st.caption(f"{len(subset):,} of {len(rows):,} records")
     if subset:
-        st.dataframe([{field: row.get(field, "") for field in columns} for row in subset], hide_index=True, width="stretch")
+        show_dataframe([{field: row.get(field, "") for field in columns} for row in subset], hide_index=True, width="stretch")
     else:
         st.info("No records match this search. Clear or broaden the search term.")
 
@@ -266,12 +267,12 @@ def render_stageb_explorer(header: Callable) -> None:
                         "Study": r["Study_ID"], "DOI": r["DOI"]} for r in current]
             selected_id = None
             try:
-                event = st.dataframe(summary, hide_index=True, width="stretch", on_select="rerun", selection_mode="single-row", key="stageb_evidence_table")
+                event = show_dataframe(summary, hide_index=True, width="stretch", on_select="rerun", selection_mode="single-row", key="stageb_evidence_table")
                 indices = event.selection.rows
                 if indices and indices[0] < len(current):
                     selected_id = current[indices[0]]["Evidence_ID"]
             except TypeError:
-                st.dataframe(summary, hide_index=True, width="stretch")
+                show_dataframe(summary, hide_index=True, width="stretch")
             choice = st.selectbox("Open evidence record", [r["Evidence_ID"] for r in current],
                                   index=next((i for i, r in enumerate(current) if r["Evidence_ID"] == selected_id), 0),
                                   key=f"stageb_detail_{page_number}_{query}_{source_query}")
