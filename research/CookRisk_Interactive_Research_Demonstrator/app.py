@@ -34,6 +34,7 @@ from research_data import (
     load_validation_folds,
     numeric,
 )
+from extension_pages import render_error_analysis, render_stageb_explorer
 
 TITLE = "CookRisk: A Computational Investigation of Cooking-Associated Changes in Bioactive Compound Concentrations Using Machine Learning"
 
@@ -64,10 +65,11 @@ ICON_PATHS = {
     "database": "<ellipse cx='12' cy='5' rx='8' ry='3'/><path d='M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6'/><path d='M4 11c0 1.7 3.6 3 8 3s8-1.3 8-3'/>",
     "search": "<circle cx='10.5' cy='10.5' r='6.5'/><path d='m15.5 15.5 5 5M8 10.5h5M10.5 8v5'/>",
 }
-NAV_ICON_KEYS = ("book", "evidence", "chart", "cooking", "network", "shield", "info", "provenance")
+NAV_ICON_KEYS = ("book", "evidence", "chart", "cooking", "network", "shield", "info", "provenance", "chart", "evidence")
 PAGE_ICON_KEYS = dict(zip((
     "Research Overview", "Evidence Explorer", "ACR Distributions", "Cooking & Compound Patterns",
     "Existing ML Results", "Validation & Generalization", "Scientific Limitations", "Reproducibility & Evidence",
+    "ML Error Analysis", "Stage B – Food–Drug Interaction Evidence Explorer",
 ), NAV_ICON_KEYS))
 
 
@@ -289,6 +291,8 @@ PAGES = [
     "Validation & Generalization",
     "Scientific Limitations",
     "Reproducibility & Evidence",
+    "ML Error Analysis",
+    "Stage B – Food–Drug Interaction Evidence Explorer",
 ]
 
 with st.sidebar:
@@ -300,8 +304,15 @@ with st.sidebar:
     )
     page = st.radio("Research modules", PAGES, label_visibility="visible", key="page_navigation")
     st.divider()
-    st.warning("Research demonstrator only. No predictions, risk scores, or cooking advice.")
-    st.caption("Source data are read-only. Saved metrics are displayed, not recalculated.")
+    if page == "ML Error Analysis":
+        st.warning("Research demonstrator only. Saved OOF predictions and recalculated error summaries; no live inference, risk scores, or cooking advice.")
+        st.caption("The Reconstruction and OOF files are read-only. Errors are recalculated from saved predictions for verification.")
+    elif page == "Stage B – Food–Drug Interaction Evidence Explorer":
+        st.warning("Research evidence only. No clinical risk scores, patient guidance, or cooking advice.")
+        st.caption("StageB_FINALIZED is shown read-only and remains separate from the older V20 release.")
+    else:
+        st.warning("Research demonstrator only. No predictions, risk scores, or cooking advice.")
+        st.caption("Source data are read-only. Saved metrics are displayed, not recalculated.")
 
 
 def header(title: str, subtitle: str) -> None:
@@ -696,7 +707,7 @@ elif page == "Existing ML Results":
 
         reconstruction_rows = [r for r in evidence_rows if r["dataset_family"] == "Verified Reconstruction ACR"]
         render_saved_result_family("Reconstruction ACR — separate historical model evidence", reconstruction_rows)
-        st.warning("Reconstruction is approved for live record-level demonstrator exploration only. It is not designated canonical or independently scientifically validated. Pooled values have incomplete output provenance; mean-fold values are supported by saved fold records.")
+        st.warning("Reconstruction is approved for demonstrator exploration only; it is not canonical or independently scientifically validated. ML Error Analysis recomputes these pooled values from the currently saved OOF rows and checks their dataset IDs and folds. The build-time output digest is still absent, and the model has not been freshly rerun.")
 
         strict_rows = [r for r in evidence_rows if r["dataset_family"] == "338-row strict verified subset"]
         render_saved_result_family("338-row strict verified subset — separate evaluation record", strict_rows)
@@ -958,6 +969,7 @@ elif page == "Reproducibility & Evidence":
         language="text",
     )
     st.info("Reconstruction is approved for this demonstrator's live exploration only. Its 1,016 rows do not make it identical to Batch021; the approval does not designate it canonical or independently validate it. Batch021 remains a separate historical reference for saved results and metadata.")
+    st.caption("The dataset registry records the original exploration approval. The later ML Error Analysis section also reads this pinned snapshot to inspect saved OOF records and recalculate error summaries. It does not retrain the model or make new predictions.")
     st.caption("The historical Stage A benchmark, Batch021 ACR, Reconstruction ACR, strict subset, and Batch021 post1000 evidence remain separate datasets/evaluation records. The demonstrator does not load the historical Retention_Final source CSV.")
     st.subheader("Local source references")
     for path in [
@@ -969,7 +981,12 @@ elif page == "Reproducibility & Evidence":
         "stageA/final_prototype_2026_11_10/manifest.json",
     ]:
         st.code(path, language="text")
-    st.caption("Open these paths in the local repository to inspect the underlying records. No Stage B or restricted Stage C/D content is read by this demonstrator.")
+    st.caption("Open these paths in the local repository to inspect the underlying records. This page does not read Stage B or restricted Stage C/D content.")
+
+if page == "ML Error Analysis":
+    render_error_analysis(header, go_plot)
+elif page == "Stage B – Food–Drug Interaction Evidence Explorer":
+    render_stageb_explorer(header)
 
 st.markdown(
     "<footer class='site-footer'><strong>Nutrition Retention Research Initiative</strong>"

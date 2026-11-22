@@ -62,12 +62,12 @@ DATASET_FAMILIES: list[dict[str, str]] = [
     },
     {
         "family": "Verified concentration-ratio reconstruction",
-        "snapshot": "1,016 rows; 48 identities; 32 DOI families; 66 matrices; 41 methods reported",
+        "snapshot": "1,016 rows; 48 identities; 32 DOI families; 66 matrices; 50 recorded method labels (41 normalized)",
         "target": "target_value_percent — apparent concentration ratio; 100 × C_cooked / C_raw",
         "status": "OWNER-APPROVED FOR DEMONSTRATOR LIVE EXPLORATION ONLY; not canonical; not independently validated",
         "hash": RECONSTRUCTION_SHA256,
         "source": str(RECONSTRUCTION_REL),
-        "interactive": "Live Evidence Explorer, ACR distributions, and Cooking & Compound Patterns only. Separate from Batch021 historical metrics.",
+        "interactive": "Live Evidence Explorer, ACR distributions, and Cooking & Compound Patterns; saved OOF record inspection in ML Error Analysis. Separate from Batch021 historical metrics.",
     },
     {
         "family": "Strict source-verified subset",
