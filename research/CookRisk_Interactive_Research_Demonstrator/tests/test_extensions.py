@@ -5,9 +5,12 @@ import math
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from extension_data import (
     DESIGNS,
+    STAGEB_DIR,
+    STAGEB_TABLES,
     _verified_csv,
     error_metrics,
     load_reconstruction_errors,
@@ -101,6 +104,20 @@ class StageBFinalizedTests(unittest.TestCase):
             path.write_bytes(b"a,b\r\n1,CHANGED\r\n")
             with self.assertRaisesRegex(ValueError, "integrity check failed"):
                 _verified_csv(path, "0" * 64, allow_crlf_checkout=True)
+
+    def test_lf_checkout_loads_same_finalized_release(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            checkout = Path(temporary)
+            (checkout / "manifests").mkdir()
+            (checkout / "data").mkdir()
+            relative_paths = ["manifests/SHA256SUMS.json"] + [f"data/{filename}" for filename, _ in STAGEB_TABLES.values()]
+            for relative in relative_paths:
+                raw = (STAGEB_DIR / relative).read_bytes()
+                (checkout / relative).write_bytes(raw.replace(b"\r\n", b"\n"))
+            with patch("extension_data.STAGEB_DIR", checkout):
+                restored = load_stageb_finalized()
+            for name in STAGEB_TABLES:
+                self.assertEqual(restored[name], self.tables[name])
 
 
 if __name__ == "__main__":

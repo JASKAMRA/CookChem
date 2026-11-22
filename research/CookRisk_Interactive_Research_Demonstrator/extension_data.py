@@ -17,7 +17,7 @@ FOLD_SHA256 = {
 }
 DESIGNS = ("molecular_grouped", "source_held_out")
 STAGEB_DIR = REPO_ROOT / "stageB" / "release" / "StageB_FINALIZED"
-STAGEB_MANIFEST_SHA256 = "2d2f0ddc1289d864fb2aa5512655981734a2dd486131d60b691ecf658606c09d"
+STAGEB_MANIFEST_SHA256 = "b85f8293297cb5e447d2293e31cfcdafbef50497260d870d54f14da441c7359e"
 STAGEB_TABLES = {
     "compounds": ("compound_registry.csv", 143),
     "evidence": ("interaction_evidence.csv", 317),
@@ -28,17 +28,18 @@ STAGEB_TABLES = {
 }
 
 
-def _digest(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+def _verified_bytes(path: Path, expected: str, *, allow_crlf_checkout: bool = False) -> bytes:
+    raw = path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() != expected:
+        # Git stores LF release bytes; some Windows checkouts translate them to CRLF.
+        # Accept only that exact, reversible difference, never changed content.
+        if not allow_crlf_checkout or b"\r\n" not in raw or raw.count(b"\n") != raw.count(b"\r\n") or hashlib.sha256(raw.replace(b"\r\n", b"\n")).hexdigest() != expected:
+            raise ValueError(f"Saved file integrity check failed: {path}")
+    return raw
 
 
 def _verified_csv(path: Path, expected: str, *, allow_crlf_checkout: bool = False) -> list[dict[str, str]]:
-    raw = path.read_bytes()
-    if hashlib.sha256(raw).hexdigest() != expected:
-        # The Stage B manifest records LF release bytes. This Windows checkout
-        # has CRLF translations; accept only that exact, reversible difference.
-        if not allow_crlf_checkout or b"\r\n" not in raw or raw.count(b"\n") != raw.count(b"\r\n") or hashlib.sha256(raw.replace(b"\r\n", b"\n")).hexdigest() != expected:
-            raise ValueError(f"Saved file integrity check failed: {path}")
+    _verified_bytes(path, expected, allow_crlf_checkout=allow_crlf_checkout)
     return read_csv_rows(path)
 
 
@@ -126,9 +127,8 @@ def load_reconstruction_errors() -> tuple[dict[str, list[dict]], dict[str, dict]
 def load_stageb_finalized() -> dict[str, object]:
     """Load only the final release's six displayed tables with manifest checks."""
     manifest_path = STAGEB_DIR / "manifests" / "SHA256SUMS.json"
-    if _digest(manifest_path) != STAGEB_MANIFEST_SHA256:
-        raise ValueError("StageB_FINALIZED manifest identity changed")
-    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest_bytes = _verified_bytes(manifest_path, STAGEB_MANIFEST_SHA256, allow_crlf_checkout=True)
+    manifest = json.loads(manifest_bytes.decode("utf-8"))
     tables: dict[str, list[dict[str, str]]] = {}
     for name, (filename, expected_count) in STAGEB_TABLES.items():
         relative = f"data/{filename}"
@@ -163,5 +163,5 @@ def load_stageb_finalized() -> dict[str, object]:
     tables["study_by_id"] = {row["Study_ID"]: row for row in tables["studies"]}
     tables["bibliography_by_pmid"] = {row["PMID"]: row for row in tables["bibliography"] if row["PMID"]}
     tables["compound_by_id"] = {row["Compound_ID"]: row for row in tables["compounds"]}
-    tables["integrity_note"] = "The displayed CSVs match the finalized manifest after reversible CRLF-to-LF checkout normalization; current Windows bytes are not exact manifest bytes."
+    tables["integrity_note"] = "The finalized manifest and displayed CSVs match Git's LF release bytes directly or after reversible CRLF-to-LF checkout normalization. No content changes are accepted."
     return tables
